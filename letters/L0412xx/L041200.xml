@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041200">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Heinrich Schnitzler an Anna Bahr-Mildenburg, 5. 3. 1936</title>
+            <author key="A002083">Schnitzler, Heinrich</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="200"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002083">Schnitzler, Heinrich</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002080">Bahr-Mildenburg, Anna</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">[Wien]</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000355">München</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19360305" n="02">5. 3. 1936</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 74896/3 BaM</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief mit eh. U., gedruckter Kopf: »Heinrich Schnitzler«, mit hs. Korrektur, Unterstreichung von »für zwei […] verreist,« und Ergänzung: »Anfang April nachfassen!« in Bleistift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness n="2">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS Schn 6/16/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief, Durchschlag ohne hs. Ergänzungen</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Frau Kammersängerin Professor</addrLine>
+               <addrLine>Anna <hi rend="spaced_out">Bahr-Mildenburg.</hi></addrLine>
+               <addrLine>
+                  <placeName key="A000658">Nederlingerstrasse 59</placeName>,</addrLine>
+               <addrLine>
+                  <placeName key="A000659"><hi rend="underline" n="1"><hi rend="spaced_out">München </hi>–<hi rend="spaced_out"> Gern</hi></hi></placeName>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                    <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>5. März
+              1936</date>.</dateline>
+        
+       
+               <salute>Sehr verehrte gnädige Frau,</salute>
+            </opener>
+            <p>vielen Dank für Ihre freundlichen Zeilen. Herr Dr. <persName key="A002162">Buschbeck</persName> hat meiner <rs type="person" key="A002038">Mutter</rs> und mir Ihren Wunsch bereits übermittelt, und es ist selbstverständlich, dass
+          wir ihn mit ganz besonderer Freude erfüllen werden. – Nun ist meine <rs type="person" key="A002038">Mutter</rs>, bei der die Briefe Hermann Bahr’s
+          augenblicklich in Verwahrung sind, für zwei bis drei Wochen verreist, und ich
+          muss Sie, sehr verehrte gnädige Frau daher bitten, ein wenig Geduld zu haben.
+          Sobald meine <rs type="person" key="A002038">Mutter</rs> zurückgekehrt sein
+          wird, soll die Abschrift sofort in Angriff genommen werden.–</p>
+            <closer>In aufrichtiger Verehrung<lb/>Ihr sehr ergebener<lb/>
+               <handShift/><signed>Heinrich
+          Schnitzler.</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

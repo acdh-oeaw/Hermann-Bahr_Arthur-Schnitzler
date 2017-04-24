@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041341">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 14. 6. 1914</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="341"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000663">Venedig</placeName>
+               </placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+               <dateSender>
+                  <date when="19140614" n="01">14. 6. 1914</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151217">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+     
+         <div type="writingSession" n="1">
+            <opener>
+               <seg rend="right">
+                  <placeName key="A000356">Venedig<space unit="chars" quantity="1"/> Lido<space unit="chars" quantity="1"/> Villa Trieste</placeName>
+               </seg>
+               <dateline rend="right"><date>14. 6. 14</date></dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>  
+            <p>An den <rs type="work" key="A020018">Rekurs</rs><space unit="chars" quantity="1"/><persName key="A002000">Burckhards</persName>
+                erinnere ich mich, weiß aber gar nicht, ob ich ihn noch
+        habe, ob er nicht vielleicht noch irgendwo bei Gericht liegt. Nun ist das
+        Ungeschickte nur, daß ich erst Ende <hi rend="underline" n="1">August</hi> wieder nach
+         <placeName key="A000230"><settlement>Salzburg</settlement></placeName> komme, meine Laden u. Kasten alle versperrt
+        sind und ich keinen Menschen in der Wohnung habe, der suchen könnte. Wenn ich Anfang
+        September wieder daheim bin, will ich gleich einmal suchen. Hoffentlich hats so lang
+        Zeit!</p>
+            <p>Dir und Deiner lieben <rs type="person" key="A002038">Frau</rs> von <rs type="person" key="A002080">uns Beiden</rs> alles Schönste und Beste!</p>
+            <closer>Dein
+        alter<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

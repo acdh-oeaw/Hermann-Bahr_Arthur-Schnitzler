@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041362">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Friedrich, Lili Waerndorfer und Bahr an Schnitzler, 12. 3. 1904</title>
+            <author key="A002675">Waerndorfer, Friedrich</author>
+            <author key="A002676">Waerndorfer, Lili</author>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="362"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002675">Waerndorfer, Friedrich</persName>
+                  <persName key="A002676">Waerndorfer, Lili</persName>
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000883">Dubrovnik/Ragusa</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040312" n="01">12. 3. 1904</date>
+               </dateSender>
+               <context>
+            
+          </context>
+          
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Postkarte, 3 Verf., Motiv: »<geogName type="river" instant="false">L’Ombla – Cempresata</geogName>«, bis auf H. B. in Lateinschrift, von A. S. datiert: »<date>15. 3. 901</date>«.</p>
+                        <stamp n="1">
+                           <placeName key="A000883">Dubrovnik Ragusa</placeName>
+                           <date when="19040312">12. 3<supplied>.</supplied> 04</date>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placeName key="A000250">Wien</placeName>
+                           <date when="19040315">15. 3. 04</date>
+                           <time>V</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM">Angelegt aus Original, nicht in Abschrift</change>
+         <change who="KI MAM" when="20151211">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Dr. ARTHUR</addrLine>
+               <addrLine>SCHNITZLER</addrLine>
+               <addrLine>
+                  <placeName key="A000333">XVIII SPÖTTELGASSE 7</placeName></addrLine>
+               <addrLine>
+                  <placeName key="A000250">
+                     <settlement>WIEN</settlement>
+                  </placeName></addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1" rend="indent0">
+            <p><handShift scribe="A002676"/>
+               <space unit="chars" quantity="10"/>Lili +</p>
+            <p><handShift scribe="A002675"/>Dein FWaerndorfer</p>
+         </div>
+         <div type="writingSession" n="2" rend="indent0">
+            <p><handShift scribe="A002002"/>Herzlichst</p>
+            <closer>Deine Frau bestens grüßend<lb/><signed>Hermann</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

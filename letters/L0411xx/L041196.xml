@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041196">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Olga Schnitzler an Anna Bahr-Mildenburg, 8. 6. 1932</title>
+            <author key="A002038">Schnitzler, Olga</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="196"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002038">Schnitzler, Olga</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002080">Bahr-Mildenburg, Anna</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000368">Berlin</placeName>
+               </placeSender>
+               <!--
+          <placeAddressee><placeName>key="A000355">[München]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19320608" n="01">8. 6. 1932</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 31278 BaM</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="A000368"><settlement>Berlin</settlement></placeName>, <date>8. Juni
+              32</date>.<lb/><placeName key="A000703">Kurfürstendamm 66</placeName>
+                  <lb/>
+                  <placeName key="A000704">Pension
+            Elton</placeName>.</dateline>
+               <salute>Verehrte und liebe gnädige Frau,</salute>
+            </opener>
+            <p>darf ich Sie an das gütige Versprechen erinnern, das Sie mir vor etwa 3 Monaten
+          hier gegeben haben, – mir die Briefe <persName key="A002001">Arthur</persName>s an <persName key="A002002">Bahr</persName> zur Abschrift zu
+          überlassen?</p>
+            <p>Ich bitte Sie erst heute darum, weil ich in der Zwischenzeit in Wien war,– und
+          eine Sendung über die Grenze wegen der scharfen Valuten-Bestimmungen nicht für
+          ratsam hielt. Nun aber bin ich noch einige Wochen hier, und wäre Ihnen herzlich
+          dankbar, liebe gnädige Frau, wenn Sie mir die Briefe hieher senden wollten. Es
+          ist ganz<pb/> selbstverständlich, dass diese Briefe Ihnen sofort wieder
+          zurückgestellt werden, sobald sie copiert sind.</p>
+            <p>Lassen Sie mich Ihnen noch sagen, was für eine grosse Freude es mir war, Sie
+          wieder zu sehen, – und wie lange noch die wunderbare unverminderte Wirkung Ihrer
+          Kunst in mir fortklang, – beglückend und gross wie nur je.</p>
+            <closer>In herzlicher Verehrung Ihnen ergeben<lb/>Ihre <signed>Olga Schnitzler.</signed>
+          </closer>
+            <postscript>
+               <p>Wenn <persName key="A002002">Hermann Bahr</persName> sich meiner erinnert, so sagen Sie ihm,
+          ich bitte Sie darum, einen ehrerbietigen Gruss.</p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>

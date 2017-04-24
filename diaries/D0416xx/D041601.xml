@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041601">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Tagebuch von Bahr, 25. 4. 1928</title>
+                <author key="A002002">Bahr, Hermann</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-D" n="601"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                  <msDesc>
+                        <msIdentifier>
+                            <country>A</country>           
+                            <settlement>Wien</settlement>
+                            <repository>Theatermuseum</repository>
+                            <idno>HS VM 2552 Ba</idno>
+                        </msIdentifier>
+                    </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="KI MAM" when="20160816">Angelegt</change>
+            <change who="KI MAM" when="20160906">Kollationiert am Original</change>
+        </revisionDesc>
+    </teiHeader>
+   <text type="diaryDay">
+      <body>
+        <div type="writingSession" n="1">
+            <p><date when="19280425" n="01">25.</date> K. – <orgName key="A080007"
+                        >Männerkongregation</orgName>; Bittgang durch den
+                        <geogName type="garden">Kreuzgarten</geogName>. – An <persName key="A003073">Hans
+                        Feigl</persName> (<placeName key="A000966">Wien IV Johann Strauß Gasse
+                        38</placeName>) für <orgName key="A080002">Bibliophilen</orgName><space
+                        unit="chars" quantity="1"/><anchor type="commentary" xml:id="KD601-1"
+                        >Aufsatz</anchor> von zehn Seiten versprechend. – An <persName key="A004198"
+                        >Conrad Dreher</persName> (der mich um einen <persName key="A004200"
+                        >Calderon</persName>, der sich verborgen ließe, befragt.) Diktiert an
+                        <orgName key="A080001">Universum</orgName> Zehn Zeilen <anchor
+                        type="commentary" xml:id="KD601-2">Kritik</anchor> über <persName
+                        key="A002001">Schnitzler</persName>s letztes <rs type="work" key="A020450"
+                        subtype="local-short">Buch</rs>. – Diktiert an »<workName key="A020822"
+                        >Goethedämmerung</workName>.« – Nachmittag mit <persName key="A004236"
+                        >Reichel</persName> u. seiner neuen <rs type="person" key="A004237">Frau</rs> drei
+                    Stunden in der <placeName key="A000954">Hirschau</placeName>. – <placeName
+                        key="A000912">Sankt Ludwig</placeName>.</p>
+        </div>
+      </body>
+   </text>
+</TEI>

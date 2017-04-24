@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041609">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Schnitzler: [Privataufführung, Besetzungsliste], [18. 10. 1892?]</title>
+                <author key="A002001">Schnitzler, Arthur</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-D" n="609"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+               <listBibl>
+                  <biblStruct default="false">
+                     <monogr>
+                        <editor>Ausstellung und Katalog Ludwig Greve, Werner Volke. Unter Mitarbeit von Gudrun Gertschat, Birgit Kramer, Margot Pehle und Jutta Salchow</editor>
+                        <title level="m">Jugend in Wien. Literatur um 1900. Eine Ausstellung des Deutschen Literaturarchivs im Schiller-Nationalmuseum Marbach a. N.</title>
+                        <imprint>
+                           <pubPlace>München</pubPlace>
+                           <publisher>Kösel</publisher>
+                           <date when="1974">1974</date>
+                        </imprint>
+                        <biblScope type="pp">107</biblScope>
+                     </monogr>
+                  </biblStruct>
+               </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20161214">angelegt</change>
+            <change who="KI MAM" when="20161216">Kollationiert</change>
+        </revisionDesc>
+    </teiHeader>
+   <text type="diaryDay">
+      <body>
+        <div type="writingSession" n="1"  rend="indent0">
+           <p><date when="18921018" n="1"/>
+              <table rows="16" columns="2">
+                 <row>
+                    <cell><space unit="chars" quantity="15"/><workName key="A020161">Gestern</workName>.</cell>
+                    <cell/>
+                 </row>
+                 <row>
+                    <cell>Andrea</cell>
+                    <cell><persName key="A002007">Richard</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Fantasio</cell>
+                    <cell><persName key="A002011">Loris</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Marsilio</cell>
+                    <cell>Arthur / <persName key="A002088">Leo Fanjung</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Corbaccio</cell>
+                    <cell><persName key="A002088">Leo Fanjung</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Mosca</cell>
+                    <cell><persName key="A002035">Salten</persName><space unit="chars" quantity="5"/><persName key="A002257">Paul Horn</persName><space unit="chars" quantity="5"/><persName key="A002002">Bahr</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Cardinal</cell>
+                    <cell><persName key="A002257">Paul Horn</persName><space unit="chars" quantity="5"/><persName key="A002002">Bahr</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Vespasiano</cell>
+                    <cell><persName key="A002088">Leo Fanjung</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Arlette</cell>
+                    <cell></cell>
+                 </row>
+                 <row>
+                    <cell><space unit="chars" quantity="1"/></cell>
+                    <cell/>
+                 </row>
+                 <row>
+                    <cell><space unit="chars" quantity="15"/><workName key="A020720">Episode</workName>.</cell>
+                 </row>
+                 <row>
+                    <cell>Anatol</cell>
+                    <cell>Arthur</cell>
+                 </row>
+                 <row>
+                    <cell>Max</cell>
+                    <cell><persName key="A002212">Schwarzkopf</persName></cell>
+                 </row>
+                 <row>
+                    <cell>Bianca</cell>
+                 </row>
+                 <row>
+                    <cell><space unit="chars" quantity="1"/></cell>
+                    <cell/>
+                 </row>
+                 <row>
+                    <cell><space unit="chars" quantity="15"/><workName key="A020093">Abschiedssouper</workName>.</cell>
+                 </row>
+              </table>
+           </p>
+               
+        </div>
+      </body>
+   </text>
+</TEI>

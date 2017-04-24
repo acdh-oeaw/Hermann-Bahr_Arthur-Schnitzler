@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041001">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 7. 11. 1893</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="001"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">[Wien]</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18931107" n="01">7. 11. 1893</date>
+               </dateSender>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23323 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 3 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <date when="18931107">7. 11. 1893</date>
+                     
+                  </analytic>
+                  <monogr>
+                     <author key="A002001">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                     <biblScope type="pp">57–58</biblScope>
+                  </monogr>
+                  <series><title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI" when="20151111">Indiziert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>hier ist also etwas, was sich
+        möglicherweise als Eingangsfeuilleton eignet. Ich habe ihm
+        vorläufig keinen Namen
+        gegeben – eventuell könnte
+        man das Ding »<rs type="work" key="A020000">Abendspaziergang</rs>« heißen. Vortheilhaft
+        erscheint mir, dass in den
+        vier Freunden Typen angedeutet
+        sind, die sich vielleicht<pb/> weiterhin für die <anchor type="commentary" xml:id="KL001-2" >Reihe</anchor> noch
+          irgendwie werden verwenden
+          lassen.– –</p>
+            <p>Ich schicke Ihnen da gleich auch eine andre kleine
+            <anchor type="commentary" xml:id="KL001-1" >Geschichte</anchor> mit, die, wenn sie nicht am Ende zu »frivol«
+          ist, ganz ohne Praetension gelegentlich unter den Skizzen gebracht werden
+          könnte.</p>
+            <p>Ich hoffe Ihnen nun aber bald was vernünftiges schicken<pb/> zu können.
+          <anchor type="label" xml:id="LL001-1" >Schließlich werde ich doch wohl auch das Feuilleton schreiben lernen­ –
+          vorläufig fehlt mir noch manches dazu</anchor>.</p>
+            <closer>– Mit herzlichen Grüßen<lb/>Ihr sehr ergebner<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+            <postscript>
+               <p><hi rend="underline" n="1">
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date when="18931107">7. November 93</date>.</hi>
+               </p>
+            </postscript>
+      
+        
+      
+         </div>
+      </body>
+  </text>
+</TEI>

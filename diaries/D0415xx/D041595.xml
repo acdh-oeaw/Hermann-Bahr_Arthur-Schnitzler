@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041595">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Tagebuch von Bahr, 19. 3. 1922</title>
+                <author key="A002002">Bahr, Hermann</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-D" n="595"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                  <msDesc>
+                        <msIdentifier>
+                            <country>A</country>           
+                            <settlement>Wien</settlement>
+                            <repository>Theatermuseum</repository>
+                            <idno>HS VM 2629 Ba</idno>
+                        </msIdentifier>
+                    </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="KI MAM" when="20160816">Angelegt</change>
+            <change who="KI MAM" when="20160906">Kollationiert am Original</change>
+        </revisionDesc>
+    </teiHeader>
+   <text type="diaryDay">
+      <body>
+        <div type="writingSession" n="1">
+            <p><date when="19220319" n="01">19.</date> K. – Schön. – An <persName key="A002080"
+                        >Anna</persName>, <persName key="A004217">Kornfeld</persName>, D<hi
+                        rend="superscript">r</hi><space unit="chars" quantity="1"/><persName
+                        key="A003387">Stefan</persName>, <orgName key="A080004">Engelhorn</orgName>,
+                        <persName key="A002133">Arnoholz</persName>gesellschaft, <persName
+                        key="A004218">Hilde W<unclear>a</unclear>gner</persName>, <persName key="A003753">Eckardt</persName>, <anchor type="commentary" xml:id="KD595-1" >Verlag Heinrich-<placeName key="A000832"><settlement>Freiburg</settlement></placeName></anchor>.
+                    – <rs type="work" key="A020770" subtype="local-short"><persName key="A002001"
+                            >Schnitzler</persName>aufsatz</rs>, geht morgen an <persName
+                        key="A002020">Fischer</persName>s <orgName key="A080014"
+                    >Rundschau</orgName>. – Mit <persName key="A003139">Gusti Adler</persName><space
+                        unit="chars" quantity="1"/><placeName key="A000469">Aigen</placeName><space unit="chars" quantity="1"
+                        /><placeName key="A000956">Thunbrücke</placeName><space unit="chars"
+                        quantity="1"/><placeName key="A000231">Hellbrunn</placeName>.</p>
+            
+        </div>
+      </body>
+   </text>
+</TEI>

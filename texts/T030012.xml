@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030012">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a" key="A020540">Bahr: Der Schleier der Beatrice, 5. 12. 1900</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="012"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19001205" n="1">5. 12. 1900</origDate>
+     
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="A002002">Bahr, Hermann</author>
+                     <title level="a" key="A020540">Der Schleier der Beatrice (Schauspiel in fünf Acten von Arthur Schnitzler. Zum ersten Male aufgeführt am Breslauer Lobe-Theater am 1. December 1900)</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" key="A080148">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <biblScope type="jg">34</biblScope>
+                        <biblScope type="nr">334</biblScope>
+                        <date when="19001205">5. 12. 1900</date>
+                     </imprint>
+                     <biblScope type="pp">1–3</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" key="A020540">Der Schleier der Beatrice (Schauspiel in fünf Akten von Arthur Schnitzler. Zum ersten Male aufgeführt am Breslauer Lobe-Theater am 1. Dez. 1900)</title>
+                  </analytic>
+                  <monogr>
+                     <author key="A002002">Bahr, Hermann</author>
+                     <title level="m" key="A020537">Premièren. Winter 1900 bis Sommer 1901</title>
+                     <imprint>
+                        <pubPlace>München</pubPlace>
+                        <publisher>Albert Langen</publisher>
+                        <date when="1902">1902</date>
+                     </imprint>
+                     <biblScope type="pp">260–268</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
+  
+      <revisionDesc status="approved">
+			      <change when="20160217" who="MAM">Angelegt und kollationiert</change>
+         <change when="20170331" who="KI MAM">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="article">
+      <body>
+         <div>
+            <head>
+               <workName key="A020019">Der Schleier der Beatrice</workName>.</head>
+            <head type="sub">(Schauspiel in fünf Acten von <persName key="A002001">Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </persName>. Zum ersten Male aufgeführt
+          am <placeName key="A000726">Breslauer Lobe-Theater</placeName> am <date>1. December 1900</date>.)</head>
+            <p><persName key="A002001">Schnitzler</persName> ist einige Zeit in sein <anchor type="label" xml:id="LT012-1" >Thema vom
+                  <workName key="A020058">Anatol</workName> und vom süßen Mädel so verliebt gewesen,
+               daß man schon fast befürchten mußte, er werde gar nicht mehr loskommen können und
+               bald in Manier gerathen</anchor>. Für einen jungen Autor ist es immer eine Gefahr, wenn er
+               durch einen glücklichen Griff ins Leben das Publicum rasch gewinnt. Der junge Autor
+               tritt auf, sieht sich neugierig um, erblickt Gestalten, erblickt Verhältnisse, die
+               noch nicht dargestellt worden sind, ergreift sie, weiß ihnen ihre Form zu geben – und
+               der große Erfolg ist da. Das Publicum beeilt sich, ihn in eine Rubrik zu bringen: es
+               weiß jetzt, was es von ihm zu erwarten hat – er hat das sehr hübsch gemacht, wir
+               wollen also bei ihm bleiben, er soll sozusagen der Lieferant sein, von dem wir die
+               süßen Mädeln beziehen. Für ihn ist das natürlich eine starke Verlockung, denn er
+               könnte ohne Mühe, ohne eigentlich productiv zu sein, indem er nur jene Gestalt oder
+               jenes Verhältniß wieder von einer anderen Seite oder in einem anderen Lichte zeigt,
+               jedes Jahr mit einem neuen Werke erscheinen und darf der Wirkung, die er ja schon
+               erprobt hat, gewiß sein. Dabei wird ihm die Behandlung immer leichter werden, er wird
+               sich rasch einer ganz sicheren Technik bemächtigen, und bloß durch Verstand und
+               Energie, ohne sich schöpferisch aufzuregen, weil er ja eigentlich immer nur sein
+               erstes Werk reproducirt; wie ein Schauspieler, der eine einmal im heiligen Rausche
+               gefühlte, mit der wildesten Erregung erfaßte Rolle nun jeden Abend gelassen
+               wiederholt, kann er sich den Anschein einer unermüdlichen Begabung geben. Dabei
+               begibt es sich nur freilich, daß seine innere Kraft allmählich versiegt, und bevor er
+               es noch selbst merkt, ist sein Talent zur Routine geworden. Das hat <persName
+                  key="A002001">Schnitzler</persName> noch zur rechten Zeit gefühlt und, inneren
+               Warnungen gehorsam, die Krise mit einem Muthe bestanden, der unter unseren, leicht
+               vom Erfolg bethörten Autoren selten ist. Man sollte nun meinen, schon ein solches
+               Streben allein müßte auf die Theilnahme, ja Bewunderung des Publicums rechnen können.
+               Das Publicum hat doch schließlich das größte Interesse daran, daß jeder bei uns
+               wirkende Autor zur höchsten Entfaltung seiner Kräfte gelange. Jeder Autor ist ja ein
+               Capital, das das Publicum glücklich anlegen oder schlecht verwalten kann. Was es
+               trägt, kommt dem Publicum zu, und wenn es vergeudet wird, ist die Stadt, ist das
+               ganze Land dadurch ärmer geworden. Es ist seltsam, daß bei uns die Behörden, welche
+               den geistigen Reichthum, die öffentliche Kraft der Nation zu verwalten hätten, dies
+               nicht zu bemerken scheinen, und daß das Publicum, welches doch am Gedeihen oder
+               Verderben der Talente unmittelbar betheiligt ist, eher eine gewisse Schadenfreude
+               hat, jede Kraft abzuschwächen. Ich habe <anchor type="commentary" xml:id="KT012-1"
+                  >neulich erzählt</anchor>, wie sich, als <persName key="A002039"
+                  >Girardi</persName> den engen Kreis liebenswürdig <placeName key="A000250"
+                  >wienerischer</placeName> Figuren verlassen wollte, um höhere Aufgaben
+               anzustreben, förmlich die ganze Stadt gegen ihn verschwor, und leider scheint es
+                  <persName key="A002001">Schnitzler</persName> bestimmt zu sein, jetzt dasselbe zu
+               erleben. Er strebt über seine Anfänge hinaus; er fühlt, daß er mehr kann; er will
+               nicht ruhen, bis er die großen Entschlüsse, deren er in reinen Stunden theilhaftig
+               geworden, durch ein Werk erreichen wird. Man sollte meinen: Alle <placeName
+                  key="A000362">Oesterreicher</placeName> müßten dabei sein, ihm mit Leidenschaft zu
+               helfen, es ihm zu erleichtern, ihn wie einen Läufer vor dem Ziel durch Zuruf zu
+               befeuern. Sein Erfolg wird ja doch schließlich unser Ruhm sein: denn jedes Werk, das
+               Einem unter uns gelingt, dient zur Ehre des österreichischen Namens, und je höher
+               sich der Einzelne erheben darf, desto größer stehen Alle vor den Nationen da. Bei uns
+               aber sind Haß und Neid so stark, daß wir uns lieber Alle erniedrigen, als es irgend
+               Einem zu gönnen, daß er zur Reife gelange. Das ist ja leider nichts Neues: man lese
+               über die Première von <persName key="A003092">Bauernfeld’s</persName> »<workName
+                  key="A020916">Fortunat</workName>« oder von <persName key="A002092"
+                  >Grillparzer’s</persName> »<workName key="A020843">Weh’ Dem, der lügt</workName>«
+               nach – immer haben sich die <placeName key="A000362"
+                  ><country>Oesterreicher</country></placeName> mit Erfolg bemüht, jedes Talent an
+               seiner ganzen Entfaltung zu verhindern, bis es klein und scheu geworden ist und sich
+               in seinem nächsten Kreise beschieden hat.</p>
+            <p><persName key="A002001">Schnitzler</persName> hätte ein Virtuose <placeName key="A000250">
+                  <settlement>wienerischer</settlement>
+               </placeName> Zierlichkeit und Zärtlichkeit
+          werden können. Es hat ihm nicht genügt. Er hat sich edlerer Aufgaben würdig und fähig
+          gefühlt. Er hat um sie mit reiner Leidenschaft gerungen. Er hat sie endlich in einem Werke
+          erfüllt, das, künstlerisch und menschlich, Alles weit übertrifft, was er jemals
+          geschaffen. Und siehe da, auf einmal geht Alles gegen ihn los, er sieht sich von Spott und
+          Bosheit umringt, es ist geradezu, als wollte man sich an ihm rächen, als könnte man es um
+          keinen Preis dulden, daß Einer unter uns groß wird. Läßt er sich aber ducken, gibt er nach
+          und verzichtet auf sich selbst, dann werden dieselben Leute, die jetzt gegen ihn hetzen,
+          hochmüthig bedauern, er habe doch nicht ganz gehalten, was er versprochen, und sei doch
+          zur vollen Entwicklung nicht gekommen. Es ist schon ein Vergnügen, in <placeName key="A000362"><country>Oesterreich</country></placeName> ein Dichter zu sein.</p>
+            <p>Ich halte die <workName key="A020019">Beatrice</workName> für das <anchor
+                  type="commentary" xml:id="LT012-2">reifste und reichste Werk, das <persName
+                     key="A002001">Schnitzler</persName> noch geschaffen hat</anchor>, weil es von
+               allen kleinen Neigungen und Launen, die ihn sonst bedrohten, frei und rein ist. Seine
+               anderen Werke scheinen mir eine falsche Perspective zu haben: sie nehmen die nächsten
+               Beziehungen, von welchen sich ein wohlhabender junger
+                     <placeName key="A000250"><settlement>Wien</settlement></placeName>er unserer Zeit umgeben sieht, für wichtiger und ernster, als diese,
+               menschlich genommen, doch wohl eigentlich sind. Für jeden Menschen mag es ja das
+               Schwerste sein, sich durch die vielen Empfindungen und Stimmungen, die der Tag gibt
+               und nimmt, nicht verwirren zu lassen, sondern sich allmählich doch zu besinnen, was
+               denn eigentlich für ihn Lust<pb/> und Leid, ja den wahren Werth des Lebens ausmacht,
+               und nun alles Andere abzuwerfen, dies aber fortan mit ganzer Seele zu vertheidigen.
+               Den Jüngling reizt es, zu erfahren, wie bunt das Leben ist, und so rennt er jedem
+               Abenteuer nach. Aber der Mann verlangt zu wissen, was denn eigentlich am Leben selber
+               ist; er hat nicht mehr die Zeit, leichtsinnig das große Schauspiel zu bewundern; er
+               fragt besorgt nach dem Ende, er fragt um den Sinn, und sein Gewissen regt sich. Er
+               will Ordnung machen und erkennen, was unsere Bestimmung sei und wie sie sich zeige.
+               Was ist das Wesentliche an einem Menschen? Wie er ist, werden die Einen antworten.
+               Was er thut, meinen die Anderen. Die Lyriker glauben das Leben auszusprechen, wenn
+               sie sagen, was ein Mensch dabei empfindet. In Zeiten von großer Kraft und
+               Leidenschaft wird eine dramatischere Anschauung lebendig: An Gefühlen können sich
+               zwei Menschen gleichen – ob sie die Macht haben, ihr inneres Gefühl dem äußeren Leben
+               aufzudrücken, also das Werk, die That sei es, die ihren Werth erst bestimmen. Doch
+               die Weisen, die das Gewirr und Gewühl der Welt einmal von der Höhe angesehen haben,
+               glauben zu bemerken, daß gar nicht, was Einer ist, und nicht, was er thut, sondern
+               allein, was er leidet, sein eigentliches Wesen enthält. Es kommt, um das Geheimniß
+               eines Menschen zu begreifen, gar nicht darauf an, was er bei sich an zärtlichen oder
+               zornigen, stillen oder stolzen, sanften oder starken Gefühlen hegt, und auch nicht,
+               was er wollend und handelnd verrichtet hat, sondern was sich mit ihm begibt, was ihm
+               geschieht, ist es, das ihn von allen anderen abtrennt. Durch sein Geschick wird erst
+               offenbar, was an einem Menschen ist; hier kann er sich erst zeigen: wie Einer sein
+               Los besteht, daran erkennen wir, was er werth ist. Schon im einfachsten und doch
+               größten Verhältniß des Lebens, dem der Geliebten zum Manne, wird es uns fühlbar, wie
+               gering doch an unserem Glück oder Unglück unser eigener Antheil ist. Derselbe Mann
+               wird in jedem Verhältniß zu einer anderen Frau ein Anderer sein; ja derselbe Mann,
+               selbst wieder mit derselben Frau verbunden, aber anderen Zufällen ausgesetzt, wird
+               sich ganz verwandelt zeigen. Unsere Schuld, unser Verdienst scheint gar nicht bei uns
+               selbst, sondern draußen zu liegen. Darum treten in den tiefsinnigen Märchen der
+               Orientalen die Menschen mit solcher Demuth auf, geängstigt fühlend, daß unsere
+               Absicht, unsere That über das Leben nichts vermag, sondern es beim Schicksal ist, uns
+               auszuzeichnen oder zu verwerfen. Daher auch die ganz andere Psychologie, die wir dort
+               finden: um einen Menschen zu charakterisiren, geben sie nämlich nicht seine
+               Eigenschaften oder Wünsche oder Handlungen an, sondern erzählen uns, was sich mit ihm
+               begeben hat, indem sie dies gleichsam für den Schatten nehmen, den ein Mensch wirft,
+               je nach dem Lichte, das er gerade hat.</p>
+            <p>Es scheint mir nun die eigentliche Bedeutung der <workName key="A020019"
+                  >Beatrice</workName> zu sein, daß <persName key="A002001">Schnitzler</persName>
+               hier die Handlung nicht, wie sonst unsere Autoren thun, aus den Charakteren
+               abzuleiten sucht, aber sie auch nicht dem Zufall überläßt, sondern förmlich als zu
+               den Charakteren gehörig, als ihre Ergänzung in der äußeren Welt, als eine mit ihnen
+               geborne Bestimmung darstellt, die wir zu ihren Eigenschaften hinzurechnen müssen, um
+               erst die Summe ihres Wesens zu erhalten. Wir fragen: Wie ist dieser Mensch? Darauf
+               antworten sonst unsere Autoren: er sieht so und so aus, hat den und den Gang, die und
+               die Stimme, denkt so, fühlt so und handelt so. <persName key="A002001"
+                  >Schnitzler</persName> antwortet hier: es ist ein Mensch, der das und das erlebt!
+               Und seine ganz merkwürdige Kunst zeigt sich nun darin, daß uns diese Antwort mehr
+               sagt, als alle Beschreibungen und Erklärungen könnten. Dies ist nicht neu – man denke
+               nur an <persName key="A002207">Shakespeare</persName>. Aber die neuen Autoren hatten
+               es verloren. Ich denke: nachdem er es jetzt wiedergefunden hat, wird es bald überall
+               in der Literatur zu spüren sein.</p>
+            <p>Der Dichter Filippo Loschi ist mit der Gräfin Teresina Fantuzzi verlobt, der
+               Schwester seines Freundes Andrea. In einer wilden Stunde wird er von seinen Sinnen so
+               bethört, daß er sie, am Bette ihrer sterbenden Mutter, mit gierigen Wünschen
+               überfällt, mit heißen Worten, »jedes so verrucht und wild, wie man sie Mädchen
+               zuraunt in der Schänke«. Sie stößt ihn weg, er geht erzürnt, und wie er so im Taumel
+               vor die Stadt rennt, trifft er ein Mädchen, noch ganz jung, kaum von den ersten
+               Ahnungen der Lust berührt. Beatricen, die Tochter eines Wappenschneiders. Er wirbt um
+               sie, sie ergibt sich sogleich, und nun versinken die Beiden und wissen nichts mehr
+               und haben die Welt vergessen. <placeName key="A001097"><settlement>Bologna</settlement>
+               </placeName> ist bedroht, Gerüchte schwirren, der Herzog, der seit einem Jahre fort
+               ist, sei ermordet; Verräther lauern, und Cesare Borgia rückt heran. Die Beiden aber
+               achten es nicht; die Welt steht in Flammen – sie denken nur an sich. Da begibt es
+               sich, daß, als der Herzog endlich wiederkehrt und durch die Straßen reitet, er
+               Beatricen sieht. Ihr ist schwül, sie geht auf ihre Stube und schlummert ein. Es
+               träumt ihr, Herzogin zu sein, und, erwachend, tief verwirrt, bekennt sie dem
+               Geliebten, wie seltsam süß es ihr gewesen, im Traum des Herzogs Augen über sich
+               leuchten zu sehen und seine Lippen zu spüren. Filippo schreit auf. Sie sieht ihn
+               befremdet an – es war doch nur ein Traum! Er aber, von Grauen und Ekel tief erfaßt,
+               ruft aus:</p>
+            <lg type="poem">
+               <l>Ich wollt’, es wäre Wahrheit, Beatrice!</l><l>So könnt’ ich eher ohne Schmerz und
+            Ekel</l><l>Dich sehn; das Leben selbst thut Alles ab.</l><l>Doch Träume sind Begierden ohne
+            Muth,</l><l>Sind freche Wünsche, die das Licht des Tages</l><l>Zurückjagt in die Winkel
+            unsrer Seele,</l><l>Daraus sie erst bei Nacht zu kriechen wagen;</l><l>Und solch ein Traum,
+            mit ausgestreckten Armen,</l><l>Sehnsüchtig läßt er, durstig Dich zurück.</l><l>So wenig
+            warst Du mein, daß, schlossest Du</l><l>Die Augen, Deine Seel’ auf Abenteuer</l><l>Ausfliegen konnte, und ich war Dir nur</l><l>Von Tausend Einer, kniete wie die Andern</l><l>Vor Dir und war Dir nichts und bin Dir nichts,</l><l>Ich, der Dir so viel
+            gab, als Du nicht ahnst,</l><l>So viel, daß, meiner Liebe werth zu sein,</l><l>Dich Ekel
+            fassen müßte, wenn Du denkst,</l><l>Es leben andre Männer auf der Welt!</l><l>Und Du willst,
+            daß gefäll’gem Eh’mann gleich</l><l>Ich fremden Kuß von Deinen Lippen trinke,</l><l>Und
+            kommst daher als Dirne Deines Traums!</l><l>Geh, Beatrice!</l>
+            </lg>
+            <p>Und er jagt sie fort. Sie kehrt heim, und ihr Bruder, der Soldat Francesco, beredet sie,
+          sich mit dem jungen<pb/> Vittorino zu vermälen. Wie sie mit diesem zur Kirche geht,
+          begegnet sie dem Herzog. Der Herzog wird sich morgen mit dem Borgia messen, und er weiß,
+          daß dieser siegen wird. Nun will er noch einmal, in dieser letzten Nacht, das Glück
+          umarmen. Er trägt ihr seine Liebe an. Sie weigert sich; sie läßt sich nicht kaufen, auch
+          nicht um hohen Preis: »Behaltet Alles, Herr, es nützt mir nichts, doch nehmt zur Gattin
+          mich!« Die Höflinge fahren höhnisch auf, aber der Herzog, ein ruhiger Gebieter, der »an
+          jedem Tag sein Leben trinkt aus tausend klaren Quellen – Und jede weckt den Durst und jede
+          löscht ihn – Ihn drückt der Stunde Last niemals zu schwer und nie so leicht, daß er sich
+          fliegen däuchte!« – dieser Mächtige, von so seltsamem Wesen gefesselt, erwidert ihr:</p>
+            <lg type="poem">
+               <l>Ich nehme Dich zum Weib, wie Du verlangst!</l><l>. . . Eilt zum Bischof von
+            Petron,</l><l>Er halte sich bereit! In einer Stunde</l><l>Tritt Herzog Lionardo
+            Bentivoglio</l><l>Mit Beatrice vor den Traualtar! . . .</l><l>Ihr rasch zum Schloß, daß man die
+            Feier rüste!</l><l>Ihr Andern durch die Stadt! Bolognas Adel</l><l>Lad’ ich zu dieser
+            Hochzeit ein. Doch merkt:</l><l>Für heut ist Schönheit Adel, nicht Geburt!</l><l>Ruft es so
+            laut, daß es die Schläfer weckt,</l><l>Klopft an geschloss’ne Fenster an und
+            klirrt,</l><l>Daß man sie öffne, und verträumte Augen</l><l>Erstaunt die edlen Boten
+            schau’n, und ruft:</l><l>Der Herzog lädt euch zu der Hochzeit ein,</l><l>Die er mit eurer
+            schönsten Schwester feiert!</l><l>Kommt Alle, ob ihr sonst im Treuen schlummert</l><l>An
+            eines Liebsten oder Gatten Brust,</l><l>Ob ihr in keuschen Betten einsam ruht,</l><l>Ob ihr
+            von Denen, die unstillbar Glühn</l><l>In jeder Nacht an neue Herzen drängt:</l><l>Kommt
+            Alle, nur seid schön! Ihr seid willkommen!</l>
+            </lg>
+            <p>Doch wie nun das Fest beginnt, wird plötzlich das Gemüth der armen Braut an den
+          verlassenen Geliebten so gemahnt, daß sie entflieht, um sich mitten in der Nacht zu ihm zu
+          stehlen:</p>
+            <lg type="poem">
+               <l>Du hast mich fortgeschickt um einen Traum,</l><l>Da war ich so allein, und
+            Vittorino</l><l>Schien Zuflucht mir und Sicherheit und Ruh’;</l><l>Und als der Herzog kam
+            und mich gewahrte,</l><l>Da dacht’ ich: Nun erfüllt sich ja mein Traum.</l><l>Und herrlich
+            däucht’ es mich, die Fürstin sein</l><l>An eines Fürsten Seite, und so ward ich</l><l>Sein
+            Weib.</l>
+            </lg>
+            <p>Filippo fragt: Und warum bliebst Du nicht? Warum entflohst Du?</p>
+            <p>Sie antwortet:</p>
+            <lg type="poem">
+               <l>Weil ich mich nach Dir sehnte!</l><l>Mit solcher Sehnsucht, daß sie mächt’ger
+            war</l><l>Als Alles. Und je mehr die Stunde nahte,</l><l>Da ich Dir ganz verloren war, so
+            mächt’ger</l><l>Rang meine ganze Seele nur nach Dir!</l><l>Mir war, nun gab’ ich alle Größe
+            hin</l><l>Und alles Glück der Erde, Licht und Leben –</l><l>Nur einmal noch in Deinem Arm zu
+            sein!</l><l>Und wie Erlösung aus der tiefsten Noth</l><l>Flog der Gedanke auf:</l><l>Ich kann
+            Dich sehen,</l><l>Ich muß nur fort von hier und hab’ Dich wieder!</l><l>So eilt’ ich
+            fort.</l>
+            </lg>
+            <p>Da nun aber der Dichter mit ihr sterben will, ist sie feige: des Lebens Zauber faßt sie
+          an, es graut ihr vor dem Dunkel. Filippo tödtet sich, sie irrt an den Hof zurück. Hier hat
+          man sie schon vermißt, der Herzog ist argwöhnisch, er fragt sie, sie lügt, der bei Filippo
+          vergessene Schleier verräth sie, Alles kommt auf. Von namenloser Angst für ihr Leben
+          gepeinigt, will sie dem Herzog gehorchen und den Schleier holen. Er geht mit ihr und steht
+          nun an der Leiche des geliebten Dichters, durch so verworrenes Schicksal tief besorgt:</p>
+            <lg type="poem">
+               <l>Wie kam dies alles? . . .</l><l>Warst Du nicht, Beatrice, nur ein Kind,</l><l>Das mit der
+            Krone spielte, weil sie glänzte –</l><l>Mit eines Dichters Seel’, weil sie voll Räthsel
+            –</l><l>Mit eines Jünglings Herzen, weil’s Dir just</l><l>Geschenkt war? Aber wir sind
+            allzu streng</l><l>Und leiden’s nicht, und Jeder von uns wollte</l><l>Nicht nur das einz’ge
+            Spielzeug sein – nein, mehr!</l><l>Die ganze Welt. So nannten wir Dein Thun</l><l>Betrug
+            und Frevel – und Du warst ein Kind!</l>
+            </lg>
+            <p>Er will ihr verzeihen, da stößt ihr rascher Bruder ihr den Dolch ins Herz. Boten kommen,
+          zu melden, daß draußen sich schon Alles von Gerüsteten regt. Der Herzog wendet sich zum
+          Kampf:</p>
+            <lg type="poem">
+               <l>Euch aber, denen diese Stadt vertraut ist,</l><l>Bis Andre kommen, nicht mehr ich und
+            Die,</l><l>Trag’ ich die Sorge auf, im ersten Glühn</l><l>Der Morgensonne, die zum Abschied
+            grüßt,</l><l>Den Leichnam dieses sehr geliebten Dichters</l><l>Im Grab der Bentivoglio zu
+            bestatten,</l><l>Und Diese hier wie ihn! Die Spanne Zeit,</l><l>Die sie ums Licht des Lebens
+            noch geflattert,</l><l>Bedeutet jetzt nichts mehr – sie starb mit ihm,</l><l>Er liebte sie,
+            er starb, weil er sie liebte,</l><l>So ist sie hochgeehrt vor allen Frau’n!</l>
+            </lg>
+            <p>Glocken ertönen von allen Thürmen:</p>
+            <lg type="poem">
+               <l>Das Zeichen tönt, und mächt’ge Neubegier</l><l>Wie nie zuvor beflügelt meinen Schritt.</l><l>Ich freue mich des guten Kampfs, der kommt,</l><l>Die frischen Morgenlüfte
+            athm’ ich durstig</l><l>Und preise dieses Leuchten aus den Höhn,</l><l>Als wär’ es mir
+            allein so reich geschenkt.</l><l>Das Leben ist die Fülle, nicht die Zeit,</l><l>Und noch der
+            nächste Augenblick ist weit!</l>
+            </lg>
+            <p>Dieser berückende <rs type="work" key="A020019">Act</rs>, mit seiner ungeheuren Erhebung
+          des Tones aus dem Traurigen bis zum Tragischen, mit seinem tiefen Grauen vor dem
+          Unbegreiflichen, das uns rings umgibt, mit seiner frommen Ergebung ins menschliche
+          Geschick, ist weitaus das Größte, das <persName key="A002001">Schnitzler</persName> noch
+          geschaffen hat, und gehört zum Schönsten, das jemals einem Dichter unserer Zeit geschenkt
+          worden ist.</p> 
+            <p rend="right" ><hi rend="spaced_out">Hermann Bahr.</hi>
+            </p>
+       
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041343">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 25. 8. 1918</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="343"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000230">Salzburg</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19180825" n="01">25. 8. 1918</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Korrespondenzkarte, nicht entzifferter Vermerk von A. S. (?) in Bleistift und unterstrichen links des Datums (»
+                              <hi rend="latintype">A</hi>«?).</p>
+                        <stamp n="1">
+                           <placeName key="A000230">Salzburg 2</placeName>
+                           <date when="19180825">25. VIII. <supplied>1</supplied>8</date>
+                           <time>2</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151217">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Abs. Hermann Bahr</addrLine>
+            </address>
+            <address>
+               <addrLine>Herrn</addrLine>
+               <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
+               <addrLine>
+                  <placeName key="A000350">Sternwartestr 71</placeName></addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>25. 8. 18</date></dateline>
+            </opener>
+            <p>Herzlichsten Dank, <salute>lieber Arthur, </salute>für Deinen lieben Brief – Frau
+              <persName key="A002124">Kainz</persName> verhieß <rs type="person" key="A002080">uns</rs> immer 
+        <rs type="person" key="A002038">Euren</rs> ersehnten Besuch und <rs type="person" key="A002080">wir</rs> warteten den
+            ganzen Sommer auf <rs type="person" key="A002038">Euch</rs>, leider
+            vergeblich. So bald ich in <placeName key="A000250"><settlement>Wien</settlement></placeName> bin, melde ich mich
+            bei Dir, um gleich in den ersten Tagen einmal zu Dir zu kommen. Bis dahin
+            (wo wir dann auch über Deinen <rs type="person" key="A002123" subtype="local">Musiker</rs> sprechen) 
+        mit den herzlichen Grüßen von <rs type="person" key="A002080">uns Beiden</rs> an Dich und Deine liebe <rs type="person" key="A002038">Frau</rs>
+            </p>
+            <closer>Dein<lb/>alter<lb/>
+               <signed>H.</signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

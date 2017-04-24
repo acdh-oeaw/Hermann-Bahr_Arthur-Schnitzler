@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041436">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Schnitzler an Hofmannsthal, 12. 3. 1897</title>
+                <author key="A002001">Schnitzler, Arthur</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-L" n="436"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <correspDesc>
+                    <sender full="yes">
+                        <persName key="A002001">Schnitzler, Arthur</persName>
+                    </sender>
+                    <addressee full="yes">
+                        <persName key="A002011">Hofmannsthal, Hugo von</persName>
+                        
+                    </addressee>
+                    <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+                    <dateSender>
+                        <date when="18970312" n="1">12. 3. 1897</date>
+                    </dateSender>
+                    <context>
+                        
+                    </context>
+                    
+                </correspDesc>
+                <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+                    <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer Verlag</publisher>
+                        <date when="1964">1964</date>
+                    </imprint>
+                        <biblScope type="pp">78</biblScope>
+                    </monogr>   
+                </biblStruct>
+            </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20160309">Angelegt aus OCR</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+           
+            <div type="writingSession" n="1">
+                <opener>
+                    <p>[Aus der Redaktion »<orgName  key="A080011">Die Zeit</orgName>«]</p>
+                    <dateline rend="right"><date>12/3 97</date></dateline>
+                </opener>
+                <p><salute>Lieber Hugo, </salute>vielleicht könnten Sie sich doch entschließen, bei
+                    dieser Veranstaltung zu lesen. Ich tät es hundertmal lieber, wenn Sie dabei
+                    wären. Das ist natürlich kein Grund. Aber Sie wissen ganz gut, die Leute würde
+                    es sehr interessieren und, wenn man schon von solchen Sachen sprechen soll,
+                    »schaden« werden Sie sich nicht, sondern die Menschen werden nur das Bedürfnis
+                    haben, Ihre Gedichte schön zu finden, auch wenn sie ihnen nicht gefallen. Ich
+                    will jetzt eben zu <persName key="A002010">Hirschfeld</persName> gehen, daß er vielleicht auch
+                    vorliest – schon um das dumme »Jung
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName>« Geplausch zu
+                    paralysieren. – Antworten Sie mir vielleicht ein Wort.</p>
+                <p>Mir wäre vielleicht eine Verschiebung zum Sommer lieb. Was soll <hi rend="spaced_out">ich</hi> denn lesen?
+                    </p>
+                <closer>Herzlich<lb/>Ihr <signed>Arthur</signed>  
+                </closer>
+                <postscript>
+               <p><persName key="A002002">Bahr</persName> grüßt Sie.<lb/>
+                  <persName key="A002010">Hirschfeld</persName> ist einverstanden.</p>
+            </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

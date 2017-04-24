@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041324">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 11. 12. 1909</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="324"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19091211" n="01">11. 12. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151215">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>11. 12.
+         09</date></dateline>
+               <seg rend="center">
+                  <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
+                  </placeName>
+               </seg>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>In <placeName key="A000340">
+                  <settlement>Halle <hi rend="superscript">a</hi>/Saale</settlement>
+               </placeName>, wo ich auch wieder einmal <workName key="A020007">die Toten schweigen</workName> liess, hat man mich angefleht Dir doch
+          zuzureden, dass Du selbst einmal hinkommen sollst. Ein Oberingenieur <persName key="A002099">Bacher</persName>, der schon einmal mit Dir correspondiert haben will,
+          beschwört Dich, wenn Du zum <anchor type="textConst" xml:id="TL324-1" ><workName key="A020058">Anathol</workName></anchor>
+                nach
+              <placeName key="A000368"><settlement>Berlin</settlement></placeName> fährst, doch den Weg über
+            <placeName key="A000340">
+                  <settlement>Halle</settlement>
+               </placeName> zu nehmen. Ich bitte
+          Dich, schreib ihm (<placeName key="A000341">Halle, Waidenplan 13</placeName>) ein Wort,
+          und zwar baldigst. Denn der gute Mann<pb/> hat mir ein unfehlbares Mittel gegen die Gicht
+          versprochen, das ich dringend brauche und er mir sicher nicht schickt, so lang ich mich
+          nicht besonders um ihn verdient gemacht habe. Und: hast Du vielleicht eine neue kurze,
+          womöglich lustige Novelle? Ich soll hier für die <placeName key="A000342">freie
+            Schule</placeName> vorlesen und möchte was von Dir. Entschuldige, dass ich diktiere: ich
+          bin totmüd, in grosser Hast und eben auf den
+             <placeName key="A000389"><settlement>Semmering</settlement>
+               </placeName> abreisend.</p>
+            <closer>Herzlichst mit den schönsten Grüssen an <rs type="person" key="A002038">Frau</rs> und <rs type="person" key="A002083 A002097">Kinder</rs>
+               <lb/>Dein alter<lb/>
+               <handShift scribe="A002002"/><signed>Hermann Bahr</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

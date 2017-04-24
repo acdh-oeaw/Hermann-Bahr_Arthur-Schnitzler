@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041642">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Schnitzler an Beer-Hofmann, 9. 10. 1894</title> 
+                <author key="A002001">Schnitzler, Arthur</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-L" n="642"/>
+                <availability status="free">
+                    <p>Copyright © 2015</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <correspDesc>
+                    <sender full="yes">
+                        <persName key="A002001">Schnitzler, Arthur</persName>
+                    </sender>
+                    <addressee full="yes">
+                        <persName key="A002007">Beer-Hofmann, Richard</persName>
+                    </addressee>
+                    <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>      
+                    <placeAddressee>
+                        <placeName key="A000646">Rom</placeName>
+               </placeAddressee>
+                    <dateSender>
+                        <date when="18941009" n="01">9. 10. 1894</date>
+                    </dateSender>
+                    <context>
+                        
+                    </context>
+                    
+                </correspDesc>
+                
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>U.S.A.</country>           
+                                <settlement>Yale</settlement>
+                                <repository>Beinecke Library</repository>
+                                <idno>YCGL, MSSS 31 Box 1f.</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Korrespondenzkarte, Bleistift.</p>
+                                <stamp n="1">
+                                    <placeName key="A000259">Wien 9/3</placeName>
+                                    <date when="18941009">9. 10. 94</date>
+                                    <time>5–6 N</time>
+                                </stamp>
+                                <stamp n="2">
+                                    <placeName key="A000646">Roma</placeName>
+                                    <date when="18941110">11 10 <supplied>94</supplied></date>
+                                    <time>8 M</time>
+                                </stamp>    
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+              </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="KI MAM" when="20160818">Angelegt</change>
+            <change who="KI MAM" when="20160818">Kollationiert am Original</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="address">
+                <address>
+                    <addrLine><hi rend="latintype"><hi rend="underline" n="1"><placeName key="A000475"><country>Italien</country></placeName></hi></hi></addrLine>
+                    <addrLine><hi rend="latintype">Dr. Rich Beer-Hofmann</hi></addrLine>
+                    <addrLine><hi rend="latintype"><placeName key="A000646"><settlement>Rom</settlement></placeName></hi></addrLine>
+                    <addrLine><hi rend="latintype"><placeName key="A000970">Hotel Quirinal</placeName></hi></addrLine>
+                </address>
+            </div>
+            <div type="writingSession" n="1">
+                <opener>
+                   <seg><unclear><placeName key="A000250"><settlement>Wien</settlement></placeName></unclear></seg>
+                    <dateline rend="right"><date>Dienstag, 9. 10. 94</date>.</dateline>
+                </opener>
+                <p><salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief
+                            <placeName key="A000646"><settlement>Rom</settlement></placeName><space unit="chars" quantity="1"/><hi rend="latintype">a post. ferm</hi> der
+                    »Lieber Bekannter« anfing, nicht erhalten haben. Und die 2 Karten nach
+                    <placeName key="A001176"><settlement>Pallanza</settlement></placeName>? –</p>
+                <p><persName key="A002002"><hi rend="latintype">Bahr</hi></persName>: <placeName
+                        key="A000971">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</placeName>. Er hat
+                    sich sehr über Ihr Telegr. gefreut. Erste <rs type="org" key="A080011"
+                        >Nummer</rs> wohlgelungen. <hi rend="latintype"><rs type="work" key="A020723" subtype="local-short"
+                                ><persName key="A002438">Helferich</persName></rs></hi> famos; <persName key="A002002"><hi rend="latintype">Bahr</hi></persName>’s Sachen,
+                    besonders <workName key="A021146" subtype="local-short">Burgtheater</workName> vorzüglich. – <workName key="A020289"
+                        >Schmetterlingsschlacht</workName> noch nicht gesehen, will Freitag gehen. –
+                    Schreiben Sie mehr, wann kommen Sie?</p>
+                <closer>Herzlichen Gruss<space unit="chars" quantity="5"/>Ihr <signed>Arthur</signed></closer>
+                    
+            </div>
+        </body>
+    </text>
+</TEI>

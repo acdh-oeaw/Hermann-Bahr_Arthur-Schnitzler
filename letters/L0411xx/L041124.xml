@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041124">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 26. 9. 1912</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="124"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000389">Semmering</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19120926" n="01">26. 9. 1912</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60162 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Ansichtskarte, Motiv: »<placeName key="A000350">Sternwartestr. 71</placeName>«, mit <persName key="A002038">Olga</persName> und <persName key="A002083">Heinrich Schnitzler</persName> links vor dem Haus, ursp. Adresse von fremder Hand mit Bleistift gestrichen und ausgebessert zu: »<placeName key="A000344">Semmering Villa Mauthner</placeName>«</p>
+                        <stamp n="1">
+                           <placeName key="A000251">1/1 Wien 8</placeName>
+                           <date when="19120925">25. IX 12</date>
+                           <time>–4</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl><biblStruct default="false">
+               <analytic>
+                  <date when="19120926">26. 9. 1912</date>
+                  <respStmt>Abschrift</respStmt>
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">109</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct></listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn</addrLine>
+               <addrLine>
+                  <hi rend="latintype">Hermann Bahr</hi></addrLine>
+               <addrLine>
+                  <hi rend="underline" n="1">
+                     <placeName key="A000365">Wien Ober St. Veit</placeName>
+                  </hi></addrLine>
+               <addrLine>
+                  <placeName key="A000420">Veitlissengasse</placeName></addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <figure>
+               <graphic url="./images/HS_AM60162Ba" width="10cm"/>
+            </figure>
+            <p><salute>herzlichen Dank, lieber Hermann </salute>für dein neues <rs type="work" key="A020108" subtype="local-short">B<damage agent="hole">
+                     <supplied>uc</supplied>
+                  </damage>h</rs> u viele Grüße. Ob die dich <damage agent="hole">
+                  <supplied>tre</supplied>
+               </damage>ffen werden, weiss ich
+          nicht – denn niemand weiss wo du bist. So sei denn der Findigkeit der Post<pb/> vertraut. Au<damage agent="hole"><supplied>f</supplied></damage> bald! – </p>
+            <closer>Dein <signed><hi rend="latintype">Arthur
+               </hi></signed>
+            </closer>
+            <postscript>
+               <p rend="right">
+                  <date>26/9/912</date>
+               </p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>

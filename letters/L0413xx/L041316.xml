@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041316">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 18. 1. 1909</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="316"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+               <dateSender>
+                  <date when="19090118" n="01">18. 1. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151216">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
+                  </placeName>
+                  <lb/><date>18. 1.
+            09</date></dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>Danke schön für Deine so liebe Karte. Ich komme eben vom
+               <placeName key="A000389"><settlement>Semmering</settlement>
+               </placeName> (wo ich übrigens Deinen
+          Bruder <persName key="A002063">Julius</persName> stolz im
+              <placeName key="A001127"><settlement>Nizza</settlement></placeName><space unit="chars" quantity="1"/>Express vorüber sausen sah), hab einen scheußlichen
+          Hexenschuß, sitz in einem durch Überschwemmung aus einem geplatzten Wasserrohr fast
+          demolierten Haus und soll in zwei Tagen nach
+            <placeName key="A001079"><settlement>Dresden</settlement>
+               </placeName> zur <persName key="A002096">Strauß</persName>-<workName key="A020053">Elektra</workName>-Première, weshalb ich, Dir
+          herzlichst für Deinen guten Willen dankend, Dich bitten muß, Deine so liebe Absicht erst
+          auszuführen, bis ich nächste Woche von
+               <placeName key="A001079"><settlement>Dresden</settlement>
+               </placeName> zurück, halbwegs in Ordnung und
+          auch mit den drei letzten Kapiteln meines neuen <workName key="A020054">Romans</workName>
+          aus dem Rohesten bin, worauf ich anzufangen hoffe, wieder einem Menschen zu gleichen.<pb/></p><p>Ich freue mich unendlich <subst>
+                  <del rend="overwritten">D</del>
+                  <add place="inline">a</add>
+               </subst>uf Dich, ich hab Dir ja so viel, so viel zu sagen und manchmal ist mir schon
+          ordentlich bang nach Dir. Nur hat sich mein Leben allmälig so merkwürdig gestellt, daß ich
+          mir schon wirklich <del rend="strikethrough">nicht</del> manchmal vorkomme, nicht mehr auf
+          der Erde zu sein, sondern nur noch ein hinten her, neben bei irgendwo mitsausendes,
+          nachwirbelndes Gehängsel!</p>
+            <p>Grüß Deine 
+        liebe <rs type="person" key="A002038">Frau</rs> herzlichst von mir, auch den <rs type="person" key="A002083">Sohn</rs>, 
+         Herrn Sohn muss man jetzt wol bald schon sagen.</p>
+            <closer>Herzlichst<lb/>immer Dein<lb/><signed>Hermann</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

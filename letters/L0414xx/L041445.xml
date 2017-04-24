@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041445">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Schnitzler an Hofmannsthal, 29. 9. 1903</title>
+                <author key="A002001">Schnitzler, Arthur</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-L" n="445"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <correspDesc>
+                    <sender full="yes">
+                        <persName key="A002001">Schnitzler, Arthur</persName>
+                        
+                    </sender>
+                    <addressee full="yes">
+                        <persName key="A002011">Hofmannsthal, Hugo von</persName>
+                    </addressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
+                    <dateSender>
+                        <date when="19030929" n="01">29. 9. 1903</date>
+                    </dateSender>
+                    <context>
+                        
+                    </context>
+                    
+                </correspDesc>
+                <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+                    <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer Verlag</publisher>
+                        <date when="1964">1964</date>
+                    </imprint>
+                        <biblScope type="pp">174</biblScope>
+                    </monogr>   
+                </biblStruct>
+            </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20160311">Angelegt aus OCR</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+           
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right"><date>29. 9. 903</date>.</dateline>
+                    
+                </opener>
+                <p output="true" ><salute>lieber Hugo,</salute> vielleicht sehn Sie <persName key="A002002">Bahr</persName> in
+                    diesen Tagen, u. er käme Samstag auch nach <placeName key="A000263">Hietzing</placeName>? – </p>
+                <p>Wir freuen uns daß es Ihnen beiden bei uns behagte. Ihre sehr wahren Bemerkungen
+                    über Spiel und Gesang hat <persName key="A002038">Olga</persName> mit Einsicht gelesen.</p>
+                <p>Das Bild werden Sie haben; und einen schönen Rahmen obendrein.</p>
+                <p>Mit dem Arbeiten geht es nun vorwärts.</p>
+                
+                <closer>Auf Wiedersehen.<lb/>Ihr <signed>A.</signed>
+                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

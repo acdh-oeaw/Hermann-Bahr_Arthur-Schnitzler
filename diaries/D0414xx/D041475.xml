@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041475">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Aufzeichnung von Bahr, [Anfang 1905?]</title>
+                <author key="A002002">Bahr, Hermann</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-D" n="475"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness n="1">
+                  <msDesc>
+                        <msIdentifier>
+                            <country>A</country>           
+                            <settlement>Wien</settlement>
+                            <repository>Theatermuseum</repository>
+                            <idno>HS VM 2086 Ba</idno>
+                        </msIdentifier>
+                        
+                    </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+               <biblStruct default="false">
+                    <monogr>
+                        <title level="m">1904–1905</title>                         
+                     <editor>Bearbeitet von Lukas Mayerhofer und Helene Zand</editor>
+                        <imprint>
+                        <date when="2000">2000</date>
+                     </imprint>
+                        <biblScope type="pp">396</biblScope>
+                    </monogr>   
+                    <monogr>
+                        <author key="A002002">Bahr, Hermann</author>
+                        <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                        <editor>Hg. Moritz Csáky</editor>                            
+                        <imprint>
+                            <pubPlace>Wien, Köln, Weimar</pubPlace>
+                            <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                            <biblScope type="vol">IV</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20160111">angelegt</change>
+            <change who="KI MAM" when="20160203">Kollationiert am Original</change>
+        </revisionDesc>
+    </teiHeader>
+   <text type="diaryDay">
+      <body>
+        <div type="writingSession" n="1">
+            <p output="true" ><date when="19050100" n="01"/>Zum
+                        »<workName key="A020040">Freiwild</workName>«.</p>
+            <p>189<space unit="chars" quantity="3"/>– Es gab noch keinen <persName key="A003154">Bilse</persName>. 
+                            Es gab auch kein
+                                <persName key="A003481">Beierlein</persName>.
+                    Prinz <persName key="A003737">Alonso</persName> u. Herr <persName key="A003354">Brüll</persName> hatten noch nicht das Duell
+                    gebannt. Da kam ein <rs type="person" key="A002001">junger Autor</rs>, bisher mehr dem<pb/> erotischen zu getan, nun aber
+                    von sich gedrängt, ins Allgemeine zu trachten, auf den
+                        <unclear>Einfall</unclear>
+            </p>
+        </div>
+      </body>
+   </text>
+</TEI>

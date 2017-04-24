@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041203">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 16. 12. 1896</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="203"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+               <dateSender>
+                  <date when="18961216" n="1">16. 12. 1896</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151202">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>16. Dezember 6</date></dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>Anbei das <rs type="work" key="A020005" subtype="local-short">Stück</rs>; ich bin sehr neugierig, was Du
+        sagen wirst – an <persName key="A002011">Hugo</persName> schicke ich gleichzeitig
+        ein Exemplar.</p>
+            <p><damage agent="ink">
+                  <supplied>Wichtiger</supplied>
+               </damage> ist mir Deine <rs type="work" key="A020128">Novelle</rs>. Ich möchte
+        <subst>
+                  <del rend="overwritten">S</del>
+                  <add place="inline">s</add>
+               </subst>ie so bald als nur irgend möglich haben; wenn es möglich, möchte ich sie nemlich in
+        die zwei <rs type="org" key="A080011">Agitationsnummern</rs> vom 24. d. und 2. n. M.<pb/> geben. Vielleicht sagst Du dem
+        Überbringer ein Wort, ob und wann ich mir das Manuscript holen lassen darf, oder
+        telephonierst mir.</p>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

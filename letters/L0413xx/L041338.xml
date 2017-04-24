@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041338">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 23. 4. 1913</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="338"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender><placeName key="A000230">Salzburg</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+               <dateSender>
+                  <date when="19130423" n="01">23. 4. 1913</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151217">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>23. 4. 13</date></dateline>
+               <salute>Lieber Arthur,</salute>
+            </opener>
+            <p>herzlichen Dank! Ich bin sehr froh, den armen
+         <persName key="A002024">Peter</persName> bald wieder »draußen« zu wissen.</p>
+            <p>Und nun noch was. Ich <anchor type="commentary" xml:id="KL338-1" >schrieb Dir im Dezember</anchor>, daß ich keine Lust habe, Geld für ihn
+          herzugeben. Ich glaube nemlich bestimmt zu wissen, daß er es nicht braucht und daß ich es
+          also besser verwenden kann. Solltest Du aber einmal den Eindruck haben, daß es <hi rend="underline" n="1">notwendig</hi> ist, so bitte schreib mir das, da geb ich
+          natürlich gleich, was ich entbehren kann. Aber bitte<pb/> dies ganz unter uns.</p>
+            <p>Ich erfuhr jetzt erst, daß Du einem <anchor type="commentary" xml:id="KL338-2" >»Comité« für meinen 50. Geburtstag</anchor> usw. Ich danke Dir dafür sehr.</p>
+            <p>Zur <anchor type="commentary" xml:id="KL338-3" >»<workName key="A020084">Götterdämmerung</workName>« war ich neulich in <placeName key="A000250"><settlement>Wien</settlement></placeName>, komme wol
+          zum »<workName key="A020039">Tristan</workName>« wieder</anchor>, aber immer knapp zur Vorstellung
+          und nachher in aller Früh wieder weg, denn ich <subst>
+                  <del rend="overwritten">mitt</del>
+                  <add place="inline">bin</add>
+               </subst> mitten in einem neuen <rs type="work" key="A020132" subtype="local-short">Stück</rs>. Aber, wohin Du
+          sommers auch gehst, Du kommst doch über
+            <placeName key="A000230"><settlement>Salzburg</settlement></placeName> und wir freuen uns <rs type="person" key="A002080">Beide</rs> sehr, sehr, sehr darauf, <rs type="person" key="A002038">Euch</rs> dann hier zu haben und einmal ausgiebig mit <rs type="person" key="A002038">Euch</rs> zusammen zu sein.</p>
+            <closer>Immer derselbe<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041401">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr: [Aufzeichnungen zur 2. Lesung im Bösendorfersaal], [Anfang November? 1897]</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="401"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1779 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Bis auf »2) Photogr. von Band.« durch einzelne Streichungen als erledigt markiert.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                     <title level="m">1891–1900</title>
+                     <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor>
+                     <imprint>
+                        <date when="1996">1996</date>
+                     </imprint>
+                     <biblScope type="pp">286</biblScope>
+                  </monogr>  
+                  <monogr>
+                     <author key="A002002">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>              
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                        <biblScope type="vol">II</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151116">angelegt</change>
+      </revisionDesc>
+  </teiHeader>
+   <text type="diaryDay">   
+      <body>
+         <div type="writingSession" n="1" rend="indent0">
+            <p output="true" ><date when="18971100" n="01"/>
+               <persName key="A002612">Wertheimer</persName> abschicken</p>
+            <p output="true" ><persName key="A002285">Stößl</persName>, <persName key="A003118">Steiner</persName>, <persName key="A002000">Burckhard</persName>, <persName key="A003119">Waniek</persName>
+            </p>
+            <p output="true" ><persName key="A003120">Neuberger</persName>
+            </p>
+            <p output="true" ><persName key="A002029">Karlweis</persName>
+               <space unit="chars" quantity="10"/>
+               <persName key="A002000">Burckhard</persName>
+            </p>
+            <p output="true" >–</p>
+            <p output="true" ><persName key="A003121">Lenoble</persName>
+            </p>
+            <p output="true" ><hi rend="underline" n="1">
+                  <orgName  key="A080071">Reichswehr</orgName>
+               </hi>
+            </p>          
+            <p output="true" ><hi rend="underline" n="1">
+                  <persName key="A002028">Groß</persName>, <persName key="A002001">Schnitzler</persName>
+               </hi>
+            </p>
+            <p output="true" ><table rows="2" cols="2">
+                  <row>
+                     <cell><persName key="A002025">Kugel</persName></cell>
+                     <cell>1) <unclear>kein</unclear> Photogr</cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>2) Photogr. von <anchor type="commentary" xml:id="KD401-1" >Band</anchor>.</cell>
+                  </row>
+               </table>
+            </p>
+            <p output="true" ><persName key="A003122">Löwy</persName>
+            </p>
+            <p>–</p>
+         </div>
+      </body> 
+   </text> 
+</TEI>

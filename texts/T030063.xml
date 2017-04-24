@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030063">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr: Münchner Hoftheater Pläne [II], Dezember 1905</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="063"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19051200" n="1">Dezember 1905</origDate>
+            <listWit>
+               <witness n="1"><msDesc>
+                  <msIdentifier>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                     <repository>Theatermuseum</repository>
+                     <idno>HS VM 3675 Ba</idno>
+                  </msIdentifier>
+                  <physDesc>
+                     <p>Abreißblock, Bleistift, 12 Bl. in Umschlag, von H. B. eh. beschriftet: »<placeName key="A000209">Münchner Hoftheater</placeName> Pläne. / <date>Dezember 1905</date>«, unpag, [S. 17–18].</p>
+                  </physDesc>
+               </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20161004" who="KI MAM">Angelegt und kollationiert</change>
+     </revisionDesc>
+  </teiHeader>
+  <text type="note">
+      <body>
+         <div rend="indent0">
+            <p>1. Klassisches
+            </p>
+            <p>Dazu Malerei.</p>
+            <p>Nicht <rs type="org" key="A080030">Meiningerei</rs>, aber <unclear>Bildmäßig</unclear>.</p>
+            <p><unclear>Hinweis</unclear>, <persName key="A003015">Roller</persName>, <persName key="A002078">Reinhardt</persName>.<pb/></p><p>2. <add place="above">modern.</add> Keine Partei.</p>
+            <p><persName key="A002422">Laube</persName>citat.</p>
+            <p>Urpremieren. Beispiel: <workName key="A020043">Ruf des Lebens</workName> von <persName key="A002001">Arthur</persName>.</p>
+         </div>
+      </body>
+  </text>
+</TEI>

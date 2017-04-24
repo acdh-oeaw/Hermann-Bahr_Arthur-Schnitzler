@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041134">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 9. 2. 1915</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="134"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+          <placeAddressee><placeName key="A00230">[Salzburg]</placeName></placeAddressee>
+               <dateSender>
+                  <date when="19150209" n="01">9. 2. 1915</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60138 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, gedruckter Kopf <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>)
+                        </p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl><biblStruct default="false">
+               <analytic>
+                  <date when="19150209">9. 2. 1915</date>
+                  
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">114</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct></listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>9. 2. 915</date></dateline>
+            </opener>
+            <p><salute>lieber Hermann, </salute>der Buchhändler <persName key="A002119">Heller</persName>
+               theilt mir mit dass er deiner verehrten <rs type="person" key="A002080">Gattin</rs>
+          geschrieben, ob sie hier nicht zu einem <anchor type="commentary" xml:id="KL134-1" >wohlthätigen Zwecke</anchor><space unit="chars" quantity="1"/><persName key="A002120">Schubert</persName> Lieder singen möchte – und da ich daraufhin mich begreiflicherweise
+          äußerte: das möcht ich gern hören, – bittet er mich, <del rend="strikethrough">als</del>
+          diesen Wunsch, diese Sehnsucht<pb/> (ich theile sie wahrscheinlich mit vielen) dir direct
+          zu übermitteln. Das thu ich – in der Empfindung etwas unbescheiden – aber doch deiner
+          Nachsicht gewiss zu sein. Im übrigen wär es, auch abgesehn von den <persName key="A002120">Schubert</persName> Liedern, die deine <rs type="person" key="A002080">Frau</rs> so
+          herrlich singen soll, schön, wenn man sich wieder einmal sehen und sprechen könnte – in
+          dieser – Zeit, für die das Adjectiv doch erst gefunden werden müsste! </p>
+            <closer>Von Herzen mit Grüßen von Haus zu Haus<lb/>dein <signed><hi rend="latintype">Arthur</hi></signed></closer>
+         </div>
+      </body>
+  </text>
+</TEI>

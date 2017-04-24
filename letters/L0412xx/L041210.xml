@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041210">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an S. Fischer, 21. 6. 1897</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="210"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002020">Fischer, Samuel</persName>
+               </addressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>--> <dateSender>
+                  <date when="18970621" n="1">21. 6. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Bloomington</settlement>
+                        <repository>Indiana University, Lilly Library</repository>
+                        <idno>Fischer mss.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>) Von fremder Hand:
+                           »Herm. Bahr / <placeName key="A000259">Wien IX</placeName> / <placeName
+                              key="A000637">Porzellangasse 37</placeName> / ges. 23/6.« Abgehakt
+                           sind: <workName key="A021038">Gastfreier Pastor</workName>, <workName
+                              key="A021040">Meine Verse</workName>, <workName key="A020149"
+                              >Liebelei</workName> und <workName key="A020149">Sterben</workName>;
+                              <workName key="A021042">Erziehung zur Ehe</workName> ist mit Buntstift
+                           hervorgehoben.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM">Abschrift eingebaut</change>
+         <change who="KI MAM" when="20160406">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right"><date>21. Juni 7</date></dateline>
+               <salute rend="center">Lieber Fischer!</salute>
+            </opener>
+            <p>Anbei sende ich Ihnen das zum Druck eingerichtete E<damage agent="hole">
+                  <supplied>xe</supplied>
+               </damage>mplar des
+            »<workName key="A020005">Tschaperl</workName>«. Es wäre gut, wenn Sie sofort mit dem Drucke beginnen
+          würden. Erstens weil ich jetzt mehr Muße habe, sorgfältig zu korrigieren; zweitens weil es
+          möglich ist, wie mir <persName key="A002166">Blumenthal</persName> schreibt, daß die
+              <placeName key="A000368"><settlement>Berlin</settlement></placeName>er Première schon im September
+          kommt, und am nächsten Tage soll das Büchel doch erscheinen.</p>
+            <p>Sie haben mir zugesagt, mir am 15. Juni<pb/> die vereinbarten 600 Mark zu senden. Ich habe
+          aber noch nichts erhalten. Es wäre mir angenehm, wenn Sie das jetzt gleich nachholen
+          würden.</p>
+            <p>Mir fehlen einige Werke Ihres Verlages, die <damage agent="hole">
+                  <supplied>mi</supplied>
+               </damage>r wichtig sind:</p>
+            <p><table rows="12" cols="2">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <persName key="A002202">Hauptmann</persName>,</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021011">Vor Sonnenaufgang</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021012">College Crampton</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021013">Biberpelz</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A020797">Hanneles Himmelfahrt</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A020909">Versunkene Glocke</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A020980">Apostel</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <persName key="A002168">Hartleben</persName>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021039">Abgerissener Knopf</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021038">Gastfreier Pastor</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021040">Meine Verse</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A021042">Erziehung zur
+             Ehe</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <persName key="A002001">Schnitzler</persName>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A020049">Liebelei</workName>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <workName key="A020149">Sterben</workName>.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Wollen Sie mir diese Bände
+          schenken?</p>
+            <closer>Herzlichst<lb/>Ihr treuer<lb/><signed>Hermann Bahr</signed></closer>
+            <postscript>
+               <p><anchor type="textConst" xml:id="TL210-1" >Noch etwas: sowohl aus <placeName key="A001043"><settlement>Karlsbad</settlement>
+                  </placeName> u.
+                <placeName key="A000973"><settlement>Marienbad</settlement>
+                  </placeName> wie aus <placeName key="A000413"><settlement>Ischl</settlement></placeName> beklagen sich Bekannte bei mir, daß
+              »<workName key="A021041">Theater</workName>« in keiner der dortigen Buchhandlungen zu haben ist.
+            Versorgen Sie doch die Buchhändler der Badeorte mit Exemplaren. Es ist wichtig, daß man
+            das Buch an regnerischen Tagen im Schaufenster sieht.</anchor>
+               </p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>
