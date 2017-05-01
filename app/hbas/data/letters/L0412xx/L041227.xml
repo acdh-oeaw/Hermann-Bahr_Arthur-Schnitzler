@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041227">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 20. 4. [1900]</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="227"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeSender>
+          <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+               <dateSender>
+                  <date when="19000420" n="01">20. 4. [1900]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Visitkarte: »Hermann Bahr«, die Jahreszahl »900« von A. S. mit Bleistift am Datum ergänzt.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151204">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <p>dankt Dir, lieber Freund, herzlichst für Dein <hi rend="latintype">
+                  <rs type="work" key="A020018" subtype="local-short">Buch</rs>
+               </hi>: Die <persName key="A002018">Sandrock</persName> ist<pb/> einfach famos!</p>
+            <closer>In alter Freundschaft<lb/>
+                    <signed>HermannBahr</signed>
+                </closer>
+            <postscript>
+               <p>
+                        <date>20/4</date>
+               </p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>

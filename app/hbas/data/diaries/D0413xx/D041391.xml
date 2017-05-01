@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041391">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Kalender von Bahr, 30. 3. 1896</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="391"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1775 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                     <title level="m">1891–1900</title>
+                     <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor>
+                     <imprint>
+                        <date when="1996">1996</date>
+                     </imprint>
+                     <biblScope type="pp">218</biblScope>
+                  </monogr>  
+                  <monogr>
+                     <author key="A002002">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>              
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                        <biblScope type="vol">II</biblScope>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151116">angelegt</change>
+         <change who="KI MAM" when="20160126">Kollationiert am Original</change>
+      </revisionDesc>
+  </teiHeader>
+   <text type="diaryDay">   
+      <body>
+ 
+         <div type="writingSession" n="1">
+            <p>
+                    <date when="18960330" n="01"/>
+               <persName key="A002285">Stössl</persName>, <persName key="A002612">Wertheimer</persName>, D<hi rend="superscript">r</hi>
+                    <space unit="chars" quantity="1"/>
+                    <persName key="A003189">Glaser</persName>, Regierungsrath <persName key="A003087">Winternitz</persName>, <persName key="A002001">Schnitzler</persName>,
+            <persName key="A002011">Hugo</persName>, <persName key="A002607">Singer</persName>.</p>
+            <p>Officiell verlautet daß der neue Direktor des <placeName key="A000277">Raimundtheaters</placeName> Herr <persName key="A002033">Gettke</persName> aus
+              <placeName key="A001104">
+                        <settlement>Elberfeld</settlement>
+               </placeName> ist.</p>
+  
+         </div>
+      </body> 
+   </text> 
+</TEI>

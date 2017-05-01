@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041121">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 19. 11. 1910</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="121"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <!--
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19101119" n="01">19. 11. 1910</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60141 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, gedruckter Kopf <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>)
+                        </p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+                    <biblStruct default="false">
+               <analytic>
+                  <date when="19101119">19. 11. 1910</date>
+                  <respStmt>Abschrift</respStmt>
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">108</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct>
+                </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                        <date>19. 11. 910</date>.</dateline>
+            </opener>
+            <p>
+                    <salute>mein lieber Hermann, </salute>beim Durchsehen der Abschrift meines letzten Briefes an dich merk ich dass
+               meine <rs type="person" key="A002151" subtype="local">Schreiberin</rs> eine Stelle (»dies
+          ganz unter uns«) irrtümlich unter- statt durchstrichen hat. Zur Vermeidg von
+          Misverständnissen: es ist natürlich kein Geheimnis, dass die <placeName key="A000214">Burg</placeName> heute keinen <hi rend="latintype">
+                  <workName key="A020059">Me<pb/>dardus</workName>
+               </hi> hat. Mir war nur eine Bemerkung gegen
+            <persName key="A002150">Gerasch</persName> (persönlicher Art) beim Dictiren
+          durch den Kopf gegangen, die aber, vor der Aufführung auszusprechen ich nicht
+          richtig gefunden hätte.</p>
+            <closer>Pedantisch und herzlichst<lb/>dein<lb/>
+               <signed>
+                        <hi rend="latintype">A</hi>
+                    </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

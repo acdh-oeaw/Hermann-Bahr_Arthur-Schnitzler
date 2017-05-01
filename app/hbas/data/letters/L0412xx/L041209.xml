@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041209">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 23. 3. 1897</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="209"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+               <dateSender>
+                  <date when="18970323" n="2">23. 3. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von A. S. Jahreszahl »7« im Vordruck ergänzt.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151203">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                        <date>23. März</date>
+                    </dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>
+                    <persName key="A002011">Hugo</persName> schreibt mir eben ab, möchtest 
+        Du so lieb sein, heute noch mit <persName key="A002024">Altenberg</persName> zu reden, 
+        ob er mit uns lesen will? Ich habe erstens heute bis tief in die Nacht keine freie Minute,<pb/> zweitens auch gar keine Lust mehr, da alle Betheiligten so thun, als ob ich sie zwänge, 
+        mir gefällig zu sein, da ich doch gar nichts davon als Verdruß u Ärger habe.
+          Auch ich werde es mir schließlich abgewöhnen, wohltätig zu sein.</p>
+            <closer>Morgen bei Dir<lb/>herzl<damage agent="ink">
+                  <supplied>ich</supplied>
+               </damage>st<lb/>Dein<lb/>
+                    <signed>H</signed>
+                </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

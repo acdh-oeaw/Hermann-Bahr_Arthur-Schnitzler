@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041201">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Hofmannsthal und Schnitzler an Bahr, 3. 7. 1902</title>
+            <author key="A002011">Hofmannsthal, Hugo von</author>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="201"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002011">Hofmannsthal, Hugo von</persName>
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000792">Matrei am Brenner</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19020703" n="01">3. 7. 1902</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 49090 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Ansichtskarte, Bleistift, 2 Verf., Motiv: »<placeName key="A000792">
+                                        <settlement>Matrei</settlement>
+                                    </placeName>«</p>
+                        <stamp n="1">
+                           <placeName key="A000792">Deutsch-Matrei</placeName>
+                           <date when="19020703">3/7 <supplied>1902</supplied>
+                           </date>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placeName key="A000263">Wien 13</placeName>
+                           <date when="19020704">4. 7. 02</date>
+                           <time>11. V</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi>
+                    </addrLine>
+               <addrLine>
+                  <hi rend="latintype">Redacteur</hi>
+                    </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <hi rend="underline" n="1">
+                        <placeName key="A000250">
+                                    <settlement>Wien</settlement>
+                                </placeName>
+                     </hi>
+                  </hi>
+                    </addrLine>
+               <addrLine>
+                  <placeName key="A000420">
+                     <hi rend="latintype">XIII<hi rend="subscript">7</hi> Veitlissengasse in Ober St Veit.</hi>
+                  </placeName>
+                    </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>Das was Sie über’n <rs type="work" key="A021208" subtype="local-short">Automobil</rs> geschrieben haben, war <hi rend="underline" n="1">sehr</hi> gut.</p>
+            <p>
+                    <date>3 VII 02.</date>
+            </p>
+            <closer>Viele Grüße<lb/>
+               <signed>
+                        <hi rend="latintype">Hugo</hi>
+                    </signed>
+            </closer>
+         </div>
+         <div type="writingSession" n="2">
+            <p>
+                    <handShift scribe="A002001"/>Ich auch</p>
+            <closer>
+                    <signed>
+                        <hi rend="latintype">Arthur.</hi>
+                    </signed>
+            </closer>
+     
+         </div>
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041374">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Salten an Schnitzler, 18. 7. 1905</title>
+            <author key="A002035">Salten, Felix</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="374"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002035">Salten, Felix</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19050718" n="01">18. 7. 1905</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 b/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, Lateinschrift, gedruckter Kopf: »<orgName key="A080322">DIE / ZEIT / Wiener Tageszeitung</orgName> / Herausgeber: / Prof. Dr. <persName key="A002607">I. Singer</persName> / Dr. <persName key="A002661">Heinrich Kanner</persName> / <hyphenation alt="Feuille\-ton-Re\-dak\-tion">Feuilleton-Redaktion</hyphenation> /
+                           <placeName key="A000250">
+                                        <settlement>WIEN</settlement>
+                           </placeName> / <placeName key="A000320">I. Wipplingerstrasse 38</placeName>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151207">Angelegt von Foto</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>     
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                        <date>18. 7. 05</date>
+                    </dateline>
+            </opener>
+            <p>
+                    <salute>Lieber, </salute> bis jetzt waren die <rs type="person" key="A002426 A002637">Kinder</rs> krank und <persName key="A002637">Paul</persName> hat uns wieder
+               viele Sorgen gemacht. Deshalb sind wir nicht abgekommen. Schreiben Sie mir, ob es
+               Ihnen passt, wenn wir Samstag nach <placeName key="A000684">
+                  <settlement>Reichenau</settlement>
+               </placeName> kommen, und ob Sie dann Lust haben (nur für diesen Fall kämen wir) am
+               Sonntag oder Montag die <placeName key="A000632">
+                  <settlement>Mariazeller</settlement>
+               </placeName> Partie mitzumachen. Ich habe
+               auch <placeName key="A001109">
+                        <settlement>Eisenerz</settlement>
+               </placeName> u.s.w. vor, worüber wir
+               aber noch sprechen könnten. Ich denke mir: Samstag Tennis, Sonntag Tennis. Montag
+               früh od. Sonntag Abds. Abfahrt nach <placeName key="A000632">
+                  <settlement>Mzll.</settlement>
+               </placeName>
+            </p>
+            <closer>Herzliche Grüße von <rs type="person" key="A002375">uns</rs> an Sie <rs type="person" key="A002038">Beide</rs>
+               <lb/>Ihr<lb/>
+                    <signed>Salten</signed>
+                </closer>
+            <postscript>
+               <p>Das <rs type="work" key="A020090">Stück</rs> von <persName key="A002002">Bahr</persName> haben Sie erhalten?</p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>

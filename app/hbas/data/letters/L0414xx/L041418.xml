@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041418">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Schnitzler an Hofmannsthal, 9. 11. 1892</title>
+                <author key="A002001">Schnitzler, Arthur</author>
+               
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                  </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-L" n="418"/>
+                <availability status="free">
+                    <p>Copyright © 2016</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <correspDesc>
+                    <sender full="yes">
+                        <persName key="A002001">Schnitzler, Arthur</persName>
+                        
+                    </sender>
+                    <addressee full="yes">
+                        <persName key="A002011">Hofmannsthal, Hugo von</persName>
+                    </addressee>
+                    <placeSender>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeSender>
+                    <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+                    <dateSender>
+                        <date when="18921109" n="01">9. 11. 1892</date>
+                    </dateSender>
+                    <context>
+                        
+                    </context>
+                    
+                </correspDesc>
+                <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+                    <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer Verlag</publisher>
+                        <date when="1964">1964</date>
+                    </imprint>
+                        <biblScope type="pp">30–31</biblScope>
+                    </monogr>   
+                </biblStruct>
+            </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20160304">Angelegt aus OCR</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+           
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <date>9/XI. 92</date>
+                    </dateline>
+                    <salute>Liebster Hugo,</salute>
+                </opener>
+                <p>zu <workName key="A021027 A021028">Musotte</workName> geh ich beinahe sicher. – Wir soupieren
+                    also miteinander. – Rendezvous einfach im Parterre Foyer. – Herrn von<pb/>
+                    <space unit="chars" quantity="1"/>
+                    <persName key="A003865">Ehrhardt</persName> hab ich alles ausgerichtet. –
+                    Wissen Sie schon? Dienstag und Samstag <placeName key="A000249">Café Pfob</placeName>.
+                    – Die andern Abende <placeName key="A000248">Café Union</placeName>
+                        (<placeName key="A000613">Grillparzerstraße</placeName>.) – Hat Ihnen
+                    <persName key="A003505">Bölsche</persName> geantwortet? – Was treiben Sie überhaupt? –
+                    Eigentlich habe ich gehofft, Sie heuer öfters zu sehen. Ich arbeite; bin aber
+                    leider sehr talentlos.</p>
+                <closer>Herzlichst der Ihre<lb/>
+                    <signed>Arthur</signed>
+</closer>
+                <postscript>
+               <p output="true">Grüßen Sie <persName key="A002002">Bahr</persName>!</p>
+            </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

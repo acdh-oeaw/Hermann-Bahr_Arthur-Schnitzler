@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030050">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a" key="A021181">Schnitzler: [Zu den Diagrammen], 11. 6. 1915</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                      <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="050"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19150611" n="1">11. 6. 1915</origDate>
+                 <listWit>
+       <witness n="1">
+         <msDesc>
+          
+         <msIdentifier>
+          <country>GB</country>
+          <settlement>Cambridge</settlement>
+          <repository>University Library</repository>
+          <idno>Schnitzler, A 14</idno>          
+         </msIdentifier>
+         <physDesc>
+            <p>ms. Typoskript, in der oberen linken Ecke Datumsangabe in Bleistift: »<quote>
+                                        <date>11. 6. 1915</date>
+                                    </quote>«.</p>
+         </physDesc>
+       </msDesc>       </witness>
+      </listWit>
+            <listBibl>
+               <biblStruct default="false">
+                  <monogr>
+                     <title level="m">Aphorismen und Betrachtungen</title>
+                     <editor>Hg. Robert O. Weiss</editor>
+                     <date when="1967">1967</date>
+                  </monogr>
+                  <monogr>
+                     <author key="A002001">Schnitzler, Arthur</author>
+                     <title level="m">Gesammelte Werke</title>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1967">1961–1977</date>
+                     </imprint>
+                     <biblScope type="pp">346</biblScope>
+                  </monogr>   
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+			      <change when="20160401" who="MAM">Angelegt aus Scan Buchausgabe</change>
+         <change who="KI MAM" when="20170127">Kollationiert</change>
+         <change who="MAM" when="20170317">Durchgesehen mit Original in CUL</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="manuscript">
+      <body>
+         <div>
+            <p>Feuilletonismus.</p>
+            <p>Als Paradigma. Der <workName key="A020662">Gruss <persName key="A002002">Bahrs</persName> an <persName key="A002011">Hofmannsthal</persName>
+               </workName> im <orgName key="A080080">Neuen Wiener Journal</orgName>,
+          Beginn des Krieges.</p>
+            <p>Er sendet ihm Grüsse ans Biwakfeuer, in den Kanonendonner; indess ist
+         <persName key="A002011">H.</persName> im <placeName key="A000278">Ministerium</placeName> (entweder weiss es <persName key="A002002">Bahr</persName> oder
+          er hat sich nicht orientiert<supplied>)</supplied>.</p>
+            <p>Er möge in <placeName key="A001089">
+                        <settlement>Warschau</settlement>
+               </placeName>
+                    <space unit="chars" quantity="1"/>
+                    <persName key="A002042">Poldi
+                  Andrian</persName> grüssen<supplied>.</supplied> (Als wäre der Einmarsch in
+               <placeName key="A001089">
+                        <settlement>Warschau</settlement>
+               </placeName> für morgen bevorstehend und als wüsste <persName key="A002002">Bahr</persName> nicht, dass der <placeName key="A000362">
+                        <country>österreichische</country>
+                    </placeName> Generalkonsul während des
+               Krieges nicht in <placeName key="A001089">
+                        <settlement>Warschau</settlement>
+               </placeName> leben wird.) </p>
+            <p>Und <persName key="A002042">Poldi</persName> wird mit seiner heissen Stimme <persName key="A004008">Verlaine</persName>’sche Verse vortragen (es gibt nichts Trockeneres
+               als die Stimme <persName key="A002042">Andrians</persName>).</p>
+         </div>
+      </body>
+  </text>
+</TEI>

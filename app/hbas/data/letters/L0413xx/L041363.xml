@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041363">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Bahr an Schnitzler, 7. 9. 1931</title>
+            <author key="A002002">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="363"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+            
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                        <placeName key="A000355">München</placeName>
+                    </placeSender>
+          <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+               <dateSender>
+                  <date when="19310907" n="01">7. 9. 1931</date>
+               </dateSender>
+               <context>
+            
+          </context>
+          
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>            
+                        <settlement>Cambridge</settlement>            
+                        <repository>University Library</repository>            
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief., 1 Bl., 2 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151125">Angelegt in CUL</change>
+         <change who="KI MAM" when="20151217">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                        <date>7. September 31</date>
+                    </dateline>
+               <salute>Lieber Arthur!</salute>
+            </opener>
+            <p>Die <rs type="work" key="A020118">Verfilmung</rs> von »<workName key="A020057">Konzert</workName>« ist, 
+          so viel ich mich erinnern kann,
+        zunächst vor Jahren schon von <persName key="A002020">S. Fischer</persName> vermittelt worden; ob von ihm auch für Tonfilm weiß ich
+          nicht. Aber der Verlag »<orgName key="A080353">Ahn und Simrock</orgName>«, 
+          <placeName key="A000363">Berlin N.W. 7 Dorotheenstraße 11</placeName>; 
+          Eingang <placeName key="A000364">Prinz Louis Ferdinandstraße 1</placeName> wird Dir,
+        wenn Du Dich auf mich berufst, darüber genau berichten und Dich beraten können.</p>
+            <p>Was mein »Befinden«, nach dem Du Dich freundlich erkundigst, betrifft, so kann ich nur sagen, daß ich mich 
+        eigentlich überhaupt nicht<pb/> mehr: meine Sehkraft schwindet, das Augenlicht versagt von Tag zu Tag immer
+        mehr und zum »Ausgleich« (<placeName key="A000362">Österreicher</placeName> gleichen immer aus) bin ich taub und werde täglich tauber. Ich kann 
+        mich nur noch mit Hörrohr verständigen.</p>
+            <closer>Aber immer aufrecht!<lb/>Herzlichst<lb/>Dein getreuer<lb/>
+               <signed>HermannBahr</signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>
