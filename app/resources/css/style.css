@@ -1,0 +1,248 @@
+/* Application styles could go here */
+
+body {
+font-family:serif;    
+}
+
+/* ### class-Attribute von TEI-Elementen ### */
+
+/* ### A ### */
+
+
+/*tei:anchor*/
+/*KOMMENTAR*/
+/*span? mit dem kommentierten Text*/
+.commentary {
+    border-bottom:1px black dotted;
+    color:black;
+}
+
+.commentary:hover {
+    text-decoration:inherit;
+    color:inherit;
+    cursor:pointer;
+}
+
+.commentary-ref {
+    display:inline;
+    /*font-size:75%;
+    vertical-align:super;
+    position:relative;
+    left:-0.2em;*/
+}
+
+.commentary-ref:hover {
+    text-decoration:inherit;
+    color:inherit;
+    cursor:pointer;
+}
+
+
+
+
+/* tei:add */
+.add {}
+.place_above {}
+.place_inline {}
+/* usw. */
+
+/*tei:adress*/
+.address {}
+
+/* ### C ### */
+.closer {
+    
+}
+
+/* ### D ### */
+.damage-empty:before {
+    display:inline;
+    content:"X";
+}
+
+.dateline {
+
+}
+
+del.overwritten {
+    text-decoration:line-through;
+}
+
+del.overwritten:hover {
+    cursor:help;
+}
+
+del.strikethrough {
+    text-decoration:line-through;
+}
+
+del.strikethrough:hover {
+    cursor:help;
+}
+
+del.erased {
+    text-decoration:line-through;
+}
+
+del.erased.hover {
+    cursor:help;
+}
+
+/* ### F ### */
+
+/*figure*/
+.thumbnail {
+    width:150px;
+}
+
+/*footNote*/
+
+/*footNote-Text?*/
+.footNote {}
+
+/*Ref für die footNote*/
+.footnote-ref {}
+
+/*Text in Fremdsprache*/
+.foreign {
+    background-color:green;
+}
+
+.frame {
+    padding:1em;
+    border:1px solid black;
+}
+
+/* ### G ### */
+
+.gap {
+    color:orange;
+}
+
+/* ### H ### */
+
+/*handShift, Schreiberwechsel*/
+.handShift::before {
+    display:inline-block;
+    content:"\270F🖎🖎";
+    color:orange;
+}
+
+/*head; Überschriften*/
+.head {}
+
+.subhead {}
+
+/* hi */
+
+.rend_antiqua {} 
+
+.rend_bold {
+    font-weight:bold;
+}
+
+.rend_italic {
+    font-style:italic;    
+}
+
+.rend_latintype {
+    
+}
+
+.rend_overline {
+    border-bottom:1px solid black;
+}
+
+.rend_small-caps {
+    font-variant:small-caps;
+}
+
+.rend_spaced_out {
+    letter-spacing:0.2em;
+} 
+.rend_strikethrough {
+    text-decoration:line-through;
+}
+.rend_subscript {
+    vertical-align:sub;
+    font-size:75%;
+}
+.rend_superscript {
+    vertical-align:super;
+    font-size:75%;
+}
+.rend_underline {
+    text-decoration:underline;
+}
+
+
+/* ### O ### */
+
+/* tei:opener */
+.opener {}
+
+/* ### S ### */
+
+/* tei:salute */
+.salute {}
+
+
+.supplied:hover {
+    cursor:help;
+}
+
+.supplied:before {
+    display:inline;
+    content:"[";
+    color:orange;
+}
+
+.supplied:after {
+    display:inline;
+    content:"]";
+    color:orange;
+}
+
+
+
+/* ### T ### */
+
+/* teiHeader */
+.teiHeader {
+    display:none;
+}
+
+/* divs im tei:text */
+.text-div {}
+
+/* Absätze im tei:text */
+.text-p {}
+
+.space {
+    display:inline-block;
+}
+
+
+.unclear::before {
+    color:orange;
+    vertical-align:super;
+    display:inline-block;
+    content:"?";
+    font-size:75%;
+}
+
+.unclear::after {
+    color:orange;
+    vertical-align:super;
+    display:inline-block;
+    content:"?";
+    font-size:75%;
+}
+
+/*  /class-Attribute von TEI-Elementen ### */
+
+
+/* Links in popups */
+.popup-link {
+    color:red;
+}

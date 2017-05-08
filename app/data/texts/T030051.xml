@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030051">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a" key="A021179">Schnitzler: Leutnant Gustl. Äußere Schicksale, [14. 10. 1918?]</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="051"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19181014" n="1">[14. 10. 1918?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>           
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.70</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Durchschlag, 7 Bl., 7 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="A002001">Schnitzler, Arthur</author>
+                     <title level="a">Die Wahrheit über Leutnant Gustl. Eine Novelle, die einst zu einer »Affäre« wurde</title>
+                     <editor>Hg. von Heinrich Schnitzler</editor>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Die Presse (Wien)</title>
+                     <imprint>
+                        <biblScope type="nr">3454</biblScope>
+                        <date when="19591225">25. 12. 1959</date>
+                     </imprint>
+                     <biblScope type="pp">9</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-DE">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160314" who="MAM">Angelegt</change>
+         <change when="20160426" who="MAM">Kollationiert im DLA</change>
+         <change who="KI MAM" when="20160509">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="manuscript">
+      <body>
+         <div>
+            <p output="true">
+                    <hi rend="spaced_out">(Nachzutragen)</hi>
+                </p>
+            <p output="true">Zur selben Zeit, da <workName key="A020017">Leutnant
+            Gustl</workName> in der <orgName key="A080099">Neuen Presse</orgName> erschien, lag
+          ein Manuscript von mir in der Redaktion des <orgName key="A080148">Neuen Wiener
+            Tagblattes</orgName>, das am Sylvester- oder Neujahrstag erscheinen sollte. (Der Dialog
+            »<workName key="A021143">Sylvesternacht</workName>«). Es <anchor type="commentary" xml:id="KT051-1">erschien nicht</anchor>. Wie <persName key="A002002">Bahr</persName>
+          mit erzaehlte, ging der Feuilletonredakteur <persName key="A002040">Poetzl</persName> von
+          Redaktionsstube zu Redaktionsstube und machte den Leuten begreiflich, dass das <orgName key="A080148">Neue Wr. Tagblatt</orgName> den Verfasser des »<workName key="A020017">Leutnant Gustl</workName>« nicht zu seinen Mitarbeitern zaehlen duerfe. <gap reason="outOfScope"/>
+            </p>
+            <p>
+                    <gap reason="outOfScope"/>
+                </p>
+         </div>
+      </body>
+  </text>
+</TEI><!-- Datierung Anhand eines Tb-Eintrags:  Dictirt autob. (Ltnt. Gustl Affaire).– : 14. Okt. 1918 -->

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041041">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 18. 10. 1901</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="041"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+          <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+               <dateSender>
+                  <date when="19011018" n="01">18. 10. 1901</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23345 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 3 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+                    <biblStruct default="false">
+               <analytic>
+                  <date when="19011018">18. 10. 1901</date>
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">71</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct>
+                </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">       
+            <p>
+                    <salute>lieber Hermann, </salute>ich habe nach reiflicher Erwägung den »<hi rend="underline" n="1">
+                  <workName key="A020027">Puppenspieler</workName>
+               </hi>« aus meinem Einaktercyklus ausgeschieden,
+  sodass der Cyclus jetzt nur mehr aus den <rs type="work" key="A020022">4 andern Einaktern</rs> besteht. Ich habe
+          die Absicht, den <workName key="A020027">Puppenspieler</workName>
+                    <pb/>
+                    <space unit="chars" quantity="1"/>der mir dramatisch zu schwach scheint,
+          gelegentlich neu zu bearbeiten.</p>
+            <p>Da du die Güte hattest, meine <rs type="work" key="A020023 A020069">2 neuen Stücke</rs> zu übernehmen, theile ich diese
+          Thatsache vor allem dir mit und stelle dir anheim, dem Direktor des<pb/>
+                    <space unit="chars" quantity="1"/>
+                    <placeName key="A000220">Deutschen Volkstheater</placeName>s gelegentlich Mittheilung hievon zu machen –</p>
+            <closer>Mit herzlichem Gruss<lb/>dein<lb/>
+                    <signed>Arthur</signed>
+        </closer>
+            <postscript>
+               <p>
+                        <placeName key="A000250">
+                            <settlement>Wien</settlement>
+                        </placeName>
+                        <space unit="chars" quantity="1"/>
+                        <date>18. 10.
+         901</date>
+               </p>
+            </postscript>
+        
+      
+         </div>
+      </body>
+  </text>
+</TEI>

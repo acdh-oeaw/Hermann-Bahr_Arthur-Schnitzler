@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041087">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 13. 10. 1905</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="087"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+          <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+               <dateSender>
+                  <date when="19051013" n="3">13. 10. 1905</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60177 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>)
+                        </p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+                    <biblStruct default="false">
+               <analytic>
+                  <date when="19051013">13. 10. 1905</date>
+                  <respStmt>Abschrift</respStmt>
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">93</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct>
+                </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                        <date>13. X. 905</date>
+                    </dateline>
+            </opener>
+            <p>
+                    <salute>eben, lieber Hermann, </salute>kommt der <workName key="A020044">Klub der Erlöser</workName>, und dazu, zum 2. Mal, <workName key="A020091">Der arme
+          Narr</workName>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1">merkwürdigsten Produkte</anchor>
+          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole">
+                  <supplied>e</supplied>
+               </damage>inem ganz voll tönenden Drama auf dem Theater<pb/> sehen
+          möchte, das aber natürlich auch von <damage agent="hole">
+                  <supplied>dir</supplied>
+               </damage> sein müßte,
+          und zu dem mir alle Elemente in geheimnisvoller Weise schon in diesem seltsamen
+          Akt zu liegen scheinen.</p>
+            <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" key="A020092">deine lieben Worte</rs> in der <orgName key="A080153">Volkszeitg</orgName> die Hand
+          drücken?</p>
+            <p>Sonntag oder Montag fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
+            <closer>Von Herzen dein <signed>
+                        <hi rend="latintype">A.</hi>
+                    </signed>
+            </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

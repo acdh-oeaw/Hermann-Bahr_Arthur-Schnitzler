@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041097">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="a">Schnitzler an Bahr, 11. 3. 1907</title>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                  </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="097"/>
+            <availability status="free">
+               <p>Copyright © 2016</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A000250">Wien</placeName>
+               </placeSender>
+               <!--
+          <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19070311" n="01">11. 3. 1907</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23384 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief m. eh. Unterschrift u. Nachschrift, Korrekturen von Hand mit Bleistift
+            und Tinte</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness n="2">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>           
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.294/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Durchschlag des vorigen ohne hs. Ergänzungen</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+                    <biblStruct default="false">
+               <analytic>
+                  <date when="19070311">11. 3. 1907</date>
+                  
+               </analytic>
+               <monogr>
+                  <author key="A002001">Schnitzler, Arthur</author>
+                  <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                  <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                  <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
+                  <biblScope type="pp">97</biblScope>
+               </monogr>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+            </biblStruct>
+                </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+  <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <seg rend="right">
+                  <placeName key="A000333">XVIII Spoettelgasse
+                7</placeName>
+               </seg>
+               <dateline rend="right">
+                    <placeName key="A000250">
+                            <settlement>Wien</settlement>
+                        </placeName> am <date>11. März 07</date>.
+            </dateline>
+               <salute>Lieber Hermann,</salute>
+            </opener>
+            <p>Da ich nichts weiter von Dir gehört habe scheint es, dass das Projekt der <placeName key="A000212">Kammer</placeName>
+               <workName key="A020049">liebelei</workName>
+          vorläufig zurückgelegt worden ist. Nun fällt mir etwas ein, dass ich Dir zu
+          gelegentlicher Ueberlegung mitteilen möchte. Wie wärs, wenn die <placeName key="A000212">Kammerspiele</placeName> in der nächsten Saison einen Versuch mit
+          dem »<workName key="A020002">Märchen</workName>« wagten. Du weisst, dass das
+          Stück über            <placeName key="A000250">
+                        <settlement>Wien</settlement>
+                    </placeName> nie hinausgekommen ist, dass es
+          hingegen – in <placeName key="A000374">
+                        <country>Russland</country>
+               </placeName> – einen meiner stärksten und
+          dauerndsten Erfolge bedeutet hat. Es ist wirklich geradezu lächerlich, dass sich
+          in <placeName key="A000351">
+                        <country>Deutschland</country>
+               </placeName> noch kein Theater an das Stück gewagt
+        hat. Die <placeName key="A000212">Kammerspiele</placeName>, die das <workName key="A020100">Friedensfest</workName> aufgeführt haben, wären vielleicht am
+          ehesten dazu geeignet, eine Aufführung dieses Stücks | mit der <persName key="A002087">Höflich</persName> | zu versuchen, womit wenig riskiert und
+          möglicherweise einiges zu gewinnen wäre. Dass der Schluss des dritten Aktes
+          geändert ist dürfte Dir bekannt sein.</p>
+            <p>Wenn Du glaubst, dass die Sache nicht ganz aus<supplied>s</supplied>ichts<pb/>los ist,
+          so sprichst Du vielleicht bei irgend einer Gelegenheit in diesem Sinn mit
+            <persName key="A002078">Reinhart</persName>.</p>
+            <p>Sei herzlich gegrüsst und lass jedenfalls recht bald etwas von Dir hören. Wann
+          kommst Du zurück? Du häl<supplied>t</supplied>st Dich doch vor
+            <placeName key="A000883">
+                  <settlement>Ragusa</settlement>
+               </placeName> einige Zeit in            <placeName key="A000250">
+                        <settlement>Wien</settlement>
+                    </placeName>
+          auf? </p>
+            <closer>
+                    <handShift/>Dein<lb/>
+               <signed>
+                        <hi rend="latintype">Arthur</hi>
+                    </signed>
+            </closer>
+            <postscript>
+               <p>viele Grüße von meiner <rs type="person" key="A002038">Frau</rs>.</p>
+            </postscript>
+         </div>
+      </body>
+  </text>
+</TEI>
