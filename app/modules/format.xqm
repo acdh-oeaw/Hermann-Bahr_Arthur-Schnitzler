@@ -841,7 +841,10 @@ declare function format:popover_person($key) {
 
 declare function format:popover_orgName($key) {
     (: liefert data-content für Organisationen-popover :)
-    $key
+    for $org-id in tokenize($key, ' ') return
+        let $orgName := collection($config:data-root)/id($org-id)//tei:orgName
+        let $desc := collection($config:data-root)/id($org-id)//tei:desc
+        return "<div>" || "<a class='popup-link' href='register.html?key=" || $org-id ||"&amp;type=org'>" || $orgName || " (" || $desc || ")" || "</a>" || "</div>"
 };
  
 

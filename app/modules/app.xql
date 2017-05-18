@@ -158,6 +158,7 @@ function app:register_liste($type) {
         case "p" return distinct-values(collection($config:data-root)//tei:persName/tokenize(@key,' '))
         case "o" return distinct-values(collection($config:data-root)//tei:placeName/@key)
         case "w" return distinct-values(collection($config:data-root)//tei:workName/tokenize(@key,' '))
+        case "org" return distinct-values(collection($config:data-root)//tei:orgName/tokenize(@key,' '))
         default return ()
         return
             switch ($type)
@@ -169,6 +170,10 @@ function app:register_liste($type) {
                     
                     {collection($config:data-root)/id($key)//tei:title/text()}</a></li>
                     (:Wenn nichts übergeben, dann alles retour:)
+                case "org" return 
+                    <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">
+                    
+                    {collection($config:data-root)/id($key)//tei:orgName/text()}</a></li>
                 default return <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{$key}</a></li>
             
         return 
@@ -184,6 +189,7 @@ declare function app:register_single($key,$type) {
         case "p" return collection($config:data-root)//tei:persName[@key=$key]/ancestor::tei:TEI
         case "o" return collection($config:data-root)//tei:placeName[@key=$key]/ancestor::tei:TEI
         case "w" return collection($config:data-root)//tei:workName[@key=$key]/ancestor::tei:TEI
+        case "org" return collection($config:data-root)//tei:orgName[@key=$key]/ancestor::tei:TEI
         default return ()
         return
             <li><a href="{concat('view.html?id=',$doc/@xml:id)}">{$doc/@xml:id/string()}</a></li>
