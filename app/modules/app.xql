@@ -155,12 +155,22 @@ function app:register_liste($type) {
     let $liste :=
     for $key in
     switch ($type)
-        case "p" return distinct-values(collection($config:data-root)//tei:persName/@key)
+        case "p" return distinct-values(collection($config:data-root)//tei:persName/tokenize(@key,' '))
         case "o" return distinct-values(collection($config:data-root)//tei:placeName/@key)
-        case "w" return distinct-values(collection($config:data-root)//tei:workName/@key)
+        case "w" return distinct-values(collection($config:data-root)//tei:workName/tokenize(@key,' '))
         default return ()
         return
-            <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{$key}</a></li>
+            switch ($type)
+                case "p" return 
+                    <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{(collection($config:data-root)/id($key)//tei:forename/string(), collection($config:data-root)/id($key)//tei:surname/string())}</a></li>
+                case "o" return <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{collection($config:data-root)/id($key)//tei:placeName}</a></li>
+                case "w" return 
+                    <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">
+                    
+                    {collection($config:data-root)/id($key)//tei:title/text()}</a></li>
+                    (:Wenn nichts übergeben, dann alles retour:)
+                default return <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{$key}</a></li>
+            
         return 
             <ul>{$liste}</ul>
 };

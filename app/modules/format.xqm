@@ -874,12 +874,15 @@ declare function format:popover_place($node) {
     
     if ($node/@key) then
         for $place-id in tokenize($node/@key, ' ') return
-            "<div>" || "<a class='popup-link' href='register.html?key=" || $place-id ||"&amp;type=o'>" || $place-id || "</a>" || "</div>"
+            "<div>" || "<a class='popup-link' href='register.html?key=" || $place-id ||"&amp;type=o'>" || collection($config:data-root)/id($place-id)/tei:placeName || "</a>" || "</div>"
     else $node
 };
 
 declare function format:popover_work($node) {
-    $node/@key
+    if ($node/@key) then
+        for $work-id in tokenize($node/@key, ' ') return
+            "<div>" || "<a class='popup-link' href='register.html?key=" || $work-id ||"&amp;type=w'>" || collection($config:data-root)/id($work-id)//tei:forename || ' ' || collection($config:data-root)/id($work-id)//tei:surname ||': ' || collection($config:data-root)/id($work-id)//tei:title || "</a>" || "</div>"
+    else $node
 };
 
 
