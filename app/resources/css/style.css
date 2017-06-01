@@ -4,9 +4,14 @@ body {
 font-family:serif;    
 }
 
+.correspMeta {
+    display:none;
+}
+
 /* ### class-Attribute von TEI-Elementen ### */
 
 /* ### A ### */
+
 
 
 /*tei:anchor*/
@@ -84,7 +89,7 @@ del.erased {
     text-decoration:line-through;
 }
 
-del.erased.hover {
+del.erased:hover {
     cursor:help;
 }
 
@@ -244,5 +249,5 @@ del.erased.hover {
 
 /* Links in popups */
 .popup-link {
-    color:red;
+    color:black;
 }
