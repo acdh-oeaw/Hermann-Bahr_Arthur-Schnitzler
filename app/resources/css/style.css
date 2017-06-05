@@ -1,8 +1,183 @@
-/* Application styles could go here */
+/* Hermann Bahr | Arthur Schnitzler */
 
-body {
-font-family:serif;    
+
+/* Styles für page-template */
+
+@media (min-width: 320px) {
+  /*
+  h1::before {
+    display: block;
+    content:"iPhone"
+  }
+  */
+  h1 {
+    font-size: 28px;
+  }
+  .sub-header {
+    font-size: 22px;
+  }
+  
+  
+  #content {
+      padding-left:30px;
+      padding-right:30px;
+  }
+  
 }
+
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+  padding: 0;
+  max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+  float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+  display: block;
+
+  }
+  .sidebar-nav .navbar li {
+  float: none;
+  display: block;
+  }
+  .sidebar-nav .navbar li a {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  }
+
+  .container {
+    padding-top:60px;
+  }
+
+  /*
+  h1::before {
+    display: block;
+    content:"Tablet"
+  }
+  */
+
+  h1 {
+    font-size: 36px;
+  }
+  .sub-header {
+    font-size: 28px;
+  }
+
+  .top-header {
+    margin-bottom: 3em;
+  }
+    
+
+     
+  #content {
+      /*muss man überlegen, ob man nicht auch hier padding reinnimmt*/
+      padding-left:0px;
+      padding-right:0px;
+  }
+  
+
+}
+
+@media (min-width: 768px) {
+  /* uncomment if you would like the menu to be fixed */
+  /* .navbar {
+    position: fixed;
+    width: 170px;
+    z-index: 2;
+  } */
+}
+@media (min-width: 992px) {
+  .navbar {
+    width: 212px;
+  }
+
+  /*
+  h1::before {
+    display: block;
+    content:"Normal"
+  }
+  */
+
+
+}
+@media (min-width: 1200px) {
+  .navbar {
+    width: 262px;
+  }
+
+  /*
+  h1::before {
+    display: block;
+    content:"Widescreen"
+  }
+  */
+
+  }
+
+
+.sidebar-nav .navbar-header{ float: none; }
+.sidebar-nav {
+  font-family: sans-serif;
+}
+
+.top-header {
+  text-align: center;
+}
+
+.top-header h1 {
+    font-family:serif;
+}
+
+/* /Styles für page-template */
+
+
+/*Textansicht*/
+
+.pager {
+  display: inline;
+  font-size:26px;
+  float:right;
+  position:relative;
+  top:-30px;
+
+}
+
+.pager li>a {
+  color:black;
+  border-radius: 0px;
+  border:none;
+}
+.pager li>a:hover {
+  color:black;
+  border:none;
+  background-color:red;
+
+}
+
+
+.title-box {
+  margin-bottom:2em;
+}
+
+.title-box h2 {
+  display:inline;
+  font-size:20px;
+}
+
+.text-box {
+  font-size:16px;
+  margin-bottom:2em;
+}
+
+.anhang-box, .kommentar-box {
+  padding-left:3em;
+  margin-bottom:1em;
+}
+
+
+/* /navigationselemente */
+
 
 .correspMeta {
     display:none;
