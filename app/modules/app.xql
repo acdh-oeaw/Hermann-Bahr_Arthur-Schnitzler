@@ -45,7 +45,7 @@ return
 
 
 (: ---------------------- correspDesc-Metadaten ---------------------------- :)
-
+(: deprecated :)
 declare function app:corresp-meta($id) {
     let $corresp-data := collection($config:data-root)/id($id)//tei:correspDesc
     return
@@ -64,7 +64,7 @@ declare function app:corresp-meta($id) {
 declare
  %templates:wrap
  %templates:default("type", "")
- function app:page_view($node as node(), $model as map(*),$id,$type) {
+ function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author) {
  (: 
   : Seite zeigt ein einzelnes Dokument an. Welches angezeigt werden soll, wird per $id übergeben.
   : $id xml:id des Dokuments
@@ -74,15 +74,72 @@ declare
 let $output := if ($id!="") then
         app:view_single($id,$type)
     else
-        app:view_list($type)
+        app:view_list($type,$date,$author)
  return $output
  };
 
-declare function app:view_list($type) {
+declare function app:view_list($type,$date,$author) {
     (:Gibt eine Liste mit allen verfügbaren Dokumenten aus:)
-    (: soll sich später anhand von $type filtern lassen :)
-    <div class="row">
-    <h2>Verfügbare Dokumente</h2>
+    if ($date!='' or $author!='') then 
+        (:$date oder author gesetzt, weiter filtern:)
+        if ($date!='') then
+            (:"Datum gesetzt, Autor?":)
+            if ($author!='') then  "Datum und Autor gesetzt" 
+            
+            else "Nur Datum gesetzt"
+        else
+            if ($type!='') then (: "Nur Autor gesetzt, Filter auf Typ":)
+                if ($type="L") then "Briefe von einem Autor"
+                else
+            
+            <div class="col-sm-9">
+                <div class="title-box">
+                <h2 class="doc-title">Nur Autor gesetzt, Filter auf Typ(aber nicht Brief)</h2>
+            </div>
+            </div>
+            else
+        <div class="col-sm-9">
+            <div class="title-box">
+                <h2 class="doc-title">Verfügbare Dokumente von {collection($config:data-root)/id($author)//tei:forename || " " || collection($config:data-root)/id($author)//tei:surname}</h2>
+            </div>
+            
+            {
+            
+            for $doc in collection($config:data-root)//tei:fileDesc//tei:author[contains(@key,$author)]/ancestor::tei:TEI
+        let $date := 
+            switch (substring($doc/@xml:id/string(),1,1))
+            case "T" return $doc//tei:origDate/@when/string()
+            case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
+            case "L" return $doc//tei:dateSender/tei:date/@when/string()
+            default return $doc//tei:date[@when][1]/@when/string()
+        order by $date ascending
+            
+    (:
+    sortieren nach @when, @n:; bei Briefen sortieren nach senderDater > date ; bei Tagebuch body > date[1]
+    bei Texten origDate
+    :)
+return
+    <div class="docListItem">
+        <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
+        <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
+    </div>
+            
+            }    
+            
+            
+        </div>
+    else (:$date oder $author nicht gesetzt:) 
+    <div class="col-sm-9">
+    <div class="title-box">
+    <h2 class="doc-title">Verfügbare {
+        switch($type)
+                case "T" return "Texte"
+                case "D" return "Tagebucheinträge"
+                case "L" return "Briefe"
+        default return "Dokumente"}
+            
+            </h2>
+        </div>
     {
        let $data-path :=
        if ($type) then
@@ -94,16 +151,23 @@ declare function app:view_list($type) {
         else $config:data-root
     let $data := collection($data-path)
     for $doc in $data//tei:TEI
+        let $date := 
+            switch (substring($doc/@xml:id/string(),1,1))
+            case "T" return $doc//tei:origDate/@when/string()
+            case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
+            case "L" return $doc//tei:dateSender/tei:date/@when/string()
+            default return $doc//tei:date[@when][1]/@when/string()
+        order by $date ascending
+            
     (:
     sortieren nach @when, @n:; bei Briefen sortieren nach senderDater > date ; bei Tagebuch body > date[1]
     bei Texten origDate
     :)
 return
-    <span class="docListItem">
+    <div class="docListItem">
         <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
-        <span class="titel">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</span>
-        <a href="{concat('view.html?id=',$doc/@xml:id/string())}">{$doc/@xml:id/string()}</a>
-    </span>
+        <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
+    </div>
     }
     </div>
 };
@@ -115,8 +179,8 @@ declare function app:view_single($id,$type) {
         <div class="title-box">
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a href="view.html?id={app:prev-doc-id($id)}">&lt;</a></li>
-                    <li class="next"><a href="view.html?id={app:next-doc-id($id)}">&gt;</a></li>
+                    <li class="previous"><a href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}">&lt;</a></li>
+                    <li class="next"><a href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}">&gt;</a></li>
                 </ul>
              </nav>
             <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
@@ -188,12 +252,17 @@ function app:register_liste($type) {
         return
             switch ($type)
                 case "p" return 
-                    <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{(collection($config:data-root)/id($key)//tei:forename/string(), collection($config:data-root)/id($key)//tei:surname/string())}</a></li>
-                case "o" return <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{collection($config:data-root)/id($key)//tei:placeName}</a></li>
+                    <li>
+                        <a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{(collection($config:data-root)/id($key)//tei:forename/string(), collection($config:data-root)/id($key)//tei:surname/string())}</a>
+                    </li>
+                case "o" return 
+                    <li>
+                        <a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{collection($config:data-root)/id($key)//tei:placeName}</a>
+                    </li>
                 case "w" return 
-                    <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">
-                    
-                    {collection($config:data-root)/id($key)//tei:title/text()}</a></li>
+                    <li>
+                        <a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{collection($config:data-root)/id($key)//tei:title/text()}</a>
+                    </li>
                     (:Wenn nichts übergeben, dann alles retour:)
                 case "org" return 
                     <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">
@@ -202,13 +271,93 @@ function app:register_liste($type) {
                 default return <li><a href="{concat('register.html?key=',$key,'&amp;type=',$type)}">{$key}</a></li>
             
         return 
-            <ul>{$liste}</ul>
+            <div class="col-sm-9">
+                <div class="title-box">
+                <h2 class="doc-title">Register{
+                    switch($type)
+                    case "p" return ": Personen"
+                    case "o" return ": Orte"
+                    case "w" return ": Werke"
+                    case "org" return ": Organisationen"
+                    default return ()
+                }</h2>
+            </div>
+            <ul class="register">
+                {$liste}
+            </ul>
+            </div>
 };
 
 declare function app:register_single($key,$type) {
         
-        (:collection($config:data-root)//tei:persName)[@key=$key]/ancestor::tei:TEI:)
-        let $liste :=
+    
+        <div class="col-sm-9">
+            <div class="title-box">
+                <h2>
+                    {
+                        switch($type)
+                        case "p" return 
+                            (
+                            if (collection($config:data-root)/id($key)//tei:forename and collection($config:data-root)/id($key)//tei:surname) then
+                            collection($config:data-root)/id($key)//tei:forename || " " || collection($config:data-root)/id($key)//tei:surname
+                            else collection($config:data-root)/id($key)//tei:persName/text(),
+                            
+                            if (collection($config:data-root)/id($key)//tei:birth and collection($config:data-root)/id($key)//tei:death) then
+                                "(" || collection($config:data-root)/id($key)//tei:birth/@when || "–" || collection($config:data-root)/id($key)//tei:death/@when || ")"
+                                else
+                                    (),
+                                    
+                            if (collection($config:data-root)/id($key)//tei:occupation) then
+                                (
+                                <br/>,collection($config:data-root)/id($key)//tei:occupation/text()
+                                )
+                                else ()
+                            
+                            
+                            )
+                        case "o" return 
+                            (
+                            if (collection($config:data-root)/id($key)//tei:district) then
+                                if (contains(collection($config:data-root)/id($key)//tei:placeName,"Wien")) then collection($config:data-root)/id($key)//tei:settlement || " " || collection($config:data-root)/id($key)//tei:district
+                                else collection($config:data-root)/id($key)//tei:placeName
+                            else
+                                 collection($config:data-root)/id($key)//tei:placeName 
+                                
+                            )
+                        case "w" return 
+                            (
+                            if (collection($config:data-root)/id($key)//tei:title and collection($config:data-root)/id($key)//tei:author) then 
+                                if (collection($config:data-root)/id($key)//tei:author//tei:surname) then
+                                    collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()
+                                else
+                                    collection($config:data-root)/id($key)//tei:title/text() 
+                            else "Werk " || $key
+                            )
+                        case "org" return 
+                            (
+                                if (collection($config:data-root)/id($key)//tei:orgName) then 
+                                    (
+                                    collection($config:data-root)/id($key)//tei:orgName,
+                                    if (collection($config:data-root)/id($key)//tei:desc) then
+                                        
+                                        (
+                                        <br/>,
+                                        collection($config:data-root)/id($key)//tei:desc
+                                        )
+                                        else ()
+                                    
+                                    )
+                                    else "Organisation " || $key
+                            )
+                            
+                        default return $key
+                    }
+                </h2>
+                
+            </div>
+            <div class="ergebnisliste">
+            {
+                let $liste :=
     for $doc in
     switch ($type)
         case "p" return collection($config:data-root)//tei:persName[@key=$key]/ancestor::tei:TEI
@@ -217,9 +366,16 @@ declare function app:register_single($key,$type) {
         case "org" return collection($config:data-root)//tei:orgName[@key=$key]/ancestor::tei:TEI
         default return ()
         return
-            <li><a href="{concat('view.html?id=',$doc/@xml:id)}">{$doc/@xml:id/string()}</a></li>
+            <li><a href="{concat('view.html?id=',$doc/@xml:id)}">{$doc//tei:titleStmt/tei:title[@level="a"]/text()}</a></li>
         return 
-            <ul>{$liste}</ul>
+            <ul class="register">{$liste}</ul>        
+            }
+        </div>    
+        </div>
+        
+        (:collection($config:data-root)//tei:persName)[@key=$key]/ancestor::tei:TEI:)
+        
+        
 };
 
 
@@ -243,7 +399,7 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="index.html">Home</a>
                                 </li>
 
-                                <li class="dropdown visible-xs" id="nav_dokumente">
+                                <li class="dropdown" id="nav_dokumente">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -258,7 +414,7 @@ function app:nav($node as node(), $model as map(*)) {
                                     </ul>
                                 </li> <!-- /Dokumente -->
 
-                                <li class="dropdown visible-xs" id="nav_register">
+                                <li class="dropdown" id="nav_register">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -364,7 +520,7 @@ declare function app:order-ids() {
         <ids>{$ids}</ids>
 };
 
-declare function app:next-doc-id($id) {
+declare function app:next-doc-id($id,$type) {
     (:Liefert das folgende Dokument;nutzt die Session wahrscheinlich nicht:)
     let $ordered-ids :=
         if (session:get-attribute("ids")) then
@@ -372,6 +528,9 @@ declare function app:next-doc-id($id) {
         else 
             session:set-attribute("ids", app:order-ids())
     return
+        if ($type!='') then
+            $ordered-ids//id[text()=$id]/following-sibling::id[@type=$type][1]
+            else
         $ordered-ids//id[text()=$id]/following-sibling::id[1]
     (: 
     app:order-ids()//id[text()=$id]/following-sibling::id[1]
@@ -379,7 +538,7 @@ declare function app:next-doc-id($id) {
     
 };
 
-declare function app:prev-doc-id($id) {
+declare function app:prev-doc-id($id,$type) {
     (:Liefert das folgende Dokument;nutzt die Session wahrscheinlich nicht:)
     let $ordered-ids :=
         if (session:get-attribute("ids")) then
@@ -387,6 +546,9 @@ declare function app:prev-doc-id($id) {
         else 
             session:set-attribute("ids", app:order-ids())
     return
+        if ($type!='') then
+            $ordered-ids//id[text()=$id]/preceding-sibling::id[@type=$type][1]
+            else
         $ordered-ids//id[text()=$id]/preceding-sibling::id[1]
     (: 
     app:order-ids()//id[text()=$id]/following-sibling::id[1]

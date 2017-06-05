@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
-    <div data-template="app:register_view"/>
+    <div class="row">
+            <div id="sidebar" class="col-sm-3">
+                <div class="sidebar-nav">
+                    <div data-template="app:nav"/>
+                </div> <!-- /sidebar-nav -->
+                <!-- weitere Sidebar-Elemente -->    
+            </div> <!-- col-sm-3 = sidebar -->
+            <div id="content" class="col-sm-9">
+                <div data-template="app:register_view"/>
+            </div>
+</div> <!-- /row mit sidebar und content -->
 </div>
