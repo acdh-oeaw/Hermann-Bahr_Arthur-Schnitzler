@@ -115,7 +115,7 @@ declare function app:view_single($id,$type) {
         <div class="title-box">
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a href="#">&lt;</a></li>
+                    <li class="previous"><a href="view.html?id={app:prev-doc-id($id)}">&lt;</a></li>
                     <li class="next"><a href="view.html?id={app:next-doc-id($id)}">&gt;</a></li>
                 </ul>
              </nav>
@@ -359,13 +359,38 @@ declare function app:order-ids() {
             default return "none"
         order by $date ascending
     return 
-        <id>{$id}</id>
+        <id type="{substring($id,1,1)}">{$id}</id>
     return
         <ids>{$ids}</ids>
 };
 
 declare function app:next-doc-id($id) {
-    (:Liefert das folgende Dokument:)
+    (:Liefert das folgende Dokument;nutzt die Session wahrscheinlich nicht:)
+    let $ordered-ids :=
+        if (session:get-attribute("ids")) then
+            session:get-attribute("ids")
+        else 
+            session:set-attribute("ids", app:order-ids())
+    return
+        $ordered-ids//id[text()=$id]/following-sibling::id[1]
+    (: 
     app:order-ids()//id[text()=$id]/following-sibling::id[1]
+    :)
+    
+};
+
+declare function app:prev-doc-id($id) {
+    (:Liefert das folgende Dokument;nutzt die Session wahrscheinlich nicht:)
+    let $ordered-ids :=
+        if (session:get-attribute("ids")) then
+            session:get-attribute("ids")
+        else 
+            session:set-attribute("ids", app:order-ids())
+    return
+        $ordered-ids//id[text()=$id]/preceding-sibling::id[1]
+    (: 
+    app:order-ids()//id[text()=$id]/following-sibling::id[1]
+    :)
+    
 };
 
