@@ -2,6 +2,7 @@ xquery version "3.1";
 
 module namespace app="http://hbas.at/templates";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace hbas="http://hbas.at/ns";
 
 
 import module namespace templates="http://exist-db.org/xquery/templates" ;
@@ -109,6 +110,30 @@ return
 
 declare function app:view_single($id,$type) {
     (:Gibt eine Einzelansicht eines Dokuments aus:)
+    
+    <div id="content-box" class="col-sm-9">
+        <div class="title-box">
+            <nav>
+                <ul class="pager">
+                    <li class="previous"><a href="#">&lt;</a></li>
+                    <li class="next"><a href="view.html?id={app:next-doc-id($id)}">&gt;</a></li>
+                </ul>
+             </nav>
+            <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
+        </div> <!-- /title-box -->
+        <div class="text-box">
+            {format:tei2html(collection($config:data-root)/id($id)//tei:text)}
+        </div>
+        <div class="anhang-box">
+            {format:tei2html(collection($config:data-root)/id($id)//tei:sourceDesc)}
+        </div>
+        <div class="kommentar-box">
+            Lemma 1] Kommentar
+            Lemma 2] Kommentar
+        </div>
+    </div>
+    
+    (: 
     <div class="row">
         <h2>{collection($config:data-root)/id($id)//tei:titleStmt/tei:title[@level='a']/text()}</h2>
         {
@@ -119,7 +144,7 @@ declare function app:view_single($id,$type) {
         
         {format:tei2html(collection($config:data-root)/id($id))}
     </div>
-    
+    :)
     
 };
 
@@ -196,3 +221,151 @@ declare function app:register_single($key,$type) {
         return 
             <ul>{$liste}</ul>
 };
+
+
+declare
+    %templates:wrap
+function app:nav($node as node(), $model as map(*)) {
+    (:Navigation:)
+    <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                            </button>
+                            <span class="visible-xs navbar-brand">Menü</span>
+                        </div> <!-- /.navbar-header -->
+                        <div id="menu" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown visible-xs" id="nav_home">
+                                    <a href="index.html">Home</a>
+                                </li>
+
+                                <li class="dropdown visible-xs" id="nav_dokumente">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="view.html?type=L">Briefe</a>
+                                        </li>
+                                        <li>
+                                            <a href="view.html?type=D">Tagebucheinträge</a>
+                                        </li>
+                                        <li>
+                                            <a href="view.html?type=T">Texte</a>
+                                        </li>
+                                    </ul>
+                                </li> <!-- /Dokumente -->
+
+                                <li class="dropdown visible-xs" id="nav_register">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="register.html?type=p">Personen</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=org">Organisationen</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=o">Orte</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=w">Werke</a>
+                                        </li>
+                                    </ul>
+                                </li> <!-- /Register -->
+
+                                <li class="dropdown visible-xs" id="nav_suche">
+                                    <a href="#">Suche</a>
+                                </li> <!-- /Suche -->
+
+                                <li class="dropdown" id="nav_ueber">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über die Edition</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                                <a href="#">Zur Ausgabe</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Editionsbericht</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Nachwort</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Kontakt</a>
+                                            </li>
+                                    </ul>
+                                </li> <!-- /About -->
+
+                                <li class="dropdown visible-xs" id="nav_settings">
+                                    <a href="#">Einstellungen</a>
+                                </li> <!-- /Einstellungen -->
+
+
+                            </ul> <!-- /Navigations-Liste -->
+                        </div> <!--/.nav-collapse -->
+        </nav>
+};
+
+declare
+    %templates:wrap
+function app:inhalt-liste($node as node(), $model as map(*)) {
+    (:Funktioniert nicht, wegen der Session:)
+    for $doc in app:meta-docs(1,100) return
+        <li>{$doc/title/text()}</li>
+};
+
+declare function app:meta-docs($start,$n) {
+    
+    let $docs := for $doc in collection($config:data-root)/tei:TEI
+        let $id := $doc/@xml:id/string()
+        let $type := substring($id,1,1)
+        let $title := $doc//tei:titleStmt/tei:title[@level="a"]/text()
+        let $author := $doc//tei:titleStmt/tei:title/tei:author/text()
+        let $date := 
+            switch (substring($id,1,1))
+            case "L" return $doc//tei:dateSender/tei:date/@when/string()
+            case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
+            case "T" return $doc//tei:origDate/@when/string()
+            default return "none"
+        order by $date ascending
+        return 
+            <doc>
+                <id>{$id}</id>
+                <type>{$type}</type>
+                <author>{$title}</author>
+                <title>{$title}</title>
+                <date>{$date}</date>
+            </doc>
+    let $session := session:set-attribute("docs", $docs) (: store result into session :)
+    (: only return $n nodes starting at $start nodes :)
+    
+    for $doc in subsequence($docs, $start, $n)
+    return 
+        $doc
+    
+};
+
+declare function app:order-ids() {
+    let $ids :=
+    for $doc in collection($config:data-root)/tei:TEI
+    let $id := $doc/@xml:id/string()
+    let $date := 
+            switch (substring($id,1,1))
+            case "L" return $doc//tei:dateSender/tei:date/@when/string()
+            case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
+            case "T" return $doc//tei:origDate/@when/string()
+            default return "none"
+        order by $date ascending
+    return 
+        <id>{$id}</id>
+    return
+        <ids>{$ids}</ids>
+};
+
+declare function app:next-doc-id($id) {
+    (:Liefert das folgende Dokument:)
+    app:order-ids()//id[text()=$id]/following-sibling::id[1]
+};
+
