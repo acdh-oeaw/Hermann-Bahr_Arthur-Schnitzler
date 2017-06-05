@@ -12,58 +12,114 @@
         <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
     </head>
     <body id="body">
-        <nav class="navbar navbar-default" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"/>
-                    <span class="icon-bar"/>
-                    <span class="icon-bar"/>
-                </button>
-                <a data-template="config:app-title" class="navbar-brand" href="./index.html">App Title</a>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown" id="home">
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li class="dropdown" id="Docs">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="view.html?type=L">Briefe</a>
-                            </li>
-                            <li>
-                                <a href="view.html?type=D">Tagebucheinträge</a>
-                            </li>
-                            <li>
-                                <a href="view.html?type=T">Texte</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="dropdown" id="Register">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a href="register.html?type=p">Personen</a>
-                            </li>
-                            <li>
-                                <a href="register.html?type=org">Organisationen</a>
-                            </li>
-                            <li>
-                                <a href="register.html?type=o">Orte</a>
-                            </li>
-                            <li>
-                                <a href="register.html?type=w">Werke</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <div id="content" class="container"/>
+    
+    <div class="container">
+        <div class="row top-header">
+            <div class="col-xs-12">
+                <h1>
+                    <span data-template="config:app-title">App Title</span>
+                        <br/>
+                    <span class="sub-header">Briefwechsel, Aufzeichnungen, Dokumente</span>
+                </h1>
+            </div> <!-- col-xs-12 -->
+        </div> <!-- /top-header -->
+        
+        <div class="row">
+            <div id="sidebar" class="col-sm-3">
+                <div class="sidebar-nav">
+                    
+                    <nav class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                                <span class="icon-bar"/>
+                            </button>
+                            <span class="visible-xs navbar-brand">Menü</span>
+                        </div> <!-- /.navbar-header -->
+                        <div id="menu" class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown visible-xs" id="nav_home">
+                                    <a href="index.html">Home</a>
+                                </li>
+
+                                <li class="dropdown visible-xs" id="nav_dokumente">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="view.html?type=L">Briefe</a>
+                                        </li>
+                                        <li>
+                                            <a href="view.html?type=D">Tagebucheinträge</a>
+                                        </li>
+                                        <li>
+                                            <a href="view.html?type=T">Texte</a>
+                                        </li>
+                                    </ul>
+                                </li> <!-- /Dokumente -->
+
+                                <li class="dropdown visible-xs" id="nav_register">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="register.html?type=p">Personen</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=org">Organisationen</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=o">Orte</a>
+                                        </li>
+                                        <li>
+                                            <a href="register.html?type=w">Werke</a>
+                                        </li>
+                                    </ul>
+                                </li> <!-- /Register -->
+
+                                <li class="dropdown visible-xs" id="nav_suche">
+                                    <a href="#">Suche</a>
+                                </li> <!-- /Suche -->
+
+                                <li class="dropdown" id="nav_ueber">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über die Edition</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                                <a href="#">Zur Ausgabe</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Editionsbericht</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Nachwort</a>
+                                            </li>
+                                        <li>
+                                                <a href="#">Kontakt</a>
+                                            </li>
+                                    </ul>
+                                </li> <!-- /About -->
+
+                                <li class="dropdown visible-xs" id="nav_settings">
+                                    <a href="#">Einstellungen</a>
+                                </li> <!-- /Einstellungen -->
+
+
+                            </ul> <!-- /Navigations-Liste -->
+                        </div> <!--/.nav-collapse -->
+                    </nav> <!-- /Navigation -->
+                </div> <!-- /sidebar-nav -->
+                <!-- weitere Sidebar-Elemente -->    
+            </div> <!-- col-sm-3 = sidebar -->
+            <div id="content" class="col-sm-9"/> <!-- ersetzt durch content -->
+        </div> <!-- /row mit sidebar und content -->
+        
+    </div> <!-- /container -->
+    
+    
+    
+        <!-- eventuell rein in den container... -->
         <footer>
-            [Footer]
+            <span data-template="config:app-title">App Title</span> <a href="impressum.html">Impressum</a>
         </footer>
     </body>
     <!-- tooltips -->
