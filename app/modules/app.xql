@@ -189,8 +189,48 @@ declare function app:view_single($id,$type) {
             {format:tei2html(collection($config:data-root)/id($id)//tei:text)}
         </div>
         <div class="anhang-box">
-            {format:tei2html(collection($config:data-root)/id($id)//tei:sourceDesc)}
-        </div>
+            {
+                if (substring($id,1,1)="L") then
+                    <div class="correspDesc">
+                        <span class="glyphicon glyphicon-envelope"></span>
+                        <div class="sender-box">
+                            <span class="sender">
+                                {format:tei2html(collection($config:data-root)/id($id)//tei:sender//tei:persName)}
+                            </span>
+                            {format:tei2html(collection($config:data-root)/id($id)//tei:placeSender)}
+                            {
+                                if (collection($config:data-root)/id($id)//tei:dateSender) then
+                                format:tei2html(collection($config:data-root)/id($id)//tei:dateSender)
+                                else ()
+                            }
+                            
+                        </div>
+                        <div class="addressee-box">
+                            {format:tei2html(collection($config:data-root)/id($id)//tei:addressee)}
+                            {format:tei2html(collection($config:data-root)/id($id)//tei:placeAddressee)}
+                            {format:tei2html(collection($config:data-root)/id($id)//tei:dateAddressee)}
+                        </div>
+                    </div>
+                    
+                else ()
+            }
+            {
+                if (collection($config:data-root)/id($id)//tei:listWit) then
+            <div class="witnessBox">
+                <span class="glyphicon glyphicon-map-marker"></span>
+                {format:tei2html(collection($config:data-root)/id($id)//tei:listWit)}
+            </div>
+                else ()
+            }
+            {
+            if (collection($config:data-root)/id($id)//tei:listBibl) then
+            <div class="biblBox">
+            <span class="glyphicon glyphicon-book"></span>
+                {format:tei2html(collection($config:data-root)/id($id)//tei:listBibl)}
+            </div>
+            else ()
+            }
+        </div> <!-- /anhang-box -->
         <div class="kommentar-box">
             Lemma 1] Kommentar
             Lemma 2] Kommentar

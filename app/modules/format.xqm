@@ -160,8 +160,8 @@ declare function format:tei2html($nodes as node()*) {
             format:tei2html($node/node())
         
         (: correspDesc :)
-        case element(tei:context) return
-            <div class="corrspDesc">{format:tei2html($node/node())}</div>
+        case element(tei:correspDesc) return
+            <div class="correspDesc">{format:tei2html($node/node())}</div>
         
         (: country :)
         (:kommt vor in msIdentifier und placeName:)
@@ -448,7 +448,7 @@ declare function format:tei2html($nodes as node()*) {
             <div class="msDesc">{format:tei2html($node/node())}</div>
         
         (: msIdentifier :)
-        case element(msIdentifier) return
+        case element(tei:msIdentifier) return
             <span class="msIdentifier">{format:tei2html($node/node())}</span>
         
         (: ### N ###:)
