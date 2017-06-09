@@ -58,7 +58,9 @@ declare function format:tei2html($nodes as node()*) {
             <div class="addrLine">{format:tei2html($node/node())}</div>
         
         (: analytic :)
-        (: keine Ahnung wofür:)
+        (: Literaturangaben in bibl:)
+        case element(tei:analytic) return
+           <span class="analytic">{format:tei2html($node/node())}</span>
         
         (: tei:anchor :)
         (: 
@@ -94,6 +96,7 @@ declare function format:tei2html($nodes as node()*) {
         soll ich das verlinken, oder nicht?
         :)
         case element(tei:author) return
+            (: 
             if ($node/@key) then
                 <a class="author"
                 data-toggle="popover"
@@ -103,8 +106,9 @@ declare function format:tei2html($nodes as node()*) {
                 data-placement="top"
                 data-content="{format:popover_person($node/@key)}"
                 >{format:tei2html($node/node())}</a>
-                else <span class="author">{format:tei2html($node/node())}</span> 
-        
+                else <span class="author">{format:tei2html($node/node())}</span>  
+            :)
+            <span class="author {if ($node/following-sibling::tei:author) then () else 'last'}">{format:tei2html($node/node())}</span>
         
         (: availability :)
         case element(tei:availability) return
@@ -120,9 +124,7 @@ declare function format:tei2html($nodes as node()*) {
         (: biblStruct :)
         (:Bibliographische Angabe in sourceDesc und zwar nur hier:)
         case element(tei:biblStruct) return    
-            switch ($node/parent::element()/name())
-            case ("tei:listBibl" or "list:Bibl") return <li class="biblStruct">{format:tei2html($node/node())}</li>
-            default return <div class="biblStruct">{format:tei2html($node/node())}</div>
+            <li class="biblStruct">{format:tei2html($node/node())}</li>
         
         (: tei:body :)
         case element(tei:body) return
@@ -197,14 +199,16 @@ declare function format:tei2html($nodes as node()*) {
         (: kommt in den Metadaten und im text vor:)
         (:Attribute @when, @n??:)
         case element(tei:date) return
-            <a class="date"
-            data-toggle="popover"
-            data-container="body"
-            data-title="Datum"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_datum($node)}"
-            >{format:tei2html($node/node())}</a>
+            if ($node/ancestor::tei:text) then
+                <a class="date"
+                    data-toggle="popover"
+                    data-container="body"
+                    data-title="Datum"
+                    data-html="true"
+                    data-placement="top"
+                    data-content="{format:popover_datum($node)}"
+                    >{format:tei2html($node/node())}</a>
+            else <span class="date{if ($node/ancestor::tei:monogr/tei:biblScope) then ' date-pp' else ()}">{format:tei2html($node/node())}</span>
         
         
         

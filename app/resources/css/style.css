@@ -478,3 +478,60 @@ del.erased:hover {
     list-style:none;
     padding:0px;
 }
+
+/*Bibliographische Angaben*/
+
+.monogr .author.last:after {
+    display:inline;
+    content:":";
+}
+
+.monogr .author:after {
+    display:inline;
+    content:"; ";
+}
+
+.analytic .author.last:after {
+    display:inline;
+    content:":";
+}
+
+.analytic,.monogr .title.level_m {
+    font-style:italic;
+}
+
+.analytic,.monogr .title.level_m:after {
+    display:inline;
+    content:".";
+}
+
+.analytic,.monogr .pubPlace:after {
+    display:inline;
+    content:":";
+}
+
+.analytic,.monogr .editor:after {
+    display:inline;
+    content:".";
+}
+
+.analytic,.monogr .date:after {
+    display:inline;
+    content:".";   
+}
+
+.analytic,.monogr .date-pp:after {
+    display:inline;
+    content:",";   
+}
+
+.analytic,.monogr .biblScope.pp:before {
+    display:inline;
+    content:"S. ";   
+}
+
+.analytic,.monogr .biblScope.pp:after {
+    display:inline;
+    content:".";   
+}
+
