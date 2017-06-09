@@ -188,7 +188,7 @@ declare function app:view_single($id,$type) {
         <div class="text-box">
             {format:tei2html(collection($config:data-root)/id($id)//tei:text)}
         </div>
-        <div class="anhang-box">
+        <div id="anhang" class="anhang-box collapse">
             {
                 if (substring($id,1,1)="L") then
                     <div class="correspDesc">
@@ -231,10 +231,27 @@ declare function app:view_single($id,$type) {
             else ()
             }
         </div> <!-- /anhang-box -->
-        <div class="kommentar-box">
-            Lemma 1] Kommentar
-            Lemma 2] Kommentar
+        {
+            if (collection($config:data-root)/id($id)//tei:anchor[@type='commentary']) then
+        <div id="kommentar" class="kommentar-box collapse">
+            {
+                for $kommentar in collection($config:data-root)/id($id)//tei:anchor[@type='commentary']
+                return 
+                    <div class="commentary-fn">
+                        <sup class="fn-marker"><a id="FN_{$kommentar/@xml:id}"
+                        href="#FN-ref_{$kommentar/@xml:id}"
+                        >
+                            {count($kommentar/preceding::tei:anchor[@type='commentary'])+1}
+                        </a></sup>
+                        <span class="lemma">{$kommentar}</span>
+                        <span class="kommentar-txt">
+                        {format:tei2html(collection($config:data-root||"/meta")/id($kommentar/@xml:id)//tei:p/node())}
+                        </span>
+                    </div>
+            }
         </div>
+        else ()
+        }
     </div>
     
     (: 
@@ -596,3 +613,19 @@ declare function app:prev-doc-id($id,$type) {
     
 };
 
+declare
+    %templates:wrap
+function app:settings($node as node(), $model as map(*)) {
+    <form>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_anhang" data-toggle="collapse" data-target="#anhang"> Anhang</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input data-toggle="collapse" data-target="#kommentar" type="checkbox" id="check_kommentar"> Kommentar</input>
+            </label>
+        </div>
+</form>
+};

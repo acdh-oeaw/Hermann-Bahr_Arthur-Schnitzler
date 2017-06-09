@@ -151,7 +151,6 @@
 .pager li>a:hover {
   color:black;
   border:none;
-  background-color:red;
 
 }
 
@@ -535,3 +534,29 @@ del.erased:hover {
     content:".";   
 }
 
+
+/*Kommentar*/
+
+.commentary-fn {
+    margin-bottom:0.2em;
+    padding-left:2em;
+}
+
+.fn-marker {
+
+    margin-left:-3em;
+}
+
+.commentary-fn .lemma {
+    font-family:serif;
+}
+
+.commentary-fn .lemma:after {
+    font-family:sans-serif;
+    display:inline;
+    content:"] ";
+}
+
+.commentary-fn .kommentar-txt {
+    font-size:10pt;
+}

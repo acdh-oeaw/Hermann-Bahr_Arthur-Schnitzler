@@ -81,7 +81,7 @@ declare function format:tei2html($nodes as node()*) {
                 data-placement="top"
                 data-content="{format:popover_kommentar($node/@xml:id)}"
                 >{format:tei2html($node/node())}</a>,
-                <a 
+                <a id="FN-ref_{$node/@xml:id}"
                 class="commentary-ref"
                 href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:anchor[@type='commentary'])+1}</sup></a>
                 )
