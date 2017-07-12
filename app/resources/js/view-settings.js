@@ -7,6 +7,7 @@ function getUrlVar(key){
 
 $(document).ready(function() {
 	var show = getUrlVar("show")
+	var viewMode = getUrlVar("view-mode")
 	if (show.indexOf("a") !== -1) {
 	    $("#anhang").collapse('show');
 	    $("#check_anhang").attr("checked","checked");
@@ -14,6 +15,11 @@ $(document).ready(function() {
 		if (show.indexOf("k") !== -1) {
 	    $("#kommentar").collapse('show');
 	    $("#check_kommentar").attr("checked","checked");
+	}
+	
+	if (viewMode == "2") {
+	    $("#select-view-mode").val('Erweiterte Ansicht');
+	    $(".text-box").toggleClass("leseansicht");
 	}
 });
 
@@ -55,9 +61,24 @@ $("#check_anhang").click(function() {
     }
 });
 
-$("#check_kommentar").click(function() {
-    /*wenn Paramenter nicht da, in url hinzufügen + href von vor/zurück anpassen*/
-    
+
+
+$("#select-view-mode").change(function(){
+    /*alert($("#select-view-mode").val());*/
+    if ($("#select-view-mode").val()=='Erweiterte Ansicht') {
+        $(".text-box").removeClass("leseansicht").addClass("text-box");
+        var url = $("#prev").attr("href");
+        newurl = url.replace("&view-mode=1","&view-mode=2");
+        $("#prev").attr("href", newurl);
+        $("#next").attr("href", newurl);
+    }
+    if ($("#select-view-mode").val()=='Leseansicht') {
+        $(".text-box").addClass("leseansicht");
+        var url = $("#prev").attr("href");
+        newurl = url.replace("&view-mode=2","&view-mode=1");
+        $("#prev").attr("href", newurl);
+        $("#next").attr("href", newurl);
+    }
     
 });
 

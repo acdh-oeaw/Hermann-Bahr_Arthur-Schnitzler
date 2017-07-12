@@ -64,7 +64,7 @@ declare function app:corresp-meta($id) {
 declare
  %templates:wrap
  %templates:default("type", "")
- function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author,$show) {
+ function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author,$show,$view-mode) {
  (: 
   : Seite zeigt ein einzelnes Dokument an. Welches angezeigt werden soll, wird per $id übergeben.
   : $id xml:id des Dokuments
@@ -73,7 +73,7 @@ declare
  :)
 
 let $output := if ($id!="") then
-        app:view_single($id,$type,$show)
+        app:view_single($id,$type,$show, $view-mode)
     else
         app:view_list($type,$date,$author)
  return $output
@@ -173,15 +173,15 @@ return
     </div>
 };
 
-declare function app:view_single($id,$type,$show) {
+declare function app:view_single($id,$type,$show, $view-mode) {
     (:Gibt eine Einzelansicht eines Dokuments aus:)
     
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}">&lt;</a></li>
-                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}">&gt;</a></li>
+                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&lt;</a></li>
+                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&gt;</a></li>
                 </ul>
              </nav>
             <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
@@ -231,10 +231,9 @@ declare function app:view_single($id,$type,$show) {
             </div>
             else ()
             }
-        </div> <!-- /anhang-box -->
-        {
+            {
             if (collection($config:data-root)/id($id)//tei:anchor[@type='commentary']) then
-        <div id="kommentar" class="kommentar-box collapse">
+        <div id="kommentar" class="kommentar-box">
             {
                 for $kommentar in collection($config:data-root)/id($id)//tei:anchor[@type='commentary']
                 return 
@@ -253,6 +252,9 @@ declare function app:view_single($id,$type,$show) {
         </div>
         else ()
         }
+            
+        </div> <!-- /anhang-box -->
+        
     </div>
     
     (: 
@@ -616,17 +618,19 @@ declare function app:prev-doc-id($id,$type) {
 
 declare
     %templates:wrap
-function app:settings($node as node(), $model as map(*),$show) {
+function app:settings($node as node(), $model as map(*),$show, $view-mode) {
     <form>
+        Ansicht:
+        <select id="select-view-mode" class="custom-select">
+            <option>Leseansicht</option>
+            <option>Erweiterte Ansicht</option>
+        </select>
+
         <div class="checkbox">
             <label>
                 <input type="checkbox" id="check_anhang" data-toggle="collapse" data-target="#anhang"> Anhang</input>
             </label>
         </div>
-        <div class="checkbox">
-            <label>
-                <input data-toggle="collapse" data-target="#kommentar" type="checkbox" id="check_kommentar"> Kommentar</input>
-            </label>
-        </div>
+        
 </form>
 };
