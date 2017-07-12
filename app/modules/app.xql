@@ -186,7 +186,7 @@ declare function app:view_single($id,$type,$show) {
              </nav>
             <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
         </div> <!-- /title-box -->
-        <div class="text-box">
+        <div class="text-box leseansicht">
             {format:tei2html(collection($config:data-root)/id($id)//tei:text)}
         </div>
         <div id="anhang" class="anhang-box collapse">
