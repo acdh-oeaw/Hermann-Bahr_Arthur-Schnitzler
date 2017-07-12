@@ -74,18 +74,13 @@ declare function format:tei2html($nodes as node()*) {
                 <a
                 id="{$node/@xml:id}"
                 class="commentary"
-                data-toggle="popover"
-                data-container="body"
-                data-title="Kommentar"
-                data-html="true"
-                data-placement="top"
-                data-content="{format:popover_kommentar($node/@xml:id)}"
                 >{format:tei2html($node/node())}</a>,
                 <a id="FN-ref_{$node/@xml:id}"
                 class="commentary-ref"
                 href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:anchor[@type='commentary'])+1}</sup></a>
                 )
             case "label" return <a id="{$node/@xml:id}">{format:tei2html($node/node())}</a>
+            (:Was mit textConst machen?:)
             case "textConst" return ()    
             default return ()
         
@@ -200,14 +195,7 @@ declare function format:tei2html($nodes as node()*) {
         (:Attribute @when, @n??:)
         case element(tei:date) return
             if ($node/ancestor::tei:text) then
-                <a class="date"
-                    data-toggle="popover"
-                    data-container="body"
-                    data-title="Datum"
-                    data-html="true"
-                    data-placement="top"
-                    data-content="{format:popover_datum($node)}"
-                    >{format:tei2html($node/node())}</a>
+                <a class="date">{format:tei2html($node/node())}</a>
             else <span class="date{if ($node/ancestor::tei:monogr/tei:biblScope) then ' date-pp' else ()}">{format:tei2html($node/node())}</span>
         
         
@@ -476,14 +464,7 @@ declare function format:tei2html($nodes as node()*) {
         (: orgName :)
         (:Attribut @key:)
         case element(tei:orgName) return
-            <a class="orgName"
-            data-toggle="popover"
-            data-title="Organisation"
-            data-container="body"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_orgName($node/@key)}"
-            >{format:tei2html($node/node())}</a>
+            <a class="orgName" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
         
         (: origDate :)
         (:im Header:)
@@ -519,14 +500,7 @@ declare function format:tei2html($nodes as node()*) {
             
         (: persName :)
         case element(tei:persName) return
-            <a class="persName"
-            data-toggle="popover"
-            data-title="Person"
-            data-container="body"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_person($node/@key)}"
-            >{format:tei2html($node/node())}</a>
+            <a class="persName" href="register.html?key={$node/@key}&amp;type=p">{format:tei2html($node/node())}</a>
             
             
         (: persNamey :)
@@ -550,14 +524,7 @@ declare function format:tei2html($nodes as node()*) {
         case element(tei:placeName) return
         if ($node/ancestor::tei:text) then 
             (:im Text mit popup:)
-            <a class="placeName"
-            data-toggle="popover"
-            data-title="Ort"
-            data-container="body"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_place($node)}"
-            >{format:tei2html($node/node())}</a>
+            <a class="placeName" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
                  else 
             <span class="placeName">{format:tei2html($node/node())}</span>    
             
@@ -624,41 +591,13 @@ declare function format:tei2html($nodes as node()*) {
             case element(tei:rs) return
                 switch ($node/@type) 
                 case "org" return 
-                    <a class="rs rs_org"
-                    data-toggle="popover"
-                    data-title="Organisation"
-                    data-container="body"
-                    data-html="true"
-                    data-placement="top"
-                    data-content="{format:popover_orgName($node/@key)}"
-                    >{format:tei2html($node/node())}</a>
+                    <a class="rs rs_org" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
                 case "person" return 
-                    <a class="rs rs_person"
-                    data-toggle="popover"
-                    data-title="Person"
-                    data-container="body"
-                    data-html="true"
-                    data-placement="top"
-                    data-content="{format:popover_person($node/@key)}"
-                    >{format:tei2html($node/node())}</a>
+                    <a class="rs rs_person" href="register.html?key={$node/@key}&amp;type=p">{format:tei2html($node/node())}</a>
                 case "place" return 
-                    <a class="rs rs_place"
-                    data-toggle="popover"
-                    data-title="Ort"
-                    data-container="body"
-                    data-html="true"
-                    data-placement="top"
-                    data-content="{format:popover_place($node)}"
-                    >{format:tei2html($node/node())}</a>
+                    <a class="rs rs_place" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
                 case "work" return 
-                    <a class="rs rs_work"
-                    data-toggle="popover"
-                    data-title="Werk"
-                    data-container="body"
-                    data-html="true"
-                    data-placement="top"
-                    data-content="{format:popover_work($node)}"
-                    >{format:tei2html($node/node())}</a>
+                    <a class="rs rs_work" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
                 default return <span class="rs rs_{$node/@type}" data-key="{$node/@key}">{format:tei2html($node/node())}</span>
                 
         
@@ -800,14 +739,7 @@ declare function format:tei2html($nodes as node()*) {
         
         (:  workName:)
         case element (tei:workName) return
-            <a class="workName"
-            data-toggle="popover"
-            data-title="Werk"
-            data-container="body"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_work($node)}"
-            >{format:tei2html($node/node())}</a>
+            <a class="workName" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
             
         
         (: ### DEFAULT ###:)
