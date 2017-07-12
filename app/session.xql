@@ -26,7 +26,5 @@ let $docs := for $doc in collection($config:data-root)/tei:TEI
     let $session := session:set-attribute("docs", $docs) (: store result into session :)
     (: only return the first 10 nodes :)
     
-    for $doc in subsequence($docs, 1, 10)
-    return 
-        <div>{$doc/id} – {$doc/title} ({$doc/date})</div>
+    return session:get-attribute("docs")[2]
     (: Generate HTML for output :)
