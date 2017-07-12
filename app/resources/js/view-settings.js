@@ -3,11 +3,6 @@ function getUrlVar(key){
 	return result && unescape(result[1]) || "";
 }
 
-/*var string = "foo",
-    substring = "oo";
-string.indexOf(substring) !== -1;
-String.prototype.indexOf returns the position of the string in the other string. If not found, it will return -1.
-*/
 
 
 $(document).ready(function() {
