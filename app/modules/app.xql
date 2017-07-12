@@ -64,15 +64,16 @@ declare function app:corresp-meta($id) {
 declare
  %templates:wrap
  %templates:default("type", "")
- function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author) {
+ function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author,$show) {
  (: 
   : Seite zeigt ein einzelnes Dokument an. Welches angezeigt werden soll, wird per $id übergeben.
   : $id xml:id des Dokuments
-  : $type für Listenansicht: T texts, D diaries, L letters 
+  : $type für Listenansicht: T texts, D diaries, L letters
+  : $show steuert die Ansicht
  :)
 
 let $output := if ($id!="") then
-        app:view_single($id,$type)
+        app:view_single($id,$type,$show)
     else
         app:view_list($type,$date,$author)
  return $output
@@ -172,15 +173,15 @@ return
     </div>
 };
 
-declare function app:view_single($id,$type) {
+declare function app:view_single($id,$type,$show) {
     (:Gibt eine Einzelansicht eines Dokuments aus:)
     
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
             <nav>
                 <ul class="pager">
-                    <li class="previous"><a href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}">&lt;</a></li>
-                    <li class="next"><a href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}">&gt;</a></li>
+                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}">&lt;</a></li>
+                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}">&gt;</a></li>
                 </ul>
              </nav>
             <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
@@ -615,7 +616,7 @@ declare function app:prev-doc-id($id,$type) {
 
 declare
     %templates:wrap
-function app:settings($node as node(), $model as map(*)) {
+function app:settings($node as node(), $model as map(*),$show) {
     <form>
         <div class="checkbox">
             <label>
