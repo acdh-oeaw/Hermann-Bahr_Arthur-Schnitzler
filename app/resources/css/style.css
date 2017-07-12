@@ -76,6 +76,11 @@
       padding-right:0px;
   }
   
+.sidebar-nav .navbar {
+    background-color:inherit;
+    border:none;
+    
+  }
 
 }
 
@@ -98,8 +103,17 @@
     content:"Normal"
   }
   */
-
-
+  
+  .sidebar-nav .navbar {
+    background-color:inherit;
+    border:none;
+    
+  }
+  
+  .navbar-default .navbar-nav>li>a {
+      color:black;
+  }
+  
 }
 @media (min-width: 1200px) {
   .navbar {
@@ -112,8 +126,14 @@
     content:"Widescreen"
   }
   */
-
+  
+  .sidebar-nav .navbar {
+    background-color:inherit;
+    border:none;
+    
   }
+
+  } /* /Widescreen */
 
 body, h1, h2 {
     font-family:serif;
