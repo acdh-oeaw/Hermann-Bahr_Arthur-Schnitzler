@@ -4,6 +4,28 @@ function getUrlVar(key){
 }
 
 
+function getParams() {
+    
+    /*vorangehendes+folgendes Dokument*/
+    var prevUrl = $("#prev").attr("href");
+    var prevPos = prevUrl.search(/id=/i);
+    var prev = prevUrl.substring(prevPos+3,prevPos+10)
+    
+    var nextUrl = $("#next").attr("href");
+    var nextPos = nextUrl.search(/id=/i);
+    var next = nextUrl.substring(nextPos+3,nextPos+10)
+    
+    
+    var params = {}
+    params["id"] = getUrlVar("id");
+    params["show"] = getUrlVar("show");
+    params["type"] = getUrlVar("type");
+    params["view-mode"] = getUrlVar("view-mode");
+    params["prev"] = prev;
+    params["next"] = next
+    return params
+}
+
 
 $(document).ready(function() {
 	var show = getUrlVar("show")
@@ -27,53 +49,16 @@ $(document).ready(function() {
 
 $("#check_anhang").click(function() {
     /*wenn Paramenter nicht da, in url hinzufügen + href von vor/zurück anpassen*/
-    var url = $("#prev").attr("href");
-    var pos = url.search("show");
+    var url = document.location;
+    alert(url);
+    /*Parameter finden*/
+    var params = getParams();
+    alert("prev= " + params["prev"]+ " |next= " + params["next"]);
+    
+     /* alert("id=" + params["id"] + " view-mode=" + params["view-mode"] + " show=" + params["show"] + " type=" + params["type"] + " prev=" + params["prev"] + " next=" + params["next"]) */
     
     if ($("#check_anhang").attr("checked")!=="checked") {
-    /* alert("Parameter entfernen"); */  
-    if (pos !== -1) {
-        var sln = url.length;
-        var showLen = sln - pos
-        var show = url.slice(pos, sln)
-        urlnoshow = url.slice(0, pos)
-        /* alert("show: " + show + " showLen: " + showLen + " pos: " + pos+ " url-no-show: " + urlnoshow) */
-        /*neue url*/
-        $("#prev").attr("href", newurl)
-        /* alert(newurl) */
-    }
-     
-    }/*Ende 1. if*/
-    else {
-        /*War nicht angewählt*/
-        /* alert("show hinzufügen") */
-        if ($("#check_kommentar").attr("checked")=="checked") {
-            /* BESTE VARIANTE – nur das so implementieren, dafür bei #prev und #next ersetzen */
-            url = url.replace("&show=","&show=a")
-            /* alert("neue url: " + url) */
-            $("#prev").attr("href", url)
-            $("#next").attr("href", url)
-        }
-    }
-});
-
-
-
-$("#select-view-mode").change(function(){
-    /*alert($("#select-view-mode").val());*/
-    if ($("#select-view-mode").val()=='Erweiterte Ansicht') {
-        $(".text-box").removeClass("leseansicht").addClass("text-box");
-        var url = $("#prev").attr("href");
-        newurl = url.replace("&view-mode=1","&view-mode=2");
-        $("#prev").attr("href", newurl);
-        $("#next").attr("href", newurl);
-    }
-    if ($("#select-view-mode").val()=='Leseansicht') {
-        $(".text-box").addClass("leseansicht");
-        var url = $("#prev").attr("href");
-        newurl = url.replace("&view-mode=2","&view-mode=1");
-        $("#prev").attr("href", newurl);
-        $("#next").attr("href", newurl);
+    alert("Parameter entfernen"); 
     }
     
 });
