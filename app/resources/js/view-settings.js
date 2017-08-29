@@ -49,17 +49,56 @@ $(document).ready(function() {
 
 $("#check_anhang").click(function() {
     /*wenn Paramenter nicht da, in url hinzufügen + href von vor/zurück anpassen*/
-    var url = document.location;
-    alert(url);
+    var url = window.location.href;
+    /* alert(url); */
     /*Parameter finden*/
     var params = getParams();
-    alert("prev= " + params["prev"]+ " |next= " + params["next"]);
+    
+    /*baseurl*/
+    /* URL anpassen */
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    
+    /* alert("prev= " + params["prev"]+ " | next= " + params["next"]); */
     
      /* alert("id=" + params["id"] + " view-mode=" + params["view-mode"] + " show=" + params["show"] + " type=" + params["type"] + " prev=" + params["prev"] + " next=" + params["next"]) */
     
     if ($("#check_anhang").attr("checked")!=="checked") {
-    alert("Parameter entfernen"); 
+    /* Anhang ist angewählt, soll entfernt werden */
+    /* alert("Parameter entfernen"); */ 
+    /* alert("Baseurl: " + baseurl) */
+    var newurl = baseurl + "?" + "id=" + params["id"] + "&type=" + params["type"] + "&view-mode=" + params["view-mode"];
+        window.location.href = newurl;
     }
-    
+    else {
+            var newurl = baseurl + "?" + "id=" + params["id"] + "&type=" + params["type"] + "&show=a" + "&view-mode=" + params["view-mode"];
+    window.location.href = newurl;
+    }
 });
 
+
+$("#select-view-mode").change(function(){
+    /*alert($("#select-view-mode").val());*/
+    var params = getParams();
+    var url = window.location.href;
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    
+    if ($("#select-view-mode").val()=='Erweiterte Ansicht') {
+        var newurl = baseurl + "?id=" + params["id"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=2"
+    window.location.href = newurl;    
+    }
+    if ($("#select-view-mode").val()=='Leseansicht') {
+        var newurl = baseurl + "?id=" + params["id"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=1"
+    window.location.href = newurl;    
+    }
+    });
+
+$(".commentary-ref").click(function() {
+    var params = getParams();
+    if (params["show"] !== "a") {
+      $("#anhang").collapse('show');  
+    }
+    
+    
+});
