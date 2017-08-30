@@ -102,3 +102,54 @@ $(".commentary-ref").click(function() {
     
     
 });
+
+/*Steuerung per Cursor*/
+
+$(document).keydown(function(e) {
+    var params = getParams();
+    var url = window.location.href;
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    switch(e.which) {
+        case 37: // left
+        /* load prev */
+        /* alert("Arrow left")*/
+        /* alert(params["prev"]) */
+        var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    window.location.href = newurl;  
+        break;
+
+        case 39: // right
+        /* alert("Arrow right"); */
+        var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    window.location.href = newurl;
+        break;
+
+        default: return; // exit this handler for other keys
+    }
+    e.preventDefault(); // prevent the default action (scroll / move caret)
+});
+
+/* Mobile: Steuerung per swipeleft/swiperight */
+
+$("#content-box").on("swipeleft",function(){
+  /*Zurück*/
+    var params = getParams();
+    var url = window.location.href;
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    window.location.href = newurl;
+});
+
+$("#content-box").on("swiperight",function(){
+  /*nächstes Dokument*/
+    var params = getParams();
+    var url = window.location.href;
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    window.location.href = newurl;
+});
+
+
