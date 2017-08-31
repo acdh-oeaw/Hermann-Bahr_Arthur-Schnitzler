@@ -129,14 +129,12 @@ $(document).keydown(function(e) {
         /* alert("Arrow left")*/
         /* alert(params["prev"]) */
         var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"];
-        alert("left");
         window.location.href = newurl;
         break;
 
         case 39: // right
         /* alert("Arrow right"); */
         var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
-        alert("right");
         window.location.href = newurl;
         break;
 
