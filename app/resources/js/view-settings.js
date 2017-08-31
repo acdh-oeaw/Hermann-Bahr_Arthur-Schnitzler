@@ -43,7 +43,16 @@ $(document).ready(function() {
 	
 	if (viewMode == "") {
 	    /*alert("Set URL-parameter view-mode")*/
-        document.location = document.location + '&view-mode=1';
+        /*checken, ob Fragezeichen in der URL vorkommt*/
+        var url = window.location.href
+        var result = url.search(/\?/i);
+        if (result == -1) {
+            document.location = document.location + '?view-mode=1';
+        }
+        else {
+           document.location = document.location + '&view-mode=1'; 
+        }
+        
 	}
 });
 
@@ -115,13 +124,13 @@ $(document).keydown(function(e) {
         /* load prev */
         /* alert("Arrow left")*/
         /* alert(params["prev"]) */
-        var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+        var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
     window.location.href = newurl;  
         break;
 
         case 39: // right
         /* alert("Arrow right"); */
-        var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+        var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
     window.location.href = newurl;
         break;
 
@@ -138,7 +147,7 @@ $("#content-box").on("swipeleft",function(){
     var url = window.location.href;
     var paramPos = url.search(/\?/i);
     var baseurl = url.substring(0,paramPos)
-    var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
     window.location.href = newurl;
 });
 
@@ -148,7 +157,7 @@ $("#content-box").on("swiperight",function(){
     var url = window.location.href;
     var paramPos = url.search(/\?/i);
     var baseurl = url.substring(0,paramPos)
-    var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode" + params["view-mode"]
+    var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
     window.location.href = newurl;
 });
 
