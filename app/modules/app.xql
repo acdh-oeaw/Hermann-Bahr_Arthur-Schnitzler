@@ -75,11 +75,11 @@ declare
 let $output := if ($id!="") then
         app:view_single($id,$type,$show, $view-mode)
     else
-        app:view_list($type,$date,$author)
+        app:view_list($type,$date,$author,$id)
  return $output
  };
 
-declare function app:view_list($type,$date,$author) {
+declare function app:view_list($type,$date,$author,$id) {
     (:Gibt eine Liste mit allen verfügbaren Dokumenten aus:)
     if ($date!='' or $author!='') then 
         (:$date oder author gesetzt, weiter filtern:)
@@ -151,7 +151,7 @@ return
             default return $config:data-root
         else $config:data-root
     let $data := collection($data-path)
-    for $doc in $data//tei:TEI
+    for $doc in $data//tei:TEI[@xml:id]
         let $date := 
             switch (substring($doc/@xml:id/string(),1,1))
             case "T" return $doc//tei:origDate/@when/string()
@@ -165,7 +165,7 @@ return
     bei Texten origDate
     :)
 return
-    <div class="docListItem">
+    <div class="docListItem doctype_{substring($doc/@xml:id/string(),1,1)}">
         <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
         <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
     </div>
@@ -458,8 +458,7 @@ function app:nav($node as node(), $model as map(*)) {
                                 <li class="dropdown visible-xs" id="nav_home">
                                     <a href="index.html">Home</a>
                                 </li>
-
-                                <li class="dropdown" id="nav_dokumente">
+                                <li class="dropdown hidden-md hidden-lg" id="nav_dokumente">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -472,9 +471,12 @@ function app:nav($node as node(), $model as map(*)) {
                                             <a href="view.html?type=T">Texte</a>
                                         </li>
                                     </ul>
-                                </li> <!-- /Dokumente -->
-
-                                <li class="dropdown" id="nav_register">
+                                </li> 
+                                <li class="hidden-xs hidden-sm">
+                                    <a href="view.html">Dokumente</a>
+                                </li>
+                                <!-- /Dokumente -->
+                                <li class="dropdown hidden-md hidden-lg" id="nav_register">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
                                     <ul class="dropdown-menu">
                                         <li>
@@ -490,7 +492,11 @@ function app:nav($node as node(), $model as map(*)) {
                                             <a href="register.html?type=w">Werke</a>
                                         </li>
                                     </ul>
-                                </li> <!-- /Register -->
+                                </li> 
+                                <li class="hidden-xs hidden-sm">
+                                    <a href="register.html">Register</a>
+                                </li>
+                                <!-- /Register -->
 
                                 <li class="dropdown visible-xs" id="nav_suche">
                                     <a href="#">Suche</a>
@@ -513,10 +519,6 @@ function app:nav($node as node(), $model as map(*)) {
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
-
-                                <li class="dropdown visible-xs" id="nav_settings">
-                                    <a href="#">Einstellungen</a>
-                                </li> <!-- /Einstellungen -->
 
 
                             </ul> <!-- /Navigations-Liste -->
@@ -618,7 +620,8 @@ declare function app:prev-doc-id($id,$type) {
 
 declare
     %templates:wrap
-function app:settings($node as node(), $model as map(*),$show, $view-mode) {
+function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) {
+    if ($id != "") then
     <form>
         Ansicht:
         <select id="select-view-mode" class="custom-select">
@@ -632,5 +635,26 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode) {
             </label>
         </div>
         
-</form>
+    </form>
+    else 
+        (: Listenansicht :)
+        <form class="hidden-xs hidden-sm">
+            Zeige Dokumente:
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_doctype_L" checked="checked"> Briefe</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_doctype_D" checked="checked"> Tagebucheinträge</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_doctype_T" checked="checked"> Texte</input>
+            </label>
+        </div>
+        </form>
+        
 };

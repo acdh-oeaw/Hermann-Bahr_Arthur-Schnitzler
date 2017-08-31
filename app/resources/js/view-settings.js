@@ -144,5 +144,16 @@ $(document).keydown(function(e) {
 });
 
 
+$("#toggle_doctype_L").click(function() {
+    $(".doctype_L").toggle(this.checked);
+});
+
+$("#toggle_doctype_D").click(function() {
+    $(".doctype_D").toggle(this.checked);
+});
+
+$("#toggle_doctype_T").click(function() {
+    $(".doctype_T").toggle(this.checked);
+});
 
 
