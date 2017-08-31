@@ -47,10 +47,14 @@ $(document).ready(function() {
         var url = window.location.href
         var result = url.search(/\?/i);
         if (result == -1) {
-            document.location = document.location + '?view-mode=1';
+            window.location = window.location + '?view-mode=1';
         }
         else {
-           document.location = document.location + '&view-mode=1'; 
+            var params = getParams();
+            var paramPos = url.search(/\?/i);
+            var baseurl = url.substring(0,paramPos)
+            var newurl = baseurl + "?" + "id=" + params["id"] + "&type=" + params["type"] + "&view-mode=1";
+            window.location.href = newurl;
         }
         
 	}
@@ -124,14 +128,16 @@ $(document).keydown(function(e) {
         /* load prev */
         /* alert("Arrow left")*/
         /* alert(params["prev"]) */
-        var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
-    window.location.href = newurl;  
+        var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"];
+        alert("left");
+        window.location.href = newurl;
         break;
 
         case 39: // right
         /* alert("Arrow right"); */
         var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
-    window.location.href = newurl;
+        alert("right");
+        window.location.href = newurl;
         break;
 
         default: return; // exit this handler for other keys
@@ -139,26 +145,6 @@ $(document).keydown(function(e) {
     e.preventDefault(); // prevent the default action (scroll / move caret)
 });
 
-/* Mobile: Steuerung per swipeleft/swiperight */
 
-$("#content-box").on("swipeleft",function(){
-  /*Zurück*/
-    var params = getParams();
-    var url = window.location.href;
-    var paramPos = url.search(/\?/i);
-    var baseurl = url.substring(0,paramPos)
-    var newurl = baseurl + "?id=" + params["prev"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
-    window.location.href = newurl;
-});
-
-$("#content-box").on("swiperight",function(){
-  /*nächstes Dokument*/
-    var params = getParams();
-    var url = window.location.href;
-    var paramPos = url.search(/\?/i);
-    var baseurl = url.substring(0,paramPos)
-    var newurl = baseurl + "?id=" + params["next"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=" + params["view-mode"]
-    window.location.href = newurl;
-});
 
 
