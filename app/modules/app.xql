@@ -8,6 +8,7 @@ declare namespace hbas="http://hbas.at/ns";
 import module namespace templates="http://exist-db.org/xquery/templates" ;
 import module namespace config="http://hbas.at/config" at "config.xqm";
 import module namespace format="http://hbas.at/format" at "format.xqm";
+import module namespace kwic="http://exist-db.org/xquery/kwic";
 
 
 
@@ -658,3 +659,89 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
         </form>
         
 };
+
+(: --------------------------- search.html - Seite  ----------------------------------------- :)
+(: Suche :)
+declare
+    %templates:wrap
+function app:searchbox($node as node(), $model as map(*)) {
+   <form class="form-inline" action="search.html">
+            <div class="form-group">
+                <label class="sr-only" for="Suche_Suchfeld">Volltextsuche im Datenbestand</label>
+                <input type="text" class="form-control" id="Suche_Suchfeld" name="q" placeholder="Suche..."/>
+            </div>
+            <button type="submit" class="btn btn-primary">suchen</button>
+            <div class="">
+                <span>einschränken auf: </span>
+                    <select name="type" class="form-control input-sm">
+                        <option value="">alle Dokumente</option>
+                        <option value="L">Briefe</option>
+                        <option value="D">Tagebucheinträge</option>
+                        <option value="T">Texte</option>
+                    </select>
+                
+                
+            </div>
+        </form>
+};
+
+declare
+    %templates:wrap
+function app:search_results($node as node(), $model as map(*),$q,$type) {
+    app:format_searchresults(app:search($q, $type), $q, $type)
+};
+
+declare
+function app:search($q,$type) {
+    (: --------------- Die Suchfunktion -------------------------- :)
+    (:
+     : $q Suchstring
+     : $type
+     
+     Die Funktion liefert XML-Elemente zurück <hit ft-score="">TEI-item-Element</hit>
+     
+     :)
+    let $ergebnisse :=
+    (:Überprüfen, ob ein Suchstring gesetzt ist:)
+    if ($q!="") then 
+        (:Suchstring ist vorhanden, Suche starten:)
+        (:Überprüfen, ob Filter gesetzt sind, wenn ja, dann anpassen, wo gesucht wird:)
+        (:Optionen überprüfen, entsprechend den Ergebnissen Suchkontext $kontext setzen. Kontext enthält die entsprechenden Daten, in denen gesucht wird:)
+            (:Überprüfen, ob nur innerhalb von bestimmten Einträgen gesucht werden soll, dann entfällt nämlich die weitere Kontext-Einschränkung, nicht aber die $w-switches:)
+            
+                                    (:überall, kein Filter:)
+                                    for $hit in collection($config:data-root)//tei:div[ft:query(.,$q)]
+                                    let $ft-score := ft:score($hit)
+                                    return 
+                                        <hit ft-score="{$ft-score}" docid="{$hit/ancestor::tei:TEI/@xml:id}">
+                                            {kwic:expand($hit)}
+                                        </hit>
+                                        
+    else "Fehler: kein Suchstring angegeben"
+    (:Kein Suchstring angegeben, deswegen wird das Suchfeld angezeig:)
+    return
+        $ergebnisse
+
+};
+
+declare function app:format_searchresults($ergebnisse, $q, $type) {
+    (:Funktion, die eine Ergebnisliste für die Suchergebnisse aus app:suche erstellt. Übernimmt alle Suchfilterparameter + die Ergebnisse der Suche $ergebnisse:)
+    (:momentan gibt das Zeugs eine Tabelle aus, aber man könnte wahrscheinlich noch mehr machen, wenn man weitere Parameter, z.B. einen $stil, $zielformat oder so etwas übergibt:)
+     <div>
+     <h3>Ergebnisse:</h3>
+     <div id="Ergebnisuebersicht">
+        <strong>{count($ergebnisse)} Treffer für "{$q}"</strong> <br/>
+        {
+         for $hit in $ergebnisse
+         let $hit-nr := index-of($ergebnisse,$hit)
+         return 
+            <div>
+                 {$hit-nr}. {kwic:summarize($hit, <config width="60"/>)}
+                 {$hit/@docid/string()}
+            </div>
+     }
+     
+     </div>
+     </div>
+};
+

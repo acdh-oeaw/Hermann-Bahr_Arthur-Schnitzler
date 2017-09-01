@@ -4,10 +4,11 @@
         <fulltext default="none" attributes="false"/>
         <lucene>
             <text qname="tei:body"/>
-            <text match="//tei:persName"/>
-            <text match="//tei:placeName"/>
-            <text match="//tei:workName"/>
-            <text match="//tei:orgName"/>
+            <text qname="tei:div"/>
+            <text qname="tei:persName"/>
+            <text qname="tei:placeName"/>
+            <text qname="tei:workName"/>
+            <text qname="tei:orgName"/>
         </lucene>
     </index>
 </collection>

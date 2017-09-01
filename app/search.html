@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
+    <div class="row">
+            <div id="sidebar" class="col-sm-3">
+                <div class="sidebar-nav">
+                    <div data-template="app:nav"/>
+                </div> <!-- /sidebar-nav -->
+                <!-- weitere Sidebar-Elemente -->    
+            </div> <!-- col-sm-3 = sidebar -->
+            <div id="content" class="col-sm-9">
+                <div class="title-box">
+                    <h2 class="doc-title">Suche</h2>
+                </div>
+                <div class="row">
+                    <div data-template="app:searchbox"/>
+                </div>
+                <div class="row">
+                    <div data-template="app:search_results"/>
+                </div>
+            </div>
+</div> <!-- /row mit sidebar und content -->
+<script type="text/javascript" src="resources/js/view-settings.js"/>
+</div>

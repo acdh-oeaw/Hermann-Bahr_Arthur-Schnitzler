@@ -741,6 +741,9 @@ declare function format:tei2html($nodes as node()*) {
         case element (tei:workName) return
             <a class="workName" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
             
+        (: exist:match zu html:mark :)
+            case element(exist:match) return
+                <mark>{format:tei2html($node/node())}</mark>
         
         (: ### DEFAULT ###:)
                 
