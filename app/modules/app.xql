@@ -65,7 +65,7 @@ declare function app:corresp-meta($id) {
 declare
  %templates:wrap
  %templates:default("type", "")
- function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author,$show,$view-mode) {
+ function app:page_view($node as node(), $model as map(*),$id,$type,$date,$author,$show,$view-mode,$q) {
  (: 
   : Seite zeigt ein einzelnes Dokument an. Welches angezeigt werden soll, wird per $id übergeben.
   : $id xml:id des Dokuments
@@ -74,13 +74,13 @@ declare
  :)
 
 let $output := if ($id!="") then
-        app:view_single($id,$type,$show, $view-mode)
+        app:view_single($id,$type,$show, $view-mode,$q)
     else
-        app:view_list($type,$date,$author,$id)
+        app:view_list($type,$date,$author,$id,$q)
  return $output
  };
 
-declare function app:view_list($type,$date,$author,$id) {
+declare function app:view_list($type,$date,$author,$id,$q) {
     (:Gibt eine Liste mit allen verfügbaren Dokumenten aus:)
     if ($date!='' or $author!='') then 
         (:$date oder author gesetzt, weiter filtern:)
@@ -174,7 +174,7 @@ return
     </div>
 };
 
-declare function app:view_single($id,$type,$show, $view-mode) {
+declare function app:view_single($id,$type,$show, $view-mode,$q) {
     (:Gibt eine Einzelansicht eines Dokuments aus:)
     
     <div id="content-box" class="col-sm-9">
@@ -477,6 +477,11 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="view.html">Dokumente</a>
                                 </li>
                                 <!-- /Dokumente -->
+                                
+                                <li class="dropdown" id="nav_suche">
+                                    <a href="search.html">Suche</a>
+                                </li> <!-- /Suche -->
+                                
                                 <li class="dropdown hidden-md hidden-lg" id="nav_register">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Register</a>
                                     <ul class="dropdown-menu">
@@ -499,9 +504,6 @@ function app:nav($node as node(), $model as map(*)) {
                                 </li>
                                 <!-- /Register -->
 
-                                <li class="dropdown visible-xs" id="nav_suche">
-                                    <a href="#">Suche</a>
-                                </li> <!-- /Suche -->
 
                                 <li class="dropdown" id="nav_ueber">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über die Edition</a>
@@ -664,31 +666,33 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
 (: Suche :)
 declare
     %templates:wrap
-function app:searchbox($node as node(), $model as map(*)) {
+function app:searchbox($node as node(), $model as map(*),$q) {
    <form class="form-inline" action="search.html">
-            <div class="form-group">
+            <div class="form-group col-sm-7">
                 <label class="sr-only" for="Suche_Suchfeld">Volltextsuche im Datenbestand</label>
-                <input type="text" class="form-control" id="Suche_Suchfeld" name="q" placeholder="Suche..."/>
-            </div>
-            <button type="submit" class="btn btn-primary">suchen</button>
-            <div class="">
-                <span>einschränken auf: </span>
-                    <select name="type" class="form-control input-sm">
-                        <option value="">alle Dokumente</option>
-                        <option value="L">Briefe</option>
-                        <option value="D">Tagebucheinträge</option>
-                        <option value="T">Texte</option>
-                    </select>
-                
+                <div class="input-group input-group-lg">
+                    <input type="text" class="form-control" id="Suche_Suchfeld" name="q" 
+                placeholder="{if ($q!='') then $q else "Suche..."}"/>
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                </span>
+                </div>
                 
             </div>
-        </form>
+            
+        </form>,
+        <div>
+        <!--
+        <a href="">Erweiterte Suche</a>
+        -->
+        </div>
 };
 
 declare
     %templates:wrap
-function app:search_results($node as node(), $model as map(*),$q,$type) {
-    app:format_searchresults(app:search($q, $type), $q, $type)
+    %templates:default("orderby", "date")
+function app:search_results($node as node(), $model as map(*),$q,$type,$orderby) {
+    app:format_searchresults(app:search($q, $type), $q, $type, $orderby)
 };
 
 declare
@@ -712,36 +716,50 @@ function app:search($q,$type) {
                                     (:überall, kein Filter:)
                                     for $hit in collection($config:data-root)//tei:div[ft:query(.,$q)]
                                     let $ft-score := ft:score($hit)
+                                    let $docid := $hit/ancestor::tei:TEI/@xml:id
+                                    let $docdate := 
+                                        switch (substring($docid,1,1))
+                                        case "L" return collection($config:data-root)/id($docid)//tei:dateSender/tei:date/@when/string()
+                                        case "D" return collection($config:data-root)/id($docid)//tei:text//tei:date[@when][1]/@when/string()
+                                        case "T" return collection($config:data-root)/id($docid)//tei:origDate/@when/string()
+                                        default return "0000-00-00"
+                                    let $doctitle := $hit/ancestor::tei:TEI//tei:titleStmt//tei:title[@level='a']/text()
                                     return 
-                                        <hit ft-score="{$ft-score}" docid="{$hit/ancestor::tei:TEI/@xml:id}">
+                                        <hit docid="{$docid}" doctitle="{$doctitle}" docdate="{$docdate}" ft-score="{$ft-score}">
                                             {kwic:expand($hit)}
                                         </hit>
                                         
-    else "Fehler: kein Suchstring angegeben"
+    else ()
     (:Kein Suchstring angegeben, deswegen wird das Suchfeld angezeig:)
     return
         $ergebnisse
 
 };
 
-declare function app:format_searchresults($ergebnisse, $q, $type) {
+declare function app:format_searchresults($ergebnisse, $q, $type, $orderby) {
     (:Funktion, die eine Ergebnisliste für die Suchergebnisse aus app:suche erstellt. Übernimmt alle Suchfilterparameter + die Ergebnisse der Suche $ergebnisse:)
     (:momentan gibt das Zeugs eine Tabelle aus, aber man könnte wahrscheinlich noch mehr machen, wenn man weitere Parameter, z.B. einen $stil, $zielformat oder so etwas übergibt:)
+     if ($q !='') then
      <div>
      <h3>Ergebnisse:</h3>
      <div id="Ergebnisuebersicht">
-        <strong>{count($ergebnisse)} Treffer für "{$q}"</strong> <br/>
+        <strong>{count($ergebnisse)} Treffer für "{$q}"</strong>
+    </div>
+        <div class="search-hits">
         {
          for $hit in $ergebnisse
-         let $hit-nr := index-of($ergebnisse,$hit)
+         order by $hit/@docdate
          return 
-            <div>
-                 {$hit-nr}. {kwic:summarize($hit, <config width="60"/>)}
-                 {$hit/@docid/string()}
+            <div class="search-hit" data-docdate="{$hit/@docdate}" data-ftScore="{$hit/@ft-score}">
+                <span class="hit-title">
+                <a href="view.html?id={$hit/@docid/string()}&amp;q={$q}">{$hit/@doctitle/string()}</a>
+                </span>
+                {kwic:summarize($hit, <config width="60"/>)}
             </div>
-     }
+        }
      
      </div>
      </div>
+     else ()
 };
 

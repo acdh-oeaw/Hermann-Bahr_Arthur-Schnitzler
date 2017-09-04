@@ -23,6 +23,11 @@
       padding-right:0px;
   }
   
+  .search-content {
+      padding-left:25px;
+      padding-right:25px;
+  }
+  
 }
 
 @media (min-width: 768px) {
@@ -112,6 +117,11 @@
   
   .navbar-default .navbar-nav>li>a {
       color:black;
+  }
+  
+  .search-content {
+      padding-left:0px;
+      padding-right:0px;
   }
   
 }
@@ -655,6 +665,29 @@ del.erased:hover {
 
 
 /*Suche*/
-match {
-    background-color:yellow;
+
+.search-hits {
+    counter-reset:hit;
+    padding-left:25px;
+}
+
+.search-hit {
+    padding-top:1em;   
+}
+
+.search-hit::before {
+    display:inline;
+    margin-left:-25px;
+    margin-right:25px;
+    counter-increment: hit;
+    content:counter(hit)".";
+}
+
+.search-hit p {
+    margin-left:25px;
+    margin-top:0.5em;
+}
+
+.search-hit p .hi {
+    font-weight:bold;
 }
