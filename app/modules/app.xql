@@ -133,7 +133,7 @@ return
     else (:$date oder $author nicht gesetzt:) 
     <div class="col-sm-9">
     <div class="title-box">
-    <h2 class="doc-title">Verfügbare {
+    <h2 class="doc-title">{
         switch($type)
                 case "T" return "Texte"
                 case "D" return "Tagebucheinträge"
@@ -506,7 +506,7 @@ function app:nav($node as node(), $model as map(*)) {
 
 
                                 <li class="dropdown" id="nav_ueber">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Über die Edition</a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Zur Edition / Impressum</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                                 <a href="#">Zur Ausgabe</a>
@@ -519,6 +519,9 @@ function app:nav($node as node(), $model as map(*)) {
                                             </li>
                                         <li>
                                                 <a href="#">Kontakt</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Impressum</a>
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
