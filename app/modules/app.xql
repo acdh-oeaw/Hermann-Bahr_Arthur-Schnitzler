@@ -357,7 +357,68 @@ function app:register_liste($type) {
             </div>
             <ul class="register">
                 {
-                    ()
+                    let $persName-keys := collection($config:data-root)//tei:persName/tokenize(@key,' ')
+                    let $placeName-keys := collection($config:data-root)//tei:placeName/tokenize(@key,' ')
+                    let $workName-keys := collection($config:data-root)//tei:workName/tokenize(@key,' ')
+                    let $orgName-keys := collection($config:data-root)//tei:orgName/tokenize(@key,' ')
+                    let $all-keys := distinct-values(($persName-keys, $placeName-keys, $workName-keys, $orgName-keys))
+                    
+                    for $key in $all-keys
+                    let $data := collection($config:data-root)/id($key)
+                    let $type := collection($config:data-root)/id($key)/name()
+                    (:returns: person, place, org, bibl:)
+                    let $sortstring :=
+                        switch ($type)
+                            case "person" return 
+                                let $forename := string-join($data//tei:forename, ' ')
+                                let $surname := string-join($data//tei:surname, ' ')
+                                return 
+                                    if ($forename !='') then
+                                        if ($surname !='' ) then
+                                        concat($surname, ', ', $forename)
+                                        else $forename
+                                    else
+                                        $surname
+                            case "place" return 
+                                let $placeName := $data//tei:placeName
+                                let $district := $data//tei:district
+                                let $settlement := $data//tei:settlement
+                                return
+                                    if ($district !="") then
+                                        (:Wien-Ort:)
+                                        concat($settlement, ', ', $district, ', ', $placeName)
+                                    else
+                                        (:Nicht-Wien-Ort:)
+                                        if ($settlement != $placeName) then
+                                            ()
+                                        else $settlement
+                            case "biblFull" return
+                                let $author :=
+                                    if ($data//tei:author) then
+                                        let $forename := string-join($data//tei:forename, ' ')
+                                        let $surname := string-join($data//tei:surname, ' ')
+                                    return 
+                                    if ($forename !='') then
+                                        concat($surname, ', ', $forename)
+                                    else
+                                        $surname
+                                        
+                                        else ''
+                                return 
+                                    if ($author !='') then 
+                                        concat($author, ': ', string-join($data//tei:title, ' '))
+                                    else string-join($data//tei:title, ' ')
+                                            
+                            case "org" return 
+                                string-join($data//tei:orgName, ' ')
+                            default return ()
+                            order by $sortstring
+                            
+                            
+                        
+                    return <li><a href="register.html?key={$key}">{$sortstring}</a></li>
+                    
+                        
                 }
             </ul>
             </div>

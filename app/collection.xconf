@@ -10,5 +10,11 @@
             <text qname="tei:workName"/>
             <text qname="tei:orgName"/>
         </lucene>
+        <range>
+            <create qname="@key" type="xs:string"/>
+            <create qname="@when" type="xs:integer"/>
+            
+        </range>
+        
     </index>
 </collection>
