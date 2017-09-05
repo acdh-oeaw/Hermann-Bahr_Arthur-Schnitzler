@@ -289,7 +289,7 @@ declare
  :)
 
 let $output := if ($key!="") then
-        app:register_single($key,$type)
+        app:register_single($key)
     else
         app:register_liste($type)
  return $output
@@ -424,94 +424,115 @@ function app:register_liste($type) {
             </div>
 };
 
-declare function app:register_single($key,$type) {
-        
-    
-        <div class="col-sm-9">
-            <div class="title-box">
-                <h2>
-                    {
-                        switch($type)
-                        case "p" return 
-                            (
-                            if (collection($config:data-root)/id($key)//tei:forename and collection($config:data-root)/id($key)//tei:surname) then
-                            collection($config:data-root)/id($key)//tei:forename || " " || collection($config:data-root)/id($key)//tei:surname
-                            else collection($config:data-root)/id($key)//tei:persName/text(),
-                            
-                            if (collection($config:data-root)/id($key)//tei:birth and collection($config:data-root)/id($key)//tei:death) then
-                                "(" || collection($config:data-root)/id($key)//tei:birth/@when || "–" || collection($config:data-root)/id($key)//tei:death/@when || ")"
-                                else
-                                    (),
-                                    
-                            if (collection($config:data-root)/id($key)//tei:occupation) then
-                                (
-                                <br/>,collection($config:data-root)/id($key)//tei:occupation/text()
-                                )
-                                else ()
-                            
-                            
-                            )
-                        case "o" return 
-                            (
-                            if (collection($config:data-root)/id($key)//tei:district) then
-                                if (contains(collection($config:data-root)/id($key)//tei:placeName,"Wien")) then collection($config:data-root)/id($key)//tei:settlement || " " || collection($config:data-root)/id($key)//tei:district
-                                else collection($config:data-root)/id($key)//tei:placeName
-                            else
-                                 collection($config:data-root)/id($key)//tei:placeName 
-                                
-                            )
-                        case "w" return 
-                            (
-                            if (collection($config:data-root)/id($key)//tei:title and collection($config:data-root)/id($key)//tei:author) then 
-                                if (collection($config:data-root)/id($key)//tei:author//tei:surname) then
-                                    collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()
-                                else
-                                    collection($config:data-root)/id($key)//tei:title/text() 
-                            else "Werk " || $key
-                            )
-                        case "org" return 
-                            (
-                                if (collection($config:data-root)/id($key)//tei:orgName) then 
-                                    (
-                                    collection($config:data-root)/id($key)//tei:orgName,
-                                    if (collection($config:data-root)/id($key)//tei:desc) then
-                                        
-                                        (
-                                        <br/>,
-                                        collection($config:data-root)/id($key)//tei:desc
-                                        )
-                                        else ()
-                                    
-                                    )
-                                    else "Organisation " || $key
-                            )
-                            
-                        default return $key
-                    }
-                </h2>
-                
-            </div>
-            <div class="ergebnisliste">
-            {
-                let $liste :=
-    for $doc in
-    switch ($type)
-        case "p" return collection($config:data-root)//tei:persName[@key=$key]/ancestor::tei:TEI
-        case "o" return collection($config:data-root)//tei:placeName[@key=$key]/ancestor::tei:TEI
-        case "w" return collection($config:data-root)//tei:workName[@key=$key]/ancestor::tei:TEI
-        case "org" return collection($config:data-root)//tei:orgName[@key=$key]/ancestor::tei:TEI
-        default return ()
+declare function app:register_single($keys) {
+        for $key in tokenize($keys,',')
         return
-            <li><a href="{concat('view.html?id=',$doc/@xml:id)}">{$doc//tei:titleStmt/tei:title[@level="a"]/text()}</a></li>
-        return 
-            <ul class="register">{$liste}</ul>        
-            }
-        </div>    
-        </div>
-        
-        (:collection($config:data-root)//tei:persName)[@key=$key]/ancestor::tei:TEI:)
-        
-        
+            <div class="row">
+                <div class="col-sm-9">
+                <div class="title-box">
+              <h2>
+                  {
+                      switch(collection($config:data-root)/id($key)/name())
+                      case "person" return 
+                          (
+                          if (collection($config:data-root)/id($key)//tei:forename and collection($config:data-root)/id($key)//tei:surname) then
+                          collection($config:data-root)/id($key)//tei:forename || " " || collection($config:data-root)/id($key)//tei:surname
+                          else collection($config:data-root)/id($key)//tei:persName/text(),
+                          
+                          if (collection($config:data-root)/id($key)//tei:birth and collection($config:data-root)/id($key)//tei:death) then
+                              "(" || collection($config:data-root)/id($key)//tei:birth/@when || "–" || collection($config:data-root)/id($key)//tei:death/@when || ")"
+                              else
+                                  (),
+                                  
+                          if (collection($config:data-root)/id($key)//tei:occupation) then
+                              (
+                              <br/>,collection($config:data-root)/id($key)//tei:occupation/text()
+                              )
+                              else ()
+                          
+                          
+                          )
+                      case "place" return 
+                          (
+                          if (collection($config:data-root)/id($key)//tei:district) then
+                              if (contains(collection($config:data-root)/id($key)//tei:placeName,"Wien")) then collection($config:data-root)/id($key)//tei:settlement || " " || collection($config:data-root)/id($key)//tei:district
+                              else collection($config:data-root)/id($key)//tei:placeName
+                          else
+                               collection($config:data-root)/id($key)//tei:placeName 
+                              
+                          )
+                      case "biblFull" return 
+                          (
+                          if (collection($config:data-root)/id($key)//tei:title and collection($config:data-root)/id($key)//tei:author) then 
+                              if (collection($config:data-root)/id($key)//tei:author//tei:surname) then
+                                  collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()
+                              else
+                                  collection($config:data-root)/id($key)//tei:title/text() 
+                          else "Werk " || $key
+                          )
+                      case "org" return 
+                          (
+                              if (collection($config:data-root)/id($key)//tei:orgName) then 
+                                  (
+                                  collection($config:data-root)/id($key)//tei:orgName,
+                                  if (collection($config:data-root)/id($key)//tei:desc) then
+                                      
+                                      (
+                                      <br/>,
+                                      collection($config:data-root)/id($key)//tei:desc
+                                      )
+                                      else ()
+                                  
+                                  )
+                                  else "Organisation " || $key
+                          )
+                          
+                      default return $key
+                  }
+              </h2>
+              
+          </div>
+      </div>
+      </div>,
+        <div class="search-hits">
+          {
+              let $liste :=
+                for $key in tokenize($keys,',') return
+                    for $doc in collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI
+                    let $sortdate :=
+                    switch (substring($doc/@xml:id/string(),1,1))
+                        case "T" return $doc//tei:origDate/@when/string()
+                        case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
+                        case "L" return $doc//tei:dateSender/tei:date/@when/string()
+                        default return $doc//tei:date[@when][1]/@when/string()
+                    order by $sortdate
+                    return
+                       <div class="search-hit" data-docdate="{$sortdate}">
+                <span class="hit-title">
+                <a href="view.html?id={$doc/@xml:id}">{$doc//tei:titleStmt/tei:title[@level="a"]/text()}</a>
+                </span>
+                <p>
+                    {
+                        for $hit in $doc//element()[contains(@key,$key)]
+                        return
+                            (
+                            <span class="previous">... 
+                            {
+                                let $prev := string-join($hit/preceding-sibling::node())
+                                let $len := string-length($prev)-60
+                                return substring($prev,$len) 
+                            }</span>,
+                            <span class="hi">{$hit}</span>,
+                            <span class="following">{substring(string-join($hit/following-sibling::node()),1,60)} ...</span>
+                            )
+                            
+                    }
+                </p>
+            </div> 
+      return
+          $liste      
+         }
+      </div>  
 };
 
 

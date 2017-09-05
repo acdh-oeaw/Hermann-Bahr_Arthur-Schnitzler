@@ -591,14 +591,14 @@ declare function format:tei2html($nodes as node()*) {
             case element(tei:rs) return
                 switch ($node/@type) 
                 case "org" return 
-                    <a class="rs rs_org" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
+                    <a class="rs rs_org" href="register.html?key={replace($node/@key,' ',',')}&amp;type=org">{format:tei2html($node/node())}</a>
                 case "person" return 
-                    <a class="rs rs_person" href="register.html?key={$node/@key}&amp;type=p">{format:tei2html($node/node())}</a>
+                    <a class="rs rs_person" href="register.html?key={replace($node/@key,' ',',')}&amp;type=p">{format:tei2html($node/node())}</a>
                 case "place" return 
-                    <a class="rs rs_place" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
+                    <a class="rs rs_place" href="register.html?key={replace($node/@key,' ',',')}&amp;type=o">{format:tei2html($node/node())}</a>
                 case "work" return 
-                    <a class="rs rs_work" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
-                default return <span class="rs rs_{$node/@type}" data-key="{$node/@key}">{format:tei2html($node/node())}</span>
+                    <a class="rs rs_work" href="register.html?key={replace($node/@key,' ',',')}&amp;type=w">{format:tei2html($node/node())}</a>
+                default return <span class="rs rs_{$node/@type}" data-key="{replace($node/@key,' ',',')}">{format:tei2html($node/node())}</span>
                 
         
         (: ### S ###:)
