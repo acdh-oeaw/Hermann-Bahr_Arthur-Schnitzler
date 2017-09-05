@@ -302,6 +302,8 @@ let $output := if ($key!="") then
 declare
 function app:register_liste($type) {
     (: Werte für $type: p(persName), o(placeName), w(workName) :)
+    if ($type != '') then
+    (:Alter Code, der die Liste filterbar gemacht hat...deprecated:)
     let $liste :=
     for $key in
     switch ($type)
@@ -345,6 +347,18 @@ function app:register_liste($type) {
             </div>
             <ul class="register">
                 {$liste}
+            </ul>
+            </div>
+        (:else zu $type != '':)
+        else 
+            <div class="col-sm-9">
+                <div class="title-box">
+                <h2 class="doc-title">Register</h2>
+            </div>
+            <ul class="register">
+                {
+                    ()
+                }
             </ul>
             </div>
 };
