@@ -159,4 +159,41 @@ $("#toggle_doctype_T").click(function() {
     $(".doctype_T").toggle(this.checked);
 });
 
+/* Registerfilter */
+
+
+/* Suchfeldfilter */
+/* $("#filter_register").keyup(function(){
+   
+});*/
+
+$("#filter_register").keyup(function(){
+    var $filter = $(this).val();
+    if ($filter) {
+      /* "#register"*/
+      $(".register").find("a:not(:contains(" + $filter + "))").hide();
+      $(".register").find("a:contains(" + $filter + ")").show();
+    } else {
+      $(".register").find("a").show();
+    }
+});
+
+
+/* Filter-Checkboxen*/
+$("#toggle_register_P").click(function() {
+    $(".register_person").toggle(this.checked);
+});
+
+$("#toggle_register_O").click(function() {
+    $(".register_place").toggle(this.checked);
+});
+
+$("#toggle_register_T").click(function() {
+    $(".register_biblFull").toggle(this.checked);
+});
+
+$("#toggle_register_Org").click(function() {
+    $(".register_org").toggle(this.checked);
+});
+
 

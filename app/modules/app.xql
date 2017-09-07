@@ -416,7 +416,7 @@ function app:register_liste($type) {
                             
                             
                         
-                    return <li><a href="register.html?key={$key}">{$sortstring}</a></li>
+                    return <li class="register_{$type}"><a href="register.html?key={$key}">{$sortstring}</a></li>
                     
                         
                 }
@@ -723,6 +723,44 @@ declare function app:prev-doc-id($id,$type) {
     :)
     
 };
+
+(: Filteroptionen für Register :)
+ (: app:register_filter :)
+ declare
+     %templates:wrap
+ function app:register_filter($node as node(), $model as map(*),$key) {
+    if (not($key)) then
+        <form>
+            Filter:
+            <div class="input-group input-group-sm">
+            <input id="filter_register" type="text" class="form-control" placeholder="Suche...">
+            </input>
+            </div>
+            <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_register_P" checked="checked"> Personen</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_register_O" checked="checked"> Orte</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_register_T" checked="checked"> Texte</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="toggle_register_Org" checked="checked"> Organisationen</input>
+            </label>
+        </div>
+            
+        </form>
+    else ()
+ };
+
 
 declare
     %templates:wrap
