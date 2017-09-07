@@ -444,6 +444,10 @@ declare function app:register_single($keys) {
                               else
                                   (),
                                   
+                            if (collection($config:data-root)/id($key)//tei:addName) then
+                                <span>, {collection($config:data-root)/id($key)//tei:addName/text()}</span>
+                                else (),
+                                  
                           if (collection($config:data-root)/id($key)//tei:occupation) then
                               (
                               <br/>,collection($config:data-root)/id($key)//tei:occupation/text()
