@@ -36,10 +36,12 @@ $(document).ready(function() {
 	    $("#check_anhang").attr("checked","checked");
 	}
 	
+	
 	if (viewMode == "2") {
-	    $("#select-view-mode").val('Erweiterte Ansicht');
+	    $("#check_auszeichnungen").attr("checked","checked");
 	    $(".text-box").toggleClass("leseansicht");
 	}
+	
 	
 	if (viewMode == "") {
 	    /*alert("Set URL-parameter view-mode")*/
@@ -59,6 +61,33 @@ $(document).ready(function() {
         
 	}
 });
+
+$("#check_auszeichnungen").click(function() {
+    /*wenn Paramenter nicht da, in url hinzufügen + href von vor/zurück anpassen*/
+    var url = window.location.href;
+    /* alert(url); */
+    /*Parameter finden*/
+    var params = getParams();
+    
+    /*baseurl*/
+    /* URL anpassen */
+    var paramPos = url.search(/\?/i);
+    var baseurl = url.substring(0,paramPos)
+    
+    /* alert("prev= " + params["prev"]+ " | next= " + params["next"]); */
+    
+     /* alert("id=" + params["id"] + " view-mode=" + params["view-mode"] + " show=" + params["show"] + " type=" + params["type"] + " prev=" + params["prev"] + " next=" + params["next"]) */
+    
+    if ($("#check_auszeichnungen").attr("checked")!=="checked") {
+        var newurl = baseurl + "?" + "id=" + params["id"] + "&type=" + params["type"] + "&show=" + params["show"] + "&view-mode=1";
+        window.location.href = newurl;
+    }
+    else {
+        var newurl = baseurl + "?" + "id=" + params["id"] + "&type=" + "&show=" + params["show"] + params["type"] + "&view-mode=2";
+        window.location.href = newurl;
+    }
+});
+
 
 $("#check_anhang").click(function() {
     /*wenn Paramenter nicht da, in url hinzufügen + href von vor/zurück anpassen*/
@@ -89,32 +118,6 @@ $("#check_anhang").click(function() {
     }
 });
 
-
-$("#select-view-mode").change(function(){
-    /*alert($("#select-view-mode").val());*/
-    var params = getParams();
-    var url = window.location.href;
-    var paramPos = url.search(/\?/i);
-    var baseurl = url.substring(0,paramPos)
-    
-    if ($("#select-view-mode").val()=='Erweiterte Ansicht') {
-        var newurl = baseurl + "?id=" + params["id"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=2"
-    window.location.href = newurl;    
-    }
-    if ($("#select-view-mode").val()=='Leseansicht') {
-        var newurl = baseurl + "?id=" + params["id"] + "&type=" + params['type'] + "&show=" + params["show"] + "&view-mode=1"
-    window.location.href = newurl;    
-    }
-    });
-
-$(".commentary-ref").click(function() {
-    var params = getParams();
-    if (params["show"] !== "a") {
-      $("#anhang").collapse('show');  
-    }
-    
-    
-});
 
 /*Steuerung per Cursor*/
 

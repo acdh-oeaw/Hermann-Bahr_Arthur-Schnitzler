@@ -726,11 +726,17 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
     if ($id != "") then
     <form>
         Ansicht:
+        <!-- 
         <select id="select-view-mode" class="custom-select">
             <option>Leseansicht</option>
             <option>Erweiterte Ansicht</option>
         </select>
-
+        -->
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_auszeichnungen" > Auszeichnungen</input>
+            </label>
+        </div>
         <div class="checkbox">
             <label>
                 <input type="checkbox" id="check_anhang" data-toggle="collapse" data-target="#anhang"> Anhang</input>
