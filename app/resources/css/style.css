@@ -270,6 +270,20 @@ body, h1, h2 {
     list-style:none;
 }
 
+.register_person a .date:before {
+    display:inline;
+    content:" (";
+}
+.register_person a .date:after {
+    display:inline;
+    content:")";
+}
+
+.register_person a .occupation:before {
+    display:inline;
+    content:",";
+}
+
 /* /navigationselemente */
 
 

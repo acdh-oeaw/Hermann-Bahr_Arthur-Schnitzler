@@ -350,6 +350,9 @@ function app:register_liste($type) {
             </ul>
             </div>
         (:else zu $type != '':)
+        
+        
+        
         else 
             <div class="col-sm-9">
                 <div class="title-box">
@@ -367,7 +370,7 @@ function app:register_liste($type) {
                     let $data := collection($config:data-root)/id($key)
                     let $type := collection($config:data-root)/id($key)/name()
                     (:returns: person, place, org, bibl:)
-                    let $sortstring :=
+                    let $sortstring := 
                         switch ($type)
                             case "person" return 
                                 let $forename := string-join($data//tei:forename, ' ')
@@ -414,9 +417,35 @@ function app:register_liste($type) {
                             default return ()
                             order by $sortstring
                             
+                       
                             
-                        
-                    return <li class="register_{$type}"><a href="register.html?key={$key}">{$sortstring}</a></li>
+                    return 
+                        if ($type != "BiblFull") then
+                            <li class="register_{$type}">
+                                <a href="register.html?key={$key}"><span>{$sortstring}</span>
+                                    {
+                                        if ($type = "person") then
+                                            if ($data/tei:birth/@when and $data/tei:death/@when)
+                                            then
+                                                <span class="date">{concat($data/tei:birth/@when,'–',$data/tei:death/@when)}</span>
+                                                else 
+                                                    if ($data/tei:birth/@when and not($data/tei:death/@when)) then
+                                                        <span class="date">{concat("geb. ", $data/tei:birth/@when)}</span>
+                                                    else ()
+                                        else ()
+                                    }
+                                    {
+                                        if ($data/tei:occupation) then
+                                                <span class="occupation">{$data/tei:occupation}</span>
+                                            else ()
+                                    }
+                                </a>
+                            </li>
+                        else 
+                            (: Texte :)
+                            <li class="register_{$type}">
+                                <a href="register.html?key={$key}"><span>{$sortstring}</span></a>
+                            </li>
                     
                         
                 }
