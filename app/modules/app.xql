@@ -531,18 +531,32 @@ declare function app:register_single($keys) {
           {
               let $liste :=
                 for $key in tokenize($keys,',') return
-                    for $doc in collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI
+                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note//element()[contains(@key,$key)]/ancestor::tei:note)
                     let $sortdate :=
                     switch (substring($doc/@xml:id/string(),1,1))
                         case "T" return $doc//tei:origDate/@when/string()
                         case "D" return $doc//tei:text//tei:date[@when][1]/@when/string()
                         case "L" return $doc//tei:dateSender/tei:date/@when/string()
+                        case "K" return () (:Kommentar:)
                         default return $doc//tei:date[@when][1]/@when/string()
                     order by $sortdate
                     return
                        <div class="search-hit" data-docdate="{$sortdate}">
                 <span class="hit-title">
-                <a href="view.html?id={$doc/@xml:id}">{$doc//tei:titleStmt/tei:title[@level="a"]/text()}</a>
+                <a href="view.html?id={
+                    if (substring($doc/@xml:id/string(),1,1)="K") then 
+                        collection($config:data-root)//id($doc/@xml:id)/ancestor::tei:TEI/@xml:id 
+                        else (:kein Kommentar:)
+                    $doc/@xml:id
+                    
+                }">{
+                    if (substring($doc/@xml:id/string(),1,1)="K") then 
+                        (
+                        "Kommentar zu: ",
+                        collection($config:data-root)//id($doc/@xml:id)/ancestor::tei:TEI/tei:titleStmt/tei:title[@level="a"]/text()
+                        ) else
+                    $doc//tei:titleStmt/tei:title[@level="a"]/text()
+                }</a>
                 </span>
                 <p>
                     {
