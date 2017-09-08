@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="087"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>HS AM 60177 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>)
+                        <p>eh. Karte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>)
                         </p>
                      </physDesc>
                   </msDesc>
@@ -84,37 +83,38 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">93</biblScope>
+                  <biblScope unit="pp">93</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       
+     <graphic url="HS_AM60177Ba"/>  
+     <graphic url="HS_AM60177Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><date>13. X. 905</date></dateline>
             </opener>
-            <p><salute>eben, lieber Hermann, </salute>kommt der <workName key="A020044">Klub der Erlöser</workName>, und dazu, zum 2. Mal, <workName key="A020091">Der arme
-          Narr</workName>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1" >merkwürdigsten Produkte</anchor>
-          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole">
-                  <supplied>e</supplied>
-               </damage>inem ganz voll tönenden Drama auf dem Theater<pb/> sehen
-          möchte, das aber natürlich auch von <damage agent="hole">
-                  <supplied>dir</supplied>
-               </damage> sein müßte,
+            <p><salute>eben, lieber Hermann, </salute>kommt der <workName key="A020044"><hi rend="latintype">Klub</hi> der Erlöser</workName>, und dazu, zum 2. Mal, der <hi rend="latintype"><workName key="A020091">arme
+          Narr</workName></hi>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1" >merkwürdigsten Produkte</anchor>
+          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole"><supplied>e</supplied></damage>inem ganz voll tönenden Drama auf dem Theater<pb/> sehen
+          möchte, das aber natürlich auch von <damage agent="hole"><supplied>dir</supplied></damage> sein müßte,
           und zu dem mir alle Elemente in geheimnisvoller Weise schon in diesem seltsamen
           Akt zu liegen scheinen.</p>
             <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" key="A020092">deine lieben Worte</rs> in der <orgName  key="A080153">Volkszeitg</orgName> die Hand
           drücken?</p>
-            <p>Sonntag oder Montag fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
-            <closer>Von Herzen dein <signed><hi rend="latintype">A.</hi></signed>
+            <p><anchor type="commentary" xml:id="KL087-1" >Sonntag oder Montag</anchor> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
+            <closer>Von Herzen dein <signed>A.</signed>
             </closer>
          </div>
       </body>

@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="022"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -50,8 +49,7 @@
                   <persName key="A003148">Ress, Robert</persName>
                   <persName key="A002792">Dorff, Paul</persName>
                </addressee>
-               <!--<placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
-          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
+              
                <dateSender>
                   <date when="19130400" n="01">[April] 1913</date>
                </dateSender>
@@ -75,28 +73,32 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="HS_AM23321Ba"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <p>Sehr geehrter Herr. Im Princip sehr einverstanden.
-        Aber wollen Sie nicht <persName key="A002002">Bahr</persName> und den andern zur
+        Aber wollen Sie nicht <hi rend="latintype"><persName key="A002002">Bahr</persName></hi> und den andern zur
         Unterzeichnung des Aufrufs bestimmten Personen 
         vorschlagen, zugleich mit der Unterschrift eine Summe
         zu zeichnen? Es gäbe der Sache mehr Gewicht und
         bessere Chancen. Wenn der Aufruf auch etwas später
         erscheinen müßte.</p>
             <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1" >Es ergreift und beschämt uns</anchor>«.
-        Und wenn Sie und <persName key="A002002">Bahr</persName>, wie ich hoffe, mit dem
+        Und wenn Sie und <hi rend="latintype"><persName key="A002002">Bahr</persName></hi>, wie ich hoffe, mit dem
         ersten Vorschlag einverstanden sind, sollte es nach
         »tilgen« nicht heißen »die die Unterzeichneten hiermit
         eröffnen« oder ähnlich?
         </p>
-            <closer>Mit vorzüglicher Hochachtung<lb/><signed>Dr. Arthur Schnitzler</signed>.
-        </closer>
+            <closer>Mit vorzüglicher Hochachtung<lb/><signed><hi rend="latintype">Dr. Arthur Schnitzler</hi>.</signed></closer>
          </div>
       </body>
   </text>

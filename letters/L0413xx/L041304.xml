@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="304"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -74,11 +73,18 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00250"/>
+      <graphic url="MS-B-00005-B-000-00251"/>
+      <graphic url="MS-B-00005-B-000-00252"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -88,14 +94,13 @@
                   </placeName> den <date>11. 1. 07</date>.</dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich war vierzehn Tage auf dem  <placeName key="A000389"><settlement>Semmering</settlement>
-               </placeName> und
-          bin nun seit Dienstag hier, für etwa zwölf Tage, mit dem Vorsatze: 1. Das Regiebuch von
-            <workName key="A020048">Hedda Gabler</workName> zu machen, deren Proben am <date>24. d.</date>
+            <p>Ich war <anchor type="commentary" xml:id="KL304-2" >vierzehn Tage</anchor> auf dem  <placeName key="A000389"><settlement>Semmering</settlement></placeName> und
+          bin nun seit Dienstag hier, für etwa zwölf Tage, mit dem Vorsatze: 1. Das <anchor type="commentary" xml:id="KL304-1" >Regiebuch von
+            <workName key="A020048">Hedda Gabler</workName></anchor> zu machen, deren Proben am <date>24. d.</date>
           beginnen sollen. 2. <subst>
                   <del rend="overwritten">z</del>
                   <add place="inline">Z</add>
-               </subst>u versuchen, ob mein neues <rs type="work" key="A020101">Stück</rs> schon so weit
+               </subst>u versuchen, ob mein neues <rs type="work" key="A020101" subtype="local-short">Stück</rs> schon so weit
           ist, dass sich mir ungefähr ein Szenarium ergibt, welches dann im Sommer ausgearbeitet
           werden soll, und 3. ein<pb/>mal mit Dir, <persName key="A002007">Richard</persName> und
             <persName key="A002035">Salten</persName> zusammen zu sein, einmal mit <persName key="A002124">Kainz</persName>, gelegentlich auch <persName key="A002089">Fred</persName> und <persName key="A002090">Handl</persName> zu sehen, sonst aber mich
@@ -108,9 +113,8 @@
           mir kommen willst, ist mir sehr erwünscht, stört mich gar nicht, freut mich riesig (ich
           kann Dir nur nichts zu<pb/> essen geben, weil ich keine Köchin habe) und wir können dann
           alles Mögliche besprechen.</p>
-            <closer>Mit den herzlichsten Grüssen an Deine liebe <rs type="person" key="A002038">Frau</rs>
-               <lb/>Dein alter<lb/>
-               <handShift scribe="A002002"/><signed>Hermann</signed></closer>
+            <closer>Mit den herzlichsten Grüssen an Deine liebe <rs type="person" key="A002038">Frau</rs><lb/>Dein alter<lb/>
+               <signed><handShift scribe="A002002"/>Hermann</signed></closer>
             <postscript>
                <p><handShift scribe="A002719"/>PS.<lb/>»<workName key="A020115">Ringelspiel</workName>« und »<workName key="A020136">Grotesken</workName>« hast Du hoffentlich richtig bekommen?</p>
             </postscript>

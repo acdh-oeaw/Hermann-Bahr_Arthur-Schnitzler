@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xml='http://www.w3.org/XML/1998/namespace' xml:id="L041632">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041632">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -16,8 +16,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -63,11 +62,11 @@
                             <msIdentifier>
                                 <country>U.S.A.</country>           
                                 <settlement>Yale</settlement>
-                                <repository>Beinecke Library</repository>
-                                <idno>YCGL, MSSS 30 f.</idno>
+                                <repository>Beinecke Rare Book and Manuscript Library</repository>
+                                <idno>Yale Collection of German Literature, MSSS 30 f.</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse am Kuvert von unbek. Hand gestrichen und ersetzt durch: »derzeit: <placeName key="A000952">Fulpmes Hotel Stubal Tirol</placeName>« (eigtl. »Hotel Stubai«).</p>
+                                <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse am Kuvert von unbek. Hand gestrichen und ersetzt durch: »<quote>derzeit: <placeName key="A000952">Fulpmes Hotel Stubal Tirol</placeName></quote>« (eigtl. ›Hotel Stubai‹).</p>
                                 <stamp n="1">
                                     <date when="19050821">21. <supplied>8.</supplied> 05</date>
                                 </stamp>
@@ -102,10 +101,10 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right"><date>21. 8  05</date></dateline>
-                    <seg rend="right">Wien XIII/<hi rend="subscript">7</hi></seg>
+                    <p rend="right">Wien XIII/<hi rend="subscript">7</hi></p>
                     <salute>Lieber Richard!</salute>
                 </opener>
-                <p>Die Karten aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und
+                <p>Die <anchor type="commentary" xml:id="KL632-1" >Karten</anchor> aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und
                     ebenso hat Ihnen <persName key="A002088">Vanjung</persName> wol meine
                             <placeName key="A000230"><settlement>Salzburg</settlement></placeName>er Grüße
                     gebracht. Leider vergaß ich, nach Ihrer Adresse zu fragen, und muß Ihnen deshalb
@@ -118,7 +117,7 @@
                         <persName key="A002138">Paula</persName>, die ich herzlichst grüße,
                     wiederzusehen.</p>
                 <closer>Ihr alter<lb/><signed>Hermann</signed></closer>
-                <postscript><p><persName key="A002078">Reinhardt</persName> hat mein <rs type="work" key="A020090">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p></postscript>
+                <postscript><p><persName key="A002078">Reinhardt</persName> hat mein <rs type="work" key="A020090" subtype="local-short">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p></postscript>
             </div>
         </body>
     </text>

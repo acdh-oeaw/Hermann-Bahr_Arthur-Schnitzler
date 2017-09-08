@@ -4,7 +4,7 @@
                 exclude-result-prefixes="xs"
                 version="2.0">
   
-  <xsl:output method="xml" encoding="utf-8" indent="yes"/>
+  <xsl:output method="xml" encoding="utf-8" indent="no"/>
   
   
   <!-- Identity template : copy all text nodes, elements and attributes -->  

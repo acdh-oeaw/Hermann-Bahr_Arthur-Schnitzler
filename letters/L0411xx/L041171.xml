@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="171"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -83,11 +82,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00038"/>
+      <graphic url="MS-B-00005-B-000-00039"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -100,10 +105,10 @@
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Mein Telephon ist <anchor type="commentary" xml:id="KL171-1" >6415</anchor>.</p>
+            <p><hyphenation alt="\enlargethispage{\baselineskip}"/>Mein Telephon ist <anchor type="commentary" xml:id="KL171-1" >6415</anchor>.</p>
             <closer>Herzlichst<lb/><signed>Bahr</signed></closer>
             <postscript>
-               <p><persName key="A002018">D.</persName> schreibt mir heute, daß sie am 5. »auf zwei Minuten« nach <placeName key="A000250"><settlement>Wien</settlement></placeName> kommt.</p>
+               <p><anchor type="label" xml:id="LL171-1" ><persName key="A002018">D.</persName> schreibt mir heute, daß sie am 5. »auf zwei Minuten« nach <placeName key="A000250"><settlement>Wien</settlement></placeName> kommt.</anchor></p>
             </postscript>
          </div>
       </body>

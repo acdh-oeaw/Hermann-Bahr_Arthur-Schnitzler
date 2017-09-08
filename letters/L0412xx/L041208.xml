@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="208"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von A. S. Jahreszahl »7« im Vordruck ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler Jahreszahl »<quote><date>7</date></quote>« im Vordruck ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,11 +75,18 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151203">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00078"/>
+      <graphic url="MS-B-00005-B-000-00079"/>
+      
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -89,11 +95,9 @@
             <p><anchor type="commentary" xml:id="KL208-1" ><persName key="A002024">Altenberg</persName></anchor> nicht, wenn es nicht sein muß – bei aller
           Verehrung seiner schönen Begabung. Aus »Opportunität« nicht. – Ich komme also Mittwoch um
           10 zu Dir. Ich muß aber bis <hi rend="underline" n="1">morgen Dienstag Abend</hi> die
-          Titel haben, damit Donnerstag (Feiertag) die Ankündigung in den Blättern sein kann.
-          Schreibe<pb/> mir also den Titel von <persName key="A002010">Hirschfelds</persName><space unit="chars" quantity="1"/><rs type="work" key="A020008" subtype="local-short">Geschichte</rs> sowie von
-            <rs type="work" key="A020006">Deine<damage agent="ink">
-                  <supplied>r</supplied>
-               </damage></rs>, von <persName key="A002011">Hugo</persName> wollen wir einfach »Gedichte«
+          Titel haben, damit Donnerstag (<anchor type="commentary" xml:id="KL208-2" >Feiertag</anchor>) die Ankündigung in den Blättern sein kann.
+          Schreibe<pb/> mir also den Titel von <persName key="A002010">Hirschfelds</persName><space unit="chars" quantity="1"/><rs type="work" key="A020008">Geschichte</rs> sowie von
+            <rs type="work" key="A020006">Deine<damage agent="ink"><supplied>r</supplied></damage></rs>, von <persName key="A002011">Hugo</persName> wollen wir einfach »Gedichte«
           annoncieren. Reihenfolge: <persName key="A002010">Hirschfeld</persName>, <persName key="A002011">Hugo</persName>, Du, ich – nicht? Programme müssen Mittwoch gedruckt
           werden.</p>
             <closer>Herzlichst<lb/>in großer Eile<lb/>Dein<lb/><signed>Hermann</signed></closer>

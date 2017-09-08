@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="240"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von A. S. mit Jahreszahl datiert: »901«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote><date>901</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00130"/>
+      <graphic url="MS-B-00005-B-000-00131"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -86,9 +91,9 @@
                <dateline rend="right"><date>7. October</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Morgen kann ich leider nicht, da ich zur Probe des »<workName key="A020026">neuen Simson</workName>« muß, 
+            <p>Morgen kann ich leider nicht, da ich zur <anchor type="commentary" xml:id="KL240-1" >Probe des »<workName key="A020026">neuen Simson</workName>«</anchor> muß, 
         und eben um dieses Stückes willen kann ich auch über die nächsten Tage nicht wohl disponieren. Dagegen bin 
-        ich Samstag, Sonntag, Montag immer mit Vergnügen bereit und, wenn es schön ist, könnte ich Dir dann auch 
+        ich <anchor type="commentary" xml:id="KL240-2" >Samstag, Sonntag, Montag</anchor> immer mit Vergnügen bereit und, wenn es schön ist, könnte ich Dir dann auch 
         die<pb/> hübschen kleinen Spazierwege zeigen, die es hier gibt. Übrigens hoffe ich Dich noch vorher zu sehen, 
         da ich in den nächsten Tagen einmal zu Dir springen will.</p>
             <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>

@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="113"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +69,7 @@
                         <idno>HS AM 60166 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenz-Karte, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>); hs. von H. B. ergänzt: »3. Januar«</p>
+                        <p>eh. Korrespondenz-Karte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>); hs. von Bahr ergänzt: »<quote><date>3. Januar</date></quote>«</p>
                         <stamp n="1">
                            <placeName key="A000250">Wien</placeName>
                            <date when="19090118">18. I. 09</date>
@@ -90,17 +89,19 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">104</biblScope>
+                  <biblScope unit="pp">104</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       <graphic url="HS_AM60166Ba"/>
+     <graphic url="HS_AM60166Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -114,14 +115,11 @@
          </div>
          <div type="writingSession" n="1">
             <p><salute>mein lieber Hermann, </salute>
-               <hi rend="underline" n="1">we<damage agent="hole">
-                     <supplied>nn</supplied>
-                  </damage> es dich nicht
+               <hi rend="underline" n="1">we<damage agent="hole"><supplied>nn</supplied></damage> es dich nicht
             im Arbeiten stört</hi>, würd ich gern einen Vormittag nächster Woche (circa
           ½ 12), den du selbst bestimmen magst, auf ein längeres Viertelstündchen zu dir
           hinaus kommen.<pb/> Hast du keine Zeit, so sags ungenirt</p>
-            <closer>Herzlichst dein<lb/>
-               <signed><hi rend="latintype">Arthur</hi></signed>
+            <closer>herzlichst dein<lb/><signed>Arthur</signed>
             </closer>
             <postscript>
                <p><date><anchor type="textConst" xml:id="TL113-1" >16. 9.</anchor> 09.</date>

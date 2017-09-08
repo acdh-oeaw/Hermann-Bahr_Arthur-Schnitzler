@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="238"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., von A. S. Jahreszahl »901« ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler Jahreszahl »<quote><date>901</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,19 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00125"/>
+      <graphic url="MS-B-00005-B-000-00126"/>
+      <graphic url="MS-B-00005-B-000-00127"/>
+      <graphic url="MS-B-00005-B-000-00128"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -98,16 +105,15 @@
           mit anonymen Briefen und auf Hintertreppen operierend, fortgesetzt benimmt,
             ein<supplied>e</supplied> stille Bewunderung nicht los werden, weil er doch das
           vollendet<pb/>ste Exemplar des biederen <placeName key="A000250">
-                  <settlement>Wieners</settlement>
-               </placeName> ist, und mir immer nur leid thut, daß
+                  <settlement>Wieners</settlement></placeName> ist, und mir immer nur leid thut, daß
           ihn <persName key="A002041">Flaubert</persName> nicht gekannt hat, der ein wahres
-          Freudengeheul über ihn ausgestoßen hätte. »Den Arier« müßte einmal Jemand schildern und
-          müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen Naderer, der
+               Freudengeheul über ihn ausgestoßen hätte. »<anchor type="commentary" xml:id="KL238-2" >Den Arier</anchor>« müßte einmal Jemand schildern und
+          müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen <anchor type="commentary" xml:id="KL238-1" >Naderer</anchor>, der
           eigentlich der Grundtypus des <placeName key="A000362"><country>Östreichers</country></placeName> zu sein scheint, was irgendwie<pb/> sehr tief
-          mit dem Catholizismus zusammen<add place="above">zu</add>hängen scheint – worüber
+          mit dem Katholicismus zusammen<add place="above">zu</add>hängen scheint – worüber
             <persName key="A002042">Poldi</persName> und <persName key="A002011">Hugo</persName>
           freilich Zeter und Mordio schreien würden. <persName key="A002040">Pötzl</persName> oder
-          der Herr <persName key="A002072">Davis</persName> von der »<orgName  key="A080071">Reichswehr</orgName>« oder der Ton des <orgName  key="A080130">Kikeriki</orgName> –
+          der Herr <anchor type="label" xml:id="LL238-1" ><persName key="A002072">Davis</persName> von der »<orgName  key="A080071">Reichswehr</orgName>«</anchor> oder der Ton des <anchor type="commentary" xml:id="KL238-3" ><orgName  key="A080130">Kikeriki</orgName></anchor> –
           das sind lauter Sachen, die an den Hof 
                   <persName key="A002043">Philipps</persName>
                 gehören und die ich mir großartig von <persName key="A002044">Velasquez</persName> gemalt denken könnte.</p>

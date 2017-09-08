@@ -5,7 +5,7 @@
                 exclude-result-prefixes="xs"
                 version="2.0">
   
-  <xsl:output method="xml" encoding="utf-8" indent="yes"/>
+  <xsl:output method="xml" encoding="utf-8" indent="no"/>
   
   <!-- Identity template : copy all text nodes, elements and attributes -->  
    <xsl:template match="@*|node()">
@@ -188,19 +188,25 @@
    
    <!-- Das kürzt jene Absätze, die einen Anchor mit output haben -->
   <xsl:template match="p/anchor[@output='true' and not(preceding-sibling::node())]">
-      <xsl:apply-templates/>
+     <p> 
+     <xsl:apply-templates/>
       <xsl:text> {[\ldots]}</xsl:text>
+     </p>
   </xsl:template>
   
   <xsl:template match="p/anchor[@output='true' and preceding-sibling::node() and following-sibling::node()]">
+     <p>
       <xsl:text>{[\ldots]} </xsl:text>
       <xsl:apply-templates/>
       <xsl:text> {[\ldots]}</xsl:text>
+     </p>
   </xsl:template>
   
   <xsl:template match="p/anchor[@output='true' and not(following-sibling::node())]">
+     <p>
       <xsl:text>{[\ldots]} </xsl:text>
       <xsl:apply-templates/>
+     </p>
   </xsl:template>
  
    <xsl:template match="p[ancestor::body]|salute[parent::opener]|dateline[parent::opener]|seg[parent::opener]|closer|lg|head">
@@ -213,8 +219,7 @@
                 <xsl:choose>
                    <!-- Ist innerhalb des Absatzes gekürzt -->
                    <xsl:when test="child::anchor[@output='true']">
-                      <p><xsl:apply-templates select="anchor[@output='true']"/>
-                      </p>
+                      <xsl:apply-templates select="anchor[@output='true']"/>
                    </xsl:when>
                    <xsl:when test="self::*[@output='true']">
                       <xsl:copy copy-namespaces="no">
@@ -275,8 +280,7 @@
                    <xsl:choose>
                       <!-- Ist innerhalb des Absatzes gekürzt -->
                       <xsl:when test="child::anchor[@output='true']">
-                         <p><xsl:apply-templates select="anchor[@output='true']"/>
-                         </p>
+                         <xsl:apply-templates select="anchor[@output='true']"/>
                       </xsl:when>
                       <!-- kommt der jeweils andere vor, ausgeben -->
                       <xsl:when test="ancestor::TEI/teiHeader/fileDesc/titleStmt/author[@key='A002002'] and descendant::*[contains(@key,'A002001')]">
@@ -298,8 +302,7 @@
                       </xsl:when>
                       <!-- Ist innerhalb des Absatzes gekürzt -->
                       <xsl:when test="child::anchor[@output='true']">
-                         <p><xsl:apply-templates select="anchor[@output='true']"/>
-                         </p>
+                         <xsl:apply-templates select="anchor[@output='true']"/>
                       </xsl:when>
                       <xsl:when test="@output='true'">
                          <xsl:copy copy-namespaces="no">
@@ -345,8 +348,7 @@
                    </xsl:when>
                       <!-- Ist innerhalb des Absatzes gekürzt -->
                       <xsl:when test="child::anchor[@output='true']">
-                         <p><xsl:apply-templates select="anchor[@output='true']"/>
-                         </p>
+                         <xsl:apply-templates select="anchor[@output='true']"/>
                       </xsl:when>
                       <!-- Aufzeichnungen Dritter -->
                       <xsl:when test="not(ancestor::TEI/teiHeader/fileDesc/titleStmt/author[@key='A002001']) and not(ancestor::TEI/teiHeader/fileDesc/titleStmt/author[@key='A002002']) and descendant::*[contains(@key,'A002001')] and descendant::*[contains(@key,'A002002')]">
@@ -386,8 +388,7 @@
              </xsl:when>
              <!-- Wenn im Absatz gekürzt ist -->
              <xsl:when test="child::anchor[@output='true']">
-                <p><xsl:apply-templates select="anchor[@output='true']"/>
-                </p>
+                <xsl:apply-templates select="anchor[@output='true']"/>
              </xsl:when>
              <!-- Wenn Absätze ausgelassen sind, wird geschaut, ob zwischen zwei abgedruckten Absätzen -->
              <xsl:when test="child::gap[@reason='outOfScope']">

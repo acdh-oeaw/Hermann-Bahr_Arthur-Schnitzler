@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="116"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,8 +71,7 @@
                         <idno>HS AM 60148 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »<placeName key="A001035"><settlement>Darmstadt</settlement>
-                           </placeName>. Glockenspiel«, 2 Verf., Bleistift</p>
+                        <p>eh. Ansichtskarte, Motiv: »<quote><placeName key="A001035"><settlement>Darmstadt</settlement></placeName>. Glockenspiel</quote>«, 2 Verf., Bleistift</p>
                         <stamp n="1">
                            <placeName key="A001035">Darmstadt</placeName>
                            <date when="19100918">18 9 10</date>
@@ -93,17 +91,20 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">104</biblScope>
+                  <biblScope unit="pp">104</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+         
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       <graphic url="HS_AM60148Ba"/>
+     <graphic url="HS_AM60148Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -125,13 +126,12 @@
             <opener>
                <dateline rend="right"><date>18/9 1910</date>.</dateline>
             </opener>
-            <p>herzliche Grüße dir und deiner verehrten <rs type="person" key="A002080">Gattin</rs>
-            </p>
-            <closer>dein <signed><hi rend="latintype">Arthur</hi></signed>
+            <p>Herzliche Grüße dir und deiner verehrten <rs type="person" key="A002080">Gattin</rs></p>
+            <closer>Dein <signed>Arthur</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <closer><handShift scribe="A002038"/><signed>Olga Schnitzler</signed>
+            <closer><signed><handShift scribe="A002038"/>OlgaSchnitzler</signed>
       </closer>
          </div>
       </body>

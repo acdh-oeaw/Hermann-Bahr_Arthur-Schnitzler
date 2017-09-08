@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="339"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte ohne Anschrift, Motiv: »<placeName key="A000655">Salzburg, Am Stein</placeName>«</p>
+                        <p>eh. Bildpostkarte ohne Anschrift, Motiv: »<quote><placeName key="A000655">Salzburg, Am Stein</placeName></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,11 +75,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151217">Kollationiert</change>
+         <change who="KI MAM" when="20170531">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00316"/>
+      <graphic url="MS-B-00005-B-000-00317"/>
+   </facsimile>
+   <text type="card">
       <body>
      
          <div type="writingSession" n="1">
@@ -93,9 +97,7 @@
         Telegramm, das mein Herz erfreut!</p>
             <p>Bleibt mir, was <rs type="person" key="A002038">Ihr</rs> 
         mir seit so vielen Jahren seid! Ich will immer der <rs type="person" key="A002038">Eure</rs> sein! </p>
-            <closer><signed>Hermann Bahr
-               </signed>
-            </closer>
+            <closer><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

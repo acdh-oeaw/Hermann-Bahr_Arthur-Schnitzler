@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="224"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,17 +75,22 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00104"/>
+   </facsimile>
+   <text type="letter">
       <body>     
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><date>10. Februar 9</date></dateline>
                <salute rend="center">Lieber Arthur!</salute></opener>
-            <p>Bitte, lies meinen diesmaligen <workName key="A020713">Artikel</workName>. Ich schlage da vor, daß 
+            <p>Bitte, lies meinen diesmaligen <anchor type="commentary" xml:id="KL224-1" ><rs type="work" key="A020713">Artikel</rs></anchor>. Ich schlage da vor, daß 
         die Autoren bei ihren Premièren nicht mehr erscheinen sollen. Willst Du so lieb sein, mir 
         darüber in zwei Zeilen, die ich in der »<orgName  key="A080011">Zeit</orgName>« 
         abdrucken darf, <subst>

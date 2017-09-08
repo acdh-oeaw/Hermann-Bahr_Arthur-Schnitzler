@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="227"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Visitkarte: »Hermann Bahr«, die Jahreszahl »900« von A. S. mit Bleistift am Datum ergänzt.</p>
+                        <p>Visitkarte: »<quote>Hermann Bahr</quote>«, die Jahreszahl »<quote><date>900</date></quote>« von Schnitzler mit Bleistift am Datum ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,16 +73,20 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00108"/>
+      <graphic url="MS-B-00005-B-000-00109"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="writingSession" n="1">
-            <p>dankt Dir, lieber Freund, herzlichst für Dein <hi rend="latintype">
-                  <rs type="work" key="A020018" subtype="local-short">Buch</rs>
-               </hi>: Die <persName key="A002018">Sandrock</persName> ist<pb/> einfach famos!</p>
+            <p>dankt Dir, lieber Freund, herzlichst für Dein <anchor type="commentary" xml:id="KL227-1" ><rs type="work" key="A020018">Buch</rs></anchor>: Die <persName key="A002018">Sandrock</persName> ist<pb/> einfach famos!</p>
             <closer>In alter Freundschaft<lb/><signed>HermannBahr</signed></closer>
             <postscript>
                <p><date>20/4</date>

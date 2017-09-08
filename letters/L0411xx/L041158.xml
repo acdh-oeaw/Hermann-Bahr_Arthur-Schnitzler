@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="158"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., von A. S. datiert: »<date>Mitte Aug 93</date>«</p>
+                        <p>eh. Brief, 1 Bl., 3 S., von Schnitzler datiert: »<quote><date>Mitte Aug 93</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,26 +73,32 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00021"/>
+      <graphic url="MS-B-00005-B-000-00022"/>
+      <graphic url="MS-B-00005-B-000-00335"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
             <opener>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
-            <p>Ich bin verzweifelt. Ihr Brief trifft mich im Packen – ich verreise heute auf ein
+            <p>Ich bin verzweifelt. Ihr Brief trifft mich im Packen – <anchor type="commentary" xml:id="KL158-1" >ich verreise</anchor> heute auf ein
           paar Tage. Ich fange also sofort zu suchen an – denn irgendwo habe ich ja dieses
-          verruchte <workName key="A020125">Amerika</workName>, aber wo? Ich habe alles von unterst zu oberst gekehrt –
+          verruchte <anchor type="commentary" xml:id="KL158-2" ><workName key="A020125">Amerika</workName></anchor>, aber wo? Ich habe alles von unterst zu oberst gekehrt –
           bisher umsonst. Mittwoch komme ich<pb/> auf ein oder zwei Tage zurück u. will dann
           wie ein Sträfling suchen. Sind Sie sehr böse, wenn ich Sie bis dahin vertröste?</p>
             <p>Ich muss dann ohnehin zu Ihnen um Ihnen wegen des <rs type="person" key="A002172">Regimentsarztes</rs> zu danken
           u. Sie zu fragen, in welcher Weise es für mich angemessen ist, mich bei dem
           Herrn zu revan<pb/>chieren.</p>
-            <closer>In großer Hast<lb/>Ihr<lb/>treuer<lb/><signed>Bahr</signed></closer>
+            <closer>In großer Hast<lb/>Ihr treuer<lb/><signed>Bahr</signed></closer>
             <postscript>
                <p>Schreiben Sie uns doch einmal ein Feuilleton!</p>
             </postscript>

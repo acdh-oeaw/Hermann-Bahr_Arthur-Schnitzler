@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="303"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift</p>
+                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00248"/>
+      <graphic url="MS-B-00005-B-000-00249"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -93,14 +98,14 @@
             <p>Mir ist nämlich folgendes passiert: Ich schrieb den Akt »nach einer wahren Begebenheit«
           (worüber gelegentlich einmal mündlich), eigentlich nur, weil ich Spass an der weiblichen
           Figur fand; nun teilt mir <persName key="A002000">Burckhard</persName> mit, dass es
-          eigentlich das <workName key="A020093">Abschiedssouper</workName> ist, ich erschrecke,
-          denke nach und<pb/> kann es nicht läugnen. Du wirst mir glauben, dass es unbewusst war.
+          eigentlich das <workName key="A020093">Abschiedsouper</workName> ist, ich erschrecke,
+          denke nach und –<pb/> kann es nicht läugnen. Du wirst mir glauben, dass es unbewusst war.
           Ich möchte aber doch jedenfalls öffentlich irgendwie den wahren Autor nennen: daher die
           Widmung.</p>
             <p>Ich lasse Deiner lieben <rs type="person" key="A002038">Frau</rs> herzlichst für die
-          Bilder danken und werde mich sehr freuen, wenn sie mir erlaubt, ihr gelegentlich eines zu
-          bringen.</p>
-            <closer>Mit vielen herzlichen Grüssen<lb/>Dein<lb/><handShift scribe="A002002"/><signed>Hermann</signed></closer>
+          <anchor type="commentary" xml:id="KL303-1" >Bilder</anchor> danken und werde mich sehr freuen, wenn sie mir erlaubt, ihr <anchor type="commentary" xml:id="KL303-2" >gelegentlich eines zu
+          bringen</anchor>.</p>
+            <closer>Mit vielen herzlichen Grüssen<lb/>Dein<lb/><signed><handShift scribe="A002002"/>Hermann</signed></closer>
          </div>
       </body>
   </text>

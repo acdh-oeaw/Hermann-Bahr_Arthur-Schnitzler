@@ -66,6 +66,7 @@
    
    
    <!-- Diese Funktion setzt den Inhalt eines Index-Eintrags einer Person. Übergeben wird nur der key -->
+   <!-- Diese Funktion setzt den Inhalt eines Index-Eintrags einer Person. Übergeben wird nur der key -->
    <xsl:function name="foo:person-fuer-index">
       <xsl:param name="xkey" as="xs:string"/>
       <xsl:variable name="indexkey" select="key('person-lookup', $xkey, $persons)" as="node()?"/>
@@ -86,7 +87,7 @@
                   <xsl:value-of select="foo:index-sortiert(substring-after($kBeruf,' '), 'sc')"/>
                </xsl:when>
                <xsl:otherwise>
-                  <xsl:text>00anonym@Nicht ermittelte Personen!</xsl:text>
+                  <xsl:text>+@Nicht ermittelte Personen!</xsl:text>
                   <xsl:if test="not($kBeruf = '')">
                      <xsl:value-of select="foo:index-sortiert($kBeruf, 'sc')"/>
                   </xsl:if>
@@ -94,13 +95,25 @@
             </xsl:choose>
          </xsl:when>
          <xsl:when test="not($kVorname='') and not($kNachname='')">
-            <xsl:value-of select="foo:index-sortiert(concat($kNachname, ', ', $kVorname), 'sc')"/>
+            <xsl:value-of select="foo:umlaute-entfernen(concat($kNachname, ', ', $kVorname, ' ', $kGeburtsdatum, '–', $kTodesdatum))"/>
+            <xsl:text>@</xsl:text>
+            <xsl:text>\textsc{</xsl:text>
+            <xsl:value-of select="foo:sonderzeichen-ersetzen(concat($kNachname, ', ', $kVorname))"/>
+            <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:when test="not($kVorname='') and $kNachname=''">
-            <xsl:value-of select="foo:index-sortiert($kVorname, 'sc')"/>
+            <xsl:value-of select="foo:umlaute-entfernen(concat($kVorname, ' ', $kGeburtsdatum, '–', $kTodesdatum))"/>
+            <xsl:text>@</xsl:text>
+            <xsl:text>\textsc{</xsl:text>
+            <xsl:value-of select="foo:sonderzeichen-ersetzen($kVorname)"/>
+            <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:when test="$kVorname='' and not($kNachname='')">
-            <xsl:value-of select="foo:index-sortiert($kNachname, 'sc')"/>
+            <xsl:value-of select="foo:umlaute-entfernen(concat($kNachname, ' ', $kGeburtsdatum, '–', $kTodesdatum))"/>
+            <xsl:text>@</xsl:text>
+            <xsl:text>\textsc{</xsl:text>
+            <xsl:value-of select="foo:sonderzeichen-ersetzen($kNachname)"/>
+            <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <xsl:text>\textcolor{red}{XXXXXX INDEXFEHLER}</xsl:text>
@@ -112,7 +125,7 @@
          <xsl:text/>
       </xsl:if>
       <xsl:choose>
-         <xsl:when test="not(empty($kGeburtsdatum)) and not($kGeburtsdatum='')">
+         <xsl:when test="not(empty($kGeburtsdatum) or $kGeburtsdatum='')">
             <xsl:text> (</xsl:text>
             <xsl:choose>
                <xsl:when test="not(empty($kTodesdatum)) and not($kTodesdatum='')">
@@ -123,6 +136,9 @@
                         <xsl:value-of select="replace($kGeburtsort, '/', '{\\slash}')"/>
                         <xsl:text> </xsl:text>
                      </xsl:when>
+                     <xsl:when test="not(empty($kTodesort)) and not($kTodesort='')">
+                        <xsl:text> </xsl:text>
+                     </xsl:when>
                   </xsl:choose>
                   <xsl:text>–</xsl:text>
                   <xsl:choose>
@@ -130,9 +146,19 @@
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$kTodesdatum"/>
                         <xsl:text> </xsl:text>
-                        <xsl:value-of select="replace($kTodesort, '/', '{\\slash}')"/>
+                        <xsl:choose>
+                           <xsl:when test="normalize-space($kGeburtsort) = normalize-space($kTodesort)">
+                              <xsl:text>ebd.</xsl:text>
+                           </xsl:when>
+                           <xsl:otherwise>
+                              <xsl:value-of select="replace($kTodesort, '/', '{\\slash}')"/>
+                           </xsl:otherwise>
+                        </xsl:choose>
                      </xsl:when>
                      <xsl:otherwise>
+                        <xsl:if test="not(number(translate(substring($kTodesdatum, 1, 1),'0','1')))"><!-- Für den Fall dass es mit 'um' oder 'ca.' beginnt -->
+                           <xsl:text> </xsl:text>
+                        </xsl:if>
                         <xsl:value-of select="$kTodesdatum"/>
                      </xsl:otherwise>
                   </xsl:choose>
@@ -181,6 +207,7 @@
          <xsl:text/>
       </xsl:if>
    </xsl:function>
+   
    
    
    <xsl:function name="foo:personen-key-check" as="xs:boolean">
@@ -873,7 +900,7 @@
            <xsl:apply-templates select="idno"/>
         </xsl:when>
         <xsl:when test="repository ='Theatermuseum'">
-           <xsl:text>ÖTM, </xsl:text>
+           <xsl:text>TMW, </xsl:text>
            <xsl:apply-templates select="idno"/>
         </xsl:when>
         <xsl:when test="repository ='Deutsches Literaturarchiv'">

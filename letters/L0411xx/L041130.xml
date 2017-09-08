@@ -5,7 +5,7 @@
       <fileDesc>
          <titleStmt>
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Schnitzler an Bahr, 19. 7. 1913</title>
+            <title level="a" key="A021371">Schnitzler an Bahr, 19. 7. 1913</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="130"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -63,10 +62,10 @@
                         <country>A</country>           
                         <settlement>Wien</settlement>
                         <repository>Theatermuseum</repository>
-                        <idno>BT O 1576</idno>
+                         <idno>BT O 1576</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p><persName key="A002161">Emma Löwenstamm</persName>: Brustbild von Arthur Schnitzler, Radierung, in der Platte sign. und datiert</p>
+                        <p><persName key="A002161">Emma Löwenstamm</persName>: <rs type="work" key="A021371">Brustbild von Arthur Schnitzler</rs>, Radierung, in der Platte sign. und datiert</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,19 +73,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="photograph">
+   <facsimile>       
+     <graphic url="BT_O_1576_201410"/>    
+  </facsimile>
+  <text type="dedication">
       <body>         
-         <div type="writingSession" n="1">
+            <div type="image" n="1">
             <figure>
-               <graphic url="./images/BT201410.jpg" width="12cm"/>
+               <graphic url="./images/BT201410.jpg" width="10cm"/>
             </figure>
-            <p>Meinem lieben Hermann<lb/>zum 19. Juli 1913</p>
-            <closer>herzlichst<lb/><signed>
-               <hi rend="latintype">Arthur</hi>
+            </div>
+         <div type="writingSession" n="1">
+            <p>Meinem lieben Hermann<lb/>zum <date>19. Juli 1913</date></p>
+            <closer>herzlichst<lb/><signed>Arthur
             </signed></closer>
          </div>
       </body>

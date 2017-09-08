@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="327"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift und Nachschrift, 1 Bl., 3 S., Lateinschrift</p>
+                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift und Nachschrift, 1 Bl., 3 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,42 +75,46 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00292"/>
+      <graphic url="MS-B-00005-B-000-00293"/>
+      <graphic url="MS-B-00005-B-000-00294"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
-                  </placeName>
-                  <space unit="chars" quantity="5"/><date>26. 9. 10</date>.</dateline>
+                  </placeName><space unit="chars" quantity="5"/><date>26. 9. 10</date>.</dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich fahre Samstag für vier Wochen nach
-            <placeName key="A000531"><settlement>London</settlement>
-               </placeName> und so werde ich leider bei
+            <p>Ich fahre <anchor type="commentary" xml:id="KL327-2" >Samstag für vier Wochen nach
+            <placeName key="A000424"><settlement>London</settlement></placeName></anchor> und so werde ich leider <anchor type="label" xml:id="LL327-1" >bei
           Deiner <rs type="work" key="A020059">Première</rs> nicht in
-              <placeName key="A000250"><settlement>Wien</settlement></placeName> sein. Es wäre mir aber lieb, wenn
+              <placeName key="A000250"><settlement>Wien</settlement></placeName></anchor> sein. Es wäre mir aber lieb, wenn
           Du mir (entweder noch vor Samstag hieher oder dann nach <placeName key="A000216">London E.
-            C. Victoria Embankment, De Keysers Hotel</placeName>) ein Buch Deines neuen <workName key="A020059">Stückes</workName> schicken könntest. Macht es mir einen starken Eindruck
+            C. Victoria Embankment, De Keysers Hotel</placeName>) ein <anchor type="commentary" xml:id="KL327-1" >Buch Deines neuen <rs type="work" key="A020059">Stückes</rs></anchor> schicken könntest. Macht es mir einen starken Eindruck
           und habe ich darüber wirklich etwas zu sagen, so würde ich das für das <orgName  key="A080080">Wiener Journal</orgName> von
-            <placeName key="A000531"><settlement>London</settlement>
-               </placeName> aus tun und veranlassen, dass von
+            <placeName key="A000424"><settlement>London</settlement></placeName> aus tun und veranlassen, dass von
           irgend einem der Herren<pb/> der Redaktion eine kurze Notiz über die Aufführung und
           Aufnahme angehängt werde. Kann ich aber in kein rechtes inneres Verhältnis dazu kommen,
           woran ja ebenso der Autor wie der Kritiker schuld sein kann, so ist es uns beiden besser,
           wenn ich die Gelegenheit zu schweigen ausnütze, statt mich um das Stück herum zu reden,
           was mir, je älter ich werde, immer unleidlicher wird.</p>
-            <p>Im November komme ich nur auf ein paar Tage zurück, weil ich gleich wieder 
-        an den Rhein, auf eine Vorlesungstournée muss. Aber im Dezember wird es uns 
+            <p>Im <date>November</date> komme ich nur auf ein paar Tage zurück, weil ich gleich wieder 
+        an den <geogName type="river">Rhein</geogName>, auf eine <anchor type="commentary" xml:id="KL327-3" >Vorlesungstournée</anchor> muss. Aber im <date>Dezember</date> wird es uns 
         dann doch einmal vergönnt sein, in Ruhe zu <rs type="person" key="A002038">Euch</rs> zu kommen.<pb/></p>
             <closer>Mit herzlichen Grüssen von <rs type="person" key="A002080">uns</rs> beiden, auch
         an Deine liebe <rs type="person" key="A002038">Frau</rs>,<lb/>Dein alter<lb/>
-               <handShift scribe="A002002"/><signed>Hermann</signed></closer>
+               <signed><handShift scribe="A002002"/>Hermann</signed></closer>
             <postscript>
                <p>viel zu nervös, um selbst schreiben zu können.</p>
             </postscript>

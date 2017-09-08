@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="048"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -49,8 +48,6 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <!--<placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
-          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                <dateSender>
                   <date when="19020125" n="1">25. 1. 1902</date>
                </dateSender>
@@ -81,17 +78,23 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">74</biblScope>
+                  <biblScope unit="pp">74</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM23349Ba"/> 
+     <graphic url="HS_AM23349Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -101,14 +104,12 @@
             <p>ich danke dir sehr. Du hast Dinge über mich gesagt, die mich ganz besonders
           gefreut haben; – ich wollte sie endlich hören, wollte sie vor allem von dir
           hören. Nicht das beiläufige über den <orgName key="A080734">Grillparzer Preis</orgName> meine ich, sondern
-          das<pb/> allgemeine. Jemand, der heute deinen <rs type="work" key="A020731" subtype="local-short">Artikel</rs> las, sagte: »Es ist ganz
+          das<pb/> allgemeine. Jemand, der heute deinen <rs type="work" key="A020731">Artikel</rs> las, sagte: »Es ist ganz
           einfach, Ihr seid <add place="inline">a<unclear>l</unclear>
-                  <damage agent="paperloss">
-                     <supplied>le</supplied>
-                  </damage>
+                  <damage agent="paperloss"><supplied>le</supplied></damage>
                </add> beide mit der Zeit anständige
           Leute geworden.«</p>
-            <closer>Herzlichen Gruss<lb/>dein <signed>Arthur</signed>
+            <closer>herzlichen Gruss<lb/>dein <signed>Arthur</signed>
       </closer>
             <postscript>
                <p><date>2<subst>

@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="031"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -52,7 +51,6 @@
                <placeSender>
                   <placeName key="A000863">Baden bei Wien</placeName>
                </placeSender>
-               <!--<placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                <dateSender>
                   <date when="19001018" n="01">18. 10. 1900</date>
                </dateSender>
@@ -82,25 +80,27 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">67</biblScope>
+                  <biblScope unit="pp">67</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170503">Kollationiert</change>
+         
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       <graphic url="HS_AM23338Ba"/>
+     <graphic url="HS_AM23338Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline>
-                  <placeName key="A000863">
-                     <settlement>Baden b/W.</settlement>
-                  </placeName><space unit="chars" quantity="1"/><date>18. 10. 900</date></dateline>
+                  <hi rend="latintype"><placeName key="A000863">
+                     <settlement>Baden b/W.</settlement></placeName></hi><space unit="chars" quantity="1"/><date>18. 10. 900</date></dateline>
             </opener>
             <p><salute>lieber Hermann, </salute>deine Sympathie für die <workName key="A020019">Beatrice</workName> 
         freut mich herzlich. Vielen Dank für die lieben Worte,
@@ -113,8 +113,7 @@
           dem <unclear>vielen</unclear> Gemüth noch besser gefallen. Es ist eine köstliche
           Lebendigkeit in den Bauernburschen wie in den Hofräthen,<pb/> der Himmel über
           dem ganzen echt <placeName key="A000362">oesterreichisch</placeName> – nur die Gestirne kommen mir <subst>
-                  <del rend="strikethrough">
-                     <unclear>sozusagen</unclear>
+                  <del rend="strikethrough">sozusagen
                   </del>
                   <add place="above">zu weilen</add>
                </subst> ein bissel »Theater<unclear>«</unclear> vor.</p>

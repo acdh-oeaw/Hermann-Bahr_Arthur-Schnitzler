@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                  </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +34,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="422"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -60,25 +59,40 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,34</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 4 S., Bleistift. Mit Bleistift am oberen Blattrand zusätzlich datiert: »<quote><date>18/2 93</date></quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
                         <publisher>S. Fischer Verlag</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">36</biblScope>
+                        <biblScope unit="pp">36</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
         <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170703">Kollationiert</change>
+            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -86,26 +100,26 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right"><date>18. 2. 93</date></dateline>
                     <salute>Lieber Hugo,</salute>
                 </opener>
                 <p output="true" >bitte lesen Sie <anchor type="commentary" xml:id="KL422-1">beiliegenden Brief</anchor>. Und dann fragen Sie gütigst
                         <persName key="A002002">Bahr</persName>, wie die Aussichten des Dr.
-                        <persName key="A002239">Fels</persName> bei der <orgName  key="A080155">Dtsch. Ztg.</orgName> stehn,
-                    und wann er eintreffen müßte. Es wäre mir höchst erwünscht, darüber vollkommene
-                    Klarheit zu haben. Sie ersehen auch weiters aus dem Brief, daß auf Ihre
-                    liebenswürdige Zusage, eine neuerliche Sammlung zu veranstalten, reflectiert
+                        <persName key="A002239"><hi rend="latintype">Fels</hi></persName> bei der <orgName  key="A080155">Dtsch Ztg</orgName> stehen,
+                    und wann er eintreffen müsste. Es wäre mir höchst erwünscht, darüber vollkommene
+                    Klarheit zu haben. Sie ersehen auch<pb/> weiters aus dem Brief, dass auf Ihre
+                    liebenswürdige Zusage, eine neuerliche Sammlg zu veranstalten, reflectirt
                     wird. Je früher mir Ihre Resultate in jeder Richtung bekannt werden, umso
                     dankbarer bin ich Ihnen im Namen unsres Kranken.</p>
-                <p>– Wann werden wir wieder einmal gescheite Dinge miteinander sprechen? Was machen
+                <p>– Wann werden wir wieder einmal gescheidte Dinge<pb/> miteinander sprechen? Was machen
                     Sie? Ich wäre sehr erfreut, wieder einmal mit Ihnen zusammen zu sein. Ich bin
                     jeden Abend nach 10 im <placeName key="A000462">Central</placeName>, Dienstag, Donnerstag,
-                    Samstag sicher. Den beigelegten Brief bitte mir mit Ihrer frdl. Antwort gef.
+                    Samstag sicher. Den beigelegten Brief bitte mir mit Ihrer frdl Antwort gef
                     rückzusenden.</p>
-                <closer>Herzlich der Ihre<lb/><signed>Arthur.</signed>
-                    
+                <closer><pb/>Herzlich der Ihre<lb/><signed>Arthur.</signed>
                 </closer>
-                
+                <postcript>
+                    <dateline rend="right"><date>18. 2. 93</date></dateline>
+                </postcript>
             </div>
         </body>
     </text>

@@ -5,7 +5,7 @@
                 exclude-result-prefixes="xs"
                 version="2.0">
   
-  <xsl:output method="xml" encoding="utf-8" indent="yes"/>
+  <xsl:output method="xml" encoding="utf-8" indent="no"/>
   
   <!-- Identity template : copy all text nodes, elements and attributes -->  
   <xsl:template match="@*|node()">
@@ -23,7 +23,7 @@
   <xsl:template match="anchor[starts-with(@xml:id,'K')]">
       <xsl:variable name="commentary-entry"
                     select="key('commentary-lookup', @xml:id, $commentary)"/>
-    <xsl:variable name="lemmatext" select="normalize-space(string-join(node(),' '))"/>
+    <xsl:variable name="lemmatext" select="normalize-space(string(.))"/>
     <xsl:copy>
       <xsl:copy-of select="@*" />
         <kommentar>
@@ -83,7 +83,10 @@
           </lemma>
           <kommentarinhalt>
             <xsl:choose>
-              <xsl:when test="empty($commentary-entry/Kommentartext/.)">
+              <xsl:when test="$commentary-entry[2]">
+                <xsl:text>\textcolor{red}{\emph{Zwei Kommentare!}}</xsl:text>
+              </xsl:when>
+              <xsl:when test="(normalize-space($commentary-entry[1]/Kommentartext[1]) = '' and not($commentary-entry[1]/Kommentartext[1][descendant::ptr])) or empty($commentary-entry/Kommentartext/.)">
                   <xsl:text>\textcolor{red}{\emph{Kommentar fehlt}}</xsl:text>
               </xsl:when>
               <xsl:otherwise>
@@ -94,9 +97,7 @@
         </kommentar>
     </xsl:copy>
   </xsl:template>
-  
     
- 
   <xsl:template match="anchor[starts-with(@xml:id,'T')]">
     <xsl:variable name="textConst-entry"
       select="key('textconst-lookup', @xml:id, $textconst)"/>
@@ -168,7 +169,5 @@
       </textconst-inhalt>
     </textkonstitution>
   </xsl:template>
-  
-
   
 </xsl:stylesheet>

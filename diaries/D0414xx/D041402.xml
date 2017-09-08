@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-D" n="402"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -58,14 +57,14 @@
                </witness>
             </listWit>
             <listBibl>
-               <biblStruct default="false">
+               <biblStruct corresp="HBT2" default="false">
                   <monogr>
                      <title level="m">1891–1900</title>
                      <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor>
                      <imprint>
                         <date when="1996">1996</date>
                      </imprint>
-                     <biblScope type="pp">287</biblScope>
+                     <biblScope unit="pp">287</biblScope>
                   </monogr>  
                   <monogr>
                      <author key="A002002">Bahr, Hermann</author>
@@ -75,8 +74,7 @@
                         <pubPlace>Wien, Köln, Weimar</pubPlace>
                         <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                        <biblScope type="vol">II</biblScope>
-                     </imprint>
+                        </imprint><biblScope unit="vol">II</biblScope>                      
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -90,7 +88,7 @@
   </teiHeader>
    <text type="diaryDay">   
       <body>
-         <div type="writingSession" n="1" rend="indent0">
+         <div type="writingSession" n="1" >
             <p output="true" ><date when="18971115" n="1"/>2. Conference.</p>
             <p output="true" ><persName key="A003090">Leoster</persName>. <orgName  key="A080071">Reichswehr</orgName>. <persName key="A002665">Maxl. Schles.</persName>
             </p>
@@ -99,9 +97,9 @@
             </p>
             <p output="true" ><workName key="A020007">Die Todten schweigen</workName> von <persName key="A002001">A. Sch.</persName>
             </p>
-            <p output="true" ><workName key="A020695">Eine neue literarische Schule</workName> von <persName key="A002028">F. Groß</persName>
+            <p output="true" ><anchor type="commentary" xml:id="KD402-1" ><workName key="A020695">Eine neue literarische Schule</workName></anchor> von <persName key="A002028">F. Groß</persName>
             </p>
-            <p output="true" >Der Roman. Eine Skizze von <persName key="A002174">A. Gold</persName>
+            <p output="true" ><anchor type="commentary" xml:id="KD402-2" >Der Roman. Eine Skizze</anchor> von <persName key="A002174">A. Gold</persName>
             </p>
             <p output="true" ><hi rend="underline" n="1">
                   <persName key="A002174">Gold</persName> für Samstag 2 Uhr</hi>

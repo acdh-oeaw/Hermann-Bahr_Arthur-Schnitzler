@@ -17,8 +17,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -34,7 +33,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="084"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -82,30 +81,34 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">92</biblScope>
+                  <biblScope unit="pp">92</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170509">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM23373Ba"/> 
+     <graphic url="HS_AM23373Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <seg rend="center">
+               <p rend="center">
                   <hi rend="latintype">
                      <placeName key="A000268">Wien XVIII</placeName>
                   </hi>
-               </seg>
+               </p>
                <dateline rend="right"><date>28. 9. 905</date></dateline>
             </opener>
-            <p><salute>lieber Hermann, </salute>nun fangen meine <rs type="work" key="A020042" subtype="local-short">Proben</rs> an, da ich eben vom  <placeName key="A000389"><settlement>Semmering</settlement>
-               </placeName>
+            <p><salute>lieber Hermann, </salute>nun fangen meine <rs type="work" key="A020042" subtype="local-short">Proben</rs> an, da ich eben vom  <placeName key="A000389"><settlement>Semmering</settlement></placeName>
           zurück bin, und mit den Vormittagen ist es wieder nichts. Könnte man sich nicht
           doch vielleicht an einem Abend, in <placeName key="A000263">Hietzing</placeName> etwa, zum Nachtmahl, wenn du einmal
           kein Theater hast, treffen? Anfang nächster Woche? – Sonst müßten wir<pb/> unser
@@ -114,7 +117,7 @@
             Lebens</workName>« zurück. –</p>
             <closer>Herzlichst, mit vielen Grüßen auch von <persName key="A002038">Olga</persName>
                <lb/>dein<lb/>
-               <signed><hi rend="latintype">Arthur</hi></signed>
+               <signed>Arthur</signed>
             </closer>
          </div>
       </body>

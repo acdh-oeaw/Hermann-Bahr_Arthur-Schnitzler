@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="103"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +69,7 @@
                         <idno>HS AM 60171 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, Lateinschrift, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>)</p>
+                        <p>eh. Karte, Lateinschrift, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>)</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -85,34 +84,35 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">101</biblScope>
+                  <biblScope unit="pp">101</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       <graphic url="HS_AM60171Ba"/>
+     <graphic url="HS_AM60171Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline><date>13. <damage agent="hole">
-                     <supplied>1</supplied>
-                  </damage>. 908</date></dateline>
+               <dateline><date>13<damage agent="hole"><supplied>. 1</supplied></damage>. 908</date></dateline>
             </opener>
             <p><salute>mein lieber Hermann, </salute>erst heut dank ich dir für deinen guten Brief vom 23. v. M.
-        Mit <placeName key="A000213">Hebbelth</placeName> hab ich abgeschlossen – doch hör ich
+        Mit <anchor type="commentary" xml:id="KL103-3" ><placeName key="A000213">Hebbelth</placeName> hab ich abgeschlossen</anchor> – doch hör ich
           von <persName key="A002095">Valentin</persName>s <anchor type="commentary" xml:id="KL103-1" >Gesundheitszustand</anchor> ungünstiges.
           (Und über das Theater selbst<subst>
                   <del rend="overwritten">, </del>
-                  <add place="inline"> (</add>
+                  <add place="inline"><hyphenation alt=""> </hyphenation>(</add>
                </subst>unter uns) nichts sehr hoffnungsreiches.) Meine <rs type="person" key="A002038">Frau</rs> liegt noch, die Contumaz dauert etwa noch
-          10–14 Tage. Schreib mir<pb/> ein Wort, wann du nach
-            <placeName key="A000368"><settlement>Berlin</settlement></placeName> fährst. Wie gern spräch ich dich bald
+          10–14 Tage. Schreib mir<pb/> ein Wort, <anchor type="commentary" xml:id="KL103-2" >wann du nach
+            <placeName key="A000368"><settlement>Berlin</settlement></placeName> fährst</anchor>. Wie gern spräch ich dich bald
           wieder. Herzliche Grüße.</p>
             <closer>Dein<lb/><signed>Arthur</signed></closer>
          </div>

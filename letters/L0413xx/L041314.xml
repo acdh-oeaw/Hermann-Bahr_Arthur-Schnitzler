@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="314"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S.</p>
+                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,18 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00269"/>
+      <graphic url="MS-B-00005-B-000-00270"/>
+      <graphic url="MS-B-00005-B-000-00271"/>
+      <graphic url="MS-B-00005-B-000-00272"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -104,19 +110,18 @@
           nicht, die freilich einen vagen Schimmer von Seele oder Poesie oder wie man das nennt für
           die Rolle hätte, den das Chaotische, das die <persName key="A002145">Ritscher</persName>
           sehr stark hat, vielleicht nicht völlig ersetzen kann.</p>
-            <p>Ich selbst habe vor Ansteckungen gar keine Furcht, muß aber auf meine <anchor type="commentary" xml:id="KL314-1" ><rs type="person" key="A002080 A002186">Frauen</rs></anchor> Rücksicht nehmen, 
-        hoffe jedoch, da ich frühestens erst am 15. Januar zu <persName key="A002078">Reinhardt</persName> zurückkehre, 
+            <p>Ich selbst habe vor Ansteckungen gar keine Furcht, muß aber auf meine <anchor type="commentary" xml:id="KL314-1" ><rs type="person" key="A002080"><rs type="person" cert="low" key="A002186 A004014">Frauen</rs></rs></anchor> Rücksicht nehmen, 
+        hoffe jedoch, da ich frühestens erst am <date>15. Januar</date> zu <persName key="A002078">Reinhardt</persName> zurückkehre, 
         daß Deine<pb/> liebe <rs type="person" key="A002038">Frau</rs>, der ich das Allerbeste wünsche, 
         <subst>
                   <del rend="overwritten">
                      <unclear>s</unclear>
                   </del>
                   <add place="inline">n</add>
-               </subst>och vorher so weit <del rend="overwritten">
-                  <unclear>scho</unclear>
-               </del> sein wird, daß ich zu Euch kann, was ich 
+               </subst>och vorher so weit <del rend="overwritten">s
+                  <unclear>e<gap quantity="1" reason="illegible" unit="chars"/></unclear>h<gap quantity="1" reason="illegible" unit="chars"/></del> sein wird, daß ich zu Euch kann, was ich 
         Dich bitte, mich gleich wissen zu lassen.</p>
-            <closer>Herzlichst<lb/>mit den wärmsten Weihnachtswünschen<lb/>Dein<lb/><signed>H.</signed></closer>
+            <closer>Herzlichst<lb/>mit den wärmsten Weihnachtswünschen<lb/>Dein<lb/><signed>H</signed></closer>
          </div>
       </body>
   </text>

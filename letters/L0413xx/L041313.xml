@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="313"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,18 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00267"/>
+      <graphic url="MS-B-00005-B-000-00268"/>
+      
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -95,7 +101,7 @@
         gedrängt, bedroht, sie irgendwie, ohne sich selbst darum zu kümmern, von irgendwem
         schnell erledigen lassen, weil er selbst kein eigentliches Verhältnis zu diesem Stücke
         hat, und weil es schließlich seine beste Eigenschaft ist, daß alle seine guten
-        Eigenschaft versagen, wo er<pb/> nicht durch ein starkes inneres Verhältnis gehalten
+        Eigenschaft<supplied>en</supplied> versagen, wo er<pb/> nicht durch ein starkes inneres Verhältnis gehalten
         wird. Ich würde Dir also dringend zu <persName key="A002095">Vallentin</persName> raten 
         und glaube, daß die <persName key="A002145">Ritscher</persName>, wenn sie im Sommer bei der <persName key="A002080">Mildenburg</persName> 
         und gelegentlich auch mit mir die Rolle lernt,
@@ -106,10 +112,10 @@
         erfreuen möchte.</p>
             <closer>Herzlichst<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
             <postscript>
-               <p><hi rend="underline" n="1">Frage 1</hi>: <persName key="A002078">Reinhardt</persName> wird <workName key="A020019">B.</workName> 
+               <p><anchor type="textConst" xml:id="TL313-1" ><hi rend="underline" n="1">Frage 1</hi>: <persName key="A002078">Reinhardt</persName> wird <workName key="A020019">B.</workName> 
           nehmen, wenn Du mit <persName key="A002095">Vallentin</persName> drohst. <hi rend="underline" n="1">Frage 2</hi>: 
           Ich halte <placeName key="A000213">Hebbeltheater</placeName> für praktischer. <hi rend="underline" n="1">Frage 3</hi>: 
-          <persName key="A002078">Reinhardt</persName> müßte man eine Frist von 1<unclear>4</unclear> Tagen zur Entscheidung geben.</p>
+          <persName key="A002078">Reinhardt</persName> müßte man eine Frist von 1<unclear>4</unclear> Tagen zur Entscheidung geben.</anchor></p>
             </postscript>
          </div>
       </body>

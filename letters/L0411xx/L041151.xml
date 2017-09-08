@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="151"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, Datum des Erhalts »22/2 92« von A. S. ergänzt</p>
+                        <p>eh. Korrespondenzkarte, Datum des Erhalts »<quote><date>22/2 92</date></quote>« von Schnitzler ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000251">Wien 1/1</placeName>
                            <date when="18920222">22<supplied>.</supplied> 2. 92</date>
@@ -79,11 +78,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00010"/>
+      <graphic url="MS-B-00005-B-000-00011"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -97,9 +102,9 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><anchor type="commentary" xml:id="KL151-1" ><date>Sonntag</date></anchor> Mittag.</dateline>
-               <salute>lieber Freund!</salute>
+               <salute>Lieber Freund!</salute>
             </opener>
-            <p>Das <rs type="person" key="A002178">Mauserl</rs> will nicht, absolut nicht. Alles mögliche
+            <p>Das <rs type="person" key="A002178"><anchor type="commentary" xml:id="KL151-2" >Mauserl</anchor></rs> will nicht, absolut nicht. Alles mögliche
           Schöne u Gute könnte man von ihr haben – nur gerade das eine nicht, was wir brauchen. Sie
           sagt übrigens sehr vernünftige Gründe u. innerlich muß ich ihr Recht geben.</p>
             <closer>herzlichst <signed>Bahr</signed></closer>

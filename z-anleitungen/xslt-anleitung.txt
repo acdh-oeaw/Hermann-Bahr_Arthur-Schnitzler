@@ -1,0 +1,31 @@
+﻿Schritt für Schritt mit XSLT zu LaTeX
+
+
+1. Personen- und Werkindex
+
+Die Datei in Google als Excel-Datei oder ODS runterladen
+Die Datei in Libreoffice als Excel 1997–2003 speichen
+In Oxygen Datei->Importieren die Datei auswählen
+Importieren, wobei darauf geachtet werden muss: oberste Zeile enthält Titel (Häkchen setzen)
+
+und als 
+personen.xml
+werke.xml
+institutionen.xml
+im Ordner XSL speichern
+
+Achtung: Bei Werke gibt es bei Singer & Co. ein Und-Zeichen, das muss durch <c rendition=„#kaufmannsund“/> ersetzt werden
+
+
+2. XSLT 1
+
+Eine Briefdatei XML aufmachen
+Mit XSL „sortieren und eine datei" in die datei gesamt.xml umwandeln
+Die xmlns-Namespaces in gesamt.xml entfernen:
+xmlns=„http://www.tei-c.org/ns/1.0"
+
+
+3. XSLT 2
+
+Datei umwandeln mit „nach-latex.xslt“
+Wobei als Ausgabedatei hbas-text.tex angegeben werden sollte.

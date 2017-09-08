@@ -1,0 +1,42 @@
+﻿Hier sind die Abweichungen verzeichnet, die gegenüber der WeGA-Ausgabe bestehen:
+
+<idno type="HBAS-L" n="130"/>
+
+type=HBAS bedeutet, dass es aus der "Hermann Bahr Arthur Schnitzler"-Edition kommt
+die Endungen geben an, welcher Grundtyp es ist:
+-L letter ... Brief
+-D diary ... Tagebuch
+-T text ... Text
+-I image ... Bild
+
+die Buchstaben beginnen auch die Dateinamen.
+
+<physDesc> steht jetzt beim <witness> aber physDesc muss nochmals strukturierter werden!
+
+<revisionDesc> Kürzel MAM und MM als Autoren
+
+<text type="">
+letter
+card
+photograph
+telegram
+
+
+
+<salute>
+ist im normalen text eigtl. nicht erlaubt, sondern nur im <opener>. aber wir haben einige fälle, die so sind:
+„Ich habe, lieber Arthur, Deinen Brief erhalten.“ 
+Da ist Salute im Text gewesen, derzeit auf Salat umgeändert. Weil irgendein Autorkorrekturmodus einsetzt, wenn man im Autormodus versucht, den händisch reinprogrammierten zeilensprung zu löschen.
+
+<handShift> hat zwei Werte key="" für die Person, die zu schreiben beginnt. und medium für "typewriter"
+
+ich setze den Kommentar über <anchor>Kommentartext</anchor>, wobei der Kommentar an der xml:id festgemacht wird, die mit K beginnt. Ist aber nicht relevant, weil vom
+Schema akzeptiert.
+
+WeGa sieht vor, dass mehrere Werte durch eigene Types angekündigt werden: 
+<rs type=“persons“ key=“...“>
+<rs type=“works“ key=“...“>
+statt den für eine Person üblichen type=“person“ resp. „work“. Wir treffen die Unterscheidung nicht, person und work kann im key mehrere Werte enthalten, ebenso wie
+persName
+
+<rs hat auch wert place: <rs type="place" key="">Spital</rs> damage hat bei uns vor allem einen agent: „hole“

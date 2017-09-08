@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="316"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00275"/>
+      <graphic url="MS-B-00005-B-000-00274"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -91,19 +95,16 @@
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Danke schön für Deine so liebe Karte. Ich komme eben vom
-               <placeName key="A000389"><settlement>Semmering</settlement>
-               </placeName> (wo ich übrigens Deinen
+               <placeName key="A000389"><settlement>Semmering</settlement></placeName> (wo ich übrigens Deinen
           Bruder <persName key="A002063">Julius</persName> stolz im
               <placeName key="A001127"><settlement>Nizza</settlement></placeName><space unit="chars" quantity="1"/>Express vorüber sausen sah), hab einen scheußlichen
           Hexenschuß, sitz in einem durch Überschwemmung aus einem geplatzten Wasserrohr fast
           demolierten Haus und soll in zwei Tagen nach
-            <placeName key="A001079"><settlement>Dresden</settlement>
-               </placeName> zur <persName key="A002096">Strauß</persName>-<workName key="A020053">Elektra</workName>-Première, weshalb ich, Dir
+            <placeName key="A001067"><settlement>Dresden</settlement></placeName> zur <anchor type="commentary" xml:id="KL316-2" ><persName key="A002096">Strauß</persName>-<workName key="A020053 A020358">Elektra</workName>-Première</anchor>, weshalb ich, Dir
           herzlichst für Deinen guten Willen dankend, Dich bitten muß, Deine so liebe Absicht erst
           auszuführen, bis ich nächste Woche von
-               <placeName key="A001079"><settlement>Dresden</settlement>
-               </placeName> zurück, halbwegs in Ordnung und
-          auch mit den drei letzten Kapiteln meines neuen <workName key="A020054">Romans</workName>
+               <placeName key="A001067"><settlement>Dresden</settlement></placeName> zurück, halbwegs in Ordnung und
+          auch mit den drei letzten Kapiteln meines neuen <anchor type="commentary" xml:id="KL316-3" ><rs type="work" key="A020054">Romans</rs></anchor>
           aus dem Rohesten bin, worauf ich anzufangen hoffe, wieder einem Menschen zu gleichen.<pb/></p><p>Ich freue mich unendlich <subst>
                   <del rend="overwritten">D</del>
                   <add place="inline">a</add>
@@ -111,10 +112,10 @@
           ordentlich bang nach Dir. Nur hat sich mein Leben allmälig so merkwürdig gestellt, daß ich
           mir schon wirklich <del rend="strikethrough">nicht</del> manchmal vorkomme, nicht mehr auf
           der Erde zu sein, sondern nur noch ein hinten her, neben bei irgendwo mitsausendes,
-          nachwirbelndes Gehängsel!</p>
+          nachwirbelndes <anchor type="commentary" xml:id="KL316-1" >Gehängsel</anchor>!</p>
             <p>Grüß Deine 
         liebe <rs type="person" key="A002038">Frau</rs> herzlichst von mir, auch den <rs type="person" key="A002083">Sohn</rs>, 
-         Herrn Sohn muss man jetzt wol bald schon sagen.</p>
+         Herrn Sohn muß man jetzt wol bald schon sagen.</p>
             <closer>Herzlichst<lb/>immer Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>

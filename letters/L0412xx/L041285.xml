@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="285"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -76,11 +75,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00217"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -91,10 +95,9 @@
                   <lb/><date>3. 11. 04</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Sehr gern komm ich S<unclear>onn</unclear>tag gegen sieben zu Dir.</p>
+            <p>Sehr gern komm ich <anchor type="commentary" xml:id="KL285-1" >S<unclear>onn</unclear>tag</anchor> gegen sieben zu Dir.</p>
             <closer>Herzlichst dankend<lb/>mit vielen Grüßen an Deine
-               <rs type="person" key="A002038">Frau</rs>
-               <lb/>Dein<lb/><signed>Hermann</signed></closer>
+               <rs type="person" key="A002038">Frau</rs><lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

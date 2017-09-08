@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="002"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,7 +71,7 @@
                         <idno>FS PK266826</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Fotografie, Plattennummer hs. von fremder Hand: »13955.«, 
+                        <p>Fotografie, Plattennummer hs. von fremder Hand: »<quote>13955.</quote>«, 
                            verso beschrieben. Foto von <persName key="A002182">Carl Pietzner</persName>, K. u. K. 
                            Hofphotograph Wien, <placeName key="A000503">VI. Mariahilferstrasse 1 B</placeName>.</p>
                      </physDesc>
@@ -82,17 +81,25 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="photograph">
+   <facsimile>       
+      <graphic url="FS_PK266826_V"/>
+      <graphic url="FS_PK266826_R"/>    
+   </facsimile>
+  <text type="card">
       <body>
-         <div type="writingSession" n="1">
+         <div type="image" n="1">
             <figure>
                <graphic url="./images/FS_PK277797alt_V" width="10cm"/>
             </figure>
-            <p><pb/>Meinem lieben Freund Hermann Bahr in herzlicher Verehrung</p>
+         </div>
+         <div type="writingSession" n="1">
+            <p><pb/>Meinem lieben Freund <hi rend="latintype">Hermann Bahr</hi> in herzlicher Verehrung</p>
             <closer><signed>ArthSch</signed>
             </closer>
             <postscript>
@@ -101,9 +108,7 @@
            93</date>.</hi>
                </p>
             </postscript>
-        
-      
-         </div>
+      </div>
       </body>
   </text>
 </TEI>

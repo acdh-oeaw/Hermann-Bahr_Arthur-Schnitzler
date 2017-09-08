@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="067"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +69,9 @@
                         <idno>HS AM 23362 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Telegramm, »aufgenommen den 23/12 um 11 Uhr 57 M«, ausgefertigt mit Tinte von <persName key="A002159">»Schott«</persName> signiert und mit weiterer Empfängeradresse versehen: »<placeName key="A000415">N.W.7 Hotel de Rom</placeName> zu bestellen«</p>
+                        <p>ms. Telegramm, »<quote>aufgenommen den <date>23/12</date> um <time>11 Uhr 57 M</time></quote>«, ausgefertigt mit 
+                           Tinte von »<quote><persName key="A002159">Schott</persName></quote>« signiert und mit 
+                           weiterer Empfängeradresse versehen: »<quote><placeName key="A000415">N.W.7 Hotel de Rom</placeName> zu bestellen</quote>«</p>
                         <stamp n="1">
                            <placeName key="A000368">Berlin N. W. 6</placeName>
                            <date when="19031213">13. 12. 03.</date>
@@ -96,17 +97,22 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">82</biblScope>
+                  <biblScope unit="pp">82</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+      <graphic url="HS_AM23362Ba"/>     
+   </facsimile>
   <text type="telegram">
       <body>
          <div type="address">
@@ -115,7 +121,7 @@
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>herzlichen <anchor type="commentary" xml:id="KL067-1" >glueckwunsch</anchor> und gruss dein <signed>arthur schnitzler</signed></p>
+            <p>herzlichen <anchor type="commentary" xml:id="KL067-1" >glueckwunsch</anchor> und gruss dein arthur schnitzler</p>
          </div>
       </body>
   </text>

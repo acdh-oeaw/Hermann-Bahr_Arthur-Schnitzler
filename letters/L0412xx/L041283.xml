@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="283"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Datum von A. S. ergänzt mit »<date>10. 904</date>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Datum von Schnitzler um »<quote><date>10. 904</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00214"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -87,13 +91,12 @@
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Leider reise ich eben nach 
-                  <placeName key="A000883">
-                     <settlement>Ragusa</settlement>
-               </placeName>. 
+                  <anchor type="commentary" xml:id="KL283-1" ><placeName key="A000883">
+                     <settlement>Ragusa</settlement></placeName></anchor>. 
         Hoffentlich nächstens einmal.</p>
             <p>Deine <rs type="person" key="A002038">Frau</rs>, die ich herzlichst grüße, 
          soll jedenfalls zu den <persName key="A002082 A002081 A002717">Schwestern 
-          Flöge</persName> gehen <placeName key="A000503">Mariahilferstr. 1</placeName> (<placeName key="A000504">Casa piccola</placeName>), 
+          Flöge</persName> gehen <placeName key="A000503">Mariahilferstr. 1</placeName> (<placeName key="A000504">Casa <unclear>p</unclear>iccola</placeName>), 
          die für die <rs type="person" key="A002186">meinige</rs> herrlich gearbeitet haben.</p>
             <closer>Herzlichst<lb/><signed>H.</signed>
             </closer>

@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="160"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -49,8 +48,6 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>
-          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                <dateSender>
                   <date when="18930920" n="01">[20. 9. 1893]</date>
                </dateSender>
@@ -66,7 +63,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Visitkarte: »Hermann Bahr / Redacteur der ›<orgName  key="A080155">Deutschen Zeitung</orgName>‹ / <placeName key="A000276">Wien, III., Salesianergasse 12</placeName>.«, Bleistift, von A. S. datiert: »<date>20/9 <unclear>93</unclear></date>«</p>
+                        <p>eh. Visitkarte: »<quote>Hermann Bahr / Redacteur der ›<orgName  key="A080155">Deutschen Zeitung</orgName>‹ / <placeName key="A000276">Wien, III., Salesianergasse 12</placeName>.</quote>«, Bleistift, von Schnitzler datiert: »<quote><date>20/9 <unclear>93</unclear></date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +71,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+  <facsimile>
+     <graphic url="MS-B-00005-B-000-00337"/>
+      <graphic url="MS-B-00005-B-000-00024"/>
+   </facsimile>
+   <text type="card">
       <body>
      
          <div type="writingSession" n="1">
@@ -87,7 +89,7 @@
             </opener>
             <p>Ich konnte leider heute vor 4 nicht frei werden, doch hoffe ich Sie bestimmt
           morgen um 3 am <placeName key="A000474">Burgring</placeName> zu sehen.</p>
-            <closer>Herzlichst<lb/><signed>–hr</signed>
+            <closer>Herzlichst<lb/><signed>hr</signed>
             </closer>
          </div>
       </body>

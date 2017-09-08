@@ -72,6 +72,42 @@
                 <search>!–</search>
                 <replace>{\excdash}</replace>
             </word>
+            <word>
+                <search> S. 1</search>
+                <replace> S.\,1</replace>
+            </word>
+            <word>
+                <search> S. 2</search>
+                <replace> S.\,2</replace>
+            </word>
+            <word>
+                <search> S. 3</search>
+                <replace> S.\,3</replace>
+            </word>
+            <word>
+                <search> S. 4</search>
+                <replace> S.\,4</replace>
+            </word>
+            <word>
+                <search> S. 5</search>
+                <replace> S.\,5</replace>
+            </word>
+            <word>
+                <search> S. 6</search>
+                <replace> S.\,6</replace>
+            </word>
+            <word>
+                <search> S. 7</search>
+                <replace> S.\,7</replace>
+            </word>
+            <word>
+                <search> S. 8</search>
+                <replace> S.\,8</replace>
+            </word>
+            <word>
+                <search> S. 9</search>
+                <replace> S.\,9</replace>
+            </word>
             <!--<word>
         <search>{–</search>
         <replace>bam!</replace>

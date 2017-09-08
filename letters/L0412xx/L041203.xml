@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="203"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,11 +75,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00072"/>
+      <graphic url="MS-B-00005-B-000-00073"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -88,17 +93,15 @@
                <dateline rend="right"><date>16. Dezember 6</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Anbei das <rs type="work" key="A020005" subtype="local-short">Stück</rs>; ich bin sehr neugierig, was Du
+            <p>Anbei das <anchor type="commentary" xml:id="KL203-2" ><rs type="work" key="A020005">Stück</rs></anchor>; ich bin sehr neugierig, was Du
         sagen wirst – an <persName key="A002011">Hugo</persName> schicke ich gleichzeitig
         ein Exemplar.</p>
-            <p><damage agent="ink">
-                  <supplied>Wichtiger</supplied>
-               </damage> ist mir Deine <rs type="work" key="A020128">Novelle</rs>. Ich möchte
+            <p>Wichtiger ist mir Deine <rs type="work" key="A020128">Novelle</rs>. Ich möchte
         <subst>
                   <del rend="overwritten">S</del>
                   <add place="inline">s</add>
                </subst>ie so bald als nur irgend möglich haben; wenn es möglich, möchte ich sie nemlich in
-        die zwei <rs type="org" key="A080011">Agitationsnummern</rs> vom 24. d. und 2. n. M.<pb/> geben. Vielleicht sagst Du dem
+        die zwei <anchor type="commentary" xml:id="KL203-1" ><rs type="org" key="A080011">Agitationsnummern</rs></anchor> vom 24. d. und 2. n. M.<pb/> geben. Vielleicht sagst Du dem
         Überbringer ein Wort, ob und wann ich mir das Manuscript holen lassen darf, oder
         telephonierst mir.</p>
             <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>

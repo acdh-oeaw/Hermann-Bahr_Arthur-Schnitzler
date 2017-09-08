@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="013"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,18 +85,23 @@
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                     <biblScope type="pp">61</biblScope>
+                     <biblScope unit="pp">61</biblScope>
                   </monogr>
-                  <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+                  <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
                </biblStruct>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170502">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM23330Ba"/> 
+     <graphic url="HS_AM23330Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -106,7 +110,7 @@
             </opener>
             <p>ich bekomme eben einen Brief von dem dir bekannten Frl. 
                <persName key="A002012"><hi rend="latintype">Elsa Plessner</hi></persName>, die dir eine
-          <rs type="work" key="A021200" subtype="local-short">Novelle</rs> eingereicht hat. Ich glaube mich zu <anchor type="commentary" xml:id="KD013-1" >erinnern</anchor>, dass sie, die Novelle, als
+          <anchor type="commentary" xml:id="KL013-2" ><rs type="work" key="A021200">Novelle</rs></anchor> eingereicht hat. Ich glaube mich zu <anchor type="commentary" xml:id="KL013-1" >erinnern</anchor>, dass sie, die Novelle, als
           ich sie s. Z. im Mscrpt las, mir nicht<pb/> misfiel, am Ende sogar gefiel – ich
           weiss nicht mehr genau. Meiner Ansicht nach ist eben benannte
           <persName key="A002012">Elsa</persName> von einer unerträglichen Schlamperei in Stil und
@@ -115,18 +119,14 @@
           entwickeln gedenkt, kann ich nicht bestimmen. Aber es wäre vielleicht möglich
           sie auf einen guten Weg zu bringen. – Womit ich dir das Fräulein bestens
           empfohlen zu haben wünsche. –</p>
-            <p>Ich hoffe es geht dir gut; <damage agent="hole">
-                  <supplied>von</supplied>
-               </damage><space unit="chars" quantity="1"/><placeName key="A000382">
-                  <settlement>Pariser</settlement>
-               </placeName> Kunst<pb/> werd ich dir manches erzählen
-          können, wenn ich zurückkomme. Aber verlange keine Artikel von mir! </p>
+            <p>Ich hoffe es geht dir gut; <damage agent="hole"><supplied>von</supplied></damage><space unit="chars" quantity="1"/><placeName key="A000382">
+                  <settlement>Pariser</settlement></placeName> Kunst<pb/> werd ich dir manches erzählen
+          können, wenn ich <anchor type="commentary" xml:id="KL013-3" >zurückkomme</anchor>. Aber verlange keine Artikel von mir! </p>
             <closer>Herzlich grüßt dich dein<lb/><signed>Arthur</signed>
               Schnitzler</closer>
             <postscript>
-               <p> <placeName key="A000382"><settlement>Paris</settlement>
-                     </placeName><space unit="chars" quantity="1"/><date when="18970422">22. 4.
-         97</date>
+               <p><hi rend="latintype"><placeName key="A000382"><settlement>Paris</settlement></placeName></hi><space unit="chars" quantity="1"/><date when="18970422">22. 4.
+         97</date>.
                </p>
             </postscript>
          </div>

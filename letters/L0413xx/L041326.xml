@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="326"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 1 S., Lateinschrift</p>
+                        <p>hs. Brief von <persName key="A002719">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 1 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -76,31 +75,36 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00291"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><date>24. 12.
           09</date>.</dateline>
-               <seg rend="center">
+               <p rend="center">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
                   </placeName>
-               </seg>
+               </p>
                <salute rend="center">Lieber Artur!</salute>
             </opener>
             <p>Ich freue mich sehr, dass Du Dienstag Vormittag kommen willst und man sich doch endlich, endlich 
         wieder einmal aussprechen oder doch wenigstens gegenseitig anschauen kann, wonach mich längst stark 
         verlangt! Ich will übrigens auch Deinen ärztlichen Rat, nicht für mich, aber für eine Figur meines neuen 
-        <rs type="work" key="A020060" subtype="local-short">Romans</rs>.</p>
+        <anchor type="commentary" xml:id="KL326-1" ><rs type="work" key="A020060">Romans</rs></anchor>.</p>
             <p>Und nun sei Dir, für Dich selbst, Deine verehrte <rs type="person" key="A002038">Frau</rs> und 
         die <rs type="person" key="A002083 A002097">Kinder</rs> weihnachtlich das allerschönste gewünscht!</p>
             <closer>Herzlichst<lb/>Dein alter<lb/>
-               <handShift scribe="A002002"/><signed>HermannBahr</signed></closer>
+               <signed><handShift scribe="A002002"/>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

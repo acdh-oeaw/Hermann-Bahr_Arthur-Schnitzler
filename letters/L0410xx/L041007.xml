@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="007"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,35 +85,38 @@
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                      <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                     <biblScope type="pp">59</biblScope>
+                     <biblScope unit="pp">59</biblScope>
                   </monogr>
-                  <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+                  <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
                </biblStruct>
             </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170502">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM23327Ba"/>
+     <graphic url="HS_AM23327Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right"><date>Samstag <damage agent="hole">
-                     <supplied>2</supplied>
-                  </damage>8. 11. 96</date>.</dateline>
+               <dateline rend="right"><date>Samstag <damage agent="hole"><supplied>2</supplied></damage>8. 11. 96</date>.</dateline>
                <salute>Lieber Hermann,</salute>
             </opener>
             <p>als ich neulich bei dir war, hab ich vergessen, Dir von <persName key="A002006">Reicher</persName> etwas
           auszurichten, um was er mich in <placeName key="A000368"><settlement>Berlin</settlement></placeName> gebeten hat. Er hat nemlich die<pb/> Absicht, im Frühjahr mit einem Schauspielensemble herzukommen und einige hier
           noch nicht gespielte Stücke aufzuführen, von denen er noch nicht weiss, ob,
-          resp. unter welchen Bedingungen die<pb/> Censur sie frei geben wird. Er scheint
+          resp. unter welchen Bedingungen die<pb/> Censur sie freigeben wird. Er scheint
           auf deinen Rath, vielleicht auch auf deinen Beistand zu rechnen. Es handelt sich
-          vor allem um die <workName key="A020003">Jugend</workName>, ich glaube auch um die
-            <workName key="A020004">Weber</workName>. Näheres hat<pb/> er mir selbst noch nicht
-          gesagt; ich nehme an er wird dir schreiben, und diese Zeilen bereiten dich nur
+          vor allem um die <anchor type="commentary" xml:id="KL007-2" ><workName key="A020003">Jugend</workName>, ich glaube auch um die
+            <workName key="A020004">Weber</workName></anchor>. Näheres hat<pb/> er mir selbst noch nicht
+               gesagt; ich nehme an er <anchor type="commentary" xml:id="KL007-1" >wird dir schreiben</anchor>, und diese Zeilen bereiten dich nur
           darauf vor.</p>
             <closer>Herzlich grüßt dich dein <signed>Arthur Sch</signed>
             </closer>

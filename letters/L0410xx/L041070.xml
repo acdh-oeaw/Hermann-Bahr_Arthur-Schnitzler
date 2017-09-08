@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="070"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -85,17 +84,22 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">83–84</biblScope>
+                  <biblScope unit="pp">83–84</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
-  </teiHeader>
+  </teiHeader><facsimile>       
+     <graphic url="HS_AM23365Ba"/> 
+     <graphic url="HS_AM23365Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -105,17 +109,14 @@
             </opener>
             <p><salute>lieber Hermann, </salute>aus deinen Worten scheint mir eher eine üble Stimmung als ein übles Befinden
           hervorzugehen – was für den Betroffenen allerdings aufs gleiche herauskommt.
-          Immerhin – ohne Rathschlägen u Entschlüssen vorgreifen zu wollen, deine Idee mit
-  <placeName key="A001107"><settlement>Taormina</settlement>
-               </placeName> ist mir sehr sympathisch – besonders weil ich
-        große Lust hätte, im April nach <placeName key="A000652">Sicilien</placeName><pb/><space unit="chars" quantity="1"/>zu fahren und es mir natürlich
+          Immerhin – ohne Ratschlägen u Entschlüssen vorgreifen zu wollen, deine Idee mit
+  <placeName key="A001107"><settlement>Taormina</settlement></placeName> ist mir sehr sympathisch – besonders weil ich
+        große Lust hätte, im <anchor type="commentary" xml:id="KL070-1" >April</anchor> nach <placeName key="A000652">Sicilien</placeName><pb/><space unit="chars" quantity="1"/>zu fahren und es mir natürlich
                höchst erfreulich wäre, dich dort zu finden. Wir (meine <rs type="person" key="A002038">Frau</rs> u ich) möchten gern
         zu Schiff von <hi rend="latintype">
-                  <placeName key="A001103"><settlement>Fiume</settlement>
-                  </placeName>
+                  <placeName key="A001103"><settlement>Fiume</settlement></placeName>
                </hi> nach <hi rend="latintype">
-                  <placeName key="A001102"><settlement>Palermo</settlement>
-                  </placeName>
+                  <placeName key="A001102"><settlement>Palermo</settlement></placeName>
                </hi>.</p>
             <p>– Donnerstag reise ich nach <placeName key="A000368"><settlement>Berlin</settlement></placeName>, wo es sich
           zeigen soll, wie der <workName key="A020083">Einsame Weg</workName> auf der Bühne wirkt. Dass im Gang des Stücks
@@ -123,12 +124,12 @@
           neu aufgenommenen – Arbeit oft geschienen. Die gute Wirkung<pb/> die das Stück
           im Vorlesen machte, hat mich einigermaßen beruhigt; – von den eigentlichen
           Theaterleuten scheint aber keiner ernstlich an einen äußern Erfolg zu glauben
-          (bei aller möglichen Hochachtung etc.). Mir persönlich sind an dem Stücke werth:
-          die Gestalten des Sala und der Johanna; ferner der Lauf des 4. u besonders des
+          (bei aller möglichen Hochachtung <hi rend="latintype">etc.</hi>). Mir persönlich sind an dem Stücke werth:
+               die Gestalten des <hi rend="latintype">Sala</hi> und der <hi rend="latintype">Johanna</hi>; ferner der Lauf des 4. u besonders des
           5. Aktes. – </p>
             <p>Deine Grüße werden bestellt, meine <rs type="person" key="A002038">Frau</rs> dankt dir herzlich<pb/> für deine Grüße und wünscht dir gleich mir, alles mögliche gute.</p>
             <p>Gelegentlich ein Wort von dir zu hören wäre mir höchst erwünscht und sehr erbeten.</p>
-            <closer>Dein getreuer<lb/><signed>Arthur</signed>.</closer>
+            <closer>Dein getreuer<lb/><signed>Arthur.</signed></closer>
          </div>
       </body>
   </text>

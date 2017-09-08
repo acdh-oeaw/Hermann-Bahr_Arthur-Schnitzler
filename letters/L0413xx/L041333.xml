@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="333"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,17 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170531">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00305"/>
+      <graphic url="MS-B-00005-B-000-00306"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -89,9 +94,9 @@
             <p>Meine <rs type="person" key="A002080">Frau</rs> dankt Ihnen herzlichst für Ihre liebe
           Einladung, der sie so gern folgen würde, wenns nur
           irgend ging! Es geht aber leider nicht, weil sie
-          gerade jetzt von den sämmtlichen Freundinnen oder Bekannten, die sie sich in den <del rend="strikethrough">zwölf</del> vierzehn
-            <placeName key="A000250">Wiener</placeName> Jahren angesammelt hat dringend aufgefordert
-          wird, sie müsste nun bevor wir
+          gerade jetzt von den sämmtlichen Freundinnen oder Bekannten, die sie sich in den <del rend="strikethrough">zwölf</del><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL333-1" >vierzehn
+            <placeName key="A000250">Wiener</placeName> Jahren</anchor> angesammelt hat, dringend aufgefordert
+          wird, sie müßte nun bevor wir
               <placeName key="A000250"><settlement>Wien</settlement></placeName> verlassen, noch einmal zu ihnen
           kommen; sie hätte also vierzehn Tage rein mit
           Besuchen zuzubringen, da sagt sie lieber allen Nein.

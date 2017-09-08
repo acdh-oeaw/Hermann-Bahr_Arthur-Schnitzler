@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030087">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="a">Bahr: [Versandliste Wenn es euch gefällt?], [vor dem 28. 5. 1899?]</title>
+                <author key="A002002">Bahr, Hermann</author>
+                <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement></placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-T" n="087"/>
+                <availability status="free">
+                    <p>Copyright © 2017</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <origDate when="18990528" n="01">[vor dem 28. 5. 1899?]</origDate>
+                <listWit>
+                    <witness n="1">
+                  <msDesc>
+                        <msIdentifier>
+                            <country>A</country>           
+                            <settlement>Wien</settlement>
+                            <repository>Theatermuseum</repository>
+                            <idno>HS VM 876 Ba</idno>
+                        </msIdentifier>
+                      <physDesc>2. Seite eines »<quote>Skizzen 2</quote>« beschrifteten Hefts. Auf der ersten, der gegenüberliegenden, Seite eine Versandliste
+                          von <workName key="A020961">Wiener Theater</workName> (erschienen <date>Anfang Mai 1899</date>). Es dürfte also die Revue <workName key="A021334 A021335">Wenn
+                          es euch gefällt</workName> gemeint sein, die am <date>24. 3. 1899</date> im <placeName key="A000219">Ronacher</placeName> einmal aufgeführt wurde
+                          und die am <date>28. 5. 1899</date> von der <orgName key="A080099">Neuen Freie Presse</orgName> (<bibl>Nr. 12485, Morgenblatt, S. 8)</bibl>) als 
+                          als Neuerscheinung angeführt ist.
+                      </physDesc>
+                    </msDesc>
+                    </witness>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
+        <revisionDesc status="candidate">
+            <change who="KI MAM" when="20160114">angelegt</change>
+        </revisionDesc>
+    </teiHeader>
+   <text type="text">
+      <body>
+        <div type="writingSession" n="1">
+            <p><anchor type="commentary" xml:id="KT087-1" ><rs type="work" key="A021334 A021335">Revue</rs></anchor><space unit="chars" quantity="1"/><hi rend="gabelsberger">geschickt</hi> an <persName
+                        key="A002067">Singer</persName>
+               <hi rend="superscript">x</hi>,
+                        <persName key="A002035">Salten</persName>
+               <hi rend="superscript">x</hi>, <persName key="A003334">Koppel</persName>,
+                        <persName key="A002961">Stern</persName>, <persName key="A002040"
+                        >Pötzl</persName>,
+                        <persName key="A003320">Jacobson</persName><space
+                        unit="chars" quantity="1"/><hi rend="underline" n="1">
+                  <persName key="A002027">Bauer</persName>
+               </hi>, <persName key="A002372">Hevesi</persName><space unit="chars" quantity="1"
+                        /><persName key="A002154">Zuckerkandl</persName>,
+                    <persName key="A003095"
+                        >TannBergler</persName>, <persName key="A002001">Schnitzler</persName>,</p>
+            
+        </div>
+      </body>
+   </text>
+</TEI>

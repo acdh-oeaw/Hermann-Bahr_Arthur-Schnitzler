@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="236"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von A. S. Jahreszahl »901«
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler Jahreszahl »<quote><date>901</date></quote>«
                            ergänzt.</p>
                      </physDesc>
                   </msDesc>
@@ -77,20 +76,24 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00122"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><date>25/4</date></dateline>
                <salute rend="center">Lieber Freund!</salute></opener>
-            <p>Danke sehr für die Zusendung Deines <workName key="A020334">Romanes</workName> und die <anchor type="label" xml:id="LL236-1" ><placeName key="A000646">
-                  <settlement>römische</settlement>
-               </placeName> Karte</anchor>, die mich sehr neidisch gemacht hat.</p>
+            <p>Danke sehr für die Zusendung Deines <rs type="work" key="A020334">Romanes</rs> und die <anchor type="commentary" xml:id="KL236-1" ><placeName key="A000646">
+                  <settlement>römische</settlement></placeName> Karte</anchor>, die mich sehr neidisch gemacht hat.</p>
             <p>Sonntag gehe ich zu jener Vorstellung, habe aber den Namen Deines <rs type="person" key="A002038">Schützlings</rs> vergessen und bitte Dich, 
         ihn mir per Postkarte mitzutheilen.</p>
             <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>

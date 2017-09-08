@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="281"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Datum von A. S. mit Jahreszahl »904« ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Datum von Schnitzler um Jahreszahl »<quote><date>904</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,28 +73,32 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00212"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right"><date>5. 8.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Mir war furchtbar leid, Dich verfehlt zu haben. Paßt es Dir, wenn ich Dich Sonntag 
+            <p>Mir war furchtbar leid, Dich verfehlt zu haben. Paßt es Dir, wenn ich Dich <anchor type="commentary" xml:id="KL281-1" >Sonntag</anchor> 
         gegen sieben abhole? Ich will Nachmittag zu <persName key="A002035">Salten</persName> u. 
         wir könnten dann zusammen, wo Du willst, soupieren.</p>
             <p>Anbei send ich Dir den Abzug 
-        einer <rs type="work" key="A020123" subtype="local-short">Arbeit</rs>, die erst im September oder October
+        einer <anchor type="commentary" xml:id="KL281-2" ><rs type="work" key="A020123">Arbeit</rs></anchor>, die erst im September oder October
             erscheint. Hast Du Zeit und siehst sie Dir gelegentlich an, so möchte ich gern 
             später einmal Dein Urteil darüber haben. Es ist möglich, daß ich den Abzug noch 
             einmal, etwa in zwölf Tagen, brauchen werde.</p>
             <p>Verzeih die Hast, mir gehts gar nicht sehr gut.</p>
-            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-               <lb/><signed>H.</signed>
+            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/><signed>H.</signed>
             </closer>
          </div>
       </body>

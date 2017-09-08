@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="272"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -89,12 +88,18 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="MAM" when="20151101">angelegt</change>
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00197"/>
+      <graphic url="MS-B-00005-B-000-00198"/>
+   </facsimile>
+   <text type="card">
       <body>
      
          <div type="address">
@@ -108,11 +113,9 @@
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right"><date>15. 2. 04</date></dateline>
-               <seg rend="right">
-                  <placeName key="A000958"><settlement>Abbazia</settlement>
-                  </placeName><space unit="chars" quantity="1"/><placeName key="A000507">Hot. Guarnero</placeName>
-               </seg>
+               <dateline rend="right"><date>15. 2. 04</date><lb/>
+                  <placeName key="A000958"><settlement>Abbazia</settlement></placeName><space unit="chars" quantity="1"/><placeName key="A000507">Hot. Guarnero</placeName>
+               </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Ich kam heut hier an und weil der <persName key="A002064">Trebitsch</persName>, 
@@ -124,7 +127,7 @@
         zu Deinen schönsten und reinsten Arbeiten gehört, und ich mein, wir sollten uns überhaupt nicht mehr zu 
         Erfolgen, sondern zu den Werken, die uns etwas sind, gratulieren. 
         Mir ist der »<workName key="A020083">einsame Weg</workName>« in seinen Hauptgestalten und ihrem Erleben sehr viel.</p>
-            <closer>Herzlichst <space quantity="5" unit="chars"/>Dein<space quantity="5" unit="chars"/>
+            <closer>Herzlichst <space quantity="5" unit="chars"/>Dein 
                <signed>Hermann</signed>
             </closer>
          </div>

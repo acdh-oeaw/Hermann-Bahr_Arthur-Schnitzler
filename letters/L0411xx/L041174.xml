@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="174"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -50,7 +49,7 @@
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
                <placeSender><placeName key="A000250">Wien</placeName></placeSender>
-          <!--<placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
+          
                <dateSender>
                   <date when="18950613" n="01">[13. 6. 1895]</date>
                </dateSender>
@@ -66,7 +65,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von A. S. datiert: »<date>13/6 95</date>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote><date>13/6 95</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -74,11 +73,16 @@
          </sourceDesc>
       </fileDesc>
       <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00043"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -90,7 +94,7 @@
         sondern er hat mir tausend Mark geliehen, dann habe ich einiges geschrieben, dann hat er mir wieder 
         geliehen und wir waren beide immer überzeugt, daß der andere ein großer Schuft ist. Deshalb kann 
         ich Deine Frage nicht beantworten.</p>
-            <closer>Herzlichst Dein<lb/><signed>Hermann</signed></closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>
