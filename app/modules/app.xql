@@ -618,14 +618,16 @@ function app:nav($node as node(), $model as map(*)) {
                                             <a href="register.html?type=p">Personen</a>
                                         </li>
                                         <li>
-                                            <a href="register.html?type=org">Organisationen</a>
+                                            <a href="register.html?type=w">Werke</a>
                                         </li>
                                         <li>
                                             <a href="register.html?type=o">Orte</a>
                                         </li>
                                         <li>
-                                            <a href="register.html?type=w">Werke</a>
+                                            <a href="register.html?type=org">Verlage, Körperschaften u.a.</a>
                                         </li>
+                                        
+                                        
                                     </ul>
                                 </li> 
                                 <li class="hidden-xs hidden-sm">
@@ -756,8 +758,7 @@ declare function app:prev-doc-id($id,$type) {
      %templates:wrap
  function app:register_filter($node as node(), $model as map(*),$key) {
     if (not($key)) then
-        <form>
-            Filter:
+        <form class="filter_form">
             <div class="input-group input-group-sm">
             <input id="filter_register" type="text" class="form-control" placeholder="Suche...">
             </input>
@@ -769,17 +770,17 @@ declare function app:prev-doc-id($id,$type) {
         </div>
         <div class="checkbox">
             <label>
+                <input type="checkbox" id="toggle_register_T" checked="checked"> Werke</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
                 <input type="checkbox" id="toggle_register_O" checked="checked"> Orte</input>
             </label>
         </div>
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="toggle_register_T" checked="checked"> Texte</input>
-            </label>
-        </div>
-        <div class="checkbox">
-            <label>
-                <input type="checkbox" id="toggle_register_Org" checked="checked"> Organisationen</input>
+                <input type="checkbox" id="toggle_register_Org" checked="checked"> Verlage, Körperschaften u.a.</input>
             </label>
         </div>
             
@@ -814,7 +815,7 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
     </form>
     else 
         (: Listenansicht :)
-        <form class="hidden-xs hidden-sm">
+        <form class="hidden-xs hidden-sm filter_form">
             Zeige Dokumente:
         <div class="checkbox">
             <label>
