@@ -641,16 +641,13 @@ function app:nav($node as node(), $model as map(*)) {
                                                 <a href="#">Zur Ausgabe</a>
                                             </li>
                                         <li>
-                                                <a href="#">Editionsbericht</a>
+                                                <a href="#">Editionsrichtlinien</a>
                                             </li>
                                         <li>
                                                 <a href="#">Nachwort</a>
                                             </li>
-                                        <li>
-                                                <a href="#">Kontakt</a>
-                                            </li>
                                             <li>
-                                                <a href="#">Impressum</a>
+                                                <a href="impressum.html">Impressum</a>
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
