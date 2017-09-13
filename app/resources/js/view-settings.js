@@ -60,6 +60,8 @@ $(document).ready(function() {
         }
         
 	}
+	/*Autoren verstecken*/
+	$(".author").hide()
 });
 
 $("#check_auszeichnungen").click(function() {
@@ -182,6 +184,15 @@ $("#filter_register").keyup(function(){
 /* Filter-Checkboxen*/
 $("#toggle_register_P").click(function() {
     $(".register_person").toggle(this.checked);
+    if ($("#toggle_register_P").attr("checked") !=="checked") {
+        $(".author").show();
+        $(".title").removeClass("hide_author");
+    }
+    else {
+        $(".author").hide();
+        $(".title").addClass("hide_author");
+        
+    }
 });
 
 $("#toggle_register_O").click(function() {

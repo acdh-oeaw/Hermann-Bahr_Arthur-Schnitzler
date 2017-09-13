@@ -375,10 +375,13 @@ function app:register_liste($type) {
                             case "person" return 
                                 let $forename := string-join($data//tei:forename, ' ')
                                 let $surname := string-join($data//tei:surname, ' ')
+                                let $occupation:= string-join($data//tei:occupation, ' ')
+                                let $birth :=  $data//tei:birth/@when
+                                let $death := $data//tei:death/@when
                                 return 
                                     if ($forename !='') then
                                         if ($surname !='' ) then
-                                        concat($surname, ', ', $forename)
+                                        concat($surname, ', ', $forename,'| ','(', $birth,'-',$death, ') , ',$occupation)
                                         else $forename
                                     else
                                         $surname
@@ -409,7 +412,7 @@ function app:register_liste($type) {
                                         else ''
                                 return 
                                     if ($author !='') then 
-                                        concat($author, ': ', string-join($data//tei:title, ' '))
+                                        concat($author, '| ', string-join($data//tei:title, ' '))
                                     else string-join($data//tei:title, ' ')
                                             
                             case "org" return 
@@ -420,9 +423,9 @@ function app:register_liste($type) {
                        
                             
                     return 
-                        if ($type != "BiblFull") then
-                            <li class="register_{$type}">
-                                <a href="register.html?key={$key}"><span>{$sortstring}</span>
+                        if ($type != "biblFull") then
+                            <li class="register_{$type}" data-sortstring="{$sortstring}">
+                                <a href="register.html?key={$key}"><span>{tokenize($sortstring,'\|')[1]}</span>
                                     {
                                         if ($type = "person") then
                                             if ($data/tei:birth/@when and $data/tei:death/@when)
@@ -443,8 +446,11 @@ function app:register_liste($type) {
                             </li>
                         else 
                             (: Texte :)
-                            <li class="register_{$type}">
-                                <a href="register.html?key={$key}"><span>{$sortstring}</span></a>
+                            <li class="register_{$type}" data-sortstring="{$sortstring}">
+                                <a href="register.html?key={$key}">
+                                    <span class="author">{tokenize($sortstring,"\|")[1]}</span>
+                                    <span class="title hide_author">{tokenize($sortstring,"\|")[2]}</span>
+                                </a>
                             </li>
                     
                         
