@@ -620,7 +620,7 @@ function app:nav($node as node(), $model as map(*)) {
                                             <a href="view.html?type=L">Briefe</a>
                                         </li>
                                         <li>
-                                            <a href="view.html?type=D">Tagebucheinträge</a>
+                                            <a href="view.html?type=D">Aufzeichnungen</a>
                                         </li>
                                         <li>
                                             <a href="view.html?type=T">Texte</a>
@@ -848,7 +848,7 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
         </div>
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="toggle_doctype_D" checked="checked"> Tagebucheinträge</input>
+                <input type="checkbox" id="toggle_doctype_D" checked="checked"> Aufzeichnungen</input>
             </label>
         </div>
         <div class="checkbox">
