@@ -446,12 +446,17 @@ function app:register_liste($type) {
                             </li>
                         else 
                             (: Texte :)
-                            <li class="register_{$type}" data-sortstring="{$sortstring}">
+                            (: wenn es mehrere Texte von einem Autor gibt, dann zusätzliche Klasse .multiple oder sowas und die Filterfunktion nur für li mit dieser class erlauben:)
+                            let $autor-ref := $data//tei:author/@ref
+                            let $ref-count := count(doc($config:data-root||"/meta/Werke.xml")//tei:body//tei:author[contains(@ref,$autor-ref)])
+                            return
+                            <li class="register_{$type} {if ($ref-count > 1) then "multiple" else ()}" data-sortstring="{$sortstring}" data-autor-ref="{$autor-ref}" data-ref-count="{$ref-count}">
                                 <a href="register.html?key={$key}">
                                     <span class="author">{tokenize($sortstring,"\|")[1]}</span>
                                     <span class="title hide_author">{tokenize($sortstring,"\|")[2]}</span>
                                 </a>
                             </li>
+                            
                     
                         
                 }

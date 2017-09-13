@@ -61,7 +61,7 @@ $(document).ready(function() {
         
 	}
 	/*Autoren verstecken*/
-	$(".author").hide()
+	$(".multiple .author").hide()
 });
 
 $("#check_auszeichnungen").click(function() {
@@ -185,12 +185,12 @@ $("#filter_register").keyup(function(){
 $("#toggle_register_P").click(function() {
     $(".register_person").toggle(this.checked);
     if ($("#toggle_register_P").attr("checked") !=="checked") {
-        $(".author").show();
-        $(".title").removeClass("hide_author");
+        $(".multiple .author").show();
+        $(".multiple .title").removeClass("hide_author");
     }
     else {
-        $(".author").hide();
-        $(".title").addClass("hide_author");
+        $(".multiple .author").hide();
+        $(".multiple .title").addClass("hide_author");
         
     }
 });

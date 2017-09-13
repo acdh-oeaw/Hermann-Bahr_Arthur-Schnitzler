@@ -284,20 +284,19 @@ body, h1, h2 {
     content:",";
 }
 
-.register_biblFull a .author {
-    
-}
-
-.register_biblFull a .title {
-    
-}
-
 .register_biblFull a .author:after {
     display:inline;
     content:":";
 }
+    
 
-.register_biblFull a .hide_author:before {
+
+.multiple a .author:after {
+    display:inline;
+    content:":";
+}
+
+.multiple a .hide_author:before {
     display:inline;
     content:"–";
 }
