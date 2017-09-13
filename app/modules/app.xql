@@ -818,8 +818,7 @@ declare
     %templates:wrap
 function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) {
     if ($id != "") then
-    <form>
-        Ansicht:
+    <form class="filter_form">
         <!-- 
         <select id="select-view-mode" class="custom-select">
             <option>Leseansicht</option>
