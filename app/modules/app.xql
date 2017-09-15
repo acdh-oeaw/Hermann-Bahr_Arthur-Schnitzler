@@ -60,6 +60,21 @@ declare function app:corresp-meta($id) {
     
 };
 
+declare
+    %templates:wrap
+function app:page-title($node as node(), $model as map(*)) {
+    <div class="page-title-box">
+                    <h1 class="page-title">
+                    <span class="page-title-main">Hermann Bahr,</span> 
+                    <span class="page-title-main">Arthur Schnitzler</span>
+                    <span class="page-title-sub">Briefwechsel,</span>
+                    <span class="page-title-sub">Aufzeichnungen,</span>
+                    <span class="page-title-sub">Dokumente</span>
+                    </h1>
+    </div>
+};
+
+
 (: --------------------------- view.html - Seite  ----------------------------------------- :)
 
 declare
@@ -179,12 +194,6 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
     
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
-            <nav>
-                <ul class="pager">
-                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&lt;</a></li>
-                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&gt;</a></li>
-                </ul>
-             </nav>
             <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
         </div> <!-- /title-box -->
         <div class="text-box leseansicht">
@@ -273,6 +282,19 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
     
 };
 
+
+declare
+    %templates:wrap
+function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$show) {
+    if ($id != "") then
+    <nav>
+                <ul class="pager">
+                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&lt;</a></li>
+                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&gt;</a></li>
+                </ul>
+             </nav>
+    else ()
+};
 
 
 (: register.html :)
@@ -960,4 +982,5 @@ declare function app:format_searchresults($ergebnisse, $q, $type, $orderby) {
      </div>
      else ()
 };
+
 
