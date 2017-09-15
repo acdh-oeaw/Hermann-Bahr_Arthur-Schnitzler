@@ -288,9 +288,29 @@ declare
 function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$show) {
     if ($id != "") then
     <nav>
-                <ul class="pager">
-                    <li class="previous"><a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&lt;</a></li>
-                    <li class="next"><a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">&gt;</a></li>
+                <ul class="pagerNew">
+                    <li class="previous">
+                    <a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <span class="pager-button">&lt;</span>
+                    <span class="pager-title">
+                        {
+                            let $id := app:prev-doc-id($id,$type)
+                            return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
+                        }
+                    </span>
+                        
+                    </a></li>
+                    <li class="next">
+                    <a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <span class="pager-button">&gt;</span>
+                    <span class="pager-title">
+                        {
+                            let $id := app:next-doc-id($id,$type)
+                            return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
+                        }
+                    </span>
+                        
+                    </a></li>
                 </ul>
              </nav>
     else ()

@@ -180,24 +180,37 @@ body, h1, h2 {
 
 /*Textansicht*/
 
-.pager {
-  display: inline;
-  font-size:26px;
-  float:right;
-  position:relative;
-  top:-30px;
-
+.pagerNew {
+    padding-left:15px;
+    margin-top:5em;
 }
 
-.pager li>a {
+.pagerNew li {
+    display:block;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+    width:250px;
+}
+.pagerNew li>a {
   color:black;
   border-radius: 0px;
   border:none;
+  padding:0px;
 }
-.pager li>a:hover {
+.pagerNew li>a:hover {
   color:black;
   border:none;
+  background-color:white;
+  text-decoration:none;
+}
 
+.pagerNew .next {
+    float:left;
+}
+
+.pager-button {
+    margin-right:5px;
 }
 
 
