@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
-    
+    url= window.location.href
+    baseurl = url.substring(0,url.indexOf('calendar.html'))
     /*Data laden*/
     /* Achtung url muss man dann dynamisch setzen */
     var $data = (function () {
@@ -8,7 +9,7 @@ $(document).ready(function() {
     $.ajax({
         'async': false,
         'global': false,
-        'url': "http://localhost:8080/exist/apps/hbas/data.xql",
+        'url': baseurl + "/data.xql",
         'dataType': "json",
         'success': function (data) {
             json = data;
@@ -17,37 +18,6 @@ $(document).ready(function() {
     return json;
 })();
 
-var $dataSource = (function () {
-    var json = null;
-    $.ajax({
-        'async': false,
-        'global': false,
-        'url': "http://localhost:8080/exist/apps/hbas/data.xql",
-        'dataType': "json",
-        'success': function (data) {
-            json = data;
-        }
-    });
-    return json;
-})();
-
-/* var $dataSource = [ {
-  name : "Tagebuch von Schnitzler, 27. 4. 1891",
-  startDate : new Date(1891,00,1),
-  endDate : new Date(1891,0,1)
-}, {
-  name : "Tagebuch von Schnitzler, 28. 4. 1891",
-  startDate : new Date(1891,03,28),
-  endDate : new Date(1891,03,28)
-}, {
-  "name" : "E. M. Kafka an Bahr, 12. 8. 1891",
-  "startDate" : new Date(1891,07,12),
-  "endDate" : new Date(1891,07,12),
-  "id" : "L041646"
-  
-}
-]
-*/
 
 
 var $dataSource = [];
@@ -58,6 +28,7 @@ $.each( $data, function( key, entry ) {
   var $d = entry.sortDate.substring(8,10);
   $obj.endDate = new Date($j,$m-1,$d);
   $obj.startDate = new Date($j,$m-1,$d);
+  $obj.id = entry.id;
   $dataSource.push($obj);
 });
 
@@ -80,6 +51,33 @@ var $disabledDays = [
 	$('#calendar').calendar({
         dataSource: $dataSource,
         startYear: 1891,
-        disabledDays: $disabledDays
+        disabledDays: $disabledDays,
+        minDate : new Date(1891,0,1),
+        maxDate : new Date(1963,0,1),
+        style: "background"
     });
+    
+$('#calendar').clickDay(function(e){ 
+    var ids = []
+    $.each(e.events, function( key, entry ) {
+        ids.push(entry.id)
+    });
+    /*alert(ids.join())*/
+    window.location = baseurl + "/view.html" + "?id=" + ids.join()
+    
+    
+    
+    /*
+    $date = e.events[0].startDate
+    alert($date);
+    $j = $date.getFullYear()
+    $m = $date.getMonth()+1
+    $d = $date.getDate()
+    alert($j + '-' + $m + '-' + $d)
+    */
+    /*alert(e.events[0].id)*/
+    
 });
+    
+});
+
