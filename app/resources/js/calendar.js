@@ -43,17 +43,18 @@ alert($m);
 alert($d);
 */
 
-var $disabledDays = [
-            new Date(1891,0,2)
-        ]
+var $disabledDays = [];
     
-    
+    /*new Date(1891,0,2)*/
+	
+	
 	$('#calendar').calendar({
         dataSource: $dataSource,
         startYear: 1891,
         disabledDays: $disabledDays,
         minDate : new Date(1891,0,1),
         maxDate : new Date(1963,0,1),
+        language: "de",
         style: "background"
     });
     
@@ -78,6 +79,8 @@ $('#calendar').clickDay(function(e){
     /*alert(e.events[0].id)*/
     
 });
+   
+   $(".day:not(.day-start)").addClass("disabled");
     
 });
 
