@@ -460,7 +460,14 @@ del.erased:hover {
 /* ### G ### */
 
 .gap {
-    color:orange;
+    color:gray;
+}
+
+/*@reason von gap*/
+.outOfScope::before {
+    color:black;
+    display:inline;
+    content:"[ ¶ ]"
 }
 
 /* ### H ### */

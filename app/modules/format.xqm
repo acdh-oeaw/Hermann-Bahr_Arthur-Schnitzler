@@ -337,13 +337,7 @@ declare function format:tei2html($nodes as node()*) {
     (:quantity, unit= chars eignetlich immer:)
     (: reason = G/gabelsberger, illegible, outOfScope, :)
     case element(tei:gap) return
-        <a class="gap"
-            data-toggle="popover"
-            data-container="body"
-            data-html="true"
-            data-placement="top"
-            data-content="{format:popover_gap($node)}"
-        >⊠</a>
+        <span class="gap {$node/@reason}"></span>
         
     
     
