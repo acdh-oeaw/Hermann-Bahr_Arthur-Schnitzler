@@ -252,6 +252,7 @@ body, h1, h2 {
     border-bottom:none;
 }
 
+/*
 .leseansicht .supplied::before {
     display:none;
 }
@@ -259,6 +260,7 @@ body, h1, h2 {
 .leseansicht .supplied::after {
     display:none;
 }
+*/
 
 .leseansicht .unclear::before {
     display:none;
@@ -399,6 +401,9 @@ footer .impressum {
 }
 
 /* ### D ### */
+.damage {
+    display:inline;
+}
 .damage-empty:before {
     display:inline;
     content:"X";

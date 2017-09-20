@@ -171,7 +171,8 @@ declare function format:tei2html($nodes as node()*) {
         (: @agent=hole, ink, paperloss, water :)
         case element(tei:damage) return
             (:Wenns tei:supplied gibt, dann das anzeigen und den @agent dort abgreifen, ansonsten Zeichen für Textverlusst angeben :)
-            if ($node/node()) then <span class="damage" data-agent="{$node/@agent}">{format:tei2html($node/node())}</span> 
+            (:ignoriert textnodes in <damage>!:)
+            if ($node/node()) then <span class="damage" data-agent="{$node/@agent}">{format:tei2html($node/element())}</span> 
             else 
                 <a class="damage damage-empty"
                 data-toggle="popover"
@@ -666,9 +667,7 @@ declare function format:tei2html($nodes as node()*) {
                 attribute class {
                     "supplied"
                 },
-                attribute title {"Von den Herausgebern ergänzt."},
-                format:tei2html($node/node())
-            }
+                attribute title {"Von den Herausgebern ergänzt."},format:tei2html($node/node())}
             
         
         (: ### T ###:)
