@@ -197,6 +197,12 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
             <h2 class="doc-title">{collection($config:data-root)/id($docid)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
+            <div class="authors">
+            {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@key return
+            <a class="author-link" href="view.html?author={$authorkey}">
+            {collection($config:data-root)/id($authorkey)//tei:forename || " " || collection($config:data-root)/id($authorkey)//tei:surname}</a>
+            }    
+            </div>
         </div> <!-- /title-box -->
         <div class="text-box leseansicht">
             {format:tei2html(collection($config:data-root)/id($docid)//tei:text)}
