@@ -192,60 +192,62 @@ return
 declare function app:view_single($id,$type,$show, $view-mode,$q) {
     (:Gibt eine Einzelansicht eines Dokuments aus:)
     
+    
+    for $docid in tokenize($id,',') return
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
-            <h2 class="doc-title">{collection($config:data-root)/id($id)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
+            <h2 class="doc-title">{collection($config:data-root)/id($docid)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
         </div> <!-- /title-box -->
         <div class="text-box leseansicht">
-            {format:tei2html(collection($config:data-root)/id($id)//tei:text)}
+            {format:tei2html(collection($config:data-root)/id($docid)//tei:text)}
         </div>
-        <div id="anhang" class="anhang-box collapse">
+        <div class="anhang anhang-box collapse">
             {
-                if (substring($id,1,1)="L") then
+                if (substring($docid,1,1)="L") then
                     <div class="correspDesc">
                         <span class="glyphicon glyphicon-envelope"></span>
                         <div class="sender-box">
                             <span class="sender">
-                                {format:tei2html(collection($config:data-root)/id($id)//tei:sender//tei:persName)}
+                                {format:tei2html(collection($config:data-root)/id($docid)//tei:sender//tei:persName)}
                             </span>
-                            {format:tei2html(collection($config:data-root)/id($id)//tei:placeSender)}
+                            {format:tei2html(collection($config:data-root)/id($docid)//tei:placeSender)}
                             {
-                                if (collection($config:data-root)/id($id)//tei:dateSender) then
-                                format:tei2html(collection($config:data-root)/id($id)//tei:dateSender)
+                                if (collection($config:data-root)/id($docid)//tei:dateSender) then
+                                format:tei2html(collection($config:data-root)/id($docid)//tei:dateSender)
                                 else ()
                             }
                             
                         </div>
                         <div class="addressee-box">
-                            {format:tei2html(collection($config:data-root)/id($id)//tei:addressee)}
-                            {format:tei2html(collection($config:data-root)/id($id)//tei:placeAddressee)}
-                            {format:tei2html(collection($config:data-root)/id($id)//tei:dateAddressee)}
+                            {format:tei2html(collection($config:data-root)/id($docid)//tei:addressee)}
+                            {format:tei2html(collection($config:data-root)/id($docid)//tei:placeAddressee)}
+                            {format:tei2html(collection($config:data-root)/id($docid)//tei:dateAddressee)}
                         </div>
                     </div>
                     
                 else ()
             }
             {
-                if (collection($config:data-root)/id($id)//tei:listWit) then
+                if (collection($config:data-root)/id($docid)//tei:listWit) then
             <div class="witnessBox">
                 <span class="glyphicon glyphicon-map-marker"></span>
-                {format:tei2html(collection($config:data-root)/id($id)//tei:listWit)}
+                {format:tei2html(collection($config:data-root)/id($docid)//tei:listWit)}
             </div>
                 else ()
             }
             {
-            if (collection($config:data-root)/id($id)//tei:listBibl) then
+            if (collection($config:data-root)/id($docid)//tei:listBibl) then
             <div class="biblBox">
             <span class="glyphicon glyphicon-book"></span>
-                {format:tei2html(collection($config:data-root)/id($id)//tei:listBibl)}
+                {format:tei2html(collection($config:data-root)/id($docid)//tei:listBibl)}
             </div>
             else ()
             }
             {
-            if (collection($config:data-root)/id($id)//tei:anchor[@type='commentary']) then
+            if (collection($config:data-root)/id($docid)//tei:anchor[@type='commentary']) then
         <div id="kommentar" class="kommentar-box">
             {
-                for $kommentar in collection($config:data-root)/id($id)//tei:anchor[@type='commentary']
+                for $kommentar in collection($config:data-root)/id($docid)//tei:anchor[@type='commentary']
                 return 
                     <div class="commentary-fn">
                         <sup class="fn-marker"><a id="FN_{$kommentar/@xml:id}"
@@ -287,6 +289,8 @@ declare
     %templates:wrap
 function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$show) {
     if ($id != "") then
+        if (contains($id,',')) then ()
+        else
     <nav>
                 <ul class="pagerNew">
                     <li class="previous">

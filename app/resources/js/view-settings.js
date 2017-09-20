@@ -32,7 +32,7 @@ $(document).ready(function() {
 	var viewMode = getUrlVar("view-mode")
 	
 	if (show.indexOf("a") !== -1) {
-	    $("#anhang").collapse('show');
+	    $(".anhang").collapse('show');
 	    $("#check_anhang").attr("checked","checked");
 	}
 	
