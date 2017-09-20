@@ -660,7 +660,7 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="index.html">Home</a>
                                 </li>
                                 <li class="dropdown hidden-md hidden-lg" id="nav_dokumente">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dokumente</a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inhalt</a>
                                     <ul class="dropdown-menu">
                                         <li>
                                             <a href="view.html?type=L">Briefe</a>
@@ -674,9 +674,9 @@ function app:nav($node as node(), $model as map(*)) {
                                     </ul>
                                 </li> 
                                 <li class="hidden-xs hidden-sm">
-                                    <a href="view.html">Dokumente</a>
+                                    <a href="view.html">Inhalt</a>
                                 </li>
-                                <!-- /Dokumente -->
+                                <!-- /Inhalt -->
                                 
                                 <li class="dropdown" id="nav_suche">
                                     <a href="search.html">Suche</a>
