@@ -354,15 +354,15 @@ declare function format:tei2html($nodes as node()*) {
         (: scribe hat den @key-value :)
         (: medium :)
         case element(tei:handShift) return
-            <a class="handShift"
-            data-toggle="popover"
-                data-container="body"
-                data-title="Schreiberwechsel"
-                data-html="true"
-                data-placement="top"
-                data-content="{format:popover_handShift($node)}"
-                data-scribe="{$node/@key}"
-            >{format:tei2html($node/node())}</a>
+            <span class="handShift">
+            {
+             if ($node/@medium = 'typewriter') then "[ms.:] " 
+             else
+                 if ($node/@scribe and $node/@key) then
+                     "[hs. " || string-join(collection($config:data-root)//id(@key)//tei:surname,' ') ||", " || string-join(collection($config:data-root)//id(@key)//tei:forename,' ') || "] "
+                     else "[hs.:] "
+            }
+            </span>
         
         (:  tei:head :)
         (:@rend center, sub?–wohl Fehler; @type: sub - Untertitel)
