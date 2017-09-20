@@ -476,7 +476,7 @@ del.erased:hover {
 .handShift::before {
     display:inline-block;
     content:"\270F🖎🖎";
-    color:orange;
+    color:black;
 }
 
 /*head; Überschriften*/
@@ -545,13 +545,13 @@ del.erased:hover {
 .supplied:before {
     display:inline;
     content:"[";
-    color:orange;
+    color:black;
 }
 
 .supplied:after {
     display:inline;
     content:"]";
-    color:orange;
+    color:black;
 }
 
 
@@ -576,6 +576,11 @@ del.erased:hover {
 }
 
 
+/* ### U ### */
+.unclear {
+    color:gray;
+}
+/*
 .unclear::before {
     color:orange;
     vertical-align:super;
@@ -583,7 +588,9 @@ del.erased:hover {
     content:"?";
     font-size:75%;
 }
+*/
 
+/*
 .unclear::after {
     color:orange;
     vertical-align:super;
@@ -591,6 +598,7 @@ del.erased:hover {
     content:"?";
     font-size:75%;
 }
+*/
 
 /*  /class-Attribute von TEI-Elementen ### */
 
