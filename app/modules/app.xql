@@ -923,7 +923,6 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
     else 
         (: Listenansicht :)
         <form class="hidden-xs hidden-sm filter_form">
-            Zeige Dokumente:
         <div class="checkbox">
             <label>
                 <input type="checkbox" id="toggle_doctype_L" checked="checked"> Briefe</input>
