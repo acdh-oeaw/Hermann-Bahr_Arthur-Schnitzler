@@ -1013,6 +1013,12 @@
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 6. 11. 1910'">
                   <xsl:text>{\pagebreak}</xsl:text>
                </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 5. 4. 1911'">
+                  <xsl:text>{\pagebreak}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 19. 9. 1911'">
+                  <xsl:text>{\pagebreak}</xsl:text>
+               </xsl:when>
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 14. 12. 1911'">
                   <xsl:text>{\pagebreak}</xsl:text>
                </xsl:when>
@@ -1211,6 +1217,10 @@
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann an Hofmannsthal, 10. 6. 1894'">
                   <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Lili Schnitzler im Fotoalbum des Ehepaars Bahr'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               
             </xsl:choose>
             <xsl:text>
        \section[</xsl:text>
