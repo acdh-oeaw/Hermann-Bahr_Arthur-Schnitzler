@@ -64,6 +64,7 @@ declare
     %templates:wrap
 function app:page-title($node as node(), $model as map(*)) {
     <div class="page-title-box">
+                    <a href="index.html">
                     <h1 class="page-title">
                     <span class="page-title-main">Hermann Bahr,</span> 
                     <span class="page-title-main">Arthur Schnitzler</span>
@@ -71,6 +72,7 @@ function app:page-title($node as node(), $model as map(*)) {
                     <span class="page-title-sub">Aufzeichnungen,</span>
                     <span class="page-title-sub">Dokumente</span>
                     </h1>
+                    </a>
     </div>
 };
 
