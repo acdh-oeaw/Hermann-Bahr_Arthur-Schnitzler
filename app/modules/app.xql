@@ -115,14 +115,14 @@ declare function app:view_list($type,$date,$author,$id,$q) {
             </div>
             </div>
             else
+            (
         <div class="col-sm-9">
             <div class="title-box">
                 <h2 class="doc-title">Verfügbare Dokumente von {collection($config:data-root)/id($author)//tei:forename || " " || collection($config:data-root)/id($author)//tei:surname}</h2>
             </div>
-            
             {
             
-            for $doc in collection($config:data-root)//tei:fileDesc//tei:author[contains(@key,$author)]/ancestor::tei:TEI
+            for $doc in collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author[contains(@key,$author)]/ancestor::tei:TEI
         let $date := 
             switch (substring($doc/@xml:id/string(),1,1))
             case "T" return $doc//tei:origDate/@when/string()
@@ -140,11 +140,37 @@ return
         <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
         <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
     </div>
+    }
+        </div>,
+        (:Briefe an:)
+        
+        if (collection($config:data-root)//tei:addressee//tei:persName[contains(@key,$author)]) then
+        
+        <div class="col-sm-9">
+            <div class="title-box briefe-an">
+                <h2 class="doc-title">Briefe an {collection($config:data-root)/id($author)//tei:forename || " " || collection($config:data-root)/id($author)//tei:surname}</h2>
+            </div>
+            {
+                for $letter in collection($config:data-root)//tei:addressee/tei:persName[contains(@key,$author)]/ancestor::tei:TEI
+                let $date := $letter//tei:dateSender/tei:date/@when/string()
+                order by $date ascending
+                return 
+                    <div class="docListItem">
+        <span class="autor">{$letter//tei:titleStmt/tei:author/string()}</span>
+        <a href="{concat('view.html?id=',$letter/@xml:id/string())}" class="title-link">{$letter//tei:titleStmt/tei:title[@level='a']/string()}</a>
+    </div>
+            }
             
-            }    
             
             
-        </div>
+            
+            
+            
+            
+            
+    </div>
+    else ()
+    )
     else (:$date oder $author nicht gesetzt:) 
     <div class="col-sm-9">
     <div class="title-box">
