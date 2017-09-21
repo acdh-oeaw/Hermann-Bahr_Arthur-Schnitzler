@@ -683,6 +683,9 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="view.html">Inhalt</a>
                                 </li>
                                 <!-- /Inhalt -->
+                                <li class="dropdown" id="nav_kalender">
+                                    <a href="calendar.html">Kalender</a>
+                                </li>
                                 
                                 <li class="dropdown" id="nav_suche">
                                     <a href="search.html">Suche</a>
