@@ -297,7 +297,7 @@ function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$s
     if ($id != "") then
         if (contains($id,',')) then ()
         else
-    <nav>
+    <nav class="prev-next-pager">
                 <ul class="pagerNew">
                     <li class="previous">
                     <a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
