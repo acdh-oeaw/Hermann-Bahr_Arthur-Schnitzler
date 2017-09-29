@@ -4172,6 +4172,11 @@
              <xsl:apply-templates/>
              <xsl:text>}</xsl:text>
           </xsl:when>
+          <xsl:when test="self::workName and not($im-text) and parent::bibl[parent::footNote]"><!-- Sonderfall, wenn eine Fussnote in der quote-Umgebung eine Literaturangabe enthält -->
+             <xsl:text>\emph{</xsl:text>
+             <xsl:apply-templates/>
+             <xsl:text>}</xsl:text>
+          </xsl:when>
                 <xsl:otherwise>
                    <xsl:apply-templates/>
                 </xsl:otherwise>
@@ -4304,7 +4309,12 @@
           </xsl:when>
           <xsl:otherwise>
              <xsl:choose>
-                <xsl:when test="self::orgName and not($im-text) and not(ancestor::quote)">
+                <xsl:when test="self::orgName and (not($im-text) and not(ancestor::quote))">
+                   <xsl:text>\emph{</xsl:text>
+                   <xsl:apply-templates/>
+                   <xsl:text>}</xsl:text>
+                </xsl:when>
+                <xsl:when test="self::orgName and not($im-text) and parent::bibl[parent::footNote]"><!-- Sonderfall, wenn eine Fussnote in der quote-Umgebung eine Literaturangabe enthält -->
                    <xsl:text>\emph{</xsl:text>
                    <xsl:apply-templates/>
                    <xsl:text>}</xsl:text>

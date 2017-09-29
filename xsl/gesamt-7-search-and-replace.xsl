@@ -108,6 +108,190 @@
                 <search> S. 9</search>
                 <replace> S.\,9</replace>
             </word>
+            <word>
+                <search> Jg. 1</search>
+                <replace> Jg.\,1</replace>
+            </word>
+            <word>
+                <search> Jg. 2</search>
+                <replace> Jg.\,2</replace>
+            </word>
+            <word>
+                <search> Jg. 3</search>
+                <replace> Jg.\,3</replace>
+            </word>
+            <word>
+                <search> Jg. 4</search>
+                <replace> Jg.\,4</replace>
+            </word>
+            <word>
+                <search> Jg. 5</search>
+                <replace> Jg.\,5</replace>
+            </word>
+            <word>
+                <search> Jg. 6</search>
+                <replace> Jg.\,6</replace>
+            </word>
+            <word>
+                <search> Jg. 7</search>
+                <replace> Jg.\,7</replace>
+            </word>
+            <word>
+                <search> Jg. 8</search>
+                <replace> Jg.\,8</replace>
+            </word>
+            <word>
+                <search> Jg. 9</search>
+                <replace> Jg.\,9</replace>
+            </word>
+            <word>
+                <search>1 Bl.</search>
+                <replace>1\,Bl.</replace>
+            </word>
+            <word>
+                <search>2 Bl.</search>
+                <replace>2\,Bl.</replace>
+            </word>
+            <word>
+                <search>3 Bl.</search>
+                <replace>3\,Bl.</replace>
+            </word>
+            <word>
+                <search>4 Bl.</search>
+                <replace>4\,Bl.</replace>
+            </word>
+            <word>
+                <search>5 Bl.</search>
+                <replace>5\,Bl.</replace>
+            </word>
+            <word>
+                <search>6 Bl.</search>
+                <replace>6\,Bl.</replace>
+            </word>
+            <word>
+                <search>7 Bl.</search>
+                <replace>7\,Bl.</replace>
+            </word>
+            <word>
+                <search>8 Bl.</search>
+                <replace>8\,Bl.</replace>
+            </word>
+            <word>
+                <search>9 Bl.</search>
+                <replace>9\,Bl.</replace>
+            </word>
+            <word>
+                <search>0 Bl.</search>
+                <replace>0\,Bl.</replace>
+            </word>
+            <word>
+                <search> Nr. 1</search>
+                <replace> Nr.\,1</replace>
+            </word>
+            <word>
+                <search> Nr. 2</search>
+                <replace> Nr.\,2</replace>
+            </word>
+            <word>
+                <search> Nr. 3</search>
+                <replace> Nr.\,3</replace>
+            </word>
+            <word>
+                <search> Nr. 4</search>
+                <replace> Nr.\,4</replace>
+            </word>
+            <word>
+                <search> Nr. 5</search>
+                <replace> Nr.\,5</replace>
+            </word>
+            <word>
+                <search> Nr. 6</search>
+                <replace> Nr.\,6</replace>
+            </word>
+            <word>
+                <search> Nr. 7</search>
+                <replace> Nr.\,7</replace>
+            </word>
+            <word>
+                <search> Nr. 8</search>
+                <replace> Nr.\,8</replace>
+            </word>
+            <word>
+                <search> Nr. 9</search>
+                <replace> Nr.\,9</replace>
+            </word>
+            <word>
+                <search>Bd. 1</search>
+                <replace>Bd.\,1</replace>
+            </word>
+            <word>
+                <search>Bd. 2</search>
+                <replace>Bd.\,2</replace>
+            </word>
+            <word>
+                <search>Bd. 3</search>
+                <replace>Bd.\,3</replace>
+            </word>
+            <word>
+                <search>Bd. 4</search>
+                <replace>Bd.\,4</replace>
+            </word>
+            <word>
+                <search>Bd. 5</search>
+                <replace>Bd.\,5</replace>
+            </word>
+            <word>
+                <search>Bd. 6</search>
+                <replace>Bd.\,6</replace>
+            </word>
+            <word>
+                <search>Bd. 7</search>
+                <replace>Bd.\,7</replace>
+            </word>
+            <word>
+                <search>Bd. 8</search>
+                <replace>Bd.\,8</replace>
+            </word>
+            <word>
+                <search>Bd. 9</search>
+                <replace>Bd.\,9</replace>
+            </word>
+            <word>
+                <search> H. 1</search>
+                <replace> H.\,1</replace>
+            </word>
+            <word>
+                <search> H. 2</search>
+                <replace> H.\,2</replace>
+            </word>
+            <word>
+                <search> H. 3</search>
+                <replace> H.\,3</replace>
+            </word>
+            <word>
+                <search> H. 4</search>
+                <replace> H.\,4</replace>
+            </word>
+            <word>
+                <search> H. 5</search>
+                <replace> H.\,5</replace>
+            </word>
+            <word>
+                <search> H. 6</search>
+                <replace> H.\,6</replace>
+            </word>
+            <word>
+                <search> H. 7</search>
+                <replace> H.\,7</replace>
+            </word>
+            <word>
+                <search> H. 8</search>
+                <replace> H.\,8</replace>
+            </word>
+            <word>
+                <search> H. 9</search>
+                <replace> H.\,9</replace>
+            </word>
             <!--<word>
         <search>{–</search>
         <replace>bam!</replace>
