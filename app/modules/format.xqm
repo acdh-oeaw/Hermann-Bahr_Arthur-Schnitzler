@@ -79,9 +79,18 @@ declare function format:tei2html($nodes as node()*) {
                 class="commentary-ref"
                 href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:anchor[@type='commentary'])+1}</sup></a>
                 )
-            case "label" return <a id="{$node/@xml:id}">{format:tei2html($node/node())}</a>
+            case "label" return <a class="anchor_label" id="{$node/@xml:id}">{format:tei2html($node/node())}</a>
             (:Was mit textConst machen?:)
-            case "textConst" return ()    
+            case "textConst" return 
+                (
+                <a
+                id="{$node/@xml:id}"
+                class="textConst"
+                >{format:tei2html($node/node())}</a>,
+                <a id="FN-ref_{$node/@xml:id}"
+                class="commentary-ref"
+                href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:anchor[@type='commentary'])+1}</sup></a>
+                )
             default return ()
         
         (: tei:author :)

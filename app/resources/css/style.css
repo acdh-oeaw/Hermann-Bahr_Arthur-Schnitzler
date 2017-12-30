@@ -1,6 +1,5 @@
 /* Hermann Bahr | Arthur Schnitzler */
 
-
 /* Styles für page-template */
 
 @media (min-width: 320px) {
@@ -374,12 +373,12 @@ footer .impressum {
 /*tei:anchor*/
 /*KOMMENTAR*/
 /*span? mit dem kommentierten Text*/
-.commentary {
+.commentary,.textConst {
     border-bottom:1px black dotted;
     color:black;
 }
 
-.commentary:hover {
+.commentary:hover, .textConst:hover {
     text-decoration:inherit;
     color:inherit;
     cursor:pointer;
@@ -399,7 +398,14 @@ footer .impressum {
     cursor:pointer;
 }
 
+.anchor_label {
+    color:black;
+}
 
+.anchor_label:hover {
+    color:black;
+    text-decoration:none;
+}
 
 
 /* tei:add */
@@ -427,6 +433,15 @@ footer .impressum {
 
 .dateline {
 
+}
+
+.date {
+    color:black;
+}
+
+.date:hover {
+    color:black;
+    text-decoration:none;
 }
 
 del.overwritten {

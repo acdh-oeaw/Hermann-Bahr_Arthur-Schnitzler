@@ -117,6 +117,9 @@ declare function app:view_list($type,$date,$author,$id,$q) {
             </div>
             </div>
             else
+            (:nur Autor?:)
+            if ($author='all') then app:view_verfasserliste()
+            else
             (
         <div class="col-sm-9">
             <div class="title-box">
@@ -281,13 +284,13 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             if (collection($config:data-root)/id($docid)//tei:anchor[@type='commentary']) then
         <div id="kommentar" class="kommentar-box">
             {
-                for $kommentar in collection($config:data-root)/id($docid)//tei:anchor[@type='commentary']
+                for $kommentar in collection($config:data-root)/id($docid)//tei:anchor[@type='commentary' or 'textConst']
                 return 
                     <div class="commentary-fn">
                         <sup class="fn-marker"><a id="FN_{$kommentar/@xml:id}"
                         href="#FN-ref_{$kommentar/@xml:id}"
                         >
-                            {count($kommentar/preceding::tei:anchor[@type='commentary'])+1}
+                            {count($kommentar/preceding::tei:anchor[@type='commentary' or 'textConst'])+1}
                         </a></sup>
                         <span class="lemma">{$kommentar}</span>
                         <span class="kommentar-txt">
@@ -316,6 +319,26 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
     </div>
     :)
     
+};
+
+declare function app:view_verfasserliste() {
+    <div class="col-sm-9">
+                <div class="title-box">
+                <h2 class="doc-title">Verfasserinnen und Verfasser</h2>
+            </div>
+
+            {
+                for $verfasser-id in distinct-values(collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author/@key) 
+                let $vorname := collection($config:data-root)//id($verfasser-id)//tei:forename
+                let $nachname := collection($config:data-root)//id($verfasser-id)//tei:surname
+                order by $nachname
+                return
+                    <div class="docListItem">
+                        <a href="view.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
+                    </div>
+            }
+            </div>
+            
 };
 
 
@@ -437,6 +460,9 @@ function app:register_liste($type) {
             <div class="col-sm-9">
                 <div class="title-box">
                 <h2 class="doc-title">Register</h2>
+            </div>
+            <div class="verfListHinweis">
+                Ein Verzeichnis der Verfasser findet sich <a href="view.html?author=all">hier</a>.
             </div>
             <ul class="register">
                 {
