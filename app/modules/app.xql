@@ -184,7 +184,7 @@ return
                 case "T" return "Texte"
                 case "D" return "Tagebucheinträge"
                 case "L" return "Briefe"
-        default return "Dokumente"}
+        default return "Inhalt"}
             
             </h2>
         </div>
@@ -961,7 +961,7 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
         </div>
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="toggle_doctype_T" checked="checked"> Texte</input>
+                <input type="checkbox" id="toggle_doctype_T" checked="checked"> Dokumente</input>
             </label>
         </div>
         </form>
