@@ -70,7 +70,8 @@
 
 .calendar .calendar-header table th
 {
-	font-size:22px;
+	font-size:20px;
+	font-weight:normal;
 	padding:5px 10px;
 }
 
@@ -246,3 +247,14 @@
     box-shadow:none;
     
 }
+
+th.next .glyphicon:before {
+    display:block;
+    content:">";
+}
+
+th.prev .glyphicon:before {
+    display:block;
+    content:"<";
+}
+
