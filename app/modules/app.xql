@@ -936,7 +936,7 @@ function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) 
         -->
         <div class="checkbox">
             <label>
-                <input type="checkbox" id="check_auszeichnungen" > Auszeichnungen</input>
+                <input type="checkbox" id="check_auszeichnungen" > Markierungen</input>
             </label>
         </div>
         <div class="checkbox">
