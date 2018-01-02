@@ -147,6 +147,8 @@ declare function format:tei2html($nodes as node()*) {
             case "#dollar" return "$"
             case "#kaufmannsund" return "&amp;"
             case "#prozent" return "%"
+            case "#dots" return
+                for $n in 1 to xs:int(number($node/@n)) return '.&#160;'
             default return $node/@rendition
         
         (: cell :)
