@@ -190,26 +190,26 @@
   <xsl:template match="p/anchor[@output='true' and not(preceding-sibling::node())]">
      <p> 
      <xsl:apply-templates/>
-      <xsl:text> {[\ldots]}</xsl:text>
+      <xsl:text> {[}\dots{]}</xsl:text>
      </p>
   </xsl:template>
   
   <xsl:template match="p/anchor[@output='true' and preceding-sibling::node() and following-sibling::node()]">
      <p>
-      <xsl:text>{[\ldots]} </xsl:text>
+      <xsl:text>{[}\dots{]} </xsl:text>
       <xsl:apply-templates/>
-      <xsl:text> {[\ldots]}</xsl:text>
+      <xsl:text> {[}\dots{]}</xsl:text>
      </p>
   </xsl:template>
   
   <xsl:template match="p/anchor[@output='true' and not(following-sibling::node())]">
      <p>
-      <xsl:text>{[\ldots]} </xsl:text>
+      <xsl:text>{[}\dots{]} </xsl:text>
       <xsl:apply-templates/>
      </p>
   </xsl:template>
  
-   <xsl:template match="p[ancestor::body]|salute[parent::opener]|dateline[parent::opener]|seg[parent::opener]|closer|lg|head">
+   <xsl:template match="p[ancestor::body]|salute[parent::opener]|dateline[parent::opener]|dateline[parent::postscript]|seg[parent::opener]|closer|lg|head">
     <xsl:choose>
  <!-- TEXT -->
        <xsl:when test="ancestor::TEI[teiHeader/fileDesc/publicationStmt/idno/@type='HBAS-T']">

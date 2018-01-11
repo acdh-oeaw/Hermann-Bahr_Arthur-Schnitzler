@@ -1438,7 +1438,7 @@
   </xsl:template>
   
   <xsl:template match="gap[@reason='outOfScope']">
-      <xsl:text>[\ldots]</xsl:text>
+      <xsl:text>[<c rendition="#dots" n="3"/>]</xsl:text>
   </xsl:template>
   
   <xsl:template match="gap[@reason='gabelsberger']">

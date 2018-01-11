@@ -9,53 +9,367 @@
                 <replace>{\slashislash}</replace>
             </word>
             <word>
-                <search>. 1.</search>
-                <replace>.{\,}1.</replace>
+                <search>0. 1</search>
+                <replace>0.{\,}1</replace>
             </word>
             <word>
-                <search>. 10.</search>
-                <replace>.{\,}10.</replace>
+                <search>1. 1</search>
+                <replace>1.{\,}1</replace>
             </word>
             <word>
-                <search>. 11.</search>
-                <replace>.{\,}11.</replace>
+                <search>2. 1</search>
+                <replace>2.{\,}1</replace>
             </word>
             <word>
-                <search>. 12.</search>
-                <replace>.{\,}12.</replace>
+                <search>3. 1</search>
+                <replace>3.{\,}1</replace>
             </word>
             <word>
-                <search>. 2.</search>
-                <replace>.{\,}2.</replace>
+                <search>4. 1</search>
+                <replace>4.{\,}1</replace>
             </word>
             <word>
-                <search>. 3.</search>
-                <replace>.{\,}3.</replace>
+                <search>5. 1</search>
+                <replace>5.{\,}1</replace>
             </word>
             <word>
-                <search>. 4.</search>
-                <replace>.{\,}4.</replace>
+                <search>6. 1</search>
+                <replace>6.{\,}1</replace>
             </word>
             <word>
-                <search>. 5.</search>
-                <replace>.{\,}5.</replace>
+                <search>7. 1</search>
+                <replace>7.{\,}1</replace>
             </word>
             <word>
-                <search>. 6.</search>
-                <replace>.{\,}6.</replace>
+                <search>8. 1</search>
+                <replace>8.{\,}1</replace>
             </word>
             <word>
-                <search>. 7.</search>
-                <replace>.{\,}7.</replace>
+                <search>9. 1</search>
+                <replace>9.{\,}1</replace>
             </word>
             <word>
-                <search>. 8.</search>
-                <replace>.{\,}8.</replace>
+                <search>0. 2</search>
+                <replace>0.{\,}2</replace>
             </word>
             <word>
-                <search>. 9.</search>
-                <replace>.{\,}9.</replace>
+                <search>1. 2</search>
+                <replace>1.{\,}2</replace>
             </word>
+            <word>
+                <search>2. 2</search>
+                <replace>2.{\,}2</replace>
+            </word>
+            <word>
+                <search>3. 2</search>
+                <replace>3.{\,}2</replace>
+            </word>
+            <word>
+                <search>4. 2</search>
+                <replace>4.{\,}2</replace>
+            </word>
+            <word>
+                <search>5. 2</search>
+                <replace>5.{\,}2</replace>
+            </word>
+            <word>
+                <search>6. 2</search>
+                <replace>6.{\,}2</replace>
+            </word>
+            <word>
+                <search>7. 2</search>
+                <replace>7.{\,}2</replace>
+            </word>
+            <word>
+                <search>8. 2</search>
+                <replace>8.{\,}2</replace>
+            </word>
+            <word>
+                <search>9. 2</search>
+                <replace>9.{\,}2</replace>
+            </word>
+            <word>
+                <search>0. 3</search>
+                <replace>0.{\,}3</replace>
+            </word>
+            <word>
+                <search>1. 3</search>
+                <replace>1.{\,}3</replace>
+            </word>
+            <word>
+                <search>2. 3</search>
+                <replace>2.{\,}3</replace>
+            </word>
+            <word>
+                <search>3. 3</search>
+                <replace>3.{\,}3</replace>
+            </word>
+            <word>
+                <search>4. 3</search>
+                <replace>4.{\,}3</replace>
+            </word>
+            <word>
+                <search>5. 3</search>
+                <replace>5.{\,}3</replace>
+            </word>
+            <word>
+                <search>6. 3</search>
+                <replace>6.{\,}3</replace>
+            </word>
+            <word>
+                <search>7. 3</search>
+                <replace>7.{\,}3</replace>
+            </word>
+            <word>
+                <search>8. 2</search>
+                <replace>8.{\,}3</replace>
+            </word>
+            <word>
+                <search>9. 2</search>
+                <replace>9.{\,}3</replace>
+            </word>
+            <word>
+                <search>0. 4</search>
+                <replace>0.{\,}4</replace>
+            </word>
+            <word>
+                <search>1. 4</search>
+                <replace>1.{\,}4</replace>
+            </word>
+            <word>
+                <search>2. 4</search>
+                <replace>2.{\,}4</replace>
+            </word>
+            <word>
+                <search>3. 4</search>
+                <replace>3.{\,}4</replace>
+            </word>
+            <word>
+                <search>4. 4</search>
+                <replace>4.{\,}4</replace>
+            </word>
+            <word>
+                <search>5. 4</search>
+                <replace>5.{\,}4</replace>
+            </word>
+            <word>
+                <search>6. 4</search>
+                <replace>6.{\,}4</replace>
+            </word>
+            <word>
+                <search>7. 4</search>
+                <replace>7.{\,}4</replace>
+            </word>
+            <word>
+                <search>8. 4</search>
+                <replace>8.{\,}4</replace>
+            </word>
+            <word>
+                <search>9. 4</search>
+                <replace>9.{\,}4</replace>
+            </word>
+            <word>
+                <search>0. 5</search>
+                <replace>0.{\,}5</replace>
+            </word>
+            <word>
+                <search>1. 5</search>
+                <replace>1.{\,}5</replace>
+            </word>
+            <word>
+                <search>2. 5</search>
+                <replace>2.{\,}5</replace>
+            </word>
+            <word>
+                <search>3. 5</search>
+                <replace>3.{\,}5</replace>
+            </word>
+            <word>
+                <search>4. 5</search>
+                <replace>4.{\,}5</replace>
+            </word>
+            <word>
+                <search>5. 5</search>
+                <replace>5.{\,}5</replace>
+            </word>
+            <word>
+                <search>6. 5</search>
+                <replace>6.{\,}5</replace>
+            </word>
+            <word>
+                <search>7. 5</search>
+                <replace>7.{\,}5</replace>
+            </word>
+            <word>
+                <search>8. 5</search>
+                <replace>8.{\,}5</replace>
+            </word>
+            <word>
+                <search>9. 5</search>
+                <replace>9.{\,}5</replace>
+            </word>
+            <word>
+                <search>0. 6</search>
+                <replace>0.{\,}6</replace>
+            </word>
+            <word>
+                <search>1. 6</search>
+                <replace>1.{\,}6</replace>
+            </word>
+            <word>
+                <search>2. 6</search>
+                <replace>2.{\,}6</replace>
+            </word>
+            <word>
+                <search>3. 6</search>
+                <replace>3.{\,}6</replace>
+            </word>
+            <word>
+                <search>4. 6</search>
+                <replace>4.{\,}6</replace>
+            </word>
+            <word>
+                <search>5. 6</search>
+                <replace>5.{\,}6</replace>
+            </word>
+            <word>
+                <search>6. 6</search>
+                <replace>6.{\,}6</replace>
+            </word>
+            <word>
+                <search>7. 6</search>
+                <replace>7.{\,}6</replace>
+            </word>
+            <word>
+                <search>8. 6</search>
+                <replace>8.{\,}6</replace>
+            </word>
+            <word>
+                <search>9. 6</search>
+                <replace>9.{\,}6</replace>
+            </word>
+            <word>
+                <search>0. 7</search>
+                <replace>0.{\,}7</replace>
+            </word>
+            <word>
+                <search>1. 7</search>
+                <replace>1.{\,}7</replace>
+            </word>
+            <word>
+                <search>2. 7</search>
+                <replace>2.{\,}7</replace>
+            </word>
+            <word>
+                <search>3. 7</search>
+                <replace>3.{\,}7</replace>
+            </word>
+            <word>
+                <search>4. 7</search>
+                <replace>4.{\,}7</replace>
+            </word>
+            <word>
+                <search>5. 7</search>
+                <replace>5.{\,}7</replace>
+            </word>
+            <word>
+                <search>6. 7</search>
+                <replace>6.{\,}7</replace>
+            </word>
+            <word>
+                <search>7. 7</search>
+                <replace>7.{\,}7</replace>
+            </word>
+            <word>
+                <search>8. 7</search>
+                <replace>8.{\,}7</replace>
+            </word>
+            <word>
+                <search>9. 7</search>
+                <replace>9.{\,}7</replace>
+            </word>
+            <word>
+                <search>0. 8</search>
+                <replace>0.{\,}8</replace>
+            </word>
+            <word>
+                <search>1. 8</search>
+                <replace>1.{\,}8</replace>
+            </word>
+            <word>
+                <search>2. 8</search>
+                <replace>2.{\,}8</replace>
+            </word>
+            <word>
+                <search>3. 8</search>
+                <replace>3.{\,}8</replace>
+            </word>
+            <word>
+                <search>4. 8</search>
+                <replace>4.{\,}8</replace>
+            </word>
+            <word>
+                <search>5. 8</search>
+                <replace>5.{\,}8</replace>
+            </word>
+            <word>
+                <search>6. 8</search>
+                <replace>6.{\,}8</replace>
+            </word>
+            <word>
+                <search>7. 8</search>
+                <replace>7.{\,}8</replace>
+            </word>
+            <word>
+                <search>8. 8</search>
+                <replace>8.{\,}8</replace>
+            </word>
+            <word>
+                <search>9. 8</search>
+                <replace>9.{\,}8</replace>
+            </word>
+            <word>
+                <search>0. 9</search>
+                <replace>0.{\,}9</replace>
+            </word>
+            <word>
+                <search>1. 9</search>
+                <replace>1.{\,}9</replace>
+            </word>
+            <word>
+                <search>2. 9</search>
+                <replace>2.{\,}9</replace>
+            </word>
+            <word>
+                <search>3. 9</search>
+                <replace>3.{\,}9</replace>
+            </word>
+            <word>
+                <search>4. 9</search>
+                <replace>4.{\,}9</replace>
+            </word>
+            <word>
+                <search>5. 9</search>
+                <replace>5.{\,}9</replace>
+            </word>
+            <word>
+                <search>6. 9</search>
+                <replace>6.{\,}9</replace>
+            </word>
+            <word>
+                <search>7. 9</search>
+                <replace>7.{\,}9</replace>
+            </word>
+            <word>
+                <search>8. 9</search>
+                <replace>8.{\,}9</replace>
+            </word>
+            <word>
+                <search>9. 9</search>
+                <replace>9.{\,}9</replace>
+            </word>
+            
+            
             <word>
                 <search>.–</search>
                 <replace>{\dotdash}</replace>
@@ -291,6 +605,18 @@
             <word>
                 <search> H. 9</search>
                 <replace> H.\,9</replace>
+            </word>
+            <word>
+                <search> H. B.</search>
+                <replace> H.\,B.</replace>
+            </word>
+            <word>
+                <search> A. S.</search>
+                <replace> A.\,S.</replace>
+            </word>
+            <word>
+                <search>. Jh.</search>
+                <replace>.\,Jh.</replace>
             </word>
             <!--<word>
         <search>{–</search>

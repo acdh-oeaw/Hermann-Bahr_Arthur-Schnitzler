@@ -70,7 +70,7 @@
                       <xsl:value-of select="tokenize($lemmatext,' ')[2]"/>
                     </xsl:otherwise>
                   </xsl:choose>
-                  <xsl:text> … </xsl:text>
+                  <xsl:text> {\ldots} </xsl:text>
                   <xsl:value-of select="tokenize($lemmatext,' ')[last()]"/>
                 </xsl:when>
                 <xsl:otherwise>
@@ -146,7 +146,9 @@
                     <xsl:value-of select="tokenize($lemmatext,' ')[2]"/>
                   </xsl:otherwise>
                 </xsl:choose>
-                <xsl:text> … </xsl:text>
+                <xsl:text> </xsl:text>
+                <c rendition="#dots" n="3"/>
+                <xsl:text> </xsl:text>
                 <xsl:value-of select="tokenize($lemmatext,' ')[last()]"/>
               </xsl:when>
               <xsl:otherwise>

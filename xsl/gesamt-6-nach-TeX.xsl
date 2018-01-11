@@ -135,38 +135,37 @@
             <xsl:text> (</xsl:text>
             <xsl:choose>
                <xsl:when test="not(empty($kTodesdatum)) and not($kTodesdatum='')">
-                  <xsl:value-of select="$kGeburtsdatum"/>
+                  <xsl:value-of select="replace($kGeburtsdatum, ' Chr.', '~Chr.')"/>
                   <xsl:choose>
-                     <xsl:when test="not(empty($kGeburtsort)) and not($kGeburtsort='')">
+                     <xsl:when test="not(empty($kGeburtsort)) or not($kGeburtsort='')">
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="replace($kGeburtsort, '/', '{\\slash}')"/>
-                           <xsl:text> </xsl:text>
                      </xsl:when>
-                     <xsl:when test="not(empty($kTodesort)) and not($kTodesort='')">
+                  </xsl:choose>
+                  <xsl:choose>
+                     <xsl:when test="contains($kGeburtsdatum,' ') or not(empty($kGeburtsort)) or not(empty($kTodesort)) or contains($kTodesdatum,' ')">
                         <xsl:text> </xsl:text>
                      </xsl:when>
                   </xsl:choose>
                   <xsl:text>–</xsl:text>
                   <xsl:choose>
+                     <xsl:when test="contains($kGeburtsdatum,' ') or not(empty($kGeburtsort)) or not(empty($kTodesort)) or contains($kTodesdatum,' ')">
+                        <xsl:text> </xsl:text>
+                     </xsl:when>
+                  </xsl:choose>
+                  <xsl:value-of select="replace($kTodesdatum, ' Chr.', '~Chr.')"/>
+                  <xsl:choose>
                      <xsl:when test="not(empty($kTodesort)) and not($kTodesort='')">
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="$kTodesdatum"/>
-                        <xsl:text> </xsl:text>
                         <xsl:choose>
                            <xsl:when test="normalize-space($kGeburtsort) = normalize-space($kTodesort)">
-                              <xsl:text>ebd.</xsl:text>
+                              <xsl:text> ebd.</xsl:text>
                            </xsl:when>
                            <xsl:otherwise>
+                              <xsl:text> </xsl:text>
                               <xsl:value-of select="replace($kTodesort, '/', '{\\slash}')"/>
                            </xsl:otherwise>
                         </xsl:choose>
                      </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:if test="not(number(translate(substring($kTodesdatum, 1, 1),'0','1')))"><!-- Für den Fall dass es mit 'um' oder 'ca.' beginnt -->
-                           <xsl:text> </xsl:text>
-                        </xsl:if>
-                        <xsl:value-of select="$kTodesdatum"/>
-                     </xsl:otherwise>
                   </xsl:choose>
                 </xsl:when>
                <xsl:otherwise>
@@ -181,8 +180,8 @@
                         </xsl:choose>
                      </xsl:when>
                      <xsl:otherwise>
-                        <xsl:text>*\,</xsl:text>
-                        <xsl:value-of select="$kGeburtsdatum"/>
+                        <xsl:text>*~</xsl:text>
+                        <xsl:value-of select="replace($kGeburtsdatum, ' Chr.', '~Chr.')"/>
                         <xsl:choose>
                            <xsl:when test="not(empty($kGeburtsort)) and not($kGeburtsort='')">
                               <xsl:text> </xsl:text>
@@ -197,8 +196,8 @@
          </xsl:when>
          <xsl:when test="not(empty($kTodesdatum)) and not($kTodesdatum='')">
             <xsl:text> (</xsl:text>
-            <xsl:text>†\,</xsl:text>
-            <xsl:value-of select="$kTodesdatum"/>
+            <xsl:text>†~</xsl:text>
+            <xsl:value-of select="replace($kTodesdatum, ' Chr.', '~Chr.')"/>
             <xsl:choose>
                <xsl:when test="not(empty($kTodesort)) and not($kTodesort='')">
                   <xsl:text> </xsl:text>
@@ -358,7 +357,6 @@
    <xsl:param name="typ" as="xs:string?"/>
    <xsl:param name="erscheinungsdatum" as="xs:string?"/>
    <xsl:param name="auffuehrung" as="xs:string?"/>
-   
    <xsl:choose>
       <xsl:when test="$erscheinungsdatum!='' or $typ!='' or $auffuehrung!=''">
          <xsl:text> {[}</xsl:text>
@@ -371,7 +369,7 @@
       <xsl:if test="$typ!=''">
          <xsl:text>, </xsl:text>
       </xsl:if>
-      <xsl:value-of select="normalize-space($erscheinungsdatum)"/>
+      <xsl:value-of select="normalize-space(foo:date-translate($erscheinungsdatum))"/>
    </xsl:if>
    <xsl:if test="$auffuehrung!=''">
       <xsl:if test="$typ!='' or $erscheinungsdatum!=''">
@@ -791,7 +789,8 @@
           </xsl:choose> 
        </xsl:when>
        <xsl:otherwise>
-          <xsl:text>\\{}</xsl:text>
+          
+       <!--   <xsl:text>\\{}</xsl:text>-->
           <xsl:value-of select="replace(replace(tokenize($titel,' ')[$position],'\[','{[}'),'\]','{]}')"/>
           <xsl:choose>
              <xsl:when test="not(tokenize($titel,' ')[$position] = tokenize($titel,' ')[last()])">
@@ -802,6 +801,8 @@
        </xsl:otherwise>
     </xsl:choose>  
    </xsl:function>
+   
+   
    
    
    <xsl:function name="foo:sectionInToc">
@@ -819,18 +820,21 @@
          <xsl:when test="contains($datum,'nach dem') and string-length($titelminusdatum) &lt;= 44">
             <xsl:value-of select="replace(replace($titelminusdatum,'\[','{[}'),'\]','{]}')"/>
             <xsl:text> {[}nach dem</xsl:text>
-            <xsl:text>\\{}</xsl:text>
+            <xsl:text> {}</xsl:text>
+            <!--<xsl:text>\\{}</xsl:text>-->
             <xsl:value-of select="foo:date-translate(substring-after($datum, 'nach dem '))"/>
          </xsl:when>
          <xsl:when test="contains($datum, 'zwischen') and string-length($titelminusdatum) &lt;= 44">
             <xsl:value-of select="replace(replace($titelminusdatum,'\[','{[}'),'\]','{]}')"/>
             <xsl:text> {[}zwischen</xsl:text>
-            <xsl:text>\\{}</xsl:text>
+            <xsl:text> {}</xsl:text>
+            <!--<xsl:text>\\{}</xsl:text>-->
             <xsl:value-of select="foo:date-translate(substring-after($datum, 'zwischen '))"/>
          </xsl:when>
          <xsl:when test="string-length($titel) - string-length($datum) &lt;= 55">
             <xsl:value-of select="replace(replace($titelminusdatum,'\[','{[}'),'\]','{]}')"/>
-            <xsl:text>\\{}</xsl:text>
+            <xsl:text> {}</xsl:text>
+           <!-- <xsl:text>\\{}</xsl:text>-->
             <xsl:value-of select="foo:date-translate($datum)"/>
          </xsl:when>
          <xsl:otherwise>
@@ -859,7 +863,7 @@
       <xsl:text>\mylabel{</xsl:text>
       <xsl:value-of select="concat(@xml:id,'h')"/>
       <xsl:text>}</xsl:text>
-      <xsl:text>\sffamily\footnotesize{}\vspace{0.4em}</xsl:text>
+      <xsl:text>\footnotesize{}\vspace{0.4em}</xsl:text>
       <xsl:choose>
          <xsl:when test="descendant::revisionDesc[@status='proposed']">
             <xsl:text>\begin{mdframed}\begin{anhang}</xsl:text>
@@ -883,356 +887,186 @@
                     as="xs:string"
                     select="substring(preceding-sibling::TEI[1]/@when,1,4)"/>
       <xsl:if test="substring(@when,1,4) != $jahr-davor">
-         <xsl:text>\addchap{</xsl:text>
+         <xsl:text>\leavevmode\addchap{</xsl:text>
          <xsl:value-of select="substring(@when,1,4)"/>
-         <xsl:text>}
-      </xsl:text>
-      </xsl:if>
+         <xsl:text>}</xsl:text>
+     </xsl:if>
       <xsl:choose>
          <xsl:when test="starts-with(@xml:id,'E')">
-            <xsl:text>\addchap{</xsl:text>
+            <xsl:text>\leavevmode\addchap{</xsl:text>
             <xsl:value-of select="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level='a']"/>
             <xsl:text>}</xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <xsl:choose>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Kalendereintrag von Bahr, 14. 5. 1902'">
-                  <xsl:text>{\pagebreak}</xsl:text>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Beer-Hofmann, 11. 3. 1892'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 1[3]. 7. 1903'">
-                  <xsl:text>{\pagebreak}</xsl:text>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 2. 10. 1893'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] =''">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 11. 10. 1900'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, [14. 3.? 1901]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 1. 4. 1902'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Das Märchen, 2. 12. 1893'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 6. 10. 1929'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichung von Bahr, 25. 2. 1927'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 11. 9. 1931'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 23. 11. 1891'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler: [Privataufführung, Besetzungsliste], [18. 10. 1892?]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 18. 2. 1894'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 6. 2. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: [Vortrag bei Literaturfreunden, Notizen], [vor dem 13. 3. 1895]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Hofmannsthal, 27. 3. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Marie Reinhard, 25. 6. 1897'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 10. 12. 1898'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Freiwild, 29. 1. 1905'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Artur Schnitzler. Nachruf, 25. 10. 1931'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 2. 12. 1893'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, [vor dem 21. 6. 1897]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Hofmannsthal an Schnitzler, [18. 2. 1893?]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Sandrock an Bahr, 29. 12. 1893'">
+                  <xsl:text>{\leavevmode\pagebreak}</xsl:text>
                </xsl:when>
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Anna Krieger: [Schnellfotografie, Besitz Schnitzler], [1. 4. 1894?]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
+                  <xsl:text>{\leavevmode\pagebreak}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 17. 7. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 4. 9. 1896'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Hofmannsthal an Schnitzler, [21. 4. 1893]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 25. 12. 1897'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 15. 10. 1905'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 29. 1. 1906'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 26. 4. 1907'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="contains(teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'], 'Buchversandliste Stimmen des Bluts')">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 10. 4. 1907'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 4. 5. 1906'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler u. a. an Bahr, 14. 12. 1903'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 13. 8. 1906'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 5. 2. 1908'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 16. 12. 1907'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 6. 11. 1910'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 5. 4. 1911'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 19. 9. 1911'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 14. 12. 1911'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 14. 1. 1912'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 19. 7. 1913'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 16. 3. 1916'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 26. 5. 1917'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 18. 4. 1916'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 20. 10. 1918'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an S. Fischer, 11. 3. 1922'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 11. 12. 1909'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 5. 11. 1918'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 23. 11. 1921'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Selbstbildnis, Juli 1923'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Max Reinhardt, 24. 12. 1909'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 21. 2. 1892'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 20. 1. 1893'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann und Schnitzler an Hofmannsthal, [5. 6. 1894]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 29. 1. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 11. 11. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 2. 12. 1893'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 6. [5. 1892]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 20. 8. 1892'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 4. 10. 1895'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, [10. 10. 1895]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 8. 7. 1897'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Salten an Schnitzler, 8. 8. 1892'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Hofmannsthal an Bahr, 23. 7. 1900'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] =''">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Reicher an Bahr, 15. 12. 1891'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 21. 2. 1892'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, [20. 4. 1894]'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Beer-Hofmann, 20. 10. 1894'">
-                  <xsl:text>{\pagebreak}</xsl:text>
-               </xsl:when>
-               
-            </xsl:choose>
-            <xsl:choose>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 5. 6. 1905'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr, Bauer, David, Hirschfeld, Salten, Speidel: Erklärung, 14. 9. 1900'">
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Sandrock, [16. 12. 1894]'">
                   <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 10.–12. 9. 1901'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 7. 2. 1895'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 4. 11. 1901'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Leopold Hipp an Schnitzler, 28. 6. 1902'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, [30. 3. 1903]'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann an Bahr, 1. 8. 1904'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann an Schnitzler, [Mitte August 1905]'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Hofmannsthal an Bahr, 23. 7. 1900'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Erotisch, 22. 6. 1901'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bukovics an Bahr, 29. [6.?] 1902'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Tagebuch. 1. Januar [1921], 16. 1. 1921'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 8. 9. 1895'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 5. 2. [1896]'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 6. 3. 1899'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 9. 3. 1899'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 7. 8. 1904'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann an Schnitzler, Mitte August 1905'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 19. 7. 1903'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: [Notizen zur Lektüre von Hofmannsthals Das gerettete Venedig?], [2.–3. 9. 1904?]'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 25. 9. 1904'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 25. 12. 1904'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 10. 1. 1907'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 13. 11. 1903'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 10. 2. 1906'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Felix Salten, 18. 1. 1907'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 16. [1.] 1909'">
-                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 18. 12. 1907'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Moritz Johann Winter: [Fotografie von Mildenburg, aus Schnitzlers Besitz], [März 1909?]'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Brahm an Bahr, 10. 7. 1909'">
-                  <xsl:text>\enlargethispage{-2\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Brahm an Schnitzler, 16. 12. 1909'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 20. 12. 1921'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Scofield Thayer an Schnitzler, 9. 7. 1922'">
-                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 15. 4. 1913'">
-                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
-               </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Beer-Hofmann an Hofmannsthal, 10. 6. 1894'">
                   <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
-               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Lili Schnitzler im Fotoalbum des Ehepaars Bahr'">
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 14. 3. 1896'">
+               <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+            </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 21. 8. 1896'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 5. 11. 1896'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='C. Karlweis an Schnitzler, [18. 2. 1897]'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 12. 11. [1897]'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: [Aufzeichnung zur 2. Lesung im Bösendorfer-Saal], [Mitte November? 1897]'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 16. 9. [1898]'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 1. 12. 1898'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <!-- 1900 in der Erklärung -->
+               <!-- 1900 Im Schleier -->
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: [Feuilletonentwurf zu Episode], [Anfang Februar 1901?]'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Ein Ehrenbeleidigungsproceß, Neues Wiener Tagblatt, 23. 2. 1901'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, [13. 3.? 1901]'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 5. 7. 1901'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 18. 10. 1901'">
+                  <xsl:text>\enlargethispage{3\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 3. 1. 1902'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Lebendige Stunden, 7. 5. 1902'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 15. 3. 1903'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Eduard Pötzl an Bahr, 17. 3. 1903'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 17. 3. 1903'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Alfred Deutsch-German: Wiener Porträts. XLVI. Hermann Bahr, 5. 4. 1903'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Josef Redlich, 3. 11. 1903'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Hermann Bahr beim Ministerpräsidenten, 5. 11. 1903'">
+                  <xsl:text>\enlargethispage{-2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Siegfried Trebitsch, 26. 1. 1904'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, 28. 8. 1904'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 4. [12.] 1904'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Der Puppenspieler, 13. 12. 1904'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Schnitzler an Bahr, 3. 10. 1905'">
+                 <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+              </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: Zwischenspiel, 13. 10. 1905'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+              <!-- <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Moritz Johann Winter: [Fotografie von Mildenburg, aus Schnitzlers Besitz], [März 1909?]'">
+                  <xsl:text>{\leavevmode\pagebreak}</xsl:text>
+               </xsl:when>-->
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr an Schnitzler, 15. 9. 1909'">
+                  <xsl:text>{\leavevmode\pagebreak}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Brahm an Bahr, 15. 4. 1910'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Aufzeichnung von Bahr, [26. 4.] 1912'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 12. 6. 1912'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr: [Buchversandliste Inventur], [Anfang September 1912]'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 18. 9. 1918'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Arthur an Olga Schnitzler, 19. 9. 1919'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Olga an Arthur Schnitzler, 20. 9. 1919'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Arthur an Olga Schnitzler, 26. 6. 1922'">
+                  <xsl:text>\enlargethispage{\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Scofield Thayer an Bahr, 7. 11. 1922'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Arthur an Olga Schnitzler, 3. 1. 1923'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Arthur an Olga Schnitzler, 9. 10. 1923'">
+                  <xsl:text>\enlargethispage{-\baselineskip}</xsl:text>
+               </xsl:when>
+               <!-- Eins im Text Arthur an Olga Schnitzler, 9. 10. 1923 -->
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Tagebuch von Schnitzler, 6. 10. 1929'">
+                  <xsl:text>{\leavevmode\pagebreak}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Olga Schnitzler an Bahr-Mildenburg, 24. 3. 1936'">
+                  <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
+               </xsl:when>
+               <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr-Mildenburg an Olga Schnitzler, 7. 4. 1936'">
                   <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
                
             </xsl:choose>
-            <xsl:text>
-       \section[</xsl:text>
-            <xsl:value-of select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level='a'],0, count(contains(teiHeader/fileDesc/titleStmt/title[@level='a'],',')))"/>
-        <xsl:text>]{</xsl:text>
+            <xsl:text>\section{</xsl:text>
             <xsl:value-of select="substring-before(teiHeader/fileDesc/titleStmt/title[@level='a'],tokenize(teiHeader/fileDesc/titleStmt/title[@level='a'],',')[last()])"/>
             <xsl:value-of select="foo:date-translate(tokenize(teiHeader/fileDesc/titleStmt/title[@level='a'],',')[last()])"/>
       <xsl:if test="@short='true()'">
          <xsl:text>\kuerzung{}</xsl:text>
       </xsl:if>
-      <xsl:text>}</xsl:text></xsl:otherwise></xsl:choose>
-      <xsl:text>\mylabel{</xsl:text>
+      <xsl:text>}</xsl:text>
+         </xsl:otherwise>
+      </xsl:choose>
+      <xsl:text>\nopagebreak\mylabel{</xsl:text>
       <xsl:value-of select="concat(@xml:id,'v')"/>
       <xsl:text>}</xsl:text>
       <xsl:if test="not(starts-with(@xml:id, 'E'))">
@@ -1242,7 +1076,8 @@
       <xsl:apply-templates select="text"/>
       <xsl:text>\mylabel{</xsl:text>
       <xsl:value-of select="concat(@xml:id,'h')"/>
-      <xsl:text>}\leavevmode{}</xsl:text>
+      <xsl:text>}</xsl:text>
+      <!-- <xsl:text>\leavevmode{}</xsl:text>-->
       <xsl:choose>
          <xsl:when test="descendant::revisionDesc[@status='proposed']">
             <xsl:text>\begin{mdframed}\begin{anhang}</xsl:text>
@@ -1316,24 +1151,19 @@
       </xsl:if>
    </xsl:function>
    
-   <xsl:function name="foo:briefsender-in-personenindex-rekursiv">
-      <xsl:param name="sender" as="node()"/>
-      <xsl:param name="sender-nummer" as="xs:integer"/>
+   <xsl:function name="foo:sender-empfaenger-in-personenindex-rekursiv">
+      <xsl:param name="sender-empfaenger" as="node()"/>
       <xsl:param name="sender-nichtempfaenger" as="xs:boolean"/>
-      <xsl:param name="vorne" as="xs:boolean"/>
-      <xsl:param name="einszweidrei" as="xs:string"/>
-      <xsl:variable name="first" as="xs:string" select="$sender/persName[$sender-nummer]/@key"/>
-      <xsl:value-of select="foo:briefsender-in-personenindex($first, $sender-nichtempfaenger, $vorne, $einszweidrei)"/>
-      <xsl:if test="$sender/persName[$sender-nummer +1]/@key">
-         <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv($sender, $sender-nummer +1, $sender-nichtempfaenger, $vorne, $einszweidrei)"/>
+      <xsl:param name="nummer" as="xs:integer"/>
+      <xsl:value-of select="foo:sender-empfaenger-in-personenindex($sender-empfaenger/persName[$nummer]/@key, $sender-nichtempfaenger)"/>
+      <xsl:if test="$nummer &gt; 1">
+         <xsl:value-of select="foo:sender-empfaenger-in-personenindex-rekursiv($sender-empfaenger, $sender-nichtempfaenger, $nummer -1)"/>
       </xsl:if>
    </xsl:function>
 
-      <xsl:function name="foo:briefsender-in-personenindex">
+      <xsl:function name="foo:sender-empfaenger-in-personenindex">
       <xsl:param name="sender-key" as="xs:string"/>
       <xsl:param name="sender-nichtempfaenger" as="xs:boolean"/>
-      <xsl:param name="vorne" as="xs:boolean"/>
-      <xsl:param name="einszweidrei" as="xs:string"/>
       <xsl:choose><!-- Briefsender fett in den Personenindex -->
          <xsl:when test="not($sender-key = 'A002002' or $sender-key ='A002001')"><!-- Schnitzler und Bahr nicht -->
             <xsl:text>\pwindex{</xsl:text>
@@ -1341,53 +1171,11 @@
             <xsl:choose>
                <xsl:when test="$sender-nichtempfaenger = true()">
                   <xsl:text>|pws</xsl:text>
-                 <!-- <xsl:choose>
-                     <xsl:when test="$einszweidrei = 'eins'">
-                        <xsl:text>|pws</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'zwei'">
-                        <xsl:text>|pwss</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'drei'">
-                        <xsl:text>|pwsss</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'vier'">
-                        <xsl:text>|pwssss</xsl:text>
-                     </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:text>|pwsssss</xsl:text>
-                     </xsl:otherwise>
-                  </xsl:choose>-->
                </xsl:when>
                <xsl:when test="$sender-nichtempfaenger = false()">
                   <xsl:text>|pwe</xsl:text>
-                  <!--<xsl:choose>
-                     <xsl:when test="$einszweidrei = 'eins'">
-                        <xsl:text>|pwe</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'zwei'">
-                        <xsl:text>|pwee</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'drei'">
-                        <xsl:text>|pweee</xsl:text>
-                     </xsl:when>
-                     <xsl:when test="$einszweidrei = 'vier'">
-                        <xsl:text>|pweeee</xsl:text>
-                     </xsl:when>
-                     <xsl:otherwise>
-                        <xsl:text>|pweeeee</xsl:text>
-                     </xsl:otherwise>
-                  </xsl:choose>-->
                </xsl:when>
             </xsl:choose>
-           <!-- <xsl:choose>
-               <xsl:when test="$vorne">
-                  <xsl:text>(</xsl:text>
-               </xsl:when>
-               <xsl:otherwise>
-                  <xsl:text>)</xsl:text>
-               </xsl:otherwise>
-            </xsl:choose>-->
             <xsl:text>}</xsl:text>
          </xsl:when>
       </xsl:choose>
@@ -1455,7 +1243,16 @@
       <xsl:text>!zzz</xsl:text>
      <xsl:value-of select="foo:umlaute-entfernen(concat(normalize-space(key('person-lookup', $sender-key, $persons)/Nachname), ', ', normalize-space(key('person-lookup', $sender-key, $persons)/Vorname)))"/>
       <xsl:text>@\emph{von </xsl:text>
-     <xsl:value-of select="concat(normalize-space(key('person-lookup', $sender-key, $persons)/Vorname), ' ', normalize-space(key('person-lookup', $sender-key, $persons)/Nachname))"/>
+           <xsl:choose><!-- Sonderregel für Hofmannsthal sen. -->
+              <xsl:when test="ends-with(key('person-lookup', $sender-key, $persons)/Vorname,' (sen.)')">
+                 <xsl:value-of select="concat(substring-before(normalize-space(key('person-lookup', $sender-key, $persons)/Vorname), ' (sen.)'), ' ', normalize-space(key('person-lookup', $sender-key, $persons)/Nachname))"/>
+              <xsl:text> (sen.)</xsl:text>
+              </xsl:when>
+              <xsl:otherwise>
+                 <xsl:value-of select="concat(normalize-space(key('person-lookup', $sender-key, $persons)/Vorname), ' ', normalize-space(key('person-lookup', $sender-key, $persons)/Nachname))"/>
+              </xsl:otherwise>
+           </xsl:choose>
+           
       <xsl:text>}</xsl:text>
             <!--Das hier würde das Datum der Korrespondenzstücke der Briefempfänger einfügen. Momentan nur der Name-->
       <xsl:text>!</xsl:text> 
@@ -1554,9 +1351,9 @@
       <xsl:if test="preceding-sibling::p">
          <xsl:text> </xsl:text>
       </xsl:if>
-      <xsl:text>\sffamily{}</xsl:text>
+      <xsl:text></xsl:text>
       <xsl:for-each select="current()">
-         <xsl:text>\emph{Stempel </xsl:text>
+         <xsl:text>\emph{Stempel~</xsl:text>
          <xsl:value-of select="@n"/>
          <xsl:text>:} »</xsl:text>
          <xsl:apply-templates/>
@@ -1568,7 +1365,7 @@
       <xsl:if test="preceding-sibling::p">
          <xsl:text> </xsl:text>
       </xsl:if>
-      <xsl:text>\sffamily{}</xsl:text>
+      <xsl:text></xsl:text>
       <xsl:choose>
          <xsl:when test="@n &gt; 1">
             <xsl:text>\emph{Stempel </xsl:text>
@@ -1599,7 +1396,11 @@
            <xsl:when test="self::date and not(child::*)">
               <xsl:value-of select="foo:date-translate(.)"/>
            </xsl:when>
-           <xsl:otherwise><xsl:apply-templates/></xsl:otherwise>
+           <xsl:otherwise>
+              <xsl:text>\mbox{</xsl:text>
+              <xsl:apply-templates/>
+              <xsl:text>}</xsl:text>
+           </xsl:otherwise>
         </xsl:choose>
          <xsl:choose>
             <xsl:when test="position() = last()">
@@ -1699,7 +1500,7 @@
          <xsl:when test="@status='approved'"/>
          <xsl:when test="@status='candidate'"/>
          <xsl:otherwise>
-            <xsl:text>\sffamily\small{}</xsl:text>
+            <xsl:text>\small{}</xsl:text>
             <xsl:text>\subsection*{\textcolor{red}{Status: Angelegt}}</xsl:text>
             <xsl:if test="child::change">
                <xsl:apply-templates/>
@@ -1742,7 +1543,7 @@
             <xsl:apply-templates/>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:value-of select="foo:date-translate(.)"/>
+            <xsl:value-of select="foo:date-translate(normalize-space(.))"/>
          </xsl:otherwise>
       </xsl:choose> 
    </xsl:template>
@@ -1884,7 +1685,7 @@
              <xsl:when test="string-length($monogr/imprint/date/@when) = 4">
                 <xsl:text> (</xsl:text>
                 <xsl:value-of select="$monogr/imprint/date"/>
-                <xsl:text>) </xsl:text>
+                <xsl:text>) </xsl:text><!-- XXXX Hier Fehler, Leerzeichen weg. Ich tu's aber nicht, damit Druck nicht einen anderen Fehler hat, den ich jetzt am Schluss nicht finde -->
                 <xsl:if test="$monogr//biblScope[@unit='nr']">
                    <xsl:text> Nr. </xsl:text>
                    <xsl:value-of select="$monogr//biblScope[@unit='nr']"/>
@@ -2015,10 +1816,15 @@
      <!--  <xsl:param name="vor-dem-at" as="xs:boolean"/> <!-\- Der Parameter ist gesetzt, wenn auch der Sortierungsinhalt vor dem @ ausgegeben werden soll -\->
        <xsl:param name="quelle-oder-literaturliste" as="xs:boolean"/> <!-\- Ists Quelle, kommt der Titel kursiv und der Autor Vorname Nachname -\->-->
        <xsl:variable name="analytic" as="node()" select="$gedruckte-quellen/analytic"/>
-                   <xsl:if test="$analytic/author[1]">
-                      <xsl:value-of select="foo:autor-rekursion($analytic, count($analytic/author), count($analytic/author), false(), true())"/>
-                      <xsl:text>: </xsl:text>
-                   </xsl:if>
+       <xsl:choose>
+          <xsl:when test="$analytic/author[1]/@key='A002003'">
+             <xsl:text>{[}O. V.:{]} </xsl:text>
+          </xsl:when>
+          <xsl:when test="$analytic/author[1]">
+             <xsl:value-of select="foo:autor-rekursion($analytic, count($analytic/author), count($analytic/author), false(), true())"/>
+             <xsl:text>: </xsl:text>
+          </xsl:when>
+       </xsl:choose>
        <xsl:choose>
           <xsl:when test="not($analytic/title/@type='j')">
             <xsl:text>\emph{</xsl:text>
@@ -2294,16 +2100,16 @@
             <xsl:text>, S. </xsl:text>
             <xsl:value-of select="$biblstruct/monogr//biblScope[@unit='pp']"/>
          </xsl:if>
+      <xsl:if test="not(empty($biblstruct/series))">
+         <xsl:text> (</xsl:text>
+         <xsl:value-of select="$biblstruct/series/title"/>
+         <xsl:if test="$biblstruct/series/biblScope">
+            <xsl:text>, </xsl:text>
+            <xsl:value-of select="$biblstruct/series/biblScope"/>
+         </xsl:if>
+         <xsl:text>)</xsl:text>
+      </xsl:if>   
       <xsl:text>.</xsl:text>
-         <xsl:if test="not(empty($biblstruct/series))">
-            <xsl:text> (</xsl:text>
-            <xsl:value-of select="$biblstruct/series/title"/>
-            <xsl:if test="$biblstruct/series/biblScope">
-               <xsl:text>, </xsl:text>
-               <xsl:value-of select="$biblstruct/series/biblScope"/>
-            </xsl:if>
-            <xsl:text>)</xsl:text>
-         </xsl:if>   
    </xsl:function>
   
   <xsl:function name="foo:mehrere-witnesse">
@@ -2365,7 +2171,7 @@
             <xsl:text>D </xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>— </xsl:text>
+            <xsl:text>– </xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:text>}</xsl:text>
@@ -2410,6 +2216,8 @@
       </xsl:choose>
       <xsl:text>\newline{}</xsl:text>
    </xsl:function>
+   
+   
   
   
   <!-- eigentlicher Fließtext START -->
@@ -2426,56 +2234,19 @@
          select="ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']"/>
       <xsl:variable name="titel-ohne-datum" as="xs:string" select="substring-before($titel, tokenize($titel,',')[last()])"/>
       <xsl:variable name="datum" as="xs:string" select="substring(substring-after($titel, tokenize($titel,',')[last() -1]),2)"/>
-      <xsl:variable name="correspdesc-sender-vorher" select="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/correspDesc/sender/persName/@key"/>
-      <xsl:variable name="correspdesc-empf-vorher" select="ancestor::TEI/preceding-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/correspDesc/addressee/persName/@key"/>
-      <xsl:variable name="correspdesc-sender-nachher" select="ancestor::TEI/following-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/correspDesc/sender/persName/@key"/>
-      <xsl:variable name="correspdesc-empf-nachher" select="ancestor::TEI/following-sibling::TEI[1]/teiHeader/fileDesc/sourceDesc/correspDesc/addressee/persName/@key"/>
       <!-- Hier komplett abgedruckte Texte fett in den Index -->
       <xsl:if test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 'A0')">
          <xsl:value-of select="foo:abgedruckte-workNameRoutine(substring(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 1, 7), substring-after(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, ' '), true())"/>
       </xsl:if>
       <!-- Hier Briefe bei den Personen in den Personenindex -->
-      <!-- Ein wenig gefizzelt ist, wenn der vorherige Brief schon von der gleichen Person war -->
-      <xsl:if test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc">
-               <xsl:choose>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 0">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), true(), 'eins')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 1">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), true(), 'zwei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 2">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), true(), 'drei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 3">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), true(), 'vier')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 4">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), true(), 'fünf')"/>
-                  </xsl:when>
-               </xsl:choose>
-                  <xsl:choose>
-                     <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 0">
-                        <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), true(), 'eins')"/>
-                     </xsl:when>
-                     <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 1">
-                        <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), true(), 'zwei')"/>
-                     </xsl:when>
-                     <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 2">
-                        <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), true(), 'drei')"/>
-                     </xsl:when>
-                     <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 3">
-                        <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), true(), 'vier')"/>
-                     </xsl:when>
-                     <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 4">
-                        <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), true(), 'fünf')"/>
-                     </xsl:when>
-                  </xsl:choose>
+      <xsl:if test="ancestor::TEI[starts-with(@xml:id, 'L')]">
+         <xsl:value-of select="foo:sender-empfaenger-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, true(), count(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender/persName))"/>
+         <xsl:value-of select="foo:sender-empfaenger-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, false(), count(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee/persName))"/>
       </xsl:if>
       <xsl:variable name="language" select="substring(ancestor::TEI//profileDesc/langUsage/language/@ident, 1, 2)"/>
       <xsl:choose>
          <xsl:when test="$language = 'en'">
-            <xsl:text>\selectlanguage{english}</xsl:text>
+            <xsl:text>\selectlanguage{english}\frenchspacing </xsl:text>
          </xsl:when>
          <xsl:when test="$language = 'fr'">
             <xsl:text>\selectlanguage{french}</xsl:text>
@@ -2538,6 +2309,9 @@
       <xsl:value-of select="foo:date-translate($datum)"/>
       <xsl:text>\nopagebreak}</xsl:text>
       <!-- Wenn es Adressen gibt, diese in die Endnote -->
+      <xsl:text>\datumImAnhang{</xsl:text>
+      <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
+      <xsl:text>}</xsl:text>
       <xsl:choose>
          <xsl:when test="div[@type='address']/address">
             <xsl:text>\Adresse{</xsl:text>
@@ -2572,11 +2346,10 @@
             <xsl:text>}</xsl:text>
          </xsl:when>
       </xsl:choose>     
+      
       <!--       Zuerst mal die Archivsignaturen  
 -->      <xsl:if test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/listWit"> 
-         <xsl:text>\datumImAnhang{</xsl:text>
-         <xsl:value-of select="foo:monatUndJahrInKopfzeile(ancestor::TEI/@when)"/>
-         <xsl:text>}</xsl:text>
+        
          <xsl:choose>
             <xsl:when test="count($quellen/listWit/witness) = 1">
                <xsl:apply-templates select="$quellen/listWit/witness[1]"/>
@@ -2622,44 +2395,6 @@
             <xsl:text>\selectlanguage{ngerman}</xsl:text>
          </xsl:when>
       </xsl:choose>
-   <!--   <!-\- Hier Briefe bei den Personen in den Personenindex -\->
-      <!-\- Ein wenig gefizzelt ist, weil xindy probleme mit aneinanderstoßenden ranges hat -\->
-      <xsl:if test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc">
-               <xsl:choose>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 0">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), false(), 'eins')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 1">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), false(), 'zwei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 2">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), false(), 'drei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 3">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), false(), 'vier')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 4">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, 1, true(), false(), 'fünf')"/>
-                  </xsl:when>
-               </xsl:choose>
-               <xsl:choose>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 0">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), false(), 'eins')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 1">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), false(), 'zwei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 2">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), false(), 'drei')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 3">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), false(), 'vier')"/>
-                  </xsl:when>
-                  <xsl:when test="count(ancestor::TEI/preceding-sibling::TEI) mod 5 = 4">
-                     <xsl:value-of select="foo:briefsender-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, 1, false(), false(), 'fünf')"/>
-                  </xsl:when>
-               </xsl:choose>
-      </xsl:if>   -->   
       <xsl:if test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 'A0')">
          <xsl:value-of select="foo:abgedruckte-workNameRoutine(substring(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 1, 7), substring-after(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, ' '), false())"/>
       </xsl:if>
@@ -2674,6 +2409,7 @@
       </xsl:if>
    </xsl:template>
   
+ 
   
   <!-- Das ist speziell für die Behandlung von Bildern, der eigentliche body für alles andere kommt danach -->
   
@@ -2699,8 +2435,7 @@
         <xsl:value-of select="foo:abgedruckte-workNameRoutine(substring(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 1, 7), substring-after(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, ' '), true())"/>
      </xsl:if>
      <xsl:text>\normalsize
-        \beginnumbering
-        \pstart\ </xsl:text>
+        \beginnumbering\nopagebreak </xsl:text>
      <xsl:if test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc">
         <xsl:choose><!-- Zuerst die Briefe Schnitzlers an Bahr für die Konkordanz herausfiltern -->
            <xsl:when test="ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender/persName/@key='A002001' and ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee/persName/@key='A002002'">
@@ -2777,10 +2512,10 @@
                </xsl:otherwise>
             </xsl:choose>
          </xsl:if>
-     <xsl:text>\unskip\pend
-        \endnumbering\leavevmode\vspace{-3em} 
-     </xsl:text>
      <xsl:apply-templates/>
+     <xsl:text>
+        \endnumbering
+     </xsl:text>
      <xsl:if test="starts-with(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 'A0')">
         <xsl:value-of select="foo:abgedruckte-workNameRoutine(substring(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, 1, 7), substring-after(ancestor::TEI/teiHeader/fileDesc/titleStmt/title[@level='a']/@key, ' '), false())"/>
      </xsl:if>
@@ -2865,7 +2600,7 @@
      <xsl:choose>
         <xsl:when test="table"/>
         <xsl:when test="closer"/>
-        <xsl:when test="postcript"/>
+        <xsl:when test="postscript"/>
    <!--     <xsl:when test="self::salute">
            <xsl:text>\noindent{}</xsl:text>
         </xsl:when>
@@ -2904,6 +2639,7 @@
      <xsl:if test="@rend">
         <xsl:value-of select="foo:absatz-position-vorne(@rend)"/>
      </xsl:if>
+     
      <xsl:choose>
         <xsl:when test="missing-paragraph">
            <xsl:text><!--\noindent-->{[}{\,\footnotesize\textparagraph\normalsize\,}{]}</xsl:text>
@@ -2913,6 +2649,10 @@
      <xsl:if test="@rend">
         <xsl:value-of select="foo:absatz-position-hinten(@rend)"/>
      </xsl:if>
+      <xsl:if test="ancestor::TEI[starts-with(@xml:id, 'L')]">
+         <xsl:value-of select="foo:sender-empfaenger-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender, true(), count(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/sender/persName))"/>
+         <xsl:value-of select="foo:sender-empfaenger-in-personenindex-rekursiv(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee, false(), count(ancestor::TEI/teiHeader/fileDesc/sourceDesc/correspDesc/addressee/persName))"/>
+      </xsl:if>
       <xsl:choose> <!-- Das hier dient dazu, leere Zeilen, Zeilen mit Trennstrich und weggelassene Absätze (Zeile mit Absatzzeichen in eckiger Klammer) nicht in der Zeilenzählung zu berücksichtigen  -->
          <xsl:when test="string-length(normalize-space(self::*)) = 0 and child::*[1]=space[@unit='chars' and @quantity='1'] and not(child::*[2])">
             <xsl:text>\numberlinetrue{}</xsl:text></xsl:when>
@@ -3276,7 +3016,7 @@
         <xsl:when test="preceding-sibling::*[1][name()='head']"/>
         <xsl:otherwise>
            <xsl:if test="@type='sub'">
-              <xsl:text>\medskip
+              <xsl:text>\medskip  
          </xsl:text>
            </xsl:if> 
         </xsl:otherwise>
@@ -3290,7 +3030,7 @@
      <xsl:choose>
         <xsl:when test="following-sibling::*[1][name()='head']"/>
         <xsl:otherwise>
-           <xsl:text>\medskip
+           <xsl:text>\medskip 
          </xsl:text>
         </xsl:otherwise>
      </xsl:choose>
@@ -3404,6 +3144,63 @@
   <xsl:template match="pb">
       <xsl:text>{\pb}</xsl:text>
   </xsl:template> 
+   
+   <!-- Auslassungszeichen, drei Punkte, mehr Punkte -->
+   <xsl:template match="c[@rendition='#dots']">
+     <!-- <xsl:choose>-->
+        <!-- <xsl:when test="@place='center'">-->
+            <xsl:choose>
+               <xsl:when test="@n='3'">
+                  <xsl:text>{\dots}</xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='4'">
+                  <xsl:text>{\dotsfour}</xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='5'">
+                  <xsl:text>{\dotsfive}</xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='6'">
+                  <xsl:text>{\dotssix}</xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='7'">
+                  <xsl:text>{\dotsseven}</xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='2'">
+                  <xsl:text>{\dotstwo}</xsl:text>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:text>\textcolor{red}{XXXX Punkte Fehler!!!}</xsl:text>
+               </xsl:otherwise>
+            </xsl:choose>
+         <!--</xsl:when>-->
+         <!--<xsl:otherwise>
+            <xsl:choose>
+               <xsl:when test="@n='3'">
+                  <xsl:text>\dots </xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='4'">
+                  <xsl:text>\dotsfour </xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='5'">
+                  <xsl:text>\dotsfive </xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='6'">
+                  <xsl:text>\dotssix </xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='7'">
+                  <xsl:text>\dotsseven </xsl:text>
+               </xsl:when>
+               <xsl:when test="@n='2'">
+                  <xsl:text>\dotstwo </xsl:text>
+               </xsl:when>
+               <xsl:otherwise>
+                  <xsl:text>\textcolor{red}{XXXX Punkte Fehler!!!}</xsl:text>
+               </xsl:otherwise>
+            </xsl:choose>
+         </xsl:otherwise>
+      </xsl:choose>-->
+   </xsl:template>
+    
     
   <!-- Kaufmanns-Und & -->
   <xsl:template match="c[@rendition='#kaufmannsund']">
@@ -3412,7 +3209,7 @@
   
   <!-- Prozentzeichen % -->
   <xsl:template match="c[@rendition='#prozent']">
-      <xsl:text>{\%}</xsl:text>
+      <xsl:text>{\,\%}</xsl:text>
   </xsl:template>
   
   <!-- Dollarzeichen $ -->
@@ -3475,7 +3272,7 @@
                </xsl:choose>
                <xsl:text>fach unterstrichen.</xsl:text>
                <xsl:text>}}}</xsl:text>
-               <xsl:text>}\rmfamily{}</xsl:text>
+               <xsl:text>}</xsl:text>
             </xsl:if>
          </xsl:otherwise>
     
@@ -3504,7 +3301,7 @@
   
   <!-- Unleserlich, unsicher Entziffertes -->
   <xsl:template match="unclear">
-      <xsl:text>\textcolor{Gray}{</xsl:text>
+      <xsl:text>\textcolor{gray}{</xsl:text>
       <xsl:apply-templates/>
       <xsl:text>}</xsl:text>
   </xsl:template>
@@ -3527,17 +3324,17 @@
   </xsl:function>
   
   <xsl:template match="gap[@unit='chars' and @reason='illegible']">
-     <xsl:text>\sffamily\textcolor{Gray}{</xsl:text>
+     <xsl:text>\textcolor{gray}{</xsl:text>
       <xsl:value-of select="foo:gapigap(@quantity)"/>
-     <xsl:text>}\rmfamily{}</xsl:text>
+     <xsl:text>}</xsl:text>
   </xsl:template>
   
   <xsl:template match="gap[@reason='outOfScope']">
-      <xsl:text>[\ldots]</xsl:text>
+      <xsl:text>{[}\dots{]}</xsl:text>
   </xsl:template>
   
   <xsl:template match="gap[@reason='gabelsberger']">
-      <xsl:text>\sffamily\textcolor{BurntOrange}{[Gabelsberger]}\rmfamily{}</xsl:text>
+      <xsl:text>\textcolor{BurntOrange}{[Gabelsberger]}</xsl:text>
   </xsl:template>
   
 
@@ -3634,7 +3431,7 @@
   <xsl:template match="handShift[not(@scribe)]">
       <xsl:choose>
          <xsl:when test="@medium='typewriter'">
-            <xsl:text>[ms.:] </xsl:text>
+            <xsl:text>{[}ms.:{]} </xsl:text>
          </xsl:when>
          <xsl:otherwise>
             <xsl:text>{[}hs.:{]} </xsl:text>
@@ -3644,7 +3441,16 @@
   
    <xsl:template match="handShift[@scribe]">
       <xsl:text>{[}hs. </xsl:text>
-      <xsl:choose><!-- Sonderregeln wenn Gerty und Olga im gleichen Brief vorkommen wie Schnitzler und Hofmannsthal -->
+      <xsl:choose><!-- Sonderregel für Gerty Schlesinger -->
+         <xsl:when test="@scribe='A002134' and ancestor::TEI/teiHeader[1]/fileDesc[1]/sourceDesc[1]/correspDesc[1]/dateSender[1]/date[1][starts-with(@when, '18')]">
+            <xsl:text>G. Schlesinger</xsl:text>
+         </xsl:when>
+         <xsl:when test="@scribe='A003025'">
+            <xsl:text>Georg von Franckenstein</xsl:text>
+         </xsl:when>
+         <xsl:otherwise>
+           <xsl:choose>
+         <!-- Sonderregeln wenn Gerty und Olga im gleichen Brief vorkommen wie Schnitzler und Hofmannsthal -->
          <xsl:when test="@scribe='A002038' and ancestor::TEI/teiHeader[1]/fileDesc[1]/titleStmt[1]/author/@key='A002001'">
             <xsl:value-of select="substring(normalize-space(key('person-lookup', @scribe, $persons)/Vorname), 1, 1)"/>
             <xsl:text>. </xsl:text>
@@ -3663,10 +3469,13 @@
          </xsl:when>
       </xsl:choose>
       <xsl:value-of select="normalize-space(key('person-lookup', @scribe, $persons)/Nachname)"/>
+      
       <!-- Sonderregel für Hofmannsthal senior -->
       <xsl:if test="@scribe='A002139'">
          <xsl:text> (sen.)</xsl:text>
       </xsl:if>
+         </xsl:otherwise>
+      </xsl:choose>
       <xsl:text>:{]}\normalsize{} </xsl:text>
     <!--  <xsl:if test="ancestor::TEI/teiHeader/fileDesc/titleStmt/author/@key != @scribe">
       <xsl:value-of select="foo:person-in-index(@scribe,true())"/>
@@ -3752,9 +3561,9 @@
   </xsl:template>
   
   <xsl:template match="note[@type='introduction']">
-      <xsl:text>\sffamily{}[</xsl:text>
+      <xsl:text>{[}</xsl:text>
       <xsl:apply-templates/>
-      <xsl:text>] \rmfamily{}</xsl:text>
+      <xsl:text>{]} </xsl:text>
   </xsl:template>
     
     <!-- Dieses Template bereitet den Schriftwechsel für griechische Zeichen vor -->
@@ -3812,7 +3621,7 @@
                         <xsl:value-of select="tokenize($lemmatext,' ')[2]"/>
                      </xsl:otherwise>
                   </xsl:choose>
-                  <xsl:text> {\mdseries\ldots} </xsl:text>
+                  <xsl:text> {\mdseries{\dots}} </xsl:text>
                   <xsl:value-of select="tokenize($lemmatext,' ')[last()]"/>
                </xsl:when>
                <xsl:otherwise>
@@ -3875,7 +3684,7 @@
        </xsl:if>
        <xsl:choose>
           <xsl:when test="$first=''">
-             <xsl:text>\sffamily\textcolor{red}{PERSON OFFEN}</xsl:text>
+             <xsl:text>\textcolor{red}{PERSON OFFEN}</xsl:text>
           </xsl:when>
           <xsl:otherwise>
              <xsl:choose>
@@ -4079,7 +3888,7 @@
        <xsl:param name="verweis" as="xs:boolean"/>
        <xsl:choose>
           <xsl:when test="$first=''">
-             <xsl:text>\sffamily\textcolor{red}{WERK OFFEN}</xsl:text>
+             <xsl:text>\textcolor{red}{WERK OFFEN}</xsl:text>
           </xsl:when>
           <xsl:otherwise>
              <xsl:value-of select="foo:werkInEndnote($first, $verweis)"/>
@@ -4128,7 +3937,7 @@
        <xsl:text>|pwk}</xsl:text>
        <xsl:choose>
           <xsl:when test="$first=''">
-             <xsl:text>\sffamily\textcolor{red}{WERK OFFEN}</xsl:text>
+             <xsl:text>\textcolor{red}{WERK OFFEN}</xsl:text>
           </xsl:when>
           <xsl:otherwise>
              <xsl:value-of select="foo:werkOhneAutorInEndnote($first, $verweis)"/>
@@ -4173,6 +3982,11 @@
              <xsl:text>}</xsl:text>
           </xsl:when>
           <xsl:when test="self::workName and not($im-text) and parent::bibl[parent::footNote]"><!-- Sonderfall, wenn eine Fussnote in der quote-Umgebung eine Literaturangabe enthält -->
+             <xsl:text>\emph{</xsl:text>
+             <xsl:apply-templates/>
+             <xsl:text>}</xsl:text>
+          </xsl:when>
+          <xsl:when test="self::workName and not($im-text) and parent::bibl[ancestor::quote]"><!-- Sonderfall, wenn am Ende eines Zitats bibliografische Angabe -->
              <xsl:text>\emph{</xsl:text>
              <xsl:apply-templates/>
              <xsl:text>}</xsl:text>
@@ -4260,7 +4074,7 @@
        </xsl:if>
        <xsl:choose>
           <xsl:when test="$first=''">
-             <xsl:text>\sffamily\textcolor{red}{ORGANISATION OFFEN}</xsl:text>
+             <xsl:text>\textcolor{red}{ORGANISATION OFFEN}</xsl:text>
           </xsl:when>
           <xsl:otherwise>
                 <xsl:if test="$entry[1]/Titel[1]!=''">
@@ -4414,7 +4228,7 @@
        </xsl:if>
        <xsl:choose>
           <xsl:when test="$first=''">
-             <xsl:text>\sffamily\textcolor{red}{ORT OFFEN}</xsl:text>
+             <xsl:text>\textcolor{red}{ORT OFFEN}</xsl:text>
           </xsl:when>
           <xsl:otherwise>
              <xsl:if test="$ort!=''">
@@ -4662,29 +4476,19 @@
       <xsl:when test="ancestor::TEI//teiHeader[1]/fileDesc[1]/publicationStmt[1]/idno[1]/@type='HBAS-E'">
          <xsl:text>\begin{figure}[htbp]</xsl:text>
          <xsl:text>\centering</xsl:text>
-         <xsl:text>\noindent</xsl:text>
          <xsl:apply-templates/>
          <xsl:text>\end{figure}</xsl:text>
       </xsl:when>
       <xsl:otherwise>
-      <!-- Illustrationen werden nur einfach so gesetzt -->
-     <xsl:choose> 
-        <xsl:when test="ancestor::TEI//teiHeader[1]/fileDesc[1]/publicationStmt[1]/idno[1]/@type='HBAS-J'">
-         <xsl:text>\begin{figure}[tb]</xsl:text>
-         <xsl:text>\centering</xsl:text>
-         <xsl:text>\noindent</xsl:text>
+         <xsl:text>\pstart </xsl:text>
          <xsl:apply-templates/>
-         <xsl:text>\end{figure}</xsl:text>
-      </xsl:when>
-      <xsl:otherwise>
-         <xsl:text>\begin{figure}[H]</xsl:text>
-         <xsl:apply-templates/>
-         <xsl:text>\end{figure}</xsl:text>
-      </xsl:otherwise>
-         </xsl:choose>
+         <xsl:text>\pend </xsl:text>
+         <xsl:text>\vspace{\baselineskip}</xsl:text>
       </xsl:otherwise>
    </xsl:choose>
 </xsl:template>
+  
+  
 
 <xsl:template match="caption">
    <!-- Falls es eine Bildunterschrift gibt -->
@@ -4694,7 +4498,7 @@
 </xsl:template>
     
 <xsl:template match="graphic">
-   <xsl:text>\includegraphics</xsl:text>
+   <xsl:text>\makebox[\textwidth]{\includegraphics</xsl:text>
    <xsl:choose>
       <xsl:when test="@width">
          <xsl:text>[width=</xsl:text>
@@ -4713,6 +4517,7 @@
    </xsl:choose>
    <xsl:text>{</xsl:text>
    <xsl:value-of select="substring(@url,3)"/>
+   <xsl:text>}</xsl:text>
    <xsl:text>}</xsl:text>
 </xsl:template>
 

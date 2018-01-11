@@ -18,6 +18,6 @@
   
    <xsl:template match="opener[p/missing-paragraph and child::*[not(p[missing-paragraph])]]"/>
    <xsl:template match="postscript[p/missing-paragraph and not(child::*[not(missing-paragraph)])]"/>
-
+   
     
 </xsl:stylesheet>
