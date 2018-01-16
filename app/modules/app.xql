@@ -374,7 +374,24 @@ function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$s
                     </a></li>
                 </ul>
              </nav>
-    else ()
+    else 
+        (:Startseite:)
+        <nav class="prev-next-pager">
+                <ul class="pagerNew">
+                    <li class="next">
+                    <a id="next" href="view.html?id={app:next-doc-id("D041003",$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <span class="pager-button">&gt;</span>
+                    <span class="pager-title">
+                        {
+                            let $id := app:next-doc-id("D041003",$type)
+                            return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
+                        }
+                    </span>
+                        
+                    </a></li>
+                </ul>
+             </nav>
+        
 };
 
 
@@ -774,7 +791,7 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Zur Edition / Impressum</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                                <a href="#">Zur Ausgabe</a>
+                                                <a href="about.html">Zur Ausgabe</a>
                                             </li>
                                         <li>
                                                 <a href="#">Editionsrichtlinien</a>
