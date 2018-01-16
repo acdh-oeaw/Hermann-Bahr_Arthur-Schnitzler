@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 23. 4. [1904]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="277"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Jahreszahl »904« von A. S. ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Jahreszahl »<quote>
+                                        <date>904</date>
+                                    </quote>« von Schnitzler ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +84,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00206"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -100,14 +107,14 @@
         darf, hoffe den <rs type="person" key="A002083">Jüngling</rs> jedoch bald <anchor type="commentary" xml:id="KL277-2">genesen</anchor> und
         bitte Dich dann um ein Wort, wann ich Dich treffe.</p>
             <closer>Mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-               <lb/>herzlichst<lb/>Dein<lb/>
+                    <lb/>herzlichst<lb/>Dein<lb/>
                     <signed>Hermann</signed>
                 </closer>
             <postscript>
                <p>Über Deinen 
                       <placeName key="A000382">
                             <settlement>Paris</settlement>
-                     </placeName>er <anchor type="commentary" xml:id="KL277-1">
+                        </placeName>er <anchor type="commentary" xml:id="KL277-1">
                             <rs type="work" key="A020093">Riesenerfolg</rs>
                         </anchor>, von dem D<hi rend="superscript">r</hi>
                         <space unit="chars" quantity="1"/>

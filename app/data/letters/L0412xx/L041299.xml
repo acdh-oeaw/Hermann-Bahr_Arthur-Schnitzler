@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, [23. 3. 1906]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="299"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,7 +72,9 @@
                      <physDesc>
                         <p>hs. Telegramm, beschnitten, erkennbar: Aufgabeort <placeName key="A000250">
                                         <settlement>Wien</settlement>
-                                    </placeName>, Uhrzeit: 6 Uhr, von A. S. datiert: »<date>23/3/906</date>«.</p>
+                                    </placeName>, Uhrzeit: <time>6 Uhr</time>, von Schnitzler datiert: »<quote>
+                                        <date>23/3/906</date>
+                                    </quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -84,20 +86,23 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="telegram">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00241"/>
+   </facsimile>
+   <text type="telegram">
       <body>
          <div type="writingSession" n="1">
             <p>
                     <persName key="A002080">Mildenburg</persName>
                     <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL299-1">singt morgen</anchor>. herzlichst</p>
-            <closer>
-                    <signed>Hermann</signed>
-                </closer>
+                    <anchor type="commentary" xml:id="KL299-1">singt morgen</anchor> herzlichst <signed>hermann</signed>
+                </p>
          </div>
       </body>
   </text>

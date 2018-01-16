@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 16. 4. 1907</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="094"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -68,7 +68,7 @@
                         <idno>HS AM 60172 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>)</p>
+                        <p>eh. Karte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -84,9 +84,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">99</biblScope>
+                  <biblScope unit="pp">99</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -96,10 +96,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM60172Ba"/>  
+     <graphic url="HS_AM60172Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
@@ -109,19 +115,18 @@
                     </dateline>
             </opener>
             <p>
-                    <salute>lieber Hermann, </salute>ich schlage dir vor, Samstag zu mir zu kommen und natürlich mit 
+                    <salute>lieber Hermann, </salute>ich schlage dir vor, <anchor type="commentary" xml:id="KL094-2">Samstag</anchor> zu mir zu kommen und natürlich mit 
         <rs type="person" key="A002083 A002038">uns</rs> zu speisen. Passt dir der Samstag nicht, so theil es mir bitte gleich mit, u
-          auch <hi rend="underline" n="1">wie lange</hi>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>du überhaupt in
+          auch <anchor type="commentary" xml:id="KL094-1">
+                        <hi rend="underline" n="1">wie lange</hi>
+                        <pb/>
+                        <space unit="chars" quantity="1"/>du überhaupt in
                        <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> bleibst.</p>
+                            <settlement>Wien</settlement>
+                        </placeName> bleibst</anchor>.</p>
             <closer>Ich freue mich sehr dich wieder zu sehen.<lb/>Herzlichst mit Grüßen 
         von <rs type="person" key="A002083 A002038">uns</rs> allen<lb/>dein<lb/>
-               <signed>
-                        <hi rend="latintype">Arthur</hi>
-                    </signed>
+               <signed>Arthur</signed>
             </closer>
          </div>
       </body>

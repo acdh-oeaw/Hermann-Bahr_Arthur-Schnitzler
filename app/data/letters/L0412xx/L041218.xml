@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr und Therese Strisower an Schnitzler, [zwischen 20. und 27. 8. 1898]</title>
             <author key="A002002">Bahr, Hermann</author>
             <author key="A002180">Strisower, Therese</author>
@@ -20,7 +20,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +36,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="218"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -58,7 +58,7 @@
                   <placeName key="A000250">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="18980820" n="01">[zwischen 20.–27. 8. 1898]</date>
+                  <date when="18980820" n="01">[zwischen 20. und 27. 8. 1898]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -72,7 +72,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Bleistift, Motiv: »<placeName key="A000959">Landro</placeName> mit <geogName type="mountain">Monte Cristallo</geogName>«.</p>
+                        <p>eh. Ansichtskarte, 2 Verf., Bleistift, Strisower in Lateinschrift, Motiv: »<quote>
+                                        <placeName key="A000959">Landro</placeName> mit <geogName type="mountain">Monte Cristallo</geogName>
+                                    </quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001049">Schluderbach</placeName>
                            <date when="18980820">2<gap quantity="1" unit="chars" reason="illegible"/>/8 98</date>
@@ -95,11 +97,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00094"/>
+      <graphic url="MS-B-00005-B-000-00095"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -121,14 +129,10 @@
          <div type="writingSession" n="2">
             <p>
                     <handShift scribe="A002180"/>
-               <hi rend="latintype">Warum waren Sie nicht hier? Telegrafieren Sie sofort Ihrer </hi>
-                    <persName key="A002180">
-                        <hi rend="latintype">Risa</hi>
-                    </persName>
-                    <hi rend="latintype">, aber schon
+               Warum waren Sie nicht hier? Telegrafieren Sie sofort Ihrer Risa, aber schon
          nach <placeName key="A001078">
-                            <settlement>Unterach</settlement>
-                  </placeName>.</hi>
+                        <settlement>Unterach</settlement>
+                    </placeName>.
             </p>
          </div>
       </body>

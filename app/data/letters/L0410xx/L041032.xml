@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, [6.] 12. 1900</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="032"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,9 +86,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">67</biblScope>
+                  <biblScope unit="pp">67</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -98,42 +98,48 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM60151Ba"/> 
+     <graphic url="HS_AM60151Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">       
             <p>
                     <salute>lieber Hermann, </salute>ich muss <damage agent="hole">
-                  <supplied>dir</supplied>
-               </damage> sagen, wie sehr mich
-          dein <rs type="work" key="A020540">Feuilleton</rs> über die <workName key="A020019">Beatrice</workName> gefreut hat. Und zugleich noch einmal danken,
+                        <supplied>dir</supplied>
+                    </damage> sagen, wie sehr mich
+          dein <rs type="work" key="A020540">Feuilleton</rs> über die <hi rend="latintype">
+                        <workName key="A020019">Beatrice</workName>
+                    </hi> gefreut hat. Und zugleich noch einmal danken,
           dss du nach <placeName key="A000878">
                   <settlement>Breslau</settlement>
-               </placeName> gefahren bist. Du erlaubst mir
+                    </placeName> gefahren bist. Du erlaubst mir
           gewiss, darin<pb/>
                     <space unit="chars" quantity="1"/>
                     <add place="above">noch</add> et<damage agent="hole">
-                  <supplied>was</supplied>
-               </damage> andres zu
-          sehen als die Erfüllg einer »journalistische<damage agent="water">
-                  <supplied>n</supplied>
-               </damage> Pflicht«<subst>
+                        <supplied>wa</supplied>
+                    </damage>s andres zu
+          sehen als die Erfüllg einer »journalistischen
+                Pflicht«<subst>
                   <del rend="overwritten">.</del>
                   <add place="inline">,</add>
                </subst> wie du neulich gesagt hast.</p>
             <closer>Auf baldiges Wiedersehen.<lb/>Herzlichst
-        dein<lb/>
+               dein<lb/>
                     <signed>Arthur</signed>
         </closer>
             <postscript>
                <p>
                         <date>
                      <damage agent="hole">
-                        <supplied>6.</supplied>
-                     </damage> 12. 900.</date>
+                                <supplied>6.</supplied>
+                            </damage> 12. 900.</date>
                </p>
             </postscript>
         

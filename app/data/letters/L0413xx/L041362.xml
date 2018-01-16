@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Friedrich, Lili Waerndorfer und Bahr an Schnitzler, 12. 3. 1904</title>
             <author key="A002675">Waerndorfer, Friedrich</author>
             <author key="A002676">Waerndorfer, Lili</author>
@@ -21,7 +21,7 @@
                   <placeName>
                      <country>A</country>
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -37,7 +37,7 @@
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-L" n="362"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -77,7 +77,11 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, 3 Verf., Motiv: »<geogName type="river" instant="false">L’Ombla – Cempresata</geogName>«, bis auf H. B. in Lateinschrift, von A. S. datiert: »<date>15. 3. 901</date>«.</p>
+                        <p>eh. Postkarte, 3 Verf., Motiv: »<quote>
+                                        <geogName type="river" instant="false">L’Ombla – Cempresata</geogName>
+                                    </quote>«, bis auf Bahr in Lateinschrift, von Schnitzler datiert: »<quote>
+                                        <date>15. 3. 901</date>
+                                    </quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000883">Dubrovnik Ragusa</placeName>
                            <date when="19040312">12. 3<supplied>.</supplied> 04</date>
@@ -99,12 +103,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="MAM">Angelegt aus Original, nicht in Abschrift</change>
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00202"/>
+      <graphic url="MS-B-00005-B-000-00203"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -116,18 +126,20 @@
                <addrLine>
                   <placeName key="A000250">
                      <settlement>WIEN</settlement>
-                  </placeName>
+                        </placeName>
                     </addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1" rend="indent0">
+         <div type="writingSession" n="1">
             <p>
                     <handShift scribe="A002676"/>
-               <space unit="chars" quantity="10"/>Lili +</p>
+                    <signed>Lili +</signed>
+                </p>
             <p>
-                    <handShift scribe="A002675"/>Dein FWaerndorfer</p>
+                    <handShift scribe="A002675"/>Dein <signed>FWaerndorfer</signed>
+                </p>
          </div>
-         <div type="writingSession" n="2" rend="indent0">
+         <div type="writingSession" n="2">
             <p>
                     <handShift scribe="A002002"/>Herzlichst</p>
             <closer>Deine Frau bestens grüßend<lb/>

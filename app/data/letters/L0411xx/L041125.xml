@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 16. 11. 1912</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="125"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -66,8 +66,7 @@
                         <idno>HS AM 60161 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Karte,hs. Korrektur und Grußformel; gedruckter Kopf <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>)
-                           </p>
+                        <p>ms. Karte, hs. Korrektur und Grußformel; gedruckter Kopf: <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -83,9 +82,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">109–110</biblScope>
+                  <biblScope unit="pp">109–110</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -95,10 +94,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM60161Ba"/>
+     <graphic url="HS_AM60161Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
@@ -120,8 +125,8 @@
                      <persName key="A002020">
                                 <hi rend="latintype">
                            <damage agent="hole">
-                              <supplied>Fis</supplied>
-                           </damage>cher</hi>
+                                        <supplied>Fis</supplied>
+                                    </damage>cher</hi>
                             </persName>
                   </add>
                </subst> will es nämlich übernehmen das Geld allmonatlich an <persName key="A002024">P. A.</persName> zu
@@ -133,9 +138,7 @@
             <p>Auf baldiges Wiedersehen und herzliche Grüsse</p>
             <closer>
                     <handShift/> Dein<lb/>
-               <signed>
-                        <hi rend="latintype">Arthur</hi>
-                    </signed>
+               <signed>Arthur</signed>
             </closer>
          </div>
       </body>

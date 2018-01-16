@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Bahr an Schnitzler, 22. 12. 1891</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Bahr an Schnitzler, [22. 12. 1891]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="146"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -56,7 +56,7 @@
                         <placeName key="A000250">[Wien]</placeName>
                     </placeAddressee>
                <dateSender>
-                  <date when="18911222" n="01">22. 12. 1891</date>
+                  <date when="18911222" n="01">[22. 12. 1891]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, von Schnitzler hs. datiert: »<quote>
+                                        <date>22/12 91.</date>
+                                    </quote>« und verso »<quote>Bahr</quote>« beschriftet.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +84,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00003"/>
+      <graphic url="MS-B-00005-B-000-00004"/>
+      
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -105,12 +114,8 @@
                   <add place="inline">Im</add>
                </subst> übrigen bitte größte Discretion! <persName key="A002014">B.</persName> will nicht, daß »die Welt« etwas von sr Missetat erfahre.</p>
             <closer>Herzlichst<lb/>
-                    <signed>Bahr</signed>.</closer>
-            <postscript>
-               <p>
-                        <date>22/12 91.</date>
-               </p>
-            </postscript>
+                    <signed>Bahr.</signed>
+                </closer>
          </div>
       </body>
   </text>

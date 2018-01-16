@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 18. 4. 1913</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="126"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -71,7 +71,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Karte, hs. Korrekturen m. Tinte und Bleistift, hs.
-                           Unterschrift mit Tinte, gedruckter Kopf <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>)</p>
+                           Unterschrift mit Tinte, gedruckter Kopf: <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -87,9 +87,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">110</biblScope>
+                  <biblScope unit="pp">110</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -99,10 +99,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM60160Ba"/>
+     <graphic url="HS_AM60160Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
@@ -114,11 +120,10 @@
             <p>Auch ich habe einen Brief von <persName key="A002024">Altenberg</persName>
                     <space unit="chars" quantity="1"/>
                     <add place="inline">(</add>offenbar ähnlichen Inhalts wie der an Dich<add place="inline">)</add> erhalten; sein <rs type="person" key="A002113">Bruder</rs> hat ihn
-          mir überschickt.</p>
-            <p>Diesem habe ich nun geantwortet, er möge mir sagen, was ich seiner Ansicht nach
+          mir überschickt. Diesem habe ich nun geantwortet, er möge mir sagen, was ich seiner Ansicht nach
           in der Angelegenheit tun könne; ich sei natürlich gerne bereit in die Anstalt zu
           gehen und dort mit dem behandelnden <rs type="person" key="A002129" subtype="local">Arzt</rs> Rücksprache zu nehmen. Ich selbst habe
-          Altenberg schon über ein Jahr nicht gesehen und stehe trotz allem, was mir
+          <persName key="A002024">Altenberg</persName> schon über ein Jahr nicht gesehen und stehe trotz allem, was mir
           selbst von ärztlicher Seite berichtet wird, der absoluten Echtheit von <persName key="A002024">P. A.</persName>’s
           Irr<pb/>sinn – es ist ja vielleicht dumm – mit einer seit fast drei Jahrzehnten
             bewährten Skepsis gegenüber. Dass an <persName key="A002024">P. A.</persName>’s Einschliessung nicht etwa böser
@@ -130,10 +135,10 @@
                     </placeName>? Man sieht Dich nun doch nicht trotzdem Du in
           <placeName key="A000230">
                         <settlement>Salzburg</settlement>
-                    </placeName> wohnst. Herzliche Grüsse von Haus zu Haus</p>
-            <closer>Dein<lb/>
-               <handShift/>
-               <signed>Arthur</signed>
+                    </placeName> wohnst.</p>
+            <closer>Herzliche Grüsse von Haus zu Haus<lb/>Dein<lb/>
+               <signed>
+                        <handShift/>Arthur</signed>
             </closer>
          </div>
       </body>

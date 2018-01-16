@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler: Aus dem Tagebuch von Bahr, 31. 3. 1929</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>
                       <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="006"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -55,23 +55,7 @@
                   </msDesc>
                </witness>
             </listWit>  
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <author key="A002002">Bahr, Hermann</author>
-                     <title level="a" key="A020821">Tagebuch. 14. März [1920]</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j" key="A080080">Neues Wiener Journal</title>
-                     <imprint>
-                        <biblScope type="jg">37</biblScope>
-                        <biblScope type="nr">12700</biblScope>
-                        <date when="19290331">31. 3. 1920</date>
-                     </imprint>
-                     <biblScope type="pp">22–23</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
+           
          </sourceDesc>
       </fileDesc>
         <profileDesc>
@@ -87,19 +71,24 @@
   <text type="manuscript">
       <body>
          <div>
-            <head>Aus dem <workName key="A020821">Tagebuch</workName>
+            <head>
+                    <anchor type="commentary" xml:id="KT006-1">Aus dem <workName key="A020821">Tagebuch</workName>
+                    </anchor>
                     <space unit="chars" quantity="1"/>
                     <hi rend="underline" n="1">von <persName key="A002002">Bahr</persName>
-               </hi>, 31. März 1929, <orgName key="A080080">Neues Wiener Journal</orgName>.</head>
-            <p>Anlässlich <persName key="A003749">Cajetan Bernvilles</persName>
+               </hi>, <date>31. März 1929</date>, <hyphenation alt="\\"/>
+                    <orgName key="A080080">Neues Wiener Journal</orgName>.</head>
+            <p>Anlässlich <anchor type="commentary" xml:id="KT006-2">
+                        <persName key="A003749">Cajetan Bernvilles</persName>
                <add place="inline">’</add> Schrift »<workName key="A020902">
                   <hi rend="underline" n="1">Ueber das Leben der
          heiligen </hi>
                   <persName key="A003750">
                      <hi rend="underline" n="1">Therese, vom Kinde Jesu</hi>
                   </persName>
-               </workName>.«</p>
-            <p>».... doch dass sie jetzt bis in die kleinsten <placeName key="A000515">bayrischen</placeName> und
+               </workName>
+                    </anchor>.«</p>
+            <p>»<c rendition="#dots" n="4" place="center"/> doch dass sie jetzt bis in die kleinsten <placeName key="A000515">bayrischen</placeName> und
             <placeName key="A000362">
                   <country>österreichischen</country>
                </placeName> Landorte hinein vom Volke verehrt wird, ja dass

@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 3. 1. 1902</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="047"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,9 +86,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">73–74</biblScope>
+                  <biblScope unit="pp">73–74</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -98,22 +98,31 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM23348Ba_1"/>
+     <graphic url="HS_AM23348Ba_1_R"/>
+     <graphic url="HS_AM23348Ba_2"/>
+     <graphic url="HS_AM23348Ba_2_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                         <date>3. 1. 902</date>
-                    </dateline>
-               <seg rend="right">
+                        <lb/>
                   <placeName key="A000368">
-                            <settlement>Berlin</settlement>
+                            <settlement>
+                                <hi rend="latintype">Berlin</hi>
+                            </settlement>
                         </placeName>
-               </seg>
+               </dateline>
             </opener>
             <p>
                     <salute>lieber Hermann, </salute>ich habe <persName key="A002065">Brahm</persName> gesprochen, er
@@ -122,7 +131,7 @@
           der rechte Boden für das Stück sei. Ich glaube also nicht, dass er zu der
           Aufführg nach  <placeName key="A000707">
                         <settlement>Hamburg</settlement>
-               </placeName> fahren wird, hielte es aber doch
+                    </placeName> fahren wird, hielte es aber doch
           für ganz gut, wenn du ihn unverbindlich mit ein paar<pb/> Worten dazu einladen
           möchtest. Gegen deine Bemerkung über den literar. Stempel, den doch erst das
         <placeName key="A000203">Deutsche Theater</placeName> verleihe (die ihm mitzutheilen
@@ -136,12 +145,15 @@
           solltest dich einmal persönlich mit ihm aussprechen. Wenn er nicht nach
              <placeName key="A000707">
                         <settlement>Hamburg</settlement>
-               </placeName> kommt, vielleicht besuchst du ihn auf der
+                    </placeName> kommt, vielleicht besuchst du ihn auf der
           Hin- oder Rückfahrt? – </p>
-            <p>Dieser Tage sprach ich <persName key="A002051">Harden</persName>
+            <p>
+                    <anchor type="commentary" xml:id="KL047-4">Dieser Tage</anchor> sprach ich <hi rend="latintype">
+                        <persName key="A002051">Harden</persName>
+                    </hi>
                <damage agent="hole">
-                  <supplied>,</supplied>
-               </damage> der jetzt sehr gegen den kleinen <persName key="A002037">Kraus</persName> eingenommen ist 
+                        <supplied>,</supplied>
+                    </damage> der jetzt sehr gegen den kleinen <persName key="A002037">Kraus</persName> eingenommen ist 
         und findet, dass ein <rs type="org" key="A080073">solches Blatt</rs> in <placeName key="A000368">
                         <settlement>Berlin</settlement>
                     </placeName> sich
@@ -152,14 +164,16 @@
                </hi>
                     </anchor>, in der <persName key="A002037">Kr.</persName>
           von einer angeblich extra von dir <add place="inline">(?)</add> gegen ihn
-          hineingedichteten Stelle erzählte, hat er ihm (<persName key="A002051">Harden</persName> dem <persName key="A002037">Kraus</persName>) eine Karte
+               hineingedichteten Stelle erzählte, hat er ihm (<hi rend="latintype">
+                        <persName key="A002051">Harden</persName>
+                    </hi> dem <persName key="A002037">Kraus</persName>) eine Karte
           geschrieben, er müsse gelegentlich diesen Irrthum richtigstellen, da die
           betreffende Stelle sich <anchor type="commentary" xml:id="KL047-3">im Original</anchor> fände; – <persName key="A002037">Kraus</persName> soll es auch zugesagt <del rend="erased">
                   <unclear>haben</unclear>, aber</del> bisher nicht<pb/> gethan haben. – </p>
             <p>Heute war Generalprobe der <workName key="A020022">Lebendigen Stunden</workName>. Sie fiel
-          günstig – für abergläubisc<damage agent="hole">
-                  <supplied>he</supplied>
-               </damage> Gemüther zu günstig <subst>
+          günstig – für abergläubisch<damage agent="hole">
+                        <supplied>e</supplied>
+                    </damage> Gemüther zu günstig <subst>
                   <del rend="overwritten">
                      <unclear>ohne</unclear>
                   </del>
@@ -168,15 +182,14 @@
           –</p>
             <p>Ganz entzückt bin ich von <persName key="A002052">
                         <hi rend="latintype">Bassermann</hi>
-                    </persName>. Neulich sah ich ihn als <anchor type="commentary" xml:id="KL047-1">
-                        <hi rend="latintype">
+                    </persName>. <anchor type="commentary" xml:id="KL047-1">Neulich sah ich ihn als <hi rend="latintype">
                             <rs type="work" key="A020076">H<add place="inline">j</add>a<subst>
                            <del rend="overwritten">
-                              <unclear>j</unclear>
+                              <unclear>jm</unclear>
                            </del>
                            <add place="inline">lm</add>
                         </subst>ar</rs>
-                  </hi>, <persName key="A002053">
+                        </hi>, <persName key="A002053">
                             <hi rend="latintype">Sauer</hi>
                         </persName> als <rs type="work" key="A020076">
                             <hi rend="latintype">Gregers
@@ -184,8 +197,7 @@
                         </rs>
                     </anchor>; ich habe selten so starke schauspielerische Eindrücke
                erlebt. Die <persName key="A002054">Triesch</persName>
-                    <space unit="chars" quantity="1"/>
-                    <pb/>kann überraschend viel.–</p>
+                    <pb/> kann überraschend viel.–</p>
             <p>– Ich seh dich hoffentlich bald wieder. Herzlichen Gruss. Dein </p>
             <closer>
                     <signed>Arth Sch</signed>

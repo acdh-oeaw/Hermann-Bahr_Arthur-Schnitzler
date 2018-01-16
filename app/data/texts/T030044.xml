@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a" key="A020447">Schnitzler: [Brief an Bahr], [Anfang Juli] 1923</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>
                       <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="044"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -46,11 +46,13 @@
                         <country>GB</country>
                         <settlement>Cambridge</settlement>
                         <repository>University Library</repository>
-                        <idno>Schnitzler, A17,1</idno>
+                        <idno>Schnitzler, A 17,1</idno>
                      </msIdentifier>
                      <origDate when="19230700" n="3">Juli 1923</origDate>
                      <physDesc>
-                        <p>ms. mit eh. Korrekturen in Bleistift und Tinte, 5 Bl., von A. S. jede Seite mit »<persName key="A002002">Bahr</persName>« beschrieben.</p>
+                        <p>ms. mit eh. Korrekturen in Bleistift und Tinte, 5 Bl., von Schnitzler jede Seite mit »<quote>
+                                        <persName key="A002002">Bahr</persName>
+                                    </quote>« beschrieben.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -59,30 +61,26 @@
                <biblStruct default="false">
                   <analytic>
                      <author key="A002001">Schnitzler, Arthur</author>
-                     <title level="a">Hermann Bahrs sechzigster Geburtstag. Festgrüße</title>
+                     <title level="a" key="A020447">Hermann Bahrs sechzigster Geburtstag. Festgrüße</title>
                   </analytic>
                   <monogr>
                      <title level="j">Neues Wiener Journal</title>
                      <imprint>
-                        <biblScope type="jg">31</biblScope>
-                        <biblScope type="nr">10645</biblScope>
-            
                         <date when="19230708">8. 7. 1923</date>
                      </imprint>
-                     <biblScope type="pp">5</biblScope>
+                     <biblScope unit="jg">31</biblScope>
+                     <biblScope unit="nr">10645</biblScope>
+                     <biblScope unit="pp">5</biblScope>
                   </monogr>   
                </biblStruct>
-               <biblStruct default="false">
-                  <monogr>
-                     <author key="A002001">Schnitzler, Arthur</author>
-                     <title level="m">Briefe 1913–1931</title>
-                     <editor>Hg. von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
+               <biblStruct corresp="ASB2" default="false"> <monogr> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg.  Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1984">1984</date>
                      </imprint>
-                     <biblScope type="pp">315–317</biblScope>
+                     <biblScope unit="pp">315–317</biblScope>
                   </monogr>   
                </biblStruct>
             </listBibl>
@@ -94,7 +92,7 @@
             </langUsage>
         </profileDesc>
       <revisionDesc status="candidate">
-         <change when="20151029" who="MAM">Angelegt aus A.S. Briefausgabe</change>
+         <change when="20151029" who="MAM">Angelegt aus A. S. Briefausgabe</change>
          <change who="KI MAM" when="20160210">Kollationiert mit Fotos aus CUL</change>
       </revisionDesc>
   </teiHeader>
@@ -171,8 +169,10 @@
                </subst> mich, <subst>
                   <del rend="overwritten">d</del>
                   <add place="inline">D</add>
-               </subst>enn wie meinte jener <anchor type="commentary" xml:id="KT044-1">Puppenspieler</anchor>: »<rs type="work" key="A020027">Sag mir, wann die Unsterblichkeit
+               </subst>enn wie meinte jener Puppenspieler: »<anchor type="commentary" xml:id="KT044-1">
+                        <rs type="work" key="A020027">Sag mir, wann die Unsterblichkeit
          anfängt und ich will um meinen Ruhm besorgt sein.</rs>
+                    </anchor>
                     <add place="inline">«</add> Aber <subst>
                   <del rend="strikethrough">wenn ich auch ganz</del>
                   <add place="above">so</add>

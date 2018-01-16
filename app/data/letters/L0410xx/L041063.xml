@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 9. 10. 1903</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="063"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -96,9 +96,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">80</biblScope>
+                  <biblScope unit="pp">80</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -108,10 +108,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM23358Ba"/> 
+     <graphic url="HS_AM23358Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -129,15 +135,15 @@
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <seg rend="right">
+               <p rend="right">
                   <hi rend="latintype">
                             <anchor type="textConst" xml:id="TL063-1">
                                 <hi rend="underline" n="1">
-                        <placeName key="A000333">XVIII Spöttelgasse 7.</placeName>
+                        <placeName key="A000333">XVIII Spöttelgasse 7</placeName>
                                 </hi>
                             </anchor>
-                     </hi>
-               </seg>
+                        </hi>
+               </p>
                <dateline>
                   <placeName key="A000250">
                             <settlement>Wien</settlement>
@@ -148,21 +154,22 @@
             </opener>
             <p>
                     <salute>lieber Hermann, </salute>
-               <workName key="A020018">Reigen</workName> laß ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann
+               <workName key="A020018">Reigen</workName> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann
           werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht
           zu stellen. In <placeName key="A000368">
                         <settlement>Berlin</settlement>
                     </placeName> grüße mir, wenn du sie siehst, <persName key="A002065">Brahm</persName>, <persName key="A002052">Bassermann</persName>, <persName key="A002071">Rittner</persName>,
-          <persName key="A002053">Sauer</persName>; – es handelt sich wohl um dein neues <rs type="work" key="A020082" subtype="local-short">Stück</rs>? Hoffentlich seh ich dich
+          <persName key="A002053">Sauer</persName>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1">
+                        <rs type="work" key="A020082">Stück</rs>
+                    </anchor>? Hoffentlich seh ich dich
             ab<damage agent="hole">
-                  <supplied>er</supplied>
-               </damage> noch vor deiner Abreise. Entweder komm ich
+                        <supplied>er</supplied>
+                    </damage> noch vor deiner Abreise. Entweder komm ich
           auf eine viertel Stunde zu dir nach <placeName key="A000365">Ob Veit</placeName> – oder, man könnte sich, ev. mit
           <persName key="A002011 A002134">Hugo’s</persName> in <placeName key="A000263">Hietzing</placeName> zu Abend u Abendessen treffen?</p>
             <closer>Herzlichst dein<lb/>
-               <signed>
-                        <hi rend="latintype">Arthur</hi>
-                    </signed>. </closer>
+               <signed>Arthur.</signed>
+                </closer>
          </div>
       </body>
   </text>

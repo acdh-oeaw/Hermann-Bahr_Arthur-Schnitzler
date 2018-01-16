@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 23. 12. 1896</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="206"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von A. S. Jahreszahl »6« im Vordruck ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler Jahreszahl »<quote>
+                                        <date>6</date>
+                                    </quote>« im Vordruck ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +84,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151203">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00076"/>
+      <graphic url="MS-B-00005-B-000-00077"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -97,7 +105,7 @@
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>In aller Eile, mitten zwischen Correcturen und Schreibereien, möchte ich Dir nur
-        geschwind sagen, daß ich die »<workName key="A020125">Frau des
+        geschwind sagen, daß ich die »<workName key="A020128">Frau des
             Weisen</workName>« gestern abends sofort gelesen und von ihr eine wirklich
           schöne und reine Wirkung gehabt habe. Nun kann ich Dir erst recht danken, daß
           Du mir ein so theueres<pb/> Geschenk für die »<orgName key="A080011">Zeit</orgName>« 
@@ -105,7 +113,7 @@
             <p>Sie ist schon in der Druckerei, Montag hast
           Du die Correctur, an ihr kannst Du noch ganz nach Laune ändern.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>H</signed>
+                    <signed>hr</signed>
                 </closer>
          </div>
       </body>

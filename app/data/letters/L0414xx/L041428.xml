@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 2. 8. 1893</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="428"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -64,17 +64,32 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,37</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 2 Bl., 6 S. Das zweite Blatt von Schnitzler mit Bleistift datiert »<quote>
+                                        <date>2. 8. 92</date>
+                                    </quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">42–43</biblScope>
+                        <biblScope unit="pp">42–43</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -85,8 +100,10 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160309">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170703">Kollationiert</change>
+            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -97,50 +114,62 @@
                     <dateline rend="right">
                   <placeName key="A000250">
                             <settlement>Wien</settlement>
-                        </placeName>, <date>2. 8. 93</date>
+                        </placeName>, <hi rend="underline" n="1">
+                            <date>2. 8. 93</date>
+                        </hi>
                     </dateline>
-                    <salute>Mein lieber Hugo,</salute>
+                    <salute output="true">Mein lieber Hugo,</salute>
                 </opener>
-                <p output="true">ich las Ihren Brief an <persName key="A002035">Salten</persName>. Daß Sie nicht in
+                <p output="true">ich las Ihren Brief an <persName key="A002035">Salten</persName>. Dass Sie nicht in
                             <placeName key="A000355">
                         <settlement>München</settlement>
-                    </placeName>, wußt ich, da
-                    ich <persName key="A002002">Bahr</persName> sprach. Sie wollen im September hin? Nicht
-                    unmöglich, daß ich mich anschließe; denn ich habe zur Waffenübung keine
+                    </placeName>, wußt’ ich, da
+                    ich <persName key="A002002">
+                        <hi rend="latintype">Bahr</hi>
+                    </persName> sprach. Sie wollen im September hin? Nicht
+                    unmöglich, dass ich mich anschließe; denn ich habe zur Waffenübung keine
                     Einberufung bekommen, u dürfte auch voraussichtlich keine mehr erhalten.</p>
                 <p>Vorläufig bleibe ich in <placeName key="A000250">
                         <settlement>Wien</settlement>
-                    </placeName>;
-                    Mitte August fahre ich vielleicht mit <rs type="person" key="A002146">Mama</rs> weg, mache auch
-                    event. eine Bicycletour mit <persName key="A002035">Salten</persName>. Sie müssen Bic. fahren
-                    lernen; ebenso wie <persName key="A002007">Richard</persName>; es ist wirklich ein großes
-                    Vergnügen. – <placeName key="A000250">
+                    </placeName>; <date>Mitte August</date> fahre
+                    ich vielleicht mit <rs type="person" key="A002146">Mama</rs> weg,<pb/> mache
+                    auch event. eine <hi rend="latintype">Bicycle</hi>tour mit <persName key="A002035">
+                        <hi rend="latintype">Salten</hi>
+                    </persName>. Sie müssen <hi rend="latintype">Bic.</hi> 
+                    fahren lernen; ebenso wie
+                        <persName key="A002007">Richard</persName>; es ist wirklich ein großes
+                    Vergnügen. –</p>
+                <p>
+                    <placeName key="A000250">
                         <settlement>Wien</settlement>
-                    </placeName> bietet mir
-                    jetzt einiges zu tun; eine kleine <rs type="person" key="A003879">Cousine</rs> von mir ist schwer
-                    krank; die besuch’ ich 1, 2, 3 mal im Tag; dann ab u zu irgend was andres
-                    ärztliches, so daß die Zeit zersplittert ist. Abends zuweilen auf dem
-                        <geogName type="mountain" key="A000775" instant="false">Kahlenberg</geogName>, wo <rs type="person" key="A002146">Mama</rs> u <rs type="person" key="A002245">Schwester</rs> wohnen oder mit dem Bic. da oder dorthin. – Die »lustige«
-                        <rs type="work" key="A021029">Novelle</rs> hab ich bis auf wenige Zeilen beendet, die ich erst
-                    schreiben kann, wenn, ich Lust bekomme, das ganze Zeug wieder durchzulesen. Was
-                    ich zunächst schreiben werde, ist unklar – am liebsten eins meiner im Umriß
-                    fertigen 3aktigen Stücke; aber ich stehe der dramatischen Kunst unglaublich
-                    mutlos gegenüber; ja ich hatte in der letzten Zeit oft die Empfindung, daß ich
-                    überhaupt nie ein gutes Stück werde schreiben können. Gestalten u Scenen,
-                    einzelne, wären da; aber mir ist, als hätt’ ich jedes strategische Talent
-                    verloren. Vielleicht hatt’ ichs auch nie – und hab nur aus meinen kleinen
-                    Schmerzen die großen Dreiakter machen können; und seit meinen großen Schmerzen
-                    werden mir nur die kleinen Novellettchen gelingen. Wie leicht, wie mühelos hab
-                    ich vor – zehn, zwölf Jahren geschrieben, – es kam zwar nie was gutes heraus;
-                    aber ich war damals vielleicht ein echterer »Poet« als heut. Denn heut nagen an
-                    meiner Poesie viele Würmer, z. B. das Leben. – </p>
-                <p>– Wollen Sie mir nicht Ihre Pläne für den Rest des Sommers mitteilen. Es ist
-                    nicht unmöglich, daß wir uns begegnen können.<pb/> Jedenfalls schreiben Sie mir
-                    einige Zeilen – oder Seiten, was mir lieber wäre. Beleuchten Sie mit einem
-                    »Flämmchen« die ganze Umgebung! </p>
+                    </placeName>
+                    bietet mir jetzt einiges zu thun; eine kleine <rs type="person" key="A003879">Cousine</rs> von mir ist schwer krank; die besuch’ ich 1, 2, 3 mal im Tag;
+                    dann ab u zu irgend was andres ärztliches, so dass die Zeit zersplittert ist.
+                    Aben<unclear>d</unclear>s zuweilen auf dem <geogName type="mountain" key="A000775" instant="false">Kahlenberg</geogName>, wo <rs type="person" key="A002146">Mama</rs> u <rs type="person" key="A002245">Schwester</rs> wohnen oder mit dem <hi rend="latintype">Bic.</hi> da oder
+                    dorthin.<pb/>
+                </p>
+                <p>– Die »lustige« <rs type="work" key="A021029">Novelle</rs> hab ich bis
+                    auf wenige Zeilen beendet, die ich erst schreiben kann, wenn ich Lust bekomme,
+                    das ganze Zeug wieder durchzulesen. Was ich zunächst schreiben werde, ist unklar
+                    – am liebsten eins meiner im Umriss fertigen 3aktigen Stücke; aber ich stehe der
+                    dramatischen Kunst unglaublich muthlos gegenüber; ja ich hatte in der letzten
+                    Zeit oft die Empfindung, dass ich überhaupt nie<pb/> ein gutes Stück werde schreiben
+                    können. Gestalten u Scenen, einzelne, wären da; aber mir ist, als hätt’ ich
+                    jedes strategische Talent verloren. Vielleicht hatt’ ichs auch nie – und hab nur
+                    aus meinen kleinen Schmerzen die großen <subst>
+                        <del rend="overwritten">S</del>
+                        <add place="inline">D</add>
+                    </subst>reiakter machen können; und seit meinen
+                    großen Schmerzen <del rend="strikethrough">hab</del> werden mir nur die kleinen Novellettchen gelingen. Wie leicht,
+                    wie mühelos hab ich vor – zehn, zwölf Jahren geschrieben,–<pb/> es kam zwar nie was
+                    gutes heraus; aber ich war damals vielleicht ein echterer »Poet« als heut. Denn
+                    heut nagen an meiner Poesie viele Würmer, z. B. das Leben. – </p>
+                <p>– Wollen Sie mir nicht Ihre Pläne für den Rest des Sommers mittheilen. Es ist
+                    nicht unmöglich, dass wir uns begegnen können. Jedenfalls schreiben Sie mir
+                    einige Zeilen – oder Seiten, was mir lieber wäre. Beleuchten<pb/> Sie mit einem
+                    »Flähmchen« die ganze Umgebung!</p>
                 <closer>Herzlich der Ihre<lb/>
                     <signed>Arthur</signed>
-                    
                 </closer>
             </div>
         </body>

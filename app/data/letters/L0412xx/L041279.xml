@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 27. 4. 1904</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="279"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,10 +70,12 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Briefkarte, Datum von A. S. mit Jahreszahl »904« ergänzt.</p>
+                        <p>eh. Briefkarte, Datum von Schnitzler mit Jahreszahl »<quote>
+                                        <date>904</date>
+                                    </quote>« ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000263">Wien 13/5</placeName>
-                           <date when="19040427">27<supplied>.</supplied>IV.04</date>
+                           <date when="19040427">27<supplied>.</supplied> IV. 04</date>
                            <time>XII</time>
                         </stamp>
                         <stamp n="2">
@@ -98,11 +100,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00209"/>
+      <graphic url="MS-B-00005-B-000-00210"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -125,16 +133,17 @@
                     </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Herzlichsten Dank für Deinen Brief, der sich mit meinem an Dich gekreuzt hat. Ich wollte
+            <p>Herzlichsten Dank für Deinen <anchor type="label" xml:id="LL279-1">Brief</anchor>, der sich mit meinem an Dich gekreuzt hat. Ich wollte
           nun heute abends nach <placeName key="A000263">Hietzing</placeName> kommen. Da
-          mir nun aber <persName key="A002134">Gerty</persName> schreibt, <persName key="A002011">Hugo</persName> sei auf dem  <placeName key="A000389">
+          mir nun aber <anchor type="commentary" xml:id="KL279-1">
+                        <persName key="A002134">Gerty</persName> schreibt</anchor>, <persName key="A002011">Hugo</persName> sei auf dem  <placeName key="A000389">
                         <settlement>Semmering</settlement>
-               </placeName>,
+                    </placeName>,
           denke ich, daß Du wol auch nicht kommen wirst, und bitte um ein anderes Rendezvous, da ich
-          Dich sehr gern vor Deiner Abreise noch sehen möchte.</p>
+          Dich sehr gern vor Deiner <anchor type="commentary" xml:id="KL279-2">Abreise</anchor> noch sehen möchte.</p>
             <closer>Mit den besten Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-               <lb/>herzlichst<lb/>
-                    <signed>Herm B.</signed>
+                    <lb/>herzlichst<lb/>
+                    <signed>HermB.</signed>
             </closer>
          </div>
       </body>

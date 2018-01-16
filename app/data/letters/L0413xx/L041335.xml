@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 28. 9. 1912</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="335"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<placeName key="A000349">Venezia – Cortile Palazzo Ducale</placeName>«.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>
+                                        <placeName key="A000349">Venezia – Cortile Palazzo Ducale</placeName>
+                                    </quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000389">Semmering</placeName>
                            <date when="19120929">29. IX. 12</date>
@@ -86,12 +88,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="MAM" when="20151125">Stempel am Original autopsiert</change>
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170531">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00309"/>
+      <graphic url="MS-B-00005-B-000-00310"/>
+      
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -109,22 +118,24 @@
          <div type="writingSession" n="1">
       
             <opener>
-               <seg rend="left">
+               <p rend="left">
                   <placeName key="A000344">Semmering Villa Mautner</placeName>
-               </seg>
+               </p>
                <dateline rend="right">
                         <date>28. 9. 12</date>
                     </dateline>
             </opener>
-            <p>Herzlichen Dank, <salute>lieber Artur, </salute>für Deine Karte und die eben einlangenden <rs type="work" key="A020247" subtype="local-short">vier
-          Bände Theater</rs>. Ich vagabundiere durch die Welt (zunächst von hier nach
+            <p>Herzlichen Dank, <salute>lieber Artur, </salute>für Deine Karte und die eben einlangenden <anchor type="commentary" xml:id="KL335-1">
+                        <rs type="work" key="A020247">vier
+          Bände Theater</rs>
+                    </anchor>. Ich <anchor type="commentary" xml:id="KL335-2">vagabundiere durch die Welt</anchor> (zunächst von hier nach
             <placeName key="A000351">Deutschland</placeName>, sechs Wochen Vorlesungen, dann nach
             <placeName key="A000646">
                         <settlement>Rom</settlement>
-               </placeName>, Januar und Februar wieder Vorlesungen),
+                    </placeName>, Januar und Februar wieder Vorlesungen),
           bis ich am <date rend="19130301">1. März</date> in <placeName key="A000360">Salzburg Arenbergschloß</placeName> zu landen hoffe.</p>
             <closer>Herzlichst immer Dein<lb/>
-                    <signed>HerBahr</signed>
+                    <signed>Hermann</signed>
                 </closer>
             <postscript>
                <p>Schönste Grüße an Frau <persName key="A002038">Olga</persName>!</p>

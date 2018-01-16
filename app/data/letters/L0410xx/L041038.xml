@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Schnitzler an Bahr, [28. 2.? 1901]</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Schnitzler an Bahr, [14. 3.? 1901]</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="038"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -56,7 +56,7 @@
                   <placeName key="A000250">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19010228" n="01">[28. 2.? 1901]</date>
+                  <date when="19010314" n="01">[14. 3.? 1901]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -85,9 +85,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">69–70</biblScope>
+                  <biblScope unit="pp">69–70</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -97,29 +97,36 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170503">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23339Ba"/>
+     <graphic url="HS_AM23339Ba_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <p>
                     <salute>mein lieber Hermann, </salute>es handelt sich um nichts wichtiges; vielleicht kann ich
-          also Dienstg Vormittg zu dir – ohne dich im geringsten zu binden. Eines kann ich
+          also <date>Dienstg</date> Vormittg zu dir – ohne dich im geringsten zu binden. Eines kann ich
           dir vielleicht gleich hier sagen, wobei ich dich bitte, gelegentlich zu <persName key="A002032">Bukovis</persName>
-        davon zu reden. Mein Einakterabend wird bestehen aus »<workName key="A020025">Literatur</workName>«, einem <anchor type="commentary" xml:id="KL038-1">
-                        <rs type="work" key="A020029">andern,
-          der halb fertig ist</rs>
-                    </anchor> ziemlich phantastisch<pb/> und einem dritten – den ich noch nicht
+               davon zu reden. <anchor type="commentary" xml:id="KL038-2">Mein Einakterabend wird bestehen</anchor> aus 
+               »<workName key="A020025">Literatur</workName>«, einem <anchor type="commentary" xml:id="KL038-1">
+                        <rs type="work" key="A020023">andern</rs>,
+                  der halb fertig ist ziemlich phantastisch</anchor> und<pb/> einem <anchor type="commentary" xml:id="KL038-3">
+                        <rs type="work" key="A020029" cert="low">dritten</rs>
+                    </anchor> – den ich noch nicht
           begonnen habe. –</p>
             <p>Dagegen soll <workName key="A020020">Marionetten</workName> (das hier bestimmt gut wirken wird,
           in guter Darstellung) da es
           doch als sagen wir Literatursatire nur einen kleinen Kreis interessiren kann)
           lieber an dem Abend gegeben werden, wo der <workName key="A020012">Kakadu</workName> aufgeführt wird. Also irgend was von einem andern
-          (man<pb/> sprach mir von »<workName key="A020024">Fastnacht</workName>«) dann
+          (man<pb/> sprach mir von »<workName key="A020024" subtype="local">Fastnacht</workName>«) dann
             <workName key="A020012">Kakadu</workName>, am Schluss <workName key="A020020">Marionetten</workName>.</p>
-            <p>Nun, <hi rend="underline" n="1">darüber</hi> und <add place="above">über</add> einiges andere nächstens.</p>
+            <p>Nun, darüber und <add place="above">über</add> einiges andere nächstens.</p>
             <closer>Viele herzliche Grüße<lb/>dein<lb/>
                <signed>ArthurSch</signed>
             </closer>

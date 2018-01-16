@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 9. 6. 1922</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="347"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,8 +70,10 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, die unvollständige Hausnummer in der Adresse von unbek. mit Bleistift korrigiert zu »71«.</p>
-           &#160;<stamp n="1">
+                        <p>eh. Korrespondenzkarte, die unvollständige Hausnummer in der Adresse von unbek. Hand mit Bleistift korrigiert zu »<quote>71</quote>«. Vermerk von Schnitzler »<quote>
+                                        <hi rend="latintype">A</hi>
+                                    </quote>«, <ptr target="LbesonderheitA"/>.</p>
+            <stamp n="1">
               <placeName key="A000355">München</placeName>
                            <date when="19220610">10 6 22</date>
                            <time>1–2 N</time>
@@ -87,12 +89,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="MAM" when="20151125">Stempel autopsiert in CUL</change>
          <change who="KI MAM" when="20151217">Kollationiert</change>
+        <change who="KI MAM" when="20170531">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00327"/>
+      <graphic url="MS-B-00005-B-000-00328"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -131,12 +139,14 @@
           meine starke Seite und je älter ich werde, desto mehr kommt mir alles, so bald
           es ausgesprochen wird, verlogen vor.</p>
             <p>Ich denke den ganzen Sommer (außer am
-          <date>11.–13. August</date>, wo ich nach <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>, und am <date>27.–30. August</date>, wo ich nach
+               <date>11.–13. August</date>, wo ich <anchor type="commentary" xml:id="KL347-2">nach <placeName key="A000230">
+                            <settlement>Salzburg</settlement>
+                        </placeName>
+                    </anchor>, und am <date>27.–30. August</date>, wo ich <anchor type="commentary" xml:id="KL347-1">nach
             <placeName key="A001083">
-                        <settlement>Heidelberg</settlement>
-               </placeName> soll) hier sein und es wäre mir eine
+                            <settlement>Heidelberg</settlement>
+                        </placeName>
+                    </anchor> soll) hier <supplied>zu</supplied> sein und es wäre mir eine
           große Freude, Dich endlich wiederzusehen.</p>
             <closer>Herzlichst Dein alter<lb/>
                     <signed>Hermann</signed>

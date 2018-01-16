@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041697">
+  <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Fritz Schlesinger u. a. an Bahr, 21. 4. 1898</title>
+            <author key="A004535">Schlesinger, Fritz</author>
+            <author key="A002134">Schlesinger, Gerty von</author>
+            <author key="A002001">Schnitzler, Arthur</author>
+            <author key="A003025">Georg von Franckenstein</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>           
+                     <settlement>Wien</settlement>
+                        </placeName> 
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="697"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="A004535">Schlesinger, Fritz</persName>
+                  <persName key="A002134">Schlesinger, Gerty von</persName>
+                  <persName key="A002001">Schnitzler, Arthur</persName>
+                  <persName key="A003025">Georg von Franckenstein</persName>
+                  </sender>
+               <addressee full="yes">
+                  <persName key="A002002">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="A001224">Breitenfurt bei Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="A000250">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18980421" n="1">21. 4. 1898</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>           
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 57775 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Korrespondenzkarte, 4 Verf., Bleistift, bis auf Schnitzlers Gruß in Lateinschrift.</p>
+                        <stamp n="1">
+                           <placeName key="A001224">
+                                        <unclear>Brei</unclear>
+                                        <damage>
+                                            <supplied>ten</supplied>
+                                        </damage>furt</placeName>
+                           <date when="18980421">21 4 98</date>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placeName key="A000259">Wien 9/2</placeName>
+                           <date when="18980422">22-4. 98</date>
+                           <time>2 <unclear>½</unclear> N</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20171109">Kollationiert</change>
+      </revisionDesc>
+  </teiHeader>
+   <facsimile>       
+      <graphic url="HS_AM57775Ba_1"/>     
+   </facsimile>
+  <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn Hermann Bahr</addrLine>
+           <addrLine>
+                        <placeName key="A000637">IX. Porzellangasse 37</placeName>
+                    </addrLine>
+               <addrLine>
+                        <placeName key="A000250">
+                            <settlement>Wien</settlement>
+                        </placeName>
+               </addrLine>
+            </address>
+         </div>
+         <div type="image" n="1">
+            <figure>
+               <graphic url="./images/hansschlesinger" width="10cm"/>
+            </figure>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+                    <hi rend="underline" n="1">
+                        <placeName key="A001224">
+                            <settlement>Breitenfurth</settlement>
+                        </placeName>
+                    </hi>.</p>
+            <p>Der Dichter ist oft sehr zerstreut</p>
+            <p>Was sein Bicycle nicht erfreut</p>
+            <p>Die Bremse wohl sehr wichtig ist</p>
+            <p>Weil sonst man in den Graben schießt. <add place="mixed">
+                        <anchor type="commentary" xml:id="KL697-1">
+                            <persName key="A002011">Hugo</persName>
+                        </anchor>
+                    </add>
+                </p>
+            <closer>
+                    <signed>Fritz Schlesinger</signed>
+                </closer>
+            <closer>
+                    <handShift scribe="A003025"/>
+                    <signed>G Franckenste<damage agent="hole">
+                            <supplied>in</supplied>
+                        </damage>
+                    </signed>
+                </closer>
+            <closer>
+                    <handShift scribe="A002134"/>Beneiden Sie uns ein bisserl, ja?<space unit="chars" quantity="5"/>
+                    <signed>Gerty</signed>
+                </closer>
+            <closer>
+                    <handShift scribe="A002001"/>HerzGruss<space unit="chars" quantity="5"/>
+                    <signed>ArthSchnitzler</signed>
+                </closer>
+         </div>
+      </body>
+  </text>
+</TEI>

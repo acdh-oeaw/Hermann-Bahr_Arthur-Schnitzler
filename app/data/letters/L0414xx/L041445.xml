@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 29. 9. 1903</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="445"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -62,17 +62,30 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,104</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 1 S.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">174</biblScope>
+                        <biblScope unit="pp">174</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -83,8 +96,10 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160311">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170627">Kollationiert</change>
+            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -94,18 +109,15 @@
                 <opener>
                     <dateline rend="right">
                         <date>29. 9. 903</date>.</dateline>
-                    
                 </opener>
                 <p output="true">
                     <salute>lieber Hugo,</salute> vielleicht sehn Sie <persName key="A002002">Bahr</persName> in
-                    diesen Tagen, u. er käme Samstag auch nach <placeName key="A000263">Hietzing</placeName>? – </p>
-                <p>Wir freuen uns daß es Ihnen beiden bei uns behagte. Ihre sehr wahren Bemerkungen
+                    diesen Tagen, u er käme <anchor type="commentary" xml:id="KL445-1">Samstag</anchor> auch nach <placeName key="A000263">Hietzing</placeName>?–</p>
+                <p>Wir freuen uns dss es Ihnen beiden bei uns behagl ist. Ihre sehr wahren Bemerkungen
                     über Spiel und Gesang hat <persName key="A002038">Olga</persName> mit Einsicht gelesen.</p>
-                <p>Das Bild werden Sie haben; und einen schönen Rahmen obendrein.</p>
+                <p>Das <rs type="work" key="A020360">Bild</rs> werden Sie haben; und einen schönen Rahmen obendrein.</p>
                 <p>Mit dem Arbeiten geht es nun vorwärts.</p>
-                
                 <closer>Auf Wiedersehen.<lb/>Ihr <signed>A.</signed>
-                    
                 </closer>
             </div>
         </body>

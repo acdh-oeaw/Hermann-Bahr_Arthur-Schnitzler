@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 12. 9. 1901</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="239"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,8 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von A. S. mit Jahreszahl datiert:
-                           »901.«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler mit Jahreszahl datiert:
+                           »<quote>
+                                        <date>901</date>.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -83,28 +84,38 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00129"/>
+      <graphic url="MS-B-00005-B-000-00339"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                         <date>12. 9.</date>
                     </dateline>
-               <salute rend="center">lieber Arthur!</salute>
+               <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich habe Deine <rs type="work" key="A020022 A020023">Stücke</rs> gestern abends bekommen, nachts gelesen und heute früh dem
           <persName key="A002032">Bukovics</persName> gegeben. Die Idee, die Du in ihnen mit Deiner wunderbaren, ja ganz
-          einzigen Technik ausführst, geht mir sehr nahe und berührt mich sehr; in <rs type="work" key="A020335">einer</rs>
-          der »<rs type="work" key="A020335">Existenzen</rs>«, für <persName key="A002035">Salten</persName>, ist was ähnliches gemeint, 
+               einzigen Technik ausführst, geht mir sehr nahe und berührt mich sehr; in <anchor type="commentary" xml:id="KL239-1">
+                        <rs type="work" key="A020335">einer</rs>
+          der »<rs type="work" key="A020335">Existenzen</rs>«, für <persName key="A002035">Salten</persName>
+                    </anchor>, ist was ähnliches gemeint, 
         nur pantomimisch und schon deshalb roher dargestellt. In den »<workName key="A020022">Lebendigen Stunden</workName>« möchte ich die
           Verstorbene deutlicher<pb/> zu sehen kriegen. Im »<workName key="A020023">Dolch</workName>« fürchte ich die Dummheit
           unserer Premièren-Idioten; auch macht mir Sorge, ob die zweite Verwandlung rapid
           genug geschehen kann. Aber von alledem mündlich und <add place="above">in</add> Ruhe, wenn ich nicht
-          gerade auf dem Sprung zur <workName key="A020131">Stuart</workName> bin.</p>
+          gerade auf dem Sprung zur <anchor type="commentary" xml:id="KL239-2">
+                        <workName key="A020131">Stuart</workName>
+                    </anchor> bin.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
                     <signed>Hermann</signed>
                 </closer>

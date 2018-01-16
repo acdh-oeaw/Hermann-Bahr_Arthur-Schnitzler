@@ -4,8 +4,8 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-                <title level="a">Aufzeichnung von Bahr, [19]. 5. 1906</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+                <title level="a">Aufzeichnung von Bahr, [19.] 5. 1906</title>
                 <author key="A002002">Bahr, Hermann</author>
                 <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-D" n="490"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -56,14 +56,14 @@
                     </witness>
                 </listWit>
                 <listBibl>
-               <biblStruct default="false">
+               <biblStruct corresp="HBT5" default="false">
                     <monogr>
                         <title level="m">1906–1908</title>
                         <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor>
                         <imprint>
                         <date when="2003">2003</date>
                      </imprint>
-                        <biblScope type="pp">14</biblScope>
+                        <biblScope unit="pp">14</biblScope>
                     </monogr>   
                     <monogr>
                         <author key="A002002">Bahr, Hermann</author>
@@ -73,8 +73,8 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            <biblScope type="vol">V</biblScope>
-                        </imprint>
+                            </imprint>
+                            <biblScope unit="vol">V</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
@@ -92,7 +92,7 @@
     </teiHeader>
    <text type="diaryDay">
       <body>
-        <div type="writingSession" n="1" rend="indent0">
+        <div type="writingSession" n="1">
             <p output="true">
                     <hi rend="underline" n="1">
                   <date when="19060519" n="01">Mai.</date>
@@ -102,15 +102,28 @@
             
             <p output="true">Ein paar Mal bei <persName key="A002048">Kainz</persName>.</p>
             <p output="true">Ein Mal mit <persName key="A002052">Bassermann</persName>.</p>
-            <p output="true">Nach <workName key="A020388">Elga</workName> und <workName key="A020083">Einsamem Weg</workName> 
+            <p output="true">Nach <anchor type="commentary" xml:id="KD490-3">
+                        <workName key="A020388">Elga</workName>
+                    </anchor> und <workName key="A020083">Einsamem Weg</workName> 
                     mit <persName key="A002065">Brahm</persName> und <persName key="A002001 A002038">Schnitzlers</persName>.</p>
             <p output="true">Öfter bei <persName key="A002089">Fred</persName> im Sanatorium.</p>
-            <p output="true">Mit <persName key="A002080">M.</persName> in <workName key="A020068">Rosmersholm</workName>.</p>
-            <p output="true">8. <workName key="A020039">Tristan</workName>.</p>
-            <p output="true">17, 18, 19. In <placeName key="A000853">
+            <p output="true">Mit <persName key="A002080">M.</persName> in <anchor type="commentary" xml:id="KD490-4">
+                        <workName key="A020068">Rosmersholm</workName>
+                    </anchor>.</p>
+            <p output="true">
+                    <date>8.</date>
+                    <space unit="chars" quantity="1"/>
+                    <workName key="A020039">Tristan</workName>.</p>
+            <p output="true">
+                    <date>17</date>, <date>18</date>, <date>19</date>. In <placeName key="A000853">
                         <settlement>Prag</settlement>
-               </placeName> bei <persName key="A002078">Reinhardt</persName>. Viel mit <persName key="A002084">Eysoldt</persName> und <persName key="A002087">Lucie Höflich</persName>.</p> 
-            <p output="true">Im <placeName key="A000292">böhmischen Nationaltheater</placeName>: <workName key="A020750">Julius Caesar</workName>. Mit dem Regisseur <persName key="A002473">Kvapil</persName>.</p>
+                    </placeName>
+                    <space unit="chars" quantity="1"/>
+                    <anchor type="commentary" xml:id="KD490-2">bei <persName key="A002078">Reinhardt</persName>
+                    </anchor>. Viel mit <persName key="A002084">Eysoldt</persName> und <persName key="A002087">Lucie Höflich</persName>.</p> 
+            <p output="true">Im <placeName key="A000292">böhmischen Nationaltheater</placeName>: <anchor type="commentary" xml:id="KD490-1">
+                        <workName key="A020750">Julius Caesar</workName>
+                    </anchor>. Mit dem Regisseur <persName key="A002473">Kvapil</persName>.</p>
         </div>
       </body>
    </text>

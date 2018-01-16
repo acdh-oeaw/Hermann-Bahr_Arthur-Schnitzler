@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 14. 3. 1896</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="183"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +82,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00055"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -96,10 +101,12 @@
                     </dateline>
                <salute rend="center">Lieber Arthur, </salute>
             </opener>
-            <p>besten Dank für Deine Zeilen. Ich sehe ein, was Du sagst, und wi<unclear>ll</unclear> Dir durchaus
-          nicht drängend die Stimmung verderben. Jedenfalls halte ich das am 4. April
+            <p>besten Dank für <anchor type="label" xml:id="LL183-1">Deine Zeilen</anchor>. Ich sehe ein, was Du sagst, und wi<damage agent="ink">
+                        <supplied>ll</supplied>
+                    </damage> Dir durchaus
+          nicht <anchor type="commentary" xml:id="KL183-1">drängend die Stimmung</anchor> verderben. Jedenfalls halte ich das am <date>4. April</date>
           erscheinende <rs type="org" key="A080011">Osterheft</rs> für Dich frei und eventuell auch das nächste. Angenehm
-          wäre es mir, wenn Du mich etwa bis zum 23. d. benachrichtigen wolltest, wie
+          wäre es mir, wenn Du mich etwa bis zum <date>23. d.</date> benachrichtigen wolltest, wie
           meine Chancen stehen.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
                     <signed>Hermann</signed>

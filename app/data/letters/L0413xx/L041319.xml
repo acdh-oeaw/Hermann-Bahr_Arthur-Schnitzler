@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 28. 6. 1909</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="319"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Kartenbrief</p>
+                        <p>eh. Kartenbrief, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000935">Bayreuth</placeName>
                            <date when="19090629">29 Juni 09</date>
@@ -92,11 +92,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00279"/>
+      <graphic url="MS-B-00005-B-000-00280"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -126,13 +132,13 @@
                     </dateline>
             </opener>
             <p>Dank schön, <salute>lieber Arthur, </salute>für Deine so lieben Zeilen!</p>
-            <p>Ich denke, daß dann vielleicht nicht blos Du sagen wirst: Schad! Oft denke ich das.</p>
+            <p>Ich denke, daß dann vielleicht nicht blos Du sagen wirst: <anchor type="label" xml:id="LL319-1">Schad!</anchor> Oft denke ich das.</p>
             <p>Hoffentlich gehts Deinem <rs type="person" key="A002083">Buben</rs> schon wieder gut.</p>
             <p>Hier ists jetzt, noch ganz ohne »Fremde« (und die »Künstler« findet auch nur, wer sie sehr sucht), 
          unbeschreiblich schön und man spürt in dieser einzigen Landschaft doch, daß es ums Deutsche schon 
          was ist, dort wos aus der Erde wächst (aber nicht in <placeName key="A000853">
                         <settlement>Prag</settlement>
-               </placeName>).</p>
+                    </placeName>).</p>
             <p>Wärst Du hier!</p>
             <p>Hier könnte man reden.</p>
             <closer>Grüß herzlichst Deine liebe <rs type="person" key="A002038">Frau</rs>.<lb/>In

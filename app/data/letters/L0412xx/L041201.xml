@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Hofmannsthal und Schnitzler an Bahr, 3. 7. 1902</title>
             <author key="A002011">Hofmannsthal, Hugo von</author>
             <author key="A002001">Schnitzler, Arthur</author>
@@ -20,7 +20,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +36,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="201"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,9 +72,11 @@
                         <idno>HS AM 49090 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Bleistift, 2 Verf., Motiv: »<placeName key="A000792">
-                                        <settlement>Matrei</settlement>
-                                    </placeName>«</p>
+                        <p>eh. Ansichtskarte, Motiv: »<quote>
+                                        <placeName key="A000792">
+                                            <settlement>Matrei</settlement>
+                                        </placeName>
+                                    </quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A000792">Deutsch-Matrei</placeName>
                            <date when="19020703">3/7 <supplied>1902</supplied>
@@ -101,6 +103,7 @@
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="missing_TMW"/>     </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -128,23 +131,20 @@
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Das was Sie über’n <rs type="work" key="A021208" subtype="local-short">Automobil</rs> geschrieben haben, war <hi rend="underline" n="1">sehr</hi> gut.</p>
+            <p>Das was Sie über’n <anchor type="commentary" xml:id="KL201-1">
+                        <rs type="work" key="A021208">Automobil</rs>
+                    </anchor> geschrieben haben, war <hi rend="underline" n="1">sehr</hi> gut.</p>
             <p>
-                    <date>3 VII 02.</date>
-            </p>
+                    <date>3 VII 02</date>.</p>
             <closer>Viele Grüße<lb/>
-               <signed>
-                        <hi rend="latintype">Hugo</hi>
-                    </signed>
+               <signed>Hugo</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
             <p>
                     <handShift scribe="A002001"/>Ich auch</p>
             <closer>
-                    <signed>
-                        <hi rend="latintype">Arthur.</hi>
-                    </signed>
+                    <signed>Arthur.</signed>
             </closer>
      
          </div>

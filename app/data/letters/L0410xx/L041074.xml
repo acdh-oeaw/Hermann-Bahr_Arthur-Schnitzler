@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 5. 12. 1904</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="074"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -73,17 +73,17 @@
                </witness>
             </listWit>
             <listBibl>
-               <biblStruct default="false">
+               <biblStruct corresp="ASB1" default="false">
                   <monogr>
                      <author key="A002001">Schnitzler, Arthur</author>
                      <title level="m">Briefe 1875–1912</title>
-                     <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1981">1981</date>
                      </imprint>
-                     <biblScope type="pp">499</biblScope>
+                     <biblScope unit="pp">499</biblScope>
                   </monogr>
                </biblStruct>
                <biblStruct default="false">
@@ -100,12 +100,12 @@
                         <publisher>The University of North Carolina Press</publisher>
                         <date when="1978">1978</date>
                      </imprint>
-                     <biblScope type="pp">86</biblScope>
+                     <biblScope unit="pp">86</biblScope>
                   </monogr>
                   <series>
                      <title level="s">University of North Carolina studies in the Germanic languages
                         and literatures</title>
-                     <biblScope type="nr">89</biblScope>
+                     <biblScope unit="nr">89</biblScope>
                   </series>
                </biblStruct>
             </listBibl>
@@ -116,17 +116,23 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170509">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM23369Ba"/>
+     <graphic url="HS_AM23369Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <seg rend="right">
+               <p rend="right">
                   <placeName key="A000333">XVIII <hi rend="latintype">Spoettelg.</hi> 7</placeName>
-               </seg>
+               </p>
                <dateline rend="right">
                   <hi rend="latintype">
                      <placeName key="A000250">
@@ -138,7 +144,7 @@
                <salute>lieber Hermann,</salute>
             </opener>
             <p>dictiren u sitzen (<anchor type="commentary" xml:id="KL074-2">
-                        <workName key="A020089">Relief</workName>
+                        <rs type="work" key="A020089">Relief</rs>
                     </anchor>) und allerlei andres haben mich abgehalten, dich aufzusuchen und dir
           die vielen Grüße persönlich zu überbringen, die mir, am heftigsten von Frau 
              <persName key="A002084">
@@ -160,9 +166,7 @@
                         </placeName>
                     </anchor> wundervoll gegeben haben soll. –</p>
             <closer>Auf Wiedersehen und herzliche Grüße<pb/> auch von meiner <rs type="person" key="A002038">Frau</rs>.<lb/>Dein<lb/>
-               <signed>
-                        <hi rend="latintype">A.</hi>
-                    </signed>
+               <signed>A.</signed>
             </closer>
          </div>
       </body>

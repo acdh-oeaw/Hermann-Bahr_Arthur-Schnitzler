@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur und Olga Schnitzler an Bahr, 29. 4. 1908</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <author key="A002038">Schnitzler, Olga</author>
@@ -20,7 +20,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +36,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="105"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,9 +72,11 @@
                         <idno>HS AM 60146 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »Lago di Garda – <placeName key="A000666">
+                        <p>eh. Ansichtskarte, Motiv: »<quote>
+                                        <geogName type="lake">Lago di Garda</geogName> – <placeName key="A000666">
                               <settlement>Riva</settlement>
-                           </placeName> e Monte Baldo«, 2 Verf., Bleistift</p>
+                                        </placeName> e <geogName type="mountain">Monte Baldo</geogName>
+                                    </quote>«, Olga S. in Lateinschrift, Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000666">Riva</placeName>
                            <date when="19080430">30. IV. <supplied>1908</supplied>
@@ -95,9 +97,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">102</biblScope>
+                  <biblScope unit="pp">102</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -107,10 +109,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM60146Ba"/>
+     <graphic url="HS_AM60146Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -130,21 +137,17 @@
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Herzliche Grüße <add place="mixed">und Auf Wiedersehen!</add>
-            </p>
-            <closer>Dein<lb/>
-               <signed>
-                        <hi rend="latintype">Arthur
-               </hi>
-                    </signed>
+            <p>Herzliche Grüße <add place="inline">und Auf Wiedersehen!</add>
+                </p>
+            <closer>Dein <signed>Arthur
+               </signed>
             </closer>
          </div>
          <div n="2" type="writingSession">
-            <p>
-                    <handShift scribe="A002038"/>Herzlichste Grüsse</p>
             <closer>
-                    <signed>Olga Schnitzler</signed>.
-        </closer>
+                    <handShift scribe="A002038"/>Herzlichste Grüsse<lb/>
+                    <signed>Olga Schnitzler.</signed>
+                </closer>
             <postscript>
                <p>
                         <handShift scribe="A002001"/>

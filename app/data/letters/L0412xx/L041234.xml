@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Bahr an Schnitzler, [27.? 2. 1901]</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Bahr an Schnitzler, [13. 3.? 1901]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="234"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -56,7 +56,7 @@
                         <placeName key="A000250">[Wien]</placeName>
                     </placeAddressee>
                <dateSender>
-                  <date when="19010227" n="01">[27.? 2. 1901]</date>
+                  <date when="19010313" n="01">[13. 3.? 1901]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -70,8 +70,8 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von A. S. ergänztes Datum »Feber?
-                           901«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler ergänztes Datum: »<quote>Feber? 
+                           901</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -83,11 +83,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
+         <change who="KI MAM" when="20170626">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00119"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -96,14 +101,17 @@
                     </dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich bin morgen Vormittag heraußen, doch nur bis 12, wo ich ins <placeName key="A000221">Künstlerhaus</placeName> muß. 
-        Freitag, Samstag unbestimmt, wegen <placeName key="A000207">Secession</placeName>.
-          Ganz sicher Dienstag, den ganzen Vormittag. Hast Du was Dringendes, so morgen oder Samstag um 6 in meiner <placeName key="A000884">Redaction</placeName>.</p>
+            <p>Ich bin morgen Vormittag heraußen, doch nur bis 12, wo ich ins <anchor type="commentary" xml:id="KL234-2">
+                        <placeName key="A000221">Künstlerhaus</placeName>
+                    </anchor> muß. 
+        <date>Freitag</date>, <date>Samstag</date> unbestimmt, wegen <anchor type="commentary" xml:id="KL234-1">
+                        <placeName key="A000207">Secession</placeName>
+                    </anchor>.
+          Ganz sicher <date>Dienstag</date>, den ganzen Vormittag. Hast Du was Dringendes, so morgen oder <date>Samstag</date> um 6 in meiner <placeName key="A000884">Redaction</placeName>.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
                     <signed>Hermann</signed>
                 </closer>
          </div>
       </body>
   </text>
-</TEI><!-- Datum: Vermutlich 27. Februar, weil am 16. März erscheint die Doppelbesprechung Sezession und Künstlerhaus. In der Woche davor (20.) hätte der Prozess stattgefunden,
-am 8. wurde (N.W.T., Feb. 8., S. 8) erst die Einladung zur Kunstwerkeinreichung in die Secession ausgegeben..-->
+</TEI>

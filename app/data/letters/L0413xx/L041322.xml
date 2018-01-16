@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 10. 11. 1908</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="322"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<placeName key="A000335">Lindau i. B. / Partie im Hafen mit Bayrischen Hof</placeName> und <placeName key="A000885">alten Leuchtturm</placeName>«, Bleistift.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>
+                                        <placeName key="A000335">Lindau i. B. / Partie im Hafen mit Bayrischen Hof</placeName> und <placeName key="A000885">alten Leuchtturm</placeName>
+                                    </quote>«, Bleistift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001054">Lind. K. B. Bahnhof</placeName>
                            <date when="19081110">10 Nov. 08</date>
@@ -86,11 +88,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00284"/>
+      <graphic url="MS-B-00005-B-000-00285"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -109,19 +117,20 @@
                         <date>10. 11.</date>
                     </dateline>
             </opener>
-            <p>Ich habe Dich am 5. in <placeName key="A000532">
+            <p>Ich habe Dich am <date>5.</date> in <placeName key="A000532">
                   <settlement>Frankfurt</settlement>
-               </placeName> und 
-        gestern in <placeName key="A000685">
-                        <settlement>Zürich</settlement>
-               </placeName> besungen, <add place="above">über</add>morgen 
+                    </placeName> und 
+        gestern <anchor type="commentary" xml:id="KL322-1">in <placeName key="A000685">
+                            <settlement>Zürich</settlement>
+                        </placeName>
+                    </anchor> besungen, <add place="above">über</add>morgen 
         wirst Dus auch noch nicht in <placeName key="A001082">
                         <settlement>Mannheim</settlement>
-               </placeName>. Verschaff 
+                    </placeName>. Verschaff 
         Dir das letzte Heft des »<orgName key="A080134">Morgen</orgName>«, wo 
         ich <rs type="work" key="A020135">einiges</rs> zum »<workName key="A020052">Weg ins Freie</workName>« gesagt habe.</p>
             <closer>Mit vielen Grüßen an Deine liebe <rs type="person" key="A002038">Frau</rs>
-               <lb/>herzlichst<lb/>
+                    <lb/>herzlichst<lb/>
                     <signed>Hermann</signed>
                 </closer>
          </div>

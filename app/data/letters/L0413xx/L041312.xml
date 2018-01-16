@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 29. 9. 1907</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="312"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -82,11 +82,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00265"/>
+      <graphic url="MS-B-00005-B-000-00266"/>
+   </facsimile>
+   <text type="letter">
       <body>
      
          <div type="writingSession" n="1">
@@ -95,7 +101,7 @@
                         <date>29. 9. 07</date>.</dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich habe, seit ich zurück bin, jeden Tag zu Dir
+            <p>Ich habe, seit ich <anchor type="commentary" xml:id="KL312-1">zurück</anchor> bin, jeden Tag zu Dir
         wollen, jeden Tag kam was anderes dazwischen und ich war so gehetzt, dass es leider
         wirklich nicht gieng. Nun wieder nach <placeName key="A000368">
                         <settlement>Berlin</settlement>
@@ -111,8 +117,8 @@
                     <space unit="chars" quantity="1"/>geben zu lassen und es dann an <persName key="A002007">Richard</persName> weiter zu geben; ich habe leider jetzt kein anderes Exemplar
         frei und wünsche sehr, dass Du den Scherz kennen lernen mögest.</p>
             <closer>Herzlichst<lb/>Dein alter<lb/>
-               <handShift scribe="A002002"/>
-                    <signed>Hermann</signed>
+               <signed>
+                        <handShift scribe="A002002"/>Hermann</signed>
                 </closer>
          </div>
       </body>

@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 24. 9. 1896</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="187"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +82,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00063"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -95,7 +100,9 @@
                     </dateline>
                <salute rend="center">Lieber Arthur!  </salute>
                 </opener>
-            <p>Besten Dank für Deine liebe Gratulation – an dem <rs type="work" key="A020321" subtype="local-short">Stück</rs> ist ja nichts, 
+            <p>Besten Dank für Deine liebe Gratulation – an dem <anchor type="commentary" xml:id="KL187-1">
+                        <rs type="work" key="A020321">Stück</rs>
+                    </anchor> ist ja nichts, 
          ich habe nur einmal probieren wollen, ob man mit dem bloßen Verstande ein »gutes 
          <rs type="work" key="A020321">Theaterstück</rs>« schreiben kann, und es scheint fast, daß mir 
          das für <placeName key="A000368">

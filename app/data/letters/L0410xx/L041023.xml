@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 1. 12. 1898</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="023"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -87,9 +87,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">64</biblScope>
+                  <biblScope unit="pp">64</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -99,37 +99,49 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+      <graphic url="HS_AM60159Ba"/> 
+      <graphic url="HS_AM60159Ba_R"/>
+   </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <p>
-                    <salute>Lieber Hermann, </salute>ich danke dir herzlich für deine freundlichen <rs type="work" key="A020200">Glückwünsche</rs>. Den »<workName key="A020012">Kakadu</workName>« hat die <orgName key="A080014">F<damage agent="hole">
-                     <supplied>reie</supplied>
-                  </damage> Bühne</orgName> schon (»<orgName key="A080014">Die Neue Deutsche
-                  Rundschau</orgName>« mein’ ich); er soll, während der Recurs wegen der <anchor type="commentary" xml:id="KL023-1">Freigabe</anchor> im Gang ist, an der
+                    <salute>Lieber Hermann, </salute>ich danke dir herzlich für deine freundlichen <rs type="work" key="A020200">Glückw<damage agent="hole">
+                            <supplied>ün</supplied>
+                        </damage>sche</rs>. Den »<workName key="A020012">Kakadu</workName>« hat die <orgName key="A080014">F<damage agent="hole">
+                            <supplied>rei</supplied>
+                        </damage>e Bühne</orgName> schon (»<orgName key="A080014">Die <hi rend="latintype">Neue Deutsche
+                  Rundschau</hi>
+                    </orgName>« mein’ ich); er soll, während der Recurs wegen der <anchor type="commentary" xml:id="KL023-3">Freigabe</anchor> im Gang ist, an der
                   »<placeName key="A000217">Freien Bühne</placeName>« in
                      <placeName key="A000368">
                         <settlement>Berlin</settlement>
-                    </placeName> aufgeführt werden. Jedenfalls ist nun mein ganzer Einakter Abend hinaus
-               geschoben. So ist es vorläufig noch verfrüht, dir von der »<workName key="A020013">Gefährtin</workName>«, einem dieser Einakter, zu reden, den<pb/> ich keineswegs
+                    </placeName> aufgeführt werden. Jedenfalls ist nun mein ganzer <rs type="work" key="A021324">Einakter Abend</rs> 
+               hinausgeschoben. So ist es vorläufig noch verfrüht, dir von der »<workName key="A020013">Gefährtin</workName>«, einem dieser Einakter, zu reden, den ich<pb/> keineswegs
                   <anchor type="label" xml:id="LL023-1">
                         <hi rend="underline" n="1">vor</hi>
                     </anchor> der Aufführg erscheinen lassen möchte, den ich
-               aber b<damage agent="hole">
-                  <supplied>isher</supplied>
-               </damage> noch nicht vergeben habe. – Du <damage agent="hole">
-                  <supplied>ho</supplied>
-               </damage>ffst meine <orgName key="A080009">Kosmopolis-Honorarforderungen</orgName>
-               durchzusetzen – das wäre sehr schön – denn die <orgName key="A080009">Kosmopolis</orgName> ist verkracht und schuldet mir ungezählte Mark. Also versuch’s<subst>
+               aber bi<damage agent="hole">
+                        <supplied>sh</supplied>
+                    </damage>er noch nicht vergeben habe. – Du <damage agent="hole">
+                        <supplied>hof</supplied>
+                    </damage>fst meine <orgName key="A080009">
+                        <hi rend="latintype">Kosmopolis</hi>-Honorarforderungen</orgName>
+               durchzusetzen – das wäre sehr schön – denn die <orgName key="A080009">
+                        <hi rend="latintype">Kosmopolis</hi>
+                    </orgName> ist <anchor type="commentary" xml:id="KL023-2">verkracht und schuldet mir ungezählte Mark</anchor>. Also versuch’s<subst>
                   <del rend="strikethrough">, –</del>
                   <add place="overwritten">.</add>
                </subst>
                 </p>
-            <p>– Auf baldige Gratulationsrevanche im <placeName key="A000220">Volkstheater</placeName>.</p>
+            <p>– Auf baldige <anchor type="commentary" xml:id="KL023-1">Gratulationsrevanche</anchor> im <placeName key="A000220">Volkstheater</placeName>.</p>
             <closer>Herzlichen Gruss. Dein <signed>Arthur Sch.</signed>
                 </closer>
             <postscript>

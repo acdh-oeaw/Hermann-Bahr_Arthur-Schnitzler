@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Olga und Arthur Schnitzler an Bahr, 6. 7. 1908</title>
             <author key="A002038">Schnitzler, Olga</author>
             <author key="A002001">Schnitzler, Arthur</author>
@@ -20,7 +20,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +36,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="107"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,7 +72,9 @@
                         <idno>HS AM 60163 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, 2 Verf., Olga S. (Lateinschrift), A. S. (Kurrent), Motiv: <persName key="A002148">F. A. C. M. Reisch</persName>: »<placeName key="A000668">Tirol Villa Heufler, Seis am Schlern</placeName>«, bis auf Tirol hs. unterstrichen.</p>
+                        <p>eh. Ansichtskarte, Motiv: <persName key="A002148">F. A. C. M. Reisch</persName>: »<quote>
+                                        <placeName key="A000668">Tirol Villa Heufler, Seis am Schlern</placeName>
+                                    </quote>«, bis auf Tirol hs. unterstrichen, Olga: Lateinschrift.</p>
                         <stamp n="1">
                            <date when="19080706">6. 7. 8</date>
                         </stamp>
@@ -91,9 +93,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">102</biblScope>
+                  <biblScope unit="pp">102</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -103,10 +105,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM60163Ba"/>
+     <graphic url="HS_AM60163Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -128,23 +135,21 @@
                <salute>Lieber Herr Bahr,</salute>
             </opener>
             <p>
-                    <rs type="person" key="A002038">wir</rs> haben Ihr wunderschönes <rs type="work" key="A020102" subtype="local-short">Feuilleton über <persName key="A002149">Moppchen</persName>
+                    <rs type="person" key="A002038">wir</rs> haben Ihr wunderschönes <rs type="work" key="A020102">Feuilleton <anchor type="commentary" xml:id="KL107-1">über <persName key="A002149">Moppchen</persName>
+                        </anchor>
                </rs> mit
           Ergriffenheit gelesen, schicken Ihnen die herzlichsten Grüsse und viel gute
           Wünsche für den Sommer.</p>
             <closer>
-                    <signed>Olga Schnitzler</signed>.</closer>
+                    <signed>Olga Schnitzler.</signed>
+                </closer>
          </div>
          <div type="writingSession" n="2">
             <p>
-                    <handShift scribe="A002001"/>He<damage>
-                  <supplied>rzl</supplied>
-               </damage>ichst dein</p>
-            <closer>
-                    <signed>
-                        <hi rend="latintype">Arthur</hi>
-                    </signed>.<pb/>
-                </closer>
+                    <handShift scribe="A002001"/>He<damage agent="hole">
+                        <supplied>rzl</supplied>
+                    </damage>ichst dein <signed>Arthur</signed>.<pb/>
+                </p>
          </div>
          <div type="writingSession" n="3">
             <p>

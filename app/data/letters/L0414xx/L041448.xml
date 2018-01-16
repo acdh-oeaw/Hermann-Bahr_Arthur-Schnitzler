@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 20. 8. 1904</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="448"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -64,17 +64,30 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,112</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 2 Bl., 6 S.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">197–199</biblScope>
+                        <biblScope unit="pp">197–199</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -85,8 +98,10 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160311">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170627">Kollationiert</change>
+            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -98,73 +113,102 @@
                   <placeName key="A000250">
                             <settlement>Wien</settlement>
                         </placeName>
+                        <space unit="chars" quantity="1"/>
                         <date>20. 8. 904</date>
                     </dateline>
                 </opener>
                 <p>
-                    <salute>lieber Hugo, </salute> mit der <placeName key="A000630">Salzkammergut</placeName>reise
+                    <salute>lieber Hugo, </salute>mit der <placeName key="A000630">Salzk.gut</placeName>reise
                     steht es wie folgt: in diesen Tagen beende ich die erste flüchtige Niederschrift
-                    eines<pb/> neuen dreiaktigen <rs type="work" key="A020042">Stücks</rs>; die
-                        <persName key="A002780">Grünwald</persName> kommt etwa <date>25., 26.</date> und dann muß ich es, um es
+                    eines neuen dreiaktigen <rs type="work" key="A020042">Stücks</rs>; die
+                        <persName key="A002780">Grünwald</persName> kommt etwa <date>25.</date>, <date>26.</date>, und dann muss ich es, um es
                     übersichtlich vor mir zu haben, und weil das überhaupt zu den Etappen meiner
-                    Arbeitsweise gehört u mich sehr fördert, dictieren. Nun kann ich, auch weil der
-                    Anfangstag der <persName key="A002780">Grünwald</persName> noch nicht feststeht (ich bin ohne
-                    Nachricht, resp. Antwort von ihr), nicht auf den Tag bestimmen, wann ich fertig
-                    bin. Ich hoffe, es wird fügen, daß wir schon am <date>3.</date>
+                    Arbeitsweise gehört u mich sehr fördert, dictiren. Nun kann ich, auch weil der
+                    Anfangstag der <persName key="A002780">Grünwald</persName>
+                    <space unit="chars" quantity="1"/>
+                    <subst>
+                        <del rend="strikethrough">
+                            <unclear>sich</unclear>
+                        </del>
+                        <add place="above">noch nicht feststeht</add>
+                    </subst> (ich bin ohne
+                    Nachricht, resp Antwort von ihr), nicht<pb/> auf den Tag bestimmen, wann ich fertig
+                    bin. Ich <hi rend="underline" n="1">hoffe</hi>, es wird sich fügen, dass wir schon 
+                    am <date>3.</date>
                     <space unit="chars" quantity="1"/>
                     <placeName key="A000250">
                         <settlement>Wien</settlement>
                     </placeName> verlassen können;
-                    wird aber <persName key="A002134">Gerty</persName> auch warten, wenn der <date>4.</date> oder gar der <date>5.
+                    wird aber <hi rend="latintype">
+                        <persName key="A002134">Gerty</persName>
+                    </hi> auch warten, 
+                    wenn der <date>4.</date> oder gar der <date>5.
                     September</date> draus wird? Wir möchten natürlich auch sehr gern mit ihr zusammen
                     fahren; ich kann nur heute mich zur Bestimmung des Tages nicht verpflichten.
-                    Immerhin werde ich am ersten Dictiertag schon wissen können, wann wir bereit
-                    sind. Ich hoffe ja sehr, daß es der <date>3.</date> sein wird. Sie ersehen daraus jedenfalls,
-                    daß wir zu <placeName key="A000284">
+                    Immerhin werde ich am ersten Dictirtag schon wissen können, wann wir bereit
+                    sind. Ich hoffe ja sehr, dass es der <date>3.</date> sein wird. Sie ersehen daraus<pb/> 
+                    jedenfalls,
+                    dass wir zu <placeName key="A000284">
                   <settlement>Ischl</settlement>
-               </placeName> entschlossen
-                    sind, wo wir fürs erste Quartier nehmen, Ausflüge machen
+                    </placeName> entschlossen
+                    ist, wo wir fürs erste Quartier nehmen, Ausflüge machen
                     (<persName key="A002038">Olga</persName> kennt das <placeName key="A000630">Salzkammergut</placeName>
                     gar nicht), und ich sehne mich auch sehr nach ein paar schönen Radtouren mit
                     Ihnen. Auch zu einer Fußpartie (Rucksack!) wär ich zu haben. Nicht unmöglich ist
-                    es, daß ich dann auch noch mit <persName key="A002038">Olga</persName> weiterfahre,
+                    es, dass ich dann auch noch mit <persName key="A002038">Olga</persName> weiterfahre,
                     <placeName key="A000624">Tirol</placeName>,
                         <placeName key="A000495">
                   <settlement>Bozner</settlement>
-               </placeName> Gegend, und falls das
+                    </placeName> Gegend, und falls das
                     Wetter allzu herbstlich wird,
                         <placeName key="A000355">
                         <settlement>München</settlement>
                     </placeName>. Wir sehen uns ja
-                    schon am ersten <placeName key="A000413">
+                    jedenfalls schon am ersten<pb/>
+                    <space unit="chars" quantity="1"/>
+                    <placeName key="A000413">
                   <settlement>Ischl</settlement>
-               </placeName>er Tag,
+                    </placeName>er Tag,
                     aber sagen Sie mir doch gleich, wann Sie wieder in <placeName key="A000373">Rodaun</placeName>
                     zurück sein müssen oder wollen. Wohnen wollen wir in der
-                    <placeName key="A000856">Kaiserkrone</placeName>. – </p>
+                    <placeName key="A000856">Kaiserkrone</placeName>.–</p>
                 <p>Sind Sie mit dem »<workName key="A020587">geretteten</workName>« fertig? Mir geht es mit dem
-                    Arbeiten nicht übel und ginge mir gewiß noch besser, wenn nicht mein Widerwillen
+                    Arbeiten nicht übel und ginge mir gewiss noch besser, wenn nicht mein Widerwillen
                     gegen den phys. Akt des Schreibens immer beträchtlicher würde und sich oft genug
                     in leichten Schreibkrämpfen äußerte.</p>
-                <p>Danke sehr betreffs <persName key="A003881">V. S.</persName>; mein Ärger hat sich natürlich
-                    schon gelegt – natürlich würde es mich aber sehr freuen, wenn Ordnung in die
+                <p>Danke sehr betreffs <persName key="A003881">V. S.</persName>, mein Aerger hat sich natürlich
+                    schon gelegt – natürlich würde es mich aber<pb/> sehr freuen, wenn Ordnung in die
                     ganze Angelegenheit gebracht werden könnte und ich von
                     <placeName key="A000454">England</placeName>, <placeName key="A000778">Irland</placeName> u
-                    <placeName key="A000777">Schottland</placeName> nicht länger mißverstanden, verfolgt u
-                    geächtet würde. –<pb/>
-                </p>
-                <p>– <rs type="work" key="A020699">Vehse</rs> ist und bleibt ein kostbares Buch. Zudem
-                    studier ich, des Überblickes halber, Geschichte wie zur Matura. Ich wäre weiter
-                    als ich bin, wenn ich ein gebildeter Mensch wäre! </p>
+                    <placeName key="A000777">Schottland</placeName> nicht länger misverstanden <add place="above">verfolgt u
+                    geächtet</add> würde.–</p>
+                <p>– <hi rend="latintype">
+                        <rs type="work" key="A020699">Vehse</rs>
+                    </hi> ist und bleibt ein kostbares Buch. Zudem
+                    studier ich, des Überblickes halber, Geschichte <add place="above">wie</add> zur Matura. Ich wäre weiter
+                    als ich bin, wenn ich ein gebildeter Mensch wäre!</p>
                 <p>Was ists mit <persName key="A002007">Richard</persName>? Seine Karte mit
-                        <persName key="A002138">Paula</persName> und den <rs type="person" key="A002292 A002399 A002400">Kindern</rs> aus <gap quantity="3" reason="illegible" unit="chars"/> hab ich bekommen. Von sich
+                        <persName key="A002138">Paula</persName>
+                    <space unit="chars" quantity="1"/>
+                    <unclear>wie</unclear> den 
+                    <unclear>
+                        <rs type="person" key="A002292 A002399 A002400">Kindern</rs>
+                    </unclear>
+                    <space unit="chars" quantity="1"/>
+                    <unclear>an</unclear>
+                    <space unit="chars" quantity="1"/>
+                    <gap quantity="3" reason="illegible" unit="chars"/> 
+                    hab ich bekommen. Von sich
                     schreibt er nichts. Grüßen Sie alle, die mir lieb sind.</p>
-            <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
+                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.<pb/>
+                    </signed>
                 </closer>
                 <postscript>
-               <p>
-                        <persName key="A002134">Gerty</persName> wird wohl auch am liebsten mit dem Zehn Uhr Früh Zug fahren?<lb/>A.</p>
-                    <p output="true">Gestern Abend waren wir mit <persName key="A002002">Bahr</persName> (<placeName key="A000263">Hietzing</placeName>), dem’s
+                    <p>
+                        <hi rend="latintype">
+                            <persName key="A002134">Gerty</persName>
+                        </hi> wird wohl auch am liebsten mit dem Zehn Uhr Früh Zug fahren?<lb/>A.</p>
+                    <p output="true">Gestern Abend waren wir mit <persName key="A002002">Bahr</persName>, (<placeName key="A000263">Hietzing</placeName>) dem’s
                         recht gut, und was das wesentlichste ist, hoffnungsvoll zu gehen scheint.</p>
             </postscript>
             </div>

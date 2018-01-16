@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 29. 10. 1901</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="243"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,10 +70,12 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, Jahreszahl »901« von A. S. beim Datum ergänzt.</p>
+                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote>
+                                        <date>901</date>
+                                    </quote>« von Schnitzler beim Datum ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000263">Wien 13</placeName>
-                           <date when="19011030">30.10.01</date>
+                           <date when="19011030">30. 10. 01</date>
                         </stamp>
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
@@ -90,11 +92,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00136"/>
+      <graphic url="MS-B-00005-B-000-00137"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -113,9 +121,9 @@
                     </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Ich glaube, <persName key="A002034">Berger</persName> ist noch hier; Du kannst
+            <p>Ich glaube, <persName key="A002034">Berger</persName> ist <anchor type="commentary" xml:id="KL243-1">noch hier</anchor>; Du kannst
           es, da er Telephon hat, sofort erfahren.</p>
-            <p>– <workName key="A020017">Gustl</workName>–<persName key="A002049">Guttmann</persName> ist
+            <p>– <workName key="A020017">Gustl</workName> – <persName key="A002049">Guttmann</persName> ist
           echt. Es gibt nur ein <placeName key="A000250">
                         <settlement>Wien</settlement>
                     </placeName>, besonders für

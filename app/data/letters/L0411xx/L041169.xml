@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Bahr an Schnitzler, [2.–12. 7. 1894]</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Bahr an Schnitzler, [17.? 7. 1894]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="169"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -56,12 +56,13 @@
                         <placeName key="A000250">[Wien]</placeName>
                     </placeAddressee>
                <dateSender>
-                  <date when="18940702" n="2">[2.–12. 7. 1894]</date>
+                  <date when="18940717" n="1">[17.? 7. 1894]</date>
                </dateSender>
                <context/>
             </correspDesc>
             <listWit>
                <witness n="1">
+                  
                   <msDesc>
                      <msIdentifier>
                         <country>GB</country>            
@@ -70,7 +71,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, Bleistift, von A. S. datiert: »<date>Juli 94</date>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, Bleistift, von Schnitzler datiert: »<quote>
+                                        <date>Juli 94</date>
+                                    </quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,19 +85,24 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00035"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <p>Die Fahrt nach <placeName key="A000230">
                         <settlement>Salzburg</settlement>
-                    </placeName> werde ich wol nicht mitmachen können. Möchte aber gern
+                    </placeName> werde ich wol <anchor type="commentary" xml:id="KL169-1">nicht mitmachen können</anchor>. Möchte aber gern
           in <placeName key="A000413">
                   <settlement>Ischl</settlement>
-               </placeName> mit Dir zusammen sein. Paßt Dir<del rend="strikethrough">s</del>, 
+                    </placeName> mit Dir zusammen sein. Paßt Dir<del rend="strikethrough">s</del>, 
         wenn ich <date when="18940721">Samstag den 21.</date> in der Früh
           komme u. bis Abends bleibe?</p>
             <closer>Herzlichst grüßt<lb/>
@@ -103,4 +111,4 @@
          </div>
       </body>
   </text>
-</TEI><!-- Datiert: Schnitzler reist am 13. ab, also muss es davor sein. -->
+</TEI>

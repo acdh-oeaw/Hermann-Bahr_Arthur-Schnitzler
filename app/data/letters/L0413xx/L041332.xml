@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 17. 9. 1911</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="332"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -82,33 +82,36 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170531">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00304"/>
+   </facsimile>
+   <text type="letter">
       <body>
-     
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
                   </placeName>
-                  <space unit="chars" quantity="5"/>
+                        <space unit="chars" quantity="5"/>
                         <date>
          17. 9. 11.</date>
                     </dateline>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
-            <p>Möchtest Du so lieb sein, mir Dein <workName key="A020194">neues Stück</workName> zu schicken? 
+            <p>Möchtest Du so lieb sein, mir Dein <rs type="work" key="A020194" subtype="local-short">neues Stück</rs> zu schicken? 
         <persName key="A002000">Burckhard</persName> hat mir neulich so viel davon so schön erzählt, 
         dass ich noch neugieriger geworden bin. Und ich könnte es jetzt halbwegs in Ruhe lesen!</p>
             <p>Mit 
         den herzlichsten Grüssen von uns beiden, auch an Deine
             liebe <rs type="person" key="A002038">Frau</rs>,</p>
             <closer>Dein alter<lb/>
-               <handShift scribe="A002002"/>
-                    <signed>HermannBahr</signed>
+               <signed>
+                        <handShift scribe="A002002"/>HermannBahr</signed>
                 </closer>
          </div>
       </body>

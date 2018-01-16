@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 30. 12. 1901</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="244"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,8 +70,10 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von A. S. mit Jahreszahl datiert:
-                           »901«.</p>
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler mit Jahreszahl datiert:
+                           »<quote>
+                                        <date>901</date>
+                                    </quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -83,11 +85,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00138"/>
+      <graphic url="MS-B-00005-B-000-00139"/>
+      <graphic url="MS-B-00005-B-000-00140"/>
+      <graphic url="MS-B-00005-B-000-00141"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -111,11 +121,13 @@
         schlechtesten Zeit, weil es mir dabei gar nicht auf die Tantièmen ankommt, sondern
         auf den »literarischen Stempel«,<pb/> den nun das <placeName key="A000203">Deutsche Theater</placeName> einmal seinen Autoren
         gibt und der mir noch immer fehlt, und darauf, von seiner »Clique« ernst genommen zu
-        werden. Er hat mir über den »<workName key="A020031">Krampus</workName>« sehr
+        werden. Er hat mir über den »<anchor type="commentary" xml:id="KL244-4">
+                        <workName key="A020031">Krampus</workName>
+                    </anchor>« sehr
         anerkennend gesprochen, ihn aber schließlich leider doch abgelehnt; ich werde ihn
         nun einladen, der <placeName key="A000707">
                   <settlement>Hamburger</settlement>
-               </placeName>
+                    </placeName>
                     <space unit="chars" quantity="1"/>
                     <anchor type="commentary" xml:id="KL244-1">Première</anchor> (am 12 oder 13
         Januar) beizuwohnen; freilich ohne viel Hoffnung, <del rend="strikethrough">
@@ -131,10 +143,12 @@
             <postscript>
                <p>Prost Neujahr!</p>
                <p>
-                        <anchor type="textConst" xml:id="TL244-1">Den <persName key="A002050">Novelli</persName>, der über den »<workName key="A020012">Kakadu</workName>« noch immer nichts hören ließ, habe ich gestern <subst>
+                        <anchor type="textConst" xml:id="TL244-1">
+                            <anchor type="commentary" xml:id="KL244-3">Den <persName key="A002050">Novelli</persName>, der über den »<workName key="A020012">Kakadu</workName>« noch immer nichts hören ließ, habe ich gestern <subst>
                      <del rend="overwritten">d</del>
                      <add place="inline">D</add>
                   </subst>ringend gemahnt.</anchor>
+                        </anchor>
                </p>
             </postscript>
          </div>

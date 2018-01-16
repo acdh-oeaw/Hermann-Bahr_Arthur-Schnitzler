@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 20. 9. 1905</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="295"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -92,11 +92,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00234"/>
+      <graphic url="MS-B-00005-B-000-00235"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -121,17 +127,15 @@
           sehr großen artistischen Vergnügen. Es ist eine reizende Comödie und ich finde es
           wunderbar, wie Du in die Form des alten <placeName key="A000214">Burgtheater</placeName>stücks die feinste Psychologie und
           unsere neuesten Probleme gebracht hast. Mich stört nur manchmal der (gewiß beabsichtigte)
-          Cafehauston zwischen den beiden Freunden, eine Art von philosophisch<space unit="chars" quantity="1"/>
+          <anchor type="commentary" xml:id="KL295-1">Cafehauston</anchor> zwischen den beiden Freunden, eine Art von philosophisch<space unit="chars" quantity="1"/>
                <placeName key="A000250">wienerisch</placeName> jüdischer Schnoddrigkeit, die in früheren Jahren mir vielleicht
           noch geläufiger als Dir war, aber seien wir froh, daß es vorbei ist! Mehr noch stört mich
           Dein <rs type="work" key="A020042">Fürst</rs>. Warum mußt Du einen sich in einer heiklen
           Situation sehr nett benehmenden Menschen in eine Kaste versetzen, in welcher Roheit die
           Regel, sittlicher Takt unbekannt ist? Und wie unangenehm wird einem die Frau, die sich von
           so einem hofieren läßt! Aber dies alles mündlich. Könnte ich nicht nächste Woche einmal
-          Vormittag auf ein paar Stunden zu Dir kommen? An Abenden macht sichs zu schwer. Grüß Deine <rs type="person" key="A002038">Frau</rs> herzlichst!</p>
-            <closer>
-                    <signed>H.</signed>
-                </closer>
+          Vormittag auf ein paar Stunden zu Dir kommen? An Abenden macht sichs zu schwer. Grüß Deine <rs type="person" key="A002038">Frau</rs> herzlichst! <signed>H.</signed>
+                </p>
          </div>
       </body>
   </text>

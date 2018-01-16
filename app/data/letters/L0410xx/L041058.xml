@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 1[3]. 7. 1903</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="058"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -65,7 +65,7 @@
                         <idno>HS AM 60165 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte. Das Postscript auf der ersten Seite am Rand eingefügt</p>
+                        <p>eh. Karte.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -81,9 +81,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">79</biblScope>
+                  <biblScope unit="pp">79</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -93,44 +93,49 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM60165Ba"/>     
+     <graphic url="HS_AM60165Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline>
                         <date>1<damage agent="ink">
-                     <supplied>3</supplied>
-                  </damage>. 7. 903</date>.</dateline>
+                                <supplied>3</supplied>
+                            </damage>. 7. 903</date>.</dateline>
             </opener>
             <p>
                     <salute>lieber Hermann, </salute>
                <persName key="A002035">Salten</persName>
                     <space unit="chars" quantity="1"/>
                     <damage agent="hole">
-                  <supplied>ü</supplied>
-               </damage>bermittelt mir deine freundliche Frage, ob ich
+                        <supplied>ü</supplied>
+                    </damage>bermittelt mir deine freundliche Frage, ob ich
           was dagegen hätte, wenn du den <workName key="A020018">Reigen</workName> öffentlich vorzulesen versuchtest. Im
-          Gegenteil, es würde<pb/> mir <damage agent="hole">
-                  <supplied>se</supplied>
-               </damage>hr angenehm sein. Nu<damage agent="hole">
-                  <supplied>r</supplied>
-               </damage>
+          Gegenteil, es wird<pb/> mir <damage agent="hole">
+                        <supplied>se</supplied>
+                    </damage>hr angenehm sein. Nu<damage agent="hole">
+                        <supplied>r</supplied>
+                    </damage>
           werde ich zum ersten Mal bedauern – dass ich der Verfasser bin – weil ich
-          nemlich nicht als Zuhörer meiner eigenen Sachen unter dem Publikum sitzen kann! Auf Wiedersehen dein getreuer
+          nemlich nicht als Zuhörer meiner eigenen Sachen unter dem Publikum sitzen kann! Auf Wiedersehen dein getreuer <signed>A. S.</signed>
           </p>
-            <closer>
-                    <signed>
-                        <hi rend="latintype">A. S.</hi>
-                    </signed>
-            </closer>
             <postscript>
-               <p>Prächtig war dein <workName key="A020038">Dialog</workName> in der <orgName key="A080014">
-                     <hi rend="latintype">N.D.R</hi>
-                  </orgName>! –</p>
+               <p>
+                        <anchor type="textConst" xml:id="TL058-1">Prächtig war dein <anchor type="commentary" xml:id="KL058-1">
+                                <workName key="A020038">Dialog</workName>
+                            </anchor> in der <orgName key="A080014">
+                     <hi rend="latintype">N. D. R</hi>
+                  </orgName>! –</anchor>
+                    </p>
             </postscript>
          </div>
       </body>

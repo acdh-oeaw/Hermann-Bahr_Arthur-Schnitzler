@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 9. 1. 1902</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="245"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von A. S. mit Jahreszahl datiert: »902«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler mit Jahreszahl datiert: »<quote>
+                                        <date>902</date>
+                                    </quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +84,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00142"/>
+      <graphic url="MS-B-00005-B-000-00143"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -106,7 +114,7 @@
         <placeName key="A000214">burgtheaterunfähig</placeName> geworden; diese Auffassung bestehe weder in der Intendanz noch bei
         ihm selbst; die »<workName key="A020022">Lebendigen Stunden</workName>« kenne er
         leider nicht.</p>
-            <p>Ich fahre in einer Stunde ab. Überleg Dir, bis<pb/> ich wiederkomme, ob ich nicht 
+            <p>Ich <anchor type="commentary" xml:id="KL245-1">fahre in einer Stunde ab</anchor>. Überleg Dir, bis<pb/> ich wiederkomme, ob ich nicht 
          doch mit den <rs type="work" key="A020023 A020025 A020069">Stücken</rs> resolut hingehen darf.</p>
             <closer>Herzlichst<lb/>
                     <signed>Hermann</signed>

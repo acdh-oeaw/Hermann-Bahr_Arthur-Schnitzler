@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 20. 8. 1903</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="061"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,8 @@
                         <idno>HS AM 60164 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Ansichtskarte, Motiv: »<placeName key="A000662">Grand Hôtel, Lavarone</placeName>, 1200 Meter über dem Meer«</p>
+                        <p>Ansichtskarte, Motiv: »<quote>
+                                        <placeName key="A000662">Grand Hôtel, Lavarone</placeName>, 1200 Meter über dem Meer</quote>«</p>
                         <stamp n="1">
                            <placeName key="A000662">Lavaron</placeName>
                            <date when="19030821">21<supplied>. 8. 1903</supplied>
@@ -91,9 +92,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">79</biblScope>
+                  <biblScope unit="pp">79</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -103,10 +104,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170512">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM60164Ba"/> 
+     <graphic url="HS_AM60164Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -125,10 +132,8 @@
                <dateline>
                         <date>20. 8. 903</date>.</dateline>
             </opener>
-            <p>Herzlichen Gruss</p>
-            <closer>
-                    <signed>Arthur</signed>
-                </closer>
+            <p>Herzlichen Gruss <signed>Arthur</signed>
+                </p>
          </div>
       </body>
   </text>

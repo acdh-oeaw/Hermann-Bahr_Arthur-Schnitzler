@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 10. 11. 1903</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="263"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -82,11 +82,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00181"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -95,7 +100,7 @@
                     </dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Kannst Du mir, auf einer Correspondenzkarte, Auskunft geben, ob der Titel »Primarius« in <placeName key="A000351">Süddeutschland</placeName> üblich ist und 
+            <p>Kannst Du mir, auf einer Correspondenzkarte, Auskunft geben, ob der Titel »<anchor type="commentary" xml:id="KL263-1">Primarius</anchor>« in <placeName key="A000351">Süddeutschland</placeName> üblich ist und 
         wie jemand, der bei uns Primarius heißt, in <placeName key="A000351">Norddeutschland</placeName> genannt wird? 
         <persName key="A002065">Brahm</persName> weiß es nicht und gibt <subst>
                   <del rend="strikethrough">vor</del>
@@ -103,8 +108,10 @@
                </subst>, den Titel überhaupt nie gehört zu haben.</p>
             <p>
                     <persName key="A002065">Brahm</persName> telegrafiert mir eben um die Änderungen, die ich
-          in meinem <rs type="work" key="A020082" subtype="local-short">Stück</rs> noch machen will. Was geht da vor? Ich
-          denke doch, daß Du zunächst daran kommst. Es wäre mir wichtig, das Datum Deiner <rs type="work" key="A020083" subtype="local-short">Première</rs> zu erfahren, so bald Du es weißt.</p>
+          in meinem <rs type="work" key="A020082">Stück</rs> noch machen will. Was geht da vor? Ich
+               denke doch, daß Du zunächst daran kommst. Es wäre mir wichtig, das Datum Deiner <anchor type="commentary" xml:id="KL263-2">
+                        <rs type="work" key="A020083">Première</rs>
+                    </anchor> zu erfahren, so bald Du es weißt.</p>
             <closer>Verzeih die Hast dieser Zeilen<lb/>Deinem abgehetzten<lb/>
                     <signed>Hermann</signed>
                 </closer>

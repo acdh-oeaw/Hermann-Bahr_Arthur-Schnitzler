@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 24. 9. 1904</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="449"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -62,17 +62,54 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,115</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Briefkarte. Die originale Adressierung von unbekannter Hand geändert zu: »<quote>
+                                        <hi rend="latintype">
+                                            <placeName key="A001208">5 Badgasse</placeName> / <placeName key="A000373">Rodaun presso Vienna</placeName>
+                                        </hi>
+                                    </quote>«.</p>
+                                <stamp n="1">
+                                    <placeName key="A000268">18/1 Wien</placeName>
+                                    <date when="19040924">24<supplied>. 09.</supplied> 04</date>
+                                    <time>1</time>
+                                </stamp>
+                                <stamp n="2">
+                                    <placeName key="A000633">Venezia</placeName>
+                                </stamp>
+                                <stamp n="3">
+                                    <placeName key="A000633">Venezia</placeName>
+                                    <date when="19040925">25. <supplied>9. 0</supplied>4</date>
+                                    <time>
+                                        <gap quantity="1" reason="illegible"/>2M</time>
+                                </stamp>
+                                <stamp n="4">
+                                    <placeName key="A000373">
+                                        <supplied>Rod</supplied>aun</placeName>
+                                    <date when="19040927">
+                                        <unclear>27</unclear>. <supplied>9.</supplied> IV</date>
+                                </stamp>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">202–203</biblScope>
+                        <biblScope unit="pp">202–203</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -83,13 +120,32 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160309">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170627">Kollationiert</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
         <body>
-           
+           <div type="address">
+               <address>
+                   <addrLine>
+                        <hi rend="latintype">Herrn Hugo von Hofmannsthal</hi>
+                    </addrLine>
+                   <addrLine>
+                        <hi rend="latintype">
+                            <placeName key="A000633">
+                                <settlement>Venedig</settlement>
+                            </placeName>
+                        </hi>
+                    </addrLine>
+                   <addrLine>
+                        <hi rend="latintype">
+                            <placeName key="A001209">Hotel Europe</placeName>
+                        </hi>
+                    </addrLine>
+               </address>
+           </div>
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
@@ -100,26 +156,37 @@
                 <p>
                     <salute>lieber Hugo, </salute>
                <workName key="A021032">Jagd nach Liebe</workName> ist bei
-                        <persName key="A002267">Wassermann</persName>, ich habe ihm geschrieben, er möge Ihnen das
-                    Buch senden. – <workName key="A021033">Assy</workName> besitz ich gar nicht. – </p>
-                <p output="true">Ich fange erst in den nächsten Tagen ordentlich zu arbeiten, an. Hatte viel
-                    Kopfweh. Wir sind seit 20. Abend hier, waren in
+                    <hi rend="latintype">
+                        <persName key="A002267">Wassermann</persName>
+                    </hi>, ich habe ihm geschrieben, er möge Ihnen das
+                    Buch senden. – <hi rend="latintype">
+                        <workName key="A021033">Assy</workName>
+                    </hi> besitz ich gar nicht. –</p>
+                <p output="true">Ich fange erst in den nächsten Tagen ordentlich zu arbeiten an. Hatte viel
+                    Kopfweh. Wir sind seit <date>20.</date> Abend hier, waren in
                             <placeName key="A000230">
                         <settlement>Salzburg</settlement>
                     </placeName> mit
                         <persName key="A002007">Richard</persName> u <persName key="A002002">Bahr</persName> zusammen; sahen
-                    auch <persName key="A002079">Karg</persName> ein paar Mal.</p>
-                <p>Vielleicht kann uns <persName key="A002134">Gerty</persName> die Adresse der <rs type="person" key="A004119">Italienerin</rs> sagen, bei der sie einmal Stunden genommen hat. Adresse u
+                    auch <persName key="A002079">Karg</persName> ein paar Mal.–</p>
+                <p>Vielleicht kann uns <hi rend="latintype">
+                        <persName key="A002134">Gerty</persName>
+                    </hi> die Adresse der <rs type="person" key="A004119">Italienerin</rs> sagen, bei der sie einmal Stunden genommen hat. Adresse u
                     Namen. Einmal war sie bei mir, einer Übersetzung wegen, wohnte damals
-                        <placeName key="A000786">Hammerand</placeName>. –<pb/>
-                </p>
+                    <hi rend="latintype">
+                        <placeName key="A000786">Hammerand</placeName>
+                    </hi>. –</p>
                 <p>Gestern bin ich geradelt, <placeName key="A000471">Hütteldorf</placeName>,
                     <placeName key="A000370">Neuwaldegg</placeName>; es ist schon so herbstlich. Mein Rad hat
-                    sich auf der Reise recht erholt. Herzliche Grüße an Sie,
-                    <persName key="A002134">Gerty</persName>, <persName key="A002723">Hans</persName> von <rs type="person" key="A002038">uns
-                        beiden</rs>.</p>
-                <closer>Ihr <signed>A.</signed>
-                    
+                    sich auf der Reise recht erholt.</p>
+                <p>Herzliche Grüße, an Sie,
+                    <hi rend="latintype">
+                        <persName key="A002134">Gerty</persName>
+                    </hi>, <persName key="A002723">Hans</persName> von <rs type="person" key="A002038">uns
+                        beiden</rs>
+                </p>
+                <closer>Ihr<lb/>
+                    <signed>A.</signed>
                 </closer>
             </div>
         </body>

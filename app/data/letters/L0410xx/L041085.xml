@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Arthur und Olga Schnitzler an Bahr, 5. 5. 1905</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <author key="A002038">Schnitzler, Olga</author>
@@ -20,7 +20,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -36,7 +36,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="085"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -72,8 +72,9 @@
                         <idno>HS AM 60179 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »<placeName key="A000614">Semmering. Südbahnhôtel</placeName>, 1000 m Seehöhe«, 2 Verfasser</p>
-          &#160;<stamp n="1">
+                        <p>eh. Ansichtskarte, Motiv: »<quote>
+                                        <placeName key="A000614">Semmering. Südbahnhôtel</placeName>, 1000 m Seehöhe</quote>«.</p>
+           <stamp n="1">
                            <placeName key="A000389">Semmering</placeName>
                            <date when="19050505">5. 5. 05</date>
                            <time>6–7</time>
@@ -93,9 +94,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">88</biblScope>
+                  <biblScope unit="pp">88</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -105,10 +106,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+     <graphic url="HS_AM60179Ba"/>  
+     <graphic url="HS_AM60179Ba_R"/>
+  </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -128,17 +135,17 @@
                     </addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1" rend="indent0">
+         <div type="writingSession" n="1">
             <opener>
                <dateline>
                         <date>5. 5. 905</date>
                     </dateline>
             </opener>
-            <p>Herzliche Grüße! <signed>Arth Sch.</signed>
+            <p>Herzlichen Gruß! <signed>ArthSch.</signed>
                 </p>
             <p>
-                    <handShift scribe="A002038"/>
-        Ebenso! <signed>Olga Schnitzler</signed>.</p>
+                    <handShift scribe="A002038"/>Ebenso! <signed>OlgaSchnitzler.</signed>
+                </p>
          </div>
       </body>
   </text>

@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 29. 1. 1906</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="088"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,8 +70,7 @@
                         <idno>HS AM 23378 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1. Bl., 2 S., gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>)
-                        </p>
+                        <p>eh. Brief, 1. Bl., 2 S., gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -87,9 +86,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">93</biblScope>
+                  <biblScope unit="pp">93</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -99,10 +98,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170509">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23378Ba"/> 
+     <graphic url="HS_AM23378Ba_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -115,23 +119,22 @@
             <p>es thut mir natürlich riesig leid, dass man nun auch mein <rs type="work" key="A020043">Stück</rs> benützt, um dir was unangenehmes
           anzuthun, aber ich bitte dich ja nicht diesen Fall als Cabinetsfrage zwischen
           dir und der <rs type="place" key="A000209">Intendanz</rs> zu behandeln. Interessiren wird dich unter diesen
-          Umständen vielleicht dass mir das <placeName key="A000210">Petersburger <hi rend="underline" n="1">kaiser<pb/>liche</hi>
-            Theater</placeName> telegrafisch tausend Rubel Garantie bieten liess, wenn ich das
+          Umständen vielleicht dass mir das <anchor type="commentary" xml:id="KL088-2">
+                        <placeName key="A000210">Petersburger <hi rend="underline" n="1">kaiser<pb/>liche</hi>
+            Theater</placeName> telegrafisch tausend Rubel</anchor> Garantie bieten liess, wenn ich das
           Erscheinen des <rs type="work" key="A020043">
                   <hi rend="underline" n="1">Buches</hi>
                </rs>
                     <space unit="chars" quantity="1"/>
                     <add place="below">in deutscher Sprache</add> bis <anchor type="commentary" xml:id="KL088-1">Oktober hinausschieben</anchor> wollte.</p>
             <closer>Herzlichst dein<lb/>
-               <signed>
-                        <hi rend="latintype">A.</hi>
-                    </signed>
+               <signed>A.</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <p>Kann man dich nicht <damage agent="hole">
-                  <supplied>doc</supplied>
-               </damage>h vielleicht einmal sehen? – </p>
+            <p>Kann man dich nicht d<damage agent="hole">
+                        <supplied>oc</supplied>
+                    </damage>h vielleicht einmal sehen? – </p>
             <p>Viele Grüße von meiner <rs type="person" key="A002038">Frau</rs>.</p>
          </div>
       </body>

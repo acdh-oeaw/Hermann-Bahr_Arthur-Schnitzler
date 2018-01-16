@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 11. 11. 1896</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="191"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +82,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00070"/>
+      <graphic url="MS-B-00005-B-000-00071"/>
+      
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -98,11 +105,15 @@
             <p>Ich werde mich sehr freuen, Dich bei mir zu sehen. Donnerstag, Freitag, Samstag bin ich zur
           angegebenen Zeit, von 11–1, meistens nicht daheim. An den anderen Tagen<pb/> ist es
           ziemlich sicher, daß Du mich triffst, am Sichersten natürlich, wenn Du noch so
-          freundlich bist zu telephonieren. Ich wohne jetzt <placeName key="A000637">IX Porzellangasse 37</placeName> 4.
-          St., mit Aufzug. Komm bald; ich laß Dich dann nicht mehr fort, bis Du mir die neue <rs type="work" key="A020128" subtype="local-short">Novelle</rs> zugeschworen
+          freundlich bist zu telephonieren. Ich <anchor type="commentary" xml:id="KL191-1">wohne jetzt</anchor>
+                    <space unit="chars" quantity="1"/>
+                    <placeName key="A000637">IX Porzellangasse 37</placeName> 4.
+          St., mit Aufzug. Komm bald; ich laß Dich dann nicht mehr fort, bis Du mir die neue <anchor type="commentary" xml:id="KL191-2">
+                        <rs type="work" key="A020128">Novelle</rs>
+                    </anchor> zugeschworen
           hast.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>H</signed>
+                    <signed>hr</signed>
                 </closer>
             <postscript>
                <p>Herrn Dr Arthur Schnitzler<lb/>

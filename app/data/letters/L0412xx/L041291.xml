@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 3. 8. 1905</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="291"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,14 +70,15 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<placeName key="A000660">Platz’scher Garten</placeName> / Bes. Fr. <persName key="A003482">Kneuer</persName> / Gruss aus <placeName key="A001053">
-                                        <settlement>Würzburg</settlement>
-                           </placeName>«, Bleistift.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>
+                                        <placeName key="A000660">Platz’scher Garten</placeName> / Bes. Fr. <persName key="A003482">Kneuer</persName> / Gruss aus <placeName key="A001053">
+                                            <settlement>Würzburg</settlement>
+                                        </placeName>
+                                    </quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A001053">Wuerzburg</placeName>
                            <date when="19050803">3 Aug 05</date>
                            <time>8 Nm.</time>
-             
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -90,11 +91,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00228"/>
+      <graphic url="MS-B-00005-B-000-00229"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -116,8 +123,8 @@
             <p>Dich u Deine liebe <rs type="person" key="A002038">Frau</rs> grüßt
         herzlichst </p>
             <closer>
-                    <signed>HermannB</signed>
-            </closer>
+                    <signed>HermannB.</signed>
+                </closer>
          </div>
       </body>
   </text>

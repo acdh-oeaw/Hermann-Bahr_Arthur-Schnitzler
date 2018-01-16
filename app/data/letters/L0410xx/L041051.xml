@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 3. 10. 1902</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="051"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -79,16 +79,15 @@
                     <biblStruct default="false">
                <analytic>
                   <date when="19021003">3. 10. 1902</date>
-<!--                  <respStmt>Abschrift</respStmt>
--->               </analytic>
+               </analytic>
                <monogr>
                   <author key="A002001">Schnitzler, Arthur</author>
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">76</biblScope>
+                  <biblScope unit="pp">76</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -98,10 +97,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23353Ba"/>    
+     <graphic url="HS_AM23353Ba_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -120,7 +124,8 @@
             <p>Da man über meine Vermögensverhältnisse, die allerdings niemanden angehen, <del rend="strikethrough">übrigens</del> sonderbare Ansichten zu hegen scheint, die mir
           manchmal unbequem werden,<pb/> bitte ich dich, die freundliche <rs type="person" key="A002127">Briefschreiberin</rs> zu belehren, dass mein Einkommen aus meinem »Vermögen« zwischen 7 und 800 Gulden
           jährlich schwankt und ich im übrigen auf den Ertrag meiner Feder angewiesen bin.
-          (Und dir ist es ja wohl bekannt, dass ich nicht für mich allein zu sorgen
+          (Und dir ist es ja wohl bekannt, dass ich <anchor type="commentary" xml:id="KL051-1">
+                        <rs type="person" key="A002083">nicht für mich allein</rs> zu sorgen</anchor>
           habe.)</p>
             <closer>Herzlichen Gruss, und auf sehr baldiges Wiedersehen.<lb/>Dein<lb/>
                     <signed>Arthur Sch</signed> </closer>

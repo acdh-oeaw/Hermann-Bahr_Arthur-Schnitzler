@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler u. a. an Bahr, 7. 9. 1904</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <author key="A002038">Schnitzler, Olga</author>
@@ -23,7 +23,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -39,7 +39,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="073"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -49,6 +49,10 @@
             <correspDesc>
                <sender full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
+                  <persName key="A002038">Schnitzler, Olga</persName>
+                  <persName key="A002139">Hofmannsthal, Hugo von (sen.)</persName>
+                  <persName key="A002011">Hofmannsthal, Hugo</persName>
+                  <persName key="A002000">Burckhard, Max</persName>
                </sender>
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
@@ -74,7 +78,8 @@
                         <idno>HS AM 61743 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte: »<placeName key="A001025">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangssee</placeName>. Panorama von der Hotelterrasse aus«, sechs Verfasser, Bleistift</p>
+                        <p>eh. Ansichtskarte: »<quote>
+                                        <placeName key="A001025">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangsee</placeName>. Panorama von der Hotelterrasse aus</quote>«, sechs Verfasser, Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000233">St. Gilgen</placeName>
                         </stamp>
@@ -93,6 +98,9 @@
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="missing_TMW"/>     
+  </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -116,49 +124,43 @@
                     </addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1" rend="indent0">
-            <p>Herzliche Grüße <hi rend="latintype">
-                        <signed>Arthur</signed>
-                    </hi>
+         <div type="writingSession" n="1">
+            <p>Herzliche Grüße <signed>Arthur</signed>
             </p>
             <p>
                     <handShift scribe="A002038"/>
-                  <persName key="A002038">
-                        <hi rend="latintype">Olga S.</hi>
-                    </persName>
+                    <signed>
+                        <persName key="A002038">Olga S.</persName>
+                    </signed>
             </p>
             <p>
                     <handShift scribe="A002139"/>
-               <hi rend="latintype">D<hi rend="superscript">r</hi>
-                    </hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002139">
-                        <hi rend="latintype">Hofmannsthal sen.</hi>
-                    </persName>
+               <signed>D<hi rend="superscript">r</hi>
+                        <space unit="chars" quantity="1"/>
+                        <persName key="A002139">Hofmannsthal sen.</persName>
+                    </signed>
             </p>
             <p>
                     <handShift scribe="A002011"/>
-               
-                  <persName key="A002011">
-                        <hi rend="latintype">Hugo</hi>
-                    </persName>
-               <space unit="chars" quantity="1"/>
-                    <space unit="chars" quantity="1"/>
-                    <space unit="chars" quantity="1"/>
-                    <space unit="chars" quantity="1"/>
-               <handShift scribe="A002001"/>
+                  <signed>
+                        <persName key="A002011">Hugo</persName>
+                    </signed>
+            </p>
+            <p>
+                    <handShift scribe="A002001"/>
                <date when="19040907">7. 9. 904.</date>
             </p>
             <p>
                     <handShift scribe="A002000"/>Herzlichst 
-                  <persName key="A002000">
-                        <hi rend="latintype">Burckhard</hi>
-                    </persName>
-               <space unit="chars" quantity="1"/>
+                  <signed>
+                        <persName key="A002000">Burckhard</persName>
+                    </signed>
+                </p>
+            <p>
                     <handShift scribe="A002134"/>
-                  <persName key="A002134">
-                        <hi rend="latintype">Gerty</hi>
-                    </persName>
+                  <signed>
+                        <persName key="A002134">Gerty</persName>
+                    </signed>
             </p>
          </div>
       </body>

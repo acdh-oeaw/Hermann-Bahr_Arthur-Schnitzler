@@ -4,8 +4,8 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-                <title level="a">Bahr: [Buchversandliste Stimmen des Bluts, Mitte Oktober – 8. 11. 1908]</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+                <title level="a">Bahr: [Buchversandliste Stimmen des Bluts], [Mitte Oktober – 8. 11. 1908]</title>
                 <author key="A002002">Bahr, Hermann</author>
                 <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-T" n="070"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -53,7 +53,7 @@
                             <idno>HS VM 2625 Ba</idno>
                         </msIdentifier>
                         <physDesc>
-                            <p>1 Bl., 1 S., Bleistift, Buntstift, Tinte</p>
+                            <p>1 Bl., 1 S., eh., Bleistift, Buntstift, Tinte</p>
                         </physDesc>
                     </msDesc>
                     </witness>
@@ -72,9 +72,11 @@
     </teiHeader>
     <text type="text">
       <body>
-        <div type="writingSession" n="1" rend="indent0">
+        <div type="writingSession" n="1">
             <p output="true">
-                    <rs type="work" key="A020586">Novellen Büchl</rs>
+                    <anchor type="commentary" xml:id="KT070-1">
+                        <rs type="work" key="A020586">Novellen Büchl</rs>
+                    </anchor>
             </p>
             <p output="true">geschickt an <persName key="A002000">Burckhard</persName>,
                         <persName key="A002747">Benedikt</persName>
@@ -96,7 +98,7 @@
                       <persName key="A002090"> <hi rend="underline" n="1">Handl</hi>
                         </persName>
                   </del>
-               <space unit="chars" quantity="3"/>
+                    <space unit="chars" quantity="3"/>
                     <persName key="A002290">Grossmann</persName>, <persName key="A003245">Zweybrück</persName>
             </p>
             <p output="true">
@@ -110,7 +112,7 @@
                </del>, <del rend="strikethrough">
                   <persName key="A002007">Richard</persName>
                </del>
-               <space unit="chars" quantity="3"/>
+                    <space unit="chars" quantity="3"/>
                 <del rend="strikethrough">
                   <persName key="A002374">Zweig</persName>
                </del>
@@ -122,7 +124,7 @@
             <p output="true">
                     <del rend="strikethrough">
                   <persName key="A002947">Blei</persName>
-                  <space unit="chars" quantity="3"/>
+                        <space unit="chars" quantity="3"/>
                     <persName key="A003413">Holm</persName>
                </del>
             </p>

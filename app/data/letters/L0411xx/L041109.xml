@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 22. 6. 1909</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="109"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>HS AM 60167 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>)</p>
+                        <p>eh. Karte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -91,12 +91,12 @@
                         <publisher>The University of North Carolina Press</publisher>
                         <date when="1978">1978</date>
                      </imprint>
-                     <biblScope type="pp">103</biblScope>
+                     <biblScope unit="pp">103</biblScope>
                   </monogr>
                   <series>
                      <title level="s">University of North Carolina studies in the Germanic languages
                         and literatures</title>
-                     <biblScope type="nr">89</biblScope>
+                     <biblScope unit="nr">89</biblScope>
                   </series>
                </biblStruct>
             </listBibl>
@@ -107,13 +107,19 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170515">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM60167Ba_1"/> 
+     <graphic url="HS_AM60167Ba_1_R"/>
+     <graphic url="HS_AM60167Ba_2"/>
+    </facsimile>
   <text type="card">
       <body>
-   
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
@@ -125,33 +131,32 @@
                sich beansprucht und mit großem Entzücken gelesen hat. Auch <persName key="A002000">Burkhard</persName> hat mir in <hi rend="latintype">
                   <placeName key="A000233">
                      <settlement>St Gilgen</settlement>
-                  </placeName>
+                        </placeName>
                </hi> viel schönes darüber gesagt. Ja so spricht man übereinander und sieht und
                spricht sich nie. <anchor type="commentary" xml:id="KL109-1">Einer w<damage agent="hole">
-                     <supplied>ird</supplied>
-                  </damage>
+                            <supplied>ird</supplied>
+                        </damage>
                         <pb/>
                         <space unit="chars" quantity="1"/>übrig bleiben und sagen:
-                  »...Schade....«</anchor>
+                  »<c rendition="#dots" n="3"/> Schade<c rendition="#dots" n="4"/>«</anchor>
                 </p>
             <p>
                     <damage agent="hole">
-                  <supplied>Wir</supplied>
-               </damage> sind von <placeName key="A000233">
+                        <supplied>Wi</supplied>
+                    </damage>r sind von <placeName key="A000233">
                         <settlement>Gilgen</settlement>
-               </placeName> zurückgehetzt, weil unser <rs type="person" key="A002083">Bub</rs> eine
+                    </placeName> zurückgehetzt, weil unser <rs type="person" key="A002083">Bub</rs> eine
                Art Keuchhusten hat, recht leicht bis jetzt. Nächste Woche fahren wir nach
                      <placeName key="A000671">
                         <settlement>Edlach</settlement>
-               </placeName>, ich mit der <workName key="A020054">Drut</workName> und dem <workName key="A020055">Tagebuch</workName> und freu mich schon sehr. Mit dem Danken kommt
+                    </placeName>, ich mit der <workName key="A020054">Drut</workName> und dem <workName key="A020055">Tagebuch</workName> und freu mich schon sehr. Mit dem Danken kommt
                man ja nicht nach bei dir. Ich war auch nicht sehr faul – aber wie kommt man sich
                gegen dich vor! Mit <persName key="A002000">Burckhard</persName> war ich auf
                seiner<pb/> Alm oben; ich finde es geht ihm recht gut, er war lebendig, fidel
                geradezu und jung.</p>
             <closer>
-                    <rs type="person" key="A002038">Wir</rs> grüßen dich herzlichst<lb/>dein getreuer<lb/>
-             <signed>
-                <hi rend="latintype">Arthur</hi>
+                    <rs type="person" key="A002038">Wir</rs> grüßen dich herzlichst.<lb/>Dein getreuer<lb/>
+             <signed>Arthur
              </signed>
             </closer>
          </div>

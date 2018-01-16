@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Bahr an Schnitzler, 21. 12. 1900</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Bahr an Schnitzler, 21. 12. [1900]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="231"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -56,7 +56,7 @@
                         <placeName key="A000250">[Wien]</placeName>
                     </placeAddressee>
                <dateSender>
-                  <date when="19001221" n="01">21. 12. 1900</date>
+                  <date when="19001221" n="01">21. 12. [1900]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl, 3 S., von A. S. Jahreszahl »900« zum Datum ergänzt.</p>
+                        <p>eh. Brief, 1 Bl, 3 S., von Schnitzler Jahreszahl »<quote>
+                                        <date>900</date>
+                                    </quote>« zum Datum ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,13 +84,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Nur erste Seite kollationiert, Foto unvollständig</change>
          <change who="MAM" when="20161107">Zweite Seite kollationiert</change>
          <change who="KI MAM" when="20161107">Kollationiert am Faksimile</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00114"/>
+      <graphic url="MS-B-00005-B-000-00115"/>
+      <graphic url="MS-B-00005-B-000-00116"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -99,10 +108,11 @@
                   </subst>
                         </date>
                </dateline>
-               <salute rend="center">lieber Arthur!</salute>
+               <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>
-                    <persName key="A002032">Bukovics</persName> sagt mir, es sei über den <placeName key="A000220">Volkstheater</placeName>abend dieses Jahr noch nichts beschlossen.
+                    <persName key="A002032">Bukovics</persName> sagt mir, es sei über den <anchor type="commentary" xml:id="KL231-1">
+                        <placeName key="A000220">Volkstheater</placeName>abend</anchor> dieses Jahr noch nichts beschlossen.
                Ich mache Dich nur aufmerksam, daß bei dem späten Anfang (½ 11), der elenden Bühne
                (meistens <placeName key="A000219">Ronacher</placeName>) u. der kaum zu bändigenden
                Tanzlust hier nur<pb/> ganz einfache u. rohe Sachen wirken.</p>

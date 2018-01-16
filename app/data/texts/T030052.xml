@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a" key="A021180">Schnitzler: [Leseliste], [frühestens März 1905]</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>
                      <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher>
             <idno type="HBAS-T" n="052"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <sourceDesc>
@@ -59,15 +59,15 @@
                <biblStruct default="false">          
                   <monogr>
                      <author key="A002001">Schnitzler, Arthur</author>
-                     <title level="m">Arthur Schnitzlers Lektüren. Leseliste und virtuelle Bibliothek</title>
-                     <editor>Hg. von Achim Aurnhammer</editor>
+                     <title level="m" key="A021180">Arthur Schnitzlers Lektüren. Leseliste und virtuelle Bibliothek</title>
+                     <editor>Hg.  Achim Aurnhammer</editor>
                      <imprint>
                         <pubPlace>Würzburg</pubPlace>
                         <publisher>Ergon</publisher>
                         <date when="2013">2013</date>
               
                      </imprint>
-                     <biblScope type="pp">62</biblScope>
+                     <biblScope unit="pp">62</biblScope>
                   </monogr>
                </biblStruct>
             </listBibl>
@@ -87,18 +87,31 @@
          <div>
             <p>
                     <persName key="A002002">Bahr</persName> – <workName key="A020895">Die neuen Menschen</workName> /
-            <workName key="A021037">Gute Schule</workName> / <workName key="A021164">Grosse Sünde</workName> /<lb/>
+               <workName key="A021037">Gute Schule</workName> / <anchor type="commentary" xml:id="KT052-3">
+                        <workName key="A021164">Grosse Sünde</workName>
+                    </anchor> /<lb/>
                <workName key="A020523">Mutter</workName> / <workName key="A020178">Russische Reise</workName> /
-            <rs type="work" key="A020679">
-                  <rs type="work" key="A021262">Moderne</rs>
-               </rs> / <workName key="A021014">Ueberwindung des Natur.</workName>
-               <lb/>
-               <workName key="A021165">Fin de..</workName>
+               <anchor type="commentary" xml:id="KT052-4">
+                        <rs type="work" key="A020679" cert="low">
+                            <rs type="work" key="A021262" cert="low">Moderne</rs>
+                        </rs>
+                    </anchor>
+                / <workName key="A021014">Ueberwindung des Natur.</workName>
+                    <lb/>
+               <anchor type="commentary" xml:id="KT052-2">
+                        <workName key="A021165">Fin de<c rendition="#dots" n="2"/>
+                        </workName>
+                    </anchor>
                     <space unit="chars" quantity="1"/>
-                    <workName key="A021166">neben der Liebe</workName> / <workName key="A021041">Theater</workName> / <workName key="A020064">Wirkung in
+                    <anchor type="commentary" xml:id="KT052-1">
+                        <workName key="A021166">neben der Liebe</workName>
+                    </anchor> / <anchor type="commentary" xml:id="KT052-5">
+                        <workName key="A021041">Theater</workName>
+                    </anchor> / <workName key="A020064">Wirkung in
             die Ferne</workName>
-               <lb/>
-               <workName key="A020031">Krampus</workName> / <workName key="A020016">Franzl</workName> / <workName key="A020041">Sanna</workName> / <handShift/>etc.– etc… </p>
+                    <lb/>
+               <workName key="A020031">Krampus</workName> / <workName key="A020016">Franzl</workName> / <workName key="A020041">Sanna</workName> / <handShift/>etc.– etc<c rendition="#dots" n="3"/>
+                </p>
          </div>
       </body>
   </text>

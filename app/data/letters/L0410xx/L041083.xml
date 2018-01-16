@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 21. 9. 1905</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="083"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,9 +86,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">91–92</biblScope>
+                  <biblScope unit="pp">91–92</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -98,10 +98,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170509">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23372Ba"/>
+     <graphic url="HS_AM23372Ba_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -111,7 +116,9 @@
                     </dateline>
                <salute>lieber Hermann, </salute>
             </opener>
-            <p>alles zugegeben, und das <hi rend="latintype">Epitheton</hi> reizend als allzu freundlich
+            <p>alles zugegeben, und das <anchor type="commentary" xml:id="KL083-1">
+                        <hi rend="latintype">Epitheton</hi>
+                    </anchor> reizend als allzu freundlich
           empfunden: nur den <rs type="work" key="A020042">Fürsten</rs> geb ich dir nicht
           so ohne weiteres preis. Ich weiss <unclear>zu</unclear> gut, dss diese Art, von
           der ich einen zu schildern versucht, nicht die Regel ist – aber gerade dss er
@@ -119,16 +126,24 @@
                     <space unit="chars" quantity="1"/>
                     <hi rend="latintype">
                   <rs type="work" key="A020042">Caecilie</rs>
-               </hi>
+                    </hi>
           wahrscheinlich einen Charme mehr. Ich hatte früher ein paar Stellen im Dialog,
           die ich als überdeutlich eliminirte, und in denen auf den tiefen
-          Wesensunterschied zwischen Menschen à la <rs type="work" key="A020042">Amadeus</rs> und solchen à la <rs type="work" key="A020042">Sigismund</rs> eingegangen <del rend="strikethrough">wird</del> und dieses »Anderssein« <add place="below">des Sigism.</add> als Motiv für <rs type="work" key="A020042">Caeciliens</rs> Hinüberschwanken <subst>
+          Wesensunterschied zwischen Menschen à la <hi rend="latintype">
+                        <rs type="work" key="A020042">Amadeus</rs>
+                    </hi> und solchen à la <hi rend="latintype">
+                        <rs type="work" key="A020042">Sigismund</rs>
+                    </hi> 
+               eingegangen <del rend="strikethrough">wird</del> und dieses »Anderssein« <add place="below">des <hi rend="latintype">Sigism.</hi>
+                    </add> als Motiv für <hi rend="latintype">
+                        <rs type="work" key="A020042">Caeciliens</rs>
+                    </hi> Hinüberschwanken <subst>
                   <del rend="strikethrough">verwendet</del>
                   <add place="above">ausgesprochen</add>
-               </subst> wurde. – </p>
-            <p>– Morgen fahren <rs type="person" key="A002038">wir</rs> auf ein paar Tage fort ( <placeName key="A000389">
+               </subst> wurde.–</p>
+            <p>– <anchor type="commentary" xml:id="KL083-2">Morgen fahren <rs type="person" key="A002038">wir</rs> auf ein paar Tage fort</anchor> (<placeName key="A000389">
                         <settlement>Semmering</settlement>
-               </placeName>,<pb/> ev. weiter) – sobald ich
+                    </placeName>,<pb/> ev. weiter) – sobald ich
           zurück <subst>
                   <del rend="strikethrough">komme</del>
                   <add place="above">bin</add>
@@ -137,11 +152,9 @@
           Jedenfalls muss etwas gefunden werden, damit man einander <subst>
                   <del rend="strikethrough">mehr</del>
                   <add place="above">oefter</add>
-               </subst> sieht. – </p>
+               </subst> sieht.–</p>
             <closer>Von Herzen dein<lb/>
-               <signed>
-                        <hi rend="latintype">A.</hi>
-                    </signed>
+               <signed>A.</signed>
             </closer>
          </div>
       </body>

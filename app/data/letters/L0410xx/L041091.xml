@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 18. 10. 1906 </title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="091"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -86,9 +86,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">95–96</biblScope>
+                  <biblScope unit="pp">95–96</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -102,6 +102,9 @@
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="missing_TMW"/>     
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -117,26 +120,28 @@
           stofflichen zu finden, im innerlich stofflichen schon nicht mehr, und gewiss
           nicht im <del rend="strikethrough">eigentlich</del> »seelisch gestaltlichen« – <add place="inline">(</add>um zu immer grauenhafteren Worten auf- oder niederzusteigen). Dein
           Problem ist viel verzwickter, der Fortgang der Handlung gedrehter, spiraliger,
-          jüdischer gegenüber der naiv gauloisen Fabel des braven alten <rs type="work" key="A020058">Anatolstückls</rs>, außerdem wird bei mir soupirt und bei dir
-          doch eigentlich nur gejausnet. Die Atmosphäre deines Stücks ist dünner,
+          jüdischer gegenüber der naiv <placeName key="A000366">
+                        <country>gauloisen</country>
+                    </placeName> Fabel des braven alten <rs type="work" key="A020058">Anatolstückls</rs>, außerdem wird bei mir soupirt und bei dir
+               doch eigentlich nur <anchor type="commentary" xml:id="KL091-2">gejausnet</anchor>. Die Atmosphäre deines Stücks ist dünner,
           schärfer; das ganze brutaler (für<pb/> meinen Geschmack im Beginn besonders bis
-          zum Abstoßenden brutal) angepackt. Wenn du mir, oder dem guten <rs type="work" key="A020058">Anatol</rs>, diesen <rs type="work" key="A020094">interessanten Einakter</rs> widmen willst, so nehm ich s natürlich mit Dank
+          zum Abstoßenden brutal) angepackt. Wenn du mir, oder dem guten <rs type="work" key="A020058">Anatol</rs>, diesen <rs type="work" key="A020094">interessanten 
+             Einakter</rs> widmen willst, so nehm ich s natürlich mit Dank
           u Rührung an, nur mußt du mir erlauben, deine Erinnerung nicht als
             Anregungsqui<damage agent="hole">
-                  <supplied>tt</supplied>
-               </damage>ierung und Ausdruck einer
+                        <supplied>tt</supplied>
+                    </damage>ierung und Ausdruck einer
           Gewissensschuld sondern als ein neues und daher mir willkommenes Zeichen unserer
           guten Zusammengehörigkeit zu empfinden u zu empfangen.</p>
             <p>Hoffentlich fügt es sich, dss wir einander vor deiner Abreise noch einmal sehen.
-          (Gern möcht ich auch etwas, <persName key="A002078">Reinhardt</persName> betreffendes, aber hauptsächlich in
+          (Gern möcht ich auch etwas, <anchor type="commentary" xml:id="KL091-1">
+                        <persName key="A002078">Reinhardt</persName> betreffendes</anchor>, aber hauptsächlich in
             <damage agent="hole">
-                  <supplied>mei</supplied>
-               </damage>nem Interesse liegendes<del rend="strikethrough">)</del> mit
+                        <supplied>mei</supplied>
+                    </damage>nem Interesse liegendes<del rend="strikethrough">)</del> mit
           dir besprechen.)</p>
             <closer>Herzlichst, mit Grüßen von<lb/>meiner <rs type="person" key="A002038">Frau</rs> u mir<lb/>dein<lb/>
-               <signed>
-                        <hi rend="latintype">Arthur</hi>
-                    </signed>
+               <signed>Arthur</signed>
             </closer>
          </div>
       </body>

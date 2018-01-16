@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 18. 5. 1903</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="056"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -87,12 +87,12 @@
                         <publisher>The University of North Carolina Press</publisher>
                         <date when="1978">1978</date>
                      </imprint>
-                     <biblScope type="pp">78</biblScope>
+                     <biblScope unit="pp">78</biblScope>
                   </monogr>
                   <series>
                      <title level="s">University of North Carolina studies in the Germanic languages
                         and literatures</title>
-                     <biblScope type="nr">89</biblScope>
+                     <biblScope unit="nr">89</biblScope>
                   </series>
                </biblStruct>
             </listBibl>
@@ -103,10 +103,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+   <facsimile>       
+      <graphic url="HS_AM23355Ba"/>  
+      <graphic url="HS_AM23355Ba_R"/>
+   </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -116,10 +122,11 @@
                <salute>lieber Hermann,</salute>
             </opener>
             <p>du hast jedenfalls auch den Aufruf der <orgName key="A081205">Pensionsanstalt deutscher Journalisten u Schriftsteller</orgName>
-          erhalten sowie den Zeichnungsschein für jährlichen resp. für einmaligen Beitrag.
+          erhalten sowie den Zeichnungsschein für jährlichen <hi rend="latintype">resp.</hi> für einmaligen Beitrag.
           Da wir nun beide unter<pb/> diesem Aufruf unterschrieben sind, möcht ich dich
-          fragen, wieviel resp. ob du »einmalig« oder »jährlich« zeichnest. Ich habe keine
-          rechte Vorstellung, zu wie viel man da ungefähr verpflichtet ist.</p>
+               fragen, wieviel <hi rend="latintype">resp.</hi> ob du »einmalig« oder »jährlich« zeichnest. Ich habe keine
+               rechte Vorstellung, zu wie viel man da ungefähr verpflichtet ist.<hyphenation alt="\looseness=-1"/>
+                </p>
             <closer>Entschuldg die Belästigung<lb/>Herzlichst dein<lb/>
                     <signed>Arthur Sch</signed>
                 </closer>

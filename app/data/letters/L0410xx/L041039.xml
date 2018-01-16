@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 10.–12. 9. 1901</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="039"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -85,9 +85,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">70</biblScope>
+                  <biblScope unit="pp">70</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -97,26 +97,31 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170503">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23343Ba"/> 
+     <graphic url="HS_AM23343Ba_R"/>
+    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>mein lieber Hermann, ich schicke dir <add place="above">heute</add> die 
-        <rs type="work" key="A020023 A020025 A020069">3 Einakter</rs>. Mein Bedenken, die Kürze
-          des Abends betreffend, ist wieder rege geworden; und ich habe die Absicht, einen
-            <rs type="work" key="A020029">vierten Einakter</rs>, der mir gestern einfiel
+            <p>
+                    <salute>mein lieber Hermann, </salute>ich schicke dir <add place="above">heute</add> die 
+        <rs type="work" key="A020023 A020025 A020069">3 Einakter</rs>. Mein Bedenken, die <anchor type="commentary" xml:id="KL039-1">Kürze
+          des Abends betreffend</anchor>, ist wieder rege geworden; und ich habe die Absicht, einen
+            <rs type="work" key="A020027" subtype="local-short">vierten Einakter</rs>, der mir gestern einfiel
           und in Sinn und Form zu den bis jetzt vorliegenden passt, zu schreiben. Ob ich
           gleich die rechte Stimmung dafür finden werde, ist natürlich noch nicht
-          ausgemacht. Jedenfalls bitt’<pb/> ich dich, vor allem einmal diese 3 Stücke zu
+          ausgemacht. Jedenfalls bitt’<pb/> ich dich, vor allem einmal diese 3 <rs type="work" key="A020023 A020025 A020069">Stücke</rs> zu
           lesen, u. zw. in der Reihenfolge »<add place="inline">1)</add>
                     <space unit="chars" quantity="1"/>
                     <workName key="A020023">Die Frau mit dem Dolch</workName>«. 2) <workName key="A020069">Lebendige Stunden</workName>
                <damage agent="hole">
-                  <supplied>.</supplied>
-               </damage> 3.) <workName key="A020025">Literatur</workName>. Es wäre schade, wenn
+                        <supplied>.</supplied>
+                    </damage> 3.) <workName key="A020025">Literatur</workName>. Es wäre schade, wenn
           der Abend an einem so äußerlichen Moment, wie dem der Kürze scheitern sollte.
           Allerdings glaube ich, dss dieses Bedenken weniger für
             <placeName key="A000250">
@@ -127,7 +132,7 @@
           Betracht käme.</p>
             <p>Wenns dir recht ist, kann ich wieder<pb/> einmal in den Vormittagstunden zu dir
           hinaus, sobald du die Sachen gelesen hast; es eilt <hi rend="underline" n="1">durchaus nicht</hi>.</p>
-            <closer>Herzlich grüßt dich<lb/>dein <signed>Arthur</signed>
+            <closer>herzlich grüßt dich<lb/>dein <signed>Arthur</signed>
             </closer>
             <postscript>
                <p>
@@ -141,14 +146,15 @@
             </postscript>
          </div>
          <div type="writingSession" n="2">
-       
-            <p>Der Zufall fügte es, dass ich, durch ein teleph. Ersuchen <persName key="A002045">Kadelburgs</persName> veranlasst, 
+            <p>Der Zufall fügte es, dass ich, durch ein teleph. Ersuchen <persName key="A004430">Kadelburgs</persName> veranlasst, 
         die <rs type="work" key="A020023 A020025 A020069">Stücke</rs> in
           der Direktion überreichte. Ich bat, das man sie<pb/> dir zukommen ließe, was
           wohl bereits geschehen ist</p>
-            <p>Indess hab ich den <rs type="work" key="A020029">vierten Einakter</rs> zu schreiben begonnen und hoffe, dass er
-          sich, wie vielleicht noch ein <rs type="work" key="A020027">fünfter</rs> dem Cyklus gut einfügen wird</p>
-            <closer>Herzlichst <signed>A.</signed>
+            <p>Indess hab ich den <rs type="work" key="A020027">vierten Einakter</rs> zu schreiben begonnen und hoffe, dass er
+          sich, wie vielleicht noch ein <anchor type="commentary" xml:id="KL039-2">
+                        <rs type="work" key="A020029">fünfter</rs>
+                    </anchor> dem Cyklus gut einfügen wird</p>
+            <closer>herzlichst <signed>A.</signed>
                 </closer>
             <postscript>
                <p>

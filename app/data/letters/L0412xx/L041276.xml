@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 16. 3. 1904</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="276"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,12 +70,16 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, Motiv, Motiv: »<placeName key="A000706">
+                        <p>eh. Postkarte, Motiv, Motiv: »<quote>
+                                        <placeName key="A000706">
                               <settlement>Athène</settlement>
-                        </placeName>. <foreign xml:lang="fr">Temple de Thesée</foreign>
-                                    <space unit="chars" quantity="1"/>
-                                    <foreign xml:lang="el">Θησείον</foreign>«, von A. S. datiert: »<date>März 90<unclear>4</unclear>
-                                    </date>«.</p>
+                                        </placeName>. <foreign xml:lang="fr">Temple de Thesée</foreign>
+                                        <space unit="chars" quantity="1"/>
+                                        <foreign xml:lang="el">Θησείον</foreign>
+                                    </quote>«, von Schnitzler datiert: »<quote>
+                                        <date>März 90<unclear>4</unclear>
+                                        </date>
+                                    </quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000706">
                                         <foreign xml:lang="el">ΑΘHNAI</foreign>
@@ -93,17 +97,20 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00204"/>
+      <graphic url="MS-B-00005-B-000-00205"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
-               <addrLine key="A000362">
-                        <foreign xml:lang="el">Αυστρία</foreign>
-                    </addrLine>
                <addrLine>
                         <foreign xml:lang="el">πρός τόν κύριον</foreign>
                     </addrLine>
@@ -119,14 +126,19 @@
                <addrLine>
                   <placeName key="A000333">Spöttelgasse 7</placeName>
                     </addrLine>
+               <addrLine key="A000362">
+                        <foreign xml:lang="el">Αυστρία</foreign>
+                    </addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Du mußt hieher.</p> 
             <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-               <lb/>
+                    <lb/>
                     <signed>Herm</signed>
             </closer>
+            <postscript>
+                    <p>Du mußt hieher.</p>
+                </postscript>
          </div>
       </body>
   </text>

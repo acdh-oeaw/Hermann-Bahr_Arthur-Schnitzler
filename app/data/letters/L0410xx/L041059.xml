@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 24. 6. 1903</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="059"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -90,12 +90,12 @@
                         <publisher>The University of North Carolina Press</publisher>
                         <date when="1978">1978</date>
                      </imprint>
-                     <biblScope type="pp">79</biblScope>
+                     <biblScope unit="pp">79</biblScope>
                   </monogr>
                   <series>
                      <title level="s">University of North Carolina studies in the Germanic languages
                         and literatures</title>
-                     <biblScope type="nr">89</biblScope>
+                     <biblScope unit="nr">89</biblScope>
                   </series>
                </biblStruct>
             </listBibl>
@@ -106,18 +106,24 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM23356Ba"/>
+     <graphic url="HS_AM23356Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                         <date>24. <damage agent="hole">
-                     <supplied>6</supplied>
-                  </damage>.
+                                <supplied>6</supplied>
+                            </damage>.
             903.</date>
                     </dateline>
                <salute>lieber Hermann,</salute>
@@ -127,12 +133,18 @@
             Epstein</hi>
                </persName> (der mit Hrn <persName key="A002069">Lutz</persName>
           zusammen <workName key="A020012">Kakadu</workName> ins französische übersetzt
-          hat (für <persName key="A002074">Antoine</persName>)) <hi rend="latintype">
+          hat (für <hi rend="latintype">
+                        <persName key="A002074">Antoine</persName>
+                    </hi>)) <hi rend="latintype">
                   <placeName key="A000651">Paris, 78 rue de <hyphenation alt="l’As\-somp\-tion">l’Assomption</hyphenation>
                         </placeName>
                </hi>, bittet
           mich dich zu fragen, ob du sein Ersuchen betreffs Übersetzungsrechten des
-            <workName key="A020034">Apostel</workName> ins franz.<pb/> erhalten hast.
+            <hi rend="latintype">
+                        <workName key="A020034">Apostel</workName>
+                    </hi> ins franz.<pb/>
+                    <space unit="chars" quantity="1"/>
+                    <anchor type="commentary" xml:id="KL059-2">erhalten hast</anchor>.
           Vielleicht bist du so freundlich ihm direct zu antworten? –</p>
             <p>– Mein <rs type="person" key="A002063">Bruder</rs> nennt mir als einen <add place="above">Arzt, der</add> in <add place="above">der</add> neulich von uns <anchor type="commentary" xml:id="KL059-1">besprochenen Art seine Patienten zu untersuchen</anchor>
           pflegt: Dr <persName key="A002070">
@@ -141,9 +153,7 @@
                –<pb/>
                 </p>
             <closer>Herzlichen Gruss.<lb/>Dein<lb/>
-               <signed>
-                        <hi rend="latintype">A.</hi>
-                    </signed>
+               <signed>A.</signed>
             </closer>
          </div>
       </body>

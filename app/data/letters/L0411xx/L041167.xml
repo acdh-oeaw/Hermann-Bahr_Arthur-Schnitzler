@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 2. 5. 1894</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="167"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, Bleistift, von A. S. datiert: »<date>2/5 94</date>«.</p>
+                        <p>eh. Korrespondenzkarte, Bleistift, von Schnitzler datiert: »<quote>
+                                        <date>2/5 94</date>
+                                    </quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000253">Wien 3/1</placeName>
                            <date when="18940502">2 V 94</date>
@@ -92,11 +94,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00033"/>
+      <graphic url="MS-B-00005-B-000-00034"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -113,7 +121,7 @@
             <opener>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Ich kann leider morgen früh absolut nicht, komme <hi rend="underline" n="1">vielleicht</hi> Nachmittag nach.</p>
+            <p>Ich kann leider <anchor type="commentary" xml:id="KL167-1">morgen</anchor> früh absolut nicht, komme <hi rend="underline" n="1">vielleicht</hi> Nachmittag nach.</p>
             <closer>Herzlichst<lb/>
                     <signed>Hermann</signed>
                 </closer>

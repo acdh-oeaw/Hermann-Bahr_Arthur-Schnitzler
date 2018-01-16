@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 10. 11. 1897</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="213"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>)</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,11 +82,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151203">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00088"/>
+      <graphic url="MS-B-00005-B-000-00089"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -95,12 +101,14 @@
                     </dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Möchtest Du mir erlauben, bei meiner nächsten Conference (am 28. d. M.) Deine
-          <rs type="work" key="A020007" subtype="local-short">Geschichte</rs> aus dem letzten Heft der 
+            <p>Möchtest Du mir erlauben, bei meiner nächsten Conference (am <date>28. d. M.</date>) Deine
+          <anchor type="commentary" xml:id="KL213-1">
+                        <rs type="work" key="A020007">Geschichte</rs>
+                    </anchor> aus dem letzten Heft der 
         »<orgName key="A080009">Cosmopolis</orgName>« vorzulesen? Ich bilde mir ein,
           daß ich den Ton treffen werde, und irre ich mich darin nicht, so ist die
           Wirkung glaub ich sicher. Also, wenn es Dir<pb/> recht ist, so schreib oder
-          telephonier mir bitte ein Wort.</p>
+          telephonir mir bitte ein Wort.</p>
             <p>Und vergiß doch nicht ganz auf die »<orgName key="A080011">Zeit</orgName>«. Hast
           Du nicht wieder was Kleines? Ich würde das neue Jahr sehr gern wieder mit etwas
           von Dir beginnen. Laß mich wissen, ob ich darauf rechnen kann.</p>

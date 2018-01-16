@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Arno Holz an Bahr, 18. 1. 1916</title> 
                 <author key="A002133">Holz, Arno</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -70,14 +70,14 @@
                                 <idno>HS AM 18951 Ba</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., Bleistift auf Bürstenabzug von »Zum
-                                    Geleit«.</p>
+                                <p>eh. Brief, 1 Bl., 1 S., Bleistift auf Bürstenabzug von »<quote>Zum
+                                    Geleit</quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
                 <listBibl>
-                    <biblStruct default="false">
+                    <biblStruct default="false" corresp="HBAH">
                         <monogr>
                             <author key="A002002">Bahr, Hermann</author>
                             <author key="A002133">Holz, Arno</author>
@@ -89,7 +89,7 @@
                                 <publisher>Wallstein</publisher>
                                 <date when="2014">2014</date>
                             </imprint>
-                            <biblScope type="pp">121</biblScope>
+                            <biblScope unit="pp">121</biblScope>
                         </monogr>
                     </biblStruct>
                 </listBibl>
@@ -116,9 +116,13 @@
                     </dateline>
                     <salute>Lieber Hermann Bahr!</salute>
                 </opener>
-                <p>Lesen Sie, bitte, das nachstehende »<hi rend="underline" n="1">Zum Geleit</hi>«.
+                <p>Lesen Sie, bitte, das nachstehende »<hi rend="underline" n="1">
+                        <anchor type="commentary" xml:id="KL573-4">Zum Geleit</anchor>
+                    </hi>«.
                     Es hatte als einzelnes, loses Blatt meinem »<hi rend="underline" n="1">
-                        <workName key="A021184">Phantasus</workName>
+                        <anchor type="commentary" xml:id="KL573-2">
+                            <workName key="A021184">Phantasus</workName>
+                        </anchor>
                     </hi>« eingefügt werden sollen, dessen Erscheinen – im <orgName key="A081183">Insel-Verlag</orgName> – bereits für <hi rend="underline" n="1">Weihnachten</hi>
                     <space unit="chars" quantity="1"/>
                     <hi rend="underline" n="1">1914</hi> geplant war. Durch den Krieg mußte der Satz unterbrochen
@@ -156,7 +160,7 @@
                     <hi rend="underline" n="1">hilft</hi>! Daß dies
                     auf »<hi rend="underline" n="1">öffentliche</hi>« Weise <hi rend="underline" n="1">nicht</hi>
                     <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">geschehen</hi> kann, hat die total mißglückte Agitation zu meinem elenden
+                    <hi rend="underline" n="1">geschehen</hi> kann, hat die total mißglückte <anchor type="commentary" xml:id="KL573-1">Agitation</anchor> zu meinem elenden
                         »50<hi rend="superscript">
                   <hi rend="underline" n="1">ten</hi>
                </hi>« bewiesen! Was
@@ -178,7 +182,9 @@
                     einsetzten! Ich denke nur an Ihren einen
                             <placeName key="A000250">
                         <settlement>Wien</settlement>
-                    </placeName>er <persName key="A004063">Rothschild</persName>! <hi rend="underline" n="1">Wollen</hi>
+                    </placeName>er <anchor type="commentary" xml:id="KL573-3">
+                        <persName key="A004063 A002196" cert="low">Rothschild</persName>
+                    </anchor>! <hi rend="underline" n="1">Wollen</hi>
                     <space unit="chars" quantity="1"/>
                     <hi rend="underline" n="1">Sie’s</hi>
                     <space unit="chars" quantity="1"/>
@@ -251,7 +257,8 @@
                     <hi rend="underline" n="2">sich für</hi>
                     <space unit="chars" quantity="1"/>
                     <hi rend="underline" n="2">mich nichts!!!</hi> Sie herzlichst grüßend, in alter
-                    Kameradschaft, Ihr ArnoHolz.</p>
+                    Kameradschaft, Ihr <signed>ArnoHolz.</signed>
+                </p>
                
             </div>
         </body>

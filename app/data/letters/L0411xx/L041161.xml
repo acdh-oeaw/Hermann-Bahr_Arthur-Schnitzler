@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 25. 10. 1893</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="161"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,9 +70,10 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 2 S., gedruckter Kopf: »<orgName key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250">
-                                        <settlement>Wien</settlement>
-                                    </placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.«</p>
+                        <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 2 S., gedruckter Kopf: »<quote>
+                                        <orgName key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250">
+                                            <settlement>Wien</settlement>
+                                        </placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -84,11 +85,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00025"/>
+      <graphic url="MS-B-00005-B-000-00026"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -98,31 +104,32 @@
                                 <settlement>Wien</settlement>
                             </placeName>
                   </hi>, <date>25. Octbr. 1893</date>
-                    </dateline>
-               <seg rend="right">
-                  <placeName key="A000276">III. Salesianerg. 12</placeName>
-               </seg>
+                        <lb/>
+                        <placeName key="A000276">III. Salesianerg. 12</placeName>
+               </dateline>
                <salute>Verehrter Freund!</salute>
             </opener>
             <p>Der Mann um den es sich handelt heißt <persName key="A002017">Johann Lukas
-                  Schönlein</persName>. Er ist der Begründer der sog. naturhysterischen Schule in
-               der Therapie. Am 30. November sind es hundert Jahre, daß er geboren wurde und ich
+               Schönlein</persName>. Er ist der Begründer der sog. naturhysterischen Schule in
+               der Therapie. Am <date>30. November</date> sind es hundert Jahre, daß er geboren wurde und ich
                brauche also für diesen Tag ein nicht über sechs Spalten langes, populäres,
-               byographisches Feuilleton.</p>
-            <p>Können Sie mir das verschaffen?</p>
-            <p>Dabei wiederhole ich die bereits neulich durch 
-                  <persName key="A002011">Loris</persName>
+               <anchor type="commentary" xml:id="KL161-2">byografisches Feuilleton</anchor>. Können Sie mir das verschaffen?</p>
+            <p>Dabei wiederhole ich die bereits <anchor type="commentary" xml:id="KL161-4">neulich</anchor> durch 
+               <persName key="A002011">Loris</persName>
                 vermittelte
         Bitte um irgend eine Novellette, so kurz als möglich, die ich am <anchor type="commentary" xml:id="KL161-1">Tage Ihrer Premiere</anchor> bringen
-        will.<pb/>
+               will.<pb/>
                 </p>
-                <p>Kann ich bis längstens Ende der nächsten Woche auf den ersten der versprochenen <rs type="work" key="A020000" subtype="local-short">Beiträge
-        zur Entdeckung von <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </rs> bestimmt rechnen?</p>
+                <p>Kann ich bis längstens Ende der nächsten Woche auf den <anchor type="commentary" xml:id="KL161-5">ersten</anchor> der versprochenen <anchor type="commentary" xml:id="KL161-3">
+                        <rs type="work" key="A020000">Beiträge
+           zur Entdeckung von <placeName key="A000250">
+                                <settlement>Wien</settlement>
+                            </placeName>
+                        </rs>
+                    </anchor> bestimmt rechnen?</p>
             <closer>In herzlicher Freundschaft<lb/>
-                    <signed>HermannBahr</signed>
+                    <signed>
+                        <handShift key="A002002"/>HermannBahr</signed>
                 </closer>
          </div>
       </body>

@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, [13. 3. 1892]</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="152"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief auf Abriss aus einem Postbuch, 1. Bl., 1 S., Bleistift, von A. S. datiert:  »<date>Anfg März 92</date>«</p>
+                        <p>eh. Brief auf Abriss aus einem Postbuch, 1 Bl., 1 S., Bleistift, von Schnitzler datiert:  »<quote>
+                                        <date>Anfg März 92</date>
+                                    </quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -82,19 +84,25 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="letter">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00012"/>
+      <graphic url="MS-B-00005-B-000-00013"/>
+   </facsimile>
+   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <p>
                     <salute>lieber D<hi rend="superscript">r</hi>!</salute>
                     <space unit="chars" quantity="1"/>
                     <persName key="A002006">Reicher</persName> erwartet Sie heute 10 Uhr bei
-        <placeName key="A000229">Sacher</placeName>. <hi rend="underline" n="1">Bahr</hi>
-            </p>
+        <placeName key="A000229">Sacher</placeName>. <signed>Bahr</signed>
+                </p>
       
          </div>
       </body>

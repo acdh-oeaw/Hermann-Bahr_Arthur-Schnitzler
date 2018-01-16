@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 15. 11. 1903</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="265"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -79,7 +79,7 @@
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
                            <placeName key="A000268">Wien 18/1</placeName>
-                           <date when="19031116">16.11.03</date>
+                           <date when="19031116">16. 11. 03</date>
                            <time>8.V</time>
                         </stamp>
                      </physDesc>
@@ -93,11 +93,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00184"/>
+      <graphic url="MS-B-00005-B-000-00185"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -123,7 +129,9 @@
                     <persName key="A002011">Hugo</persName> schreibt mir, Dein neues <rs type="work" key="A020083" subtype="local-short">Stück</rs> sei »prachtvoll«. 
           Ich freu mich sehr u. wünsch Dir herzlichst Glück.</p>
             <p>
-                    <persName key="A002065">Brahm</persName> hat meine <rs type="work" key="A020082" subtype="local-short">Première</rs> auf den 12. Dezember
+                    <persName key="A002065">Brahm</persName> hat meine <anchor type="commentary" xml:id="KL265-1">
+                        <rs type="work" key="A020082">Première</rs>
+                    </anchor> auf den <date>12. Dezember</date>
           angesetzt. Warum plötzlich diese Eile, weiß ich nicht. Er kommt Montag im <placeName key="A000326">Imperial</placeName> an.</p>
             <closer>Herzlichst<lb/>Dein<lb/>
                     <signed>H.</signed>

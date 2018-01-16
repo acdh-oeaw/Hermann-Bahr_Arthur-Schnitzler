@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 9. 8. 1904</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="393"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -61,20 +61,47 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,111</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 2 Bl., 7 S. Das zweite Blatt von Schnitzler mit Bleistift beschrieben: »<quote>
+                                        <date>9/8 904</date> II</quote>«.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
+               <biblStruct corresp="ASB1" default="false">
                     <monogr>
                         <author key="A002001">Schnitzler, Arthur</author>
                         <title level="m">Briefe 1875–1912</title>
-                     <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S. Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
-                        <biblScope type="pp">484–485</biblScope>
+                        <biblScope unit="pp">484–485</biblScope>
                     </monogr>   
                 </biblStruct>
+                    <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                        <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                        <imprint>
+                            <pubPlace>Frankfurt am Main</pubPlace>
+                            <publisher>S. Fischer</publisher>
+                            <date when="1964">1964</date>
+                            
+                        </imprint>
+                        <biblScope unit="pp">194–195</biblScope>
+                    </monogr>
+                    </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
@@ -83,8 +110,9 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160125">Angelegt aus Scan</change>
+            <change who="KI MAM" when="20170627">Kollationiert</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -95,48 +123,69 @@
                   <placeName key="A000250">
                             <settlement>Wien</settlement>
                         </placeName>,
-                        <date>9. 8. 904</date>.</dateline>
+                        <date>9. 8. 904</date>,</dateline>
                 </opener>
                
                 <p output="true">
-                    <salute>lieber Hugo, </salute>über <persName key="A002002">Bahr</persName> glaube
+                    <salute>
+                        <anchor type="textConst" xml:id="TL393-2">l<damage agent="ink">ie</damage>ber</anchor> Hugo, </salute>über <persName key="A002002">Bahr</persName> glaube
                     ich Sie beruhigen zu können. Er war Sonntag bei uns, dann haben wir zusammen im
                         <placeName key="A000313">Türkenschanzpark</placeName> genachtmahlt und er war in der
                     besten Stimmung. Morgen holen wir ihn Abends ab und fahren ins grüne. Die Hitze
-                    tut ihm im ganzen wohl; und wie er sagt, fühlt er sich durch allmähliches
-                    Steigen eher angenehm erleichtert als daß er Beschwerden davon hätte. Seelische
+                    thut ihm im ganzen wohl; und wie er sagt, fühlt er sich durch allmäliges
+                    Steigen eher angenehm erleichtert als dass er Beschwerden davon hätte.<pb/> Seelische
                     Depressionen wirken auf seinen phys. Zustand am heftigsten: so war er nach dem
                     Tod <persName key="A002170">Herzls</persName> kränker als seit lang, und nach irgend einem
-                    Ärger neulich hat er wieder dieses Würgen ein paar Mal gehabt, das aber nun ganz
-                    verschwunden scheint. – Könnte man ihn doch nur dazu bringen, daß er heuer die
-                    verschiedenen Erregungen des Winters u den Winter selbst nicht zu Hause abwartet
-                    und zu guter Zeit und mit ruhigem Gemüt nach dem Meere, dem Süden abreist! –</p>
-                <p>Meinen Brief von neulich haben Sie wohl bekommen. Ich wünsche Ihnen sehr, daß eine günstige Erledigung vom Militär eintrifft! –</p>
-                <p>Mit dem Arbeiten gehts weiter leidlich, ja gut. Mit der stärksten Anteilnahme,
-                    die auf irgend einen tiefem Grund schließen läßt, in den ich noch nicht ganz
-                    hinabblicken kann, lese ich im <persName key="A002704">Vehse</persName>
+                    Aerger neulich hat er wieder dieses Würgen ein paar Mal gehabt, das aber nun ganz
+                    verschwunden scheint. – Könnte man ihn doch nur dazu bringen, dass er heuer die
+                    verschiedenen Erregungen des Winters <add place="above">u den Winter selbst</add> nicht zu Hause abwartet
+                    und zu guter <anchor type="textConst" xml:id="TL393-1">Zeit</anchor> und mit ruhigem Gemüth<pb/> nach dem Meere, dem Süden abreist!–</p>
+                <p>Meinen Brief von neulich haben Sie wohl bekommen? Ich wünsche Ihnen sehr, dass eine günstige Erledigung vom Militär eintrifft!–</p>
+                <p>Mit dem Arbeiten gehts weiter leidlich, ja gut. Mit der stärksten Antheilnahme,
+                    die auf irgend ein<add place="inline">en</add> tiefere<subst>
+                        <del rend="overwritten">s</del>
+                        <add place="inline">n</add>
+                    </subst> Grund schließen läßt, in den ich noch nicht ganz
+                    hinabblicken kann, lese ich im <hi rend="latintype">
+                        <persName key="A002704">Vehse</persName>
+                    </hi>
+                    <pb/>
                     <space unit="chars" quantity="1"/>
-                    <workName key="A020699">die Zeit des <persName key="A003583">fünften Carl</persName>
+                    <workName key="A020699">Die Zeit des <persName key="A003583">fünften <hi rend="latintype">Carl</hi>
+                        </persName>
                </workName>. Seite für Seite hat man die
-                    Empfindung: Undramatisierter <persName key="A002207">Shakespeare</persName>. – </p>
-                <p>Die <persName key="A002205">Hebbel</persName>-<workName key="A020346">Tagebücher</workName> habe ich nun zum
+                    Empfindung: Undramatisirter <hi rend="latintype">
+                        <persName key="A002207">Shakespeare</persName>
+                    </hi>. –</p>
+                <p>– Die <persName key="A002205">Hebbel</persName>
+                    <space unit="chars" quantity="1"/>
+                    <workName key="A020346">Tagebücher</workName> habe ich nun zum
                     zweiten Male gelesen; meine Bewunderung ist womöglich noch gestiegen – aber
                     menschlich hab ich mich von ihm diesmal entfernt. Es ist ein prachtvoller Geist,
-                    in beinah ununterbrochener Arbeit; aber man dürfte das ganze auch von 1863 nach
-                    rückwärts lesen – ohne daß Verständnis oder Genuß darunter litte. Was mir die
-                    Gesellschaft von weit geringern manchmal werter macht als die seine ist, daß es
+                    in beinah ununterbrochener Arbeit; aber <subst>
+                        <del rend="strikethrough">
+                            <gap quantity="2" reason="illegible" unit="chars"/>
+                        </del>
+                        <add place="above">man</add>
+                    </subst> dürf<subst>
+                        <del rend="overwritten">en</del>
+                        <add place="inline">te</add>
+                    </subst> das ganze auch von <date>1863</date> nach
+                    rückwärts lesen – ohne dass Verständnis<pb/> oder Genuss darunter litte. Was mir die
+                    Gesellschaft von weit geringern <add place="above">manchmal</add> werther macht als die seine ist dass es
                     mir erlaubt ist einer Entwicklung zuzuschauen, und das ist doch immer das
                     schönste und packendste, was wir erleben können. Es ist unheimlich in einem
                     Menschen auch blättern zu können wie in einem Aphorismenbuch. Wenn mir ein Band
-                    aus einer Existenz fehlt, möchte ich vor dem nächsten wie vor einem Wunder
-                    stehen müssen und fragen: wie bist du dahin gekommen –?</p>
+                    aus einer Existenz fehlt, möchte ich vor<pb/> dem nächsten wie vor einem Wunder
+                    stehen müssen u fragen: Wie bist du dahin gekommen –?</p>
                 <p>Leben Sie wohl und schreiben Sie mir.</p>
-                <p>Sagen Sie auch <persName key="A002267">Wassermann</persName>, falls Sie ihn sehen, daß wir hier
+                <p>Sagen Sie auch <persName key="A002267">Wassermann</persName>, falls Sie ihn sehen, dass wir hier
                     das <workName key="A020279">Los der Juden</workName> mit großem Vergnügen gelesen haben. Es
-                    ist ein schönes Vorwort zu einem Buch, das heute glaub ich keiner schreiben
+                    ist ein schönes Vorwort zu einem Buch das heute glaub ich keiner schreiben
                     kann, weder Christ noch Jude. –</p>
-                <p>– Und wird <persName key="A002007">Richard</persName> bald fertig mit dem <rs type="work" key="A020207">Stück</rs>? Wie gehts ihm? Grüßen Sie Alle.</p>
-                <closer>Herzlichst<lb/>Ihr <signed>A.</signed>
+                <p>– Und wird <persName key="A002007">Richard</persName> bald<pb/> fertig 
+                    mit dem <rs type="work" key="A020207">Stück</rs>? Wie gehts ihm? Grüßen Sie Alle.</p>
+                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.</signed>
                 </closer>
             </div>
         </body>

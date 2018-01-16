@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 18. 9. 1905</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="081"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,7 @@
                         <idno>HS AM 23377 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Kartenbrief, gedruckter Kopf <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>)</p>
+                        <p>Kartenbrief, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>).</p>
                         <stamp n="1">
                            <placeName key="A000250">Wien</placeName>
                            <date when="19050919">19. IX. 05</date>
@@ -94,9 +94,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">91</biblScope>
+                  <biblScope unit="pp">91</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -106,10 +106,15 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170509">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       <graphic url="HS_AM23377Ba"/>
+     <graphic url="HS_AM23377Ba_R"/>
+    </facsimile>
   <text type="card">
       <body>
          <div type="address">
@@ -143,21 +148,24 @@
           deinem Bedenken gegen den <rs type="work" key="A020043">2. Akt</rs> recht hast –
           vielleicht spricht sogar <hi rend="underline" n="1">dafür</hi>, dss er beim
           Vorlesen immer am stärksten wirkte. Ob es aber in der Oekonomie gerade dieses
-          Stückes (so wie es mir eben eingefallen ist) <add place="above">möglich ist
-            gestattet ist</add> die Figuren dieses Aktes, deren (wenn ich den Ausdruck
+          Stückes (so wie es mir eben eingefallen ist) <add place="above">möglich <subst>
+             <del rend="overwritten">ist</del>
+             <add place="inline">u</add>
+          </subst> gesta<unclear>t</unclear>tet ist</add> die Figuren dieses Aktes, deren (wenn ich den Ausdruck
           erfinden darf) Fernhaftigkeit nicht allein im Unvermögen des Autors begründet
           liegt, realer zu machen, das ist die Frage. (Bisher hat von allen Figuren immer
           der <damage agent="hole">
-                  <supplied>Obe</supplied>
-               </damage>rst am stärksten
+                        <supplied>Ob</supplied>
+                    </damage>erst am stärksten
           gewirkt. Nun ja, gewirkt.)</p>
-            <p>Freitag fahr ich vielleicht auf 3–6 Tage fort; aber dann muss man sich doch
-          wirklich endlich, endlich sehn. Das <rs type="work" key="A020043">Mscrpt</rs> schicke mir gelegentlich, da ich nur
+            <p>
+                    <anchor type="commentary" xml:id="KL081-1">Freitag fahr ich vielleicht auf 3–6 Tage fort</anchor>; aber dann muss man sich doch
+          wirklich endlich, endlich sehn. Das <hi rend="latintype">
+                        <rs type="work" key="A020043">Mscrpt</rs>
+                    </hi> schicke mir gelegentlich, da ich nur
           1 Ex. daheim habe, u das wieder fortschicken muss. – </p>
             <closer>Herzlichst dein<lb/>
-               <signed>
-                        <hi rend="latintype">A. </hi>
-                    </signed>
+               <signed>A. </signed>
             </closer>
          </div>
       </body>

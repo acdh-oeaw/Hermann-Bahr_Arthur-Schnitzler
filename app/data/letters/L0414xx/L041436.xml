@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 12. 3. 1897</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="436"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -64,17 +64,30 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,55</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 4 S., Bleistift, gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">78</biblScope>
+                        <biblScope unit="pp">78</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -85,8 +98,9 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160309">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170627">Kollationiert</change>
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -94,7 +108,6 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <p>[Aus der Redaktion »<orgName key="A080011">Die Zeit</orgName>«]</p>
                     <dateline rend="right">
                         <date>12/3 97</date>
                     </dateline>
@@ -102,18 +115,17 @@
                 <p>
                     <salute>Lieber Hugo, </salute>vielleicht könnten Sie sich doch entschließen, bei
                     dieser Veranstaltung zu lesen. Ich tät es hundertmal lieber, wenn Sie dabei
-                    wären. Das ist natürlich kein Grund. Aber Sie wissen ganz gut, die Leute würde
-                    es sehr interessieren und, wenn man schon von solchen Sachen sprechen soll,
+                    wären. Das ist natürlich kein Grund. Aber Sie wissen ganz gut, die Leute würd
+                    es sehr interessiren<pb/> und, wenn man schon von solchen Sachen sprechen soll,
                     »schaden« werden Sie sich nicht, sondern die Menschen werden nur das Bedürfnis
                     haben, Ihre Gedichte schön zu finden, auch wenn sie ihnen nicht gefallen. Ich
-                    will jetzt eben zu <persName key="A002010">Hirschfeld</persName> gehen, daß er vielleicht auch
+                    will jetzt eben zu <persName key="A002010">Hirschfeld</persName> gehen, dass<pb/> er vielleicht auch
                     vorliest – schon um das dumme »Jung
                         <placeName key="A000250">
                         <settlement>Wien</settlement>
                     </placeName>« Geplausch zu
-                    paralysieren. – Antworten Sie mir vielleicht ein Wort.</p>
-                <p>Mir wäre vielleicht eine Verschiebung zum Sommer lieb. Was soll <hi rend="spaced_out">ich</hi> denn lesen?
-                    </p>
+                    paralysiren.– Antworten Sie mir vielleicht ein Wort.</p>
+                <p>Mir wäre eine Verschiebung zum Sommer lieb. Was soll <hi rend="underline" n="1">ich</hi> denn lesen?</p>
                 <closer>Herzlich<lb/>Ihr <signed>Arthur</signed>  
                 </closer>
                 <postscript>

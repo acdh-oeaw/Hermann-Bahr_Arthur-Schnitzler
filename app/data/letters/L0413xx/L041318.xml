@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 18. 6. 1909</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="318"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<placeName key="A000663">Venezia. Rio dei Mendicanti e fondamenta</placeName>«</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>
+                                        <placeName key="A000663">Venezia. Rio dei Mendicanti e fondamenta</placeName>
+                                    </quote>«, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001044">S. Elisabetta</placeName>
                         </stamp>
@@ -89,12 +91,18 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="MAM" when="20151125">Stempel am Original verifiziert</change>
          <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00277"/>
+      <graphic url="MS-B-00005-B-000-00278"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -118,11 +126,13 @@
             </opener>
             <p>
                     <salute>Lieber Artur! </salute>Hoffentlich ist Dir »<workName key="A020054">Drut</workName>« sowie 
-         mein »<workName key="A020055">Tagebuch</workName>« richtig zugekommen. – Wir sind seit
+         mein »<anchor type="commentary" xml:id="KL318-1">
+                        <workName key="A020055">Tagebuch</workName>
+                    </anchor>« richtig zugekommen. – Wir sind seit
         drei Wochen hier und gehen <unclear>nun</unclear> nächste Woche nach <placeName key="A000935">
                         <settlement>Bayreuth</settlement>
                     </placeName>. – 
-         Grüß Deine verehrte liebe <rs type="person" key="A002038">Frau</rs> und h<unclear>abt</unclear> einen schönen Sommer!</p>
+         Grüß Deine verehrte liebe <rs type="person" key="A002038">Frau</rs> und habt einen schönen Sommer!</p>
             <closer>Herzlichst<lb/>Dein alter<lb/>
                     <signed>HermannBahr</signed>
             </closer>

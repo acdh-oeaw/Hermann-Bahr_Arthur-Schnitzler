@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Schnitzler an Bahr, 16. 2. 1930</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="140"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -70,7 +70,9 @@
                         <idno>HS AM 23398 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, hs. H. B. mit Buntstift: »<hi rend="underline" n="1">Schnitzler</hi>«</p>
+                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, hs. Bahr mit Buntstift: »<quote>
+                                        <hi rend="underline" n="1">Schnitzler</hi>
+                                    </quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -86,9 +88,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">116–117</biblScope>
+                  <biblScope unit="pp">116–117</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -98,10 +100,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
+    <facsimile>       
+     <graphic url="HS_AM23398Ba"/>
+     <graphic url="HS_AM23398Ba_R"/>
+  </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -116,9 +124,9 @@
             </opener>
             <p>
                     <salute>Mein lieber Hermann, </salute>nach so langer Zeit <rs type="work" key="A020965">hör</rs> ich wieder was von dir – und
-        <unclear>da</unclear> verleihst du mir gleich den <orgName key="A080733">Nobelpreis</orgName>!</p>
+        da verleihst du mir gleich den <orgName key="A080733">Nobelpreis</orgName>!</p>
             <p>Ich fühle ganz wie du: dass <persName key="A002011">Hugo</persName> derjenige gewesen ist, der ihn hätte bekommen müssen. Leider
-          könnt ich diesmal nicht wieder aussprechen – wie seinerzeit als ich (noch dazu
+          könnte ich diesmal nicht wieder aussprechen – wie seinerzeit als ich (noch dazu
           für das <workName key="A020042">Zwischenspiel</workName>!) den <anchor type="commentary" xml:id="KL140-2">
                         <orgName key="A080734">Grillparzerpreis</orgName> erhielt</anchor>, dass der eigentlich
               <persName key="A002011">Hofmannsthal</persName> gebühre. Auch damit hast du recht: »<hi rend="underline" n="1">melden</hi> werd ich <add place="above">mich</add> nicht, vielleicht
@@ -132,13 +140,15 @@
                <supplied>«</supplied>
                     <space unit="chars" quantity="1"/>
                     <anchor type="label" xml:id="LL140-1">les
-          ich natürlich immer</anchor> – so bedürfte es also kaum einer freundlichen persönlichen
-          Bemerkung, – und umso mehr dank ich dir. Ich weiss nicht, ob du meine kleinen
+          ich natürlich immer</anchor> – so bedürfte es also kaum einer <anchor type="commentary" xml:id="KL140-3">freundlichen persönlichen
+          Bemerkung</anchor>, – und umso mehr dank ich dir. Ich weiss nicht, ob du meine kleinen
           Bücher »<workName key="A020116">Geist im Wort und in der That</workName>«, u
           mein <workName key="A020117">Buch der Sprüche u Bedenken</workName> erhalten
           hast – ich würde sie dir gern schicken, auf die Gefahr hin, dass du mit vielem
           nicht einverstanden sein wirst.</p>
-            <p>Es wär schön wenn man einander wieder sähe .. »<anchor type="commentary" xml:id="KL140-1">Einer von uns wird es einmal bedauern</anchor> ..« wie
+            <p>Es wär schön wenn man einander wieder sähe <c rendition="#dots" n="2" place="center"/> »<anchor type="commentary" xml:id="KL140-1">Einer von uns wird es einmal bedauern</anchor>
+                    <space unit="chars" quantity="1"/>
+                    <c rendition="#dots" n="2" place="center"/>« wie
             <persName key="A002011">Hugo</persName> immer sagte. – </p>
             <closer>Ich grüße dich herzlich in alter Freundschaft<lb/>Dein<lb/>
                     <signed>Arthur</signed>

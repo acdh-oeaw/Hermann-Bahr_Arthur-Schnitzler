@@ -4,7 +4,7 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
             <title level="a">Bahr an Schnitzler, 4. 10. 1905</title>
             <author key="A002002">Bahr, Hermann</author>
             <editor>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="296"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -93,11 +93,17 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="card">
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00236"/>
+      <graphic url="MS-B-00005-B-000-00237"/>
+   </facsimile>
+   <text type="card">
       <body>
          <div type="address">
             <address>
@@ -117,11 +123,13 @@
                     </dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Diese Woche gehts nun leider gar nicht. Nach Deiner Première mußt Du so 
+            <p>Diese Woche gehts nun leider gar nicht. Nach Deiner <anchor type="commentary" xml:id="KL296-1">
+                        <rs type="work" key="A020042">Première</rs>
+                    </anchor> mußt Du so 
           lieb sein, mir einen Vormittag zu bestimmen.</p>
             <p>Anbei mein <rs type="work" key="A020091">Einakter</rs>.</p>
             <closer>Mit den herzlichsten Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-               <lb/>eiligst<lb/>
+                    <lb/>eiligst<lb/>
                     <signed>H.</signed>
                 </closer>
          </div>

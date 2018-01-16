@@ -4,8 +4,8 @@
   <teiHeader type="text">
       <fileDesc>
          <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
-            <title level="a">Schnitzler an Bahr, 26. 6. 1922</title>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Schnitzler an Bahr, 26. 6. 192[2]</title>
             <author key="A002001">Schnitzler, Arthur</author>
             <editor>
                <name full="yes" instant="false">Ifkovits, Kurt</name>
@@ -19,7 +19,7 @@
                   <placeName>
                      <country>A</country>           
                      <settlement>Wien</settlement>
-                  </placeName> 
+                        </placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +35,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-L" n="136"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -52,10 +52,8 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <!--
-          <placeAddressee><placeName key="A000355">[München]</placeName></placeAddressee>-->
                <dateSender>
-                  <date when="19220626" n="01">26. 6. 1922</date>
+                  <date when="19220626" n="01">26. 6. 192[2]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -85,9 +83,9 @@
                   <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
                   <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
                   <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> 
-                  <biblScope type="pp">115</biblScope>
+                  <biblScope unit="pp">115</biblScope>
                </monogr>
-               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope type="nr">89</biblScope> </series>
+               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
             </biblStruct>
                 </listBibl>
          </sourceDesc>
@@ -97,11 +95,16 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-      <revisionDesc status="candidate">
+      <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+         
       </revisionDesc>
   </teiHeader>
-  <text type="">
+    <facsimile>       <graphic url="HS_AM60133Ba"/> 
+     <graphic url="HS_AM60133Ba_R"/>
+    </facsimile>
+  <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
@@ -117,10 +120,12 @@
             </opener>
             <p>
                     <salute>lieber Hermann, </salute>darf ich dir Mr <persName key="A002125">Scofield Thayer</persName> vorstellen, Herausgeber der <orgName key="A080113">Dial</orgName>, einer der
-          charmantesten und anregendsten jungen Amerikaner, die mir begegnet sind! Ich
+          charmantesten und anregendsten jungen <placeName key="A000375">
+                        <country>Amerikaner</country>
+                    </placeName>, die mir begegnet sind! Ich
           sage nicht mehr, denn ich hoffe, du wirst dir die Zeit nehmen Mr <persName key="A002125">Thayer</persName>
                     <pb/>
-                    <space unit="chars" quantity="1"/>einmal zu empfangen und <unclear>eben</unclear>so persönlich kennen lernen.</p>
+                    <space unit="chars" quantity="1"/>einmal zu empfangen und ebenso persönlich kennen lernen.</p>
             <p>Er bringt dir meine herzlichsten Grüße.</p>
             <closer>Auf Wiedersehen!<lb/>Dein getreuer<lb/>
                <signed>Arthur</signed>

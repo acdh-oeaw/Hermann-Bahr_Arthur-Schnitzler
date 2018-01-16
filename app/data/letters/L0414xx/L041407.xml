@@ -4,7 +4,7 @@
     <teiHeader type="text">
         <fileDesc>
             <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente (1891–1931)</title>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <title level="a">Schnitzler an Hofmannsthal, 11. 8. 1891</title>
                 <author key="A002001">Schnitzler, Arthur</author>
                 <editor>
@@ -19,7 +19,7 @@
                         <placeName>
                             <country>A</country>
                             <settlement>Wien</settlement>
-                  </placeName>
+                        </placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -35,7 +35,7 @@
                 <publisher>Theatermuseum, Wien</publisher>
                 <idno type="HBAS-L" n="407"/>
                 <availability status="free">
-                    <p>Copyright © 2016</p>
+                    <p>Copyright © 2017</p>
                 </availability>
             </publicationStmt>
             <seriesStmt>
@@ -63,17 +63,30 @@
                     </context>
                     
                 </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>D</country>           
+                                <settlement>Frankfurt am Main</settlement>
+                                <repository>Freies Deutsches Hochstift</repository>
+                                <idno>Hs-30885,10</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>eh. Brief, 1 Bl., 4 S.</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
                 <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                    <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
-                    <editor>Hg. von Therese Nickl und Heinrich Schnitzler</editor>
+               <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="A002011">Hofmannsthal, Hugo</author> <author key="A002001">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title>
+                    <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer Verlag</publisher>
+                        <publisher>S. Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
-                        <biblScope type="pp">11–12</biblScope>
+                        <biblScope unit="pp">11–12</biblScope>
                     </monogr>   
                 </biblStruct>
             </listBibl>
@@ -84,8 +97,10 @@
                 <language ident="de-AT">German</language>
             </langUsage>
         </profileDesc>
-        <revisionDesc status="candidate">
+        <revisionDesc status="approved">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
+            <change who="KI MAM" when="20170703">Kollationiert</change>
+            
         </revisionDesc>
     </teiHeader>
     <text type="letter">
@@ -96,31 +111,52 @@
                     <dateline rend="right">
                   <placeName key="A000250">
                             <settlement>Wien</settlement>
-                        </placeName>, <date>11. Aug. 91</date>
+                        </placeName>
+                        <space unit="chars" quantity="5"/>
+                        <date>11. Aug. 91</date>
                     </dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
-                <p>es ist sehr wahrscheinlich, daß ich die beiden Feiertage in <placeName key="A000413">Ischl</placeName> bei meinen
-                    Leuten verbringe. Bei dieser Gelegenheit möcht ich sehr gerne mit Ihnen zusammen
-                    sein. Nicht wahr, Sie teilen mir gleich in 2 Zeilen mit, ob Sie am 15. u. 16.
-                    August in <placeName key="A001096">
-                        <settlement>Strobl</settlement>
-               </placeName> sind, ob Sie eventuell nach <placeName key="A000413">Ischl</placeName> herüber kommen wollen etc.
-                    Von meiner Ankunft verständige ich Sie jedenfalls. Ich will auch dem
-                    <persName key="A002007">Beer-Hofmann</persName> nach <placeName key="A000616">Aussee</placeName> schreiben (im übrigen hab auch ich noch keine Zeile von
-                    ihm erhalten) – vielleicht sind wir alle drei zusammen, spielen Feiertagspöbel
-                    und fühlen uns wohl. – </p>
-                <p output="true">Ihr <rs type="work" key="A021015" subtype="local-short">
+                <p>es ist sehr wahrscheinlich, dass ich die beiden Feiertage in <placeName key="A000413">Ischl</placeName> bei meinen Leuten verbringe. Bei dieser
+                    Gelegenheit möcht ich sehr gerne mit Ihnen zusammen sein. Nicht wahr, Sie
+                    theilen mir gleich in 2 Zeilen mit, ob Sie am <date>15.</date> u. <date>16.
+                        August</date> in <placeName key="A001096">
+                        <settlement>
+                            <hi rend="latintype">Strobl</hi>
+                        </settlement>
+                    </placeName> sind, ob Sie eventuell<pb/> nach <placeName key="A000413">Ischl</placeName> herüber kommen wollen <hi rend="latintype">etc</hi>. Von
+                    meiner Ankunft verständige ich Sie jedenfalls. Ich will auch dem <persName key="A002007">
+                        <hi rend="latintype">Beer Hofmann</hi>
+                    </persName> nach
+                        <placeName key="A000616">
+                        <hi rend="latintype">Aussee</hi>
+                    </placeName>
+                    schreiben (im übrigen hab <anchor type="textConst" xml:id="TL407-1">auch <hi rend="underline" n="1">ich</hi>
+                    </anchor> noch keine Zeile von ihm erhalten) –
+                    vielleicht sind wir alle drei zusammen,<pb/>
+                    <space unit="chars" quantity="1"/>
+                    <unclear>s</unclear>pielen Feiertagspöbel, und fühlen uns
+                    wohl.–</p>
+                <p output="true">Ihr <anchor type="commentary" xml:id="KL407-1">
+                        <rs type="work" key="A021015">
                   <placeName key="A000230">
                      <settlement>Salzburger</settlement>
-                  </placeName> Artikel</rs> war wunderschön; wohl Ihnen, der so was im »Halbschlaf«
-                    aufs Papier träumen kann. Ich bin wach, viel<pb/>leicht sogar überwach; aber es
-                    ist ein verlogener Herbstmorgen mit einer Barbierbeckensonne! – Haben Sie <rs type="work" key="A021016" subtype="local-short">
-                  <persName key="A002035">Salten</persName>
-                    über <persName key="A002002">Bahr</persName>
-               </rs> gelesen? Ich finde – vortrefflich! – </p>
+                            </placeName> Artikel</rs>
+                    </anchor> war wunderschön; wohl Ihnen, der so was im »Halbschlaf«
+                    aufs Papier träumen kann. Ich bin wach, vielleicht sogar überwach; aber es
+                    ist ein verlogener Herbstmorgen mit einer Barbierbeckensonne! – Haben Sie <anchor type="commentary" xml:id="KL407-2">
+                        <rs type="work" key="A021016">
+                  <persName key="A002035">
+                                <hi rend="latintype">Salten</hi>
+                            </persName>
+                            <pb/>
+                    über <persName key="A002002">
+                                <hi rend="latintype">Bahr</hi>
+                            </persName>
+               </rs>
+                    </anchor> gelesen? Ich finde – vortrefflich! –</p>
                 <p>Leben Sie wohl, hoffentlich plaudern wir bald.</p>
-                <closer>Ihr <signed>Arth Schnitzler</signed>
+                <closer>Ihr <signed>Arth Schnitz</signed>
                 </closer>
             </div>
         </body>
