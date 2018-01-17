@@ -417,42 +417,12 @@ footer .impressum {
 
 /* tei:add */
 .add {}
-
-.add:before{
-    display: inline; 
-    -moz-transform: scale(1, -1);
-    -webkit-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-    content:"^";
-    vertical-align:super;
-    font-size:50%;
-    color:black;
-}
-.add:after{
-    display: inline; 
-    -moz-transform: scale(1, -1);
-    -webkit-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-    content:"^";
-    vertical-align:super;
-    font-size:50%;
-    color:black;
-}
-
 .place_above {}
 .place_inline {}
 /* usw. */
 
 /*tei:adress*/
 .address {}
-
-.address + .address {
-    margin-top: 10px;
-}
 
 /* ### C ### */
 .closer {
@@ -548,21 +518,13 @@ del.erased:hover {
 /*handShift, Schreiberwechsel*/
 
 /*head; Überschriften*/
-.head {
-    text-align:center;
-    font-size:125%;
-}
+.head {}
 
-.subhead {
-    text-align:center;
-    font-size:115%;
-}
+.subhead {}
 
 /* hi */
 
-.rend_antiqua {
-    font-variant:small-caps;
-} 
+.rend_antiqua {} 
 
 .rend_bold {
     font-weight:bold;
@@ -573,7 +535,7 @@ del.erased:hover {
 }
 
 .rend_latintype {
-    font-variant:small-caps;
+    
 }
 
 .rend_overline {
@@ -616,9 +578,7 @@ del.erased:hover {
 /* ### S ### */
 
 /* tei:salute */
-.salute {
-    text-align: left;
-}
+.salute {}
 
 
 .supplied:hover {
@@ -642,38 +602,6 @@ del.erased:hover {
 }
 
 
-.subst:before{
-    display: inline; 
-    content:"^";
-    vertical-align:super;
-    font-size:50%;
-    color:black;
-    }
- 
- .subst:after{
-    display: inline; 
-    -moz-transform: scale(1, -1);
-    -webkit-transform: scale(1, -1);
-    -o-transform: scale(1, -1);
-    -ms-transform: scale(1, -1);
-    transform: scale(1, -1);
-    content:"^";
-    vertical-align:super;
-    font-size:50%;
-    color:black;
-    }
-    
-.subst_del {
-    vertical-align:super;
-    font-size:75%;
-}
-
-.subst_add {
-    font-size:100%;
-}
-
-
-
 
 /* ### T ### */
 
@@ -692,18 +620,6 @@ del.erased:hover {
 
 .space {
     display:inline-block;
-}
-
-.space[unit=chars][quantity=1] {
-    content:" ";
-}
-
-.space[unit=chars]{
-    width:attr(quantity);
-}
-
-.space[dim='vertical']{
-    margin-bottom: 1cm;
 }
 
 
