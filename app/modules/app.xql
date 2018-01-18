@@ -788,19 +788,16 @@ function app:nav($node as node(), $model as map(*)) {
 
 
                                 <li class="dropdown" id="nav_ueber">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Zur Edition / Impressum</a>
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Zur Edition</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                                <a href="about.html">Zur Ausgabe</a>
+                                                <a href="impressum.html">Impressum</a>
                                             </li>
                                         <li>
                                                 <a href="#">Editionsrichtlinien</a>
                                             </li>
                                         <li>
                                                 <a href="#">Nachwort</a>
-                                            </li>
-                                            <li>
-                                                <a href="impressum.html">Impressum</a>
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
