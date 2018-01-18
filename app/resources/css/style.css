@@ -417,6 +417,22 @@ footer .impressum {
 
 /* tei:add */
 .add {}
+.add:before {
+    display: inline; 
+    vertical-align:super;
+    content:"▽";
+    font-size:30%;
+    color:black;
+}
+
+.add:after {
+   display: inline; 
+    vertical-align:super;
+    content:"▽";
+    font-size:30%;
+    color:black; 
+}
+
 .place_above {}
 .place_inline {}
 /* usw. */
@@ -424,14 +440,25 @@ footer .impressum {
 /*tei:adress*/
 .address {}
 
+.address + .address {
+    margin-top: 10px;
+}
+
 /* ### C ### */
 .closer {
     
 }
 
+.country {
+    display:inline;
+}
+
 /* ### D ### */
 .damage {
     display:inline;
+    text-decoration:underline;
+    -webkit-text-decoration-color: grey; 
+    text-decoration-color: grey;
 }
 .damage-empty:before {
     display:inline;
@@ -439,7 +466,8 @@ footer .impressum {
 }
 
 .dateline {
-
+    display:block;
+    text-align:right;
 }
 
 .date {
@@ -518,13 +546,23 @@ del.erased:hover {
 /*handShift, Schreiberwechsel*/
 
 /*head; Überschriften*/
-.head {}
+.head {
+    display:block;
+    text-align:center;
+    font-size:125%;
+}
 
-.subhead {}
+.subhead {
+    display:block;
+    text-align:center;
+    font-size:115%;
+}
 
 /* hi */
 
-.rend_antiqua {} 
+.rend_antiqua {
+    font-variant:small-caps;
+} 
 
 .rend_bold {
     font-weight:bold;
@@ -535,7 +573,7 @@ del.erased:hover {
 }
 
 .rend_latintype {
-    
+    font-variant:small-caps;
 }
 
 .rend_overline {
@@ -578,7 +616,10 @@ del.erased:hover {
 /* ### S ### */
 
 /* tei:salute */
-.salute {}
+.salute {
+    display:block;
+    text-align: left;
+}
 
 
 .supplied:hover {
@@ -601,7 +642,26 @@ del.erased:hover {
     display:inline;
 }
 
+.signed {
+    display:block;
+    text-align:right;
+}
 
+.subst:before{
+    display: inline; 
+    content:"△";
+    vertical-align:super;
+    font-size:30%;
+    color:black;
+    }
+
+ .subst:after{
+    display: inline; 
+    vertical-align:super;
+    content:"▽";
+    font-size:30%;
+    color:black;
+    }
 
 /* ### T ### */
 
