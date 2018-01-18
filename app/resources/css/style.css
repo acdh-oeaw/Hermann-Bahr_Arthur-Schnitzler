@@ -907,3 +907,18 @@ del.erased:hover {
 .filterSearch {
     margin-bottom:1.5em;
 }
+
+#searchHints ul {
+    margin-left:1em;
+    padding:0px;
+    list-style-type: none;
+}
+
+#searchHints ul li:before { 
+    content:"– ";
+}
+
+#searchHints {
+    margin-top:2em;
+    padding-left:1em;
+}
