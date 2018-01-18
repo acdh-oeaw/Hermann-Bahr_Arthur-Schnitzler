@@ -481,6 +481,14 @@ function app:register_liste($type) {
             <div class="verfListHinweis">
                 <a href="view.html?author=all">Verfasserverzeichnis</a>
             </div>
+                <div class="filterSearch">
+                <form class="filter_search">
+                    <div class="input-group input-group-sm">
+                        <input id="filter_register" type="text" class="form-control" placeholder="Suche...">
+                    </input>
+                </div>
+                </form>
+                </div>
             <ul class="register">
                 {
                     let $persName-keys := collection($config:data-root)//tei:persName/tokenize(@key,' ')
@@ -907,10 +915,6 @@ declare function app:prev-doc-id($id,$type) {
  function app:register_filter($node as node(), $model as map(*),$key) {
     if (not($key)) then
         <form class="filter_form">
-            <div class="input-group input-group-sm">
-            <input id="filter_register" type="text" class="form-control" placeholder="Suche...">
-            </input>
-            </div>
             <div class="checkbox">
             <label>
                 <input type="checkbox" id="toggle_register_P" checked="checked"> Personen</input>
