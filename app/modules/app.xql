@@ -479,7 +479,7 @@ function app:register_liste($type) {
                 <h2 class="doc-title">Register</h2>
             </div>
             <div class="verfListHinweis">
-                Ein Verzeichnis der Verfasser findet sich <a href="view.html?author=all">hier</a>.
+                <a href="view.html?author=all">Verfasserverzeichnis</a>
             </div>
             <ul class="register">
                 {
