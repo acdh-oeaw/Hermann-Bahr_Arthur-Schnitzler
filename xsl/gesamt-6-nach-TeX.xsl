@@ -853,9 +853,12 @@
    
    <xsl:template match="TEI[starts-with(@xml:id, 'E')]">
       <start>
-      <xsl:text>\addchap{</xsl:text>
+      <xsl:text>\addchap*{</xsl:text>
             <xsl:value-of select="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level='a']"/>
             <xsl:text>}</xsl:text>
+      <xsl:text>\label{</xsl:text>
+      <xsl:value-of select="@xml:id"/>
+      <xsl:text>}</xsl:text>   
       <xsl:text>\mylabel{</xsl:text>
       <xsl:value-of select="concat(@xml:id,'v')"/>
       <xsl:text>}</xsl:text>
@@ -890,6 +893,9 @@
          <xsl:text>\leavevmode\addchap{</xsl:text>
          <xsl:value-of select="substring(@when,1,4)"/>
          <xsl:text>}</xsl:text>
+         <xsl:text>\label{chap</xsl:text>
+         <xsl:value-of select="substring(@when,1,4)"/>
+         <xsl:text>chap}</xsl:text>
      </xsl:if>
       <xsl:choose>
          <xsl:when test="starts-with(@xml:id,'E')">
@@ -1055,15 +1061,16 @@
                <xsl:when test="teiHeader[1]/fileDesc[1]/titleStmt[1]/title[@level ='a'] ='Bahr-Mildenburg an Olga Schnitzler, 7. 4. 1936'">
                   <xsl:text>\enlargethispage{2\baselineskip}</xsl:text>
                </xsl:when>
-               
             </xsl:choose>
-            <xsl:text>\section{</xsl:text>
+            <xsl:text>\section[</xsl:text>
+            <xsl:value-of select="foo:sectionInToc(teiHeader/fileDesc/titleStmt/title[@level='a'],0, count(contains(teiHeader/fileDesc/titleStmt/title[@level='a'],',')))"/>
+               <xsl:text>]{</xsl:text>
             <xsl:value-of select="substring-before(teiHeader/fileDesc/titleStmt/title[@level='a'],tokenize(teiHeader/fileDesc/titleStmt/title[@level='a'],',')[last()])"/>
             <xsl:value-of select="foo:date-translate(tokenize(teiHeader/fileDesc/titleStmt/title[@level='a'],',')[last()])"/>
       <xsl:if test="@short='true()'">
          <xsl:text>\kuerzung{}</xsl:text>
       </xsl:if>
-      <xsl:text>}</xsl:text>
+      <xsl:text>}{\toccheck}</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:text>\nopagebreak\mylabel{</xsl:text>
@@ -3042,7 +3049,7 @@
             <xsl:text>\subsection{</xsl:text>
          </xsl:when>
          <xsl:otherwise>
-            <xsl:text>\addsec{</xsl:text>
+            <xsl:text>\addsec*{</xsl:text>
          </xsl:otherwise>
       </xsl:choose>
       <xsl:apply-templates/>
