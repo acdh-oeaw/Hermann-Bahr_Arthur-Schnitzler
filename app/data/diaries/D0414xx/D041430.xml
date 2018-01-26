@@ -1,104 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041430">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-                <title level="a">Aufzeichnung von Bahr, 1. 8. 1903</title>
-                <author key="A002002">Bahr, Hermann</author>
-                <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-                    <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-                <funder>
-                    <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement></placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name full="yes" instant="false">Kurt Ifkovits</name>
-                    <name full="yes" instant="false">Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Theatermuseum, Wien</publisher>
-                <idno type="HBAS-D" n="430"/>
-                <availability status="free">
-                    <p>Copyright © 2017</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <listWit>
-                    <witness n="1">
-                  <msDesc>
-                        <msIdentifier>
-                            <country>A</country>           
-                            <settlement>Wien</settlement>
-                            <repository>Theatermuseum</repository>
-                            <idno>HS VM 1765 Ba</idno>
-                        </msIdentifier>
-                        
-                    </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-               <biblStruct corresp="HBT3" default="false">
-                    <monogr>
-                        <title level="m">1901–1903</title>                         
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
-                        <imprint>
-                        <date when="1997">1997</date>
-                     </imprint>
-                        <biblScope unit="pp">359–360</biblScope>
-                    </monogr>   
-                    <monogr>
-                        <author key="A002002">Bahr, Hermann</author>
-                        <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
-                        <editor>Hg. Moritz Csáky</editor>                            
-                        <imprint>
-                            <pubPlace>Wien, Köln, Weimar</pubPlace>
-                            <publisher>Böhlau</publisher>
-                        <date when="1994">1994–2003</date>
-                            </imprint><biblScope unit="vol">III</biblScope>                      
-                    </monogr>
-                </biblStruct>
-            </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
-        <revisionDesc status="candidate">
-            <change who="MAM" when="20151222">angelegt</change>
-            <change who="KI MAM" when="20160201">Kollationiert am Original</change>
-        </revisionDesc>
-    </teiHeader>
-   <text type="diaryDay">
-      <body>
-        <div type="writingSession" n="1">
-             <p><date when="19030801" n="01">1/8</date> Regen.</p>
-            <p>–</p>
-            <p>Der Fall des D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><rs type="work" key="A020082">Isidor Balsam</rs> ist ganz parallel zur <rs type="work" key="A020082">Nessel</rs>. Balsam, armer 
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041430"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Aufzeichnung von Bahr, 1. 8. 1903</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-D" n="430"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS VM 1765 Ba</idno></msIdentifier></msDesc></witness></listWit><listBibl><biblStruct corresp="HBT3" default="false"><monogr><title level="m">1901–1903</title><editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor><imprint><date when="1997">1997</date></imprint><biblScope unit="pp">359–360</biblScope></monogr><monogr><author key="A002002">Bahr, Hermann</author><title level="m">Tagebücher, Skizzenbücher, Notizhefte</title><editor>Hg. Moritz Csáky</editor><imprint><pubPlace>Wien, Köln, Weimar</pubPlace><publisher>Böhlau</publisher><date when="1994">1994–2003</date></imprint><biblScope unit="vol">III</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151222">angelegt</change><change who="KI MAM" when="20160201">Kollationiert am Original</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="19030801" n="01">1/8</date> Regen.</p><p>–</p><p>Der Fall des D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><rs type="work" key="A020082">Isidor Balsam</rs> ist ganz parallel zur <rs type="work" key="A020082">Nessel</rs>. Balsam, armer 
                 Teufel, hat einen Posten in einem Spital zugesagt bekommen, aber erst in drei Monaten, weiß nicht wovon er einstweilen leben wird, da hört er, daß Nonn 
                 einen Assistenten sucht, bietet sich ihm für drei Monate an und wird nicht mehr fortgelassen. »Was wollen Sie im Spital? Da werden Sie höchstens verd<unclear>o</unclear>rben. Ich kenne die Herren.« 
                 Ja aber er könne sich doch allmälig Bekanntschaften und Verbindungen schaffen, um dann an eine eigene Praxis zu denken. »Unsinn! Dazu taugen Sie nicht. Sie sind eine unselbstständige Natur.« Er redet ihm ein, überhaupt kein »Mann der Praxis«, sondern »theoretisch« 
                 begabt. Er hat nemlich den Plan, <rs type="work" key="A020082">Balsam</rs> solle, was er in der Anstalt sieht, in<pb/> ein wissenschaftliches »System« bringen und was er selbst eigentlich nur instinctiv, blos durch seine glückliche Hand, vollbringt, theoretisch »commentieren«. <rs type="work" key="A020082">Balsam</rs> fühlt das als eine 
-                hohe Auszeichnung, obwol er dazu gar nicht paßt und dies auch wol dunkel fühlt: »er überschätzt mich, er überschätzt alle Menschen, er dichtet allen seine eigene große Begabung an.«</p>
-            <p>–</p>
-            <p>Um ½ 12 gebadet. Esse im <placeName key="A000529">Axelmannstein</placeName>.</p>
-            <p>–</p>
-            <p>Scene <rs type="work" key="A020082">Norna</rs> – <rs type="work" key="A020082">Nonn</rs>. Sie will gleich fort. Er, verwundert, nicht schmerzlich: Eilig
+                hohe Auszeichnung, obwol er dazu gar nicht paßt und dies auch wol dunkel fühlt: »er überschätzt mich, er überschätzt alle Menschen, er dichtet allen seine eigene große Begabung an.«</p><p>–</p><p>Um ½ 12 gebadet. Esse im <placeName key="A000529">Axelmannstein</placeName>.</p><p>–</p><p>Scene <rs type="work" key="A020082">Norna</rs> – <rs type="work" key="A020082">Nonn</rs>. Sie will gleich fort. Er, verwundert, nicht schmerzlich: Eilig
                     hast Dus. Sie, lauernd: Ich sehne mich nach ihm<c rendition="#dots" n="5"/> Mir ist ja, als würde ich nun
                 erst wirklich zu leben beginnen <c rendition="#dots" n="6" place='center'/> »Verzeih, ich will Dich nicht kränken.« Das
                     ist das Stichwort, auf das er sich ermannt. Nun trotzen sie beide. Die Scene muß
@@ -106,8 +11,7 @@
                     wiederholt seine Lieblingswendgn: »Nur
                     keine Sentimentalitäten«! Sie sieht ihn einmal scharf an: »Welche Mühe Dich das
                     kostet!« Ein andres Mal: »Dein<pb/> Lachen gefällt mir nicht. Es ist sonst viel
-                    leichter.«</p>
-            <p>Nachdem sie ab ist, kommt <rs type="work" key="A020082">Kokoro</rs>. <rs type="work" key="A020082">Nonn</rs> klingelt dem Diener: »Die <rs type="work" key="A020082">Anny</rs> soll mir
+                    leichter.«</p><p>Nachdem sie ab ist, kommt <rs type="work" key="A020082">Kokoro</rs>. <rs type="work" key="A020082">Nonn</rs> klingelt dem Diener: »Die <rs type="work" key="A020082">Anny</rs> soll mir
                 einen Grog machen. Sehr heiß.« <rs type="work" key="A020082">Diener</rs> ab. <rs type="work" key="A020082">Nonn</rs>, zu <rs type="work" key="A020082">Kokoro</rs>, aber beiläufig,
                 unwichtig: Ich muß mich verkült haben. (lustig) Denken Sie sich, <rs type="work" key="A020082">Kokoro</rs>! Meine
                 Frau geht weg. Wissen Sie schon? (Er wartet immer, daß <rs type="work" key="A020082">Kokoro</rs> etwas sage. Da
@@ -115,17 +19,14 @@
                     wechselt nur in einem fort die Stellung, bald hier, bald dort kauernd) Nehmen
                     Sie sich ein Beispiel. Kein Mord, kein Tumult, nicht einmal Tränen – so machens
                     vernünftige Menschen. Sie haben Glück, kleiner <placeName key="A000519"><country>Japaner</country></placeName>: Sie haben das erste
-                    Menschenpaar gesehen, wirklicher Menschen, die das Thier überwunden haben.</p>
-            <p>Wie <rs type="work" key="A020082">Kokoro</rs> dann sagt: Und da geht sie einfach weg, nach zehn Jahren?!, fängt <rs type="work" key="A020082">Nonn</rs>
+                    Menschenpaar gesehen, wirklicher Menschen, die das Thier überwunden haben.</p><p>Wie <rs type="work" key="A020082">Kokoro</rs> dann sagt: Und da geht sie einfach weg, nach zehn Jahren?!, fängt <rs type="work" key="A020082">Nonn</rs>
                     sie <hi rend="underline" n="1">heftig</hi> zu verteidigen an: »Recht hat sie <c rendition="#dots" n="6" place="center"/>
                     Ich hätte ihr geraten, Sentimentalitäten zu machen <c rendition="#dots" n="4" place="center"/> Nein, Gott sei Dank, das
                     ist<pb/> nicht möglich. <hi rend="underline" n="1">Daran erkennt man meinen
                         Einfluß.</hi>« Dann geht er auf den Fall selbst ein, mit Humor darlegend,
                     was er ist und was der Graf ist, woran man sieht, wie die Frauen sind – so gut
                     kann man sich in der Welt unterhalten, wenn man zuschaut, wie der liebe
-                    Gott.</p>
-                <p>–</p>
-                <p>Um drei nach <placeName key="A000230"><settlement>Salzburg</settlement></placeName> gefahren, treffe <persName key="A002089">Fred</persName>,
+                    Gott.</p><p>–</p><p>Um drei nach <placeName key="A000230"><settlement>Salzburg</settlement></placeName> gefahren, treffe <persName key="A002089">Fred</persName>,
                         <persName key="A002064">Trebitsch</persName>, <persName key="A002222 A003226">Dörmanns</persName>.
                             <placeName key="A000380">Mirabell</placeName>, Stadt,
                             <placeName key="A000517">Petersfriedhof</placeName>,
@@ -134,16 +35,7 @@
                     (»Was Neues? Was noch? <c rendition="#dots" n="3" place="center"/> Und was noch?«) und erzält
                         <persName key="A002170">Herzls</persName> hübsches Wort, auf
                     <persName key="A002001">Schnitzlers</persName> ärgerliche Bemerkg, daß er immer
-                    »herablassend« sei: Ja, herablassend nach oben.</p>
-            <p>–</p>
-                <p>Hin u. zurück fahren immer: <workName key="A020570">the hound of the Baskervilles</workName>.</p>
-            <p>–</p>
-                <p>Es hat sich allmälig aufgeheitert, schöner Abend; nachts, der Weg durch den Wald,
+                    »herablassend« sei: Ja, herablassend nach oben.</p><p>–</p><p>Hin u. zurück fahren immer: <workName key="A020570">the hound of the Baskervilles</workName>.</p><p>–</p><p>Es hat sich allmälig aufgeheitert, schöner Abend; nachts, der Weg durch den Wald,
                     wo die Stämme so unheimlich stark scheinen, und der in der Finsternis weiß
-                    glitzernde Pfad, und das Rauschen von der Saalach<pb/> her – wunderschön.</p>
-                    <p>Merkwürdiger Brief der <persName key="A002084">Eysoldt</persName>. Ihr graues Siegel hat die
-                    Inschrift: Verlange viel, das ist mein Stolz!</p>
-        </div>
-      </body>
-   </text>
-</TEI>
+                    glitzernde Pfad, und das Rauschen von der Saalach<pb/> her – wunderschön.</p><p>Merkwürdiger Brief der <persName key="A002084">Eysoldt</persName>. Ihr graues Siegel hat die
+                    Inschrift: Verlange viel, das ist mein Stolz!</p></div></body></text></TEI>

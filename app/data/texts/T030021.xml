@@ -1,96 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030021">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" key="A020630">Bahr: Der Puppenspieler, 13. 12. 1904</title>
-            <author key="A002002">Bahr, Hermann</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement></placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="021"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <origDate when="19041213" n="1">13. 12. 1904</origDate>
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <author key="A002002">Bahr, Hermann</author>
-                     <title level="a" key="A020630">Der Puppenspieler (Studie in einem Aufzuge von Arthur Schnitzler. Zum ersten Mal aufgeführt im Carl-Theater am 12. Dezember 1904)</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j" key="A080148">Neues Wiener Tagblatt</title>
-                     <imprint>
-                        
-                        <date when="19041213" n="1">13. 12. 1904</date>
-                     </imprint>
-                     <biblScope unit="jg">38</biblScope>
-                     <biblScope unit="nr">345</biblScope>
-                     <biblScope unit="pp">8–9</biblScope>
-                  </monogr>
-               </biblStruct>
-               <biblStruct corresp="HBGL">
-                  <analytic>
-                     <title level="a" key="A020630">Der Puppenspieler. (Studie in einem Aufzuge von Arthur Schnitzler. Zum ersten Mal aufgeführt im Carl-Theater am 12. Dezember 1904)</title>
-                  </analytic>
-                  <monogr>
-                     <author key="A002002">Bahr, Hermann</author>
-                     <title level="m" key="A020384">Glossen. Zum Wiener Theater (1903 bis 1906)</title>
-                     <imprint>
-                        <pubPlace>Berlin</pubPlace>
-                        <publisher>S.&#160;Fischer</publisher>
-                        <date when="1907">1907</date>
-                     </imprint>
-                     <biblScope unit="pp">440–449</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
-  
-      <revisionDesc status="approved">
-			      <change when="20160223" who="MAM">Angelegt und kollationiert</change>
-         <change who="KI MAM" when="20170409">Kollationiert</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="article">
-      <body>
-         <div>
-            <head>
-               <workName key="A020027">Der
-         Puppenspieler.</workName>
-            </head>
-            <head type="sub">(Studie in einem Aufzuge von <persName key="A002001">Arthur Schnitzler</persName>. Zum
-         ersten Mal aufgeführt im <placeName key="A000318">Carl-Theater</placeName> am 12. Dezember 1904.)</head>
-            <p>Zwei Freunde treffen sich nach Jahren wieder. Freunde? Nun, wie es im »<workName key="A020083">Einsamen Weg</workName>« heißt: »<anchor type="commentary" xml:id="KT021-3" ><rs type="work" key="A020083">Wir bringen einander die Stichworte so
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030021"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020630">Bahr: Der Puppenspieler, 13. 12. 1904</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="021"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19041213" n="1">13. 12. 1904</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020630">Der Puppenspieler (Studie in einem Aufzuge von Arthur Schnitzler. Zum ersten Mal aufgeführt im Carl-Theater am 12. Dezember 1904)</title></analytic><monogr><title level="j" key="A080148">Neues Wiener Tagblatt</title><imprint><date when="19041213" n="1">13. 12. 1904</date></imprint><biblScope unit="jg">38</biblScope><biblScope unit="nr">345</biblScope><biblScope unit="pp">8–9</biblScope></monogr></biblStruct><biblStruct corresp="HBGL"><analytic><title level="a" key="A020630">Der Puppenspieler. (Studie in einem Aufzuge von Arthur Schnitzler. Zum ersten Mal aufgeführt im Carl-Theater am 12. Dezember 1904)</title></analytic><monogr><author key="A002002">Bahr, Hermann</author><title level="m" key="A020384">Glossen. Zum Wiener Theater (1903 bis 1906)</title><imprint><pubPlace>Berlin</pubPlace><publisher>S.&#160;Fischer</publisher><date when="1907">1907</date></imprint><biblScope unit="pp">440–449</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="approved"><change when="20160223" who="MAM">Angelegt und kollationiert</change><change who="KI MAM" when="20170409">Kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head><workName key="A020027">Der
+         Puppenspieler.</workName></head><head type="sub">(Studie in einem Aufzuge von <persName key="A002001">Arthur Schnitzler</persName>. Zum
+         ersten Mal aufgeführt im <placeName key="A000318">Carl-Theater</placeName> am 12. Dezember 1904.)</head><p>Zwei Freunde treffen sich nach Jahren wieder. Freunde? Nun, wie es im »<workName key="A020083">Einsamen Weg</workName>« heißt: »<anchor type="commentary" xml:id="KT021-3" ><rs type="work" key="A020083">Wir bringen einander die Stichworte so
           geschickt – es gibt pathetische Leute, die solche Beziehungen Freundschaft nennen.</rs></anchor>« Sie
           sind zusammen jung gewesen, und das bleibt einem hängen. <anchor type="label" xml:id="LT021-4" >Eigentlich ist es nur
           Assoziation, wie die Psychologen sagen: der »Freund« ruft Erinnerungen aus einer Zeit auf,
@@ -183,21 +93,10 @@
           verstehen <c rendition="#dots" n="3" place="center"/> Ein Kind meiner Laune – wahrhaftig.« Und er geht. Die beiden aber binden dem
           Buben die Serviette um und rücken seinen Stuhl an den Tisch und es wird gegessen. Und wir
           merken, oder es kommt uns wenigstens vor, daß der Dichter sagen will: Der schlichte Mann
-          hat recht, nicht die »Menschen meiner Art«, sondern, die sich vom Leben foppen lassen.</p>
-            <p>Womit wir denn wieder bei <persName key="A002092">Grillparzers</persName> und
+          hat recht, nicht die »Menschen meiner Art«, sondern, die sich vom Leben foppen lassen.</p><p>Womit wir denn wieder bei <persName key="A002092">Grillparzers</persName> und
             <persName key="A003718">Stifters</persName><space unit="chars" quantity="1"/><placeName key="A000362">altösterreichischer</placeName> 
           Weisheit der Beschwichtigung und Entsagung
-          wären:</p>
-            <lg type="poem"><anchor type="commentary" xml:id="KT021-4" ><rs type="work" key="A020558">
-               <l>Eines nur ist Glück hienieden,</l>
-               <l>Eins: des Innern stiller Frieden</l>
-               <l>Und die schuldbefreite Brust!</l>
-               <l>Und die Größe ist gefährlich,</l>
-               <l>Und der Ruhm ein leeres Spiel:</l>
-               <l>Was er gibt, sind nicht’ge Schatten,</l>
-               <l>Was er nimmt, es ist so viel!</l></rs></anchor>
-            </lg>
-            <p><anchor type="label" xml:id="LT021-2" /><anchor type="commentary" xml:id="KT021-1" >Beiseite leben.</anchor> Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt
+          wären:</p><lg type="poem"><anchor type="commentary" xml:id="KT021-4" ><rs type="work" key="A020558"><l>Eines nur ist Glück hienieden,</l><l>Eins: des Innern stiller Frieden</l><l>Und die schuldbefreite Brust!</l><l>Und die Größe ist gefährlich,</l><l>Und der Ruhm ein leeres Spiel:</l><l>Was er gibt, sind nicht’ge Schatten,</l><l>Was er nimmt, es ist so viel!</l></rs></anchor></lg><p><anchor type="label" xml:id="LT021-2" /><anchor type="commentary" xml:id="KT021-1" >Beiseite leben.</anchor> Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt
           wie <anchor type="commentary" xml:id="KT021-6" ><rs type="work" key="A020986">Brand</rs></anchor>: nicht »alles oder nichts«, sondern
           dazwischen. Nicht hochmütig auf die Wahrheit pochen, die, wenn sie extrem wird, über
           unsere Kraft geht. Die kleinen Lügen nicht verachten, aus denen doch manchmal etwas so
@@ -247,23 +146,9 @@
           glaube nur noch an die große Kraft ungestüm verlangender Leidenschaft. <anchor type="label" xml:id="LT021-1" >Und ich glaube, daß
           einer von uns, gerade einer von uns, dies machen muß, dies Werk, das die letzte Nacht
           einer alten Zeit enthalten wird, aus der schon in der Ferne, blutig froh, die Sonne der
-          neuen bricht. Mach’ du’s!</anchor><anchor type="label" xml:id="LT021-3"/></p>
-            <p><persName key="A002357">
-                  <hi rend="spaced_out">Jarno</hi>
-               </persName> gab den Puppenspieler in seiner festen und sicheren Art, mir fast ein
-               bißchen zu fest und bestimmt: die Figur hat bei <persName key="A002001">Schnitzler</persName> den beinahe musikalischen Reiz einer Radierung, <persName key="A002357">Jarno</persName> macht einen Holzschnitt daraus. In den »<workName key="A020029">letzten Masken</workName>«, die vorhergingen, wirkte Herr <persName key="A002463">
-                  <hi rend="spaced_out">Heine</hi>
-               </persName> als <rs type="work" key="A020029">Rademacher</rs> sehr, prachtvoll in
+          neuen bricht. Mach’ du’s!</anchor><anchor type="label" xml:id="LT021-3"/></p><p><persName key="A002357"><hi rend="spaced_out">Jarno</hi></persName> gab den Puppenspieler in seiner festen und sicheren Art, mir fast ein
+               bißchen zu fest und bestimmt: die Figur hat bei <persName key="A002001">Schnitzler</persName> den beinahe musikalischen Reiz einer Radierung, <persName key="A002357">Jarno</persName> macht einen Holzschnitt daraus. In den »<workName key="A020029">letzten Masken</workName>«, die vorhergingen, wirkte Herr <persName key="A002463"><hi rend="spaced_out">Heine</hi></persName> als <rs type="work" key="A020029">Rademacher</rs> sehr, prachtvoll in
                dieser Mischung von Grimm, Neid, Haß, Gier, Wut eines ohnmächtigen Menschen, der sich
                ein ganzes Leben geduckt hat und nun im Tode höhnend aufbäumt. Zum Gilbert in der
                   »<workName key="A020025">Literatur</workName>«, die dem <workName key="A020027">Puppenspieler</workName> folgte, ist er im Tone zu schwer, zu real besonders
-               neben dem <orgName  key="A081007">Simplizissimus</orgName>stil der Frau <persName key="A002555">
-                  <hi rend="spaced_out">Retty</hi>
-               </persName> und des Herrn <persName key="A002104">
-                  <hi rend="spaced_out">Treßler</hi>
-               </persName>, die hier in ihrem Element waren. <signed><hi rend="spaced_out">Hermann Bahr.</hi></signed>
-            </p>
-         </div>
-      </body>
-  </text>
-</TEI>
+               neben dem <orgName  key="A081007">Simplizissimus</orgName>stil der Frau <persName key="A002555"><hi rend="spaced_out">Retty</hi></persName> und des Herrn <persName key="A002104"><hi rend="spaced_out">Treßler</hi></persName>, die hier in ihrem Element waren. <signed><hi rend="spaced_out">Hermann Bahr.</hi></signed></p></div></body></text></TEI>

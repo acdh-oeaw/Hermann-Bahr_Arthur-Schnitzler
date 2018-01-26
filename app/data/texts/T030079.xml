@@ -1,86 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030079">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a">Schnitzler: Die feuilletonistischen Haupttypen, [1911?]</title>
-            <author key="A002001">Schnitzler, Arthur</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                      <settlement>Wien</settlement></placeName> 
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="079"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <origDate when="19110000" n="3">[1911?]</origDate>
-                 <listWit>
-       <witness n="1">
-         <msDesc>
-          
-         <msIdentifier>
-          <country>GB</country>
-          <settlement>Cambridge</settlement>
-          <repository>University Library</repository>
-          <idno>Schnitzler, A 10</idno>          
-         </msIdentifier>
-         <physDesc>
-            <p>ms. Typoskript, 3 Bl., 3 S., mit hs. Unterstreichungen und hs. Korrekturen in Lateinschrift. Undatiert, durch inhaltliche Nähe zu
-            Tagebuchaussagen eingeordnet.</p>
-         </physDesc>
-       </msDesc>       </witness>
-      </listWit>
-         </sourceDesc>
-      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
-		   <change who="MAM" when="20170317">Angelegt</change>
-         <change who="KI MAM" when="20170322">Kollationiert</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="manuscript">
-      <body>
-         <div>
-            <head><anchor type="textConst" xml:id="TT079-2" >Die feuilletonistischen Haupttypen:</anchor></head>
-            <p><hi rend="underline" n="1"><persName key="A002002">H.B.</persName></hi> hat es am leichtesten. 
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030079"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Schnitzler: Die feuilletonistischen Haupttypen, [1911?]</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="079"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19110000" n="3">[1911?]</origDate><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, A 10</idno></msIdentifier><physDesc><p>ms. Typoskript, 3 Bl., 3 S., mit hs. Unterstreichungen und hs. Korrekturen in Lateinschrift. Undatiert, durch inhaltliche Nähe zu
+            Tagebuchaussagen eingeordnet.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20170317">Angelegt</change><change who="KI MAM" when="20170322">Kollationiert</change></revisionDesc></teiHeader><text type="manuscript"><body><div><head><anchor type="textConst" xml:id="TT079-2" >Die feuilletonistischen Haupttypen:</anchor></head><p><hi rend="underline" n="1"><persName key="A002002">H.B.</persName></hi> hat es am leichtesten. 
                Bei aller Genialität und gelegentlichem Kunstverstandes ohne
                sicheres Urteil, sieht er sich nie vor die
                Notwendigkeit gestellt, ein <anchor type="textConst" xml:id="TT079-1" ><add place="above">inneres</add></anchor> 
                Hindernis zu überwinden. Er glaubt immer das, was er ausspricht.
                Er hat nicht genug Fond, um verlogen zu sein.
-               Er hat kein sachliches Verhältnis <subst>
-                  <del rend="strikethrough">für die</del>
-                  <add place="mixed">zu den</add>
-               </subst>	Dinge<add place="inline">n</add> oder Menschen,
-               es wird ihm durch Stimmung, Politik, Sympathie oder Antipathie<add place="inline">,</add><space unit="chars" quantity="1"/><subst>
-                  <del rend="strikethrough">das</del>
-                  <add place="above">durch ein</add>
-               </subst> zufällig<del rend="strikethrough">e</del><space unit="chars" quantity="1"/><add place="above">getat<unclear>g</unclear></add> 
+               Er hat kein sachliches Verhältnis <subst><del rend="strikethrough">für die</del><add place="mixed">zu den</add></subst>	Dinge<add place="inline">n</add> oder Menschen,
+               es wird ihm durch Stimmung, Politik, Sympathie oder Antipathie<add place="inline">,</add><space unit="chars" quantity="1"/><subst><del rend="strikethrough">das</del><add place="above">durch ein</add></subst> zufällig<del rend="strikethrough">e</del><space unit="chars" quantity="1"/><add place="above">getat<unclear>g</unclear></add> 
                Wort eines Andern erst gegeben. Die 
                augenblick<add place="above">lich</add>e fixe Idee, 
                die ihn beherrscht, wird
@@ -89,8 +15,7 @@
                der Welt oder eines Bruchteils dieser Welt
                wirkt bestimmend auf alles, selbst das Fernstliegenste,
                das zufällig in den Kreis seiner
-               Betrachtungen gerät.</p>
-            <p><persName key="A002034">B.B.</persName> hat allerlei zu 
+               Betrachtungen gerät.</p><p><persName key="A002034">B.B.</persName> hat allerlei zu 
                überwinden, aber es wird
                ihm nicht schwer. Die augenblickliche Wirkung, die 
                geringste Befriedigung seiner Eitel<pb/>keit ist ihm 
@@ -102,14 +27,10 @@
                Verrat völlig ohne Tücke, ohne böse Absicht.
                Er ist weder perfid, noch Diplomat, er ist
                sehr harmlos und um den Finger zu wickeln.
-               Der Kern seines Wesens ist Eitelkeit.</p>
-            <p><persName key="A002035">F.S.</persName> hat es zuweilen schwer.
+               Der Kern seines Wesens ist Eitelkeit.</p><p><persName key="A002035">F.S.</persName> hat es zuweilen schwer.
                Er versucht natürlich sich vor sich selbst, gelegentlich
                wohl auch vor Andern zu rechtfertigen, wenn
-               er irgend ein<subst>
-                  <del rend="strikethrough"><space unit="chars" quantity="1"/>Urteil</del>
-                  <add place="mixed">e Meinung</add>
-               </subst> ausspricht, das er vor
+               er irgend ein<subst><del rend="strikethrough"><space unit="chars" quantity="1"/>Urteil</del><add place="mixed">e Meinung</add></subst> ausspricht, das er vor
                seinem eigenen Verstand nicht rechtfertigen
                könnte. Aber er bedarf zu der Rechtfertigung
                sowohl, als auch manchmal zu dem Urteil eines
@@ -119,20 +40,11 @@
                grossen Stils gegeben, aber er kennt<pb/> und 
                er beobachtet sich zu gut, und schlimmer
                noch, er weiss sich auch von Andern beobachtet,
-               die <subst>
-                  <del rend="strikethrough">sich</del>
-                  <add place="above">ihn</add>
-               </subst> kennen<add place="inline">,</add> und es ist wohl möglich, dass
+               die <subst><del rend="strikethrough">sich</del><add place="above">ihn</add></subst> kennen<add place="inline">,</add> und es ist wohl möglich, dass
                gerade seine besten Freunde seiner eigentlichen Entwicklung hinderlich
                waren, dass er, wie einer von diesen Freunden sich ausgedrückt
-               hat, in schlechte Gesellschaft geraten ist.</p>
-            <p><space dim="vertical"/></p>
-            <p><del rend="strikethrough">Spielen keinerlei Momente der höheren Politik,
+               hat, in schlechte Gesellschaft geraten ist.</p><p><space dim="vertical"/></p><p><del rend="strikethrough">Spielen keinerlei Momente der höheren Politik,
                der persönlichen Beziehungen und der Eitelkeit
                mit, so werden alle diese Feuilletonisten nach
                dem Mass ihrer Befähigung auch die objektive
-               Wahrheit auszudrücken imstande sein.</del></p>
-         </div>
-      </body>
-  </text>
-</TEI>
+               Wahrheit auszudrücken imstande sein.</del></p></div></body></text></TEI>

@@ -1,103 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030065">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a">Plan von Schnitzler zu Das Wort, September 1904</title>
-            <author key="A002001">Schnitzler, Arthur</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement></placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="065"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-           <origDate when="19040900" n="2">September 1904</origDate>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                    <msIdentifier>
-                      <country>GB</country>            
-                      <settlement>Cambridge</settlement>            
-                      <repository>University Library</repository>            
-                      <idno>Schnitzler, A 196,1</idno>
-                    </msIdentifier>
-                    <physDesc>
-                      <p>ms. Typoskript, 2 Bl., 2 S., auf der 1. Seite hs., auf der 2. ms. Paginierung, in der rechten oberen Ecke hs. »<quote><date>Sept 904</date></quote>«.</p>
-                    </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-        
-         </sourceDesc>
-      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
-      <revisionDesc status="candidate">
-         <change when="20161010" who="MAM">Angelegt nach ÖGL</change>
-        <change who="KI MAM" when="20161017">Kollationiert am Faksimile</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="manuscript">
-      <body>
-         <div>
-           <p><workName key="A020349"/><persName key="A004255">Marie L.</persName>, tragische Figur. </p>
-        <p>Sie ist Frauenrechtlerin, vorgeschritten, klug, gütig. Sie hat R. als junges Wesen
-          geliebt; damals war noch viel Gutes in ihm.</p>
-        <p>Sie hat einen braven Mann geheiratet, der zu ihr aufschaut, nicht ganz mit ihr
-          einverstanden ist.</p>
-        <p>Sie hat ihn sozusagen aus theoretischen Gründen geheiratet, wollte nicht durch
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030065"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Plan von Schnitzler zu Das Wort, September 1904</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="065"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19040900" n="2">September 1904</origDate><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, A 196,1</idno></msIdentifier><physDesc><p>ms. Typoskript, 2 Bl., 2 S., auf der 1. Seite hs., auf der 2. ms. Paginierung, in der rechten oberen Ecke hs. »<quote><date>Sept 904</date></quote>«.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20161010" who="MAM">Angelegt nach ÖGL</change><change who="KI MAM" when="20161017">Kollationiert am Faksimile</change></revisionDesc></teiHeader><text type="manuscript"><body><div><p><workName key="A020349"/><persName key="A004255">Marie L.</persName>, tragische Figur. </p><p>Sie ist Frauenrechtlerin, vorgeschritten, klug, gütig. Sie hat R. als junges Wesen
+          geliebt; damals war noch viel Gutes in ihm.</p><p>Sie hat einen braven Mann geheiratet, der zu ihr aufschaut, nicht ganz mit ihr
+          einverstanden ist.</p><p>Sie hat ihn sozusagen aus theoretischen Gründen geheiratet, wollte nicht durch
           Leidenschaft gestört sein. – Alle ihre Angehörigen sollen sich in Freiheit entwickeln,
-          insbesondere ihr <rs type="person" key="A004261">Sohn</rs>.</p>
-        <p>Dieser, Wilhelm, hat ein Verhältnis mit der <rs type="person" key="A004259">Gouvernante</rs> seiner <rs type="person" key="A004260">Schwester</rs>. Marie L. lässt
+          insbesondere ihr <rs type="person" key="A004261">Sohn</rs>.</p><p>Dieser, Wilhelm, hat ein Verhältnis mit der <rs type="person" key="A004259">Gouvernante</rs> seiner <rs type="person" key="A004260">Schwester</rs>. Marie L. lässt
           ihre Tochter weiter mit ihr verkehren, aber sie selbst ist dafür, dass Wilhelm sie nicht
-          heiratet, denn sie weiss, dass er sie nicht genug liebt. </p>
-        <p>Hier <subst>
-            <del rend="strikethrough">hält</del>
-            <add place="above">lehnt</add>
-          </subst> sich der Vater L. zum ersten Male auf, mild. – Durch R., der im Hause verkehrt,
-          lernt Wilhelm die Frau des Kulturschneiders Zack kennen. Ernst. </p>
-        <p>Frau Zack ist ein hübsches, puppenhaftes, mit modernen, unverstandenen Ideen
+          heiratet, denn sie weiss, dass er sie nicht genug liebt. </p><p>Hier <subst><del rend="strikethrough">hält</del><add place="above">lehnt</add></subst> sich der Vater L. zum ersten Male auf, mild. – Durch R., der im Hause verkehrt,
+          lernt Wilhelm die Frau des Kulturschneiders Zack kennen. Ernst. </p><p>Frau Zack ist ein hübsches, puppenhaftes, mit modernen, unverstandenen Ideen
           vollgepfropftes Wesen, zwischen absichtlicher Dämonie und Süssigkeit hin- und<pb/> herschwankend. Wilhelm will, dass ihr Mann sie freigiebt. Nichts. Abschiedsbrief.
           Wilhelm nimmt es ernst. Gespräch mit R. Dieser sagt ihm: Erschiessen Sie sich. Ein Kerl
           wie Sie. Jung sterben ist das Schönste. Schauen Sie mich an. Das Leben! Hätt’ ich Mut,
-          längst wär’ ich tot.«</p>
-        <p>Der junge Mann erschiesst sich.</p>
-        <p>Die Nachricht hievon gelangt an R. in der Versammlung, wo seine Verehrer über sein
+          längst wär’ ich tot.«</p><p>Der junge Mann erschiesst sich.</p><p>Die Nachricht hievon gelangt an R. in der Versammlung, wo seine Verehrer über sein
           Schicksal verhandeln, und Frau Zack sagt: Er möge sterben, es ist das Schönste, – und R.
           aufspringt und ruft: »Dumme Gans! ich will nicht sterben!« etz. Darauf bekommt er die
-          Nachricht von dem Tode Wilhelms und spürt, was er getan hat.</p>
-        <p>Szene zwischen Marie L. und R. als Abschluss. <del rend="strikethrough">N</del></p>
-        <p>Nebenfiguren: <anchor type="commentary" xml:id="KT065-1" >Gr., Me, Ro., Frau <persName key="A004251">Str</persName></anchor><anchor type="textConst" xml:id="TT065-2" >indberg.</anchor></p>
-           <p><space dim="vertical"/></p>
-           <p>Grundidee, ungefähr: Ihr macht es euch
-          bequem, und nennt es Weltanschauung.</p>
-         </div>
-      </body>
-  </text>
-</TEI>
+          Nachricht von dem Tode Wilhelms und spürt, was er getan hat.</p><p>Szene zwischen Marie L. und R. als Abschluss. <del rend="strikethrough">N</del></p><p>Nebenfiguren: <anchor type="commentary" xml:id="KT065-1" >Gr., Me, Ro., Frau <persName key="A004251">Str</persName></anchor><anchor type="textConst" xml:id="TT065-2" >indberg.</anchor></p><p><space dim="vertical"/></p><p>Grundidee, ungefähr: Ihr macht es euch
+          bequem, und nennt es Weltanschauung.</p></div></body></text></TEI>
