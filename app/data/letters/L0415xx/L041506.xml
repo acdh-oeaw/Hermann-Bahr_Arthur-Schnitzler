@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041506">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -78,11 +77,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -91,15 +86,11 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>IV. Bitten Sie <persName key="A002002">Bahr</persName> er möchte die Nummern der
-                        »<orgName key="A080011">Zeit</orgName>« mir nachsenden, ich werde meine
+                        »<orgName  key="A080011">Zeit</orgName>« mir nachsenden, ich werde meine
                     Adresse ihm bekannt geben. Ich abonnire natürlich.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041328">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19100928" n="01">28. 9. 1910</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -96,8 +87,7 @@
          <div type="writingSession" n="1">
             <p>dankt Dir herzlichst für Deinen lieben Brief – und je eher das <rs type="work" key="A020059">Stück</rs> kommt, desto lieber! Und die schönsten Grüsse von Haus zu Haus!</p>
             <postscript>
-               <p>
-                        <date>28. 9. 10.</date>
+               <p><date>28. 9. 10.</date>
                </p>
             </postscript>
       

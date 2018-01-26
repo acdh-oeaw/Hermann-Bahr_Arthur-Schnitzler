@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041505">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000413">Bad Ischl</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000413">Bad Ischl</placeName></placeAddressee>
                     <dateSender>
                         <date when="18940702" n="1">2. 7. 1894</date>
                     </dateSender>
@@ -102,11 +99,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
             <change who="KI MAM" when="20160818">Absätze über Bahr kollationiert am Original</change>
@@ -116,52 +109,23 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine>
-                        <hi rend="latintype">Herrn Dr. Rich. Beer-Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <hi rend="underline" n="1">
-                                <placeName key="A000413">
-                                    <settlement>Ischl</settlement>
-                                </placeName>
-                            </hi>
-                        </hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000967">Egelmoos 22.</placeName>
-                        </hi>
-                    </addrLine>
+                    <addrLine><hi rend="latintype">Herrn Dr. Rich. Beer-Hofmann</hi></addrLine>
+                    <addrLine><hi rend="latintype"><hi rend="underline" n="1"><placeName key="A000413"><settlement>Ischl</settlement></placeName></hi></hi></addrLine>
+                    <addrLine><hi rend="latintype"><placeName key="A000967">Egelmoos 22.</placeName></hi></addrLine>
                 </address>
             </div>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Ich dürfte 13., 14., 15. nach <placeName key="A000413">
-                  <settlement>Ischl</settlement>
-                    </placeName> kommen, bleibe bis 20. und denke dann mit
-                    Ihnen u <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>, der uns abholt, nach
-                    <hi rend="latintype">
-                        <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>
-                    </hi> zu fahren,<pb/> wohin auch <persName key="A002011">Hugo</persName> von der
-                    <hi rend="latintype">
-                        <placeName key="A000774">
-                            <settlement>Fusch</settlement>
-                        </placeName>
-                    </hi> aus kommen wird. Ich
+                  <settlement>Ischl</settlement></placeName> kommen, bleibe bis 20. und denke dann mit
+                    Ihnen u <persName key="A002002"><hi rend="latintype">Bahr</hi></persName>, der uns abholt, nach
+                    <hi rend="latintype"><placeName key="A000230"><settlement>Salzburg</settlement></placeName></hi> zu fahren,<pb/> wohin auch <persName key="A002011">Hugo</persName> von der
+                    <hi rend="latintype"><placeName key="A000774"><settlement>Fusch</settlement></placeName></hi> aus kommen wird. Ich
                     denke, so ist’s gut? – <persName key="A002011">Hugo</persName> war Freitag früh auf der
                     Durchreise von der <placeName key="A000276">Salesianergasse</placeName> nach
                         <placeName key="A000269">Döbling</placeName> bei mir.–</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

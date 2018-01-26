@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041490">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000616">Bad Aussee</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000616">Bad Aussee</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19040811" n="3">1[1]. 8. 1904</date>
                     </dateSender>
@@ -79,11 +74,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -92,15 +83,11 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Wir haben von <persName key="A002001">Schnitzler</persName> gehört, dass er mit Ihnen beisammen
                     war; das hat mich gefreut zu denken dass Sie vielleicht einige angenehme Stunden
                     verlebt haben und nicht immer ganz allein sind.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

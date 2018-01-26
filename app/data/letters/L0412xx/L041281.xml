@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041281">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19040805" n="01">5. 8. [1904]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Datum von Schnitzler um Jahreszahl »<quote>
-                                        <date>904</date>
-                                    </quote>« ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Datum von Schnitzler um Jahreszahl »<quote><date>904</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -97,25 +86,19 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>5. 8.</date>
-                    </dateline>
+               <dateline rend="right"><date>5. 8.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Mir war furchtbar leid, Dich verfehlt zu haben. Paßt es Dir, wenn ich Dich <anchor type="commentary" xml:id="KL281-1">Sonntag</anchor> 
+            <p>Mir war furchtbar leid, Dich verfehlt zu haben. Paßt es Dir, wenn ich Dich <anchor type="commentary" xml:id="KL281-1" >Sonntag</anchor> 
         gegen sieben abhole? Ich will Nachmittag zu <persName key="A002035">Salten</persName> u. 
         wir könnten dann zusammen, wo Du willst, soupieren.</p>
             <p>Anbei send ich Dir den Abzug 
-        einer <anchor type="commentary" xml:id="KL281-2">
-                        <rs type="work" key="A020123">Arbeit</rs>
-                    </anchor>, die erst im September oder October
+        einer <anchor type="commentary" xml:id="KL281-2" ><rs type="work" key="A020123">Arbeit</rs></anchor>, die erst im September oder October
             erscheint. Hast Du Zeit und siehst sie Dir gelegentlich an, so möchte ich gern 
             später einmal Dein Urteil darüber haben. Es ist möglich, daß ich den Abzug noch 
             einmal, etwa in zwölf Tagen, brauchen werde.</p>
             <p>Verzeih die Hast, mir gehts gar nicht sehr gut.</p>
-            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-                    <lb/>
-                    <signed>H.</signed>
+            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/><signed>H.</signed>
             </closer>
          </div>
       </body>

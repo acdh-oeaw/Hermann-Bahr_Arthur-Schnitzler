@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030010">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -65,7 +65,7 @@
                   <title level="m" key="A020961">Wiener Theater (1892–1898)</title>
                   <imprint>
                     <pubPlace>Berlin</pubPlace>
-                    <publisher>S. Fischer</publisher>
+                    <publisher>S.&#160;Fischer</publisher>
                     <date when="1899">1899</date>
                   </imprint>
                   <biblScope unit="pp">242–252</biblScope>
@@ -73,12 +73,7 @@
               </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="approved">
 			      <change when="20160217" who="KI MAM">Angelegt und kollationiert</change>
@@ -122,9 +117,7 @@
           fühle ich sie: der Gedanke ist in der That unerträglich, daß sie nach mir einem Anderen
           gehören, die süßen Worte sagen und noch einen Rest der Seele haben könnte, der nicht lange
           an mich vergeben und von mir erschöpft wäre. Aber auf die Vergangenheit kenne ich sie
-          nicht, und das <anchor type="commentary" xml:id="KT010-2">
-                        <persName key="A002205">Hebbel’sche</persName>
-                    </anchor>, daß darüber hinweg kein
+          nicht, und das <anchor type="commentary" xml:id="KT010-2" ><persName key="A002205">Hebbel’sche</persName></anchor>, daß darüber hinweg kein
           Mann kann, war mir immer ein philiströs absurdes Wort: sie thut mir höchstens leid, daß
           sie das Pech hatte, mir nicht früher zu begegnen. Ich könnte auch zeigen, daß viele
           Künstler Frauen mit Vergangenheiten haben, und ich habe oft, erst heuer wieder am
@@ -146,9 +139,7 @@
             <hi rend="antiqua">Le
               Grappin</hi>
                </workName>« geschrieben und die
-             <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>er <placeName key="A000761">Freie
+             <placeName key="A000382"><settlement>Paris</settlement></placeName>er <placeName key="A000761">Freie
             Bühne</placeName> gespielt hat, die Geschichte des Herrn Jacques Privat, der das
           Vorurtheil verachtet und sich mit seiner Geliebten vermält, obwohl er weiß, daß sie vor
           ihm Anderen gehörte und liederlich lebte; da wird gezeigt, daß alle Liebe die
@@ -158,10 +149,12 @@
           sich doch aus Anderen in sie denken kann. Mit dem zweiten kann er gegen das Vorurtheil,
           das ja von dem Helden bestritten, und er kann für das Vorurtheil mit ihm gehen, das doch
           schließlich bestätigt wird. Er ist Beiden empfänglich.</p>
-            <p>
-                    <hyphenation alt="\enlargethispage{-\baselineskip}"/>Aber hier geschieht das Eine nicht, und es geschieht nicht das Andere. Das »<workName key="A020002">Märchen</workName>« ist zwischen den zwei möglichen Stücken. Es springt
-          aus dem zweiten, wie es beginnt, unvermuthet dann plötzlich ins erste. Herr <rs type="work" key="A020002">Fedor Denner</rs>, der die schöne <rs type="work" key="A020002">Fanny Theren</rs> liebt, scheint anfangs der Meinung jenes <rs type="person" key="A003581">Franzosen</rs>, daß
-          die <anchor type="commentary" xml:id="KT010-3">Leidenschaft nicht nach der Vergangenheit fragt</anchor>, gegen die übliche Moral, gegen das
+            <p>Aber hier geschieht das Eine nicht, und es geschieht nicht das Andere. Das »<workName
+            key="A020002">Märchen</workName>« ist zwischen den zwei möglichen Stücken. Es springt
+          aus dem zweiten, wie es beginnt, unvermuthet dann plötzlich ins erste. Herr <rs
+            type="work" key="A020002">Fedor Denner</rs>, der die schöne <rs type="work"
+            key="A020002">Fanny Theren</rs> liebt, scheint anfangs der Meinung jenes <rs type="person" key="A003581">Franzosen</rs>, daß
+          die <anchor type="commentary" xml:id="KT010-3" >Leidenschaft nicht nach der Vergangenheit fragt</anchor>, gegen die übliche Moral, gegen das
           thörichte »Märchen von den Gefallenen«, gegen den Dünkel des Mannes, »Unnatürliches vom
           Weibe zu fordern und eine zu verachten, weil sie gewagt, zu lieben, bevor wir um ihre
           Liebe warben«. Das klingt sehr tapfer. Aber es dauert nicht. Nicht als ob ihn etwa
@@ -199,21 +192,15 @@
           dann von dem Autor unerbittlich verlangt. Kein anderes will er dulden. Der erste Act muß
           im Hörer wecken, was die anderen halten. Die anderen müssen bringen, was der erste
           verspricht. Sonst kann es nicht treffen. Das ist das ganze Einmaleins der Wirkung.</p>
-           <p>
-                    <space dim="vertical"/>
-                </p>
+           <p><space dim="vertical"/></p>
             <p>Das fehlt dem »<workName key="A020002">Märchen</workName>«, um vom künstlerischen Werthe
           zur scenischen Kraft zu kommen. Es fehlt, was der gute, dicke <persName key="A003719">Sarcey</persName> mit dem deutlichen Gewissen der theatralischen Instincte immer gleich
               an jedem Stücke fragt: Es hat keine <hi rend="antiqua">idée maitresse</hi> – es hat
           keinen Kern, der die Gefühle um sich sammeln, fassen, einigen würde. Es schlägt im Hörer
           ein Stück um das andere an, aber keines wird gehalten. Da ist das Stück von den
-          Gefallenen, mit dem Thema der »<anchor type="commentary" xml:id="KT010-6">
-                        <workName key="A020988">Denise</workName>
-                    </anchor>« und der
+          Gefallenen, mit dem Thema der »<anchor type="commentary" xml:id="KT010-6" ><workName key="A020988">Denise</workName></anchor>« und der
               »<workName key="A020987" subtype="local">Vergini</workName>«. Dann das Stück jenes Zwistes von Verstand
-          und Gefühl, das auch ich einmal, im Sturme der ersten Jugend, mit meinen »<anchor type="commentary" xml:id="KT010-4">
-                        <workName key="A020895">neuen Menschen</workName>
-                    </anchor>« versuchte. Aber plötzlich ein drittes Stück,
+          und Gefühl, das auch ich einmal, im Sturme der ersten Jugend, mit meinen »<anchor type="commentary" xml:id="KT010-4" ><workName key="A020895">neuen Menschen</workName></anchor>« versuchte. Aber plötzlich ein drittes Stück,
           wie kleine Nervositäten große Leidenschaft verstören. Und ein viertes, ob man denn
           überhaupt, auch wenn sie Tugend hätte, eine Schauspielerin lieben darf und die kitzliche
           Ehre des Liebenden sich je in die Sitten dieses Gewerbes schickt. Vier Stücke so in drei
@@ -265,19 +252,13 @@
           tapferes Experiment. Wer eine Verjüngung der Bühne wünscht, muß es dankbar grüßen und
           seine Fehler sogar lieben, weil sie die Mühe des Nächsten kürzen. Wer freilich an der
           Schablone klebt und keinen Wechsel der Schönheit duldet, verdient es gar nicht. So
-          scheidet es im Parterre die Böcke von den Schafen.<pb/>
-                </p>
-                <p>Mir thut nur leid, daß ich heute nicht <persName key="A002051">Maximilian
+          scheidet es im Parterre die Böcke von den Schafen.<pb/></p><p>Mir thut nur leid, daß ich heute nicht <persName key="A002051">Maximilian
             Harden</persName> bin. Ich bedaure, daß es nicht meine Sache ist, das Publicum zu
           recensiren. Es wäre nur billig, daß, wer die Schauspieler oben richtet, auch die Hörer
           unten züchtigen darf, wenn sie an der Kunst sich versündigen, und ich würde ihnen nette
           Dinge sagen. Die Schwärmer für die »<workName key="A020896" subtype="local">Palastrevolution</workName>«,
-          die sich plötzlich kritisch fühlen, die Bewunderer des »<anchor type="commentary" xml:id="KT010-5">
-                        <workName key="A020912 A020913">Mauerblümchen</workName>
-                    </anchor>«, die sich plötzlich sittlich fühlen! Und die »gemüthlichen«
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er, die alles, nur Talent nicht
+          die sich plötzlich kritisch fühlen, die Bewunderer des »<anchor type="commentary" xml:id="KT010-5" ><workName key="A020912 A020913">Mauerblümchen</workName></anchor>«, die sich plötzlich sittlich fühlen! Und die »gemüthlichen«
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er, die alles, nur Talent nicht
           vertragen, verdienten ihren <persName key="A003721">Juvenal</persName> redlich.</p>
             <p>Aber zwei Acte lang durfte der Neid sich nicht regen. Zwei Acte siegte der Dichter. Da
           stand schirmend die <persName key="A002018">
@@ -301,17 +282,15 @@
           verderben wird: sie ist gut durch den Schmerz und eine Künstlerin geworden. Eine edle
           Zukunft wird eröffnet und eine große Perspective ist da. Wir werden geläutert und
           tröstlich entlassen.</p>
-           <p>Auch Herr <persName key="A002567">
-                        <hi rend="spaced_out">Giampietro</hi>
-                    </persName> und Herr <persName key="A002593">
+           <p>Auch Herr <persName key="A002567"><hi rend="spaced_out">Giampietro</hi></persName> und Herr <persName key="A002593">
                   <hi rend="spaced_out">Kutschera</hi>
-               </persName>, als dumme Wiener »<anchor type="label" xml:id="LT010-1">Lebebuben</anchor>«, waren
+               </persName>, als dumme Wiener »<anchor type="label" xml:id="LT010-1" >Lebebuben</anchor>«, waren
           unübertrefflich. Von Herrn <persName key="A002593">
                   <hi rend="spaced_out">Kutschera</hi>
                </persName>
           muß ich das besonders sagen. Er ist oft elend, niederträchtig, schändlich, weil man ihn in
           falsche Rollen stellt. Aber ich weiß jetzt, daß er ein Künstler ist.</p>
-            <p>Herr <persName key="A002347">
+            <p >Herr <persName key="A002347">
                   <hi rend="spaced_out">Nhil</hi>
                </persName> schien heute ohne rechte Lust. Herr
             <persName key="A003679">
@@ -331,9 +310,7 @@
                </persName>. Fräulein <persName key="A003741">
                   <hi rend="spaced_out">Bock</hi>
                </persName> wurde in der <placeName key="A000214">Burg</placeName>
-              besser verwendet: da ließ man sie nicht spielen. <signed>
-                        <hi rend="spaced_out">Hermann Bahr</hi>.</signed>
-                </p>
+              besser verwendet: da ließ man sie nicht spielen. <signed><hi rend="spaced_out">Hermann Bahr</hi>.</signed></p>
          </div>
       </body>
   </text>

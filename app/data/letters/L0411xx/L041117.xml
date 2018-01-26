@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041117">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,15 +69,12 @@
                         <idno>HS AM 23391 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S.; gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>), dieser mit Buntstift rot umrahmt und die Straße und Hausnummer hs. ersetzt durch: »<quote>
-                                        <hi rend="latintype">Sternwartestr 71.</hi>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 3 S.; gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>), dieser mit Buntstift rot umrahmt und die Straße und Hausnummer hs. ersetzt durch: »<quote><hi rend="latintype">Sternwartestr 71.</hi></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19100927">27. 9. 1910</date>
                   
@@ -91,62 +87,36 @@
                   <biblScope unit="pp">106</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23391Ba"/>
-     <graphic url="HS_AM23391Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23391Ba"/>
+     <graphic url="HS_AM23391Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>27/9. 1910</date>
-                    </dateline>
+               <dateline rend="right"><date>27/9. 1910</date></dateline>
                <salute>mein lieber Hermann,</salute>
             </opener>
             <p>wie die Dinge stehn, dürfte der <hi rend="latintype">
-                  <workName key="A020059">
-                            <damage agent="hole">
-                                <supplied>M</supplied>
-                            </damage>edardus</workName>
+                  <workName key="A020059"><damage agent="hole"><supplied>M</supplied></damage>edardus</workName>
                </hi> gerade <date>Anfang November</date>, also
-          zur Zeit, da du wieder für einige Tage oder Wochen in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> bist, aufgeführt
-          werden. Mir wird es <damage agent="hole">
-                        <supplied>se</supplied>
-                    </damage>hr lieb sein, wenn du das Stück
+          zur Zeit, da du wieder für einige Tage oder Wochen in <placeName key="A000250"><settlement>Wien</settlement></placeName> bist, aufgeführt
+          werden. Mir wird es <damage agent="hole"><supplied>se</supplied></damage>hr lieb sein, wenn du das Stück
           auf der Bühne siehst, wo es hingehört, wie noch selten was von mir hingehört
           hat. Aber da<pb/> ich bald <hi rend="underline" n="1">fertige</hi>
           Bühnenmanuscripte kriege, schicke ich <del rend="strikethrough">dich</del> dir sehr gern ein
-          Exemplar nach <placeName key="A000424">
-                        <settlement>London</settlement>
-                    </placeName>, und wünsche, dass es dich bei guter Laune u<damage agent="hole">
-                        <supplied>nd</supplied>
-                    </damage> Gesundheit dort antrifft (nicht um des Stückes willen.) </p>
-            <p>Gestern traf dein neuer <anchor type="commentary" xml:id="KL117-2">
-                        <rs type="work" key="A020060">Roman</rs>
-                    </anchor> von <hi rend="latintype">S. Fischer</hi> bei mir ein. Ich freu mich sehr darauf. Hab
-          mich diesmal <anchor type="commentary" xml:id="KL117-1">zurückgehalten, auch nur einen <hi rend="underline" n="1">Blick</hi> in die <hi rend="latintype">
-                            <orgName key="A080099">N. Fr. 
-            Pr.</orgName>
-                        </hi> zu thun</anchor>.<pb/>
-                </p>
-                <p>Dich und deine <rs type="person" key="A002080">Frau</rs> endlich einmal bei uns zu begrüßen, soll uns eine schöne
+          Exemplar nach <placeName key="A000424"><settlement>London</settlement></placeName>, und wünsche, dass es dich bei guter Laune u<damage agent="hole"><supplied>nd</supplied></damage> Gesundheit dort antrifft (nicht um des Stückes willen.) </p>
+            <p>Gestern traf dein neuer <anchor type="commentary" xml:id="KL117-2" ><rs type="work" key="A020060">Roman</rs></anchor> von <hi rend="latintype">S. Fischer</hi> bei mir ein. Ich freu mich sehr darauf. Hab
+          mich diesmal <anchor type="commentary" xml:id="KL117-1" >zurückgehalten, auch nur einen <hi rend="underline" n="1">Blick</hi> in die <hi rend="latintype"><orgName  key="A080099">N. Fr. 
+            Pr.</orgName></hi> zu thun</anchor>.<pb/></p><p>Dich und deine <rs type="person" key="A002080">Frau</rs> endlich einmal bei uns zu begrüßen, soll uns eine schöne
           Winterhoffnung sein.</p>
             <closer>Herzlichst dein
                <lb/>

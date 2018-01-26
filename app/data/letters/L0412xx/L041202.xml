@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041202">
   <teiHeader type="text">
@@ -22,8 +22,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -78,8 +77,7 @@
                         <idno>HS AM 49103 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Bleistift, 6 Verf., Motiv: »<quote>
-                                        <placeName key="A000650">Hietzing, den ... 19 ... / Auhofstrasse 1</placeName>. / Schöner Gruss vom reizenden Etablissement ›<placeName key="A000505">Ottakringerbräu</placeName>‹ ›zum schwarzen Hahn‹, wo es so gemüthlich ist.</quote>«</p>
+                        <p>eh. Ansichtskarte, Bleistift, 6 Verf., Motiv: »<quote><placeName key="A000650">Hietzing, den ... 19 ... / Auhofstrasse 1</placeName>. / Schöner Gruss vom reizenden Etablissement ›<placeName key="A000505">Ottakringerbräu</placeName>‹ ›zum schwarzen Hahn‹, wo es so gemüthlich ist.</quote>«</p>
                         <stamp n="1">
                            <placeName key="A000268">Wien 18/1</placeName>
                            <date when="19031215">15. 12. 03</date>
@@ -114,57 +112,38 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="missing_TMW"/>     </facsimile>
+  </teiHeader><facsimile>       <graphic url="missing_TMW"/>     </facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>Herrn Hermann Bahr</addrLine>
                <addrLine>
-                  <placeName key="A000365">Wien Ob St Veit</placeName>
-                    </addrLine>
+                  <placeName key="A000365">Wien Ob St Veit</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000420">Veitlissengasse</placeName>
-                    </addrLine>
+                  <placeName key="A000420">Veitlissengasse</placeName></addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <workName key="A020082">Dem Meister</workName>.– 10<c rendition="#prozent"/>!</p>
-            <p>
-                    <date>14. 12. 03</date>
+         <div type="writingSession" n="1" >
+            <p><workName key="A020082">Dem Meister</workName>.– 10<c rendition="#prozent"/>!</p>
+            <p><date>14. 12. 03</date>
             </p>
-            <p>
-                    <anchor type="commentary" xml:id="KL202-1">
-                        <workName key="A020045">Unter sich</workName>
-                    </anchor>:</p>
-            <closer>
-                    <signed>Arthur</signed>
+            <p><anchor type="commentary" xml:id="KL202-1" ><workName key="A020045">Unter sich</workName></anchor>:</p>
+            <closer><signed>Arthur</signed>
             </closer>
             <postscript>
                <p>
-                  <handShift scribe="A002038"/>
-                        <signed>Olga S.</signed>
+                  <handShift scribe="A002038"/><signed>Olga S.</signed>
                   <lb/>
-                  <handShift scribe="A002011"/>
-                        <signed>Hugo (ich bin nicht der <rs type="work" key="A020045">
-                                <anchor type="commentary" xml:id="KL202-2">Onkel</anchor>
-                            </rs>)</signed>
+                  <handShift scribe="A002011"/><signed>Hugo (ich bin nicht der <rs type="work" key="A020045"><anchor type="commentary" xml:id="KL202-2" >Onkel</anchor></rs>)</signed>
                   <lb/>
-                     <handShift scribe="A002134"/>
-                        <signed>Gerty</signed>
+                     <handShift scribe="A002134"/><signed>Gerty</signed>
                   <lb/>
-                        <handShift scribe="A002007"/>
-                        <signed>Richard</signed>
+                        <handShift scribe="A002007"/><signed>Richard</signed>
                </p>
             </postscript>
          </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041483">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                         
                         <persName key="A002186">Bahr, Rosa</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19030127" n="01">27. 1. 1903</date> 
                     </dateSender>
@@ -84,11 +79,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -98,18 +89,16 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>Dienstag</date> abends</dateline>
+                    <dateline rend="right"><date>Dienstag</date> abends</dateline>
                     <salute>Verehrte gnädige Frau</salute>
                 </opener>
-                <p output="true">vielen Dank von uns beiden für Ihre gütigen Zeilen, die uns sehr beruhigen. Wir
+                <p>vielen Dank von uns beiden für Ihre gütigen Zeilen, die uns sehr beruhigen. Wir
                     hatten schon durch <persName key="A002001">Schnitzler</persName> telephonisch
                     den guten Verlauf der Operation gehört. Ich komme Freitag ins <rs type="place" key="A000289">Sanatorium</rs>
                     freilich noch ohne Hoffnung, <persName key="A002002">Hermann</persName> sehen zu
                     dürfen.</p>
             <p>Die innigsten Grüße von <rs type="person" key="A002134">uns</rs> beiden.</p>
-                <closer>Ihr aufrichtig ergebener<lb/>
-                    <signed>Hofmannsthal</signed>
+                <closer>Ihr aufrichtig ergebener<lb/><signed>Hofmannsthal</signed>
                 </closer>
             </div>
         </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041403">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -84,11 +83,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160126">Angelegt aus Scan</change>
         </revisionDesc>
@@ -100,30 +95,18 @@
                 <opener>
                     
                     <dateline rend="right">
-                   <placeName key="A000382">
-                            <settlement>Paris</settlement>
-                        </placeName>, le <date>8 Dez<supplied>ember</supplied> 1893</date>
-                    </dateline>
+                   <placeName key="A000382"><settlement>Paris</settlement></placeName>, le <date>8 Dez<supplied>ember</supplied> 1893</date></dateline>
                     <salute>Lieber Freund!</salute>
                 </opener>
                 <p>Sieben Wochen war ich malariakrank – aus
-                            <placeName key="A000663">
-                        <settlement>Venedig</settlement>
-                    </placeName> – <placeName key="A001099">
-                        <settlement>Toulon</settlement>
-                    </placeName>
+                            <placeName key="A000663"><settlement>Venedig</settlement></placeName> – <placeName key="A001099"><settlement>Toulon</settlement></placeName>
                     mitgebracht –, schwere Fieberwochen. Heute ein zermatschgerter Reconvalescent.
                     So fasse ich mich nothgedrungen kurz. Ich gratulire zur <workName key="A020002">Märchenaufführung</workName>. Die
                     Bühne ist erobert. Sie werden sie nicht mehr verlassen. Nur sich treu bleiben!
                     u. ringsherum reden lassen.</p>
-                <closer>Ich grüsse Sie herzlich<lb/>Ihr aufrichtig ergebener <signed>Herzl</signed>
-                </closer>
+                <closer>Ich grüsse Sie herzlich<lb/>Ihr aufrichtig ergebener <signed>Herzl</signed></closer>
                 <postscript>
-               <p output="true">Könnten Sie mir <persName key="A002002">Bahrs</persName>
-                        <space unit="chars" quantity="1"/>
-                        <anchor type="commentary" xml:id="KL403-1">
-                            <rs type="work" key="A020226">Artikelserie über Jung-Oesterreich</rs>
-                        </anchor> (<orgName key="A080155">Deutsche
+               <p >Könnten Sie mir <persName key="A002002">Bahrs</persName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL403-1" ><rs type="work" key="A020226">Artikelserie über Jung-Oesterreich</rs></anchor> (<orgName  key="A080155">Deutsche
                             Zeitung</orgName>) verschaffen? Bitte!</p>
             </postscript>
             </div>

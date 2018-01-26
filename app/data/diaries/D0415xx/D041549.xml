@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041549">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,17 +66,12 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19181024" n="1">24/10</date> Vm. bei <persName key="A002035">Salten</persName>. (Dr.
+            <p><date when="19181024" n="1">24/10</date> Vm. bei <persName key="A002035">Salten</persName>. (Dr.
                   <persName key="A002750">Foges</persName> und Dr. <persName key="A003622">Götzl</persName>.) Man ist beruhigter
                trotz der Schwere des Falles.– Wir reden Politik.</p>
             <p>Zu Prof. <persName key="A003108">Redlich</persName>. (»Pessimistisch im Einzelnen, optimistisch im
                großen.« Heftig gegen das Preußentum. Der Internationale Munitionstrust. Die heutigen
-               Nachrichten aus <placeName key="A001103">
-                        <settlement>Fiume</settlement>
-                    </placeName>. <rs type="person" key="A003625">Kaiser</rs> in <placeName key="A001179">
-                        <settlement>Debrezin</settlement>
-                    </placeName>.
+               Nachrichten aus <placeName key="A001103"><settlement>Fiume</settlement></placeName>. <rs type="person" key="A003625">Kaiser</rs> in <placeName key="A001179"><settlement>Debrezin</settlement></placeName>.
                Pro-<placeName key="A000454">Englisches</placeName>.– Unbildung der Hohenzollern. Vergleich
                   <persName key="A003601">Wilsons</persName> (den <persName key="A003108">R.</persName> übrigens schätzt) mit
                dem grausamen Dogmatiker <persName key="A003602">Cromwell</persName>.– »Wir stehn mitten in der
@@ -107,11 +97,7 @@
                »Feuilletonisten« im höchsten Sinn zu erläutern. Die Dreitheilung der Direction
                   (<persName key="A002002">Bahr</persName> – <persName key="A002238">Devrient</persName> –
                   <persName key="A002184">Michel</persName>) war a priori von Übel.– </p>
-            <p>Mit <persName key="A002083">Heini</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002510">Beethoven</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020872">Trio Es dur</workName>.–</p>
+            <p>Mit <persName key="A002083">Heini</persName><space unit="chars" quantity="1"/><persName key="A002510">Beethoven</persName><space unit="chars" quantity="1"/><workName key="A020872">Trio Es dur</workName>.–</p>
          </div>
       </body>
   </text>

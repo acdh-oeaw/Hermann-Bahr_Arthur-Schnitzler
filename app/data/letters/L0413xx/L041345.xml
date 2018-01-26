@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041345">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -71,9 +70,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, Vermerk von Schnitzler »<quote>
-                                        <hi rend="latintype">A</hi>
-                                    </quote>«, <ptr target="LbesonderheitA"/>.</p>
+                        <p>eh. Karte, Vermerk von Schnitzler »<quote><hi rend="latintype">A</hi></quote>«, <ptr target="LbesonderheitA"/>.</p>
                         <stamp n="1">
                            <placeName key="A000230">Salzburg</placeName>
                            <date when="19210210">10. II. <supplied>1921</supplied>
@@ -86,11 +83,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151217">Kollationiert</change>
       </revisionDesc>
@@ -105,36 +98,26 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000250">Sternwartestraße 71</placeName>
-                    </addrLine>
+                  <placeName key="A000250">Sternwartestraße 71</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date when="19210209">9. 2. 21</date>
-                    </dateline>
+               <dateline rend="right"><date when="19210209">9. 2. 21</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Herzlichsten Dank für Deinen lieben Brief! Aber als er kam, war 
-               mein für das <orgName key="A080080">Journal</orgName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL345-2">vom <date>20.</date>
-                    </anchor>
+               mein für das <orgName  key="A080080">Journal</orgName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL345-2" >vom <date>20.</date></anchor>
         bestimmtes <workName key="A020114">Tagebuch</workName> schon abgegangen. 
         Wenns irgend geht, hoff ich aber dennoch des verehrten <rs type="person" key="A002015">Mannes</rs> 
-        u. seines Geburtstags zu gedenken, wenn auch <anchor type="commentary" xml:id="KL345-1">post festum</anchor>. – 
+        u. seines Geburtstags zu gedenken, wenn auch <anchor type="commentary" xml:id="KL345-1" >post festum</anchor>. – 
         Ich lese jetzt Deinen Namen so oft – 
         erinnerst Du Dich denn, daß ich der erste war, der »<workName key="A020018">Reigen</workName>« 
-        öffentlich vorlesen wollte, ja sogar bis zu <anchor type="commentary" xml:id="KL345-3">
-                        <persName key="A002016">Körber</persName> selber 
+        öffentlich vorlesen wollte, ja sogar bis zu <anchor type="commentary" xml:id="KL345-3" ><persName key="A002016">Körber</persName> selber 
         ging</anchor>, um es durchzusetzen, leider vergebens? – Ich wäre sehr froh, Dich bald einmal endlich wiederzusehen!</p>
-            <closer>Dich u. die <rs type="person" key="A002038 A002083 A002097">Deinen</rs> herzlichst grüßend<lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Dich u. die <rs type="person" key="A002038 A002083 A002097">Deinen</rs> herzlichst grüßend<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

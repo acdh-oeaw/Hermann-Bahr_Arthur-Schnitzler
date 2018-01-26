@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041342">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,9 +49,7 @@
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
                <!--<placeSender><placeName key="A000230">Salzburg</placeName></placeSender>-->
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19150210" n="01">10. 2. 1915</date>
                </dateSender>
@@ -75,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151217">Kollationiert</change>
          <change who="KI MAM" when="20170531">Kollationiert</change>
@@ -94,18 +87,15 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>10. 2. 15</date>
-                    </dateline>
+               <dateline rend="right"><date>10. 2. 15</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Herzlichen Dank für den lieben Brief, der <rs type="person" key="A002080">uns
-                  Beiden</rs> eine große Freude gemacht hat! Meine <rs type="person" key="A002080">Frau</rs> möchte sehr gern einmal in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> Lieder singen, <persName key="A002120">Schubert</persName>, <persName key="A002121">Hugo Wolf</persName> und die <workName key="A020077" subtype="local">Wesendoncklieder</workName> am liebsten. Jetzt aber geht das nicht, sie kann hier
-               nicht abkommen von ihrem <anchor type="commentary" xml:id="KL342-1">
-                        <rs type="place" key="A000357">Spital</rs>
-                    </anchor> (ich schrieb das
+                  Beiden</rs> eine große Freude gemacht hat! Meine <rs type="person" key="A002080"
+                  >Frau</rs> möchte sehr gern einmal in <placeName key="A000250"><settlement>Wien</settlement></placeName> Lieder singen, <persName key="A002120">Schubert</persName>, <persName
+                  key="A002121">Hugo Wolf</persName> und die <workName key="A020077" subtype="local"
+                  >Wesendoncklieder</workName> am liebsten. Jetzt aber geht das nicht, sie kann hier
+               nicht abkommen von ihrem <anchor type="commentary" xml:id="KL342-1" ><rs type="place" key="A000357">Spital</rs></anchor> (ich schrieb das
                   <persName key="A002119">Heller</persName> gestern schon). Auch bin ich der
                Meinung, daß es besser ist, dazu eine stillere, für Kunst empfänglichere Zeit
                abzuwarten. Willst Du aber nicht so lange warten, so komm doch her, Du kannst es bei
@@ -115,9 +105,7 @@
             <p>Grüße Frau <persName key="A002038">Olga</persName> in alter herzlicher
                   <unclear>Ve</unclear>rehrung schönstens von mir und kommt wirklich bald einmal!
                (Aber mit Nachricht ein paar Tage früher, damit ich nicht gerade weg bin, in
-                     <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName> oder in den Bergen!) </p>
+                     <placeName key="A000355"><settlement>München</settlement></placeName> oder in den Bergen!) </p>
             <closer>Herzlichst<lb/>Dein alter<lb/>
                <signed>H</signed>
             </closer>

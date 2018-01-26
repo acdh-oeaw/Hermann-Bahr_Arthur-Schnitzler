@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041485">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">V</biblScope>
+                            </imprint><biblScope unit="vol">V</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160111">Kurzfassung angelegt</change>
             <change who="MAM" when="20160112">Ergänzt</change>
@@ -94,18 +88,14 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19060118" n="01">18.</date> Brief an <persName key="A002098">Speidel</persName>:
+            <p ><date when="19060118" n="01">18.</date> Brief an <persName key="A002098">Speidel</persName>:
                     er soll zu <persName key="A002463">Heine</persName> fahren; beantrage »<workName key="A020043">Ruf des Lebens</workName>«; <persName key="A002011">Hofmannsthal</persName> Entscheidung
                     drei Tage nach der <placeName key="A000368">Berliner</placeName>
-                    Première zugesagt, soll ich hin?; <persName key="A002202">Hauptmann</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020637">Hirtenlied</workName> u. <persName key="A003363">Wehlisch</persName> Contracte
+                    Première zugesagt, soll ich hin?; <persName key="A002202">Hauptmann</persName><space unit="chars" quantity="1"/><workName key="A020637">Hirtenlied</workName> u. <persName key="A003363">Wehlisch</persName> Contracte
                     moniert; Frage der Proceßkosten.</p>
-                <p/>
+                <p />
             <p>–</p>
-            <p>
-                    <table cols="2" rows="11">
+            <p><table cols="2" rows="11">
                 <row role="data" rows="1" cols="1" rend="rightbracket">
                     <cell role="data" rows="1" cols="1">
                         <hi rend="underline" n="1">Spesen</hi>. An Telegrammen</cell>
@@ -122,11 +112,7 @@
                   <row role="data" rows="1" cols="1">
                     <cell role="data" rows="1" cols="1"/>
                     <cell role="data" rows="1" cols="1">
-                        <placeName key="A000250">
-                                    <settlement>Wien</settlement>
-                                </placeName> – <placeName key="A000355">
-                                    <settlement>München</settlement>
-                                </placeName> 45 M 80</cell>
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName> – <placeName key="A000355"><settlement>München</settlement></placeName> 45 M 80</cell>
                   </row>
                   <row role="data" rows="1" cols="1">
                     <cell role="data" rows="1" cols="1"/>
@@ -135,12 +121,8 @@
                   <row role="data" rows="1" cols="1">
                     <cell role="data" rows="1" cols="1"/>
                     <cell role="data" rows="1" cols="1">
-                        <placeName key="A000355">
-                                    <settlement>München</settlement>
-                                </placeName> –
-                                        <placeName key="A000368">
-                                    <settlement>Berlin</settlement>
-                                </placeName> 59 M
+                        <placeName key="A000355"><settlement>München</settlement></placeName> –
+                                        <placeName key="A000368"><settlement>Berlin</settlement></placeName> 59 M
                                 70</cell>
                   </row>
                   <row role="data" rows="1" cols="1">
@@ -165,9 +147,7 @@
               
                   <row role="data" rows="1" cols="1">
                     <cell role="data" rows="1" cols="1"/>
-                    <cell role="data" rows="1" cols="1">Trinkgelder <placeName key="A000355">
-                                    <settlement>München</settlement>
-                                </placeName> B. 15
+                    <cell role="data" rows="1" cols="1">Trinkgelder <placeName key="A000355"><settlement>München</settlement></placeName> B. 15
                                 M</cell>
                   </row>
                   <row role="data" rows="1" cols="1">
@@ -182,9 +162,7 @@
             <p>–</p>
             <p>| Nochmals an <persName key="A002098">Speidel</persName> wegen <persName key="A003364">Friedrich
                     Kühne</persName> |</p>
-            <p>–<pb/>
-                </p>
-                <p>
+            <p>–<pb/></p><p>
                <persName key="A003365">Suzanne Després</persName>, <workName key="A020638">Detour</workName>.</p>
         </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041094">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,18 +65,9 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18931202" n="3">2/12</date> Kritiken nicht gar so übel; außer den
-               antisemit. Blättern. Perfid dumm <anchor type="commentary" xml:id="KD094-1">
-                        <rs type="work" key="A020322">
-                            <persName key="A002345">Schütz</persName>
-                        </rs>
-                    </anchor>; auch
-               <anchor type="commentary" xml:id="KD094-2">
-                        <rs type="work" key="A020315">
-                            <persName key="A002346">Granichstädten</persName>
-                        </rs>
-                    </anchor>. – Der Riesenerfolg der
+            <p><date when="18931202" n="3">2/12</date> Kritiken nicht gar so übel; außer den
+               antisemit. Blättern. Perfid dumm <anchor type="commentary" xml:id="KD094-1" ><rs type="work" key="A020322"><persName key="A002345">Schütz</persName></rs></anchor>; auch
+               <anchor type="commentary" xml:id="KD094-2" ><rs type="work" key="A020315"><persName key="A002346">Granichstädten</persName></rs></anchor>. – Der Riesenerfolg der
                   <persName key="A002018">S.</persName> wohl absichtlich nicht recht hervorgehoben.–
                Im <placeName key="A000220">Volkstheater</placeName>.– Bei <persName key="A004430">Kadelburg</persName>.– Bei der <persName key="A002018">S.</persName>– Sie im
                Bett. Ihre sinnlich höhnischen Augen. Erzählt mir von ihrem Verhältnis mit <persName key="A002000">B-d</persName>; »einziger«, den sie geliebt!– Wieso hab ich dieses

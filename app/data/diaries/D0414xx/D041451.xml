@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041451">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160107">angelegt</change>
             <change who="KI MAM" when="20160201">Kollationiert am Original</change>
@@ -93,34 +87,21 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19030621" n="2"/>
+             <p><date when="19030621" n="2"/>
                <persName key="A002011">Hofmannsthal</persName> Dichter </p>
-            <p>
-                    <persName key="A003187">Krupp</persName> I <placeName key="A000539">Wollzeile 12</placeName>
+            <p><persName key="A003187">Krupp</persName> I <placeName key="A000539">Wollzeile 12</placeName>
             </p>
-                <p>
-                    <persName key="A003284">Lautenschläger</persName>
+                <p><persName key="A003284">Lautenschläger</persName>
             </p>
-            <p>
-                    <persName key="A003283">Ferdinand</persName> Karte <placeName key="A000616">
-                  <settlement>Aussee</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName> 
+            <p><persName key="A003283">Ferdinand</persName> Karte <placeName key="A000616">
+                  <settlement>Aussee</settlement></placeName><space unit="chars" quantity="1"/><placeName key="A000230"><settlement>Salzburg</settlement></placeName> 
             </p>
-            <p>
-                    <persName key="A003285">Ungar</persName>
+            <p><persName key="A003285">Ungar</persName>
             </p>
                 <p>–</p>
-                <p>
-                    <persName key="A003108">Redlich</persName> schreibt mir Rendezvous zwischen <date>2 u. 8.</date> Am besten wol <date>5.</date>
-                </p>
+                <p><persName key="A003108">Redlich</persName> schreibt mir Rendezvous zwischen <date>2 u. 8.</date> Am besten wol <date>5.</date></p>
                 <p>–</p>
-            <p>
-                    <workName key="A020036">Rezensionen</workName> geschickt an <del rend="strikethrough">
+            <p><workName key="A020036">Rezensionen</workName> geschickt an <del rend="strikethrough">
                   <persName key="A002001">Schnitzler</persName>
                </del>,
                 <del rend="strikethrough">
@@ -169,10 +150,7 @@
                   <persName key="A003161">Olbrich</persName>
                </del>, 
                 <del rend="strikethrough">
-                  <anchor type="commentary" xml:id="KD451-1">
-                            <rs type="person" key="A003287">Grossherzog</rs>
-                        </anchor>
-                    </del>, <del rend="strikethrough">
+                  <anchor type="commentary" xml:id="KD451-1" ><rs type="person" key="A003287">Grossherzog</rs></anchor></del>, <del rend="strikethrough">
                   <persName key="A003472">Ring</persName>
                </del>, <persName key="A003158">Kranewitter</persName>, 
                 <persName key="A003142">Fischl</persName>, <del rend="strikethrough">

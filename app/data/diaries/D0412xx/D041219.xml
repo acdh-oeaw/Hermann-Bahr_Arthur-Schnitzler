@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041219">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,8 +66,7 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19030719" n="3">19/7</date> S.– <rs type="work" key="A020083">4. Akt</rs>.– Fiaker
+            <p><date when="19030719" n="3">19/7</date> S.– <rs type="work" key="A020083">4. Akt</rs>.– Fiaker
         zu <persName key="A002002">Bahr</persName>; 40. Geburtstag.– Er lag verstimmt und
         sehr alt aussehend in einem Gartensessel. Ich brachte ihm ein Bild mit Widmung.
         (Erinnre dich wie oft du alt warst – und freu dich, wie oft du noch jung sein wirst.)

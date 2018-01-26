@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041049">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,8 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>[Wien]</placeAddressee>
+               <placeAddressee><placeName key="A000250">Wien</placeName>[Wien]</placeAddressee>
                <dateSender>
                   <date when="19020516" n="01">16. 5. 1902</date>
                </dateSender>
@@ -74,8 +72,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19020516">16. 5. 1902</date>
                   <respStmt>Abschrift</respStmt>
@@ -88,22 +85,16 @@
                   <biblScope unit="pp">75</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23351Ba"/>
      <graphic url="HS_AM23351Ba_R"/>
   </facsimile>
@@ -114,9 +105,7 @@
                <salute>mein lieber Hermann,</salute>
             </opener>
             <p>bevor ich zu dir hinauskomme, dir für deinen guten schönen Brief zu danken, wollte ich dir heute
-          schon sagen, wie herzlich er mich gefreut hat – und dass die Blumen, d<damage agent="hole">
-                        <supplied>ie</supplied>
-                    </damage> du mir <add place="inline">ge</add>schickt hast, mindestens
+          schon sagen, wie herzlich er mich gefreut hat – und dass die Blumen, d<damage agent="hole"><supplied>ie</supplied></damage> du mir <add place="inline">ge</add>schickt hast, mindestens
           ebenso wohl u herrlich duften als wenn sie von einem weiblichen Wesen kämen –
           und je<pb/>denfalls zu den freundlichsten Enttäuschungen gehören, die mir
           geworden sind – Noch mehreres wollte ich dir schreiben, was aber zu lesen dir
@@ -126,16 +115,9 @@
           bitte, an die innigste<pb/> Theilnahme eines Menschen zu glauben, der dein
           Freund <hi rend="underline" n="1">geworden</hi> ist. Und was man so allmälig wurde, bleibt man –
           besonders in unseren Jahren. Nicht mehr für heute. Ich hoffe dich bald zu sehen.</p>
-            <closer>In Treue dein<lb/>
-                    <signed>Arthur</signed>
-                </closer>
+            <closer>In Treue dein<lb/><signed>Arthur</signed></closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>16. 5. 902</date>
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>16. 5. 902</date>
                </p>
             </postscript>
          </div>

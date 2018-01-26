@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041393">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
                     <!--<placeAddressee><placeName>[Markt Aussee?]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="19040809" n="1">9. 8. 1904</date>
@@ -71,8 +68,7 @@
                                 <idno>Hs-30885,111</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 2 Bl., 7 S. Das zweite Blatt von Schnitzler mit Bleistift beschrieben: »<quote>
-                                        <date>9/8 904</date> II</quote>«.</p>
+                                <p>eh. Brief, 2 Bl., 7 S. Das zweite Blatt von Schnitzler mit Bleistift beschrieben: »<quote><date>9/8 904</date> II</quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -85,7 +81,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
                         <biblScope unit="pp">484–485</biblScope>
@@ -95,7 +91,7 @@
                         <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1964">1964</date>
                             
                         </imprint>
@@ -105,11 +101,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="20160125">Angelegt aus Scan</change>
             <change who="KI MAM" when="20170627">Kollationiert</change>
@@ -120,15 +112,11 @@
             <div type="writingSession" n="1">
                 <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>,
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>,
                         <date>9. 8. 904</date>,</dateline>
                 </opener>
                
-                <p output="true">
-                    <salute>
-                        <anchor type="textConst" xml:id="TL393-2">l<damage agent="ink">ie</damage>ber</anchor> Hugo, </salute>über <persName key="A002002">Bahr</persName> glaube
+                <p ><salute><anchor type="textConst" xml:id="TL393-2" >l<damage agent="ink">ie</damage>ber</anchor> Hugo, </salute>über <persName key="A002002">Bahr</persName> glaube
                     ich Sie beruhigen zu können. Er war Sonntag bei uns, dann haben wir zusammen im
                         <placeName key="A000313">Türkenschanzpark</placeName> genachtmahlt und er war in der
                     besten Stimmung. Morgen holen wir ihn Abends ab und fahren ins grüne. Die Hitze
@@ -139,33 +127,21 @@
                     Aerger neulich hat er wieder dieses Würgen ein paar Mal gehabt, das aber nun ganz
                     verschwunden scheint. – Könnte man ihn doch nur dazu bringen, dass er heuer die
                     verschiedenen Erregungen des Winters <add place="above">u den Winter selbst</add> nicht zu Hause abwartet
-                    und zu guter <anchor type="textConst" xml:id="TL393-1">Zeit</anchor> und mit ruhigem Gemüth<pb/> nach dem Meere, dem Süden abreist!–</p>
+                    und zu guter <anchor type="textConst" xml:id="TL393-1" >Zeit</anchor> und mit ruhigem Gemüth<pb/> nach dem Meere, dem Süden abreist!–</p>
                 <p>Meinen Brief von neulich haben Sie wohl bekommen? Ich wünsche Ihnen sehr, dass eine günstige Erledigung vom Militär eintrifft!–</p>
                 <p>Mit dem Arbeiten gehts weiter leidlich, ja gut. Mit der stärksten Antheilnahme,
                     die auf irgend ein<add place="inline">en</add> tiefere<subst>
                         <del rend="overwritten">s</del>
                         <add place="inline">n</add>
                     </subst> Grund schließen läßt, in den ich noch nicht ganz
-                    hinabblicken kann, lese ich im <hi rend="latintype">
-                        <persName key="A002704">Vehse</persName>
-                    </hi>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020699">Die Zeit des <persName key="A003583">fünften <hi rend="latintype">Carl</hi>
-                        </persName>
+                    hinabblicken kann, lese ich im <hi rend="latintype"><persName key="A002704">Vehse</persName></hi><pb/><space unit="chars" quantity="1"/><workName key="A020699">Die Zeit des <persName key="A003583">fünften <hi rend="latintype">Carl</hi></persName>
                </workName>. Seite für Seite hat man die
-                    Empfindung: Undramatisirter <hi rend="latintype">
-                        <persName key="A002207">Shakespeare</persName>
-                    </hi>. –</p>
-                <p>– Die <persName key="A002205">Hebbel</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020346">Tagebücher</workName> habe ich nun zum
+                    Empfindung: Undramatisirter <hi rend="latintype"><persName key="A002207">Shakespeare</persName></hi>. –</p>
+                <p>– Die <persName key="A002205">Hebbel</persName><space unit="chars" quantity="1"/><workName key="A020346">Tagebücher</workName> habe ich nun zum
                     zweiten Male gelesen; meine Bewunderung ist womöglich noch gestiegen – aber
                     menschlich hab ich mich von ihm diesmal entfernt. Es ist ein prachtvoller Geist,
                     in beinah ununterbrochener Arbeit; aber <subst>
-                        <del rend="strikethrough">
-                            <gap quantity="2" reason="illegible" unit="chars"/>
-                        </del>
+                        <del rend="strikethrough"><gap quantity="2" reason="illegible" unit="chars"/></del>
                         <add place="above">man</add>
                     </subst> dürf<subst>
                         <del rend="overwritten">en</del>
@@ -185,8 +161,7 @@
                     kann, weder Christ noch Jude. –</p>
                 <p>– Und wird <persName key="A002007">Richard</persName> bald<pb/> fertig 
                     mit dem <rs type="work" key="A020207">Stück</rs>? Wie gehts ihm? Grüßen Sie Alle.</p>
-                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.</signed>
-                </closer>
+                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.</signed></closer>
             </div>
         </body>
     </text>

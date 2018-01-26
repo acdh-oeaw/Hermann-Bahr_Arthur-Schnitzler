@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041262">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender key="A000250">
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender key="A000250"><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19031109" n="01">9. 11. 1903</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -97,9 +88,7 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>9. 11. 03</date>
-                    </dateline>
+               <dateline rend="right"><date>9. 11. 03</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich habe gestern Dein »<workName key="A020037">Excentric</workName>«
@@ -107,35 +96,24 @@
         gebrüllt, daß ich wirklich bisweilen eine Minute lang warten mußte, bis sie sich so
         weit gefaßt hatten, mich wieder anzuhören. Die Geschichte ist köstlich und zum
         Vorlesen ideal. Ich schicke Dir das Heft mit derselben Post zurück, ich habe mir die
-        betr. Nummer der <anchor type="commentary" xml:id="KL262-3">
-                        <orgName key="A080142">Jugend</orgName>
-                    </anchor> bereits verschafft.</p>
+        betr. Nummer der <anchor type="commentary" xml:id="KL262-3" ><orgName  key="A080142">Jugend</orgName></anchor> bereits verschafft.</p>
             <p>Noch etwas, ganz aufrichtig. Da Du keine
         Sitze von mir verlangt hast, habe ich Dir keine <subst>
-           <del rend="overwritten">
-                            <gap quantity="1" reason="illegible" unit="chars"/>
-                        </del>
+           <del rend="overwritten"><gap quantity="1" reason="illegible" unit="chars"/></del>
            <add place="inline">g</add>
         </subst>eschickt, weil mir das von mir immer
         so furchtbar aufdringlich vorkommt, Jemandem ungebeten Sitze zu schicken, der dann am
-        End erst seine Köchin anflehen muß, sie zu benützen.<pb/>
-                </p>
-                <p>Anbei findest Du den <anchor type="commentary" xml:id="KL262-2">Rek<unclear>o</unclear>urs,
+        End erst seine Köchin anflehen muß, sie zu benützen.<pb/></p><p>Anbei findest Du den <anchor type="commentary" xml:id="KL262-2" >Rek<unclear>o</unclear>urs,
            der am <date>5. d.</date> der <orgName key="A080041">Statthalterei</orgName> überreicht worden ist</anchor>. Er ist von mir mit 
                   <persName key="A002000">Burckhard</persName>
         berathen und dann von diesem verfaßt worden, was aber, nach seinem Wunsch, nicht
         bekannt werden soll. Versuche, den Rekurs in irgend eine <placeName key="A000250">Wiener</placeName> Zeitung zu bringen,
         sind durchaus misglückt. Überlege, ob Du ihn eventuell der nächsten Auflage des
         <workName key="A020018">Reigens</workName> vordrucken würdest. Sag aber nur offen Nein, wenn es Dir nicht paßt.</p>
-            <p>
-                    <anchor type="commentary" xml:id="KL262-1">
-                        <persName key="A002035">Salten</persName>
+            <p><anchor type="commentary" xml:id="KL262-1" ><persName key="A002035">Salten</persName>
         tust Du glaub ich unrecht</anchor>. Du mußt nur doch die für ihn unglaublich heikle und
         gefährliche Situation bedenken, in der er geschrieben hat. Aber darüber mündlich.</p>
-            <closer>Mit den besten Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit den besten Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/>herzlichst Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

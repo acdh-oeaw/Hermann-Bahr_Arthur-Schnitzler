@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041296">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,25 +66,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19081122" n="1">22/11</date> Vm. bei <persName key="A002270">Oskar
+            <p><date when="19081122" n="1">22/11</date> Vm. bei <persName key="A002270">Oskar
          Straus</persName>; geschäftliches u. a. über <workName key="A020199">Cassian</workName>,</p>
             <p>bei <persName key="A002272">Dohnanyi</persName>, gleiches über die <workName key="A020198">Pantomime</workName>.</p>
-            <p>Mittag mit <rs key="A002146" type="person">Mama</rs>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020411">A moll Quartett</workName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002120">Schubert</persName>.</p>
+            <p>Mittag mit <rs key="A002146" type="person">Mama</rs><space unit="chars" quantity="1"/><workName key="A020411">A moll Quartett</workName><space unit="chars" quantity="1"/><persName key="A002120">Schubert</persName>.</p>
             <p>Nachm. Dr. <persName key="A002852">Richard Tennhardt</persName>, von dem ich nichts im 
 Gedächtnis zurückbehalten hatte als sein Gesicht; hatte ihn vor 17 Jahren 
-in <placeName key="A000340">
-                        <settlement>Halle</settlement>
-                    </placeName> kennen gelernt und später in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> gesprochen. Jetzt ist er seit 10 
-J. Winter in <placeName key="A001124">
-                        <settlement>Assuan</settlement>
-                    </placeName>, erzählte uns dann rührend-<placeName key="A000409">sächselnd-naiv</placeName> von seiner 
+in <placeName key="A000340"><settlement>Halle</settlement></placeName> kennen gelernt und später in <placeName key="A000250"><settlement>Wien</settlement></placeName> gesprochen. Jetzt ist er seit 10 
+J. Winter in <placeName key="A001124"><settlement>Assuan</settlement></placeName>, erzählte uns dann rührend-<placeName key="A000409">sächselnd-naiv</placeName> von seiner 
 Einsamkeit; und zeigte uns Briefe und Bild einer <placeName key="A000410">Colmarer</placeName> Försterstochter, 
 hübsch, 20 Jahr und sehr geneigt, ihm dem 55jährigen nach <placeName key="A000411">Aegypten</placeName> 
 zu folgen. Er wagt nicht <c rendition="#dots" n="3" place="center"/> »wenn sie einen dann verläßt, ist es doch 

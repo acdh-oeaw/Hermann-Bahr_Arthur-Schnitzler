@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041541">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -82,11 +81,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160413">Angelegt</change>
         </revisionDesc>
@@ -96,11 +91,7 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>16. 11. 03</date>
-                    </dateline>
+                    <dateline rend="right"><placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>16. 11. 03</date></dateline>
                     <salute>Lieber Herr Schnitzler,</salute>
                 </opener>
                 <p>ich vermelde meine Ankunft und halte mich morgen Dienstag abend für Sie frei,
@@ -109,8 +100,7 @@
                     hinausfahren. Ich bleibe vermutlich bis Sonntag incl. Für Donnerstag abend habe
                     ich mich mit <persName key="A002002">Bahr</persName> verabredet, Sie würden dabei sehr
                     willkommen sein.</p>
-                <closer>Herzlich Ihr <signed>O. B.</signed>
-                </closer>
+                <closer>Herzlich Ihr <signed>O. B.</signed></closer>
             </div>
         </body>
     </text>

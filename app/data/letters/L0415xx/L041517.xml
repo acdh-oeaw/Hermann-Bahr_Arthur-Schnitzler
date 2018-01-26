@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041517">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
                     <!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>-->  
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18950927" n="01">[27.? 9. 1895]</date>
                     </dateSender>
@@ -76,11 +73,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -90,37 +83,24 @@
            
             <div type="writingSession" n="1">
                
-                <p output="true">
-                    <salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während
+                <p ><salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während
                     man mich zu einer Insel rudert, auf der ein Jupitertempel stand, aus dem der
                     heilige <persName key="A004024">Franciscus von Assisi</persName> – mein
                         <persName key="A004024">Franciscus</persName> – ein Kloster gemacht hat. Zugleich lese ich
-                    in einem <anchor type="commentary" xml:id="KL517-1">
-                        <rs type="work" key="A020228">Buch</rs>
-                    </anchor> wunderschöne Sachen – wie 
+                    in einem <anchor type="commentary" xml:id="KL517-1" ><rs type="work" key="A020228">Buch</rs></anchor> wunderschöne Sachen – wie 
                     das Buch aber heisst schreibe ich hier
                     nicht, denn der Name könnte Ihnen entgleiten, und der 
-                    <persName key="A002002">B</persName>
-                    <space unit="chars" quantity="1"/>
-                    <c rendition="#dots" n="3" place="center"/> 
+                    <persName key="A002002">B</persName><space unit="chars" quantity="1"/><c rendition="#dots" n="3" place="center"/> 
                     mittelst 3–4 Ausschrotartikeln es einem minieren und verekeln, aber es ist sehr
                     schön. Im dritten Jahrhundert vor Christi Geburt schreibt ein Herr
                         <persName key="A004025">Posidippus</persName> – ohne »<workName key="A020002">Märchen</workName>«- und
                         »<workName key="A021024">Elixire</workName>«-Schmerzen – heiter konstatirend:</p>
-                <lg output="true" type="poem">
-                    <rs type="work" key="A020228">
-                        <l>»Wähne,
-                    Philanis, nicht mich durch lockende Thränen zu täuschen!</l>
-                        <l>Freilich, ich weiss ja,
-                    du liebst inniger keinen als mich,</l>
-                        <l>Keinen, – so lange du neben mir liegst. Doch
-                        hat dich ein andrer,</l>
-                        <l>Nun, so liebest du den inniger wieder als mich.«</l>
-                    </rs>
-                </lg>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <lg type="poem">
+                    <rs type="work" key="A020228"><l>»Wähne,
+                    Philanis, nicht mich durch lockende Thränen zu täuschen!</l><l>Freilich, ich weiss ja,
+                    du liebst inniger keinen als mich,</l><l>Keinen, – so lange du neben mir liegst. Doch
+                        hat dich ein andrer,</l><l>Nun, so liebest du den inniger wieder als mich.«</l></rs></lg>
+                <p><gap reason="outOfScope"/></p>
                     
                 
             </div>

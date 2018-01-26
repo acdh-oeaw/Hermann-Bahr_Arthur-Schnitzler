@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041651">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A002032">Bukovics, Emerich von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
                     
                     <dateSender>
                         <date when="19011211" n="1">11. 12. 1901</date>
@@ -75,11 +72,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161010">Angelegt</change>
             <change who="KI MAM" when="20161017">Kollationiert</change>
@@ -89,19 +82,14 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>11. Dezember 1901</date>.</dateline>    
+                    <dateline rend="right"><placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>11. Dezember 1901</date>.</dateline>    
                     <salute rend="center">Sehr geehrter Herr Direktor!</salute>
                 </opener>
                 <p>Auf Ihr freundliches Schreiben vom <date>9.d.M.</date> habe ich Folgendes zu erwidern: </p>
                 <p>1. zum Fall »<workName key="A020022">Lebendige Stunden</workName>«. Etwa um den 20. November
                     herum schrieb ich Ihnen einen Brief, in dem ich die Forderung einer
                     Tantièmengarantie aufstellte. Sie antworteten mir aus
-                             <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>, dass Sie die
+                             <placeName key="A000382"><settlement>Paris</settlement></placeName>, dass Sie die
                     obschwebende Angelegenheit nach Ihrer Rückkehr in Ordnung bringen wollten.
                     Einige Tage nach Ihrer Ankunft baten Sie mich in Ihr Bureau. An diesem Tag, dem
                     3. Dezember, besprachen wir die eventuelle Besetzung und den Aufführungstermin.
@@ -109,7 +97,8 @@
                     ziehen berechtigt war, dass sie mir gewährt, nicht aber, dass sie mir verweigert
                     werden sollte, denn im letzteren Fall wäre für mich überhaupt kein Anlass mehr
                     vorgelegen, mich in Ihre Kanzlei zu bemühen. Ich sehe mich zu dieser Erklärung
-                    genöthigt, weil die <anchor type="textConst" xml:id="TL651-1">Stilisierung</anchor> Ihres Briefes bei oberflächlicher Lectüre die Deutung
+                    genöthigt, weil die <anchor type="textConst" xml:id="TL651-1"
+                        >Stilisierung</anchor> Ihres Briefes bei oberflächlicher Lectüre die Deutung
                     zulassen könnte, als hätte ich meine Forderung, die Tantièmengarantie
                     betreffend, erst nach unserer Verhandlung vom <date>3. Dezember</date> an Sie gerichtet. Wenn
                     ich mich überhaupt entschloss, endlich – etwa Mitte November – jene Forderung
@@ -126,15 +115,14 @@
                 <p>Was nun zweitens den »<workName key="A020012">Grünen Kakadu</workName>« anbelangt, so sollte er
                     bekanntlich in der vorigen Saison zusammen mit »<workName key="A020025">Litteratur</workName>« und »<workName key="A020066">Marionetten</workName>«
                     gegeben werden. Kurz vor Ablauf des contractlich festgesetzten Termins, in den
-                    <anchor type="commentary" xml:id="KL651-1">
-                        <date>letzten Febertagen</date>
-                    </anchor>, erschien über Ihr Ersuchen Herr <persName key="A002002">Hermann
+                    <anchor type="commentary" xml:id="KL651-1" ><date>letzten Febertagen</date></anchor>, erschien über Ihr Ersuchen Herr <persName key="A002002">Hermann
                         Bahr</persName> bei mir und bat mich in Ihrem Namen, in eine Verschiebung zu
                     willigen, was ich gerne zugestand. Diese erste Verschiebung geschah also nicht
                     auf meinen, sondern auf Ihren Wunsch, wenn auch mit meiner Einwilligung. Sie
                     wissen sehr wohl, dass ich schon damals berechtigt gewesen wäre, das Pönale zu
                     fordern. Meiner persönlichen Empfindung nach hätten Sie mir damals schon zum
-                    mindesten dieses Pönale als Tantièmengarantie anbieten <del rend="strikethrough">müssen</del> oder mir <add place="above">bald darauf</add> einen neuen
+                    mindesten dieses Pönale als Tantièmengarantie anbieten <del rend="strikethrough"
+                        >müssen</del> oder mir <add place="above">bald darauf</add> einen neuen
                     Contract vorlegen müssen. Mein Recht auf das Pönale ist keineswegs dadurch
                     erloschen, dass ich in dieser Saison die Verschiebung selbst gewünscht,
                     umsoweniger, als Sie in gemessener Entfernung von jedem Billigkeitsgefühl nicht
@@ -145,7 +133,7 @@
                     schwergeprüften <rs type="place" key="A000220">Theaters</rs>.</p>
                 <p>Zum Schlusse noch die Versicherung, dass diese rein formellen
                     Meinungsverschiedenheiten mit meiner Hochschätzung für Ihre Person nicht das
-                    Geringste zu thun haben, und dass ich mich wie <anchor type="textConst" xml:id="TL651-2">jederzeit</anchor> auch heute unterzeichne
+                    Geringste zu thun haben, und dass ich mich wie <anchor type="textConst" xml:id="TL651-2" >jederzeit</anchor> auch heute unterzeichne
                     als Ihr sehr ergebener</p>
                 
             </div>

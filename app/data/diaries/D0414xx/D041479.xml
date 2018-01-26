@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041479">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160111">angelegt</change>
             <change who="KI MAM" when="20160204">Kollationiert am Original</change>
@@ -93,17 +87,14 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19050923" n="01">23.</date> Mein <rs type="work" key="A020631">Artikel</rs> über
+            <p><date when="19050923" n="01">23.</date> Mein <rs type="work" key="A020631">Artikel</rs> über
                         <workName key="A020068">Rosmersholm</workName>.</p>
                 <p>Correctur des »<workName key="A020044">Club der Erlöser</workName>« an <persName key="A003356">Drugulin</persName> geschickt.</p>
-                <p>
-                    <placeName key="A000214">Burgtheater</placeName>,
+                <p><placeName key="A000214">Burgtheater</placeName>,
                         <workName key="A020632">Fiesco</workName> mit <persName key="A002403">Thimig</persName> als Mohren.</p>
                 <p>Die Woche gelesen: <persName key="A002001">Schnitzlers</persName> »<workName key="A020043">Ruf des Lebens</workName>« und »<workName key="A020042">Zwischenspiel</workName>«, in <persName key="A003233">Friedrich
                         Schlegels</persName> »<workName key="A020633">Fragmenten</workName>«,
-                        <persName key="A003357">Lagarde</persName>, <persName key="A003359">Mörike</persName>, <persName key="A003358">
-                        <hyphenation alt="\mbox{Alexander}">Alexander</hyphenation>
+                        <persName key="A003357">Lagarde</persName>, <persName key="A003359">Mörike</persName>, <persName key="A003358">Alexander
                     Marwitz</persName>.</p>
         </div>
       </body>

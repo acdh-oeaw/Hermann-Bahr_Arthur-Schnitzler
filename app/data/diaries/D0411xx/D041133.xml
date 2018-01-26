@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041133">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,22 +69,18 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18950128" n="1">28/1</date>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002002">Bahr</persName> teleph. in der früh. Ich zu ihm. <persName key="A002018">Dilly</persName> hat ihn rufen lassen, weint, sie ist unschuldig,
+            <p><date when="18950128" n="1">28/1</date><space unit="chars" quantity="1"/><persName key="A002002">Bahr</persName> teleph. in der früh. Ich zu ihm. <persName key="A002018">Dilly</persName> hat ihn rufen lassen, weint, sie ist unschuldig,
                und es kam darauf hinaus, dass sie unter solchen Umständen in der <placeName key="A000214">Burg</placeName> nicht spielen
                könne und in meinem <workName key="A020049">Stück</workName> erst recht nicht. Ich
                sagte, dass ich auf Erpressungen nicht hereinfalle, dass sie machen solle, was sie
                will, dass ich aber nichts dagegen habe, in ein paar Wochen wieder freundschaftlich
                mit ihr zu verkehren. <persName key="A002002">Bahrs</persName> (für <persName key="A002002">Bahr</persName> sehr charakteristische) Auffassung von der Sache.
-                  »<anchor type="label" xml:id="LD133-1">
-                        <persName key="A002035">Salten</persName>, wie er überhaupt ein gescheidter Kerl
+                  »<anchor type="label" xml:id="LD133-1" ><persName key="A002035">Salten</persName>, wie er überhaupt ein gescheidter Kerl
                ist, wollte sich als junger Theaterkritiker dadurch posiren, dass er ein Verh. mit
                der ersten Tragödin habe.</anchor>«–</p>
             <p>Première der <workName key="A020622" subtype="local">Ersten Lüge</workName> in der <placeName key="A000214">Burg</placeName>. Cretinismus. <persName key="A002002">Bahr</persName>: <persName key="A002018">Dilly</persName> hatte ihn wieder
                anteleph.: sie liebe nur mich, <persName key="A002035">S.</persName> sei ein Lügner
-               u. s. w.– Schien sich mit seiner Antwort zufrieden zu geben.</p>
+               u.&#160;s.&#160;w.– Schien sich mit seiner Antwort zufrieden zu geben.</p>
          </div> 
       </body>
    </text>

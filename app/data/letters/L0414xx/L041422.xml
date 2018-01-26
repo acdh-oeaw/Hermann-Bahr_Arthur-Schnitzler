@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041422">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                         
                     </addressee>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
                     <dateSender>
                         <date when="18930218" n="01">18. 2. 1893</date>
                     </dateSender>
@@ -74,9 +69,7 @@
                                 <idno>Hs-30885,34</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., Bleistift. Mit Bleistift am oberen Blattrand zusätzlich datiert: »<quote>
-                                        <date>18/2 93</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 4 S., Bleistift. Mit Bleistift am oberen Blattrand zusätzlich datiert: »<quote><date>18/2 93</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -86,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">36</biblScope>
@@ -95,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="KI MAM" when="20170703">Kollationiert</change>
@@ -113,11 +102,9 @@
                 <opener>
                     <salute>Lieber Hugo,</salute>
                 </opener>
-                <p output="true">bitte lesen Sie <anchor type="commentary" xml:id="KL422-1">beiliegenden Brief</anchor>. Und dann fragen Sie gütigst
+                <p >bitte lesen Sie <anchor type="commentary" xml:id="KL422-1">beiliegenden Brief</anchor>. Und dann fragen Sie gütigst
                         <persName key="A002002">Bahr</persName>, wie die Aussichten des Dr.
-                        <persName key="A002239">
-                        <hi rend="latintype">Fels</hi>
-                    </persName> bei der <orgName key="A080155">Dtsch Ztg</orgName> stehen,
+                        <persName key="A002239"><hi rend="latintype">Fels</hi></persName> bei der <orgName  key="A080155">Dtsch Ztg</orgName> stehen,
                     und wann er eintreffen müsste. Es wäre mir höchst erwünscht, darüber vollkommene
                     Klarheit zu haben. Sie ersehen auch<pb/> weiters aus dem Brief, dass auf Ihre
                     liebenswürdige Zusage, eine neuerliche Sammlg zu veranstalten, reflectirt
@@ -128,14 +115,10 @@
                     jeden Abend nach 10 im <placeName key="A000462">Central</placeName>, Dienstag, Donnerstag,
                     Samstag sicher. Den beigelegten Brief bitte mir mit Ihrer frdl Antwort gef
                     rückzusenden.</p>
-                <closer>
-                    <pb/>Herzlich der Ihre<lb/>
-                    <signed>Arthur.</signed>
+                <closer><pb/>Herzlich der Ihre<lb/><signed>Arthur.</signed>
                 </closer>
                 <postscript>
-                    <dateline rend="right">
-                        <date>18. 2. 93</date>
-                    </dateline>
+                    <dateline rend="right"><date>18. 2. 93</date></dateline>
                 </postscript>
             </div>
         </body>

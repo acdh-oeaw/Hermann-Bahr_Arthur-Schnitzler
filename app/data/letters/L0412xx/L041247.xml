@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041247">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19020401" n="01">1. 4. 1902</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote>
-                                        <date>902</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote><date>902</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
       <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -98,11 +87,8 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>1. 4.</date>
-                    </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-                </opener>
+               <dateline rend="right"><date>1. 4.</date></dateline>
+               <salute rend="center">Lieber Arthur!</salute></opener>
             <p>Die mir zugeschickten Proben sind von jener heute so weit verbreiteten Talentlosigkeit, die glaubt, 
         es genüge einige Wendungen von »modernen« Autoren aufzuschnappen, und gar nicht zu bemerken scheint, 
         daß sie gar nichts zu sagen hat. Dies schließt nicht aus, daß der <rs type="person" key="A002131">Ver<pb/>fasser</rs> 
@@ -110,9 +96,7 @@
         eines Cafés oder eine schöne Leich’ ist ja ganz 
           was anderes. Doch müßte man davon Proben sehen und wissen, was er sich unter »Journalist« (der er, wie Du schreibst, 
           werden will) eigentlich denkt.</p>
-            <closer>Herzlichst<lb/>in Eile<lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>in Eile<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

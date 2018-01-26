@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041471">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160111">angelegt</change>
             <change who="KI MAM" when="20160203">Kollationiert am Original</change>
@@ -93,36 +87,23 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19041106" n="1">6.</date> Philharmonisches Concert. <persName key="A003350">Mottl</persName>, Kreuzung von <persName key="A003105">Engelhart</persName> und Baron <persName key="A002034">Berger</persName>,
+             <p><date when="19041106" n="1">6.</date> Philharmonisches Concert. <persName key="A003350">Mottl</persName>, Kreuzung von <persName key="A003105">Engelhart</persName> und Baron <persName key="A002034">Berger</persName>,
                     jesuitischer Fiaker, <persName key="A003306">Lueger</persName> der Musik. <persName key="A002509">Mozart</persName>, <workName key="A020626">Symph. D dur (Köch. 504)</workName>,
-                    <persName key="A002408">Pfitzner</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020627">Scherzo in C-moll</workName>, <persName key="A002510">Beethoven</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020446">Eroica</workName>.</p>
+                    <persName key="A002408">Pfitzner</persName><space unit="chars" quantity="1"/><workName key="A020627">Scherzo in C-moll</workName>, <persName key="A002510">Beethoven</persName><space unit="chars" quantity="1"/><workName key="A020446">Eroica</workName>.</p>
                 <p>Abends mit <persName key="A002035 A002375">Saltens</persName> und <persName key="A002000">Burckhard</persName> bei
                         <persName key="A002001">Schnitzler</persName>, der <workName key="A020372" subtype="local">Meistersinger</workName> und
                         <workName key="A020373" subtype="local">Coriolanouverture</workName> spielt, <persName key="A002038">Olga</persName>
                     schwärmt für Lieder von <persName key="A002806">Theodor Streicher</persName> (der mit einer
-                    entsetzlich <anchor type="commentary" xml:id="KD471-1">schiachen</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A003351">Frau</rs> bei
-                        <placeName key="A001076">
-                        <settlement>Klagenfurt</settlement>
-                    </placeName> leben soll; er
+                    entsetzlich <anchor type="commentary" xml:id="KD471-1" >schiachen</anchor><space unit="chars" quantity="1"/><rs type="person" key="A003351">Frau</rs> bei
+                        <placeName key="A001076"><settlement>Klagenfurt</settlement></placeName> leben soll; er
                     und <persName key="A002208">Schönberg</persName> interessieren mich jetzt von den
                         <placeName key="A000362">Östreichern</placeName> am meisten) aus dem
                         <workName key="A020628">Wunderhorn</workName>, ebenso für <persName key="A003352">Ansorge</persName>,
-                    über den <persName key="A002011">Hugo</persName>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>offenbar wieder einmal ganz oberflächlich
+                    über den <persName key="A002011">Hugo</persName><pb/><space unit="chars" quantity="1"/>offenbar wieder einmal ganz oberflächlich
                     geurteilt hat.</p>
                 <p>Ich kann mich über die Schändlichkeiten dieses
                     <persName key="A002085">Hervay</persName>proceßes noch immer nicht beruhigen.</p>
-            <p>Revolte in <placeName key="A001068">
-                        <settlement>Innsbruck</settlement>
-                    </placeName>: Die Revolution kündigt sich überall an.</p>
+            <p>Revolte in <placeName key="A001068"><settlement>Innsbruck</settlement></placeName>: Die Revolution kündigt sich überall an.</p>
         </div>
       </body>
    </text>

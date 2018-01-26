@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041165">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18940420" n="01">[20. 4. 1894]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler datiert: »<quote>
-                                        <date>20/4 94</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler datiert: »<quote><date>20/4 94</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -100,24 +89,19 @@
                <salute rend="center">Lieber
           Arthur!</salute>
             </opener>
-            <p>
-                    <persName key="A002018">Adele Sandrock</persName> erzählte mir gestern von einer für
+            <p><persName key="A002018">Adele Sandrock</persName> erzählte mir gestern von einer für
           Sonntag geplanten Partie mit Rendezvous in <placeName key="A000373">Rodaun</placeName>. Ich
           möchte sehr gern mit und könnte vielleicht schon in der Früh mit Dir hinaus. Allerdings
           unter der Voraussetzung, daß wir ganz unter uns sind, dh. Du, 
                   <persName key="A002011">Loris</persName>
                 und 
-                  <persName key="A002007">Richard</persName>, wozu dann Nachmittags sich noch<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002018">Dilly</persName> und <subst>
+                  <persName key="A002007">Richard</persName>, wozu dann Nachmittags sich noch<pb/><space unit="chars" quantity="1"/><persName key="A002018">Dilly</persName> und <subst>
                   <del rend="overwritten">der</del>
                   <add place="inline">etwa</add>
                </subst> der <persName key="A002183">Baumgartl</persName> gesellen. Größere Horden sind mir
           unsympathisch; am liebsten wäre es mir zu viert; kommt außer den Genannten noch wer, so
           bitte, schreib mir das – dann gehe ich lieber ganz allein.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

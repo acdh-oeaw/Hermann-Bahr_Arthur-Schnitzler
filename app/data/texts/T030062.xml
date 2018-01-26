@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030062">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -41,8 +41,7 @@
          <sourceDesc>
             <origDate when="19051200" n="1">Dezember 1905</origDate>
             <listWit>
-               <witness n="1">
-                        <msDesc>
+               <witness n="1"><msDesc>
                   <msIdentifier>
                      <country>A</country>           
                      <settlement>Wien</settlement>
@@ -50,20 +49,13 @@
                      <idno>HS VM 3675 Ba</idno>
                   </msIdentifier>
                   <physDesc>
-                     <p>In: Abreißblock, Bleistift, 12 Bl. in Umschlag, von Bahr eh. beschriftet: »<quote>
-                                        <placeName key="A000209">Münchner Hoftheater</placeName> Pläne. / <date>Dezember 1905</date>
-                                    </quote>«, unpag., [S. 13].</p>
+                     <p>In: Abreißblock, Bleistift, 12 Bl. in Umschlag, von Bahr eh. beschriftet: »<quote><placeName key="A000209">Münchner Hoftheater</placeName> Pläne. / <date>Dezember 1905</date></quote>«, unpag., [S. 13].</p>
                   </physDesc>
                </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change when="20161004" who="KI MAM">Angelegt und kollationiert</change>
      </revisionDesc>
@@ -71,72 +63,34 @@
   <text type="note">
       <body>
          <div>
-            <p>
-                    <table>
+            <p><table>
                   <row>
-                     <cell>1.</cell>
-                            <cell>
-                                <anchor type="commentary" xml:id="KT062-2">
-                                    <workName key="A021097">Bakchen</workName>
-                                </anchor>
-                            </cell>
+                     <cell>1.</cell><cell><anchor type="commentary" xml:id="KT062-2" ><workName key="A021097">Bakchen</workName></anchor></cell>
                   </row>
                   <row>
-                     <cell>2.</cell>
-                            <cell>
-                                <anchor type="commentary" xml:id="KT062-1">
-                                    <rs type="work" key="A021056">
-                                        <persName key="A004308">Hans Sachs</persName>
-                                    </rs>
-                                </anchor>
-                            </cell>
+                     <cell>2.</cell><cell><anchor type="commentary" xml:id="KT062-1" ><rs type="work" key="A021056"><persName key="A004308">Hans Sachs</persName></rs></anchor></cell>
                   </row>
                   <row>
-                     <cell>3.</cell>
-                            <cell>
-                                <workName key="A020043">Ruf des Lebens</workName>
-                            </cell>
+                     <cell>3.</cell><cell><workName key="A020043">Ruf des Lebens</workName></cell>
                   </row>
                   <row>
-                     <cell>4.</cell>
-                            <cell>
-                                <workName key="A020990" subtype="local">Widerspenstige</workName>
-                            </cell>
+                     <cell>4.</cell><cell><workName key="A020990" subtype="local">Widerspenstige</workName></cell>
                   </row>
                   <row>
-                     <cell>5.</cell>
-                            <cell>
-                                <anchor type="commentary" xml:id="KT062-4">
-                                    <workName key="A021064">Der reiche Jüngling</workName>
-                                </anchor>
-                            </cell>
+                     <cell>5.</cell><cell><anchor type="commentary" xml:id="KT062-4" ><workName key="A021064">Der reiche Jüngling</workName></anchor></cell>
                   </row>
                   <row>
-                     <cell>6.</cell>
-                            <cell>Einakter</cell>
+                     <cell>6.</cell><cell>Einakter</cell>
                   </row>
                <row>
-                  <cell/>
-                            <cell>(<persName key="A003564">Musset</persName>. <anchor type="commentary" xml:id="KT062-5">
-                                    <workName key="A021019">Der Bär</workName>
-                                </anchor>. 
+                  <cell/><cell>(<persName key="A003564">Musset</persName>. <anchor type="commentary" xml:id="KT062-5" ><workName key="A021019">Der Bär</workName></anchor>. 
                      <persName key="A003873">Wied</persName>s <workName key="A021026">Abrechnung</workName>.)</cell>
                </row>
                 <row>
-                   <cell>7.</cell>
-                            <cell>
-                                <workName key="A020894">Cain</workName>
-                                <space unit="chars" quantity="1"/>
-                                <persName key="A003612">Byron</persName>
-                            </cell>
+                   <cell>7.</cell><cell><workName key="A020894">Cain</workName><space unit="chars" quantity="1"/><persName key="A003612">Byron</persName></cell>
                   </row>
                   <row>
-                     <cell>8.</cell>
-                            <cell>
-                                <anchor type="commentary" xml:id="KT062-3">
-                                    <workName key="A020201">Penthesilea</workName>
-                                </anchor>
-                            </cell>
+                     <cell>8.</cell><cell><anchor type="commentary" xml:id="KT062-3" ><workName key="A020201">Penthesilea</workName></anchor></cell>
                   </row>
                </table>
             </p>

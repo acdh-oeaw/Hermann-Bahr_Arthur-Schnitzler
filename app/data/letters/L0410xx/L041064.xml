@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041064">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">[Wien]</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19031110" n="1">10. 11. 1903</date>
                </dateSender>
@@ -83,13 +80,13 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1981">1981</date>
                      </imprint>
                      <biblScope unit="pp">473–474</biblScope>
                   </monogr>   
                </biblStruct>
-               <biblStruct default="false">
+               <biblStruct  default="false">
                   <analytic>
                      <date when="19031110">10. 11. 1903</date>
                      
@@ -106,18 +103,13 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23359Ba_1"/>
      <graphic url="HS_AM23359Ba_1_R"/>
      <graphic url="HS_AM23359Ba_2"/>
@@ -128,23 +120,15 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>10. 11. 903</date>.</dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>10. 11. 903</date>.</dateline>
                <salute>mein lieber Hermann,</salute>
             </opener>
             <p>ich danke dir herzlich, dss du die <hi rend="latintype">
                   <workName key="A020037">Exc.</workName>
-               </hi> zu <damage agent="hole">
-                        <supplied>e</supplied>
-                    </damage>inem so schönen Erfolg
+               </hi> zu <damage agent="hole"><supplied>e</supplied></damage>inem so schönen Erfolg
           gebracht ha<supplied>s</supplied>t u gratulire dir zu dem ganzen Abend. Ich war
           mit <persName key="A002038">Olga</persName> auf d
-             <placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName>; darum haben wir dich nicht um Karten
+             <placeName key="A000389"><settlement>Semmering</settlement></placeName>; darum haben wir dich nicht um Karten
           gebeten. Ich selbst wäre übrigens keineswegs <subst>
                   <del rend="strikethrough">dort</del>
                   <add place="above">im <placeName key="A000204">Bös-Saal</placeName>
@@ -169,20 +153,14 @@
                kein Tagesblatt, eine Wochen oder Monatsschrift? – Wie immer – ich danke dir und
                   <persName key="A002000">Burckhard</persName>
                <del rend="strikethrough">t</del> vielmals und wärmstens. Was ist das übrigens für
-               eine <anchor type="commentary" xml:id="KL064-3">Stelle im <rs type="work" key="A020087">
-                            <hi rend="latintype">Lamprecht</hi>
-                        </rs>
-                    </anchor>, die durch die Blätter ging? Ich habe nichts gelesen.</p>
-            <p>
-                    <persName key="A002035">Salten</persName> thu ich gewiss nicht Unrecht.<pb/> Lies nur –
+               eine <anchor type="commentary" xml:id="KL064-3">Stelle im <rs type="work" key="A020087"><hi rend="latintype"
+               >Lamprecht</hi></rs></anchor>, die durch die Blätter ging? Ich habe nichts gelesen.</p>
+            <p><persName key="A002035">Salten</persName> thu ich gewiss nicht Unrecht.<pb/> Lies nur –
           wenn es so viel Interesse für dich hat,– <subst>
                   <del rend="overwritten">den</del>
                   <add place="inline">meinen</add>
-               </subst> ganzen <anchor type="commentary" xml:id="KL064-1">Brief an <persName key="A002035">Salten</persName>
-                    </anchor>. Nicht um Lob und Tadel handelt es sich.
-          Das wesentliche für mich bleibt, dass in dem <anchor type="commentary" xml:id="KL064-2">
-                        <rs type="work" key="A020742">Feuilleton</rs>
-                    </anchor> genau <hi rend="underline" n="1">die</hi> Sachen <add place="above">zu meinen Ungunsten</add> drinstehen – über
+               </subst> ganzen <anchor type="commentary" xml:id="KL064-1" >Brief an <persName key="A002035">Salten</persName></anchor>. Nicht um Lob und Tadel handelt es sich.
+          Das wesentliche für mich bleibt, dass in dem <anchor type="commentary" xml:id="KL064-2" ><rs type="work" key="A020742">Feuilleton</rs></anchor> genau <hi rend="underline" n="1">die</hi> Sachen <add place="above">zu meinen Ungunsten</add> drinstehen – über
           deren mangelnde Berechtigung sich sein Verfasser Dutzendemale mir gegenüber
           ausgesprochen. Lies den Brief. – Und das ärgerliche – worüber wir auch so oft
           gesprochen haben – der Versuch, einem Dichter Gebiete abzustecken – oder zu
@@ -198,9 +176,7 @@
           über diese Kräche <add place="above">so oft</add> belustigt und geärgert habe?– Aber
           lassen wir das auf eventuelle mündliche Unterhaltung.– Ich darf dich wohl dieser
           Tage wieder in <placeName key="A000365">St Veit</placeName> aufsuchen?</p>
-            <closer>Herzlichst dein getreuer<lb/>
-                    <signed>Arthur.</signed>
-                </closer>
+            <closer>Herzlichst dein getreuer<lb/><signed>Arthur.</signed></closer>
          </div>
       </body>
   </text>

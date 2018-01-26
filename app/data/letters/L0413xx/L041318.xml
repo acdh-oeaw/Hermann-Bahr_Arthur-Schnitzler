@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041318">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                                        <placeName key="A000663">Venezia. Rio dei Mendicanti e fondamenta</placeName>
-                                    </quote>«, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><placeName key="A000663">Venezia. Rio dei Mendicanti e fondamenta</placeName></quote>«, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001044">S. Elisabetta</placeName>
                         </stamp>
@@ -86,11 +83,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="20151125">Stempel am Original verifiziert</change>
          <change who="KI MAM" when="20151216">Kollationiert</change>
@@ -108,33 +101,22 @@
             <address>
                <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000333">XVIII Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">XVIII Spöttelgasse 7</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000250">Vienna</placeName>
-                    </addrLine>
+                  <placeName key="A000250">Vienna</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000362">Austria</placeName>
-                    </addrLine>
+                  <placeName key="A000362">Austria</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>18. 6. 09</date>
-                    </dateline>
+               <dateline rend="right"><date>18. 6. 09</date></dateline>
             </opener>
-            <p>
-                    <salute>Lieber Artur! </salute>Hoffentlich ist Dir »<workName key="A020054">Drut</workName>« sowie 
-         mein »<anchor type="commentary" xml:id="KL318-1">
-                        <workName key="A020055">Tagebuch</workName>
-                    </anchor>« richtig zugekommen. – Wir sind seit
-        drei Wochen hier und gehen <unclear>nun</unclear> nächste Woche nach <placeName key="A000935">
-                        <settlement>Bayreuth</settlement>
-                    </placeName>. – 
+            <p><salute>Lieber Artur! </salute>Hoffentlich ist Dir »<workName key="A020054">Drut</workName>« sowie 
+         mein »<anchor type="commentary" xml:id="KL318-1" ><workName key="A020055">Tagebuch</workName></anchor>« richtig zugekommen. – Wir sind seit
+        drei Wochen hier und gehen <unclear>nun</unclear> nächste Woche nach <placeName key="A000935"><settlement>Bayreuth</settlement></placeName>. – 
          Grüß Deine verehrte liebe <rs type="person" key="A002038">Frau</rs> und habt einen schönen Sommer!</p>
-            <closer>Herzlichst<lb/>Dein alter<lb/>
-                    <signed>HermannBahr</signed>
+            <closer>Herzlichst<lb/>Dein alter<lb/><signed>HermannBahr</signed>
             </closer>
          </div>
       </body>

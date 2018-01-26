@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041133">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19131012">12. 10. 1913</date>
                   
@@ -89,15 +87,10 @@
                   <biblScope unit="pp">112</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
@@ -115,36 +108,27 @@
                <addrLine>Herrn Hermann Bahr,</addrLine>
                <addrLine>
                   <hi rend="underline" n="1">
-                     <placeName key="A000230">
-                                <settlement>Salzburg</settlement>
-                            </placeName>
-                  </hi>
-                    </addrLine>
+                     <placeName key="A000230"><settlement>Salzburg</settlement></placeName>
+                  </hi></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <placeName key="A000360">Schloss Arenberg</placeName>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                    <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>12. X. 913</date>
-                    </dateline>
+                    <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>12. X. 913</date></dateline>
                <salute>Mein
             lieber Hermann,</salute>
             </opener>
-            <p>dein schönes <rs type="work" key="A020063">Burkhardbuch</rs>, von dem mir die <anchor type="commentary" xml:id="KL133-1">meisten Kapitel schon bekannt</anchor>
+            <p >dein schönes <rs type="work" key="A020063">Burkhardbuch</rs>, von dem mir die <anchor type="commentary" xml:id="KL133-1" >meisten Kapitel schon bekannt</anchor>
           waren hab ich nun als ganzes, mit neuer Ergriffenheit gelesen, und danke dir von
           Herzen. Wenn es überhaupt möglich ist <add place="above">einen</add> Menschen
           Leuten, die <subst>
                   <del rend="strikethrough">
-                     <unclear>
-                                <persName key="A002000" cert="low">Burckhar</persName>
-                            </unclear>
+                     <unclear><persName key="A002000" cert="low">Burckhar</persName></unclear>
                   </del>
                   <add place="above">ihn</add>
                </subst> nicht gekannt haben, näher zu

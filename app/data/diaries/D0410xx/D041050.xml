@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041050">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,11 +51,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -64,17 +59,13 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19090716" n="01">16/7</date> Las zu Ende <persName key="A002002">Bahrs</persName> »<workName key="A020057">Concert</workName>«, das 
+            <p><date when="19090716" n="01">16/7</date> Las zu Ende <persName key="A002002">Bahrs</persName> »<workName key="A020057">Concert</workName>«, das 
       mir <persName key="A002065">Brahm</persName> gesandt; es soll ev. zu <workName key="A020056">Comt. Mizzi</workName> gegeben werden. 
-      Ich schwanke; ein furchtbarer <anchor type="label" xml:id="LD050-1">Schmarrn</anchor>. Werde aber wohl doch – wegen persönlichen Verhältnisses 
+      Ich schwanke; ein furchtbarer <anchor type="label" xml:id="LD050-1" >Schmarrn</anchor>. Werde aber wohl doch – wegen persönlichen Verhältnisses 
       zu <persName key="A002002">Bahr</persName> einverstanden sein.</p>
       
-            <p>
-                    <geogName type="mountain" key="A000281" instant="false">Sonnleitberg</geogName>.– Am <workName key="A020059">Medardus</workName>.</p>      
-            <p>In der <placeName key="A000280">Anstalt Konried</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002255">Auernheimer</persName> besucht.</p>
+            <p><geogName type="mountain" key="A000281" instant="false">Sonnleitberg</geogName>.– Am <workName key="A020059">Medardus</workName>.</p>      
+            <p>In der <placeName key="A000280">Anstalt Konried</placeName><space unit="chars" quantity="1"/><persName key="A002255">Auernheimer</persName> besucht.</p>
   
          </div>
       </body> 

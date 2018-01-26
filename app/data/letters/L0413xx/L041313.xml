@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041313">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19071218" n="01">18. 12. 1907</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -98,9 +89,7 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>18. 12. 07</date>
-                    </dateline>
+               <dateline rend="right"><date>18. 12. 07</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Vertrauen gegen Vertrauen, da ich Dir doch nur helfe,
@@ -117,23 +106,16 @@
         und glaube, daß die <persName key="A002145">Ritscher</persName>, wenn sie im Sommer bei der <persName key="A002080">Mildenburg</persName> 
         und gelegentlich auch mit mir die Rolle lernt,
         schon was recht Merkwürdiges machen könnte.</p>
-            <p>Ich weiß noch nicht, wann ich wieder nach <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> muß, 
+            <p>Ich weiß noch nicht, wann ich wieder nach <placeName key="A000368"><settlement>Berlin</settlement></placeName> muß, 
                möchte aber jedenfalls vorher zu Euch, so bald Deine <rs type="person" key="A002038">Frau</rs> so weit ist, 
         über deren Erkrankung ich, ahnungslos, sehr erschrack, weshalb ich mich ihrer Genesung gern bald in der Nähe 
         erfreuen möchte.</p>
-            <closer>Herzlichst<lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
             <postscript>
-               <p>
-                        <anchor type="textConst" xml:id="TL313-1">
-                            <hi rend="underline" n="1">Frage 1</hi>: <persName key="A002078">Reinhardt</persName> wird <workName key="A020019">B.</workName> 
+               <p><anchor type="textConst" xml:id="TL313-1" ><hi rend="underline" n="1">Frage 1</hi>: <persName key="A002078">Reinhardt</persName> wird <workName key="A020019">B.</workName> 
           nehmen, wenn Du mit <persName key="A002095">Vallentin</persName> drohst. <hi rend="underline" n="1">Frage 2</hi>: 
           Ich halte <placeName key="A000213">Hebbeltheater</placeName> für praktischer. <hi rend="underline" n="1">Frage 3</hi>: 
-          <persName key="A002078">Reinhardt</persName> müßte man eine Frist von 1<unclear>4</unclear> Tagen zur Entscheidung geben.</anchor>
-                    </p>
+          <persName key="A002078">Reinhardt</persName> müßte man eine Frist von 1<unclear>4</unclear> Tagen zur Entscheidung geben.</anchor></p>
             </postscript>
          </div>
       </body>

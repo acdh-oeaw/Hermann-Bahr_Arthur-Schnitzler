@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041180">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,12 +69,12 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18980201" n="1">1/2</date> Probe.– Nm. bei <persName key="A002656">Uhl</persName>; mein <workName key="A020040">Stück</workName> habe ihn sehr
-               aufgeregt, doch sei der ergreifende 1. Akt der Feind der 2 andern. Bei <persName key="A002185">Mz. Rh.</persName>– Im <placeName key="A000277">Rmdth.</placeName>;
-               die <anchor type="commentary" xml:id="KD180-1">
-                        <rs type="work" key="A020710 A020711">Stücke</rs>
-                    </anchor> von <persName key="A002657">Holzer</persName>, Dreck, von <persName key="A002345">Schütz</persName> und
+            <p><date when="18980201" n="1">1/2</date> Probe.– Nm. bei <persName key="A002656"
+                  >Uhl</persName>; mein <workName key="A020040">Stück</workName> habe ihn sehr
+               aufgeregt, doch sei der ergreifende 1. Akt der Feind der 2 andern. Bei <persName
+                  key="A002185">Mz. Rh.</persName>– Im <placeName key="A000277">Rmdth.</placeName>;
+               die <anchor type="commentary" xml:id="KD180-1" ><rs type="work" key="A020710 A020711">Stücke</rs></anchor> von <persName key="A002657"
+                  >Holzer</persName>, Dreck, von <persName key="A002345">Schütz</persName> und
                   <persName key="A002002">Bahr</persName>, welche gewissenlosen Esel,
                protegirt.–</p>
          </div> 

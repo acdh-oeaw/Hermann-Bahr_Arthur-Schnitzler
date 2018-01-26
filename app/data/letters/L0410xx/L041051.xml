@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041051">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">[Wien]</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19021003" n="01">3. 10. 1902</date>
                </dateSender>
@@ -75,8 +72,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19021003">3. 10. 1902</date>
                </analytic>
@@ -88,47 +84,34 @@
                   <biblScope unit="pp">76</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23353Ba"/>    
-     <graphic url="HS_AM23353Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23353Ba"/>    
+     <graphic url="HS_AM23353Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>3. 10. 902</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>3. 10. 902</date></dateline>
             </opener>
-            <p>
-                    <salute>lieber Hermann, </salute>zu einem einmaligen Beitrag, der natürlich die Höhe einer Monatsrate
+            <p><salute>lieber Hermann, </salute>zu einem einmaligen Beitrag, der natürlich die Höhe einer Monatsrate
           überschreiten und gelegentlich auch wiederholt werden könnte, bin ich gern
           bereit – zur Auszahlung einer monatlichen noch so kleinen Rente wünsche ich mich
           nicht zu verpflichten.</p>
             <p>Da man über meine Vermögensverhältnisse, die allerdings niemanden angehen, <del rend="strikethrough">übrigens</del> sonderbare Ansichten zu hegen scheint, die mir
           manchmal unbequem werden,<pb/> bitte ich dich, die freundliche <rs type="person" key="A002127">Briefschreiberin</rs> zu belehren, dass mein Einkommen aus meinem »Vermögen« zwischen 7 und 800 Gulden
           jährlich schwankt und ich im übrigen auf den Ertrag meiner Feder angewiesen bin.
-          (Und dir ist es ja wohl bekannt, dass ich <anchor type="commentary" xml:id="KL051-1">
-                        <rs type="person" key="A002083">nicht für mich allein</rs> zu sorgen</anchor>
+          (Und dir ist es ja wohl bekannt, dass ich <anchor type="commentary" xml:id="KL051-1" ><rs type="person" key="A002083">nicht für mich allein</rs> zu sorgen</anchor>
           habe.)</p>
-            <closer>Herzlichen Gruss, und auf sehr baldiges Wiedersehen.<lb/>Dein<lb/>
-                    <signed>Arthur Sch</signed> </closer>
+            <closer>Herzlichen Gruss, und auf sehr baldiges Wiedersehen.<lb/>Dein<lb/><signed>Arthur Sch</signed> </closer>
          </div>
       </body>
   </text>

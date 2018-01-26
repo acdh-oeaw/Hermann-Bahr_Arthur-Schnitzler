@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041355">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                         <settlement>Wien</settlement>
-                        </placeName> 
+                         <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000368">Berlin</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18920127" n="01">27. 1. 1892</date>
                </dateSender>
@@ -72,7 +69,7 @@
                      <editor>Hg.  Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1989">1989</date>
                      </imprint>
                      <biblScope unit="pp">51</biblScope>
@@ -81,11 +78,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -95,12 +88,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000368">
-                            <settlement>Berlin, W.</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>27/1 92</date>
-                        <lb/>
+                  <placeName key="A000368"><settlement>Berlin, W.</settlement></placeName><space unit="chars" quantity="1"/><date>27/1 92</date><lb/>
                   <placeName key="A000560">Köthenerstr. 44 I</placeName>
                </dateline>
                <salute>Sehr geehrter Herr Doctor,</salute>
@@ -108,9 +96,7 @@
             <p>Herr <persName key="A002002">Bahr</persName> war so gütig zwischen uns die
             Präliminarien eines event. Verlags Ihres <workName key="A020058">Anatole-Cyclus</workName> zu führen.</p>
             <p>Haben Sie die Güte, uns die betr. Manuscripte einzusenden, damit wir Ihnen mit näheren Vorschlägen dienen.</p>
-            <closer>Hochachtungsvoll<lb/>Ihr ergebener<lb/>
-                    <signed>SFischer</signed>
-                </closer>
+            <closer>Hochachtungsvoll<lb/>Ihr ergebener<lb/><signed>SFischer</signed></closer>
          </div>
       </body>
   </text>

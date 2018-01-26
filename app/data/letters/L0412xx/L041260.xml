@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041260">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19031008" n="01">8. 10. 1903</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -96,21 +87,14 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>8. 10. 03</date>
-                    </dateline>
+               <dateline rend="right"><date>8. 10. 03</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Bitte, kannst Du mir noch ein Exemplar des »<workName key="A020018">Reigen</workName>« schicken, ich brauch es für die 
-        Censur? Die Vorlesung ist für den <date>8. November</date> angesetzt; laß mich wissen, wie viel Sitze Du willst. Ich <anchor type="commentary" xml:id="KL260-1">fahre 
-        wahrscheinlich am <date>18. d.</date> nach <placeName key="A000368">
-                            <settlement>Berlin</settlement>
-                        </placeName>
-                    </anchor>, kann ich Dir was besorgen? 
+        Censur? Die Vorlesung ist für den <date>8. November</date> angesetzt; laß mich wissen, wie viel Sitze Du willst. Ich <anchor type="commentary" xml:id="KL260-1" >fahre 
+        wahrscheinlich am <date>18. d.</date> nach <placeName key="A000368"><settlement>Berlin</settlement></placeName></anchor>, kann ich Dir was besorgen? 
         Und bitte, schreib mir Deine neue Adreße!</p>
-            <closer>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

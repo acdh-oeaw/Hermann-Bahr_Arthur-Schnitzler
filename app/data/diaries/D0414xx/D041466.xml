@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041466">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160108">angelegt</change>
             <change who="KI MAM" when="20160203">Die Stellen über Schnitzler kollationiert am Original</change>
@@ -93,8 +87,7 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19040830" n="1">30.</date> Früh trüb.</p>
+             <p><date when="19040830" n="1">30.</date> Früh trüb.</p>
             <p>An den »<workName key="A020451">Schwestern</workName>« weiter:<lb/>
                <handShift scribe="A002719"/>6.) Das letzte Bild spielt
                     fünfundzwanzig Jahre nach dem ersten. Mariann ist, als glückliche Gräfin, eine
@@ -122,8 +115,7 @@
                     dem Knaben alles sagen wollen. Sie will kein Geheimnis vor ihm haben; sie will
                     auch nicht etwas scheinen, was sie nicht ist, sowie sie ist, will sie sein
                     Verehrung und Liebe haben. Es ist ihr ja auch gar nicht bang, sie ist ganz
-                    sicher, dass er sie verstehen und <anchor type="textConst" xml:id="TD466-1">
-                        <add place="above">ihr</add> recht geben wird. Der Graf, mit seiner
+                    sicher, dass er sie verstehen und <anchor type="textConst" xml:id="TD466-1" ><add place="above">ihr</add> recht geben wird. Der Graf, mit seiner
                     fast <subst>
                         <del rend="strikethrough">in das kindisch übergehende</del>
                         <add place="above">indischen Ergebenheit</add>
@@ -155,8 +147,7 @@
                     Der Bub, schon durch seine brutalen <subst>
                         <del rend="strikethrough">Dienste</del>
                         <add place="above">Instinkte</add>
-                    </subst>
-                    </anchor> dazu disponiert, verwildert immer
+                    </subst></anchor> dazu disponiert, verwildert immer
                     mehr, hat schon gestohlen, ist schon gesessen, bildet sich darauf noch etwas
                     ein, lebt als Zuhälter, spielt eine Art Grasei und prügelt seine Mutter. Der
                     Hass gegen den jungen Grafen ist ihm immer zu Hause gepredigt worden. Nun begibt
@@ -208,14 +199,12 @@
                     schliesslich verschieden denken kann, aber Menschen, die etwas sind, nicht
                     ernstlich streiten werden; dafür sind sie doch wirklich nicht wichtig genug.
                     Komm’, in die Oper.«</p>
-                <p>–<pb/>
-                </p>
-                <p>
+                <p>–<pb/></p><p>
                <handShift scribe="A002002"/>Mit der <persName key="A002134">Gerty</persName> nach <placeName key="A000390">Schönbrunn</placeName> und aufs <placeName key="A000569">Gloriette</placeName>. Besonders die Blicke auf die
                     breiten, steil aufsteigenden, glatten Wege, die auf beiden Seiten von mächtigen
                     Bäumen, am Ende vom flammenden Abendhimmel begrenzt sind.</p>
                 <p>Der Teich, unbeweglich glatt, wirklich wie ein Spiegel.</p>
-                <p output="true">Dann mit <persName key="A002001 A002038">Schnitzlers</persName>, <persName key="A002134">Gerty</persName>, meiner
+                <p >Dann mit <persName key="A002001 A002038">Schnitzlers</persName>, <persName key="A002134">Gerty</persName>, meiner
                     <rs type="person" key="A002186">Frau</rs> und <persName key="A002079">Edgar</persName> im <placeName key="A000505">Ottakringer
                             Bräu</placeName>.</p>
         </div>

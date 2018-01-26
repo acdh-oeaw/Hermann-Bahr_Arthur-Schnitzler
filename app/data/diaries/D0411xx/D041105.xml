@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041105">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,16 +65,9 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18940607" n="01">7/6</date>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>.– <persName key="A002002">Bahr</persName> reist ab.–
+            <p><date when="18940607" n="01">7/6</date><space unit="chars" quantity="1"/><placeName key="A000355"><settlement>München</settlement></placeName>.– <persName key="A002002">Bahr</persName> reist ab.–
             <placeName key="A000301">Neue Pinakothek</placeName>.– <placeName key="A000302">Glyptothek</placeName>.-
-            »<workName key="A020122">Walküre</workName>«.– Im <placeName key="A000300">Luitpold</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002525">Conrad</persName> und <persName key="A002526">Juliane
+            »<workName key="A020122">Walküre</workName>«.– Im <placeName key="A000300">Luitpold</placeName><space unit="chars" quantity="1"/><persName key="A002525">Conrad</persName> und <persName key="A002526">Juliane
           Dery</persName>.–</p>
          </div>
       </body> 

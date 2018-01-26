@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041384">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000368">[Berlin]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18970107" n="01">7. 1. 1897</date>
                     </dateSender>
@@ -71,7 +68,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
                         <biblScope unit="pp">309–311</biblScope>
@@ -95,11 +92,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160119">Angelegt aus Scan</change>
         </revisionDesc>
@@ -110,17 +103,14 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, am <date>7. Januar 97</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, am <date>7. Januar 97</date></dateline>
                     <salute>Mein verehrter Herr Direktor,</salute>
                 </opener>
                 <p>das ist wirklich sehr liebenswürdig von Ihnen, daß Sie mir diese wunderbare
                     Empfehlung für <persName key="A002035">Salten</persName> geschickt haben; sie wird wohl am
                     stärksten ins Gewicht fallen und am besten seine Absichten fördern. Er hat Ihnen
                     wohl schon selbst geschrieben.</p>
-                <p output="true">Auch für die rasche Erledigung des <persName key="A002002">Bahr</persName>schen <rs type="work" key="A020005">Stückes</rs> muß ich Ihnen bestens danken; auf den Bescheid, der gekommen
+                <p >Auch für die rasche Erledigung des <persName key="A002002">Bahr</persName>schen <rs type="work" key="A020005">Stückes</rs> muß ich Ihnen bestens danken; auf den Bescheid, der gekommen
                     ist, hatte ich ihn, wie Sie sich denken können, schon vorbereitet, und so trug
                     er ihn gefaßt.</p>
                 <p>Ihre freundlichen Wünsche für 97 sollen, wenn überhaupt, erst im Frühjahr in
@@ -143,9 +133,7 @@
                     wissen scheinen, obwohl es ja gerade so sicher ist. Sie auch. Und bringen Sie
                     doch <persName key="A002010">Georg Hirschfeld</persName> mit. Er hat Ihnen vielleicht erzählt,
                     daß moderne junge Mädchen in
-                        <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> keinen Mann nehmen, dem
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName> keinen Mann nehmen, dem
                     die »<workName key="A020910">Mütter</workName>« nicht gefallen. Ich habe übrigens dieser Tage
                     einen neuen Beweis für seine Popularität erhalten. Ein junger <rs type="person" key="A004121">
                         Autor</rs> schickte mir eins der komischsten Trauerspiele,
@@ -168,15 +156,12 @@
                     die »<workName key="A020810">Verliebten</workName>« von <persName key="A002670">Maurice Donnay</persName>
                     gelesen? Ich finde sie entzückend. Machen Sie doch gelegentlich die
                         <persName key="A002143">Sorma</persName> darauf aufmerksam, wenn sie das Stück noch nicht
-                    kennen sollte. In <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> ist’s
+                    kennen sollte. In <placeName key="A000368"><settlement>Berlin</settlement></placeName> ist’s
                     ja übrigens verboten worden.</p>
                 <p>Sie schreiben mir hoffentlich bald wieder. Ich habe mit Ihren Briefen immer eine
                     ganz besondere Freude, was ich nicht erst zu versichern brauche. Grüßen Sie
                     gütigst à discrétion. Auf Wiedersehen und viele herzliche Grüße!</p>
-                <closer>Ihr treuer <signed>A. S.</signed>
-                </closer>
+                <closer>Ihr treuer <signed>A. S.</signed></closer>
             </div>
         </body>
     </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041007">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -93,11 +92,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170502">Kollationiert</change>
@@ -111,24 +106,17 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>Samstag <damage agent="hole">
-                                <supplied>2</supplied>
-                            </damage>8. 11. 96</date>.</dateline>
+               <dateline rend="right"><date>Samstag <damage agent="hole"><supplied>2</supplied></damage>8. 11. 96</date>.</dateline>
                <salute>Lieber Hermann,</salute>
             </opener>
             <p>als ich neulich bei dir war, hab ich vergessen, Dir von <persName key="A002006">Reicher</persName> etwas
-          auszurichten, um was er mich in <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> gebeten hat. Er hat nemlich die<pb/> Absicht, im Frühjahr mit einem Schauspielensemble herzukommen und einige hier
+          auszurichten, um was er mich in <placeName key="A000368"><settlement>Berlin</settlement></placeName> gebeten hat. Er hat nemlich die<pb/> Absicht, im Frühjahr mit einem Schauspielensemble herzukommen und einige hier
           noch nicht gespielte Stücke aufzuführen, von denen er noch nicht weiss, ob,
           resp. unter welchen Bedingungen die<pb/> Censur sie freigeben wird. Er scheint
           auf deinen Rath, vielleicht auch auf deinen Beistand zu rechnen. Es handelt sich
-          vor allem um die <anchor type="commentary" xml:id="KL007-2">
-                        <workName key="A020003">Jugend</workName>, ich glaube auch um die
-            <workName key="A020004">Weber</workName>
-                    </anchor>. Näheres hat<pb/> er mir selbst noch nicht
-               gesagt; ich nehme an er <anchor type="commentary" xml:id="KL007-1">wird dir schreiben</anchor>, und diese Zeilen bereiten dich nur
+          vor allem um die <anchor type="commentary" xml:id="KL007-2" ><workName key="A020003">Jugend</workName>, ich glaube auch um die
+            <workName key="A020004">Weber</workName></anchor>. Näheres hat<pb/> er mir selbst noch nicht
+               gesagt; ich nehme an er <anchor type="commentary" xml:id="KL007-1" >wird dir schreiben</anchor>, und diese Zeilen bereiten dich nur
           darauf vor.</p>
             <closer>Herzlich grüßt dich dein <signed>Arthur Sch</signed>
             </closer>

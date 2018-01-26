@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041206">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18961223" n="01">23. 12. 1896</date>
                </dateSender>
@@ -70,20 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler Jahreszahl »<quote>
-                                        <date>6</date>
-                                    </quote>« im Vordruck ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler Jahreszahl »<quote><date>6</date></quote>« im Vordruck ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151203">Kollationiert</change>
          <change who="KI MAM" when="20170527">Kollationiert</change>
@@ -99,22 +90,18 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>23. December</date>
-                    </dateline>
+               <dateline rend="right"><date>23. December</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>In aller Eile, mitten zwischen Correcturen und Schreibereien, möchte ich Dir nur
         geschwind sagen, daß ich die »<workName key="A020128">Frau des
             Weisen</workName>« gestern abends sofort gelesen und von ihr eine wirklich
           schöne und reine Wirkung gehabt habe. Nun kann ich Dir erst recht danken, daß
-          Du mir ein so theueres<pb/> Geschenk für die »<orgName key="A080011">Zeit</orgName>« 
+          Du mir ein so theueres<pb/> Geschenk für die »<orgName  key="A080011">Zeit</orgName>« 
         gegeben hast.</p>
             <p>Sie ist schon in der Druckerei, Montag hast
           Du die Correctur, an ihr kannst Du noch ganz nach Laune ändern.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>hr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>hr</signed></closer>
          </div>
       </body>
   </text>

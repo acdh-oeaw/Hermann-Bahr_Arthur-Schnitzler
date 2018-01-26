@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030080">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                      <settlement>Wien</settlement>
-                        </placeName> 
+                      <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +52,7 @@
          </msIdentifier>
          <physDesc>
             <p>ms. Typoskript, 1 Bl., 1 S., mit hs. Korrekturen und Unterstreichungen mit Bleistift in Lateinschrift. Undatiert, durch inhaltliche Nähe 
-               zum <bibl>
-                                        <workName>Tb</workName> vom <date>27. 7. 1919</date>
-                                    </bibl> dem Jahr zugeordnet. Wiedergabe der
+               zum <bibl><workName>Tb</workName> vom <date>27. 7. 1919</date></bibl> dem Jahr zugeordnet. Wiedergabe der
                            finalen Version. Die ms. Schicht lautet: »<quote>Er hat nicht die Dinge,
                               er hat nur die Worte. Doch nein, wenn er sie wirklich hätte, so hätte
                               er ja die Dinge auch. Die Worte haben ihn. Er hat das Talent die Worte
@@ -65,12 +63,7 @@
        </msDesc>       </witness>
       </listWit>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
 		   <change who="MAM" when="20170317">Angelegt</change>
       </revisionDesc>
@@ -78,11 +71,7 @@
   <text type="manuscript">
       <body>
          <div>
-            <p>
-                    <anchor type="textConst" xml:id="TT080-1">
-                        <persName key="A002002">H. B.</persName>
-                    </anchor>
-                </p>
+            <p><anchor type="textConst" xml:id="TT080-1" ><persName key="A002002">H. B.</persName></anchor></p>
             <p>Er <hi rend="underline" n="1">hat nicht die Dinge</hi>,
                er hat nur die Worte. Doch nein. Wenn er sie wirklich hätte, so hätte
                er ja die Dinge auch. Die Worte haben ihn.– Die Worte spielen 

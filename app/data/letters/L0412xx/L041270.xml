@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041270">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,9 +48,7 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000418">Marbach am Bodensee</placeName>
-                    </placeSender>
+               <placeSender><placeName key="A000418">Marbach am Bodensee</placeName></placeSender>
                
                <dateSender>
                   <date when="19040205" n="1">5. 2. 1904</date>
@@ -75,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -95,51 +88,36 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>5. 2. 04</date>
-                    </dateline>
+               <dateline rend="right"><date>5. 2. 04</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>
-                    <anchor type="commentary" xml:id="KL270-1">Mich berührt natürlich der <rs type="work" key="A020083">Fichtner</rs> am meisten, in
+            <p><anchor type="commentary" xml:id="KL270-1" >Mich berührt natürlich der <rs type="work" key="A020083">Fichtner</rs> am meisten, in
           welchem ich unheimlich viel von mir finde (meine Sachen ließen sich kritisch gar nicht
           besser bezeichnen als damit daß ich mich leider auch in ihnen sozusagen nur vorübergehend
-          aufhielt).</anchor> Ich verstehe auch das <damage agent="water">
-                        <supplied>Ver</supplied>
-                    </damage>hältnis <rs type="work" key="A020083">Julian – Wegrath</rs>, ebenso das <rs type="work" key="A020083">Julian –
+          aufhielt).</anchor> Ich verstehe auch das <damage agent="water"><supplied>Ver</supplied></damage>hältnis <rs type="work" key="A020083">Julian – Wegrath</rs>, ebenso das <rs type="work" key="A020083">Julian –
             Felix</rs> so gut, während ich mir das <rs type="work" key="A020083">Sala – Johanna</rs>
           nicht ganz erklären und mich darin nicht zurechtfinden kann. Außerdem mischt sich jetzt
           bei mir Persönliches in alles, so die Neugierde, die mich plagt, ob <rs type="work" key="A020083">Sala</rs> nicht vollkommen meinen Herzzustand hat und wie der Arzt dann
             <unclear>denn</unclear> doch seinen Tod fast auf den Tag zu wissen glauben kann – was
-          sehr albern von mir ist.<pb/>
-                </p>
-                <p>Kritisch möcht ich sagen: Daß in dem <rs type="work" key="A020083">Stück</rs>
+          sehr albern von mir ist.<pb/></p><p>Kritisch möcht ich sagen: Daß in dem <rs type="work" key="A020083">Stück</rs>
           viel mehr angeschlagen und aufgeregt als zuletzt ausgelöst wird, was ich weniger
           problematisch als musikalisch meine. Für mein Gefühl ist das <rs type="work" key="A020083">Stück</rs> aus, bevor es seine Stimmungsmotive naturgemäß hat aus- und ablaufen
           lassen.</p>
-            <p>
-                    <anchor type="commentary" xml:id="KL270-2">Prachtvoll find ich den 
-                  <workName key="A020083">Cassian</workName>
-                    </anchor>
+            <p><anchor type="commentary" xml:id="KL270-2" >Prachtvoll find ich den 
+                  <workName key="A020083">Cassian</workName></anchor>
                 und bedaure nur, 
          daß die blöden <placeName key="A000351">Deutschen</placeName>
         für solchen arglosen und rein sinnlichen und darum künstlerisch reinen Humor nun
         einmal keine Organe habe<supplied>n</supplied>.</p>
             <p>Da ich mich sehr schlecht fühle, ist es möglich, daß ich schon sehr bald
-        hier weggehe, vielleicht nach <placeName key="A000958">
-                        <settlement>Abbazia</settlement>
-                    </placeName>. Jedenfalls lockt mich der Gedanke, Dich im
-               April in <placeName key="A001107">
-                        <settlement>Taormina</settlement>
-                    </placeName> zu finden, sehr. Hoffentlich.</p>
+        hier weggehe, vielleicht nach <placeName key="A000958"><settlement>Abbazia</settlement></placeName>. Jedenfalls lockt mich der Gedanke, Dich im
+               April in <placeName key="A001107"><settlement>Taormina</settlement></placeName> zu finden, sehr. Hoffentlich.</p>
             <p>Grüß Deine <rs type="person" key="A002038">Frau</rs>, 
                   <persName key="A002065">Brahm</persName>, den 
          stark von <persName key="A002185">Reinhardt</persName> bekümmerten
          <persName key="A002064">Trebitsch</persName> und – ich wär sehr froh, wenn der »<workName key="A020083">einsame Weg</workName>« ein 
          großer Erfolg würde!</p>
-            <closer>Herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

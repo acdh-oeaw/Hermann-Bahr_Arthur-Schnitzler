@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041362">
   <teiHeader type="text">
@@ -20,8 +20,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -77,11 +76,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, 3 Verf., Motiv: »<quote>
-                                        <geogName type="river" instant="false">L’Ombla – Cempresata</geogName>
-                                    </quote>«, bis auf Bahr in Lateinschrift, von Schnitzler datiert: »<quote>
-                                        <date>15. 3. 901</date>
-                                    </quote>«.</p>
+                        <p>eh. Postkarte, 3 Verf., Motiv: »<quote><geogName type="river" instant="false">L’Ombla – Cempresata</geogName></quote>«, bis auf Bahr in Lateinschrift, von Schnitzler datiert: »<quote><date>15. 3. 901</date></quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000883">Dubrovnik Ragusa</placeName>
                            <date when="19040312">12. 3<supplied>.</supplied> 04</date>
@@ -98,11 +93,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM">Angelegt aus Original, nicht in Abschrift</change>
          <change who="KI MAM" when="20151211">Kollationiert</change>
@@ -121,30 +112,19 @@
                <addrLine>Dr. ARTHUR</addrLine>
                <addrLine>SCHNITZLER</addrLine>
                <addrLine>
-                  <placeName key="A000333">XVIII SPÖTTELGASSE 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">XVIII SPÖTTELGASSE 7</placeName></addrLine>
                <addrLine>
                   <placeName key="A000250">
-                     <settlement>WIEN</settlement>
-                        </placeName>
-                    </addrLine>
+                     <settlement>WIEN</settlement></placeName></addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <handShift scribe="A002676"/>
-                    <signed>Lili +</signed>
-                </p>
-            <p>
-                    <handShift scribe="A002675"/>Dein <signed>FWaerndorfer</signed>
-                </p>
+         <div type="writingSession" n="1" >
+            <p><handShift scribe="A002676"/><signed>Lili +</signed></p>
+            <p><handShift scribe="A002675"/>Dein <signed>FWaerndorfer</signed></p>
          </div>
-         <div type="writingSession" n="2">
-            <p>
-                    <handShift scribe="A002002"/>Herzlichst</p>
-            <closer>Deine Frau bestens grüßend<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+         <div type="writingSession" n="2" >
+            <p><handShift scribe="A002002"/>Herzlichst</p>
+            <closer>Deine Frau bestens grüßend<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

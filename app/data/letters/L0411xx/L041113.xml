@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041113">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>HS AM 60166 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>); hs. von Bahr ergänzt: »<quote>
-                                        <date>3. Januar</date>
-                                    </quote>«</p>
+                        <p>eh. Korrespondenzkarte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>); hs. von Bahr ergänzt: »<quote><date>3. Januar</date></quote>«</p>
                         <stamp n="1">
                            <placeName key="A000250">Wien</placeName>
                            <date when="19090118">18. I. 09</date>
@@ -82,8 +79,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19090916">16. 9. 1909</date>
                   <respStmt>Abschrift</respStmt>
@@ -96,52 +92,37 @@
                   <biblScope unit="pp">104</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60166Ba"/>
-     <graphic url="HS_AM60166Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60166Ba"/>
+     <graphic url="HS_AM60166Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>Herrn Hermann Bahr</addrLine>
                <addrLine>
-                  <placeName key="A000365">Wien Ober St Veit.</placeName>
-                    </addrLine>
+                  <placeName key="A000365">Wien Ober St Veit.</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000420">Veitlissengasse.</placeName>
-                    </addrLine>
+                  <placeName key="A000420">Veitlissengasse.</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>mein lieber Hermann, </salute>
-               <hi rend="underline" n="1">we<damage agent="hole">
-                            <supplied>nn</supplied>
-                        </damage> es dich nicht
+            <p><salute>mein lieber Hermann, </salute>
+               <hi rend="underline" n="1">we<damage agent="hole"><supplied>nn</supplied></damage> es dich nicht
             im Arbeiten stört</hi>, würd ich gern einen Vormittag nächster Woche (circa
           ½ 12), den du selbst bestimmen magst, auf ein längeres Viertelstündchen zu dir
           hinaus kommen.<pb/> Hast du keine Zeit, so sags ungenirt</p>
-            <closer>herzlichst dein<lb/>
-                    <signed>Arthur</signed>
+            <closer>herzlichst dein<lb/><signed>Arthur</signed>
             </closer>
             <postscript>
-               <p>
-                        <date>
-                            <anchor type="textConst" xml:id="TL113-1">16. 9.</anchor> 09.</date>
+               <p><date><anchor type="textConst" xml:id="TL113-1" >16. 9.</anchor> 09.</date>
                </p>
             </postscript>
          </div>

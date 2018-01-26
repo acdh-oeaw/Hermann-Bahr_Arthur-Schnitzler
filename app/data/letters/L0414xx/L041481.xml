@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041481">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                    <placeSender>
                   <placeName key="A000368">Berlin</placeName>
                </placeSender>    
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19020923" n="01">23. 9. 1902</date> 
                     </dateSender>
@@ -98,11 +95,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
             <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -124,26 +117,16 @@
             <p>Natürlich unter Discretion; er<pb/> würde unter der Vorstellung, daß ich für ihn »sammle« sehr leiden.
                     Ich sage ihm blos: Das schenken Dir Freunde Deiner Kunst, da nimmt ers gern. Er
                     quittiert mir die Summen natürlich, denn es könnte böse Menschen geben, die etc
-                    etc<c rendition="#dots" n="4"/>
-                </p>
+                    etc<c rendition='#dots' n='4'/></p>
             <p>Ich habe heute durch eine junge reizende
-                        <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>erin gehört, daß Sie
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName>erin gehört, daß Sie
                         <persName key="A003662">Schlaf</persName>s Portrait im Zimmer hängen haben;
-                    da faßte ich den Mut, Ihnen zu schreiben. <persName key="A002001">Schnitzler</persName> und<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002011">Hoffmannsthal</persName>
+                    da faßte ich den Mut, Ihnen zu schreiben. <persName key="A002001">Schnitzler</persName> und<pb/><space unit="chars" quantity="1"/><persName key="A002011">Hoffmannsthal</persName>
                     haben so viel Geld; vielleicht thun die mit? Aber, wie gesagt: In der Stille
                     davon!</p>
-                <closer>In herzlicher Verehrung<lb/>
-                    <signed>Frau Paula Dehmel.</signed>
-                </closer>
+                <closer>In herzlicher Verehrung<lb/><signed>Frau Paula Dehmel.</signed></closer>
                 <postscript>
-               <p>
-                        <placeName key="A000794">Wilmersdorf b. <placeName key="A000368">
-                                <settlement>Berlin</settlement>
-                            </placeName>
+               <p><placeName key="A000794">Wilmersdorf b. <placeName key="A000368"><settlement>Berlin</settlement></placeName>
                   </placeName>, <placeName key="A000795">Wilhelms-Aue 113</placeName>.</p>
             </postscript>
             </div>

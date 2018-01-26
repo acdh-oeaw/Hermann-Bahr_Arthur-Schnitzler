@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041438">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160107">angelegt</change>
             <change who="KI MAM" when="20160202">Kollationiert am Original</change>
@@ -93,12 +87,10 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19031101" n="2">1.</date> Wunderschöner warmer Morgen. Das Gelb der Kastanien, das Roth des wilden Weins.</p>
-            <p output="true">Von der Polizeidirektion wird mir telephoniert, 
+             <p><date when="19031101" n="2">1.</date> Wunderschöner warmer Morgen. Das Gelb der Kastanien, das Roth des wilden Weins.</p>
+            <p >Von der Polizeidirektion wird mir telephoniert, 
                 daß sie mir die Vorlesung des »<workName key="A020018">Reigen</workName>« <hi rend="underline" n="1">nicht</hi> bewilligen kann.</p>
-            <p>
-                    <persName key="A002001">Arthur Schnitzler</persName> lang bei mir. Er ist eben mit seinem neuen 
+            <p><persName key="A002001">Arthur Schnitzler</persName> lang bei mir. Er ist eben mit seinem neuen 
                 Schauspiel »<workName key="A020083">Der <subst>
                      <del rend="overwritten">neue</del>
                      <add place="inline">einsame</add>

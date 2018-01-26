@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041098">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19070709">9. 7. 1907</date>
                   
@@ -89,36 +87,26 @@
                   <biblScope unit="pp">98</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23386Ba"/>
+  </teiHeader><facsimile>       <graphic url="HS_AM23386Ba"/>
      <graphic url="HS_AM23386Ba_R"/>
   </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>9/7 <anchor type="textConst" xml:id="TL098-1">902</anchor>
-                        </date>
+               <dateline rend="right"><date>9/7 <anchor type="textConst" xml:id="TL098-1" >902</anchor></date>
                </dateline>
             </opener>
-            <p>
-                    <salute>lieber Hermann, </salute>
-                    <anchor type="commentary" xml:id="KL098-1">beifolgenden Wisch</anchor> erhielt ich nachgesandt. Ich beabsichtigte nicht zu antworten,
+            <p><salute>lieber Hermann, </salute><anchor type="commentary" xml:id="KL098-1" >beifolgenden Wisch</anchor> erhielt ich nachgesandt. Ich beabsichtigte nicht zu antworten,
           aber man sagt mir, dass unerhörter Weise eine <hi rend="underline" n="1">Verpflichtung</hi>
           dazu besteht. Ich würde sagen, dss ich keine Ahnung habe. Aber vielleicht
           wünschest du selbst irgend eine andre<subst>
@@ -127,16 +115,11 @@
                </subst> Bitte theile mir mit, was<pb/> du für recht <del rend="strikethrough">h<unclear>ie</unclear>lt<unclear>e</unclear>st</del> hältst, und schicke mir das Formular zurück.</p>
             <p>Ich wollte dich selbst besuchen, komme aber in den allernächsten Tagen nicht dazu;
           daher ist leider briefliche Erledigung nothwendig.</p>
-            <p>Die Tour war sehr schön; <hi rend="latintype">
-                        <persName key="A002011">Hugo</persName>
-                    </hi> ist noch ein paar Tage in
+            <p>Die Tour war sehr schön; <hi rend="latintype"><persName key="A002011">Hugo</persName></hi> ist noch ein paar Tage in
         <hi rend="latintype">
-                  <placeName key="A000629">
-                            <settlement>Welsberg</settlement>
-                        </placeName>
+                  <placeName key="A000629"><settlement>Welsberg</settlement></placeName>
                </hi> geblieben,</p>
-            <closer>Von Herzen<lb/>dein <signed>Arthur</signed>
-                </closer>
+            <closer>Von Herzen<lb/>dein <signed>Arthur</signed></closer>
          </div>
       </body>
   </text>

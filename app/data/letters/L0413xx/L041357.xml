@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041357">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000413">Bad Ischl</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000413">Bad Ischl</placeName></placeAddressee>
                <dateSender>
                   <date when="18970723" n="02">23. 7. 1897</date>
                </dateSender>
@@ -87,11 +82,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151112">Angelegt aus Abschrift</change>
          <change who="MAM" when="20151126">Autopsie am Original</change>
@@ -107,36 +98,25 @@
                   </hi> Arthur Schnitzler</addrLine>
                <addrLine>
                   <del rend="erased">
-                     <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>
-                  </del>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="A000413">
-                     <settlement>Ischl</settlement>
-                        </placeName>
-                    </addrLine>
+                     <placeName key="A000250"><settlement>Wien</settlement></placeName>
+                  </del><space unit="chars" quantity="1"/><placeName key="A000413">
+                     <settlement>Ischl</settlement></placeName></addrLine>
                <addrLine>
                   <placeName key="A000615">Kaltenbach, Pension Petter</placeName>.</addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline>
-                        <date>23/7</date>
-                    </dateline>
+               <dateline><date>23/7</date></dateline>
             </opener>
-            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1">
-                        <persName key="A002002 A002000" cert="low">B</persName>.</anchor>
-                </p>
+            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1" ><persName key="A002002 A002000" cert="low">B</persName>.</anchor></p>
             <p>Das hätte <subst>
                   <del rend="overwritten">
                      <gap quantity="2" reason="illegible" unit="chars"/>
                   </del>
                   <add place="inline">m</add>
                </subst>an sich eigentlich denken können.</p>
-            <closer>Herzlich <signed>S.</signed>
-                </closer>
+            <closer>Herzlich <signed>S.</signed></closer>
          </div>
       </body>
   </text>

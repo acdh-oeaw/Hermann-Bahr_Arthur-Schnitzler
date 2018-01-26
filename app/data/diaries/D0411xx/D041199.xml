@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041199">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,19 +69,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19020515" n="2">15/5</date> 40. Geburtstag.– Nach <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>.–</p>
-            <p output="true">Bei <persName key="A002212">Gustav</persName> und <persName key="A002688">Max</persName>, in der Affaire <persName key="A002684">Sachsel</persName>.–</p>
+            <p ><date when="19020515" n="2">15/5</date> 40. Geburtstag.– Nach <placeName key="A000250"><settlement>Wien</settlement></placeName>.–</p>
+            <p >Bei <persName key="A002212">Gustav</persName> und <persName key="A002688">Max</persName>, in der Affaire <persName key="A002684">Sachsel</persName>.–</p>
             <p>Blumen von <persName key="A002002">Bahr</persName>, <persName key="A002685">Vacano</persName>, Frau <persName key="A002686">Alb. Gutmann</persName>.–</p>
             <p>Nm. Frl. <persName key="A002683">Hermine Freund</persName>, brachte einen netten Brief von <persName key="A002343">Else S.</persName>–</p>
             <p>Brief an <persName key="A002684">Sachsel</persName> aufgesetzt.–</p>
             <p>»<workName key="A020339">Mass für Mass</workName>« <placeName key="A000214">Burg</placeName>.–</p>
             <p>Häusl. Souper.–</p>
-            <p>Nach dem Nachtmahl wieder Brief aufgesetzt – an <anchor type="commentary" xml:id="KD499-1">
-                        <persName key="A002684">Sachsel</persName>
-                    </anchor>.</p>
+            <p>Nach dem Nachtmahl wieder Brief aufgesetzt – an <anchor type="commentary" xml:id="KD499-1" ><persName key="A002684">Sachsel</persName></anchor>.</p>
          </div> 
       </body>
    </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041598">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                         <placeName key="A000973">Marienbad</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>--&gt;
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18940815" n="01">15. 8. 1894</date> 
                     </dateSender>
@@ -81,11 +78,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160601">Angelegt</change>
             <change who="KI MAM" when="20160601">Kollationiert</change>
@@ -97,9 +90,7 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000973">
-                            <settlement>Marienbad</settlement>
-                        </placeName>. <date>15/8. 94</date>.</dateline>
+                  <placeName key="A000973"><settlement>Marienbad</settlement></placeName>. <date>15/8. 94</date>.</dateline>
                     <salute>Mein lieber treuer Hermann.</salute>
                 </opener>
                 <p>Heut spiele ich zum letzten Male. Kind – ich hatte hier einen Erfolg in <workName key="A020706">Heimat</workName> –
@@ -107,17 +98,10 @@
                         <persName key="A002001">Thuri</persName>. – Hast Du einen schwachen Begriff – wie mir ist?
                     – Ich werde dieses Engelsgesicht, diese guten treuen Augen wiederseh’n! –</p>
                 <p>Ich
-                    bin irrwitzig vor Freude! –<pb/>
-                </p>
-                <p>Am 25–26 spiele ich in <placeName key="A000413">
-                  <settlement>Ischl</settlement>
-                    </placeName> die
-                    <anchor type="commentary" xml:id="KL598-1">
-                        <rs type="work" key="A020706">Magda</rs>
-                    </anchor> – um <date>30</date> bin ich in
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> – wo ich nun hoffe
+                    bin irrwitzig vor Freude! –<pb/></p><p>Am 25–26 spiele ich in <placeName key="A000413">
+                  <settlement>Ischl</settlement></placeName> die
+                    <anchor type="commentary" xml:id="KL598-1" ><rs type="work" key="A020706">Magda</rs></anchor> – um <date>30</date> bin ich in
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> – wo ich nun hoffe
                     Dich oft – recht oft zu seh’n. Ich habe mich hier glänzend erholt – das
                     Nervencostüm ist reparirt – so kann es mein hochlöblicher <rs type="person" key="A002032">Director</rs> samt Consorten wieder zerstören. – </p>
                 <p>Ich freue mich mein guter Hermann daß es Dir gut geht – Gott stehe Dir bei in
@@ -126,8 +110,7 @@
                             <placeName key="A000430">Salzburg –
                         O<damage agent="hole">es</damage>terreichischer Hof</placeName> einen lieben Brief. Ich hab Dir
                     viel viel zu erzählen. –</p>
-                <closer>tausend innige Grüße<lb/>Dein treuer<lb/>Freund <signed>Diltsch.</signed>
-                </closer>
+                <closer>tausend innige Grüße<lb/>Dein treuer<lb/>Freund <signed>Diltsch.</signed></closer>
             </div>
         </body>
     </text>

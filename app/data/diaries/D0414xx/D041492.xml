@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041492">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">V</biblScope>
+                            </imprint><biblScope unit="vol">V</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160112">angelegt</change>
             <change who="KI MAM" when="20160205">Die Stellen über Schnitzler kollationiert am Original</change>
@@ -93,13 +87,10 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p output="true">
-                    <persName key="A002000">Burckhard</persName>
-               <hyphenation alt="\hfill ">
-                        <space unit="chars" quantity="10"/>
-                    </hyphenation>(bei
+            <p ><persName key="A002000">Burckhard</persName>
+               <space unit="chars" quantity="10"/>(bei
                 <persName key="A002001 A002038">Schnitzlers</persName> zum Essen <date when="19061007" n="01">7. 10. 06</date>)</p>
-            <p output="true">Ich spreche davon, daß auch <persName key="A002000">Burckhard</persName> »borniert« ist. Nemlich insofern er doch
+            <p >Ich spreche davon, daß auch <persName key="A002000">Burckhard</persName> »borniert« ist. Nemlich insofern er doch
                     immer nur das Typische, nirgends das Individuelle sieht. Von einer Frau
                     sprechend, die er nicht mag, weil sie ihren Mann betrügt, erinnere ich ihn
                     lachend an eine andere, die er sehr gern hat, obwol sie dies täglich tut. Ja,

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041511">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -78,11 +77,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -91,9 +86,7 @@
         <body>
            
             <div type="writingSession" n="1">
-               <p>
-                    <gap reason="outOfScope"/>
-                </p>
+               <p><gap reason="outOfScope"/></p>
                 <p>Ich bin von den <placeName key="A001171">Uffizien
                </placeName> gekommen
                     und habe auf dem Wege ins Restaurant Ihren Brief von der Post geholt und ihn
@@ -106,7 +99,7 @@
                     Postscriptum ((2, 4, 6, 8 – – – – ∞?)gradig?) so beweist dies nur daß »sie«
                     Ihre sexuelle Phantasie stark erregt. Bitte, – bitte tun Sie wie wenn ich nicht
                     zu Hause wäre. – Sie können auch nach meiner Adresse fragen, – mehrmals – und
-                    dabei findet sich Gelegenheit. <anchor output="true" xml:id="OL511-1">Bitte: <persName key="A002002">Bahr</persName> soll die
+                    dabei findet sich Gelegenheit. <anchor xml:id="OL511-1">Bitte: <persName key="A002002">Bahr</persName> soll die
                         »<orgName key="A080011">Zeit</orgName>« (die erste Nummer) <hi rend="underline" n="1">a posta ferma
                         Rom</hi> senden – ja?</anchor> Von Donnerstag an, bitte adressiren Sie auch die
                     Briefe und Karten an mich, dorthin. Und schreiben Sie mir öfters; Ich werde
@@ -114,14 +107,10 @@
                         »<rs type="work" key="A021226">
                   <persName key="A004099">Guercino</persName>
                </rs>« hängt in
-                            <placeName key="A001087">
-                        <settlement>Mailand</settlement>
-                    </placeName>. Grüße bitte
+                            <placeName key="A001087"><settlement>Mailand</settlement></placeName>. Grüße bitte
                     richten Sie ein für allemal <hi rend="underline" n="1">à discretion</hi> aus, wissen Sie, so
                     als Belohnung. Herzlichst Ihr –</p>
-                <closer>
-                    <signed>Richard</signed>
-                </closer>
+                <closer><signed>Richard</signed></closer>
             </div>
         </body>
     </text>

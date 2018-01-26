@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041378">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,14 +66,12 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19160801" n="1">1/8</date> Vm. <persName key="A002011">Hugo</persName>,
+            <p><date when="19160801" n="1">1/8</date> Vm. <persName key="A002011">Hugo</persName>,
         consultirt mich »ärztlich« wegen <persName key="A003032">Christiane</persName>. –
         Über <placeName key="A000362">Oesterreich</placeName> (»Ich bin ja gewissermaßen Patriot
         –«), <persName key="A003033">Conrads</persName> Unschuld an der <placeName key="A000475">ital.</placeName> Offensive (warum ging er nicht?), die hohe Familie. Über
          <persName key="A002002">Bahr</persName> – der <persName key="A002011">Hugo</persName> für die <workName key="A021275">oesterr. Bibliothek</workName> ein so
-        clerical katholisch militantes <anchor type="commentary" xml:id="KD378-1">
-                        <rs type="work" key="A020492">Büchl</rs> gab, dass – sogar <persName key="A002042">Poldi
+        clerical katholisch militantes <anchor type="commentary" xml:id="KD378-1" ><rs type="work" key="A020492">Büchl</rs> gab, dass – sogar <persName key="A002042">Poldi
          Andrian</persName> die Herausgabe widerrieth</anchor>.– Über Production; meine
         Stilneigungen.–</p>
             <p>Nm. am <workName key="A020451">Casan.</workName>–</p>

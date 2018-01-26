@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030035">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -58,12 +58,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change when="20160225" who="MAM">Angelegt aus dem Nachdruck ÖVZ, kollationiert nach ZA vom Tag.</change>
          <change who="KI MAM" when="20170421">Kollationiert</change>
@@ -73,37 +68,24 @@
       <body>
          <div>
             <head>Der <orgName key="A080734">Grillparzerpreis</orgName>.</head>
-            <head type="sub">Von Hermann Bahr (<placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>).</head>
+            <head type="sub">Von Hermann Bahr (<placeName key="A000250"><settlement>Wien</settlement></placeName>).</head>
             <p>Der <orgName key="A080734">Grillparzerpreis</orgName> wird für das »relativ beste« Stück verliehen, das in den letzten
           drei Jahren an einer »namhaften« deutschen Bühne gegeben
           worden ist. Er wurde diesmal <persName key="A002168">Hartleben</persName> für den
             »<workName key="A020925">Rosenmontag</workName>« zugeteilt. Darüber ist man nun in
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> in einiger Verlegenheit: denn man
+              <placeName key="A000250"><settlement>Wien</settlement></placeName> in einiger Verlegenheit: denn man
           findet die Entscheidung doch eigentlich »zu dumm«, will aber nichts gegen sie sagen, weil man
             <persName key="A002168">Hartleben</persName> sehr gern hat.</p>
-            <p>
-                    <persName key="A002168">Hartleben</persName> ist bei uns sehr beliebt, mehr als irgend
-          ein anderer <placeName key="A000351">
-                        <country>deutscher</country>
-                    </placeName> Autor. Er hat <anchor type="commentary" xml:id="KT035-4">
-                        <persName key="A002060">Goethe</persName>
-                        <space unit="chars" quantity="1"/>
-                        <rs type="work" key="A021154">herausgegeben</rs>
-                    </anchor>, seine Verse haben eine rein ausgefeilte Form –
+            <p><persName key="A002168">Hartleben</persName> ist bei uns sehr beliebt, mehr als irgend
+          ein anderer <placeName key="A000351"><country>deutscher</country></placeName> Autor. Er hat <anchor type="commentary" xml:id="KT035-4" ><persName key="A002060">Goethe</persName><space unit="chars" quantity="1"/><rs type="work" key="A021154">herausgegeben</rs></anchor>, seine Verse haben eine rein ausgefeilte Form –
           das sagt dem Germanisten zu, der in jedem gebildeten <placeName key="A000362">Oesterreicher</placeName> steckt. Er verhält sich kritisch zur Gesellschaft, ihre
-          Größen imponieren ihm nicht, ihre Gebote verspottet er, er ist auch ein »<anchor type="commentary" xml:id="KT035-3">Verschimpfer</anchor>«,
+          Größen imponieren ihm nicht, ihre Gebote verspottet er, er ist auch ein »<anchor type="commentary" xml:id="KT035-3" >Verschimpfer</anchor>«,
           wie <persName key="A003092">Bauernfeld</persName> sich einmal stolz genannt hat – das behagt
           unserem ewig räsonnierenden, gern verneinenden, mißvergnügten Geiste. Er muß endlich jedem
           Artisten gefallen, weil er auf allen Seilen der Technik, fast wie ein <placeName key="A000366">Franzose</placeName>, tanzen kann – und alle <placeName key="A000250">Wiener</placeName>
-          schmeicheln sich, Artisten zu sein. Auch ist er oft in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>
+          schmeicheln sich, Artisten zu sein. Auch ist er oft in <placeName key="A000250"><settlement>Wien</settlement></placeName>
           gewesen, und seine ganze unfeierliche, studentische Art, die jeden gleich duzt, ist uns
-          lieb. Er bringt immer eine angenehme <anchor type="commentary" xml:id="KT035-2">Salvator</anchor>stimmung mit, er ist ein <persName key="A003863">Maupassant</persName>, mit dem man zechen kann. Der <placeName key="A000250">Wiener</placeName> aber verlangt von 
+          lieb. Er bringt immer eine angenehme <anchor type="commentary" xml:id="KT035-2" >Salvator</anchor>stimmung mit, er ist ein <persName key="A003863">Maupassant</persName>, mit dem man zechen kann. Der <placeName key="A000250">Wiener</placeName> aber verlangt von 
                Dichtern stets, daß sie ins <placeName key="A001200">Winterbierhaus</placeName> passen.
           Dazu kommt, daß gerade der »<workName key="A020925">Rosenmontag</workName>« alle Qualitäten hat,
           die der <placeName key="A000250">Wiener</placeName> an einem guten Stücke wünscht: er sieht so
@@ -153,8 +135,7 @@
           kaum einen, der ernster an sich gearbeitet hätte, mit Leidenschaft um innere Zucht bemüht,
           selbst wenn er dafür auf den äußeren Erfolg verzichten müßte. Er hat aber arge Feinde, die
           durchaus seinen Ruf zerstören wollen. Aus ganz unlitterarischen Gründen: weil er Jude ist,
-          weil seine Art einer <anchor type="commentary" xml:id="KT035-1">
-                        <rs type="person" key="A003939">Prinzessin</rs> mißfallen</anchor> haben soll,
+          weil seine Art einer <anchor type="commentary" xml:id="KT035-1" ><rs type="person" key="A003939">Prinzessin</rs> mißfallen</anchor> haben soll,
           und weil sich die Offiziere über seine Novelle »<workName key="A020017">Leutnant
             Gustl</workName>« geärgert haben. Nun, das könnte ja auch anderswo vorkommen. Aber
            <placeName key="A000362">österreichisch</placeName> ist es, einem Menschen, der einem nicht paßt, einfach das Talent

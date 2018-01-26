@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041083">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,9 +65,7 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19121030" n="01">30/10</date> Interpellation <persName key="A002512">Winter</persName>, <persName key="A002520">Hanusch</persName>
-                    <space unit="chars" quantity="1"/>Genossen (mir alle unbekannt), wegen <workName key="A020192">Bernhardi</workName> Verbots, ziemlich scharf.–</p>
+            <p><date when="19121030" n="01">30/10</date> Interpellation <persName key="A002512">Winter</persName>, <persName key="A002520">Hanusch</persName><space unit="chars" quantity="1"/>Genossen (mir alle unbekannt), wegen <workName key="A020192">Bernhardi</workName> Verbots, ziemlich scharf.–</p>
       
             <p>Beim Buchhändler <persName key="A002119">Hugo Heller</persName>, wegen ev. Vorlesung des <workName key="A020192">Bernhardi</workName> (er hatte mir geschrieben).–
       </p>
@@ -81,15 +74,9 @@
       </p>
             <p>Frl. <persName key="A002161">Loewenstamm</persName>, bei der <persName key="A002083">Heini</persName> nun Zeichnen lernt.–
       </p>
-            <p>Großer <workName key="A020058">Anatol</workName> Erfolg in <placeName key="A001080">
-                        <settlement>New York</settlement>
-                    </placeName>. Wie viel Geld könnte, würde ich jetzt mit tüchtiger Verlegerhilfe verdienen!–
+            <p>Großer <workName key="A020058">Anatol</workName> Erfolg in <placeName key="A001080"><settlement>New York</settlement></placeName>. Wie viel Geld könnte, würde ich jetzt mit tüchtiger Verlegerhilfe verdienen!–
       </p>
-            <p>Las <persName key="A002002">Bahrs</persName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KD083-1">
-                        <workName key="A020278">Prinzip</workName>
-                    </anchor>; prätentiöse Posse mit Lustspiel- und Philosophie Allüren.–</p>
+            <p>Las <persName key="A002002">Bahrs</persName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KD083-1" ><workName key="A020278">Prinzip</workName></anchor>; prätentiöse Posse mit Lustspiel- und Philosophie Allüren.–</p>
   
          </div>
       </body> 

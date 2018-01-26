@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041483">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160111">angelegt</change>
             <change who="KI MAM" when="20160204">Kollationiert am Original</change>
@@ -93,10 +87,7 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="2">
-            <p output="true">
-                    <date when="19051015" n="2">15.</date>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="A020634">Artikel</rs> über <workName key="A020379">Krug</workName> und <workName key="A020012">Kakadu</workName>.</p>
+            <p ><date when="19051015" n="2">15.</date><space unit="chars" quantity="1"/><rs type="work" key="A020634">Artikel</rs> über <workName key="A020379">Krug</workName> und <workName key="A020012">Kakadu</workName>.</p>
             <p>Mit <persName key="A002065">Brahm</persName>, der noch einen dritten Einakter wünscht, dann würde er den <workName key="A020044">Club der Erlöser</workName> nehmen.</p>
         </div>
       </body>

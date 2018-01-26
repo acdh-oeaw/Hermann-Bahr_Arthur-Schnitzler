@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041595">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18931229" n="01">29. 12. 1893</date>
                     </dateSender>
@@ -77,11 +72,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160601">Angelegt</change>
             <change who="KI MAM" when="20160601">Kollationiert</change>
@@ -93,9 +84,7 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline>
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>. <date>29. 12. 93</date>.</dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>. <date>29. 12. 93</date>.</dateline>
                     <salute>Lieber Freund!
                     </salute>
                 </opener>
@@ -105,16 +94,8 @@
                     nicht nein – sonst wird es Nacht, und meine Nerven können
                     nicht strahlen. Du findest bei mir <persName key="A002347">Nhil</persName> – und den<pb/> kleinen <hi rend="latintype">
                   <persName key="A002001">Schnitzler</persName>
-               </hi> – <persName key="A002349">Wil<damage agent="hole">
-                            <supplied>ly</supplied>
-                        </damage>
-               </persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A002351">Bruder</rs>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A002362">Vater</rs> noch eine sehr lieb<damage agent="hole">
-                        <supplied>e</supplied>
-                    </damage> fesche <rs type="person" key="A002352" subtype="local">Dame</rs> –
+               </hi> – <persName key="A002349">Wil<damage agent="hole"><supplied>ly</supplied></damage>
+               </persName><space unit="chars" quantity="1"/><rs type="person" key="A002351">Bruder</rs><space unit="chars" quantity="1"/><rs type="person" key="A002362">Vater</rs> noch eine sehr lieb<damage agent="hole"><supplied>e</supplied></damage> fesche <rs type="person" key="A002352" subtype="local">Dame</rs> –
                     dann nach zwölf – Doctor <hi rend="latintype">
                   <persName key="A002348">Elbogen</persName>
                </hi> –
@@ -128,8 +109,7 @@
                <signed>Diltsch</signed>
                 </closer>
                 <postscript>
-               <p>
-                        <placeName key="A000918">Opern Ring 19.</placeName>
+               <p><placeName key="A000918">Opern Ring 19.</placeName>
                </p>
             </postscript>
             </div>

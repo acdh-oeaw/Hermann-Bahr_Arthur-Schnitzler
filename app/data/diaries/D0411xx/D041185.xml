@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041185">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,9 +69,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18990704" n="1">4/7</date> Abd. Dtsch. Th. <workName key="A020333">Geographie und Liebe</workName>; <persName key="A002662">M. E.</persName> spielte; dann mit ihr soup.–</p>
-            <p>Nm. <persName key="A002661">Kanner</persName> und <persName key="A002607">Singer</persName> bei mir (<persName key="A002002">Bahr</persName> von der <orgName key="A080011">Zeit</orgName> fort).</p>
+            <p><date when="18990704" n="1">4/7</date> Abd. Dtsch. Th. <workName key="A020333">Geographie und Liebe</workName>; <persName key="A002662">M. E.</persName> spielte; dann mit ihr soup.–</p>
+            <p>Nm. <persName key="A002661">Kanner</persName> und <persName key="A002607">Singer</persName> bei mir (<persName key="A002002">Bahr</persName> von der <orgName  key="A080011">Zeit</orgName> fort).</p>
          </div> 
       </body>
    </text>

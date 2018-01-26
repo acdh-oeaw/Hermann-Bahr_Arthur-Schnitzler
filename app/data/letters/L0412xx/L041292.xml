@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041292">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -71,9 +70,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p>eh. Bildpostkarte, Motiv: »<quote>Das <rs type="person" key="A004231">Weiser</rs>haus am alten 
-             Markt in <placeName key="A000230">
-                                            <settlement>Salzburg</settlement>
-                                        </placeName> um <date>1800</date> (jetzt Salzburger
+             Markt in <placeName key="A000230"><settlement>Salzburg</settlement></placeName> um <date>1800</date> (jetzt Salzburger
            Sparkasse, <placeName key="A000709">Ludwig-Viktorplatz</placeName>)</quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A000230">Salzburg</placeName>
@@ -86,11 +83,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -106,20 +99,15 @@
             <address>
                <addrLine>Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <anchor type="commentary" xml:id="KL292-1">
-                        <persName key="A002088">Vanjung</persName> erzält mir eben</anchor> von Deinen 
+            <p><anchor type="commentary" xml:id="KL292-1" ><persName key="A002088">Vanjung</persName> erzält mir eben</anchor> von Deinen 
                beiden <rs type="work" key="A020042 A020043">Stücken</rs>, ich 
-               freu mich sehr und bin ungeheuer neugierig.<space unit="chars" quantity="5"/>Herzlichst <signed>Hermann</signed>
-                </p>
+               freu mich sehr und bin ungeheuer neugierig.<space unit="chars" quantity="5"/>Herzlichst <signed>Hermann</signed></p>
          </div>
       </body>
   </text>

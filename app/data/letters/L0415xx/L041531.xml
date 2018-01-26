@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041531">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002018">Sandrock, Adele</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>--&gt;
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18940127" n="01">27. 1. 1894</date>
                     </dateSender>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160411">Angelegt</change>
             <change who="MAM" when="20160427">Kollationiert am Original</change>
@@ -109,13 +100,11 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <hi rend="underline" n="1">
-                            <date>Samstag</date>.</hi>
+                  <hi rend="underline" n="1"><date>Samstag</date>.</hi>
                </dateline>
                     
                 </opener>
-                <p output="true">
-                    <salute>Liebste, einzige, </salute>ich sende dir tausend innige Küsse!– Wie
+                <p ><salute>Liebste, einzige, </salute>ich sende dir tausend innige Küsse!– Wie
                     gehts dir? Hast du wohl geruht?– Du, bei mir das ist das wahre Verhängnis – um
                     8!!! wurde ich aufgeweckt, und das war schon Gnade, denn es war um 7 um mich
                     geschickt worden.– Jetzt eben waren <persName key="A002011">
@@ -124,13 +113,9 @@
                     <persName key="A002007">
                   <hi rend="latintype">Beer-Hofmann</hi>
                </persName> bei mir;– es scheint, dass
-                        <persName key="A002011">
-                        <hi rend="latintype">Loris</hi>
-                    </persName>
+                        <persName key="A002011"><hi rend="latintype">Loris</hi></persName>
                 morgen mit 
-                   <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>
+                   <persName key="A002002"><hi rend="latintype">Bahr</hi></persName>
                 zu dir
                     kommen will, Abend,<pb/> nach der <workName key="A020681" subtype="local">Waise</workName> – unter uns, Schatz, du
                     hast nichts davon zu wissen; – und wenn du’s mir erlauben möchtest, könnt’ ich
@@ -149,17 +134,13 @@
                         weil ich mich ja zerstreuen muß,
                         zu der <rs type="work" key="A021170">Posse</rs> in die <placeName key="A000240">
                   <hi rend="latintype">Josefstadt</hi>
-               </placeName>.<pb/>
-                </p>
-                <p>Mit dem
+               </placeName>.<pb/></p><p>Mit dem
                     Arbeiten wars heute so nichts.– Um eilf, mein Engel, zu der Zeit, wo ich im
                     <placeName key="A000462">
                   <hi rend="latintype">Central</hi>
                </placeName> sein werde, wirst Du schon den tiefen Schlaf
                     der Dämonen schlafen, und <add place="above">in</add> all<del rend="strikethrough">e</del> 
-                    mein<add place="inline">er</add> Zärtlichkeit für dich vermag<del rend="strikethrough">s</del>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">ich</add> nicht,
+                    mein<add place="inline">er</add> Zärtlichkeit für dich vermag<del rend="strikethrough">s</del><space unit="chars" quantity="1"/><add place="above">ich</add> nicht,
                     <add place="inline">mich</add> in deine Träume zu schleichen. Hier hört sogar die Macht eines – Verehrers
                     auf. Was macht das Ohr? Was machen die Nerven? Was machen die Launen und<pb/> was
                     macht die Laune?– Ob dieser Brief kühl klingt oder glühend, weiss ich nicht; –

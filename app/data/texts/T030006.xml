@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030006">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                      <settlement>Wien</settlement>
-                        </placeName> 
+                      <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -57,12 +57,7 @@
             </listWit>  
            
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
 			      <change when="20160216" who="MAM">Angelegt</change>
          <change who="KI MAM" when="20160509">Kollationiert</change>
@@ -71,24 +66,17 @@
   <text type="manuscript">
       <body>
          <div>
-            <head>
-                    <anchor type="commentary" xml:id="KT006-1">Aus dem <workName key="A020821">Tagebuch</workName>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">von <persName key="A002002">Bahr</persName>
-               </hi>, <date>31. März 1929</date>, <hyphenation alt="\\"/>
-                    <orgName key="A080080">Neues Wiener Journal</orgName>.</head>
-            <p>Anlässlich <anchor type="commentary" xml:id="KT006-2">
-                        <persName key="A003749">Cajetan Bernvilles</persName>
+            <head><anchor type="commentary" xml:id="KT006-1" >Aus dem <workName key="A020821">Tagebuch</workName></anchor><space unit="chars" quantity="1"/><hi rend="underline" n="1">von <persName key="A002002">Bahr</persName>
+               </hi>, <date>31. März 1929</date>, <orgName  key="A080080">Neues Wiener Journal</orgName>.</head>
+            <p>Anlässlich <anchor type="commentary" xml:id="KT006-2" ><persName key="A003749">Cajetan Bernvilles</persName>
                <add place="inline">’</add> Schrift »<workName key="A020902">
                   <hi rend="underline" n="1">Ueber das Leben der
          heiligen </hi>
                   <persName key="A003750">
                      <hi rend="underline" n="1">Therese, vom Kinde Jesu</hi>
                   </persName>
-               </workName>
-                    </anchor>.«</p>
-            <p>»<c rendition="#dots" n="4" place="center"/> doch dass sie jetzt bis in die kleinsten <placeName key="A000515">bayrischen</placeName> und
+               </workName></anchor>.«</p>
+            <p>»<c rendition='#dots' n='4' place="center"/> doch dass sie jetzt bis in die kleinsten <placeName key="A000515">bayrischen</placeName> und
             <placeName key="A000362">
                   <country>österreichischen</country>
                </placeName> Landorte hinein vom Volke verehrt wird, ja dass

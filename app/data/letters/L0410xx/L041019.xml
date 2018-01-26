@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041019">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -73,8 +72,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="18981014">14. 10. 1898</date>
                   <respStmt>Abschrift</respStmt>
@@ -87,15 +85,10 @@
                   <biblScope unit="pp">64</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
@@ -108,17 +101,12 @@
   <text type="card">
       <body>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>Lieber Hermann, </salute>ich danke dir herzlich für dein liebes
-               <anchor type="commentary" xml:id="KL019-1">Telegramm</anchor>
-                </p>
+            <p><salute>Lieber Hermann, </salute>ich danke dir herzlich für dein liebes
+               <anchor type="commentary" xml:id="KL019-1">Telegramm</anchor></p>
             <closer>Dein <signed>Arth Schnitzler</signed> 
       </closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>,
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName>,
                   <date when="18981014">14. X. 98.</date>
                </p>
             </postscript>

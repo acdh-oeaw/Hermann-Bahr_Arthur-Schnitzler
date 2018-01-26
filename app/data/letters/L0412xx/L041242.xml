@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041242">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19011027" n="01">27. 10. 1901</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., von Schnitzler mit Jahreszahl datiert: »<quote>
-                                        <date>901</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 3 S., von Schnitzler mit Jahreszahl datiert: »<quote><date>901</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -98,31 +87,20 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>27. 10.</date>
-                    </dateline>
+               <dateline rend="right"><date>27. 10.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Für Deinen lieben Brief danke ich Dir sehr. – Die <rs type="work" key="A020112">Pantomime</rs> finde ich sehr, sehr schlecht; ich habe sie nur abgedruckt, um den
-        <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>ern mitzutheilen, daß ich schon <date>1892</date> en plein naturalisme Pantomimen gemacht habe (wie übrigens Du und <persName key="A002011">Hugo</persName> und <persName key="A002007">Richard</persName> auch).<pb/>
-                </p>
-                <p>Mit Baron <persName key="A002034">Berger</persName> habe ich lange über Deine
+        <placeName key="A000368"><settlement>Berlin</settlement></placeName>ern mitzutheilen, daß ich schon <date>1892</date> en plein naturalisme Pantomimen gemacht habe (wie übrigens Du und <persName key="A002011">Hugo</persName> und <persName key="A002007">Richard</persName> auch).<pb/></p><p>Mit Baron <persName key="A002034">Berger</persName> habe ich lange über Deine
                Stücke gesprochen: er hält die »<workName key="A020029">letzten Masken</workName>«
                und »<workName key="A020025">Literatur</workName>« für »Meisterwerke ersten Ranges«,
                während er für das Scenische der »<workName key="A020023">Frau mit dem
                   Dolch</workName>« Angst zu haben scheint.</p>
             <p>Wenn Du mit <persName key="A002032">Bukovics</persName> nicht energischer bist, sage ich Dir<pb/> voraus, daß Du in dieser Saison 
         nicht mehr dran kommst.</p>
-            <p>
-                    <anchor type="commentary" xml:id="KL242-1">Rasend</anchor> war ich über <persName key="A002047">Goldmanns</persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="A020021">Feuilleton »<workName key="A020030">Einsame Menschen</workName>«</rs>. 
+            <p><anchor type="commentary" xml:id="KL242-1" >Rasend</anchor> war ich über <persName key="A002047">Goldmanns</persName><space unit="chars" quantity="1"/><rs type="work" key="A020021">Feuilleton »<workName key="A020030">Einsame Menschen</workName>«</rs>. 
         Das sollte wirklich polizeilich verboten sein.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

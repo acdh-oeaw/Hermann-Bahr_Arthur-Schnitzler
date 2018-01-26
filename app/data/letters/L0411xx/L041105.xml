@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041105">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,11 +71,8 @@
                         <idno>HS AM 60146 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »<quote>
-                                        <geogName type="lake">Lago di Garda</geogName> – <placeName key="A000666">
-                              <settlement>Riva</settlement>
-                                        </placeName> e <geogName type="mountain">Monte Baldo</geogName>
-                                    </quote>«, Olga S. in Lateinschrift, Bleistift</p>
+                        <p>eh. Ansichtskarte, Motiv: »<quote><geogName type="lake">Lago di Garda</geogName> – <placeName key="A000666">
+                              <settlement>Riva</settlement></placeName> e <geogName type="mountain">Monte Baldo</geogName></quote>«, Olga S. in Lateinschrift, Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000666">Riva</placeName>
                            <date when="19080430">30. IV. <supplied>1908</supplied>
@@ -86,8 +82,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19080429">29. 4. 1908</date>
                   <respStmt>Abschrift</respStmt>
@@ -100,58 +95,42 @@
                   <biblScope unit="pp">102</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60146Ba"/>
-     <graphic url="HS_AM60146Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60146Ba"/>
+     <graphic url="HS_AM60146Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
-               <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi>
-                    </addrLine>
+               <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine>
                <addrLine>
                   <placeName key="A000365">
                      <hi rend="latintype">Wien-Ob St Veit</hi>
-                  </placeName>
-                    </addrLine>
+                  </placeName></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <placeName key="A000420">Veitlissengasse</placeName>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Herzliche Grüße <add place="inline">und Auf Wiedersehen!</add>
-                </p>
+            <p>Herzliche Grüße <add place="inline">und Auf Wiedersehen!</add></p>
             <closer>Dein <signed>Arthur
                </signed>
             </closer>
          </div>
          <div n="2" type="writingSession">
-            <closer>
-                    <handShift scribe="A002038"/>Herzlichste Grüsse<lb/>
-                    <signed>Olga Schnitzler.</signed>
-                </closer>
+            <closer><handShift scribe="A002038"/>Herzlichste Grüsse<lb/><signed>Olga Schnitzler.</signed></closer>
             <postscript>
-               <p>
-                        <handShift scribe="A002001"/>
-                        <date when="19080429">29. 4. 08</date>
+               <p><handShift scribe="A002001"/><date when="19080429">29. 4. 08</date>
                </p>
             </postscript>
       

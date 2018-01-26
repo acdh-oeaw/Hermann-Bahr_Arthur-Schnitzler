@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041011">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -93,32 +92,23 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170502">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23328Ba"/>    </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>Lieber Hermann, </salute>es ist sehr freundlich dss du dich selbst bemüht u mir die Karte
+            <p><salute>Lieber Hermann, </salute>es ist sehr freundlich dss du dich selbst bemüht u mir die Karte
           selbst geschickt hast. Erlaube mir gleich meine Schuld abzutragen.</p>
             <closer>Mit herzlichem Dank und Gruss<lb/>dein
                <signed>ArthurSch</signed>
       </closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>26. 2. 97.</date>
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>26. 2. 97.</date>
                </p>
             </postscript>
          </div>

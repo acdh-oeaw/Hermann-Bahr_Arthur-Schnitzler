@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041593">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,11 +60,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160816">Angelegt</change>
             <change who="KI MAM" when="20160816">Kollationiert</change>
@@ -74,29 +69,15 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19220210" n="01">10.</date> K. – Sonnentag. – <anchor type="commentary" xml:id="KD593-1">
-                        <rs type="work" key="A020204">Tagebuch für
-                        19/2</rs>
-                    </anchor> (<persName key="A003242">Parazelsus</persName>; letztes Datum <date>7./2</date>) – An
-                        <persName key="A002080">Anna</persName>, <persName key="A004011">Muth</persName>, <persName key="A003880">Ludwig Hirschfeld</persName> (für <anchor type="commentary" xml:id="KD593-2">
-                        <orgName key="A080139">Mod. Welt</orgName>, 10000 Kr,
-                            <persName key="A002001">
-                            <rs type="work" key="A020115">Schnitzler</rs>
-                        </persName> zum <date>10./3</date> zusagend</anchor>). –
-                    An <persName key="A003387">Paul Stefan</persName>, D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A004228">Negwer</persName>
-                    <space unit="chars" quantity="1"/>
-                        <placeName key="A000878">
-                        <settlement>Breslau</settlement>
-                    </placeName>, <orgName key="A080006">D<damage agent="ink">
-                            <supplied>ü</supplied>
-                        </damage>rr u. Weber</orgName>,
+            <p><date when="19220210" n="01">10.</date> K. – Sonnentag. – <anchor type="commentary" xml:id="KD593-1" ><rs type="work" key="A020204">Tagebuch für
+                        19/2</rs></anchor> (<persName key="A003242">Parazelsus</persName>; letztes Datum <date>7./2</date>) – An
+                        <persName key="A002080">Anna</persName>, <persName key="A004011">Muth</persName>, <persName key="A003880">Ludwig Hirschfeld</persName> (für <anchor type="commentary" xml:id="KD593-2" ><orgName key="A080139">Mod. Welt</orgName>, 10000 Kr,
+                            <persName key="A002001"><rs type="work" key="A020115">Schnitzler</rs></persName> zum <date>10./3</date> zusagend</anchor>). –
+                    An <persName key="A003387">Paul Stefan</persName>, D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A004228">Negwer</persName><space unit="chars" quantity="1"/>
+                        <placeName key="A000878"><settlement>Breslau</settlement></placeName>, <orgName key="A080006">D<damage agent="ink"><supplied>ü</supplied></damage>rr u. Weber</orgName>,
                 <orgName key="A080004">Engelhorn</orgName>, <orgName key="A081183">Inselverlag</orgName> (Anfrage wegen
                 Kunstlehre), <persName key="A003753">Eckardt</persName> (Mahnung, das bei ihm liegende
-                    <anchor type="commentary" xml:id="KD593-3">Manuscript vom <rs type="work" key="A020165">Tagb 1921</rs>
-                    </anchor> an <orgName key="A080003">Haas u
+                    <anchor type="commentary" xml:id="KD593-3" >Manuscript vom <rs type="work" key="A020165">Tagb 1921</rs></anchor> an <orgName key="A080003">Haas u
                         Grabheer</orgName> zu schicken). – Bei Dr <persName key="A004193">Stölzl</persName> wegen
                     Steuer. – Beichte</p>
         </div>

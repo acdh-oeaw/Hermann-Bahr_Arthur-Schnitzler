@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041499">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender> 
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18911216" n="1">[16. 12. 1891]</date>
                     </dateSender>
@@ -78,11 +75,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -95,13 +88,11 @@
                     <p rend="right">Im Caffée</p>
                     <salute>Lieber Arthur!</salute>
                 </opener>
-                <p>
-                    <persName key="A002002">Hermann Bahr</persName> erzählt mir soeben: Er hat Brief von
+                <p><persName key="A002002">Hermann Bahr</persName> erzählt mir soeben: Er hat Brief von
                         <persName key="A002006">Reicher</persName>, das <workName key="A020002">Märchen</workName> ist am <placeName key="A000218">Lessingtheater</placeName>
                     angenommen; <persName key="A002166">Blumenthal</persName> ist entzückt, wird Ihnen
                     aber eine Reihe von »unbedeutenden« (?) Änderungen vorschlagen.</p>
-                <closer>Es grüßt Sie von Herzen Ihr<lb/>
-                    <signed>Richard</signed>
+                <closer>Es grüßt Sie von Herzen Ihr<lb/><signed>Richard</signed>
                     
                 </closer>
             </div>

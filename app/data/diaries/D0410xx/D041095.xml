@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041095">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,10 +65,9 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18931226" n="01">26/12</date> Nm. bei mir <persName key="A002212">Schwarzkopf</persName> (Nachfolger <persName key="A002002">Bahr</persName>’s bei der <orgName key="A080155">Dtsch.
+            <p><date when="18931226" n="01">26/12</date> Nm. bei mir <persName key="A002212">Schwarzkopf</persName> (Nachfolger <persName key="A002002">Bahr</persName>’s bei der <orgName  key="A080155">Dtsch.
           Ztg.</orgName>) <persName key="A002011">Loris</persName> (Gedichte) <persName key="A002035">Salten</persName>, <persName key="A002007">B.-Hofmann</persName>.– Abds. <persName key="A002298">Felix</persName> bei uns.</p>
-            <p>– Kfh.– Telephon <persName key="A002018">Diltsch</persName>.– Brief an sie.– Wie auch <persName key="A002002">Bahr</persName> dann <anchor type="label" xml:id="LD095-1">schrieb</anchor>, vielleicht auch an sie,
+            <p>– Kfh.– Telephon <persName key="A002018">Diltsch</persName>.– Brief an sie.– Wie auch <persName key="A002002">Bahr</persName> dann <anchor type="label" xml:id="LD095-1" >schrieb</anchor>, vielleicht auch an sie,
         komischer Effect.–</p>
          </div>
       </body> 

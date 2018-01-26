@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041619">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000368">Berlin</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000368">Berlin</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19090725" n="1">25. 7. 1909</date>
                </dateSender>
@@ -70,21 +65,15 @@
                         <idno>HS AM 16032 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote>
-                                        <placeName key="A000218">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName key="A000368">
-                              <settlement>Berlin NW. 40</settlement>
-                                        </placeName>, den ........... 190....</quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote><placeName key="A000218">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName key="A000368">
+                              <settlement>Berlin NW. 40</settlement></placeName>, den ........... 190....</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160620">Angelegt</change>
       </revisionDesc>
@@ -93,19 +82,13 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>25. 7. 09</date>
-                    </dateline>
+               <dateline rend="right"><date>25. 7. 09</date></dateline>
                <salute rend="center">Lieber Herr Bahr,</salute>
             </opener>
             <p>ich vergass, Ihnen zu sagen, dass ich die Tantieme 
-               diesmal mit 7<c rendition="#prozent"/>
-                    <space unit="chars" quantity="1"/>
-                    <unclear>verteilen</unclear> muss, 
+               diesmal mit 7<c rendition="#prozent"/><space unit="chars" quantity="1"/><unclear>verteilen</unclear> muss, 
                weil der Rest der üblichen 10, 3<c rendition="#prozent"/>, an <persName key="A002001">Schnitzl.</persName> gehen</p> 
-            <closer>Herzlichen Grüsse<lb/>Ihres<lb/>
-                    <signed>OB</signed>
-                </closer>
+            <closer>Herzlichen Grüsse<lb/>Ihres<lb/><signed>OB</signed></closer>
          </div>
       </body>
   </text>

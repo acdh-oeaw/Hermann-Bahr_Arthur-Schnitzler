@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041005">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -93,18 +92,13 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170502">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23325Ba"/> 
      <graphic url="HS_AM23325Ba_R"/>
   </facsimile>
@@ -116,7 +110,7 @@
             </opener>
             <p>herzlichen Dank für deine freundlichen Glückwünsche.</p>
             <p>Was dich interessieren wird: <anchor type="commentary" xml:id="KL005-1">
-                  <rs type="work" key="A021204">verrissen</rs> hat mich nur einer, nemlich Herr <persName key="A003919">Peschkau</persName> in den <orgName key="A080010">Berl. Neuesten Nachrichten</orgName>
+                  <rs type="work" key="A021204">verrissen</rs> hat mich nur einer, nemlich Herr <persName key="A003919">Peschkau</persName> in den <orgName  key="A080010">Berl. Neuesten Nachrichten</orgName>
                </anchor>, u weißt
           du, was er zu diesem Behufe gethan hat? einfach <hi rend="underline" n="1">wörtlich</hi> citirt (mit Anführung der Quelle), was du über mich sagst und
           daraus zwingend bewiesen, dass ich weder<pb/> ein Dramatiker noch ein Dichter
@@ -125,22 +119,15 @@
             <p>Sehr erfreulich waren mir Deine Mittheilungen über das <workName key="A020002">Märchen</workName> und <persName key="A002008">Langkammers</persName> Urtheil. Aber ich habe wieder sehr
           lebhafte Bedenken betreffs einer eventuellen Aufführung bekommen. Ich werde ja
           wohl bald Gelegenheit <supplied>haben</supplied>, sowohl mit dir als mit
-            <persName key="A002008">Langkammer</persName>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>darüber zu reden. Bis dahin beste Grüße und
+            <persName key="A002008">Langkammer</persName><pb/><space unit="chars" quantity="1"/>darüber zu reden. Bis dahin beste Grüße und
           nochmals vielen Dank.</p>
             <closer>Dein <signed>ArthSchn</signed>
       </closer>
             <postscript>
-               <p>
-                        <date>
+               <p><date>
                      <hi rend="latintype">
-                        <placeName key="A000368">
-                                    <settlement>Berlin</settlement>
-                                </placeName>
-                     </hi>
-                            <space unit="chars" quantity="1"/>
-                            <subst>
+                        <placeName key="A000368"><settlement>Berlin</settlement></placeName>
+                     </hi><space unit="chars" quantity="1"/><subst>
                         <del rend="overwritten">6</del>
                         <add place="inline">7</add>
                      </subst>. 2. 96.</date>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041421">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18930209" n="01">9. 2. 1893</date>
                     </dateSender>
@@ -77,15 +72,12 @@
                                 <p>eh. Korrespondenzkarte</p>
                                 <stamp n="1">
                                     <placeName key="A000253">Wien 3/3</placeName>
-                                    <date when="18930209">
-                                        <unclear>9</unclear>. 2. 93</date>
+                                    <date when="18930209"><unclear>9</unclear>. 2. 93</date>
                                 </stamp>
                                 <stamp n="2">
                                     <vorgang>Bestellt</vorgang>
                                     <placeName key="A000251">Wien 1/1</placeName>
-                                    <date when="18930210">
-                                        <supplied>1</supplied>0. <supplied>2. 93</supplied>
-                                    </date>
+                                    <date when="18930210"><supplied>1</supplied>0. <supplied>2. 93</supplied></date>
                                 </stamp>
                             </physDesc>
                         </msDesc>
@@ -96,7 +88,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">36</biblScope>
@@ -105,11 +97,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -119,40 +107,22 @@
         <body>
            <div type="address">
                <address>
-                   <addrLine>
-                        <hi rend="latintype">Herrn</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000613">I. Grillparzerstrasse 7</placeName>
-                        </hi>
-                    </addrLine>
+                   <addrLine><hi rend="latintype">Herrn</hi></addrLine>
+                   <addrLine><hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000250"><settlement>Wien</settlement></placeName></hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000613">I. Grillparzerstrasse 7</placeName></hi></addrLine>
                </address>
            </div>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>Donnerstag</date>
-                    </dateline>
+                    <dateline rend="right"><date>Donnerstag</date></dateline>
                     <salute>Lieber Arthur.</salute>
                 </opener>
-                <p>Sie müssen ein paar Tage Geduld haben, weil <persName key="A002002">Bahr</persName>, bevor er irgend etwas sagen kann, warten muss, bis
-                    <anchor type="commentary" xml:id="KL421-1">
-                        <persName key="A002243">Auspitzer</persName>
-                    </anchor> von einer Reise
+                <p>Sie müssen ein paar Tage Geduld haben, weil <persName key="A002002"
+                        >Bahr</persName>, bevor er irgend etwas sagen kann, warten muss, bis
+                    <anchor type="commentary" xml:id="KL421-1" ><persName key="A002243">Auspitzer</persName></anchor> von einer Reise
                     zurück kommt.</p>
-                <closer>Herzlichst<lb/>
-                    <signed>Loris.</signed>
+                <closer>Herzlichst<lb/><signed>Loris.</signed>
                     
                 </closer>
                 

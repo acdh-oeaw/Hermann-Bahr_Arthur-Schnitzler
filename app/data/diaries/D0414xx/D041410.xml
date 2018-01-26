@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041410">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20151116">angelegt und kollationiert</change>
         </revisionDesc>
@@ -92,14 +86,12 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19010328" n="01"/>
+             <p><date when="19010328" n="01"/>
                <rs key="A003128" type="person">Schreiber</rs> bezahlt für 14 Tage.</p>
             <p>–</p>
             <p>½ 6 Frau <persName key="A003129">Jellinek</persName> – <persName key="A003130">Kuh</persName>.</p>
             <p>–</p>
-            <p>
-                    <del rend="strikethrough">
+            <p ><del rend="strikethrough">
                   <persName key="A002435">Alfred Kerr</persName>
                </del>. – <del rend="strikethrough">Direktor <persName key="A002086">Mahler</persName>
                </del>. – <del rend="strikethrough">
@@ -115,26 +107,16 @@
                   <persName key="A003132">Susi Wallner</persName>. –
                         <persName key="A003133">Lenoir</persName>
                </del> – <del rend="strikethrough">
-                  <persName key="A003134" cert="low">Schneider</persName> – <persName key="A003135">Cavar</persName>
-                        <space unit="chars" quantity="1"/>
-                        <gap quantity="3" reason="illegible" unit="chars"/>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003136">Strele</persName>. – <del rend="strikethrough">
+                  <persName key="A003134" cert="low">Schneider</persName> – <persName key="A003135">Cavar</persName><space unit="chars" quantity="1"/><gap quantity="3" reason="illegible" unit="chars"/>
+               </del><space unit="chars" quantity="1"/><persName key="A003136">Strele</persName>. – <del rend="strikethrough">
                   <persName key="A003137">Haslinger</persName>
-                </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="A003138">Ritter</persName>
-                </del> – D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003776">
+                </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003138">Ritter</persName>
+                </del> – D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003776">
                   <del rend="strikethrough">Ulbing</del>
                </persName> – <del rend="strikethrough">
                   <persName key="A003140">Victor Adler</persName>
                </del> – <persName key="A002241">Richard Specht</persName>
-                – D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003141">
+                – D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003141">
                   <del rend="strikethrough">Holländer</del>
                </persName> –
                 <del rend="strikethrough">
@@ -151,23 +133,17 @@
                </del> –
                 <del rend="strikethrough">
                   <persName key="A003123">Spiegl</persName>
-               </del> – D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del> – D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A003145">Harpner</persName>
                </del> – Prof. <persName key="A003146">Schönbach</persName> –
                 <del rend="strikethrough">
                   <persName key="A002029">Karlweis</persName>
-               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="A002661">Kanner</persName>
+               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002661">Kanner</persName>
                </del> – <del rend="strikethrough">Dr <persName key="A002735">Servaes</persName>
                </del> –
                 <del rend="strikethrough">
                   <persName key="A002032">Bukovics</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">
+               </del><space unit="chars" quantity="1"/><add place="above">
                   <del rend="strikethrough">
                      <persName key="A002086">Mahler</persName>
                   </del>
@@ -184,69 +160,41 @@
                </del> – <persName key="A003150">Thaller</persName> – <add place="above">
                   <del rend="strikethrough">
                      <persName key="A002982">Ganghofer</persName>.</del>
-               </add>
-                    <pb/>
-                </p>
-                <p>
+               </add><pb/></p><p>
                <del rend="strikethrough">
                   <persName key="A002735">Servaes</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A002461">Kalbeck</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A003151">Gomperz</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A002089">Fred</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A003152">Hellmer</persName>
-               </del> | <del rend="strikethrough">D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="A003153">Pollak</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del> | <del rend="strikethrough">D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003153">Pollak</persName>
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A002461">Kalbeck</persName>
                </del>
             </p>
                 <p>–</p>
-            <p>
-                    <del rend="strikethrough">
-                  <orgName key="A080071">Reichswehr</orgName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
+                  <orgName  key="A080071">Reichswehr</orgName>
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A003155">Lipschütz</persName>
                </del> (<persName key="A003156">
                   <unclear>Kle</unclear> Wolf</persName>)</p>
-            <p>
-                    <persName key="A003157">Driesmans</persName>
+            <p><persName key="A003157">Driesmans</persName>
             </p>
                 <p>–</p>
-                <p>
-                    <persName key="A003423">Max Lorenz</persName>
+                <p><persName key="A003423">Max Lorenz</persName>
             </p>
                 <p>–</p>
-                <p>
-                    <unclear>
-                  <placeName key="A000250" cert="low">
-                            <settlement>Wien</settlement>
-                        </placeName>
-               </unclear>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003132">Wallner</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002612">Wertheimer</persName>
+                <p><unclear>
+                  <placeName key="A000250" cert="low"><settlement>Wien</settlement></placeName>
+               </unclear><space unit="chars" quantity="1"/><persName key="A003132">Wallner</persName><space unit="chars" quantity="1"/><persName key="A002612">Wertheimer</persName>
             </p>
             <p>–</p>
-            <p>
-                    <orgName key="A080153">Volksztg</orgName> sofort zwei Exemplare der <rs type="work" key="A020722">Nummer vom 22. März</rs>.</p>
+            <p><orgName  key="A080153">Volksztg</orgName> sofort zwei Exemplare der <rs type="work" key="A020722">Nummer vom 22. März</rs>.</p>
                 <p>Und heraussuchen die Nummern mit <rs type="work" key="A020721">Artikel über
                         <persName key="A003464">Zuloaga</persName>
                </rs> 2) <rs type="work" key="A020721">über

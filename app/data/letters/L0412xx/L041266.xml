@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041266">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19031216" n="1">16. 12. [1903]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., Jahreszahl »<quote>
-                                        <date>903.</date>
-                                    </quote>« von Schnitzler ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., Jahreszahl »<quote><date>903.</date></quote>« von Schnitzler ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -98,30 +87,23 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>16. 12.</date>
-                    </dateline>
+               <dateline rend="right"><date>16. 12.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Herzlichsten Dank für Dein liebes Telegramm. Und die besten Grüße von 
                   <persName key="A002065">Brahm</persName>, 
                   <persName key="A002020">Fischer</persName>
                 und allen möglichen Leuten.</p>
-            <p>Im <orgName key="A080085">Tageblatt</orgName> hatte man mir schon beinahe versprochen, den <rs type="work" key="A020018">Rek<subst>
+            <p >Im <orgName  key="A080085">Tageblatt</orgName> hatte man mir schon beinahe versprochen, den <rs type="work" key="A020018">Rek<subst>
                <del rend="overwritten">ou</del>
                <add place="inline">urs</add>
-            </subst>
-                    </rs> an 
+            </subst></rs> an 
                die <orgName key="A080041">Statthalterei</orgName> abzudrucken, dann haben sie aber vorgestern blos eine einzige Stelle abgedruckt 
-            und dies auch noch mit sehr dummen Bemerkungen. Viel gescheiter sind sie ja in <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> 
+            und dies auch noch mit sehr dummen Bemerkungen. Viel gescheiter sind sie ja in <placeName key="A000368"><settlement>Berlin</settlement></placeName> 
             auch nicht als<pb/> bei uns, sondern nur etwas anständiger.</p>
             <p>Ich hoffe Dich bald zu sehen. Mit den besten Grüßen an 
-            Deine <rs type="person" key="A002038">Frau</rs>
-                </p>
-            <closer>herzlichst<lb/>
-                    <signed>H.</signed>
+            Deine <rs type="person" key="A002038">Frau</rs></p>
+            <closer>herzlichst<lb/><signed>H.</signed>
             </closer>
          </div>
       </body>

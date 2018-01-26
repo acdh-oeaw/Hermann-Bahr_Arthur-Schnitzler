@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041604">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,11 +60,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160816">Angelegt</change>
             <change who="KI MAM" when="20160906">Kollationiert am Original</change>
@@ -74,13 +69,13 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19311027" n="01">27.</date> – K. – Schneit. Kalt. – <anchor type="commentary" xml:id="KD604-1">
-                        <rs type="work" key="A020964">Aufsatz</rs> über <persName key="A002001">Schnitzler</persName> für »<orgName key="A080963">literarische
-                        Welt</orgName>
-                    </anchor>«; geht morgen ab. – Ebenso morgen Brief an <persName key="A002839">Theodor Wolff</persName> vom <orgName key="A080085">Berliner
-                        Tageblatt</orgName>. Schneit immer fort. Um sechs in die <placeName key="A000908">Fronleichnamskapelle</placeName> zur <del rend="strikethrough">Abend<unclear>ad</unclear>
-                    </del> Abendandacht;
+            <p><date when="19311027" n="01">27.</date> – K. – Schneit. Kalt. – <anchor type="commentary" xml:id="KD604-1" ><rs type="work"
+                        key="A020964">Aufsatz</rs> über <persName
+                        key="A002001">Schnitzler</persName> für »<orgName key="A080963">literarische
+                        Welt</orgName></anchor>«; geht morgen ab. – Ebenso morgen Brief an <persName
+                        key="A002839">Theodor Wolff</persName> vom <orgName key="A080085">Berliner
+                        Tageblatt</orgName>. Schneit immer fort. Um sechs in die <placeName
+                        key="A000908">Fronleichnamskapelle</placeName> zur <del rend="strikethrough">Abend<unclear>ad</unclear></del> Abendandacht;
                     schmerzhafter Rosenkranz; dann Lauretanische Litanei.</p>
         </div>
       </body>

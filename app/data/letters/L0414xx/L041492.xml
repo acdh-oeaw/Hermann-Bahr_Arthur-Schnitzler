@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041492">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                   <placeName key="A000616">Bad Aussee</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19040820" n="01">20. 8. 1904</date> 
                     </dateSender>
@@ -84,11 +81,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -97,25 +90,20 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Ich fahre fast sicher Donnerstag den 25ten mit den <rs type="person" key="A003032 A003067">Kindern</rs> auf
                     ein paar Tage nach <placeName key="A000373">Rodaun</placeName> um die Kinder zu installieren
                     und gedenke hauptsächlich die Zeit dazu zu benützen um mit Ihnen wieder einmal
                     Pläne für die nächste Zeit zu machen Sie müssen aber auch brav und nachgiebig
                     sein! </p>
-            <p>Also: ich möchte mit den <persName key="A002001 A002038">Schnitzler’s</persName>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">(die auch <anchor type="commentary" xml:id="KL492-1">
-                            <rs type="place" key="A000616">hierher</rs>
-                        </anchor> wollen)</add> wieder hierher zurück reisen in die Gegend
-                    am liebsten möchten wir an den <geogName type="lake" key="A000812">Wolfgangsee</geogName>. Wie wär’s wenn Sie da <anchor type="commentary" xml:id="KL492-2">mitthun</anchor>
+            <p>Also: ich möchte mit den <persName key="A002001 A002038"
+                        >Schnitzler’s</persName><space unit="chars" quantity="1"/><add place="above"
+                        >(die auch <anchor type="commentary" xml:id="KL492-1" ><rs type="place" key="A000616">hierher</rs></anchor> wollen)</add> wieder hierher zurück reisen in die Gegend
+                    am liebsten möchten wir an den <geogName type="lake" key="A000812"
+                        >Wolfgangsee</geogName>. Wie wär’s wenn Sie da <anchor type="commentary" xml:id="KL492-2" >mitthun</anchor>
                         thäten<supplied>?</supplied>
                 </p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

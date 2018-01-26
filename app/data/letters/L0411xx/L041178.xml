@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041178">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>--&gt;
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>-->
                <dateSender>
                   <date when="18951004" n="02">[4. 10. 1895]</date>
                </dateSender>
@@ -70,24 +65,17 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote>
-                                        <date>
-                                            <subst>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote><date><subst>
                               <del rend="overwritten">5</del>
                               <add place="inline">4</add>
-                           </subst>/10 95</date>
-                                    </quote>«.</p>
+                           </subst>/10 95</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -107,9 +95,7 @@
                   <rs type="work" key="A020049" subtype="local-short">Manuscript</rs>
                 Sonntag von 9 Uhr bis 12 Uhr zu haben. Oder morgen Samstag nach dem
           Theater für die Nacht, wo Du es Sonntag früh zurück hättest.</p>
-            <closer>Herzlich dankend<lb/>Dein<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+            <closer>Herzlich dankend<lb/>Dein<lb/><signed>Bahr</signed></closer>
          </div>
       </body>
   </text>

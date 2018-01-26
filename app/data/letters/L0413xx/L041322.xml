@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041322">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A001187">Lindau</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19081110" n="01">10. 11. 1908</date>
                </dateSender>
@@ -70,9 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                                        <placeName key="A000335">Lindau i. B. / Partie im Hafen mit Bayrischen Hof</placeName> und <placeName key="A000885">alten Leuchtturm</placeName>
-                                    </quote>«, Bleistift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><placeName key="A000335">Lindau i. B. / Partie im Hafen mit Bayrischen Hof</placeName> und <placeName key="A000885">alten Leuchtturm</placeName></quote>«, Bleistift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001054">Lind. K. B. Bahnhof</placeName>
                            <date when="19081110">10 Nov. 08</date>
@@ -83,11 +78,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -104,35 +95,22 @@
             <address>
                <addrLine>Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>10. 11.</date>
-                    </dateline>
+               <dateline rend="right"><date>10. 11.</date></dateline>
             </opener>
             <p>Ich habe Dich am <date>5.</date> in <placeName key="A000532">
-                  <settlement>Frankfurt</settlement>
-                    </placeName> und 
-        gestern <anchor type="commentary" xml:id="KL322-1">in <placeName key="A000685">
-                            <settlement>Zürich</settlement>
-                        </placeName>
-                    </anchor> besungen, <add place="above">über</add>morgen 
-        wirst Dus auch noch nicht in <placeName key="A001082">
-                        <settlement>Mannheim</settlement>
-                    </placeName>. Verschaff 
-        Dir das letzte Heft des »<orgName key="A080134">Morgen</orgName>«, wo 
+                  <settlement>Frankfurt</settlement></placeName> und 
+        gestern <anchor type="commentary" xml:id="KL322-1" >in <placeName key="A000685"><settlement>Zürich</settlement></placeName></anchor> besungen, <add place="above">über</add>morgen 
+        wirst Dus auch noch nicht in <placeName key="A001082"><settlement>Mannheim</settlement></placeName>. Verschaff 
+        Dir das letzte Heft des »<orgName  key="A080134">Morgen</orgName>«, wo 
         ich <rs type="work" key="A020135">einiges</rs> zum »<workName key="A020052">Weg ins Freie</workName>« gesagt habe.</p>
-            <closer>Mit vielen Grüßen an Deine liebe <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit vielen Grüßen an Deine liebe <rs type="person" key="A002038">Frau</rs><lb/>herzlichst<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041062">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19030328" n="01">28. 3. 1903</date>
                </dateSender>
@@ -75,8 +70,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19030928">28. 9. 1903</date>
                   
@@ -89,15 +83,10 @@
                   <biblScope unit="pp">80</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
@@ -111,9 +100,8 @@
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>lieber Hermann, </salute>in etwa 8 Tagen erscheint im 
-        <orgName key="A080415">Wiener Verlag</orgName> der »<workName key="A020018">Reigen</workName>«. Ich weiss nicht ob du
+            <p><salute>lieber Hermann, </salute>in etwa 8 Tagen erscheint im 
+        <orgName  key="A080415">Wiener Verlag</orgName> der »<workName key="A020018">Reigen</workName>«. Ich weiss nicht ob du
           Lust hast drüber zu schreiben. Falls du aber daran denken solltest, wäre es mir
           natürlich besonders lieb, wenn deine Ansicht über das Buch <del rend="strikethrough">schon</del> 
         mit dem Buch zugleich oder gleich nach ihm in die Welt käme, –
@@ -121,17 +109,15 @@
             <p>Das wollt ich dir schon neulich sagen dich aber auch bitten, diese ganze
           Bemerkung als ungesagt oder ungehört zu betrachten, wenn es dich nicht 
         <hi rend="underline" n="1">freut</hi>, dich über <rs type="work" key="A020018">die zehn Dialoge</rs> vernehmen zu lassen.</p>
-            <closer>Ich grüße dich von Herzen als<lb/>dein getreuer<lb/>
-                    <signed>Arthur</signed>
+            <closer>Ich grüße dich von Herzen als<lb/>dein getreuer<lb/><signed>Arthur</signed>
       </closer>
             <postscript>
-               <p>
-                        <date>28.
-         <anchor type="textConst" xml:id="TL062-1">
-                                <unclear>3</unclear>.</anchor> 903.</date>
+               <p><date>28.
+         <anchor type="textConst" xml:id="TL062-1" ><unclear>3</unclear>.</anchor> 903.</date>
                </p>
             </postscript>
          </div>
       </body>
   </text>
-</TEI><!-- Datum gesichert durch Veröffentlichung Reigen, TB AS, 2. April 1903 -->
+</TEI>
+<!-- Datum gesichert durch Veröffentlichung Reigen, TB AS, 2. April 1903 -->

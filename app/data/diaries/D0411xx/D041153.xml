@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041153">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,15 +69,10 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18951001" n="1">1/10</date> Im »<orgName key="A080315">Magazin</orgName>«
-               stand neulich ein <anchor type="commentary" xml:id="KD153-1">
-                        <rs type="work" key="A020414">Artikel</rs> von <persName key="A002271">Poppenberg</persName>
-                    </anchor> über <persName key="A002002">Bahr</persName>, in dem er u. a. sagt: Darum hat er auch die jungen
+            <p><date when="18951001" n="1">1/10</date> Im »<orgName key="A080315">Magazin</orgName>«
+               stand neulich ein <anchor type="commentary" xml:id="KD153-1" ><rs type="work" key="A020414">Artikel</rs> von <persName key="A002271">Poppenberg</persName></anchor> über <persName key="A002002">Bahr</persName>, in dem er u. a. sagt: Darum hat er auch die jungen
             <placeName key="A000250">Wiener</placeName> lieb, die Schn., <persName key="A002011">Loris</persName>, <persName key="A002042">Andrian</persName>, die eigentlich nicht viel
-          können, aber (folgte Lob) – Ein <anchor type="commentary" xml:id="KD153-2">
-                        <rs type="work" key="A020683">Theaterbrief</rs>
-                    </anchor> von <persName key="A002213">J. J.
+          können, aber (folgte Lob) – Ein <anchor type="commentary" xml:id="KD153-2" ><rs type="work" key="A020683">Theaterbrief</rs></anchor> von <persName key="A002213">J. J.
             David</persName>, wo er von der zu erwartenden <workName key="A020049">Liebelei</workName> spricht und sagt: sicher das Werk eines klugen, seiner Mittel
           sichern, spürenden Mannes. Ihm ist überdies eine glänzende Besetzung zugebilligt
           worden.–</p>

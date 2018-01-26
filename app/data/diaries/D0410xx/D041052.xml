@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041052">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,19 +65,14 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19091113" n="01">13/11</date> Mit <persName key="A002065">Brahm</persName>
-                    <space unit="chars" quantity="1"/>
-                    <geogName type="path">Wasserleitungsweg</geogName>.–</p>
+            <p><date when="19091113" n="01">13/11</date> Mit <persName key="A002065">Brahm</persName><space unit="chars" quantity="1"/><geogName type="path">Wasserleitungsweg</geogName>.–</p>
       
             <p>Verleger resp. Agent <persName key="A002369">Norbert Salter</persName>, <persName key="A002272">Dohnanyi</persName> Vertreter 
       stellt sich vor und bespricht etliches.</p>      
-            <p>Nm. mit <persName key="A002065">Brahm</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000282">Doppelreiterkogel</placeName>. Wunderbare Dämmerbeleuchtung.– </p>      
+            <p>Nm. mit <persName key="A002065">Brahm</persName><space unit="chars" quantity="1"/><placeName key="A000282">Doppelreiterkogel</placeName>. Wunderbare Dämmerbeleuchtung.– </p>      
             <p>Einfälle zum »<workName key="A020240">Abenteurer</workName>«.</p>      
             <p>Dr. <persName key="A002370">Glaser</persName>, kaum bekannt; prätentiös albern über <persName key="A002002">Bahr</persName>.</p>      
-            <p output="true">Mit <persName key="A002065">Brahm</persName> ein Gespräch über die 1.000 Mark Garantie
+            <p >Mit <persName key="A002065">Brahm</persName> ein Gespräch über die 1.000 Mark Garantie
         für <workName key="A020056">C. Mizi</workName>, die er mir ein bißchen nachträgt; ich versuch ihm
         sein Unrecht zu erklären: »Sie hätten sie mir sogar selber antragen müssen, in
         Anbetracht des so unsicheren Stücks (<workName key="A020057">Concert</workName>) das

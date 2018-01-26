@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041635">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -79,11 +78,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160712">Angelegt</change>
             <change who="KI MAM" when="20160908">Kollationiert am Original</change>
@@ -93,9 +88,7 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>24. 8. 04</date>
-                    </dateline>
+                    <dateline rend="right"><date>24. 8. 04</date></dateline>
                     <salute rend="center">Lieber Freund!</salute>
                     </opener>
                 <p>Ich danke Ihnen sehr für Ihren lieben Brief, der mir sehr wichtig war. Sie
@@ -106,9 +99,7 @@
                     dem: »Ich will ein stilles Gebet verrichten« und »daß sie lebt <c rendition="#dots" n="3" place="center"/> lebt, alter
                         Mann« und eigentlich so gar aus dieser Situation des
                     letzten Aktes heraus ist <subst>
-                        <del rend="overwritten">
-                            <unclear>das</unclear>
-                        </del>
+                        <del rend="overwritten"><unclear>das</unclear></del>
                         <add place="inline">alles</add>
                     </subst> entstanden. Mit dem dritten Akt haben Sie recht:
                     ich schrieb neulich erst an <persName key="A002078">Reinhardt</persName>, daß er schlecht ist,
@@ -120,46 +111,27 @@
                         <persName key="A002064">Trebitsch</persName> bin.</p>
                 <p>Über alles andere morgen. Nur um sie zu amusieren, die Urteile, die bisher
                     vorliegen:</p>
-                <p rend="inline">
-                    <anchor type="commentary" xml:id="KL635-2">
-                        <persName key="A002055">Schlenther</persName>
-                    </anchor>: Mein bestes Stück.</p>
-                <p rend="inline">
-                    <anchor type="commentary" xml:id="KL635-3">
-                        <persName key="A002000">Burckhard</persName>
-                    </anchor>: Entweder ein ganz großer Erfolg oder ein
+                <p rend="inline"><anchor type="commentary" xml:id="KL635-2" ><persName key="A002055">Schlenther</persName></anchor>: Mein bestes Stück.</p>
+                <p rend="inline"><anchor type="commentary" xml:id="KL635-3" ><persName key="A002000">Burckhard</persName></anchor>: Entweder ein ganz großer Erfolg oder ein
                     Durchfall mit Skandal. <unclear>Ihm</unclear> gefällt es. (Was nichts beweist, da ihm natürlich die
                     Tendenz sehr nahe geht)</p>
-                <p rend="inline">
-                    <anchor type="commentary" xml:id="KL635-4">
-                        <persName key="A002065">Brahm</persName>
-                    </anchor>: Kühl, die Technik anerkennend, ohne wirklichen
-                    Eindruck zu haben.<pb/>
-                </p>
-                <p rend="inline">
-                    <anchor type="commentary" xml:id="KL635-5">
-                        <persName key="A002078">Reinhardt</persName>
-                    </anchor>: Verrückt enthusiastisch, besonders für den
+                <p rend="inline"><anchor type="commentary" xml:id="KL635-4" ><persName key="A002065">Brahm</persName></anchor>: Kühl, die Technik anerkennend, ohne wirklichen
+                    Eindruck zu haben.<pb/></p>
+                <p rend="inline"><anchor type="commentary" xml:id="KL635-5" ><persName key="A002078">Reinhardt</persName></anchor>: Verrückt enthusiastisch, besonders für den
                     letzten Akt.</p>
-                <p rend="inline">
-                    <persName key="A002229">Holländer</persName>: Mein bestes Stück, weit über
+                <p rend="inline"><persName key="A002229">Holländer</persName>: Mein bestes Stück, weit über
                         <workName key="A020082">Meister</workName>, auch an der gesammten deutschen Production von
                     heute gemessen sehr hoch. Aber Bedenken gegen den letzten Akt.</p>
-                <p rend="inline">
-                    <anchor type="commentary" xml:id="KL635-1">
-                        <persName key="A002011">Hugo</persName>: weiß damit gar nichts anzufangen</anchor> (was nichts beweist,
+                <p rend="inline"><anchor type="commentary" xml:id="KL635-1" ><persName key="A002011">Hugo</persName>: weiß damit gar nichts anzufangen</anchor> (was nichts beweist,
                     weil er mir wörtlich dasselbe einmal über »<workName key="A020743">Wenn wir Toten
                         erwachen</workName>« gesagt hat.)</p>
-                <p>
-                    <hyphenation alt="\enlargethispage{2\baselineskip}"/>Möchten Sie das Exemplar gelegentlich <persName key="A002001">Arthur</persName> geben? Ich
+                <p>Möchten Sie das Exemplar gelegentlich <persName key="A002001">Arthur</persName> geben? Ich
                     hätte gern, daß er es liest, und habe vorderhand Not an Abzügen. Sie kriegen
                     dann erst ein ordentliches Buch.</p>
                 <p>Aber mit dem Dichter haben Sie unrecht. Ich bin wirklich keiner. Ganz ernsthaft
                     und ohne jede »Bescheidenheit«, die da zu dumm wäre. Aber<pb/> dies mündlich. Grüßen Sie Ihre
                 liebe <rs type="person" key="A002375">Frau</rs> und die <rs type="person" key="A002637 A002426">Kinder</rs> herzlichst.</p>
-                <closer>In Eile<lb/>Ihr<lb/>
-                    <signed>B.</signed>
-                </closer>
+                <closer>In Eile<lb/>Ihr<lb/><signed>B.</signed></closer>
                
             </div>
         </body>

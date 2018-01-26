@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041344">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19180924" n="01">24. 9. 1918</date>
                </dateSender>
@@ -70,21 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Prägestempel statt eines gedruckten Kopfes: »<quote>
-                                        <placeName key="A000214">k. k. Hofburgtheater</placeName> / Direction</quote>«, Lateinschrift. Von Schnitzler hs. ergänzt »<quote>Bahr,</quote>« und Vermerk »<quote>
-                                        <hi rend="latintype">A</hi>
-                                    </quote>«, <ptr target="LbesonderheitA"/>.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Prägestempel statt eines gedruckten Kopfes: »<quote><placeName key="A000214">k. k. Hofburgtheater</placeName> / Direction</quote>«, Lateinschrift. Von Schnitzler hs. ergänzt »<quote>Bahr,</quote>« und Vermerk »<quote><hi rend="latintype">A</hi></quote>«, <ptr target="LbesonderheitA"/>.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151217">Kollationiert</change>
          <change who="KI MAM" when="20170531">Kollationiert</change>
@@ -100,14 +90,11 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>24. Sept.
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>24. Sept.
             1918</date>.</dateline>
                <salute>Sehr geehrter Herr Doktor,</salute>
             </opener>
-            <p>
-                    <persName key="A002002">Hermann Bahr</persName> hat mich gebeten, Ihnen zu sagen, daß ein
+            <p><persName key="A002002">Hermann Bahr</persName> hat mich gebeten, Ihnen zu sagen, daß ein
           Beschluss vorliegt, die Generalproben vorläufig nicht mehr öffentlich abzuhalten und nur
           die Vertreter der <placeName key="A000250">Wiener</placeName> Tagespresse und Mitglieder
           des Hauses einzulassen. Es ist ihm sehr schmerzlich, daß er infolge der Verreisung des
@@ -118,8 +105,7 @@
           ganz seinen Wünschen entspricht und es ihm natürlich sehr lieb <add place="above">und
             wertvoll</add> wäre, Arthur Schnitzler dabei zu wissen, soll ich Ihnen, sehr geehrter
           Herr Dr., noch ganz besonders sagen.</p>
-            <closer>In größter Hochachtung<lb/>ergebenst<lb/>
-                    <signed>ErhardBuschbeck</signed>
+            <closer>In größter Hochachtung<lb/>ergebenst<lb/><signed>ErhardBuschbeck</signed>
       </closer>
          </div>
       </body>

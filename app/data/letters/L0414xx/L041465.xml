@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041465">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
                         <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18911222" n="01">[22. 12. 1891]</date>
@@ -81,11 +78,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -98,16 +91,13 @@
                     
                     <salute>Lieber Loris,</salute>
                 </opener>
-                <p>
-                    <persName key="A002014">Bératon</persName> liest uns sein Stück vor – er möchte aber durchaus
+                <p><persName key="A002014">Bératon</persName> liest uns sein Stück vor – er möchte aber durchaus
                     morgen (zu den Festtagen kann er nicht u. das Ding soll baldigst zu
                         <persName key="A002006">Reicher</persName>). <persName key="A002001">Schnitzler</persName> ist bereit
                     für morgen Abends 6 Uhr bei ihm. Die anderen <rs type="person" key="A002035 A002007">zwei</rs> können wol
                     immer. Handelt sich also bloß um Sie. Bitte, sagen Sie durch diesen Dienstmann
                     Antwort, da ich <persName key="A002014">Ferry</persName> verständigen muß.</p>
-                <closer>Ihr treuer<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+                <closer>Ihr treuer<lb/><signed>Bahr</signed></closer>
             </div>
         </body>
     </text>

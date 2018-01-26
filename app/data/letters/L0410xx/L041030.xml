@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041030">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19001001">1. 10. 1900</date>
                   <respStmt>Abschrift</respStmt>
@@ -89,52 +87,37 @@
                   <biblScope unit="pp">66–67</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60152Ba"/>
-     <graphic url="HS_AM60152Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60152Ba"/>
+     <graphic url="HS_AM60152Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>Lieber Hermann, </salute>ich danke dir vielmals für den »<anchor type="commentary" xml:id="KL030-1">
-                        <workName key="A020016">Franzl</workName>
-                    </anchor>«, den ich mir auf einen
+            <p><salute>Lieber Hermann, </salute>ich danke dir vielmals für den »<anchor type="commentary" xml:id="KL030-1" ><workName key="A020016">Franzl</workName></anchor>«, den ich mir auf einen
           kurzen Landaufenthalt mitnehme, um ihn mit Muße u Vergnügen zu lesen. Ich will
           dich gleich was fragen. Im Sommer hab ich eine mäßig<pb/> lange <rs type="work" key="A020017" subtype="local-short">Geschichte</rs> geschrieben, 
         die sich ausnehmend zum Vorlesen eignet, und die niemand besser
-        vorlesen könnte als du. Bevor ich dir das <hi rend="latintype">
-                        <rs type="work" key="A020017">Mscrpt</rs>
-                    </hi> schicke (<hi rend="latintype">typewritten</hi>) möchte
+        vorlesen könnte als du. Bevor ich dir das <hi rend="latintype"><rs type="work" key="A020017">Mscrpt</rs></hi> schicke (<hi rend="latintype">typewritten</hi>) möchte
                ich nur dein <hi rend="underline" n="1">principielles</hi> Einverständnis haben. Herzlichen Gruß. Dein <signed>Arthur
-                  Schnitzler</signed>
-                </p>
+                  Schnitzler</signed></p>
             
       
             <postscript>
-               <p>
-                        <date>
-                     <damage agent="hole">
-                                <supplied>1</supplied>
-                            </damage>1. 10.
+               <p><date>
+                     <damage agent="hole"><supplied>1</supplied></damage>1. 10.
          900.</date>
                </p>
             </postscript>
          </div>
       </body>
   </text>
-</TEI><!-- Datum ergibt sich aus dem folgenden Brief vom 12. 10. -->
+</TEI>
+<!-- Datum ergibt sich aus dem folgenden Brief vom 12. 10. -->

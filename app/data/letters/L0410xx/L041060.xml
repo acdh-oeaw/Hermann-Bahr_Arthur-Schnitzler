@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041060">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19030719" n="01">19. 7. 1903</date>
                </dateSender>
@@ -70,9 +65,7 @@
                         <idno>FS PK277797 alt</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Foto <persName key="A002181">Aura Hertwig</persName>, <placeName key="A000368">
-                                        <settlement>Berlin</settlement>
-                                    </placeName> 1903,
+                        <p>Foto <persName key="A002181">Aura Hertwig</persName>, <placeName key="A000368"><settlement>Berlin</settlement></placeName> 1903,
                            Passepartoutreste</p>
                      </physDesc>
                   </msDesc>
@@ -80,11 +73,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
@@ -103,15 +92,10 @@
             </figure>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <pb/>Erinner dich, wie oft du schon alt warst, und freu dich, wie oft du
+            <p><pb/>Erinner dich, wie oft du schon alt warst, und freu dich, wie oft du
           noch jung sein wirst!</p>
-            <p>
-                    <anchor type="commentary" xml:id="KL060-1">Zum <date>19. Juli 1903</date>
-                    </anchor>
-                    <lb/>meinem lieben Hermann</p>
-            <closer>
-                    <signed>Arthur Schn</signed>
+            <p><anchor type="commentary" xml:id="KL060-1" >Zum <date>19. Juli 1903</date></anchor><lb/>meinem lieben Hermann</p>
+            <closer><signed>Arthur Schn</signed>
             </closer>
          </div>
       </body>

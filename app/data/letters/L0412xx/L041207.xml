@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041207">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000368">[Berlin]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>
                <dateSender>
                   <date when="18970320" n="01">20. 3. 1897</date>
                </dateSender>
@@ -78,11 +75,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160303">Angelegt</change>
          <change who="KI MAM" when="20160406">Kollationiert</change>
@@ -93,32 +86,21 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>20. März 7</date>
-                    </dateline>
+               <dateline rend="right"><date>20. März 7</date></dateline>
                <salute rend="center">Lieber Fischer!</salute>
             </opener>
-            <p>
-                    <hyphenation alt="\reversemarginpar\marginnote{\tiny{5}}[2.25\baselineskip]\marginnote{\tiny{10}}[7.4\baselineskip]\marginnote{\tiny{15}}[12.4\baselineskip]\marginnote{\tiny{20}}[17.5\baselineskip]\marginnote{\tiny{25}}[22.5\baselineskip]"/>Ich habe heute <anchor type="commentary" xml:id="KL207-1">
-                        <rs type="work" key="A021041">verschickt</rs>
-                    </anchor>:</p>
-            <p>
-                    <table cols="2" rend="group">
+            <p>Ich habe heute <anchor type="commentary" xml:id="KL207-1" ><rs type="work" key="A021041">verschickt</rs></anchor>:</p>
+            <p><table cols="2" rend="group">
                <row>
                   <cell>
                      <table cols="2" rows="4">
                      <row>
                      <cell>1)</cell>
-                     <cell>D<hi rend="superscript">r</hi>
-                                            <space unit="chars" quantity="1"/>
-                                            <persName key="A002588">Eduard Bacher</persName>
-                                        </cell>
+                     <cell>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002588">Eduard Bacher</persName></cell>
                   </row>
                      <row>
                         <cell>2)</cell>
-                        <cell>D<hi rend="superscript">r</hi>
-                                            <space unit="chars" quantity="1"/>
-                                            <persName key="A002170">Theodor Herzl</persName>
+                        <cell>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002170">Theodor Herzl</persName>
                         </cell>
                      </row>
                      <row>
@@ -129,16 +111,12 @@
                      </row>
                      <row>
                         <cell>4)</cell>
-                        <cell>D<hi rend="superscript">r</hi>
-                                            <space unit="chars" quantity="1"/>
-                                            <persName key="A003844">Moriz Necker</persName>
+                        <cell>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003844">Moriz Necker</persName>
                         </cell>
                      </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A080099">Neue Freie Presse</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A080099">Neue Freie Presse</orgName></cell>
                </row>
                <row>
                   <cell>
@@ -149,7 +127,7 @@
                                  <persName key="A003334">Hans Koppel</persName>
                               </cell>
                         </row>
-                        <row>
+                        <row >
                            <cell>6)</cell>
                            <cell>
                               <persName key="A003211">Marco Brociner</persName>
@@ -157,23 +135,17 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <persName key="A003853">Sceps</persName>’sches <orgName key="A080148">Tagblatt</orgName>
-                            </cell>
+                  <cell role="label"><persName key="A003853">Sceps</persName>’sches <orgName  key="A080148">Tagblatt</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="1">
-                        <row>
-                                        <cell>7)</cell>
-                        <cell>
-                                            <persName key="A002067">Wilhelm Singer</persName>
-                        </cell>
-                                    </row>
+                        <row><cell>7)</cell>
+                        <cell><persName key="A002067">Wilhelm Singer</persName>
+                        </cell></row>
                      </table>
                   </cell>
-                  <cell role="label"> <orgName key="A080148">Neues Wiener Tagblatt</orgName>
-                            </cell>
+                  <cell role="label"> <orgName  key="A080148">Neues Wiener Tagblatt</orgName></cell>
                </row>
                <row>
                   <cell>
@@ -192,14 +164,12 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A080271">Fremdenblatt</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A080271">Fremdenblatt</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="1">
-                        <row>
+                        <row  >
                            <cell>10)</cell>
                            <cell>
                               <persName key="A003845">Moriz Baumfeld</persName>
@@ -207,14 +177,12 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A081043">Extrapost</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A081043">Extrapost</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="1">
-                        <row>
+                        <row >
                            <cell>11)</cell>
                            <cell>
                               <persName key="A002014">Ferry Beraton</persName>
@@ -222,9 +190,7 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A081044">Vornehme Welt</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A081044">Vornehme Welt</orgName></cell>
                </row>
                <row>
                   <cell>
@@ -237,10 +203,7 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A080080">Neues W<hi rend="superscript">r</hi> Journal</orgName>
-                                <pb/>
-                            </cell>
+                  <cell role="label"><orgName  key="A080080">Neues W<hi rend="superscript">r</hi> Journal</orgName><pb/></cell>
                </row>
                <row>
                   <cell>
@@ -253,37 +216,29 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A081045">Extrablatt</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A081045">Extrablatt</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="1">
                         <row>
                            <cell>14)</cell>
-                           <cell>D<hi rend="superscript">r</hi>
-                                            <space unit="chars" quantity="1"/>
-                                            <persName key="A002503">Anton Bettelheim</persName>
+                           <cell>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002503">Anton Bettelheim</persName>
                            </cell>
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A081046">Münchner Allgemeine</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A081046">Münchner Allgemeine</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="2">
                         <row>
                            <cell>15)</cell>
-                           <cell>D<hi rend="superscript">r</hi>
-                                            <space unit="chars" quantity="1"/>
-                                            <persName key="A003846">Emil Ertl</persName>
+                           <cell>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003846">Emil Ertl</persName>
                            </cell>
                         </row>
-                        <row>
+                        <row >
                            <cell>16)</cell>
                            <cell>
                               <persName key="A003847">Hermann Ubell</persName>
@@ -291,9 +246,7 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A080762">Grazer Tagespost</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A080762">Grazer Tagespost</orgName></cell>
                </row>
                <row>
                   <cell>
@@ -310,7 +263,7 @@
                <row>
                   <cell>
                      <table cols="2" rows="1">
-                        <row>
+                        <row >
                            <cell>18)</cell>
                            <cell>
                               <persName key="A002030">Vincenz Chiavacci</persName>
@@ -318,29 +271,25 @@
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A081048">Wiener Bilder</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A081048">Wiener Bilder</orgName></cell>
                </row>
                <row>
                   <cell>
                      <table cols="2" rows="2">
-                        <row>
+                        <row >
                            <cell>19)</cell>
                            <cell>
                               <persName key="A002661">Heinrich Kanner</persName>
                            </cell>
                         </row>
-                        <row>
+                        <row  >
                            <cell>20)</cell>
                            <cell>Professor <persName key="A002607">Singer</persName>
                            </cell>
                         </row>
                      </table>
                   </cell>
-                  <cell role="label">
-                                <orgName key="A080011">Zeit</orgName>
-                            </cell>
+                  <cell role="label"><orgName  key="A080011">Zeit</orgName></cell>
                </row>
                <row>
                   <cell>
@@ -358,7 +307,7 @@
                <row>
                   <cell>
                      <table cols="2" rows="1">
-                        <row>
+                        <row >
                            <cell>22)</cell>
                            <cell>
                               <persName key="A002029">C. Karlweis</persName>
@@ -370,9 +319,7 @@
                </row>
             </table>
             </p>
-            <p rend="center">
-                    <hyphenation alt="\advanceline{22}"/>
-                    <hi rend="overline">2<subst>
+            <p rend="center"><hi rend="overline">2<subst>
                               <del rend="overwritten">1</del>
                               <add place="inline">2</add>
                            </subst> Exemplare bisher verschickt.</hi>
@@ -384,23 +331,16 @@
               Sc<unclear>v</unclear>epanski</persName> (für die <placeName key="A000514">polnische</placeName> Presse) 6) u 7) <persName key="A002009">Machar</persName> und
             <persName key="A003848">Krejci</persName> (für die <placeName key="A000829">böhmische</placeName> Presse) 8) <persName key="A003106">Otto Julius
             Bierbaum</persName> 9) <persName key="A002285">Otto Stößl</persName> 10) <persName key="A002611">Max Messer</persName> 11) <persName key="A003849">Franz
-               Weislein</persName>
-                    <pb/>
-              12) <orgName key="A080761">Linzer Tagespost</orgName> 13) <orgName key="A080763">Salzburger Volksblatt</orgName> 14) <orgName key="A081050">Freie Schlesische
-            Presse</orgName> 15) <persName key="A002376">Hugo Ganz</persName> (<orgName key="A081056">Neues Pester Journal</orgName>) 16) <orgName key="A081051">Brünner
-            Tagesbote</orgName> 17) <orgName key="A081052">Brünner Sonntagszeitung</orgName> 18)
-            <orgName key="A080072">Pester Lloyd</orgName> 19) Prof. <persName key="A003850">Minor</persName>. Ferner will ich an jedem Theater einem Schauspieler ein Exemplar
+               Weislein</persName><pb/>
+              12) <orgName  key="A080761">Linzer Tagespost</orgName> 13) <orgName  key="A080763">Salzburger Volksblatt</orgName> 14) <orgName  key="A081050">Freie Schlesische
+            Presse</orgName> 15) <persName key="A002376">Hugo Ganz</persName> (<orgName  key="A081056">Neues Pester Journal</orgName>) 16) <orgName  key="A081051">Brünner
+            Tagesbote</orgName> 17) <orgName  key="A081052">Brünner Sonntagszeitung</orgName> 18)
+            <orgName  key="A080072">Pester Lloyd</orgName> 19) Prof. <persName key="A003850">Minor</persName>. Ferner will ich an jedem Theater einem Schauspieler ein Exemplar
           geben, damit der »Tratsch« los geht. Schicken Sie mir also <hi rend="underline" n="2">sofort</hi> noch 
-               30 Exemplare und fügen Sie in dem Paket auch einige Exemplare von <anchor type="commentary" xml:id="KL207-3">
-                        <workName key="A021035">Caph</workName>
-                    </anchor> u. <anchor type="commentary" xml:id="KL207-4">
-                        <workName key="A021036">Dora</workName>
-                    </anchor> bei, die auch<pb/> alle
+               30&#160;Exemplare und fügen Sie in dem Paket auch einige Exemplare von <anchor type="commentary" xml:id="KL207-3" ><workName key="A021035">Caph</workName></anchor> u. <anchor type="commentary" xml:id="KL207-4" ><workName key="A021036">Dora</workName></anchor> bei, die auch<pb/> alle
           Augenblicke von Journalisten verlangt werden. Ich hoffe, diesmal machen wir ein Geschäft.</p>
-            <p>Und beantworten Sie meine <anchor type="commentary" xml:id="KL207-2">Frage wegen der »<workName key="A021037">guten Schule</workName>.«</anchor>
-                </p>
-            <closer>Herzlichst<lb/>Ihr<lb/>
-                    <signed>Hermann Bahr</signed>
+            <p>Und beantworten Sie meine <anchor type="commentary" xml:id="KL207-2" >Frage wegen der »<workName key="A021037">guten Schule</workName>.«</anchor></p>
+            <closer>Herzlichst<lb/>Ihr<lb/><signed>Hermann Bahr</signed>
         </closer>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041021">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="18981114">14. 11. 1898</date>
                </analytic>
@@ -88,15 +86,10 @@
                   <biblScope unit="pp">64</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170503">Kollationiert</change>
@@ -113,18 +106,11 @@
                <salute>Lieber Freund,</salute>
             </opener>
             <p>ich beglückwünsche dich von Herzen zu deinem großen <anchor type="commentary" xml:id="KL021-1">Erfolg</anchor> in
-            <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>, <unclear>und</unclear> grüße dich vielmals </p>
+            <placeName key="A000368"><settlement>Berlin</settlement></placeName>, <unclear>und</unclear> grüße dich vielmals </p>
             <closer>dein <signed>Arthur Schnitzler</signed>
       </closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date when="18981113">13. 11.
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date when="18981113">13. 11.
          98.</date>
                </p>
             </postscript>

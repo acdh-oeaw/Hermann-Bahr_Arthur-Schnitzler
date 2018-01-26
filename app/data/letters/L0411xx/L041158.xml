@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041158">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18930812" n="01">[12. 8. 1893]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 3 S., von Schnitzler datiert: »<quote>
-                                        <date>Mitte Aug 93</date>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 3 S., von Schnitzler datiert: »<quote><date>Mitte Aug 93</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -101,19 +90,15 @@
             <opener>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
-            <p>Ich bin verzweifelt. Ihr Brief trifft mich im Packen – <anchor type="commentary" xml:id="KL158-1">ich verreise</anchor> heute auf ein
+            <p>Ich bin verzweifelt. Ihr Brief trifft mich im Packen – <anchor type="commentary" xml:id="KL158-1" >ich verreise</anchor> heute auf ein
           paar Tage. Ich fange also sofort zu suchen an – denn irgendwo habe ich ja dieses
-          verruchte <anchor type="commentary" xml:id="KL158-2">
-                        <workName key="A020125">Amerika</workName>
-                    </anchor>, aber wo? Ich habe alles von unterst zu oberst gekehrt –
+          verruchte <anchor type="commentary" xml:id="KL158-2" ><workName key="A020125">Amerika</workName></anchor>, aber wo? Ich habe alles von unterst zu oberst gekehrt –
           bisher umsonst. Mittwoch komme ich<pb/> auf ein oder zwei Tage zurück u. will dann
           wie ein Sträfling suchen. Sind Sie sehr böse, wenn ich Sie bis dahin vertröste?</p>
             <p>Ich muss dann ohnehin zu Ihnen um Ihnen wegen des <rs type="person" key="A002172">Regimentsarztes</rs> zu danken
           u. Sie zu fragen, in welcher Weise es für mich angemessen ist, mich bei dem
           Herrn zu revan<pb/>chieren.</p>
-            <closer>In großer Hast<lb/>Ihr treuer<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+            <closer>In großer Hast<lb/>Ihr treuer<lb/><signed>Bahr</signed></closer>
             <postscript>
                <p>Schreiben Sie uns doch einmal ein Feuilleton!</p>
             </postscript>
@@ -121,3 +106,4 @@
       </body>
   </text>
 </TEI>
+

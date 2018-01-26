@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041519">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -59,11 +58,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160114">angelegt</change>
             <change who="KI MAM" when="20160126">Kollationiert am Original</change>
@@ -71,14 +66,13 @@
     </teiHeader>
    <text type="diaryDay">
       <body>
-        <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="18930000" n="01"/>
+        <div type="writingSession" n="1" >
+            <p ><date when="18930000" n="01"/>
                <persName key="A002027">Julius Bauer</persName> gehen.</p>
-            <p>
-                    <persName key="A002001">Schnitzler</persName>
+            <p><persName key="A002001">Schnitzler</persName>
             </p>
         </div>
       </body>
    </text>
-</TEI><!-- Datierung problematisch. Mit anderem datiert -->
+</TEI>
+<!-- Datierung problematisch. Mit anderem datiert -->

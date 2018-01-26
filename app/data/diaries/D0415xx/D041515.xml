@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041515">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -60,11 +59,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160114">angelegt</change>
         </revisionDesc>
@@ -72,14 +67,10 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19311020" n="01"/>
+            <p><date when="19311020" n="01"/>
                <persName key="A002001">
                   <hi rend="underline" n="1">Schnitzler</hi>, Arthur</persName>
-               <lb/>
-                    <space unit="chars" quantity="5"/>»<anchor type="commentary" xml:id="KD515-1">
-                        <workName key="A020473">Flucht in die Finsternis</workName>
-                    </anchor>«.</p>
+               <lb/><space unit="chars" quantity="5"/>»<anchor type="commentary" xml:id="KD515-1" ><workName key="A020473">Flucht in die Finsternis</workName></anchor>«.</p>
         </div>
       </body>
    </text>

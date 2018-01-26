@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041147">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,8 +69,7 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18950330" n="1">30/3</date> Im <placeName key="A000208">Prater</placeName> Vorm.
+            <p><date when="18950330" n="1">30/3</date> Im <placeName key="A000208">Prater</placeName> Vorm.
          <persName key="A002018">Dilly</persName>. Freundschaftl. Gespräch. Regen, Wagen.
         Kuss. Sie war mir gleichgiltig aber nicht unsympathisch. Sie, mit einem großen Blick,
         hatte das köstliche Wort: – »So muss – der liebe Gott – gewesen sein!« (Offenbar wie
@@ -84,9 +78,7 @@
         absolut nicht das Gefühl ein Unrecht zu begehn.– Mit <persName key="A002170">Herzl</persName> nach
       <workName key="A020310" subtype="local">Brillantenkönigin</workName> im <placeName key="A000229">Sacher</placeName> soup.– <persName key="A002529">Alberts</persName>
                Aufsatz
-               über die <anchor type="commentary" xml:id="KD147-1">
-                        <rs type="work" key="A020311">Jeunes Viennois</rs>
-                    </anchor> in der <orgName key="A080312">Revue des Revues</orgName>.– Ueber
+               über die <anchor type="commentary" xml:id="KD147-1" ><rs type="work" key="A020311">Jeunes Viennois</rs></anchor> in der <orgName  key="A080312">Revue des Revues</orgName>.– Ueber
          <persName key="A002002">Bahr</persName>, <persName key="A002007">Richard</persName>, mich, <persName key="A002011">Hugo</persName>, erwähnt
          <persName key="A002258">Torresani</persName>, mit wenig Worten <persName key="A002241">Specht</persName> und <persName key="A002222">Dörmann</persName>.
         Gut.–</p>

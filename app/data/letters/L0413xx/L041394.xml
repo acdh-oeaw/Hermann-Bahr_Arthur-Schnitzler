@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041394">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A002035">Salten, Felix</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
                     <!--<placeAddressee><placeName>[Wien???]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="19050110" n="01">10. 1. 1905</date>
@@ -68,7 +65,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
                         <biblScope unit="pp">510</biblScope>
@@ -77,11 +74,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160125">Angelegt aus Scan</change>
         </revisionDesc>
@@ -91,25 +84,15 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>10. 1. 905</date>.</dateline>
+                    <dateline rend="right"><placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>10. 1. 905</date>.</dateline>
                 </opener>
-                <p>
-                    <salute>lieber, </salute>die <persName key="A002018">Sandrock</persName> war wegen der
-                        <anchor type="commentary" xml:id="KL394-2">
-                        <persName key="A002085">Hervay</persName>-Vorlesung</anchor> bei mir; da ich heuer sowie voriges
+                <p><salute>lieber, </salute>die <persName key="A002018">Sandrock</persName> war wegen der
+                        <anchor type="commentary" xml:id="KL394-2" ><persName key="A002085">Hervay</persName>-Vorlesung</anchor> bei mir; da ich heuer sowie voriges
                     Jahr absolut immer abgelehnt und in
-                        <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> (von jener
-                    <anchor type="commentary" xml:id="KL394-1">
-                        <persName key="A002029">Karlweis</persName>-Sache im Jahre 97</anchor> abgesehen) überhaupt nur ein
-                    paar Mal in <anchor type="commentary" xml:id="KL394-3">Arbeitervereinen</anchor> gelesen habe, mir das Vorlesen vor der
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er Bürgerschaft so
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName> (von jener
+                    <anchor type="commentary" xml:id="KL394-1" ><persName key="A002029">Karlweis</persName>-Sache im Jahre 97</anchor> abgesehen) überhaupt nur ein
+                    paar Mal in <anchor type="commentary" xml:id="KL394-3" >Arbeitervereinen</anchor> gelesen habe, mir das Vorlesen vor der
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName>er Bürgerschaft so
                     widerwärtig wie möglich ist und ich nebstbei alle die Leute, denen ich bisher
                     Refus gegeben, nicht ohne tiefe innere Nöthigung zu verletzen Lust habe, –
                     widerstrebt es mir sehr, in diesem Fall eine Ausnahme zu machen, und ich
@@ -125,9 +108,7 @@
                     mit diesem Brief, weil Sie ja die <persName key="A002018">Sandrock</persName> gewiß in dieser
                     Angelegenheit bald sprechen – u weil es wohl gar nichts hilft, wenn ich ihr
                     selbst diese Sachen schreibe.</p>
-                <closer>Seien Sie herzlich gegrüßt,<lb/>Ihr<lb/>
-                    <signed>Arth</signed>
-                </closer>
+                <closer>Seien Sie herzlich gegrüßt,<lb/>Ihr<lb/><signed>Arth</signed></closer>
             </div>
         </body>
     </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041435">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160107">angelegt</change>
             <change who="KI MAM" when="20160202">Kollationiert am Original</change>
@@ -93,14 +87,12 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19031014" n="01">14.</date>
-                    <space unit="chars" quantity="1"/>»<workName key="A020574">
+             <p><date when="19031014" n="01">14.</date><space unit="chars" quantity="1"/>»<workName key="A020574">
                   <persName key="A002411">Schratt</persName>
                </workName>« dictiert.</p>
             <p>Umänderungen an der <workName key="A020576">Einleitung</workName> zum »<workName key="A020575 A020566 A020564 A020563">
                   <persName key="A002774">Klimt</persName>buch</workName>«.</p>
-            <p output="true">Doch morgen oder in den nächsten Tagen beginnen »<workName key="A020018">Reigen</workName>« für die Vorlesung herzurichten.</p>
+            <p >Doch morgen oder in den nächsten Tagen beginnen »<workName key="A020018">Reigen</workName>« für die Vorlesung herzurichten.</p>
             <p>Vorige Woche schön, bis Samstag, wo es regnerisch und kühl wurde. Jetzt wieder hellere und wärmere Tage.</p>
         </div>
       </body>

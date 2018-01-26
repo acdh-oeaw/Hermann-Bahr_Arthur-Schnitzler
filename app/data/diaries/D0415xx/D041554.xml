@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041554">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,11 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19180924" n="2">24/9</date> Vm. Panorama
-                     (<placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>).– </p>
+            <p><date when="19180924" n="2">24/9</date> Vm. Panorama
+                     (<placeName key="A000382"><settlement>Paris</settlement></placeName>).– </p>
             <p>Überbrachte <persName key="A003629">Bernau</persName> die »<workName key="A020451">Schwestern</workName>«.– </p>
             <p>Zu <persName key="A002063">Julius</persName>’; brachte ihnen die Correcturbogen der
                »<workName key="A020451">Schwestern</workName>« und der »<workName key="A020527">Heimfahrt</workName>«;–
@@ -95,8 +87,7 @@
                   <persName key="A003630">Davit</persName> und <persName key="A003631">Franke</persName>;–
                   <persName key="A003632">Ulmer</persName> ist der Name eines schlechten
                      <placeName key="A000355">
-                  <settlement>Münchner</settlement>
-                    </placeName> Schauspielers.).</p>
+                  <settlement>Münchner</settlement></placeName> Schauspielers.).</p>
             <p>– Wie lange schrieb ich schon keine Träume ein!</p>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041159">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18930917" n="01">17. 9. 1893</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -98,9 +89,7 @@
             <opener>
                <dateline rend="right">
                   <placeName key="A000276">Salesianerg 12</placeName>
-                  <lb/>
-                        <date>17 9 93</date>
-                    </dateline>
+                  <lb/><date>17 9 93</date></dateline>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
             <p>Hätten Sie Dienstag oder Mittwoch Abend von 8–10 etwa für mich Zeit? Ich muß Sie
@@ -109,8 +98,7 @@
           weiß)<pb/> mitzukommen bitten würden. Ich habe schon wieder so entsetzlich viel zu
           thun, daß ich durchaus die Zeit nicht finde, einmal Nachmittag zu Ihnen zu
           gehen.</p>
-            <closer>Herzlichst<lb/>Ihr<lb/>
-                    <signed>HermannBahr</signed>
+            <closer>Herzlichst<lb/>Ihr<lb/><signed>HermannBahr</signed>
             </closer>
             <postscript>
                <p>Ein Rendezvous im <placeName key="A000234">Griensteidl</placeName>, etwa um 8, wäre das bequemste.</p>

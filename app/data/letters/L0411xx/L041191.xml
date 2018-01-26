@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041191">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,18 +69,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »›<orgName key="A080011">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName key="A002607">I. Singer</persName>, / Hermann Bahr, Dr. <persName key="A002661">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"><placeName key="A000250">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName key="A000497">IX/3, Günthergasse 1</placeName>.«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
          <change who="KI MAM" when="20170527">Kollationiert</change>
@@ -97,24 +92,16 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>11. November 6</date>
-                    </dateline>
+               <dateline rend="right"><date>11. November 6</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich werde mich sehr freuen, Dich bei mir zu sehen. Donnerstag, Freitag, Samstag bin ich zur
           angegebenen Zeit, von 11–1, meistens nicht daheim. An den anderen Tagen<pb/> ist es
           ziemlich sicher, daß Du mich triffst, am Sichersten natürlich, wenn Du noch so
-          freundlich bist zu telephonieren. Ich <anchor type="commentary" xml:id="KL191-1">wohne jetzt</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000637">IX Porzellangasse 37</placeName> 4.
-          St., mit Aufzug. Komm bald; ich laß Dich dann nicht mehr fort, bis Du mir die neue <anchor type="commentary" xml:id="KL191-2">
-                        <rs type="work" key="A020128">Novelle</rs>
-                    </anchor> zugeschworen
+          freundlich bist zu telephonieren. Ich <anchor type="commentary" xml:id="KL191-1" >wohne jetzt</anchor><space unit="chars" quantity="1"/><placeName key="A000637">IX Porzellangasse 37</placeName> 4.
+          St., mit Aufzug. Komm bald; ich laß Dich dann nicht mehr fort, bis Du mir die neue <anchor type="commentary" xml:id="KL191-2" ><rs type="work" key="A020128">Novelle</rs></anchor> zugeschworen
           hast.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>hr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>hr</signed></closer>
             <postscript>
                <p>Herrn Dr Arthur Schnitzler<lb/>
                   <placeName key="A000598">IX Frankgasse 1</placeName>

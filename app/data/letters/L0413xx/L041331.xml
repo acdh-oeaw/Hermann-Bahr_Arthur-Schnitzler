@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041331">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -84,11 +83,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -105,26 +100,18 @@
             <address>
                <addrLine>Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000263">Wien XIII</placeName>
-                    </addrLine>
+                  <placeName key="A000263">Wien XIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
      
-            <p>Schönsten Dank für Deinen lieben Brief u. die herzlichsten Grüße an Dich u Deine <rs type="person" key="A002038">Frau</rs>
-                    <unclear>!</unclear>
+            <p>Schönsten Dank für Deinen lieben Brief u. die herzlichsten Grüße an Dich u Deine <rs type="person" key="A002038">Frau</rs><unclear>!</unclear>
             </p>
             <closer>Herzlichst 
-               <signed>Hermann</signed>
-                </closer>
-            <postscript>
-                    <p>
-                        <date when="19101122">22. 11. 10</date>
-                    </p>
-                </postscript>
+               <signed>Hermann</signed></closer>
+            <postscript><p><date when="19101122">22. 11. 10</date></p></postscript>
          </div>
       </body>
   </text>

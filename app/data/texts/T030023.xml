@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030023">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -66,7 +66,7 @@
                      <title level="m" key="A020384">Glossen. Zum Wiener Theater (1903 bis 1906)</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1907">1907</date>
                      </imprint>
                      <biblScope unit="pp">196–202</biblScope>
@@ -74,12 +74,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="approved">
 			      <change when="20160223" who="MAM">Angelegt und kollationiert</change>
@@ -91,27 +86,20 @@
          <div>
             <head>
                <workName key="A020040"/>Freiwild.</head>
-            <head type="sub">Schauspiel in drei Akten von <persName key="A002001">Arthur <hi rend="spaced_out">Schnitzler</hi>
-                    </persName>. Im <placeName key="A000220">Deutschen Volkstheater</placeName> aufgeführt
-               <hyphenation alt="\\"/>am <date>28. Jänner 1905</date>.</head>
+            <head type="sub">Schauspiel in drei Akten von <persName key="A002001">Arthur <hi rend="spaced_out">Schnitzler</hi></persName>. Im <placeName key="A000220">Deutschen Volkstheater</placeName> aufgeführt
+               am <date>28. Jänner 1905</date>.</head>
             <p>Es war 1897. Prinz <persName key="A003737">Alonso</persName> und Herr <persName key="A003354">Eugen Brüll</persName>
           hatten sich noch nicht gegen das Duell erklärt. Doch galt es darum nicht für ritterlich,
           feig zu sein. Auch hatte sich die neue Literatur mit ihren Zweifeln und spöttischen Fragen
           noch der Soldaten nicht bemächtigt. Wenn der Offizier auf der Bühne erschien, war es als
-          Zierde der Nation oder doch des Salons. Dem <anchor type="commentary" xml:id="KT023-1">
-                        <rs type="work" key="A021006">Major von Tellheim</rs>
-                    </anchor> verwandt
-               oder <anchor type="commentary" xml:id="KT023-2">
-                        <rs type="work" key="A021151">Veilchenfresser</rs>
-                    </anchor> und <anchor type="commentary" xml:id="KT023-3">
-                        <rs type="work" key="A021152">Reiflingen</rs>
-                    </anchor>. Noch hatte sich
+          Zierde der Nation oder doch des Salons. Dem <anchor type="commentary" xml:id="KT023-1" ><rs type="work" key="A021006">Major von Tellheim</rs></anchor> verwandt
+               oder <anchor type="commentary" xml:id="KT023-2" ><rs type="work" key="A021151">Veilchenfresser</rs></anchor> und <anchor type="commentary" xml:id="KT023-3" ><rs type="work" key="A021152">Reiflingen</rs></anchor>. Noch hatte sich
             <persName key="A002168">Hartleben</persName> nicht erdreistet, noch drohte kein
             <persName key="A003481">Beyerlein</persName> und <persName key="A003154">Bilse</persName>. Da begab es sich, daß ein
           junger Dichter, schon vom ersten Ruhm gestreift, aber unzufrieden mit sich selbst,
           hochmütig gegen sich selbst, und darum nach großen Entschlüssen begierig, die seiner Kraft
           mehr abzufordern hätten, als sie bisher ihm gewähren konnte, zudem von jener leichten
-          Schwermut gerührt, die uns betört, wenn wir uns zum <hyphenation alt="\mbox{ersten}">ersten</hyphenation> Mal von den süßen Mädchen und
+          Schwermut gerührt, die uns betört, wenn wir uns zum ersten Mal von den süßen Mädchen und
           den Spielen der Liebe trennen, weil wir da nämlich noch nicht wissen können, daß es doch
           niemals ein Abschied für immer ist – in dieser zugleich melancholisch entsagenden und doch
           heftiger, als er noch jemals einen Trieb in sich vernommen haben mochte, zum Ernst des
@@ -120,7 +108,7 @@
           heutigen Welt geriet. Ich denke, er hatte einen Kater; so fing es wohl wahrscheinlich an.
           Wir sind dann immer sehr gekränkt, wenn wir eines Tages, erwachend, gewahren, daß irgend
           ein liebes kleines Mädchen doch nicht das ganze große Leben ist; und verargen ihr das sehr
-          und rächen uns, indem wir uns plötzlich nun auf die <anchor type="label" xml:id="LT023-1">»Probleme« werfen, zu denen uns
+          und rächen uns, indem wir uns plötzlich nun auf die <anchor type="label" xml:id="LT023-1" >»Probleme« werfen, zu denen uns
           erfahrene und reife Freunde doch schon immer geraten haben. Ihre Erfahrung, ihre Reife ist
           freilich meistens zuletzt wohl eigentlich mehr nur ein leiser Neid, sie können uns nicht
           töricht glücklich sehen. Und wer später, in Gefahren, durch Leiden, aus Freuden, wirklich
@@ -172,8 +160,7 @@
           schon der <persName key="A002001">Schnitzler</persName>, aber ein gespannter, gestreckter, der den Kopf
           zurückwirft und sich ein bißchen auf die Zehen stellt. Und ich spüre daran erst recht die
           ganze Kraft und Schönheit seiner späteren Entwicklung, die keine Mahnung des Inspizienten
-          mehr braucht und nicht mehr vor den Spiegel tritt.<hyphenation alt="\looseness=-1"/>
-                </p>
+          mehr braucht und nicht mehr vor den Spiegel tritt.</p>
             <p>In der Literatur wird »<workName key="A020040">Freiwild</workName>« bleiben als das erste Soldatenstück
           unserer Zeit. <persName key="A002168">Hartleben</persName> hat später durch sehr feines Detail, das er
          sehr geschickt an eine wasserblaue Handlung band, stärker <rs type="work" key="A020925">gewirkt</rs> und
@@ -222,9 +209,7 @@
           du sie schriebst, sind es Frechheiten gewesen, die man dir gar nicht verzeihen wollte, und
           jetzt sind’s schon Wahrheiten für die kompakte Majorität geworden, und noch zehn Jahre,
           und es werden Banalitäten sein, hoffentlich, gegen die sich dann eine neue Jugend wieder
-          ingrimmig empören muß – das ist der Lauf der Welt. <signed>
-                        <hi rend="spaced_out">Hermann Bahr.</hi>
-                    </signed>
+          ingrimmig empören muß – das ist der Lauf der Welt. <signed><hi rend="spaced_out">Hermann Bahr.</hi></signed>
             </p>
          </div>
       </body>

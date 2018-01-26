@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041239">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,26 +66,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19040925" n="2">25/9</date> S. <placeName key="A000373">Rodaun</placeName>, z. Th.
-        mit <persName key="A002035">Salten</persName>, <persName key="A002002">Bahr</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002088">Leo</persName> hinaus.– Außerdem <persName key="A002212">Gustav</persName>.– Auch <persName key="A002011">Hugo</persName> war aus
-               <placeName key="A000663">
-                        <settlement>Venedig</settlement>
-                    </placeName> da, früher als er sich vorgenommen, worüber
-         <persName key="A002007">Richard</persName> in seiner Gereiztheit gegen <persName key="A002011">Hugo</persName> erbittert war.– <persName key="A002035">Salten</persName> erzählte von seiner <anchor type="commentary" xml:id="KD239-1">
-                        <placeName key="A000382">Pariser</placeName> 
-        Reise</anchor>. Die <persName key="A002752">Coburg</persName> »Saujuden«.– Wie <persName key="A002035">S.</persName> ihr sagte: Und Ihr <rs type="person" key="A002756">Mann</rs>?, <persName key="A002753">Feistmantel</persName>
-                    <c rendition="#dots" n="3"/> etc. – Warum sagen Sie nicht Sauchristen?– »Da haben S
+            <p><date when="19040925" n="2">25/9</date> S. <placeName key="A000373">Rodaun</placeName>, z. Th.
+        mit <persName key="A002035">Salten</persName>, <persName key="A002002">Bahr</persName><space unit="chars" quantity="1"/><persName key="A002088">Leo</persName> hinaus.– Außerdem <persName key="A002212">Gustav</persName>.– Auch <persName key="A002011">Hugo</persName> war aus
+               <placeName key="A000663"><settlement>Venedig</settlement></placeName> da, früher als er sich vorgenommen, worüber
+         <persName key="A002007">Richard</persName> in seiner Gereiztheit gegen <persName key="A002011">Hugo</persName> erbittert war.– <persName key="A002035">Salten</persName> erzählte von seiner <anchor type="commentary" xml:id="KD239-1" ><placeName key="A000382">Pariser</placeName> 
+        Reise</anchor>. Die <persName key="A002752">Coburg</persName> »Saujuden«.– Wie <persName key="A002035">S.</persName> ihr sagte: Und Ihr <rs type="person" key="A002756">Mann</rs>?, <persName key="A002753">Feistmantel</persName><c rendition="#dots" n="3"/> etc. – Warum sagen Sie nicht Sauchristen?– »Da haben S
         recht <c rendition="#dots" n="3" place="center"/> das is sehr gut <c rendition="#dots" n="3"/>« Und wie sie dann gleich wieder von Saujuden sprach.–
-         <anchor type="commentary" xml:id="KD239-2">
-                        <persName key="A002754">Südekum</persName>
-                    </anchor> und <anchor type="commentary" xml:id="KD239-3">
-                        <persName key="A002755">Weitzer</persName>
-                    </anchor> in ihrer wahren Gestalt!–</p>
-            <p output="true">
-                    <persName key="A002007">Richard</persName> las <workName key="A020207">Graf von Charolais</workName>, den er nach 4 Jahren beendet. Nach dem 3. Akt war der Erfolg
+         <anchor type="commentary" xml:id="KD239-2" ><persName key="A002754">Südekum</persName></anchor> und <anchor type="commentary" xml:id="KD239-3" ><persName key="A002755">Weitzer</persName></anchor> in ihrer wahren Gestalt!–</p>
+            <p ><persName key="A002007">Richard</persName> las <workName key="A020207">Graf von Charolais</workName>, den er nach 4 Jahren beendet. Nach dem 3. Akt war der Erfolg
         außerordentlich; der 4. und 5. (bei gleicher gedanklicher und sprachl. Höhe) erweckt
         schwere Bedenken.–</p>
          </div> 

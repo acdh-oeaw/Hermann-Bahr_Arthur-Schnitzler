@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030054">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -59,12 +59,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="candidate">
 			      <change when="20160419" who="MAM">Angelegt</change>
@@ -84,9 +79,7 @@
           Land von köstlichen Reizen, und es ist, wenn man in <placeName key="A000852">Kärnthen</placeName> die
           Lieder hört oder die zierlichen Holz-Sculpturen der <placeName key="A000898">Salzburg</placeName>er
           sieht oder die Anmuth fühlt, mit welcher das Gemüth der
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er wie eine gute Fee jede
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er wie eine gute Fee jede
           Verrichtung des täglichen Lebens immer in selige Walzer verwandelt – es ist ein Volk von
           frohen Künstlern. Ich glaube, dass unter allen Staaten, welche Deutsche begründet haben,
           keiner mehr künstlerische Begabung und sicherlich keiner soviel künstlerische
@@ -105,27 +98,19 @@
           ertragen und zu bezwingen schon eine ungemein gesunde und kräftige Natur verlangt: die
           guten Leute, allzu demüthig und bescheiden, wollen es durchaus nicht glauben, dass auch
           aus ihrer Mitte einmal was Gutes kommen könnte, und da sei einer das wirksamste Talent,
-          wenn es bekannt wird, dass er aus <placeName key="A001153">
-                        <settlement>Krems</settlement>
-                    </placeName>
+          wenn es bekannt wird, dass er aus <placeName key="A001153"><settlement>Krems</settlement></placeName>
           oder von <placeName key="A000471">Hütteldorf</placeName> ist, ist er bei ihnen schon verloren.</p>
             <p>Es ist das Land der vielen kleinen Talente. Grösse und Tiefe fehlen. Und sonderbar: wenn
           sie einmal wo erscheinen, dann werden alle ganz böse, wollen davon durchaus nichts wissen
           und verbünden sich, sie auf alle Weise zu verdrängen.</p>
-            <p>Wie lange hat nicht der ehrwürdige <anchor type="textConst" xml:id="TT054-1">
-                        <persName key="A002721">Bruckner</persName>
-                    </anchor>, der
+            <p>Wie lange hat nicht der ehrwürdige <anchor type="textConst" xml:id="TT054-1" ><persName key="A002721">Bruckner</persName></anchor>, der
           mächtigste Philosoph der Töne seit <persName key="A002510">Beethoven</persName>, in Kummer
           und Noth gerungen und gelitten, bis sich die zögernden
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er, vom Auslande gedrängt, langsam
-          entschlossen, sein schweres, tiefes und kühnes Genie allmälig zu würdigen und <anchor type="commentary" xml:id="KT054-2">neuestens
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er, vom Auslande gedrängt, langsam
+          entschlossen, sein schweres, tiefes und kühnes Genie allmälig zu würdigen und <anchor type="commentary" xml:id="KT054-2" >neuestens
           sogar mit der Würde des Ehrendoctors</anchor> zu beglücken! So haben auch <persName key="A002121">Hugo Wolf</persName> und <persName key="A002252">Adalbert von Goldschmid</persName>,
           draussen längst bewundert und gerühmt, in
-            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> immer noch blos erst ihre engen,
+            <placeName key="A000250"><settlement>Wien</settlement></placeName> immer noch blos erst ihre engen,
           stillen Gemeinden. Darin ist man unverbesserlich, heute noch ganz ebenso, wie in den
           Leidenstagen <persName key="A002092">Grillparzers</persName>, <persName key="A003197">Kürnbergers</persName> und <persName key="A003718">Stifters</persName>.</p>
             <p>Die Musik <persName key="A002121">Hugo Wolfs</persName> ist die modernste und sie ist
@@ -136,8 +121,7 @@
           Leidenschaften und Begierden nimmermehr verstummt. Sie taucht von der Oberfläche der
           täglichen Gefühle weg in die letzte Tiefe der verschwiegenen Räthsel, bis sie die
           einsamsten Punkte greift und an das Mystische streift, an das Unbewusste, an jenen
-          verborgenen Kern und Ausbund der Natur, den die <anchor type="commentary" xml:id="KT054-3">
-                        <workName key="A021225">Veden</workName> Puruscha</anchor>
+          verborgenen Kern und Ausbund der Natur, den die <anchor type="commentary" xml:id="KT054-3" ><workName key="A021225">Veden</workName> Puruscha</anchor>
           nennen. <persName key="A003465">Klinger</persName>, <persName key="A004066">Thoma</persName>, <persName key="A004080">Böklin</persName>, <persName key="A002396">Liliencron</persName>, <persName key="A002077">Maeterlinck</persName> – von dieser Race
           ist sie.</p>
             <p>Auch an den Liedern <persName key="A002252">Adalbert von Goldschmids</persName> ist ein saftiger Geruch
@@ -150,9 +134,7 @@
           von eben diesem fliedermilden Märchenreize ist ihre Sensation.</p>
             <p>Schauerlich siehts bei den Malern aus, es ist eine Schande. Es muss einmal ohne Rücksicht
           gesagt werden, was man mit tausend Künsten ängstlich zu vertuschen sucht; die
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er Malerei ist heute in
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er Malerei ist heute in
             <placeName key="A000669">Europa</placeName> die letzte. Es giebt ja einige, die eine ganze Menge
           können; aber sie wissen nicht, was sie damit sollen, sie wollen nichts und wirthschaften
           rathlos herum. Fast alles an ihren Werken ist gemacht, anempfunden, nachgeäfft, nichts aus
@@ -170,8 +152,7 @@
           ein bischen in angelernten Schablonen befangen; <persName key="A003105">Engelhart</persName>, ein verwegen zugreifender Wager, der nur noch nicht recht fertig
           und sicher ist; <persName key="A004069">Hirschl</persName>, eine tiefe, mystisch
           bedrängte, aber verworrene, konfuse rathlose Natur; und endlich <persName key="A002014">Ferry Bératon</persName>.</p>
-            <p>
-                    <persName key="A002014">Bératon</persName> ist mir von ihnen der liebste: denn er ist der ehrlichste
+            <p><persName key="A002014">Bératon</persName> ist mir von ihnen der liebste: denn er ist der ehrlichste
           und aufrichtigste von allen. Er fragt nach keinem Muster; er hört auf keine Schablone;
           keiner Lehre zur Liebe verläugnet er seine Art. Er folgt treu und gerade dem eigenen
           Drange. Er malt nicht, wie er es an den anderen sieht, sondern er malt, wie er es in sich
@@ -192,7 +173,7 @@
             <p>Jedes Porträt sucht ja heute die Wahrheit, die Wirklichkeit: es will einen geben, wie er
           erscheint. Aber jeder erscheint jeden Tag anders, in jeder Laune, unter jedem Gedanken,
           bei jedem Ereignisse anders. Jeder ist sozusagen zu<pb/>sammengesetzt aus einem ständigen
-          Theile, den er immer mit sich trägt, und einem <anchor type="textConst" xml:id="TT054-2">veränderlichen</anchor> Theile, den der Augenblick
+          Theile, den er immer mit sich trägt, und einem <anchor type="textConst" xml:id="TT054-2" >veränderlichen</anchor> Theile, den der Augenblick
           giebt und der nächste wieder nimmt. Der Realismus des <persName key="A004061">Bastien
             Lepage</persName> wollte blos den ersten; er suchte die allen Stimmungen gemeinsame
             <workName key="A021174">
@@ -216,9 +197,7 @@
             <persName key="A003797">Marriot</persName> und anderer anerkannter und allgemein bekannter Autoren
           hat, schon auch einmal eine kleine Rast erlauben; aber es macht von diesem Luxus doch
           einen etwas gar unmässigen Gebrauch. Es giebt natürlich auch in
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> eine »neue Richtung«: es giebt
+              <placeName key="A000250"><settlement>Wien</settlement></placeName> eine »neue Richtung«: es giebt
           ein »junges <placeName key="A000362">Oesterreich</placeName>«. Man kann eigentlich gar nicht
               <placeName key="A000362">Oesterreichischer</placeName> sein, als diese höchst seltsame Gemeinde; <placeName key="A000250">urwienerisch</placeName> ist ihre Weise durch und durch: alles
           beginnt sie von hinten und sie verspätet sich immer um eine Idee. Sie hat ein »<rs type="org" key="A080150">Organ</rs>«
@@ -230,18 +209,16 @@
           schändlichste Rückwärtserei gilt. Es ist keine Gruppe von Schriftstellern, sondern von
           solchen, die es gern werden möchten und eine verlässliche Methode, eine gute Anweisung,
           wirksame Recepte suchen; es ist eine Art von ästhetischem Seminar. Ausgerichtet haben sie
-          bisher nicht viel. <anchor type="commentary" xml:id="KT054-1">Blos dass der Gedanke der Moderne bei allen verständigen und besonnenen
+          bisher nicht viel. <anchor type="commentary" xml:id="KT054-1" >Blos dass der Gedanke der Moderne bei allen verständigen und besonnenen
           Freunden der Kunst in Verruf</anchor> und um alles Gefolge kam.</p>
             <p>Drei Talente hat der Zufall in diese Gruppe verschlagen; es mag ihnen dabei manchmal
           recht »ungut« zu Muthe sein.</p>
-            <p>
-                    <anchor type="label" xml:id="LT054-1">Da ist einmal <persName key="A002001">Arthur Schnitzler</persName>, ein geistreicher, zierlicher, sehr
-          amüsanter <anchor type="label" xml:id="LT054-2">Causeur</anchor>, ein bischen leichtsinnig in der Form und nicht allzu gewissenhaft,
+            <p><anchor type="label" xml:id="LT054-1" >Da ist einmal <persName key="A002001">Arthur Schnitzler</persName>, ein geistreicher, zierlicher, sehr
+          amüsanter <anchor type="label" xml:id="LT054-2" >Causeur</anchor>, ein bischen leichtsinnig in der Form und nicht allzu gewissenhaft,
           vielerlei versuchend. Ich habe das Gefühl, dass er tiefer ist, als er sich gern den
           Anschein giebt, und hinter seiner flotten Grazie schwere Leidenschaft verbirgt, die nur
           noch schüchtern und schamhaft ist, weil sie erst zu festen Gestalten reifen
-            will<supplied>.</supplied>
-                    </anchor>
+            will<supplied>.</supplied></anchor>
             </p>
             <p>Dann <persName key="A002222">Felix Dörmann</persName>, ein unzweifelhaftes, starkes und kühnes Talent,
           aber das seinen Ausdruck noch nicht gefunden hat und einstweilen blos in fremden Sprachen
@@ -251,13 +228,9 @@
           Schablone sprengen und zur Freiheit ausbrechen wird.</p>
             <p>Und endlich <persName key="A002011">Loris</persName>, der Zauberer der feinen, seltenen, raffinirten
           Sensationen, der nur wie durch einen schlechten Witz ein
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er, aber von rechtswegen in seiner
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er, aber von rechtswegen in seiner
           rastlosen Begierde nach der unbekannten Schönheit durchaus
-               <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>er ist. Dieser grosse Künstler,
+               <placeName key="A000382"><settlement>Paris</settlement></placeName>er ist. Dieser grosse Künstler,
           dessen »sämmtliche Werke« vorläufig kaum 100 Seiten füllen würden, ist die neueste Natur,
           welche ich heute unter den Deutschen weiss.</p>
             <p>Dann sind einige, die jedesmal ein starkes Talent versprechen, so dass man sehr begierig
@@ -276,12 +249,8 @@
           von einer Gestalt so heftig getroffen wird, dass dieser Stoss aus seiner Tiefe heraus
           einen unvermutheten Künstler treibt. Ich kann mir das gar nicht denken, wie ein solcher
           Mensch, der Jahre lang eine bessere Natur in sich herumträgt, ohne es auch nur zu ahnen,
-          seelisch eigentlich verfasst sein mag. Er hat gelassen drei lange <anchor type="commentary" xml:id="KT054-4">
-                        <rs type="work" key="A020863 A021243 A020866">Romane</rs>
-                    </anchor>
-          und einen Band <anchor type="commentary" xml:id="KT054-5">
-                        <rs type="work" key="A020864">Novellen</rs>
-                    </anchor> geschrieben, sehr nett, sehr flott, sehr amüsant,
+          seelisch eigentlich verfasst sein mag. Er hat gelassen drei lange <anchor type="commentary" xml:id="KT054-4" ><rs type="work" key="A020863 A021243 A020866">Romane</rs></anchor>
+          und einen Band <anchor type="commentary" xml:id="KT054-5" ><rs type="work" key="A020864">Novellen</rs></anchor> geschrieben, sehr nett, sehr flott, sehr amüsant,
           aber ohne jemals im mindesten was Künstlerisches zu verrathen, so wie einer halt unter
           Freunden gern erzählt, wenn er ein fescher Kerl, ein heller, wachsamer und offener Kopf,
           aber kein Dichter ist; und dann auf einmal hat er die

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041425">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                     <dateSender>
                         <date when="18931215" n="01">15. 12. 1893</date>
                     </dateSender>
@@ -76,9 +71,7 @@
                                 <p>eh. Korrespondenzkarte</p>
                                 <stamp n="1">
                                     <placeName key="A000253">Wien 3/1</placeName>
-                                    <date>15 <supplied>XII</supplied>
-                                        <unclear> 93</unclear>
-                                    </date>
+                                    <date>15 <supplied>XII</supplied><unclear> 93</unclear></date>
                                     <time>1220 N</time>
                                 </stamp>
                                 <stamp n="2">
@@ -95,7 +88,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">38</biblScope>
@@ -104,11 +97,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160307">Angelegt aus OCR</change>
             <change who="MAM" when="20170317">Durchgesehen mit Original in CUL</change>
@@ -118,14 +107,8 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000598">IX. Frankgasse<space unit="chars" quantity="5"/>Wien</placeName>
-                        </hi>
-                    </addrLine>
+                    <addrLine><hi rend="latintype">Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine>
+                    <addrLine><hi rend="latintype"><placeName key="A000598">IX. Frankgasse<space unit="chars" quantity="5"/>Wien</placeName></hi></addrLine>
                 </address>
             </div>
            
@@ -133,14 +116,11 @@
                 <opener>
                     <salute>lieber!</salute>
                 </opener>
-                <p>
-                    <anchor type="commentary" xml:id="KL425-1">Dem <persName key="A002002">Bahr</persName> geht es sehr schlecht</anchor>. Vielleicht
+                <p><anchor type="commentary" xml:id="KL425-1" >Dem <persName key="A002002">Bahr</persName> geht es sehr schlecht</anchor>. Vielleicht
                     sind Sie so lieb, ihn im Lauf des Tages zu besuchen. Bitte läuten Sie aber in
                     meiner Wohnung an und verlangen Sie <persName key="A002002">Bahrs</persName>
                     Schlüssel, damit er Ihnen nicht aufsperren muss.</p>
-                <closer>Herzlich<lb/>
-                    <signed>Hugo.</signed>
-                </closer>
+                <closer>Herzlich<lb/><signed>Hugo.</signed></closer>
             </div>
         </body>
     </text>

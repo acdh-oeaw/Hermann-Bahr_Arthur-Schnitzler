@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041522">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160128">angelegt</change>
         </revisionDesc>
@@ -70,14 +65,11 @@
    <text type="diaryDay">
             <body>
                 <div type="writingSession" n="1">
-                    <p output="true">
-                    <date when="18970307" n="01">7/3</date> Sonntag. Philh.– Bei
+                    <p ><date when="18970307" n="01">7/3</date> Sonntag. Philh.– Bei
                         <persName key="A003462 A003463">Loebs</persName>.– Abds. wieder einmal bei der
                         »<workName key="A020049">Liebelei</workName>« in der <placeName key="A000214">Burg</placeName>, gefiel
                     mir sehr gut.– Ein Feuilleton von <persName key="A002170">Herzl</persName> über
-                        <workName key="A020005">Tschaperl</workName>, »<anchor type="commentary" xml:id="KD522-1">
-                        <workName key="A020712">Jung Oesterreich</workName>
-                    </anchor>«
+                        <workName key="A020005">Tschaperl</workName>, »<anchor type="commentary" xml:id="KD522-1" ><workName key="A020712">Jung Oesterreich</workName></anchor>«
                     genannt, ärgerte mich wegen des frechen und beinah perfiden Tones; dabei fest
                     überzeugt, er hätte anders geschrieben, wenn ich seine Eitelkeit nicht
                     verletzt.</p>

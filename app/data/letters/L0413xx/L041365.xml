@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041365">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,12 +49,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="18940915" n="01">15. 9. 189[4?]</date>
                </dateSender>
@@ -73,29 +68,16 @@
                         <idno>Schnitzler, B 89 a/1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Visitenkarte, Lateinschrift, Aufdruck: Aufdruck: »<quote>FELIX SALTEN / <placeName key="A000618">WIEN, / IX., Hörlgasse 16.</placeName> / ›<orgName key="A080010">Berliner Neueste Nachrichten</orgName>.‹ / ›<orgName key="A080680">Münchener General-Anzeiger</orgName>.‹</quote>«, hs. von Schnitzler: »<quote>
-                                        <hi rend="latintype">Herr </hi>
-                                        <persName key="A003431">
-                                            <hi rend="latintype">M. J.
-                           Mayer</hi>
-                                        </persName>
-                                        <hi rend="latintype">. / <placeName key="A000619">Währ. Sechsschg.</placeName> 4<space unit="chars" quantity="2"/>3. St. Th. 1<unclear>4</unclear>
-                              </hi>
-                                    </quote>«, umseitig ders.: »<quote>
-                                        <date>15/9 9<unclear>4</unclear>
-                                        </date>
-                                    </quote>«</p>
+                        <p>eh. Visitenkarte, Lateinschrift, Aufdruck: Aufdruck: »<quote>FELIX SALTEN / <placeName key="A000618">WIEN, / IX., Hörlgasse 16.</placeName> / ›<orgName  key="A080010">Berliner Neueste Nachrichten</orgName>.‹ / ›<orgName  key="A080680">Münchener General-Anzeiger</orgName>.‹</quote>«, hs. von Schnitzler: »<quote><hi rend="latintype">Herr </hi><persName key="A003431"><hi rend="latintype">M. J.
+                           Mayer</hi></persName><hi rend="latintype">. / <placeName key="A000619">Währ. Sechsschg.</placeName> 4<space unit="chars" quantity="2"/>3. St. Th. 1<unclear>4</unclear>
+                              </hi></quote>«, umseitig ders.: »<quote><date>15/9 9<unclear>4</unclear></date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151126">Angelegt aus Original</change>
          <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -105,16 +87,13 @@
       <body>
     
          <div type="writingSession" n="1">
-            <p>
-                    <salute>Lieber Freund,</salute> wenn Sie dem Überbringer dieses irgend eine
+            <p><salute>Lieber Freund,</salute> wenn Sie dem Überbringer dieses irgend eine
                Abschreibearbeit geben können, so thun Sie’s, bitte, wenn nicht, schicken Sie ihn
                vielleicht zu <persName key="A002002">Bahr</persName>, der ja jetzt manches haben
                dürfte.</p>
-            <p>Er ist <anchor type="commentary" xml:id="KL365-1">Mediziner im letzten Jahrgang</anchor> und es geht ihm sehr schlecht.</p>
+            <p>Er ist <anchor type="commentary" xml:id="KL365-1" >Mediziner im letzten Jahrgang</anchor> und es geht ihm sehr schlecht.</p>
           
-            <closer>Herzlichst<lb/>
-                    <signed>Salten.</signed>
-                </closer>
+            <closer>Herzlichst<lb/><signed>Salten.</signed></closer>
             <postscript>
                <p>Vielleicht abends im Cafe?</p>
             </postscript>

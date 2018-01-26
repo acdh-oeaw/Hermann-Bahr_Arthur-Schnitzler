@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041360">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -74,21 +73,15 @@
                      </msIdentifier>
                      <physDesc>
                         <p>ms. Brief mit eh. Unterschrift in Bleistift, 1 Bl., 1 S., 
-                           gedruckter Kopf: »<quote>
-                                        <orgName key="A080014">Die neue Rundschau</orgName> / <orgName key="A080434">S. Fischer-Verlag</orgName> – 
-                              <placeName key="A000860">Berlin W – Bülowstrasse 90</placeName>
-                                    </quote>«. In der rechten oberen Ecke ms. »<quote>K/P</quote>«.</p>
+                           gedruckter Kopf: »<quote><orgName  key="A080014">Die neue Rundschau</orgName> / <orgName  key="A080434">S.&#160;Fischer-Verlag</orgName> – 
+                              <placeName key="A000860">Berlin W – Bülowstrasse 90</placeName></quote>«. In der rechten oberen Ecke ms. »<quote>K/P</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151115">Angelegt aus Kopie ÖGL</change>
          <change who="MAM" when="20160416">Kollationiert mit Fotografie CUL</change>
@@ -99,26 +92,21 @@
          <div type="address">
             <address>
                <addrLine>Herrn</addrLine>
-               <addrLine>Dr. Arthur <hi rend="spaced_out">Schnitzler</hi>
-                    </addrLine>
+               <addrLine>Dr. Arthur <hi rend="spaced_out">Schnitzler</hi></addrLine>
                <addrLine>
                   <hi rend="spaced_out">
                      <hi rend="underline" n="1">
                         <placeName key="A000268">Wien 18.</placeName>
                      </hi>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
                <addrLine>
-                  <placeName key="A000350">Sternwartestr. 71.</placeName>
-                    </addrLine>
+                  <placeName key="A000350">Sternwartestr. 71.</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000368">
-                            <settlement>Berlin</settlement>
-                        </placeName>, <date>21. März 23</date>.</dateline>
+                  <placeName key="A000368"><settlement>Berlin</settlement></placeName>, <date>21. März 23</date>.</dateline>
                <salute>Sehr verehrter Herr Doktor,</salute>
             </opener>
             <p>Aus Anlass des 60. Geburtstages <persName key="A002002">Hermann Bahrs</persName> 
@@ -128,9 +116,7 @@
         Novelle zur Verfügung stellen könnten.</p>
             <closer>Mit der Bitte um fr<supplied>e</supplied>undlichen Bescheid<lb/>Ihnen sehr
           ergeben<lb/>
-               <signed>
-                        <handShift/>Rudolph Kayser</signed>
-                </closer>
+               <signed><handShift/>Rudolph Kayser</signed></closer>
          </div>
       </body>
   </text>

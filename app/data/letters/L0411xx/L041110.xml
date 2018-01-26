@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041110">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19090701">1. 7. 1909</date>
                </analytic>
@@ -88,23 +86,16 @@
                   <biblScope unit="pp">103</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23390Ba"/>
-     <graphic url="HS_AM23390Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23390Ba"/>
+     <graphic url="HS_AM23390Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
@@ -112,31 +103,22 @@
                <salute>lieber Hermann</salute>
             </opener>
             <p>es drängt mich, dir zu deinem Collegen <persName key="A002040">Poetzl</persName>
-               wärmstens zu gratuliren. Das sind einmal mannhafte, echt <anchor type="commentary" xml:id="KL110-1">
-                        <rs type="work" key="A020103">t<damage agent="hole">
-                                <supplied>e</supplied>
-                            </damage>utsche Worte</rs>
-                    </anchor>! Das Herz geht einem auf, wenn man sie
+               wärmstens zu gratuliren. Das sind einmal mannhafte, echt <anchor type="commentary"
+                  xml:id="KL110-1"><rs type="work" key="A020103">t<damage agent="hole"><supplied>e</supplied></damage>utsche Worte</rs></anchor>! Das Herz geht einem auf, wenn man sie
                liest. »<rs type="work" key="A020103">Es ist besser, das gute zu heucheln als es
                   durch offenkundige Frevel<pb/> aller Art von der Tagesordnung gänzlich
                   absetzen</rs>.« – »<rs type="work" key="A020103">Es ist immer noch moralischer im
                   Geheimen zu sündigen als auf oeffentlichem Markte mit dem Laster Arm in Arm zu
                   gehen –</rs>« »<rs type="work" key="A020103">Die Gesammtheit darf die Tugend nicht
                   verachten, sondern muss sie heilig halten und auf ihren Schild erheben</rs>«
-               –<pb/>
-                </p>
-                <p>– So ehrlich ist die Heuchelei selten gewesen!</p>
+               –<pb/></p><p>– So ehrlich ist die Heuchelei selten gewesen!</p>
             <closer>Leb wohl und sei herzlich gegrüßt.<lb/>Dein<lb/>
                <signed>Arth
           Sch</signed>
             </closer>
             <postscript>
-               <p>
-                        <placeName key="A000412">
-                  <settlement>St Anton</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date when="19010701">1. 7. 109</date>.</p>
+               <p><placeName key="A000412">
+                  <settlement>St Anton</settlement></placeName><space unit="chars" quantity="1"/><date when="19010701">1. 7. 109</date>.</p>
                </postscript>
          </div>
       </body>

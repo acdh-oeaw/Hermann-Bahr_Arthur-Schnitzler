@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041339">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,13 +66,10 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19211013" n="1">13/10</date> Dict. (aus dem Tgb.<space unit="chars" quantity="1"/>Träume).– Briefe.–</p>
+            <p><date when="19211013" n="1">13/10</date> Dict. (aus dem Tgb.<space unit="chars" quantity="1"/>Träume).– Briefe.–</p>
             <p>Mit <persName key="A002097">Lili</persName> zu <persName key="A002130">Hajek</persName> (wegen der vergrößerten Mandeln).</p>
             <p>Sitzung des Aut. Verb. bei Dr. <persName key="A002905">Markus</persName>.</p>
-            <p>– Im <placeName key="A000277">Raimundth.</placeName> mit <persName key="A002083">Heini</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002002">Bahrs</persName> »<workName key="A020082">Meister</workName>« mit <persName key="A002920">Klöpfer</persName>. Nachher mit ihm 
+            <p>– Im <placeName key="A000277">Raimundth.</placeName> mit <persName key="A002083">Heini</persName><space unit="chars" quantity="1"/><persName key="A002002">Bahrs</persName> »<workName key="A020082">Meister</workName>« mit <persName key="A002920">Klöpfer</persName>. Nachher mit ihm 
 bei <placeName key="A000438">Gruß</placeName> gen.–</p>
          </div> 
       </body>

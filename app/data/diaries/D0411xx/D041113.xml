@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041113">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,17 +65,9 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="18940831" n="01">31/8</date> Mit <persName key="A002007">Richard</persName> und <persName key="A002047">Paul</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000616">
-                  <settlement>Aussee</settlement>
-                    </placeName>.
-          <placeName key="A000483">
-                        <settlement>Grundlsee</settlement>
-                    </placeName>. Den <persName key="A002170">Herzl</persName> abgeholt; er und <rs type="person" key="A002534">Frau</rs> mit nach <placeName key="A000556">
-                        <settlement>Altaussee</settlement>
-                    </placeName>.– Schiff zum
+            <p><date when="18940831" n="01">31/8</date> Mit <persName key="A002007">Richard</persName> und <persName key="A002047">Paul</persName><space unit="chars" quantity="1"/><placeName key="A000616">
+                  <settlement>Aussee</settlement></placeName>.
+          <placeName key="A000483"><settlement>Grundlsee</settlement></placeName>. Den <persName key="A002170">Herzl</persName> abgeholt; er und <rs type="person" key="A002534">Frau</rs> mit nach <placeName key="A000556"><settlement>Altaussee</settlement></placeName>.– Schiff zum
           <placeName key="A000306">Seewirth</placeName>, Rückfahrt; <persName key="A002170">Herzl</persName> liest seinen Einakter »<workName key="A020287">Die Glosse</workName>« im Kahn vor; sehr
           hübsche Stellen, hübscher Hintergrund – Handlung.– <persName key="A002170">Herzl</persName> im Gespräch stetes
           Bedürfnis, sich geltend zu machen.– »Wir« sind im Verkehr naiver und sichrer.–

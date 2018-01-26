@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041267">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,9 +71,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, Motiv: »<quote>Kapelle.  <placeName key="A000389">
-                                            <settlement>Semmering</settlement>
-                                        </placeName>.</quote>«, Bleistift.</p>
+                        <p>eh. Postkarte, Motiv: »<quote>Kapelle.  <placeName key="A000389"><settlement>Semmering</settlement></placeName>.</quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A000389">Semmering 1</placeName>
                            <date when="19031228">2<unclear>8</unclear> 12. 03</date>
@@ -86,11 +83,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -108,23 +101,19 @@
                <addrLine>
                   <placeName key="A000268">Wien X<del rend="strikethrough">
                         <unclear>V</unclear>
-                     </del>VIII</placeName>
-                    </addrLine>
+                     </del>VIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <p>Dich u. Deine liebe <rs type="person" key="A002038">Frau</rs> grüßen
         herzlichst</p>
-            <closer>
-                    <signed>HermannBahr</signed>
+            <closer><signed>HermannBahr</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <p>
-                    <handShift scribe="A002064"/>Nicht minder <anchor type="textConst" xml:id="TL267-1">nämlich: herzlich</anchor> </p>
+            <p><handShift scribe="A002064"/>Nicht minder <anchor type="textConst" xml:id="TL267-1" >nämlich: herzlich</anchor> </p>
             <closer>Ihr <signed>Trebitsch</signed>
             </closer>
      

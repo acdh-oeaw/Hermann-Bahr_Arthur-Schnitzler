@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041259">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,8 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote>
-                                        <date>903</date>.</quote>« von Schnitzler ergänzt.</p>
+                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote><date>903</date>.</quote>« von Schnitzler ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000671">Edlach b. Reichenau in N.OE.</placeName>
                            <date when="19030522">22 5 03</date>
@@ -89,11 +87,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -110,34 +104,21 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000259">Wien IX</placeName>
-                    </addrLine>
+                  <placeName key="A000259">Wien IX</placeName></addrLine>
                <addrLine>
                   <placeName key="A000598">Frankgasse</placeName> 1.</addrLine>  
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <placeName key="A000280">Edlach Anstalt D<hi rend="superscript">r</hi>
-                  Konried</placeName>
-                        <lb/>
-                        <date>21. 5.</date>
-                    </dateline>
+               <dateline rend="right"><placeName key="A000280">Edlach Anstalt D<hi rend="superscript">r</hi>
+                  Konried</placeName><lb/><date>21. 5.</date></dateline>
             </opener>
-            <p>
-                    <salute>Lieber Arthur! </salute>Ich habe keine Ahnung, was Du eigentlich meinst. Ich bin seit drei Jahren
-               Mitglied des <anchor type="commentary" xml:id="KL259-1">
-                        <placeName key="A000355">
-                            <settlement>Münchner</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <rs type="org" key="A081205">Pensionsfonds</rs>
-                    </anchor> und zahle dafür sehr wenig; ich glaube 6 oder 8
+            <p><salute>Lieber Arthur! </salute>Ich habe keine Ahnung, was Du eigentlich meinst. Ich bin seit drei Jahren
+               Mitglied des <anchor type="commentary" xml:id="KL259-1" ><placeName key="A000355"><settlement>Münchner</settlement></placeName><space unit="chars" quantity="1"/><rs type="org" key="A081205">Pensionsfonds</rs></anchor> und zahle dafür sehr wenig; ich glaube 6 oder 8
         Mark pro Quartal. Von einer anderen »Zeichnung« ist mir nichts bekannt. Ich komme
         übrigens Montag zurück u. werde mich dann erkundigen.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed>
             </closer>
          </div>
       </body>

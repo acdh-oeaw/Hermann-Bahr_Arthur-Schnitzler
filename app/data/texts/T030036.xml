@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030036">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -59,12 +59,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change when="20160225" who="MAM">Angelegt und kollationiert.</change>
       </revisionDesc>
@@ -73,33 +68,23 @@
       <body>
          <div>
             <head>Hermann Bahr über <persName key="A002001">Arthur Schnitzler</persName>.</head>
-            <p>Vor wenigen Wochen wurde der <orgName key="A080048">akademisch-dramatische Verein</orgName> in <placeName key="A000355">
-                        <settlement>
+            <p>Vor wenigen Wochen wurde der <orgName key="A080048">akademisch-dramatische Verein</orgName> in <placeName key="A000355"><settlement>
                      <hi rend="spaced_out">München</hi>
-                  </settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KT036-1">aufgelöst</anchor>, weil
+                  </settlement></placeName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KT036-1" >aufgelöst</anchor>, weil
           er einige Dialoge aus <persName key="A002001">Arthur Schnitzlers</persName> Dialogbuch
             »<workName key="A020018">Reigen</workName>« auf die Bühne gebracht hatte. Wir haben unsere Auffassung,
           daß die Aufführung dieser Szenen auch in künstlerischer Hinsicht eine Geschmacklosigkeit
           bedeutete, niemals verhehlt, tragen aber auch kein Bedenken, die Auflösung der immerhin
           verdienten literarischen Vereinigung für nutzlose Härte zu erklären.</p>
-            <p>Inzwischen sind uns aus unserem Leserkreise so viele Anfragen über das <rs type="work" key="A020018">Buch</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzlers</persName> zugegangen, daß es geboten erscheint, einmal ein paar
+            <p>Inzwischen sind uns aus unserem Leserkreise so viele Anfragen über das <rs type="work" key="A020018">Buch</rs><space unit="chars" quantity="1"/><persName key="A002001">Schnitzlers</persName> zugegangen, daß es geboten erscheint, einmal ein paar
           Worte über das merkwürdige Werk zu sagen, damit die irrigen Ansichten, die darüber in
           Umlauf sind, richtig gestellt werden. Wir geben zu diesem Zwecke einige Sätze aus einer
           Schrift wieder, die <hi rend="spaced_out">Hermann
              Bahr</hi> der <orgName key="A080041">Statthalterei</orgName> in
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> zugehen ließ, um die ihm bisher
+              <placeName key="A000250"><settlement>Wien</settlement></placeName> zugehen ließ, um die ihm bisher
           noch verweigerte Erlaubnis zu einer Vorlesung der <persName key="A002001">Schnitzler</persName>schen
           Dialoge zu erhalten. Der Autor des »<workName key="A020082">Meister</workName>« schreibt:</p>
-            <p>»Es hat unserer Publizistik an dem Mute gefehlt, öffentlich für das <rs type="work" key="A020018">Werk</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzlers</persName> einzutreten. Gewiß, viele unserer Schriftsteller und Kritiker erkennen den
+            <p>»Es hat unserer Publizistik an dem Mute gefehlt, öffentlich für das <rs type="work" key="A020018">Werk</rs><space unit="chars" quantity="1"/><persName key="A002001">Schnitzlers</persName> einzutreten. Gewiß, viele unserer Schriftsteller und Kritiker erkennen den
           literarischen Wert der Dichtung <persName key="A002001">Schnitzlers</persName> voll an, aber in keinem
           Blatte ist ein Artikel für das Buch erschienen. So wurde das Werk eines Dichters
           totgeschwiegen, ja schlimmer als das, dem Unverstande und der Gehässigkeit preisgegeben.
@@ -110,8 +95,7 @@
           den Dienst frivoler Spielerei, sondern ernster Gedanken gestellt und nicht um ihrer selbst
           willen, sondern aus künstlerischen Gründen mit künstlerischer Notwendigkeit behandelt
           sind.</p>
-            <p>
-                    <persName key="A002001">Schnitzlers</persName> ›<workName key="A020018">Reigen</workName>‹ zeigt in satirischer Form die Konsequenz davon, daß unserer Anlage
+            <p><persName key="A002001">Schnitzlers</persName> ›<workName key="A020018">Reigen</workName>‹ zeigt in satirischer Form die Konsequenz davon, daß unserer Anlage
           nach und noch mehr unserer Gesellschaftsordnung nach das sexuelle Moment in den
           Mittelpunkt des ganzen Lebens gestellt ist. <persName key="A002001">Schnitzler</persName> führt uns in Beispielen, die mit
           Absicht aus den verschiedensten Gesellschaftsschichten gewählt sind, vor, wie anders der

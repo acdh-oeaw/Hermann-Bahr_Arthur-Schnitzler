@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041022">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -73,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
@@ -91,26 +86,21 @@
       <body>
          <div type="writingSession" n="1">
             <p>Sehr geehrter Herr. Im Princip sehr einverstanden.
-        Aber wollen Sie nicht <hi rend="latintype">
-                        <persName key="A002002">Bahr</persName>
-                    </hi> und den andern zur
+        Aber wollen Sie nicht <hi rend="latintype"><persName key="A002002">Bahr</persName></hi> und den andern zur
         Unterzeichnung des Aufrufs bestimmten Personen 
         vorschlagen, zugleich mit der Unterschrift eine Summe
         zu zeichnen? Es gäbe der Sache mehr Gewicht und
         bessere Chancen. Wenn der Aufruf auch etwas später
         erscheinen müßte.</p>
-            <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1">Es ergreift und beschämt uns</anchor>«.
-        Und wenn Sie und <hi rend="latintype">
-                        <persName key="A002002">Bahr</persName>
-                    </hi>, wie ich hoffe, mit dem
+            <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1" >Es ergreift und beschämt uns</anchor>«.
+        Und wenn Sie und <hi rend="latintype"><persName key="A002002">Bahr</persName></hi>, wie ich hoffe, mit dem
         ersten Vorschlag einverstanden sind, sollte es nach
         »tilgen« nicht heißen »die die Unterzeichneten hiermit
         eröffnen« oder ähnlich?
         </p>
-            <closer>Mit vorzüglicher Hochachtung<lb/>
-                    <signed>Dr. Arthur Schnitzler.</signed>
-                </closer>
+            <closer>Mit vorzüglicher Hochachtung<lb/><signed>Dr. Arthur Schnitzler.</signed></closer>
          </div>
       </body>
   </text>
-</TEI><!-- Datierung nach der vorgeschlagenen Formulierung, die sich im Aufruf für Arno Holz befindet -->
+</TEI>
+<!-- Datierung nach der vorgeschlagenen Formulierung, die sich im Aufruf für Arno Holz befindet -->

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041471">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
                     <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18961219" n="01">19. [12. 1896]</date> 
@@ -82,11 +79,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -95,9 +88,7 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>ich hab das <rs type="work" key="A020005">Stück</rs> gleich Donnerstag ordentlich
                     gelesen und am selben Abend meine Meinung dem <persName key="A002001">Schnitzler</persName>
                     gesagt. Wir sind in den wichtigsten Dingen der gleichen Ansicht: das schlechte
@@ -105,9 +96,7 @@
                     <rs type="work" key="A020005">Fanny</rs>, so dass man am Ende des Ernstes der Sache nicht sicher ist, die
                     Schattenhaftigkeit des <rs type="work" key="A020005">Rosetti</rs>. Die Figur des <rs type="work" key="A020005">Lampl</rs> hat mich an einigen Stellen
                     sehr stark berührt.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

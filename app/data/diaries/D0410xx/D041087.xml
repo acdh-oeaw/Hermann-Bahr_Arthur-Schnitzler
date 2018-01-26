@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041087">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,8 +65,7 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18930724" n="02">24/7</date> Begegne <persName key="A002216">Mz.</persName>, die eben zu mir geht.– Finde dann
+            <p><date when="18930724" n="02">24/7</date> Begegne <persName key="A002216">Mz.</persName>, die eben zu mir geht.– Finde dann
         im Kastl verzweifelnden Zettel an mich. »Verzweifelt steh ich da, mit wahnsinnigen
         Geberden, nur einmal soll mir Gott ein bischen helfen, nur einmal, ich kann den
         Leiden nicht, ich kann dem fürchterlichen Elend nicht entgegensehen das meiner
@@ -84,12 +78,7 @@
         dir wie zu meinem Vater, laß mich nicht so entsetzlich untergehen, du mein
         Vater!–«</p>
             <p>Abds. <placeName key="A000275 A001158">Brühl</placeName> (Bic.).</p>
-            <p>
-                    <anchor type="commentary" xml:id="KD087-1">
-                        <rs type="work" key="A020224">Artikel</rs>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002010">Hirschfeld</persName> gegen <persName key="A002002">Bahr</persName> und <persName key="A002331">Wengraf</persName> (<orgName key="A080223">S. u. M. Ztg.</orgName>).</p>
+            <p><anchor type="commentary" xml:id="KD087-1" ><rs type="work" key="A020224">Artikel</rs></anchor><space unit="chars" quantity="1"/><persName key="A002010">Hirschfeld</persName> gegen <persName key="A002002">Bahr</persName> und <persName key="A002331">Wengraf</persName> (<orgName  key="A080223">S. u. M. Ztg.</orgName>).</p>
   
          </div>
       </body> 

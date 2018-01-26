@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041196">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,12 +69,9 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19011116" n="1">16/11</date> Generalprobe des <anchor type="commentary" xml:id="KD196-1">
-                        <placeName key="A000201">Jung Wiener Theaters</placeName>
-                    </anchor>.– <persName key="A002964">Miss Halton</persName>;
+            <p><date when="19011116" n="1">16/11</date> Generalprobe des <anchor type="commentary" xml:id="KD196-1" ><placeName key="A000201">Jung Wiener Theaters</placeName></anchor>.– <persName key="A002964">Miss Halton</persName>;
          <persName key="A002515">Wedekind</persName>, <persName key="A002002">Bahr</persName>, <persName key="A002679">Metzl</persName>.–</p>
-            <p output="true">Abd. mit <persName key="A002038">O.</persName> in der Vorstellung, die mit ziemlichem Recht abfiel. 
+            <p >Abd. mit <persName key="A002038">O.</persName> in der Vorstellung, die mit ziemlichem Recht abfiel. 
 Stimmung dagegen, widerwärtig und gemein schon vorher.– Mit <persName key="A002038">O.</persName>, 
 zufällig auch <persName key="A002268">Kaufmann</persName> und <persName key="A002088">Vanjung</persName> soupirt.– Im Café alle, auch 
 <persName key="A002035">Salten</persName> etc.</p>

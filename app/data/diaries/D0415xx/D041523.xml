@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041523">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20151111">angelegt</change>
         </revisionDesc>
@@ -70,21 +65,12 @@
    <text type="diaryDay">
             <body>
                 <div type="writingSession" n="1">
-                    <p output="true">
-                    <date when="19001102" n="01">2/11</date>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002011">Hugo</persName> Nm. bei mir.– Er ist mir jetzt
+                    <p ><date when="19001102" n="01">2/11</date><space unit="chars" quantity="1"/><persName key="A002011">Hugo</persName> Nm. bei mir.– Er ist mir jetzt
                     weniger sympathisch.– Gibt den Dingen im Bericht und Gespräch nicht die
                     Wichtigkeit, die sie thatsächlich für ihn haben, sondern die, von der er
                     wünscht, dass man glaube, etc.– Mit <persName key="A002663">P. M.</persName>
-                    spazieren.– Sie wohnt wieder <anchor type="commentary" xml:id="KD523-3">
-                        <placeName key="A001032">H.gasse</placeName>
-                    </anchor>, »<anchor type="commentary" xml:id="KD523-2">
-                        <rs type="person" key="A004388">Er</rs>
-                    </anchor>« <placeName key="A000513">Währingerstr.</placeName>
-                    – Sie »Ich bin froh, dass ich Euch beide so in der Näh hab«.– »<anchor type="commentary" xml:id="KD523-1">
-                        <workName key="A020033">Wienerinnen</workName>
-                    </anchor>« im
+                    spazieren.– Sie wohnt wieder <anchor type="commentary" xml:id="KD523-3" ><placeName key="A001032">H.gasse</placeName></anchor>, »<anchor type="commentary" xml:id="KD523-2" ><rs type="person" key="A004388">Er</rs></anchor>« <placeName key="A000513">Währingerstr.</placeName>
+                    – Sie »Ich bin froh, dass ich Euch beide so in der Näh hab«.– »<anchor type="commentary" xml:id="KD523-1" ><workName key="A020033">Wienerinnen</workName></anchor>« im
                     <placeName key="A000220">Volksth</placeName>.– Höre tgl. schlechter; von andern Hypoch. gequält.</p>
                 </div>
             </body>

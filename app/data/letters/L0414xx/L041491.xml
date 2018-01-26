@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041491">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002134">Hofmannsthal, Gerty von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000616">[Bad Aussee]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000616">[Bad Aussee]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19040812" n="01">12. 8. 1904</date>
                     </dateSender>
@@ -83,11 +78,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -96,15 +87,11 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Neulich war ich mit <persName key="A002001">Arthur</persName> und <persName key="A002038">Olga</persName>
                     beim <placeName key="A000377">Stelzer</placeName>. Ihr Haus mit den verschlossenen Fenstern!
                     Liebe Gerty, ich kann Ihnen gar nicht sagen, wie traurig das war.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

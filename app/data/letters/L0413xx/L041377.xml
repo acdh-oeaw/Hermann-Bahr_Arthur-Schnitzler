@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041377">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A002007">Beer-Hofmann, Richard</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
                     <!--<placeAddressee><placeName>Abbazia/Opatija</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18920311" n="01">11. 3. 1892</date>
@@ -70,8 +67,7 @@
                                 <repository>Beinecke Rare Book and Manuscript Library</repository>
                                 <idno>Yale Collection of German Literature, MSSS 31 Box 1f.</idno>
                             </msIdentifier>
-                            <physDesc>
-                                <p>eh. Brief mit Kuvert, 2 Bl., 8 S.</p>
+                            <physDesc><p>eh. Brief mit Kuvert, 2 Bl., 8 S.</p>
                             <stamp n="1">
                                 <placeName key="A000251">Wien 1/1</placeName>
                                 <date when="18920311">11 3 92</date>
@@ -93,7 +89,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
                         <biblScope unit="pp">120–121</biblScope>
@@ -118,11 +114,7 @@
                 
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160118">Angelegt aus Scan</change>
             <change who="MAM" when="20160406">Durchgesehen mit AS/BH-Ausgabe, aber Vorlage AS: Briefe I belassen, da weniger normalisiert. Details mit AS/BH-Ausgabe geändert</change>
@@ -133,22 +125,9 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine>Herrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi>
-                    </addrLine>
-                    <addrLine>
-                        <hi rend="latintype">
-                            <hi rend="underline" n="1">
-                                <placeName key="A000958">
-                                    <settlement>Abbazia</settlement>
-                                </placeName>
-                            </hi>
-                        </hi>
-                    </addrLine>
-                       <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000957">Pension Quisisana</placeName>
-                        </hi>
-                    </addrLine> 
+                    <addrLine>Herrn <hi rend="latintype">Dr. Rich. Beer-Hofmann</hi></addrLine>
+                    <addrLine><hi rend="latintype"><hi rend="underline" n="1"><placeName key="A000958"><settlement>Abbazia</settlement></placeName></hi></hi></addrLine>
+                       <addrLine><hi rend="latintype"><placeName key="A000957">Pension Quisisana</placeName></hi></addrLine> 
                 </address>
             </div>
                 
@@ -156,34 +135,18 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>,	<date>11. März 92</date>.</dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>,	<date>11. März 92</date>.</dateline>
                     <salute>Lieber Richard,</salute>
                 </opener>
-                <p output="true">
-                    <persName key="A002324">Kafka</persName> habe ich die letzten Tage nicht gesehn.
-                    Das letzte Mal an unserm <rs type="org" key="A081250">Vereinsabend</rs>, der nur einen Lichtpunkt hatte: <persName key="A002002">Bahr’s</persName> »<anchor type="commentary" xml:id="KL377-1">
-                        <workName key="A020184">treue
-                        Adele</workName>
-                    </anchor>« von <persName key="A002002">Bahr</persName> vorgelesen. Er
-                    las entzückend. <persName key="A003723">
-                        <hi rend="latintype">Meixner</hi>
-                    </persName> las Parabeln von <persName key="A002324">Kafka</persName> und ein
-                    Gedicht <persName key="A002396">
-                        <hi rend="latintype">Liliencron</hi>
-                    </persName> sehr schlecht vor.
-                    <persName key="A002248">
-                        <hi rend="latintype">Polland</hi>
-                    </persName> das <workName key="A021287">Kaffehaus</workName> von <persName key="A002035">
-                        <hi rend="latintype">Salten</hi>
-                    </persName>,
-                    Gedichte von <persName key="A002011">
-                        <hi rend="latintype">Loris</hi>
-                    </persName>, <persName key="A002231">Korff</persName> u mir unbeschreiblich entsetzlich. Es ist unmöglich, sich
+                <p ><persName key="A002324">Kafka</persName> habe ich die letzten Tage nicht gesehn.
+                    Das letzte Mal an unserm <rs type="org" key="A081250">Vereinsabend</rs>, der nur einen Lichtpunkt hatte: <persName key="A002002">Bahr’s</persName> »<anchor type="commentary" xml:id="KL377-1" ><workName key="A020184">treue
+                        Adele</workName></anchor>« von <persName key="A002002">Bahr</persName> vorgelesen. Er
+                    las entzückend. <persName key="A003723"><hi rend="latintype">Meixner</hi></persName> las Parabeln von <persName key="A002324">Kafka</persName> und ein
+                    Gedicht <persName key="A002396"><hi rend="latintype">Liliencron</hi></persName> sehr schlecht vor.
+                    <persName key="A002248"><hi rend="latintype">Polland</hi></persName> das <workName key="A021287">Kaffehaus</workName> von <persName key="A002035"><hi rend="latintype">Salten</hi></persName>,
+                    Gedichte von <persName key="A002011"><hi rend="latintype">Loris</hi></persName>, <persName key="A002231">Korff</persName> u mir unbeschreiblich entsetzlich. Es ist unmöglich, sich
                     von dieser talentlosen Brüllerei einen Begriff zu machen, wenn man nicht dabei<pb/> war. – Zum Schluss wurde getanzt. Von mir nicht, bitte. – </p>
-                <p output="#dots">
-                    <persName key="A002166">Blumenthal</persName> war hier, ich sprach ihn. Er will Kürzungen und
+                <p ><persName key="A002166">Blumenthal</persName> war hier, ich sprach ihn. Er will Kürzungen und
                     einige Aenderungen am <workName key="A020002">Märchen</workName>. Einiges wird sich wohl thun
                     lassen; ich habe mich schon daran gemacht, und die schöne Fremdheit, die mich
                     vom <workName key="A020002">Märchen</workName> bereits trennt, läßt mich die Dinge leichter
@@ -193,24 +156,17 @@
                     ihn!? Und noch immer läßt man die erst- und zweitgradigen frei herumlaufen, die
                     doch nur dazu da sind, um den dritt und viertgradigen das Leben zu
                     vermiesen.</p>
-                <p output="#dots">Gestern hab ich mein <rs type="work" key="A020188">neues Stück</rs> begonnen.
-                    Außerdem schreibe ich slowly, langsam an meiner <rs type="work" key="A020149">Novelle</rs>. – <orgName key="A080611">Fontane (Verlag)</orgName> hat
+                <p >Gestern hab ich mein <rs type="work" key="A020188">neues Stück</rs> begonnen.
+                    Außerdem schreibe ich slowly, langsam an meiner <rs type="work" key="A020149">Novelle</rs>. – <orgName  key="A080611">Fontane (Verlag)</orgName> hat
                     mich freundlichst ersucht, den <workName key="A020058">Anatol-Cyclus</workName>
                     – <hi rend="underline" n="1">nicht</hi> einzusenden, »da sie kaum die Zeit finden
                     dürften, meiner Sammlung einen sorgfältigen u energischen Vertrieb angedeihen zu
                     lassen etc etc« </p>
-                <p output="true">– Aus den »<hi rend="latintype">
-                        <workName key="A020960">Aveugles</workName>
-                    </hi>« scheint wirklich was zu
-                    werden. Doch soll dazu weder Pantomime noch <workName key="A020093">Abschiedssouper</workName> gegeben werden, sondern »<hi rend="latintype">
-                        <workName key="A020185" subtype="local">l’Intrus</workName>
-                    </hi>«. – Zu den beiden ein Vortrag von <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>. Später soll ein Pantomimen u Lustspielabend
+                <p >– Aus den »<hi rend="latintype"><workName key="A020960">Aveugles</workName></hi>« scheint wirklich was zu
+                    werden. Doch soll dazu weder Pantomime noch <workName key="A020093">Abschiedssouper</workName> gegeben werden, sondern »<hi rend="latintype"><workName key="A020185" subtype="local">l’Intrus</workName></hi>«. – Zu den beiden ein Vortrag von <persName key="A002002"><hi rend="latintype">Bahr</hi></persName>. Später soll ein Pantomimen u Lustspielabend
                     arrangirt werden. Man kam mit dem fait accompli zu uns, das<pb/> freilich meinen
                     Beifall nicht hat.–</p>
-                <p>
-                    <persName key="A002011">Loris</persName> schreibt viel, <persName key="A002035">Salten</persName> schreibt wenig. Die andern seh ich gar nicht; das
+                <p><persName key="A002011">Loris</persName> schreibt viel, <persName key="A002035">Salten</persName> schreibt wenig. Die andern seh ich gar nicht; das
                         <placeName key="A000234">Cafe Griensteidl</placeName> existirt für mich
                     nicht mehr. – </p>
                 <p>Ich lese <persName key="A002570">Taine</persName>, <workName key="A020707">ancien
@@ -230,9 +186,7 @@
                 <p>Schreiben Sie mir bald, und möglichst viel, es muß doch ganz schön sein, wenn man
                     einmal wo anders ist. Und dann, schreiben Sie – wir erwarten es, wir – vom
                     großen Orden. –</p>
-                <closer>Herzlichst Ihr<lb/>
-                    <signed>Arthur Sch</signed>
-                </closer>
+                <closer>Herzlichst Ihr<lb/><signed>Arthur Sch</signed></closer>
             </div>
         </body>
     </text>

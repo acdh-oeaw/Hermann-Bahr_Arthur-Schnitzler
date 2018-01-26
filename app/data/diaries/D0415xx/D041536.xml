@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041536">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,17 +66,13 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19290507" n="1">7/5</date> Früh <time>½ 9</time> ins <placeName key="A000721">Akad.
+            <p ><date when="19290507" n="1">7/5</date> Früh <time>½ 9</time> ins <placeName key="A000721">Akad.
             Th.</placeName> »General Pr.« <workName key="A020027">Puppenspieler</workName>; recht sehr wirkend.–
             <persName key="A003562">Balser</persName> wäre mein Schauspieler;– nur – sagt ich zu
             <persName key="A004447">Brahm</persName>, hab ich leider keinen Director.
             (<persName key="A002811">Herterich</persName> war da und strich am »<workName key="A020047">Faun</workName>«.) –
             »<workName key="A020871">Schöne Seelen</workName>«, das amüsante Stück von <persName key="A002035">Salten</persName>. Er war da; 
-               ich gratulirte ihm zum Erfolg des <anchor type="commentary" xml:id="KD536-1">
-                        <workName key="A020801">Bambi</workName> in <placeName key="A000375">
-                            <country>Amerika</country>
-                        </placeName>
+               ich gratulirte ihm zum Erfolg des <anchor type="commentary" xml:id="KD536-1" ><workName key="A020801">Bambi</workName> in <placeName key="A000375"><country>Amerika</country></placeName>
           (120.000 Auflage)</anchor>. Wir verabredeten uns endlich wiederzusehen, ohne dass es uns ernst war.
           Die Hofr. <persName key="A002154">Z.</persName>; <persName key="A003563">Hennings</persName>, die alte
             <persName key="A003615">Lewinsky</persName> sprach ich auch (und sie den alten

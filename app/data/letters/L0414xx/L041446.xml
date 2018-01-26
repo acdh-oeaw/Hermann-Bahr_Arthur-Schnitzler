@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041446">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -51,9 +50,7 @@
                         
                     </addressee>
                     <!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>-->
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19040108" n="2">[8.–9. 1. 1904]</date>
                     </dateSender>
@@ -72,9 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., Lateinschrift; von Schnitzler datiert »<quote>
-                                        <date>Jänner 904</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 3 S., Lateinschrift; von Schnitzler datiert »<quote><date>Jänner 904</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -84,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">181–182</biblScope>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160311">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -107,26 +98,21 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <salute>Lieber Arthur, </salute>ich bin natürlich äusserst bestürzt über die plötzlich so sehr ernsthaft gewordene
+                <p><salute>Lieber Arthur, </salute>ich bin natürlich äusserst bestürzt über die plötzlich so sehr ernsthaft gewordene
                     Situation <persName key="A002002">Bahrs</persName>. Die Diagnose <persName key="A002076">Ortner’s</persName>
                     lautete: schwere Erkrankung der Aorta und der Kranzarterien Angina pectoris. Der
                     Frau <persName key="A002186">Bahr</persName> scheint der <rs type="person" key="A002076">Hausarzt</rs> den Zustand
-                    als schwere Herzmuskelerkrankung<pb/> bezeichnet und wenig Hoffnung gegeben zu haben<supplied>.</supplied>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002002">Bahr</persName> reist Mittwoch früh nach dem <placeName key="A000419">Sanatorium für Herzkranke in Marbach am Bodensee</placeName>
+                    als schwere Herzmuskelerkrankung<pb/> bezeichnet und wenig Hoffnung gegeben zu haben<supplied>.</supplied><space unit="chars" quantity="1"/><persName key="A002002">Bahr</persName> reist Mittwoch früh nach dem <placeName key="A000419">Sanatorium für Herzkranke in Marbach am Bodensee</placeName>
                     für mindestens 3 Monate. Ich schwanke zwischen einer sehr traurigen Auffassung
                     und einer etwas hoffnungsvolleren, die darauf beruht, dass doch 
                     Ihr <rs type="person" key="A002063">Bruder</rs> ihn<pb/> erst im <date>April</date> untersucht hat ferner die Ärzte im
-                    <date>Mai</date> in <placeName key="A000671">
-                        <settlement>Edlach</settlement>
-                    </placeName> und das so
+                    <date>Mai</date> in <placeName key="A000671"><settlement>Edlach</settlement></placeName> und das so
                     plötzliche Eintreten einer so äusserst schweren Erkrankung in diesem Alter mir
                     ganz räthselhaft erscheint.</p>
                 <closer>Ich hin sehr bekümmert und wünsche mir sehr mit Ihnen
-                    darüber zu reden. Von Herzen<lb/>Ihr <signed>Hugo</signed>
-                </closer>
+                    darüber zu reden. Von Herzen<lb/>Ihr <signed>Hugo</signed></closer>
             </div>
         </body>
     </text>
-</TEI><!-- Datierung über Schnitzlers Tb, wo er die Verschickung am 9. erwähnt und den Brief vom 8., wo er von nix weiß -->
+</TEI>
+<!-- Datierung über Schnitzlers Tb, wo er die Verschickung am 9. erwähnt und den Brief vom 8., wo er von nix weiß -->

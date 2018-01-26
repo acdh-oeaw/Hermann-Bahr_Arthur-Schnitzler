@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041315">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19080603" n="01">3. [6.] 1908</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -96,27 +87,19 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>3. <subst>
-                     <del rend="overwritten">
-                                    <unclear>5</unclear>
-                                </del>
+               <dateline rend="right"><date>3. <subst>
+                     <del rend="overwritten"><unclear>5</unclear></del>
                      <add place="inline">
                         <unclear>6</unclear>
                      </add>
-                  </subst>. 08</date>
-                    </dateline>
+                  </subst>. 08</date></dateline>
                <salute rend="center">Lieber Artur!</salute>
             </opener>
-            <p>Nur geschwind herzlichsten Dank für <anchor type="commentary" xml:id="KL315-2">Deinen <rs type="work" key="A020052">Roman</rs>
-                    </anchor>. Darüber müssen wir einmal lange reden. Bis ich erst
+            <p>Nur geschwind herzlichsten Dank für <anchor type="commentary" xml:id="KL315-2">Deinen <rs type="work" key="A020052">Roman</rs></anchor>. Darüber müssen wir einmal lange reden. Bis ich erst
                <anchor type="commentary" xml:id="KL315-1">mit <rs type="work" key="A020351">meinem</rs> fertig</anchor> bin, in dem ich jetzt über die
         Ohren stecke.</p>
             <closer>Eiligst<lb/>herzlichst<lb/>mit den allerbesten Grüßen an Deine 
-        liebe <rs type="person" key="A002038">Frau</rs>
-                    <lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+        liebe <rs type="person" key="A002038">Frau</rs><lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

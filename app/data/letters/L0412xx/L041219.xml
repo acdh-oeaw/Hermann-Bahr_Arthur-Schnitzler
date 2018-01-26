@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041219">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,20 +69,17 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>). Rückseitig (spiegelverkehrter) Tintenabdruck: »<quote>Herrn
-                              <persName key="A002222">Felix Dörmann</persName> / <placeName key="A000252">Wien II</placeName> / <placeName key="A000318">Carltheater</placeName>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »›<orgName key="A080011">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName key="A002607">I. Singer</persName>, / Hermann Bahr, Dr. <persName key="A002661">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"><placeName key="A000250">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName key="A000497">IX/3, Günthergasse 1</placeName>.« Rückseitig (spiegelverkehrter) Tintenabdruck: »<quote>Herrn
+                              <persName key="A002222">Felix Dörmann</persName> / <placeName
+                              key="A000252">Wien II</placeName> / <placeName key="A000318"
+                              >Carltheater</placeName></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -98,24 +94,18 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>2. September 8</date>
-                    </dateline>
+               <dateline rend="right"><date>2. September 8</date></dateline>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
             <p>Wo bist Du eigentlich? Ich möchte zu Dir kommen, 1) natürlich wieder wegen <persName key="A003917">Neumanhofer</persName>, 2) weil ich sehr traurig bin, daß Du mir niemals
-          spontan etwas für die »<orgName key="A080011">Zeit</orgName>« schickst. Ich wäre sehr
+          spontan etwas für die »<orgName  key="A080011">Zeit</orgName>« schickst. Ich wäre sehr
           froh, wenn ich das neue Quartal<pb/> mit einer kleinen Sache von Dir (noch lieber mit
           einer großen) anfangen <del rend="erased">zu</del> könnte. Darüber u. noch anderes möcht
           ich mit Dir reden. Also laß mich, bitte, wissen, wann Du wieder da bist.</p>
-            <closer>Herzlichst<lb/>Dein alter<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein alter<lb/><signed>HermannBahr</signed></closer>
             <postscript>
                <p>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler<lb/>
-                  <placeName key="A000259">Wien IX</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="A000598">Frankgasse 1</placeName>
+                  <placeName key="A000259">Wien IX</placeName><space unit="chars" quantity="1"/><placeName key="A000598">Frankgasse 1</placeName>
                   <lb/>Bitte nachsenden!</p>
             </postscript>
          </div>

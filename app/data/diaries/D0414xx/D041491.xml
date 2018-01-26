@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041491">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">V</biblScope>
+                            </imprint><biblScope unit="vol">V</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160111">angelegt</change>
             <change who="KI MAM" when="20160205">Kollationiert am Original</change>
@@ -93,40 +87,21 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p rend="center">
+            <p rend="center" >
                <date when="19061021" n="01">October.</date>
             </p>
-            <p>Von <date>1.</date> bis <date>16.</date> ein kleines <rs type="work" key="A020399">Büchel</rs> über »<placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>« diktiert.</p>
+            <p>Von <date>1.</date> bis <date>16.</date> ein kleines <rs type="work" key="A020399">Büchel</rs> über »<placeName key="A000250"><settlement>Wien</settlement></placeName>« diktiert.</p>
             <p>Nachmittag immer bei <persName key="A002080">M.</persName>
             </p>
             <p>Einmal bei <persName key="A002001">Arthur</persName>, einmal bei <persName key="A002035">Salten</persName> und <persName key="A003108 A003212">Redlichs</persName>.</p>
-            <p>Gelesen <persName key="A003370">Hohenlohes</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020642">Memoiren</workName>, 
-                <persName key="A002828">Bismarcks</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020643">Briefe an seine <rs type="person" key="A003371">Frau</rs>
-                    </workName>, 
-                <persName key="A003372">Ratzels</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020644">Völkerkunde</workName>, 
-                <persName key="A003373">Schurz</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020645">Urgeschichte der Cultur</workName>.</p>
-            <p>
-                    <date>19.</date> Schönster <workName key="A020039">Tristan</workName>abend.</p>
-            <p>
-                    <date>21.</date>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002721">Bruckner</persName>feier der <orgName key="A080119">Philharmoniker</orgName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020752">C. Dur</workName>.</p>
+            <p>Gelesen <persName key="A003370">Hohenlohes</persName><space unit="chars" quantity="1"/><workName key="A020642">Memoiren</workName>, 
+                <persName key="A002828">Bismarcks</persName><space unit="chars" quantity="1"/><workName key="A020643">Briefe an seine <rs type="person" key="A003371">Frau</rs></workName>, 
+                <persName key="A003372">Ratzels</persName><space unit="chars" quantity="1"/><workName key="A020644">Völkerkunde</workName>, 
+                <persName key="A003373">Schurz</persName><space unit="chars" quantity="1"/><workName key="A020645">Urgeschichte der Cultur</workName>.</p>
+            <p><date>19.</date> Schönster <workName key="A020039">Tristan</workName>abend.</p>
+            <p><date>21.</date><space unit="chars" quantity="1"/><persName key="A002721">Bruckner</persName>feier der <orgName key="A080119">Philharmoniker</orgName><space unit="chars" quantity="1"/><workName key="A020752">C. Dur</workName>.</p>
             <p>Eröffng der Volksbücher mit <persName key="A003483">Andrejews</persName> »<workName key="A020751">Zu den Sternen</workName>«.</p>
-            <p>Immer stark darüber nachgedacht, ob ich nicht politisch aktiv werden soll. Immer ein Büchel über »das östreichische Problem« im Kopf.<pb/>
-                </p>
-                <p>Die wunderschön traurigen Stunden des gelben und roten Herbstes, der jetzt ungewöhnlich warm ist.</p>
+            <p>Immer stark darüber nachgedacht, ob ich nicht politisch aktiv werden soll. Immer ein Büchel über »das östreichische Problem« im Kopf.<pb/></p><p>Die wunderschön traurigen Stunden des gelben und roten Herbstes, der jetzt ungewöhnlich warm ist.</p>
                 
         </div>
       </body>

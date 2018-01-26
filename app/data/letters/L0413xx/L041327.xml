@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041327">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19100926" n="01">26. 9. 1910</date>
                </dateSender>
@@ -77,11 +74,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -100,42 +93,28 @@
             <opener>
                <dateline rend="right">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
-                  </placeName>
-                        <space unit="chars" quantity="5"/>
-                        <date>26. 9. 10</date>.</dateline>
+                  </placeName><space unit="chars" quantity="5"/><date>26. 9. 10</date>.</dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich fahre <anchor type="commentary" xml:id="KL327-2">Samstag für vier Wochen nach
-            <placeName key="A000424">
-                            <settlement>London</settlement>
-                        </placeName>
-                    </anchor> und so werde ich leider <anchor type="label" xml:id="LL327-1">bei
+            <p>Ich fahre <anchor type="commentary" xml:id="KL327-2" >Samstag für vier Wochen nach
+            <placeName key="A000424"><settlement>London</settlement></placeName></anchor> und so werde ich leider <anchor type="label" xml:id="LL327-1" >bei
           Deiner <rs type="work" key="A020059">Première</rs> nicht in
-              <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </anchor> sein. Es wäre mir aber lieb, wenn
+              <placeName key="A000250"><settlement>Wien</settlement></placeName></anchor> sein. Es wäre mir aber lieb, wenn
           Du mir (entweder noch vor Samstag hieher oder dann nach <placeName key="A000216">London E.
-            C. Victoria Embankment, De Keysers Hotel</placeName>) ein <anchor type="commentary" xml:id="KL327-1">Buch Deines neuen <rs type="work" key="A020059">Stückes</rs>
-                    </anchor> schicken könntest. Macht es mir einen starken Eindruck
-          und habe ich darüber wirklich etwas zu sagen, so würde ich das für das <orgName key="A080080">Wiener Journal</orgName> von
-            <placeName key="A000424">
-                        <settlement>London</settlement>
-                    </placeName> aus tun und veranlassen, dass von
+            C. Victoria Embankment, De Keysers Hotel</placeName>) ein <anchor type="commentary" xml:id="KL327-1" >Buch Deines neuen <rs type="work" key="A020059">Stückes</rs></anchor> schicken könntest. Macht es mir einen starken Eindruck
+          und habe ich darüber wirklich etwas zu sagen, so würde ich das für das <orgName  key="A080080">Wiener Journal</orgName> von
+            <placeName key="A000424"><settlement>London</settlement></placeName> aus tun und veranlassen, dass von
           irgend einem der Herren<pb/> der Redaktion eine kurze Notiz über die Aufführung und
           Aufnahme angehängt werde. Kann ich aber in kein rechtes inneres Verhältnis dazu kommen,
           woran ja ebenso der Autor wie der Kritiker schuld sein kann, so ist es uns beiden besser,
           wenn ich die Gelegenheit zu schweigen ausnütze, statt mich um das Stück herum zu reden,
           was mir, je älter ich werde, immer unleidlicher wird.</p>
             <p>Im <date>November</date> komme ich nur auf ein paar Tage zurück, weil ich gleich wieder 
-        an den <geogName type="river">Rhein</geogName>, auf eine <anchor type="commentary" xml:id="KL327-3">Vorlesungstournée</anchor> muss. Aber im <date>Dezember</date> wird es uns 
-        dann doch einmal vergönnt sein, in Ruhe zu <rs type="person" key="A002038">Euch</rs> zu kommen.<pb/>
-                </p>
+        an den <geogName type="river">Rhein</geogName>, auf eine <anchor type="commentary" xml:id="KL327-3" >Vorlesungstournée</anchor> muss. Aber im <date>Dezember</date> wird es uns 
+        dann doch einmal vergönnt sein, in Ruhe zu <rs type="person" key="A002038">Euch</rs> zu kommen.<pb/></p>
             <closer>Mit herzlichen Grüssen von <rs type="person" key="A002080">uns</rs> beiden, auch
         an Deine liebe <rs type="person" key="A002038">Frau</rs>,<lb/>Dein alter<lb/>
-               <signed>
-                        <handShift scribe="A002002"/>Hermann</signed>
-                </closer>
+               <signed><handShift scribe="A002002"/>Hermann</signed></closer>
             <postscript>
                <p>viel zu nervös, um selbst schreiben zu können.</p>
             </postscript>

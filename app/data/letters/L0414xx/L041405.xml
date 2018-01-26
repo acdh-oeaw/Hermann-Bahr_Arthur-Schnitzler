@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041405">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -66,7 +65,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                         </imprint>
                         <biblScope unit="pp">594–596</biblScope>
@@ -90,11 +89,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160127">Angelegt aus Scan</change>
         </revisionDesc>
@@ -104,11 +99,8 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000671">
-                            <settlement>Edlach</settlement>
-                        </placeName>,
-                        <date when="19090814">14. August 09</date>
-                    </dateline>
+                  <placeName key="A000671"><settlement>Edlach</settlement></placeName>,
+                        <date when="19090814">14. August 09</date></dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
                 <p>ich tue wohl am besten, Ihnen den schon geraume Zeit unbeantwortet bei mir
@@ -142,28 +134,22 @@
                     Sie sich mit der <workName key="A020058">Anatol</workName>-Idee so herzlich befreundet haben.
                     Das Ganze läßt sich gewiß gerade in der Aufeinanderfolge hübsch inszenieren und
                     Szene für Szene fein aufeinander abstimmen.</p>
-                <p output="true">»<workName key="A020013">Gefährtin</workName>« natürlich mit besonderem Vergnügen
+                <p  >»<workName key="A020013">Gefährtin</workName>« natürlich mit besonderem Vergnügen
                     einverstanden. <persName key="A002053">Sauer</persName> wäre außerordentlich. Und sie? Die
                         <persName key="A002054">Triesch</persName>, nicht wahr? Der andere –
                         <persName key="A003568">Stieler</persName>? Auch die drei Perzent lassen keinen Einwand
-                    zu, und das »<anchor type="commentary" xml:id="KL405-2">
-                        <workName key="A020797">Hannele</workName>
-                    </anchor>« ist (und wäre mir auch mit neun
+                    zu, und das »<anchor type="commentary" xml:id="KL405-2" ><workName key="A020797">Hannele</workName></anchor>« ist (und wäre mir auch mit neun
                     Perzent) eine Gefährtin, die ich beträchtlich höher schätze als die so benannte.
                     Sehr lustig stelle ich mir ja den Abend nicht vor, aber für Lustigkeit haben Sie
-                    heuer ja genügend gesorgt (womit Sie wiederum mein <anchor type="commentary" xml:id="KL405-1">sinistres Schweigen</anchor> über
+                    heuer ja genügend gesorgt (womit Sie wiederum mein <anchor type="commentary" xml:id="KL405-1" >sinistres Schweigen</anchor> über
                         »<workName key="A020057">Das Konzert</workName>« als gebrochen erachten mögen).</p>
                 <p>Sie werden diesem Brief vielleicht gar nicht anlesen, daß ich gestern von einer
                     Doppelbergtour oder Bergdoppeltour auf <geogName type="mountain" instant="false">Schneeberg</geogName> und <geogName type="mountain" instant="false">Hohe Wand</geogName> mit einem
                     ordentlichen Hexenschuß zurückgekehrt bin. Hiemit hab ich den
                     <rs type="work" key="A021264">menschenfeindlichen Alpenkönigen</rs> mein Opfer dargebracht, und in etwa 8 Tagen
-                    fahren wir alle nach <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>
+                    fahren wir alle nach <placeName key="A000250"><settlement>Wien</settlement></placeName>
                     zurück. Ich aber begebe mich bald darauf nach
-                            <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>, wo ich
+                            <placeName key="A000355"><settlement>München</settlement></placeName>, wo ich
                         <persName key="A002078">Reinhardt</persName> (der mich in einem zärtlichen Telegramm darum
                     gebeten hat) mein <rs type="work" key="A020059">Ausstattungsstück</rs> mit Gesang und Tanz auf
                     einem Vulkan vorzulesen gedenke. (Die Notiz, die Sie nicht gelesen haben und die
@@ -177,8 +163,7 @@
                     – bisher hab ich noch keine Zeile erhalten. Seien Sie herzlichst gegrüßt, auch
                     von meiner <rs type="person" key="A002038">Frau</rs>, der es sehr gut geht, gerade so wie
                         <persName key="A002083">Heini</persName>.</p>
-                <closer>Ihr <signed>A. S.</signed>
-                </closer>
+                <closer>Ihr <signed>A. S.</signed></closer>
             </div>
         </body>
     </text>

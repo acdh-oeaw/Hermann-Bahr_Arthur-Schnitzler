@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041104">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,15 +65,8 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18940605" n="2">5/6</date>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>.– <placeName key="A000298">Secession</placeName>. <placeName key="A000299">Schack</placeName>.– <persName key="A002002">Bahr</persName> kommt an. 
-               Gespräche über <persName key="A002035">Salten</persName>. »<anchor type="commentary" xml:id="KD104-1">
-                        <workName key="A020280 A020281">Sans-Gêne</workName>
-                    </anchor>«.– Mit <persName key="A002525">Conrad</persName>
+            <p><date when="18940605" n="2">5/6</date><space unit="chars" quantity="1"/><placeName key="A000355"><settlement>München</settlement></placeName>.– <placeName key="A000298">Secession</placeName>. <placeName key="A000299">Schack</placeName>.– <persName key="A002002">Bahr</persName> kommt an. 
+               Gespräche über <persName key="A002035">Salten</persName>. »<anchor type="commentary" xml:id="KD104-1" ><workName key="A020280 A020281">Sans-Gêne</workName></anchor>«.– Mit <persName key="A002525">Conrad</persName>
       im <placeName key="A000300">Luitpold</placeName>.</p>
   
          </div>

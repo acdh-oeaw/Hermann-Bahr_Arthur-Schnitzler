@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041098">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,15 +65,11 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18940113" n="1">13/1</date> Blumen von <persName key="A002216">Mz.</persName>– An <persName key="A002355">Pierson</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020002">Märchen</workName> geschickt.– An <persName key="A002356">Lautenburg</persName> und <persName key="A002357">Jarno</persName> 
+            <p><date when="18940113" n="1">13/1</date> Blumen von <persName key="A002216">Mz.</persName>– An <persName key="A002355">Pierson</persName><space unit="chars" quantity="1"/><workName key="A020002">Märchen</workName> geschickt.– An <persName key="A002356">Lautenburg</persName> und <persName key="A002357">Jarno</persName> 
                geschrieben.– <workName key="A020317">Blumen</workName>, Novelle.– »<workName key="A020233">Portrait</workName>« begonnen.–
     </p>
             <p>Mittag bei <persName key="A002018">Diltsch</persName>.– Abds. bei <persName key="A002011">Loris</persName>. Dort 
-               <persName key="A002002">Bahr</persName>, <persName key="A002007">Richard</persName>, <persName key="A002358">Julius Pap</persName>, <persName key="A002359">
-                        <anchor type="commentary" xml:id="KD098-1">Br.</anchor> Löwenthal</persName>, <persName key="A002042">Br. Andrian</persName>, <persName key="A002287">Br. Oppenheimer</persName>.</p>
+               <persName key="A002002">Bahr</persName>, <persName key="A002007">Richard</persName>, <persName key="A002358">Julius Pap</persName>, <persName key="A002359"><anchor type="commentary" xml:id="KD098-1" >Br.</anchor> Löwenthal</persName>, <persName key="A002042">Br. Andrian</persName>, <persName key="A002287">Br. Oppenheimer</persName>.</p>
   
          </div>
       </body> 

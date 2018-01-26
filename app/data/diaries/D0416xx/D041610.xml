@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041610">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,21 +51,14 @@
                             <idno>36881-I</idno>
                         </msIdentifier>
                         <physDesc>
-                           <p>hs., mit rotem Buntstift und Bleistift auf dem Titelblatt von Arthur Schnitzler: <workName key="A020519">Die dreifache Warnung. Novellen</workName>. Mit einem Nachwort von <persName key="A002107">Oswald Brüll</persName>. <placeName key="A001065">
-                                        <settlement>Leipzig</settlement>
-                                    </placeName>: <orgName key="A080682">Philipp Reclam jun.</orgName>
-                                    <space unit="chars" quantity="1"/>[<date when="1924">1924</date>].</p>
+                           <p>hs., mit rotem Buntstift und Bleistift auf dem Titelblatt von Arthur Schnitzler: <workName key="A020519">Die dreifache Warnung. Novellen</workName>. Mit einem Nachwort von <persName key="A002107">Oswald Brüll</persName>. <placeName key="A001065"><settlement>Leipzig</settlement></placeName>: <orgName  key="A080682">Philipp Reclam jun.</orgName><space unit="chars" quantity="1"/>[<date when="1924">1924</date>].</p>
                         </physDesc>
                      </msDesc>
                   </witness>
                </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20170210">angelegt</change>
             <change who="KI MAM" when="20170213">Kollationiert</change>
@@ -75,10 +67,7 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-           <p>Gelesen<lb/>
-                    <del rend="strikethrough">Ge</del>
-                    <space unit="chars" quantity="1"/>
-                    <date when="19311105" n="1">5. November 31</date>
+           <p>Gelesen<lb/><del rend="strikethrough">Ge</del><space unit="chars" quantity="1"/><date when="19311105" n="1">5. November 31</date>
            </p>
         </div>
       </body>

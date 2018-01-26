@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041241">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,16 +66,9 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19041005" n="1">5/10</date> An <persName key="A002048">Kainz</persName> 3
+            <p><date when="19041005" n="1">5/10</date> An <persName key="A002048">Kainz</persName> 3
         Einakter (<workName key="A020027">Puppenspieler</workName>, <workName key="A020029">Letzte M.</workName>, <workName key="A020025">Lit.</workName>) –</p>
-            <p>Zu <persName key="A002267">Wassermann</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000263">Hietzing</placeName>; <persName key="A002297">Julie</persName> war krank im Sommer.– Über <persName key="A002007">Richard</persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="A020207">Stück</rs>, <persName key="A002002">Bahrs</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020123">Marsyas</workName>, <persName key="A002704">Vehse</persName>, Militarismus, Kindererziehung, 
+            <p>Zu <persName key="A002267">Wassermann</persName><space unit="chars" quantity="1"/><placeName key="A000263">Hietzing</placeName>; <persName key="A002297">Julie</persName> war krank im Sommer.– Über <persName key="A002007">Richard</persName><space unit="chars" quantity="1"/><rs type="work" key="A020207">Stück</rs>, <persName key="A002002">Bahrs</persName><space unit="chars" quantity="1"/><workName key="A020123">Marsyas</workName>, <persName key="A002704">Vehse</persName>, Militarismus, Kindererziehung, 
 Autorenschutz und -schutzlosigkeit.</p>
             <p>– Im Hinweg <persName key="A002008">Langkammer</persName> getroffen, bös, falsch, 
 verbittert, eben zu einer Sitzung ein neues Theater betreffend.– Im 

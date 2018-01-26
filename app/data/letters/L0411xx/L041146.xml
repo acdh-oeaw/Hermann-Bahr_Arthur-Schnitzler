@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041146">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18911222" n="01">[22. 12. 1891]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, von Schnitzler hs. datiert: »<quote>
-                                        <date>22/12 91.</date>
-                                    </quote>« und verso »<quote>Bahr</quote>« beschriftet.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, von Schnitzler hs. datiert: »<quote><date>22/12 91.</date></quote>« und verso »<quote>Bahr</quote>« beschriftet.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -101,21 +90,20 @@
             <opener>
                <salute>Lieber Herr Dr!</salute>
             </opener>
-            <p>Bitte, teilen Sie mir wenn möglich mit, ob es Ihnen paßt, daß uns morgen <add place="above">Mittwoch</add> Abend von 6–8 (sei es bei Ihnen, oder bei mir)
-                  <persName key="A002014">Bératon</persName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL146-1">sein Stück</anchor> vorliest. Ich
-               möchte Sie bitten, mich etwa bis 5 zu verständigen, da ich noch zu <persName key="A002011">Loris</persName> schicken u <persName key="A002014">Beraton</persName> Antwort sagen muß.</p>
-            <p>
-                    <subst>
+            <p>Bitte, teilen Sie mir wenn möglich mit, ob es Ihnen paßt, daß uns morgen <add
+                  place="above">Mittwoch</add> Abend von 6–8 (sei es bei Ihnen, oder bei mir)
+                  <persName key="A002014">Bératon</persName><space unit="chars" quantity="1"
+                  /><anchor type="commentary" xml:id="KL146-1">sein Stück</anchor> vorliest. Ich
+               möchte Sie bitten, mich etwa bis 5 zu verständigen, da ich noch zu <persName
+                  key="A002011">Loris</persName> schicken u <persName key="A002014"
+                  >Beraton</persName> Antwort sagen muß.</p>
+            <p><subst>
                   <del rend="overwritten">
                      <unclear>M</unclear>
                   </del>
                   <add place="inline">Im</add>
                </subst> übrigen bitte größte Discretion! <persName key="A002014">B.</persName> will nicht, daß »die Welt« etwas von sr Missetat erfahre.</p>
-            <closer>Herzlichst<lb/>
-                    <signed>Bahr.</signed>
-                </closer>
+            <closer>Herzlichst<lb/><signed>Bahr.</signed></closer>
          </div>
       </body>
   </text>

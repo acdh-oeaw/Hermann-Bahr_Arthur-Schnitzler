@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041171">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,19 +69,10 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18970521" n="1">21/5</date> Nm. mit <persName key="A002047">Paul</persName>
-        und <persName key="A002628">Bie</persName> bei <persName key="A002647">Carabin</persName> im Atelier. (<persName key="A002628">Bie’s</persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A002629">Frau</rs> pflegt die Augenentzd. <persName key="A002271">Poppenbergs</persName>), dann ich zu
-         <persName key="A002648">Wyzewa</persName> (gegen <persName key="A002023">Brandes</persName> und <persName key="A002002">Bahr</persName>; <persName key="A002205">Hebbel</persName> eben entdeckt). Mit <persName key="A002185">Mz.</persName> und <persName key="A002047">Paul</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A001122">
-                        <settlement>Poissy</settlement>
-                    </placeName>; 
-       Café <anchor type="commentary" xml:id="KD171-1">
-                        <rs type="place" key="A000323">Vilaine</rs>
-                    </anchor>; an der <geogName type="river" instant="false">Seine</geogName>; einsam dunkel; am Fluss genachtm. Anfangs lustig, dann traurig. Alle
+            <p><date when="18970521" n="1">21/5</date> Nm. mit <persName key="A002047">Paul</persName>
+        und <persName key="A002628">Bie</persName> bei <persName key="A002647">Carabin</persName> im Atelier. (<persName key="A002628">Bie’s</persName><space unit="chars" quantity="1"/><rs type="person" key="A002629">Frau</rs> pflegt die Augenentzd. <persName key="A002271">Poppenbergs</persName>), dann ich zu
+         <persName key="A002648">Wyzewa</persName> (gegen <persName key="A002023">Brandes</persName> und <persName key="A002002">Bahr</persName>; <persName key="A002205">Hebbel</persName> eben entdeckt). Mit <persName key="A002185">Mz.</persName> und <persName key="A002047">Paul</persName><space unit="chars" quantity="1"/><placeName key="A001122"><settlement>Poissy</settlement></placeName>; 
+       Café <anchor type="commentary" xml:id="KD171-1" ><rs type="place" key="A000323">Vilaine</rs></anchor>; an der <geogName type="river" instant="false">Seine</geogName>; einsam dunkel; am Fluss genachtm. Anfangs lustig, dann traurig. Alle
         Nervositäten auf einmal, Ohrenklingen, Augenschmerzen, Kitzeln Haut, unbeschr.
         Unbehagen. Z. H. mit <persName key="A002185">Mz.</persName> Gespräch übern Sommer,
         Schwierigkeiten; tiefe Verstimmung.</p>

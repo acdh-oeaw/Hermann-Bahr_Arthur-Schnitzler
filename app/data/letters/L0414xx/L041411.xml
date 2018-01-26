@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041411">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18920217" n="01">[17. 2. 1892]</date>
                     </dateSender>
@@ -74,9 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., von Schnitzler mit Bleistift datiert: »<quote>
-                                        <date when="18920217">17/2 92</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 1 S., von Schnitzler mit Bleistift datiert: »<quote><date when="18920217">17/2 92</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -86,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">16</biblScope>
@@ -95,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -115,21 +104,20 @@
                     weg.</p>
                 <p>2.) <persName key="A002077">Maeterlinck</persName> hat mich zur Übersetzung
                     freundlichst autorisiert.</p>
-                <p output="true">3.) Die Empfehlung an die <persName key="A002178">Palmay</persName> habe ich verlangt und werde sie <persName key="A002002">Bahr</persName> nächstens
+                <p >3.) Die Empfehlung an die <persName key="A002178">Palmay</persName> habe ich verlangt und werde sie <persName key="A002002">Bahr</persName> nächstens
                     schicken.</p>
                 <p>4.) Vielleicht könnte <persName key="A002324">Kafka</persName> die ersten Vierteljahrsbeiträge rasch einkassieren
                     und uns gegen Garantie durch persönliche Unterschrift leihen. Das wären doch
-                    vielleicht 200 fl.</p>
+                    vielleicht 200&#160;fl.</p>
                 <p>5.) Suchen Sie <persName key="A003855">Bauer</persName> gegenüber uns wichtig und
-                    ernst zu machen und trachten Sie, <add place="above">daß</add> das erste <rs type="org" key="A081019">Heft</rs> möglichst bald erscheint. An die Premièren: <persName key="A002073">Fulda</persName> »<workName key="A021020">Sclavin</workName>«,
-                        <workName key="A021021 A021022">
-                        <hi rend="latintype">Griselidis</hi>
-                    </workName> und <persName key="A003858">Schlesinger</persName> »<workName key="A021023">
-                        <hi rend="latintype">Derby</hi>
-                    </workName>« läßt sich künstlerisch und social unendlich viel
+                    ernst zu machen und trachten Sie, <add place="above">daß</add> das erste <rs type="org" key="A081019"
+                        >Heft</rs> möglichst bald erscheint. An die Premièren: <persName
+                        key="A002073">Fulda</persName> »<workName key="A021020">Sclavin</workName>«,
+                        <workName key="A021021 A021022"><hi rend="latintype">Griselidis</hi></workName> und <persName
+                        key="A003858">Schlesinger</persName> »<workName key="A021023"
+                        ><hi rend="latintype">Derby</hi></workName>« läßt sich künstlerisch und social unendlich viel
                     anhängen.</p>
-                <closer>
-                    <signed>Loris.</signed>                    
+                <closer><signed>Loris.</signed>                    
                 </closer>
             </div>
         </body>

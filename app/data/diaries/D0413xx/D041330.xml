@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041330">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,24 +66,18 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19190727" n="1">27/7</date> S. Vm. bei <persName key="A002151">Kolap</persName> im <placeName key="A000723">Kaasgraben</placeName>.</p>
+            <p><date when="19190727" n="1">27/7</date> S. Vm. bei <persName key="A002151">Kolap</persName> im <placeName key="A000723">Kaasgraben</placeName>.</p>
             <p>Dann bei <persName key="A002241">Rich. Specht</persName>; ihm einiges über den Beginn des <rs type="work" key="A020442">Straussbuches</rs> sagen 
 (Correcturbogen).– (Weitschweifig, aber nicht übel.)</p>
             <p>– Z. T. <rs key="A002154" type="person">Hofrätin</rs>. <persName key="A002885">Fritz</persName> und <persName key="A002886">Trude</persName>. Ganz belebte Unterhaltung, in der 
 ich Philosophie und Politik nach Gebühr behandelte. Las dann einiges 
-aus dem <anchor type="commentary" xml:id="KD330-1">
-                        <workName key="A020443">Schwarzgelb Buch</workName>
-                    </anchor> von <persName key="A002002">Bahr</persName> vor – 1916, allgemeine Heiterkeit 
+aus dem <anchor type="commentary" xml:id="KD330-1" ><workName key="A020443">Schwarzgelb Buch</workName></anchor> von <persName key="A002002">Bahr</persName> vor – 1916, allgemeine Heiterkeit 
 – über seine »Wandlungen«.– Wandlungen? Zu gütig. Ein Wortdelirant 
 – manchmal genial –</p>
             <p>Am <workName key="A020429">Weiher</workName>.–</p>
-            <p>
-                    <persName key="A002887">Rudi Olden</persName>, mit dem ich ein wenig spazierte. Beim <orgName key="A080444">neuen Tag</orgName>, bewährt 
+            <p><persName key="A002887">Rudi Olden</persName>, mit dem ich ein wenig spazierte. Beim <orgName  key="A080444">neuen Tag</orgName>, bewährt 
 sich nicht übel als Journalist.–</p>
-            <p>Mit <persName key="A002083">Heini</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020445">Macbeth Ouv.</workName> von 
+            <p>Mit <persName key="A002083">Heini</persName><space unit="chars" quantity="1"/><workName key="A020445">Macbeth Ouv.</workName> von 
        <persName key="A002096">Strauss</persName> und <workName key="A020446">Eroica</workName>. <persName key="A002083">Heini</persName>. »Man begreift den 
 <persName key="A002888">Szell</persName> manchmal, der von modernen Componisten überhaupt nichts wissen 
 will.«–</p>

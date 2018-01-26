@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041437">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                         <persName key="A002001">Schnitzler, Arthur</persName>
                         
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18970312" n="2">[12. 3. 1897]</date>
                     </dateSender>
@@ -74,10 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., Bleistift, mit aufgedrucktem Wappen; von Schnitzler Datum ergänzt: »<quote>
-                                        <date when="18970312">12/<unclear>3 97</unclear>
-                                        </date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 3 S., Bleistift, mit aufgedrucktem Wappen; von Schnitzler Datum ergänzt: »<quote><date when="18970312">12/<unclear>3 97</unclear></date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -87,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">79</biblScope>
@@ -96,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160309">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -123,8 +111,7 @@
                     setzt, wenn Ihrer etc. drauf steht, ist mir natürlich ganz recht, aber Ihnen und
                         <persName key="A002002">Bahr</persName> gegenüber verpflichte ich mich eben absolut nur
                     unter der obigen<pb/> Bedingung.</p>
-                <closer>Ihr<lb/>
-                    <signed>Hugo.</signed>
+                <closer>Ihr<lb/><signed>Hugo.</signed>
                     
                 </closer>
             </div>

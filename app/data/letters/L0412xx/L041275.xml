@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041275">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,11 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Postkarte, Motiv: »<quote>
-                                        <geogName type="river" instant="false">L’Ombla – Cempresata</geogName>
-                                    </quote>«, von Schnitzler datiert: »<quote>
-                                        <date>11. 3. 904</date>
-                                    </quote>«.</p>
+                        <p>eh. Postkarte, Motiv: »<quote><geogName type="river" instant="false">L’Ombla – Cempresata</geogName></quote>«, von Schnitzler datiert: »<quote><date>11. 3. 904</date></quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000883">Dubrovnik</placeName>
                            <date when="19040309">9/3 <supplied>1904</supplied>
@@ -93,11 +88,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -113,27 +104,21 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <p>Danke für Deinen lieben Brief. Mir geht es langsam besser.</p>
             <p>Fahr jedenfalls
          über <placeName key="A000465">Dalmatien</placeName>! <placeName key="A000566">
-                  <settlement>Ragusa</settlement>
-                    </placeName> ist schöner
-        als alles <placeName key="A000475">
-                        <country>Italien</country>
+                  <settlement>Ragusa</settlement></placeName> ist schöner
+        als alles <placeName key="A000475"><country>Italien</country>
                </placeName> und selbst
          <placeName key="A000589">Spanien</placeName>.</p>
             <closer>Grüße an Deine
-               <rs type="person" key="A002038">Frau</rs>.<lb/>Herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+               <rs type="person" key="A002038">Frau</rs>.<lb/>Herzlichst<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

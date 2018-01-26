@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041268">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -86,11 +85,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -106,32 +101,22 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>7. 1. 04</date>
-                    </dateline>
+               <dateline rend="right"><date>7. 1. 04</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Kannst Du mir die Adresse des D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002066">Stefan Epstein</persName> in
-                   <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>
+            <p>Kannst Du mir die Adresse des D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002066">Stefan Epstein</persName> in
+                   <placeName key="A000382"><settlement>Paris</settlement></placeName>
                 schreiben? Bitte sei so lieb.</p>
             <p>Mir gehts recht schlecht.</p>
             <closer>Deine <rs type="person" key="A002038">Frau</rs> bestens grüßend bin
-        ich<lb/>herzlichst<lb/>Dein alter<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+        ich<lb/>herzlichst<lb/>Dein alter<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

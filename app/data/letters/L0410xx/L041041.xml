@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041041">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19011018" n="01">18. 10. 1901</date>
                </dateSender>
@@ -75,8 +72,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19011018">18. 10. 1901</date>
                </analytic>
@@ -88,50 +84,32 @@
                   <biblScope unit="pp">71</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170503">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23345Ba"/> 
-     <graphic url="HS_AM23345Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23345Ba"/> 
+     <graphic url="HS_AM23345Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>lieber Hermann, </salute>ich habe nach reiflicher Erwägung den »<hi rend="underline" n="1">
+            <p><salute>lieber Hermann, </salute>ich habe nach reiflicher Erwägung den »<hi rend="underline" n="1">
                   <workName key="A020027">Puppenspieler</workName>
                </hi>« aus meinem Einaktercyklus ausgeschieden,
   so dass der Cyclus jetzt nur mehr aus den <rs type="work" key="A020022">4 andern Einaktern</rs> besteht. Ich habe
-          die Absicht, den <workName key="A020027">Puppenspieler</workName>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>der mir dramatisch zu schwach scheint,
+          die Absicht, den <workName key="A020027">Puppenspieler</workName><pb/><space unit="chars" quantity="1"/>der mir dramatisch zu schwach scheint,
           gelegentlich neu zu bearbeiten.</p>
             <p>Da du die Güte hattest, meine <rs type="work" key="A020023 A020069">2 neuen Stücke</rs> zu übernehmen, theile ich diese
-          Thatsache vor allem dir mit und stelle dir anheim, dem Direktor des<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000220">Deutschen Volkstheater</placeName>s gelegentlich Mittheilung hievon zu machen –</p>
-            <closer>Mit herzlichem Gruss<lb/>dein<lb/>
-                    <signed>Arthur</signed>
+          Thatsache vor allem dir mit und stelle dir anheim, dem Direktor des<pb/><space unit="chars" quantity="1"/><placeName key="A000220">Deutschen Volkstheater</placeName>s gelegentlich Mittheilung hievon zu machen –</p>
+            <closer>Mit herzlichem Gruss<lb/>dein<lb/><signed>Arthur</signed>
         </closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>18. 10.
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>18. 10.
          901</date>
                </p>
             </postscript>

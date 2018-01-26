@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041427">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20151222">angelegt</change>
             <change who="KI MAM" when="20141222">kollationiert</change>
@@ -93,23 +87,19 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19030621" n="3">21.</date>
+             <p><date when="19030621" n="3">21.</date>
             </p>
-            <p>
-                    <persName key="A002001">Schnitzler</persName> bei mir, um für die Widmung der
+            <p><persName key="A002001">Schnitzler</persName> bei mir, um für die Widmung der
                         »<workName key="A020036">Rezensionen</workName>« zu danken. Sprechen von
                         <persName key="A002055">Schlenther</persName> – <persName key="A002018">Sandrock</persName>,
                         <persName key="A002000">Burckhards</persName> Gesundheit und meinen Plänen.</p>
-                <p>
-                    <persName key="A002229">Felix Holländer</persName> bei mir; von seinem Roman, von
+                <p><persName key="A002229">Felix Holländer</persName> bei mir; von seinem Roman, von
                         <persName key="A002202">Hauptmanns</persName> »Stadttheater«-Plänen, von der
                         <persName key="A002084">Eysoldt</persName> und ihrer merkwürdigen Intelligenz bei
                     ungemeiner Leidenschaft, <del rend="strikethrough">
                   <unclear>ihr</unclear>
                </del> dem Leben den höchsten Genuß abzupressen.</p>
-                <p>
-                    <persName key="A002064">Trebitsch</persName> zum Thee, später <persName key="A002035">Salten</persName> mit
+                <p><persName key="A002064">Trebitsch</persName> zum Thee, später <persName key="A002035">Salten</persName> mit
                     seiner <rs type="person" key="A002375">Frau</rs>. Wir besprechen den Plan, zur Inscenierung bestimmter Stücke gewisse
                     Gastregisseure einzuladen, <persName key="A002035">Salten</persName> für »<workName key="A020558">Traum ein
                         Leben</workName>«, <persName key="A002202">Hauptmann</persName> für den

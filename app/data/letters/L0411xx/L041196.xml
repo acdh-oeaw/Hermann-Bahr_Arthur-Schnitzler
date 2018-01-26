@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041196">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -74,11 +73,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
@@ -88,11 +83,8 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000368">
-                            <settlement>Berlin</settlement>
-                        </placeName>, <date>8. Juni
-              32</date>.<lb/>
-                        <placeName key="A000703">Kurfürstendamm 66</placeName>
+                  <placeName key="A000368"><settlement>Berlin</settlement></placeName>, <date>8. Juni
+              32</date>.<lb/><placeName key="A000703">Kurfürstendamm 66</placeName>
                   <lb/>
                   <placeName key="A000704">Pension
             Elton</placeName>.</dateline>

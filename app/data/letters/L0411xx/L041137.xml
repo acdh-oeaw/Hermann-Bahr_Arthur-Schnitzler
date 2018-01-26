@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041137">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -86,8 +85,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19210207">7. 2. 1921</date>
                   
@@ -100,38 +98,27 @@
                   <biblScope unit="pp">115</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="missing_TMW"/>     </facsimile>
+  </teiHeader><facsimile>       <graphic url="missing_TMW"/>     </facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>7. 2. 1921</date>.</dateline>
+               <dateline rend="right"><date>7. 2. 1921</date>.</dateline>
                <salute>Lieber Hermann.</salute>
             </opener>
-            <p>Am <anchor type="commentary" xml:id="KL137-2">
-                        <date when="19210220">20. Feber</date>
-                    </anchor> feiert <persName key="A002015">Popper-Lynkeus</persName> seinen 83. Geburtstag. <subst>
+            <p>Am <anchor type="commentary" xml:id="KL137-2" ><date when="19210220">20. Feber</date></anchor> feiert <persName key="A002015">Popper-Lynkeus</persName> seinen 83. Geburtstag. <subst>
                   <del rend="overwritten">Es</del>
                   <add place="inline">Das</add>
                </subst> fängt wie ein Aufruf an, aber es ist nur eine Bitte. Es wäre von
-               einiger Bedeutung, insbesondere mit Rücksicht auf die bevorstehende <anchor type="commentary" xml:id="KL137-3">
-                        <rs type="work" key="A021373">Ausgabe</rs>
-                    </anchor> der
-          <persName key="A002015">Popper-Lynkeu’schen</persName> Werke im <anchor type="commentary" xml:id="KL137-1">Verlag <orgName key="A081206">Kola</orgName>
+               einiger Bedeutung, insbesondere mit Rücksicht auf die bevorstehende <anchor type="commentary" xml:id="KL137-3" ><rs type="work" key="A021373">Ausgabe</rs></anchor> der
+          <persName key="A002015">Popper-Lynkeu’schen</persName> Werke im <anchor type="commentary" xml:id="KL137-1">Verlag <orgName  key="A081206">Kola</orgName>
                </anchor>, wenn an diesem Tag von einigen
           führenden Geistern die rechten Worte über ihn gesagt würden. Man hat mich
           gebeten Dich zu fragen, ob Du vielleicht in Deinem Tagebuch (der <date>20. Feber</date> ist
@@ -143,8 +130,7 @@
   <persName key="A002015">Popper-Lynkeus</persName> sagen wollten.</p>
             <p>Ich höre<add place="inline">, –</add> und lese es auch aus Deinem <workName key="A020114">Tagebuch</workName> heraus, dass Du Dich wohlbefindest. Hoffentlich habe
           ich doch bald wieder Gelegenheit mich auch persönlich davon zu überzeugen.</p>
-            <closer>
-                    <handShift/>Mit herzlichen Grüßen<lb/>Dein<lb/>
+            <closer><handShift/>Mit herzlichen Grüßen<lb/>Dein<lb/>
                <signed>Arthur</signed>
             </closer>
          </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041293">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,14 +69,10 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                                        <placeName key="A000698">München. 
-                           Glaspalast</placeName>
-                                    </quote>«, Bleistift.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><placeName key="A000698">München. 
+                           Glaspalast</placeName></quote>«, Bleistift.</p>
                         <stamp n="1">
-                           <placeName key="A000355">
-                                        <hyphenation alt="Mün\-chen–Glas\-pa\-last">München–Glaspalast</hyphenation>
-                                    </placeName>
+                           <placeName key="A000355">München–Glaspalast</placeName>
                            <date when="19050805">5 Aug 05</date>
                            <time>12–1</time>
                         </stamp>
@@ -87,11 +82,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -108,28 +99,22 @@
             <address>
                <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline>
-                        <date>5. 8.</date>
-                    </dateline>
+               <dateline><date>5. 8.</date></dateline>
             </opener>
             <p>Einstweilen herzlichsten Dank für Deinen lieben Brief. Mit allem anderen magst Du
                recht haben, mit <rs type="work" key="A020090">Besenius</rs> nicht. Für mich müßte
                das <rs type="work" key="A020090">Stück</rs> eigentlich <rs type="work" key="A020090">Besenius</rs> heißen, da sein Thema ist: 1) Was kann ein wirklicher Mensch heute
                werden? Antwort: <rs type="work" key="A020090">Besenius</rs>. 2) Wie wird man <rs type="work" key="A020090">Besenius</rs>? Wenn man <rs type="work" key="A020090">Heinrich</rs> ist und dies erlebt.</p>
-            <closer>Herzlichst <signed>H.</signed>
-                </closer>
+            <closer>Herzlichst <signed>H.</signed></closer>
             <postscript>
-               <p>Viele Grüße Deiner <rs type="person" key="A002038">Frau</rs>
-                    </p>
+               <p>Viele Grüße Deiner <rs type="person" key="A002038">Frau</rs></p>
             </postscript>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041566">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>   
-                    <placeAddressee>
-                        <placeName key="A000230">[Salzburg]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>   
+                    <placeAddressee><placeName key="A000230">[Salzburg]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19130506" n="01">[6.] 5. 1913</date>
                     </dateSender>
@@ -70,10 +65,9 @@
                                 <idno>HS AM 25666 Ba</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>ms. Brief, 2 Bl., 3 S., mit eh. Korr, gedruckter Kopf: »<quote>SZ / <placeName key="A000929">VIII. KOCHGASSE 8</placeName> /
-                                            <placeName key="A000250">
-                                            <settlement>WIEN</settlement>
-                                        </placeName>,</quote>«</p>
+                                <p>ms. Brief, 2 Bl., 3 S., mit eh. Korr, gedruckter Kopf: »<quote>SZ / <placeName
+                                        key="A000929">VIII. KOCHGASSE 8</placeName> /
+                                            <placeName key="A000250"><settlement>WIEN</settlement></placeName>,</quote>«</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -87,7 +81,7 @@
                                 Weschenbach-Feggeler</editor>
                             <imprint>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <date when="1989">1995</date>
                             </imprint>
                             <biblScope unit="pp">271–272</biblScope>
@@ -98,7 +92,7 @@
                                 Prater</editor>
                             <imprint>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <date when="1989">1987</date>
                             </imprint>
                             <biblScope unit="pp">32–33</biblScope>
@@ -107,11 +101,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160614">Angelegt</change>
             <change who="KI MAM" when="20160616">Kollationiert</change>
@@ -123,11 +113,7 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>
-                            <anchor type="textConst" xml:id="TL566-1">5.</anchor> Mai 1913</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date><anchor type="textConst" xml:id="TL566-1" >5.</anchor> Mai 1913</date></dateline>
                     <salute rend="center">Lieber und verehrter Herr Bahr!</salute>
                 </opener>
                 <p>Haben Sie vielen Dank für Ihren Brief und all die guten Worte und das zugesandte
@@ -135,18 +121,10 @@
                     verhindert war, in die <placeName key="A000215">Oper</placeName> zu kommen und Sie
                     dorten zu begrüssen. Hoffentlich das nächste Mal.</p>
                 <p>Ich habe die kleine englische <rs type="work" key="A021303">Novelle</rs> gelesen,
-                    die ich wirklich sehr hübsch finde, die mir aber für eine Oper d<damage agent="hole">
-                        <supplied>oc</supplied>
-                    </damage>h nicht recht
-                    geeign<damage agent="hole">
-                        <supplied>et</supplied>
-                    </damage> erscheint wenigstens sehe ich bei einer so
+                    die ich wirklich sehr hübsch finde, die mir aber für eine Oper d<damage agent="hole"><supplied>oc</supplied></damage>h nicht recht
+                    geeign<damage agent="hole"><supplied>et</supplied></damage> erscheint wenigstens sehe ich bei einer so
                     raschen und doch wiederum ein wenig schematischen Handlung nicht recht die
-                    Möglichkeit, irgendein Mens<damage agent="hole">
-                        <supplied>ch</supplied>
-                    </damage>liches auszudrücken, <damage agent="hole">
-                        <supplied>d</supplied>
-                    </damage>as nur allein eine solche
+                    Möglichkeit, irgendein Mens<damage agent="hole"><supplied>ch</supplied></damage>liches auszudrücken, <damage agent="hole"><supplied>d</supplied></damage>as nur allein eine solche
                     Arbeit anreizend erscheinen lassen könnte. Ich schreibe jedenfalls an Miss
                         <persName key="A004170">Ethel Smyth</persName> meine A<subst>
                             <del rend="overwritten">b</del>
@@ -158,22 +136,14 @@
                         Spiele für Musik geschrieben hat, die bisher noch
                     keinen Komponisten gefunden haben. Vielleicht könnte sie da eine Anregung
                     finden.</p>
-                <p>
-                    <anchor output="true" xml:id="OL566-1">Nun noch in einer anderen Sache, in der ich Sie bitte, <del rend="strikethrough">ihr</del> nicht aus einer wirklich
+                <p><anchor xml:id="OL566-1">Nun noch in einer anderen Sache, in der ich Sie bitte, <del rend="strikethrough">ihr</del> nicht aus einer wirklich
                     deplazierten Bescheidenheit auszuweichen. Es handelt sich nämlich um folgendes:
-                    Ich <damage agent="hole">
-                            <supplied>w</supplied>
-                        </damage>erde bei den Student<damage agent="hole">
-                            <supplied>en</supplied>
-                        </damage>
-                        <space unit="chars" quantity="1"/>
-                        <add place="above">in etwa 14 Tagen</add> eine Rede<pb/> halten (von der ich nicht
+                    Ich <damage agent="hole"><supplied>w</supplied></damage>erde bei den Student<damage agent="hole"><supplied>en</supplied></damage><space unit="chars" quantity="1"/><add place="above">in etwa 14 Tagen</add> eine Rede<pb/> halten (von der ich nicht
                     weiss, ob Sie Ihnen lieb oder unlieb sein wird<del rend="strikethrough">)</del>
                   <add place="inline">,</add> die aber in erster Linie doch der
                     jungen Leute willen und meinem eigenen Bedürfnis willen gehalten werden soll),
-                    und um diese Rede zur Feier zu ergänzen, <anchor type="commentary" xml:id="KL566-1">ähnlich wie bei der
-                        <persName key="A002202">Hauptmanns</persName>
-                        </anchor>, soll nachher aus Ihren Werken etwa eine
+                    und um diese Rede zur Feier zu ergänzen, <anchor type="commentary" xml:id="KL566-1" >ähnlich wie bei der
+                        <persName key="A002202">Hauptmanns</persName></anchor>, soll nachher aus Ihren Werken etwa eine
                     halbe Stunde vorgelesen werden.</anchor> Wir müssen <del rend="strikethrough">noch</del> da <add place="above">nun</add> überlegen, was wir aus der
                     Fülle Ihrer Bücher wählen sollen und wissen m<subst>
                         <del rend="overwritten">
@@ -183,32 +153,23 @@
                         <del rend="strikethrough">, das ja</del>
                         <add place="above">bisher</add>
                     </subst> kaum mehr als
-                    ein Kapitel aus der »<workName key="A020351">Rahl</workName>« <del rend="strikethrough">diese Zeit beanspruchen wird, daher</del>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">wir</add>
+                    ein Kapitel aus der »<workName key="A020351">Rahl</workName>« <del rend="strikethrough">diese Zeit beanspruchen wird, daher</del><space unit="chars" quantity="1"/><add place="above">wir</add>
                     möchten <subst>
                         <del rend="strikethrough">wir</del>
                         <add place="above">aber</add>
                     </subst> gerne <add place="inline">auch</add> etwas aus Ihren Essais, das Ihnen selbst wichtig ist,
                     nehmen und bitten Sie um die Entscheidung. Die ganze
                         »<workName key="A021314">Selbstinventur</workName>
-               <damage agent="hole">
-                        <supplied>«</supplied>
-                    </damage> wäre zu lan<subst>
+               <damage agent="hole"><supplied>«</supplied></damage> wäre zu lan<subst>
                             <del rend="overwritten">j</del>
                             <add place="inline">g</add>
-                        </subst>, aber <damage agent="hole">
-                        <supplied>ei</supplied>
-                    </damage>n Fragment daraus
+                        </subst>, aber <damage agent="hole"><supplied>ei</supplied></damage>n Fragment daraus
                     würden wir gern wählen, falls Sie nicht selbst un<subst>
                         <del rend="overwritten">a</del>
                         <add place="inline">s</add>
                     </subst> ein <add place="inline">anderes</add> Lieblingswerk
                     bezeichnen.</p>
-                <p>
-                    <anchor output="true" xml:id="OL566-1">Ist <damage agent="hole">
-                            <supplied>di</supplied>
-                        </damage>eses Vorzulesende einmal gesichert, so bleibt nur noch eine letzte Frage,
+                <p><anchor xml:id="OL566-1">Ist <damage agent="hole"><supplied>di</supplied></damage>eses Vorzulesende einmal gesichert, so bleibt nur noch eine letzte Frage,
                     nämlich die Wahl des Vorlesers und da haben die jungen Leut einen sehr kühnen,
                     für mein Empfinden aber wunderschönen Wunsch. Sie möchten gerade bei Ihnen nicht
                     gerne einen jener Schauspieler haben, der heute <persName key="A002396">Liliencron</persName>
@@ -226,17 +187,12 @@
                     scheint, als hätten wir alle Dankbarkeit, deren wir fähig sind, ihr <add place="above">längst</add> schon
                     für die Stunden des Gesanges zugewandt.</p>
                 <p>Nehmen Sie uns aber diese schöne Möglichkeit, so müssen wir uns mit einem
-                    Schauspieler begnügen und wir hoffen, dass auch so der Abend ein gelu<damage agent="hole">
-                        <supplied>ng</supplied>
-                    </damage>ener sein
+                    Schauspieler begnügen und wir hoffen, dass auch so der Abend ein gelu<damage agent="hole"><supplied>ng</supplied></damage>ener sein
                     wird.</p>
                 <p>Verzeihen Sie, dass ich Ihnen diesen langen Brief mit Fragen und Sorgen in Ihre
-                            <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>er Einsamkeit
+                            <placeName key="A000230"><settlement>Salzburg</settlement></placeName>er Einsamkeit
                     schicke und empfangen Sie dankbar ergebene Grüsse Ihres getreuen </p>
-                <closer>
-                    <signed>Stefan Zweig</signed>
+                <closer><signed>Stefan Zweig</signed>
             </closer>
             </div>
         </body>

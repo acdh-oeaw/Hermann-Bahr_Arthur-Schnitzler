@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041218">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,9 +71,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, 2 Verf., Bleistift, Strisower in Lateinschrift, Motiv: »<quote>
-                                        <placeName key="A000959">Landro</placeName> mit <geogName type="mountain">Monte Cristallo</geogName>
-                                    </quote>«.</p>
+                        <p>eh. Ansichtskarte, 2 Verf., Bleistift, Strisower in Lateinschrift, Motiv: »<quote><placeName key="A000959">Landro</placeName> mit <geogName type="mountain">Monte Cristallo</geogName></quote>«.</p>
                         <stamp n="1">
                            <placeName key="A001049">Schluderbach</placeName>
                            <date when="18980820">2<gap quantity="1" unit="chars" reason="illegible"/>/8 98</date>
@@ -92,11 +89,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -113,26 +106,20 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000259">Wien IX</placeName>
-                    </addrLine>
+                  <placeName key="A000259">Wien IX</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000598">Frankgasse 1</placeName>
-                    </addrLine>
+                  <placeName key="A000598">Frankgasse 1</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <p>Warum bist Du nicht hier? Telegrafiere sofort Deinem </p>
-            <closer>
-                    <signed>Hermann</signed>
+            <closer><signed>Hermann</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <p>
-                    <handShift scribe="A002180"/>
+            <p><handShift scribe="A002180"/>
                Warum waren Sie nicht hier? Telegrafieren Sie sofort Ihrer Risa, aber schon
-         nach <placeName key="A001078">
-                        <settlement>Unterach</settlement>
-                    </placeName>.
+         nach <placeName key="A001078"><settlement>Unterach</settlement></placeName>.
             </p>
          </div>
       </body>

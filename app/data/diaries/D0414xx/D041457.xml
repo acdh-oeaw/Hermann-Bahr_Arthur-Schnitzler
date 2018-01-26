@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041457">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160108">angelegt</change>
             <change who="KI MAM" when="20160202">Die Stellen über Schnitzler kollationiert am Original</change>
@@ -93,26 +87,21 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19040201" n="01">1.</date> Wunderschöner warmer Morgen. Frühlingsstimmung. Der Schnee zergeht, die braune Erde
+             <p><date when="19040201" n="01">1.</date> Wunderschöner warmer Morgen. Frühlingsstimmung. Der Schnee zergeht, die braune Erde
                     zeigt sich, die Fichten grünen. Überm See erscheint alles merkwürdig nah und ich
                     sehe das nette Städtchen
-                        <placeName key="A001178">
-                        <settlement>Steckborn</settlement>
-                    </placeName> gegenüber zum
+                        <placeName key="A001178"><settlement>Steckborn</settlement></placeName> gegenüber zum
                     ersten Mal deutlich.</p>
                 <p>Böse Nacht, schlaflos, mit Beklemmungen, Hitze in den Adern.</p>
                 <p>–</p>
                 <p>In <persName key="A002001">Schnitzlers</persName> »<workName key="A020083">Einsamem Weg</workName>« wird von
-                    einem Künstler gesagt, es sei sein Unglück, daß »<anchor type="commentary" xml:id="KD457-1">er sich auch in seinen Arbeiten
+                    einem Künstler gesagt, es sei sein Unglück, daß »<anchor type="commentary" xml:id="KD457-1" >er sich auch in seinen Arbeiten
                     sozusagen nur vorübergehend aufhielt</anchor>«. Gilt von mir.</p>
-                <p>Im Februarheft der <orgName key="A080014">Neuen Rundschau</orgName> spricht <persName key="A002435">Kerr</persName> über den
+                <p>Im Februarheft der <orgName  key="A080014">Neuen Rundschau</orgName> spricht <persName key="A002435">Kerr</persName> über den
                     »<workName key="A020082">Meister</workName>«. Ihn ärgert an mir (worin er recht hat), daß meine plastische Kraft
                     meinen geistigen Intentionen nicht gewachsen ist. Er sagt das nie ausdrücklich
                     gegen mich, auch hier nicht, er weiß vielleicht selbst gar nicht, daß es im
-                    Grunde nur dies ist, was er gegen mich hat.<pb/>
-                </p>
-                <p>Dazu kommt freilich noch (worin er nun gar nicht recht hat), daß er alles im
+                    Grunde nur dies ist, was er gegen mich hat.<pb/></p><p>Dazu kommt freilich noch (worin er nun gar nicht recht hat), daß er alles im
                     <placeName key="A000368">Berliner</placeName> Ton vorgetragen wünscht und mir meinen <placeName key="A000362">östreichischen</placeName> so wenig
                     verzeihen kann als den <placeName key="A000366">Franzosen</placeName> ihren. Er gilt mir viel, weil er, für seinen
                     <placeName key="A000368">Berliner</placeName> Kreis, ganz gut weiß, alle Gegensätze der einzelnen Individuen zusammen
@@ -122,9 +111,7 @@
                     diese neue <placeName key="A000368">Berliner</placeName> Cultur schließlich doch wieder nur eine einzelne Farbe im
                     ganzen Gemälde ist, dazu ist er vorderhand noch nicht gekommen. Recht hat er
                     aber unbedingt in der Forderung, sich nicht viel abzuquälen, was etwas bedeute,
-                    wenn es nur etwas <hi rend="underline" n="1">sei</hi>.<pb/>
-                </p>
-                <p>
+                    wenn es nur etwas <hi rend="underline" n="1">sei</hi>.<pb/></p><p>
                <persName key="A002366">Conrad Ferdinand Meyer</persName> sagt von seiner <rs type="person" key="A003304">Mutter</rs>, sie sei »Heiteren Geistes,
                     traurigen Herzens« gewesen, was mich so merkwürdig berührt, weil man doch das
                     Wesen meiner <rs type="person" key="A003304">Mutter</rs> gar nicht besser schildern könnte <c rendition="#dots" n="3" place="center"/> und auch mein eigenes
@@ -132,23 +119,13 @@
                 <p>Gelegentlich zu lesen »<workName key="A020603">
                   <persName key="A002366">C. F. Meyer</persName>.
                         In der Erinnerung seiner Schwester <persName key="A003305">Betsy</persName>
-                        Meyer</workName>« <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <orgName key="A080604">Paetel</orgName>
-                    <space unit="chars" quantity="1"/>
-                    <date>1903</date>, 
+                        Meyer</workName>« <placeName key="A000368"><settlement>Berlin</settlement></placeName><space unit="chars" quantity="1"/><orgName  key="A080604">Paetel</orgName><space unit="chars" quantity="1"/><date>1903</date>, 
                     in welchem das Pathologische seiner
                         Begabg gut herauszukommen scheint. Vielleicht ließe
-                    sich einmal an <persName key="A002092">Grillparzers</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020605">Tagebüchern</workName> vor 
+                    sich einmal an <persName key="A002092">Grillparzers</persName><space unit="chars" quantity="1"/><workName key="A020605">Tagebüchern</workName> vor 
                     diesem Werk wieder das furchtbare
                     Leiden zeigen, mit dem die »poetische Stimmung« bezalt wird.</p>
-                <p>–<pb/>
-                </p>
-                <p>
+                <p>–<pb/></p><p>
                <hi rend="underline" n="1">
                   <workName key="A020041">Sanna</workName>.</hi>
                 </p>
@@ -172,8 +149,7 @@
                 <p>–</p>
                 <p>Monoton und taciturn.</p>
                 <p>–</p>
-                <p>
-                    <persName key="A002725">Ernst Hardt</persName>s kleine Novelle »<workName key="A020606">An den Toren des Lebens</workName>« mit dem höchsten Entzücken
+                <p><persName key="A002725">Ernst Hardt</persName>s kleine Novelle »<workName key="A020606">An den Toren des Lebens</workName>« mit dem höchsten Entzücken
                     gelesen.</p>
                 <p>Wie jetzt täglich: Stunden lang gelegen und an den Tod gedacht.</p>
         </div>

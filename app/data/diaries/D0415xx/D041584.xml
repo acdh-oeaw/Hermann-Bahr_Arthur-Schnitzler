@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041584">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -60,11 +59,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160601">angelegt</change>
             <change who="KI MAM" when="20160601">Kollationiert am Original</change>
@@ -73,13 +68,10 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19311021" n="2">21.</date> – K. – Zunehmende Kälte. – Brief an Frau
+            <p><date when="19311021" n="2">21.</date> – K. – Zunehmende Kälte. – Brief an Frau
                         <persName key="A004357">Johanna Schuchter</persName> und an
                     <persName key="A004134">Borgmeyer</persName>, an diesen ungeduldig drängend. – Dann diktiert
-                    <anchor type="commentary" xml:id="KD584-1">
-                        <rs type="work" key="A020785">Auszug</rs>
-                    </anchor> von <persName key="A002499">Egon Friedells</persName> drittem Bande:
+                    <anchor type="commentary" xml:id="KD584-1" ><rs type="work" key="A020785">Auszug</rs></anchor> von <persName key="A002499">Egon Friedells</persName> drittem Bande:
                         <workName key="A021355">Kulturgeschichte der Neuzeit</workName>
             </p>
                 <p>– Mittags unerwartet <persName key="A004132">Helene Thienen</persName>.–</p>

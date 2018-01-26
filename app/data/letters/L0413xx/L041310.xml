@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041310">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -87,11 +86,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -108,28 +103,21 @@
             <address>
                <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                      <placeName key="A000332">Südbahnhof</placeName>
-                  <lb/>
-                        <date>27. 4</date>
-                    </dateline>
+                  <lb/><date>27. 4</date></dateline>
             </opener>
-            <p>Ich fahre eben auf den <placeName key="A000614">Semmering (Südbahnhotel)</placeName>, um <anchor type="commentary" xml:id="KL310-2">Dienstag</anchor>
-        Früh von dort mit dem Frühschnellzug nach <placeName key="A001074">
-                        <settlement>Triest</settlement>
-                    </placeName> zu fahren.
-        <anchor type="commentary" xml:id="KL310-1">Komm mit!</anchor> In diesem Fall erwartet bis Montag Mittag telegrafische Nachricht</p>
-            <closer>Dein<lb/>
-                    <signed>Hermann B</signed>
+            <p>Ich fahre eben auf den <placeName key="A000614">Semmering (Südbahnhotel)</placeName>, um <anchor type="commentary" xml:id="KL310-2" >Dienstag</anchor>
+        Früh von dort mit dem Frühschnellzug nach <placeName key="A001074"><settlement>Triest</settlement></placeName> zu fahren.
+        <anchor type="commentary" xml:id="KL310-1" >Komm mit!</anchor> In diesem Fall erwartet bis Montag Mittag telegrafische Nachricht</p>
+            <closer>Dein<lb/><signed>Hermann B</signed>
             </closer>
          </div>
       </body>

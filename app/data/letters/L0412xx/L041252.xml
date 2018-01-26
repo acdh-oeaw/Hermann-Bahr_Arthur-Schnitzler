@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041252">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19021120" n="01">20. [11. 1902?]</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -95,19 +86,12 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>
-                            <anchor type="commentary" xml:id="KL252-1">20/<unclear>11</unclear>
-                            </anchor>
-                        </date>
-                    </dateline>
+               <dateline rend="right"><date><anchor type="commentary" xml:id="KL252-1" >20/<unclear>11</unclear></anchor></date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Herzlichen Dank – das war wirklich sehr lieb von Dir. Ich will immer einmal zu Dir 
         kommen, aber, aber! Der Journalismus frißt mich auf.</p>
-            <closer>Nochmals dankend<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Nochmals dankend<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

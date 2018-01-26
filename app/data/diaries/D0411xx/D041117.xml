@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041117">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,13 +65,10 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="18941016" n="01">16/10</date> Nm. <persName key="A002002">Bahr</persName> bei mir, dem <persName key="A002011">Hugo</persName> vom <rs type="work" key="A020049" subtype="local-short">Stück</rs> gesprochen; 
+            <p><date when="18941016" n="01">16/10</date> Nm. <persName key="A002002">Bahr</persName> bei mir, dem <persName key="A002011">Hugo</persName> vom <rs type="work" key="A020049" subtype="local-short">Stück</rs> gesprochen; 
                er auch schon mit <persName key="A002000">Burckhard</persName>.– Charakteristisch – ohne <rs type="work" key="A020049">Stück</rs> gelesen zu haben, findet er es fürs <placeName key="A000277">Raimundth.</placeName>–</p>
             
-            <p>Von <persName key="A002343">Else</persName> interessanter Brief.– Im <placeName key="A000277">Rmdth.</placeName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020293">Ottilie</workName> von <persName key="A002543">Triesch</persName>. Bodenlos.</p>
+            <p>Von <persName key="A002343">Else</persName> interessanter Brief.– Im <placeName key="A000277">Rmdth.</placeName><space unit="chars" quantity="1"/><workName key="A020293">Ottilie</workName> von <persName key="A002543">Triesch</persName>. Bodenlos.</p>
         </div>
       </body>
    </text>

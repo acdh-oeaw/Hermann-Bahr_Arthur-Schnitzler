@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041228">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,11 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19040531" n="1">31/5</date> Bei <rs key="A002146" type="person">Mama</rs> zu
-        Mittag.– <workName key="A020276">C dur Quintett</workName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002120">Schubert</persName>.–</p>
+            <p><date when="19040531" n="1">31/5</date> Bei <rs key="A002146" type="person">Mama</rs> zu
+        Mittag.– <workName key="A020276">C dur Quintett</workName><space unit="chars" quantity="1"/><persName key="A002120">Schubert</persName>.–</p>
             <p>Nm. <persName key="A002357">Jarno</persName> bei mir, will den <workName key="A020083">Eins. Weg</workName> spielen; ich 
 verschiebe eine Entscheidung bis ich sein Personal gut kennen gelernt.–</p>
             <p>Abds. <placeName key="A000318">Carlth.</placeName>, Abschiedvorstellung <placeName key="A000203">Dtsch. Th.</placeName>, <workName key="A020082">Meister</workName> von 

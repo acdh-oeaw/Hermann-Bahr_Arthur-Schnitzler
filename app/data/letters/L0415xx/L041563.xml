@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041563">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A001067">Dresden</placeName>
                </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19080518" n="01">18. 5. 1908</date>
                     </dateSender>
@@ -72,7 +69,7 @@
                         <editor>Hg.  Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1989">1989</date>
                         </imprint>
                         <biblScope unit="pp">81–82</biblScope>
@@ -81,11 +78,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160413">Angelegt</change>
         </revisionDesc>
@@ -97,17 +90,14 @@
                 <opener>
                     <p rend="right">z. Zt. <placeName key="A000781">Lahmanns Sanatorium<lb/>Weisser Hirsch bei Dresden</placeName>
                </p>
-                    <dateline rend="right">
-                        <date>18. Mai 08</date>.</dateline>
+                    <dateline rend="right"><date>18. Mai 08</date>.</dateline>
                     <salute>Lieber Herr Doktor!</salute>
                 </opener>
-                <p output="true">Ich wäre Ihnen sehr dankbar, wenn Sie einen Rezensenten selber vorschlagen
+                <p >Ich wäre Ihnen sehr dankbar, wenn Sie einen Rezensenten selber vorschlagen
                     würden; die litterarische Buchkritik liegt augenblicklich sehr darnieder; es
                     wird von allen Seiten auf diesem Gebiet herumdilettiert. Die paar Leute, die
                     wirklich etwas verstehen, schreiben meist über’s Theater. Wenn ich daran denke,
-                    wem man die Besprechung über Ihr <anchor type="commentary" xml:id="KL563-1">
-                        <rs type="work" key="A020052">Buch</rs>
-                    </anchor> übergeben könnte, so
+                    wem man die Besprechung über Ihr <anchor type="commentary" xml:id="KL563-1" ><rs type="work" key="A020052">Buch</rs></anchor> übergeben könnte, so
                     scheint mir <persName key="A002435">Kerr</persName> der Geeignetste. Ich bezweifle aber, ob er
                     die Sache übernehmen würde. Wie denken Sie über <persName key="A002090">Handl</persName> oder
                         <persName key="A002726">Polgar</persName>, über <persName key="A002035">Salten</persName> oder
@@ -124,8 +114,7 @@
                     bezweifle ich sehr.</p>
                 <p>Für die Versendung Ihres <rs type="work" key="A020052">Romans</rs> ist alles erforderliche –
                     inclusive der Insertion in Zeitungen – vorbereitet.</p>
-                <closer>Mit herzlichen Grüßen von uns zu Ihnen Ihr ergebener<lb/>
-                    <signed>SFischer</signed>
+                <closer>Mit herzlichen Grüßen von uns zu Ihnen Ihr ergebener<lb/><signed>SFischer</signed>
                 </closer>
             </div>
         </body>

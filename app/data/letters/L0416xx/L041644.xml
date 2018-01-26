@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041644">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19181026" n="01">26. 10. 1918</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20160914">Angelegt und kollationiert</change>
       </revisionDesc>
@@ -90,25 +81,18 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>26. Okt. 1918</date>.</dateline>
+               <dateline rend="right"><date>26. Okt. 1918</date>.</dateline>
             </opener>
-            <p>
-                    <salute>Verehrter Freund! </salute>Ihre <rs type="person" key="A002080">Frau</rs>
-                    <space unit="chars" quantity="1"/>
-               <damage agent="hole">
-                        <supplied>w</supplied>
-                    </damage>ird Ihnen gesagt haben – dass ich Euch bat Montag Abend bei mir zu
+            <p><salute>Verehrter Freund! </salute>Ihre <rs type="person" key="A002080">Frau</rs><space unit="chars" quantity="1"/>
+               <damage agent="hole"><supplied>w</supplied></damage>ird Ihnen gesagt haben – dass ich Euch bat Montag Abend bei mir zu
                nachtmahlen. Gegen 7 Uhr. Aber für <hi rend="underline" n="1">Sie</hi> falls Sie
-               später kommen wollen – wird dann nachserviert. Es ist nur <persName key="A003635">Faesi</persName> da (der <placeName key="A000407">
-                        <country>Schweizer</country>
-                    </placeName>) und <persName key="A002001 A002038">Schnitzler’s</persName>. Ich glaube <persName key="A002001">
-                        <hi rend="underline" n="1">Schnitzler</hi>
-                    </persName> würde sich so<pb/> freuen mit Ihnen (gerade
+               später kommen wollen – wird dann nachserviert. Es ist nur <persName key="A003635"
+                  >Faesi</persName> da (der <placeName key="A000407"
+                  ><country>Schweizer</country></placeName>) und <persName key="A002001 A002038"
+                  >Schnitzler’s</persName>. Ich glaube <persName key="A002001"><hi rend="underline"
+                     n="1">Schnitzler</hi></persName> würde sich so<pb/> freuen mit Ihnen (gerade
                wegen verschiedener Dinge die er als gar nicht zusammenhängend mit Ihrem
-               Direktor-Standpunkt ansieht) gemütlic<damage agent="hole">
-                        <supplied>h</supplied>
-                    </damage> zusammenzusein.</p>
+               Direktor-Standpunkt ansieht) gemütlic<damage agent="hole"><supplied>h</supplied></damage> zusammenzusein.</p>
             <p>Also – ich erwarte Sie Beide.</p>
             <closer>Ihre getreue<lb/>
                <signed>B. Z.</signed>

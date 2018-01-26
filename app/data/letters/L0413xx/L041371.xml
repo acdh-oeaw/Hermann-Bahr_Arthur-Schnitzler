@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041371">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,12 +49,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18950325" n="01">[25. 3. 1895]</date>
                </dateSender>
@@ -73,20 +68,14 @@
                         <idno>Schnitzler, B 89 a/1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, Lateinschrift, von Schnitzler datiert: »<quote>
-                                        <date>25/3 95</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, Lateinschrift, von Schnitzler datiert: »<quote><date>25/3 95</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151203">Angelegt aus Original</change>
          <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -95,12 +84,9 @@
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>L. A. </salute>Ich weiss nicht, ob ich Ihnen neulich sagte,
-          dass die Mittheilungen über <anchor type="commentary" xml:id="KL371-1">
-                        <persName key="A002002">Bahr</persName> u. die
-          <orgName key="A080690">W. All. Ztg</orgName>
-                    </anchor> vertraulich seien. Ich bitte Sie also 
+            <p><salute>L. A. </salute>Ich weiss nicht, ob ich Ihnen neulich sagte,
+          dass die Mittheilungen über <anchor type="commentary" xml:id="KL371-1" ><persName key="A002002">Bahr</persName> u. die
+          <orgName  key="A080690">W. All. Ztg</orgName></anchor> vertraulich seien. Ich bitte Sie also 
           zu <hi rend="underline" n="1">
                   <subst>
                      <del rend="overwritten">
@@ -110,8 +96,7 @@
                   </subst>
                </hi> etwas zu sagen.</p>
             <p>Ich schreibe Ihnen das jetzt, weil ich nicht weiss, ob ich 
-               diesen Abend ins Caféhaus kommen mag<space unit="chars" quantity="5"/>Ihr <signed>Salten</signed>
-                </p>
+               diesen Abend ins Caféhaus kommen mag<space unit="chars" quantity="5"/>Ihr <signed>Salten</signed></p>
          </div>
       </body>
   </text>

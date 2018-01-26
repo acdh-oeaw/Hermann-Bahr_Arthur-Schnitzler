@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030057">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -59,12 +59,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change when="20160511" who="MAM">Angelegt</change>
          <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -77,23 +72,19 @@
             <head type="sub">(Aus dem »<workName key="A020117">Buch der Sprüche und Bedenken</workName>«)</head>
             <head type="sub">von</head>
             <head type="sub">Arthur Schnitzler</head>
-            <p>Wenn wir in einem Kunstwerk das Vorhandensein einer Weltanschauung als künstlerischen
+            <p >Wenn wir in einem Kunstwerk das Vorhandensein einer Weltanschauung als künstlerischen
           Vorzug zu empfinden glauben, so kommt diese Wirkung niemals von der Tatsache oder von der
           Art der Weltanschauung her, die der Autor zum Ausdruck bringt, sondern immer nur von dem
           Grad des Talentes, den er hierzu aufzuwenden imstande war.</p>
             <!-- A&B S. 103 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Wie oft geschieht es – und muß nicht immer böse gemeint sein – daß der Kritiker seine
           eigene fixe Idee in das Werk eines Autors hineinträgt und nichts anderes mehr darin zu
           sehen vermag als eben diese Idee, von der er selbst monomanisch besessen ist; – während
           sie dem Autor doch nur ein Element seines Werkes und nicht einmal das wichtigste unter
           einem Dutzend anderer bedeutet.</p>
             <!-- A&B S. 122 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Es ist schlechter Geschmack über seine eigenen Figuren gerührt zu sein und ein noch
           schlechterer sich über sie lustig zu machen. Leider fehlt uns das rechte Wort, das
           innerhalb des Geistigen eine gewisse mindere Art von Humor so glücklich bezeichnete, als
@@ -102,23 +93,17 @@
           sich um einen Mangel an Distanz von Seiten des Autors entweder der eigenen Figur oder dem
           Publikum oder beiden gegenüber.</p>
             <!-- A&B S. 104 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Dem Kritiker verrät sich ohne weiteres, ob ein Werk, es mag im einzelnen mehr oder minder
           geglückt sein, aus innerster Notwendigkeit<pb/> oder ob es aus irgendwelchen äußeren
           Gründen geschaffen wurde. Doch mit nicht geringerer Unfehlbarkeit weiß es der Künstler, ob
           das Urteil, das er vom Kritiker erfährt, sei es Zustimmung oder Ablehnung, sachlicher
           Anteilnahme entstammt oder ob es durch irgendwelche andere Motive getrübt ist.</p>
             <!-- A&B S. 123 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Die drei Kriterien des Kunstwerks: Einheitlichkeit, Intensität, Kontinuität.</p>
             <!-- A&B S. 96 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Manchem Urteil gegenüber, das ich gedruckt lese, ergeht es mir so, daß ich vor allem
           denke: »Wie klug, wie zutreffend, wie gerecht! Jedes Wort möcht ich unterschreiben.« – Und
           doch habe ich keine rechte Freude dran; denn gleich drangt es mich den Kritiker zu fragen:
@@ -131,25 +116,17 @@
           Und, wenn du es bemerkt hättest, wäre es dir der Mühe wert gewesen, es aufzuzeichnen oder
           gar in die Zeitung zu setzen?</p>
             <!-- A&B S. 123 -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
-            <p>
-                    <anchor type="commentary" xml:id="KT057-1">Was dein Werk in die Zukunft trägt, ist nie das Problem, das du gewählt, nicht der Geist,
+            <p><space dim="vertical"/></p>
+            <p><anchor type="commentary" xml:id="KT057-1" >Was dein Werk in die Zukunft trägt, ist nie das Problem, das du gewählt, nicht der Geist,
           mit dem es behandelt; – es sind immer nur die Gestalten, die du gebildet und die
-          Atmosphäre, die du um sie herum geschaffen hast.</anchor>
-                </p>
-            <p>
-                    <space dim="vertical"/>
-                </p>
+          Atmosphäre, die du um sie herum geschaffen hast.</anchor></p>
+            <p><space dim="vertical"/></p>
             <p>Die wahre Tragödie steigt zum Himmel auf, wie ein Turm, auf dessen freier Höhe, von
           Stürmen umbraust, die Leiche des Helden aufgebahrt liegt, – aber auch auf dem Grunde jeder
           richtigen Komödie, tief verborgen in vermauerten Räumen, ruht ein tragisches Geheimnis –
           mag auch oft dem Meister selbst, der du Gebäude aufgerichtet, nichts davon ahnen. –</p>
            <!-- A&B S. 100 -->
-           <p>
-                    <space dim="vertical"/>
-                </p>
+           <p><space dim="vertical"/></p>
             <p>Wenn dem Kritiker ein Werk zur Beurteilung vorliegt, stehen ihm zwei Methoden zur Wahl.
           Entweder mag er sich auf dies eine Werk beschränken und von den übrigen des Autors
           absehen; – oder<pb/> er beziehe in sein Urteil die Gesamterscheinung des Autors ein. Meist
@@ -160,9 +137,7 @@
           acht läßt und sich solchermaßen erlaubt, den Dichter aus eigener Machtvollkommenheit zu
           fragmentieren.</p>
             <!-- A&B S. 118f. -->
-            <p>
-                    <space dim="vertical"/>
-                </p>
+            <p><space dim="vertical"/></p>
             <p>Mancher dichterische Einfall, der im Lauf der Zeit in unser Unbewußtes sank, den wir also
           unserer Meinung und dem Sprachgebrauch nach vergessen haben, nimmt weiter an unseren
           Erlebnissen Teil, zieht in geheimnisvoller Weise Nahrung aus ihnen und entwickelt sich so,
@@ -170,7 +145,7 @@
           er, wundersam verändert, aus den Tiefen unserer Seele wieder emporsteigt und uns zu mahnen
           scheint: Nun bin ich allmählich zu dem herangereift, wozu ich von Anbeginn bestimmt war:
           jetzt erst bin ich deiner, und du meiner wert; – laß uns Beide unser Schicksal erfüllen, –
-          schaffe dein Werk. –</p>
+          schaffe dein Werk.&#160;–</p>
             <!-- A&B S. 103 -->
          </div>
       </body>

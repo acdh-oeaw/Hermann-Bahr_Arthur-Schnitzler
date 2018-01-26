@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041349">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -68,7 +67,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                         </imprint>
                         <biblScope unit="pp">672</biblScope>
@@ -92,11 +91,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160127">Angelegt aus Scan</change>
         </revisionDesc>
@@ -106,28 +101,21 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>,
-                        <date>23. September 11</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>,
+                        <date>23. September 11</date></dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
-                <p>
-                    <persName key="A002002">Bahr</persName> hat mir »<workName key="A020133">Das Tänzchen</workName>« geschickt.
+                <p><persName key="A002002">Bahr</persName> hat mir »<workName key="A020133">Das Tänzchen</workName>« geschickt.
                     Finde es zum Teil ganz charmant, und Ihre neulich angedeutete Idee, das Stück
                     (das Sie wohl zu den herrlichsten Strichen Ihres Lebens begeistern wird) mit der
                         »<workName key="A020056">Mizzi</workName>« an einem (und vielen darauffolgenden) Abenden
                     zu geben, ist mir sympathisch. In der Stimmung passen die Sachen wohl zusammen,
-                    <anchor type="label" xml:id="LL349-1">ein sanfter Hauch von Anarchie wird das Haus durchziehen</anchor>. Wir sind noch in
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>,
+                    <anchor type="label" xml:id="LL349-1" >ein sanfter Hauch von Anarchie wird das Haus durchziehen</anchor>. Wir sind noch in
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName>,
                         <persName key="A002038">Olga</persName> soll erst in ein paar Tagen aufstehen, es geht ihr
                     viel besser. Ich freue mich an Ihrem schönen »<workName key="A020701">Kleist</workName>«.</p>
                 <closer>Von
-                    Herzen Ihr <signed>A. S.</signed>
-                </closer>
+                    Herzen Ihr <signed>A. S.</signed></closer>
             </div>
         </body>
     </text>

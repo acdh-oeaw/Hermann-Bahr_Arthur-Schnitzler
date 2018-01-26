@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041579">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
                     <!--<placeSender><placeName key="A000368">Berlin</placeName></placeSender>-->    
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19050300" n="1">März 1905</date>
                     </dateSender>
@@ -71,23 +68,14 @@
                                 <idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno>
                             </msIdentifier>
                             <physDesc>
-                        <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName key="A020041">Sanna</workName>. Schauspiel in fünf Aufzügen. <placeName key="A000368">
-                                            <settlement>Berlin</settlement>
-                                        </placeName>: <orgName key="A080434">S. Fischer</orgName>
-                                        <space unit="chars" quantity="1"/>
-                                        <date>1905</date>
-                                    </bibl>.</p>
+                        <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName key="A020041">Sanna</workName>. Schauspiel in fünf Aufzügen. <placeName key="A000368"><settlement>Berlin</settlement></placeName>: <orgName  key="A080434">S.&#160;Fischer</orgName><space unit="chars" quantity="1"/><date>1905</date></bibl>.</p>
                      </physDesc>
                         </msDesc>
                     </witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160426">Angelegt mit Original</change>
             <change who="KI MAM" when="20160509">Kollationiert</change>
@@ -97,14 +85,10 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <workName key="A020041"/>Herzlichst</p>
-                <closer>
-                    <signed>Hermann</signed>
-                </closer>
+                <p><workName key="A020041"/>Herzlichst</p>
+                <closer><signed>Hermann</signed></closer>
                 <postscript>
-               <p>
-                        <date when="190503">März 1905</date>
+               <p><date when="190503">März 1905</date>
                </p>
             </postscript>
             </div>

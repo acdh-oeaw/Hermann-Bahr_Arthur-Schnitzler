@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041272">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -88,11 +87,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="20151101">angelegt</change>
          <change who="KI MAM" when="20151211">Kollationiert</change>
@@ -111,23 +106,15 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>15. 2. 04</date>
-                        <lb/>
-                  <placeName key="A000958">
-                            <settlement>Abbazia</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="A000507">Hot. Guarnero</placeName>
+               <dateline rend="right"><date>15. 2. 04</date><lb/>
+                  <placeName key="A000958"><settlement>Abbazia</settlement></placeName><space unit="chars" quantity="1"/><placeName key="A000507">Hot. Guarnero</placeName>
                </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>

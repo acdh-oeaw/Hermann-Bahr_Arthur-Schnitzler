@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041353">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                         <settlement>Wien</settlement>
-                        </placeName> 
+                         <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,12 +49,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19120515" n="01">15. 5. 1912</date>
                </dateSender>
@@ -86,7 +81,7 @@
                      <title level="m">Arthur Schnitzler. Sein Leben · Sein Werk · Seine Zeit</title>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1981">1981</date>
                      </imprint>
                      <biblScope unit="pp">103</biblScope>
@@ -96,11 +91,7 @@
         
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151104">Angelegt aus der Abbildung im Schnitzler-Bildband</change>
          <change who="MAM" when="20160427">Kollationiert am Original</change>
@@ -111,12 +102,9 @@
       <body>
          <div type="writingSession" n="1">
             <p>Alles Schönste, alles Beste wünscht Dir von Herzen zum heutigen Tage</p>
-            <closer>Dein mitalternder<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Dein mitalternder<lb/><signed>Hermann</signed></closer>
             <postscript>
-               <p>
-                        <date when="19120515">15. 5. 12</date>
+               <p><date when="19120515">15. 5. 12</date>
                </p>
             </postscript>
          </div>

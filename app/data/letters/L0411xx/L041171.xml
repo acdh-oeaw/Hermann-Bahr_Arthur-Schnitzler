@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041171">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -82,11 +81,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -104,25 +99,16 @@
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>Schriftsteller</addrLine>
                <addrLine>
-                  <placeName key="A000259">Wien IX</placeName>
-                    </addrLine>
+                  <placeName key="A000259">Wien IX</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000598">Franckgasse 1</placeName>
-                    </addrLine>
+                  <placeName key="A000598">Franckgasse 1</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Mein Telephon ist <anchor type="commentary" xml:id="KL171-1">6415</anchor>.</p>
-            <closer>Herzlichst<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+            <p>Mein Telephon ist <anchor type="commentary" xml:id="KL171-1" >6415</anchor>.</p>
+            <closer>Herzlichst<lb/><signed>Bahr</signed></closer>
             <postscript>
-               <p>
-                        <anchor type="label" xml:id="LL171-1">
-                            <persName key="A002018">D.</persName> schreibt mir heute, daß sie am 5. »auf zwei Minuten« nach <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName> kommt.</anchor>
-                    </p>
+               <p><anchor type="label" xml:id="LL171-1" ><persName key="A002018">D.</persName> schreibt mir heute, daß sie am 5. »auf zwei Minuten« nach <placeName key="A000250"><settlement>Wien</settlement></placeName> kommt.</anchor></p>
             </postscript>
          </div>
       </body>

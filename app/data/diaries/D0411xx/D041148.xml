@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041148">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,17 +69,11 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18950523" n="1">23/5</date> Mit <persName key="A002585">Lou</persName>
-               und <persName key="A002007">Rich.</persName> und <persName key="A002011">Hugo</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000275 A001158">
-                  <settlement>Brühl</settlement>
-                    </placeName>.– Gespräch mit <persName key="A002011">Hugo</persName> über <persName key="A002002">Bahr</persName>. Eigentlich ist er ja doch meiner Meinung, nur hat
+            <p><date when="18950523" n="1">23/5</date> Mit <persName key="A002585">Lou</persName>
+               und <persName key="A002007">Rich.</persName> und <persName key="A002011">Hugo</persName><space unit="chars" quantity="1"/><placeName key="A000275 A001158">
+                  <settlement>Brühl</settlement></placeName>.– Gespräch mit <persName key="A002011">Hugo</persName> über <persName key="A002002">Bahr</persName>. Eigentlich ist er ja doch meiner Meinung, nur hat
                er ihn persönlich lieber.– Neulich war er mit <persName key="A002002">Bahr</persName>
-               und dessen <rs type="person" key="A002186">Frau</rs>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000313">Türkenschanzpark</placeName>. <persName key="A002002">B.</persName> erwähnte, dass ich ihm <anchor type="commentary" xml:id="KD148-1">hier</anchor> den Stoff der »<workName key="A020049">Liebelei</workName>« erzählt.– Darauf <persName key="A002186">Joël</persName> –
+               und dessen <rs type="person" key="A002186">Frau</rs><space unit="chars" quantity="1"/><placeName key="A000313">Türkenschanzpark</placeName>. <persName key="A002002">B.</persName> erwähnte, dass ich ihm <anchor type="commentary" xml:id="KD148-1" >hier</anchor> den Stoff der »<workName key="A020049">Liebelei</workName>« erzählt.– Darauf <persName key="A002186">Joël</persName> –
                »Wenn der Sch. hier von der <workName key="A020049">Liebelei</workName> erzählt werd
                ich Ihnen von der Liebe erzählen –« und spricht von ihrem Verhältnis mit <persName key="A002586">Budberg</persName>; sehr nett, einfach.– – Nach »<placeName key="A000623">Venedig in Wien</placeName>«.
                   <persName key="A002585">Lou</persName>: – <persName key="A002007">Richard</persName> ist kühler als Sie. Menschen, Bäume, Sachen – alles eins und
@@ -92,7 +81,7 @@
                   <persName key="A002007">Richard</persName> dem <persName key="A002047">Goldmann</persName> so wohl, der eigentlich immer Sehnsucht nach und Angst vor
                dem Leben hat.– –</p>
             <p>Im Kfh. <placeName key="A000234">Griensteidl</placeName>: <persName key="A002587">Leitner</persName>, stotternd und komisch – als Extractus publici. »Eine Zeile
-               von <persName key="A002588">Bacher</persName> (<orgName key="A080099">Neue
+               von <persName key="A002588">Bacher</persName> (<orgName  key="A080099">Neue
                   Presse</orgName>) ist mir lieber wie der ganze <persName key="A002152">Ibsen</persName>!«– <c rendition="#dots" n="3" place="center"/> »Das Stück mit den 2 Brüdern in der Badeanstalt <c rendition="#dots" n="3"/>«
                   (<workName key="A020213">Volksfeind</workName>.) – Er gefiel in seiner typ.
                Eigenart der <persName key="A002585">Lou</persName>.–</p>

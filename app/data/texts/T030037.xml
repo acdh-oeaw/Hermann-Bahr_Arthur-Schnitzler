@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030037">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -58,12 +58,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change when="20160225" who="MAM">Angelegt und kollationiert.</change>
          <change who="KI MAM" when="20170421">Kollationiert</change>
@@ -81,11 +76,8 @@
           schönen Tagen gern stundenlang immer um die <placeName key="A000727">Votivkirche</placeName> herum und stimmten darin überein,
           daß der Jude dem Arier unerträglich werden muß, wenn Juden sich anmaßen, Deutsche zu
           sein oder gar Führer der Deutschen. <persName key="A002170">Herzl</persName> gehörte in seiner Jugend derselben
-          <rs type="org" key="A080064">Burschenschaft</rs> an wie ich: ihr<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A003747">
-                        <anchor type="commentary" xml:id="KT037-1">Führer</anchor>
-                    </rs> war Jude, doch dieser Jude setzte den Antrag
+          <rs type="org" key="A080064">Burschenschaft</rs> an wie ich: ihr<pb/><space unit="chars" quantity="1"/><rs type="person" 
+             key="A003747"><anchor type="commentary" xml:id="KT037-1" >Führer</anchor></rs> war Jude, doch dieser Jude setzte den Antrag
           durch, fortan Juden oder auch nur, wie man das damals hieß: Judenstämmlingen, den Einlaß
           in unsere Burschenschaft zu verwehren. Nachdem er das durchgesetzt hatte, war er
           konsequent genug und erschoß sich.</p>

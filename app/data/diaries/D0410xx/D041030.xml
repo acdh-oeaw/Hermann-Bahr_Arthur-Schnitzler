@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041030">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,11 +65,8 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18920721" n="01">21. 7.</date> Von <persName key="A002216">Mz.</persName> 2
-        Briefe.– Abd. <persName key="A002035">Salten</persName> und <persName key="A002002">Bahr</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000208">Prater</placeName>.–</p>
+            <p><date when="18920721" n="01">21. 7.</date> Von <persName key="A002216">Mz.</persName> 2
+        Briefe.– Abd. <persName key="A002035">Salten</persName> und <persName key="A002002">Bahr</persName><space unit="chars" quantity="1"/><placeName key="A000208">Prater</placeName>.–</p>
   
          </div>
       </body> 

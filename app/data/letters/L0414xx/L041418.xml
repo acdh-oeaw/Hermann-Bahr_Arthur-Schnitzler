@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041418">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -51,12 +50,8 @@
                     <addressee full="yes">
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18921109" n="01">9. 11. 1892</date>
                     </dateSender>
@@ -75,9 +70,7 @@
                                 <idno>Hs-30885,26</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S., auf der ersten Seite von Schnitzler mit Bleistift datiert: »<quote>
-                                        <date>9/11 92</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 2 S., auf der ersten Seite von Schnitzler mit Bleistift datiert: »<quote><date>9/11 92</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -87,7 +80,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">30–31</biblScope>
@@ -96,11 +89,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170712">Kollationiert</change>
@@ -113,38 +102,21 @@
                 <opener>
                     <salute>Liebster Hugo,</salute>
                 </opener>
-                <p>zu <workName key="A021027 A021028">
-                        <hi rend="latintype">Musotte</hi>
-                    </workName> geh ich beinahe sicher.– Wir soupiren
-                    also miteinander.– Rendezvous einfach im Parterre Foyer.– Herrn von <persName key="A003865">
-                        <hi rend="latintype">Ehrhardt</hi>
-                    </persName> hab ich 
+                <p>zu <workName key="A021027 A021028"><hi rend="latintype">Musotte</hi></workName> geh ich beinahe sicher.– Wir soupiren
+                    also miteinander.– Rendezvous einfach im Parterre Foyer.– Herrn von <persName key="A003865"><hi rend="latintype">Ehrhardt</hi></persName> hab ich 
                     alles ausgerichtet.–
-                    Wissen Sie schon? Dinstag <unclear>
-                        <c rendition="#kaufmannsund"/>
-                    </unclear> Samstag <placeName key="A000249">Cafe Pfob</placeName>.–
-                     Die andern Abende <placeName key="A000248">Café Union</placeName> – <add place="below">lies <hi rend="latintype">
-                            <anchor type="textConst" xml:id="TL418-1">Union</anchor>
-                        </hi>
-                    </add>
-                        (<placeName key="A000613">
-                        <hi rend="latintype">Grillparzerstraße</hi>
-                    </placeName>.) –<pb/>
-                </p>
+                    Wissen Sie schon? Dinstag <unclear><c rendition="#kaufmannsund"/></unclear> Samstag <placeName key="A000249">Cafe Pfob</placeName>.–
+                     Die andern Abende <placeName key="A000248">Café Union</placeName> – <add place="below">lies <hi rend="latintype"><anchor type="textConst" xml:id="TL418-1" >Union</anchor></hi></add>
+                        (<placeName key="A000613"><hi rend="latintype">Grillparzerstraße</hi></placeName>.) –<pb/></p>
                     <p>Hat Ihnen
                     <persName key="A003505">Bölsche</persName> geantwortet?– Was treiben Sie überhaupt?–
                     Eigentlich habe ich gehofft, Sie heuer öfters zu sehen. Ich arbeite; bin aber
                     leider sehr talentlos.</p>
-                <closer>Herzlichst der Ihre<lb/>
-                    <signed>Arthur</signed>
+                <closer>Herzlichst der Ihre<lb/><signed>Arthur</signed>
 </closer>
                 <postscript>
-                    <p>
-                        <dateline>
-                            <date>9/XI. 92</date>
-                        </dateline>
-                    </p>
-               <p output="true">Grüßen Sie <persName key="A002002">Bahr</persName>!</p>
+                    <p><dateline><date>9/XI. 92</date></dateline></p>
+               <p >Grüßen Sie <persName key="A002002">Bahr</persName>!</p>
             </postscript>
             </div>
         </body>

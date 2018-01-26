@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041464">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
                     <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18911123" n="1">[23./24. 11. 1891]</date> 
@@ -82,11 +79,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -95,43 +88,29 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Es ist wirklich sehr hübsch dass Sie nach
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> kommen. Ich freue mich. Wir werden uns vernünftig eintheilen, viel
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> kommen. Ich freue mich. Wir werden uns vernünftig eintheilen, viel
                     reden, und einander hochachten. Ich möchte Ihnen gern das Sonntagsrendezvous
                     geben, gehe aber nach dem lunch ins Philharmonische Conzert. Zwischen 4 und 6
-                    Uhr aber bin ich bei D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzler</persName>, <placeName key="A000702">Kärnthnerring 12, 3 Stock</placeName>. Wenn Sie dorthin kämen
+                    Uhr aber bin ich bei D<hi rend="superscript">r</hi><space unit="chars"
+                        quantity="1"/><persName key="A002001">Schnitzler</persName>, <placeName
+                        key="A000702">Kärnthnerring 12, 3 Stock</placeName>. Wenn Sie dorthin kämen
                     würden Sie ihm und mir eine aufrichtige Freude machen. Man sitzt und plaudert
-                    besser als im Caffeehaus und ist ebenso allein, ungestörter als bei <placeName key="A000234">Griensteidl</placeName>. Die Lampen haben rothe Schirme. Es
+                    besser als im Caffeehaus und ist ebenso allein, ungestörter als bei <placeName
+                        key="A000234">Griensteidl</placeName>. Die Lampen haben rothe Schirme. Es
                     giebt Cognac. Man ist nicht Gast und es giebt keine Hausfrau. Am Schreibtisch
                     liegen Bahr, <persName key="A003528">Barres</persName>, <persName key="A003829">Barbey d’Aurevilly</persName> und noch anderes, das alliteriert. Es
-                    riecht nach der Bohême von <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <date>1891</date> –  <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <date>1840</date> wie sie so
+                    riecht nach der Bohême von <placeName 
+                        key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" 
+                            quantity="1"/><date>1891</date> –  <placeName 
+                                key="A000382"><settlement>Paris</settlement></placeName><space 
+                                    unit="chars" quantity="1"/><date>1840</date> wie sie so
                     hübsch im <workName key="A020002">Märchen</workName> ist. Und Sie machen mir wirklich eine
                     Freude, wenn Sie hinkommen. Ja sogar die <orgName key="A080014">Freie Bühne</orgName> können
-                    Sie dort lesen und über <anchor type="commentary" xml:id="KL464-1">
-                        <rs type="work" key="A020672">
-                            <persName key="A004262">Ola Hansson</persName>
-                        </rs>
-                    </anchor> Freudenthränen weinen.
-                        – <gap reason="outOfScope"/>
-                </p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                    Sie dort lesen und über <anchor type="commentary" xml:id="KL464-1" ><rs type="work" key="A020672"><persName key="A004262">Ola Hansson</persName></rs></anchor> Freudenthränen weinen.
+                        – <gap reason="outOfScope"/></p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

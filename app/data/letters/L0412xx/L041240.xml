@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041240">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19011007" n="01">7. 10. 1901</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote>
-                                        <date>901</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler mit Jahreszahl datiert: »<quote><date>901</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -99,19 +88,15 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>7. October</date>
-                    </dateline>
+               <dateline rend="right"><date>7. October</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Morgen kann ich leider nicht, da ich zur <anchor type="commentary" xml:id="KL240-1">Probe des »<workName key="A020026">neuen Simson</workName>«</anchor> muß, 
+            <p>Morgen kann ich leider nicht, da ich zur <anchor type="commentary" xml:id="KL240-1" >Probe des »<workName key="A020026">neuen Simson</workName>«</anchor> muß, 
         und eben um dieses Stückes willen kann ich auch über die nächsten Tage nicht wohl disponieren. Dagegen bin 
-        ich <anchor type="commentary" xml:id="KL240-2">Samstag, Sonntag, Montag</anchor> immer mit Vergnügen bereit und, wenn es schön ist, könnte ich Dir dann auch 
+        ich <anchor type="commentary" xml:id="KL240-2" >Samstag, Sonntag, Montag</anchor> immer mit Vergnügen bereit und, wenn es schön ist, könnte ich Dir dann auch 
         die<pb/> hübschen kleinen Spazierwege zeigen, die es hier gibt. Übrigens hoffe ich Dich noch vorher zu sehen, 
         da ich in den nächsten Tagen einmal zu Dir springen will.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

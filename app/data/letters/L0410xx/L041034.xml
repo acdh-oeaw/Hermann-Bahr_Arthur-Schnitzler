@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041034">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19010125" n="01">25. 1. 1901</date>
                </dateSender>
@@ -75,8 +70,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19010125">25. 1. 1901</date>
                </analytic>
@@ -88,39 +82,29 @@
                   <biblScope unit="pp">68</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170503">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23341Ba"/>
-     <graphic url="HS_AM23341Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23341Ba"/>
+     <graphic url="HS_AM23341Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>lieber Hermann, </salute>es freut mich sehr, dss dir die 
+            <p><salute>lieber Hermann, </salute>es freut mich sehr, dss dir die 
         <workName key="A020066">Marionetten</workName> einigen Spass gemacht haben. Wenn sie auf der Bühne
           wirken sollten, wird ja die Wirkung wahrscheinlich aus den derberen Momenten
-          kommen, weniger aus denen, die uns behagen. Ob das Couplet des Herzogs mit<pb/> Ringkämpfer, todtem Mädchen u. s. w. nicht gefährlich sein könnte, wird sich wohl
+          kommen, weniger aus denen, die uns behagen. Ob das Couplet des Herzogs mit<pb/> Ringkämpfer, todtem Mädchen u.&#160;s.&#160;w. nicht gefährlich sein könnte, wird sich wohl
           erst auf den Proben entscheiden lassen.</p>
-            <closer>Ich danke dir sehr und bin mit herzlichen Grüßen dein<lb/>
-                    <signed>Arth Sch</signed>
+            <closer>Ich danke dir sehr und bin mit herzlichen Grüßen dein<lb/><signed>Arth Sch</signed>
       </closer>
             <postscript>
-               <p>
-                        <date when="19010125">25. 1. 1901.</date>
+               <p><date when="19010125">25. 1. 1901.</date>
                </p>
             </postscript>
          </div>

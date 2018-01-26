@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041068">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,8 +74,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19040108">8. 1. 1904</date>
                   
@@ -89,15 +87,10 @@
                   <biblScope unit="pp">83</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
@@ -111,47 +104,26 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>8. Januar
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>8. Januar
           1904</date>.</dateline>
-               <p rend="right">
-                        <placeName key="A000333">XVIII. Spöttelg. 7.</placeName>
-                    </p>
+               <p rend="right"><placeName key="A000333">XVIII. Spöttelg. 7.</placeName></p>
                <salute>Lieber Hermann!</salute>
             </opener>
             <p>Die Adresse des Dr. <persName key="A002066">Stephan Epstein</persName> ist:
-               <placeName key="A000651">Paris, 78, Rue de <hyphenation alt="l’As\-somp\-tion">l’Assomption</hyphenation>
-                    </placeName>. Er hat dir wol auch
-               über das <add place="above">ev.</add>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL068-2">Gastspiel</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002074">Antoine</persName> geschrieben. 
-               Seine <rs type="person" key="A002140">Frau</rs>, die <anchor type="commentary" xml:id="KL068-1">neulich</anchor> in
-                         <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> war, fragte mich,
+               <placeName key="A000651">Paris, 78, Rue de l’Assomption</placeName>. Er hat dir wol auch
+               über das <add place="above">ev.</add><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL068-2" >Gastspiel</anchor><space unit="chars" quantity="1"/><persName key="A002074">Antoine</persName> geschrieben. 
+               Seine <rs type="person" key="A002140">Frau</rs>, die <anchor type="commentary" xml:id="KL068-1" >neulich</anchor> in
+                         <placeName key="A000250"><settlement>Wien</settlement></placeName> war, fragte mich,
         auf welche Weise es möglich wäre, die <placeName key="A000207">Sezession</placeName> zu
-          veranlassen, einen in  <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName> lebenden Künstler,
+          veranlassen, einen in  <placeName key="A000382"><settlement>Paris</settlement></placeName> lebenden Künstler,
             <persName key="A002075">Bernhard Hoetger</persName>, zu einer Ausstellung
           seiner Werke einzuladen. Sie schickt Dir nächstens irgend ein französisches
           Journal, in welchem <persName key="A002075">Hoetgerische</persName> Arbeiten
           abgebildet sind.</p>
-            <p>Morgen fahre ich auf einige Tage auf den  <placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName>,
+            <p>Morgen fahre ich auf einige Tage auf den  <placeName key="A000389"><settlement>Semmering</settlement></placeName>,
           komme gleich, wenn ich zurück bin, mit deiner freundlichen Erlaubnis zu dir, und
           hoffe, dich wohl zu finden.</p>
-            <closer>
-                    <handShift/>Herzliche Grüße, auch von meiner <rs type="person" key="A002038">Frau</rs>
-                    <lb/>dein <signed>Arthu<damage>
-                            <supplied>r</supplied>
-                        </damage>
-                    </signed>
-                </closer>
+            <closer><handShift/>Herzliche Grüße, auch von meiner <rs type="person" key="A002038">Frau</rs><lb/>dein <signed>Arthu<damage><supplied>r</supplied></damage></signed></closer>
          </div>
       </body>
   </text>

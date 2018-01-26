@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041037">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -73,7 +72,7 @@
                         <p>eh. Korrespondenzkarte, Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000412">St. Anton am Arlberge</placeName>
-                           <date when="19010704">4 7 01</date>
+                           <date when="19010704">4&#160;7&#160;01</date>
                         </stamp>
            <stamp n="2">
                            <placeName key="A000250">Wien</placeName>
@@ -84,8 +83,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19010703">3. 7. 1901</date>
                   <respStmt>Abschrift</respStmt>
@@ -98,58 +96,42 @@
                   <biblScope unit="pp">69</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60180Ba"/>
-     <graphic url="HS_AM60180Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60180Ba"/>
+     <graphic url="HS_AM60180Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi></addrLine>
                <addrLine>
                   <placeName key="A000365">Wien – <hi rend="latintype">Ob St Veit</hi>
-                  </placeName>
-                    </addrLine>
+                  </placeName></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <placeName key="A000420">Veitlissengasse</placeName>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>mein lieber Hermann, </salute>hieher bekomm ich dein <rs type="work" key="A020070">Feuilleton</rs> nachgesandt; ich hatte es aber schon vorher mit großer Freude gelesen </p>
-            <closer>Herzlichst dein<lb/>
-                    <signed>ArthSch</signed>
+            <p><salute>mein lieber Hermann, </salute>hieher bekomm ich dein <rs type="work" key="A020070">Feuilleton</rs> nachgesandt; ich hatte es aber schon vorher mit großer Freude gelesen </p>
+            <closer>Herzlichst dein<lb/><signed>ArthSch</signed>
       </closer>
             <postscript>
-               <p>
-                        <hi rend="latintype">
+               <p><hi rend="latintype">
                         <placeName key="A000412">
                            <settlement>St. Anton
-             Arlberg</settlement>
-                            </placeName>
-                     </hi>
-                        <space unit="chars" quantity="1"/>
-                        <date>3/7 901</date>
+             Arlberg</settlement></placeName>
+                     </hi><space unit="chars" quantity="1"/><date>3/7 901</date>
                </p>
             </postscript>
          </div>

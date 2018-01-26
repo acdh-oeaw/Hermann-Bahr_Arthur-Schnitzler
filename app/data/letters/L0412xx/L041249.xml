@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041249">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000230">Salzburg</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19020520" n="01">20. 5. 1902</date>
                </dateSender>
@@ -72,20 +69,14 @@
                      <physDesc>
                         <p>eh. Karte, auf der Vorderseite mit Trauerrand bedruckt: »<quote>Für die vielen Beweise herzlicher Teilnahme bei dem Hinscheiden und der Beerdigung unserer lieben,
                            unvergesslichen Mutter, Schwiegermutter, Schwägerin u. Tante / Frau <persName key="A002059">Mina Bahr geb. von Weidlich</persName> / sprechen ihren innigsten 
-           Dank aus / <placeName key="A000230">
-                                            <settlement>Salzburg</settlement>
-                                        </placeName>, <date when="19020519">19. Mai 1902</date> / Die tieftrauernd Hinterbliebenen.</quote>«</p>
+           Dank aus / <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, <date when="19020519">19. Mai 1902</date> / Die tieftrauernd Hinterbliebenen.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -100,20 +91,10 @@
       <body>
          <div type="writingSession" n="1">
             <p>Wie eine fixe Idee verfolgt mich diese ganzen Tage der Satz: <anchor type="commentary" xml:id="KL249-1">
-                  <rs type="work" key="A020022">es gibt also Fälle, wo <placeName key="A000230">
-                                <settlement>Salzburg</settlement>
-                            </placeName> nicht wirkt</rs>
-                    </anchor>.</p>
-            <closer>Es dankt Dir sehr<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+                  <rs type="work" key="A020022">es gibt also Fälle, wo <placeName key="A000230"><settlement>Salzburg</settlement></placeName> nicht wirkt</rs></anchor>.</p>
+            <closer>Es dankt Dir sehr<lb/>Dein<lb/><signed>Hermann</signed></closer>
             <postscript>
-               <p>
-                        <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>20. 5.</date>
+               <p><placeName key="A000230"><settlement>Salzburg</settlement></placeName><space unit="chars" quantity="1"/><date>20. 5.</date>
                </p>
             </postscript>
          </div>

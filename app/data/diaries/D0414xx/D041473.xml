@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041473">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -73,18 +72,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">IV</biblScope>
+                            </imprint><biblScope unit="vol">IV</biblScope>
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160111">angelegt</change>
             <change who="KI MAM" when="20160203">Kollationiert am Original</change>
@@ -93,14 +87,11 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-             <p>
-                    <date when="19041212" n="01">12.</date>
+             <p><date when="19041212" n="01">12.</date>
             </p>
-            <p>Generalprobe von <persName key="A002086">Mahlers</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020152">Dritter</workName>. Mit <persName key="A002080">M.</persName>
+            <p>Generalprobe von <persName key="A002086">Mahlers</persName><space unit="chars" quantity="1"/><workName key="A020152">Dritter</workName>. Mit <persName key="A002080">M.</persName>
             </p>
-                <p output="true">Abends <placeName key="A000318">Carltheater</placeName>, »<workName key="A020027">Der Puppenspieler</workName>«.</p>
+                <p >Abends <placeName key="A000318">Carltheater</placeName>, »<workName key="A020027">Der Puppenspieler</workName>«.</p>
         </div>
       </body>
    </text>

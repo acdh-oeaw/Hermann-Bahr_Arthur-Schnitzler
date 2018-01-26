@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041106">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,9 +71,7 @@
                         <idno>HS AM 60147 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: <persName key="A002147">Heinrich Kley</persName>: »<quote>
-                                        <placeName key="A000667">Im Hofgarten München</placeName>
-                                    </quote>«,
+                        <p>eh. Ansichtskarte, Motiv: <persName key="A002147">Heinrich Kley</persName>: »<quote><placeName key="A000667">Im Hofgarten München</placeName></quote>«,
             Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000355">München</placeName>
@@ -85,8 +82,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19080506">6. 5. 1908</date>
                   <respStmt>Abschrift</respStmt>
@@ -99,59 +95,44 @@
                   <biblScope unit="pp">102</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60147Ba"/>
-     <graphic url="HS_AM60147Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60147Ba"/>
+     <graphic url="HS_AM60147Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi></addrLine>
                <addrLine>
                   <placeName key="A000365">
                      <hi rend="latintype">Wien Ob St Veit</hi>
-                  </placeName>
-                    </addrLine>
+                  </placeName></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <placeName key="A000420">Veitlissengasse</placeName>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline>
-                        <date>6/5 908</date>
-                    </dateline>
+               <dateline><date>6/5 908</date></dateline>
             </opener>
-            <p>herzliche Grüße, in <anchor type="commentary" xml:id="KL106-1">Erinnerung an <date>1894</date>
-                    </anchor>
-                </p>
+            <p>herzliche Grüße, in <anchor type="commentary" xml:id="KL106-1" >Erinnerung an <date>1894</date></anchor></p>
             <closer>Dein<lb/>
                <signed>Arthur</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <closer>
-                    <handShift scribe="A002038"/>
+            <closer><handShift scribe="A002038"/>
                <signed>OlgaSchnitzler</signed>
             </closer>
          </div>

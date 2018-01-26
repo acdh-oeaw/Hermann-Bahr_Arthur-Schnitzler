@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041277">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19040423" n="01">23. 4. [1904]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Jahreszahl »<quote>
-                                        <date>904</date>
-                                    </quote>« von Schnitzler ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Jahreszahl »<quote><date>904</date></quote>« von Schnitzler ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -98,27 +87,16 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>23. 4.</date>
-                    </dateline>
+               <dateline rend="right"><date>23. 4.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich bin zurück, möchte Dich bald sehen, höre leider, daß man nicht zu Dir
-        darf, hoffe den <rs type="person" key="A002083">Jüngling</rs> jedoch bald <anchor type="commentary" xml:id="KL277-2">genesen</anchor> und
+        darf, hoffe den <rs type="person" key="A002083">Jüngling</rs> jedoch bald <anchor type="commentary" xml:id="KL277-2" >genesen</anchor> und
         bitte Dich dann um ein Wort, wann ich Dich treffe.</p>
-            <closer>Mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit vielen Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/>herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
             <postscript>
                <p>Über Deinen 
-                      <placeName key="A000382">
-                            <settlement>Paris</settlement>
-                        </placeName>er <anchor type="commentary" xml:id="KL277-1">
-                            <rs type="work" key="A020093">Riesenerfolg</rs>
-                        </anchor>, von dem D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="A002066">Epstein</persName> erzälte, hab ich mich so sehr gefreut.</p>
+                      <placeName key="A000382"><settlement>Paris</settlement></placeName>er <anchor type="commentary" xml:id="KL277-1"><rs type="work" key="A020093">Riesenerfolg</rs></anchor>, von dem D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002066">Epstein</persName> erzälte, hab ich mich so sehr gefreut.</p>
             </postscript>
          </div>
       </body>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030061">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -47,19 +47,14 @@
                      <title level="m" key="A020043">Der Ruf des Lebens. Schauspiel in drei Akten</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1903">1906</date>
                      </imprint>
                   </monogr>
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change when="20161004" who="MAM">Angelegt</change>
           <change who="KI MAM" when="20161006">Kollationiert</change>
@@ -68,13 +63,7 @@
   <text type="text">
       <body>
          <div>
-            <p rend="center">
-                    <workName key="A020043"/>
-                    <hi rend="spaced_out">Meinem Freunde </hi>
-                    <persName key="A002002">
-                        <hi rend="spaced_out">Hermann Bahr</hi>
-                    </persName>
-                </p>
+            <p rend="center"><workName key="A020043"/><hi rend="spaced_out">Meinem Freunde </hi><persName key="A002002"><hi rend="spaced_out">Hermann Bahr</hi></persName></p>
          </div>
       </body>
   </text>

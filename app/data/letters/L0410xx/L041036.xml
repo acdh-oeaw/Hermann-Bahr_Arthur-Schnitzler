@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041036">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -83,7 +82,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1981">1981</date>
                      </imprint>
                      <biblScope unit="pp">347–348</biblScope>
@@ -102,7 +101,7 @@
                   </monogr>
                   <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
                </biblStruct>
-               <biblStruct default="false">
+               <biblStruct  default="false">
                   <analytic>
                      <author key="A002001">Schnitzler, Arthur</author>
                      <title level="a">Briefe</title>
@@ -120,48 +119,37 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170503">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23344Ba"/>
-     <graphic url="HS_AM23344Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23344Ba"/>
+     <graphic url="HS_AM23344Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie,
-          den du mir mit deinem lieben Brief vom <date>22.</date> gegeben hast. Über die Sache selbst
+            <p><salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie,
+          den du mir mit deinem lieben Brief vom <date >22.</date> gegeben hast. Über die Sache selbst
           ist ja kaum was zu sagen – selten lag ein Fall klarer zu Tage. Wahrhaftig – sie
           haben meinen <workName key="A020017">Lieutenant Gustl</workName> nicht verdient! Ich seh es ein. Hast du vielleicht
-          neulich den  <anchor type="commentary" xml:id="KL036-2">
-                        <rs type="work" key="A021057">Artikel</rs>
-                    </anchor> in der <orgName key="A080071">Reichswehr</orgName> gelesen? Ich glaube, in dem steht das
+          neulich den  <anchor type="commentary" xml:id="KL036-2" ><rs type="work" key="A021057">Artikel</rs></anchor> in der <orgName  key="A080071">Reichswehr</orgName> gelesen? Ich glaube, in dem steht das
           großartigste an Dummheit, was in dieser Affaire geleistet wurde. Nemlich: ich
           hätte meine<pb/> Charge nur deshalb nicht vor 5 Jahren (wie es mein Recht
           gewesen) nieder gelegt – <subst>
                   <del rend="overwritten">,</del>
                   <add place="inline">weil</add>
-               </subst> ich eben doch gern gelegentlich in Uniform <add place="below">u</add> mit dem <anchor type="commentary" xml:id="KL036-1">Stürmer</anchor>
+               </subst> ich eben doch gern gelegentlich in Uniform <add place="below">u</add> mit dem <anchor type="commentary" xml:id="KL036-1" >Stürmer</anchor>
             paradirt! – Ich wollte einen Preis von einer Million
           ausschreiben für den, der mich seit meinem letzten Hauptrapport in Uniform
           gesehen – aber wer weiss – unter diesen Leuten findet
           sich am Ende auch einer, der es beschwören kann.</p>
             <p>Laß mich bei dieser Gelegenheit auch einmal sagen, wie sehr es<pb/> mich freut,
-          dass wir nun beide über die <anchor type="label" xml:id="LL036-1">zeitweiligen Entfremdungen</anchor> hinaus sind, die ja
+          dass wir nun beide über die <anchor type="label" xml:id="LL036-1" >zeitweiligen Entfremdungen</anchor> hinaus sind, die ja
           wahrscheinlich bei Naturen wie den unsern entwicklungsphysiologisch bedingt und
           daher nothwendg sind (du siehst ich bin immer »wissenschaftlich«.) Nun ist das
-          Alter der M<damage agent="hole">
-                        <supplied>iss</supplied>
-                    </damage>verständnisse wohl endgiltig für uns
+          Alter der M<damage agent="hole"><supplied>iss</supplied></damage>verständnisse wohl endgiltig für uns
           vorbei und wir sind so weit, dass wir einander – vielleicht auch ein bischen um
           unserer Fehler willen – Freunde sein und<pb/> bleiben dürfen.</p>
             <closer>In dieser Voraussicht drücke ich dir von Herzen die Hand und grüße dich
@@ -169,12 +157,7 @@
                dein <signed>Arthur</signed>        
             </closer>
             <postscript>
-               <p>
-                        <hi rend="latintype">
-                            <placeName key="A001068">
-                                <settlement>Innsbruck</settlement>
-                            </placeName>
-                        </hi>, <date>26. 6.
+               <p><hi rend="latintype"><placeName key="A001068"><settlement>Innsbruck</settlement></placeName></hi>, <date>26. 6.
          901</date>
                </p>
             </postscript>

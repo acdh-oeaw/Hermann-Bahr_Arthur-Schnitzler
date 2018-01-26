@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041237">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19010622" n="2">22. 6. 1901</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler Jahreszahl »<quote>
-                                        <date>901</date>
-                                    </quote>« ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler Jahreszahl »<quote><date>901</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -99,24 +88,16 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>22/6</date>
-                    </dateline>
+               <dateline rend="right"><date>22/6</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich denke mir zwar, daß Du die <anchor type="commentary" xml:id="KL237-1">lächerliche Entscheidung</anchor> Deiner »Affäre« <damage agent="ink">
-                        <supplied>m</supplied>
-                    </damage>it
-               der ruhigen Verachtung hing<damage agent="ink">
-                        <supplied>e</supplied>
-                    </damage>nommen haben wirst, die sie verdient, möchte Dir aber 
+            <p>Ich denke mir zwar, daß Du die <anchor type="commentary" xml:id="KL237-1" >lächerliche Entscheidung</anchor> Deiner »Affäre« <damage agent="ink"><supplied>m</supplied></damage>it
+               der ruhigen Verachtung hing<damage agent="ink"><supplied>e</supplied></damage>nommen haben wirst, die sie verdient, möchte Dir aber 
         doch aussprechen, wie stark ich gerade bei diesem Anlasse meine Sympathie für<pb/> Dich 
         gespürt und wie ich mich geschämt habe, in einem so grenzenlos albernen Lande zu leben, 
         wo die Feigheit der Menschen beinahe noch größer ist als ihr Neid. Pfui Teufel! Und 
         alles Gerede von »Cultur« usw kommt mir unsagbar dumm vor.</p>
-            <closer>Herzlich grüßt Dich<lb/>Dein alter<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Herzlich grüßt Dich<lb/>Dein alter<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

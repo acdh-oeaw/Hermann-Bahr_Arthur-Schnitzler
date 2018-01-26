@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041226">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,13 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19040202" n="2">2/2</date> Mit <persName key="A002038">O.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000369">Pötzleinsdorf</placeName> und <placeName key="A000370">Neuwaldegg</placeName>.</p>
-            <p>Bei <rs key="A002146" type="person">Mama</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002713">Raoul</persName> und Mdm. <persName key="A002712">Roussel</persName>.–</p>
+            <p><date when="19040202" n="2">2/2</date> Mit <persName key="A002038">O.</persName><space unit="chars" quantity="1"/><placeName key="A000369">Pötzleinsdorf</placeName> und <placeName key="A000370">Neuwaldegg</placeName>.</p>
+            <p>Bei <rs key="A002146" type="person">Mama</rs><space unit="chars" quantity="1"/><persName key="A002713">Raoul</persName> und Mdm. <persName key="A002712">Roussel</persName>.–</p>
             <p>Abd. bei uns <persName key="A002011">Hugo</persName>, <persName key="A002134">Gerty</persName>, <persName key="A002079">Karg</persName> (Marine), <persName key="A002035">Salten</persName>.– Über 
 <persName key="A002002">Bahr</persName> – <persName key="A002212">Schwarzkopf</persName>, Gegensätzlichkeit, dass <persName key="A002002">B.</persName> anfangs unter <persName key="A002035">S.</persName> direct 
 gelitten, in der Empfindung, dass er ihm werthvolle Menschen entziehe – 

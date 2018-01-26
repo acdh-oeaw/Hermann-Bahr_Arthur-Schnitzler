@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041330">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19101115" n="01">15. 11. 1910</date>
                </dateSender>
@@ -77,11 +74,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -102,10 +95,7 @@
             <opener>
                <dateline rend="right">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
-                  </placeName>
-                        <space unit="chars" quantity="5"/>
-                        <date>15. 11. 10.</date>
-                    </dateline>
+                  </placeName><space unit="chars" quantity="5"/><date>15. 11. 10.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich habe jeden Tag zu Dir kommen
@@ -113,14 +103,12 @@
         Dezember.</p>
             <p>Lass mich Dir also kurz schreiben, was ich Dir lieber ausführlich gesagt hätte: warum ich
                nämlich den Gedanken aufgegeben habe, über Dein <rs type="work" key="A020059">Stück</rs>
-          im <orgName key="A080080">Neuen W<hi rend="superscript">
+          im <orgName  key="A080080">Neuen W<hi  rend="superscript">
                      <hi rend="underline" n="1">r</hi>
                   </hi>
             Journal</orgName>, unabhängig von der ersten Aufführung, bei der ich ja leider nicht
           sein kann, zu sprechen.</p>
-            <p>Ich habs in <placeName key="A000424">
-                        <settlement>London</settlement>
-                    </placeName> gleich gelesen, und<pb/> dann hier noch einmal. Beide Male war der Eindruck der selbe. Ich habe mich sehr
+            <p>Ich habs in <placeName key="A000424"><settlement>London</settlement></placeName> gleich gelesen, und<pb/> dann hier noch einmal. Beide Male war der Eindruck der selbe. Ich habe mich sehr
           stark für den <rs type="work" key="A020059">Medardus</rs> selbst interessiert, der mir,
           kein halber, sondern ein sechzehntelheld<!-- sic! -->, eben darin ein vollkommenes Exempel des
             <placeName key="A000250">Wieners</placeName> zu sein scheint. Wie es aussieht, wenn ein
@@ -133,7 +121,7 @@
           inszenieren und es mir Szene für Szene auf der Bühne vorzustellen. Ich rechne ihm das als
           einen Vorzug an, es ist ein durchaus bühnenmässiges <rs type="work" key="A020059">Stück</rs>, das dargestellt noch ganz anders wirken muss als aus dem Buch. Wenn es
           nämlich wirklich dargestellt wird, wenn es bühnenmässig gelöst wird! Und da kam nun, als
-          ich die <anchor type="commentary" xml:id="KL330-1">Besetzung las</anchor>, meine Hauptsorge. Ich würde herzlich wünschen, dass ich mich völlig
+          ich die <anchor type="commentary" xml:id="KL330-1" >Besetzung las</anchor>, meine Hauptsorge. Ich würde herzlich wünschen, dass ich mich völlig
           irre. Wie ich aber diese Herrschaften, die jetzt im <placeName key="A000214">Burgtheater</placeName> herumdillettieren, und die dortigen hilflosen Inszenierungen
           kenne, muss ich fürchten, dass sie aus Deinem <rs type="work" key="A020059">Stück</rs>
           eine Karikatur machen<pb/> werden. Wäre ich nun selbst bei der Première, so könnte ich
@@ -149,9 +137,7 @@
             <closer>Grüsse Deine liebe <rs type="person" key="A002038">Frau</rs> herzlichst und sei 
         selbst herzlichst von <rs type="person" key="A002080">uns</rs> beiden
           gegrüsst!<lb/>Dein<lb/>alter<lb/>
-               <signed>
-                        <handShift scribe="A002002"/>Hermann</signed>
-                </closer>
+               <signed><handShift scribe="A002002"/>Hermann</signed></closer>
          </div>
       </body>
   </text>

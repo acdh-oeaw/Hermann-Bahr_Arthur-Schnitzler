@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041452">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,9 +48,7 @@
                     <addressee full="yes">
                         <persName key="A003913">Richter, Werner</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
                     <!--<placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="19201230" n="01">30. 12. 1920</date>
@@ -66,7 +63,7 @@
                      <editor>Hg.  Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1984">1984</date>
                      </imprint>
                         <biblScope unit="pp">223–228</biblScope>
@@ -75,11 +72,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160315">Angelegt aus Scan</change>
         </revisionDesc>
@@ -88,15 +81,12 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>30. 12. 1920</date>
-                    </dateline>
+                    <dateline rend="right"><date>30. 12. 1920</date></dateline>
                     <salute>Sehr verehrter Herr Professor.</salute>
             </opener>
                 <p>Es gereicht mir zu besonderem Vergnügen Ihre liebenswürdige Anfrage zu beantworten und ich möchte es, um nach 
                     keinerlei Richtung eine Unklarheit aufkommen zu lassen, wenn Sie erlauben, mit einiger Ausführlichkeit tun.</p>
-                <p>
-                    <anchor output="true" xml:id="OL452-1">Der »<workName key="A020018">Reigen</workName>« ist im Jahr 96/97 geschrieben und wenige Jahre
+                <p><anchor xml:id="OL452-1">Der »<workName key="A020018">Reigen</workName>« ist im Jahr 96/97 geschrieben und wenige Jahre
                     darauf als Privatdruck in 200 Exemplaren herausgegeben worden.</anchor> Als Privatdruck
                     nicht etwa, weil ich das kleine Werk für unsittlich gehalten hätte, sondern aus
                     Gründen anderer Natur, die ich in einem kurzen Vorwort darlegte. Es heißt darin
@@ -108,13 +98,12 @@
                     Freunde, denen ich dieses Manuscript gelegentlich übergeben werde, es durchaus
                     in diesem Sine behandeln und als ein bescheidenes, ihnen persönlich zugedachtes
                     Geschenk des Verfassers aufnehmen mögen.«</p>
-                <p>
-                    <anchor output="true" xml:id="OL452-1">Die Szenen fanden viel Beifall, meine Bedenken wurden allmählich beschwichtigt,
+                <p><anchor xml:id="OL452-1">Die Szenen fanden viel Beifall, meine Bedenken wurden allmählich beschwichtigt,
                     ich entschloß mich im Jahre 1903 – nur zum geringsten Teil auch aus Gründen
                     materieller Art – zur Publikation. Bald darauf erfolgte die Beschlagnahme des
                     Buches in einzelnen Städten <placeName key="A000351">Deutschlands</placeName> (ich bin darüber
                     nie ganz zuverlässig informiert worden, das Buch war in dem in jeder Hinsicht
-                    fragwürdigen <orgName key="A080415">Wiener Verlag</orgName> erschienen), in
+                    fragwürdigen <orgName  key="A080415">Wiener Verlag</orgName> erschienen), in
                     <placeName key="A000362">Österreich</placeName> erfolgte keine Konfiskation, hingegen
                     zahlreiche Angriffe in der antisemitischen Presse; trügt mich meine Erinnerung
                     nicht, so kam es sogar zu einer Interpellation, die liberale Presse schwieg das
@@ -126,14 +115,10 @@
                     verhielt mich immer ablehnend. Der <orgName key="A081248">akademisch-dramatische Verein in
                         München</orgName> führte einige Szenen trotz meines Abratens auf, und wurde
                     daraufhin aufgelöst. Die »<orgName key="A081249">Elf Scharfrichter</orgName>« in
-                            <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> führten einige
+                            <placeName key="A000368"><settlement>Berlin</settlement></placeName> führten einige
                     Dialoge ohne meinen Willen, ja ohne mein vorheriges Wissen auf, ich inhibierte
                     und man blieb mir die Tantièmen schuldig, In
-                            <placeName key="A000665">
-                        <settlement>Budapest</settlement>
-                    </placeName> fand etwa um
+                            <placeName key="A000665"><settlement>Budapest</settlement></placeName> fand etwa um
                     1910 eine Aufführung in ungarischer Sprache statt, wenn ich recht berichtet bin
                     wurde schon die zweite untersagt. Auch einige Vorlesungen in geschlossenem
                     Kreise wurden in <placeName key="A000351">Deutschland</placeName> abgehalten, von denen ich
@@ -185,9 +170,7 @@
                     schließlich auch durch einen nachträglichen Proest meinerseits nicht mehr
                     ungeschehen zu machen gewe<pb/>sen wäre. Freilich spielte diese Erwägung in meinen weiteren Entschlüssen keine ausschlaggebende Rolle.</p>
                 <p>Im Oktober vorigen Jahres kam Direktor <persName key="A002229">Holländer</persName> nach
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> und teilte mir mit,
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> und teilte mir mit,
                     daß er als Nachfolger <persName key="A002078">Reinhardts</persName> in allernächster Zeit
                     sowohl die von <persName key="A002078">Reinhardt</persName> gleichfalls akzeptierten
                         »<workName key="A020451">Schwestern</workName>« in den
@@ -255,9 +238,7 @@
                     beinahe schon ein wenig Verpflichtung zu sein.</p>
                 <p>Mit der Versicherung besonderer Hochschätzung und in der angenehmen Erwartung
                     Ihnen einmal persönlich zu begegnen, bin ich, verehrter Herr Professor</p>
-                <closer>Ihr sehr ergebener<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
+                <closer>Ihr sehr ergebener<lb/><signed>Arthur Schnitzler</signed></closer>
             </div>
         </body>
     </text>

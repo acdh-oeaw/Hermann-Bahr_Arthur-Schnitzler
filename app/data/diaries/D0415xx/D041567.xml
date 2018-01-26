@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041567">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160215">angelegt</change>
       </revisionDesc>
@@ -71,16 +66,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19220105" n="1">5/1</date> Immer übler die Morgenstunden; durchgewühlt
-               und hoffnungslos <c rendition="#dots" n="3"/>
-                </p>
+            <p><date when="19220105" n="1">5/1</date> Immer übler die Morgenstunden; durchgewühlt
+               und hoffnungslos <c rendition="#dots" n="3"/></p>
             <p>In der Schule von <persName key="A002097">Lili</persName>; von <persName key="A003672">Gerda</persName> die
                Aufgaben etc.– </p>
             <p>Dictirt Briefe, Aphoristisches.</p>
             <p>Nm. am <workName key="A020193">Verführer</workName>.– </p>
-            <p output="true">Zum Thee <persName key="A002728">Werfel</persName>; brachte mir »<workName key="A021004">Bocksgesang</workName>«
-               (das ich schon gelesen). Sagte ihm einiges darüber und zugleich über die »<anchor type="commentary" xml:id="KD567-1">Sünden
+            <p >Zum Thee <persName key="A002728">Werfel</persName>; brachte mir »<workName key="A021004">Bocksgesang</workName>«
+               (das ich schon gelesen). Sagte ihm einiges darüber und zugleich über die »<anchor type="commentary" xml:id="KD567-1" >Sünden
                wider den heiligen Geist des Dramas</anchor>« im allgemeinen (<workName key="A020043">Ruf</workName>,–
                   <workName key="A020207">Charolais</workName> – <workName key="A020137">Ringelspiel</workName> –). Wir
                sprachen über lyrische, epische, dramatische Kunst- und Lebensform; es war ein

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041673">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000230">Salzburg</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A001175">[Den Haag]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A001175">[Den Haag]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19220426" n="01">26. 4. 1922</date>
                     </dateSender>
@@ -80,11 +77,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161025">Angelegt aus Abschrift</change>
             <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change>
@@ -93,22 +86,13 @@
     <text type="letter">
         <body>
             <div type="writingSession" n="1">
-                <opener>
-                    <dateline rend="right">
-                        <date>Mittwoch, 26. April 22.</date>
-                    </dateline>
-                </opener>
-                <p>
-                    <salute>Lieber, </salute> seit Du fort bist, hat sich nur eins verändert,– das Wetter
-                ist nämlich noch genau so <placeName key="A000872">
-                        <country>sibirisch</country>
-                    </placeName> unfreundlich
+                <opener><dateline rend="right"><date>Mittwoch, 26. April 22.</date></dateline></opener>
+                <p><salute>Lieber, </salute> seit Du fort bist, hat sich nur eins verändert,– das Wetter
+                ist nämlich noch genau so <placeName key="A000872"><country>sibirisch</country></placeName> unfreundlich
                 wie die ganze Zeit,– neben meinem Zimmer hauen die Maurer das Gangfenster ein, – es soll eine 
                 Wendeltreppe (Dienerstiege) bis herauf geführt werden!</p>
                 <p>Die Folge davon ist: dumpfes Klopfen und Hämmern, vom frühen Morgen an. Das verfolgt mich
-                heuer schon, genau so war’s im <placeName key="A000430">Oesterr. Hof</placeName> in <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>,–
+                heuer schon, genau so war’s im <placeName key="A000430">Oesterr. Hof</placeName> in <placeName key="A000230"><settlement>Salzburg</settlement></placeName>,–
                 wochenlang. Es macht mich ein bischen unglücklich, denn die ganze Wohnlichkeit meines Zimmers
                 ist hin,– und man kann ja bei diesem Wetter nicht viel unterwegs sein. Ich hab sehr den Wunsch,
                 auszureisen,<pb/> denn die ganze Affaire wird noch 14 Tage dauern.</p>
@@ -123,31 +107,21 @@
                         <del rend="overwritten">t</del>
                         <add place="inline">end</add>
                     </subst>.</p>
-                    <p output="true">
-                    <persName key="A002002">Bahr</persName> übersiedelt also nach
-                            <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>, davon hat er
-                    mir längst erzält,– nun ist es sicher und <anchor type="commentary" xml:id="KL673-1">publik geworden</anchor>.</p>
+                    <p><persName key="A002002">Bahr</persName> übersiedelt also nach
+                            <placeName key="A000355"><settlement>München</settlement></placeName>, davon hat er
+                    mir längst erzält,– nun ist es sicher und <anchor type="commentary" xml:id="KL673-1" >publik geworden</anchor>.</p>
                 <p>Vom <persName key="A002097">Lilikind</persName> 2 Briefe und eine Karte, sie verzichtet auf 
-                    <placeName key="A000616">
-                        <settlement>Aussee</settlement>
-                    </placeName>, und schildert mir, wie schön jetzt
-                    Haus und<pb/> Garten in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> sind. Von
+                    <placeName key="A000616"><settlement>Aussee</settlement></placeName>, und schildert mir, wie schön jetzt
+                    Haus und<pb/> Garten in <placeName key="A000250"><settlement>Wien</settlement></placeName> sind. Von
                     <persName key="A002083">Heini</persName> nix.</p>
                 <p>Ich möchte schon gern Nachricht von Dir haben. Die Reise ist ja wol gut verlaufen, – nun wünsch
                 ich innigst alles Wolbehagen, gutes Wetter, angenehme Menschen, und einen rapid sich verziehenden
                 Katarrh. Vielleicht hilft die die Nähe des Meeres.</p>
-                <p>
-                    <persName key="A002770">Albert</persName> ist mit seiner <rs type="person" key="A004501">Frau</rs> wenige Stunden
+                <p><persName key="A002770">Albert</persName> ist mit seiner <rs type="person" key="A004501">Frau</rs> wenige Stunden
                     nach Deiner Abreise angekommen. Ich hab ihn noch nicht gesehen, wir sollten gestern Abend zusammen
                     sein, aber offenbar hat er mich telefonisch verfehlt. So hört ich.</p>
                 <p>Das Klopfen wird vehement<c rendition="#dots" n="3"/> es ist höllisch.</p>
-                <closer>Leb wol, alles Gute und Innigste!<space unit="chars" quantity="5"/>
-                    <signed>O.</signed>
-                </closer>
+                <closer>Leb wol, alles Gute und Innigste!<space unit="chars" quantity="5"/><signed>O.</signed></closer>
             </div>
         </body>
     </text>

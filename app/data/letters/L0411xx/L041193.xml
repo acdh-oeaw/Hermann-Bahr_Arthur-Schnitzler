@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041193">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -77,11 +76,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
@@ -91,9 +86,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000355">
-                            <settlement>München</settlement>
-                        </placeName>, <date>26. Januar 1906</date>.</dateline>
+                  <placeName key="A000355"><settlement>München</settlement></placeName>, <date>26. Januar 1906</date>.</dateline>
                   <salute rend="center">Sehr geehrter Herr <hi rend="latintype">Bahr</hi>!</salute>
             </opener>
             <p>Nehmen Sie meinen verbindlichsten Dank für die freundliche Zusendung des <persName key="A002001">Schnitzler</persName>’schen Schauspieles »<hi rend="latintype">
@@ -103,14 +96,8 @@
         gar zu bedenklich.</p>
             <p>Aus diesem Grunde kann ich mich nicht entschließen, das Stück hier<pb/> zur Aufführung zu bringen.</p>
             <p>Vielleicht darf ich Sie bei dieser Gelegenheit ersuchen, mir Ihre Ansichten über 
-               <persName key="A002160">
-                        <hi rend="latintype">Gorki</hi>
-                    </persName>’s »<workName key="A020120">
-                        <hi rend="latintype">Kinder der Sonne</hi>
-                    </workName>« kundzugeben, 
-        über deren Annahm<damage agent="hole">
-                        <supplied>e</supplied>
-                    </damage> ich mich in kurzer Zeit entscheiden soll.</p>
+               <persName key="A002160"><hi rend="latintype">Gorki</hi></persName>’s »<workName key="A020120"><hi rend="latintype">Kinder der Sonne</hi></workName>« kundzugeben, 
+        über deren Annahm<damage agent="hole"><supplied>e</supplied></damage> ich mich in kurzer Zeit entscheiden soll.</p>
             <closer>Mit freundlichen Grüßen<lb/>Ihr<lb/>sehr ergebener<lb/>
                <handShift/>Ihr <signed>v Speidel</signed>
             </closer>

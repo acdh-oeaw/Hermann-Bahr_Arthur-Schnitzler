@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041433">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -74,18 +73,13 @@
                             <pubPlace>Wien, Köln, Weimar</pubPlace>
                             <publisher>Böhlau</publisher>
                         <date when="1994">1994–2003</date>
-                            </imprint>
-                            <biblScope unit="vol">III</biblScope>                      
+                            </imprint><biblScope unit="vol">III</biblScope>                      
                     </monogr>
                 </biblStruct>
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20151222">angelegt</change>
             <change who="KI MAM" when="20160201">Kollationiert am Original</change>
@@ -94,11 +88,9 @@
     <text type="diaryDay">
         <body>
             <div type="writingSession" n="1">
-                <p>
-                    <date when="19030805" n="01">5.</date> Schöner Morgen, aber gleich heiß.</p>
+                <p><date when="19030805" n="01">5.</date> Schöner Morgen, aber gleich heiß.</p>
                 <p>–</p>
-                <p>
-                    <workName key="A020082">Meister</workName>. 8. Scene. Ida meldet zur Operation
+                <p><workName key="A020082">Meister</workName>. 8. Scene. Ida meldet zur Operation
                     alles bereit, wohin Nonn und <rs type="work" key="A020082">Kokoro</rs> abgehen.
                     Ida an ihre Arbeit. 9. Scene. Balsam kommt. Ida fragt scharf, warum er nicht bei
                     der Operation sei. Balsam: er möchte doch gern, aber Nonn will es ja nicht; dazu
@@ -113,25 +105,14 @@
                     halb widerruft. 9. Scene. Die Deputation: Rektor, der Bruder u. Frau <add place="above">
                   <rs type="work" key="A020082">
                      <unclear>Julie</unclear>
-                  </rs>
-                    </add>, Bürgermeister.</p>   
-                <p>–<pb/>
-                </p>
-                <p>
-               <persName key="A002089">Fred</persName> wird nach dem Essen übel. Fährt nach <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>.</p>
+                  </rs></add>, Bürgermeister.</p>   
+                <p>–<pb/></p><p>
+               <persName key="A002089">Fred</persName> wird nach dem Essen übel. Fährt nach <placeName key="A000230"><settlement>Salzburg</settlement></placeName>.</p>
                 <p>Ich plausche abends lang mit Herrn <persName key="A003238">Windmann</persName>, Bläser im
                         <rs type="place" key="A000520">Straßburger Orchester</rs>, und seiner
                         <rs type="person" key="A003239">Tochter</rs>, die in
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> Sängerin werden
-                    will; Erinnerung an <persName key="A002001">Schnitzlers</persName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KD433-1">
-                        <rs type="work" key="A020049">Weiring</rs>
-                    </anchor>.</p>
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> Sängerin werden
+                    will; Erinnerung an <persName key="A002001">Schnitzlers</persName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KD433-1" ><rs type="work" key="A020049">Weiring</rs></anchor>.</p>
                 
             
             </div>

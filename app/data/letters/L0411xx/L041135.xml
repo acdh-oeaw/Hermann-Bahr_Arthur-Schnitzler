@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041135">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000230">[Salzburg]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000230">[Salzburg]</placeName></placeAddressee>
                <dateSender>
                   <date when="19180824" n="01">24. 8. 1918</date>
                </dateSender>
@@ -70,13 +67,12 @@
                         <idno>HS AM 39902 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, Lateinschrift; gedruckter Kopf: <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>).</p>
+                        <p>eh. Karte, Lateinschrift; gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="A000350">Wien XVIII. Sternwartestrasse 71</placeName>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19180824">24. 8. 1918</date>
                   
@@ -89,52 +85,34 @@
                   <biblScope unit="pp">114</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM39902Ba"/>
-     <graphic url="HS_AM39902Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM39902Ba"/>
+     <graphic url="HS_AM39902Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
                <dateline>
-                    <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>24. 8. 18</date>
-                    </dateline>
+                    <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>24. 8. 18</date></dateline>
             </opener>
-            <p>
-                    <salute>lieber Hermann, </salute>ein begabter junger Componist, Musikdirector, (mein <rs type="person" key="A002083">Sohn</rs> studirt Harmonielehre u. Clarinette bei ihm)
-               hat deine <workName key="A020168">
-                        <workName key="A020112">Pantomime vom braven Mann</workName>
-                    </workName> in einer
+            <p ><salute>lieber Hermann, </salute>ein begabter junger Componist, Musikdirector, (mein <rs type="person" key="A002083">Sohn</rs> studirt Harmonielehre u. Clarinette bei ihm)
+               hat deine <workName key="A020168"><workName key="A020112">Pantomime vom braven Mann</workName></workName> in einer
           mir sehr interessant erscheinenden Weise vertont und möchte nicht nur deine
           nachträgliche Autorisation erbitten sondern hegt den begreiflichen Wunsch, dir
           die Sache einmal vorzuspielen. Vielleicht bist du so gütig und gibst dem jungen
-          Künstler (sein Name ist<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002123">Arthur Johannes Scholz</persName> – Gelegenheit dazu,
-          wenn du dich, was ja (– wenn die <anchor type="commentary" xml:id="KL135-1">Zeitungsnachrichten</anchor> stimmen) nun öfters der
-          Fall sein dürfte, für ein paar Tage in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> aufhältst?</p>
+          Künstler (sein Name ist<pb/><space unit="chars" quantity="1"/><persName key="A002123">Arthur Johannes Scholz</persName> – Gelegenheit dazu,
+          wenn du dich, was ja (– wenn die <anchor type="commentary" xml:id="KL135-1" >Zeitungsnachrichten</anchor> stimmen) nun öfters der
+          Fall sein dürfte, für ein paar Tage in <placeName key="A000250"><settlement>Wien</settlement></placeName> aufhältst?</p>
             <p>Wie lang hab ich dich nun schon nicht gesehn und gesprochen. Nun wirds hoffentlich nicht mehr so
-               lange dauern wie seit dem letzten Mal! Sei herzlichst gegrüßt von Deinem alten <signed>Art</signed>
-                </p>
+               lange dauern wie seit dem letzten Mal! Sei herzlichst gegrüßt von Deinem alten <signed>Art</signed></p>
          </div>
       </body>
   </text>

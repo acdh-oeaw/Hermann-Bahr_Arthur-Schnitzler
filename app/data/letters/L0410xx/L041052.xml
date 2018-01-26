@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041052">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -77,15 +76,13 @@
                         </stamp>
                         <stamp n="2">
                            <placeName key="A000263">Wien 13/7</placeName>
-                           <date when="19031110">10. 11. 0<supplied>3</supplied>
-                                    </date>
+                           <date when="19031110">10. 11. 0<supplied>3</supplied></date>
                         </stamp>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-           <listBibl>
-                    <biblStruct default="false">
+           <listBibl><biblStruct default="false">
               <analytic>
                  <date when="19020000">[1902?]</date>
                  <respStmt>Abschrift</respStmt>
@@ -98,51 +95,37 @@
                  <biblScope unit="pp">77</biblScope>
               </monogr>
               <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-           </biblStruct>
-                </listBibl> 
+           </biblStruct></listBibl> 
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60156Ba"/>   
+  </teiHeader><facsimile>       <graphic url="HS_AM60156Ba"/>   
      <graphic url="HS_AM60156Ba_R"/>  </facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi></addrLine>
                <addrLine>
-                  <placeName key="A000365">Wien-Ob. St. Veit</placeName>
-                    </addrLine>
+                  <placeName key="A000365">Wien-Ob. St. Veit</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000420">Veitlissengasse 15</placeName>
-                    </addrLine>
+                  <placeName key="A000420">Veitlissengasse 15</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>lieber Hermann, </salute>du hast dich für den <anchor type="commentary" xml:id="KL052-1">
-                        <workName key="A020078">
+            <p><salute>lieber Hermann, </salute>du hast dich für den <anchor type="commentary" xml:id="KL052-1" ><workName key="A020078">
                   <hi rend="underline" n="1">Goethe
-            Zelter</hi> Briefwechsel</workName>
-                    </anchor> interessirt. Im <hi rend="latintype">Catalog XXXIV</hi>
-                    <space unit="chars" quantity="1"/>
-                    <orgName key="A080042">süddeutsches
+            Zelter</hi> Briefwechsel</workName></anchor> interessirt. Im <hi rend="latintype">Catalog XXXIV</hi><space unit="chars" quantity="1"/><orgName key="A080042">süddeutsches
           Antiquariat</orgName>, <placeName key="A000649">
                   <hi rend="underline" n="1">München</hi> Galleriestrasse 20</placeName>, unter Nr 699 ist ein
-               Exemplar, 6 Bände um 40 Mark angekündigt. Herzlichst dein <signed>Arth Sch</signed>
-                </p>
+               Exemplar, 6 Bände um 40 Mark angekündigt. Herzlichst dein <signed>Arth Sch</signed></p>
          </div>
       </body>
   </text>
 </TEI>
+

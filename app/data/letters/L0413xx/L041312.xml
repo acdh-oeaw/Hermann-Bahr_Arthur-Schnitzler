@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041312">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19070929" n="01">29. 9. 1907</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -97,29 +88,22 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>29. 9. 07</date>.</dateline>
+               <dateline rend="right"><date>29. 9. 07</date>.</dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Ich habe, seit ich <anchor type="commentary" xml:id="KL312-1">zurück</anchor> bin, jeden Tag zu Dir
+            <p>Ich habe, seit ich <anchor type="commentary" xml:id="KL312-1" >zurück</anchor> bin, jeden Tag zu Dir
         wollen, jeden Tag kam was anderes dazwischen und ich war so gehetzt, dass es leider
-        wirklich nicht gieng. Nun wieder nach <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> abreisend, kann
+        wirklich nicht gieng. Nun wieder nach <placeName key="A000368"><settlement>Berlin</settlement></placeName> abreisend, kann
         ich Dir und Deiner lieben <rs type="person" key="A002038">Frau</rs> nur noch die
         herzlichsten Grüsse und alle guten Wünsche für den Winter schicken. Ich möchte Dir
         noch sagen, dass <rs type="person" key="A002080">uns</rs> im Sommer Dein neues Buch, »<workName key="A020051">Dämmerseelen</workName>«, 
         ein sehr lieber Gefährte war, und möchte Dich bitten,
         Dir von <persName key="A002035">Salten</persName>
                <del rend="strikethrough">,</del> 
-        mein neues <rs type="work" key="A020101" subtype="local-short">Stück</rs>
-                    <pb/>
-                    <space unit="chars" quantity="1"/>geben zu lassen und es dann an <persName key="A002007">Richard</persName> weiter zu geben; ich habe leider jetzt kein anderes Exemplar
+        mein neues <rs type="work" key="A020101" subtype="local-short">Stück</rs><pb/><space unit="chars" quantity="1"/>geben zu lassen und es dann an <persName key="A002007">Richard</persName> weiter zu geben; ich habe leider jetzt kein anderes Exemplar
         frei und wünsche sehr, dass Du den Scherz kennen lernen mögest.</p>
             <closer>Herzlichst<lb/>Dein alter<lb/>
-               <signed>
-                        <handShift scribe="A002002"/>Hermann</signed>
-                </closer>
+               <signed><handShift scribe="A002002"/>Hermann</signed></closer>
          </div>
       </body>
   </text>

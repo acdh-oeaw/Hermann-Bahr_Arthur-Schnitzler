@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041155">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -75,7 +74,7 @@
                            <vorgang>bestellt</vorgang>
                            <placeName key="A000250">Wien</placeName>
                            <date when="18920821">21. 3. 92</date>
-                           <time>9–10 ½ V.</time>
+                           <time>9–10&#160;½ V.</time>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -83,11 +82,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -106,22 +101,15 @@
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>Schriftsteller</addrLine>
                <addrLine>
-                  <placeName key="A000251">Wien I</placeName>
-                    </addrLine>
+                  <placeName key="A000251">Wien I</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000702">Kärntnerring 12</placeName>
-                    </addrLine>
+                  <placeName key="A000702">Kärntnerring 12</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>Lieber Freund! </salute>Ich habe sofort an D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002128">H.</persName> in der angegebenen Weise geschrieben u. wäre sehr
+            <p><salute>Lieber Freund! </salute>Ich habe sofort an D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002128">H.</persName> in der angegebenen Weise geschrieben u. wäre sehr
           glücklich, wenn meine Bitte Erfolg haben sollte.</p> 
-            <closer>Mit besten Grüßen<lb/>
-                    <signed>HermBahr</signed>
-                </closer>
+            <closer>Mit besten Grüßen<lb/><signed>HermBahr</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041321">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19090915" n="01">15. 9. 1909</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -96,19 +87,14 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>15. 9. 09</date>
-                    </dateline>
+               <dateline rend="right"><date>15. 9. 09</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Herzlichsten Glückwunsch Dir und Deiner lieben <rs type="person" key="A002038">Frau</rs> und der <persName key="A002097">Lili</persName>!</p>
             <p>Werden wir denn niemals alt?</p>
             <p>In der Hoffnung, Dich recht bald zu sehen, wonach mich schon sehr verlangt, mit
-         den besten Grüßen meiner <rs type="person" key="A002080">Frau</rs>
-                </p>
-            <closer>herzlichst<lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+         den besten Grüßen meiner <rs type="person" key="A002080">Frau</rs></p>
+            <closer>herzlichst<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

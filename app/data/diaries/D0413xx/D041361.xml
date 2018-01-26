@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041361">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,15 +66,10 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19140202" n="1">2/2</date> Spazieren; mit <persName key="A002038">O.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <geogName type="mountain" key="A000498" instant="false">Kapuzinerberg</geogName>.</p>
-            <p>
-                    <placeName key="A000678">Traube</placeName> zu Mittag.– Fahrt gegen <placeName key="A000469">Aigen</placeName>. <persName key="A002002">Bahr</persName> im <placeName key="A000360">Arenberg Palais</placeName> 
+            <p><date when="19140202" n="1">2/2</date> Spazieren; mit <persName key="A002038">O.</persName><space unit="chars" quantity="1"/><geogName type="mountain" key="A000498" instant="false">Kapuzinerberg</geogName>.</p>
+            <p><placeName key="A000678">Traube</placeName> zu Mittag.– Fahrt gegen <placeName key="A000469">Aigen</placeName>. <persName key="A002002">Bahr</persName> im <placeName key="A000360">Arenberg Palais</placeName> 
 nicht getroffen.–</p>
-            <p>
-                    <workName key="A020191">Graesler</workName> im Hotel zu Ende gelesen. Es könnte eine sehr nette
+            <p><workName key="A020191">Graesler</workName> im Hotel zu Ende gelesen. Es könnte eine sehr nette
         Novelle werden – wenn man sich überhaupt noch zum Arbeiten entschlösse.– Im Hotel
         genachtmahlt.–</p>
          </div> 

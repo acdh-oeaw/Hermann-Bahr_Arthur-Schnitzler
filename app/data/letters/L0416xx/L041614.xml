@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041614">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                  <placeSender>
                   <placeName key="A000250">Wien</placeName>
                  </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000230">[Salzburg]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000230">[Salzburg]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19130525" n="01">25. 5. 1913</date>
                     </dateSender>
@@ -68,7 +65,7 @@
                             <editor>Hg.  Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
                             <imprint>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <date when="1989">1987</date>
                             </imprint>
                             <biblScope unit="pp">378</biblScope>
@@ -77,11 +74,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160620">Angelegt</change>
          </revisionDesc>
@@ -93,19 +86,16 @@
                 <opener>
                <dateline rend="right">
                   <placeName key="A000350">Wien XVIII. Sternwartestrasse 71</placeName>
-                  <lb/>
-                        <date>5. 5. 913</date>
-                    </dateline>
+                  <lb/><date>5. 5. 913</date></dateline>
             </opener>
-                <p>
-                    <salute>Lieber Herr Doctor. </salute>Ihr schöner Brief hat mir wahrhaft
+                <p><salute>Lieber Herr Doctor. </salute>Ihr schöner Brief hat mir wahrhaft
                     wohlgetan. So sicher ich bei dem Dichter des »<workName key="A021309">Kinderlands</workName>«
                     auf vollkommenes Verständnis gefasst sein durfte (Ihre Bedenken hinsichtlich des
                         <rs type="work" key="A021108">Schlusses</rs> theil ich sogar – seit einiger Zeit erst); die
                     warme menschliche Antheilnahme die Sie an meinem Schaffen haben und deren ich
                     immer gewiss war, hat sich selten so lebhaft ausgedrückt als in Ihren letzten
                     Worten, für die ich Ihnen freundschaftlichst die Hand drücke. –</p>
-                <p output="true">Ich danke auch für die Einladung zur <persName key="A002002">Bahr</persName> Feier u bitte
+                <p >Ich danke auch für die Einladung zur <persName key="A002002">Bahr</persName> Feier u bitte
                     zugleich um Entschuldigung, daß ich nicht kommen werde. Sie wissen ja, daß ich
                     mich (aus Gründen, die nicht ausschließlich nervöser Natur sind) von solchen
                     Veranstaltungen wenn es nur irgend angeht fernhalte (das
@@ -116,13 +106,9 @@
                     fern davon sein mir mein Ausbleiben übel zu nehmen. Sie aber, lieber Freund,
                     bitt ich um das gleiche – und zugleich um Mittheilung wo Ihre <rs type="work" key="A021319">Rede</rs> ausführlich im Druck erscheinen wird. Wie sind Ihre Sommerpläne?
                     Wir wollen Anfang Juli einige Wochen fort sein, und dann bis gegen Ende Juli in
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> verbringen. Ein
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> verbringen. Ein
                     baldiges Wiedersehen erhoffend und mit herzlichen Grüßen</p>
-                <closer>Ihr aufrichtig ergebener<lb/>
-                    <signed>Arthur Schnitzler</signed>
-                </closer>
+                <closer>Ihr aufrichtig ergebener<lb/><signed>Arthur Schnitzler</signed></closer>
             </div>
         </body>
     </text>

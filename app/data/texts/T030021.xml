@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030021">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -66,7 +66,7 @@
                      <title level="m" key="A020384">Glossen. Zum Wiener Theater (1903 bis 1906)</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1907">1907</date>
                      </imprint>
                      <biblScope unit="pp">440–449</biblScope>
@@ -74,12 +74,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="approved">
 			      <change when="20160223" who="MAM">Angelegt und kollationiert</change>
@@ -94,12 +89,10 @@
          Puppenspieler.</workName>
             </head>
             <head type="sub">(Studie in einem Aufzuge von <persName key="A002001">Arthur Schnitzler</persName>. Zum
-         ersten Mal aufgeführt im <placeName key="A000318">Carl-Theater</placeName> am <hyphenation alt="\\"/>12. Dezember 1904.)</head>
-            <p>Zwei Freunde treffen sich nach Jahren wieder. Freunde? Nun, wie es im »<workName key="A020083">Einsamen Weg</workName>« heißt: »<anchor type="commentary" xml:id="KT021-3">
-                        <rs type="work" key="A020083">Wir bringen einander die Stichworte so
-          geschickt – es gibt pathetische Leute, die solche Beziehungen Freundschaft nennen.</rs>
-                    </anchor>« Sie
-          sind zusammen jung gewesen, und das bleibt einem hängen. <anchor type="label" xml:id="LT021-4">Eigentlich ist es nur
+         ersten Mal aufgeführt im <placeName key="A000318">Carl-Theater</placeName> am 12. Dezember 1904.)</head>
+            <p>Zwei Freunde treffen sich nach Jahren wieder. Freunde? Nun, wie es im »<workName key="A020083">Einsamen Weg</workName>« heißt: »<anchor type="commentary" xml:id="KT021-3" ><rs type="work" key="A020083">Wir bringen einander die Stichworte so
+          geschickt – es gibt pathetische Leute, die solche Beziehungen Freundschaft nennen.</rs></anchor>« Sie
+          sind zusammen jung gewesen, und das bleibt einem hängen. <anchor type="label" xml:id="LT021-4" >Eigentlich ist es nur
           Assoziation, wie die Psychologen sagen: der »Freund« ruft Erinnerungen aus einer Zeit auf,
           in der wir uns selbst noch lieber hatten.</anchor> Denn damals dufteten uns die Rosen stärker, der
           Wein war heißer und im Winde wälzten wir uns durch das Gras. Daran erinnert uns der
@@ -127,21 +120,17 @@
           Vergleiche zu der göttlichen Musik in deinem Hirn? <c rendition="#dots" n="3" place="center"/> Nun, ich habe sie zum Fenster
           hinuntergeworfen, meine Oboe. Die Dummköpfe haben ausgeschrien: Es fällt ihm nichts ein!
           Ich lasse sie schreien. Dem wahren Künstler kann nie etwas einfallen, denn er hat alles in
-          sich – er hat die innere Fülle. Das ist es, darauf kommt es an.« Man denkt an <anchor type="commentary" xml:id="KT021-5">
-                        <rs type="work" key="A020068">Ulrik Brendel</rs>
-                    </anchor>, von dem es wörtlich ebenso heißt, daß »die
+          sich – er hat die innere Fülle. Das ist es, darauf kommt es an.« Man denkt an <anchor type="commentary" xml:id="KT021-5" ><rs type="work" key="A020068">Ulrik Brendel</rs></anchor>, von dem es wörtlich ebenso heißt, daß »die
           Welt früher einmal etwas Großes von ihm erwartete«, und aus dem dann auch nur ein
           spöttischer Vagabund geworden ist, aber immer noch stolz auf seine Werke, die kein Mensch
           kennt, weil sie gar nicht geschrieben sind, sondern nur von ihm allein in Gedanken und
-          Gesichten genossen, und den <anchor type="commentary" xml:id="KT021-7">
-                        <rs type="work" key="A020068">Rosmer</rs>
-                    </anchor> so beneidet, weil er
+          Gesichten genossen, und den <anchor type="commentary" xml:id="KT021-7" ><rs type="work" key="A020068">Rosmer</rs></anchor> so beneidet, weil er
           »wenigstens den Mut hat, das Leben nach seinem eigenen Kopfe zu leben«. Freilich um den
           Preis, verschollen zu sein. Aber was liegt daran? <rs type="work" key="A020027">Merklin</rs> sagt: »Ich versichere dir, es tut gar nicht weh, verschollen zu sein. Und
           ich glaube nicht, daß Menschen meiner Art überhaupt etwas Besseres zustoßen kann.« Denn
           Menschen von seiner Art gelingt es nicht mehr, sich vom Leben düpieren zu lassen, und hat
           man dies einmal verlernt, was bleibt einem noch? »<rs type="work" key="A020027">Ruhm? – Zehn Jahre – tausend Jahre –
-          zehntausend? <anchor type="commentary" xml:id="KT021-2">sag’ mir, in welchem Jahre die Unsterblichkeit anfängt</anchor> und ich will um meinen
+          zehntausend? <anchor type="commentary" xml:id="KT021-2" >sag’ mir, in welchem Jahre die Unsterblichkeit anfängt</anchor> und ich will um meinen
           Ruhm besorgt sein. – Reichtum? – Zehn Gulden – tausend – eine Million? – Sag’ mir, um wie
           viel die Welt zu kaufen ist, und ich will mich um Reichtum bemühen. Vorläufig ist mir der
           Unterschied zwischen Armut und Reichtum, zwischen Dunkelheit und Ruhm zu gering, als daß
@@ -196,30 +185,20 @@
           merken, oder es kommt uns wenigstens vor, daß der Dichter sagen will: Der schlichte Mann
           hat recht, nicht die »Menschen meiner Art«, sondern, die sich vom Leben foppen lassen.</p>
             <p>Womit wir denn wieder bei <persName key="A002092">Grillparzers</persName> und
-            <persName key="A003718">Stifters</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000362">altösterreichischer</placeName> 
+            <persName key="A003718">Stifters</persName><space unit="chars" quantity="1"/><placeName key="A000362">altösterreichischer</placeName> 
           Weisheit der Beschwichtigung und Entsagung
           wären:</p>
-            <lg type="poem">
-                    <anchor type="commentary" xml:id="KT021-4">
-                        <rs type="work" key="A020558">
+            <lg type="poem"><anchor type="commentary" xml:id="KT021-4" ><rs type="work" key="A020558">
                <l>Eines nur ist Glück hienieden,</l>
                <l>Eins: des Innern stiller Frieden</l>
                <l>Und die schuldbefreite Brust!</l>
                <l>Und die Größe ist gefährlich,</l>
                <l>Und der Ruhm ein leeres Spiel:</l>
                <l>Was er gibt, sind nicht’ge Schatten,</l>
-               <l>Was er nimmt, es ist so viel!</l>
-                        </rs>
-                    </anchor>
+               <l>Was er nimmt, es ist so viel!</l></rs></anchor>
             </lg>
-            <p>
-                    <anchor type="label" xml:id="LT021-2"/>
-                    <anchor type="commentary" xml:id="KT021-1">Beiseite leben.</anchor> Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt
-          wie <anchor type="commentary" xml:id="KT021-6">
-                        <rs type="work" key="A020986">Brand</rs>
-                    </anchor>: nicht »alles oder nichts«, sondern
+            <p><anchor type="label" xml:id="LT021-2" /><anchor type="commentary" xml:id="KT021-1" >Beiseite leben.</anchor> Still sein. Sich nicht vermessen, um sich nicht zu verlieren. Umgekehrt
+          wie <anchor type="commentary" xml:id="KT021-6" ><rs type="work" key="A020986">Brand</rs></anchor>: nicht »alles oder nichts«, sondern
           dazwischen. Nicht hochmütig auf die Wahrheit pochen, die, wenn sie extrem wird, über
           unsere Kraft geht. Die kleinen Lügen nicht verachten, aus denen doch manchmal etwas so
           Wirkliches wie dieser kleine Bub hier wird, worin vielleicht das eigentliche Wunder und
@@ -228,9 +207,7 @@
           Dichtung. Eine Gesinnung, die auf mich – lieber <persName key="A002001">Arthur</persName>,
           sei nicht bös, aber: Bekenntnis gegen Bekenntnis – allmählich unerträglich pensioniert
           wirkt. Eine Gesinnung, mit der sich auch <persName key="A002205">Hebbel</persName>, durch
-            <placeName key="A000362">
-                        <country>Oesterreich</country>
-                    </placeName> gebrochen, betrogen hat: Kraft oder
+            <placeName key="A000362"><country>Oesterreich</country></placeName> gebrochen, betrogen hat: Kraft oder
           Schönheit gehört in unser Leben nicht, nimmt, wenn sie sich darin zeigt, eine Schuld auf
           sich und muß sie tragisch büßen. Ich habe sonst meinem <persName key="A003396">Marx</persName>ismus mit der Zeit recht bedingen gelernt, aber da muß ich doch sagen:
           Dies scheint mir wirklich nichts als der geistige Ausdruck einer sinkenden ökonomischen
@@ -267,14 +244,11 @@
           werde.) Ich glaube, daß dies weite Leben, das da draußen winkt, ungeheuer reich an wilder
           Schönheit und verruchtem Glück ist: es wartet nur auf einen großen Räuber, der es zwingen
           wird. Ich glaube nicht mehr an die kleinen Tugenden des gelassen zuschauenden Geistes. Ich
-          glaube nur noch an die große Kraft ungestüm verlangender Leidenschaft. <anchor type="label" xml:id="LT021-1">Und ich glaube, daß
+          glaube nur noch an die große Kraft ungestüm verlangender Leidenschaft. <anchor type="label" xml:id="LT021-1" >Und ich glaube, daß
           einer von uns, gerade einer von uns, dies machen muß, dies Werk, das die letzte Nacht
           einer alten Zeit enthalten wird, aus der schon in der Ferne, blutig froh, die Sonne der
-          neuen bricht. Mach’ du’s!</anchor>
-                    <anchor type="label" xml:id="LT021-3"/>
-                </p>
-            <p>
-                    <persName key="A002357">
+          neuen bricht. Mach’ du’s!</anchor><anchor type="label" xml:id="LT021-3"/></p>
+            <p><persName key="A002357">
                   <hi rend="spaced_out">Jarno</hi>
                </persName> gab den Puppenspieler in seiner festen und sicheren Art, mir fast ein
                bißchen zu fest und bestimmt: die Figur hat bei <persName key="A002001">Schnitzler</persName> den beinahe musikalischen Reiz einer Radierung, <persName key="A002357">Jarno</persName> macht einen Holzschnitt daraus. In den »<workName key="A020029">letzten Masken</workName>«, die vorhergingen, wirkte Herr <persName key="A002463">
@@ -283,13 +257,11 @@
                dieser Mischung von Grimm, Neid, Haß, Gier, Wut eines ohnmächtigen Menschen, der sich
                ein ganzes Leben geduckt hat und nun im Tode höhnend aufbäumt. Zum Gilbert in der
                   »<workName key="A020025">Literatur</workName>«, die dem <workName key="A020027">Puppenspieler</workName> folgte, ist er im Tone zu schwer, zu real besonders
-               neben dem <orgName key="A081007">Simplizissimus</orgName>stil der Frau <persName key="A002555">
+               neben dem <orgName  key="A081007">Simplizissimus</orgName>stil der Frau <persName key="A002555">
                   <hi rend="spaced_out">Retty</hi>
                </persName> und des Herrn <persName key="A002104">
                   <hi rend="spaced_out">Treßler</hi>
-               </persName>, die hier in ihrem Element waren. <signed>
-                        <hi rend="spaced_out">Hermann Bahr.</hi>
-                    </signed>
+               </persName>, die hier in ihrem Element waren. <signed><hi rend="spaced_out">Hermann Bahr.</hi></signed>
             </p>
          </div>
       </body>

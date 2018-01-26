@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041633">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -75,11 +74,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160712">Angelegt</change>
             <change who="KI MAM" when="20160914">Kollationiert</change>
@@ -90,17 +85,13 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date when="19051020">20. 10.</date> (05.)</dateline>
+                    <dateline rend="right"><date when="19051020">20. 10.</date> (05.)</dateline>
                  </opener>
-                <p>Ich muss Ihnen doch geschwind sagen, dass das <anchor type="commentary" xml:id="KL633-1">über <persName key="A002001">
-                            <rs type="work" key="A020664">Schnitzler</rs>
-                        </persName>
-                    </anchor> einfach meisterhaft ist. Ich habs dreimal
+                <p>Ich muss Ihnen doch geschwind sagen, dass das <anchor type="commentary" xml:id="KL633-1" >über <persName key="A002001"><rs type="work" key="A020664"
+                            >Schnitzler</rs></persName></anchor> einfach meisterhaft ist. Ich habs dreimal
                     gelesen und finds das Beste, was je über <persName key="A002001">Artur</persName> gesagt worden
                     ist.</p>
-                <closer>Herzlichst<lb/>gez: <signed>Hermann Bahr</signed>
-                </closer>
+                <closer>Herzlichst<lb/>gez: <signed>Hermann Bahr</signed></closer>
             </div>
         </body>
     </text>

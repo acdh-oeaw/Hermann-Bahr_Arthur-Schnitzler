@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041211">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18970708" n="01">8. 7. 1897</date>
                </dateSender>
@@ -70,18 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: »›<orgName key="A080011">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName key="A002607">I. Singer</persName>, / Hermann Bahr, Dr. <persName key="A002661">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"><placeName key="A000250">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName key="A000497">IX/3, Günthergasse 1</placeName>.«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151203">Kollationiert</change>
          <change who="KI MAM" when="20170527">Kollationiert</change>
@@ -98,13 +91,9 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>8. Juli 7</date>
-                    </dateline>
-               <salute rend="center">Lieber Freund!</salute>
-                </opener>
-            <p>
-                    <persName key="A003917">Neumann-Hofers</persName> Drängen nachgebend, der mich 
+               <dateline rend="right"><date>8. Juli 7</date></dateline>
+               <salute rend="center">Lieber Freund!</salute></opener>
+            <p><persName key="A003917">Neumann-Hofers</persName> Drängen nachgebend, der mich 
         noch immer mit Dir plagt, frage ich noch einmal bei Dir an, ob Du denn nicht 
         doch irgendwie zu bestimmen wärest, einen Vertrag mit ihm einzugehen, der Dich für 
         drei oder fünf Jahre an sein <rs type="place" key="A000218">Theater</rs> bindet. Ich habe Dir schon gesagt: er bietet 
@@ -113,8 +102,7 @@
           sehr wichtig, gerade Dich zu haben. Stelle Deine Forderungen; ich habe neulich in 
           den paar Minuten Dir nicht so recht zureden können u. weiß nicht, ob ich Dich in 
         <placeName key="A000413">
-                  <settlement>Ischl</settlement>
-                    </placeName> sehen werde. Ich bitte Dich 
+                  <settlement>Ischl</settlement></placeName> sehen werde. Ich bitte Dich 
         also brieflich, Dir die Sache doch noch einmal zu überlegen. Sie hat gewiß ihre 
         Bedenken. Aber überlege Dir, ob sie sich nicht so drehen läßt, daß sie die größten 
         Vorzüge für Dich hat. Suche Dir etwa Termine aus, wie Du sie sonst an keinem Theater<pb/> kriegst, oder was sonst etwa in Deinen Wünschen liegt. Ich weiß ja nicht, worauf Du am 
@@ -125,9 +113,7 @@
         Bühne macht. Dies würde ich von Herzen wünschen.</p>
             <p>In der Hoffnung, daß es Dir immer gut geht, 
         bin ich, mit vielen Grüßen<pb/> an <persName key="A002007">Richard</persName>,</p>
-            <closer>Dein alter treuer<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Dein alter treuer<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

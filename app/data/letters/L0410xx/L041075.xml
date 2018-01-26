@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041075">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -53,9 +52,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19041214" n="01">14. 12. 1904</date>
                </dateSender>
@@ -84,7 +81,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1981">1981</date>
                      </imprint>
                      <biblScope unit="pp">504–506</biblScope>
@@ -108,18 +105,13 @@
             
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23368Ba_1"/>    
      <graphic url="HS_AM23368Ba_1_R"/>
      <graphic url="HS_AM23368Ba_2"/>    
@@ -130,17 +122,10 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>14. 12. 904</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>14. 12. 904</date></dateline>
             </opener>
-            <p>
-                    <salute>mein lieber Hermann, </salute>es beschämt mich fast, dass du über ein im Ganzen doch
-          ziemlich unbeträchtliches Ding wie es der <workName key="A020027">Puppenspieler</workName> ist (er gehörte <anchor type="commentary" xml:id="KL075-3">in den Cyclus <workName key="A020022">Lebendg Stunden</workName>
-                    </anchor>, aber wegen zu großer Länge des
+            <p><salute>mein lieber Hermann, </salute>es beschämt mich fast, dass du über ein im Ganzen doch
+          ziemlich unbeträchtliches Ding wie es der <workName key="A020027">Puppenspieler</workName> ist (er gehörte <anchor type="commentary" xml:id="KL075-3" >in den Cyclus <workName key="A020022">Lebendg Stunden</workName></anchor>, aber wegen zu großer Länge des
           Abends mußte er zurückge<supplied>se</supplied>tzt werden) – so schöne Worte
           sagst. Vielleicht drücke ich mich besser aus, wenn ich sage: <hi rend="underline" n="1">anläßlich</hi> des <workName key="A020027">Puppenspielers</workName>. Denn deiner Auffassung des kleinen Stücks muss
           ich widersprechen. Vielleicht hab ich nicht das Recht dazu, denn es werden ja
@@ -153,9 +138,7 @@
           von der alten <persName key="A002141">Streitmann</persName> – »<anchor type="commentary" xml:id="KL075-1">brav genug</anchor>« sind
           – um alles zu dürfen. Wäre der <rs type="work" key="A020027">Puppen<pb/>spieler</rs> wirklich ein »Großer«, so bräuchte er sich nicht in
           Lügen einzuspinnen, um der größere zu bleiben – wäre <rs type="work" key="A020083">Julian</rs> wirklich ein Großer – so würde das beste seines
-          Wesens nicht mit seiner Jugend auslöschen. Gegen die Herzöge und gegen die <hi rend="latintype">
-                        <rs type="work" key="A020083">Sala</rs>
-                    </hi>’s hab ich nichts – und vor den »Großen
+          Wesens nicht mit seiner Jugend auslöschen. Gegen die Herzöge und gegen die <hi rend="latintype"><rs type="work" key="A020083">Sala</rs></hi>’s hab ich nichts – und vor den »Großen
           Räubern« salutir ich, gleich dir, in Ehrfurcht. Du hast ganz recht: »Entsagung
           ist nicht immer Reife.« – – nur setze ich hinzu: nicht bei allen. Wenn
           Individuen wie <rs type="work" key="A020083">
@@ -166,7 +149,7 @@
           oder wenigstens ein Symptom innerer Reife. Ebenso ist für den Oboëspieler
           wirklich der »Innere Friede und die schuldbefreite Brust« das einzig erreichbare
           Glück. Und dass ein Mensch wie der »<rs type="work" key="A020027">Puppenspieler</rs>« nicht, wie es eben den Beschränkungen seines Wesens
-               angemessen wäre, <add place="above">zu</add> entsagen im Stande ist, sich <add place="above">vielmehr</add> dieser Entsagung <anchor type="textConst" xml:id="TL075-1">schämten</anchor> würde und daher den
+               angemessen wäre, <add place="above">zu</add> entsagen im Stande ist, sich <add place="above">vielmehr</add> dieser Entsagung <anchor type="textConst" xml:id="TL075-1" >schämten</anchor> würde und daher den
           andern u sich ein <add place="above">falsches</add> Eigenschicksal vorspielt –
           ist ein Zeichen, dass er innere Reife nicht erlangte, welche eben nur in
           Selbsterkenntnis bestehen kann. <del rend="strikethrough">Daher</del> Es
@@ -177,24 +160,15 @@
             <p>Wohl denen, die’s nicht nöthig haben, – wohl uns, die wir wie mir scheint zu
           diesen gehören – und hoffentlich nicht allein wegen Mangels an Klugheit. So
           spricht also nichts dagegen, mein lieber Hermann, dass wir beide uns an die
-          Arbeit machen, die du in meine<pb/> Hände legst: »<anchor type="label" xml:id="LL075-1">Das Werk von der letzten Nacht
+          Arbeit machen, die du in meine<pb/> Hände legst: »<anchor type="label" xml:id="LL075-1" >Das Werk von der letzten Nacht
           einer alten Zeit</anchor>« – Und schließlich können es auch andre Werke sein.</p>
-            <p>Zu »<anchor type="commentary" xml:id="KL075-2">
-                        <rs type="work" key="A020152">Mahler</rs>« haben wir noch Sitze</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <damage agent="hole">
-                        <supplied>be</supplied>
-                    </damage>kommen, so seh ich dich hoffentlich
+            <p>Zu »<anchor type="commentary" xml:id="KL075-2" ><rs type="work" key="A020152">Mahler</rs>« haben wir noch Sitze</anchor><space unit="chars" quantity="1"/><damage agent="hole"><supplied>be</supplied></damage>kommen, so seh ich dich hoffentlich
           auch heute Abend.</p>
             <p>Jedenfalls aber sage oder schreibe mir pneumatisch, ob du vielleicht Lust
           hättest, am <hi rend="underline" n="1">Samstag</hi> bei uns zu nachtmahlen.</p>
-            <closer>Herzlichst der deine<lb/>
-                    <signed>Arthur<pb/>
-                    </signed>
-                </closer>
+            <closer>Herzlichst der deine<lb/><signed>Arthur<pb/></signed></closer>
             <postscript>
-               <p>
-                        <persName key="A002038">Olga</persName> grüßt dich herzlich und
+               <p><persName key="A002038">Olga</persName> grüßt dich herzlich und
           sagt dir, dass sie <subst>
                      <del rend="strikethrough">das</del>
                      <add place="above">von dem</add>

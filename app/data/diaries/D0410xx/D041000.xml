@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041000">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20151111">angelegt</change>
         </revisionDesc>
@@ -70,11 +65,8 @@
    <text type="diaryDay">
             <body>
                 <div type="writingSession" n="1">
-                                        <p>
-                    <date when="18950726" n="01">26/7</date> Bic. mit der <persName key="A002606">Brion</persName>. 
-                        <placeName key="A001096">
-                        <settlement>Strobl</settlement>
-                    </placeName>.– <persName key="A002630">Carla</persName>, <rs type="person" key="A002631">Schwester</rs>.– Die <persName key="A002186">Joel</persName> (<persName key="A002002">Bahr</persName>’s Frau).– 
+                                        <p><date when="18950726" n="01">26/7</date> Bic. mit der <persName key="A002606">Brion</persName>. 
+                        <placeName key="A001096"><settlement>Strobl</settlement></placeName>.– <persName key="A002630">Carla</persName>, <rs type="person" key="A002631">Schwester</rs>.– Die <persName key="A002186">Joel</persName> (<persName key="A002002">Bahr</persName>’s Frau).– 
                         Zärtliche Briefe von den <persName key="A002185 A002216">Mz.</persName>s.</p>
                 </div>
             </body>

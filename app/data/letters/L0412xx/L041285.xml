@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041285">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19041103" n="01">3. 11. 1904</date>
                </dateSender>
@@ -77,11 +74,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -99,17 +92,12 @@
                <dateline rend="right">
                   <placeName key="A000866">Wien XIII/<hi rend="subscript">7</hi>
                   </placeName>
-                  <lb/>
-                        <date>3. 11. 04</date>
-                    </dateline>
+                  <lb/><date>3. 11. 04</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Sehr gern komm ich <anchor type="commentary" xml:id="KL285-1">S<unclear>onn</unclear>tag</anchor> gegen sieben zu Dir.</p>
+            <p>Sehr gern komm ich <anchor type="commentary" xml:id="KL285-1" >S<unclear>onn</unclear>tag</anchor> gegen sieben zu Dir.</p>
             <closer>Herzlichst dankend<lb/>mit vielen Grüßen an Deine
-               <rs type="person" key="A002038">Frau</rs>
-                    <lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+               <rs type="person" key="A002038">Frau</rs><lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

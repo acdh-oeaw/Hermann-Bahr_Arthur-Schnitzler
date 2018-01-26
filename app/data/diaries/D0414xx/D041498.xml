@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041498">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -59,11 +58,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160112">angelegt</change>
             <change who="KI MAM" when="20160208">Kollationiert am Original</change>
@@ -72,21 +67,13 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19091228" n="2">28. 12</date>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzler</persName>. – Die letzten Tage an
-                            <anchor type="commentary" xml:id="KD498-1">
-                        <workName key="A020181">
-                  <persName key="A003258">Friedjung</persName>proceß</workName>
-                    </anchor> für
+            <p><date when="19091228" n="2">28. 12</date><space unit="chars" quantity="1"/><persName key="A002001">Schnitzler</persName>. – Die letzten Tage an
+                            <anchor type="commentary" xml:id="KD498-1" ><workName key="A020181">
+                  <persName key="A003258">Friedjung</persName>proceß</workName></anchor> für
                         <persName key="A002020">Fischer</persName> diktiert. – Die große Freude an des Bischofs
-                        <persName key="A003377">Keppler</persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="A020646">Buch</rs>. – Abends Pater <persName key="A003378">Othmar Müller</persName> aus <placeName key="A000530">
+                        <persName key="A003377">Keppler</persName><space unit="chars" quantity="1"/><rs type="work" key="A020646">Buch</rs>. – Abends Pater <persName key="A003378">Othmar Müller</persName> aus <placeName key="A000530">
                   <settlement>Sankt Paul in
-                    Kärnten</settlement>
-                    </placeName>.</p>
+                    Kärnten</settlement></placeName>.</p>
         </div>
       </body>
    </text>

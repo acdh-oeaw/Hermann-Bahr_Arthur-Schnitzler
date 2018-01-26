@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041174">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,9 +48,7 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
           
                <dateSender>
                   <date when="18950613" n="01">[13. 6. 1895]</date>
@@ -68,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote>
-                                        <date>13/6 95</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote><date>13/6 95</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -99,13 +90,11 @@
             </opener>
             <p>Ich bin von 
                   <persName key="A002020">Fischer</persName>
-                nie pro Seite, nie pro Werk <anchor type="commentary" xml:id="KL174-1">bezahlt</anchor> worden, 
+                nie pro Seite, nie pro Werk <anchor type="commentary" xml:id="KL174-1" >bezahlt</anchor> worden, 
         sondern er hat mir tausend Mark geliehen, dann habe ich einiges geschrieben, dann hat er mir wieder 
         geliehen und wir waren beide immer überzeugt, daß der andere ein großer Schuft ist. Deshalb kann 
         ich Deine Frage nicht beantworten.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

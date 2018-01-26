@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041002">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -81,11 +80,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
@@ -104,17 +99,12 @@
             </figure>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <pb/>Meinem lieben Freund <hi rend="latintype">Hermann Bahr</hi> in herzlicher Verehrung</p>
-            <closer>
-                    <signed>ArthSch</signed>
+            <p><pb/>Meinem lieben Freund <hi rend="latintype">Hermann Bahr</hi> in herzlicher Verehrung</p>
+            <closer><signed>ArthSch</signed>
             </closer>
             <postscript>
-               <p>
-                        <hi rend="underline" n="1">
-                        <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>, <date when="18931202">2. 12
+               <p><hi rend="underline" n="1">
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date when="18931202">2. 12
            93</date>.</hi>
                </p>
             </postscript>

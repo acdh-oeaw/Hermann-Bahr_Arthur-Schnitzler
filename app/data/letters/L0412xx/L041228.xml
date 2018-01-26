@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041228">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19000519" n="01">[19. 5. 1900]</date>
                </dateSender>
@@ -70,20 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler datiert: »<quote>
-                                        <date>19/5 900</date>
-                                    </quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<placeName key="A000884">Redaktion des <orgName key="A080148">Neuen Wiener Tagblatt</orgName></placeName> / <placeName key="A000910">Wien, I., Rothenthurmstrasse, Steyrerhof</placeName>. / Telegramm-Adresse: Tagblatt, Steyrerhof, Wien. – Telephon Nr. 384. Staats-Telephon Nr. 36.«, von Schnitzler datiert: »<quote><date>19/5 900</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -99,17 +90,13 @@
             <opener>
                <salute rend="center">Lieber Freund!</salute>
             </opener>
-            <p>Herr D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002036">Geiringer</persName>
+            <p>Herr D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002036">Geiringer</persName>
          (<placeName key="A000645">Jordangasse 9</placeName>) möchte gern auf ein paar Tage ein Exemplar Deines 
          »<workName key="A020018">Reigen</workName>« haben, um ihn zu lesen. Misbrauch ist
         vollständig ausgeschlossen, ich halte mich aber nicht für befugt, Dein Büchlein
         herzuleihen. Du würdest mir einen ungewöhnlichen Gefallen thun, wenn Du es ihm senden
         möchtest.</p>
-            <closer>Im Voraus dankt Dir bestens<lb/>Dein alter<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Im Voraus dankt Dir bestens<lb/>Dein alter<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041227">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19000420" n="01">20. 4. [1900]</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Visitenkarte: »<quote>Hermann Bahr</quote>«, die Jahreszahl »<quote>
-                                        <date>900</date>
-                                    </quote>« von Schnitzler mit Bleistift am Datum ergänzt.</p>
+                        <p>Visitenkarte: »<quote>Hermann Bahr</quote>«, die Jahreszahl »<quote><date>900</date></quote>« von Schnitzler mit Bleistift am Datum ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -97,15 +86,10 @@
    <text type="card">
       <body>
          <div type="writingSession" n="1">
-            <p>dankt Dir, lieber Freund, herzlichst für Dein <anchor type="commentary" xml:id="KL227-1">
-                        <rs type="work" key="A020018">Buch</rs>
-                    </anchor>: Die <persName key="A002018">Sandrock</persName> ist<pb/> einfach famos!</p>
-            <closer>In alter Freundschaft<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <p>dankt Dir, lieber Freund, herzlichst für Dein <anchor type="commentary" xml:id="KL227-1" ><rs type="work" key="A020018">Buch</rs></anchor>: Die <persName key="A002018">Sandrock</persName> ist<pb/> einfach famos!</p>
+            <closer>In alter Freundschaft<lb/><signed>HermannBahr</signed></closer>
             <postscript>
-               <p>
-                        <date>20/4</date>
+               <p><date>20/4</date>
                </p>
             </postscript>
          </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041424">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18930422" n="01">22. 4. 1893</date>
                     </dateSender>
@@ -88,7 +83,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">37</biblScope>
@@ -97,11 +92,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160307">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -111,40 +102,20 @@
         <body>
            <div type="address">
                <address>
-                   <addrLine>Herrn D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <hi rend="latintype">Arthur Schnitzler</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000613">I Grillparzerstrasse 7</placeName>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>
-                        </hi>
-                    </addrLine>
+                   <addrLine>Herrn D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><hi rend="latintype">Arthur Schnitzler</hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000613">I Grillparzerstrasse 7</placeName></hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000250"><settlement>Wien</settlement></placeName></hi></addrLine>
                </address>
            </div>
             <div type="writingSession" n="1">
                 
-                <p>
-                    <persName key="A002002">Bahr</persName> sagt: bei Zeitungen absolut nichts zu
+                <p><persName key="A002002">Bahr</persName> sagt: bei Zeitungen absolut nichts zu
                     erreichen, als monatliche Annahme einiger Feuilletons. Wir haben 2 greifbare
                     Projecte ausgearbeitet. Details morgen. Verlangen Sie vor allem die genaue
                     Schuldensumme zu erfahren: dann wird man einen Theil zahlen, der andere wird wohl
                     nachgelassen oder in nachträgl. Raten verwandelt werden können. Ich gehe heute
-                    auf <hi rend="latintype">
-                        <persName key="A002213">Davids</persName>
-                    </hi> Aufforderung in die <hi rend="latintype">
-                        <orgName key="A081188">Concordia</orgName>
-                    </hi>.</p>
-                <closer>
-                    <signed>Hugo</signed>
-                </closer>
+                    auf <hi rend="latintype"><persName key="A002213">Davids</persName></hi> Aufforderung in die <hi rend="latintype"><orgName key="A081188">Concordia</orgName></hi>.</p>
+                <closer><signed>Hugo</signed></closer>
             </div>
         </body>
     </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041579">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,11 +60,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160406">Kollationiert am Original</change>
         </revisionDesc>
@@ -73,20 +68,11 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19220218" n="01">18.</date> K. – <persName key="A004013">Nesti</persName>. –
+            <p ><date when="19220218" n="01">18.</date> K. – <persName key="A004013">Nesti</persName>. –
                         <persName key="A004014">Jenny</persName> nach
-                        <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>. »<rs type="work" key="A020115">Schnitzler«</rs> fertig; geht Montag an D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003880">Hirschfeld</persName>. –
-                    An <persName key="A002080">Anna</persName>, Prof. <persName key="A004011">Muth</persName>, D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A004012">Küßwetter</persName>. – Mit <persName key="A004015">Schmitz</persName> in
-                    <placeName key="A000469">
-                        <settlement>Aigen</settlement>
-                    </placeName>.</p>
+                        <placeName key="A000355"><settlement>München</settlement></placeName>. »<rs type="work" key="A020115">Schnitzler«</rs> fertig; geht Montag an D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A003880">Hirschfeld</persName>. –
+                    An <persName key="A002080">Anna</persName>, Prof. <persName key="A004011">Muth</persName>, D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A004012">Küßwetter</persName>. – Mit <persName key="A004015">Schmitz</persName> in
+                    <placeName key="A000469"><settlement>Aigen</settlement></placeName>.</p>
             
         </div>
       </body>

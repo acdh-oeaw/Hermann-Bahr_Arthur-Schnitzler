@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041366">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,12 +49,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="18950207" n="1">[7. 2. 1895]</date>
                </dateSender>
@@ -73,20 +68,14 @@
                         <idno>Schnitzler, B 89 a/1</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, Bleistift, von Schnitzler datiert: »<quote>
-                                        <date>7/2 95</date>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, Bleistift, von Schnitzler datiert: »<quote><date>7/2 95</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151126">Angelegt aus Original</change>
          <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -96,8 +85,7 @@
       <body>
     
          <div type="writingSession" n="1">
-            <p>
-                    <salute>L. F.</salute> Von <persName key="A002002">Bahr</persName> noch lange aufgehalten, kam ich leider zu spät ins Caféhaus<subst>
+            <p><salute>L. F.</salute> Von <persName key="A002002">Bahr</persName> noch lange aufgehalten, kam ich leider zu spät ins Caféhaus<subst>
                   <del rend="overwritten">. I</del>
                   <add place="inline">, i</add>
                </subst>ch bedaure das am meisten,
@@ -113,8 +101,7 @@
                   </del>
                   <add place="inline">b</add>
                </subst>leibt.</p>
-            <closer>Ihr treuer<lb/>
-                    <signed>Salten</signed>
+            <closer>Ihr treuer<lb/><signed>Salten</signed>
         </closer>       
          </div>
       </body>

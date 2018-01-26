@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041484">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>  
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19031023" n="01">23. 10. 1903</date> 
                     </dateSender>
@@ -84,11 +81,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -97,21 +90,15 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
-                <p>
-                    <note type="introduction">
-                        <workName key="A020358">Elektra</workName>-Verhandlungen mit <persName key="A002078">Reinhardt</persName>.</note>Ferner: es erscheint mir im Interesse der Casse bedenklich dass <rs type="person" key="A002078">er</rs> nichts
+                <p><gap reason="outOfScope"/></p>
+                <p><note type="introduction"><workName key="A020358">Elektra</workName>-Verhandlungen mit <persName key="A002078">Reinhardt</persName>.</note>Ferner: es erscheint mir im Interesse der Casse bedenklich dass <rs type="person" key="A002078">er</rs> nichts
                     <rs type="work" key="A020358">dazugeben</rs> will als Musikstücke. Ich glaube es wäre tausendmal besser, faute de
                     mieux abwechselnd seine älteren Einacter dazu zu geben. Ich schlug ihm
                     vorgestern telegraphisch auf <persName key="A002001">Schnitzlers</persName> und <persName key="A002035">Saltens</persName> sehr lebhaften Rath das
                     »<workName key="A021084" subtype="local">Jahrmarktfest von Plundersweiler</workName>« vor. Es wäre, gewiss für die Première, bei
                     guter bunter Regie etwas sehr lustiges und ist, bei der Kleinheit sämmtlicher
                     Rollen, leicht in 8 Tagen herzustellen.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

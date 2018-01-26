@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041540">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002065">Brahm, Otto</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000368">[Berlin]</placeName>
-                    </placeAddressee>--&gt;
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18980104" n="01">4. 1. 1898</date>
                     </dateSender>
@@ -82,11 +77,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160413">Angelegt</change>
         </revisionDesc>
@@ -97,10 +88,7 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>4. Jänner 98</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>4. Jänner 98</date></dateline>
                     <salute>Lieber Herr Direktor,</salute>
                 </opener>
                 <p>in einigen Tagen werden Sie mein <rs type="work" key="A020200">Stück</rs> zugeschickt bekommen. Mit
@@ -127,8 +115,8 @@
                     noch besser für meine Stimmung. Der Titel steht noch nicht fest. »Das Kind« ist
                     zu nichtssagend, »<workName key="A020200">das Vermächtnis</workName>« zu banal, jetzt halt ich
                     bei dem Titel »In der Familie«.</p>
-                <p output="true">Sie werden sich vielleicht wundern, daß <persName key="A002000">Burckhard</persName> noch
-                    <rs type="work" key="A020200">Stücke</rs> annimmt. Vielleicht wissen Sie, wie es mit der <anchor type="commentary" xml:id="KL540-1">Direktionskrise</anchor> am
+                <p >Sie werden sich vielleicht wundern, daß <persName key="A002000">Burckhard</persName> noch
+                    <rs type="work" key="A020200">Stücke</rs> annimmt. Vielleicht wissen Sie, wie es mit der <anchor type="commentary" xml:id="KL540-1" >Direktionskrise</anchor> am
                     <placeName key="A000214">Burgtheater</placeName> steht – hier weiß es niemand.
                     <persName key="A002055">Schlenther</persName> wäre ja sehr schön, aber von den andern ist
                     mir – trotz allem! – <persName key="A002000">Burckhard</persName> der weitaus liebste,
@@ -139,14 +127,9 @@
                   <hi rend="italic">Freiwild</hi>
                </workName> am <placeName key="A000318">Carltheater</placeName> besetzt,
                     das kommt Ende Jänner dran.</p>
-                <p>
-                    <persName key="A002023">Brandes</persName> kommt auf der Durchreise nach dem Süden nach
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>. Ich nehme an, er
-                    hält sich auch in <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> auf;
+                <p><persName key="A002023">Brandes</persName> kommt auf der Durchreise nach dem Süden nach
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName>. Ich nehme an, er
+                    hält sich auch in <placeName key="A000368"><settlement>Berlin</settlement></placeName> auf;
                     fahren Sie gleich mit ihm zu uns. Sie waren sowieso schon viel zu lang nicht da.
                     Sonst hätten Sie nicht den <workName key="A021161">
                   <hi rend="italic">Kaiser und die
@@ -159,16 +142,10 @@
                 <p>Wie stehts denn mit der <persName key="A002143">Sorma</persName>? Ist das wahr, daß Sie sie
                     ganz verlieren? Bitte grüßen Sie <persName key="A002010">Georg Hirschfeld</persName> vielmals.
                     Wie geht’s seiner neuen Arbeit? Ist er in
-                            <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> oder in
-                            <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>?</p>
+                            <placeName key="A000368"><settlement>Berlin</settlement></placeName> oder in
+                            <placeName key="A000355"><settlement>München</settlement></placeName>?</p>
                 
-                <closer>Viele herzliche Grüße! Ihr treuer<lb/>
-                    <signed>A. S.</signed>
-                </closer>
+                <closer>Viele herzliche Grüße! Ihr treuer<lb/><signed>A. S.</signed></closer>
             </div>
         </body>
     </text>

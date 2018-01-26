@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041589">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -51,9 +50,7 @@
          
                </addressee>
                <!--<placeSender><placeName>[Lueg?]</placeName></placeSender>-->
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19041225" n="1">25. 12. 1904</date>
                </dateSender>
@@ -76,11 +73,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160428">Angelegt</change>
          <change who="KI MAM" when="20160509">Kollationiert</change>
@@ -94,14 +87,10 @@
              </figure>
          </div>
          <div type="writingSession" n="1">
-            <p>
-                    <pb/>Seinem lieben Arthur</p>
-            <closer>herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <p><pb/>Seinem lieben Arthur</p>
+            <closer>herzlichst<lb/><signed>Hermann</signed></closer>
             <postscript>
-               <p>
-                        <date>Weihnachten 1904</date>
+               <p><date>Weihnachten 1904</date>
                </p>
             </postscript>
          </div>

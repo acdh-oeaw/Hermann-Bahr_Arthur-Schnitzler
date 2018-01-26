@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="I041003">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                  </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -35,7 +34,7 @@
             <publisher>Theatermuseum, Wien</publisher> 
             <idno type="HBAS-I" n="003"/>
             <availability status="free">
-               <p>Copyright © 2016</p>
+               <p>Copyright © 2017</p>
             </availability>
          </publicationStmt>
          <seriesStmt>
@@ -59,11 +58,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160909">Angelegt</change>
          <change who="KI MAM" when="20160907">Kollationiert</change>
@@ -71,10 +66,10 @@
   </teiHeader>
   <image type="photograph">
       <body>
-         <div type="writingSession" n="1">
+         <div type="image" n="1">
             <date when="19090324" n="1"/>
             <figure>
-               <graphic url="./images/6335-68.jpg" height="10cm"/>
+               <graphic url="./images/6335-68.jpg" width="6.5cm"/>
             </figure>
          </div>
       </body>

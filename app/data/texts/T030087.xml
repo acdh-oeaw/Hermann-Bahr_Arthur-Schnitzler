@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030087">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -63,11 +62,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160114">angelegt</change>
         </revisionDesc>
@@ -75,24 +70,20 @@
    <text type="text">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <anchor type="commentary" xml:id="KT087-1">
-                        <rs type="work" key="A021334 A021335">Revue</rs>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="gabelsberger">geschickt</hi> an <persName key="A002067">Singer</persName>
+            <p><anchor type="commentary" xml:id="KT087-1" ><rs type="work" key="A021334 A021335">Revue</rs></anchor><space unit="chars" quantity="1"/><hi rend="gabelsberger">geschickt</hi> an <persName
+                        key="A002067">Singer</persName>
                <hi rend="superscript">x</hi>,
                         <persName key="A002035">Salten</persName>
                <hi rend="superscript">x</hi>, <persName key="A003334">Koppel</persName>,
-                        <persName key="A002961">Stern</persName>, <persName key="A002040">Pötzl</persName>,
-                        <persName key="A003320">Jacobson</persName>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">
+                        <persName key="A002961">Stern</persName>, <persName key="A002040"
+                        >Pötzl</persName>,
+                        <persName key="A003320">Jacobson</persName><space
+                        unit="chars" quantity="1"/><hi rend="underline" n="1">
                   <persName key="A002027">Bauer</persName>
-               </hi>, <persName key="A002372">Hevesi</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002154">Zuckerkandl</persName>,
-                    <persName key="A003095">TannBergler</persName>, <persName key="A002001">Schnitzler</persName>,</p>
+               </hi>, <persName key="A002372">Hevesi</persName><space unit="chars" quantity="1"
+                        /><persName key="A002154">Zuckerkandl</persName>,
+                    <persName key="A003095"
+                        >TannBergler</persName>, <persName key="A002001">Schnitzler</persName>,</p>
             
         </div>
       </body>

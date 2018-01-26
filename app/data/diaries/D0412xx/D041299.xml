@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041299">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,27 +66,17 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19170127" n="1">27/1</date> Spazierg. mit <persName key="A002291">Schönherr</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000358">Beethovengang</placeName>, <placeName key="A000359">Heiligenstadt</placeName>,
-        in Schnee Sonne und Kälte. Über Krankheiten, neue Dichter,– <persName key="A002002">
-                        <hi rend="italic">Bahr</hi>
+            <p ><date when="19170127" n="1">27/1</date> Spazierg. mit <persName key="A002291">Schönherr</persName><space unit="chars" quantity="1"/><placeName key="A000358">Beethovengang</placeName>, <placeName key="A000359">Heiligenstadt</placeName>,
+        in Schnee Sonne und Kälte. Über Krankheiten, neue Dichter,– <persName key="A002002"><hi rend="italic">Bahr</hi>
                </persName>, <persName key="A002000">Burckhard</persName>, <persName key="A002170">Herzl</persName> – über <persName key="A002812">Barnowsky</persName>, <persName key="A002078">Reinhardt</persName>
         und »Steuersachen«.– Er ist ein ganzer, aber nicht eigentlich reicher Mensch.–</p>
             <p>Nm. wieder recht ergebnislos mit den <rs type="work" key="A020417 A020418">Einakterstoffen</rs> beschäftigt. 
 Den Rest des »<workName key="A020730">Nachklangs</workName>« mit mehr Antheilnahme durchgesehn.–</p>
             <p>Mit <persName key="A002083">Heini</persName> die <workName key="A020420">erste Symph.</workName> von <persName key="A002773">Brahms</persName> –</p>
             <p>– Lese: <persName key="A002060">Goethe</persName> – <workName key="A020421 A020422">
-                  <persName key="A002856">Christiane</persName>-</workName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020423">
-                  <persName key="A002205">Hebbel</persName>-</workName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020424">
-                  <persName key="A002854">Rahel</persName>-</workName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020425">
+                  <persName key="A002856">Christiane</persName>-</workName><space unit="chars" quantity="1"/><workName key="A020423">
+                  <persName key="A002205">Hebbel</persName>-</workName><space unit="chars" quantity="1"/><workName key="A020424">
+                  <persName key="A002854">Rahel</persName>-</workName><space unit="chars" quantity="1"/><workName key="A020425">
                   <persName key="A002855">Josef
                   II.</persName>-Briefe</workName>; u. a.–</p>
          </div> 

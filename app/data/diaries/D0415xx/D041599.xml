@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041599">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -60,11 +59,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160816">Angelegt</change>
             <change who="KI MAM" when="20160906">Kollationiert am Original</change>
@@ -73,17 +68,17 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19220531" n="01">31.</date> K.– Schön – An <persName key="A002374">Zweig</persName>, der mir Versteigerung von mir gestohlenen Briefen
-                        <persName key="A003607">Bourget</persName>s, <persName key="A002029">Karlweis</persName>’ u <persName key="A002001">Schnitzler</persName>s im
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er <orgName key="A081304">Dorotheum</orgName> meldet. An <orgName key="A081304">Dorotheum</orgName>. An <persName key="A004205">Kippenberg</persName>:
-                        »<anchor type="commentary" xml:id="KD599-1">
-                        <workName key="A021310">Das alte Wahre!</workName>
-                    </anchor>« – <placeName key="A000712">Alte Pinakothek</placeName>; bei D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A004204">Dörnhöffer</persName>. – »<workName key="A021310">Das alte
+            <p><date when="19220531" n="01">31.</date> K.– Schön – An <persName key="A002374"
+                        >Zweig</persName>, der mir Versteigerung von mir gestohlenen Briefen
+                        <persName key="A003607">Bourget</persName>s, <persName key="A002029"
+                        >Karlweis</persName>’ u <persName key="A002001">Schnitzler</persName>s im
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName>er <orgName
+                        key="A081304">Dorotheum</orgName> meldet. An <orgName key="A081304"
+                        >Dorotheum</orgName>. An <persName key="A004205">Kippenberg</persName>:
+                        »<anchor type="commentary" xml:id="KD599-1" ><workName key="A021310">Das alte Wahre!</workName></anchor>« – <placeName
+                        key="A000712">Alte Pinakothek</placeName>; bei D<hi rend="superscript"
+                        >r</hi><space unit="chars" quantity="1"/><persName key="A004204"
+                        >Dörnhöffer</persName>. – »<workName key="A021310">Das alte
                     Wahre</workName>« für <orgName key="A080099">Neue Fr.</orgName> –
                     <placeName key="A000955">Bonifaz</placeName>andacht. – Baron <persName key="A004206">Gebsattel</persName>. Ins
                     Eucharistische auslaufendes Abendgespräch.</p>

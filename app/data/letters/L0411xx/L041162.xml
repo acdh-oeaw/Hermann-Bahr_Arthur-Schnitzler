@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041162">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18931103" n="01">3. 11. 1893</date>
                </dateSender>
@@ -70,21 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 1 S., gedruckter Kopf: »<quote>
-                                        <orgName key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250">
-                                            <settlement>Wien</settlement>
-                                        </placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.</quote>«</p>
+                        <p>Brief von fremder Hand mit eh. Unterschrift, 1 Bl., 1 S., gedruckter Kopf: »<quote><orgName  key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250"><settlement>Wien</settlement></placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -100,27 +90,22 @@
             <opener>
                <dateline rend="right">
                   <hi rend="underline" n="1">
-                     <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>
+                     <placeName key="A000250"><settlement>Wien</settlement></placeName>
                   </hi>, <date>3. Novbr. 1893</date>.<lb/>
                   <placeName key="A000276">III. Salesianerg. 12</placeName>
                </dateline>
                <salute>Lieber Freund!</salute>
             </opener>
             <p>Wenn Sie mir nichts anderes geben, will ich es versuchen den 
-                  <hi rend="latintype">
-                        <workName key="A020001">Artifex</workName>
-                    </hi>
+                  <hi rend="latintype"><workName key="A020001">Artifex</workName></hi>
           durchzusetzen. Doch wäre mir aufrichtig gesagt etwas anderes lieber. Aber das
           Wichtigste bleibt, daß Sie mir endlich etwas für den <rs type="work" key="A020000">Wiener Spiegel</rs> senden –
           nun haben Sie einmal versprochen, nun hilft Ihnen nichts mehr Sie müssen in den
-          sauren Apfel beißen und bitte vergeßen Sie mir auch nicht das <anchor type="commentary" xml:id="KL162-1">Feuilleton</anchor> über
+          sauren Apfel beißen und bitte vergeßen Sie mir auch nicht das <anchor type="commentary" xml:id="KL162-1" >Feuilleton</anchor> über
                <persName key="A002017">Schönlein</persName>
                 zu besorgen.</p>
             <closer>Mit herzlichen Grüßen Ihr treuer<lb/>
-               <signed>
-                        <handShift key="A002002"/>Hermann Bahr</signed>
+               <signed><handShift key="A002002"/>Hermann Bahr</signed>
             </closer>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041044">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19011211" n="2">11. 12. 1901</date>
                </dateSender>
@@ -75,8 +70,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19011211">11. 12. 1901</date>
                </analytic>
@@ -88,21 +82,15 @@
                   <biblScope unit="pp">73</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23346Ba"/>
      <graphic url="HS_AM23346Ba_R"/>
   </facsimile>
@@ -110,26 +98,17 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>11. 12. 901</date>
-                    </dateline>
+               <dateline rend="right"><date>11. 12. 901</date></dateline>
                <salute>mein lieber Hermann,</salute>
             </opener>
-            <p>ich nehme an, Direktor <hi rend="latintype">
-                        <persName key="A002032">Bukovics</persName>
-                    </hi> wird dir den Brief zeigen, den
+            <p>ich nehme an, Direktor <hi rend="latintype"><persName key="A002032">Bukovics</persName></hi> wird dir den Brief zeigen, den
           ich heute an ihn geschrieben, um die Sache endgiltig abzuschließen und etliche
           sonderbare Auffassungen seinerseits richtigzustellen. Wenn nicht, steht dir
           gelegentlich<pb/> eine Abschrift zur Verfügung.</p>
-            <p>– Jedenfalls habe ich dir für deine wiederholten Versuche, <hi rend="latintype">
-                        <persName key="A002032">Bukovics</persName>
-                    </hi> auf seine Höflichkeitsverpflichtungen (ich
+            <p>– Jedenfalls habe ich dir für deine wiederholten Versuche, <hi rend="latintype"><persName key="A002032">Bukovics</persName></hi> auf seine Höflichkeitsverpflichtungen (ich
           sehe von den andern ab, die vielleicht ein Theaterdirektor gegen einen Autor
-          haben könnte) aufmerksam zu machen, herzlichst zu danken.<pb/>
-                </p>
-            <closer>Auf baldgs Wiedersehen<lb/>dein treuer<lb/>
-                    <signed>Arth Sch</signed>
-                </closer>
+          haben könnte) aufmerksam zu machen, herzlichst zu danken.<pb/></p>
+            <closer>Auf baldgs Wiedersehen<lb/>dein treuer<lb/><signed>Arth Sch</signed></closer>
          </div>
       </body>
   </text>

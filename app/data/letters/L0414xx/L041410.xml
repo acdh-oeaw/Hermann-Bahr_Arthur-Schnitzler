@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041410">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18920201" n="01">[1. 2.? 1892]</date>
                     </dateSender>
@@ -84,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">15</biblScope>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -111,26 +102,14 @@
                     <salute>Lieber Freund.</salute>
                 </opener>
                 <p>Ich bitte um die <anchor type="commentary" xml:id="KL410-3">gestern</anchor>
-                    vergessenen <anchor type="commentary" xml:id="KL410-1">
-                        <workName key="A020960">
-                            <hi rend="latintype">Aveugles</hi>
-                        </workName>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A021017" subtype="local">
-                        <hi rend="latintype">Bérénice</hi>
-                    </workName> u. <workName key="A021018" subtype="local">
-                        <hi rend="latintype">Sept
-                        Princesses</hi>
-                    </workName>.</p>
+                    vergessenen <anchor type="commentary" xml:id="KL410-1"><workName key="A020960"><hi rend="latintype">Aveugles</hi></workName></anchor><space unit="chars" quantity="1"/><workName
+                                key="A021017" subtype="local"><hi rend="latintype">Bérénice</hi></workName> u. <workName key="A021018" subtype="local"><hi rend="latintype">Sept
+                        Princesses</hi></workName>.</p>
                 <p>Es bleibt bei Sonntag? </p>
-                <closer>
-                    <signed>Loris.</signed>
+                <closer><signed>Loris.</signed>
                 </closer>
                 <postscript>
-               <p>Die <anchor type="commentary" xml:id="KL410-2">
-                            <workName key="A021014">Überwindung</workName>
-                        </anchor> habe ich zuhause</p>
+               <p>Die <anchor type="commentary" xml:id="KL410-2"><workName key="A021014">Überwindung</workName></anchor> habe ich zuhause</p>
             </postscript>
             </div>
         </body>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030020">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -59,14 +59,13 @@
                </biblStruct>
                <biblStruct corresp="HBRZ">
                   <analytic>
-                     <title level="a" key="A021266">Lebendige Stunden (Vier Einakter von Arthur Schnitzler: »Lebendige Stunden«, »Die Frau mit dem Dolche«, »Die letzten Masken« und »Literatur«. Zum erstenmal aufgeführt im Carl-Theater am 6. Mai 1902. Erste Vorstellung des Berliner Deutschen Theaters)</title>
-                        </analytic>
+                     <title level="a" key="A021266">Lebendige Stunden (Vier Einakter von Arthur Schnitzler: »Lebendige Stunden«, »Die Frau mit dem Dolche«, »Die letzten Masken« und »Literatur«. Zum erstenmal aufgeführt im Carl-Theater am 6. Mai 1902. Erste Vorstellung des Berliner Deutschen Theaters)</title></analytic>
                   <monogr>
                      <author key="A002002">Bahr, Hermann</author>
                      <title level="m" key="A020036">Rezensionen. Wiener Theater 1901 bis 1903</title>
                      <imprint>
                         <pubPlace>Berlin</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1902">1903</date>
                      </imprint>
                      <biblScope unit="pp">252–268</biblScope>
@@ -74,12 +73,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="approved">
 			      <change when="20160221" who="MAM">Angelegt und kollationiert</change>
@@ -94,13 +88,14 @@
             </head>
             <head type="sub">(Vier Einacter von <persName key="A002001">Arthur
                Schnitzler</persName>: »<workName key="A020069">Lebendige Stunden</workName>«,
-                  »<workName key="A020023">Die Frau mit dem Dolche</workName>«, »<workName key="A020029">Die letzten Masken</workName>« und »<workName key="A020025">Literatur</workName>«. Zum ersten Male aufgeführt im <placeName key="A000318">Carl-Theater</placeName> am <date>6. Mai 1902</date>. Erste Vorstellung des
+                  »<workName key="A020023">Die Frau mit dem Dolche</workName>«, »<workName
+                  key="A020029">Die letzten Masken</workName>« und »<workName key="A020025"
+                  >Literatur</workName>«. Zum ersten Male aufgeführt im <placeName key="A000318"
+                  >Carl-Theater</placeName> am <date>6. Mai 1902</date>. Erste Vorstellung des
                   <placeName key="A000203">
                   <placeName key="A000368">Berliner</placeName> Deutschen
                Theaters</placeName>.)</head>
-            <p>In einem kleinen Garten vor <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>.
+            <p>In einem kleinen Garten vor <placeName key="A000250"><settlement>Wien</settlement></placeName>.
                Gegen Abend. Er herbstelt. Borromäus, der Gärtner, gräbt um. Anton Hausdorfer kommt
                aus dem Hause, ein pensionirter Beamter. Er ist sehr traurig, seit vor ein paar
                Wochen die Frau Hofräthin gestorben ist, die er viele Jahre lieb gehabt hat.
@@ -113,17 +108,15 @@
                Borromäus?<c rendition="#dots" n="3"/> Haben Sie denn gar nichts bemerkt am Heinrich? Haben Sie denn nie den
                Schein um seinen Kopf bemerkt? Na, seh’n Sie!« Da tritt Heinrich in den Garten. Er
                ist früher zurückgekehrt, als er gedacht hat. Er war zuerst in
-                     <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>, das wahrhaftig eine <anchor type="commentary" xml:id="KT020-1">Stadt
+                     <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, das wahrhaftig eine <anchor type="commentary" xml:id="KT020-1">Stadt
                   des Trostes ist, mit seinem reizenden <placeName key="A000232">Rococogarten in
                      Hellbrunn</placeName>, wo er schon vor Jahren einmal von einem tiefen Schmerze
                   genesen ist. Diesmal war es freilich nichts, keine Spur von Erleichterung. Der
-                  Beamte bemerkt: »Es gibt also Fälle, wo <placeName key="A000231">Hellbrunn</placeName> nicht wirkt.«</anchor> Heinrich ist dann nach
-                     <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>, in die <placeName key="A000712">alte Pinakothek</placeName>, zu seinen
-               geliebten <persName key="A003683">Dürer</persName> und <persName key="A003684">Holbein</persName>. Da hat er zum ersten Male nach langer, nach sehr langer Zeit
+                  Beamte bemerkt: »Es gibt also Fälle, wo <placeName key="A000231"
+                     >Hellbrunn</placeName> nicht wirkt.«</anchor> Heinrich ist dann nach
+                     <placeName key="A000355"><settlement>München</settlement></placeName>, in die <placeName key="A000712">alte Pinakothek</placeName>, zu seinen
+               geliebten <persName key="A003683">Dürer</persName> und <persName key="A003684"
+                  >Holbein</persName>. Da hat er zum ersten Male nach langer, nach sehr langer Zeit
                wieder aufgeathmet. Aber das war auch nur ein Moment. Kaum auf der Straße, hat er
                sich wieder so leer und wirr gefühlt, als wäre Alles in ihm vernichtet. Er kann nicht
                mehr arbeiten! Seit zwei, drei Jahren schon nicht mehr, seit der Erkrankung seiner
@@ -183,9 +176,7 @@
                mißzuverstehen. Im Frühjahr, wenn Ihr Garten auf’s Neue blüht, sprechen wir uns
                wieder. Denn auch Sie leben weiter.«</p>
             <p>Der Vorhang geht wieder auf und wir erblicken einen kleinen Saal in einem Museum.
-               Bilder der <placeName key="A000475">
-                        <country>italienischen</country>
-                    </placeName> Renaissance. Eines
+               Bilder der <placeName key="A000475"><country>italienischen</country></placeName> Renaissance. Eines
                stellt eine sehr schöne Frau in weißem Kleide vor, einen Dolch in der erhobenen
                Rechten, mit einem Blick zum Boden, als läge dort wer von ihr ermordet. Der Saal ist
                leer. Ein Diener geht langsam vorbei. Dann kommt Pauline, um Leonhard hier zu
@@ -221,12 +212,9 @@
                wollen lieber die Bilder ansehen, das Bild der weißen Frau, die ihr so ähnlich sein
                soll. Sie hat es früher schon betrachtet. Leonhard hat gesagt, es gleiche ihr
                geradezu, abgesehen von dem Dolch. Warum »abgesehen«?, meint sie, man kann nicht
-               wissen. Sie fühlt sich sehr wohl hier, bei diesen <placeName key="A000475">
-                        <country>Italienern</country>
-                    </placeName>, fast wie zu Haus – ihre Mutter
-               stammt ja aus <placeName key="A000463">
-                        <settlement>Florenz</settlement>
-                    </placeName>, also vielleicht: eine ferne Erinnerung, wer weiß? Und jetzt betrachtet
+               wissen. Sie fühlt sich sehr wohl hier, bei diesen <placeName key="A000475"
+                     ><country>Italienern</country></placeName>, fast wie zu Haus – ihre Mutter
+               stammt ja aus <placeName key="A000463"><settlement>Florenz</settlement></placeName>, also vielleicht: eine ferne Erinnerung, wer weiß? Und jetzt betrachtet
                sie das Bild erst genauer, während Leonhard leidenschaftlich in sie dringt, heute
                Abends zu ihm zu kommen. Von wem ist das Bild? Der Katalog sagt: Unbekannter Maler,
                starb um 1530. Und Pauline starrt immer hin, während draußen die Glocken Mittag
@@ -243,60 +231,42 @@
                Geheimniß mit jenem haben. Noch beschwört er sie, von ihrem Wahn zu lassen, da tritt
                der Gatte schon ein. Er will heiter auf sie zu. Sie wehrt ihm: </p>
             <lg type="poem">
-               <l>Gib Acht, daß Du nicht vorschnell mich umarmst,</l>
-                    <l>Der hier war mein Geliebter
+               <l>Gib Acht, daß Du nicht vorschnell mich umarmst,</l><l>Der hier war mein Geliebter
             heute Nacht.</l>
             </lg>
-            <p>
-                    <rs type="work" key="A020023">Remigio</rs> befiehlt gelassen: Geh, Lionardo! Aber der schreit auf:</p>
-            <lg type="poem">
-                    <rs type="work" key="A020023">
-               <l>
-                            <space unit="chars" quantity="23"/>Tödtet mich
-          Remigio!</l>
-                        <l>Ich nehme keine Gnade von Euch an!</l>
-                    </rs>
-                </lg>
-            <p>
-                    <rs type="work" key="A020023">Remigio</rs> gewährt es ihm nicht:</p>
-            <lg type="poem">
-                    <rs type="work" key="A020023">
-               <l>Wer haßt, mag tödten – tödten mag, wer liebt!</l>
-                        <l>Gleichgiltigkeit greift nach
-            der Waffe nicht.</l>
-                        <l>Das Glas zersplittr’ ich nicht, das ärmlich schlechte,</l>
-                        <l>Daraus
-            ein Kind verbot’nen Trank genoß.</l>
-                        <l>Daß Dir die Gabe des Bewußtseins ward,</l>
-                        <l>Macht
-            mir aus Dir nichts And’res, als Du bist,</l>
-                        <l>Erbärmliches, zufäll’ges
-            Instrument.</l>
-                    </rs>
-                </lg>
+            <p><rs type="work" key="A020023">Remigio</rs> befiehlt gelassen: Geh, Lionardo! Aber der schreit auf:</p>
+            <lg type="poem"><rs type="work" key="A020023">
+               <l><space unit="chars" quantity="23"/>Tödtet mich
+          Remigio!</l><l>Ich nehme keine Gnade von Euch an!</l></rs></lg>
+            <p><rs type="work" key="A020023">Remigio</rs> gewährt es ihm nicht:</p>
+            <lg type="poem"><rs type="work" key="A020023">
+               <l>Wer haßt, mag tödten – tödten mag, wer liebt!</l><l>Gleichgiltigkeit greift nach
+            der Waffe nicht.</l><l>Das Glas zersplittr’ ich nicht, das ärmlich schlechte,</l><l>Daraus
+            ein Kind verbot’nen Trank genoß.</l><l>Daß Dir die Gabe des Bewußtseins ward,</l><l>Macht
+            mir aus Dir nichts And’res, als Du bist,</l><l>Erbärmliches, zufäll’ges
+            Instrument.</l></rs></lg>
             <p>Rasend vor solcher Schmach, schwört <rs type="work" key="A020023">Lionardo</rs>, ihn zu tödten. <rs type="work" key="A020023">Paola</rs> schreit auf: Laß ihn
           nicht fort, er hält den<pb/> Schwur, <rs type="work" key="A020023">Remigio</rs>! So wahr ich lebe, betheuert Lionardo. Und Paola:
           Ja, so wahr Du lebst! Und sie eilt auf ihn zu und stößt ihm den Dolch in den Hals.
           Lionardo sinkt, Paola starrt, den Dolch erhoben, den Blick auf ihm, wie in jenem Bilde.
           Aber <rs type="work" key="A020023">Remigio</rs> spricht, gefaßt, beinahe heiter:</p>
             <lg type="poem">
-               <l>War dies der Sinn? Ist mein Gebet erhört,</l>
-                    <l>Daß für mein Bildniß mir Erleuchtung
-            werde?</l>
-                    <l>Ja, so vollend’ ich’s! Der Du dies gefügt,</l>
-                    <l>O Himmel, eine Stunde lang
-            gewähre</l>
-                    <l>Der Seele Frieden, Ruhe dieser Hand!</l>
+               <l>War dies der Sinn? Ist mein Gebet erhört,</l><l>Daß für mein Bildniß mir Erleuchtung
+            werde?</l><l>Ja, so vollend’ ich’s! Der Du dies gefügt,</l><l>O Himmel, eine Stunde lang
+            gewähre</l><l>Der Seele Frieden, Ruhe dieser Hand!</l>
             </lg>
             <p>Er versperrt die Thür und tritt an das Bild, Paola starrt. Da verdunkelt es sich,
-               jene Glocken ertönen, rasch ist die Bühne verwandelt: der kleine Saal, das Bild, <rs type="work" key="A020023">Pauline</rs> mit <rs type="work" key="A020023">Leonhard</rs>. Dieser fragt: Was ist Ihnen, Pauline? Sie scheint zu erwachen, sie
+               jene Glocken ertönen, rasch ist die Bühne verwandelt: der kleine Saal, das Bild, <rs
+                  type="work" key="A020023">Pauline</rs> mit <rs type="work" key="A020023"
+                  >Leonhard</rs>. Dieser fragt: Was ist Ihnen, Pauline? Sie scheint zu erwachen, sie
                sieht sich um, und der Dichter merkt an: »In ihren Zügen drückt sich allmälig die
                Ueberzeugung aus, daß ein Schicksal über ihr ist, dem sie nicht entrinnen kann.« Und
                so läßt er sie zu Leonhard, indem sie ihm die Hand reicht und ihm ernst und fest ins
                Auge sieht, »nicht mit dem Ausdruck der Liebe, sondern der Entschlossenheit« sagen:
                Ich komme! Dann geht sie rasch. Das verlockend wirre Spiel, wie dunkles Wasser tief,
                ist aus.</p>
-            <p>Und der Vorhang geht auf und da ist ein »Extrakammerl« im <placeName key="A000747">Allgemeinen Krankenhaus</placeName>. Carl Rademacher, ein verkommener und
+            <p>Und der Vorhang geht auf und da ist ein »Extrakammerl« im <placeName key="A000747"
+                  >Allgemeinen Krankenhaus</placeName>. Carl Rademacher, ein verkommener und
                verbrauchter alter Journalist, und Florian Jackwerth, ein Komödiant, beide sterbend.
                Jener weiß es, und er hat nur noch einen Wunsch: noch einmal, bevor Alles vorbei ist,
                seinen Freund Alexander <rs type="work" key="A020029">Weihgast</rs> zu sehen, den
@@ -315,11 +285,12 @@
                so weit, daß er ein reicher und berühmter Dichter ist und ich bin ein armer Teufel
                von Journalist und crepir im Spital. Aber es macht nichts, es macht nichts – denn
                jetzt kommt der Moment, wo ich ihn zerschmettern kann <c rendition="#dots" n="3" place="center"/> und ich werd’ es thun!
-               Wenn er nur kommt – wenn er nur kommt! Ich weiß, Herr <rs type="work" key="A020029">Jackwerth</rs>, heute Nachmittags war Ihre Geliebte bei Ihnen – aber was ist denn
+               Wenn er nur kommt – wenn er nur kommt! Ich weiß, Herr <rs type="work" key="A020029"
+                  >Jackwerth</rs>, heute Nachmittags war Ihre Geliebte bei Ihnen – aber was ist denn
                alle Gluth, mit der man ein geliebtes Wesen erwartet, gegen die Sehnsucht nach Einem,
                den man haßt, den man sein ganzes Leben lang gehaßt hat und dem man vergessen hat, es
                zu sagen!« So speit er seinen Neid aus, und der Komödiant, der ihm mit dem grimmigen
-               Eifer des <anchor type="commentary" xml:id="KT020-4">Raté</anchor> zuhört, hat einen tückischen Einfall: sie wollen vorher eine Probe
+               Eifer des <anchor type="commentary" xml:id="KT020-4" >Raté</anchor> zuhört, hat einen tückischen Einfall: sie wollen vorher eine Probe
                abhalten, damit es dann besser geht, damit er seine Sachen richtig zu »bringen« weiß
                – gleich jetzt, der Komödiant will den Dichter markiren. Und er setzt sich in
                Positur: »Du spannst mich auf die Folter, alter Kumpan. Was wünschest Du mir
@@ -331,7 +302,8 @@
                hundertmal ist sie zu mir gelaufen, angewidert von Deiner Nichtigkeit und Leere, und
                hat mit mir auf und davon wollen. Aber ich war arm, und sie war feig, und darum ist
                sie bei Dir geblieben und hat Dich betrogen! Es war bequemer für uns Alle.« Ah,
-               welche Wollust, ihm das ins Gesicht zu schreien! Und da kommt <rs type="work" key="A020029">Weihgast</rs> auch schon, der Komödiant tritt ab, die Probe ist aus,
+               welche Wollust, ihm das ins Gesicht zu schreien! Und da kommt <rs type="work"
+                  key="A020029">Weihgast</rs> auch schon, der Komödiant tritt ab, die Probe ist aus,
                nun wird es ernst. <rs type="work" key="A020029">Weihgast</rs> ist sehr freundlich
                mit dem armen Freunde; er steht ihm in jeder Weise zur Verfügung. Es thut uns
                eigentlich ein bischen leid um ihn, da wir wissen: gleich wird jetzt Rademacher
@@ -375,13 +347,13 @@
                um einen Gulden fünfzig kaufen können! Darauf kommt’s an! Ich weiß ja, daß es Leute
                gibt, die davon leben; aber ich find’ es im höchsten Grad unfein. Ich sag’ Dir, mir
                kommt’s ärger vor, als wenn sich Eine im Tricot als griechische Statue beim
-                  <placeName key="A000219">Ronacher</placeName> hinausstellt. So eine <placeName key="A000500">
-                        <country>griechische</country>
-                    </placeName> Statue sagt doch nicht
+                  <placeName key="A000219">Ronacher</placeName> hinausstellt. So eine <placeName
+                  key="A000500"><country>griechische</country></placeName> Statue sagt doch nicht
                Mau! Aber was so ein Dichter Alles ausplauscht, das geht über den Spaß!« Nun,
                hoffentlich wird sie es nicht mehr thun. Sie hat es aber schon wieder gethan: Sie hat
                sogar einen Roman geschrieben, einen großen Roman, der »sozusagen das Meiste enthält,
-               was über das Meiste zu sagen ist«; und Künigel, der Verleger, ist entzückt davon. <rs type="work" key="A020025">Clemens</rs> wird wüthend. »Daß Du ihn hast schreiben
+               was über das Meiste zu sagen ist«; und Künigel, der Verleger, ist entzückt davon. <rs
+                  type="work" key="A020025">Clemens</rs> wird wüthend. »Daß Du ihn hast schreiben
                müssen – gut; aber lesen soll ihn wenigstens Keiner. Bring’ ihn her, wir wollen ihn
                ins Feuer werfen.« O nein! Uebrigens ist es auch gar nicht mehr möglich, der Roman
                ist schon gedruckt. Da springt <rs type="work" key="A020025">Clemens</rs> auf und
@@ -395,7 +367,9 @@
                sie war so vorsichtig, die ihren immer früher aufzusetzen, und er, die seinen immer
                vorher abzuschreiben. Wie wird das nun werden? Sein Roman ist natürlich auch schon
                gedruckt. Das gibt ja einen <placeName key="A000669">europäischen</placeName>
-               Scandal! Und <rs type="work" key="A020025">Clemens</rs>? »Ja, <rs type="work" key="A020025">Clemens</rs> hat recht. Aerger als die Weiber beim <placeName key="A000219">Ronacher</placeName> sind wir, die sich in Tricots hinausstellen.
+               Scandal! Und <rs type="work" key="A020025">Clemens</rs>? »Ja, <rs type="work"
+                  key="A020025">Clemens</rs> hat recht. Aerger als die Weiber beim <placeName
+                  key="A000219">Ronacher</placeName> sind wir, die sich in Tricots hinausstellen.
                Unsere geheimsten Seligkeiten, unsere Schmerzen, Alles stellen wir aus! Pfui! Pfui!
                Mich ekelt ja vor mir!« Da kommt der Graf zurück und erklärt resolut, daß schon Alles
                in Ordnung ist: er hat mit Künigel abgemacht, daß ihr Roman eingestampft wird, bis
@@ -404,13 +378,13 @@
                ins Feuer und lehnt sich an ihn: »<rs type="work" key="A020025">Clemens</rs>, wirst
                Du mir jetzt glauben, daß ich Dich liebe?« </p>
             <p>Aber nun kommt das Publicum und verlangt, daß wir ihm sagen sollen, was der Dichter
-               denn mit diesen Stücken sagen will. Darauf ist zu antworten: <anchor type="label" xml:id="LT020-1">Wenn wir es könnten, wäre er keiner.</anchor> Sein Amt ist es
+               denn mit diesen Stücken sagen will. Darauf ist zu antworten: <anchor type="label"
+                  xml:id="LT020-1">Wenn wir es könnten, wäre er keiner.</anchor> Sein Amt ist es
                eben, uns durch seine Worte mehr fühlen zu lassen, als mit Worten ausgesprochen
                werden kann. Jeder Gedanke wird, wenn er ausgesprochen wird, eigentlich schon
-               deformirt, weil das Wort ihn abschließt und begrenzt. »<anchor type="commentary" xml:id="KT020-2">
-                        <rs type="work" key="A021361">Sobald man spricht, beginnt man
-                     schon zu irren,</rs>
-                    </anchor>« heißt es. Und das ist es gerade, was der Dichter
+               deformirt, weil das Wort ihn abschließt und begrenzt. »<anchor type="commentary"
+                  xml:id="KT020-2"><rs type="work" key="A021361">Sobald man spricht, beginnt man
+                     schon zu irren,</rs></anchor>« heißt es. Und das ist es gerade, was der Dichter
                vermeidet, indem es ihm gegeben ist, seine Gefühle zugleich höchst bestimmt und doch
                höchst fragwürdig darzustellen. Die vier Stücke regen tausend Gedanken und Gefühle in
                uns auf, aber so, daß jeder und jedes sogleich vom nächsten gelindert und verwandelt
@@ -426,17 +400,14 @@
                Lebens, Liebe, Haß, Neid, die uns treiben und doch in nichts zerfallen, wenn uns der
                Tod antritt! Wie verblaßt da jeder Schein, der uns gelockt oder gequält hat, in der
                Stunde des Todes! Ist sie nicht vielleicht die einzige wahrhaft lebendige Stunde?
-                  »<anchor type="commentary" xml:id="KT020-3">
-                        <rs type="work" key="A021362">Und so
+                  »<anchor type="commentary" xml:id="KT020-3"><rs type="work" key="A021362">Und so
                      lang’ Du das nicht hast, dieses: Stirb und werde!, bist Du nur ein trüber Gast
-                     auf der dunklen Erde.</rs>
-                    </anchor>« </p>
+                     auf der dunklen Erde.</rs></anchor>« </p>
             <p>Unter den Darstellern ist zuerst Herr <persName key="A002052">
                   <hi rend="spaced_out">Bassermann</hi>
                </persName> der den <rs type="work" key="A020023">Remigio</rs>
           vielleicht nicht mit der ganzen Hoheit, welche die Rolle verlangt, den Dichter <rs type="work" key="A020029">Weihgast</rs> vortrefflich, nur vielleicht um einen Grad zu
-          deutlich in der Ironie, den Grafen <rs type="work" key="A020025">Cle</rs>
-                    <supplied>mens</supplied> aber einfach
+          deutlich in der Ironie, den Grafen <rs type="work" key="A020025">Cle</rs><supplied>mens</supplied> aber einfach
           prachtvoll gab und dabei eine ganz außerordentliche Kraft der Verwandlung bewies, und
           neben ihm gleich Fräulein <persName key="A002054">
                   <hi rend="spaced_out">Triesch</hi>
@@ -452,10 +423,7 @@
                   <hi rend="spaced_out">Hofmeister</hi>
                </persName> schlossen sich in ihrer ja bekannten Weise an. Der Erfolg
           war sehr lebhaft und laut, am lautesten natürlich nach der heiteren »<workName key="A020025">Literatur</workName>«. Der <rs type="person" key="A002001">Dichter</rs>
-               wurde stürmisch immer wieder und wieder gerufen. <signed>
-                        <hi rend="spaced_out">Hermann Bahr.</hi>
-                    </signed>
-                </p>
+               wurde stürmisch immer wieder und wieder gerufen. <signed><hi rend="spaced_out">Hermann Bahr.</hi></signed></p>
          </div>
       </body>
   </text>

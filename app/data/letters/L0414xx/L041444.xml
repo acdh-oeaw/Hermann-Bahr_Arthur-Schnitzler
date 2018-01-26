@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041444">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -51,9 +50,7 @@
                         
                     </addressee>
                     <!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>-->
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19030927" n="01">27. 9. [1903]</date>
                     </dateSender>
@@ -72,9 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S.; Jahreszahl »<quote>
-                                        <date>903</date>
-                                    </quote>« von Schnitzler ergänzt.</p>
+                                <p>eh. Brief, 1 Bl., 3 S.; Jahreszahl »<quote><date>903</date></quote>« von Schnitzler ergänzt.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -84,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">174</biblScope>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160311">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -107,18 +98,11 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                <dateline rend="right">
-                        <date>27. IX.</date>
-                    </dateline>
+                <dateline rend="right"><date>27. IX.</date></dateline>
                 </opener>
-                <p>
-                    <anchor output="true" xml:id="OL444-1">
-                        <salute>lieber, </salute>ich vergesse nun schon 6mal, <del rend="strikethrough">daß</del> Sie zu erinnern, daß Sie mir die
-                    <anchor type="commentary" xml:id="KL444-1">
-                            <rs type="work" key="A020360">Photographie</rs>
-                        </anchor> (die gleiche wie der <persName key="A002002">Bahr</persName> hat) versprochen
-                    haben.</anchor>
-                    <space unit="chars" quantity="15"/> Sehr schön war es gestern abend, in den lieben Zimmern, das Kind, das
+                <p><anchor xml:id="OL444-1"><salute>lieber, </salute>ich vergesse nun schon 6mal, <del rend="strikethrough">daß</del> Sie zu erinnern, daß Sie mir die
+                    <anchor type="commentary" xml:id="KL444-1" ><rs type="work" key="A020360">Photographie</rs></anchor> (die gleiche wie der <persName key="A002002">Bahr</persName> hat) versprochen
+                    haben.</anchor><space unit="chars" quantity="15"/> Sehr schön war es gestern abend, in den lieben Zimmern, das Kind, das
                     schöne Singen, und alles zusammen. Sie können sich vielleicht kaum vorstellen,
                     wie sehr einem ein paar Lieder von einer schönen jungen Stimme freuen, wenn<pb/> man
                     immerfort das Gefühl hat, zu wenig Musik zu hören, wie wir.<space unit="chars" quantity="15"/> Aber spielen darf
@@ -128,8 +112,7 @@
                     verletzt es wirklich die Bescheidenheit der Natur und der Kunst zugleich, wenn
                     man beim Singen agiert.</p>
                 <p>Auf Wiedersehen Samstag.</p>
-                <closer>Von Herzen<lb/>
-                    <signed>Hugo.</signed>
+                <closer>Von Herzen<lb/><signed>Hugo.</signed>
                 </closer>
             </div>
         </body>

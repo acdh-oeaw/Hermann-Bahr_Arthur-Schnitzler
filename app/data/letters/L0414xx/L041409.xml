@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041409">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -51,12 +50,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                     <dateSender>
                         <date when="18920101" n="01">1. 1. 1892</date>
                     </dateSender>
@@ -75,9 +70,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>Kartenbrief, Bleistift. Von Schnitzler datiert: »<quote>
-                                        <date>1/1 92</date>
-                                    </quote>«, von unbek. Hand auf der Rückseite der Adressseite: »<quote>14.05 / 7.02 / 6.96 / 7.00 / 13.60</quote>«.</p>
+                                <p>Kartenbrief, Bleistift. Von Schnitzler datiert: »<quote><date>1/1 92</date></quote>«, von unbek. Hand auf der Rückseite der Adressseite: »<quote>14.05 / 7.02 / 6.96 / 7.00 / 13.60</quote>«.</p>
                                 <stamp n="1">
                                     <placeName key="A000253">Wien 3/3</placeName>
                                     <date>1. 1. 92</date>
@@ -92,7 +85,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">14</biblScope>
@@ -101,11 +94,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -115,37 +104,25 @@
         <body>
            <div type="address">
                <address>
-                   <addrLine>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000250">
-                                <settlement>Wien</settlement>
-                            </placeName>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000702">I. Kärnthnerring 12.</placeName>
-                        </hi>
-                    </addrLine>
+                   <addrLine>Herrn <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000250"><settlement>Wien</settlement></placeName></hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000702">I. Kärnthnerring 12.</placeName></hi></addrLine>
                </address>
            </div>
             <div type="writingSession" n="1">
                 <opener>
                     <salute>Lieber Freund!</salute>
                 </opener>
-                <p>
-                    <persName key="A002222">Dörmann</persName> will uns sein neues <anchor type="commentary" xml:id="KL409-1">
-                        <rs type="work" key="A020176">Buch</rs>
-                    </anchor> vorlesen und hat mich gebeten, Sie einzuladen.</p>
-                <p>Wenn Sie also nichts besseres vorhaben, kommen Sie morgen Samstag, <hi rend="underline" n="1">½
-                    8</hi> Uhr (pünktlich) <orgName key="A081247">Gewerbeverein</orgName>, <placeName key="A000765">Eschenbachgasse</placeName>, 3 Stock, im Secretariat. Es
-                    kommen <persName key="A002035">Salten</persName>, <persName key="A002002">Bahr</persName>, Sie und ich. Wenn Sie nicht können, sagen Sie bitte mir
-                    pneumatisch ab. Ich war heute bei dem Leichenbegängnis von <persName key="A002007">Richard</persName>s <rs type="person" key="A003854">Mutter</rs>. Soll man ihn besuchen? </p>
-                <closer>Herzlichst<lb/>
-                    <signed>Loris</signed>
-                </closer>
+                <p><persName key="A002222">Dörmann</persName> will uns sein neues <anchor type="commentary" xml:id="KL409-1" ><rs type="work" key="A020176">Buch</rs></anchor> vorlesen und hat mich gebeten, Sie einzuladen.</p>
+                <p >Wenn Sie also nichts besseres vorhaben, kommen Sie morgen Samstag, <hi rend="underline" n="1">½
+                    8</hi> Uhr (pünktlich) <orgName key="A081247">Gewerbeverein</orgName>, <placeName
+                        key="A000765">Eschenbachgasse</placeName>, 3 Stock, im Secretariat. Es
+                    kommen <persName key="A002035">Salten</persName>, <persName key="A002002"
+                        >Bahr</persName>, Sie und ich. Wenn Sie nicht können, sagen Sie bitte mir
+                    pneumatisch ab. Ich war heute bei dem Leichenbegängnis von <persName
+                        key="A002007">Richard</persName>s <rs type="person" key="A003854"
+                        >Mutter</rs>. Soll man ihn besuchen? </p>
+                <closer>Herzlichst<lb/><signed>Loris</signed></closer>
             </div>
         </body>
     </text>

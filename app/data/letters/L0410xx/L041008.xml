@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041008">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -93,18 +92,13 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM60153Ba"/> 
      <graphic url="HS_AM60153Ba_R"/>
   </facsimile>
@@ -112,25 +106,16 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <anchor type="commentary" xml:id="KL008-1">
-                            <date>Sonntag abd</date>
-                        </anchor>
-                    </dateline>
+               <dateline rend="right"><anchor type="commentary" xml:id="KL008-1" ><date>Sonntag abd</date></anchor></dateline>
             </opener>
-            <p>
-                    <salute>Lieber Hermann, </salute>als ich gestern Abend fragte, wußte man noch nichts von
+            <p ><salute>Lieber Hermann, </salute>als ich gestern Abend fragte, wußte man noch nichts von
           deiner Sendung, jetzt eben beim Nachhausegehen übergab mir die <rs type="person" key="A002627">Hausmeisterin</rs> das
           Paket; da dein Brief mit der Adresse mit eingeschlossen war, hatte sie nicht
           gewußt, dass es für mich gehörte. – <subst>
                   <del rend="overwritten">h</del>
                   <add place="inline">H</add>
-               </subst>erzlichen Dank!<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002007">Richard</persName> wohnt <hi rend="latintype">
-                        <placeName key="A000881">Baden,
-          <anchor type="commentary" xml:id="KL008-2">Franzensgasse</anchor> 54</placeName>
-                    </hi>, kommt am 24. herein. – </p>
+               </subst>erzlichen Dank!<pb/><space unit="chars" quantity="1"/><persName key="A002007">Richard</persName> wohnt <hi rend="latintype"><placeName key="A000881">Baden,
+          <anchor type="commentary" xml:id="KL008-2" >Franzensgasse</anchor> 54</placeName></hi>, kommt am 24. herein. – </p>
             <closer>Herzlichen Gruss dein<lb/>
                <signed>Arth</signed>
             </closer>
@@ -138,3 +123,4 @@
       </body>
   </text>
 </TEI>
+

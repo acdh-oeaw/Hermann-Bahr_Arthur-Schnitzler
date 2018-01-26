@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041181">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18960205" n="01">5. 2. [1896]</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151202">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -97,27 +88,21 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>5. Febr.</date>
-                    </dateline> 
+               <dateline rend="right"><date>5. Febr.</date></dateline> 
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Vor allem meine herzlichsten und wärmsten Glückwünsche dazu, daß Du nun 
-        auch in <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> denselben großen <anchor type="commentary" xml:id="KL181-1">Erfolg</anchor> gehabt hast, wie <subst>
+        auch in <placeName key="A000368"><settlement>Berlin</settlement></placeName> denselben großen <anchor type="commentary" xml:id="KL181-1" >Erfolg</anchor> gehabt hast, wie <subst>
                   <del rend="overwritten">schon
                   </del>
                   <add place="inline">überall</add>
                </subst>.</p>
             <p>Ferner theile ich Dir mit, daß <persName key="A002008">Langkammer</persName> für 
-        das »<workName key="A020002">Märchen</workName>« begeistert ist, bei der <anchor type="commentary" xml:id="KL181-2">neuen Fassung</anchor> (und einigen geringfügigen Aenderungen) 
-        einen Erfolg für sicher hält und die Aufführung des Stückes beim<pb/> Direktionsrath gleich nach der Generalversammlung <anchor type="commentary" xml:id="KL181-3">beantragen wird</anchor>. 
+        das »<workName key="A020002">Märchen</workName>« begeistert ist, bei der <anchor type="commentary" xml:id="KL181-2" >neuen Fassung</anchor> (und einigen geringfügigen Aenderungen) 
+        einen Erfolg für sicher hält und die Aufführung des Stückes beim<pb/> Direktionsrath gleich nach der Generalversammlung <anchor type="commentary" xml:id="KL181-3" >beantragen wird</anchor>. 
         Vorher will er es nicht, weil einer der Hauptpunkte gegen <persName key="A002175">Müller</persName> 
         die Überladung des <rs type="place" key="A000277">Theaters</rs> mit schon aufgeführten Stücken ist.</p>
-            <closer>Herzlichst<lb/>Dein treuer<lb/>
-                    <signed>HermannB</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein treuer<lb/><signed>HermannB</signed></closer>
          </div>
       </body>
   </text>

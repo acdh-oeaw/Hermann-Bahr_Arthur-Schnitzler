@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041068">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,10 +65,7 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19110405" n="01">5/4</date> In der <rs type="org" key="A080099">Zeitung</rs> ein <anchor type="commentary" xml:id="KD068-1">
-                        <rs type="work" key="A021239">Vortrag</rs>
-                    </anchor> Baron <persName key="A002034">Bergers</persName> vor
+            <p><date when="19110405" n="01">5/4</date> In der <rs type="org" key="A080099">Zeitung</rs> ein <anchor type="commentary" xml:id="KD068-1" ><rs type="work" key="A021239">Vortrag</rs></anchor> Baron <persName key="A002034">Bergers</persName> vor
                den Universitäts-Professoren aus Anlaß der bevorstehenden Reise nach <placeName key="A000500">Griechenland</placeName>;– mit Bemerkungen über den »Tiefstand der
                heutigen Dramatik<c rendition="#dots" n="3"/>«. Der <rs type="person" key="A002034">
                   <placeName key="A000214">Burgtheater</placeName>direktor</rs> – in – diesem Jahr!– – Ebenso aber

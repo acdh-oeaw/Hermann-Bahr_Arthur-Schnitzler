@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041348">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -49,9 +48,7 @@
                <addressee full="yes">
                   <persName key="A002020">Fischer, Samuel</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000355">München</placeName>
-                    </placeSender>
+               <placeSender><placeName key="A000355">München</placeName></placeSender>
                <!--<placeAddressee><placeName key="A000368">Berlin</placeName></placeAddressee>-->
                <dateSender>
                   <date when="19230506" n="01">[6.] 5. 1923</date>
@@ -75,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160201">Angelegt aus Abschrift von KI und LM</change>
          <change who="KI MAM">Kollationiert</change>
@@ -90,11 +83,9 @@
          <div type="writingSession" n="1">
             <opener>
             <dateline rend="right">
-                  <placeName key="A000361">München Barerstr. 50</placeName>
-                        <lb/>
+                  <placeName key="A000361">München Barerstr. 50</placeName><lb/>
                <date>
-                  <unclear>6</unclear>. 5. 23</date>
-                    </dateline>
+                  <unclear>6</unclear>. 5. 23</date></dateline>
                <salute>Lieber Freund!</salute>
             </opener>
             <p>Ich darf wol annehmen, daß »<workName key="A020448">Selbstbildnis</workName>« nun bald erscheint; je früher, desto besser:
@@ -111,27 +102,17 @@
           Depression, daß ich mir kaum vorstellen kann, wie sich der dünne Lebensfaden weiterspinnen
           soll. Ich darf annehmen, daß Sie bald mit meinen Büchern das schöne Geschäft machen
           werden, daß ja der Tod eines Autors meistens bringt. Zunächst schicken mich die Ärzte
-          nach <anchor type="commentary" xml:id="KL348-3">
-                        <placeName key="A001145">
-                            <settlement>Meersburg am Bodensee</settlement>
-                        </placeName>
-                    </anchor>: das ist ein Versuch, mir einen Ersatz für meine geliebte,
-          jetzt aber valuterisch verschlossene <geogName type="coast" key="A000769">Adria</geogName> zu bieten, die <persName key="A002021">d’Annunzio</persName> immer schon <anchor type="commentary" xml:id="KL348-2">il mare
+          nach <anchor type="commentary" xml:id="KL348-3" ><placeName key="A001145"><settlement>Meersburg am Bodensee</settlement></placeName></anchor>: das ist ein Versuch, mir einen Ersatz für meine geliebte,
+          jetzt aber valuterisch verschlossene <geogName type="coast" key="A000769">Adria</geogName> zu bieten, die <persName key="A002021">d’Annunzio</persName> immer schon <anchor type="commentary" xml:id="KL348-2" >il mare
           nostro</anchor> nannte; er hat recht behalten und sie hat aufgehört, il mare mio zu sein, das mich
-          Jahrelang immer wieder mit neuer Kraft, neuem Mut und neuer Lust verproviantierte – »<anchor type="commentary" xml:id="KL348-1">
-                        <rs type="work" key="A020648">Vorbei, vorbei</rs>
-                    </anchor>«, sagt der alte <rs type="work" key="A020648">Capulet</rs>.</p>
+          Jahrelang immer wieder mit neuer Kraft, neuem Mut und neuer Lust verproviantierte – »<anchor type="commentary" xml:id="KL348-1" ><rs type="work" key="A020648">Vorbei, vorbei</rs></anchor>«, sagt der alte <rs type="work" key="A020648">Capulet</rs>.</p>
             <p>Grüßen Sie die verehrte liebe Frau <persName key="A002392">Hedwig</persName> von <rs type="person" key="A002080">uns</rs> beiden herzlichst und
           bewahren Sie ein gutes Andenken Ihrem für Melancholie ganz unbegabten</p>
-            <closer>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer><signed>HermannBahr</signed></closer>
             <postscript>
                <p>P. S. Ich nehme an, daß an Ihre Hausautoren <persName key="A002187">Thomas
               Mann</persName>, <persName key="A002011">Hofmannsthal</persName>, Schnitzler,
-              <persName key="A002007">Beerhofmann</persName>, <persName key="A002035">Salten</persName> u. <persName key="A002188">Bernard Shaw</persName>
-                        <space unit="chars" quantity="1"/>
-                        <hi rend="underline" n="1">ohnedies</hi>
+              <persName key="A002007">Beerhofmann</persName>, <persName key="A002035">Salten</persName> u. <persName key="A002188">Bernard Shaw</persName><space unit="chars" quantity="1"/><hi rend="underline" n="1">ohnedies</hi>
             Exemplare geschickt werden.</p>
             </postscript>
          </div>

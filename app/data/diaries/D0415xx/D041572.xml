@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041572">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                             
                         </msIdentifier>
                       <physDesc>
-                          <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName key="A002080">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 3, beschriftet »<quote>
-                                        <date>15. 9.</date> – <date>21. 9. 18</date>
-                                    </quote>«,  
+                          <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName key="A002080">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 3, beschriftet »<quote><date>15. 9.</date> – <date>21. 9. 18</date></quote>«,  
                         blauer Buntstift, 9 Bl., S. 9, durch Streichungen als erledigt markiert.</p>
                       </physDesc>
                     </msDesc>
@@ -63,55 +60,41 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160114">angelegt und kollationiert</change>
         </revisionDesc>
     </teiHeader>
    <text type="diaryDay">
       <body>
-        <div type="writingSession" n="1">
-             <p rend="right" output="true">
+        <div type="writingSession" n="1" >
+             <p rend="right" >
                <date when="19180917" n="1">Dienstag 1<subst>
                      <del rend="overwritten">6</del>
                      <add place="inline">7</add>
                   </subst>. 9</date>
             </p>
-            <p output="true">»<anchor type="commentary" xml:id="KD572-3">
-                        <workName key="A020876">Spinnerin am Kreuz</workName>
-                    </anchor>« letzter u vorletzte Besetzg –
+            <p>»<anchor type="commentary" xml:id="KD572-3"><workName key="A020876"
+                            >Spinnerin am Kreuz</workName></anchor>« letzter u vorletzte Besetzg –
                     Buch</p>
-            <p output="true">10 Uhr Probe</p>
-            <p output="true">Bericht Collegiums an <rs type="person" key="A002876" subtype="local">Excellenz</rs>
-                </p>
-            <p output="true">Persönlich an <persName key="A002042">Poldi</persName> wegen <persName key="A002188">Shaws</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020364">Candida</workName>, <persName key="A002105">Korff</persName> u
-                        <persName key="A002001">Schnitzlers</persName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="work" key="A020451">Stück</rs>
-                    <subst>
+            <p >10 Uhr Probe</p>
+            <p >Bericht Collegiums an <rs type="person" key="A002876" subtype="local">Excellenz</rs></p>
+            <p >Persönlich an <persName key="A002042">Poldi</persName> wegen <persName
+                        key="A002188">Shaws</persName><space unit="chars" quantity="1"/><workName
+                        key="A020364">Candida</workName>, <persName key="A002105">Korff</persName> u
+                        <persName key="A002001">Schnitzlers</persName><space unit="chars"
+                        quantity="1"/><rs type="work" key="A020451">Stück</rs><subst>
                         <del rend="overwritten">.</del>
                         <add place="inline">,</add>
-                    </subst>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003815">Hans</persName> ein Telegramm an <persName key="A003814">Papier</persName>
+                    </subst><space unit="chars" quantity="1"/><persName key="A003815"
+                        >Hans</persName> ein Telegramm an <persName key="A003814">Papier</persName>
                 </p>
-            <p output="true">
-                    <gap quantity="10" reason="illegible" unit="chars"/> u <anchor type="commentary" xml:id="KD572-1">
-                        <workName key="A021005">Noces d’argent</workName>
-                    </anchor>
+            <p ><gap quantity="10" reason="illegible" unit="chars"/> u <anchor type="commentary" xml:id="KD572-1" ><workName key="A021005">Noces d’argent</workName></anchor>
             </p>
-            <p output="true">Skizze des Repertoires. Nach <workName key="A020364">Candida</workName> große Novität, die noch erst finden muß<subst>
+            <p >Skizze des Repertoires. Nach <workName key="A020364">Candida</workName> große Novität, die noch erst finden muß<subst>
                   <del rend="overwritten">.</del>
                   <add place="inline">,</add>
-               </subst> u. daneben entweder <anchor type="commentary" xml:id="KD572-2">
-                        <workName key="A020186">Stella</workName> oder <workName key="A020591">Clavigo</workName>
-                    </anchor> insceniert.</p>
+               </subst> u. daneben entweder <anchor type="commentary" xml:id="KD572-2" ><workName key="A020186">Stella</workName> oder <workName key="A020591">Clavigo</workName></anchor> insceniert.</p>
                    </div>
       </body>
    </text>

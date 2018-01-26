@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041237">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,24 +66,11 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19040918" n="1">18/9</date>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>.– Vm. mit <persName key="A002038">O.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002007">Rich.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000378">Maxglan</placeName> spazieren.</p>
+            <p><date when="19040918" n="1">18/9</date><space unit="chars" quantity="1"/><placeName key="A000230"><settlement>Salzburg</settlement></placeName>.– Vm. mit <persName key="A002038">O.</persName><space unit="chars" quantity="1"/><persName key="A002007">Rich.</persName><space unit="chars" quantity="1"/><placeName key="A000378">Maxglan</placeName> spazieren.</p>
             <p>Mittag wir alle wieder mit <persName key="A002276">Karg</persName>.</p>
             <p>Nm. auf meinem Zimmer mit <persName key="A002007">Rich.</persName> stundenlang über <persName key="A002011">Hugo</persName>. 
 Tiefe (allzutiefe) Erbitterung <persName key="A002007">Richard</persName>s.–</p>
-            <p>
-                    <note type="introduction">In <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>
-                    </note>Spazieren. Menschenmenge am <placeName key="A000379">Mozartplatz</placeName> – <orgName key="A080127">Presscongress</orgName> –
+            <p><note type="introduction">In <placeName key="A000230"><settlement>Salzburg</settlement></placeName></note>Spazieren. Menschenmenge am <placeName key="A000379">Mozartplatz</placeName> – <orgName key="A080127">Presscongress</orgName> –
          <persName key="A002002">Bahr</persName> begegnet; wir bleiben gleich zusammen.
         <placeName key="A000380">Mirabell</placeName>.–</p>
          </div> 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041101">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,12 +65,9 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18940422" n="2">22/4</date>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002018">S.</persName>– Nm. bei <persName key="A002007">Richard</persName>.– Bei <persName key="A002018">Dilly</persName> mit <persName key="A002002">Bahr</persName>,
+            <p><date when="18940422" n="2">22/4</date><space unit="chars" quantity="1"/><persName key="A002018">S.</persName>– Nm. bei <persName key="A002007">Richard</persName>.– Bei <persName key="A002018">Dilly</persName> mit <persName key="A002002">Bahr</persName>,
                   <persName key="A002011">Loris</persName>, <persName key="A002035">Salten</persName>, <persName key="A002361">Charley</persName>. <persName key="A002018">Dilly</persName>. »Er kann ja nicht herein, er weint doch!« </p>
-            <p output="true">Im <placeName key="A000297">Weingartl</placeName>.–</p>
+            <p >Im <placeName key="A000297">Weingartl</placeName>.–</p>
   
          </div>
       </body> 

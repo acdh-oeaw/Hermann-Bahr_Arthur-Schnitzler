@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041296">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -88,11 +87,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -109,29 +104,20 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttlgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttlgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>4. 10. 05</date>
-                    </dateline>
+               <dateline rend="right"><date>4. 10. 05</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>Diese Woche gehts nun leider gar nicht. Nach Deiner <anchor type="commentary" xml:id="KL296-1">
-                        <rs type="work" key="A020042">Première</rs>
-                    </anchor> mußt Du so 
+            <p>Diese Woche gehts nun leider gar nicht. Nach Deiner <anchor type="commentary" xml:id="KL296-1" ><rs type="work" key="A020042">Première</rs></anchor> mußt Du so 
           lieb sein, mir einen Vormittag zu bestimmen.</p>
             <p>Anbei mein <rs type="work" key="A020091">Einakter</rs>.</p>
-            <closer>Mit den herzlichsten Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-                    <lb/>eiligst<lb/>
-                    <signed>H.</signed>
-                </closer>
+            <closer>Mit den herzlichsten Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/>eiligst<lb/><signed>H.</signed></closer>
          </div>
       </body>
   </text>

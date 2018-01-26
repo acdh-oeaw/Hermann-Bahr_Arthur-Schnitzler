@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041279">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Briefkarte, Datum von Schnitzler mit Jahreszahl »<quote>
-                                        <date>904</date>
-                                    </quote>« ergänzt.</p>
+                        <p>eh. Briefkarte, Datum von Schnitzler mit Jahreszahl »<quote><date>904</date></quote>« ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000263">Wien 13/5</placeName>
                            <date when="19040427">27<supplied>.</supplied> IV. 04</date>
@@ -95,11 +92,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151211">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -115,35 +108,25 @@
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="underline" n="1">Pneumatisch</hi>
-                    </addrLine>
+                  <hi rend="underline" n="1">Pneumatisch</hi></addrLine>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>  
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>27. 4.</date>
-                    </dateline>
+               <dateline rend="right"><date>27. 4.</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Herzlichsten Dank für Deinen <anchor type="label" xml:id="LL279-1">Brief</anchor>, der sich mit meinem an Dich gekreuzt hat. Ich wollte
+            <p>Herzlichsten Dank für Deinen <anchor type="label" xml:id="LL279-1" >Brief</anchor>, der sich mit meinem an Dich gekreuzt hat. Ich wollte
           nun heute abends nach <placeName key="A000263">Hietzing</placeName> kommen. Da
-          mir nun aber <anchor type="commentary" xml:id="KL279-1">
-                        <persName key="A002134">Gerty</persName> schreibt</anchor>, <persName key="A002011">Hugo</persName> sei auf dem  <placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName>,
+          mir nun aber <anchor type="commentary" xml:id="KL279-1" ><persName key="A002134">Gerty</persName> schreibt</anchor>, <persName key="A002011">Hugo</persName> sei auf dem  <placeName key="A000389"><settlement>Semmering</settlement></placeName>,
           denke ich, daß Du wol auch nicht kommen wirst, und bitte um ein anderes Rendezvous, da ich
-          Dich sehr gern vor Deiner <anchor type="commentary" xml:id="KL279-2">Abreise</anchor> noch sehen möchte.</p>
-            <closer>Mit den besten Grüßen an Deine <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst<lb/>
-                    <signed>HermB.</signed>
+          Dich sehr gern vor Deiner <anchor type="commentary" xml:id="KL279-2" >Abreise</anchor> noch sehen möchte.</p>
+            <closer>Mit den besten Grüßen an Deine <rs type="person" key="A002038">Frau</rs><lb/>herzlichst<lb/><signed>HermB.</signed>
             </closer>
          </div>
       </body>

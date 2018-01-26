@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041255">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,9 +48,7 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
                
                <dateSender>
                   <date when="19030315" n="3">[15. 3. 1903]</date>
@@ -68,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler datiert: »<quote>
-                                        <date>15/3 903</date>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler datiert: »<quote><date>15/3 903</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151210">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -96,9 +87,7 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>Sonntag</date>
-                    </dateline>
+               <dateline rend="right"><date>Sonntag</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich gratuliere Dir herzlichst zu dem, wie ich von Herrn <persName key="A002669">Epstein</persName> erfahre,
@@ -108,9 +97,7 @@
             <p>Mir gehts heute wieder gut, nur habe ich nach
         den Erfahrungen der letzten Wochen schon gar nicht mehr recht den Mut zu hoffen, daß
         ich noch einmal wirklich gesund<pb/> werden sollte.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

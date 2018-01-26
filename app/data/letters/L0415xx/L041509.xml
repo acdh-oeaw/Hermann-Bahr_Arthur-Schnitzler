@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041509">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,10 +69,8 @@
                         <idno>HS AM 15516 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Brief, 1 Bl., 3 S., Lateinschrift, gedruckter Kopf: »<quote>
-                                        <placeName key="A000458">Grand Hôtel des
-                    Bains / Lido-Venise</placeName>
-                                    </quote>«</p>
+                        <p>hs. Brief, 1 Bl., 3 S., Lateinschrift, gedruckter Kopf: »<quote><placeName key="A000458">Grand Hôtel des
+                    Bains / Lido-Venise</placeName></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -111,11 +108,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160405">Angelegt aus Original</change>
          <change who="MAM" when="20160410">Durchsicht mit Buchausgabe</change>
@@ -127,43 +120,25 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <date>
-                            <damage agent="hole">
-                                <supplied>6</supplied>
-                            </damage>/IX. 05</date>
-                    </dateline>
+                  <date><damage agent="hole"><supplied>6</supplied></damage>/IX. 05</date></dateline>
                <salute>Lieber Hermann!</salute>
             </opener>
-            <p output="true">
-                    <persName key="A002001">Arthur</persName> hat mir <date>Ende Juli</date> die Übersendung des <rs type="work" key="A020090">Stückes</rs> angezeigt, so dass ich meinen musste, es läge in meiner
+            <p ><persName key="A002001">Arthur</persName> hat mir <date>Ende Juli</date> die Übersendung des <rs type="work" key="A020090">Stückes</rs> angezeigt, so dass ich meinen musste, es läge in meiner
           Wohnung (als Buchpaquet verkleidet) und Auftrag gab Alles danach zu durchsuchen. In
-          Wahrheit<pb/> aber wurde es erst am <anchor type="commentary" xml:id="KL509-1">
-                        <date>23/Aug</date>
-                    </anchor> (von <placeName key="A000684">
-                  <settlement>Reichenau</settlement>
-                    </placeName> glaub’ ich) an mich abgeschickt und
+          Wahrheit<pb/> aber wurde es erst am <anchor type="commentary" xml:id="KL509-1" ><date>23/Aug</date></anchor> (von <placeName key="A000684">
+                  <settlement>Reichenau</settlement></placeName> glaub’ ich) an mich abgeschickt und
           ich habe es erst seit drei Tagen hier. Ich möchte es nun doch sehr gerne lesen – lassen
           Sie es mir also – (wenn es geht) noch ein paar Tage.</p>
-            <p>Die <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>er Grüsse hat
+            <p>Die <placeName key="A000230"><settlement>Salzburg</settlement></placeName>er Grüsse hat
             <persName key="A002088">Vanjung</persName> über<pb/>bracht. Mein Sommer war nicht sehr schön, und
           bessert sich erst hier, wo Meer und
-            <placeName key="A000663">
-                        <settlement>Venedig</settlement>
-                    </placeName> doch sehr nachhelfen. Ich möchte
+            <placeName key="A000663"><settlement>Venedig</settlement></placeName> doch sehr nachhelfen. Ich möchte
           bis Ende des Monates hierbleiben. Ist es ausgeschlossen, dass sich – so beim herumkramen –
           irgendwo ein paar vergessene Urlaubstage finden, die Sie für den
-               <placeName key="A000459">
-                        <settlement>Lido</settlement>
-                    </placeName>, <hi rend="underline" n="1">und</hi> für <placeName key="A000663">
-                        <settlement>Venedig</settlement>
-                    </placeName> – und für uns
+               <placeName key="A000459"><settlement>Lido</settlement></placeName>, <hi rend="underline" n="1">und</hi> für <placeName key="A000663"><settlement>Venedig</settlement></placeName> – und für uns
           benützen? <persName key="A002138">Paula</persName> und ich wären sehr froh. Wir Beide grüssen Sie von
           Herzen.</p>
-            <closer>Ihr<lb/>
-                    <signed>Richard</signed>
-                </closer>
+            <closer>Ihr<lb/><signed>Richard</signed></closer>
          </div>
       </body>
   </text>

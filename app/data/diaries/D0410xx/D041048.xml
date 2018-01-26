@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041048">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,11 +51,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -64,13 +59,8 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19090703" n="01">3/7</date> Vm. Spaziergang <placeName key="A000949">
-                        <settlement>Prein</settlement>
-                    </placeName>. Traf <persName key="A002318">Holzapfel</persName> (der in
-      <placeName key="A001027">
-                        <settlement>Dörfl</settlement>
-                    </placeName> wohnt), wir sprachen über <workName key="A020214">Faust</workName> (ketzerisch), <persName key="A002086">Mahler</persName>, <persName key="A002319">Lipiner</persName>, – endlich <persName key="A002002">Bahr</persName>,
+            <p><date when="19090703" n="01">3/7</date> Vm. Spaziergang <placeName key="A000949"><settlement>Prein</settlement></placeName>. Traf <persName key="A002318">Holzapfel</persName> (der in
+      <placeName key="A001027"><settlement>Dörfl</settlement></placeName> wohnt), wir sprachen über <workName key="A020214">Faust</workName> (ketzerisch), <persName key="A002086">Mahler</persName>, <persName key="A002319">Lipiner</persName>, – endlich <persName key="A002002">Bahr</persName>,
         <persName key="A002000">Burckhard</persName>, die ich den Leuten verständlich zu machen suche.</p>
             <p>Unwohlsein. Im <workName key="A020194">W. L.</workName> weiter.</p>
   

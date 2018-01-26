@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041375">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                         <placeName key="A000250">Wien</placeName>
                     </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>--&gt;
+                    <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="19020628" n="01">28. 6. 1902</date>
                     </dateSender>
@@ -91,11 +88,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="approved">
             <change who="KI MAM" when="20151209">Angelegt aus Fotografie und kollationiert</change>
             <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -112,13 +105,11 @@
                 <address>
                     <addrLine>An</addrLine>
                     <addrLine>HochWohlgeboren Herrn<space unit="chars" quantity="1"/>
-                        <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi>
-                    </addrLine>
+                        <hi rend="latintype">D<hi rend="superscript">r</hi> Arthur Schnitzler</hi></addrLine>
                     <addrLine>in<space unit="chars" quantity="1"/>
                         <hi rend="latintype">
                             <placeName key="A000598">IX Frankg. 1.</placeName>
-                        </hi>
-                    </addrLine>
+                        </hi></addrLine>
                 </address>
             </div>
             <div type="writingSession" n="1">
@@ -131,29 +122,20 @@
                 <p>Wissentlich unwahre Angaben sind unter Umständen als eine strafgerichtlich zu verfolgende Übertretung
                     im §. 242 des Gesetzes vom 25. October 1896, R. G. Bl. Nr. 220, mit Strafen bedroht.</p>
                 <p>Falls dieser Einladung nicht Folge geleistet werden sollte, würde in Anwendung
-                    des §. 250 des obencitirten Gesetzes eine Ordnungsstrafe von ............ fl.
+                    des §. 250 des obencitirten Gesetzes eine Ordnungsstrafe von ............&#160;fl.
                     auferlegt werden.</p>
-                <p rend="center">
-                    <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> am <date when="19020628">28. Juni 1902</date>
+                <p rend="center"><placeName key="A000250"><settlement>Wien</settlement></placeName> am <date when="19020628">28. Juni 1902</date>
                 </p>
-                <p>Der Vorsitzende der <hyphenation alt="Per\-so\-nal\-ein\-kom\-men\-steuer-Schät\-zungs\-com\-mis\-sion">Personaleinkommensteuer-Schätzungscommission</hyphenation> für den Schätzungsbezirk N<hi rend="superscript">o</hi> 
-                    15. <placeName key="A001205">N. Ö.</placeName>
-                </p>
-                <closer>
-                    <signed>Hipp</signed>
+                <p>Der Vorsitzende der Personaleinkommensteuer-Schätzungscommission für den Schätzungsbezirk N<hi rend="superscript">o</hi> 
+                    15. <placeName key="A001205">N. Ö.</placeName></p>
+                <closer><signed>Hipp</signed>
                 </closer>
                 <postscript>
                     <p>Euer Hochwolgeboren werden eingeladen, sich über das Einkommen des Herrn 
-                        <persName key="A002002">
-                            <hi rend="latintype">Hermann Bahr</hi>
-                        </persName>
+                        <persName key="A002002"><hi rend="latintype">Hermann Bahr</hi></persName>
                         aus seiner schriftstellerischen und
                         journalistischen Thätigkeit |: Die Bezüge, welche der Genannte als Redakteur des
-                        »<orgName key="A080148">
-                            <hi rend="latintype">Neuen Wiener Tagblatt</hi>
-                        </orgName>« erhält, ausgenommen :|
+                        »<orgName  key="A080148"><hi rend="latintype">Neuen Wiener Tagblatt</hi></orgName>« erhält, ausgenommen&#160;:|
                         in der Zeit vom <date>1/1 1901</date> bis <date>31/12 1901</date> gutächtlich zu äußern.</p>
                 </postscript>
             </div>

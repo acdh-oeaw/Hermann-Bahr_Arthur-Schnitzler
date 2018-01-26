@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041474">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         
                         <persName key="A002002">Bahr, Hermann</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
                     <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="18990220" n="01">[20. 2.] 1899</date> 
@@ -82,11 +79,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -95,13 +88,9 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Bitte vielmals seien Sie so lieb und lassen es nach dem beiliegenden gekürzten
-                        <anchor type="commentary" xml:id="KL474-1">
-                        <rs type="work" key="A020015">Exemplar</rs>
-                    </anchor> nochmals in der Druckerei berechnen, nach meiner
+                        <anchor type="commentary" xml:id="KL474-1" ><rs type="work" key="A020015">Exemplar</rs></anchor> nochmals in der Druckerei berechnen, nach meiner
                     Berechnung ist das Ganze in 2 Nummern, in einer auf 2 ½, in der andern auf 3 ½ 
                     dreispaltigen Seiten zu bringen. Damit hätte nicht nur ich die größte Freude,
                     sondern <persName key="A002607">Singer</persName> würde auch an Druckkosten sparen, und Sie
@@ -109,9 +98,7 @@
                     »<workName key="A020013">Gefährtin</workName>« von <persName key="A002001">Schnitzler</persName>, mich
                     aber am 18<hi rend="superscript">ten</hi> und 25<hi rend="superscript">ten</hi> bringen. Ich komm
                     Mittwoch zu Ihnen und wäre sehr froh, zu hören, dass es geht.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

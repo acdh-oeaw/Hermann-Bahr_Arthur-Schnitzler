@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041075">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,15 +65,10 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19120111" n="01">11/1</date> Auf den  <placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName> mit <persName key="A002038">O.</persName>, <persName key="A002480">Mimi</persName>, <persName key="A002267">Wassermann</persName>, mit
+            <p ><date when="19120111" n="01">11/1</date> Auf den  <placeName key="A000389"><settlement>Semmering</settlement></placeName> mit <persName key="A002038">O.</persName>, <persName key="A002480">Mimi</persName>, <persName key="A002267">Wassermann</persName>, mit
         vielen komischen Aperçus.</p>
             <p>Oben <persName key="A002065">Brahm</persName>. Spazieren und in der Halle mit ihm. Über das »<workName key="A020133">Tänzchen</workName>« (von <persName key="A002002">Bahr</persName>, das
-      eben ohne Erfolg gespielt wurde) und <anchor type="commentary" xml:id="KD075-1">
-                        <workName key="A020269">Gabriel Schilling</workName>
-                    </anchor>.</p>
+      eben ohne Erfolg gespielt wurde) und <anchor type="commentary" xml:id="KD075-1" ><workName key="A020269">Gabriel Schilling</workName></anchor>.</p>
   
          </div>
       </body> 

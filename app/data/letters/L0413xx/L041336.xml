@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041336">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000230">Salzburg</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19121207" n="01">7. 12. 1912</date>
                </dateSender>
@@ -70,21 +67,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote>
-                                        <placeName key="A000352">Grand Hotel de l’Europe</placeName> / <persName key="A002724">G. Jung</persName> / <placeName key="A000230">
-                                            <settlement>Salzburg</settlement>
-                                        </placeName>, ........</quote>«; von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote><placeName key="A000352">Grand Hotel de l’Europe</placeName> / <persName key="A002724">G. Jung</persName> / <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, ........</quote>«; von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170531">Kollationiert</change>
@@ -98,9 +88,7 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>7. 12. 12</date>
-                    </dateline>
+               <dateline rend="right"><date>7. 12. 12</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich war sechs Wochen unterwegs, jeden Abend in einer anderen Stadt auf dem »Brettl«, 
@@ -122,10 +110,7 @@
         Du nun »in Fülle« hast, was Du Dir je gewünscht. Möge es
         Dir so bleiben! Und auch Deiner lieben <rs type="person" key="A002038">Frau</rs> und den <persName key="A002083 A002097">Kindern</persName>
           wünsch ich immer alles Beste!</p>
-            <closer>Mit den schönsten Grüßen von uns <rs type="person" key="A002080">Beiden</rs>
-                    <lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit den schönsten Grüßen von uns <rs type="person" key="A002080">Beiden</rs><lb/>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041166">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, von Schnitzler datiert: »<quote>
-                                        <date>21/4 94</date>
-                                    </quote>«.</p>
+                        <p>eh. Korrespondenzkarte, von Schnitzler datiert: »<quote><date>21/4 94</date></quote>«.</p>
                         <stamp n="1">
                            <placeName key="A000251">Wien 1/1</placeName>
                            <date when="18940421">21 4 94</date>
@@ -90,11 +87,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151201">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -113,25 +106,19 @@
                <addrLine>Schriftsteller</addrLine>
                <addrLine>
                   <placeName key="A000251">
-                        <settlement>Wien I</settlement>
-                        </placeName>
-                    </addrLine>
+                        <settlement>Wien I</settlement></placeName></addrLine>
                <addrLine>
-                  <placeName key="A000598">Frankgasse 1</placeName>
-                    </addrLine>
+                  <placeName key="A000598">Frankgasse 1</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>Samstag</date>
+               <dateline rend="right"><date>Samstag</date>
                </dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Ich bin also morgen <hi rend="underline" n="1">vor ¾  10</hi> auf der <placeName key="A000332">Südbahn</placeName>.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Bahr</signed></closer>
          </div>
       </body>
   </text>

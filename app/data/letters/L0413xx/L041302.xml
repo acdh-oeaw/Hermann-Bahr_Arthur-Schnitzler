@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041302">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19060927" n="01">27. 9. 1906</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -96,29 +87,19 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>27. 9. 06.</date>
-                    </dateline>
+               <dateline rend="right"><date>27. 9. 06.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Verzeihe, dass ich dictiere, aber mich macht das Mechanische des Schreibens schrecklich nervös.</p>
             <p>Ich bleibe bis zum 1. November noch in
-            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> und möchte nun sehr gern Ende der
+            <placeName key="A000250"><settlement>Wien</settlement></placeName> und möchte nun sehr gern Ende der
           nächsten Woche, oder Anfang der übernächsten Woche einmal Vormittag zu Dir kommen.
           Vielleicht bestimmst Du mir einen Tag, der Dir passt.</p>
-            <p>Und noch etwas: Du hast einen <placeName key="A000374">
-                        <country>russischen</country>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <rs type="person" key="A002734" subtype="local">Uebersetzer</rs>, der sich 
+            <p>Und noch etwas: Du hast einen <placeName key="A000374"><country>russischen</country></placeName><space unit="chars" quantity="1"/><rs type="person" key="A002734" subtype="local">Uebersetzer</rs>, der sich 
             auch einmal an mich gewendet hat, ich habe aber seinen Namen und seine Adresse vergessen. Kannst Du mir diese schreiben?</p>
             <closer>Mit vielen Grüssen an Frau <persName key="A002038">Olga</persName>
                <lb/>herzlichst<lb/>Dein<lb/>
-               <signed>
-                        <handShift scribe="A002002"/>HermannBahr</signed>
-                </closer>
+               <signed><handShift scribe="A002002"/>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

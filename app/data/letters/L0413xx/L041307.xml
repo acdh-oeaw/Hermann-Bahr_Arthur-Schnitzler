@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041307">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19070415" n="01">15. 4. 1907</date>
                </dateSender>
@@ -82,11 +79,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -103,11 +96,9 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttelgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
@@ -115,17 +106,12 @@
                <dateline rend="right">
                   <placeName key="A000365">Wien XIII/<hi rend="subscript">7</hi>
                   </placeName>
-                  <lb/>
-                        <date>15. 4. 07</date>
-                    </dateline>
+                  <lb/><date>15. 4. 07</date></dateline>
                <salute>Lieber Artur!</salute>
             </opener>
             <p>Ich bin wieder hier und möchte gern nächstens zu Euch kommen. Vielleicht Anfang 
         der nächsten Woche einmal Vormittag gegen halb zwölf. Wann würde es Dir passen?</p>
-            <closer>Mit vielen Grüßen an Deine liebe <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit vielen Grüßen an Deine liebe <rs type="person" key="A002038">Frau</rs><lb/>herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

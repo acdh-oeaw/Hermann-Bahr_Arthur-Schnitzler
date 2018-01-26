@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041238">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19010705" n="01">5. 7. 1901</date>
                </dateSender>
@@ -70,20 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler Jahreszahl »<quote>
-                                        <date>901</date>
-                                    </quote>« ergänzt.</p>
+                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler Jahreszahl »<quote><date>901</date></quote>« ergänzt.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -100,47 +89,35 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>
+               <dateline rend="right"><date>
                   <subst>
                      <del rend="overwritten">7</del>
                      <add place="inline">5</add>
-                  </subst>/7</date>
-                    </dateline>
+                  </subst>/7</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich danke Dir herzlich für Deinen lieben Brief. Ich habe neulich mit <persName key="A002011">Hugo</persName> 
         davon gesprochen, wie es mich freut, zu Dir endlich ein aufrichtiges und gutes Verhältnis gefunden zu haben und 
         zu empfinden, daß <add place="above">es</add> wohl nicht mehr gestört werden kann, mögen unsere Meinungen 
-        immerhin auch künftig noch manchmal auseinandergehen.<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002011">Hugo</persName> ist sehr stolz, weil er das Gefühl hat, 
+        immerhin auch künftig noch manchmal auseinandergehen.<pb/><space unit="chars" quantity="1"/><persName key="A002011">Hugo</persName> ist sehr stolz, weil er das Gefühl hat, 
         in dieser Sache von jeher gescheiter gewesen zu sein, als wir es Jahre lang waren.</p>
             <p>Für <persName key="A002040">Pötzl</persName> kann ich, so unerfreulich er sich gegen mich,
           mit anonymen Briefen und auf Hintertreppen operierend, fortgesetzt benimmt,
             ein<supplied>e</supplied> stille Bewunderung nicht los werden, weil er doch das
           vollendet<pb/>ste Exemplar des biederen <placeName key="A000250">
-                  <settlement>Wieners</settlement>
-                    </placeName> ist, und mir immer nur leid thut, daß
+                  <settlement>Wieners</settlement></placeName> ist, und mir immer nur leid thut, daß
           ihn <persName key="A002041">Flaubert</persName> nicht gekannt hat, der ein wahres
-               Freudengeheul über ihn ausgestoßen hätte. »<anchor type="commentary" xml:id="KL238-2">Den Arier</anchor>« müßte einmal Jemand schildern und
-          müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen <anchor type="commentary" xml:id="KL238-1">Naderer</anchor>, der
-          eigentlich der Grundtypus des <placeName key="A000362">
-                        <country>Östreichers</country>
-                    </placeName> zu sein scheint, was irgendwie<pb/> sehr tief
+               Freudengeheul über ihn ausgestoßen hätte. »<anchor type="commentary" xml:id="KL238-2" >Den Arier</anchor>« müßte einmal Jemand schildern und
+          müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen <anchor type="commentary" xml:id="KL238-1" >Naderer</anchor>, der
+          eigentlich der Grundtypus des <placeName key="A000362"><country>Östreichers</country></placeName> zu sein scheint, was irgendwie<pb/> sehr tief
           mit dem Katholicismus zusammen<add place="above">zu</add>hängen scheint – worüber
             <persName key="A002042">Poldi</persName> und <persName key="A002011">Hugo</persName>
           freilich Zeter und Mordio schreien würden. <persName key="A002040">Pötzl</persName> oder
-          der Herr <anchor type="label" xml:id="LL238-1">
-                        <persName key="A002072">Davis</persName> von der »<orgName key="A080071">Reichswehr</orgName>«</anchor> oder der Ton des <anchor type="commentary" xml:id="KL238-3">
-                        <orgName key="A080130">Kikeriki</orgName>
-                    </anchor> –
+          der Herr <anchor type="label" xml:id="LL238-1" ><persName key="A002072">Davis</persName> von der »<orgName  key="A080071">Reichswehr</orgName>«</anchor> oder der Ton des <anchor type="commentary" xml:id="KL238-3" ><orgName  key="A080130">Kikeriki</orgName></anchor> –
           das sind lauter Sachen, die an den Hof 
                   <persName key="A002043">Philipps</persName>
                 gehören und die ich mir großartig von <persName key="A002044">Velasquez</persName> gemalt denken könnte.</p>
-            <closer>Einen guten Sommer wünscht Dir<lb/>herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Einen guten Sommer wünscht Dir<lb/>herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

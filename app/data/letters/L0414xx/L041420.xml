@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041420">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18930301" n="1">[1. 3.? 1893]</date>
                     </dateSender>
@@ -74,9 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 2 S.; von Schnitzler mit Bleistift Jahreszahl »<quote>
-                                        <date>93</date>
-                                    </quote>« ergänzt. Die hs. Datierung »<quote>1. II.</quote>« wirft mehrere Fragen auf, die <persName key="A002001">Schnitzler</persName> selbst versuchte zu lösen,
+                                <p>eh. Brief, 1 Bl., 2 S.; von Schnitzler mit Bleistift Jahreszahl »<quote><date>93</date></quote>« ergänzt. Die hs. Datierung »<quote>1. II.</quote>« wirft mehrere Fragen auf, die <persName key="A002001">Schnitzler</persName> selbst versuchte zu lösen,
                                     indem er durch Ergänzung eines weiteren Strichs bei der Monatsangabe auf März umdatierte.</p>
                             </physDesc>
                         </msDesc>
@@ -87,7 +80,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">35–36</biblScope>
@@ -96,11 +89,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -111,17 +100,12 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>
-                            <anchor type="textConst" xml:id="TL420-1">1. II.</anchor>
-                        </date>
-                    </dateline>
+                    <dateline rend="right"><date><anchor type="textConst" xml:id="TL420-1" >1. II.</anchor></date></dateline>
                     <salute>lieber Arthur.</salute>
                 </opener>
-                <p output="true">
-                    <persName key="A002002">Bahr</persName> stellte mir zu meiner Freude folgenden Antrag: er sei
+                <p ><persName key="A002002">Bahr</persName> stellte mir zu meiner Freude folgenden Antrag: er sei
                     im Stande und gern bereit, <persName key="A002239">Fels</persName> von <date>Anfang März</date> an mit
-                    einem Gehalt von 100 fl in der <orgName key="A080155">Deutschen Zeitung</orgName> als
+                    einem Gehalt von 100&#160;fl in der <orgName  key="A080155">Deutschen Zeitung</orgName> als
                     Redacteur unterzubringen. Es handelt sich nur um Fähigkeit und Bereitwilligkeit.
                     Dritten Personen werden Sie es vorläufig ebensowenig erzählen, wie ich.</p>
                 <p>Falls
@@ -129,8 +113,7 @@
                     eine Einladung abgelehnt habe, seien Sie doch sogut, <persName key="A003865">Robert
                         Ehrhardt</persName> (<hi rend="latintype">V. <placeName key="A000767">Siebenbrunng.</placeName> 29</hi>) 
                     ausdrücklich einzuladen. Er geht der Trauer wegen fast nicht in Gesellschaft und würde gewiss gern kommen.</p>
-                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr<lb/>
-                    <signed>Loris.</signed>
+                <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr<lb/><signed>Loris.</signed>
                     </closer>
                 <postscript>
                <p>P. S.<lb/>Ich denke sehr oft an die Novelle vom <workName key="A020149">Sterben</workName> und möchte 

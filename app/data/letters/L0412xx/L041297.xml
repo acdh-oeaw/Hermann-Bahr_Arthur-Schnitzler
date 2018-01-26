@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041297">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19051013" n="2">13. 10. 1905</date>
                </dateSender>
@@ -70,23 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>hs. Telegramm, beschnitten, Uhrzeit teilw. lesbar: »<quote>
-                                        <time>
-                                            <unclear>9</unclear> Uhr 10 Min. V. Mittag</time>
-                                    </quote>«, von Schnitzler datiert: »<quote>
-                                        <date>13/X 905</date>
-                                    </quote>«.</p>
+                        <p>hs. Telegramm, beschnitten, Uhrzeit teilw. lesbar: »<quote><time><unclear>9</unclear> Uhr 10 Min. V. Mittag</time></quote>«, von Schnitzler datiert: »<quote><date>13/X 905</date></quote>«.</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -103,8 +89,7 @@
             <p>herzlichst grüsst <subst>
                <del rend="overwritten">D</del>
                <add place="inline">d</add>
-            </subst>ich dein getreuer fürstenfeind <signed>hermann Bahr<!-- sic! --></signed>
-                </p>
+            </subst>ich dein getreuer fürstenfeind <signed>hermann Bahr<!-- sic! --></signed></p>
          </div>
       </body>
   </text>

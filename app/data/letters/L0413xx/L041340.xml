@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041340">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000230">Salzburg</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19140307" n="01">7. 3. 1914</date>
                </dateSender>
@@ -77,11 +74,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151217">Kollationiert</change>
          <change who="KI MAM" when="20170531">Kollationiert</change>
@@ -97,63 +90,28 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>7. 3. 14</date>
-                    </dateline>
+                  <placeName key="A000230"><settlement>Salzburg</settlement></placeName><space unit="chars" quantity="1"/><date>7. 3. 14</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich bin <supplied>in</supplied> der letzten Zeit so viel herumgegaukelt
-         (<anchor type="commentary" xml:id="KL340-2">
-                        <placeName key="A001177">
-                            <settlement>Czernowitz</settlement>
-                        </placeName>
-                    </anchor>, <anchor type="commentary" xml:id="KL340-3">
-                        <placeName key="A001157">
-                            <settlement>Lemberg</settlement>
-                        </placeName>
-                    </anchor>,
-         <anchor type="commentary" xml:id="KL340-4"> <placeName key="A001034">
-                            <settlement>Brünn</settlement>
-                        </placeName>
-                    </anchor>, dann <anchor type="commentary" xml:id="KL340-5"> <placeName key="A000998">
-                            <settlement>Berchtesgaden</settlement>
-                        </placeName>
-                    </anchor>
+         (<anchor type="commentary" xml:id="KL340-2" ><placeName key="A001177"><settlement>Czernowitz</settlement></placeName></anchor>, <anchor type="commentary" xml:id="KL340-3" ><placeName key="A001157"><settlement>Lemberg</settlement></placeName></anchor>,
+         <anchor type="commentary" xml:id="KL340-4" > <placeName key="A001034"><settlement>Brünn</settlement></placeName></anchor>, dann <anchor type="commentary" xml:id="KL340-5" > <placeName key="A000998"><settlement>Berchtesgaden</settlement></placeName></anchor>
         skiend, dann <placeName key="A000355">
-                  <settlement>Münchener</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL340-1">Suffragetten</anchor>, dann
-         <anchor type="commentary" xml:id="KL340-6">
-                        <placeName key="A001035">
-                            <settlement>Darmstadt</settlement>
-                        </placeName>
-                    </anchor> bei Hofe – die Welt ist sehr rund), daß ich
+                  <settlement>Münchener</settlement></placeName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL340-1" >Suffragetten</anchor>, dann
+         <anchor type="commentary" xml:id="KL340-6" ><placeName key="A001035"><settlement>Darmstadt</settlement></placeName></anchor> bei Hofe – die Welt ist sehr rund), daß ich
         jetzt erst dazu komme, Dir zu sagen, wie furchtbar leid mir tat, 
         <rs type="person" key="A002038">Euren</rs> lieben Besuch versäumt zu haben. So gern möcht 
         ich <rs type="person" key="A002038">Euch Beide</rs> wieder einmal sehen, so 
         gern <rs type="person" key="A002038">Euch</rs> unsere Behausung und den Park zeigen, so
         viel hätt ich Dich zu fragen, Dir zu sagen! Hoffentlich<pb/> trifft sichs das nächste Mal
         besser. Aber wann wird dies nächste Mal sein? Wir gehen ja heuer schon zu <date>Pfingsten</date>
-        nach <anchor type="commentary" xml:id="KL340-7">
-                        <placeName key="A000663">
-                            <settlement>Venedig</settlement>
-                        </placeName>
-                    </anchor>, da wir <date>Ende Juni</date> schon nach
-               <anchor type="commentary" xml:id="KL340-8">
-                        <placeName key="A000935">
-                            <settlement>Bayreuth</settlement>
-                        </placeName>
-                    </anchor> müssen, bis <date>Ende August</date> dort bleiben und uns also
+        nach <anchor type="commentary" xml:id="KL340-7" ><placeName key="A000663"><settlement>Venedig</settlement></placeName></anchor>, da wir <date>Ende Juni</date> schon nach
+               <anchor type="commentary" xml:id="KL340-8" ><placeName key="A000935"><settlement>Bayreuth</settlement></placeName></anchor> müssen, bis <date>Ende August</date> dort bleiben und uns also
         eigentlich jetzt schon auf den Herbst hier freuen, bevor noch der Frühling da ist.</p>
             <p>Lasst es Euch immer gut gehen, grüß auch die <rs type="person" key="A002083 A002097">Kinder</rs>, 
          wenn sie gleich nichts von mir wissen, herzlich von mir und bleibt mir gut,
          wie ich <rs type="person" key="A002038">Euch</rs> immer derselbe bleiben will, eben dieser Euer alter </p>
-            <closer>
-                    <signed>Hermann</signed>
+            <closer><signed>Hermann</signed>
             </closer>
          </div>
       </body>

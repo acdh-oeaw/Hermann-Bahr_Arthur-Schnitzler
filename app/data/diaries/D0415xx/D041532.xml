@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041532">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160211">angelegt</change>
       </revisionDesc>
@@ -70,14 +65,12 @@
    <text type="diaryDay">   
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19090515" n="01">15/5</date> Mein 47. Geburtstag. Blumen von <persName key="A002038">Olga</persName> und <persName key="A002083">Heini</persName>. Grüne Seidendecken, Polster, schöne Photographien von <persName key="A002083">Heini</persName> (<persName key="A003533">d’Ora</persName>).</p>
+            <p><date when="19090515" n="01">15/5</date> Mein 47. Geburtstag. Blumen von <persName key="A002038">Olga</persName> und <persName key="A002083">Heini</persName>. Grüne Seidendecken, Polster, schöne Photographien von <persName key="A002083">Heini</persName> (<persName key="A003533">d’Ora</persName>).</p>
                <p>Dictirt Briefe und <workName key="A020059">Medardus</workName>. (Beginn des 5.)</p>
                <p>Zu Tisch <persName key="A002689">Grethe</persName>, <persName key="A002212">Schwarzkopf</persName> und <rs type="person" key="A002146">Mama</rs>.–</p>
-               <p>
-                    <persName key="A002212">Gustav Schw.</persName> blieb, später kam <persName key="A002446">Paul Marx</persName>; endlich ins <placeName key="A000499">Johann Strauß Theater</placeName>.</p>
+               <p><persName key="A002212">Gustav Schw.</persName> blieb, später kam <persName key="A002446">Paul Marx</persName>; endlich ins <placeName key="A000499">Johann Strauß Theater</placeName>.</p>
                
-            <p output="true">Première <workName key="A020101">gelbe Nachtigall</workName> (<persName key="A002065">Brahm</persName> Ensemble), mit <persName key="A002065">Brahm</persName> in 
+            <p >Première <workName key="A020101">gelbe Nachtigall</workName> (<persName key="A002065">Brahm</persName> Ensemble), mit <persName key="A002065">Brahm</persName> in 
                der Loge; amusant im ganzen. Besuche in der Loge von <persName key="A002297">Julie Wassermann</persName>; <persName key="A002011">Hugo</persName> und <persName key="A002134">Gerty</persName>, <persName key="A002064 A002381">Trebitschs</persName> etc., <persName key="A002000">Burckhard</persName>.</p>               
                <p>Soupirt mit <persName key="A002065">Brahm</persName> und <persName key="A002000">Burckhard</persName> im <placeName key="A000784">Hotel Elisabeth</placeName>.</p>  
          </div>

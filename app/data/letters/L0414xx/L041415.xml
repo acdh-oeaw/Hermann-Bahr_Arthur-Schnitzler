@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041415">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                   <placeName key="A000774">Bad Fusch</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18920719" n="01">19. 7. [1892]</date>
                     </dateSender>
@@ -74,9 +71,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 4 S., mit geprägtem Wappen, von Schnitzler mit Bleistift Jahreszahl ergänzt: »<quote>
-                                        <date when="1892">92</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 4 S., mit geprägtem Wappen, von Schnitzler mit Bleistift Jahreszahl ergänzt: »<quote><date when="1892">92</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -86,7 +81,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">23–24</biblScope>
@@ -95,11 +90,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -110,10 +101,7 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <placeName key="A000774">
-                            <settlement>Fusch</settlement>
-                        </placeName>. <date>19. Juli</date>.</dateline>
+                    <dateline rend="right"><placeName key="A000774"><settlement>Fusch</settlement></placeName>. <date>19. Juli</date>.</dateline>
                     <salute>lieber Arthur,</salute>
                 </opener>
                 <p>an Ihrem guten und lieben Brief stört mich nur die Nachricht, wie viel Arbeit Sie
@@ -130,12 +118,9 @@
                     sonst erstarrten inneren Tiefen regen und das eigentlich Dämonische in uns, das
                     naturverwandte, dumpf und berauschend mittönt. Eine 
                     Überschrift bei <persName key="A002060">Goethe</persName>
-                    irgendwo: »<quote>
-                        <workName key="A021249">Urworte, orphisch</workName>
-                    </quote>« suggeriert 
+                    irgendwo: »<quote><workName key="A021249">Urworte, orphisch</workName></quote>« suggeriert 
                     mir immer den Duft der Poesie <persName key="A002205">Hebbels</persName>.</p>
-                <p output="true">
-                    <rs type="person" key="A002139">Papa</rs> ist befriedigend wohl und grüßt Sie,
+                <p ><rs type="person" key="A002139">Papa</rs> ist befriedigend wohl und grüßt Sie,
                         <persName key="A002002">Bahr</persName> und <persName key="A002035">Salten</persName>.</p>
                 <p>Ich habe mich vor einer gewissen inneren Öde und Abspannung in 
                     die <rs type="work" key="A021025">Tragödie</rs> gerettet; eine 
@@ -154,17 +139,14 @@
                     das Anschauen mancher Bilder der Renaissance, mit dunkelgoldnen Panzern und
                     blassen schönen Profilen auf sehr finsterem Grund. Es wäre sehr schön, wenn
                     Octobernachmittage würden, mit diesen zwei Lesepremièren. Wie weit ist die
-                    Familie? <hi rend="latintype">
-                        <persName key="A002007">Richard</persName>
-                    </hi> schreibt mir, ungern und nur 
+                    Familie? <hi rend="latintype"><persName key="A002007">Richard</persName></hi> schreibt mir, ungern und nur 
                     weil er von <rs type="person" key="A002139">Papas</rs> Krankheit gehört
                     hat; er ist verstimmt, arbeitet aber doch an einer seiner Novellen. Wann ist
                     Ihre Waffenübung? was ist es mit der Verlagsanstalt 
                     für <workName key="A020058">Anatol</workName>? lassen Sie sich
                     doch ja nicht durch ganz gleichgiltige Misserfolge vom Weitersuchen abschrecken.
                     Bitte, schreiben Sie mir bald, Briefe bekommen ist hier das lustigste.</p>
-                <closer>
-                    <signed>Loris.</signed>
+                <closer><signed>Loris.</signed>
                     
                 </closer>
             </div>

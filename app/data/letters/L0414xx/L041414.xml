@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041414">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18920507" n="1">[7. 5. 1892?]</date>
                     </dateSender>
@@ -73,12 +68,7 @@
                                 <idno>Hs-30885,28</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Karte, Bleistift, hs. datiert von unbek. Hand: »<quote>
-                                        <del rend="strikethrough">
-                                            <date>91</date>?</del>
-                                        <space unit="chars" quantity="1"/>
-                                        <date>92</date>
-                                    </quote>«</p>
+                                <p>eh. Karte, Bleistift, hs. datiert von unbek. Hand: »<quote><del rend="strikethrough"><date>91</date>?</del><space unit="chars" quantity="1"/><date>92</date></quote>«</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -88,7 +78,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">21</biblScope>
@@ -97,11 +87,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="KI MAM" when="20161209">Kollationiert mit Scan</change>
@@ -111,15 +97,13 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <salute>Lieber Loris, </salute>eben erhalte ich einen Brief von <persName key="A002002">Bahr</persName>; er käme
-                    heute Nachmittag um 3 Uhr mit Ihnen zu mir. Da aber mein <rs type="person" key="A002214">Papa</rs> noch <anchor type="commentary" xml:id="KL414-1">krank</anchor> ist,
+                <p><salute>Lieber Loris, </salute>eben erhalte ich einen Brief von <persName key="A002002">Bahr</persName>; er käme
+                    heute Nachmittag um 3 Uhr mit Ihnen zu mir. Da aber mein <rs type="person" key="A002214">Papa</rs> noch <anchor type="commentary" xml:id="KL414-1" >krank</anchor> ist,
                     ordinire ich für ihn <placeName key="A000474">Burgring 1</placeName>, und kann erst um  ½ 5 <placeName key="A000743">Giselastraße</placeName> sein. Abends
                     bin ich im <placeName key="A000611">Ausstellungs<pb/>theater</placeName>; können wir nicht auch nachher beisammen sein?
                     Können Sie um  ½ 5 nicht auf mich warten, so lassen Sie mir entweder eine Post
                     zurück oder kommen Sie vielleicht mit <persName key="A002002">Bahr</persName> zu mir auf den <placeName key="A000474">Burgring</placeName> um 3 Uhr.
-                    Grüßen Sie <persName key="A002002">Bahr</persName> und seien Sie selbst, Unsichtbarer, vielmals gegrüßt, <signed>Arth</signed>
-                </p>
+                    Grüßen Sie <persName key="A002002">Bahr</persName> und seien Sie selbst, Unsichtbarer, vielmals gegrüßt, <signed>Arth</signed></p>
             </div>
         </body>
     </text>

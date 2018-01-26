@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041319">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -87,11 +86,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -108,43 +103,31 @@
             <address>
                <addrLine>HermannBahr</addrLine>
                <addrLine>
-                  <placeName key="A000670">Bayreuth Parsifalgasse 12</placeName>
-                    </addrLine>
+                  <placeName key="A000670">Bayreuth Parsifalgasse 12</placeName></addrLine>
             </address>
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
-               <addrLine>aus <placeName key="A000333">Wien XVIII Spöttelgasse 7</placeName>
-                    </addrLine>
+               <addrLine>aus <placeName key="A000333">Wien XVIII Spöttelgasse 7</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000671">Edlach b. Wien</placeName>
-                    </addrLine>
+                  <placeName key="A000671">Edlach b. Wien</placeName></addrLine>
                <addrLine>Südbahn</addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000935">
-                            <settlement>Bayreuth</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>28. 6. 09</date>
-                    </dateline>
+                  <placeName key="A000935"><settlement>Bayreuth</settlement></placeName><space unit="chars" quantity="1"/><date>28. 6. 09</date></dateline>
             </opener>
             <p>Dank schön, <salute>lieber Arthur, </salute>für Deine so lieben Zeilen!</p>
-            <p>Ich denke, daß dann vielleicht nicht blos Du sagen wirst: <anchor type="label" xml:id="LL319-1">Schad!</anchor> Oft denke ich das.</p>
+            <p>Ich denke, daß dann vielleicht nicht blos Du sagen wirst: <anchor type="label" xml:id="LL319-1" >Schad!</anchor> Oft denke ich das.</p>
             <p>Hoffentlich gehts Deinem <rs type="person" key="A002083">Buben</rs> schon wieder gut.</p>
             <p>Hier ists jetzt, noch ganz ohne »Fremde« (und die »Künstler« findet auch nur, wer sie sehr sucht), 
          unbeschreiblich schön und man spürt in dieser einzigen Landschaft doch, daß es ums Deutsche schon 
-         was ist, dort wos aus der Erde wächst (aber nicht in <placeName key="A000853">
-                        <settlement>Prag</settlement>
-                    </placeName>).</p>
+         was ist, dort wos aus der Erde wächst (aber nicht in <placeName key="A000853"><settlement>Prag</settlement></placeName>).</p>
             <p>Wärst Du hier!</p>
             <p>Hier könnte man reden.</p>
             <closer>Grüß herzlichst Deine liebe <rs type="person" key="A002038">Frau</rs>.<lb/>In
-        alter, sehr wirklicher Freundschaft<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+        alter, sehr wirklicher Freundschaft<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

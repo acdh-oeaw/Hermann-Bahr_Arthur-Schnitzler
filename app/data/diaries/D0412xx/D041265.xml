@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041265">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,17 +66,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19051219" n="1">19/12</date> Vm. Besorgungen in der Stadt.– Sprach <persName key="A002360">Richard Horn</persName> (über <persName key="A002086">Mahler</persName>, <persName key="A002773">Brahms</persName>, <persName key="A002721">Bruckner</persName>) nach langer Zeit; dann <persName key="A002183">Theo Baumgarten</persName> (über <persName key="A002002">Bahr</persName>, den er
+            <p><date when="19051219" n="1">19/12</date> Vm. Besorgungen in der Stadt.– Sprach <persName key="A002360">Richard Horn</persName> (über <persName key="A002086">Mahler</persName>, <persName key="A002773">Brahms</persName>, <persName key="A002721">Bruckner</persName>) nach langer Zeit; dann <persName key="A002183">Theo Baumgarten</persName> (über <persName key="A002002">Bahr</persName>, den er
         für »Poseur« hält und den ich ihm erklärte).–</p>
             <p>Bei <rs key="A002146" type="person">Mama</rs> zu Tisch, nachher mit ihr 4h. <persName key="A002793">
                   <workName key="A020381">Borodin-Quartett</workName>
                </persName>.</p>
             <p>Am <rs type="work" key="A020052">Roman</rs>.–</p>
             <p>Abends <persName key="A002311">Grethel S.</persName> da. Besprechung ihrer Stellung bei
-        mir.– <persName key="A002302">Tschaikowski</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020382">Trio</workName> z. Th. mit ihr.</p>
+        mir.– <persName key="A002302">Tschaikowski</persName><space unit="chars" quantity="1"/><workName key="A020382">Trio</workName> z. Th. mit ihr.</p>
          </div> 
       </body>
    </text>

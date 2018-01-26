@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041562">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,8 +66,7 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19180928" n="1">28/9</date> Mit <persName key="A002971">Vicki</persName> spazieren
+            <p><date when="19180928" n="1">28/9</date> Mit <persName key="A002971">Vicki</persName> spazieren
                <placeName key="A000369">Pötzleinsdorf</placeName> – <placeName key="A000376">Dornbacher Park</placeName>.
                Über <persName key="A002002">Bahr</persName>; meine <placeName key="A000214">Burgtheater</placeName>erlebnisse;
                über die <rs type="work" key="A020527" subtype="local-short">Novelle</rs>.– Viel über <persName key="A002469">Stephi</persName> und
@@ -81,16 +75,11 @@
                   <persName key="A002887">Rudi O.</persName>, der nächstens Frau <persName key="A003654">Mädi F.</persName>
                heiratet.</p>
             <p>Nm. <rs type="work" key="A020730">Nachklg.</rs> 6. B. gelesen;– recht flüchtig.– </p>
-            <p>
-                    <persName key="A002158">Schott</persName>;– wir halfen ihm bei einem Brief an <persName key="A002002">Bahr</persName>, der den Schauspielern gegenüber auch nicht sehr geschickt scheint. Er
+            <p><persName key="A002158">Schott</persName>;– wir halfen ihm bei einem Brief an <persName key="A002002">Bahr</persName>, der den Schauspielern gegenüber auch nicht sehr geschickt scheint. Er
                gibt ihm eine Rolle und theilt ihm zugleich mit, daß die andern ihm sie nicht zutraun
                – er sie also vielleicht noch wird abgeben müssen (König in <workName key="A020834" subtype="local">nat.
                   Tochter</workName>).</p>
-            <p>– Mit <persName key="A002083">Heini</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002509">Mozart</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020875">Jupitersymph.</workName> – <persName key="A002468">Hansi</persName> n. d. N.–</p>
+            <p>– Mit <persName key="A002083">Heini</persName><space unit="chars" quantity="1"/><persName key="A002509">Mozart</persName><space unit="chars" quantity="1"/><workName key="A020875">Jupitersymph.</workName> – <persName key="A002468">Hansi</persName> n. d. N.–</p>
          </div>
       </body>
   </text>

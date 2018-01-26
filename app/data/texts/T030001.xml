@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030001">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                      <settlement>Wien</settlement>
-                        </placeName> 
+                      <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -60,11 +60,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-     <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+     <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
 			      <change when="2015-11-04" who="MAM">Angelegt</change>
       <change who="KI MAM" when="20160509">Kollationiert</change>
@@ -73,14 +69,12 @@
   <text type="manuscript">
       <body>
          <div>
-            <p>»<c rendition="#dots" n="5"/>Ich kann <persName key="A002291">Schönherr</persName> loben, weil er eine einfache
+            <p>»<c rendition='#dots' n='5'/>Ich kann <persName key="A002291">Schönherr</persName> loben, weil er eine einfache
           Bauernkraft ist, <persName key="A002002">Bahr</persName> weil er ein Variétéjongleur der
-          Literatur ist. Aber was soll ich über die andere<add place="inline">n</add>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KT001-1">fleissigen
+          Literatur ist. Aber was soll ich über die andere<add place="inline">n</add><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KT001-1" >fleissigen
           Leute</anchor> sagen, die ihr geistiges Kapitalchen mit netten anständigen Zinsen korrekt
           verwerten.«</p>
-            <p rend="center">
+            <p rend="center" >
                <workName key="A020665">Wiener Literatenköpfe</workName> von <persName key="A002024">Peter Altenberg</persName>
                <lb/>
                <date when="19120407">7. 4. 1912.</date>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041495">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -81,11 +80,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160330">Angelegt</change>
         </revisionDesc>
@@ -94,22 +89,12 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Eben von der Congreßfahrt zurück, wo ich zuletzt anderthalb wunderschöne Tage in
-                            <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName> mit
-                        <persName key="A002001">Arthur</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002038">Olga</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002007">Richard</persName> sehr vergnügt zugebracht, finde ich Ihren lieben
+                            <placeName key="A000230"><settlement>Salzburg</settlement></placeName> mit
+                        <persName key="A002001">Arthur</persName><space unit="chars" quantity="1"/><persName key="A002038">Olga</persName><space unit="chars" quantity="1"/><persName key="A002007">Richard</persName> sehr vergnügt zugebracht, finde ich Ihren lieben
                     Brief.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041335">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,26 +65,14 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19240703" n="1">3/7</date> Allein im Coupé die Nacht bis <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>.–</p>
-            <p>Von <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName> bis <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName> mit <persName key="A002900">Cl. Franckenstein</persName> und <rs type="person" key="A002901">Frau</rs> (er ist jetzt 
-wieder <anchor type="commentary" xml:id="KD335-1">Intendant</anchor>);– wir plaudern über <persName key="A002011">Hugo</persName>, <persName key="A002042">Andrian</persName>, <persName key="A002002">Bahr</persName>, u. s. w.–</p>
-            <p>
-                    <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>. <placeName key="A000430">Oest. Hof</placeName>.– Nm. müd im Zimmer.</p>
+            <p><date when="19240703" n="1">3/7</date> Allein im Coupé die Nacht bis <placeName key="A000355"><settlement>München</settlement></placeName>.–</p>
+            <p>Von <placeName key="A000355"><settlement>München</settlement></placeName> bis <placeName key="A000230"><settlement>Salzburg</settlement></placeName> mit <persName key="A002900">Cl. Franckenstein</persName> und <rs type="person" key="A002901">Frau</rs> (er ist jetzt 
+wieder <anchor type="commentary" xml:id="KD335-1" >Intendant</anchor>);– wir plaudern über <persName key="A002011">Hugo</persName>, <persName key="A002042">Andrian</persName>, <persName key="A002002">Bahr</persName>, u.&#160;s.&#160;w.–</p>
+            <p><placeName key="A000230"><settlement>Salzburg</settlement></placeName>. <placeName key="A000430">Oest. Hof</placeName>.– Nm. müd im Zimmer.</p>
             <p>Hr. <persName key="A002902">Klobasser</persName> (seit 30 Jahren flüchtig bekannt) jetzt in <placeName key="A000230">S.</placeName> 
 ansässig gibt mir »aus Verehrung« rothe und weiße Alpenrosen.</p>
-            <p>
-                    <persName key="A002367">Heinrich Mann</persName> kommt verabredeter Maßen aus <placeName key="A000722">
-                  <settlement>Gastein</settlement>
-                    </placeName> 
+            <p><persName key="A002367">Heinrich Mann</persName> kommt verabredeter Maßen aus <placeName key="A000722">
+                  <settlement>Gastein</settlement></placeName> 
        an;– wir plaudern im <placeName key="A000381">Café Bazar</placeName> und spazieren dann um
         den <geogName type="mountain">Nonnberg</geogName>;– über politisches; seine Gefährdung;–
         über <persName key="A002023">Brandes</persName> und dessen herrliche Arbeitskraft,

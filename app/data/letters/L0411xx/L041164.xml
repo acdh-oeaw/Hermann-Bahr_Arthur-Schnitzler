@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041164">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18940402" n="2">2. 4. 1894</date>
                </dateSender>
@@ -72,13 +67,9 @@
                      <physDesc>
                         <p>Abschrift. Original verschollen. Es wurde von <persName key="A002083">Heinrich Schnitzler</persName> am <date>22. 8. 1937</date>
                   an das <placeName key="A000770">Wolf-Museum in Eisenstadt</placeName> geschenkt.
-                    <persName key="A003876">Sándor Wolf</persName> emigrierte 1938 nach <placeName key="A000771">
-                                        <country>Israel</country>
-                                    </placeName>, wohin seine Bibliothek
+                    <persName key="A003876">Sándor Wolf</persName> emigrierte 1938 nach <placeName key="A000771"><country>Israel</country></placeName>, wohin seine Bibliothek
                            nachzuholen ihm möglicherweise gelang. Nach seinem Tod im Jahr 1946 ließ seine Schwester <persName key="A003877">Frieda Löwy</persName>
-                  einen Teil der Sammlung 1958 in <placeName key="A001168">
-                                        <settlement>Luzern</settlement>
-                                    </placeName> versteigern, der Brief dürfte sich
+                  einen Teil der Sammlung 1958 in <placeName key="A001168"><settlement>Luzern</settlement></placeName> versteigern, der Brief dürfte sich
                   nicht darunter befunden haben.</p>
                      </physDesc>
                   </msDesc>
@@ -86,11 +77,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20160406">Kollationiert</change>
       </revisionDesc>
@@ -100,17 +87,13 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>2. 4. 1894</date>
-                    </dateline>
+               <dateline rend="right"><date>2. 4. 1894</date></dateline>
                <salute>Lieber Schnitzler,</salute>
             </opener>
             <p>ich habe mir die Geschichte mit dem Bicycle doch anders überlegt – lieber nicht. Der
           Gedanke, da umständlich zu lernen und mich mit einem fremden Instrument zu peinigen, macht
           mich nur nervöse. Sei deswegen nicht böse </p>
-            <closer>Deinem treuen<lb/>
-                    <signed>Bahr</signed>
-                </closer>
+            <closer>Deinem treuen<lb/><signed>Bahr</signed></closer>
          </div>
       </body>
   </text>

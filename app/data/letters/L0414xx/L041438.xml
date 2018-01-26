@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041438">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18990706" n="01">6. 7. 1899</date>
                     </dateSender>
@@ -74,9 +71,7 @@
                                 <idno>Hs-30885,82</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl, 4 S. Mit Bleistift am oberen Blattrand zusätzlich datiert: »<quote>
-                                        <date>6/7 99</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl, 4 S. Mit Bleistift am oberen Blattrand zusätzlich datiert: »<quote><date>6/7 99</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -86,7 +81,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">123</biblScope>
@@ -95,11 +90,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="20160309">Angelegt aus OCR</change>
             <change who="KI MAM" when="20170627">Kollationiert</change>
@@ -112,24 +103,20 @@
                 <opener>
                     <salute>lieber Hugo,</salute>
                 </opener>
-                <p output="true">folgendes ist mit <hi rend="underline" n="3">vollkommener
+                <p  >folgendes ist mit <hi rend="underline" n="3">vollkommener
                         Discretion</hi> zu behandeln: <persName key="A002002">
                   <hi rend="underline" n="1">Bahr</hi>
                </persName>
                     <hi rend="underline" n="1"> verläßt die </hi>
-               <orgName key="A080011">
+               <orgName  key="A080011">
                    <hi rend="underline" n="1">Zeit</hi>
                </orgName>. <persName key="A002607">Singer</persName> und
                         <persName key="A002661">Kanner</persName> waren bei mir. Lange Unterredung
                     ohne Interesse für Sie (nur mich.) Das wesentliche: sie möchten auf das Blatt
                     stellen: unter Mitwirkung von – etc etc nur erste Namen, ich möchte Sie
                     fragen, ob Sie im Prinzip damit<pb/> einverstanden wären, auch als »Mitwirkender<supplied>«</supplied>
-                    oder »ständg Mitwirkender« aufs Blatt zu kommen, neben <hi rend="latintype">
-                        <persName key="A002000">Burckhard</persName>
-                    </hi>, 
-                    mich, – event. <persName key="A002202">
-                        <hi rend="latintype">Hauptmann</hi>
-                    </persName> (<anchor type="commentary" xml:id="KL438-1">an den ich mich über <persName key="A002065">Brahm</persName> wende</anchor>.)
+                    oder »ständg Mitwirkender« aufs Blatt zu kommen, neben <hi rend="latintype"><persName key="A002000">Burckhard</persName></hi>, 
+                    mich, – event. <persName key="A002202"><hi rend="latintype">Hauptmann</hi></persName> (<anchor type="commentary" xml:id="KL438-1" >an den ich mich über <persName key="A002065">Brahm</persName> wende</anchor>.)
                     Sie können natürlich ohne weiters zusagen. Für die
                     Herausgeber scheint mir die Sache allerdings überflüssig: sie brauchten
                     Arbeitskräfte, nicht Namen.–</p>
@@ -139,11 +126,7 @@
                     ist vorbei.</p>
                 <p>Das Wetter ist schändlich. <date>Mitte Juli</date> reise ich nach
                         <placeName key="A000852">Kärnthen</placeName>; zuerst
-                            <placeName key="A001110">
-                        <settlement>
-                            <hi rend="latintype">Velden</hi>
-                        </settlement>
-                    </placeName>, dann zu
+                            <placeName key="A001110"><settlement><hi rend="latintype">Velden</hi></settlement></placeName>, dann zu
                         <persName key="A002007">Richard</persName>, von dem ich eine kurze Karte habe. – Hat sich in
                     den Chancen für Mitte August (<placeName key="A000633">Thü<pb/>ringen</placeName> etc) was
                     geändert? – Arbeiten Sie? Sehn Sie <persName key="A002406">Minnie</persName>?–</p>
@@ -151,11 +134,7 @@
                 </closer>
                 <postscript>
                     <dateline>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>6. 7. 99</date>.</dateline>
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>6. 7. 99</date>.</dateline>
                 </postscript>
                 
             </div>

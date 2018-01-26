@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041521">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -76,11 +75,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -90,20 +85,15 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>10. X. 907</date>
-                    </dateline>
+                    <dateline rend="right"><date>10. X. 907</date></dateline>
                     <salute>Lieber Richard,</salute>
                 </opener>
-                <p>
-                    <persName key="A002002">Bahr</persName> bittet mich Ihnen sein <rs type="work" key="A020101">Stück</rs> zu schicken. Hier ist es. Herzlichst</p>
-                <closer>Ihr<lb/>
-                    <signed>A.</signed>
+                <p><persName key="A002002">Bahr</persName> bittet mich Ihnen sein <rs type="work" key="A020101">Stück</rs> zu schicken. Hier ist es. Herzlichst</p>
+                <closer>Ihr<lb/><signed>A.</signed>
                     
                 </closer>
                 <postscript>
-               <p>
-                        <persName key="A002000">Burckhard</persName> liegt bei <placeName key="A000289">Loew</placeName>,
+               <p><persName key="A002000">Burckhard</persName> liegt bei <placeName key="A000289">Loew</placeName>,
                         mit einer (durch <persName key="A002130">Hajek</persName> endlich
                         gestillten) schweren Nasenblutung. Ich geh jetzt hin</p>
             </postscript>

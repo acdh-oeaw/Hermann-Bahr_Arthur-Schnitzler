@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041325">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000389">Semmering</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19091218" n="01">18. 12. 1909</date>
                </dateSender>
@@ -77,11 +74,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151216">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -99,19 +92,13 @@
                <dateline rend="right">
                   <placeName key="A000344">Semmering Villa
             Mautner</placeName>
-                  <lb/>
-                        <date>18. 12. 09</date>
-                    </dateline>
+                  <lb/><date>18. 12. 09</date></dateline>
                <salute rend="center">Lieber Artur!</salute>
             </opener>
             <p>Schönsten Dank für Deinen Brief. Wenn wir uns zwischen dem 25., wo ich wieder in           
-        <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> bin, und dem 31., wo ich wieder
+        <placeName key="A000250"><settlement>Wien</settlement></placeName> bin, und dem 31., wo ich wieder
         abreise, einmal sehen könnten, wärs sehr schön. Ich sehne mich schon lange danach.</p>
-            <closer>Mit den schönsten Grüßen<lb/>von Haus zu Haus<lb/>Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Mit den schönsten Grüßen<lb/>von Haus zu Haus<lb/>Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

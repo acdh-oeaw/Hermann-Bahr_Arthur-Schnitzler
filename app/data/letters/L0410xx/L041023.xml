@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041023">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -53,9 +52,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18981201" n="02">1. 12. 1898</date>
                </dateSender>
@@ -76,8 +73,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="18981209">9. 12. 1898</date>
                   <respStmt>Abschrift</respStmt>
@@ -90,15 +86,10 @@
                   <biblScope unit="pp">64</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
@@ -112,45 +103,26 @@
   <text type="card">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>Lieber Hermann, </salute>ich danke dir herzlich für deine freundlichen <rs type="work" key="A020200">Glückw<damage agent="hole">
-                            <supplied>ün</supplied>
-                        </damage>sche</rs>. Den »<workName key="A020012">Kakadu</workName>« hat die <orgName key="A080014">F<damage agent="hole">
-                            <supplied>rei</supplied>
-                        </damage>e Bühne</orgName> schon (»<orgName key="A080014">Die <hi rend="latintype">Neue Deutsche
-                  Rundschau</hi>
-                    </orgName>« mein’ ich); er soll, während der Recurs wegen der <anchor type="commentary" xml:id="KL023-3">Freigabe</anchor> im Gang ist, an der
+            <p ><salute>Lieber Hermann, </salute>ich danke dir herzlich für deine freundlichen <rs
+                  type="work" key="A020200">Glückw<damage agent="hole"><supplied>ün</supplied></damage>sche</rs>. Den »<workName key="A020012"
+                  >Kakadu</workName>« hat die <orgName key="A080014">F<damage agent="hole"><supplied>rei</supplied></damage>e Bühne</orgName> schon (»<orgName key="A080014">Die <hi rend="latintype">Neue Deutsche
+                  Rundschau</hi></orgName>« mein’ ich); er soll, während der Recurs wegen der <anchor
+                  type="commentary" xml:id="KL023-3">Freigabe</anchor> im Gang ist, an der
                   »<placeName key="A000217">Freien Bühne</placeName>« in
-                     <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName> aufgeführt werden. Jedenfalls ist nun mein ganzer <rs type="work" key="A021324">Einakter Abend</rs> 
-               hinausgeschoben. So ist es vorläufig noch verfrüht, dir von der »<workName key="A020013">Gefährtin</workName>«, einem dieser Einakter, zu reden, den ich<pb/> keineswegs
-                  <anchor type="label" xml:id="LL023-1">
-                        <hi rend="underline" n="1">vor</hi>
-                    </anchor> der Aufführg erscheinen lassen möchte, den ich
-               aber bi<damage agent="hole">
-                        <supplied>sh</supplied>
-                    </damage>er noch nicht vergeben habe. – Du <damage agent="hole">
-                        <supplied>hof</supplied>
-                    </damage>fst meine <orgName key="A080009">
-                        <hi rend="latintype">Kosmopolis</hi>-Honorarforderungen</orgName>
-               durchzusetzen – das wäre sehr schön – denn die <orgName key="A080009">
-                        <hi rend="latintype">Kosmopolis</hi>
-                    </orgName> ist <anchor type="commentary" xml:id="KL023-2">verkracht und schuldet mir ungezählte Mark</anchor>. Also versuch’s<subst>
+                     <placeName key="A000368"><settlement>Berlin</settlement></placeName> aufgeführt werden. Jedenfalls ist nun mein ganzer <rs type="work" key="A021324">Einakter Abend</rs> 
+               hinausgeschoben. So ist es vorläufig noch verfrüht, dir von der »<workName key="A020013"
+                  >Gefährtin</workName>«, einem dieser Einakter, zu reden, den ich<pb/> keineswegs
+                  <anchor type="label" xml:id="LL023-1" ><hi rend="underline" n="1">vor</hi></anchor> der Aufführg erscheinen lassen möchte, den ich
+               aber bi<damage agent="hole"><supplied>sh</supplied></damage>er noch nicht vergeben habe. – Du <damage agent="hole"><supplied>hof</supplied></damage>fst meine <orgName key="A080009"><hi rend="latintype">Kosmopolis</hi>-Honorarforderungen</orgName>
+               durchzusetzen – das wäre sehr schön – denn die <orgName key="A080009"
+                  ><hi rend="latintype">Kosmopolis</hi></orgName> ist <anchor type="commentary" xml:id="KL023-2" >verkracht und schuldet mir ungezählte Mark</anchor>. Also versuch’s<subst>
                   <del rend="strikethrough">, –</del>
                   <add place="overwritten">.</add>
-               </subst>
-                </p>
-            <p>– Auf baldige <anchor type="commentary" xml:id="KL023-1">Gratulationsrevanche</anchor> im <placeName key="A000220">Volkstheater</placeName>.</p>
-            <closer>Herzlichen Gruss. Dein <signed>Arthur Sch.</signed>
-                </closer>
+               </subst></p>
+            <p>– Auf baldige <anchor type="commentary" xml:id="KL023-1" >Gratulationsrevanche</anchor> im <placeName key="A000220">Volkstheater</placeName>.</p>
+            <closer>Herzlichen Gruss. Dein <signed>Arthur Sch.</signed></closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>1. 12. 98</date>
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>1. 12. 98</date>
                </p>
             </postscript>
  

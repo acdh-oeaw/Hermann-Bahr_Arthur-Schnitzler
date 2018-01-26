@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041284">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,15 +66,11 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19070131" n="1">31/1</date> Vm. Stadt, Panorama (<placeName key="A000407">Schweiz</placeName>).–</p>
+            <p><date when="19070131" n="1">31/1</date> Vm. Stadt, Panorama (<placeName key="A000407">Schweiz</placeName>).–</p>
             <p>Bei <placeName key="A000229">Sacher</placeName> mit <persName key="A002048 A002124">Kainzens</persName>, <persName key="A002387 A002386">Speidels</persName>, und Dr. <persName key="A002836">Bernstein</persName> (morgen Prem. 
 <workName key="A020393">Herrenrecht</workName>). Champagner, Bruderschaften, Küsse. Man blieb von 3–9. <persName key="A002048">Kainz</persName> 
 war köstlich betrunken. Dann war man noch bei uns bis 1. <persName key="A002038">Olga</persName> sang; <persName key="A002048">Kainz</persName> 
-declamirte <anchor type="commentary" xml:id="KD284-1">
-                        <workName key="A020394">Disputation</workName> und <workName key="A020395">Donna Clara</workName>
-                    </anchor> – (unbeschreiblich). (Seit <anchor type="commentary" xml:id="KD284-2">
-                        <date>1894</date> 
+declamirte <anchor type="commentary" xml:id="KD284-1" ><workName key="A020394">Disputation</workName> und <workName key="A020395">Donna Clara</workName></anchor> – (unbeschreiblich). (Seit <anchor type="commentary" xml:id="KD284-2" ><date>1894</date> 
        (<persName key="A002002">Bahr</persName>) mit keinem Du</anchor> geworden; nun plötzlich mit <persName key="A002048 A002124">Kainzens</persName> und <persName key="A002387 A002386">Speidels</persName>.)</p>
          </div> 
       </body>

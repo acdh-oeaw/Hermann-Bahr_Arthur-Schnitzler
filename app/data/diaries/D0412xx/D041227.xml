@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041227">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,14 +66,9 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19040401" n="1">1/4</date> Vorm. Besorgungen.– Bei <persName key="A002733">Hans</persName>.–</p>
-            <p>Nm. <persName key="A002714">Vollmoeller</persName> da, wohnt in <placeName key="A000830">
-                        <settlement>Sorrent</settlement>
-                    </placeName>.– Spazieren.–</p>
-            <p>Abend <persName key="A002035 A002375">Salten’s</persName> bei uns.– Schulgeschichten, <placeName key="A000533">
-                        <settlement>Linz</settlement>
-                    </placeName>, <persName key="A002002">Bahr</persName>, der <placeName key="A000371">Urfahrer</placeName> etc.– Amüsant.–</p>
+            <p><date when="19040401" n="1">1/4</date> Vorm. Besorgungen.– Bei <persName key="A002733">Hans</persName>.–</p>
+            <p>Nm. <persName key="A002714">Vollmoeller</persName> da, wohnt in <placeName key="A000830"><settlement>Sorrent</settlement></placeName>.– Spazieren.–</p>
+            <p>Abend <persName key="A002035 A002375">Salten’s</persName> bei uns.– Schulgeschichten, <placeName key="A000533"><settlement>Linz</settlement></placeName>, <persName key="A002002">Bahr</persName>, der <placeName key="A000371">Urfahrer</placeName> etc.– Amüsant.–</p>
          </div> 
       </body>
    </text>

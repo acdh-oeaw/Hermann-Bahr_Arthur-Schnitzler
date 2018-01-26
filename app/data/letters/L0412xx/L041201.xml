@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041201">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,11 +71,7 @@
                         <idno>HS AM 49090 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »<quote>
-                                        <placeName key="A000792">
-                                            <settlement>Matrei</settlement>
-                                        </placeName>
-                                    </quote>«, Bleistift.</p>
+                        <p>eh. Ansichtskarte, Motiv: »<quote><placeName key="A000792"><settlement>Matrei</settlement></placeName></quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A000792">Deutsch-Matrei</placeName>
                            <date when="19020703">3/7 <supplied>1902</supplied>
@@ -94,57 +89,41 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="missing_TMW"/>     </facsimile>
+  </teiHeader><facsimile>       <graphic url="missing_TMW"/>     </facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi></addrLine>
                <addrLine>
-                  <hi rend="latintype">Redacteur</hi>
-                    </addrLine>
+                  <hi rend="latintype">Redacteur</hi></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <hi rend="underline" n="1">
-                        <placeName key="A000250">
-                                    <settlement>Wien</settlement>
-                                </placeName>
+                        <placeName key="A000250"><settlement>Wien</settlement></placeName>
                      </hi>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
                <addrLine>
                   <placeName key="A000420">
                      <hi rend="latintype">XIII<hi rend="subscript">7</hi> Veitlissengasse in Ober St Veit.</hi>
-                  </placeName>
-                    </addrLine>
+                  </placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
-            <p>Das was Sie über’n <anchor type="commentary" xml:id="KL201-1">
-                        <rs type="work" key="A021208">Automobil</rs>
-                    </anchor> geschrieben haben, war <hi rend="underline" n="1">sehr</hi> gut.</p>
-            <p>
-                    <date>3 VII 02</date>.</p>
+            <p>Das was Sie über’n <anchor type="commentary" xml:id="KL201-1" ><rs type="work" key="A021208">Automobil</rs></anchor> geschrieben haben, war <hi rend="underline" n="1">sehr</hi> gut.</p>
+            <p><date>3 VII 02</date>.</p>
             <closer>Viele Grüße<lb/>
                <signed>Hugo</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <p>
-                    <handShift scribe="A002001"/>Ich auch</p>
-            <closer>
-                    <signed>Arthur.</signed>
+            <p><handShift scribe="A002001"/>Ich auch</p>
+            <closer><signed>Arthur.</signed>
             </closer>
      
          </div>

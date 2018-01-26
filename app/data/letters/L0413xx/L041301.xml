@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041301">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -88,11 +87,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -110,26 +105,17 @@
             <address>
                <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">XVIII Spöttelgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000268">XVIII Spöttelgasse 7</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </addrLine>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
                      <placeName key="A000663">
-                        <settlement>Venezia</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>4. 7. 06</date>
-                        <lb/>
-                  <placeName key="A000506">Casa <rs type="person" key="A002718">Petrarca</rs>
-                        </placeName>
+                        <settlement>Venezia</settlement></placeName><space unit="chars" quantity="1"/><date>4. 7. 06</date><lb/>
+                  <placeName key="A000506">Casa <rs type="person" key="A002718">Petrarca</rs></placeName>
                </dateline>
             </opener>
             <p>Dank schön, <salute>lieber Artur. </salute>Dein Brief hat mir eine große Freude gemacht, und Lust,
@@ -138,10 +124,7 @@
          zwei Tage in Bleiwasser gelegt werden mußten. – Grüß Frau <persName key="A002038">Olga</persName> herzlichst und 
          laßt es Euch gut gehen und schreib Deine
          Adresse</p>
-            <closer>Deinem alten<lb/>
-                    <signed>Hermann<space unit="chars" quantity="1"/>
-                        <rs type="work" key="A020047">Faun</rs>
-                    </signed>
+            <closer>Deinem alten<lb/><signed>Hermann<space unit="chars" quantity="1"/><rs type="work" key="A020047">Faun</rs></signed>
             </closer>
          </div>
       </body>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041305">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000368">Berlin</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000368">Berlin</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19070212" n="01">12. 2. 1907</date>
                </dateSender>
@@ -77,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -98,9 +89,7 @@
             <opener>
                <dateline rend="right">
                  <placeName key="A000664">Berlin NW 6 Marienstr 18</placeName>
-                  <lb/>
-                        <date>12. 2. 07</date>
-                    </dateline>
+                  <lb/><date>12. 2. 07</date></dateline>
                <salute rend="center">Lieber Artur!</salute>
             </opener>
             <p>Es ist möglich, daß es mir gelingt, bei <persName key="A002078">Reinhardt</persName> 
@@ -108,12 +97,9 @@
         <persName key="A002091">Pagay</persName>!). Ich arbeite sehr stark daran und dränge, es gleich 
         nach <workName key="A020048">Hedda Gabler</workName> zu machen. Sicher ist es noch gar nicht, 
         Du darfst auch noch zu keinem Menschen was sagen, ich möchte aber für alle Fälle raschestens 
-        ein Buch haben, um mir meine <anchor type="commentary" xml:id="LL305-1">Inscenierung</anchor> ruhiger zu überlegen, als es später geschehen kann.</p>
+        ein Buch haben, um mir meine <anchor type="commentary" xml:id="LL305-1" >Inscenierung</anchor> ruhiger zu überlegen, als es später geschehen kann.</p>
             <closer>In größter Eile<lb/>mir vielen Grüßen an Deine
-               <rs type="person" key="A002038">Frau</rs>
-                    <lb/>herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+               <rs type="person" key="A002038">Frau</rs><lb/>herzlichst<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041537">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,11 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19301031" n="1">31/10</date> Telegr.
-            <placeName key="A000691">Amerika</placeName>, vom Theater, <persName key="A003548">Schildkraut</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020058">Anatol</workName> – – Einladung freie Fahrt, einen
+            <p><date when="19301031" n="1">31/10</date> Telegr.
+            <placeName key="A000691">Amerika</placeName>, vom Theater, <persName key="A003548">Schildkraut</persName><space unit="chars" quantity="1"/><workName key="A020058">Anatol</workName> – – Einladung freie Fahrt, einen
           Monat freien Aufenthalt.– Denke nicht daran.–</p>
        
             <p>R. L. Behandlung.–</p>
@@ -92,18 +84,10 @@
        
             <p>– bei <persName key="A002063">Julius</persName>’ zu Tisch.–</p>
        
-            <p output="true">Um 4 kommt <persName key="A003068">Suz.</persName>, liest mir den 3. Theil des <anchor type="commentary" xml:id="KD537-2">
-                        <rs type="work" key="A020450">Romans</rs>
-                    </anchor> vor; allerlei darüber gesprochen <c rendition="#dots" n="3" place="center"/> Sie fährt ins
-            <placeName key="A000721">Akademieth.</placeName> (<anchor type="commentary" xml:id="KD537-1">
-                        <workName key="A020159">Josefine</workName>
-                    </anchor>) – ich mit
-            <persName key="A002891">C. P.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000785">Ufa
-            Kino</placeName> »<anchor type="commentary" xml:id="KD537-3">
-                        <workName key="A021058 A021059">Sahara</workName>
-                    </anchor>«film und andres.– In die
+            <p >Um 4 kommt <persName key="A003068">Suz.</persName>, liest mir den 3. Theil des <anchor type="commentary" xml:id="KD537-2" ><rs type="work" key="A020450">Romans</rs></anchor> vor; allerlei darüber gesprochen <c rendition="#dots" n="3" place="center"/> Sie fährt ins
+            <placeName key="A000721">Akademieth.</placeName> (<anchor type="commentary" xml:id="KD537-1" ><workName key="A020159">Josefine</workName></anchor>) – ich mit
+            <persName key="A002891">C. P.</persName><space unit="chars" quantity="1"/><placeName key="A000785">Ufa
+            Kino</placeName> »<anchor type="commentary" xml:id="KD537-3" ><workName key="A021058 A021059">Sahara</workName></anchor>«film und andres.– In die
             »<placeName key="A000906">Linde</placeName>«.</p>
          </div> 
       </body>

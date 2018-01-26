@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041235">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19010220" n="01">20. 2. 1901</date>
                </dateSender>
@@ -70,21 +65,15 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler mit Jahreszahl datiert:
-                           »<quote>
-                                        <date>901.</date>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »<placeName key="A000884">Redaktion des <orgName key="A080148">Neuen Wiener Tagblatt</orgName></placeName> / <placeName key="A000910">Wien, I., Rothenthurmstrasse, Steyrerhof</placeName>. / Telegramm-Adresse: Tagblatt, Steyrerhof, Wien. – Telephon Nr. 384. Staats-Telephon Nr. 36.«, von Schnitzler mit Jahreszahl datiert:
+                           »<quote><date>901.</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -99,29 +88,21 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>20. Febr.</date>
-                    </dateline>
+               <dateline rend="right"><date>20. Febr.</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Ich habe, in einer zu meinem <persName key="A002037">Kraus</persName>-Proceß
                gehörenden Angelegenheit, <hi rend="underline" n="1">dringendst</hi> mit Dir, so bald
                als irgend möglich, <subst>
-                  <del rend="overwritten">
-                            <unclear>mi</unclear>
+                  <del rend="overwritten"><unclear>mi</unclear>
                   </del>
                   <add place="inline">zu</add>
                </subst> sprechen und bitte Dich deshalb, mich morgen, so bald Du aufgestanden bist,
-               telephonisch (an <persName key="A002032">Bukovics</persName>, <anchor type="commentary" xml:id="KL235-1">
-                        <placeName key="A000365">Ober St. Veiter</placeName> Wohnung</anchor>) wissen zu lassen, wann und wo ich Dich
-               treffen kann. Ich bin auf Dein Aviso parat, sofort <anchor type="commentary" xml:id="KL235-2">nach <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName> zu fahren</anchor> u. eine Stunde später überall zu sein, wo es Dir paßt. Nur
+               telephonisch (an <persName key="A002032">Bukovics</persName>, <anchor type="commentary" xml:id="KL235-1" ><placeName key="A000365">Ober St. Veiter</placeName> Wohnung</anchor>) wissen zu lassen, wann und wo ich Dich
+               treffen kann. Ich bin auf Dein Aviso parat, sofort <anchor type="commentary" xml:id="KL235-2" >nach <placeName key="A000250"><settlement>Wien</settlement></placeName> zu fahren</anchor> u. eine Stunde später überall zu sein, wo es Dir paßt. Nur
                bitte, bestimmt vor vier<pb/> Uhr und, wenn es irgendwie früher angeht, je früher,
                desto besser.</p>
-            <closer>Verzeih die Störung<lb/>Deinem<lb/>herzlich grüßenden<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Verzeih die Störung<lb/>Deinem<lb/>herzlich grüßenden<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

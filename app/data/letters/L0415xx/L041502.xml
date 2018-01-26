@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041502">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>  
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18940402" n="1">[2. 4. 1894?]</date>
                     </dateSender>
@@ -91,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
             <change who="KI MAM" when="20160818">Kollationiert</change>
@@ -116,15 +109,11 @@
                 <p>Bitte sehr, senden Sie diesen Brief gleich<pb/> an <persName key="A002002">Hermann Bahr</persName>,
                     welcher hiedurch unter einem gebeten wird, sich um 11 am Donnerstag bei Ihnen
                     einzufinden, wenn er es nicht vorzieht, um <time>11 Uhr 30</time> vor dem Hause
-                    <placeName key="A000831">
-                        <anchor type="commentary" xml:id="KL502-1">Untere Augartenstraße 28</anchor>
+                    <placeName key="A000831"><anchor type="commentary" xml:id="KL502-1">Untere Augartenstraße 28</anchor>
                </placeName> auf mich resp. uns zu
-                    warten.<pb/> Beifolgend Statuten, von denen 1 Exemplar an <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName>;
+                    warten.<pb/> Beifolgend Statuten, von denen 1 Exemplar an <persName key="A002002"><hi rend="latintype">Bahr</hi></persName>;
                     in diesem hab ich den § 15 unterstrichen. Für Sie den § 5. –</p>
-                <closer>Herzliche Grüße.<lb/>
-                    <signed>ArthurSch</signed>
+                <closer>Herzliche Grüße.<lb/><signed>ArthurSch</signed>
                 </closer>
             </div>
         </body>

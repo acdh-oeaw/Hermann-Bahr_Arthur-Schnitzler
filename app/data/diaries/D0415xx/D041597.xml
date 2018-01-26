@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041597">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,11 +60,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160816">Angelegt</change>
             <change who="KI MAM" when="20160816">Kollationiert</change>
@@ -74,13 +69,14 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="19220507" n="01">7.</date> K. – Schön. – An <persName key="A002080">Anna</persName>. – Mit <persName key="A002162">Buschbeck</persName> und
-                        <persName key="A002374">Zweig</persName>
-                    <space unit="chars" quantity="1"/>
-                    <geogName type="mountain">Gaisberg</geogName>, <geogName type="mountain">Oberjudenberg</geogName>, <geogName type="place">Zistel</geogName>, wo wir
+            <p><date when="19220507" n="01">7.</date> K. – Schön. – An <persName key="A002080"
+                        >Anna</persName>. – Mit <persName key="A002162">Buschbeck</persName> und
+                        <persName key="A002374">Zweig</persName><space unit="chars" quantity="1"
+                        /><geogName type="mountain">Gaisberg</geogName>, <geogName type="mountain"
+                        >Oberjudenberg</geogName>, <geogName type="place">Zistel</geogName>, wo wir
                     essen und heim. – »<workName key="A020169">Wie es euch gefällt</workName>.« – An
-                        <orgName key="A080099">Neue Freie</orgName>, Entschuldigung, <persName key="A002001">Schnitzler</persName>feuilleton nicht schreiben zu können. –
+                        <orgName key="A080099">Neue Freie</orgName>, Entschuldigung, <persName
+                        key="A002001">Schnitzler</persName>feuilleton nicht schreiben zu können. –
                         <placeName key="A000432">Nonnberg</placeName>andacht.</p>
         </div>
       </body>

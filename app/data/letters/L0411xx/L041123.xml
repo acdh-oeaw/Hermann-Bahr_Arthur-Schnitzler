@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041123">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -68,13 +67,12 @@
                         <idno>HS AM 60143 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf: <placeName key="A000350">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>).</p>
+                        <p>eh. Karte, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="A000350">Wien XVIII. Sternwartestrasse 71</placeName>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19120525">25. 5. 1912</date>
                   <respStmt>Abschrift</respStmt>
@@ -87,35 +85,25 @@
                   <biblScope unit="pp">109</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60143Ba"/>
-     <graphic url="HS_AM60143Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60143Ba"/>
+     <graphic url="HS_AM60143Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>25. 5. 912</date>
-                    </dateline>
+               <dateline rend="right"><date>25. 5. 912</date></dateline>
             </opener>
-            <p>
-                    <salute>mein lieber Hermann, </salute>sei herzlichst bedankt für dein prachtvolles <rs type="work" key="A021308" cert="low">Bild</rs>; es prangt schon an der
-               Wand und leuchtet <hyphenation alt="apo\-sto\-lisch-freund\-schaft\-lich">apostolisch-freundschaftlich</hyphenation> durch den<pb/> Raum. Bleibe mir
+            <p><salute>mein lieber Hermann, </salute>sei herzlichst bedankt für dein prachtvolles <rs type="work" key="A021308" cert="low">Bild</rs>; es prangt schon an der
+               Wand und leuchtet apostolisch-freundschaftlich durch den<pb/> Raum. Bleibe mir
           was du mir bis heute warst, und auf <hi rend="underline" n="1">lange</hi>, wie ich dir! Die
           besten und schönsten Grüße von Haus zu Haus.</p>
             <closer>Dein<lb/>

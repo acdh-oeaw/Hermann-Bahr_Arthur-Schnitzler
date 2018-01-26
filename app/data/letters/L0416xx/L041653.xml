@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041653">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000230">Salzburg</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000230">Salzburg</placeName></placeAddressee>
                     <dateSender>
                         <date when="19190919" n="01">19. 9. 1919</date>
                     </dateSender>
@@ -80,11 +77,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161013">Angelegt aus Abschrift</change>
             <change who="KI MAM" when="20161103">Kollationiert am Faksimile</change>
@@ -94,99 +87,60 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine>Dr. Arthur Schnitzler, <placeName key="A000268">Wien XVIII</placeName>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="A000350">Sternwartest 71</placeName>.</addrLine>
+                    <addrLine>Dr. Arthur Schnitzler, <placeName key="A000268">Wien XVIII</placeName><space unit="chars" quantity="1"/><placeName key="A000350">Sternwartest 71</placeName>.</addrLine>
                 </address>
                 <address>
                     <addrLine>Frau Olga Schnitzler</addrLine>
-                    <addrLine>
-                        <placeName key="A000230">
-                            <settlement>
-                                <hi rend="underline" n="1">Salzburg</hi>
-                            </settlement>
-                        </placeName>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="A000431">Hotel Bris<damage agent="paperloss">tol</damage>
-                        </placeName>
-                    </addrLine>
+                    <addrLine><placeName key="A000230"><settlement><hi rend="underline" n="1">Salzburg</hi></settlement></placeName></addrLine>
+                    <addrLine><placeName key="A000431">Hotel Bris<damage agent="paperloss">tol</damage></placeName></addrLine>
                 </address>
             </div>
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>19. 9. 1919</date>
-                        <lb/>Freitag Nm</dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>19. 9. 1919</date><lb/>Freitag Nm</dateline>
                     </opener>
-                <p>
-                    <salute>liebe, </salute>zuerst will ich dir deine mediz. Fragen beantworten –
+                <p><salute>liebe, </salute>zuerst will ich dir deine mediz. Fragen beantworten –
                     zu größerer Sicherheit hab ich eben den <rs type="person" key="A002522" subtype="local">Mediz.Rath</rs> telef.
                     gefragt: also rohes Obst lieber nicht mit den Tropfen zugleich; – höchstens ein
                     Pfirsich oder weiche Birne; Compot natürlich soviel’s beliebt. Aussetzen der
-                    Tropfen <hi rend="underline" n="1">nicht</hi> notwendig. – <anchor type="label" xml:id="LL653-1">Was du mir von der
+                    Tropfen <hi rend="underline" n="1">nicht</hi> notwendig. – <anchor type="label" xml:id="LL653-1" >Was du mir von der
                         <persName key="A002080">Mildenburg</persName> erzählst, war mir sehr interessant</anchor>, und ich
                     bin schon sehr gespannt, was sie zu deinem Gesang äußern wird. Ob sie auch in
-                    deinem Concert war? – </p>
-                <p>Gestern war ich nach langer Zeit wieder einmal bei <persName key="A002015">Popper</persName>. Er hat <anchor type="commentary" xml:id="KL653-3">Verlegeraerger</anchor> und leidet unter der Epoche mehr als je. Das
+                    deinem Concert war? – </p><p>Gestern war ich nach langer Zeit wieder einmal bei <persName key="A002015">Popper</persName>. Er hat <anchor type="commentary" xml:id="KL653-3" >Verlegeraerger</anchor> und leidet unter der Epoche mehr als je. Das
                     bolschewistische Säuglingspack kommt noch immer schaarenweise
                     und er ist nach wie vor entsetzt über das Maß von Bildungsmangel, Unlogik und
                     Bösheit in diesen jugendlichen Schädeln. Doch entschließt er sich nicht zu
                     oeffentlicher Abwehr; – er traut sich die schriftstellerische Leistung<add place="above">sfähigkeit</add>
                         nicht mehr zu; – seit ¾  Jahren fühlt er, der Zweiachtzigjährige, sich alt
                     werden.– –</p>
-                <p>Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <persName key="A002885">Fritz</persName> u
+                <p >Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <persName key="A002885">Fritz</persName> u
                         <persName key="A002886">Trude Z.</persName> ein, – <rs type="person" key="A002154">Hofrätin</rs> ist in
-                            <placeName key="A001118">
-                        <settlement>Turin</settlement>
-                    </placeName> jedenfalls schon
+                            <placeName key="A001118"><settlement>Turin</settlement></placeName> jedenfalls schon
                     eingetroffen. Um 6 erschien <persName key="A004281">Fried</persName>; er und
                         <persName key="A002035">Salten</persName> nachtmahlten bei mir; – nachher kamen
-                        <persName key="A002088">Leo</persName>, Frau<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002740">Lorle Tressler</persName> (nach
+                        <persName key="A002088">Leo</persName>, Frau<pb/><space unit="chars" quantity="1"/><persName key="A002740">Lorle Tressler</persName> (nach
                     telef. Verständg zwischen ihr und <persName key="A002035">S.</persName>) – und
                         <persName key="A002923">Unruh</persName>. (Frau <persName key="A003624">E.</persName> hatte erfahren,
-                    dss <persName key="A002035">S.</persName> bei mir nachtmahlt.<supplied>)</supplied>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002923">U.</persName> war früh, nach 5tägiger Reise eingetroffen; – sah sehr
+                    dss <persName key="A002035">S.</persName> bei mir nachtmahlt.<supplied>)</supplied><space unit="chars" quantity="1"/><persName key="A002923">U.</persName> war früh, nach 5tägiger Reise eingetroffen; – sah sehr
                     »Wandersmann« aus; – gebräunt, massig, touristisch angethan; höchst
                     durchgearbeitetes Gesicht, wie nach dem Marmor verlangend, kaum mehr
                     jünglingshaft, fast hart, gehetzt aber beherrscht; – in der Gesamterscheinung
                     einleuchtend aber nicht einfach erfreulich. Sehr erfüllt von Arbeit, aus der er
                     kommt und in die er geht; – seine Gefühle von Sendung und <add place="above">von</add> Carrière 
-                    <anchor type="textConst" xml:id="TL653-1">
-                        <del rend="strikethrough">
-                            <gap reason="illegible" quantity="20" unit="chars"/>
-                        </del>
-                    </anchor>
+                    <anchor type="textConst" xml:id="TL653-1" ><del rend="strikethrough"><gap reason="illegible" quantity="20" unit="chars"/></del></anchor>
                     durcheinandergewirrt und stetig wach. Frau <persName key="A002740">Tr.</persName> goß sich auf
-                    ein Streck<anchor type="commentary" xml:id="KL653-1">fauteul</anchor> (die Scene spielt auf der Veranda) und
+                    ein Streck<anchor type="commentary" xml:id="KL653-1" >fauteul</anchor> (die Scene spielt auf der Veranda) und
                     war bildschön; er (seinerseits) tritt täglich in einem Varieté auf, wohnt daher
                     im <placeName key="A000405">Bristol</placeName> – und nicht im <placeName key="A000734">Cottage</placeName>
-                    (wo vor ein paar Tagen kurz nach zehn ein <anchor type="commentary" xml:id="KL653-2">Arzt</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="textConst" xml:id="TL653-2">
-                        <del rend="strikethrough">
-                            <gap reason="illegible" quantity="10" unit="chars"/>
-                        </del>
-                    </anchor> auf der Straße
+                    (wo vor ein paar Tagen kurz nach zehn ein <anchor type="commentary" xml:id="KL653-2" >Arzt</anchor><space unit="chars" quantity="1"/><anchor type="textConst" xml:id="TL653-2" ><del rend="strikethrough"><gap reason="illegible" quantity="10" unit="chars"/></del></anchor> auf der Straße
                     (irgendwo in unsrer Nähe, erzählt <persName key="A002088">Leo</persName>) beraubt wurde. Die
                     Dunkelheit <add place="above">in unsrer Gegend</add> ist übrigens wirklich unwahrscheinlich) –</p>
-                <p>Heute Vormittag <rs type="work" key="A021205">General Probe</rs>. Vor dem <rs type="place" key="A000214">Theater</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002027">Julius Bauer</persName> und Ehepaar
-                    <persName key="A003624 A002869">E.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002027">Bauer</persName> war aus
-                    <placeName key="A000413">
-                        <settlement>Ischl</settlement>
-                    </placeName> per Auto
-                    hergefahren, mit irgd einem Großindustriellen.<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <supplied>(</supplied>Kosten einer solchen Fahrt zehntausend Kronen.) Frau
+                <p>Heute Vormittag <rs type="work" key="A021205">General Probe</rs>. Vor dem <rs
+                        type="place" key="A000214">Theater</rs><space unit="chars" quantity="1"/><persName key="A002027">Julius Bauer</persName> und Ehepaar
+                    <persName key="A003624 A002869">E.</persName><space unit="chars" quantity="1"/><persName key="A002027">Bauer</persName> war aus
+                    <placeName key="A000413"><settlement>Ischl</settlement></placeName> per Auto
+                    hergefahren, mit irgd einem Großindustriellen.<pb/><space unit="chars" quantity="1"/><supplied>(</supplied>Kosten einer solchen Fahrt zehntausend Kronen.) Frau
                     <persName key="A003624">E.</persName> nahm mich auf die Seite – <persName key="A002923">Unruh</persName>
                     habe ihr erzählt – <persName key="A002035">S.</persName> sei gestern Abend bei mir sonderbar
                     kühl zu ihm gewesen! – ich erklärte, er habe seine Wärme für Frau
@@ -194,17 +148,14 @@
                     <persName key="A003624">E.</persName> noch nicht – denn auch <persName key="A002923">Marco
                         Brociner</persName>, man denke, habe sich über »die Tragoedie« nicht
                     durchaus zustimmend <subst>
-                        <del rend="overwritten">
-                            <unclear>an</unclear>
-                        </del>
+                        <del rend="overwritten"><unclear>an</unclear></del>
                         <add place="inline">aus</add>
-                    </subst>gesprochen <c rendition="#dots" n="3" place="center"/> u. s. w. – Auf deinem Platz saß Frau
-                        <persName key="A002729">Alma</persName>, war also meine Nachbarin; der <rs type="person" key="A004316">Kleinen</rs> gehts schon recht gut – sie werden nun eine Weile in der
+                    </subst>gesprochen <c rendition="#dots" n="3" place="center"/> u.&#160;s.&#160;w. – Auf deinem Platz saß Frau
+                        <persName key="A002729">Alma</persName>, war also meine Nachbarin; der <rs type="person" key="A004316"
+                        >Kleinen</rs> gehts schon recht gut – sie werden nun eine Weile in der
                         <placeName key="A000996">Elisabethstraße</placeName> wohnen – <hi rend="underline" n="1">ganz ohne</hi>
                     Bedienung; <persName key="A002729">Alma</persName> selbst wird das Essen aus dem Gasthaus
-                    holen (?) – Dann wieder auf den <placeName key="A001008">
-                        <geogName type="mountain">Kreuzberg</geogName>
-                    </placeName>, und ich solle zu ihr kommen. Worauf
+                    holen (?) – Dann wieder auf den <placeName key="A001008"><geogName type="mountain">Kreuzberg</geogName></placeName>, und ich solle zu ihr kommen. Worauf
                     der Vorhang aufging. – Außer der <persName key="A002102">Bleibtreu</persName> mäßige oder
                     schwache Darstellung. <persName key="A002158">Schott</persName> anfangs sehr gut, dann
                     eintönig; der kleine <persName key="A004111">Thimig</persName> unmöglich, fast lächerlich; die
@@ -214,9 +165,7 @@
                     anderseits im realistischen. Daß diese Tragödie von einem Hauch von Größe umweht
                     wird – ist zweifellos – als Kunstwerk ist sie nicht wohlgerathen: keine Klarheit
                     der Linie, viel Praetension, mancher hysterische Zug. Die Vision fast immer
-                    schon oder bedeutend; das gedankliche <del rend="strikethrough">
-                        <gap reason="illegible" unit="chars" quantity="7"/>
-                    </del> oft nebelhaft <add place="below">und wirr</add> der Ausdruck,
+                    schon oder bedeutend; das gedankliche <del rend="strikethrough"><gap reason="illegible" unit="chars" quantity="7"/></del> oft nebelhaft <add place="below">und wirr</add> der Ausdruck,
                     der Vers zuweilen mehr künstlich gesteigert als von Seelenkraft <add place="above">gehoben</add>. – Ich
                     sprach nachher niemanden als den Grafen <persName key="A002883">Mensdorff</persName>; – da ich
                     gleich von den <persName key="A003624 A002869">E.s</persName> beschlagnahmt wurde;–
@@ -228,23 +177,17 @@
                         <add place="inline">es St</add>
                     </subst>ücks – das ja vielleicht, in Verbindg mit
                     den zwei nächsten dazugehörigen eine <rs type="work" key="A021192" subtype="local-short">Komoedie</rs> u einem <rs type="work" key="A021191" subtype="local-short">Schauspiel</rs> sich dem
-                    Verständnis besser erschließen wird.<pb/>
-                </p>
+                    Verständnis besser erschließen wird.<pb/></p>
             </div>
                 <div n="2" type="writingSession">
-                    <hyphenation alt="\pagebreak "/>
-                <p rend="right">am <date when="19190920">20. 9. morgens.</date>
-                </p>
+                    <p rend="right">am <date when="19190920">20. 9. morgens.</date></p>
                     <p>Daß von morgen an hier die Elektrische nicht verkehrt, hast du wohl gelesen;
                     man nimmt zwar an, diese Calamität werde nicht allzulange dauern, – aber der
                     Auftakt für die »Saison« ist symptomatisch. Auch geschäftlich läßt sie sich
-                    nichts weniger als hoffnungsvoll an<c rendition="#dots" n="2"/>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002873">Wucki</persName>
+                    nichts weniger als hoffnungsvoll an<c rendition="#dots" n="2"/><space unit="chars" quantity="1"/><persName key="A002873">Wucki</persName>
                     behauptet, dir schon vor Wochen ausführlich geschrieben zu haben. Sie schrieb
-                    dir eben wieder. Heute Abend <persName key="A002086">Mahler</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A021119">Neunte</workName>. Nach drei wunderbaren fast
+                    dir eben wieder. Heute Abend <persName key="A002086">Mahler</persName><space unit="chars"
+                        quantity="1"/><workName key="A021119">Neunte</workName>. Nach drei wunderbaren fast
                     wolkenlosen Wochen regnet es zum ersten Ma<subst>
                         <del rend="overwritten">hl</del>
                         <add place="inline">l</add>
@@ -253,8 +196,7 @@
                         dich. Sie befinden sich vortrefflich. (<persName key="A002083">Heini</persName> war gestern
                     auch in der Generalprobe; (– Sitz von <persName key="A003081">Nemec</persName>) nachdem er schon ein paar Proben vom
                     Schnürboden aus gesehen.) Leb wohl und laß es die weiter gut ergehn.<space unit="chars" quantity="5"/>Herzlichst</p>
-                    <closer>
-                    <signed>Arthur</signed>
+                    <closer><signed>Arthur</signed>
                     </closer>
                 </div>
                 

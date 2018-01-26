@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041099">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -71,14 +70,12 @@
                      </msIdentifier>
                      <physDesc>
                         <p>hs. Telegramm, Lateinschrift, Bleistift; »<quote>aufgegeben am <date>10/I 1907</date> um <time>9 Uhr 50</time>
-            Vormittag</quote>«, »<quote>Aufgenommen am <date>10/1907 I</date> um <time>11 Uhr 30</time>
-                                    </quote>«</p>
+            Vormittag</quote>«, »<quote>Aufgenommen am <date>10/1907 I</date> um <time>11 Uhr 30</time></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19070110">10. 1. 1907</date>
                </analytic>
@@ -90,40 +87,30 @@
                   <biblScope unit="pp">96</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23381Ba"/>     </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23381Ba"/>     </facsimile>
   <text type="telegram">
       <body>
          <div type="address">
             <address>
                <addrLine>Hermann Bahr</addrLine>
                <addrLine>
-                  <placeName key="A000365">Obersanktveit</placeName>
-                    </addrLine>
+                  <placeName key="A000365">Obersanktveit</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000420">Veitlissengasse Wien</placeName>
-                    </addrLine>
+                  <placeName key="A000420">Veitlissengasse Wien</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <p>Kann ich dich Sonntag Vormittag oder anderem Vormittag besuchen? herzlichst</p>
-            <closer>
-                    <signed>Arthur</signed>
-                </closer>
+            <closer><signed>Arthur</signed></closer>
          </div>
       </body>
   </text>

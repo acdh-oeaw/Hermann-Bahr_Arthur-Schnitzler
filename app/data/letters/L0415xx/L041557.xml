@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041557">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000389">Semmering</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000389">Semmering</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19110712" n="01">12. 7. 1911</date>
                     </dateSender>
@@ -76,11 +71,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160414">Angelegt</change>
         </revisionDesc>
@@ -91,18 +82,13 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                   <placeName key="A000389">
-                            <settlement>Semmering</settlement>
-                        </placeName>, <date>12. Juli 11</date>
-                    </dateline>
+                   <placeName key="A000389"><settlement>Semmering</settlement></placeName>, <date>12. Juli 11</date></dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
                 <p>ich sollte mal <hi rend="italic">
                   <workName key="A020004">Die Weber</workName>
                </hi> für
-                            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> freigeben und
+                            <placeName key="A000250"><settlement>Wien</settlement></placeName> freigeben und
                     besprach das mit <persName key="A002071">Rittner</persName>; ich betonte die ideellen,
                     ästhetischen und ethischen Seiten dieses Problems, er aber sagte als unentwegter
                     Realist nur: wozu das? wenn man <hi rend="italic">
@@ -118,7 +104,7 @@
                     jemand haben Sie sich ja immer gewehrt! (<persName key="A002393">H.</persName>
                     als Dramatiker sehr schwach, nach meiner auf Auto-Lektüre aufgebauten Kenntnis.)
                     Auch wissen Sie mehr als ich vom nächsten Spieljahr des <placeName key="A000218">Lessingtheaters</placeName>, wenn Sie die Repertoirebildung, insbesondere
-                    nach Neujahr, schon übersehen. <anchor output="true" xml:id="OL557-1">Ich denke mir, daß sich da sehr wohl ein Platz
+                    nach Neujahr, schon übersehen. <anchor xml:id="OL557-1">Ich denke mir, daß sich da sehr wohl ein Platz
                     für die moralfreie <rs type="work" key="A020056">Dame</rs> finden wird, sei es
                     mit alten oder neuen Einaktern von Ihnen oder in einer anderen Kombination.
                     (Auch eine Verbindung mit <persName key="A002002">Bahrs</persName> zu kürzendem <hi rend="italic">
@@ -129,9 +115,8 @@
                      <workName key="A020056">Mizzi</workName>
                   </hi> hat, will
                     sie gebrauchen.</anchor> – Wir werden Sie voraussichtlich am Montag, dem 24. um ein
-                    Mittagmahl bitten (1 ½ Uhr?).</p>
-                <closer>Herzlich <signed>O. B.</signed>
-                </closer>
+                    Mittagmahl bitten (1&#160;½ Uhr?).</p>
+                <closer>Herzlich <signed>O. B.</signed></closer>
                 
             </div>
         </body>

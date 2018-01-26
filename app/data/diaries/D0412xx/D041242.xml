@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041242">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,20 +66,12 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19041012" n="1">12/10</date> Vm. Schneider, Einkäufe. Bei <persName key="A002581">Rosa Hochsinger</persName> über Besetzung meiner Stücke etc.– Sie
+            <p><date when="19041012" n="1">12/10</date> Vm. Schneider, Einkäufe. Bei <persName key="A002581">Rosa Hochsinger</persName> über Besetzung meiner Stücke etc.– Sie
         sprach manierirt von der Vergangenheit (die so harmlos war als möglich) und zeigte
-        mir u. a. ein Gedicht, das ich ihr s. Z. 1887 aus <placeName key="A001121">
-                        <settlement>Rüdesheim</settlement>
-                    </placeName> geschickt – und das ich nie für meines erkannt hätte.–</p>
+        mir u. a. ein Gedicht, das ich ihr s. Z. 1887 aus <placeName key="A001121"><settlement>Rüdesheim</settlement></placeName> geschickt – und das ich nie für meines erkannt hätte.–</p>
             <p>Nm. <workName key="A020042">N. E.</workName>– Herr <persName key="A002761">Matern</persName>
         bei mir; wegen <workName key="A020083">Eins. Weg</workName>.–</p>
-            <p>
-                    <anchor type="commentary" xml:id="KD242-1">
-                        <placeName key="A000220">Volksth.</placeName>, <workName key="A020364">Candida</workName>
-                    </anchor> – mit <persName key="A002038">O.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000244">Riedhof</placeName>. Später <persName key="A002064">Trebitsch</persName>. <persName key="A002605">Feld</persName> im 
+            <p><anchor type="commentary" xml:id="KD242-1" ><placeName key="A000220">Volksth.</placeName>, <workName key="A020364">Candida</workName></anchor> – mit <persName key="A002038">O.</persName><space unit="chars" quantity="1"/><placeName key="A000244">Riedhof</placeName>. Später <persName key="A002064">Trebitsch</persName>. <persName key="A002605">Feld</persName> im 
       Theater; <persName key="A002048">Kainz</persName> abgeneigt die 3 neuen Rollen zu studieren.– <persName key="A002064">Trebitsch</persName>: 
       <persName key="A002002">Bahrs</persName> Absicht, den <rs key="A020083" type="work">Julian Fichtner</rs> zu spielen.</p>
          </div> 

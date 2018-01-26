@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041543">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000368">[Berlin]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000368">[Berlin]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19040808" n="1">8. 8. 1904</date>
                     </dateSender>
@@ -82,11 +79,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160413">Angelegt</change>
         </revisionDesc>
@@ -97,10 +90,7 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>8. August 04</date>
-                    </dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>8. August 04</date></dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
                 <p>Sie kennen ein kleines Stück von mir, <hi rend="italic">
@@ -133,10 +123,9 @@
                 <p>Wie wird Ihnen unter dem unbegreiflichen blauen Himmel dieses seltsamen Jahres?
                     Ich bin im Grunde sehr froh darüber, in manchen Stunden beinahe beglückt, und
                     das Wort Sommer beginnt einen Sinn zu bekommen, der hierzulande schon vergessen
-                    war. <anchor output="true" xml:id="OL543-1">Gestern waren <rs type="person" key="A002038">wir</rs> mit <persName key="A002002">Bahr</persName> zusammen, der vergnügt und
+                    war. <anchor xml:id="OL543-1">Gestern waren <rs type="person" key="A002038">wir</rs> mit <persName key="A002002">Bahr</persName> zusammen, der vergnügt und
                     recht wohl scheint.</anchor> Viele Grüße an <persName key="A002202">Hauptmann</persName>.</p>
-                <closer>Herzlichst Ihr <signed>A. S.</signed>
-                </closer>
+                <closer>Herzlichst Ihr <signed>A. S.</signed></closer>
             </div>
         </body>
     </text>

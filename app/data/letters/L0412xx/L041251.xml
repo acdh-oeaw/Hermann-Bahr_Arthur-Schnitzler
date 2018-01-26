@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041251">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -71,23 +70,15 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote>
-                                        <placeName key="A000415">Grand Hôtel de Rome u. du Nord</placeName> / <persName key="A003469">A. Mühling</persName> / Kgl. Hoflieferant / 
-             <placeName key="A000368">
-                                            <settlement>Berlin</settlement>
-                                        </placeName> / Fernsprecher: Amt I, No. 4438. / <placeName key="A000368">Berlin N. W.</placeName>, den ....... 190 / <placeName key="A000416">Unter den Linden 39.</placeName>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote><placeName key="A000415">Grand Hôtel de Rome u. du Nord</placeName> / <persName key="A003469">A. Mühling</persName> / Kgl. Hoflieferant / 
+             <placeName key="A000368"><settlement>Berlin</settlement></placeName> / Fernsprecher: Amt I, No. 4438. / <placeName key="A000368">Berlin N. W.</placeName>, den ....... 190 / <placeName key="A000416">Unter den Linden 39.</placeName></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -100,25 +91,16 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>15. 10</date>
-                    </dateline>
+               <dateline rend="right"><date>15. 10</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
             <p>Herzlichsten Dank! In einer Zeitung las ich: <persName key="A002192">Halm</persName> hätte 
-        als D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL251-2">
-                        <rs type="work" key="A020033">Mohn</rs>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL251-1">Deine Maske gehabt</anchor>. 
+        als D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL251-2" ><rs type="work" key="A020033">Mohn</rs></anchor><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL251-1" >Deine Maske gehabt</anchor>. 
         Wahr ist, daß er einen blonden Vollbart trug, aus lauter Angst, 
         in die Maske <persName key="A002062">Sudermanns</persName> zu gerathen. Daß es ganz albern wäre, 
         einem spöttelnden Salon-Kritiker Deine Züge
           zu geben, brauche ich Dir ja nicht erst zu sagen. Die Leut sind so blöd!</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed>
             </closer>
          </div>
       </body>

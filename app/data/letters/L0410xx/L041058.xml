@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041058">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,8 +69,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19030713">13. 7. 1903</date>
                   <respStmt>Abschrift</respStmt>
@@ -84,22 +82,16 @@
                   <biblScope unit="pp">79</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170512">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM60165Ba"/>     
      <graphic url="HS_AM60165Ba_R"/>
   </facsimile>
@@ -107,35 +99,19 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline>
-                        <date>1<damage agent="ink">
-                                <supplied>3</supplied>
-                            </damage>. 7. 903</date>.</dateline>
+               <dateline><date>1<damage agent="ink"><supplied>3</supplied></damage>. 7. 903</date>.</dateline>
             </opener>
-            <p>
-                    <salute>lieber Hermann, </salute>
-               <persName key="A002035">Salten</persName>
-                    <space unit="chars" quantity="1"/>
-                    <damage agent="hole">
-                        <supplied>ü</supplied>
-                    </damage>bermittelt mir deine freundliche Frage, ob ich
+            <p><salute>lieber Hermann, </salute>
+               <persName key="A002035">Salten</persName><space unit="chars" quantity="1"/><damage agent="hole"><supplied>ü</supplied></damage>bermittelt mir deine freundliche Frage, ob ich
           was dagegen hätte, wenn du den <workName key="A020018">Reigen</workName> öffentlich vorzulesen versuchtest. Im
-          Gegenteil, es wird<pb/> mir <damage agent="hole">
-                        <supplied>se</supplied>
-                    </damage>hr angenehm sein. Nu<damage agent="hole">
-                        <supplied>r</supplied>
-                    </damage>
+          Gegenteil, es wird<pb/> mir <damage agent="hole"><supplied>se</supplied></damage>hr angenehm sein. Nu<damage agent="hole"><supplied>r</supplied></damage>
           werde ich zum ersten Mal bedauern – dass ich der Verfasser bin – weil ich
           nemlich nicht als Zuhörer meiner eigenen Sachen unter dem Publikum sitzen kann! Auf Wiedersehen dein getreuer <signed>A. S.</signed>
           </p>
             <postscript>
-               <p>
-                        <anchor type="textConst" xml:id="TL058-1">Prächtig war dein <anchor type="commentary" xml:id="KL058-1">
-                                <workName key="A020038">Dialog</workName>
-                            </anchor> in der <orgName key="A080014">
+               <p><anchor type="textConst" xml:id="TL058-1" >Prächtig war dein <anchor type="commentary" xml:id="KL058-1" ><workName key="A020038">Dialog</workName></anchor> in der <orgName  key="A080014">
                      <hi rend="latintype">N. D. R</hi>
-                  </orgName>! –</anchor>
-                    </p>
+                  </orgName>! –</anchor></p>
             </postscript>
          </div>
       </body>

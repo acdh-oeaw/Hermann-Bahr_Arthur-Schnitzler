@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041093">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -85,8 +84,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19070520">20. 5. 1907</date>
                   
@@ -99,48 +97,36 @@
                   <biblScope unit="pp">98</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23385Ba"/>
-     <graphic url="HS_AM23385Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23385Ba"/>
+     <graphic url="HS_AM23385Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
-               <addrLine>Herrn <hi rend="latintype">Hermann Bahr,</hi>
-                    </addrLine>
+               <addrLine>Herrn <hi rend="latintype">Hermann Bahr,</hi></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <hi rend="underline" n="1">
                         <placeName key="A000365">Wien Ob St Veit</placeName>
                      </hi>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
                <addrLine>
                   <hi rend="latintype">
-                     <placeName key="A000420">Veitlissengasse</placeName>.</hi>
-                    </addrLine>
+                     <placeName key="A000420">Veitlissengasse</placeName>.</hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>20/5 907</date>
-                    </dateline>
+               <dateline rend="right"><date>20/5 907</date></dateline>
                <salute>lieber Hermann, </salute>
             </opener>
             <p>gar nichts wichtiges. Wollte dich nur wieder einmal sehen. Schreib mir, wann du wieder aus deiner
@@ -148,9 +134,8 @@
                   <del rend="strikethrough">nächster</del>
                   <add place="above">der</add>
           </subst> Woche auf ein paar Tage in die <placeName key="A000275 A001158">
-                  <settlement>Brühl</settlement>
-                    </placeName>. Du hast
-          hoffentlich deine <anchor type="commentary" xml:id="KL093-1">Meeresvilla</anchor> gefunden. <workName key="A020096">Brehm</workName> behalte natürlich so lang du
+                  <settlement>Brühl</settlement></placeName>. Du hast
+          hoffentlich deine <anchor type="commentary" xml:id="KL093-1" >Meeresvilla</anchor> gefunden. <workName key="A020096">Brehm</workName> behalte natürlich so lang du
           willst.</p>
             <closer>Von Herzen dein<lb/>
                <signed>Arthur.</signed>

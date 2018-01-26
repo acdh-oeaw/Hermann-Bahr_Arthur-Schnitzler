@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041200">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,8 +69,7 @@
                         <idno>HS AM 74896/3 BaM</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>ms. Brief mit eh. Unterschrift, gedruckter Kopf: »<quote>Heinrich Schnitzler</quote>«, mit hs. Korrektur, Unterstreichung von »<quote>für zwei [<c rendition="#dots" n="3"/>] verreist,</quote>« und Ergänzung: »<quote>
-                                        <date>Anfang April</date> nachfassen!</quote>« in Bleistift.</p>
+                        <p>ms. Brief mit eh. Unterschrift, gedruckter Kopf: »<quote>Heinrich Schnitzler</quote>«, mit hs. Korrektur, Unterstreichung von »<quote>für zwei [<c rendition="#dots" n="3"/>] verreist,</quote>« und Ergänzung: »<quote><date>Anfang April</date> nachfassen!</quote>« in Bleistift.</p>
                      </physDesc>
                   </msDesc>
                </witness>
@@ -91,11 +89,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
@@ -105,24 +99,17 @@
          <div type="address">
             <address>
                <addrLine>Frau Kammersängerin Professor</addrLine>
-               <addrLine>Anna <hi rend="spaced_out">Bahr-Mildenburg.</hi>
-                    </addrLine>
+               <addrLine>Anna <hi rend="spaced_out">Bahr-Mildenburg.</hi></addrLine>
                <addrLine>
                   <placeName key="A000658">Nederlingerstrasse 59</placeName>,</addrLine>
                <addrLine>
-                  <placeName key="A000659">
-                            <hi rend="underline" n="1">
-                                <hi rend="spaced_out">München </hi>–<hi rend="spaced_out"> Gern</hi>
-                            </hi>
-                        </placeName>.</addrLine>
+                  <placeName key="A000659"><hi rend="underline" n="1"><hi rend="spaced_out">München </hi>–<hi rend="spaced_out"> Gern</hi></hi></placeName>.</addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                    <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>5. März
+                    <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>5. März
               1936</date>.</dateline>
                <salute>Sehr verehrte gnädige Frau,</salute>
             </opener>
@@ -136,10 +123,8 @@
           Sobald meine <rs type="person" key="A002038">Mutter</rs> zurückgekehrt sein
           wird, soll die Abschrift sofort in Angriff genommen werden.–</p>
             <closer>In aufrichtiger Verehrung<lb/>Ihr sehr ergebener<lb/>
-               <signed>
-                        <handShift/>Heinrich
-          Schnitzler.</signed>
-                </closer>
+               <signed><handShift/>Heinrich
+          Schnitzler.</signed></closer>
          </div>
       </body>
   </text>

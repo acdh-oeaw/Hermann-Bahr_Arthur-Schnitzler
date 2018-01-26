@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041451">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,9 +49,7 @@
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                         
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
                     <!--<placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>-->
                     <dateSender>
                         <date when="19081126" n="1">26. 11. 1908</date>
@@ -72,7 +69,7 @@
                                 <idno>Hs-30885,133</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 3 S., gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (b)  (<ptr target="bkspoettelb"/>).</p>
+                                <p>eh. Brief, 1 Bl., 3 S., gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="A000333">Wien XVIII. Spoettelgasse 7</placeName>.« </p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -82,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">242</biblScope>
@@ -91,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="approved">
             <change who="MAM" when="20160311">Angelegt aus OCR</change>
             <change who="KI MAM" when="20170627">Kollationiert</change>
@@ -107,28 +100,20 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>2<subst>
+                    <dateline rend="right"><date>2<subst>
                         <del rend="overwritten">5</del>
                         <add place="inline">6</add>
-                    </subst>. 11. 08</date>
-                    </dateline>
+                    </subst>. 11. 08</date></dateline>
                     
                 </opener>
-                <p output="true">
-                    <salute>mein lieber Hugo, </salute> 
+                <p><salute>mein lieber Hugo, </salute> 
                gestern waren wir in
-                    <anchor type="commentary" xml:id="KL451-1">
-                        <workName key="A021034">2 × 2 = 5</workName>
-                    </anchor> (<hi rend="underline" n="1">unbedingt</hi> anzusehen, schon, u. besonders wegen
+                    <anchor type="commentary" xml:id="KL451-1" ><workName key="A021034">2 × 2 = 5</workName></anchor> (<hi rend="underline" n="1">unbedingt</hi> anzusehen, schon, u. besonders wegen
                         <persName key="A003604">Ethofer</persName>) vorgestern beim
                     <workName key="A021035">Krampus</workName>, heut gehn wir ins Tonkünstlerconcert, Samstag zum
-                        <persName key="A002272">Dohnanyi</persName>, Sonntag zum <hi rend="latintype">
-                        <persName key="A002428">Heine</persName> Abend</hi>
+                        <persName key="A002272">Dohnanyi</persName>, Sonntag zum <hi rend="latintype"><persName key="A002428">Heine</persName> Abend</hi>
                     – es gibt so verhexte Wochen; hingegen wollen wir am Montag oder Dienstag für
-                    2 Tage auf den  <placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName>, es
+                    2 Tage auf den  <placeName key="A000389"><settlement>Semmering</settlement></placeName>, es
                     wäre sehr schön, wenn Sie u <persName key="A002134">Gerty</persName> auch hinauf kämen;
                     schrei<pb/>ben Sie mir ein Wort. (Nicht unmöglich, dss auch
                         <persName key="A002267">Wassermann</persName> u <persName key="A002187">Thomas Mann</persName> (mit dem
@@ -137,16 +122,13 @@
                     freut mich, dss Sie meine Ansicht von den <persName key="A002314">Winterstein</persName>’schen
                     Gedichten theilen. Einmal hab ich schon an <persName key="A002628">Bie</persName> geschrieben u
                     ihm Gedichte von <persName key="A002314">W</persName>. geschickt, es waren aber viel
-                    schwächere als diesmal; wenn Sie glauben, so könnte man doch die <orgName key="A080014">
-                        <hi rend="latintype">N.
-                        Rdsch</hi>
-                    </orgName> noch einmal<pb/> versuchen; ein paar Zeilen von Ihnen denk
+                    schwächere als diesmal; wenn Sie glauben, so könnte man doch die <orgName  key="A080014"><hi
+                        rend="latintype">N.
+                        Rdsch</hi></orgName> noch einmal<pb/> versuchen; ein paar Zeilen von Ihnen denk
                     ich wären von allergrößtem Werth. Übrigens schreib ich auch an den Baron
                         <persName key="A002314">W.</persName>, vielleicht hat er eine andre Bitte an Sie. – Also
                     auf sehr baldiges Wiedersehen; u herzliche Grüße.</p>
-                <closer>Ihr<lb/>
-                    <signed>Arthur</signed>
-                </closer>
+                <closer>Ihr<lb/><signed>Arthur</signed></closer>
             </div>
         </body>
     </text>

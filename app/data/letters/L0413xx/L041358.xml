@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041358">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                <dateSender>
                   <date when="19000620" n="01">20. 6. 1900</date>
                </dateSender>
@@ -70,19 +65,14 @@
                         <idno>B 89 a/2</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, Lateinschrift, von Schnitzler datiert: »<quote>
-                                        <date>20/6 900</date>.</quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Bleistift, Lateinschrift, von Schnitzler datiert: »<quote><date>20/6 900</date>.</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151112">Angelegt aus Abschrift</change>
          <change who="MAM" when="20151203">Verglichen mit Foto aus CUL</change>
@@ -92,17 +82,14 @@
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>Lieber, </salute> ich war eben bei Ihnen, um Ihnen folgendes zu sagen: 
+            <p ><salute>Lieber, </salute> ich war eben bei Ihnen, um Ihnen folgendes zu sagen: 
         überlegen Sie, ob Sie nicht lieber gleich zum
       <placeName key="A000220">Volksth.</placeName> gehen sollen. In diesem Fall wäre die 
         Nachricht von der Annahme Ihres <rs type="work" key="A020019" subtype="local-short">Stückes</rs> am
       <placeName key="A000220">Volksth.</placeName> die vorläufig beste Antwort für 
         <persName key="A002055">Schlenther</persName>. Und dem <placeName key="A000220">Volksth.</placeName>
       gegenüber wären Sie jetzt in der Lage zu sagen, dass Ihnen <hi rend="underline" n="1">der 
-        Termin</hi>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">des <placeName key="A000214">Burgtheaters</placeName>
+        Termin</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">des <placeName key="A000214">Burgtheaters</placeName>
                </hi>
         nicht passt, 
       während Sie, falls Sie ein Refus von <persName key="A002055">Schlenth.</persName> provoziren, 
@@ -113,8 +100,7 @@
       was <persName key="A002055">Schlenther</persName> übrig läßt. Ganz abgesehen davon, dass <persName key="A002055">Sch.</persName> – 
         wenn er von Ihnen keine Antwort
       kriegt, und nur hört, Ihr Stück sei am <placeName key="A000220">Volksth.</placeName> – gewiß gelaufen
-               kommt. ec. ec. ec.<space unit="chars" quantity="5"/>Herzl. <signed>Salten</signed>
-                </p>
+               kommt. ec. ec. ec.<space unit="chars" quantity="5"/>Herzl. <signed>Salten</signed></p>
          </div>
       </body>
   </text>

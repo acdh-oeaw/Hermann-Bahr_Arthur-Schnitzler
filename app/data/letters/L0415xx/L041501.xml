@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041501">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18921001" n="01">1. 10. 1892</date>
                     </dateSender>
@@ -78,11 +75,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -92,16 +85,14 @@
            
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>1/X 92</date>.</dateline>
+                    <dateline rend="right"><date>1/X 92</date>.</dateline>
                     <salute>Lieber Arthur!</salute>
                 </opener>
                 <p>Haben Sie gestern <persName key="A002002">Bahr</persName> gesprochen? Er ist hier (<placeName key="A000701">Heumarkt 9</placeName>).</p>
                 <p>Möchten Sie nicht für morgen – Sonntag – Nachmittag ein Rendezvous arrangiren –
                     in der <placeName key="A000611">Ausstellung</placeName> nämlich; <persName key="A002035">Salten</persName>, <persName key="A002258">Torresani</persName>, <persName key="A002002">Bahr</persName> und wir? Ich warte bis morgen Mittag auf Ihren
                     Entschluss; vielleicht daß wir zwei zusammen hinunterfahren?</p>
-                <closer>Herzlichst<lb/>
-                    <signed>Richard</signed>
+                <closer>Herzlichst<lb/><signed>Richard</signed>
                     
                 </closer>
             </div>

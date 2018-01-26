@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041291">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,11 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Bildpostkarte, Motiv: »<quote>
-                                        <placeName key="A000660">Platz’scher Garten</placeName> / Bes. Fr. <persName key="A003482">Kneuer</persName> / Gruss aus <placeName key="A001053">
-                                            <settlement>Würzburg</settlement>
-                                        </placeName>
-                                    </quote>«, Bleistift.</p>
+                        <p>eh. Bildpostkarte, Motiv: »<quote><placeName key="A000660">Platz’scher Garten</placeName> / Bes. Fr. <persName key="A003482">Kneuer</persName> / Gruss aus <placeName key="A001053"><settlement>Würzburg</settlement></placeName></quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A001053">Wuerzburg</placeName>
                            <date when="19050803">3 Aug 05</date>
@@ -86,11 +81,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151214">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -107,24 +98,18 @@
             <address>
                <addrLine>Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000333">Spöttlgasse 7</placeName>
-                    </addrLine>
+                  <placeName key="A000333">Spöttlgasse 7</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>3. <anchor type="textConst" xml:id="TL291-1">7.</anchor> 05</date>
-                    </dateline>
+               <dateline rend="right"><date>3. <anchor type="textConst" xml:id="TL291-1" >7.</anchor> 05</date></dateline>
             </opener>
             <p>Dich u Deine liebe <rs type="person" key="A002038">Frau</rs> grüßt
         herzlichst </p>
-            <closer>
-                    <signed>HermannB.</signed>
-                </closer>
+            <closer><signed>HermannB.</signed></closer>
          </div>
       </body>
   </text>

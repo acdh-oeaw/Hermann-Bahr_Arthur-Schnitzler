@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041609">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                     <placeSender>
                         <placeName key="A000459">Venedig</placeName>
                     </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000230">[Salzburg]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000230">[Salzburg]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19130625" n="1">[Ende Juni, Anfang Juli 1913]</date>
                     </dateSender>
@@ -97,11 +94,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160614">Angelegt</change>
             <change who="KI MAM" when="20160624">Kollationiert</change>
@@ -113,45 +106,28 @@
                 <opener>
                     <salute>Lieber Bahr,</salute> 
                 </opener>
-                <p>ich wende mich in meiner Verzweiflung vertrauens<damage agent="hole">
-                        <supplied>vo</supplied>
-                    </damage>llst an Sie! Kaum ist es mir
-                    gelungen, bei <anchor type="commentary" xml:id="KL609-1">meinem <rs type="org" key="A080690">Blatte</rs>
-                    </anchor> die monatlichen 100 Kronen, die man mir im Mai
-                    endgiltig g<damage agent="hole">
-                        <supplied>e</supplied>
-                    </damage>kündigt hatte, wieder für <hi rend="underline" n="1">3</hi> Monate,
+                <p >ich wende mich in meiner Verzweiflung vertrauens<damage agent="hole"><supplied>vo</supplied></damage>llst an Sie! Kaum ist es mir
+                    gelungen, bei <anchor type="commentary" xml:id="KL609-1" >meinem <rs type="org" key="A080690">Blatte</rs></anchor> die monatlichen 100 Kronen, die man mir im Mai
+                    endgiltig g<damage agent="hole"><supplied>e</supplied></damage>kündigt hatte, wieder für <hi rend="underline" n="1">3</hi> Monate,
                     bis Ende September, zu erhalten, kommt heute, gerade in diesen herrlichen
-                    einzigen Zeiten der<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">
-                        <placeName key="A000459">
-                            <settlement>Lido</settlement>
-                        </placeName>
+                    einzigen Zeiten der<pb/><space unit="chars" quantity="1"/><hi rend="underline" n="1">
+                        <placeName key="A000459"><settlement>Lido</settlement></placeName>
                </hi>-Erholung, die Hiobspost von Herrn <persName key="A004181">Hugo Öhler</persName> in
-                    <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>, daß er vom <hi rend="underline" n="1">1 Juli</hi> an, die mir seit Jahren gezahlte Rente von <hi rend="underline" n="1">50</hi> Kronen
+                    <placeName key="A000368"><settlement>Berlin</settlement></placeName>, daß er vom <hi rend="underline" n="1">1 Juli</hi> an, die mir seit Jahren gezahlte Rente von <hi rend="underline" n="1">50</hi> Kronen
                     monatlich, <hi rend="underline" n="1">einstelle</hi>!</p>
                 <p>Ich flehe Sie, den <hi rend="underline" n="1">Schicksal-Begnadeten</hi>, an, mir die 
                     ausgesetzte Rente von 50 Kronen monatlich auch <hi rend="underline" n="1">über</hi> das 
-                    Jahr hinaus zu <hi rend="underline" n="1">verlängern</hi>,<pb/> und <persName key="A002001">Schnitzler</persName> u. <persName key="A002011">Hofmannstal</persName> zu gleichem zu bewegen!</p>
+                    Jahr hinaus zu <hi rend="underline" n="1">verlängern</hi>,<pb/> und <persName 
+                        key="A002001">Schnitzler</persName> u. <persName key="A002011">Hofmannstal</persName> zu gleichem zu bewegen!</p>
             <p>Das ist das Loos eines <hi rend="underline" n="1">54</hi>-jährigen kranken Dichters.</p>
-                <closer>Ihr dankbar ergebener<lb/>
-                    <signed>Peter Altenberg</signed>
-                </closer>
+                <closer>Ihr dankbar ergebener<lb/><signed>Peter Altenberg</signed></closer>
                 <postscript>
-                    <p>
-                        <placeName key="A000459">
-                     <settlement>Lido-Venedig</settlement>
-                        </placeName>
+                    <p><placeName key="A000459">
+                     <settlement>Lido-Venedig</settlement></placeName>
                   <lb/>
                   <placeName key="A000942">Hotel Hungaria</placeName>
                </p>
-                    <p>
-                        <c rendition="#prozent"/>
-                        <space unit="chars" quantity="1"/>
-                        <hi rend="underline" n="1">Herzlichsten</hi> Gruß an Ihre <rs type="person" key="A002080">Frau</rs>!</p>
+                    <p><c rendition="#prozent"/><space unit="chars" quantity="1"/><hi rend="underline" n="1">Herzlichsten</hi> Gruß an Ihre <rs type="person" key="A002080">Frau</rs>!</p>
                 </postscript>
                    
             </div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041157">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18930724" n="01">[24. 7. 1893]</date>
                </dateSender>
@@ -70,23 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote>
-                                        <orgName key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250">
-                                            <settlement>Wien</settlement>
-                                        </placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.</quote>«, von Schnitzler datiert: »<quote>
-                                        <date>24. 7. 93</date>
-                                    </quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote><orgName  key="A080155">Deutsche Zeitung</orgName> / <placeName key="A000250"><settlement>Wien</settlement></placeName> / <placeName key="A000398">IX., Pelikangasse 4</placeName>.</quote>«, von Schnitzler datiert: »<quote><date>24. 7. 93</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151130">Kollationiert</change>
          <change who="KI MAM" when="20170522">Kollationiert</change>
@@ -103,12 +89,9 @@
             </opener>
             <p>Von Ihrer Anfrage über <persName key="A002011">Loris</persName> hat man mir nichts mitgeteilt. Ich komme morgen
           entweder zwischen 3 u. 4 <placeName key="A000474">Burgring</placeName> oder um ½ 5 <placeName key="A000613">Grillparzerstr</placeName>. 
-        Daß Sie <hi rend="underline" n="1">uns</hi> u. nur uns keine Notiz über <anchor type="commentary" xml:id="KL157-1">
-                        <placeName key="A000413">Ischler</placeName> Aufführung</anchor> 
+        Daß Sie <hi rend="underline" n="1">uns</hi> u. nur uns keine Notiz über <anchor type="commentary" xml:id="KL157-1" ><placeName key="A000413">Ischler</placeName> Aufführung</anchor> 
         geschickt, ist nicht schön.</p>
-            <closer>Herzlichst<lb/>Ihr<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Ihr<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

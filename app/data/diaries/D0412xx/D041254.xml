@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041254">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,11 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19050726" n="1">26/7</date> Tennis, Nachm. gleiches bei <persName key="A002781">Redlich</persName>, schöne Villa.– Las <persName key="A002002">Bahrs</persName> neues Stück »<workName key="A020090">Die Andre</workName>«, er hatte es
-        mir im Mscrpt. geschickt; fand es <anchor type="label" xml:id="LD254-1">schlecht.–</anchor>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002035">Salten</persName> und <persName key="A002679">Rich. Metzl</persName>
+            <p><date when="19050726" n="1">26/7</date> Tennis, Nachm. gleiches bei <persName key="A002781">Redlich</persName>, schöne Villa.– Las <persName key="A002002">Bahrs</persName> neues Stück »<workName key="A020090">Die Andre</workName>«, er hatte es
+        mir im Mscrpt. geschickt; fand es <anchor type="label" xml:id="LD254-1" >schlecht.–</anchor><space unit="chars" quantity="1"/><persName key="A002035">Salten</persName> und <persName key="A002679">Rich. Metzl</persName>
         erscheinen.</p>
          </div> 
       </body>

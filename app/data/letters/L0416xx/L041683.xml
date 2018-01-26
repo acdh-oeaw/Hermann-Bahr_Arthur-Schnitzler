@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041683">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000368">Berlin</placeName>
                </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee>
                     <dateSender>
                         <date when="18911215" n="01">15. 12. 1891</date>
                     </dateSender>
@@ -73,22 +70,14 @@
                             <idno>HS AM 22268 Ba</idno>
                         </msIdentifier>
                         <physDesc>
-                            <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote>
-                                        <orgName key="A080040">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName key="A000368">
-                                            <settlement>Berlin</settlement>
-                                        </placeName> C. d. ...... 189 / <placeName key="A001023">Alexander-Str. 30</placeName>
-                                    </quote>«.</p>
+                            <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote><orgName key="A080040">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName key="A000368"><settlement>Berlin</settlement></placeName> C. d. ...... 189 / <placeName key="A001023">Alexander-Str. 30</placeName></quote>«.</p>
                         </physDesc>
                     </msDesc>
                     </witness>
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161209">Angelegt und kollationiert</change>
         </revisionDesc>
@@ -97,23 +86,14 @@
         <body>
             <div type="address">
                 <address>
-                    <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi>
-                    </addrLine>
-                    <addrLine>
-                        <placeName key="A000250">
-                            <settlement>
-                                <hi rend="latintype">Wien</hi>
-                            </settlement>
-                        </placeName>
-                    </addrLine>
+                    <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi></addrLine>
+                    <addrLine><placeName key="A000250"><settlement><hi rend="latintype">Wien</hi></settlement></placeName></addrLine>
                 </address>
                 
             </div>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>15. 12 1</date>
-                    </dateline>
+                    <dateline rend="right"><date>15. 12 1</date></dateline>
                     <salute>Lieber Freund,</salute>
             </opener>
                 <p>mit Director <persName key="A002166">Blumenthal</persName> habe ich schon s. Zeit über
@@ -121,14 +101,12 @@
                     gesprochen und auch gestern wieder mit ihm darüber conferirt. Er hat es gelesen
                     und es muß ihm wohl sehr gefallen haben, denn seinen Äußerungen entnahm ich, daß
                     er es wohl annehmen wird. Er sprach auch noch von einigen unwesentlichen
-                    Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype">enfin</hi>, die Sache dürfte sich machen.</p>
+                    Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype"
+                        >enfin</hi>, die Sache dürfte sich machen.</p>
                 <p>Dir. <persName key="A002356">Lautenburg</persName> ist nicht in
-                            <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>, ich will mit ihm
-                    <anchor type="commentary" xml:id="KL683-1">reden</anchor>, sobald er wiederkommt.</p>
-                <closer>Mit herzlichem Gruß<lb/>
-                    <signed>Em Reicher</signed>
+                            <placeName key="A000368"><settlement>Berlin</settlement></placeName>, ich will mit ihm
+                    <anchor type="commentary" xml:id="KL683-1" >reden</anchor>, sobald er wiederkommt.</p>
+                <closer>Mit herzlichem Gruß<lb/><signed>Em Reicher</signed>
                 </closer>
                  </div>
         </body>

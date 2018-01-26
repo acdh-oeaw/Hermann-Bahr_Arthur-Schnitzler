@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041298">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,9 +48,7 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
                
                <dateSender>
                   <date when="19060204" n="01">4. 2. 1906</date>
@@ -75,11 +72,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151215">Kollationiert</change>
          <change who="KI MAM" when="20170529">Kollationiert</change>
@@ -94,26 +87,20 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>4. 2. 06</date>
-                    </dateline>
+               <dateline rend="right"><date>4. 2. 06</date></dateline>
                <salute rend="center">Lieber Arthur!</salute>
             </opener>
-            <p>
-                    <hi rend="underline" n="1">Mir</hi> hat der <rs type="person" key="A002098">Intendant</rs> die Genehmigung für 
+            <p><hi rend="underline" n="1">Mir</hi> hat der <rs type="person" key="A002098">Intendant</rs> die Genehmigung für 
         den »<workName key="A020043">Ruf</workName>« verweigert, was aber nicht ausschließt (da es offenbar nur zu den 
         Chicanen gehört, welche mich hinausekeln sollen), daß er<space unit="chars" quantity="1"/>
                <rs type="work" key="A020043">ihn</rs>, 
         wenn ich bis dahin meinen Vertrag gelöst haben sollte, nach einem <placeName key="A000368">
-                  <settlement>Berliner</settlement>
-                    </placeName> Erfolge
+                  <settlement>Berliner</settlement></placeName> Erfolge
           sehr gern nehmen wird.</p>
             <p>Grüß <persName key="A002035">Salten</persName> und <persName key="A002065">Brahm</persName> herzlichst.</p>
             <p>Hoffentlich sehen wir uns dann doch endlich
          einmal.</p>
-            <closer>Herzlichst<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

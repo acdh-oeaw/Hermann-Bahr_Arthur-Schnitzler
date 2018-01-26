@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041661">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                     <placeSender>
                   <placeName key="A000230">Salzburg</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19190830" n="01">30. 8. 1919</date>
                     </dateSender>
@@ -80,11 +77,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161025">Angelegt aus Abschrift</change>
             <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change>
@@ -94,23 +87,15 @@
         <body>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline>
-                        <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>, <date>30. Aug. 19</date>.</dateline>
+                    <dateline><placeName key="A000230"><settlement>Salzburg</settlement></placeName>, <date>30. Aug. 19</date>.</dateline>
                 </opener>
-                <p output="true">
-                    <salute>Mein Liebes, </salute>seit gestern eine Menge erlebt: also erst mit
+                <p><salute>Mein Liebes, </salute>seit gestern eine Menge erlebt: also erst mit
                         <persName key="A002374">Zweig</persName> hinauf in sein wirklich schönes, hauptsächlich
                     herrlich gelegenes altes Haus,– er hat kaum etwas richten lassen, weil er ja
                     überhaupt in übertriebener Weise hier den armen, besitzlosen Mann spielt. Aber
                     diese schönen Räume! vor allem die Terassen ganz gegen Süden gelegen, mit
                     Blicken, dass man jauchzen möchte. Das ganze hat er, mit vielen hübschen alten
-                    Möbeln, von D<hi rend="superscript">
-                        <hi rend="underline" n="1">r</hi>
-                    </hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A003292">Kranz</persName> um 90.000 Kr. gekauft! Er war,– wie
+                    Möbeln, von D<hi rend="superscript"><hi rend="underline" n="1">r</hi></hi><space unit="chars" quantity="1"/><persName key="A003292">Kranz</persName> um 90.000 Kr. gekauft! Er war,– wie
                     seine <rs type="person" key="A004302">Frau</rs> – sehr, sehr lieb, schwärmte von
                         <persName key="A002002">Bahr</persName>,– er will mich nächste Woche zum Spazierengehen
                     abholen. Erzälte mir von der <persName key="A004270">Lehmann</persName>, er sei neulich in
@@ -132,9 +117,7 @@
                     gleich <persName key="A002899">Gretel</persName>.</p>
                 <p>Heut früh holte mich <persName key="A004210">Harta</persName> in’s <persName key="A001223">Künstlerhaus</persName>, eine
                 kleine Ausstellung von wirklichem Niveau, seine Bilder mir die liebsten, namentlich ein grosser farbiger
-                Akt und eine köstlich bewegte Ansicht von <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>, auch
+                Akt und eine köstlich bewegte Ansicht von <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, auch
                     eine hölzerne alte Madonna von einem leuchtend rosa Hintergrund. Er ist von <persName key="A004531">Greco</persName>, 
                 von <persName key="A003367">Van Gogh</persName> – beeinflusst,– aber ein Mensch von Verstand, von
                 Rhytmus, von Kultur, dann noch Bilder von <persName key="A004530">Faistauer</persName> (nicht alle!) und
@@ -145,23 +128,17 @@
                     ich, sie sah, trotz ihrer intensiven Aufmerksamkeit beim Unterricht ein paar Mal
                     interessiert herüber, – was sie selbst stimmlich zeigt, ist prachtvoll, – aber
                     ihre Methode zu compliciert, zu sehr Geheimwissenschaft. Ich hörte leider keine
-                    gute Schülerin, um ½ <unclear>1</unclear> war der Curs aus. Mit
+                    gute Schülerin, um ½&#160;<unclear>1</unclear> war der Curs aus. Mit
                     <persName key="A002899">Gretel</persName> gegessen, geschlafen, wieder
-                    <placeName key="A000999">Mozarteum</placeName>, zu einer, <add place="above">nein!</add>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">der</hi> Vorbereiterin und
-                    Freundin der <persName key="A004270">Lehmann</persName>, eine sonderbare, lange hagere <rs type="person" key="A004479">
-                        <placeName key="A000375">
-                            <country>Amerikanerin</country>
-                        </placeName>
-                    </rs>, sie sieht aus, wie ein fanatischer Mönch. Sie
+                    <placeName key="A000999">Mozarteum</placeName>, zu einer, <add place="above">nein!</add><space unit="chars" quantity="1"/><hi rend="underline" n="1">der</hi> Vorbereiterin und
+                    Freundin der <persName key="A004270">Lehmann</persName>, eine sonderbare, lange hagere <rs
+                        type="person" key="A004479"><placeName key="A000375"><country>Amerikanerin</country></placeName></rs>, sie sieht aus, wie ein fanatischer Mönch. Sie
                     studierte mit Frau <persName key="A004478">Gerstmann</persName>, einer bekannten
                     Concertsängerin, – empfing mich mit grosser Güte. Sie hat mir in ihrem
                     Fanatismus fabelhaft gefallen, – aber <persName key="A003616">Steiner</persName> lehrt das
                     alles viel einfacher und selbstverständlicher. Sie erklärte mir allerhand
                     Technisches, erfreut über mein rasches Verstehen, – und lud mich ein
-                    wiederzukommen. <persName key="A004477">Marie Lehmann</persName> trat ein, der ich vorgestellt wurde.<pb/>
-                </p>
+                    wiederzukommen. <persName key="A004477">Marie Lehmann</persName> trat ein, der ich vorgestellt wurde.<pb/></p>
                 <p>Dann mit <persName key="A002884">Grosz</persName> köstlich studiert, diesmal in einem kleinen
                     Zimmer, – im grossen Saal war Probe, – ich freute mich diebisch, dass ich das
                     alles ohne Qual machte, was die drüben so sauer erlernen, (oder auch nicht
@@ -178,15 +155,9 @@
                     an allen Ecken – ich bin so froh in dieser Atmosphäre von Arbeit, Arbeit,
                     Sachlichkeit. </p>
                 <closer>Küss die <rs type="person" key="A002080 A002097">Kinder</rs> tausendmal!<lb/>Innigst<space unit="chars" quantity="5"/>Dein <signed>O</signed>.</closer>
-                <postscript>
-                    <p>Jemand, ein Kunstjunge, bittet dich um ein Autogramm, – sei lieb und schick mir eins, ja?</p>
-                    <p>
-                        <anchor type="textConst" xml:id="TL661-1">Der liebe <persName key="A004275">Paumgartner</persName> hat auch bei <persName key="A002374">Zweig</persName> in hohen Tönen von mir erzählt.</anchor>
-                    </p>
-                </postscript>
-                <p>
-                    <anchor type="textConst" xml:id="TL661-2">Alle Leute jammern, dass die <persName key="A004534">Bertel</persName> nicht gekommen ist!</anchor>
-                </p>
+                <postscript><p>Jemand, ein Kunstjunge, bittet dich um ein Autogramm, – sei lieb und schick mir eins, ja?</p>
+                    <p><anchor type="textConst" xml:id="TL661-1" >Der liebe <persName key="A004275">Paumgartner</persName> hat auch bei <persName key="A002374">Zweig</persName> in hohen Tönen von mir erzählt.</anchor></p></postscript>
+                <p><anchor type="textConst" xml:id="TL661-2" >Alle Leute jammern, dass die <persName key="A004534">Bertel</persName> nicht gekommen ist!</anchor></p>
             </div>
         </body>
     </text>

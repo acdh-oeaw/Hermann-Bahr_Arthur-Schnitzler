@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041243">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote>
-                                        <date>901</date>
-                                    </quote>« von Schnitzler beim Datum ergänzt.</p>
+                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote><date>901</date></quote>« von Schnitzler beim Datum ergänzt.</p>
                         <stamp n="1">
                            <placeName key="A000263">Wien 13</placeName>
                            <date when="19011030">30. 10. 01</date>
@@ -87,11 +84,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170530">Kollationiert</change>
@@ -108,29 +101,22 @@
             <address>
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000259">Wien IX</placeName>
-                    </addrLine>
+                  <placeName key="A000259">Wien IX</placeName></addrLine>
                <addrLine>
                   <placeName key="A000598">Frankgasse</placeName> 1</addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>29. 10.</date>
-                    </dateline>
+               <dateline rend="right"><date>29. 10.</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
-            <p>Ich glaube, <persName key="A002034">Berger</persName> ist <anchor type="commentary" xml:id="KL243-1">noch hier</anchor>; Du kannst
+            <p>Ich glaube, <persName key="A002034">Berger</persName> ist <anchor type="commentary" xml:id="KL243-1" >noch hier</anchor>; Du kannst
           es, da er Telephon hat, sofort erfahren.</p>
             <p>– <workName key="A020017">Gustl</workName> – <persName key="A002049">Guttmann</persName> ist
-          echt. Es gibt nur ein <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>, besonders für
+          echt. Es gibt nur ein <placeName key="A000250"><settlement>Wien</settlement></placeName>, besonders für
           Dichter.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>HermannBahr</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>HermannBahr</signed></closer>
          </div>
       </body>
   </text>

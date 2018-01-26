@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041591">
     <teiHeader type="text">
@@ -19,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -61,11 +60,7 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160816">Angelegt</change>
             <change who="KI MAM" when="20160914">Kollationiert am Original</change>
@@ -74,31 +69,17 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p output="true">
-                    <date when="19211123" n="01">23.</date> K. – Mit <persName key="A002038">Olga Schnitzler</persName> nach <placeName key="A000437">Leopoldskron</placeName> und in der Ebene. – <anchor type="commentary" xml:id="KD591-1">
-                        <rs type="work" key="A020130 A020139 A020141">
-                            <rs type="org" key="A080080">Journal</rs>tgb
-                            für <date>4./12</date>
-                        </rs>
-                    </anchor> (<anchor type="commentary" xml:id="KD591-2">
-                        <rs type="work" key="A020130">
-                            <persName key="A002475">Paul Eger</persName>
-                        </rs>
-                    </anchor>,<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KD591-3">
-                        <rs type="work" key="A020139">Maurer auf dem Gerüst</rs>
-                    </anchor>, <anchor type="commentary" xml:id="KD591-4">
-                        <rs type="work" key="A020141">
-                            <rs type="work" key="A020486">
-                                <persName key="A003399">Tolstoibuch</persName>
-                            </rs>
-                        </rs>
-                    </anchor>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A004211">Umanskij</persName>s; letztes Datum <anchor type="commentary" xml:id="KD591-5">
-                        <date>20./11</date>
-                    </anchor>) geht morgen
+            <p><date when="19211123" n="01">23.</date> K. – Mit <persName
+                        key="A002038">Olga Schnitzler</persName> nach <placeName key="A000437"
+                        >Leopoldskron</placeName> und in der Ebene. – <anchor type="commentary" xml:id="KD591-1" ><rs type="work"
+                        key="A020130 A020139 A020141"><rs type="org" key="A080080">Journal</rs>tgb
+                            für <date>4./12</date></rs></anchor> (<anchor type="commentary" xml:id="KD591-2" ><rs type="work" key="A020130"><persName key="A002475">Paul Eger</persName></rs></anchor>,<pb/><space unit="chars" 
+                                quantity="1"/><anchor type="commentary" xml:id="KD591-3" ><rs type="work"
+                                key="A020139">Maurer auf dem Gerüst</rs></anchor>, <anchor type="commentary" xml:id="KD591-4" ><rs
+                        type="work" key="A020141"><rs type="work"
+                            key="A020486"><persName key="A003399"
+                                >Tolstoibuch</persName></rs></rs></anchor><space unit="chars" quantity="1"/><persName
+                        key="A004211">Umanskij</persName>s; letztes Datum <anchor type="commentary" xml:id="KD591-5" ><date>20./11</date></anchor>) geht morgen
                     ab.</p>
             
         </div>

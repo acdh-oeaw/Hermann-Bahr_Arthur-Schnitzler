@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041144">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -77,11 +76,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate"/>
   </teiHeader>
   <text type="letter">
@@ -89,30 +84,21 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <placeName key="A000424">
-                            <settlement>London</settlement>
-                        </placeName> W<damage agent="hole">
-                            <supplied>2</supplied>
-                        </damage>, <date>24. März 36</date>.<lb/>31/32 <placeName key="A000588">Craven
-            Hill Gardens</placeName>
-                    </dateline>
+                  <placeName key="A000424"><settlement>London</settlement></placeName> W<damage agent="hole"><supplied>2</supplied></damage>, <date>24. März 36</date>.<lb/>31/32 <placeName key="A000588">Craven
+            Hill Gardens</placeName></dateline>
                <salute>Meine liebe verehrte gnädige
           Frau,</salute>
             </opener>
             <p>Ihre lieben Zeilen haben mich, ziemlich verspätet, hier erreicht. Der Brief war
           »zur Devisenüberwachung« geöffnet. Ich musste lächeln: Devisen haben wir ja
           nicht auszutauschen, aber <add place="above">dafür:</add> welche Schätze der
-               Erinnerung –!</p>
+               Erinnerung&#160;–!</p>
             <p>Sie ahnen sicherlich nicht, verehrte, darf ich sagen: geliebte gnädige Frau, – wie viel ich mich
           in letzter Zeit mit Ihrem <rs type="person" key="A002002">Gatten</rs> beschäftigt habe, mit seinen Briefen, meinen
           eigenen Erinnerungen und machen Aufzeichnungen. Welcher Reichtum, welche
-          Lebendigkeit –! wie sind Sie selbst da, – unser aller schöner Jugendzeit. Und
-          dann: die Spaziergänge im Schnee – in <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName>, 1921, – alle Güte, die Sie Beide
-          in schwerer verworrener Zeit für mich hatten. Das vergisst sich nie.<pb/>
-                </p>
-                <p>Und nun: aus der Dürftigkeit der Gegenwart hab ich mich, auch auf Drängen meiner
+          Lebendigkeit&#160;–! wie sind Sie selbst da, – unser aller schöner Jugendzeit. Und
+          dann: die Spaziergänge im Schnee – in <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, 1921, – alle Güte, die Sie Beide
+          in schwerer verworrener Zeit für mich hatten. Das vergisst sich nie.<pb/></p><p>Und nun: aus der Dürftigkeit der Gegenwart hab ich mich, auch auf Drängen meiner
           Freunde, die mich erzählen hörten, drangemacht, die Dinge aufzuschreiben, die
           sonst verloren giengen, – vielleicht werden sie nicht ganz unwichtig sein, im
           Kreis der Freunde erwacht und gestaltet, – Zeugnis ablegen, – später einmal. Mir
@@ -131,13 +117,9 @@
           Schemen noch falsche Werte: es ging um das Innerste und Höchste.</p>
             <p>Wie wünsche ich mir immer wieder, Sie zu treffen. Eine leise Hoffnung war in mir,
           dass Sie an Stelle der <persName key="A002171">Gutheil-Schoder</persName> in
-            <placeName key="A000230">
-                        <settlement>Salzburg</settlement>
-                    </placeName> lehren werden. Es ist leider nicht so.
+            <placeName key="A000230"><settlement>Salzburg</settlement></placeName> lehren werden. Es ist leider nicht so.
           Aber: wenn Sie einmal hinkommen, – und Sie wollen mich sehen: bitte lassen Sie
-          es mich wissen. – Ich bin bald wieder in            <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>. Hier:
+          es mich wissen. – Ich bin bald wieder in            <placeName key="A000250"><settlement>Wien</settlement></placeName>. Hier:
           versuche ich, irgendwelche<pb/> Möglichkeiten in Form zu bringen, – denn Ruhe,
           Sorglosigkeit, – kurz, ein halbwegs gesicherter Lebens-Abend ist mir nicht
           gegönnt.</p>
@@ -147,9 +129,7 @@
           werden. – Noch eins: werden Sie mir die formelle Erlaubnis geben, –
           Briefstellen, Buchstellen von <persName key="A002002">H. Bahr</persName> heraus zu geben? innerhalb <rs type="work" key="A020124">dieses Buches</rs>?
           Ich bitte Sie um eine Zeile darüber.</p>
-            <closer>Seien Sie innigst gegrüsst von Ihrer<lb/>
-                    <signed>Olga S.</signed>
-                </closer>
+            <closer>Seien Sie innigst gegrüsst von Ihrer<lb/><signed>Olga S.</signed></closer>
          </div>
       </body>
   </text>

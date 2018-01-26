@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041363">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,12 +49,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000355">München</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000355">München</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19310907" n="01">7. 9. 1931</date>
                </dateSender>
@@ -81,11 +76,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="20151125">Angelegt in CUL</change>
          <change who="KI MAM" when="20151217">Kollationiert</change>
@@ -101,15 +92,13 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>7. September 31</date>
-                    </dateline>
+               <dateline rend="right"><date>7. September 31</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Die <rs type="work" key="A020118">Verfilmung</rs> von »<workName key="A020057">Konzert</workName>« ist, 
           so weit ich mich erinnern kann,
         zunächst vor Jahren schon von <persName key="A002020">S. Fischer</persName> vermittelt worden; ob von ihm auch für Tonfilm weiß ich
-          nicht. Aber der Verlag »<orgName key="A080353">Ahn – und Simrock</orgName>«, 
+          nicht. Aber der Verlag »<orgName  key="A080353">Ahn – und Simrock</orgName>«, 
           <placeName key="A000363">Berlin N.W. 7 Dorotheenstraße 11</placeName>; 
           Eingang <placeName key="A000364">Prinz Louis Ferdinandstraße 1</placeName> wird Dir,
         wenn Du Dich auf mich berufst, darüber genau berichten und Dich beraten können.</p>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041347">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,9 +69,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Korrespondenzkarte, die unvollständige Hausnummer in der Adresse von unbek. Hand mit Bleistift korrigiert zu »<quote>71</quote>«. Vermerk von Schnitzler »<quote>
-                                        <hi rend="latintype">A</hi>
-                                    </quote>«, <ptr target="LbesonderheitA"/>.</p>
+                        <p>eh. Korrespondenzkarte, die unvollständige Hausnummer in der Adresse von unbek. Hand mit Bleistift korrigiert zu »<quote>71</quote>«. Vermerk von Schnitzler »<quote><hi rend="latintype">A</hi></quote>«, <ptr target="LbesonderheitA"/>.</p>
             <stamp n="1">
               <placeName key="A000355">München</placeName>
                            <date when="19220610">10 6 22</date>
@@ -84,11 +81,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="20151125">Stempel autopsiert in CUL</change>
          <change who="KI MAM" when="20151217">Kollationiert</change>
@@ -106,29 +99,21 @@
             <address>
                <addrLine>Hermann Bahr</addrLine>
                <addrLine>
-                  <placeName key="A000355">
-                            <settlement>München</settlement>
-                        </placeName>
-                    </addrLine>
+                  <placeName key="A000355"><settlement>München</settlement></placeName></addrLine>
                <addrLine>
-                  <placeName key="A000361">Barerstraße 50</placeName>
-                    </addrLine>
+                  <placeName key="A000361">Barerstraße 50</placeName></addrLine>
             </address>
             <address>
                <addrLine>Arthur Schnitzler</addrLine>
                <addrLine>
-                  <placeName key="A000268">Wien XVIII</placeName>
-                    </addrLine>
+                  <placeName key="A000268">Wien XVIII</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000350">Sternwartestr. 1</placeName>
-                    </addrLine>
+                  <placeName key="A000350">Sternwartestr. 1</placeName></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>9. 6. 22</date>
-                    </dateline>
+               <dateline rend="right"><date>9. 6. 22</date></dateline>
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Herzlichsten Dank für Deine mich herzlichst
@@ -139,18 +124,10 @@
           meine starke Seite und je älter ich werde, desto mehr kommt mir alles, so bald
           es ausgesprochen wird, verlogen vor.</p>
             <p>Ich denke den ganzen Sommer (außer am
-               <date>11.–13. August</date>, wo ich <anchor type="commentary" xml:id="KL347-2">nach <placeName key="A000230">
-                            <settlement>Salzburg</settlement>
-                        </placeName>
-                    </anchor>, und am <date>27.–30. August</date>, wo ich <anchor type="commentary" xml:id="KL347-1">nach
-            <placeName key="A001083">
-                            <settlement>Heidelberg</settlement>
-                        </placeName>
-                    </anchor> soll) hier <supplied>zu</supplied> sein und es wäre mir eine
+               <date>11.–13. August</date>, wo ich <anchor type="commentary" xml:id="KL347-2" >nach <placeName key="A000230"><settlement>Salzburg</settlement></placeName></anchor>, und am <date>27.–30. August</date>, wo ich <anchor type="commentary" xml:id="KL347-1" >nach
+            <placeName key="A001083"><settlement>Heidelberg</settlement></placeName></anchor> soll) hier <supplied>zu</supplied> sein und es wäre mir eine
           große Freude, Dich endlich wiederzusehen.</p>
-            <closer>Herzlichst Dein alter<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst Dein alter<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

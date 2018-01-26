@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041412">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                       
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18940615" n="01">[15. 6. 1894?]</date>
                     </dateSender>
@@ -84,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">17</biblScope>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="KI MAM" when="20161209">Kollationiert am Faksimile</change>
@@ -107,23 +98,15 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <salute>Lieber Hugo, </salute>fast sicher seh’ ich morgen <persName key="A002035">Salten</persName>, fast sicher
+                <p><salute>Lieber Hugo, </salute>fast sicher seh’ ich morgen <persName key="A002035">Salten</persName>, fast sicher
                     also wird er Sonntag mit uns sein. Nun war ich gestern bei <persName key="A002002">Bahr</persName>, der auch was
                     von Sonntag redete, und ich überlasse Ihnen die Sache einzurichten wie’s Ihnen
                     lieb ist. Jeden<pb/>falls erwarte ich Sie <date>Sonntag</date> ½ 4.</p>
-                <closer>Mit vielen herzlichen Grüßen.<lb/>Ihr<lb/>
-                    <signed>Arthur.</signed>
+                <closer>Mit vielen herzlichen Grüßen.<lb/>Ihr<lb/><signed>Arthur.</signed>
                 </closer>
                 <postscript>
                <p>Eventuell schreiben Sie mir noch eine Zeile.</p>
-              <p>
-                        <date>
-                            <anchor type="textconst" xml:id="TL412-1">
-                                <hi rend="underline" n="1">Freitag</hi>
-                            </anchor>
-                        </date>
-                    </p>
+              <p><date><anchor type="textconst" xml:id="TL412-1" ><hi rend="underline" n="1">Freitag</hi></anchor></date></p>
             </postscript>
                 
             </div>

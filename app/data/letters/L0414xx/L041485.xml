@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041485">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002011">Hofmannsthal, Hugo von</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19031101" n="01">1. 11. 1903</date>
                     </dateSender>
@@ -81,11 +76,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160316">Angelegt</change>
         </revisionDesc>
@@ -94,24 +85,18 @@
         <body>
            
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
                 <p>Die Polizei hat mir heute die Vorlesung des <workName key="A020018">Reigens</workName>
                     verboten. Was da wieder an Gemeinheit alles vorgegangen ist, gelegentlich
                     mündlich. Ich ergreife natürlich Rekurs, geh zum <persName key="A002016">Körber</persName>
                     etc, es nützt aber nichts. Jedenfalls muß ich, da der <rs type="place" key="A000204">Saal</rs> schon gemietet ist,
                     in Eile ein anderes Programm machen und denke unter anderem auch Ihren
-                        »<anchor type="commentary" xml:id="KL485-1">
-                        <workName key="A021124">Brief</workName>
-                    </anchor>« aus dem »<orgName key="A080538">Tag</orgName>« zu lesen,
+                        »<anchor type="commentary" xml:id="KL485-1" ><workName key="A021124">Brief</workName></anchor>« aus dem »<orgName  key="A080538">Tag</orgName>« zu lesen,
                     außer wenn es Ihnen, <hi rend="underline" n="1">auch nur im Geringsten</hi>, unangenehm ist.
                     Bitte telegraphieren Sie mir sofort <hi rend="underline" n="1">Ja</hi> (was heißt, daß ich ihn
                     lesen darf) oder <hi rend="underline" n="1">Nein</hi>. Und wenn Ja, senden Sie mir die Nummern
-                    des <orgName key="A080538">Tages</orgName>. Ich kann sie nirgends finden.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                    des <orgName  key="A080538">Tages</orgName>. Ich kann sie nirgends finden.</p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

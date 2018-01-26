@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041522">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -97,11 +96,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
             <change who="KI MAM" when="20161103">Kollationiert am Faksimile</change>
@@ -113,38 +108,25 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline>
-                  <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>22/<hi rend="subscript">I</hi> 93</date>.</dateline>
+                  <placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>22/<hi rend="subscript">I</hi> 93</date>.</dateline>
                 </opener>
-                <p>
-                    <salute>Lieber Herr Doctor! </salute>Bin grade in einer Hochzeit drin; beeile
+                <p><salute>Lieber Herr Doctor! </salute>Bin grade in einer Hochzeit drin; beeile
                     mich aber trotzdem Ihren lieben Brief, den ich eben erhielt, zu beantworten;
                     ich hatte nämlich gleich nachm. für Sie Kritikauschnitt vorbereitet u. dazu ein
                     Briefchen geschrieben, welches ich nun freilich nicht benutzen kann.</p>
                 <p>Also ich bin in der angenehmen Lage, Ihnen einen Ausschnitt bereits heute
-                    verschaffen zu können. Anbei ist er.<pb/>
-                </p>
-                <p output="true">Haben Sie zufällig <orgName key="A080014">Fr. Bühne</orgName> Januarheft in die Hand
+                    verschaffen zu können. Anbei ist er.<pb/></p>
+                <p >Haben Sie zufällig <orgName  key="A080014">Fr. Bühne</orgName> Januarheft in die Hand
                     bekommen?</p>
-                <p output="true">Lesen Sie den <anchor type="commentary" xml:id="KL522-3">
-                        <rs type="work" key="A021153">Artikel</rs>
-                    </anchor> von <add place="inline">F.</add>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002229">Holländer</persName> über
+                <p>Lesen Sie den <anchor type="commentary" xml:id="KL522-3" ><rs type="work" key="A021153">Artikel</rs></anchor> von <add place="inline">F.</add><space unit="chars" quantity="1"/><persName key="A002229">Holländer</persName> über
                         <persName key="A002002">
                      <hi rend="underline" n="1">Hermann
                             Bahr</hi>
                </persName>, den er in geradezu dummer Weise in den
                     Himmel hebt. Dort finden Sie bei der Stelle über <persName key="A002002">Bahr</persName>’s
-                        <anchor type="commentary" xml:id="KL522-4">
-                        <workName key="A021036">Dora</workName>-Schmarren</anchor>, den <persName key="A002229">Holl.</persName> für das
-                    größte psycholog. Kunstwerk hält (!!!!), eine <hi rend="underline" n="1">sehr, sehr</hi>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KL522-2">schmeichelhafte Bemerkung</anchor> über einen gewissen Arthur Schnitzler. Verzeihen Sie
-                    mir, Liebster, den <anchor type="commentary" xml:id="KL522-1">
-                        <rs type="work" key="A020757">Franz Moor</rs>
-                    </anchor>. Soll gewiss nimmer vorkommen!
+                        <anchor type="commentary" xml:id="KL522-4" ><workName key="A021036">Dora</workName>-Schmarren</anchor>, den <persName key="A002229">Holl.</persName> für das
+                    größte psycholog. Kunstwerk hält (!!!!), eine <hi rend="underline" n="1">sehr, sehr</hi><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KL522-2" >schmeichelhafte Bemerkung</anchor> über einen gewissen Arthur Schnitzler. Verzeihen Sie
+                    mir, Liebster, den <anchor type="commentary" xml:id="KL522-1" ><rs type="work" key="A020757">Franz Moor</rs></anchor>. Soll gewiss nimmer vorkommen!
                     Bitte, bitte! Viele Grüße Ihr sehr ergeb. <signed>Karl Kraus</signed>.</p>
             </div>
         </body>

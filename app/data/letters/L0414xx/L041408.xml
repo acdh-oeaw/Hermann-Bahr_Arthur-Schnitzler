@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041408">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -50,12 +49,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18911206" n="01">[6. 12. 1891]</date>
                     </dateSender>
@@ -74,9 +69,7 @@
                                 <idno>Schnitzler, B 43b/1</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief, 1 Bl., 1 S., von Schnitzler mit rotem Buntstift datiert: »<quote>
-                                        <date when="18911206">6/12 91</date>
-                                    </quote>«.</p>
+                                <p>eh. Brief, 1 Bl., 1 S., von Schnitzler mit rotem Buntstift datiert: »<quote><date when="18911206">6/12 91</date></quote>«.</p>
                             </physDesc>
                         </msDesc>
                     </witness>
@@ -86,7 +79,7 @@
                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                     <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1964">1964</date>
                     </imprint>
                         <biblScope unit="pp">14</biblScope>
@@ -95,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160304">Angelegt aus OCR</change>
             <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
@@ -108,13 +97,11 @@
     <text type="letter">
         <body>
             <div type="writingSession" n="1">
-                <p>Soeben schickt mir <persName key="A002002">Bahr</persName> die beiliegende <anchor type="commentary" xml:id="KL408-1">Karte</anchor>. Ich gehe jedenfalls hin.</p>
+                <p>Soeben schickt mir <persName key="A002002">Bahr</persName> die beiliegende <anchor type="commentary" xml:id="KL408-1" >Karte</anchor>. Ich gehe jedenfalls hin.</p>
                 <p>Vielleicht erwarten Sie mich gegen <hi rend="underline" n="1">4 Uhr</hi> bei sich und wir gehen dann zusammen
                     hin.</p>
                 <p>Wenn nicht, hinterlassen Sie mir eine Post.</p>
-                <closer>
-                    <signed>Loris.</signed>
-                </closer>
+                <closer><signed>Loris.</signed></closer>
                 <postscript>
                <p>Soll man ihm einen Arzt schicken?</p>
             </postscript>

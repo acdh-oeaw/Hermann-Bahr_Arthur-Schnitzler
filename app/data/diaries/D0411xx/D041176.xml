@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041176">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -62,11 +61,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -74,13 +69,16 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="18971122" n="1">22/11</date> Bei der Manicure <persName key="A002653">Sp.</persName>–; <persName key="A002654">Irm. H.</persName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KD176-1">que j. d. l.</anchor>, lebh.
-               Zärtlichk. Dann bei <persName key="A002249">Gusti</persName>, resp. <persName key="A002216">Mz.</persName>, erzählte von dem Souper mit <persName key="A003917">Neumann-Hofer</persName> und <persName key="A002002">Bahr</persName>; <persName key="A002249">Gusti</persName> hatte gesagt: <persName key="A002216">Mz.</persName> ist Vorbild von <anchor type="commentary" xml:id="KD176-2">
-                        <rs key="A020040" type="work">Anna Riedel</rs>
-                    </anchor> (wie ändern sich die Zeiten!) – Nm. mit <persName key="A002185">Mz. Rh.</persName> spazieren, <rs type="work" key="A020200" subtype="local-short">2. Akt</rs> gebaut; – schließlich bei <persName key="A002210">Fifi</persName> »wo
+            <p><date when="18971122" n="1">22/11</date> Bei der Manicure <persName key="A002653"
+                  >Sp.</persName>–; <persName key="A002654">Irm. H.</persName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KD176-1" >que j. d. l.</anchor>, lebh.
+               Zärtlichk. Dann bei <persName key="A002249">Gusti</persName>, resp. <persName
+                  key="A002216">Mz.</persName>, erzählte von dem Souper mit <persName key="A003917"
+                  >Neumann-Hofer</persName> und <persName key="A002002">Bahr</persName>; <persName
+                  key="A002249">Gusti</persName> hatte gesagt: <persName key="A002216"
+                  >Mz.</persName> ist Vorbild von <anchor type="commentary" xml:id="KD176-2" ><rs key="A020040" type="work"
+                  >Anna Riedel</rs></anchor> (wie ändern sich die Zeiten!) – Nm. mit <persName key="A002185"
+                  >Mz. Rh.</persName> spazieren, <rs type="work" key="A020200" subtype="local-short"
+                  >2. Akt</rs> gebaut; – schließlich bei <persName key="A002210">Fifi</persName> »wo
                mein Sehnen Ruhe fand« –</p>
          </div> 
       </body>

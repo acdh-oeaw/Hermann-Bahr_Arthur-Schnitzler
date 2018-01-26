@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030025">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
+                     <settlement>Wien</settlement></placeName>
                </address>
             </funder>
          </titleStmt>
@@ -71,12 +71,7 @@
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
   
       <revisionDesc status="approved">
 			      <change when="20160224" who="MAM">Angelegt. Achtung nach Buch (S. 53) kollationiert!</change>
@@ -88,18 +83,16 @@
   <text type="article">
       <body>
          <div>
-            <p>
-                    <gap reason="outOfScope"/>
+            <p><gap reason="outOfScope"/>
             </p>
             <p>»Du könntest dich, sagte der Meister, auch auf unseren <persName key="A002001">Arthur</persName>
           berufen, dem man auch immer mehr den Ekel vor allen Leuten der Kunst anmerkt. Zog er schon
           in der »<workName key="A020025">Literatur</workName>« einen albernen Grafen dem Literaten sichtlich vor,
           so läßt er uns gar im »<workName key="A020083">Einsamen Weg</workName>« doch keinen Zweifel mehr, daß
-               ihm ein <anchor type="commentary" xml:id="KT025-1">unbegabter, aber anständiger Mensch lieber ist.«</anchor>
-                </p>
+               ihm ein <anchor type="commentary" xml:id="KT025-1">unbegabter, aber anständiger Mensch lieber ist.«</anchor></p>
             <p>»Er hat recht, sagte der Künstler. Anständige Menschen haben es eben nicht nötig,
                begabt zu sein. Sie brauchen die Kunst nicht, denn sie haben das Leben; darin zeigen
-               sie sich. <hyphenation alt="{[}\dots{]}">Vielleicht ist dieselbe Kraft in allen Menschen, nur daß die einen sie auf
+               sie sich. Vielleicht ist dieselbe Kraft in allen Menschen, nur daß die einen sie auf
                das Leben verteilen, die anderen aber geben sie an ihre Werke ab. Wem sich jenes
                ergibt und wen es erfüllt, der wird höchstens einmal durch den Wunsch, sich schön zu
                erinnern, zur Kunst geführt. Nur wer sich vom Leben ausgestoßen fühlt, wen es
@@ -109,11 +102,10 @@
                nur immer gewehrt, nun aber nötigt es mir dein Marsyas ab. Nur verzeihe mir, wenn ich
                frage, ob es nicht unfruchtbar ist, uns damit zu peinigen. Es wird immer Menschen
                geben, die sich im Leben nicht erfüllen können, und so lange wird es Künstler
-               geben.</hyphenation>«</p>
-            <p>
-                    <gap reason="outOfScope"/>
+               geben.«</p>
+            <p><gap reason="outOfScope"/>
             </p>
-            <p>»<hyphenation alt="{[}\dots{]}">Ich meine, sagte der Meister, von deinen Reden trifft vieles sicherlich auf die
+            <p>»Ich meine, sagte der Meister, von deinen Reden trifft vieles sicherlich auf die
                heutige Kunst zu, nur tust du, als ob sie die einzige wäre. Es gibt gewiß eine solche
                Kunst aus Mangel, wie du sie geschildert hast. Aber es wäre doch sonderbar, wenn du
                nie bemerkt hättest, daß es auch eine andere gibt: aus Fülle. Wer bei sich nicht
@@ -140,7 +132,8 @@
                einfügen und an sich selbst befestigen können, so daß er mit ihnen verwächst und in
                ihnen reifend sich verwandelt, bis er zuletzt, wenn ihnen zu enge wird, abgestoßen
                und wieder nach außen zurückgegeben werden muß, reicher als sie ihn empfangen haben,
-               und ihnen eigentümlich gemerkt. Was <persName key="A002203">Schiller</persName> an <rs type="work" key="A020529">Natalien</rs> so bewundert hat, die er rühmt, ihr sei die Liebe aus einem<pb/> Affekt
+               und ihnen eigentümlich gemerkt. Was <persName key="A002203">Schiller</persName> an <rs type="work" key="A020529"
+                  >Natalien</rs> so bewundert hat, die er rühmt, ihr sei die Liebe aus einem<pb/> Affekt
                zum permanenten Charakter geworden. So ließe sich denn auch sagen, daß es eine Kunst
                oder überhaupt ein Handeln aus Affekt, eine andere, ein anderes aus Charakter gibt,
                wäre nicht freilich zu fürchten, es möchte dies gleich wieder ins Sittliche hinüber
@@ -148,22 +141,29 @@
                ist, ob man nur in Anfällen und krampfhaft wirkt oder stetig, durch Natur. Welche Art
                aber mehr wert sei, ist müssig gesorgt, da beide doch im menschlichen Wesen sind, und
                es fällt mir nicht ein zu fordern, daß wir uns von jener, der unsere Generation
-               ergeben war, dieser zuwenden sollten.</hyphenation> Die Frage ist ja nie, was wir sollen, sondern
+               ergeben war, dieser zuwenden sollten. Die Frage ist ja nie, was wir sollen, sondern
                was wir müssen. Darüber aber vermute ich allerdings, daß das nächste Geschlecht, das
                sich anschickt, uns abzulösen, wieder der Kunst oder überhaupt dem Tun aus Charakter
                gehören wird.« </p>
             <p>»Davon müßte es, sagte der Arzt, aber doch schon Zeichen geben.«</p>
-            <p>»Ihr seht sie nur nicht, erwiderte der Meister. Ich könnte gleich auf <persName key="A002202">Hauptmann</persName> oder <persName key="A002001">Schnitzler</persName> zeigen, von welchen wir eben sprachen. Schon den <workName key="A021377">Kramer</workName>, mehr noch die <workName key="A020700">Bernd</workName> hat man zu still gefunden und manche, die es nicht erwarten
+            <p>»Ihr seht sie nur nicht, erwiderte der Meister. Ich könnte gleich auf <persName
+                  key="A002202">Hauptmann</persName> oder <persName key="A002001"
+                  >Schnitzler</persName> zeigen, von welchen wir eben sprachen. Schon den <workName
+                  key="A021377">Kramer</workName>, mehr noch die <workName key="A020700"
+                  >Bernd</workName> hat man zu still gefunden und manche, die es nicht erwarten
                können, haben darin ein Altern und Nachlassen der Kraft bemerken wollen, welche bei
                ihnen lärmen muß, während mir die ruhige, die sich nicht erst zu erhitzen braucht, um
-               zu wirken, doch mehr gilt. Diese ist es auch, die mir den ›<workName key="A020083">Einsamen Weg</workName>‹ so wert macht, der es in seiner wunderbar hellen und
+               zu wirken, doch mehr gilt. Diese ist es auch, die mir den ›<workName key="A020083"
+                  >Einsamen Weg</workName>‹ so wert macht, der es in seiner wunderbar hellen und
                harten Technik verschmäht, an allen Nerven zu zerren, und das Espressivo, wie die
                Musikanten es nennen, worin die Aufregung des Darstellers den Wert der Darstellung
                übertreiben soll, überall zu dämpfen weiß, vielleicht doch auch, weil es dem Dichter
                wichtig geworden ist, sich zu schonen, weil er jetzt den Stolz hat, sich zu
                verwahren, weil er sich nicht mehr in einer einzigen Wirkung verknattern und
-               verpuffen will. Ist es aber vielleicht nur ein Zufall, wenn <persName key="A002202">Hauptmann</persName> und <persName key="A002001">Schnitzler</persName> jetzt die
-               stimulierende Kunst der Konvulsionen verlassen, so hat <persName key="A002354">Nietzsche</persName> dies bewußt verlangt. <hyphenation alt="{[}\dots{]}">Sein ganzer Haß gegen
+               verpuffen will. Ist es aber vielleicht nur ein Zufall, wenn <persName key="A002202"
+                  >Hauptmann</persName> und <persName key="A002001">Schnitzler</persName> jetzt die
+               stimulierende Kunst der Konvulsionen verlassen, so hat <persName key="A002354"
+                  >Nietzsche</persName> dies bewußt verlangt. Sein ganzer Haß gegen
                   <persName key="A002201">Wagner</persName> geht nur auf die Kunst aus Affekt und als er mit ihm
                rang, war es der Zorn über sie, der ihn so grausam sich erbittern ließ. Er muß an
                dem, wie er einmal sagt: <rs type="work" key="A021378">gemischten unreinen Charakter der Künstler</rs> furchtbar
@@ -181,14 +181,9 @@
                solchen Preis von Menschenseelen zahlen muß.</rs> In dieser Stimmung sagt er, mißtrauisch
                      gegen<pb/> jeden Exceß geworden, der den schaffenden Menschen verstört: <rs type="work" key="A021378">Alles
                Ausgezeichnete hat mittlere Natur.</rs> Und als hätte er mit uns die
-                     <placeName key="A000500">
-                            <country>griechische</country>
-                        </placeName> Warnung vor dem Marsyas
-                     vernommen, einmal geradezu: <rs type="work" key="A021378">Der starke freie Mensch ist Nicht-Künstler.</rs>
-                    </hyphenation>«</p>
-            <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                     <placeName key="A000500"><country>griechische</country></placeName> Warnung vor dem Marsyas
+                     vernommen, einmal geradezu: <rs type="work" key="A021378">Der starke freie Mensch ist Nicht-Künstler.</rs>«</p>
+            <p><gap reason="outOfScope"/></p>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041010">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -92,11 +91,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
@@ -109,20 +104,13 @@
   <text type="card">
       <body>
          <div type="writingSession" n="1">       
-            <p>
-                    <salute>Lieber Hermann, </salute>auf regulärem Weg bekomm ich an der Kasse nichts ordentliches
+            <p><salute>Lieber Hermann, </salute>auf regulärem Weg bekomm ich an der Kasse nichts ordentliches
           mehr fürs <workName key="A020005">Tschapperl</workName>. Kann ich durch deine Protektion einen
           guten Sitz (am<pb/> liebsten Orchester 1. Reihe) angewiesen erhalten? Thätest mir
           einen großen Gefallen.</p>
-            <closer>Herzlich dein <signed>ArthSchn</signed>
-                </closer>
+            <closer>Herzlich dein <signed>ArthSchn</signed></closer>
             <postscript>
-               <p>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
-                        <space unit="chars" quantity="1"/>
-                        <date>26. 2. 97</date>.</p>
+               <p><placeName key="A000250"><settlement>Wien</settlement></placeName><space unit="chars" quantity="1"/><date>26. 2. 97</date>.</p>
             </postscript>
          </div>
       </body>

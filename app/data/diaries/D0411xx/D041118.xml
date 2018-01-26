@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041118">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,13 +65,9 @@
    <text type="diaryDay">
       <body>
         <div type="writingSession" n="1">
-            <p>
-                    <date when="18941017" n="01">17/10</date> Bei der <anchor type="commentary" xml:id="KD118-2">
-                        <workName key="A020289">Schmetterlingsschlacht</workName>
-                    </anchor>.–
+            <p><date when="18941017" n="01">17/10</date> Bei der <anchor type="commentary" xml:id="KD118-2" ><workName key="A020289">Schmetterlingsschlacht</workName></anchor>.–
           Schlechtes Stück. <persName key="A002002">Bahr</persName> ist ein unehrlicher Kritiker.– Die heutigen Kritiken über
-          <anchor type="commentary" xml:id="KD118-1">
-                        <rs type="work" key="A020293">
+          <anchor type="commentary" xml:id="KD118-1" ><rs type="work" key="A020293">
                   <persName key="A002543">Triesch</persName>
                </rs> Skandal</anchor>.</p>
         </div>

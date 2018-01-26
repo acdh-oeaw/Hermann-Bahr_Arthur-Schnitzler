@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041215">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18971116" n="01">16. 11. 1897</date>
                </dateSender>
@@ -70,18 +65,14 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>).</p>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »›<orgName key="A080011">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName key="A002607">I. Singer</persName>, / Hermann Bahr, Dr. <persName key="A002661">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"><placeName key="A000250">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName key="A000497">IX/3, Günthergasse 1</placeName>.«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151204">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -95,19 +86,14 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>16. Nov. 7</date>
-                    </dateline>
-               <salute rend="center">Lieber Arthur!</salute>
-                </opener>
+               <dateline rend="right"><date>16. Nov. 7</date></dateline>
+               <salute rend="center">Lieber Arthur!</salute></opener>
             <p>Darf ich Dich bitten, ein Exemplar des 
-                  <orgName key="A080009">Cosmopolis</orgName>
+                  <orgName  key="A080009">Cosmopolis</orgName>
                 mit Deiner <rs type="work" key="A020007">Novelle</rs>
         an Herrn <persName key="A002025">Ignaz Kugel</persName>, <placeName key="A000705">Lindengasse 11</placeName> zu senden, 
         damit er es der Polizei vorlegt? Du kriegst es dann wieder zurück.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

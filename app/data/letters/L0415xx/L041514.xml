@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041514">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -53,9 +52,7 @@
                   <placeName key="A000250">Wien</placeName>
                </placeSender>      
                
-                    <placeAddressee>
-                        <placeName key="A000968">Caslau/Čáslav</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000968">Caslau/Čáslav</placeName></placeAddressee>
                     <dateSender>
                         <date when="18950622" n="01">22. 6. 1895</date>
                     </dateSender>
@@ -74,12 +71,7 @@
                                 <idno>Yale Collection of German Literature, MSSS 31 Box 1f.</idno>
                             </msIdentifier>
                             <physDesc>
-                                <p>eh. Brief mit Umschlag, 2 Bl., 7 S., Bleistift. Auf dem Kuvert Adresse von unbek. Hand mit Tinte: »<quote>Herrn k<supplied>.</supplied>u.k. u. a. Lieutenant / <hi rend="latintype">Dr. Richard Beer-Hofmann</hi>
-                                    </quote>«, eine weitere Hand ergänzt »<quote>im k.k. Landw. Inf.-Regmt / <hi rend="latintype">
-                                            <placeName key="A000968">
-                                                <settlement>Caslau</settlement>
-                                            </placeName> Nr 12.</hi>«</quote>
-                                </p>
+                                <p>eh. Brief mit Umschlag, 2 Bl., 7 S., Bleistift. Auf dem Kuvert Adresse von unbek. Hand mit Tinte: »<quote>Herrn k<supplied>.</supplied>u.k. u. a. Lieutenant / <hi rend="latintype">Dr. Richard Beer-Hofmann</hi></quote>«, eine weitere Hand ergänzt »<quote>im k.k. Landw. Inf.-Regmt / <hi rend="latintype"><placeName key="A000968"><settlement>Caslau</settlement></placeName> Nr 12.</hi>«</quote></p>
                                 <stamp n="1">
                                     <placeName key="A000251">Wien <supplied>1</supplied>/1</placeName>
                                     <date when="18950622">22. <supplied>6</supplied>. 95</date>
@@ -109,11 +101,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
             <change who="KI MAM" when="20160818">Absätze über Bahr kollationiert am Faksimile</change>
@@ -122,16 +110,11 @@
     <text type="letter">
         <body>
             <div type="writingSession" n="1">
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
-                <p>Den »<workName key="A020127">alten Dichter</workName>« werd ich dem <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName> für die <orgName key="A080011">Zeit</orgName> geben, wenn er ihn bringen will. Im Prinzip ist
+                <p><gap reason="outOfScope"/></p>
+                <p>Den »<workName key="A020127">alten Dichter</workName>« werd ich dem <persName key="A002002"><hi rend="latintype">Bahr</hi></persName> für die <orgName
+                        key="A080011">Zeit</orgName> geben, wenn er ihn bringen will. Im Prinzip ist
                     er ein<pb/>verstanden.</p>
-                <p>
-                    <gap reason="outOfScope"/>
-                </p>
+                <p><gap reason="outOfScope"/></p>
             </div>
         </body>
     </text>

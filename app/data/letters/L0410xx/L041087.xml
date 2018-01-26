@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041087">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19051013" n="3">13. 10. 1905</date>
                </dateSender>
@@ -70,13 +67,12 @@
                         <idno>HS AM 60177 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Karte, gedruckter Kopf: <placeName key="A000333">Spoettelgasse 7</placeName> (a)  (<ptr target="bkspoettela"/>).</p>
+                        <p>eh. Karte, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="A000333">Wien, XIII. Spoettelgasse 7</placeName>.«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19051013">13. 10. 1905</date>
                   <respStmt>Abschrift</respStmt>
@@ -89,22 +85,16 @@
                   <biblScope unit="pp">93</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170515">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM60177Ba"/>  
      <graphic url="HS_AM60177Ba_R"/>
   </facsimile>
@@ -112,28 +102,17 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>13. X. 905</date>
-                    </dateline>
+               <dateline rend="right"><date>13. X. 905</date></dateline>
             </opener>
-            <p>
-                    <salute>eben, lieber Hermann, </salute>kommt der <workName key="A020044">
-                        <hi rend="latintype">Klub</hi> der Erlöser</workName>, und dazu, zum 2. Mal, der <hi rend="latintype">
-                        <workName key="A020091">arme
-          Narr</workName>
-                    </hi>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1">merkwürdigsten Produkte</anchor>
-          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole">
-                        <supplied>e</supplied>
-                    </damage>inem ganz voll tönenden Drama auf dem Theater<pb/> sehen
-          möchte, das aber natürlich auch von <damage agent="hole">
-                        <supplied>dir</supplied>
-                    </damage> sein müßte,
+            <p><salute>eben, lieber Hermann, </salute>kommt der <workName key="A020044"><hi rend="latintype">Klub</hi> der Erlöser</workName>, und dazu, zum 2. Mal, der <hi rend="latintype"><workName key="A020091">arme
+          Narr</workName></hi>, den ich also schon gelesen, der mir eines deiner <anchor type="label" xml:id="LL087-1" >merkwürdigsten Produkte</anchor>
+          zu sein scheint, und den ich am liebsten als eine Art von Vorspiel zu <damage agent="hole"><supplied>e</supplied></damage>inem ganz voll tönenden Drama auf dem Theater<pb/> sehen
+          möchte, das aber natürlich auch von <damage agent="hole"><supplied>dir</supplied></damage> sein müßte,
           und zu dem mir alle Elemente in geheimnisvoller Weise schon in diesem seltsamen
           Akt zu liegen scheinen.</p>
-            <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" key="A020092">deine lieben Worte</rs> in der <orgName key="A080153">Volkszeitg</orgName> die Hand
+            <p>Darf ich dir bei dieser Gelegenheit gleich für <rs type="work" key="A020092">deine lieben Worte</rs> in der <orgName  key="A080153">Volkszeitg</orgName> die Hand
           drücken?</p>
-            <p>
-                    <anchor type="commentary" xml:id="KL087-1">Sonntag oder Montag</anchor> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
+            <p><anchor type="commentary" xml:id="KL087-1" >Sonntag oder Montag</anchor> fahr ich fort, auf einige Tage nur, dann auf Wiedersehen.</p>
             <closer>Von Herzen dein <signed>A.</signed>
             </closer>
          </div>

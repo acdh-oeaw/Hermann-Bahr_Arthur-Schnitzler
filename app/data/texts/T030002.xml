@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030002">
   <teiHeader type="text">
       <fileDesc>
@@ -18,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                      <settlement>Wien</settlement>
-                        </placeName> 
+                      <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -70,19 +70,14 @@
                      <title level="m">Gesammelte Werke</title>
                      <imprint>
                         <pubPlace>Frankfurt am Main</pubPlace>
-                        <publisher>S. Fischer</publisher>
+                        <publisher>S.&#160;Fischer</publisher>
                         <date when="1967">1961–1977</date>
                      </imprint>
                   </monogr>   
                </biblStruct>
             </listBibl>
          </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      </fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
 			      <change when="20151113" who="MAM">Angelegt</change>
          <change when="20160427" who="MAM">Kollationiert am Original</change>
@@ -91,17 +86,12 @@
   <text type="manuscript">
       <body>
          <div>
-            <seg rend="right">
-                    <date when="18910506" n="1">6/V. 91</date>.</seg>
-            <p>Die <anchor type="commentary" xml:id="KT002-1">Landpartie</anchor> der Naturalisten. – Der geistreiche Fremde kommt.<anchor type="textConst" xml:id="TT002-1">
-                        <hi rend="superscript">·)</hi>
-                    </anchor> »Macht
+            <seg rend="right"><date when="18910506" n="1">6/V. 91</date>.</seg>
+            <p>Die <anchor type="commentary" xml:id="KT002-1" >Landpartie</anchor> der Naturalisten. – Der geistreiche Fremde kommt.<anchor
+                  type="textConst" xml:id="TT002-1"><hi rend="superscript">·)</hi></anchor> »Macht
                ihr denn nie Ausflüge mit Mädeln?« Wie sie sich nun möglichst rasch Jeder eine
-               <anchor type="label" xml:id="LT002-1">Geliebte verschaffen</anchor>.</p>
-            <p>
-                    <handShift/>·) Bezog sich auf das Eintreffen <persName key="A002002">Bahr</persName>’s in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>.– <date when="19101230">30/12 10</date>
+               <anchor type="label" xml:id="LT002-1" >Geliebte verschaffen</anchor>.</p>
+            <p><handShift/>·) Bezog sich auf das Eintreffen <persName key="A002002">Bahr</persName>’s in <placeName key="A000250"><settlement>Wien</settlement></placeName>.– <date when="19101230">30/12 10</date>
                
             </p> 
          </div>

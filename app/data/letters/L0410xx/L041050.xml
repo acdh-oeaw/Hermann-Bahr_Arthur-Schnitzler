@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041050">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19020713" n="01">13. 7. 1902</date>
                </dateSender>
@@ -76,8 +71,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19020713">13. 7. 1902</date>
                   
@@ -90,22 +84,16 @@
                   <biblScope unit="pp">76</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170508">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23352Ba"/>   
+  </teiHeader><facsimile>       <graphic url="HS_AM23352Ba"/>   
      <graphic url="HS_AM23352Ba_R"/>  </facsimile>
   <text type="letter">
       <body>
@@ -118,12 +106,10 @@
           falls du irgendwelchen spez. Wunsch hättest, gefällig zu sein. Ich habe jetzt,
           wohl auch in deinem Sinn geantwortet, dss ich keinerlei Anlass u Neigung habe
           mich um das Einkommen<pb/> von anderen Leuten zu kümmern u deshalb <hi rend="latintype">etc etc.</hi> –</p>
-            <closer>Auf baldg Wiedersehn,<lb/>herzlichst dein<lb/>
-                    <signed>Arthur</signed>
+            <closer>Auf baldg Wiedersehn,<lb/>herzlichst dein<lb/><signed>Arthur</signed>
         </closer>
             <postscript>
-               <p>
-                        <date>13. 7.
+               <p><date>13. 7.
          902</date>
                </p>
             </postscript>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041617">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000849">Bad Nauheim</placeName>
-                    </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000849">Bad Nauheim</placeName></placeSender>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19090710" n="1">10. 7. 1909</date>
                </dateSender>
@@ -70,19 +65,14 @@
                         <idno>HS AM 16026 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote>
-                                        <placeName key="A000933">HÔTEL HOHENZOLLERN. / BAD NAUHEIM</placeName>,</quote>«</p>
+                        <p>eh. Brief, 1 Bl., 1 S., Lateinschrift, gedruckter Kopf: »<quote><placeName key="A000933">HÔTEL HOHENZOLLERN. / BAD NAUHEIM</placeName>,</quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20160620">Angelegt</change>
          <change who="KI MAM" when="20160624">Kollationiert</change>
@@ -92,17 +82,12 @@
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>10. 7. 09</date>
-                    </dateline>
+               <dateline rend="right"><date>10. 7. 09</date></dateline>
             </opener>
-            <p>
-                    <salute>Danke schön, lieber Herr Bahr, </salute>für Ihr Telegramm. Diese
-               »<anchor type="commentary" xml:id="KL617-1">
-                        <rs type="org" key="A080034">Auszeichnung</rs>
-                    </anchor>«, von der ich übrigens nur aus den Blättern bisher weiss, ist eine
+            <p><salute>Danke schön, lieber Herr Bahr, </salute>für Ihr Telegramm. Diese
+               »<anchor type="commentary" xml:id="KL617-1" ><rs type="org" key="A080034">Auszeichnung</rs></anchor>«, von der ich übrigens nur aus den Blättern bisher weiss, ist eine
                Attake von <persName key="A002204">Björn Björnson</persName>, und ich bin sehr gerührt, dass Sie
-               »Demokrat« mir, nichts weniger als »ruppig«, dazu sogar gratuliren. Nun lassen <hi rend="underline" n="1">Sie</hi> sich aber auch die <anchor type="commentary" xml:id="KL617-2">Hand schütteln, und das herzlich, zu der neu
+               »Demokrat« mir, nichts weniger als »ruppig«, dazu sogar gratuliren. Nun lassen <hi rend="underline" n="1">Sie</hi> sich aber auch die <anchor type="commentary" xml:id="KL617-2" >Hand schütteln, und das herzlich, zu der neu
                entstehenden Leben<subst>
                   <del rend="overwritten">
                      <gap quantity="1" unit="chars" reason="illegible"/>
@@ -110,16 +95,12 @@
                   <add place="inline">s</add>
                </subst>ordnung bei Ihnen, von der die Blätter mir erzählt haben</anchor>! Und
                empfehlen Sie mich aufs Schönste Frl. <persName key="A002080">v. Mildenburg</persName>, bitte.</p>
-            <p>
-                    <persName key="A002001">Schnitzler</persName> ist es auch angenehm, mit Ihnen zusammen zu marschiren, und er bittet, das
+            <p><persName key="A002001">Schnitzler</persName> ist es auch angenehm, mit Ihnen zusammen zu marschiren, und er bittet, das
                   <rs type="work" key="A020057">Stück</rs> lesen zu dürfen. Kann ich’s ihm schicken? Nächstens dann
                mehr. Bestens Ihr</p>
-            <closer>
-                    <signed>OBrahm</signed>
-                </closer>
+            <closer><signed>OBrahm</signed></closer>
             <postscript>
-               <p>
-                        <anchor type="textConst" xml:id="TL617-1">In Sachen <persName key="A002145">Ritscher</persName> kann ich augenblicklich nichts sagen. Das Frl. mag sich im Herbst, wenn <subst>
+               <p><anchor type="textConst" xml:id="TL617-1" >In Sachen <persName key="A002145">Ritscher</persName> kann ich augenblicklich nichts sagen. Das Frl. mag sich im Herbst, wenn <subst>
                      <del rend="overwritten">
                         <gap quantity="1" reason="illegible" unit="chars"/>
                      </del>

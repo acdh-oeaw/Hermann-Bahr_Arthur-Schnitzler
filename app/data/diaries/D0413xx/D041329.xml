@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041329">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -58,11 +57,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -70,16 +65,13 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19190403" n="1">3/4</date> Vm. bei <persName key="A002212">Gustav</persName>
+            <p><date when="19190403" n="1">3/4</date> Vm. bei <persName key="A002212">Gustav</persName>
         (Mein Briefwechsel mit <persName key="A002416">Kramer</persName>; Nahrungsfragen),
                bei Dr. <persName key="A002036">Geiringer</persName>, über Filmvertrag und
         Steuerfragen.–</p>
             <p>Nm. am <workName key="A020429">Weiher</workName>. Ohne Concentration, wie fast immer.– Stets das Gefühl, als 
 hätt ich irgend eine Entscheidung abzuwarten, eh ich mit Ernst dran gehe.–</p>
-            <p>Lese <persName key="A002002">Bahr</persName>’s »<anchor type="commentary" xml:id="KD329-1">
-                        <workName key="A020352">Rotte Korahs</workName>
-                    </anchor>«. Unleidlich.</p>
+            <p>Lese <persName key="A002002">Bahr</persName>’s »<anchor type="commentary" xml:id="KD329-1" ><workName key="A020352">Rotte Korahs</workName></anchor>«. Unleidlich.</p>
          </div> 
       </body>
    </text>

@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030069">
     <teiHeader type="text">
         <fileDesc>
@@ -18,8 +19,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -60,22 +60,16 @@
                 </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="KI MAM" when="20160112">angelegt</change>
         </revisionDesc>
     </teiHeader>
    <text type="text">
       <body>
-        <div type="writingSession" n="1">
-            <p>
-                    <workName key="A020351">Rahl</workName> an:</p>
-            <p>
-                    <handShift scribe="A002719"/>
+        <div type="writingSession" n="1" >
+            <p><workName key="A020351">Rahl</workName> an:</p>
+            <p><handShift scribe="A002719"/>
                <del rend="strikethrough">
                   <persName key="A002747">Benedikt</persName>
                </del>, <del rend="strikethrough">
@@ -84,9 +78,7 @@
                   <persName key="A002067">Singer</persName>
                </del>, <del rend="strikethrough" n="2">
                   <persName key="A002040">Pötzl</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">Nein</add>, <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><add place="above">Nein</add>, <del rend="strikethrough">
                   <persName key="A003245">Zweybrück</persName>
                </del>, <del rend="strikethrough">
                   <persName key="A002372">Hevesi</persName>
@@ -97,93 +89,68 @@
                   <persName key="A002290">Grossmann</persName>
                </del>, <del rend="strikethrough">
                   <persName key="A003320">Jakobsen</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <add place="below">
+               </del><space unit="chars" quantity="1"/><add place="below">
                   <handShift scribe="A002002"/>Statt seiner an <persName key="A003095">Tann-Bergler</persName>
                         geschickt</add>.</p>
-            <p>
-                    <handShift scribe="A002719"/>
+            <p><handShift scribe="A002719"/>
                <del rend="strikethrough">
                   <persName key="A002310">Görner</persName>
                </del>, <del rend="strikethrough">
                   <persName key="A003313">Freysauff</persName>
                </del>.</p>
-            <p>
-                    <handShift scribe="A002002"/>
+            <p><handShift scribe="A002002"/>
                <del rend="strikethrough">
                   <persName key="A002034">Baron Berger</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
+               </del><space unit="chars" quantity="1"/>
                <add place="below">
                   <del rend="strikethrough">
                      <persName key="A003501">Schickele</persName>
                   </del>
-               </add>
-                    <space unit="chars" quantity="7"/>
+               </add><space unit="chars" quantity="7"/>
                <del rend="strikethrough">
                   <persName key="A002035">Salten</persName>
                </del>
             </p>
-            <p>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
                   <unclear>
                      <persName key="A003320" cert="low">Jacobson</persName>
                   </unclear>
-               </del>
-                    <space unit="chars" quantity="7"/>
+               </del><space unit="chars" quantity="7"/>
                <del rend="strikethrough">
                   <persName key="A002364">Siegfried Löwy</persName>
                </del>
             </p>
-            <p>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
                   <persName key="A002839">Theodor Wolff</persName>
                </del>
             </p>
-            <p>
-                    <persName key="A004035">Schröder</persName>
-                    <space unit="chars" quantity="7"/>
+            <p><persName key="A004035">Schröder</persName><space unit="chars" quantity="7"/>
                <del rend="strikethrough">
                   <persName key="A002255">Auernheimer</persName>
                </del>
             </p>
-            <p>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
                   <persName key="A002669">Epstein</persName>
                </del>
             </p>
-            <p>
-                    <persName key="A002020">Fischer</persName> soll gleich an <persName key="A003320">Jacobsohn</persName>
+            <p><persName key="A002020">Fischer</persName> soll gleich an <persName key="A003320">Jacobsohn</persName>
             </p>
-            <p>
-                    <persName key="A002435">Kerr</persName>
+            <p><persName key="A002435">Kerr</persName>
             </p>
-            <p>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
                   <persName key="A002090">Handl</persName>
                </del>
             </p>
-            <p>
-                    <del rend="strikethrough">
+            <p><del rend="strikethrough">
                   <gap quantity="10" reason="illegible" unit="chars"/>
-               </del>
-                    <pb/>
-                </p>
-                <p>
+               </del><pb/></p><p>
                <del rend="strikethrough">
                   <persName key="A002089">Fred</persName>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+               </del><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <persName key="A002282">Orlik</persName>
                </del>
             </p>
-           <p>In <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="underline" n="1">selbst</hi> bei <persName key="A002020">Fischer</persName> Widmungen einschreiben an
+           <p  >In <placeName key="A000368"><settlement>Berlin</settlement></placeName><space unit="chars" quantity="1"/><hi rend="underline" n="1">selbst</hi> bei <persName key="A002020">Fischer</persName> Widmungen einschreiben an
                 <del rend="strikethrough">
                   <persName key="A002000">Burckhard</persName>
                </del>, <del rend="strikethrough">
@@ -200,13 +167,7 @@
                </del>, <del rend="strikethrough">
                   <persName key="A002035">Salten</persName>
                </del>,
-              <persName key="A003108">
-                        <del rend="strikethrough">Josef</del>
-                        <del rend="strikethrough">
-                            <space unit="chars" quantity="1"/>
-                        </del>
-                        <del rend="strikethrough">Redlich</del>
-                    </persName>, <del rend="strikethrough">
+              <persName key="A003108"><del rend="strikethrough">Josef</del><del rend="strikethrough"><space unit="chars" quantity="1"/></del><del rend="strikethrough">Redlich</del></persName>, <del rend="strikethrough">
                   <persName key="A003385">Levin</persName>
                </del>,
                 <del rend="strikethrough">
@@ -227,42 +188,19 @@
                   <persName key="A002078">Reinhard</persName>
                </del>, 
                 <persName key="A002229">Holländer</persName>, 
-              <persName key="A002473">
-                        <del rend="strikethrough">Kvapil</del>
-                        <del rend="strikethrough">
-                            <space unit="chars" quantity="1"/>
-                        </del>
-                        <del rend="strikethrough">Jaroslav</del>
-                    </persName>,
+              <persName key="A002473"><del rend="strikethrough">Kvapil</del><del rend="strikethrough"><space unit="chars" quantity="1"/></del><del rend="strikethrough">Jaroslav</del></persName>,
                <persName key="A004054" cert="low">Elsa Bienenstein</persName>, Frau <persName key="A003251">Mennzel</persName> in
                 <placeName key="A000532">
-                   <settlement>Frankfurt</settlement>
-                    </placeName>, <del rend="strikethrough">Frau
-                  Professor </del>
-                    <persName key="A003384">
-                        <del rend="strikethrough">Litzmann</del>
-                    </persName>
-                    <del rend="strikethrough"> in <placeName key="A001114">
-                            <settlement>Bonn</settlement>
-                        </placeName>
+                   <settlement>Frankfurt</settlement></placeName>, <del rend="strikethrough">Frau
+                  Professor </del><persName key="A003384"><del rend="strikethrough">Litzmann</del></persName><del rend="strikethrough"> in <placeName key="A001114"><settlement>Bonn</settlement></placeName>
                </del>, <del rend="strikethrough">
                   <persName key="A002515">Wedekind</persName>
                </del>,
                 <persName key="A002261">Ferdinand Bonn</persName>, <persName key="A003525">Levetzow</persName>, <del rend="strikethrough">
                   <persName key="A003303">J. V. Widmann</persName>
                </del>, 
-            Regierungsrat <persName key="A004033">Kamla</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A001064">
-                        <settlement>Düsseldorf</settlement>
-                    </placeName>,
-            D<hi rend="superscript">r</hi>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002348">Elbogen</persName>
-                    <space unit="chars" quantity="1"/>
-                    <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>,
+            Regierungsrat <persName key="A004033">Kamla</persName><space unit="chars" quantity="1"/><placeName key="A001064"><settlement>Düsseldorf</settlement></placeName>,
+            D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002348">Elbogen</persName><space unit="chars" quantity="1"/><placeName key="A000250"><settlement>Wien</settlement></placeName>,
                 <del rend="strikethrough">
                   <persName key="A003502">Claire Olbrich</persName>
                </del>, <del rend="strikethrough">
@@ -271,19 +209,17 @@
                   <persName key="A003536">Staehelin-Baechtold</persName>
                </del>
             </p>
-                <p>
+                <p >
                <del rend="strikethrough">
                   <persName key="A003227">Anna</persName>
-               </del>
-                    <space unit="chars" quantity="2"/>
+               </del><space unit="chars" quantity="2"/>
                <del rend="strikethrough">
                   <persName key="A002580">Suttner</persName>
                </del> –</p>
                 <p>
                <del rend="strikethrough">
                   <persName key="A003800">Bodmer</persName>
-               </del>
-                    <space unit="chars" quantity="2"/>
+               </del><space unit="chars" quantity="2"/>
                <hi rend="underline" n="1">
                   <persName key="A002657">Holzer</persName>
                </hi>
@@ -292,5 +228,6 @@
         </div>
       </body>
    </text>
-</TEI><!--  am 17. November ist er in Berlin, und
+</TEI>
+<!--  am 17. November ist er in Berlin, und
 am 22. liest Schnitzler das Buch-->

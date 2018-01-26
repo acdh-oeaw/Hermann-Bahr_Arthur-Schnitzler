@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041613">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -52,9 +51,7 @@
                  <placeSender>
                   <placeName key="A000230">[Salzburg]</placeName>
                  </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19130531" n="01">[Ende Mai 1913]</date>
                     </dateSender>
@@ -68,7 +65,7 @@
                             <editor>Hg.  Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
                             <imprint>
                                 <pubPlace>Frankfurt am Main</pubPlace>
-                                <publisher>S. Fischer</publisher>
+                                <publisher>S.&#160;Fischer</publisher>
                                 <date when="1989">1987</date>
                             </imprint>
                             <biblScope unit="pp">379</biblScope>
@@ -77,11 +74,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160620">Angelegt</change>
          </revisionDesc>
@@ -91,19 +84,14 @@
            
             <div type="writingSession" n="1">
                 
-                <p>
-                    <salute>Verehrter Herr Doktor, </salute> vielen Dank für Ihre guten Worte. Meine
-                            <anchor type="commentary" xml:id="KL613-1">
-                        <rs type="work" key="A021319">
-                  <persName key="A002002">Bahr</persName>-Rede</rs>
-                    </anchor> in der
-                        <orgName key="A080099">N. F. P.</orgName> war stark frisiert und geschoren, ich hoffe,
+                <p><salute>Verehrter Herr Doktor, </salute> vielen Dank für Ihre guten Worte. Meine
+                            <anchor type="commentary" xml:id="KL613-1" ><rs type="work" key="A021319">
+                  <persName key="A002002">Bahr</persName>-Rede</rs></anchor> in der
+                        <orgName  key="A080099">N. F. P.</orgName> war stark frisiert und geschoren, ich hoffe,
                     dass sie in Wirklichkeit intensiver war und mehr von seinem Rytmus<!--sic!-->
                     hatte. Ich würde mich sehr freuen, Sie im Juli sehen zu dürfen und wünsche Ihnen
                     inzwischen für Ihre Fahrt alles Schöne. Ihr ergebener</p>
-                <closer>
-                    <signed>Stefan Zweig</signed>
-                </closer>
+                <closer><signed>Stefan Zweig</signed></closer>
             </div>
         </body>
     </text>

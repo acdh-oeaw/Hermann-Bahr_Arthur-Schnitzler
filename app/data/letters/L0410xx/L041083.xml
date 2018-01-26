@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041083">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -49,12 +48,8 @@
                <addressee full="yes">
                   <persName key="A002002">Bahr, Hermann</persName>
                </addressee>
-               <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19050921" n="01">21. 9. 1905</date>
                </dateSender>
@@ -75,8 +70,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19050921">21. 9. 1905</date>
                   
@@ -89,61 +83,38 @@
                   <biblScope unit="pp">91–92</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23372Ba"/>
-     <graphic url="HS_AM23372Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM23372Ba"/>
+     <graphic url="HS_AM23372Ba_R"/></facsimile>
   <text type="letter">
       <body>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>21. 9. 905</date>
-                    </dateline>
+               <dateline rend="right"><date>21. 9. 905</date></dateline>
                <salute>lieber Hermann, </salute>
             </opener>
-            <p>alles zugegeben, und das <anchor type="commentary" xml:id="KL083-1">
-                        <hi rend="latintype">Epitheton</hi>
-                    </anchor> reizend als allzu freundlich
+            <p>alles zugegeben, und das <anchor type="commentary" xml:id="KL083-1" ><hi rend="latintype">Epitheton</hi></anchor> reizend als allzu freundlich
           empfunden: nur den <rs type="work" key="A020042">Fürsten</rs> geb ich dir nicht
           so ohne weiteres preis. Ich weiss <unclear>zu</unclear> gut, dss diese Art, von
           der ich einen zu schildern versucht, nicht die Regel ist – aber gerade dss er
-          eine Ausnahme unter denen seines Standes ist, bildet für<pb/>
-                    <space unit="chars" quantity="1"/>
-                    <hi rend="latintype">
-                  <rs type="work" key="A020042">Caecilie</rs>
-                    </hi>
+          eine Ausnahme unter denen seines Standes ist, bildet für<pb/><space unit="chars" quantity="1"/><hi rend="latintype">
+                  <rs type="work" key="A020042">Caecilie</rs></hi>
           wahrscheinlich einen Charme mehr. Ich hatte früher ein paar Stellen im Dialog,
           die ich als überdeutlich eliminirte, und in denen auf den tiefen
-          Wesensunterschied zwischen Menschen à la <hi rend="latintype">
-                        <rs type="work" key="A020042">Amadeus</rs>
-                    </hi> und solchen à la <hi rend="latintype">
-                        <rs type="work" key="A020042">Sigismund</rs>
-                    </hi> 
-               eingegangen <del rend="strikethrough">wird</del> und dieses »Anderssein« <add place="below">des <hi rend="latintype">Sigism.</hi>
-                    </add> als Motiv für <hi rend="latintype">
-                        <rs type="work" key="A020042">Caeciliens</rs>
-                    </hi> Hinüberschwanken <subst>
+          Wesensunterschied zwischen Menschen à la <hi rend="latintype"><rs type="work" key="A020042">Amadeus</rs></hi> und solchen à la <hi rend="latintype"><rs type="work" key="A020042">Sigismund</rs></hi> 
+               eingegangen <del rend="strikethrough">wird</del> und dieses »Anderssein« <add place="below">des <hi rend="latintype">Sigism.</hi></add> als Motiv für <hi rend="latintype"><rs type="work" key="A020042">Caeciliens</rs></hi> Hinüberschwanken <subst>
                   <del rend="strikethrough">verwendet</del>
                   <add place="above">ausgesprochen</add>
                </subst> wurde.–</p>
-            <p>– <anchor type="commentary" xml:id="KL083-2">Morgen fahren <rs type="person" key="A002038">wir</rs> auf ein paar Tage fort</anchor> (<placeName key="A000389">
-                        <settlement>Semmering</settlement>
-                    </placeName>,<pb/> ev. weiter) – sobald ich
+            <p>– <anchor type="commentary" xml:id="KL083-2" >Morgen fahren <rs type="person" key="A002038">wir</rs> auf ein paar Tage fort</anchor> (<placeName key="A000389"><settlement>Semmering</settlement></placeName>,<pb/> ev. weiter) – sobald ich
           zurück <subst>
                   <del rend="strikethrough">komme</del>
                   <add place="above">bin</add>

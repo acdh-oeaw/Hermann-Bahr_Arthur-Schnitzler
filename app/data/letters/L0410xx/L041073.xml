@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041073">
   <teiHeader type="text">
@@ -22,8 +22,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -78,8 +77,7 @@
                         <idno>HS AM 61743 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte: »<quote>
-                                        <placeName key="A001025">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangsee</placeName>. Panorama von der Hotelterrasse aus</quote>«, sechs Verfasser, Bleistift</p>
+                        <p>eh. Ansichtskarte: »<quote><placeName key="A001025">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangsee</placeName>. Panorama von der Hotelterrasse aus</quote>«, sechs Verfasser, Bleistift</p>
                         <stamp n="1">
                            <placeName key="A000233">St. Gilgen</placeName>
                         </stamp>
@@ -89,16 +87,11 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20151001">Kollationiert</change>
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="missing_TMW"/>     
   </facsimile>
   <text type="card">
@@ -106,8 +99,7 @@
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="latintype">Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Hermann Bahr</hi></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <subst>
@@ -115,52 +107,29 @@
                         <add place="margin">Wien XIII<hi rend="subscript">7</hi>
                         </add>
                      </subst>
-                  </hi>
-                        <space unit="chars" quantity="1"/>
-                        <placeName key="A000365">Ob St Veit</placeName>
-                    </addrLine>
+                  </hi><space unit="chars" quantity="1"/><placeName key="A000365">Ob St Veit</placeName></addrLine>
                <addrLine>
-                  <placeName key="A000420">Veitlissengasse</placeName>
-                    </addrLine>
+                  <placeName key="A000420">Veitlissengasse</placeName></addrLine>
             </address>
          </div>
-         <div type="writingSession" n="1">
+         <div type="writingSession" n="1" >
             <p>Herzliche Grüße <signed>Arthur</signed>
             </p>
-            <p>
-                    <handShift scribe="A002038"/>
-                    <signed>
-                        <persName key="A002038">Olga S.</persName>
-                    </signed>
+            <p><handShift scribe="A002038"/><signed><persName key="A002038">Olga S.</persName></signed>
             </p>
-            <p>
-                    <handShift scribe="A002139"/>
-               <signed>D<hi rend="superscript">r</hi>
-                        <space unit="chars" quantity="1"/>
-                        <persName key="A002139">Hofmannsthal sen.</persName>
-                    </signed>
+            <p><handShift scribe="A002139"/>
+               <signed>D<hi rend="superscript">r</hi><space unit="chars" quantity="1"/><persName key="A002139">Hofmannsthal sen.</persName></signed>
             </p>
-            <p>
-                    <handShift scribe="A002011"/>
-                  <signed>
-                        <persName key="A002011">Hugo</persName>
-                    </signed>
+            <p><handShift scribe="A002011"/>
+                  <signed><persName key="A002011">Hugo</persName></signed>
             </p>
-            <p>
-                    <handShift scribe="A002001"/>
+            <p><handShift scribe="A002001"/>
                <date when="19040907">7. 9. 904.</date>
             </p>
-            <p>
-                    <handShift scribe="A002000"/>Herzlichst 
-                  <signed>
-                        <persName key="A002000">Burckhard</persName>
-                    </signed>
-                </p>
-            <p>
-                    <handShift scribe="A002134"/>
-                  <signed>
-                        <persName key="A002134">Gerty</persName>
-                    </signed>
+            <p><handShift scribe="A002000"/>Herzlichst 
+                  <signed><persName key="A002000">Burckhard</persName></signed></p>
+            <p><handShift scribe="A002134"/>
+                  <signed><persName key="A002134">Gerty</persName></signed>
             </p>
          </div>
       </body>

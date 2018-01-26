@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041218">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,13 +66,8 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19030621" n="4">21/6</date> S. Vm. bei <persName key="A002002">Bahr</persName>, der mir sein neues Buch »<workName key="A020036">Rezensionen</workName>« gewidmet hatte.– 
-               Über sein und <persName key="A002078">Reinhardts</persName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KD218-1">neues Theater</anchor> in <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> 
+            <p><date when="19030621" n="4">21/6</date> S. Vm. bei <persName key="A002002">Bahr</persName>, der mir sein neues Buch »<workName key="A020036">Rezensionen</workName>« gewidmet hatte.– 
+               Über sein und <persName key="A002078">Reinhardts</persName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KD218-1" >neues Theater</anchor> in <placeName key="A000250"><settlement>Wien</settlement></placeName> 
         (Zukunft); <persName key="A002018">Dilly Sandrock</persName> (Engagement und
                Thorheit, Herr <persName key="A003085">Oesterr.</persName>), über <persName key="A002000">Burckhard</persName> der sich krank fühlt, bei sich Arterioskl.
         vermuthet.– <persName key="A002000">B.</persName> als Hypochonder der das Weltbild

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041697">
   <teiHeader type="text">
@@ -21,8 +21,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -78,11 +77,7 @@
                      <physDesc>
                         <p>eh. Korrespondenzkarte, 4 Verf., Bleistift, bis auf Schnitzlers Gruß in Lateinschrift.</p>
                         <stamp n="1">
-                           <placeName key="A001224">
-                                        <unclear>Brei</unclear>
-                                        <damage>
-                                            <supplied>ten</supplied>
-                                        </damage>furt</placeName>
+                           <placeName key="A001224"><unclear>Brei</unclear><damage><supplied>ten</supplied></damage>furt</placeName>
                            <date when="18980421">21 4 98</date>
                         </stamp>
                         <stamp n="2">
@@ -97,11 +92,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="KI MAM" when="20171109">Kollationiert</change>
       </revisionDesc>
@@ -114,13 +105,8 @@
          <div type="address">
             <address>
                <addrLine>Herrn Hermann Bahr</addrLine>
-           <addrLine>
-                        <placeName key="A000637">IX. Porzellangasse 37</placeName>
-                    </addrLine>
-               <addrLine>
-                        <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>
+           <addrLine><placeName key="A000637">IX. Porzellangasse 37</placeName></addrLine>
+               <addrLine><placeName key="A000250"><settlement>Wien</settlement></placeName>
                </addrLine>
             </address>
          </div>
@@ -129,40 +115,16 @@
                <graphic url="./images/hansschlesinger" width="10cm"/>
             </figure>
          </div>
-         <div type="writingSession" n="1">
-            <p>
-                    <hi rend="underline" n="1">
-                        <placeName key="A001224">
-                            <settlement>Breitenfurth</settlement>
-                        </placeName>
-                    </hi>.</p>
+         <div type="writingSession" n="1" >
+            <p><hi rend="underline" n="1"><placeName key="A001224"><settlement>Breitenfurth</settlement></placeName></hi>.</p>
             <p>Der Dichter ist oft sehr zerstreut</p>
             <p>Was sein Bicycle nicht erfreut</p>
             <p>Die Bremse wohl sehr wichtig ist</p>
-            <p>Weil sonst man in den Graben schießt. <add place="mixed">
-                        <anchor type="commentary" xml:id="KL697-1">
-                            <persName key="A002011">Hugo</persName>
-                        </anchor>
-                    </add>
-                </p>
-            <closer>
-                    <signed>Fritz Schlesinger</signed>
-                </closer>
-            <closer>
-                    <handShift scribe="A003025"/>
-                    <signed>G Franckenste<damage agent="hole">
-                            <supplied>in</supplied>
-                        </damage>
-                    </signed>
-                </closer>
-            <closer>
-                    <handShift scribe="A002134"/>Beneiden Sie uns ein bisserl, ja?<space unit="chars" quantity="5"/>
-                    <signed>Gerty</signed>
-                </closer>
-            <closer>
-                    <handShift scribe="A002001"/>HerzGruss<space unit="chars" quantity="5"/>
-                    <signed>ArthSchnitzler</signed>
-                </closer>
+            <p>Weil sonst man in den Graben schießt. <add place="mixed"><anchor type="commentary" xml:id="KL697-1" ><persName key="A002011">Hugo</persName></anchor></add></p>
+            <closer><signed>Fritz Schlesinger</signed></closer>
+            <closer><handShift scribe="A003025"/><signed>G Franckenste<damage agent="hole"><supplied>in</supplied></damage></signed></closer>
+            <closer><handShift scribe="A002134"/>Beneiden Sie uns ein bisserl, ja?<space unit="chars" quantity="5"/><signed>Gerty</signed></closer>
+            <closer><handShift scribe="A002001"/>HerzGruss<space unit="chars" quantity="5"/><signed>ArthSchnitzler</signed></closer>
          </div>
       </body>
   </text>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041077">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19050123" n="01">23. 1. 1905</date>
                </dateSender>
@@ -75,8 +72,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19050123">23. 1. 1905</date>
                   
@@ -89,22 +85,16 @@
                   <biblScope unit="pp">88</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170509">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       
+  </teiHeader><facsimile>       
      <graphic url="HS_AM23371Ba"/>   
   </facsimile>
   <text type="letter">
@@ -116,16 +106,12 @@
                       <placeName key="A000268">Wien
             XVIII.</placeName>
                   </hi>
-                  <lb/>am <add place="inline">
-                            <date>23/1
-          905</date>
-                        </add>
-                    </dateline>
+                  <lb/>am <add place="inline"><date>23/1
+          905</date></add></dateline>
             </opener>
             <p>leider, <salute>mein lieber Hermann, </salute>hab ich gar nichts rechtes lustiges, kurzes, ungedrucktes, zur Lectüre geeignetes
           – aber sehen möcht ich dich je eher je lieber. Hoffentlich nächste Woche. Und
-          Sonntag hörst du dir wohl auch die <anchor type="commentary" xml:id="KL077-1">
-                        <persName key="A002086">Mahler</persName> Lieder</anchor> an? <rs type="person" key="A002038">Wir</rs> grüßen dich beide.</p>
+          Sonntag hörst du dir wohl auch die <anchor type="commentary" xml:id="KL077-1" ><persName key="A002086">Mahler</persName> Lieder</anchor> an? <rs type="person" key="A002038">Wir</rs> grüßen dich beide.</p>
             <closer>Herzlichst dein<lb/>
                <signed>Arthur</signed>
             </closer>

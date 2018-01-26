@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041361">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -53,9 +52,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18960919" n="01">[19.? 9. 1896]</date>
                </dateSender>
@@ -74,9 +71,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote>
-                                        <date>20? Sept. 96</date>
-                                    </quote>«. 
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: <orgName key="A080011">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von Schnitzler datiert: »<quote><date>20? Sept. 96</date></quote>«. 
                            Zur Datierung siehe die Antwort <persName key="A002001">Schnitzlers</persName>.</p>
                      </physDesc>
                   </msDesc>
@@ -84,11 +79,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="MAM" when="20151125">Angelegt, nach Original. Nicht auf Abschrift</change>
          <change who="KI MAM" when="20151202">Kollationiert</change>
@@ -103,15 +94,12 @@
    <text type="letter">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <salute>Lieber Arthur, </salute>anbei das <anchor type="commentary" xml:id="KL361-1">gewünschte Heft</anchor>, 
+            <p><salute>Lieber Arthur, </salute>anbei das <anchor type="commentary" xml:id="KL361-1">gewünschte Heft</anchor>, 
           das ich mir jedoch bei Gelegenheit zu retournieren bitte, es gehört der Redaction. 
           Bitte, schreib mir die Adresse von 
                   <persName key="A002007">Richard</persName>. Vergiß
         nicht, daß Du mir eine Novelle versprochen hast, groß oder klein,<pb/> aber gewiß!</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>

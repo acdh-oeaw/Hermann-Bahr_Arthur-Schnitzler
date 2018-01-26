@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041537">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002018">Sandrock, Adele</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18941216" n="2">[16. 12. 1894]</date>
                     </dateSender>
@@ -93,11 +88,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160411">Angelegt</change>
             <change who="MAM" when="20160427">Kollationiert in Marbach</change>
@@ -111,11 +102,9 @@
                     
                     <salute>Meine liebe Dilly,</salute>
                 </opener>
-                <p output="true">Lehre aus dem allem: Keine Komödie spielen, besonders keine so dumme. Wärst Du
+                <p >Lehre aus dem allem: Keine Komödie spielen, besonders keine so dumme. Wärst Du
                     nie in deinem Leben bei der 
-                    <persName key="A002569">
-                        <hi rend="latintype">Marberg</hi>
-                    </persName>
+                    <persName key="A002569"><hi rend="latintype">Marberg</hi></persName>
                 gewesen, so hättest du
                     ja vielleicht eine Spur von Recht zu dem was du mir sagst – warum aber soll mir
                     dein Besuch bei ihr unwahrscheinlich vorkommen, da du<pb/> ja schon dort warst –
@@ -124,28 +113,22 @@
                     verbiete, konntest du längst wissen – das hat mit der Liebe gar nichts zu thun –
                     im Moment wo man was <hi rend="underline" n="1">verbieten</hi> muss – soll man es lieber
                     erlauben.</p>
-                <p output="true">Was ich mir dachte, wie du mir zuerst schriebst (nachdem wir ein
+                <p >Was ich mir dachte, wie du mir zuerst schriebst (nachdem wir ein
                     Rendezvous für ½ 8 ver<pb/>abredet!) dass du aufs Land fährst und 10 zurückkommst –
                     dann telephonirtest: bin bei der <persName key="A002569">M</persName> – und gar erst wie ich
                     erfuhr, dass du gemütlich, dich sehr gut unterhaltend im Theater gewesen – was
                     ich mir dabei dachte, kannst du ja ungefähr aus dem Ton meines ersten Briefs von<pb/> heut Mittag ersehn.</p>
-                <p output="true">– Lass dir ein andermal von 
-                    <persName key="A002002">
-                        <hi rend="latintype">Hermann</hi>
-                    </persName>
+                <p >– Lass dir ein andermal von 
+                    <persName key="A002002"><hi rend="latintype">Hermann</hi></persName>
                 keine Rathschläge in
                     Liebesaffairen geben – <subst>
                         <del rend="overwritten">
                      <unclear>was</unclear>
                   </del>
                         <add place="inline">mit</add>
-                    </subst>
-                    <space unit="chars" quantity="1"/>
-                    <del rend="strikethrough">
+                    </subst><space unit="chars" quantity="1"/><del rend="strikethrough">
                   <unclear>wären</unclear>
-               </del>
-                    <space unit="chars" quantity="1"/>
-                    <subst>
+               </del><space unit="chars" quantity="1"/><subst>
                         <del rend="overwritten">ge</del>
                         <add place="inline">K</add>
                     </subst>omödien ist bei mir nichts zu erreichen.– Ich bitte

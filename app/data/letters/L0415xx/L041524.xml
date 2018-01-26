@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041524">
     <teiHeader type="text">
@@ -20,8 +20,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -103,11 +102,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160405">Angelegt</change>
         </revisionDesc>
@@ -116,53 +111,30 @@
         <body>
            <div type="address">
                <address>
-                   <addrLine>
-                        <hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000251">Wien I</placeName>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000613">Grillparzerstraße 7. I</placeName>
-                        </hi>
-                    </addrLine>
+                   <addrLine><hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000251">Wien I</placeName></hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000613">Grillparzerstraße 7. I</placeName></hi></addrLine>
                </address>
            </div>
-            <div type="writingSession" n="1">
+            <div type="writingSession" n="1" >
                 <opener>
-                    <dateline rend="right">
-                        <placeName key="A000300">München, Café
+                    <dateline rend="right"><placeName key="A000300">München, Café
                             Luitpold</placeName>, <date>30/9 93</date>.</dateline>
                 </opener>
-                <p>
-                    <salute>Liebster Doktor, </salute>herzlichste Grüße.</p>
-                <p>Grüßen Sie bestens auch <persName key="A002007">Beer-Hofmann</persName>
-                    <space unit="chars" quantity="1"/>
-                    <add place="above">
-                        <persName key="A002011">Loris</persName>
-                    </add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie
+                <p><salute>Liebster Doktor, </salute>herzlichste Grüße.</p>
+                <p>Grüßen Sie bestens auch <persName key="A002007">Beer-Hofmann</persName><space unit="chars" quantity="1"/><add place="above"><persName key="A002011">Loris</persName></add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie
                     <subst>
                         <del rend="overwritten">i</del>
                         <add place="inline">I</add>
                     </subst>nteressierende zu sagen.</p>
                 <closer>Ihr <signed>Kraus</signed> poste restante</closer>
-                <p>–<handShift scribe="A004020"/>
-                </p>
-                <p output="true">Viele innige Grüße an Sie, <persName key="A002007">Hoffmann</persName>, <persName key="A002011">Loris</persName>, <persName key="A002002">Bahr</persName>
-                </p>
-                <closer output="true">Ihr treuer<lb/>
-                    <signed>Karl Rosner.</signed>
-                </closer>
-                <p>
-                    <handShift scribe="A002037"/>Dieser Mensch hat sich <hi rend="underline" n="1">sehr</hi>
+                <p>–<handShift scribe="A004020"/></p>
+                <p>Viele innige Grüße an Sie, <persName key="A002007">Hoffmann</persName>, <persName key="A002011">Loris</persName>, <persName key="A002002">Bahr</persName></p>
+                <closer>Ihr treuer<lb/><signed>Karl Rosner.</signed></closer>
+                <p><handShift scribe="A002037"/>Dieser Mensch hat sich <hi rend="underline" n="1">sehr</hi>
                     gebessert, alle Rosen sich abgewöhnt. Kraus</p>
                 <p>–</p>
-                <p>
-                    <handShift scribe="A004019"/>Prosit <signed>JSchaumberger</signed>
-                </p>
+                <p><handShift scribe="A004019"/>Prosit <signed>JSchaumberger</signed></p>
                 
                     
                 

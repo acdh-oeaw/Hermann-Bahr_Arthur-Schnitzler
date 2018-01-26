@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041650">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">[Wien]</placeName></placeSender>
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="18970218" n="01">[18. 2. 1897]</date>
                     </dateSender>
@@ -73,20 +68,14 @@
                            <idno>A:Schnitzler, 85.1.3637</idno>
                        </msIdentifier>
                        <physDesc>
-                           <p>eh. Brief, 1 Bl., 1 S., von Schnitzler datiert: »<quote>
-                                        <date>18/2 97</date>
-                                    </quote>«</p>
+                           <p>eh. Brief, 1 Bl., 1 S., von Schnitzler datiert: »<quote><date>18/2 97</date></quote>«</p>
                        </physDesc>
                    </msDesc>
                    </witness>
                </listWit>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20161010">Angelegt</change>
             <change who="KI MAM" when="20161016">Kollationiert</change>
@@ -99,14 +88,12 @@
                     
                     <salute>Lieber Freund!</salute>
                 </opener>
-                <p>Wollen Sie uns das Vergnügen machen, <anchor type="commentary" xml:id="KL650-1">diesen Sonntag</anchor> (21. d<unclear>M</unclear>)
+                <p >Wollen Sie uns das Vergnügen machen, <anchor type="commentary" xml:id="KL650-1" >diesen Sonntag</anchor> (21. d<unclear>M</unclear>)
                 Abends zu uns zu kommen? Sie finden nur <persName key="A002002">Bahr</persName>,
                     <persName key="A002008 A002563">Langkammers</persName>, <persName key="A002031">Ebermann</persName>, 
                     <persName key="A002212">Schwarzkopf</persName> u. – hoffentlicht – auch <persName key="A002035">Salten</persName>. Die
                     Nichtanwesenden werden ausgerichtet, – kommen Sie also sicher!</p>
-                <closer>Herzlichst grüßt<lb/>Ihr<lb/>aufrichtiger<lb/>
-                    <signed>C. Karlweis</signed>
-                </closer>
+                <closer>Herzlichst grüßt<lb/>Ihr<lb/>aufrichtiger<lb/><signed>C. Karlweis</signed></closer>
             </div>
         </body>
     </text>

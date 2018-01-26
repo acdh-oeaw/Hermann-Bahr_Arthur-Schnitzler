@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041116">
   <teiHeader type="text">
@@ -19,8 +19,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -72,10 +71,7 @@
                         <idno>HS AM 60148 Ba</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Ansichtskarte, Motiv: »<quote>
-                                        <placeName key="A001035">
-                                            <settlement>Darmstadt</settlement>
-                                        </placeName>. Glockenspiel</quote>«, Bleistift.</p>
+                        <p>eh. Ansichtskarte, Motiv: »<quote><placeName key="A001035"><settlement>Darmstadt</settlement></placeName>. Glockenspiel</quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName key="A001035">Darmstadt</placeName>
                            <date when="19100918">18 9 10</date>
@@ -85,8 +81,7 @@
                   </msDesc>
                </witness>
             </listWit>
-            <listBibl>
-                    <biblStruct default="false">
+            <listBibl><biblStruct default="false">
                <analytic>
                   <date when="19100918">18. 9. 1910</date>
                   <respStmt>Abschrift</respStmt>
@@ -99,59 +94,44 @@
                   <biblScope unit="pp">104</biblScope>
                </monogr>
                <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series>
-            </biblStruct>
-                </listBibl>
+            </biblStruct></listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151001">Kollationiert</change>
          <change who="KI MAM" when="20170511">Kollationiert</change>
          
       </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM60148Ba"/>
-     <graphic url="HS_AM60148Ba_R"/>
-    </facsimile>
+  </teiHeader><facsimile>       <graphic url="HS_AM60148Ba"/>
+     <graphic url="HS_AM60148Ba_R"/></facsimile>
   <text type="card">
       <body>
          <div type="address">
             <address>
                <addrLine>
-                  <hi rend="underline" n="1">Wien.</hi>
-                    </addrLine>
+                  <hi rend="underline" n="1">Wien.</hi></addrLine>
                <addrLine>
-                  <hi rend="latintype">Herrn Hermann Bahr</hi>
-                    </addrLine>
+                  <hi rend="latintype">Herrn Hermann Bahr</hi></addrLine>
                <addrLine>
                   <placeName key="A000365">Wien – <hi rend="latintype">Ob St Veit</hi>
-                  </placeName>
-                    </addrLine>
+                  </placeName></addrLine>
                <addrLine>
                   <hi rend="latintype">
                      <placeName key="A000420">Veitlissengasse</placeName>
-                  </hi>
-                    </addrLine>
+                  </hi></addrLine>
             </address>
          </div>
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>18/9 1910</date>.</dateline>
+               <dateline rend="right"><date>18/9 1910</date>.</dateline>
             </opener>
-            <p>Herzliche Grüße dir und deiner verehrten <rs type="person" key="A002080">Gattin</rs>
-                </p>
+            <p>Herzliche Grüße dir und deiner verehrten <rs type="person" key="A002080">Gattin</rs></p>
             <closer>Dein <signed>Arthur</signed>
             </closer>
          </div>
          <div type="writingSession" n="2">
-            <closer>
-                    <signed>
-                        <handShift scribe="A002038"/>OlgaSchnitzler</signed>
+            <closer><signed><handShift scribe="A002038"/>OlgaSchnitzler</signed>
       </closer>
          </div>
       </body>

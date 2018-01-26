@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041364">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -50,9 +49,7 @@
                   <persName key="A002001">Schnitzler, Arthur</persName>
                </addressee>
                <!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>-->
-          <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+          <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="18940911" n="01">[11. 9. 1894]</date>
                </dateSender>
@@ -71,20 +68,14 @@
                               <placeName key="A000618">WIEN, / IX., Hörlgasse 16.</placeName> /
                               ›<orgName key="A080010">Berliner Neueste Nachrichten</orgName>.‹ /
                               ›<orgName key="A080680">Münchener General-Anzeiger</orgName>.‹</quote>«, hs.
-                           Datum von Schnitzler: »<quote>
-                                        <date>11/9 94</date>
-                                    </quote>«</p>
+                           Datum von Schnitzler: »<quote><date>11/9 94</date></quote>«</p>
                      </physDesc>
                   </msDesc>
                </witness>
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151126">Angelegt aus Original</change>
          <change who="KI MAM" when="20160614">Kollationiert</change>
@@ -102,16 +93,13 @@
                      <gap quantity="4" unit="chars" reason="illegible"/>
                   </del>
                   <add place="inline">oor</add>
-               </subst> little <rs type="person" key="A003430">girl</rs> in the <anchor type="commentary" xml:id="KL364-1">prison</anchor>. You must excuse me.</p>
-            <p>Perhaps you can sent the <anchor type="commentary" xml:id="KL364-2">
-                        <rs type="work" key="A020679" cert="low">
+               </subst> little <rs type="person" key="A003430">girl</rs> in the <anchor type="commentary" xml:id="KL364-1" >prison</anchor>. You must excuse me.</p>
+            <p>Perhaps you can sent the <anchor type="commentary" xml:id="KL364-2" ><rs type="work" key="A020679" cert="low">
                   <subst>
                      <del rend="overwritten">Bo</del>
                      <add place="inline">bo</add>
-                  </subst>ok</rs>
-                    </anchor> from <persName key="A002002">H Bahr</persName>?</p>
-            <closer>Yours<lb/>
-                    <signed>Salten</signed>
+                  </subst>ok</rs></anchor> from <persName key="A002002">H Bahr</persName>?</p>
+            <closer>Yours<lb/><signed>Salten</signed>
         </closer>
          </div>
       </body>

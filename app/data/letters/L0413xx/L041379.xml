@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041379">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002007">Beer-Hofmann, Richard</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000796">Neapel</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000250">Wien</placeName></placeSender>
+                    <placeAddressee><placeName key="A000796">Neapel</placeName></placeAddressee>
                     <dateSender>
                         <date when="18941020" n="01">20. 10. 1894</date>
                     </dateSender>
@@ -80,10 +75,8 @@
                                     <time>N</time>
                                 </stamp>
                                 <stamp n="2">
-                                    <placeName key="A000796">
-                                        <unclear>Nap</unclear>o<unclear>l</unclear>i</placeName>
-                                    <date when="18941028">
-                                        <gap unit="chars" quantity="2" reason="illegible"/>. <gap unit="chars" quantity="2" reason="illegible"/>. 94</date>
+                                    <placeName key="A000796"><unclear>Nap</unclear>o<unclear>l</unclear>i</placeName>
+                                    <date when="18941028"><gap unit="chars" quantity="2" reason="illegible"/>. <gap unit="chars" quantity="2" reason="illegible"/>. 94</date>
                                 </stamp>    
                             </physDesc>
                           </msDesc>
@@ -97,7 +90,7 @@
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
                         <imprint>
                             <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
+                            <publisher>S.&#160;Fischer</publisher>
                             <date when="1981">1981</date>
                      </imprint>
                         <biblScope unit="pp">232–233</biblScope>
@@ -135,11 +128,7 @@
             </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160119">Angelegt aus Scan</change>
             <change who="KI MAM" when="20160818">Kollationiert am Original</change>
@@ -149,44 +138,18 @@
         <body>
            <div type="address">
                <address>
-                   <addrLine>
-                        <hi rend="latintype">Dr. Arthur Schnitzler</hi>, <placeName key="A000598">Wien, IX. Frankgasse 1.</placeName>
-                    </addrLine>
+                   <addrLine><hi rend="latintype">Dr. Arthur Schnitzler</hi>, <placeName key="A000598">Wien, IX. Frankgasse 1.</placeName></addrLine>
                </address>
                <address>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <hi rend="underline" n="1">
-                                <placeName key="A000475">
-                                    <country>Italien</country>
-                                </placeName>
-                            </hi>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">Dr. Richard Beer Hofmann</hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <hi rend="underline" n="1">
-                                <placeName key="A000796">
-                                    <settlement>Neapel</settlement>
-                                </placeName>
-                            </hi>
-                        </hi>
-                    </addrLine>
-                   <addrLine>
-                        <hi rend="latintype">
-                            <placeName key="A000824">Hotel Hassler</placeName>
-                        </hi>
-                    </addrLine>
+                   <addrLine><hi rend="latintype"><hi rend="underline" n="1"><placeName key="A000475"><country>Italien</country></placeName></hi></hi></addrLine>
+                   <addrLine><hi rend="latintype">Dr. Richard Beer Hofmann</hi></addrLine>
+                   <addrLine><hi rend="latintype"><hi rend="underline" n="1"><placeName key="A000796"><settlement>Neapel</settlement></placeName></hi></hi></addrLine>
+                   <addrLine><hi rend="latintype"><placeName key="A000824">Hotel Hassler</placeName></hi></addrLine>
                </address>
            </div>
             <div type="writingSession" n="1">
                 <opener>
-                    <dateline rend="right">
-                        <date>20. 10. 94</date>
-                    </dateline>
+                    <dateline rend="right"><date>20. 10. 94</date></dateline>
                     <salute>Lieber Richard. –</salute>
                 </opener>
                 <p>
@@ -207,12 +170,8 @@
                     ins menschliche hinaufgehoben wird. Die Darstellung ist großartig; sie lügt
                     geradezu Seelen in die Puppen. – Um die <workName key="A020289">Schm.</workName>
                     für <persName key="A002062">Sud.’s</persName> bestes Stück zu halten, muß man
-                    entweder nichts verstehn – oder <persName key="A002002">
-                        <hi rend="latintype">Hermann<pb/> Bahr</hi>
-                    </persName>
-                    sein. Ueber seine <anchor type="commentary" xml:id="KL379-1">
-                        <rs type="work" key="A020996">Kritik</rs>
-                    </anchor> und noch vieles
+                    entweder nichts verstehn – oder <persName key="A002002"><hi rend="latintype">Hermann<pb/> Bahr</hi></persName>
+                    sein. Ueber seine <anchor type="commentary" xml:id="KL379-1" ><rs type="work" key="A020996">Kritik</rs></anchor> und noch vieles
                     andre hab ich gestern erst zwei Stunden mit ihm geplauscht. Ich zweifle gar
                     nicht: er will immer interessant, immer geistvoll, immer bizarr sein, und es
                     gelingt ihm fast immer – aber wenn <subst>
@@ -229,27 +188,29 @@
                     –</p>
                 <p>Heute holt der <rs type="person" key="A004314">Abschreiber</rs> meinen
                     letzten <rs type="work" key="A020049">Akt</rs>. In acht Tagen hoff’ ichs
-                    einreichen zu können. – <del rend="strikethrough">Auch</del>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002011">
-                        <hi rend="latintype">Hugo</hi>
-                    </persName> und <persName key="A002035">Salten</persName> finden: <placeName key="A000214">Burgtheater</placeName>. <persName key="A002002">
-                        <hi rend="latintype">Bahr</hi>
-                    </persName> hat auch
-                    schon mit <persName key="A002000">
-                        <hi rend="latintype">Burckh</hi>
-                    </persName>. gesprochen und <persName key="A002000">Burckh</persName>.<pb/> »erwartet« das <rs type="work" key="A020049">Stück</rs>. Charakteristisch
-                    übrigens, dass <persName key="A002002">Bahr</persName>, nachdem er mit <persName key="A002000">Burckh</persName> gesprochen und nachdem er von dem <rs type="work" key="A020049">Stück</rs> nichts wußte als, was ihm <persName key="A002011">Hugo</persName> gesagt, dass es sehr gut und »<placeName key="A000214">Burgtheater</placeName>« sei, mir gegenüber äußerte:<pb/> »Ich hab’
+                    einreichen zu können. – <del rend="strikethrough">Auch</del><space unit="chars"
+                        quantity="1"/><persName key="A002011"><hi rend="latintype">Hugo</hi></persName> und <persName
+                        key="A002035">Salten</persName> finden: <placeName key="A000214"
+                            >Burgtheater</placeName>. <persName key="A002002"><hi rend="latintype">Bahr</hi></persName> hat auch
+                    schon mit <persName key="A002000"><hi rend="latintype">Burckh</hi></persName>. gesprochen und <persName
+                        key="A002000">Burckh</persName>.<pb/> »erwartet« das <rs type="work" key="A020049">Stück</rs>. Charakteristisch
+                    übrigens, dass <persName key="A002002">Bahr</persName>, nachdem er mit <persName
+                        key="A002000">Burckh</persName> gesprochen und nachdem er von dem <rs
+                        type="work" key="A020049">Stück</rs> nichts wußte als, was ihm <persName
+                        key="A002011">Hugo</persName> gesagt, dass es sehr gut und »<placeName
+                        key="A000214">Burgtheater</placeName>« sei, mir gegenüber äußerte:<pb/> »Ich hab’
                     die Empfindung, dass es ins <placeName key="A000277">Raimundtheater</placeName>
-                    gehört.« – Man kann übrigens weniger als je ans <placeName key="A000277">Raimundth</placeName>. denken – es wird dort gespielt wie an einem
+                    gehört.« – Man kann übrigens weniger als je ans <placeName key="A000277"
+                        >Raimundth</placeName>. denken – es wird dort gespielt wie an einem
                     Provinztheater, wo die Leut eben zehn Proben haben,<pb/> statt einer oder zwei. Aber
                     dadurch kriegen die Herren <persName key="A003817">Heding</persName> und
-                        <persName key="A003771">Nerz</persName> u. s. w. nicht mehr Talent als sie
+                        <persName key="A003771">Nerz</persName> u.&#160;s.&#160;w. nicht mehr Talent als sie
                     haben. – <placeName key="A000214">Burgtheater</placeName>versuch muss natürlich
-                    strenges Geheimnis bleiben, da ich ja dann, wenn <persName key="A002000">B.</persName> es refusirt<pb/> beim <placeName key="A000220">Volkstheater</placeName> einreichen will. – </p>
+                    strenges Geheimnis bleiben, da ich ja dann, wenn <persName key="A002000"
+                        >B.</persName> es refusirt<pb/> beim <placeName key="A000220"
+                        >Volkstheater</placeName> einreichen will. – </p>
                 <p>Ich freue mich auf Ihre Rückkehr. – </p>
-                <closer>Herzlichen Gruss<lb/>Ihr <signed>Arthur</signed>
-                </closer>
+                <closer>Herzlichen Gruss<lb/>Ihr <signed>Arthur</signed></closer>
             </div>
         </body>
     </text>

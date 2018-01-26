@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041557">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -59,11 +58,7 @@
             </listBibl>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="candidate">
          <change who="MAM" when="20151111">angelegt</change>
       </revisionDesc>
@@ -71,31 +66,23 @@
   <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
-            <p>
-                    <date when="19181019" n="1">19/10</date> Vm. bei <persName key="A002245">Gisa</persName> und
+            <p><date when="19181019" n="1">19/10</date> Vm. bei <persName key="A002245">Gisa</persName> und
                   <persName key="A002130">Hajek</persName>. Schwarzseherisches.– </p>
             <p>Bei <persName key="A003635">Faesi</persName> im <placeName key="A000431">Bristol</placeName>, der noch liegt.
                Politisches.</p>
             <p>Bei <persName key="A002063">Julius</persName>. <persName key="A003636">Karl</persName> aus dem Feld ein paar Tage
                hier.– Voraussichten, Möglichkeiten von Unruhen in
-                     <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>.
+                     <placeName key="A000250"><settlement>Wien</settlement></placeName>.
                <persName key="A002063">Julius</persName> räth, einzelnes in Sicherheit zu bringen. Welche
                Zeit!– </p>
-            <p>
-                    <persName key="A002042">Poldi Andrian</persName> bat mich teleph. »ein für alle Mal« in seine Loge
-               zu den Generalproben. <anchor type="commentary" xml:id="KD557-1">Lehne ab</anchor>; ob er von meinem Brief an
+            <p><persName key="A002042">Poldi Andrian</persName> bat mich teleph. »ein für alle Mal« in seine Loge
+               zu den Generalproben. <anchor type="commentary" xml:id="KD557-1" >Lehne ab</anchor>; ob er von meinem Brief an
                   <persName key="A002002">Bahr</persName> nichts wisse,– er behauptet (fälschlich) nein.–
                   <persName key="A002096">R. Strauss</persName> (tel. <persName key="A002241">Specht</persName>) hat von der <rs type="place" key="A000214">Intendanz</rs> den Wink bekommen – keinen Juden zu engagiren!– </p>
             <p>Kinder, mit Ruthen, am <placeName key="A000313">Türkenschanzpark</placeName>, im Takt schlagend:
                »Noch ein Jud – noch ein Jud.« (<persName key="A002292">Naema B.-H.</persName>)– </p>
             <p>Zum Thee <persName key="A002158">Schott</persName>.– </p>
-            <p>Mit <persName key="A002083">Heini</persName>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002510">Beethoven</persName>
-                    <space unit="chars" quantity="1"/>
-                    <workName key="A020874">Erste</workName>–</p>
+            <p>Mit <persName key="A002083">Heini</persName><space unit="chars" quantity="1"/><persName key="A002510">Beethoven</persName><space unit="chars" quantity="1"/><workName key="A020874">Erste</workName>–</p>
          </div>
       </body>
   </text>

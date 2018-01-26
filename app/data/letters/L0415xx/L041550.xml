@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041550">
     <teiHeader type="text">
@@ -18,8 +18,7 @@
                         <postCode>1090 Wien</postCode>
                         <placeName>
                             <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
+                            <settlement>Wien</settlement></placeName>
                     </address>
                 </funder>
             </titleStmt>
@@ -49,12 +48,8 @@
                     <addressee full="yes">
                         <persName key="A002001">Schnitzler, Arthur</persName>
                     </addressee>
-                    <placeSender>
-                        <placeName key="A000368">Berlin</placeName>
-                    </placeSender>      
-                    <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+                    <placeSender><placeName key="A000368">Berlin</placeName></placeSender>      
+                    <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                     <dateSender>
                         <date when="19091216" n="2">16. 12. 1909</date>
                     </dateSender>
@@ -79,11 +74,7 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
+        <profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc>
         <revisionDesc status="candidate">
             <change who="MAM" when="20160413">Angelegt</change>
         </revisionDesc>
@@ -94,20 +85,16 @@
             <div type="writingSession" n="1">
                 <opener>
                     <dateline rend="right">
-                  <placeName key="A000368">
-                            <settlement>Berlin</settlement>
-                        </placeName>, <date>16. Dezember 09</date>
-                    </dateline>
+                  <placeName key="A000368"><settlement>Berlin</settlement></placeName>, <date>16. Dezember 09</date></dateline>
                     <salute>Lieber Freund,</salute>
                 </opener>
-                <p output="true">zunächst danke ich Ihnen für Ihr schnelles Entgegenkommen in der <hi rend="italic">
+                <p >zunächst danke ich Ihnen für Ihr schnelles Entgegenkommen in der <hi rend="italic">
                   <workName key="A020056">Mizzi</workName>
                </hi>-Frage. Am Schluß des Abends hätte sie, wie
                     uns immer klarer wurde, nicht gepaßt; für den Anfang sind Sie nicht (und es wäre
                     wohl auch schade drum, das vielgeprüfte Fräulein hier hinzustellen), so lassen
                     wir also <persName key="A002002">
-                  <rs type="work" key="A020057">Bahr</rs>
-                    </persName> allein reisen. – Das
+                  <rs type="work" key="A020057">Bahr</rs></persName> allein reisen. – Das
                     Schönste wäre ja nun, wenn Sie, piano, piano, zwei weitere Einakter schrieben,
                     mit denen zusammen man in nächster Saison die <workName key="A020056">
                   <hi rend="italic">Mizzi</hi>
@@ -141,8 +128,7 @@
                     auch der evtl. Nachfolger sich gebunden halten – meinte er. Das war’s, was ich
                     sein ernsthaftes <workName key="A020059">Medardus</workName>-Denken nannte. Herzliche Grüße
                     für Sie alle. Was macht <placeName key="A000369">Pötzleinsdorf</placeName>?</p>
-                <closer>Ihr <signed>O. B.</signed>
-                </closer>
+                <closer>Ihr <signed>O. B.</signed></closer>
                 <postscript>
                <p>Ich bitte Sie beide, die Geschichte von Fr. <persName key="A002295">F</persName>. und
                             <persName key="A002382">d’A.</persName>, die ich neulich erwähnte, zu vergessen. Es

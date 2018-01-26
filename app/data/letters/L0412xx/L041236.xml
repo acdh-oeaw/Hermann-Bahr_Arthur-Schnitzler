@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041236">
   <teiHeader type="text">
@@ -18,8 +18,7 @@
                   <postCode>1090 Wien</postCode>
                   <placeName>
                      <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
+                     <settlement>Wien</settlement></placeName> 
                </address>
             </funder>
          </titleStmt>
@@ -52,9 +51,7 @@
                <placeSender>
                   <placeName key="A000250">Wien</placeName>
                </placeSender>
-               <placeAddressee>
-                        <placeName key="A000250">[Wien]</placeName>
-                    </placeAddressee>
+               <placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee>
                <dateSender>
                   <date when="19010425" n="01">25. 4. 1901</date>
                </dateSender>
@@ -70,9 +67,7 @@
                         <idno>Schnitzler, B 5b</idno>
                      </msIdentifier>
                      <physDesc>
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: <orgName key="A080148">Redaktion des Neuen Wiener Tagblatt</orgName> (<ptr target="bknwt"/>), von Schnitzler Jahreszahl »<quote>
-                                        <date>901</date>
-                                    </quote>«
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<placeName key="A000884">Redaktion des <orgName key="A080148">Neuen Wiener Tagblatt</orgName></placeName> / <placeName key="A000910">Wien, I., Rothenthurmstrasse, Steyrerhof</placeName>. / Telegramm-Adresse: Tagblatt, Steyrerhof, Wien. – Telephon Nr. 384. Staats-Telephon Nr. 36.«, von Schnitzler Jahreszahl »<quote><date>901</date></quote>«
                            ergänzt.</p>
                      </physDesc>
                   </msDesc>
@@ -80,11 +75,7 @@
             </listWit>
          </sourceDesc>
       </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
+      <profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc>
       <revisionDesc status="approved">
          <change who="KI MAM" when="20151209">Kollationiert</change>
          <change who="KI MAM" when="20170526">Kollationiert</change>
@@ -99,20 +90,13 @@
      
          <div type="writingSession" n="1">
             <opener>
-               <dateline rend="right">
-                        <date>25/4</date>
-                    </dateline>
-               <salute rend="center">Lieber Freund!</salute>
-                </opener>
-            <p>Danke sehr für die Zusendung Deines <rs type="work" key="A020334">Romanes</rs> und die <anchor type="commentary" xml:id="KL236-1">
-                        <placeName key="A000646">
-                  <settlement>römische</settlement>
-                        </placeName> Karte</anchor>, die mich sehr neidisch gemacht hat.</p>
+               <dateline rend="right"><date>25/4</date></dateline>
+               <salute rend="center">Lieber Freund!</salute></opener>
+            <p>Danke sehr für die Zusendung Deines <rs type="work" key="A020334">Romanes</rs> und die <anchor type="commentary" xml:id="KL236-1" ><placeName key="A000646">
+                  <settlement>römische</settlement></placeName> Karte</anchor>, die mich sehr neidisch gemacht hat.</p>
             <p>Sonntag gehe ich zu jener Vorstellung, habe aber den Namen Deines <rs type="person" key="A002038">Schützlings</rs> vergessen und bitte Dich, 
         ihn mir per Postkarte mitzutheilen.</p>
-            <closer>Herzlichst<lb/>Dein<lb/>
-                    <signed>Hermann</signed>
-                </closer>
+            <closer>Herzlichst<lb/>Dein<lb/><signed>Hermann</signed></closer>
          </div>
       </body>
   </text>
