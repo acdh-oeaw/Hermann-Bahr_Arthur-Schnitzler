@@ -25,6 +25,10 @@ declare function format:tei2html($nodes as node()*) {
         
         (: tei:add :)
         case element(tei:add) return
+            if ($node[parent::tei:subst]) then
+                (:add in subst:)
+                <span class="subst-add">{format:tei2html($node/node())}</span>
+            else
             element span {
             attribute class {
                 (
@@ -233,6 +237,13 @@ declare function format:tei2html($nodes as node()*) {
         (:@rend = strikethrough, overwritten, erased:)
        
        case element(tei:del) return 
+           
+           if ($node[parent::tei:subst]) then
+               
+               <span class="subst-del">{format:tei2html($node/node())}</span>
+               
+               else
+           
            <del class="{$node/@rend}"
            title="{
                (:mouseover:)
@@ -288,13 +299,13 @@ declare function format:tei2html($nodes as node()*) {
             <a
             data-toggle="modal" data-target="#modal_img_{count($node/preceding::tei:figure)+1}"
             >
-            <img class="thumbnail" src="{$config:img-base-url || substring-after($node/tei:graphic/@url,'./images/')}"></img></a>,
+            <img class="thumbnail" src="{$config:img-base-url || substring-after($node/tei:graphic/@url,'./images/')}.jpg"></img></a>,
             <div
             id="modal_img_{count($node/preceding::tei:figure)+1}"
             class="modal" tabindex="-1" role="dialog" aria-labelledby="">
                 <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
-                    <img class="img img-responsive" src="{$config:img-base-url || substring-after($node/tei:graphic/@url,'./images/')}"></img>
+                    <img class="img img-responsive" src="{$config:img-base-url || substring-after($node/tei:graphic/@url,'./images/')}.jpg"></img>
                 </div>
                 </div>
             </div>
@@ -348,8 +359,14 @@ declare function format:tei2html($nodes as node()*) {
     (: tei:gap :)
     (:quantity, unit= chars eignetlich immer:)
     (: reason = G/gabelsberger, illegible, outOfScope, :)
-    case element(tei:gap) return
-        <span class="gap {$node/@reason}"></span>
+    case element(tei:gap) return 
+        if ($node/@reason eq "illegible") then 
+            <span class="gap illegible">{for $quant in 1 to xs:integer($node/@quantity) return <span class="malzeichen">×</span>}</span>
+        else 
+            if (count($node/following-sibling::element())>1 or count($node/preceding-sibling::element())>1) then
+                 "[…]"
+                 else
+            <span class="gap {$node/@reason}"></span>
         
     
     
@@ -389,6 +406,12 @@ declare function format:tei2html($nodes as node()*) {
         (: Werte von rend: antiqua, bold, italic,latintype, overline, small-caps, spaced_out, strikethrough, subscript, superscript, underline
  :)
     case element(tei:hi) return
+        if ($node/@rend eq "underline") then
+            if ($node/@n = "1") then 
+             <span class="hi rend_{$node/@rend}-single">{format:tei2html($node/node())}</span>   
+            else 
+               <span class="hi rend_{$node/@rend}-multiple">{format:tei2html($node/node())}</span> 
+        else
         <span class="hi rend_{$node/@rend}">{format:tei2html($node/node())}</span>
         
         (: ### I ###:)
@@ -470,7 +493,11 @@ declare function format:tei2html($nodes as node()*) {
         (: orgName :)
         (:Attribut @key:)
         case element(tei:orgName) return
+            
+            if ($node/@key) then
             <a class="orgName" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
+        else 
+            <span class="orgName-nolink">{format:tei2html($node/node())}</span>
         
         (: origDate :)
         (:im Header:)
@@ -746,7 +773,12 @@ declare function format:tei2html($nodes as node()*) {
         
         (:  workName:)
         case element (tei:workName) return
+            if ($node/@key) then
+            
             <a class="workName" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
+         else 
+             <span class="workName-nolink">{format:tei2html($node/node())}</span>
+         
             
         (: exist:match zu html:mark :)
             case element(exist:match) return
