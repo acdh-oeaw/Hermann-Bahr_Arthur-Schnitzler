@@ -189,6 +189,7 @@ body, h1, h2 {
 /*Textansicht*/
 
 .prev-next-pager {
+    background-color:white;
     display:block;
     position:fixed;
     bottom:10px;
@@ -284,9 +285,10 @@ body, h1, h2 {
     display:none;
 }
 
-.leseansicht .gap {
+/* .leseansicht .gap {
     display:none;
 }
+*/
 
 .leseansicht .handShift {
     display:none;
@@ -378,7 +380,7 @@ footer .impressum {
 /*KOMMENTAR*/
 /*span? mit dem kommentierten Text*/
 .commentary,.textConst {
-    border-bottom:1px black dotted;
+    
     color:black;
 }
 
@@ -421,7 +423,8 @@ footer .impressum {
     display: inline; 
     vertical-align:super;
     content:"▽";
-    font-size:30%;
+    font-size:50%;
+    font-weight:bold;
     color:black;
 }
 
@@ -429,9 +432,11 @@ footer .impressum {
    display: inline; 
     vertical-align:super;
     content:"▽";
-    font-size:30%;
-    color:black; 
+    font-size:50%;
+    font-weight:bold;
+    color:black;
 }
+
 
 .place_above {}
 .place_inline {}
@@ -457,8 +462,8 @@ footer .impressum {
 .damage {
     display:inline;
     text-decoration:underline;
-    -webkit-text-decoration-color: grey; 
-    text-decoration-color: grey;
+    -webkit-text-decoration-color: silver; 
+    text-decoration-color: silver;
 }
 .damage-empty:before {
     display:inline;
@@ -507,7 +512,8 @@ del.erased:hover {
 
 /*figure*/
 .thumbnail {
-    width:150px;
+    width:200px;
+    border:none;
 }
 
 /*footNote*/
@@ -531,7 +537,15 @@ del.erased:hover {
 /* ### G ### */
 
 .gap {
-    color:gray;
+    color:silver;
+}
+
+.illegible {
+    font-size:1px;
+}
+
+.malzeichen {
+    font-size:16px;
 }
 
 /*@reason von gap*/
@@ -598,7 +612,12 @@ del.erased:hover {
     vertical-align:super;
     font-size:75%;
 }
-.rend_underline {
+.rend_underline-single {
+    font-style:italic;
+}
+
+.rend_underline-multiple {
+    font-style:italic;
     text-decoration:underline;
 }
 
@@ -608,6 +627,16 @@ del.erased:hover {
 /* tei:opener */
 .opener {}
 
+
+/* ### P ### */
+
+.pb:before {
+    position:relative;
+    font-size:50%;
+    bottom:-3px;
+    display:inline;
+    content:"|";
+}
 
 .placeName {
     display:inline-block;
@@ -623,7 +652,7 @@ del.erased:hover {
 
 
 .supplied:hover {
-    cursor:help;
+    
 }
 
 .supplied:before {
@@ -638,6 +667,14 @@ del.erased:hover {
     color:black;
 }
 
+.damage .supplied:before {
+    display:none;
+}
+
+.damage .supplied:after {
+    display:none;
+}
+
 .settlement {
     display:inline;
 }
@@ -647,21 +684,42 @@ del.erased:hover {
     text-align:right;
 }
 
+.subst {
+   font-size:1px;
+}
+
 .subst:before{
+    position:relative;
+    top:-1em;
     display: inline; 
     content:"△";
     vertical-align:super;
-    font-size:30%;
+    font-size:8px;
+    font-weight:bold;
     color:black;
     }
 
  .subst:after{
-    display: inline; 
-    vertical-align:super;
+    position:relative;
+    top:-1em;
+    display: inline;
     content:"▽";
-    font-size:30%;
+    font-size:8px;
+    font-weight:bold;
     color:black;
     }
+    
+.subst-del {
+    position:relative;
+    top:-0.5em;
+    font-size:12px;
+}
+
+.subst-add {
+    font-size:16px;
+}
+
+
 
 /* ### T ### */
 
@@ -685,7 +743,7 @@ del.erased:hover {
 
 /* ### U ### */
 .unclear {
-    color:gray;
+    color:silver;
 }
 /*
 .unclear::before {
@@ -696,6 +754,15 @@ del.erased:hover {
     font-size:75%;
 }
 */
+
+
+.workName-nolink {
+    font-style:italic;
+}
+
+.orgName-nolink {
+    font-style:italic;
+}
 
 /*
 .unclear::after {
