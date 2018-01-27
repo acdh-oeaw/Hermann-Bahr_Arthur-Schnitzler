@@ -1,122 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041586">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a">Tagebuch von Josef Redlich, 3. 11. 1903</title>
-            <author key="A003108">Redlich, Josef</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName> 
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-D" n="586"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="A002002">Bahr</persName> and Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <listBibl>
-               <biblStruct default="false">
-                  <monogr>
-                     <title level="m">Erinnerungen und Tagebücher 1869–1914</title>
-                     <biblScope unit="pp">143–144</biblScope>
-                  </monogr>
-                  <monogr>
-                     <author key="A003108">Redlich, Josef</author>
-                     <title level="m">Schicksalsjahre Österreichs. Die Erinnerungen und Tagebücher
-                        Josef Redlichs 1869–1936</title>
-                     <editor>Hg. Fritz Fellner und Doris A. Corradini</editor>
-                     <imprint>
-                        <pubPlace>Wien, Köln, Weimar</pubPlace>
-                        <publisher>Böhlau</publisher>
-                        <date when="2011">2011</date>
-                     </imprint>
-                     <biblScope unit="vol">I</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc status="candidate">
-         <change who="MAM" when="20160606">angelegt</change>
-      </revisionDesc>
-  </teiHeader>
-   <text type="diaryDay">   
-      <body>
-         <div type="writingSession" n="1">
-            <p>
-                    <date when="19031103" n="2">Dienstag, 3. November</date>
-            </p>
-            <p>Es war sehr hüsch in <placeName key="A001181">
-                        <settlement>Sárvár</settlement>
-                    </placeName>. Merkwürdig viel <placeName key="A000367">
-                        <country>Magyarisch</country>
-                    </placeName> hörte ich dort unter dem
-               Volke reden. <placeName key="A000367">
-                        <country>Ungarn</country>
-                    </placeName> ist für mich mehr denn je ein Problem – das ich bisher höchstens
-               durch leidenschaftliches Vorurteil, nicht durch ein Urteil gelöst habe.</p>
-            <p>Lese <persName key="A004149">Trevelyan</persName>s <workName key="A021296">Life of <persName key="A004150">Macaulay</persName>
-               </workName>. Ein wunderbarer Mensch ist <persName key="A004150">Macaulay</persName>! Seine Briefe
-               einfach entzückend klug, klar, witzig! Die Biographie ist des großen Geistes würdig.</p>
-            <p>Lese <persName key="A003355">Oldenberg</persName>s <workName key="A021294">Indische Literatur</workName>: schönes Buch. Las ein sehr kurzsichtiges <rs type="work" key="A021295">Buch</rs> des
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041586"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Josef Redlich, 3. 11. 1903</title><author key="A003108">Redlich, Josef</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-D" n="586"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="A002002">Bahr</persName> and Arthur Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct default="false"><monogr><title level="m">Erinnerungen und Tagebücher 1869–1914</title><biblScope unit="pp">143–144</biblScope></monogr><monogr><author key="A003108">Redlich, Josef</author><title level="m">Schicksalsjahre Österreichs. Die Erinnerungen und Tagebücher
+                        Josef Redlichs 1869–1936</title><editor>Hg. Fritz Fellner und Doris A. Corradini</editor><imprint><pubPlace>Wien, Köln, Weimar</pubPlace><publisher>Böhlau</publisher><date when="2011">2011</date></imprint><biblScope unit="vol">I</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160606">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="19031103" n="2">Dienstag, 3. November</date></p><p>Es war sehr hüsch in <placeName key="A001181"><settlement>Sárvár</settlement></placeName>. Merkwürdig viel <placeName key="A000367"><country>Magyarisch</country></placeName> hörte ich dort unter dem
+               Volke reden. <placeName key="A000367"><country>Ungarn</country></placeName> ist für mich mehr denn je ein Problem – das ich bisher höchstens
+               durch leidenschaftliches Vorurteil, nicht durch ein Urteil gelöst habe.</p><p>Lese <persName key="A004149">Trevelyan</persName>s <workName key="A021296">Life of <persName key="A004150">Macaulay</persName></workName>. Ein wunderbarer Mensch ist <persName key="A004150">Macaulay</persName>! Seine Briefe
+               einfach entzückend klug, klar, witzig! Die Biographie ist des großen Geistes würdig.</p><p>Lese <persName key="A003355">Oldenberg</persName>s <workName key="A021294">Indische Literatur</workName>: schönes Buch. Las ein sehr kurzsichtiges <rs type="work" key="A021295">Buch</rs> des
                Kommerzienrats <persName key="A004004">Goldberger</persName> über <placeName key="A000691">Amerika</placeName>! Die Leute sind jetzt ganz toll, beurteilen
-               die Zukunft einer Nation ausschließlich nach ihrem Import und Export.</p>
-            <p output="true">Gestern bei Hofrat <persName key="A003250">Sieghart</persName>, um <persName key="A002002">Bahr</persName> eine
+               die Zukunft einer Nation ausschließlich nach ihrem Import und Export.</p><p >Gestern bei Hofrat <persName key="A003250">Sieghart</persName>, um <persName key="A002002">Bahr</persName> eine
                Audienz bei <persName key="A002016">Koerber</persName> zu erwirken. <persName key="A002002">Bahr</persName> war
                vorgestern hier: er hat sich in eine Art von Fechterstellung zugunsten des von der
                Presse unterdrückten »<workName key="A020018">Reigen</workName>« von <persName key="A002001">Schnitzler</persName> begeben. Ich finde
                seine Position echt, aber zwecklos. Es hat keinen Sinn, für die Kunst und ihre
                Freiheit immer dort am schärfsten einzutreten, wo sie der Pornographie am nächsten
-               ist. Fand bei <persName key="A002000">Burckhard</persName>, der anwesend, einige Zustimmung.</p>
-            <p>Landtagsdebatten über die Arzte eine wahre Schande für Wien! Wann wird diese Woge der
+               ist. Fand bei <persName key="A002000">Burckhard</persName>, der anwesend, einige Zustimmung.</p><p>Landtagsdebatten über die Arzte eine wahre Schande für Wien! Wann wird diese Woge der
                Rohheit und Unwissenheit zurückebben! Und doch ist sie nur eine notwendige Folge der
                bodenlosen Unwürdigkeit des Wiener Liberalismus der Siebzigerjahre, des geistigen
                Hochmutes jener Generation, in der die <persName key="A004146">Unger</persName>. <persName key="A004147">Glaser</persName>, <persName key="A004148">Schmerling</persName> und die minores dii
                mit tiefer Verachtung der misera plebs <placeName key="A000362">Österreich</placeName> »vorwärtsbrachten«. Und doch muss
                auch jetzt wieder eine Reaktion gegen das Zuviel dieser Reaktion kommen! Sed quando
-               et quomodo? Wenn man nur etwas dazu tun könnte, eine neue Zeit heraufzuführen! </p>
-            <p>
-                    <persName key="A004151">Terese</persName> muss nach <placeName key="A001093">
-                        <settlement>Davos</settlement>
-                    </placeName>! Ihre Lunge
+               et quomodo? Wenn man nur etwas dazu tun könnte, eine neue Zeit heraufzuführen! </p><p><persName key="A004151">Terese</persName> muss nach <placeName key="A001093"><settlement>Davos</settlement></placeName>! Ihre Lunge
                ist tuberkulös affiziert, zwar nicht sehr stark, aber doch so, dass alles zur Heilung
                Erforderliche geschehen muss. Ich habe dieses Unglück längst vorausgesehen und bin
                erbittert über den, der es gleichfalls längst hat sehen müssen! Jetzt kann ich nur
-               das Beste ersehnen und hoffen! – – Es ist schlimm für eine Mutter von drei <rs type="person" key="A004152 A004153 A004154">Kindern</rs>, mit 34 Jahren siech zu sein! Sehr traurig!</p>
-         </div>
-      </body> 
-   </text> 
-</TEI>
+               das Beste ersehnen und hoffen! – – Es ist schlimm für eine Mutter von drei <rs type="person" key="A004152 A004153 A004154">Kindern</rs>, mit 34 Jahren siech zu sein! Sehr traurig!</p></div></body></text></TEI>

@@ -657,6 +657,9 @@ declare function format:tei2html($nodes as node()*) {
         (: space :)
         (: Attribute: quantity, unit :)
         case element (tei:space) return 
+            
+            if ($node/@quantity = "1") then
+                " " else
             <span class="space" style="width:{$node/@quantity}em"> </span>
         
         (: stamp :)

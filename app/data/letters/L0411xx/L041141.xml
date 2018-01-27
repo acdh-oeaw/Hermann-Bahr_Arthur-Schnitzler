@@ -1,163 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041141">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a">Schnitzler an Bahr, 17. 3. 1930</title>
-            <author key="A002001">Schnitzler, Arthur</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>           
-                     <settlement>Wien</settlement>
-                        </placeName> 
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="141"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <seriesStmt>
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
-         </seriesStmt>
-         <sourceDesc>
-            <correspDesc>
-               <sender full="yes">
-                  <persName key="A002001">Schnitzler, Arthur</persName>
-               </sender>
-               <addressee full="yes">
-                  <persName key="A002002">Bahr, Hermann</persName>
-               </addressee>
-               <placeSender>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeSender>
-          <placeAddressee>
-                        <placeName key="A000355">[München]</placeName>
-                    </placeAddressee>
-               <dateSender>
-                  <date when="19300317" n="01">17. 3. 1930</date>
-               </dateSender>
-               <context/>
-            </correspDesc>
-            <listWit>
-               <witness n="1">
-                  <msDesc>
-                     <msIdentifier>
-                        <country>A</country>
-                        <settlement>Wien</settlement>
-                        <repository>Theatermuseum</repository>
-                        <idno>HS AM 23399 Ba</idno>
-                     </msIdentifier>
-                     <physDesc>
-                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, hs. Bahr in rotem Buntstift: »<quote>
-                                        <hi rend="underline" n="1">Schnitzler</hi>
-                                    </quote>«, »<quote>bindet</quote>« mit blauem Buntstift
-                           unterstrichen</p>
-                     </physDesc>
-                  </msDesc>
-               </witness>
-            </listWit>
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <date when="19300317">17. 3. 1930</date>
-                  </analytic>
-                  <monogr>
-                     <author key="A002001">Schnitzler, Arthur</author>
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
-                     <editor>Edited, annotated, and with an introduction, by Donald G.
-                        Daviau</editor>
-                     <imprint>
-                        <pubPlace>Chapel Hill</pubPlace>
-                        <publisher>The University of North Carolina Press</publisher>
-                        <date when="1978">1978</date>
-                     </imprint>
-                     <biblScope unit="pp">117–118</biblScope>
-                  </monogr>
-                  <series>
-                     <title level="s">University of North Carolina studies in the Germanic languages
-                        and literatures</title>
-                     <biblScope unit="nr">89</biblScope>
-                  </series>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-      <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc status="approved">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
-         <change who="KI MAM" when="20170511">Kollationiert</change>
-         
-      </revisionDesc>
-  </teiHeader>
-    <facsimile>       <graphic url="HS_AM23399Ba"/>
-     <graphic url="HS_AM23399Ba_R"/>
-    </facsimile>
-  <text type="letter">
-      <body>
-         <div type="writingSession" n="1">
-            <opener>
-               <dateline rend="right">
-                    <placeName key="A000250">
-                            <settlement>Wien</settlement>
-                        </placeName>, <date>17. 3. 1930</date>.</dateline>
-            </opener>
-            <p>
-                    <salute>Mein lieber Hermann, </salute>dein Heimweh nach <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> und das deiner verehrten <rs type="person" key="A002080">Gattin</rs> hat auch mir ans Herz
-          gegriffen, und der <rs type="person" key="A002154">Hofrätin</rs>, mit der ich <anchor type="commentary" xml:id="KL141-2">neulich</anchor> davon sprach. Aber so wenig ich
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041141"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Schnitzler an Bahr, 17. 3. 1930</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="141"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002001">Schnitzler, Arthur</persName></sender><addressee full="yes"><persName key="A002002">Bahr, Hermann</persName></addressee><placeSender><placeName key="A000250">Wien</placeName></placeSender><placeAddressee><placeName key="A000355">[München]</placeName></placeAddressee><dateSender><date when="19300317" n="01">17. 3. 1930</date></dateSender><context/></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS AM 23399 Ba</idno></msIdentifier><physDesc><p>eh. Brief, 1 Bl., 2 S., Lateinschrift, hs. Bahr in rotem Buntstift: »<quote><hi
+                              rend="underline" n="1">Schnitzler</hi></quote>«, »<quote>bindet</quote>« mit blauem Buntstift
+                           unterstrichen</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct default="false"><analytic><date when="19300317">17. 3. 1930</date></analytic><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title><editor>Edited, annotated, and with an introduction, by Donald G.
+                        Daviau</editor><imprint><pubPlace>Chapel Hill</pubPlace><publisher>The University of North Carolina Press</publisher><date when="1978">1978</date></imprint><biblScope unit="pp">117–118</biblScope></monogr><series><title level="s">University of North Carolina studies in the Germanic languages
+                        and literatures</title><biblScope unit="nr">89</biblScope></series></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="approved"><change who="KI MAM" when="20151001">Kollationiert</change><change who="KI MAM" when="20170511">Kollationiert</change></revisionDesc></teiHeader><facsimile><graphic url="HS_AM23399Ba"/><graphic url="HS_AM23399Ba_R"/></facsimile><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><placeName key="A000250"><settlement>Wien</settlement></placeName>, <date>17. 3. 1930</date>.</dateline></opener><p><salute>Mein lieber Hermann, </salute>dein Heimweh nach <placeName key="A000250"><settlement>Wien</settlement></placeName> und das deiner verehrten <rs type="person" key="A002080">Gattin</rs> hat auch mir ans Herz
+          gegriffen, und der <rs type="person" key="A002154">Hofrätin</rs>, mit der ich <anchor type="commentary" xml:id="KL141-2" >neulich</anchor> davon sprach. Aber so wenig ich
         den <orgName key="A080733">Nobelpreis</orgName> kriegen werde, so wenig hab ich in <placeName key="A000362">Oesterreich</placeName> zu sagen, sonst
           hätt ich dich längst wieder ans <placeName key="A000214">Burgtheater</placeName> berufen (auf die Gefahr hin, dass du
           mich wieder nicht aufführst, auch ohne <persName key="A002042">Poldi</persName>) – und wie erst Frau <persName key="A002080">Mildenburg</persName> an
         die <placeName key="A000215">Oper</placeName> oder wohin sie sonst möchte, – und in der Musik geht ja meine
           Objectivität noch weiter als in der Literatur. Aber je weniger man versteht und
-          je mehr man liebt, um so gerechter ist man.</p>
-            <p>Aber Scherz beiseite, was bindet dich eigentlich an
-            <placeName key="A000355">
-                        <settlement>München</settlement>
-                    </placeName>? Ich habe das Gefühl, dass deine Leiden und
+          je mehr man liebt, um so gerechter ist man.</p><p>Aber Scherz beiseite, was bindet dich eigentlich an
+            <placeName key="A000355"><settlement>München</settlement></placeName>? Ich habe das Gefühl, dass deine Leiden und
           – entschuldige – deine Hypochondrien sich hier zumindest lindern würden. Es
           würde viele freuen auch manche die nicht in allem deines Sinnes sind, Dich
           wieder hier zu wissen. Denn wissen wir überhaupt<pb/> welchen Sinnes wir sind.
           Kaum welchen Herzens. Beziehungen, auch unterbrochene, auch gestörte, sind das
-          einzige reale in der seelischen Oekonomie. <anchor type="label" xml:id="LL141-1">Wenn mir meine Vergangenheit
+          einzige reale in der seelischen Oekonomie. <anchor type="label" xml:id="LL141-1" >Wenn mir meine Vergangenheit
           erscheint, bist du mir immer Einer der nächsten, und so kann es auch in der
-          Gegenwart nicht anders sein.</anchor>
-                </p>
-            <p>
-                    <anchor type="commentary" xml:id="KL141-1">Klingt das nicht ein bischen nach fünfter Akt, erste Scene?</anchor> Sagen wir: Vierter,
+          Gegenwart nicht anders sein.</anchor></p><p><anchor type="commentary" xml:id="KL141-1" >Klingt das nicht ein bischen nach fünfter Akt, erste Scene?</anchor> Sagen wir: Vierter,
             <unclear>vor</unclear>letzte. Wir wollen nicht sentimental <add place="above">werden.</add> Ich bemerke mit angemessener Kühle: Hoffentlich sieht man
-          sich einmal wieder. Es wäre schön.</p>
-            <closer>Von Herzen Dein<lb/>
-               <signed>Arthur</signed>
-            </closer>
-         </div>
-      </body>
-  </text>
-</TEI>
+          sich einmal wieder. Es wäre schön.</p><closer>Von Herzen Dein<lb/><signed>Arthur</signed></closer></div></body></text></TEI>

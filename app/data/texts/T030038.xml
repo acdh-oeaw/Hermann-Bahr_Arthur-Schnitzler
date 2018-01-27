@@ -1,98 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030038">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" key="A020260">Bahr: A Letter From Germany, Dezember 1922</title>
-            <author key="A002002">Bahr, Hermann</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="038"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <origDate when="19221200" n="1">Dezember 1922</origDate>
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <author key="A002002">Bahr, Hermann</author>
-                     <title level="a" key="A020260">A Letter From Germany</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j" key="A080940">The London Mercury</title>
-                     <imprint>
-                        <date when="192212">Dezember 1922</date>
-                     </imprint>
-                     <biblScope unit="jg">7</biblScope>
-                     <biblScope unit="nr">38</biblScope>
-                     <biblScope unit="pp">194–196</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-     <profileDesc>
-            <langUsage>
-                <language ident="en-UK">English</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc status="candidate">
-         <change when="20160225" who="MAM">Angelegt.</change>
-         <change who="KI MAM" when="20160927">Kollationiert</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="article">
-      <body>
-         <div>
-            <head>A LETTER FROM GERMANY</head>
-            <p rend="right">
-               <hi rend="italic">
-                  <placeName key="A000355">
-                     <settlement>Munich</settlement>
-                        </placeName>
-               </hi>.</p>
-            <p>
-                    <persName key="A002001">ARTHUR SCHNITZLER</persName>’S sixtieth birthday was celebrated in <placeName key="A000351">
-                        <country>German</country>
-                    </placeName> theatres by performances of his plays and in the newspapers by
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030038"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020260">Bahr: A Letter From Germany, Dezember 1922</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="038"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19221200" n="1">Dezember 1922</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020260">A Letter From Germany</title></analytic><monogr><title level="j" key="A080940">The London Mercury</title><imprint><date when="192212">Dezember 1922</date></imprint><biblScope unit="jg">7</biblScope><biblScope unit="nr">38</biblScope><biblScope unit="pp">194–196</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="en-UK">English</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20160225" who="MAM">Angelegt.</change><change who="KI MAM" when="20160927">Kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head>A LETTER FROM GERMANY</head><p rend="right" ><hi rend="italic"><placeName key="A000355"><settlement>Munich</settlement></placeName></hi>.</p><p><persName key="A002001">ARTHUR SCHNITZLER</persName>’S sixtieth birthday was celebrated in <placeName key="A000351"><country>German</country></placeName> theatres by performances of his plays and in the newspapers by
           friendly appreciations. Admiration was almost always mingled with a sort of sadness–almost
-          as though obituary notices were written rather than congratulations. The <hi rend="italic">
-                  <orgName key="A080014">Neue Rundschau</orgName>
-               </hi> in <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>, the organ of his loyal publisher, <persName key="A002020">S.
-            Fischer</persName>, and the <hi rend="italic">
-                  <orgName key="A080139">Moderne
-              Welt</orgName>
-               </hi> of <placeName key="A000250">Vienna</placeName> issued »<persName key="A002001">Schnitzler</persName> numbers.« They opened their pages to his friends and
+          as though obituary notices were written rather than congratulations. The <hi rend="italic"><orgName  key="A080014">Neue Rundschau</orgName></hi> in <placeName key="A000368"><settlement>Berlin</settlement></placeName>, the organ of his loyal publisher, <persName key="A002020">S.
+            Fischer</persName>, and the <hi rend="italic"><orgName  key="A080139">Moderne
+              Welt</orgName></hi> of <placeName key="A000250">Vienna</placeName> issued »<persName key="A002001">Schnitzler</persName> numbers.« They opened their pages to his friends and
           fellow-workers, that on this anniversary they might express their appreciation. Hardly a
           single one of the famous German names was lacking, but among these good wishes too, a
           melancholy note was characteristic. Everyone was sincere and glad, and yet there was a
@@ -108,76 +18,39 @@
           heedlessness. The charm of his plays as well as of his stories lies in their unforced
           gaiety. The <placeName key="A000362">Austrians</placeName> retained this characteristic
           even when the other <placeName key="A000351">German</placeName> tribes, one after another
-          were becoming self-complacent in a stiff, really quite <placeName key="A000351">un-German</placeName> dignity. <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> seemed the last German city which had not forgotten how to smile. And at that
-          time the only complaint <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> had to make of <persName key="A002001">Schnitzler</persName> was that
+          were becoming self-complacent in a stiff, really quite <placeName key="A000351">un-German</placeName> dignity. <placeName key="A000250"><settlement>Vienna</settlement></placeName> seemed the last German city which had not forgotten how to smile. And at that
+          time the only complaint <placeName key="A000250"><settlement>Vienna</settlement></placeName> had to make of <persName key="A002001">Schnitzler</persName> was that
           suddenly secret tears always mingled with his smile. For many years the critics of
-            <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> incessantly admonished him. His talent, they maintained, lay fundamentally in
+            <placeName key="A000250"><settlement>Vienna</settlement></placeName> incessantly admonished him. His talent, they maintained, lay fundamentally in
           his lightheartedness, and yet in all his plays he suddenly allowed himself to be led
           astray by a serious or even a tragic note which was not his <hi rend="italic">forte</hi>
-          at all. For years <placeName key="A000250">
-                  <settlement>Viennese</settlement>
-                    </placeName> criticism incessantly called upon him to write »the German comedy.« This cry
+          at all. For years <placeName key="A000250"><settlement>Viennese</settlement></placeName> criticism incessantly called upon him to write »the German comedy.« This cry
           for »the <placeName key="A000351">German</placeName> comedy« has long been one of the <hi rend="italic">bravura</hi> »stunts« of German criticism. No matter how many comedies one
           may write, still it is never <hi rend="italic">the</hi> mythical German comedy. How many a
-          time after a <hi rend="italic">première</hi> didn’t <persName key="A002001">Schnitzler</persName> complain of this! I recommended:</p>
-            <p>»Why not do them the favour? For once put aside your melancholy inclinations; it is
-          usully in the third act that you can’t resist them any longer!«</p>
-            <p>And to be sure, he came along after a couple of months when we met again, beaming:</p>
-            <p>»This time I am doing it. I am writing the piece for which you have been crying for
+          time after a <hi rend="italic">première</hi> didn’t <persName key="A002001">Schnitzler</persName> complain of this! I recommended:</p><p>»Why not do them the favour? For once put aside your melancholy inclinations; it is
+          usully in the third act that you can’t resist them any longer!«</p><p>And to be sure, he came along after a couple of months when we met again, beaming:</p><p>»This time I am doing it. I am writing the piece for which you have been crying for
           years. There won’t be a melancholy note in it; this time it will be the long desired
-          German comedy!«</p>
-            <p>I wished him »good luck,« and when we saw each other again after a few weeks my first
-          question was:</p>
-            <p>»How is the German comedy getting on?«<pb/>
-                </p>
-                <p>He looked at at me hesitatingly and said:</p>
-            <p>»I’ve been very busily at it; I am already down at the <anchor type="commentary" xml:id="KT038-1">last act, only, you know,
+          German comedy!«</p><p>I wished him »good luck,« and when we saw each other again after a few weeks my first
+          question was:</p><p>»How is the German comedy getting on?«<pb/></p><p>He looked at at me hesitatingly and said:</p><p>»I’ve been very busily at it; I am already down at the <anchor type="commentary" xml:id="KT038-1" >last act, only, you know,
           unfortunately in the preceding act one of the characters committed suicide</anchor>. There was no
-          other way out.« </p>
-            <p>And so it happened that up to the present day he has not yet written the much-wanted
+          other way out.« </p><p>And so it happened that up to the present day he has not yet written the much-wanted
             <placeName key="A000351">German</placeName> comedy. But to-day we know that the dark
           shadows surrounding the <placeName key="A000362">Austrian</placeName> lightheartedness of
-          his characters were the most genuine part. Deep down <persName key="A002001">Schnitzler</persName> knew, without admitting it to himself, that <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> during the years from 1890 to the War already bore the kiss of death upon its
-          brow. <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> is still standing, the houses are still standing, but the Empire whose
-          capital it was is gone. <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> has become a fairy-tale without a country. <persName key="A002001">Schnitzler</persName> always felt <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName> as a fairy-tale, even when we others were still thinking it was reality. This
+          his characters were the most genuine part. Deep down <persName key="A002001">Schnitzler</persName> knew, without admitting it to himself, that <placeName key="A000250"><settlement>Vienna</settlement></placeName> during the years from 1890 to the War already bore the kiss of death upon its
+          brow. <placeName key="A000250"><settlement>Vienna</settlement></placeName> is still standing, the houses are still standing, but the Empire whose
+          capital it was is gone. <placeName key="A000250"><settlement>Vienna</settlement></placeName> has become a fairy-tale without a country. <persName key="A002001">Schnitzler</persName> always felt <placeName key="A000250"><settlement>Vienna</settlement></placeName> as a fairy-tale, even when we others were still thinking it was reality. This
           lends a charm to his works which will not fade, as long as any remembrance remains
           anywhere in the world of the old Imperial city on the <geogName type="river">Danube</geogName>. After all, it always has
           been <placeName key="A000362">Austria</placeName>’s destiny to find its fulfilment only in
-          art. In <persName key="A002509">Mozart</persName>, <persName key="A002120">Schubert</persName>, <anchor type="textConst" xml:id="TT038-1">
-                        <persName key="A002721">Bruckner</persName>
-                    </anchor>, <persName key="A002121">Hugo Wolf</persName>, and <persName key="A002086">Mahler</persName> is represented a reality beside which even the historical reality of
+          art. In <persName key="A002509">Mozart</persName>, <persName key="A002120">Schubert</persName>, <anchor type="textConst" xml:id="TT038-1" ><persName key="A002721">Bruckner</persName></anchor>, <persName key="A002121">Hugo Wolf</persName>, and <persName key="A002086">Mahler</persName> is represented a reality beside which even the historical reality of
             <placeName key="A000362">Austria</placeName> grows pale and sketchy. The life of
             <placeName key="A000362">Austria</placeName> was perhaps always only a rehearsal for its
           works of art. It is thus that we few remaining <placeName key="A000362">Austrians</placeName> whose Fatherland disappeared beneath our feet seek to comfort
-          ourselves.</p>
-            <p>
-                    <anchor type="commentary" xml:id="KT038-2">A very curious work</anchor> on <persName key="A002796">Johann Sebastian Bach</persName>’s
-            <workName key="A020954">
-                  <hi rend="italic">Chromatic Fantasy and Fugue</hi>
-               </workName>
-          which appeared first in <anchor type="commentary" xml:id="KT038-3">
-                        <rs type="work" key="A021439">extracts</rs>
-                    </anchor> in the <orgName key="A080939">
-                  <hi rend="italic">Preussische Jahrbücher</hi>
-               </orgName>, has now been published in its <anchor type="commentary" xml:id="KT038-4">entirety</anchor> under
-          the imprint of <orgName key="A080966">Georg Stilke</orgName> of
-              <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>. It is arousing much attention, and on the one hand is praised quite as much
+          ourselves.</p><p><anchor type="commentary" xml:id="KT038-2" >A very curious work</anchor> on <persName key="A002796">Johann Sebastian Bach</persName>’s
+            <workName key="A020954"><hi rend="italic">Chromatic Fantasy and Fugue</hi></workName>
+          which appeared first in <anchor type="commentary" xml:id="KT038-3" ><rs type="work" key="A021439">extracts</rs></anchor> in the <orgName  key="A080939"><hi  rend="italic">Preussische Jahrbücher</hi></orgName>, has now been published in its <anchor type="commentary" xml:id="KT038-4" >entirety</anchor> under
+          the imprint of <orgName  key="A080966">Georg Stilke</orgName> of
+              <placeName key="A000368"><settlement>Berlin</settlement></placeName>. It is arousing much attention, and on the one hand is praised quite as much
           as it is attacked on the other. Its author is <persName key="A003386">Heinrich
             Sitte</persName>, the archæologist, of the <placeName key="A000818">University of
             Innsbruck</placeName>. There has been much shaking of heads among the »experts.« The
@@ -186,13 +59,7 @@
           view that it is unseemly that one of their colleagues should be coquetting with Dame
           Music. Both sides had to be reminded that the famous <persName key="A002509">Mozart</persName> authority, <persName key="A003777">Otto Jahn</persName>, was also an
           archæologist by profession. <persName key="A003762">Camillo Sitte</persName>, <persName key="A003386">Heinrich</persName>’s father, was both architect and teacher of art; he
-          organised the <placeName key="A000894">
-                  <hi rend="italic">Staatsgewerbeschule</hi>
-               </placeName> of <placeName key="A000250">
-                  <settlement>Vienna</settlement>
-                    </placeName>, and wrote the famous book on »<anchor type="commentary" xml:id="KT038-5">
-                        <workName key="A020953">City Building</workName>
-                    </anchor>,« which made an entire generation realise again
+          organised the <placeName key="A000894"><hi rend="italic">Staatsgewerbeschule</hi></placeName> of <placeName key="A000250"><settlement>Vienna</settlement></placeName>, and wrote the famous book on »<anchor type="commentary" xml:id="KT038-5" ><workName key="A020953">City Building</workName></anchor>,« which made an entire generation realise again
           that every proper square in a city, even every street corner, must be arranged according
           to definite laws, though, of course, unconsciously. <persName key="A003762">Camillo
             Sitte</persName>’s most intimate friend was <persName key="A003778">Hans
@@ -204,46 +71,23 @@
           archæology all his efforts were directed towards the <workName key="A020951">frieze of
             the Parthenon</workName>. <persName key="A003763">Phidias</persName> to him is for the
           eye what <persName key="A002796">Bach</persName> is for the ear. He, as it were, regards
-          the <workName key="A020951">frieze of the Parthenon</workName> as a visible <workName key="A020955">
-                  <hi rend="italic">Chromatic Fantasy and Fugue</hi>
-               </workName>. Or one might express it in this way: if one wanted to explain the <workName key="A020955">
-                  <hi rend="italic">Chromatic Fantasy and Fugue</hi>
-               </workName> to a deaf man, it would only be necessary to show him the <workName key="A020951">frieze of the Parthenon</workName>. This new <rs type="work" key="A020954">book</rs> about <persName key="A002796">Bach</persName> arouses so much favourable and
+          the <workName key="A020951">frieze of the Parthenon</workName> as a visible <workName key="A020955"><hi rend="italic">Chromatic Fantasy and Fugue</hi></workName>. Or one might express it in this way: if one wanted to explain the <workName key="A020955"><hi rend="italic">Chromatic Fantasy and Fugue</hi></workName> to a deaf man, it would only be necessary to show him the <workName key="A020951">frieze of the Parthenon</workName>. This new <rs type="work" key="A020954">book</rs> about <persName key="A002796">Bach</persName> arouses so much favourable and
           bitterly hostile comment, chiefly on account of the strange discovery which the author
-          claims to have made concerning the real genesis of the <workName key="A020955">
-                  <hi rend="italic">Chromatic Fantasy</hi>
-               </workName>. How did <persName key="A002796">Bach</persName> come to it? How did it occur
+          claims to have made concerning the real genesis of the <workName key="A020955"><hi rend="italic">Chromatic Fantasy</hi></workName>. How did <persName key="A002796">Bach</persName> come to it? How did it occur
           to him? What was the first thing to occur to him? It occurred to him to compose his own
           name, and he discovered that everything went beautifully, as soon as he let his name
-          become chromatic. After the <workName key="A020955">
-             <hi rend="italic">Fantasy</hi>
-                    </workName> breaks down into chaos, the <workName key="A020955">
-                  <hi rend="italic">Fugue</hi>
-               </workName> begins again bravely and confidently with <hi rend="italic">a</hi>, <hi rend="italic">b</hi>, <hi rend="italic">h</hi>, <hi rend="italic">c</hi>. As soon as one
-          dechromatises <hi rend="italic">a</hi>, <hi rend="italic">b</hi>, <hi rend="italic">h</hi>, <hi rend="italic">c</hi> the result is <persName key="A002796">
-                  <hi rend="spaced_out">Bach</hi>
-               </persName>,<pb/> the composer’s name. <persName key="A002796">Bach</persName> himself, as
-               we know from an eighteenth-century <anchor type="commentary" xml:id="KT038-6">
-                        <rs type="work" key="A020516">musical lexicon</rs>
-                    </anchor>, was
-          proud of his purely musical name. He introduces it in the <workName key="A020957">
-                  <hi rend="italic">C sharp minor fugue</hi>
-               </workName> of the <workName key="A020952">
-                  <hi rend="italic">Wohltemperiertes Klavier</hi>
-               </workName> and in the <workName key="A020956">
-                  <hi rend="italic">Invention in F minor</hi> for
-              three voices</workName>. It is in the <workName key="A020955">
-                  <hi rend="italic">Chromatic Fantasy</hi>
-               </workName>, however, that he first gives his name a triumphant transformation. He now
+          become chromatic. After the <workName key="A020955"><hi rend="italic">Fantasy</hi></workName> breaks down into chaos, the <workName key="A020955"><hi rend="italic">Fugue</hi></workName> begins again bravely and confidently with <hi rend="italic">a</hi>, <hi rend="italic">b</hi>, <hi rend="italic">h</hi>, <hi rend="italic">c</hi>. As soon as one
+          dechromatises <hi rend="italic">a</hi>, <hi rend="italic">b</hi>, <hi rend="italic">h</hi>, <hi rend="italic">c</hi> the result is <persName key="A002796"><hi rend="spaced_out">Bach</hi></persName>,<pb/> the composer’s name. <persName key="A002796">Bach</persName> himself, as
+               we know from an eighteenth-century <anchor type="commentary" xml:id="KT038-6" ><rs type="work" key="A020516">musical lexicon</rs></anchor>, was
+          proud of his purely musical name. He introduces it in the <workName key="A020957"><hi rend="italic">C sharp minor fugue</hi></workName> of the <workName key="A020952"><hi rend="italic">Wohltemperiertes Klavier</hi></workName> and in the <workName key="A020956"><hi rend="italic">Invention in F minor</hi> for
+              three voices</workName>. It is in the <workName key="A020955"><hi rend="italic">Chromatic Fantasy</hi></workName>, however, that he first gives his name a triumphant transformation. He now
           makes the name with which he was born consciously his own in that he transposes the
           letters. He no longer merely accepts what he received at his birth, but out of <hi rend="italic">b a c h</hi> he now makes <hi rend="italic">a b h c</hi>. This means that
           what he passively received he is now making a free and intense activity of his own. This
           results in the creation of a symbol–namely, that freedom can only consist in that we not
           only suffer what is necessary but also do what is necessary; that we let the will of God
           not only act <hi rend="italic">upon</hi> us but also <hi rend="italic">through</hi> us.
-            »<anchor type="commentary" xml:id="KT038-7">
-                        <rs type="work" key="A020827">Make use of whatever experience comes to you!</rs>
-                    </anchor>« said
+            »<anchor type="commentary" xml:id="KT038-7" ><rs type="work" key="A020827">Make use of whatever experience comes to you!</rs></anchor>« said
             <persName key="A002060">Goethe</persName>; and always this has been the ultimate secret
           of all wisdom. It lies within ourselves alone to learn to master our destiny, in that we
           obey it. Suffering, no matter how great, will burst forth in a cry of rejoicing as soon as
@@ -257,9 +101,4 @@
           During recent years it seems as if the spirit of imperialism had likewise passed into the
           piano. Among pianists, too, pride of muscle was everywhere in the ascendancy. The <rs type="work" key="A020954">book</rs> should be welcomed as a sign that the good old
           German tradition is not forgotten, for through it alone can we regain our health. The real
-          success of the book bears testimony to the vitality of the <placeName key="A000351">German</placeName> spirit. <signed>HERMANN BAHR</signed>
-                </p>
-         </div>
-      </body>
-  </text>
-</TEI>
+          success of the book bears testimony to the vitality of the <placeName key="A000351">German</placeName> spirit. <signed>HERMANN BAHR</signed></p></div></body></text></TEI>

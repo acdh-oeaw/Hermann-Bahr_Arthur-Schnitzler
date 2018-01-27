@@ -1,105 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030036">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" key="A021079">Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903</title>
-            <author key="A002002">Bahr, Hermann</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="036"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <origDate when="19031214" n="1">14. 12. 1903</origDate>
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <author key="A002002">Bahr, Hermann</author>
-                     <title level="a" key="A021079">Hermann Bahr über Arthur Schnitzler</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j" key="A080085">Berliner Tageblatt</title>
-                     <imprint>
-                        
-                        <date when="19031214">14. 12. 1903</date>
-                     </imprint>
-                     <biblScope unit="jg">32</biblScope>
-                     <biblScope unit="nr">634, Abend-Ausgabe</biblScope>
-                     <biblScope unit="pp">2</biblScope>
-                  </monogr>
-               </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
-      <revisionDesc status="candidate">
-         <change when="20160225" who="MAM">Angelegt und kollationiert.</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="article">
-      <body>
-         <div>
-            <head>Hermann Bahr über <persName key="A002001">Arthur Schnitzler</persName>.</head>
-            <p>Vor wenigen Wochen wurde der <orgName key="A080048">akademisch-dramatische Verein</orgName> in <placeName key="A000355">
-                        <settlement>
-                     <hi rend="spaced_out">München</hi>
-                  </settlement>
-                    </placeName>
-                    <space unit="chars" quantity="1"/>
-                    <anchor type="commentary" xml:id="KT036-1">aufgelöst</anchor>, weil
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030036"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A021079">Berliner Tageblatt: Hermann Bahr über Arthur Schnitzler, 14. 12. 1903</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="036"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19031214" n="1">14. 12. 1903</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A021079">Hermann Bahr über Arthur Schnitzler</title></analytic><monogr><title level="j" key="A080085">Berliner Tageblatt</title><imprint><date when="19031214">14. 12. 1903</date></imprint><biblScope unit="jg">32</biblScope><biblScope unit="nr">634, Abend-Ausgabe</biblScope><biblScope unit="pp">2</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20160225" who="MAM">Angelegt und kollationiert.</change></revisionDesc></teiHeader><text type="article"><body><div><head>Hermann Bahr über <persName key="A002001">Arthur Schnitzler</persName>.</head><p>Vor wenigen Wochen wurde der <orgName key="A080048">akademisch-dramatische Verein</orgName> in <placeName key="A000355"><settlement><hi rend="spaced_out">München</hi></settlement></placeName><space unit="chars" quantity="1"/><anchor type="commentary" xml:id="KT036-1" >aufgelöst</anchor>, weil
           er einige Dialoge aus <persName key="A002001">Arthur Schnitzlers</persName> Dialogbuch
             »<workName key="A020018">Reigen</workName>« auf die Bühne gebracht hatte. Wir haben unsere Auffassung,
           daß die Aufführung dieser Szenen auch in künstlerischer Hinsicht eine Geschmacklosigkeit
           bedeutete, niemals verhehlt, tragen aber auch kein Bedenken, die Auflösung der immerhin
-          verdienten literarischen Vereinigung für nutzlose Härte zu erklären.</p>
-            <p>Inzwischen sind uns aus unserem Leserkreise so viele Anfragen über das <rs type="work" key="A020018">Buch</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzlers</persName> zugegangen, daß es geboten erscheint, einmal ein paar
+          verdienten literarischen Vereinigung für nutzlose Härte zu erklären.</p><p>Inzwischen sind uns aus unserem Leserkreise so viele Anfragen über das <rs type="work" key="A020018">Buch</rs><space unit="chars" quantity="1"/><persName key="A002001">Schnitzlers</persName> zugegangen, daß es geboten erscheint, einmal ein paar
           Worte über das merkwürdige Werk zu sagen, damit die irrigen Ansichten, die darüber in
           Umlauf sind, richtig gestellt werden. Wir geben zu diesem Zwecke einige Sätze aus einer
           Schrift wieder, die <hi rend="spaced_out">Hermann
              Bahr</hi> der <orgName key="A080041">Statthalterei</orgName> in
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName> zugehen ließ, um die ihm bisher
+              <placeName key="A000250"><settlement>Wien</settlement></placeName> zugehen ließ, um die ihm bisher
           noch verweigerte Erlaubnis zu einer Vorlesung der <persName key="A002001">Schnitzler</persName>schen
-          Dialoge zu erhalten. Der Autor des »<workName key="A020082">Meister</workName>« schreibt:</p>
-            <p>»Es hat unserer Publizistik an dem Mute gefehlt, öffentlich für das <rs type="work" key="A020018">Werk</rs>
-                    <space unit="chars" quantity="1"/>
-                    <persName key="A002001">Schnitzlers</persName> einzutreten. Gewiß, viele unserer Schriftsteller und Kritiker erkennen den
+          Dialoge zu erhalten. Der Autor des »<workName key="A020082">Meister</workName>« schreibt:</p><p>»Es hat unserer Publizistik an dem Mute gefehlt, öffentlich für das <rs type="work" key="A020018">Werk</rs><space unit="chars" quantity="1"/><persName key="A002001">Schnitzlers</persName> einzutreten. Gewiß, viele unserer Schriftsteller und Kritiker erkennen den
           literarischen Wert der Dichtung <persName key="A002001">Schnitzlers</persName> voll an, aber in keinem
           Blatte ist ein Artikel für das Buch erschienen. So wurde das Werk eines Dichters
           totgeschwiegen, ja schlimmer als das, dem Unverstande und der Gehässigkeit preisgegeben.
@@ -109,9 +20,7 @@
           es zu einem Kunstwerke machen, daß die heiklen Situationen, die in ihm vorkommen, nicht in
           den Dienst frivoler Spielerei, sondern ernster Gedanken gestellt und nicht um ihrer selbst
           willen, sondern aus künstlerischen Gründen mit künstlerischer Notwendigkeit behandelt
-          sind.</p>
-            <p>
-                    <persName key="A002001">Schnitzlers</persName> ›<workName key="A020018">Reigen</workName>‹ zeigt in satirischer Form die Konsequenz davon, daß unserer Anlage
+          sind.</p><p><persName key="A002001">Schnitzlers</persName> ›<workName key="A020018">Reigen</workName>‹ zeigt in satirischer Form die Konsequenz davon, daß unserer Anlage
           nach und noch mehr unserer Gesellschaftsordnung nach das sexuelle Moment in den
           Mittelpunkt des ganzen Lebens gestellt ist. <persName key="A002001">Schnitzler</persName> führt uns in Beispielen, die mit
           Absicht aus den verschiedensten Gesellschaftsschichten gewählt sind, vor, wie anders der
@@ -124,8 +33,4 @@
           ihm die Notwendigkeit der Zurückhaltung nahe legt, nicht darin, daß sie den Manne
           aneifert, den vorgeführten Beispielen zu <hi rend="spaced_out">folgen</hi>, sondern nur darin, daß
           sie ihn bestimmt, zu <hi rend="spaced_out">unterlassen</hi>, was ihm als abstoßend oder lächerlich
-          vorgeführt wurde.«</p>
-         </div>
-      </body>
-  </text>
-</TEI>
+          vorgeführt wurde.«</p></div></body></text></TEI>

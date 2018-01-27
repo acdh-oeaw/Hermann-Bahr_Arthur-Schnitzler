@@ -1,152 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041564">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-                <title level="a">S. Fischer an Schnitzler, 27. 5. 1910</title> 
-                <author key="A002020">Fischer, Samuel</author>
-                <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-                    <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-                <funder>
-                    <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name full="yes" instant="false">Kurt Ifkovits</name>
-                    <name full="yes" instant="false">Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Theatermuseum, Wien</publisher>
-                <idno type="HBAS-L" n="564"/>
-                <availability status="free">
-                    <p>Copyright © 2015</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <correspDesc>
-                    <sender full="yes">
-                        <persName key="A002020">Fischer, Samuel</persName>
-                    </sender>
-                    <addressee full="yes">
-                        <persName key="A002001">Schnitzler, Arthur</persName>
-                    </addressee>
-                    <placeSender>
-                  <placeName key="A000368">Berlin</placeName>
-               </placeSender>
-                    <placeAddressee>
-                        <placeName key="A000250">Wien</placeName>
-                    </placeAddressee>
-                    <dateSender>
-                        <date when="19100527" n="01">27. 5. 1910</date>
-                    </dateSender>
-                    <context>
-                        
-                    </context>
-                    
-                </correspDesc>
-                <listWit>
-                    <witness n="1">
-                        <msDesc>
-                            <msIdentifier>
-                                <country>GB</country>            
-                                <settlement>Cambridge</settlement>            
-                                <repository>University Library</repository>            
-                                <idno>Schnitzler, B 121b</idno>
-                            </msIdentifier>
-                            <physDesc>
-                                <p>ms. Brief, 2 Bl., 2 S. mit gestempelter Unterschrift und hs. Korrekturen, 
-                                    gedruckter Kopf: »<quote>
-                                        <orgName key="A080434">S. Fischer, Verlag</orgName>, <placeName key="A000860">Berlin W., Bülowstraße 90</placeName>
-                                    </quote>«.</p>
-                            </physDesc>
-                        </msDesc>
-                    </witness>
-                </listWit>
-                <listBibl>
-               <biblStruct corresp="BWFi" default="false">
-                    <monogr>
-                        <author>Fischer, Samuel</author>
-                        <author>Fischer, Hedwig</author>
-                        <title level="m">Briefwechsel mit Autoren</title>
-                        <editor>Hg.  Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor>
-                        <imprint>
-                            <pubPlace>Frankfurt am Main</pubPlace>
-                            <publisher>S. Fischer</publisher>
-                            <date when="1989">1989</date>
-                        </imprint>
-                        <biblScope unit="pp">84–85</biblScope>
-                    </monogr>
-                </biblStruct>
-            </listBibl>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc status="candidate">
-            <change who="MAM" when="20160418">Angelegt</change>
-            <change who="KI MAM" when="20160624">
-            <change who="KI MAM" when="20160624">Kollationiert mit Scan</change>Kollationiert</change>
-        </revisionDesc>
-    </teiHeader>
-    <text type="letter">
-        <body>
-            <div type="address">
-                <address>
-                    <addrLine>Herrn Dr. Arthur Schnitzler</addrLine>
-                    <addrLine>
-                  <hi rend="underline" n="1">
-                     <placeName key="A000268">Wien XVIII</placeName>
-                  </hi>
-                    </addrLine>
-                </address>
-            </div>
-            <div type="writingSession" n="1">
-                <opener>
-               <dateline rend="right">den <date>27/5. 1910</date>
-                    </dateline>
-                    <salute>Lieber Herr Doktor,</salute>
-                </opener>
-                <p>aus <placeName key="A000366">
-                  <country>Frankreich</country>
-               </placeName> kommt eine Anfrage wegen des
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041564"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">S. Fischer an Schnitzler, 27. 5. 1910</title><author key="A002020">Fischer, Samuel</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="564"/><availability status="free"><p>Copyright © 2015</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002020">Fischer, Samuel</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><placeSender><placeName key="A000368">Berlin</placeName></placeSender><placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee><dateSender><date when="19100527" n="01">27. 5. 1910</date></dateSender><context></context></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 121b</idno></msIdentifier><physDesc><p>ms. Brief, 2 Bl., 2 S. mit gestempelter Unterschrift und hs. Korrekturen, 
+                                    gedruckter Kopf: »<quote><orgName  key="A080434">S.&#160;Fischer, Verlag</orgName>, <placeName key="A000860">Berlin W., Bülowstraße 90</placeName></quote>«.</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="BWFi" default="false"><monogr><author>Fischer, Samuel</author><author>Fischer, Hedwig</author><title level="m">Briefwechsel mit Autoren</title><editor>Hg.  Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor><imprint><pubPlace>Frankfurt am Main</pubPlace><publisher>S.&#160;Fischer</publisher><date when="1989">1989</date></imprint><biblScope unit="pp">84–85</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160418">Angelegt</change><change who="KI MAM" when="20160624"><change who="KI MAM" when="20160624">Kollationiert mit Scan</change>Kollationiert</change></revisionDesc></teiHeader><text type="letter"><body><div type="address"><address><addrLine>Herrn Dr. Arthur Schnitzler</addrLine><addrLine><hi rend="underline" n="1"><placeName key="A000268">Wien XVIII</placeName></hi></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right">den <date>27/5. 1910</date></dateline><salute>Lieber Herr Doktor,</salute></opener><p>aus <placeName key="A000366"><country>Frankreich</country></placeName> kommt eine Anfrage wegen des
                     Uebersetzungsrechts von »<workName key="A020049">Liebelei</workName>«. Sollte das Stück noch
                     frei sein, so bitte ich, mir zu sagen, zu welchen Bedingungen ich abschliessen
-                    soll.</p>
-                <p>Sie empfangen gleichzeitig den Entwurf von <persName key="A003570">Walser</persName> für den
+                    soll.</p><p>Sie empfangen gleichzeitig den Entwurf von <persName key="A003570">Walser</persName> für den
                         »<workName key="A020059">Medardus</workName>.« Es ist ein echter
                         <persName key="A003570">Walser</persName> mit allen seinen Vorzügen und Fehlern, im ganzen
                     doch aber so charmant und dekorativ, dass wir mit dem Entwurf wohl zufrieden
-                    sein können. Bitte schicken Sie ihn mir bald zurück.</p>
-                <p>
-                    <anchor output="true" xml:id="OL564-1">Mir geht der Plan durch den Kopf, Ihren 50. Geburtstag mit einer Ausgabe Ihrer
+                    sein können. Bitte schicken Sie ihn mir bald zurück.</p><p><anchor xml:id="OL564-1">Mir geht der Plan durch den Kopf, Ihren 50. Geburtstag mit einer Ausgabe Ihrer
                         »<workName key="A020247">Gesammelten Werke</workName>« zu feiern.</anchor> Wenn Sie diesen Plan gut
                     heissen, so würde zu überlegen sein, welche Werke in diese Ausgabe aufzunehmen
                     sind. Eine Auswahl in 3–4 Bänden zu einem billigen Preis (höchstens 12–15 Mark
                     für das komplette gebundene Werk) würde einen grossen Abnehmerkreis finden. Der
-                    billige Verkaufspreis spielt buchhändlerisch eine grosse Rolle.</p>
-                <p output="true">Auch die Herausgabe einer Monographie über Ihr Werk habe ich gleichzeitig vor.
+                    billige Verkaufspreis spielt buchhändlerisch eine grosse Rolle.</p><p >Auch die Herausgabe einer Monographie über Ihr Werk habe ich gleichzeitig vor.
                     Wenn ich Ihnen das alles jetzt schon verrate, so geschieht es, weil die Dinge
                     von langer Hand vorbereitet werden müssen und weil ich über die Person des
                     Herausgebers einer solchen Monographie mit Ihnen sprechen muss.
@@ -158,20 +23,7 @@
                     einmal geschrieben, dass <persName key="A003572">Jonas Fränkel</persName> über den
                     »<workName key="A020052">Weg ins Freie</workName>« schreiben sollte. Gemeldet hat sich bei
                     <add place="above">mir</add> ein Dr. <persName key="A003571">Julius Kapp</persName> aus
-                            <placeName key="A000368">
-                        <settlement>Berlin</settlement>
-                    </placeName>; dieser Herr
-                    arbeitet an einem <anchor type="commentary" xml:id="KL564-1">
-                        <rs type="work" key="A021325">Buch</rs>
-                    </anchor> über Sie und ich habe ihm versprochen, mit meinen
+                            <placeName key="A000368"><settlement>Berlin</settlement></placeName>; dieser Herr
+                    arbeitet an einem <anchor type="commentary" xml:id="KL564-1" ><rs type="work" key="A021325">Buch</rs></anchor> über Sie und ich habe ihm versprochen, mit meinen
                     Entschliessungen bis zum Herbst zu warten, bis zu welchem Zeitpunkt er die
-                    Arbeit beenden wollte.</p>
-               
-                <closer>Mit herzlichen Grüssen<lb/>Ihr<lb/>
-                    <signed>S.Fischer</signed>
-                    
-                </closer>
-            </div>
-        </body>
-    </text>
-</TEI>
+                    Arbeit beenden wollte.</p><closer>Mit herzlichen Grüssen<lb/>Ihr<lb/><signed>S.Fischer</signed></closer></div></body></text></TEI>

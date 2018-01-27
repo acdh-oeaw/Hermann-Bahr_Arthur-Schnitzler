@@ -1,105 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030010">
-  <teiHeader type="text">
-      <fileDesc>
-         <titleStmt>
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-            <title level="a" key="A020823">Bahr: Das Märchen, 2. 12. 1893</title>
-            <author key="A002002">Bahr, Hermann</author>
-            <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-               <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-            <funder>
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-               <address>
-                  <street>Sensengasse 1</street>
-                  <postCode>1090 Wien</postCode>
-                  <placeName>
-                     <country>A</country>
-                     <settlement>Wien</settlement>
-                        </placeName>
-               </address>
-            </funder>
-         </titleStmt>
-         <editionStmt>
-            <edition>HBAS</edition>
-            <respStmt>
-               <resp>Transkription und Kommentierung</resp>
-               <name full="yes" instant="false">Kurt Ifkovits</name>
-               <name full="yes" instant="false">Martin Anton Müller</name>
-            </respStmt>
-         </editionStmt>
-         <publicationStmt>
-            <publisher>Theatermuseum, Wien</publisher>
-            <idno type="HBAS-T" n="010"/>
-            <availability status="free">
-               <p>Copyright © 2017</p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <origDate when="18931202" n="1">2. 12. 1893</origDate>
-            <listBibl>
-               <biblStruct default="false">
-                  <analytic>
-                     <author key="A002002">Bahr, Hermann</author>
-                    <title level="a" key="A020823">Das Märchen. (Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt am Deutschen Volkstheater den 1. December)</title>
-                  </analytic>
-                  <monogr>
-                     <title level="j" key="A080155">Deutsche Zeitung</title>
-                     <imprint>
-                        <date when="18931202">2. 12. 1893</date>
-                     </imprint>
-                    <biblScope unit="jg">23</biblScope>
-                    <biblScope unit="nr">7879, Morgenausgabe</biblScope>
-                     <biblScope unit="pp">1–3</biblScope>
-                  </monogr>
-               </biblStruct>
-              <biblStruct>
-                <analytic>
-                  <title level="a" key="A020823">Das Märchen. (Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt den 1. December)</title>
-                </analytic>
-                <monogr>
-                  <author key="A002002">Bahr, Hermann</author>
-                  <title level="m" key="A020961">Wiener Theater (1892–1898)</title>
-                  <imprint>
-                    <pubPlace>Berlin</pubPlace>
-                    <publisher>S. Fischer</publisher>
-                    <date when="1899">1899</date>
-                  </imprint>
-                  <biblScope unit="pp">242–252</biblScope>
-                </monogr>
-              </biblStruct>
-            </listBibl>
-         </sourceDesc>
-      </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-DE">German</language>
-            </langUsage>
-        </profileDesc>
-  
-      <revisionDesc status="approved">
-			      <change when="20160217" who="KI MAM">Angelegt und kollationiert</change>
-        <change who="KI MAM" when="20170316">Kollationiert</change>
-      </revisionDesc>
-  </teiHeader>
-  <text type="article">
-      <body>
-         <div>
-            <head>
-               <workName key="A020002">Das
-          Märchen.</workName>
-            </head>
-            <head type="sub">(Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt am
-          Deutschen Volkstheater den <date>1. December</date>.)</head>
-            <p>Man fühlt in jeder Scene dieses <rs type="work" key="A020002">Stückes</rs>, daß es immer
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030010"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020823">Bahr: Das Märchen, 2. 12. 1893</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="010"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="18931202" n="1">2. 12. 1893</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020823">Das Märchen. (Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt am Deutschen Volkstheater den 1. December)</title></analytic><monogr><title level="j" key="A080155">Deutsche Zeitung</title><imprint><date when="18931202">2. 12. 1893</date></imprint><biblScope unit="jg">23</biblScope><biblScope unit="nr">7879, Morgenausgabe</biblScope><biblScope unit="pp">1–3</biblScope></monogr></biblStruct><biblStruct><analytic><title level="a" key="A020823">Das Märchen. (Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt den 1. December)</title></analytic><monogr><author key="A002002">Bahr, Hermann</author><title level="m" key="A020961">Wiener Theater (1892–1898)</title><imprint><pubPlace>Berlin</pubPlace><publisher>S.&#160;Fischer</publisher><date when="1899">1899</date></imprint><biblScope unit="pp">242–252</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="approved"><change when="20160217" who="KI MAM">Angelegt und kollationiert</change><change who="KI MAM" when="20170316">Kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head><workName key="A020002">Das
+          Märchen.</workName></head><head type="sub">(Schauspiel in drei Aufzügen von Arthur Schnitzler. Zum ersten Male aufgeführt am
+          Deutschen Volkstheater den <date>1. December</date>.)</head><p>Man fühlt in jeder Scene dieses <rs type="work" key="A020002">Stückes</rs>, daß es immer
           Kunst aus freien Wallungen der Seele, nirgends Mache, nirgends Geschäft, nirgends Rechnung
           auf die Laune der Menge ist. Es hat die heitere Unschuld einer reinen, durch keinen
           technischen Zwang verdorbenen Jugend, welche wie im Traume, ihren heimlichen Trieben
-          gehorsam, elementarisch aus sich schafft. Das gibt ihm eine schöne Weihe.</p>
-            <p>Künstlerisch ist es ohne Zweifel, weil es kann, was es will, und ohne Rest seine Gefühle,
+          gehorsam, elementarisch aus sich schafft. Das gibt ihm eine schöne Weihe.</p><p>Künstlerisch ist es ohne Zweifel, weil es kann, was es will, und ohne Rest seine Gefühle,
           seine Absichten formt. Fraglich mag es nur scenisch sein, ob das literarisch unanfechtbare
           Werk auch theatralische Kraft hat. Es würde nicht schlechter, wenn sie ihm fehlt, weil
           Kunst und Bühne, Werth und Wirkung sich nicht treffen müssen. Es kann etwas sehr
@@ -108,13 +13,11 @@
           Künstlerisch ist jedes redliche Bekenntnis einer Natur, das die rechte Sprache ihrer
           besonderen Weise weiß. Theatralisch ist, was gefällt. Dort will Einer beichten. Hier soll
           er wirken. Dort gilt, was Einer aus sich bringt. Hier gilt, ob er es in den Hörer bringt.
-          Kunst ist einsam, aber die Bühne will die Lust der Menge.</p>
-            <p>Die Wirkung kann versagen, weil der Hörer den Stoff, der gewählt wurde, oder weil er
+          Kunst ist einsam, aber die Bühne will die Lust der Menge.</p><p>Die Wirkung kann versagen, weil der Hörer den Stoff, der gewählt wurde, oder weil er
           die Form, die gegeben wurde, nicht empfangen will. Der Stoff kann gegen das Gefühl, gegen
           den Geschmack, gegen die Gewohnheit der Hörer sein. Oder er kann ihren Wünschen, Trieben
           und Bräuchen gemäß, aber in der Führung fremd und anders und unverträglich sein. Stoff und
-          Führung sind an jedem Stücke zu prüfen. Sie entscheiden seine Kraft.</p>
-            <p>Als Thema wird im »<workName key="A020002">Märchen</workName>« zuerst die Eifersucht
+          Führung sind an jedem Stücke zu prüfen. Sie entscheiden seine Kraft.</p><p>Als Thema wird im »<workName key="A020002">Märchen</workName>« zuerst die Eifersucht
           gemeldet, die Eifersucht auf die Vergangenheit der Geliebten. Das ist dem Sinne der
           üblichen Hörer geläufig. Ich gestehe, daß ich anders fühle. In der Gegenwart mag ich es
           begreifen: es ist in der Natur der Liebe, daß sie nicht theilen will; freilich könnte man
@@ -122,9 +25,7 @@
           fühle ich sie: der Gedanke ist in der That unerträglich, daß sie nach mir einem Anderen
           gehören, die süßen Worte sagen und noch einen Rest der Seele haben könnte, der nicht lange
           an mich vergeben und von mir erschöpft wäre. Aber auf die Vergangenheit kenne ich sie
-          nicht, und das <anchor type="commentary" xml:id="KT010-2">
-                        <persName key="A002205">Hebbel’sche</persName>
-                    </anchor>, daß darüber hinweg kein
+          nicht, und das <anchor type="commentary" xml:id="KT010-2" ><persName key="A002205">Hebbel’sche</persName></anchor>, daß darüber hinweg kein
           Mann kann, war mir immer ein philiströs absurdes Wort: sie thut mir höchstens leid, daß
           sie das Pech hatte, mir nicht früher zu begegnen. Ich könnte auch zeigen, daß viele
           Künstler Frauen mit Vergangenheiten haben, und ich habe oft, erst heuer wieder am
@@ -132,23 +33,17 @@
           Geliebten ihrer Geliebten, ihrer Frau gehört; so treffen sich hier die freie Moral der
           Großen und die alte Sitte des Volkes. Doch weiß ich, daß die Menge der üblichen Hörer, die
           gerade im Theater entscheiden: unsere bürgerliche Gesellschaft, hier anders empfindet. Ihr
-          ist die Eifersucht auf die Vergangenheit vertraut und unerläßlich.</p>
-            <p>Man darf also gegen dieses Thema nichts sagen. Es stimmt mit den Forderungen der Bühne.
+          ist die Eifersucht auf die Vergangenheit vertraut und unerläßlich.</p><p>Man darf also gegen dieses Thema nichts sagen. Es stimmt mit den Forderungen der Bühne.
           Es trifft die Meinung der Menge. Es ist theatralisch. Aber es konnte zwei Stücke geben.
           Der Dichter konnte es doppelt führen, indem er entweder die Werke dieser Eifersucht oder
-          den Kampf gegen sie zeigte.</p>
-            <p>Er konnte die Eifersucht der Vergangenheit am Werke zeigen; wie etwa <workName key="A020877">Othello</workName> die Eifersucht in der Gegenwart zeigt: er nahm dann
+          den Kampf gegen sie zeigte.</p><p>Er konnte die Eifersucht der Vergangenheit am Werke zeigen; wie etwa <workName key="A020877">Othello</workName> die Eifersucht in der Gegenwart zeigt: er nahm dann
           eine Liebe und ließ sie an der Vergangenheit des Mädchens verderben, die allmälig sei es
           gestanden, sei es verrathen wird; der Schmerz des Mannes zwischen Leidenschaft und Ehre
           und die Buße der Gefallenen waren da die Kräfte, die die Handlung trieben. Oder er konnte
           einen Spötter gegen diese Eifersucht zeigen, der sich über sie heben will, aber leidend
-          von ihrem Rechte gezwungen wird; er schrieb dann das Stück, das <persName key="A003724">Gaston Salandri</persName> als »<workName key="A020911">
-            <hi rend="antiqua">Le
-              Grappin</hi>
-               </workName>« geschrieben und die
-             <placeName key="A000382">
-                        <settlement>Paris</settlement>
-                    </placeName>er <placeName key="A000761">Freie
+          von ihrem Rechte gezwungen wird; er schrieb dann das Stück, das <persName key="A003724">Gaston Salandri</persName> als »<workName key="A020911"><hi rend="antiqua">Le
+              Grappin</hi></workName>« geschrieben und die
+             <placeName key="A000382"><settlement>Paris</settlement></placeName>er <placeName key="A000761">Freie
             Bühne</placeName> gespielt hat, die Geschichte des Herrn Jacques Privat, der das
           Vorurtheil verachtet und sich mit seiner Geliebten vermält, obwohl er weiß, daß sie vor
           ihm Anderen gehörte und liederlich lebte; da wird gezeigt, daß alle Liebe die
@@ -157,11 +52,12 @@
           Mit dem ersten Stücke geht der Hörer, auch wenn er diese Eifersucht nicht hat, weil er
           sich doch aus Anderen in sie denken kann. Mit dem zweiten kann er gegen das Vorurtheil,
           das ja von dem Helden bestritten, und er kann für das Vorurtheil mit ihm gehen, das doch
-          schließlich bestätigt wird. Er ist Beiden empfänglich.</p>
-            <p>
-                    <hyphenation alt="\enlargethispage{-\baselineskip}"/>Aber hier geschieht das Eine nicht, und es geschieht nicht das Andere. Das »<workName key="A020002">Märchen</workName>« ist zwischen den zwei möglichen Stücken. Es springt
-          aus dem zweiten, wie es beginnt, unvermuthet dann plötzlich ins erste. Herr <rs type="work" key="A020002">Fedor Denner</rs>, der die schöne <rs type="work" key="A020002">Fanny Theren</rs> liebt, scheint anfangs der Meinung jenes <rs type="person" key="A003581">Franzosen</rs>, daß
-          die <anchor type="commentary" xml:id="KT010-3">Leidenschaft nicht nach der Vergangenheit fragt</anchor>, gegen die übliche Moral, gegen das
+          schließlich bestätigt wird. Er ist Beiden empfänglich.</p><p>Aber hier geschieht das Eine nicht, und es geschieht nicht das Andere. Das »<workName
+            key="A020002">Märchen</workName>« ist zwischen den zwei möglichen Stücken. Es springt
+          aus dem zweiten, wie es beginnt, unvermuthet dann plötzlich ins erste. Herr <rs
+            type="work" key="A020002">Fedor Denner</rs>, der die schöne <rs type="work"
+            key="A020002">Fanny Theren</rs> liebt, scheint anfangs der Meinung jenes <rs type="person" key="A003581">Franzosen</rs>, daß
+          die <anchor type="commentary" xml:id="KT010-3" >Leidenschaft nicht nach der Vergangenheit fragt</anchor>, gegen die übliche Moral, gegen das
           thörichte »Märchen von den Gefallenen«, gegen den Dünkel des Mannes, »Unnatürliches vom
           Weibe zu fordern und eine zu verachten, weil sie gewagt, zu lieben, bevor wir um ihre
           Liebe warben«. Das klingt sehr tapfer. Aber es dauert nicht. Nicht als ob ihn etwa
@@ -171,8 +67,7 @@
           Verstandes. Er empfindet hinter seinen Begriffen. So wird nicht gezeigt, daß das
           Vorurtheil Recht hat. Es wird auch nicht gezeigt, daß seine Meinung recht hat. Es wird nur
           gezeigt, daß er gar nicht seine gepriesene Meinung, sondern gerade das verhöhnte
-          Vorurtheil hat.</p>
-            <p>Also unter dem ersten Scheine auf einmal ein zweites Thema: der Zwist von Denken und
+          Vorurtheil hat.</p><p>Also unter dem ersten Scheine auf einmal ein zweites Thema: der Zwist von Denken und
           Fühlen, wie das Herz dem Kopfe nicht gehorchen mag und sich an gewohnte Triebe klammert –
           das rechte Thema unseres Geschlechtes, das zwischen zwei Zeiten ist, neu im Gehirne, das
           der Zukunft gehört, alt im Gemüthe, das die Vergangenheit nicht verwindet. Das ist
@@ -198,22 +93,14 @@
           theilt seine Stimmungen aus, so oder so. Unbewußt macht er sich selber ein Stück, das er
           dann von dem Autor unerbittlich verlangt. Kein anderes will er dulden. Der erste Act muß
           im Hörer wecken, was die anderen halten. Die anderen müssen bringen, was der erste
-          verspricht. Sonst kann es nicht treffen. Das ist das ganze Einmaleins der Wirkung.</p>
-           <p>
-                    <space dim="vertical"/>
-                </p>
-            <p>Das fehlt dem »<workName key="A020002">Märchen</workName>«, um vom künstlerischen Werthe
+          verspricht. Sonst kann es nicht treffen. Das ist das ganze Einmaleins der Wirkung.</p><p><space dim="vertical"/></p><p>Das fehlt dem »<workName key="A020002">Märchen</workName>«, um vom künstlerischen Werthe
           zur scenischen Kraft zu kommen. Es fehlt, was der gute, dicke <persName key="A003719">Sarcey</persName> mit dem deutlichen Gewissen der theatralischen Instincte immer gleich
               an jedem Stücke fragt: Es hat keine <hi rend="antiqua">idée maitresse</hi> – es hat
           keinen Kern, der die Gefühle um sich sammeln, fassen, einigen würde. Es schlägt im Hörer
           ein Stück um das andere an, aber keines wird gehalten. Da ist das Stück von den
-          Gefallenen, mit dem Thema der »<anchor type="commentary" xml:id="KT010-6">
-                        <workName key="A020988">Denise</workName>
-                    </anchor>« und der
+          Gefallenen, mit dem Thema der »<anchor type="commentary" xml:id="KT010-6" ><workName key="A020988">Denise</workName></anchor>« und der
               »<workName key="A020987" subtype="local">Vergini</workName>«. Dann das Stück jenes Zwistes von Verstand
-          und Gefühl, das auch ich einmal, im Sturme der ersten Jugend, mit meinen »<anchor type="commentary" xml:id="KT010-4">
-                        <workName key="A020895">neuen Menschen</workName>
-                    </anchor>« versuchte. Aber plötzlich ein drittes Stück,
+          und Gefühl, das auch ich einmal, im Sturme der ersten Jugend, mit meinen »<anchor type="commentary" xml:id="KT010-4" ><workName key="A020895">neuen Menschen</workName></anchor>« versuchte. Aber plötzlich ein drittes Stück,
           wie kleine Nervositäten große Leidenschaft verstören. Und ein viertes, ob man denn
           überhaupt, auch wenn sie Tugend hätte, eine Schauspielerin lieben darf und die kitzliche
           Ehre des Liebenden sich je in die Sitten dieses Gewerbes schickt. Vier Stücke so in drei
@@ -221,10 +108,8 @@
           sondern immer bunte Wechsel verhandelt. Aber diese unpräparirte, in Wust verwurzelte und volle
           Wahrheit, die noch ihre dunkle Erde an den Knollen trägt, mag der Hörer nicht, der in den
           alten Sitten der Bühne auf reinliche, aus aller Nachbarschaft gelöste und logisch
-          geordnete Stoffe erzogen ist.</p>
-            <p>Und noch nicht genug. Da ist noch mehr, den Hörer erst recht zu ängstigen und klemmen.
-          Das geschieht durch seine Weise von Psychologie.</p>
-            <p>Psychologie ist auf der Bühne nicht neu. Alle echte Komödie, von <persName key="A003676">Beaumarchais</persName> und <persName key="A003598">Diderot</persName> über <persName key="A003109">Molière</persName> und <persName key="A002207">Shakespeare</persName> bis
+          geordnete Stoffe erzogen ist.</p><p>Und noch nicht genug. Da ist noch mehr, den Hörer erst recht zu ängstigen und klemmen.
+          Das geschieht durch seine Weise von Psychologie.</p><p>Psychologie ist auf der Bühne nicht neu. Alle echte Komödie, von <persName key="A003676">Beaumarchais</persName> und <persName key="A003598">Diderot</persName> über <persName key="A003109">Molière</persName> und <persName key="A002207">Shakespeare</persName> bis
             <persName key="A003686">Plautus</persName> und <persName key="A003720">Terenz</persName>, lebt von ihr. Nur ist sie da freilich dramatische Psychologie. Sie
           bringt blos, was dramatisch treiben kann. Sie verzichtet, den ganzen Menschen zu geben.
           Sie holt aus seiner Seele, was der Handlung dient. Sie nimmt ihn nicht in seiner Fülle,
@@ -236,8 +121,7 @@
           seine Seele noch Anderes. Aber dramatische Psychologie kümmert das nicht. Diesen Rest mag
           sie nicht zeigen. Sie zeigt von dem Liebenden nichts als die Liebe und zeigt auch von der
           Liebe wieder nur, was dem scenischen Verlaufe hilft. So ist es der Brauch der Psychologie
-          auf der Bühne.</p>
-            <p>Ich möchte nun deßwegen noch nicht gleich behaupten, daß die Bühne überhaupt keine andere
+          auf der Bühne.</p><p>Ich möchte nun deßwegen noch nicht gleich behaupten, daß die Bühne überhaupt keine andere
           Psychologie vertragen kann. Einige <placeName key="A000366">Franzosen</placeName>,
             <persName key="A003677">Henri Becque</persName>, <persName key="A002262">Lavedan</persName> und <persName key="A003678">Porto-Riche</persName>, suchen sie jetzt
           eifrig, und man muß erst warten, ob es, wie es ihnen gelingt. Aber man versteht doch
@@ -256,8 +140,7 @@
           ist, ganze Menschen mit allen Noten geben wollen. So kennt er sich schließlich gar nicht
           mehr aus, was denn das Alles überhaupt soll, und zürnt dem Dichter, daß er kein <persName key="A002045">Kadelburg</persName> ist. Es mag noch eine gute Weile brauchen, bis diese
           zögernde Gewohnheit der trägen Hörer durch verwegene Neuerung gebrochen und erzogen
-          wird.</p>
-            <p>Diese Dinge schwächen die Wirkung des Stückes. Es ist nicht etwa ein untheatralisches
+          wird.</p><p>Diese Dinge schwächen die Wirkung des Stückes. Es ist nicht etwa ein untheatralisches
           Werk der reinen Literatur – so ein künstlerisches Buch, das auf der Bühne versagt. Es hat
           theatralische Kräfte. Aber es übt sie in einer fremden, ungewohnten neuen Art, die die
           lieben alten Sitten stört und eine andere Bildung der Hörer verlangt. Es sucht seine
@@ -265,24 +148,15 @@
           tapferes Experiment. Wer eine Verjüngung der Bühne wünscht, muß es dankbar grüßen und
           seine Fehler sogar lieben, weil sie die Mühe des Nächsten kürzen. Wer freilich an der
           Schablone klebt und keinen Wechsel der Schönheit duldet, verdient es gar nicht. So
-          scheidet es im Parterre die Böcke von den Schafen.<pb/>
-                </p>
-                <p>Mir thut nur leid, daß ich heute nicht <persName key="A002051">Maximilian
+          scheidet es im Parterre die Böcke von den Schafen.<pb/></p><p>Mir thut nur leid, daß ich heute nicht <persName key="A002051">Maximilian
             Harden</persName> bin. Ich bedaure, daß es nicht meine Sache ist, das Publicum zu
           recensiren. Es wäre nur billig, daß, wer die Schauspieler oben richtet, auch die Hörer
           unten züchtigen darf, wenn sie an der Kunst sich versündigen, und ich würde ihnen nette
           Dinge sagen. Die Schwärmer für die »<workName key="A020896" subtype="local">Palastrevolution</workName>«,
-          die sich plötzlich kritisch fühlen, die Bewunderer des »<anchor type="commentary" xml:id="KT010-5">
-                        <workName key="A020912 A020913">Mauerblümchen</workName>
-                    </anchor>«, die sich plötzlich sittlich fühlen! Und die »gemüthlichen«
-              <placeName key="A000250">
-                        <settlement>Wien</settlement>
-                    </placeName>er, die alles, nur Talent nicht
-          vertragen, verdienten ihren <persName key="A003721">Juvenal</persName> redlich.</p>
-            <p>Aber zwei Acte lang durfte der Neid sich nicht regen. Zwei Acte siegte der Dichter. Da
-          stand schirmend die <persName key="A002018">
-                  <hi rend="spaced_out">Sandrock</hi>
-               </persName> neben ihm,
+          die sich plötzlich kritisch fühlen, die Bewunderer des »<anchor type="commentary" xml:id="KT010-5" ><workName key="A020912 A020913">Mauerblümchen</workName></anchor>«, die sich plötzlich sittlich fühlen! Und die »gemüthlichen«
+              <placeName key="A000250"><settlement>Wien</settlement></placeName>er, die alles, nur Talent nicht
+          vertragen, verdienten ihren <persName key="A003721">Juvenal</persName> redlich.</p><p>Aber zwei Acte lang durfte der Neid sich nicht regen. Zwei Acte siegte der Dichter. Da
+          stand schirmend die <persName key="A002018"><hi rend="spaced_out">Sandrock</hi></persName> neben ihm,
           wie mit dem hellen Schwerte neben guten Helden die kluge Pallas Athene. Ich habe sie immer
           bewundert und ich habe es oft gesagt. Heute fehlt mir die Rede. Es klänge überschwänglich
           und wäre doch nüchtern, grob und stumpf neben meiner Ergriffenheit, meinem Taumel, meiner
@@ -300,41 +174,9 @@
           was dem Stücke fehlt: einen Schluß. Wir wissen, daß das arme, kleine Mädchen nicht
           verderben wird: sie ist gut durch den Schmerz und eine Künstlerin geworden. Eine edle
           Zukunft wird eröffnet und eine große Perspective ist da. Wir werden geläutert und
-          tröstlich entlassen.</p>
-           <p>Auch Herr <persName key="A002567">
-                        <hi rend="spaced_out">Giampietro</hi>
-                    </persName> und Herr <persName key="A002593">
-                  <hi rend="spaced_out">Kutschera</hi>
-               </persName>, als dumme Wiener »<anchor type="label" xml:id="LT010-1">Lebebuben</anchor>«, waren
-          unübertrefflich. Von Herrn <persName key="A002593">
-                  <hi rend="spaced_out">Kutschera</hi>
-               </persName>
+          tröstlich entlassen.</p><p>Auch Herr <persName key="A002567"><hi rend="spaced_out">Giampietro</hi></persName> und Herr <persName key="A002593"><hi rend="spaced_out">Kutschera</hi></persName>, als dumme Wiener »<anchor type="label" xml:id="LT010-1" >Lebebuben</anchor>«, waren
+          unübertrefflich. Von Herrn <persName key="A002593"><hi rend="spaced_out">Kutschera</hi></persName>
           muß ich das besonders sagen. Er ist oft elend, niederträchtig, schändlich, weil man ihn in
-          falsche Rollen stellt. Aber ich weiß jetzt, daß er ein Künstler ist.</p>
-            <p>Herr <persName key="A002347">
-                  <hi rend="spaced_out">Nhil</hi>
-               </persName> schien heute ohne rechte Lust. Herr
-            <persName key="A003679">
-                  <hi rend="spaced_out">Tewele</hi>
-               </persName>, Herr <persName key="A002700">
-                  <hi rend="spaced_out">Weisse</hi>
-               </persName>, Herr <persName key="A003722">
-                  <hi rend="spaced_out">Eppens</hi>
-               </persName>, Herr <persName key="A003723">
-                  <hi rend="spaced_out">Meixner</hi>
-               </persName>, Frau <persName key="A003742">
-                  <hi rend="spaced_out">Berg</hi>
-               </persName>, Fräulein <persName key="A003680">
-                  <hi rend="spaced_out">Gribl</hi>
-               </persName> störten nicht, nicht einmal Fräulein <persName key="A003743">
-                  <hi rend="spaced_out">Hell</hi>
-               </persName>. Fräulein <persName key="A003741">
-                  <hi rend="spaced_out">Bock</hi>
-               </persName> wurde in der <placeName key="A000214">Burg</placeName>
-              besser verwendet: da ließ man sie nicht spielen. <signed>
-                        <hi rend="spaced_out">Hermann Bahr</hi>.</signed>
-                </p>
-         </div>
-      </body>
-  </text>
-</TEI>
+          falsche Rollen stellt. Aber ich weiß jetzt, daß er ein Künstler ist.</p><p >Herr <persName key="A002347"><hi rend="spaced_out">Nhil</hi></persName> schien heute ohne rechte Lust. Herr
+            <persName key="A003679"><hi rend="spaced_out">Tewele</hi></persName>, Herr <persName key="A002700"><hi rend="spaced_out">Weisse</hi></persName>, Herr <persName key="A003722"><hi rend="spaced_out">Eppens</hi></persName>, Herr <persName key="A003723"><hi rend="spaced_out">Meixner</hi></persName>, Frau <persName key="A003742"><hi rend="spaced_out">Berg</hi></persName>, Fräulein <persName key="A003680"><hi rend="spaced_out">Gribl</hi></persName> störten nicht, nicht einmal Fräulein <persName key="A003743"><hi rend="spaced_out">Hell</hi></persName>. Fräulein <persName key="A003741"><hi rend="spaced_out">Bock</hi></persName> wurde in der <placeName key="A000214">Burg</placeName>
+              besser verwendet: da ließ man sie nicht spielen. <signed><hi rend="spaced_out">Hermann Bahr</hi>.</signed></p></div></body></text></TEI>

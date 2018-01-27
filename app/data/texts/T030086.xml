@@ -1,104 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030086">
-    <teiHeader type="text">
-        <fileDesc>
-            <titleStmt>
-                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-                <title level="a">Bahr: [Über das Burgtheater], [Ende der Theatersaison 1893/1894?]</title>
-                <author key="A002002">Bahr, Hermann</author>
-                <editor>
-               <name full="yes" instant="false">Ifkovits, Kurt</name>
-                    <name full="yes" instant="false">Müller, Martin Anton</name>
-            </editor>
-                <funder>
-                    <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
-                    <address>
-                        <street>Sensengasse 1</street>
-                        <postCode>1090 Wien</postCode>
-                        <placeName>
-                            <country>A</country>
-                            <settlement>Wien</settlement>
-                        </placeName>
-                    </address>
-                </funder>
-            </titleStmt>
-            <editionStmt>
-                <edition>HBAS</edition>
-                <respStmt>
-                    <resp>Transkription und Kommentierung</resp>
-                    <name full="yes" instant="false">Kurt Ifkovits</name>
-                    <name full="yes" instant="false">Martin Anton Müller</name>
-                </respStmt>
-            </editionStmt>
-            <publicationStmt>
-                <publisher>Theatermuseum, Wien</publisher>
-                <idno type="HBAS-T" n="086"/>
-                <availability status="free">
-                    <p>Copyright © 2017</p>
-                </availability>
-            </publicationStmt>
-            <seriesStmt>
-                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
-            </seriesStmt>
-            <sourceDesc>
-                <origDate when="18940700" n="1">[Ende der Theatersaison 1893/1894?]</origDate>
-                <listWit>
-                    <witness n="1">
-                  <msDesc>
-                        <msIdentifier>
-                            <country>A</country>           
-                            <settlement>Wien</settlement>
-                            <repository>Theatermuseum</repository>
-                            <idno>HS VM 871 Ba</idno>
-                        </msIdentifier>
-                        <physDesc>
-                            <p>In: Schwarzes Heft, von beiden Seiten eh. beschrieben, 39 Blatt, teilweise von <persName key="A002080">Anna Bahr-Mildenburg</persName> (fehlerhaft) paginiert, S. 6–8.</p>
-                        </physDesc>
-                    </msDesc>
-                    </witness>
-                </listWit>
-            </sourceDesc>
-        </fileDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="de-AT">German</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc status="candidate">
-            <change who="KI MAM" when="20160114">angelegt</change>
-            <change who="KI MAM" when="20160126">Kollationiert am Original</change>
-            <change who="KI" when="20170113">Gabelsberger entziffert</change>
-        </revisionDesc>
-    </teiHeader>
-   <text type="text">
-      <body>
-        <div type="writingSession" n="1">
-                <p output="true">In der »<placeName key="A000214">Burg</placeName>«
+<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030086"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Bahr: [Über das Burgtheater], [Ende der Theatersaison 1893/1894?]</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="086"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><origDate when="18940700" n="1">[Ende der Theatersaison 1893/1894?]</origDate><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS VM 871 Ba</idno></msIdentifier><physDesc><p>In: Schwarzes Heft, von beiden Seiten eh. beschrieben, 39 Blatt, teilweise von <persName key="A002080">Anna Bahr-Mildenburg</persName> (fehlerhaft) paginiert, S. 6–8.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="KI MAM" when="20160114">angelegt</change><change who="KI MAM" when="20160126">Kollationiert am Original</change><change who="KI" when="20170113">Gabelsberger entziffert</change></revisionDesc></teiHeader><text type="text"><body><div type="writingSession" n="1"><p>In der »<placeName key="A000214">Burg</placeName>«
                     ist alles ruhig. Man hört jetzt gar nichts mehr u. fast scheint es, als hätte
-                    <hi rend="gabelsberger">seiner</hi> »<anchor type="commentary" xml:id="KT086-4">
-                        <workName key="A020617 A020618 A020619">Niobe</workName>
-                    </anchor>« der <rs type="person" key="A002000">Direktor</rs> vor dem Haße, der es <hi rend="gabelsberger">damals nicht</hi> verträgt,
-                    daß man die Schablonen verläßt, den Mut verloren u. die Ruder gezogen. <workName key="A020621">Die erste Lüge</workName>, <hi rend="gabelsberger">von der eine Zeit die</hi> Rede war, ist sachte wieder geschwunden
+                    <hi rend="gabelsberger">seiner</hi> »<anchor type="commentary" xml:id="KT086-4" ><workName
+                        key="A020617 A020618 A020619">Niobe</workName></anchor>« der <rs type="person"
+                            key="A002000">Direktor</rs> vor dem Haße, der es <hi rend="gabelsberger">damals nicht</hi> verträgt,
+                    daß man die Schablonen verläßt, den Mut verloren u. die Ruder gezogen. <workName
+                        key="A020621">Die erste Lüge</workName>, <hi rend="gabelsberger">von der eine Zeit die</hi> Rede war, ist sachte wieder geschwunden
                     – wie der <workName key="A020620" subtype="local">Meister Solneß</workName> geschwunden ist, der
-                    voriges Jahr angekündigt wurde, u. der <workName key="A020621">Ehrgeizige</workName>, die seltsame Komödie des <persName key="A003342">Scribe</persName>, die einzige, wo der große Jongleur der Situation sich
+                    voriges Jahr angekündigt wurde, u. der <workName key="A020621"
+                        >Ehrgeizige</workName>, die seltsame Komödie des <persName key="A003342"
+                        >Scribe</persName>, die einzige, wo der große Jongleur der Situation sich
                     einmal in Characteren<pb/> versuchte. Das alles ist weg und nichts regt
-                    sich.</p>   
-            <p>Man kann dem <rs type="person" key="A002000">Direktor</rs> keinen Vorwürfe machen. <placeName key="A000362">Östreichisches</placeName> kann man
+                    sich.</p><p>Man kann dem <rs type="person" key="A002000">Direktor</rs> keinen Vorwürfe machen. <placeName key="A000362">Östreichisches</placeName> kann man
                     nicht verlangen. <persName key="A002001">Schnitzler</persName>, <persName key="A002011">Loris</persName> zu
                     versuchen – dazu ist seine Position nicht fest genug. In <placeName key="A000351">Deutschland</placeName> fehlt
-                neues. An <anchor type="commentary" xml:id="KT086-1">
-                        <persName key="A002202">Hauptmann</persName> hat die <placeName key="A000214">Burg</placeName> wahrhaftig als ihre Schuld gethan</anchor>: Sie hat ihn erst 
+                neues. An <anchor type="commentary" xml:id="KT086-1" ><persName key="A002202">Hauptmann</persName> hat die <placeName key="A000214">Burg</placeName> wahrhaftig als ihre Schuld gethan</anchor>: Sie hat ihn erst 
                 entdeckt u. sorgsam gepflegt. Das einzige Ereignis der letzten zwei Jahre<pb/> die sehr hübsche <workName key="A020003">Jugend</workName> des
-                trefflichen <persName key="A002198">Max Halbe</persName> versagten Bedenken der Censur. Um die <anchor type="commentary" xml:id="KT086-3">
-                        <workName key="A020706">Heimat</workName> ist wahrlich nicht schade</anchor>, 
-                da man ja schon den »<anchor type="commentary" xml:id="KT086-2">
-                        <workName key="A020693">Hüttenbesitzer</workName>
-                    </anchor>« spielt – wozu die schwächliche Verdeutschung?</p>
-        </div>
-      </body>
-   </text>
-</TEI><!-- Datierung problematisch: 
+                trefflichen <persName key="A002198">Max Halbe</persName> versagten Bedenken der Censur. Um die <anchor type="commentary" xml:id="KT086-3" ><workName key="A020706">Heimat</workName> ist wahrlich nicht schade</anchor>, 
+                da man ja schon den »<anchor type="commentary" xml:id="KT086-2" ><workName key="A020693">Hüttenbesitzer</workName></anchor>« spielt – wozu die schwächliche Verdeutschung?</p></div></body></text></TEI><!-- Datierung problematisch: 
 Hinweise:
 Niobe 5. Februar 1894 bis 7.2.1897
 Adrienne Lecouvreur (einziger Burkhard-Scribe) 1.4.1897–9.5.1898
