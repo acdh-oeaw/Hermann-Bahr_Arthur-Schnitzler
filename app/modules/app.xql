@@ -285,13 +285,13 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             if (collection($config:data-root)/id($docid)//tei:anchor[@type='commentary']) then
         <div id="kommentar" class="kommentar-box">
             {
-                for $kommentar in collection($config:data-root)/id($docid)//tei:anchor[@type='commentary' or 'textConst']
+                for $kommentar in collection($config:data-root)/id($docid)//tei:anchor[@type='commentary' or @type='textConst']
                 return 
                     <div class="commentary-fn">
                         <sup class="fn-marker"><a id="FN_{$kommentar/@xml:id}"
                         href="#FN-ref_{$kommentar/@xml:id}"
                         >
-                            {count($kommentar/preceding::tei:anchor[@type='commentary' or 'textConst'])+1}
+                            {count($kommentar/preceding::tei:anchor[@type='commentary' or @type='textConst'])+1}
                         </a></sup>
                         <span class="lemma">{$kommentar}</span>
                         <span class="kommentar-txt">
