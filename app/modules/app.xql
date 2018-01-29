@@ -674,7 +674,7 @@ declare function app:register_single($keys) {
           {
               let $liste :=
                 for $key in tokenize($keys,',') return
-                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note//element()[contains(@key,$key)]/ancestor::tei:note)
+                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[contains(@key,$key)]/ancestor::tei:note)
                     let $sortdate :=
                     switch (substring($doc/@xml:id/string(),1,1))
                         case "T" return $doc//tei:origDate/@when/string()
@@ -702,12 +702,13 @@ declare function app:register_single($keys) {
                 }</a>
                 </span>
                 <p>
-                    {
-                        for $hit in $doc//element()[contains(@key,$key)]
+                    { (:
+                        for $hit in $doc//tei:body//element()[contains(@key,$key)]
                         return
                             (
                             <span class="previous">... 
                             {
+                                
                                 let $prev := string-join($hit/preceding-sibling::node())
                                 let $len := string-length($prev)-60
                                 return substring($prev,$len) 
@@ -716,7 +717,7 @@ declare function app:register_single($keys) {
                             <span class="following">{substring(string-join($hit/following-sibling::node()),1,60)} ...</span>
                             )
                             
-                    }
+                    :) () (:<-- remove this!:)}
                 </p>
             </div> 
       return
