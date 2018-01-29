@@ -709,7 +709,6 @@ declare function app:register_single($keys) {
                 <p>
                     { 
                         
-                      if ($doc/name() = "physDesc") then $doc/@xml:id/string() else      
                         for $hit in $doc//tei:body//element()[contains(@key,$key)]
                         return
                             (
