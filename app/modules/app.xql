@@ -702,7 +702,7 @@ declare function app:register_single($keys) {
                 }</a>
                 </span>
                 <p>
-                    { (:
+                    { 
                         for $hit in $doc//tei:body//element()[contains(@key,$key)]
                         return
                             (
@@ -717,7 +717,7 @@ declare function app:register_single($keys) {
                             <span class="following">{substring(string-join($hit/following-sibling::node()),1,60)} ...</span>
                             )
                             
-                    :) () (:<-- remove this!:)}
+                    }
                 </p>
             </div> 
       return
