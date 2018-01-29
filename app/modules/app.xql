@@ -566,9 +566,9 @@ function app:register_liste($type) {
                                                     <span class="date">{concat($data/tei:birth/@when,'–',$data/tei:death/@when)}</span>
                                                 else 
                                                     if ($data/tei:birth/@when and not($data/tei:death/@when))                                                            then
-                                                            <span class="date">{concat("* ", $data/tei:birth/@when)}</span>
+                                                            <span class="date">{concat("*&#160;", $data/tei:birth/@when)}</span>
                                                         else 
-                                                            if (not($data/tei:birth/@when) and $data/tei:death/@when) then <span class="date">{concat("† ", $data/tei:death/@when)}</span> 
+                                                            if (not($data/tei:birth/@when) and $data/tei:death/@when) then <span class="date">{concat("†&#160;", $data/tei:death/@when)}</span> 
                                                             else ()
                                         else ()
                                     }
@@ -612,12 +612,56 @@ declare function app:register_single($keys) {
                           (
                           if (collection($config:data-root)/id($key)//tei:forename and collection($config:data-root)/id($key)//tei:surname) then
                           collection($config:data-root)/id($key)//tei:forename || " " || collection($config:data-root)/id($key)//tei:surname
-                          else collection($config:data-root)/id($key)//tei:persName/text(),
+                          else 
+                              (:nicht(Vorname AND Nachname):)
+                              
+                              (:"Vorname UND NICHT Nachname":)
+                              if (collection($config:data-root)/id($key)//tei:forename and not(collection($config:data-root)/id($key)//tei:surname)) then collection($config:data-root)/id($key)//tei:forename else 
+                                  
+                                  (:"NICHT Vorname und Nachname":)
+                                  if(not(collection($config:data-root)/id($key)//tei:forename) and collection($config:data-root)/id($key)//tei:surname) then collection($config:data-root)/id($key)//tei:surname else 
+                              
+                              
+                              collection($config:data-root)/id($key)//tei:persName/text()
+                          (:genauer ansehen!:)
                           
-                          if (collection($config:data-root)/id($key)//tei:birth and collection($config:data-root)/id($key)//tei:death) then
+                          
+                          ,
+                          
+                          if (collection($config:data-root)/id($key)//tei:birth/@when and collection($config:data-root)/id($key)//tei:death/@when) then
                               "(" || collection($config:data-root)/id($key)//tei:birth/@when || "–" || collection($config:data-root)/id($key)//tei:death/@when || ")"
                               else
-                                  (),
+                                  
+                                  (:nur Geburtsdatum:)
+                                  if (collection($config:data-root)/id($key)//tei:birth/@when and not(collection($config:data-root)/id($key)//tei:death/@when)) then 
+                                      if (collection($config:data-root)/id($key)//tei:birth/tei:placeName) then
+                                      (: Geburtsdatum und Geburtsort:)
+                                      "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/@when || " " || collection($config:data-root)/id($key)//tei:birth/tei:placeName ||  ")"
+                                      
+                                      
+                                      (:nur Geburtsjahr, kein Geburtsort:)
+                                      else 
+                                          
+                                          "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/@when ||  ")"
+                                      
+                                      else 
+                                      (:nur Todesjahr:)
+                                      if (not(collection($config:data-root)/id($key)//tei:birth/@when) and collection($config:data-root)/id($key)//tei:death/@when) then 
+                                          
+                                          (:Todesjahr und Sterbeort:)
+                                          if (collection($config:data-root)/id($key)//tei:death/tei:placeName) then
+                                          
+                                        "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/@when || " " || collection($config:data-root)/id($key)//tei:death/tei:placeName ||  ")" 
+                                        
+                                        else 
+                                            (: Nur Todesjahr, kein Sterbeort:)
+                                            "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/@when ||  ")"
+                                        
+                                          else ()
+                                  
+                                  
+                                  
+                                  ,
                                   
                             if (collection($config:data-root)/id($key)//tei:addName) then
                                 <span>, {collection($config:data-root)/id($key)//tei:addName/text()}</span>
