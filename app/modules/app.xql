@@ -715,6 +715,15 @@ declare function app:register_single($keys) {
               </h2>
               
           </div>
+          {
+              (: Vollständig abgedruckte Werke:)
+              if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[contains(@key,$key)]) then 
+                    <div>
+                        <a href="view.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[contains(@key,$key)]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
+                        </a>
+                    </div>
+                  else ()
+          }
       </div>
       </div>,
         <div class="search-hits">
