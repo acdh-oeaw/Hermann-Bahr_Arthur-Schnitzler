@@ -674,7 +674,8 @@ declare function app:register_single($keys) {
           {
               let $liste :=
                 for $key in tokenize($keys,',') return
-                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[contains(@key,$key)]/ancestor::tei:note)
+                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[contains(@key,$key)]/ancestor::tei:note, collection($config:data-root)//tei:physDesc//element()[contains(@key,$key)]/ancestor::tei:TEI)
+                    (:issue #108 – physDesc :)
                     let $sortdate :=
                     switch (substring($doc/@xml:id/string(),1,1))
                         case "T" return $doc//tei:origDate/@when/string()
@@ -687,12 +688,16 @@ declare function app:register_single($keys) {
                        <div class="search-hit" data-docdate="{$sortdate}">
                 <span class="hit-title">
                 <a href="view.html?id={
+                
+                    
                     if (substring($doc/@xml:id/string(),1,1)="K") then 
                         collection($config:data-root)//id($doc/@xml:id)/ancestor::tei:TEI/@xml:id 
                         else (:kein Kommentar:)
                     $doc/@xml:id
                     
                 }">{
+                    
+                    
                     if (substring($doc/@xml:id/string(),1,1)="K") then 
                         (
                         "Kommentar zu: ",
@@ -703,6 +708,8 @@ declare function app:register_single($keys) {
                 </span>
                 <p>
                     { 
+                        
+                      if ($doc/name() = "physDesc") then $doc/@xml:id/string() else      
                         for $hit in $doc//tei:body//element()[contains(@key,$key)]
                         return
                             (
