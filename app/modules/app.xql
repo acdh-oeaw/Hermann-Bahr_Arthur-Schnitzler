@@ -560,13 +560,16 @@ function app:register_liste($type) {
                                 <a href="register.html?key={$key}"><span>{tokenize($sortstring,'\|')[1]}</span>
                                     {
                                         if ($type = "person") then
+                                            
                                             if ($data/tei:birth/@when and $data/tei:death/@when)
-                                            then
-                                                <span class="date">{concat($data/tei:birth/@when,'–',$data/tei:death/@when)}</span>
+                                                then
+                                                    <span class="date">{concat($data/tei:birth/@when,'–',$data/tei:death/@when)}</span>
                                                 else 
-                                                    if ($data/tei:birth/@when and not($data/tei:death/@when)) then
-                                                        <span class="date">{concat("geb. ", $data/tei:birth/@when)}</span>
-                                                    else ()
+                                                    if ($data/tei:birth/@when and not($data/tei:death/@when))                                                            then
+                                                            <span class="date">{concat("* ", $data/tei:birth/@when)}</span>
+                                                        else 
+                                                            if (not($data/tei:birth/@when) and $data/tei:death/@when) then <span class="date">{concat("† ", $data/tei:death/@when)}</span> 
+                                                            else ()
                                         else ()
                                     }
                                     {
