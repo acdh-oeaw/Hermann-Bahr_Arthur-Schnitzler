@@ -155,6 +155,10 @@ declare function format:tei2html($nodes as node()*) {
                 for $n in 1 to xs:int(number($node/@n)) return '.&#160;'
             default return $node/@rendition
         
+        (: caption :)
+        case element(tei:caption) return
+            <div class="caption">{format:tei2html($node/node())}</div>
+        
         (: cell :)
         
         case element(tei:cell) return
@@ -293,7 +297,7 @@ declare function format:tei2html($nodes as node()*) {
         
         (: figure :)
         
-        (:kommt nur 1x vor...:)
+       
         case element (tei:figure) return
             (
             <a
@@ -306,6 +310,7 @@ declare function format:tei2html($nodes as node()*) {
                 <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <img class="img img-responsive" src="{$config:img-base-url || substring-after($node/tei:graphic/@url,'./images/')}.jpg"></img>
+                    {format:tei2html($node/node())}
                 </div>
                 </div>
             </div>
