@@ -317,19 +317,9 @@ declare function format:tei2html($nodes as node()*) {
         
         (: footNote :)
         (:wahrscheinlich tei:note rend=footnote oder was auch immer:)
-        (:muss man noch überarbeiten!!:)
+        
         case element(tei:footNote) return
-            (
-            <a id="{$node/@xml:id}"
-                class="footNote"
-                data-toggle="popover"
-                data-container="body"
-                data-title="Kommentar"
-                data-html="true"
-                data-placement="top"
-                data-content="{format:popover_kommentar($node/@xml:id)}">{format:tei2html($node/node())}</a>,
-            <a class="footnote-ref" href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:footNote)+1}</sup></a>
-            )
+            <a id="{$node/@xml:id}" class="footnote-ref" href="#FN_{$node/@xml:id}"><sup>{count($node/preceding::tei:footNote)+1}</sup></a>
             
         (: foreign :)
         (:Übersetzen??:)
