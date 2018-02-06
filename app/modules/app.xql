@@ -223,6 +223,13 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
         </div> <!-- /title-box -->
         <div class="text-box leseansicht">
             {format:tei2html(collection($config:data-root)/id($docid)//tei:text)}
+            {
+                if (collection($config:data-root)/id($docid)[.//tei:footNote]) then
+                    app:do_footnotes($docid)
+                    else ()
+                
+                
+            }
         </div>
         <div class="anhang anhang-box collapse">
             {
@@ -327,6 +334,18 @@ declare function app:view_verfasserliste() {
             
 };
 
+(: Fußnoten :)
+ declare function app:do_footnotes($docid) {
+     <div class="footnotes">
+     {
+         for $footnote in collection($config:data-root)//id($docid)//tei:footNote return
+            <div id="FN_{$footnote/@xml:id}" class="footnote">
+                <a class="footnote-ref" href="#{$footnote/@xml:id}"><sup>{count($footnote/preceding::tei:footNote)+1}</sup></a>
+                {format:tei2html($footnote/node())}
+            </div>
+     }
+     </div>
+ };
 
 declare
     %templates:wrap
