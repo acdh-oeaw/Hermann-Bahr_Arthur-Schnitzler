@@ -427,8 +427,23 @@ declare function format:tei2html($nodes as node()*) {
         case element(tei:imprint) return
             <span class="imprint">{format:tei2html($node/node())}</span>
         
+        (: tei:item :)
+        case element(tei:item) return
+            if ($node/parent::tei:list and $node/preceding-sibling::tei:label[1]) then
+                ()
+                else format:tei2html($node/node())
+        
         
         (: ### L ###:)
+        
+        (: label :)
+        case element(tei:label) return
+            if ($node/parent::tei:list and $node/following-sibling::tei:item[1]) then
+                <li>
+                    <span class="tei_label">{format:tei2html($node/node())}</span>
+                    <span class="item">{format:tei2html($node/following-sibling::tei:item[1]/node())}</span>
+                </li>
+                else format:tei2html($node/node())
         
         (: l :)
         case element(tei:l) return
@@ -444,6 +459,14 @@ declare function format:tei2html($nodes as node()*) {
         (:type is immer poem:)
         case element(tei:lg) return
             <div class="lg {$node/@type}">{format:tei2html($node/node())}</div>
+        
+        (: list :)
+        
+        (:@type = gloss, simple-gloss:)
+        case element(tei:list) return
+            <ul class="list list_{$node/@type}">
+            {format:tei2html($node/node())}
+            </ul>
             
         (:  listBibl :)
         case element (tei:listBibl) return
