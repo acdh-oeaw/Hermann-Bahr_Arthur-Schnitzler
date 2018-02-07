@@ -522,18 +522,26 @@ del.erased:hover {
 
 /*footNote*/
 .footnote {
-    font-size:75%;
-    margin-bottom:1em;
+    margin-bottom:0.5em;
+    padding-left:25px;
+    
 }
 
 .footnotes {
     margin-top:2em;
+    font-size:10pt;
 }
-/*footNote-Text?*/
-.footNote {}
+
+
+.footnote-marker {
+    position:relative;
+    left:-25px;
+    margin-right:-20px;
+}
 
 /*Ref für die footNote*/
-.footnote-ref {}
+.footnote-ref {
+}
 
 /*Text in Fremdsprache*/
 .foreign {

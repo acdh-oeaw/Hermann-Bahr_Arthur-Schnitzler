@@ -340,7 +340,7 @@ declare function app:view_verfasserliste() {
      {
          for $footnote in collection($config:data-root)//id($docid)//tei:footNote return
             <div id="FN_{$footnote/@xml:id}" class="footnote">
-                <a class="footnote-ref" href="#{$footnote/@xml:id}"><sup>{count($footnote/preceding::tei:footNote)+1}</sup></a>
+                <a class="footnote-marker" href="#{$footnote/@xml:id}"><sup>{count($footnote/preceding::tei:footNote)+1}</sup></a>
                 {format:tei2html($footnote/node())}
             </div>
      }
