@@ -2,36 +2,47 @@
 <div data-template="templates:surround" data-template-with="templates/page.html" data-template-at="content">
     <div class="row">
             <div id="sidebar" class="col-sm-3">
-                <div class="sidebar-nav">
                 <div data-template="app:page-title"/>
+                <div class="sidebar-nav">
                     <div data-template="app:nav"/>
                 </div> <!-- /sidebar-nav -->
-                <!-- weitere Sidebar-Elemente -->    
+                <!-- <div data-template="app:settings"/> -->
+                <!-- weitere Sidebar-Elemente -->
+                <!-- <div data-template="app:prev-next"/> -->
             </div> <!-- col-sm-3 = sidebar -->
             <div id="content" class="col-sm-9">
-                <div class="title-box">
-                    <h2 class="doc-title">Suche</h2>
-                </div>
-                <div class="search-content">
-                <div class="row">
-                    <div data-template="app:searchbox"/>
-                </div>
-                <div class="row" id="searchHints">
+            
+            
+                <!-- <div data-template="app:page_view"/> -->
+                
+                <div class="col-sm-9">
+                    <div class="title-box">
+                        <h2 class="doc-title">Suche</h2>
+                    </div>
+                    <!-- /titel -->
+                    <div class="row">
+                        <div data-template="app:searchbox"/>
+                    </div> <!-- /row searchbox -->
+                    <div class="row" id="searchHints">
                     <p>Tipps:</p>
                     <ul>
                         <li>Phrasensuche durch Anführungszeichen, Beispiel: "<em>sein oder nicht sein</em>"</li>
                         <li>Einzelne Buchstaben können durch Fragezeichen ersetzt werden, Beispiel: <em>B?hr</em>
-                        </li>
+</li>
                         <li>Unvollständige Wörter durch Asterisk, Beispiel: <em>Mildenbu*</em>
                         </li>
                     </ul>
-                    
-                </div>
+                </div> <!-- /searchHints -->
                 <div class="row">
                     <div data-template="app:search_results"/>
                 </div>
-                </div>
+                    
+                    
+                </div> <!-- /irgendeindiv <div class="col-sm-9"> -->
+            
+                
+                
             </div>
 </div> <!-- /row mit sidebar und content -->
-<script type="text/javascript" src="resources/js/view-settings.js"/>
+<!-- <script type="text/javascript" src="resources/js/view-settings.js"/> -->
 </div>
