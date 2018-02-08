@@ -576,7 +576,12 @@ declare function format:tei2html($nodes as node()*) {
         if ($node/ancestor::tei:text) then 
             (:im Text mit popup:)
             <a class="placeName" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
-                 else 
+                 else
+                     if ($node/ancestor::tei:physDesc) then
+                                    <a class="placeName" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
+
+ 
+                    else
             <span class="placeName">{format:tei2html($node/node())}</span>    
             
         
