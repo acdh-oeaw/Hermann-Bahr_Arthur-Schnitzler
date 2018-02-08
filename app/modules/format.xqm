@@ -599,6 +599,11 @@ declare function format:tei2html($nodes as node()*) {
         case element (tei:profileDesc) return
             <div class="profileDesc">{format:tei2html($node/node())}</div>
         
+        
+        (: ptr :)
+        case element (tei:ptr) return
+            <a class="ptr" href="view.html?id={collection($config:data-root)/id($node/@target/string())/ancestor::tei:TEI/@xml:id/string()}&amp;show=a&amp;view-mode=2#FN-ref_{$node/@target/string()}">{collection($config:data-root)/id($node/@target/string())/ancestor::tei:TEI//tei:titleStmt/tei:title[@level='a']/text()}</a>
+        
         (: publicationStmt :)
         case element (tei:publicationStmt) return
             <div class="publicationStmt">{format:tei2html($node/node())}</div>
