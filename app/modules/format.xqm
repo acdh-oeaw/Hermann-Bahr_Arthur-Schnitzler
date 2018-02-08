@@ -622,6 +622,10 @@ declare function format:tei2html($nodes as node()*) {
         case element (tei:pubPlace) return
             <span class="pubPlace">{format:tei2html($node/node())}</span>
         
+        (: quote :)
+        case element (tei:quote) return
+            format:tei2html($node/node())
+        
         (: ### R ###:)
         
         (: repository :)
