@@ -11,6 +11,25 @@
                     
                 </div> <!-- /sidebar-nav -->
                 <!-- weitere Sidebar-Elemente --> 
+                 <form class="filter_form">
+        <!-- 
+        <select id="select-view-mode" class="custom-select">
+            <option>Leseansicht</option>
+            <option>Erweiterte Ansicht</option>
+        </select>
+        -->
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_auszeichnungen"> Markierungen</input>
+            </label>
+        </div>
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" id="check_anhang" data-toggle="collapse" data-target="#anhang"> Anhang</input>
+            </label>
+        </div>
+        
+    </form>
                 
                 <div data-template="app:prev-next"/>
             </div> <!-- col-sm-3 = sidebar -->
@@ -18,4 +37,17 @@
                 <div data-template="app:page_view" data-template-id="D041003"/>
             </div>
 </div>
+    <script>
+     $(document).ready(function() {
+        
+        $("#check_anhang").click(function() {
+           $(".anhang").toggle(this.checked);
+        });
+        
+        $("#check_auszeichnungen").click(function() {
+           $(".text-box").toggleClass("leseansicht");
+        });
+        
+     });
+    </script>
 </div>
