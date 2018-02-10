@@ -5,38 +5,38 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 import module namespace config="http://hbas.at/config" at "../modules/config.xqm";
 
 declare namespace output = "http://www.w3.org/2010/xslt-xquery-serialization";
-declare option output:method "xml";
-declare option output:media-type "application/xml";
+declare option output:method "text";
+declare option output:media-type "text/plain";
 
-let $base-url := request:get-url()
+let $usr := request:get-parameter('usr', '')
+let $pwd := request:get-parameter('pwd', '')
+let $dse-url := "http://bahrschnitzler.acdh.oeaw.ac.at"
+let $base-url := $dse-url
 let $gnd-base := "http://d-nb.info/gnd/"
 let $geonames-base := "http://sws.geonames.org/"
-return
+let $log-in := xmldb:login($config:app-root, $usr, $pwd)
 
+let $cmif :=
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title>Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</title>
-            <editor>
-                <!-- [Name of the person, who is responsible for this file (not the edition) -->
-                Martin Anton Müller
+            <title>CMIF: Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</title>
+            <editor>Martin Anton Müller
                 <email>martin.anton.mueller@univie.ac.at</email>
             </editor>
+            <respStmt>
+            <resp>Encoding</resp>
+            <persName ref="https://orcid.org/0000-0001-8294-2541">Ingo Börner</persName>
+        </respStmt>
         </titleStmt>
-        <!--
- Template for a TEI XML file according to the Corrspondence Metadata Interchange (CMI) format 
--->
         <publicationStmt>
             <publisher>
-                <ref target="[URL of the publisher]">
-                    [Name of the Publisher. IMPORTANT: This name will be used as CC BY attribution]
-                </ref>
+                <ref target="{$dse-url}">Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Hrsg. v. Kurt Ifkovits u. Martin Anton Müller.</ref>
             </publisher>
             <idno type="url">{request:get-url()}</idno>
             <date when="{substring-before(string(current-date()),'+')}"/>
             <availability>
-                <!--  The CC BY 4.0 license is mandatory  -->
                 <licence target="https://creativecommons.org/licenses/by/4.0/">
                     This file is licensed under the terms of the Creative-Commons-License CC-BY 4.0
                 </licence>
@@ -49,14 +49,14 @@ return
                 <title level="m">Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
                 <respStmt>
                     <resp>Herausgegeben von</resp>
-                    <editor>Kurt Ifkovits</editor>
-                    <editor>Martin Anton Müller</editor>
-                </respStmt>
+                    <persName role="editor">Kurt Ifkovits</persName>
+                    <persName role="editor">Martin Anton Müller</persName>
+               </respStmt>
                 <pubPlace>Göttingen</pubPlace>
                 <publisher>Wallstein Verlag</publisher>
                 <date when="2018">2018</date>
                 <idno type="ISBN">978-3-8353-3228-7</idno>
-                <ref target="http://bahrschnitzler.acdh.oeaw.ac.at">bahrschnitzler.acdh.oeaw.ac.at</ref>
+                <ref target="{$dse-url}">{$dse-url}</ref>
             </bibl>
         </sourceDesc>
     </fileDesc>
@@ -88,23 +88,38 @@ return
                 {
                     if ($letter//tei:correspDesc//tei:dateSender/tei:date) then
                         element date {
-                            attribute when {}
+                            attribute when {
+                                let $date := $letter//tei:correspDesc//tei:dateSender/tei:date/@when
+                                let $y := substring($date,1,4)
+                                let $m := substring($date,5,2)
+                                let $d := substring($date,7,2)
+                                let $isodate := $y || "-" || $m || "-" || $d
+                                return $isodate
+                            }
                         }
                     else ()
                 }
                 
-                <!--
- the date has to be note as YYYY-MM-DD, YYYY-MM or YYYY. Attributes @when, @from, @to, @notBefore, @notAfter are possible 
--->
             </correspAction>
             <correspAction type="received">
-                <persName ref="[Authority controlled ID like VIAF, GND etc. for addressee]">
-                    [Name of the addressee in the manner you want to show it]
-                </persName>
-                <placeName ref="[Authority controlled ID, i.e. GeoNames for addressees place]">
-                    [Name of addressees place in the manner you want to show it]
-                </placeName>
-                <!--  unkown date should be skipped  -->
+                
+                 {
+                   for $persName in $letter//tei:correspDesc//tei:addressee//tei:persName return
+                        element persName {
+                            
+                            if (collection($config:data-root)/id($persName/@key/string())//tei:idno[@type="GND"]) then attribute ref {concat($gnd-base,collection($config:data-root)/id($persName/@key/string())//tei:idno[@type="GND"]/text())} else () ,
+                normalize-space($persName/text())
+            }
+                }
+                {
+                    if ($letter//tei:correspDesc//tei:placeAddressee) then
+                        element placeName {
+                            if (collection($config:data-root)/id($letter//tei:correspDesc//tei:placeAddressee/tei:placeName/@key/string())//tei:idno[@type="geonames"]) then attribute ref {concat($geonames-base,collection($config:data-root)/id($letter//tei:correspDesc//tei:placeAddressee/tei:placeName/@key/string())//tei:idno[@type="geonames"]/text())} else () ,
+                            normalize-space($letter//tei:correspDesc//tei:placeAddressee/tei:placeName/text())
+                            
+                        }
+                    else ()
+                }
             </correspAction>
         </correspDesc>
                 
@@ -120,3 +135,8 @@ return
 </text>
 </TEI>
 
+let $filename := "cmif.xml"
+let $location := $config:data-root || "/../"
+let $saved := xmldb:store($location, $filename, $cmif)
+return
+  "Success!"
