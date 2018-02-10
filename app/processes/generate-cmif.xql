@@ -83,8 +83,12 @@ let $cmif :=
                                 let $y := substring($date,1,4)
                                 let $m := substring($date,5,2)
                                 let $d := substring($date,7,2)
-                                let $isodate := $y || "-" || $m || "-" || $d
-                                return $isodate
+                                return
+                                if ($d != "00") then
+                                    $y || "-" || $m || "-" || $d
+                                else 
+                                    $y || "-" || $m
+                               
                             }
                         }
                     else ()
