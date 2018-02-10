@@ -21,15 +21,14 @@ let $cmif :=
 <teiHeader>
     <fileDesc>
         <titleStmt>
-            <title>CMIF: Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</title>
-            <editor>Martin Anton Müller
+                <title>CMIF: Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</title>
+                <editor>Martin Anton Müller
                 <email>martin.anton.mueller@univie.ac.at</email>
-            </editor>
-            <respStmt>
-            <resp>Encoding</resp>
-            <persName ref="https://orcid.org/0000-0001-8294-2541">Ingo Börner</persName>
-        </respStmt>
-        </titleStmt>
+                </editor>
+                <editor>Ingo Börner
+                    <email>ingo.boerner@univie.ac.at</email> 
+                </editor>
+            </titleStmt>
         <publicationStmt>
             <publisher>
                 <ref target="{$dse-url}">Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Hrsg. v. Kurt Ifkovits u. Martin Anton Müller.</ref>
@@ -44,19 +43,10 @@ let $cmif :=
         </publicationStmt>
         <sourceDesc>
             <bibl type="hybrid">
-                <author>Hermann Bahr</author>
-                <author>Arthur Schnitzler</author> 
-                <title level="m">Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
-                <respStmt>
-                    <resp>Herausgegeben von</resp>
-                    <persName role="editor">Kurt Ifkovits</persName>
-                    <persName role="editor">Martin Anton Müller</persName>
-               </respStmt>
-                <pubPlace>Göttingen</pubPlace>
-                <publisher>Wallstein Verlag</publisher>
-                <date when="2018">2018</date>
-                <idno type="ISBN">978-3-8353-3228-7</idno>
-                <ref target="{$dse-url}">{$dse-url}</ref>
+                <bibl type="hybrid">
+                    Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. Göttingen: Wallstein Verlag 2018
+                   <ref target="{$dse-url}">{$dse-url}</ref>
+                </bibl>
             </bibl>
         </sourceDesc>
     </fileDesc>
