@@ -474,7 +474,7 @@
                <item>Nicht entzifferte Stelle. Die Anzahl der × gibt dabei die mutmaßliche
                   Zeichenzahl wieder.</item>
                <label>
-                        <damage>Beispiel</damage>
+                        <damage><supplied>Beispiel</supplied></damage>
                     </label>
                <item>Ergänzung einer am Textträger durch Schäden (Lochung, Tinte, Wasser <c rendition="#dots" n="3"/>) verlorenen oder schwer erkennbaren Stelle.</item>
                <label>
@@ -511,9 +511,9 @@
                         <supplied>Beispiel</supplied>
                     </label>
                <item>Ergänzungen der Herausgeber.</item>
-               <label>{[}{\,\footnotesize\textparagraph\normalsize\,}{]}</label>
+               <label>[¶]</label>
                <item>Hinweis auf fehlende Absätze.</item>
-               <label>{[}<c rendition="#dots" n="3"/>{]}</label>
+               <label>[<c rendition="#dots" n="3"/>]</label>
                <item>Auslassung eines Textteils.</item>
             </list>
             
@@ -558,7 +558,7 @@
                         <ptr target="LL150-1"/>
                     </label>
                <item>Verweise auf Seiten innerhalb des Bandes</item>
-               <label>\symaddr</label>
+               <label><span class="glyphicon glyphicon-envelope"/></label>
                <item>Absender- und Empfängeradresse</item>
                <label>\symstandort</label>
                <item>Archivquelle</item>
