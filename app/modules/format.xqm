@@ -723,7 +723,7 @@ declare function format:tei2html($nodes as node()*) {
         
         (: stamp :)
         case element(tei:stamp) return
-            <div class="stamp" data-n="{$node/@n}">{format:tei2html($node/node())}</div>
+            <div class="stamp" data-n="{$node/@n}"><span>Stempel {$node/@n/string()}: </span>{format:tei2html($node/node())}</div>
             
         (: street :)
         case element(tei:street) return
