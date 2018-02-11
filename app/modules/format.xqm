@@ -806,8 +806,11 @@ declare function format:tei2html($nodes as node()*) {
         (:  workName:)
         case element (tei:workName) return
             if ($node/@key) then
+                if(contains($node/@key," ")) then
+                    <a class="workName" href="register.html?key={replace($node/@key,' ',',')}&amp;type=w">{format:tei2html($node/node())}</a>
+                    else
             
-            <a class="workName" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
+                    <a class="workName" href="register.html?key={$node/@key}&amp;type=w">{format:tei2html($node/node())}</a>
          else 
              <span class="workName-nolink">{format:tei2html($node/node())}</span>
          
