@@ -9,4 +9,5 @@ xquery version "3.1";
 <li>request:get-server-port() = {request:get-server-port()}</li>
 <li>request:get-uri() = {request:get-uri()}</li>
 <li>request:get-url() = {request:get-url()}</li>
+<li>request:get-query-string() = {request:get-query-string()}</li>
 </ul>
