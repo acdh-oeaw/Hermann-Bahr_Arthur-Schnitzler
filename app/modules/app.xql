@@ -51,11 +51,11 @@ function app:page-title($node as node(), $model as map(*)) {
     <div class="page-title-box">
                     <a href="index.html">
                     <h1 class="page-title">
-                    <span class="page-title-main">Hermann Bahr</span> 
-                    <span class="page-title-main">Arthur Schnitzler</span>
-                    <span class="page-title-sub">Briefwechsel,</span>
-                    <span class="page-title-sub">Aufzeichnungen,</span>
-                    <span class="page-title-sub">Dokumente</span>
+                    <span class="page-title-main">Hermann Bahr </span> 
+                    <span class="page-title-main">Arthur Schnitzler </span>
+                    <span class="page-title-sub">Briefwechsel, </span>
+                    <span class="page-title-sub">Aufzeichnungen, </span>
+                    <span class="page-title-sub">Dokumente </span>
                     <span class="page-title-sub">1891–1931</span>
                     </h1>
                     </a>
