@@ -316,22 +316,42 @@ body, h1, h2 {
     padding:0px;
 }
 
+.register_person a {
+    font-size:0px;
+}
+
+.register_person a span {
+    font-size: 14px;
+}
+
+.register_person a span:first-child:after {
+    font-size: 14px;
+    display:inline;
+    content:" ";
+}
+
+
+
 .register_person a .date {
     color:inherit;
+    
 }
 
 .register_person a .date:before {
     display:inline;
     content:" (";
+    
 }
 .register_person a .date:after {
     display:inline;
     content:")";
+    
 }
 
 .register_person a .occupation:before {
     display:inline;
-    content:",";
+    content:", ";
+    
 }
 
 .register_biblFull a .author:after {
