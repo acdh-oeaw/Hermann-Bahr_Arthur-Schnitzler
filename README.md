@@ -1,6 +1,10 @@
 # hbas
-Hermann Bahr, Arthur Schnitzler: Briefwechsel, Materialien, Dokumente
+Hermann Bahr, Arthur Schnitzler: 
+
+Briefwechsel, Materialien, Dokumente
+
 Herausgegeben von Kurt Ifkovits und Martin Anton Müller
+
 Göttingen: Wallstein 2018.
 
 Technik: Ingo Börner
