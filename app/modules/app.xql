@@ -213,7 +213,19 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
     for $docid in tokenize($id,',') return
     <div id="content-box" class="col-sm-9">
         <div class="title-box">
+            {
+                
+            (: fix #119:)
+            if (contains($id,',')) then 
+                <h2 class="doc-title">
+                <a href="view.html?id={$docid}">
+                    {collection($config:data-root)/id($docid)//tei:titleStmt//tei:title[@level='a']/text()}
+                </a>
+                </h2>
+            else
             <h2 class="doc-title">{collection($config:data-root)/id($docid)//tei:titleStmt//tei:title[@level='a']/text()}</h2>
+            
+            }   
             <div class="authors">
             {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@key return
             <a class="author-link" href="view.html?author={$authorkey}">
@@ -859,6 +871,10 @@ declare
     %templates:wrap
 function app:settings($node as node(), $model as map(*),$show, $view-mode, $id) {
     if ($id != "") then
+        
+        if (contains($id,',')) then (:fix #119: Wenn mehrere Dokumente angezeigt werden, Filterbox nicht ausgeben:) ()
+        else
+        
     <form class="filter_form">
         <!-- 
         <select id="select-view-mode" class="custom-select">
