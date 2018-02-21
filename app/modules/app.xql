@@ -587,6 +587,27 @@ declare function app:register_single($keys) {
           }
       </div>
       </div>,
+      <div class="register-meta">
+          {
+              if (not(contains($keys, ','))) then
+                switch (collection($config:data-root)/id($keys)/name())
+                case "person" return
+                    ( 
+                    "Daten zur Person genauer ",
+                    "Geburtsjahr:",
+                    collection($config:data-root)/id($keys)//tei:birth/@when/string(),
+                    "Sterbejahr",
+                    collection($config:data-root)/id($keys)//tei:death/@when/string()
+                    )
+                    
+                case "place" return (: "Ort-Meta" :) ""
+                case "biblFull" return (: "Werk-Meta" :) ""
+                case "org" return (: "Organisations-Meta" :) ""
+                default return ""
+              else ()
+          }
+      </div>
+      ,
         <div class="search-hits">
           {
               let $liste :=
