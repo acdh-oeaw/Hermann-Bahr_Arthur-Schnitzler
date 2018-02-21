@@ -169,8 +169,17 @@ $("#toggle_doctype_T").click(function() {
    
 });*/
 
+
+
 $("#filter_register").keyup(function(){
-    var $filter = $(this).val();
+    
+    // make contains caseinsensitive
+jQuery.expr[':'].contains = function(a, i, m) {
+ return jQuery(a).text().toLowerCase()
+     .indexOf(m[3].toLowerCase()) >= 0;
+};
+    
+    var $filter = $(this).val().toLowerCase();
     if ($filter) {
       /* "#register"*/
       $(".register").find("a:not(:contains(" + $filter + "))").hide();
