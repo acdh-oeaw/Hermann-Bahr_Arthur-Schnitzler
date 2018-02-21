@@ -4,6 +4,10 @@
   xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="xs"
   version="2.0">
+  
+  <xsl:variable name="genonames" select="doc('../misc/geonames4cmif.xml')//placeNames"/>
+  
+  
   <xsl:template match="/">
     <xsl:apply-templates select="//root"/>
   </xsl:template>
@@ -27,9 +31,9 @@
             <idno type="GND">GND</idno>
          </place>
      -->
-  
-  
+
   <xsl:template match="row">
+    <xsl:variable name="key" select="Nummer"/>
     <xsl:element name="place">
       <xsl:attribute name="xml:id" select="Nummer"/>
       <xsl:if test="Typ!=''">
@@ -70,8 +74,16 @@
         </xsl:element>
       </xsl:element> <!-- /location -->
       <xsl:element name="idno">
-        <xsl:attribute name="type" select="'genonames'"/>
-        <xsl:comment>Geonames-ID</xsl:comment>
+        <xsl:attribute name="type" select="'geonames'"/>
+        <!-- geonames pullen -->
+        <xsl:choose>
+          <xsl:when test="$genonames//placeName[@key=$key]">
+            <xsl:value-of select="$genonames//placeName[@key=$key]/@geonames"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:comment>Geonames-ID</xsl:comment>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:element>
       <xsl:element name="idno">
         <xsl:attribute name="type" select="'GND'"/>
