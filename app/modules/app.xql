@@ -363,7 +363,7 @@ declare
     %templates:wrap
 function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$show) {
     if ($id != "") then
-        if (contains($id,',')) then ()
+        if (contains($id,',') or $id="E000001" or $id="E000002" ) then ()
         else
     <nav class="prev-next-pager">
                 <ul class="pagerNew">
