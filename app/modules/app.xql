@@ -592,13 +592,16 @@ declare function app:register_single($keys) {
               if (not(contains($keys, ','))) then
                 switch (collection($config:data-root)/id($keys)/name())
                 case "person" return
-                    ( 
-                    "Daten zur Person genauer ",
-                    "Geburtsjahr:",
-                    collection($config:data-root)/id($keys)//tei:birth/@when/string(),
-                    "Sterbejahr",
-                    collection($config:data-root)/id($keys)//tei:death/@when/string()
-                    )
+                (
+                <p>{"*&#160;" || collection($config:data-root)/id($keys)//tei:birth/@when/string() || " " || collection($config:data-root)/id($keys)//tei:birth/tei:placeName}</p>,
+                <p>{"†&#160;" || collection($config:data-root)/id($keys)//tei:death/@when/string() || " " || collection($config:data-root)/id($keys)//tei:death/tei:placeName}
+                </p>,
+                
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='GND']) then
+                    <p>GND: <a href="http://d-nb.info/gnd/{collection($config:data-root)/id($keys)//tei:idno[@type='GND']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='GND']/string()}</a></p> else ()
+                
+                
+                )
                     
                 case "place" return (: "Ort-Meta" :) ""
                 case "biblFull" return (: "Werk-Meta" :) ""
