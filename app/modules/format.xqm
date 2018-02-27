@@ -607,7 +607,12 @@ declare function format:tei2html($nodes as node()*) {
         
         (: ptr :)
         case element (tei:ptr) return
+            if (contains($node/@target, '-')) then
             <a class="ptr" href="view.html?id={collection($config:data-root)/id($node/@target/string())/ancestor::tei:TEI/@xml:id/string()}&amp;show=a&amp;view-mode=2#FN-ref_{$node/@target/string()}">{collection($config:data-root)/id($node/@target/string())/ancestor::tei:TEI//tei:titleStmt/tei:title[@level='a']/text()}</a>
+            else (: Verweis auf ganzen Text :)
+            <a class="ptr" href="view.html?id={$node/@target/string()}">{collection($config:data-root)/id($node/@target/string())//tei:titleStmt/tei:title[@level='a']/text()}</a>
+            
+            
         
         (: publicationStmt :)
         case element (tei:publicationStmt) return
