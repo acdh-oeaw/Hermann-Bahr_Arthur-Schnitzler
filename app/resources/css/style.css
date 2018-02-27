@@ -914,9 +914,19 @@ del.erased:hover {
     content:".";
 }
 
+.analytic,.monogr .title.level_m:before {
+    display:inline;
+    content:" ";
+}
+
 .analytic,.monogr .pubPlace:after {
     display:inline;
     content:":";
+}
+
+.analytic,.monogr .pubPlace:before {
+    display:inline;
+    content:" ";
 }
 
 .analytic,.monogr .editor:after {
@@ -924,9 +934,24 @@ del.erased:hover {
     content:".";
 }
 
+.analytic,.monogr .editor:before {
+    display:inline;
+    content:" ";
+}
+
+.analytic,.monogr .publisher:before {
+    display:inline;
+    content:" ";
+}
+
 .analytic,.monogr .date:after {
     display:inline;
     content:".";   
+}
+
+.analytic,.monogr .date:before {
+    display:inline;
+    content:" ";   
 }
 
 .analytic,.monogr .date-pp:after {
@@ -934,16 +959,34 @@ del.erased:hover {
     content:",";   
 }
 
-.analytic,.monogr .biblScope.pp:before {
+.analytic,.monogr .biblScope:before {
     display:inline;
-    content:"S. ";   
+    content:" S. ";   
 }
 
-.analytic,.monogr .biblScope.pp:after {
+.analytic,.monogr .biblScope:after {
     display:inline;
     content:".";   
 }
 
+.monogr {
+    display:block;
+}
+
+.msDesc .settlement:after {
+    display:inline;
+    content:" ";
+}
+
+.msIdentifier .idno:before {
+   display:inline;
+    content:" "; 
+}
+
+.placeAddressee .placeName:before {
+    display:inline;
+    content:"\ "; 
+}
 
 /*Kommentar*/
 
