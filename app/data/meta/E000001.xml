@@ -461,200 +461,292 @@
                Personen.</p>
          </div>
          <div>
-            
-            <list type="simple-gloss">
-               <head>Diakritische Darstellung</head>
-               <label>
+            <head>Diakritische Darstellung</head>
+            <table cols="2" rows="12">
+               
+               <row>
+                        <cell>
                         <unclear>Beispiel</unclear>
-                    </label>
-               <item>Unsicher gelesene Stelle.</item>
-               <label>
+                    </cell>
+               <cell>Unsicher gelesene Stelle.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <gap unit="chars" quantity="5" reason="illegible"/>
-                    </label>
-               <item>Nicht entzifferte Stelle. Die Anzahl der × gibt dabei die mutmaßliche
-                  Zeichenzahl wieder.</item>
-               <label>
-                        <damage><supplied>Beispiel</supplied></damage>
-                    </label>
-               <item>Ergänzung einer am Textträger durch Schäden (Lochung, Tinte, Wasser <c rendition="#dots" n="3"/>) verlorenen oder schwer erkennbaren Stelle.</item>
-               <label>
+                    </cell>
+               <cell>Nicht entzifferte Stelle. Die Anzahl der × gibt dabei die mutmaßliche
+                  Zeichenzahl wieder.</cell>
+                    </row>
+               <row>
+                        <cell>
+                        <damage>
+                                <supplied>Beispiel</supplied>
+                            </damage>
+                    </cell>
+               <cell>Ergänzung einer am Textträger durch Schäden (Lochung, Tinte, Wasser <c rendition="#dots" n="3"/>) verlorenen oder schwer erkennbaren Stelle.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <add place="above">Beispiel</add>
-                    </label>
-               <item>Nachträgliche Einfügung</item>
-               <label>
+                    </cell>
+               <cell>Nachträgliche Einfügung</cell>
+                    </row>
+               <row>
+                        <cell>
                         <subst>
                      <del rend="overwritten">Exempel</del>
                      <add place="inline">Beispiel</add>
                   </subst>
-                    </label>
-               <item>Eine durch Überarbeitung (Streichung, Überschreibung) getilgte Textvariante
-                  wird hochgestellt vor der sie ersetzenden Schicht wiedergegeben.</item>
-               <label>
+                    </cell>
+               <cell>Eine durch Überarbeitung (Streichung, Überschreibung) getilgte Textvariante
+                  wird hochgestellt vor der sie ersetzenden Schicht wiedergegeben.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <hi rend="latintype">Beispiel</hi>
-                    </label>
-               <item>Schriftwechsel zu Latein- oder Antiquaschrift innerhalb eines Textes in Fraktur
-                  oder Kurrentschrift.</item>
-               <label>
+                    </cell>
+               <cell>Schriftwechsel zu Latein- oder Antiquaschrift innerhalb eines Textes in Fraktur
+                  oder Kurrentschrift.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <pb/>
-                    </label>
-               <item>Seitenwechsel.</item>
-               <label>
+                    </cell>
+               <cell>Seitenwechsel.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <hi rend="underline" n="1">Beispiel</hi>
-                    </label>
-               <item>Einfache Unterstreichung. </item>
-               <label>
+                    </cell>
+               <cell>Einfache Unterstreichung. </cell>
+                    </row>
+               <row>
+                        <cell>
                         <hi rend="underline" n="2">Beispiel</hi>
-                    </label>
-               <item>Doppelte oder mehrfache Unterstreichung. Die Zahl weiterer Unterstreichungen
-                  wird angemerkt.</item>
-               <label>
+                    </cell>
+               <cell>Doppelte oder mehrfache Unterstreichung. Die Zahl weiterer Unterstreichungen
+                  wird angemerkt.</cell>
+                    </row>
+               <row>
+                        <cell>
                         <supplied>Beispiel</supplied>
-                    </label>
-               <item>Ergänzungen der Herausgeber.</item>
-               <label>[¶]</label>
-               <item>Hinweis auf fehlende Absätze.</item>
-               <label>[<c rendition="#dots" n="3"/>]</label>
-               <item>Auslassung eines Textteils.</item>
-            </list>
+                    </cell>
+               <cell>Ergänzungen der Herausgeber.</cell>
+                    </row>
+               <row>
+                        <cell>[¶]</cell>
+               <cell>Hinweis auf fehlende Absätze.</cell>
+                    </row>
+               <row>
+                        <cell>[<c rendition="#dots" n="3"/>]</cell>
+               <cell>Auslassung eines Textteils.</cell>
+                    </row>
+            </table>
             
-            <list type="simple-gloss">
-               <head>Abkürzungen und Symbole</head>
-               <label>A. S.</label>
-               <item>Arthur Schnitzler</item>
-               <label>Bd.</label>
-               <item>Band</item>
-               <label>Bl.</label>
-               <item>Blatt</item>
-               <label>Bw</label>
-               <item>Briefwechsel</item>
-               <label>CUL</label>
-               <item>Cambridge University Library, Großbritannien</item>
-               <label>DLA</label>
-               <item>Deutsches Literaturarchiv, Marbach am Neckar</item>
-               <label>eh.</label>
-               <item>eigenhändig</item>
-               <label>FDH</label>
-               <item>Freies Deutsches Hochstift, Frankfurt am Main</item>
-               <label>H.</label>
-               <item>Heft</item>
-               <label>H. B.</label>
-               <item>Hermann Bahr</item>
-               <label>hs.</label>
-               <item>handschriftlich</item>
-               <label>Jg.</label>
-               <item>Jahrgang</item>
-               <label>ms.</label>
-               <item>maschinenschriftlich</item>
-               <label>ÖNB</label>
-               <item>Österreichische Nationalbibliothek</item>
-               <label>S.</label>
-               <item>Seite(n)</item>
-               <label>TMW</label>
-               <item>Theatermuseum, Wien</item>
-               <label>YGCL</label>
-               <item>Yale Collection of German Literature, Beinecke Rare Book and Manuscript
-                  Library</item>
-               <label>
+            <head>Abkürzungen und Symbole</head>
+            
+            <table cols="2" rows="21">
+               <row>
+                        <cell>A. S.</cell>
+               <cell>Arthur Schnitzler</cell>
+                    </row>
+               <row>
+                        <cell>Bd.</cell>
+               <cell>Band</cell>
+                    </row>
+               <row>
+                        <cell>Bl.</cell>
+               <cell>Blatt</cell>
+                    </row>
+               <row>
+                        <cell>Bw</cell>
+               <cell>Briefwechsel</cell>
+                    </row>
+               <row>
+                        <cell>CUL</cell>
+               <cell>Cambridge University Library, Großbritannien</cell>
+                    </row>
+               <row>
+                        <cell>DLA</cell>
+               <cell>Deutsches Literaturarchiv, Marbach am Neckar</cell>
+                    </row>
+               <row>
+                        <cell>eh.</cell>
+               <cell>eigenhändig</cell>
+                    </row>
+               <row>
+                        <cell>FDH</cell>
+               <cell>Freies Deutsches Hochstift, Frankfurt am Main</cell>
+                    </row>
+               <row>
+                        <cell>H.</cell>
+               <cell>Heft</cell>
+                    </row>
+               <row>
+                        <cell>H. B.</cell>
+               <cell>Hermann Bahr</cell>
+                    </row>
+               <row>
+                        <cell>hs.</cell>
+               <cell>handschriftlich</cell>
+                    </row>
+               <row>
+                        <cell>Jg.</cell>
+               <cell>Jahrgang</cell>
+                    </row>
+               <row>
+                        <cell>ms.</cell>
+               <cell>maschinenschriftlich</cell>
+                    </row>
+               <row>
+                        <cell>ÖNB</cell>
+               <cell>Österreichische Nationalbibliothek</cell>
+                    </row>
+               <row>
+                        <cell>S.</cell>
+               <cell>Seite(n)</cell>
+                    </row>
+               <row>
+                        <cell>TMW</cell>
+               <cell>Theatermuseum, Wien</cell>
+                    </row>
+               <row>
+                        <cell>YGCL</cell>
+               <cell>Yale Collection of German Literature, Beinecke Rare Book and Manuscript
+                  Library</cell>
+                    </row>
+               <row>
+                        <cell>
                         <ptr target="LL150-1"/>
-                    </label>
-               <item>Verweise auf Seiten innerhalb des Bandes</item>
-               <label><span class="glyphicon glyphicon-envelope"/></label>
-               <item>Absender- und Empfängeradresse</item>
-               <label><span class="glyphicon glyphicon-map-marker"/></label>
-               <item>Archivquelle</item>
-               <label><span class="glyphicon glyphicon-book"/></label>
-               <item>Gedruckte Textvorlage</item>
-               <label><span  /></label>
-               <item>Weitere (ungekürzte) Drucke</item>
-            </list>
+                    </cell>
+               <cell>Verweise auf Seiten innerhalb des Bandes</cell>
+                    </row>
+               <row>
+                        <cell>
+                            <span class="glyphicon glyphicon-envelope"/>
+                        </cell>
+               <cell>Absender- und Empfängeradresse</cell>
+                    </row>
+               <row>
+                        <cell>
+                            <span class="glyphicon glyphicon-map-marker"/>
+                        </cell>
+               <cell>Archivquelle</cell>
+                    </row>
+               <row>
+                        <cell>
+                            <span class="glyphicon glyphicon-book"/>
+                        </cell>
+               <cell>Drucke</cell>
+                    </row>
+            </table>
             
          </div>
          <div>
             <head>Siglen</head>
-            <list type="gloss">
-               <label>
+            <table cols="2" rows="34">
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Bahr/Holz</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Bahr, Hermann; Holz, Arno: <workName>Briefwechsel 1887–1923</workName>.
                      Hg. Gerd-Hermann Susen, Martin Anton Müller. Göttingen:
                         <orgName>Wallstein</orgName> 2015.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>Glossen</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Bahr, Hermann: <workName>Glossen. Zum Wiener Theater (1903 bis
                         1906)</workName>. Berlin: <orgName key="A080434">S. Fischer</orgName>
                             <space unit="chars" quantity="1"/>
                             <date>1907</date>.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>ÖKeA</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>
                             <workName>Hermann Bahr – Österreichischer Kritiker europäischer
                         Avantgarden</workName>. Hg. Martin Anton Müller, Claus Pias und Gottfried
                      Schnödl. Bern u. a.: <orgName>Peter Lang</orgName> 2014.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>Rezensionen</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Bahr, Hermann: <workName>Rezensionen. Wiener Theater 1901 bis
                         1903</workName>. Berlin: <orgName key="A080434">S. Fischer</orgName>
                             <space unit="chars" quantity="1"/>
                             <date>1903</date>.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>TSN</workName> II</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Bahr, Hermann: <workName>Tagebücher, Skizzenbücher,
                      Notizhefte</workName>. Hg. Moritz Csáky. Wien, Köln, Weimar:
                         <orgName>Böhlau</orgName> 1994–2003. Band II:
                      <workName>1891–1900</workName>. Bearbeitet von Helene Zand, Lukas Mayerhofer
                      und Lottelis Moser (1996).</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>TSN</workName> III</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Derselbe, Band III: <workName>1901–1903</workName>. Bearbeitet von Helene
                      Zand und Lukas Mayerhofer (1997).</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>TSN</workName> IV</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Derselbe, Band IV: <workName>1904–1905</workName>. Bearbeitet von Lukas
                      Mayerhofer und Helene Zand (2000).</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>H. B. <workName>TSN</workName> V</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Derselbe, Band V: <workName>1906–1908</workName>. Bearbeitet von Kurt
                      Ifkovits und Lukas Mayerhofer (2003).</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Beer-Hofmann</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Beer-Hofmann, Richard: <workName>Briefe. 1895–1945</workName>. Hg.
                      Alexander Košenina. Oldenburg: <orgName>Igel</orgName> 1999.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Beer-Hofmann an Bahr</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Beer-Hofmann, Richard: <workName>The Unpublished Letters of Richard
                         Beer-Hofmann to Hermann Bahr (with the unpublished letters between
                         Beer-Hofmann and Theodor Herzl)</workName>. Hg. Jeffrey B. Berlin. In:
@@ -662,119 +754,144 @@
                         of His 85th Birthday.</workName> Hg. Gelber, Mark H. New York, Bern,
                      Frankfurt am Main: <orgName>Peter Lang</orgName> 1986, S.
                   121–144.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Fischer</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Fischer, Samuel; Fischer, Hedwig: <workName>Briefwechsel mit
                         Autoren</workName>. Hg. Dierk Rodewald und Corinna Fiedler. Einführung von
                      Bernhard Zeller. Frankfurt am Main: <orgName>S. Fischer</orgName>
                   1989.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Hofmannsthal/Bahr</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Hofmannsthal, Hugo von; Hofmannsthal, Gerty von; Bahr, Hermann:
                         <workName>Briefwechsel 1891–1934</workName>. Hg. Elsbeth Dangel-Pelloquin.
                      Göttingen: <orgName>Wallstein</orgName> 2013.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Hofmannsthal/Schnitzler</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Hofmannsthal, Hugo; Schnitzler, Arthur:
                      <workName>Briefwechsel</workName>. Hg. Therese Nickl und Heinrich Schnitzler.
                      Frankfurt am Main: <orgName>S. Fischer</orgName> 1964.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Schnitzler/Beer-Hofmann</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur; Beer-Hofmann, Richard: <workName>Briefwechsel
                         1891–1931</workName>. Hg. Konstanze Fliedl. Wien, Zürich:
                         <orgName>Europaverlag</orgName> 1992.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Schnitzler/Brahm</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur; Brahm, Otto: <workName>Der Briefwechsel Arthur
                         Schnitzler – Otto Brahm</workName>. Vollständige Ausgabe. Hg. Oskar Seidlin.
                      Tübingen: <orgName>Max Niemeyer</orgName> 1975.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Schnitzler/Sandrock</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur; Sandrock, Adele: <workName>Dilly. Geschichte einer
                         Liebe in Briefen, Bildern und Dokumenten</workName>. Hg. Renate Wagner.
                      Wien, München: <orgName>Amalthea</orgName> 1975.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>A. S. <workName>B</workName> I</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur: <workName>Briefe 1875–1912</workName>. Hg. Therese
                      Nickl und Heinrich Schnitzler. Frankfurt am Main: <orgName>S. Fischer</orgName>
                      1981.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>A. S. <workName>B</workName> II</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur: <workName>Briefe 1913–1931</workName>. Hg. Peter
                      Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler.
                      Frankfurt am Main: <orgName>S. Fischer</orgName> 1984.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>A. S. <workName>EV</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur: <workName>Gesammelte Werke</workName>. Frankfurt am
                      Main: S. Fischer 1961–1977. Band: <workName>Entworfenes und
                         Verworfenes</workName>. Aus dem Nachlass hg. von Reinhard Urbach.
                      (1977)</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>A. S. <workName>JiW</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur: <workName>Jugend in Wien</workName>. Eine
                      Autobiographie. Hg. Therese Nickl und Heinrich Schnitzler. Nachwort von
                      Friedrich Torberg. Wien u. a.: <orgName>Molden</orgName> 1968.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>A. S. <workName>Tb</workName>
                         </bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Schnitzler, Arthur: <workName>Tagebuch 1879–1931</workName>. Hg.
                      Kommission für literarische Gebrauchsformen der Österreichischen Akademie der
                      Wissenschaften, Obmann: Werner Welzig. Wien: <orgName>Verlag der
                         Österreichischen Akademie der Wissenschaften</orgName>,
                   1981–2000.</bibl>
-                    </item>
-               <label>
+                    </cell>
+                    </row>
+               <row>
+                        <cell>
                         <bibl>
                             <workName>Bw</workName> Zweig</bibl>
-                    </label>
-               <item>
+                    </cell>
+               <cell>
                         <bibl>Zweig, Stefan: <workName>Briefwechsel mit Hermann Bahr, Sigmund Freud,
                         Rainer Maria Rilke und Arthur Schnitzler</workName>. Hg. Jeffrey B. Berlin,
                      Hans-Ulrich Lindken und Donald A. Prater. Frankfurt am Main: <orgName>S.
                         Fischer</orgName> 1987.</bibl>
-                    </item>
-            </list>
+                    </cell>
+                    </row>
+            </table>
          </div>
       </body>
    </text>
