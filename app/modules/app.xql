@@ -604,7 +604,26 @@ declare function app:register_single($keys) {
                 )
                     
                 case "place" return (: "Ort-Meta" :) ""
-                case "biblFull" return (: "Werk-Meta" :) ""
+                case "biblFull" return 
+                    
+                        (
+                        if (collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]) then
+                            <p>
+                            {collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]}
+                            </p>
+                            else ""
+                        ,
+                        
+                    if (collection($config:data-root)/id($keys)//tei:ab[@type="Bibliografie"]) then
+                        collection($config:data-root)/id($keys)//tei:ab[@type="Bibliografie"]/text()
+                        else 
+                            if (collection($config:data-root)/id($keys)//tei:ab[@type="Erscheinungsdatum"])
+                            then 
+                                <p>{collection($config:data-root)/id($keys)//tei:ab[@type="Erscheinungsdatum"]/text()}</p>
+                                else ""
+                        )
+                    
+            
                 case "org" return (: "Organisations-Meta" :) ""
                 default return ""
               else ()
