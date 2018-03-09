@@ -750,11 +750,27 @@ function app:nav($node as node(), $model as map(*)) {
                                         <li>
                                                 <a href="impressum.html">Impressum</a>
                                             </li>
+                                            
                                         <li>
-                                                <a href="view.html?id=E000001">Editionsrichtlinien</a>
+                                                <a href="view.html?id=E000003">Buchausgaben</a>
+                                            </li>
+                                         <li>
+                                                <a href="view.html?id=E000006">Theaterbesuche</a>
+                                            </li>
+                                         <li>
+                                                <a href="view.html?id=E000007">Aus Schnitzlers Tagebuch</a>
+                                            </li>    
+                                        <li>
+                                                <a href="view.html?id=E000001">Editorische Richtlinien</a>
+                                            </li>
+                                        <li>
+                                                <a href="view.html?id=E000005">Korrespondenz Bahr–Schnitzler</a>
                                             </li>
                                         <li>
                                                 <a href="view.html?id=E000002">Nachwort</a>
+                                            </li>
+                                        <li>
+                                                <a href="view.html?id=E000004">Dank</a>
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
