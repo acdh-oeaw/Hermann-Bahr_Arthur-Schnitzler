@@ -1,5 +1,4 @@
-# hbas
-Hermann Bahr, Arthur Schnitzler: 
+# Hermann Bahr, Arthur Schnitzler: 
 
 Briefwechsel, Materialien, Dokumente
 
