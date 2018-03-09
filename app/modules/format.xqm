@@ -131,8 +131,12 @@ declare function format:tei2html($nodes as node()*) {
         
         (: biblStruct :)
         (:Bibliographische Angabe in sourceDesc und zwar nur hier:)
-        case element(tei:biblStruct) return    
-            <li class="biblStruct">{format:tei2html($node/node())}</li>
+        case element(tei:biblStruct) return 
+            if ($node/preceding-sibling::tei:biblStruct or $node/ancestor::tei:sourceDesc/tei:listWit) then
+                
+            <li class="biblStruct">Weiterer Druck: {format:tei2html($node/node())}</li>
+            else
+               <li class="biblStruct">{format:tei2html($node/node())}</li> 
         
         (: tei:body :)
         case element(tei:body) return
@@ -511,7 +515,11 @@ declare function format:tei2html($nodes as node()*) {
         (: orgName :)
         (:Attribut @key:)
         case element(tei:orgName) return
-            
+            if ($node//element()[@key]) then
+                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    return
+                    <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
+                    else
             if ($node/@key) then
             <a class="orgName" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
         else 
@@ -551,6 +559,12 @@ declare function format:tei2html($nodes as node()*) {
             
         (: persName :)
         case element(tei:persName) return
+            if ($node//element()[@key]) then
+                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    return
+                    <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
+                    else
+            
             <a class="persName" href="register.html?key={$node/@key}&amp;type=p">{format:tei2html($node/node())}</a>
             
             
@@ -573,8 +587,16 @@ declare function format:tei2html($nodes as node()*) {
         (:Attribut @key, @type – vernachlässigbar hat nur den Wert place :)
         (:unterscheiden, ob im Header oder im Text:)
         case element(tei:placeName) return
+            
+            
         if ($node/ancestor::tei:text) then 
             (:im Text mit popup:)
+            if ($node//element()[@key]) then
+                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    return
+                    <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
+                    else
+            
             <a class="placeName" href="register.html?key={$node/@key}&amp;type=o">{format:tei2html($node/node())}</a>
                  else
                      if ($node/ancestor::tei:physDesc) then
@@ -659,6 +681,13 @@ declare function format:tei2html($nodes as node()*) {
         (:Attribute @key, @type:)
         (:@type-Werte: org, person, place, work:)
             case element(tei:rs) return
+                
+                if ($node//element()[@key]) then
+                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    return
+                    <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
+                    else
+                
                 switch ($node/@type) 
                 case "org" return 
                     <a class="rs rs_org" href="register.html?key={replace($node/@key,' ',',')}&amp;type=org">{format:tei2html($node/node())}</a>
@@ -810,6 +839,13 @@ declare function format:tei2html($nodes as node()*) {
         
         (:  workName:)
         case element (tei:workName) return
+            
+            if ($node//element()[@key]) then
+                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    return
+                    <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
+                    else
+            
             if ($node/@key) then
                 if(contains($node/@key," ")) then
                     <a class="workName" href="register.html?key={replace($node/@key,' ',',')}&amp;type=w">{format:tei2html($node/node())}</a>
