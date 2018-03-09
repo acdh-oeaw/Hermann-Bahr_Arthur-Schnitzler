@@ -11,17 +11,32 @@
         <script type="text/javascript" src="$shared/resources/scripts/jquery/jquery-1.7.1.min.js"/>
         <script type="text/javascript" src="$shared/resources/scripts/loadsource.js"/>
         <script type="text/javascript" src="$shared/resources/scripts/bootstrap-3.0.3.min.js"/>
+        <!-- Matomo -->
+            <script type="text/javascript">
+              var _paq = _paq || [];
+              /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+              _paq.push(['trackPageView']);
+              _paq.push(['enableLinkTracking']);
+              (function() {
+                var u="//piwik.apollo.arz.oeaw.ac.at/";
+                _paq.push(['setTrackerUrl', u+'piwik.php']);
+                _paq.push(['setSiteId', '79']);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+              })();
+            </script>
+        <!-- End Matomo Code -->
     </head>
     <body id="body">
-    
+
     <div class="container">
         <div id="content"/>
         <!-- hier war row mit content und sidebar -->
-        
+
     </div> <!-- /container -->
-    
-    
-    
+
+
+
         <!-- eventuell rein in den container... -->
         <footer>
         </footer>
