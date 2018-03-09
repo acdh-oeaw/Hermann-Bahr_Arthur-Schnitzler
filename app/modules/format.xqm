@@ -516,13 +516,13 @@ declare function format:tei2html($nodes as node()*) {
         (:Attribut @key:)
         case element(tei:orgName) return
             if ($node//element()[@key]) then
-                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    let $keys := string-join($node/@key/string(),',') || "," || replace(string-join($node//element()[@key]/@key/string(),','), ' ', ',')
                     return
                     <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
                     else
             if ($node/@key) then
             <a class="orgName" href="register.html?key={$node/@key}&amp;type=org">{format:tei2html($node/node())}</a>
-        else 
+        else
             <span class="orgName-nolink">{format:tei2html($node/node())}</span>
         
         (: origDate :)
@@ -560,7 +560,7 @@ declare function format:tei2html($nodes as node()*) {
         (: persName :)
         case element(tei:persName) return
             if ($node//element()[@key]) then
-                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    let $keys := $node/@key/string() || "," || replace(string-join($node//element()[@key]/@key/string(),','), ' ', ',')
                     return
                     <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
                     else
@@ -592,7 +592,7 @@ declare function format:tei2html($nodes as node()*) {
         if ($node/ancestor::tei:text) then 
             (:im Text mit popup:)
             if ($node//element()[@key]) then
-                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    let $keys := $node/@key/string() || "," || replace(string-join($node//element()[@key]/@key/string(),','), ' ', ',')
                     return
                     <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
                     else
@@ -683,7 +683,7 @@ declare function format:tei2html($nodes as node()*) {
             case element(tei:rs) return
                 
                 if ($node//element()[@key]) then
-                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    let $keys := $node/@key/string() || "," || replace(string-join($node//element()[@key]/@key/string(),','), ' ', ',')
                     return
                     <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
                     else
@@ -841,7 +841,7 @@ declare function format:tei2html($nodes as node()*) {
         case element (tei:workName) return
             
             if ($node//element()[@key]) then
-                    let $keys := $node/@key/string() || "," || replace($node//element()[@key]/@key/string(), ' ', ',')
+                    let $keys := $node/@key/string() || "," || replace(string-join($node//element()[@key]/@key/string(),','), ' ', ',')
                     return
                     <a class="rs" href="register.html?key={$keys}">{$node//text()}</a>
                     else
