@@ -13,7 +13,7 @@ let $pwd := request:get-parameter('pwd', '')
 let $dse-url := "http://bahrschnitzler.acdh.oeaw.ac.at"
 let $base-url := $dse-url
 let $gnd-base := "http://d-nb.info/gnd/"
-let $geonames-base := "http://sws.geonames.org/"
+let $geonames-base := "http://www.geonames.org/"
 let $log-in := xmldb:login($config:app-root, $usr, $pwd)
 
 let $cmif :=
@@ -33,7 +33,7 @@ let $cmif :=
             <publisher>
                 <ref target="{$dse-url}">Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931. Hrsg. v. Kurt Ifkovits u. Martin Anton Müller.</ref>
             </publisher>
-            <idno type="url">{request:get-url()}</idno>
+            <idno type="url">{$dse-url}</idno>
             <date when="{substring-before(string(current-date()),'+')}"/>
             <availability>
                 <licence target="https://creativecommons.org/licenses/by/4.0/">
@@ -42,12 +42,10 @@ let $cmif :=
             </availability>
         </publicationStmt>
         <sourceDesc>
-            <bibl type="hybrid">
                 <bibl type="hybrid">
                     Hermann Bahr, Arthur Schnitzler. Briefwechsel, Aufzeichnungen, Dokumente 1891–1931. Herausgegeben von Kurt Ifkovits und Martin Anton Müller. Göttingen: Wallstein Verlag 2018
                    <ref target="{$dse-url}">{$dse-url}</ref>
                 </bibl>
-            </bibl>
         </sourceDesc>
     </fileDesc>
     <profileDesc>
