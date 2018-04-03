@@ -387,7 +387,7 @@ declare function format:tei2html($nodes as node()*) {
              if ($node/@medium = 'typewriter') then "[ms.:] " 
              else
                  if ($node/@scribe) then
-                     "[hs. " || string-join(collection($config:data-root)//id($node/@scribe/string())//tei:surname,' ') ||", " || string-join(collection($config:data-root)//id($node/@scribe/string())//tei:forename,' ') || "]"
+                     "[hs. " || string-join(collection($config:data-root)//id($node/@scribe/string())//tei:surname,' ') ||", " || string-join(collection($config:data-root)//id($node/@scribe/string())//tei:forename,' ') || "] "
                      else "[hs.:] "
             }
             </span>
