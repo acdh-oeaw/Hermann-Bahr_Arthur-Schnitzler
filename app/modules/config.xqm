@@ -33,7 +33,11 @@ declare variable $config:data-root := $config:app-root || "/data";
 
 declare variable $config:img-root := $config:data-root || "/images";
 
-declare variable $config:img-base-url := substring-before(request:get-url(), request:get-uri()) || "/exist/apps" || substring-after($config:img-root,'db/apps') || "/" ;
+declare variable $config:img-base-url :=
+if (request:get-server-name() = "dse.hephaistos.arz.oeaw.ac.at") then
+    "https://bahrschnitzler.acdh.oeaw.ac.at/data/images/"
+    else
+substring-before(request:get-url(), request:get-uri()) || "/exist/apps" || substring-after($config:img-root,'db/apps') || "/" ;
 
 declare variable $config:repo-descriptor := doc(concat($config:app-root, "/repo.xml"))/repo:meta;
 
