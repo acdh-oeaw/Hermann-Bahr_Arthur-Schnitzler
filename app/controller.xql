@@ -13,14 +13,8 @@ if ($exist:path eq '') then
     
 else if ($exist:path eq "/") then
     (: forward root path to index.xql :)
-    (: fix #135 – skip index.html:)
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-        <redirect url="view.html?id=D041003&amp;view-mode=1"/>
-    </dispatch>
-    
-else if ($exist:path eq "/index.html") then
-    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
-        <redirect url="view.html?id=D041003"/>
+        <redirect url="index.html"/>
     </dispatch>
     
 else if (ends-with($exist:resource, ".html")) then
