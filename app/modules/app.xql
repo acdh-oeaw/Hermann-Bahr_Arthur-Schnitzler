@@ -492,7 +492,7 @@ function app:register_liste($type) {
 };
 
 declare function app:register_single($keys) {
-        for $key in tokenize($keys,',')
+        for $key in tokenize(replace($keys,' ',','),',')
         return
             <div class="row">
                 <div class="col-sm-9">
