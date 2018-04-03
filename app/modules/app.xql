@@ -363,8 +363,39 @@ declare
     %templates:wrap
 function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$show) {
     if ($id != "") then
-        if (contains($id,',') or $id="E000001" or $id="E000002" ) then ()
+        if (contains($id,',') or $id="E000001" or $id="E000002" or $id="E000003" or $id="E000004" or $id="E000005") then ()
         else
+            if ($id="D041003") then 
+                (: erster Eintrag :)
+                <nav class="prev-next-pager">
+                <ul class="pagerNew">
+                    <!-- <li class="previous">
+                    <a id="prev" href="view.html?id={app:prev-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <span class="pager-button">&lt;</span>
+                    <span class="pager-title">
+                        {
+                            let $id := app:prev-doc-id($id,$type)
+                            return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
+                        }
+                    </span>
+                        
+                    </a></li> -->
+                    <li class="next">
+                    <a id="next" href="view.html?id={app:next-doc-id($id,$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <span class="pager-button">&gt;</span>
+                    <span class="pager-title">
+                        {
+                            let $id := app:next-doc-id($id,$type)
+                            return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
+                        }
+                    </span>
+                        
+                    </a></li>
+                </ul>
+             </nav>
+                
+            else
+            
     <nav class="prev-next-pager">
                 <ul class="pagerNew">
                     <li class="previous">
@@ -392,15 +423,15 @@ function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$s
                 </ul>
              </nav>
     else 
-        (:Startseite:)
+        (:Inhaltsverzeichnis:)
         <nav class="prev-next-pager">
                 <ul class="pagerNew">
                     <li class="next">
-                    <a id="next" href="view.html?id={app:next-doc-id("D041003",$type)}&amp;type={$type}&amp;show={$show}&amp;view-mode={$view-mode}">
+                    <a id="next" href="view.html?id=D041003&amp;view-mode=1">
                     <span class="pager-button">&gt;</span>
                     <span class="pager-title">
                         {
-                            let $id := app:next-doc-id("D041003",$type)
+                            let $id := "D041003"
                             return collection($config:data-root)//id($id)//tei:titleStmt/tei:title[@level='a']/string()
                         }
                     </span>
