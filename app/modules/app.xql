@@ -367,6 +367,8 @@ function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$s
         else
             if ($id="D041003") then 
                 (: erster Eintrag :)
+              
+                
                 <nav class="prev-next-pager">
                 <ul class="pagerNew">
                     <!-- <li class="previous">
@@ -393,6 +395,7 @@ function app:prev-next($node as node(), $model as map(*),$id,$type,$view-mode,$s
                     </a></li>
                 </ul>
              </nav>
+       
                 
             else
             
