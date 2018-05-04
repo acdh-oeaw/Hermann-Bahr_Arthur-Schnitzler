@@ -1,7 +1,146 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041526"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Richard Beer-Hofmann an Hermann Bahr, 9. 8. 1904</title><author key="A002007">Beer-Hofmann, Richard</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="526"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002007">Beer-Hofmann, Richard</persName></sender><addressee full="yes"><persName key="A002002">Bahr, Hermann</persName></addressee><placeSender><placeName key="A000616">Bad Aussee</placeName></placeSender><placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee><dateSender><date when="19040809" n="2">9. 8. 1904</date></dateSender><context/></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS AM 15514 Ba</idno></msIdentifier><physDesc><p>hs. Brief, 6 Bl., 12 S., Lateinschrift, rechts oben hs. paginiert</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct default="false" corresp="BHHB2"><monogr><author key="A002007">Beer-Hofmann, Richard</author><title level="m">Briefe. 1895–1945</title><editor>Hg. und kommentiert von Alexander Košenina</editor><imprint><pubPlace>Oldenburg</pubPlace><publisher>Igel</publisher><date when="1999">1999</date></imprint><biblScope unit="pp">16–19</biblScope></monogr></biblStruct><biblStruct default="false" corresp="BHHB1"><analytic><author>Berlin, Jeffrey B.</author><title level="a">The Unpublished Letters of Richard Beer-Hofmann to Hermann Bahr (with the unpublished letters between Beer-Hofmann and Theodor Herzl)</title></analytic><monogr><editor>Hg. Gelber, Mark H</editor><title level="m">Identity and Ethos. A Festschrift for Sol Liptzin on the Occasion of His 85th Birthday</title><imprint><pubPlace>New York, Bern, Frankfurt am Main</pubPlace><publisher>Peter Lang</publisher><date when="1986">1986</date></imprint><biblScope unit="pp">127–130</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160410">Angelegt nach Buchausgabe</change><change who="MAM" when="20160411">Durchsicht am Original</change><change who="KI MAM" when="20160411">Absatz über AS kollationiert</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><placeName key="A000616"><settlement>Aussee</settlement></placeName><space unit="chars" quantity="1"/><date>9./VIII 04</date>.</dateline></opener><p><salute>Lieber Hermann! </salute> Ihren lieben Brief hab ich erhalten. Hätt ich gewusst dass Sie <hi rend="underline" n="1">jedenfalls</hi>
-          in <placeName key="A000230"><settlement>Salzburg</settlement></placeName> sind, wäre ich ja gekommen.
-          Sind Sie nicht wieder überarbeitet?</p><p>Seit <placeName key="A000500">Griechenland</placeName> ein <rs type="work" key="A020041">Stück</rs> und einen Dialog – <hi rend="underline" n="1">ganz</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">fertig</hi> – Sie begreifen mein
-         Staunen – machen!</p><p >Den »<workName key="A020123">Marsyas</workName>« habe ich heute zum zweiten mal, und
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041526">
+    <teiHeader type="text">
+        <fileDesc>
+            <titleStmt>
+                <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+                <title level="a">Richard Beer-Hofmann an Hermann Bahr, 9. 8. 1904</title>
+                <author key="A002007">Beer-Hofmann, Richard</author>
+                <editor>
+                    <name full="yes" instant="false">Ifkovits, Kurt</name>
+                    <name full="yes" instant="false">Müller, Martin Anton</name>
+                </editor>
+                <funder>
+                    <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+                    <address>
+                        <street>Sensengasse 1</street>
+                        <postCode>1090 Wien</postCode>
+                        <placeName>
+                            <country>A</country>
+                            <settlement>Wien</settlement>
+                        </placeName>
+                    </address>
+                </funder>
+            </titleStmt>
+            <editionStmt>
+                <edition>HBAS</edition>
+                <respStmt>
+                    <resp>Transkription und Kommentierung</resp>
+                    <name full="yes" instant="false">Kurt Ifkovits</name>
+                    <name full="yes" instant="false">Martin Anton Müller</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Theatermuseum, Wien</publisher>
+                <idno type="HBAS-L" n="526"/>
+                <availability status="free">
+                    <p>Copyright © 2017</p>
+                </availability>
+            </publicationStmt>
+            <seriesStmt>
+                <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+            </seriesStmt>
+            <sourceDesc>
+                <correspDesc>
+                    <sender full="yes">
+                        <persName key="A002007">Beer-Hofmann, Richard</persName>
+                    </sender>
+                    <addressee full="yes">
+                        <persName key="A002002">Bahr, Hermann</persName>
+                    </addressee>
+                    <placeSender>
+                        <placeName key="A000616">Bad Aussee</placeName>
+                    </placeSender>
+                    <placeAddressee>
+                        <placeName key="A000250">[Wien]</placeName>
+                    </placeAddressee>
+                    <dateSender>
+                        <date when="19040809" n="2">9. 8. 1904</date>
+                    </dateSender>
+                    <context/>
+                </correspDesc>
+                <listWit>
+                    <witness n="1">
+                        <msDesc>
+                            <msIdentifier>
+                                <country>A</country>
+                                <settlement>Wien</settlement>
+                                <repository>Theatermuseum</repository>
+                                <idno>HS AM 15514 Ba</idno>
+                            </msIdentifier>
+                            <physDesc>
+                                <p>hs. Brief, 6 Bl., 12 S., Lateinschrift, rechts oben hs. paginiert</p>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <biblStruct default="false" corresp="BHHB2">
+                        <monogr>
+                            <author key="A002007">Beer-Hofmann, Richard</author>
+                            <title level="m">Briefe. 1895–1945</title>
+                            <editor>Hg. und kommentiert von Alexander Košenina</editor>
+                            <imprint>
+                                <pubPlace>Oldenburg</pubPlace>
+                                <publisher>Igel</publisher>
+                                <date when="1999">1999</date>
+                            </imprint>
+                            <biblScope unit="pp">16–19</biblScope>
+                        </monogr>
+                    </biblStruct>
+                    <biblStruct default="false" corresp="BHHB1">
+                        <analytic>
+                            <author>Berlin, Jeffrey B.</author>
+                            <title level="a">The Unpublished Letters of Richard Beer-Hofmann to Hermann Bahr (with the unpublished letters between Beer-Hofmann and Theodor Herzl)</title>
+                        </analytic>
+                        <monogr>
+                            <editor>Hg. Gelber, Mark H</editor>
+                            <title level="m">Identity and Ethos. A Festschrift for Sol Liptzin on the Occasion of His 85th Birthday</title>
+                            <imprint>
+                                <pubPlace>New York, Bern, Frankfurt am Main</pubPlace>
+                                <publisher>Peter Lang</publisher>
+                                <date when="1986">1986</date>
+                            </imprint>
+                            <biblScope unit="pp">127–130</biblScope>
+                        </monogr>
+                    </biblStruct>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="de-AT">German</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc status="candidate">
+            <change who="MAM" when="20160410">Angelegt nach Buchausgabe</change>
+            <change who="MAM" when="20160411">Durchsicht am Original</change>
+            <change who="KI MAM" when="20160411">Absatz über AS kollationiert</change>
+        </revisionDesc>
+    </teiHeader>
+    <text type="letter">
+        <body>
+            <div type="writingSession" n="1">
+                <opener>
+                    <dateline rend="right">
+                        <placeName key="A000616">
+                            <settlement>Aussee</settlement>
+                        </placeName>
+                        <space unit="chars" quantity="1"/>
+                        <date>9./VIII 04</date>.</dateline>
+                </opener>
+                <p>
+                    <salute>Lieber Hermann! </salute> Ihren lieben Brief hab ich erhalten. Hätt ich gewusst dass Sie <hi rend="underline" n="1">jedenfalls</hi>
+          in <placeName key="A000230">
+                        <settlement>Salzburg</settlement>
+                    </placeName> sind, wäre ich ja gekommen.
+          Sind Sie nicht wieder überarbeitet?</p>
+                <p>Seit <placeName key="A000500">Griechenland</placeName> ein <rs type="work" key="A020041">Stück</rs> und einen Dialog – <hi rend="underline" n="1">ganz</hi>
+                    <space unit="chars" quantity="1"/>
+                    <hi rend="underline" n="1">fertig</hi> – Sie begreifen mein
+         Staunen – machen!</p>
+                <p>Den »<workName key="A020123">Marsyas</workName>« habe ich heute zum zweiten mal, und
           mit vieler freude gelesen. Die Momente, an die er anknüpft, haben mich an jene Zeit –
           jetzt finde ich sie schön – erinnert, in der mir der Plan zur
           »<workName key="A021148">Ariadne</workName>« <hi rend="underline" n="1">im</hi> Kopf herumgieng. Flöte und Leier waren mir damals
@@ -30,25 +169,34 @@
           Sie in diesem Frühjahr gesehen haben. Je weiter ich im »<workName key="A020123">Marsyas</workName>« las,
           desto mehr war es mir, als <del rend="strikethrough">rede</del> wendeten Sie Sich im Reden, einem von uns zu: Dem
          <persName key="A002001">Arthur</persName>, oft dem <persName key="A002011">Hugo</persName>, und, manchmal vielleicht
-         auch,<pb/> – ich denke an das »espressivo« – mir.</p><p>So Vieles – mehr als ich jetzt Ihnen darüber schreiben kann – wäre darüber zu sagen, und
+         auch,<pb/> – ich denke an das »espressivo« – mir.</p>
+                <p>So Vieles – mehr als ich jetzt Ihnen darüber schreiben kann – wäre darüber zu sagen, und
           ich hoffe, es wird auch im Herbst, – peripathetisch, unter den Bäumen unseres Gartens in
             <placeName key="A000373">Rodaun</placeName> – gesagt werden. Wegen des »espressivo« aber:
           »<persName key="A003194">Léonard</persName> est un expressif« sagt <persName key="A004031">Seailles</persName> von
-          ihm; ich habe das schöne <rs type="work" key="A021155">Buch</rs> – das Sie ja auch kennen, mit.</p><p>Mit Ihnen – leider zu sehr mit Ihnen – bin ich bei Allem was Sie auf den letzten zwei
+          ihm; ich habe das schöne <rs type="work" key="A021155">Buch</rs> – das Sie ja auch kennen, mit.</p>
+                <p>Mit Ihnen – leider zu sehr mit Ihnen – bin ich bei Allem was Sie auf den letzten zwei
           Seiten (des Bürstenabzuges) sagen. Leider – weil ich nur zu sehr empfinde, wie leicht
           solche Dinge, gerade <hi rend="underline" n="1">mir</hi>, Beruhigung geben, wenn ich an meine
-          Trägheit denke.</p><p>»<rs type="work" key="A020123">Düngt Euch mit Aufregung,<pb/> ja! Dann aber
+          Trägheit denke.</p>
+                <p>»<rs type="work" key="A020123">Düngt Euch mit Aufregung,<pb/> ja! Dann aber
             steht der Bauer und harrt bis die Erde will!</rs>« Das klingt meinen Ohren nur zu
          lieblich! Aber Bauer und Erde sind hier <hi rend="underline" n="1">eins</hi>, und wenn er zu lange harren muss, taugt am
-          Ende die Erde nicht viel.</p><p>So ist es mir erlaubt, Ihnen, in einem versteckten Winkel meines
-          Ichs zuzustimmen. Aber laut muss ich mich, vor mir selbst, dagegen w<subst><del rend="overwritten">ä</del><add place="inline">e</add></subst>hren – aus
-          hygienischen Gründen – sonst könnte ich mich ja mit Ihrem Spruch »<rs type="work" key="A020214">beruhigt auf ein Faulbett legen</rs>«.</p><p>Das Citat: »L’ordinare é opra signorile, l’oprare è atto
+          Ende die Erde nicht viel.</p>
+                <p>So ist es mir erlaubt, Ihnen, in einem versteckten Winkel meines
+          Ichs zuzustimmen. Aber laut muss ich mich, vor mir selbst, dagegen w<subst>
+                        <del rend="overwritten">ä</del>
+                        <add place="inline">e</add>
+                    </subst>hren – aus
+          hygienischen Gründen – sonst könnte ich mich ja mit Ihrem Spruch »<rs type="work" key="A020214">beruhigt auf ein Faulbett legen</rs>«.</p>
+                <p>Das Citat: »L’ordinare é opra signorile, l’oprare è atto
             servile«, kannte ich nicht; es ist wunderschön! »Servile« lass ich gelten, denn die
           Conception ist unser Herr.<pb/> Aber »l’oprare« <hi rend="underline" n="1">muss</hi> nicht »atto servile«
           bleiben – ich glaube es darf es gar nicht. Wer im »oprare« nicht getrieben wird von der
           Sehnsucht nach dem verlornen Paradiese der ersten Conception der taugt nicht viel. Und die
           Qual und Spannung, das Ringen – und »nicht lassen, denn Du mich segnest« vermag auch im
-          »oprare«, signorile Gefühle zu geben.</p><p>Da Sie nun einmal von diesen Dingen laut gesprochen haben, darf ich ja auch vielleicht –
+          »oprare«, signorile Gefühle zu geben.</p>
+                <p>Da Sie nun einmal von diesen Dingen laut gesprochen haben, darf ich ja auch vielleicht –
           ganz leise – Ihnen – sagen, dass in diesen vielen Jahren – wo ich für Andere – manchmal
           auch für mich – der Faule war, ein wenig von dem Stolze gehalten wurde, dass mein<pb/> Arbeiten
           nie blos »atto servile« gewesen ist. Immer habe ich versucht (was immer ich von mir
@@ -57,9 +205,13 @@
           wiederfindet – sie sind einzig und unwiederbringlich – wie Alles – andere, nicht geringere
           Schauder werden uns geschenkt, wenn – nach allen Qualen der Ohnmacht und der
           Selbstverachtung – endlich widerspenstige Massen zu glühen und zu fliessen beginnen. Und
-          auch diese Schauer sind »herrlich« – »signorile«.<pb/></p><p>Wie es <persName key="A003194">Leonardo</persName>
+          auch diese Schauer sind »herrlich« – »signorile«.<pb/>
+                </p>
+                <p>Wie es <persName key="A003194">Leonardo</persName>
           beim »oprare« gegangen ist, erzählt <persName key="A003206">Bandello</persName> – ich finde die Stelle
-         bei <persName key="A004031"><rs type="work" key="A021155">Séailles</rs></persName>. Er arbeitet an dem <workName key="A021156">Abendmal</workName>. Und
+         bei <persName key="A004031">
+                        <rs type="work" key="A021155">Séailles</rs>
+                    </persName>. Er arbeitet an dem <workName key="A021156">Abendmal</workName>. Und
           manchen Tag erscheint er ganz früh am Morgen, läuft das Gerüst hinauf, isst nichts, und
           bleibt – bis er herunter muss weil es Nacht ist. Ein andermal rührt er 3–4 Tage nicht an
           sein Werk. Er kommt nur und bleibt ein bis zwei Stunden mit gekreuzten Armen vor seiner
@@ -73,15 +225,28 @@
           unsere Schwäche erkennen, und den Abgrund der zwischen <hi rend="underline" n="1">den</hi> Wesen klafft,
           die wir einmal, wundervoll bewegt in Licht und Luft mit geschlossnen Augen sahen –<pb/> und
           jenem Roth und Blau und Grün das wir auf den Malter hinstrichen. Und endlich jene dritten
-          Tage: Wir waren mit <subst><del rend="overwritten">g</del><add place="inline">G</add></subst>leichgiltigem beschäftigt, dachten nicht an das Werk – oder glaubten
+          Tage: Wir waren mit <subst>
+                        <del rend="overwritten">g</del>
+                        <add place="inline">G</add>
+                    </subst>leichgiltigem beschäftigt, dachten nicht an das Werk – oder glaubten
           – besser gesagt – nicht daran zu denken (als könnten wir das). Aber plötzlich fühlten wir
           den Funken in uns fallen und geschüttelt vor Angst, er könnte erlöschen ehe er gezündet,
-          stürmen wir hin.</p><p>Sie sehen, lieber Hermann, Sie haben von Sich in diesem »<workName key="A020123">Marsyas</workName>« gesprochen, und ich habe von mir darin gelesen. Wie
+          stürmen wir hin.</p>
+                <p>Sie sehen, lieber Hermann, Sie haben von Sich in diesem »<workName key="A020123">Marsyas</workName>« gesprochen, und ich habe von mir darin gelesen. Wie
           grosse Egoisten, vermögen<pb/> wir Künstler nichts Anderes, als von uns zu reden. Aber was uns
           von Jenen scheidet, ist, dass ein Gott unsern Zungen den Zauber gegeben hat: Wie viel wir
-          auch von <hi rend="underline" n="1">uns</hi> reden, andere hören nur von <hi rend="underline" n="1">sich</hi> darinnen.</p><p>So hab ich mir aus Ihrem »<workName key="A020123">Marsyas</workName>« ein wenig Muth für
+          auch von <hi rend="underline" n="1">uns</hi> reden, andere hören nur von <hi rend="underline" n="1">sich</hi> darinnen.</p>
+                <p>So hab ich mir aus Ihrem »<workName key="A020123">Marsyas</workName>« ein wenig Muth für
           mich herausgelesen. Ich kann ihn gut brauchen; denn für mich sind jetzt Tage wo ich mit
-          verschränkten Armen und bösen Augen vor der bemalten Wand stehe.</p><p>Vielen Dank also für den
+          verschränkten Armen und bösen Augen vor der bemalten Wand stehe.</p>
+                <p>Vielen Dank also für den
             »<workName key="A020123">Marsyas</workName>«. Schreiben Sie bald;
             <persName key="A002399">Mirjam</persName> kennt Ihre Schrift schon, und ruft es mir zu meinem Fenster
-         hinauf, wenn die Post kommt, und ein Brief<pb/> von Ihnen darunter ist.</p><closer>Ich grüsse Sie von Herzen<lb/><signed>Richard</signed></closer></div></body></text></TEI>
+         hinauf, wenn die Post kommt, und ein Brief<pb/> von Ihnen darunter ist.</p>
+                <closer>Ich grüsse Sie von Herzen<lb/>
+                    <signed>Richard</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
