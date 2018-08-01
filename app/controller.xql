@@ -17,6 +17,11 @@ else if (starts-with($exist:path, '/api')) then
                 <set-attribute name="path" value="{$exist:path}"/>
             </dispatch>
 
+else if (starts-with($exist:path, '/id/')) then
+            <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+                <forward url="{$exist:controller}/resolve.xql"/>
+                <set-attribute name="path" value="{$exist:path}"/>
+            </dispatch>
 
 else if ($exist:path eq "/") then
     (: forward root path to index.xql :)
