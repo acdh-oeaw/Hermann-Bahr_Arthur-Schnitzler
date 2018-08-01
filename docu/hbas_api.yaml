@@ -1,0 +1,61 @@
+swagger: "2.0"
+info:
+  description: "This is the API for Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931 (HBAS). You can find out more about the Edition at [bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at) or [github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler](https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler).      Remove this later: `Code`"
+  version: "1.0.0"
+  title: "hbas API"
+  termsOfService: "https://bahrschnitzler.acdh.oeaw.ac.at/impressum.html"
+  contact:
+    email: "ingo.boerner@oeaw.ac.at"
+  license:
+    name: "MIT"
+    url: "https://opensource.org/licenses/MIT"
+host: "bahrschnitzler.acdh.oeaw.ac.at"
+basePath: "/api/v1.0/"
+schemes:
+- "https"
+- "http"
+paths:
+  /getMetaOfDoc:
+    get:
+      description: "Get Metadata of Document(s)"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "id"
+        in: "query"
+        description: "ID(s) of documents separated by comma"
+        required: false
+        type: "array"
+        items:
+          type: "string"
+          default: ""
+      - name: "type"
+        in: "query"
+        description: "Type(s) of documents separated by comma"
+        required: false
+        type: "array"
+        items:
+          type: "string"
+          enum:
+          - "diary"
+          - "letter"
+          - "text"
+          - "image"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "something went wrong"
+definitions:
+  Document:
+    type: "object"
+    properties:
+      "@id":
+        type: "string"
+      creator:
+        type: "string"
+      type:
+        type: "string"
+externalDocs:
+  description: "About the ACDH"
+  url: "http://acdh.oeaw.ac.at"
