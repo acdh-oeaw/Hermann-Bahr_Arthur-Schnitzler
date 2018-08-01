@@ -11,7 +11,7 @@ return
         if ($headerAccept eq 'application/rdf+xml')
         (:requested rdf:)
         then
-            response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/api/v1.0/doc/" || $id || "/about")))
+            response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/api/v1.0/doc/" || $id || "/about.rdf")))
         else 
             (:redirect to http-page:)
             (:a document HTTP html requested redirect:)
@@ -21,7 +21,7 @@ return
         if ($headerAccept eq 'application/rdf+xml')
         (:requested rdf:)
         then
-            response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/api/v1.0/entity/" || $id || "/about")))
+            response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/api/v1.0/entity/" || $id || "/about.rdf")))
         else
             (:normal website redirect:)
         response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/register.html?key=" || $id)))
