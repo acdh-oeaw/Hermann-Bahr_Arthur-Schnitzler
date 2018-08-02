@@ -7,55 +7,132 @@ info:
   contact:
     email: "ingo.boerner@oeaw.ac.at"
   license:
-    name: "MIT"
+    name: "Distributed under a MIT license"
     url: "https://opensource.org/licenses/MIT"
-host: "bahrschnitzler.acdh.oeaw.ac.at"
-basePath: "/api/v1.0/"
+host: "localhost:8080"
+basePath: "/exist/apps/hbas/api/v1.0"
+tags:
+- name: "doc"
+  description: "Methods about documents"
+- name: "entity"
+  description: "Methods about entities"
 schemes:
 - "https"
 - "http"
 paths:
-  /getMetaOfDoc:
+  /testme:
     get:
-      description: "Get Metadata of Document(s)"
+      summary: "tests, if swagger and the api can communicate"
+      produces: 
+      - "application/xml"
+      responses:
+        202:
+          description: "successful operation"
+          schema:
+            $ref: '#/definitions/ApiResponse'
+  /doc/{docId}/about.tei:
+    get:
+      tags:
+      - "doc"
+      summary: "Get tei:teiHeader (Metadata) of a Document"
       produces:
-      - "application/json"
-      parameters:
-      - name: "id"
-        in: "query"
-        description: "ID(s) of documents separated by comma"
-        required: false
-        type: "array"
-        items:
-          type: "string"
-          default: ""
-      - name: "type"
-        in: "query"
-        description: "Type(s) of documents separated by comma"
-        required: false
-        type: "array"
-        items:
-          type: "string"
-          enum:
-          - "diary"
-          - "letter"
-          - "text"
-          - "image"
+      - "application/xml"
+      parameters: 
+      - name: "docId"
+        in: "path"
+        description: "ID of the document to return"
+        required: true
+        type: "string"
       responses:
         200:
           description: "successful operation"
         400:
-          description: "something went wrong"
+          description: "invalid id supplied"
+        404:
+          description: "document not found"  
+  /doc/{docId}/about.rdf:
+    get:
+      tags: 
+      - "doc"
+      summary: "Get Metadata about a document"
+      produces:
+      - "application/rdf+xml"
+      parameters:
+      - name: "docId"
+        in: "path"
+        description: "ID of the document to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
+  /doc/{docId}/mentions.rdf:
+    get:
+      tags:
+      - "doc"
+      summary: "Get entities mentioned in a document"
+      produces:
+      - "application/rdf+xml"
+      parameters:
+      - name: "docId"
+        in: "path"
+        description: "ID of the document"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400: 
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
+  /entity/{entityId}/about.tei:
+    get:
+      tags:
+      - "entity"
+      summary: "Get TEI-Encoded Metadata on the Entity"
+      produces:
+      - "application/xml"
+      parameters: 
+      - name: "entityId"
+        in: "path"
+        description: "ID of the entity to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
+  /entity/{entityId}/about.rdf:
+    get:
+      tags:
+      - "entity"
+      summary: "Get Metadata about an entity (person, place, organization, work)"
+      produces:
+      - "application/rdf+xml"
+      parameters:
+      - name: "entityId"
+        in: "path"
+        description: "ID of the entity to return"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400:
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
 definitions:
-  Document:
+  ApiResponse:
     type: "object"
-    properties:
-      "@id":
-        type: "string"
-      creator:
-        type: "string"
-      type:
-        type: "string"
 externalDocs:
   description: "About the ACDH"
   url: "http://acdh.oeaw.ac.at"
