@@ -56,6 +56,12 @@ return
         return
         api:DocAboutTei($docId)
     
+    (: /doc/{docId}/mentions.rdf: :)    
+    else if (matches($apicall, 'doc/[DLT][0-9]{6}/mentions\.rdf')) then
+        let $docId := tokenize($apicall,'/')[2]
+        return
+        api:DocMentionsRdf($docId)
+    
     (: /entity/{entityId}/about.tei :)
     else if (matches($apicall, 'entity/[A][0-9]{6}/about\.tei')) then
         let $entityId := tokenize($apicall,'/')[2]

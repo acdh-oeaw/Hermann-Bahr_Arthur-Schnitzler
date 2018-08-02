@@ -56,6 +56,52 @@ declare function api:DocAboutTei($docId as xs:string) {
 };
 
 
+(: /doc/{docId}/mentions.rdf :)
+declare function api:DocMentionsRdf($docId as xs:string) {
+    (:~ Get Mentions of Entities in a Document: /doc/{docId}/mentions.rdf 
+    @param $docId ID of the Document
+    @returns RDF of Mentions of Entites in a Document
+    :)
+    
+    (:Example Response:)
+    (:
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:schema="http://schema.org/">
+
+  <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/id/D041003">
+    <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A002216"/>
+    <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A000235"/>
+    <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/A002218"/>
+  </rdf:Description>
+
+</rdf:RDF>
+    
+    :)
+    
+    (: check if document exists, otherwhise send 404 :)
+    if (collection($config:data-root)/id($docId)) then
+        (:Doc exists, return tei:teiHeader:)
+    
+    (: Generate RDF root element:)
+    <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:schema="http://schema.org/">
+  <rdf:Description rdf:about="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$docId}">
+    {
+        (: loop over all Elements with a @key-Attribute – and hope, that these are the mentions.. :)
+        for $key in distinct-values(collection($config:data-root)/id($docId)//tei:body//element()[@key]/@key/string())
+        return
+            <schema:mentions rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$key}"/>
+    }
+  </rdf:Description>
+</rdf:RDF>
+
+else
+    (: Document with this id doesn't exist, send 404 :)
+    response:set-status-code(404)
+};
+ 
+
+
 (: entity/{entityId}/about.tei :)
 declare function api:EntityAboutTei($entityId as xs:string) {
     (:~ This Function supplies the functionality for entity/{entityId}/about.tei
