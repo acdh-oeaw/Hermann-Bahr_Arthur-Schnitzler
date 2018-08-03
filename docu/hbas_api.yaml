@@ -7,10 +7,10 @@ info:
   contact:
     email: "ingo.boerner@oeaw.ac.at"
   license:
-    name: "Distributed under a MIT license"
-    url: "https://opensource.org/licenses/MIT"
-host: "localhost:8080"
-basePath: "/exist/apps/hbas/api/v1.0"
+    name: "CC-BY"
+    url: "https://creativecommons.org/licenses/by/4.0/"
+host: "bahrschnitzler.acdh.oeaw.ac.at"
+basePath: "/api/v1.0"
 tags:
 - name: "doc"
   description: "Methods about documents"
@@ -70,6 +70,26 @@ paths:
           description: "invalid id supplied"
         404:
           description: "document not found"
+  /doc/{docId}/transcription.xml:
+    get:
+      tags:
+      - "doc"
+      summary: "Get a TEI-like transcription of a Document."
+      produces: 
+      - "application/xml"
+      parameters:
+      - name: "docId"
+        in: "path"
+        description: "ID of the document"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400: 
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
   /doc/{docId}/mentions.rdf:
     get:
       tags:
@@ -87,6 +107,63 @@ paths:
         200:
           description: "successful operation"
         400: 
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
+  /doc/{docId}/sortDate:
+    get:
+      tags:
+      - "doc"
+      summary: "Get date of a document used for sorting. Dates are normalized YYYY-MM-DD; if MM and/or DD are unknown, 01 is assumed."
+      produces:
+      - "text/plain"
+      parameters: 
+      - name: "docId"
+        in: "path"
+        description: "ID of the document"
+        required: true
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400: 
+          description: "invalid id supplied"
+        404:
+          description: "document not found"
+  /doc/filterBy:
+    get:
+      tags:
+      - "doc"
+      summary: "Filter Documents"
+      produces: 
+      - "application/xml"
+      parameters: 
+      - name: "type"
+        in: "query"
+        description: "Filter by document type; multiple values separated by comma: <li>D – Diary</li> <li>L – Letter</li> <li>T – Text/Document</li>"
+        required: false
+        type: "array"
+        items:
+          type: "string"
+          enum:
+          - "D"
+          - "L"
+          - "T"
+        default: "D,L,T"
+      - name: "author"
+        in: "query"
+        description: "Filter by author of the document. Use the author-key AXXXXXX. Multiple authors are separated by comma and are interpreted as OR."
+        required: false
+        type: "string"
+      - name: "date"
+        in: "query"
+        description: "Filter by date. Date should be give in the format YYYY-MM-DD or as a range in the format range(startdate,enddate)."
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "successful operation"
+        400:
           description: "invalid id supplied"
         404:
           description: "document not found"

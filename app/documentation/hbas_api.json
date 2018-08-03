@@ -1,0 +1,330 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is the API for Arthur Schnitzler, Hermann Bahr: Briefwechsel, Materialien, Dokumente 1891–1931 (HBAS). You can find out more about the Edition at [bahrschnitzler.acdh.oeaw.ac.at](https://bahrschnitzler.acdh.oeaw.ac.at) or [github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler](https://github.com/martinantonmueller/Hermann-Bahr_Arthur-Schnitzler).",
+    "version": "1.0.0",
+    "title": "hbas API",
+    "termsOfService": "https://bahrschnitzler.acdh.oeaw.ac.at/impressum.html",
+    "contact": {
+      "email": "ingo.boerner@oeaw.ac.at"
+    },
+    "license": {
+      "name": "CC-BY",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  },
+  "host": "bahrschnitzler.acdh.oeaw.ac.at",
+  "basePath": "/api/v1.0",
+  "tags": [
+    {
+      "name": "doc",
+      "description": "Methods about documents"
+    },
+    {
+      "name": "entity",
+      "description": "Methods about entities"
+    }
+  ],
+  "schemes": [
+    "https",
+    "http"
+  ],
+  "paths": {
+    "/testme": {
+      "get": {
+        "summary": "tests, if swagger and the api can communicate",
+        "produces": [
+          "application/xml"
+        ],
+        "responses": {
+          "202": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          }
+        }
+      }
+    },
+    "/doc/{docId}/about.tei": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Get tei:teiHeader (Metadata) of a Document",
+        "produces": [
+          "application/xml"
+        ],
+        "parameters": [
+          {
+            "name": "docId",
+            "in": "path",
+            "description": "ID of the document to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/doc/{docId}/about.rdf": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Get Metadata about a document",
+        "produces": [
+          "application/rdf+xml"
+        ],
+        "parameters": [
+          {
+            "name": "docId",
+            "in": "path",
+            "description": "ID of the document to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/doc/{docId}/transcription.xml": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Get a TEI-like transcription of a Document.",
+        "produces": [
+          "application/xml"
+        ],
+        "parameters": [
+          {
+            "name": "docId",
+            "in": "path",
+            "description": "ID of the document",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/doc/{docId}/mentions.rdf": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Get entities mentioned in a document",
+        "produces": [
+          "application/rdf+xml"
+        ],
+        "parameters": [
+          {
+            "name": "docId",
+            "in": "path",
+            "description": "ID of the document",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/doc/{docId}/sortDate": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Get date of a document used for sorting. Dates are normalized YYYY-MM-DD; if MM and/or DD are unknown, 01 is assumed.",
+        "produces": [
+          "text/plain"
+        ],
+        "parameters": [
+          {
+            "name": "docId",
+            "in": "path",
+            "description": "ID of the document",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/doc/filterBy": {
+      "get": {
+        "tags": [
+          "doc"
+        ],
+        "summary": "Filter Documents",
+        "produces": [
+          "application/xml"
+        ],
+        "parameters": [
+          {
+            "name": "type",
+            "in": "query",
+            "description": "Filter by document type; multiple values separated by comma: <li>D – Diary</li> <li>L – Letter</li> <li>T – Text/Document</li>",
+            "required": false,
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "D",
+                "L",
+                "T"
+              ]
+            },
+            "default": "D,L,T"
+          },
+          {
+            "name": "author",
+            "in": "query",
+            "description": "Filter by author of the document. Use the author-key AXXXXXX. Multiple authors are separated by comma and are interpreted as OR.",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "date",
+            "in": "query",
+            "description": "Filter by date. Date should be give in the format YYYY-MM-DD or as a range in the format range(startdate,enddate).",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/entity/{entityId}/about.tei": {
+      "get": {
+        "tags": [
+          "entity"
+        ],
+        "summary": "Get TEI-Encoded Metadata on the Entity",
+        "produces": [
+          "application/xml"
+        ],
+        "parameters": [
+          {
+            "name": "entityId",
+            "in": "path",
+            "description": "ID of the entity to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    },
+    "/entity/{entityId}/about.rdf": {
+      "get": {
+        "tags": [
+          "entity"
+        ],
+        "summary": "Get Metadata about an entity (person, place, organization, work)",
+        "produces": [
+          "application/rdf+xml"
+        ],
+        "parameters": [
+          {
+            "name": "entityId",
+            "in": "path",
+            "description": "ID of the entity to return",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation"
+          },
+          "400": {
+            "description": "invalid id supplied"
+          },
+          "404": {
+            "description": "document not found"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ApiResponse": {
+      "type": "object"
+    }
+  },
+  "externalDocs": {
+    "description": "About the ACDH",
+    "url": "http://acdh.oeaw.ac.at"
+  }
+}
