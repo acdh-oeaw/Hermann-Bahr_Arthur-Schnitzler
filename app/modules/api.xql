@@ -56,17 +56,35 @@ return
         return
         api:DocAboutTei($docId)
     
+    (: /doc/{docId}/transcription.xml :)
+    else if (matches($apicall, 'doc/[DLT][0-9]{6}/transcription\.xml')) then
+        let $docId := tokenize($apicall,'/')[2]
+        return
+        api:DocTransciptionXML($docId)
+    
     (: /doc/{docId}/mentions.rdf: :)    
     else if (matches($apicall, 'doc/[DLT][0-9]{6}/mentions\.rdf')) then
         let $docId := tokenize($apicall,'/')[2]
         return
         api:DocMentionsRdf($docId)
     
+    (: /doc/{docId}/sortDate :)
+    else if (matches($apicall, 'doc/[DLT][0-9]{6}/sortDate')) then 
+        let $docId := tokenize($apicall,'/')[2]
+        return
+        api:DocSortDate($docId)
+        
+    (: /doc/filterBy :)    
+    else if (matches($apicall, 'doc/filterBy')) then
+            api:DocFilterBy($query)
+    
     (: /entity/{entityId}/about.tei :)
     else if (matches($apicall, 'entity/[A][0-9]{6}/about\.tei')) then
         let $entityId := tokenize($apicall,'/')[2]
         return
         api:EntityAboutTei($entityId)
+    
+    
     
     (: /entity/{entityId}/about.rdf :)
     else if (matches($apicall, 'entity/[A][0-9]{6}/about\.rdf')) then
