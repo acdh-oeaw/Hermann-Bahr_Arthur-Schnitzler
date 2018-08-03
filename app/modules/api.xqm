@@ -200,14 +200,17 @@ declare function local:getDocsByDateRange($range as xs:string) {
     (:~ Get documents in a defined date range 
     @param $range Date range in format range(startdate,enddate)
     :)
+    
+    (: test if correct range() notation :)
+    if (matches($range, 'range\(([0-9]{4}-[0-9]{2}-[0-9]{2}),([0-9]{4}-[0-9]{2}-[0-9]{2})\)')) then
+    
     let $startDate := xs:date(replace($range, 'range\(([0-9]{4}-[0-9]{2}-[0-9]{2}),([0-9]{4}-[0-9]{2}-[0-9]{2})\)','$1'))
     let $endDate := xs:date(replace($range, 'range\(([0-9]{4}-[0-9]{2}-[0-9]{2}),([0-9]{4}-[0-9]{2}-[0-9]{2})\)','$2'))
     return
-    <dateRange>{$range}: {xs:date($startDate)} - {xs:date($endDate)} bla
-        
-        {doc($config:data-root || '/meta/sortdates4docs.xml')//custom:doc[($startDate <= xs:date(@sortdate)) and (xs:date(@sortdate) <= $endDate)]/@id/string()}
-        
-    </dateRange>
+        doc($config:data-root || '/meta/sortdates4docs.xml')//custom:doc[($startDate <= xs:date(@sortdate)) and (xs:date(@sortdate) <= $endDate)]/@id/string()
+    
+    else
+        <error>range()-notation not correct!</error>
 };
 
 (: /doc/filterBy :)
@@ -219,15 +222,58 @@ declare function api:DocFilterBy($query as xs:string) {
     <query>{local:parseQueryString($query) => map:keys()}</query> 
     :)
     let $queryMap := local:parseQueryString($query)
-    let $countQueryParams := count(map:keys($queryMap))
-    return
-    <test>{map:get($queryMap,'date'), $countQueryParams} {local:getDocsByTypes('')}
-        {local:getDocsByAuthors('')} {local:getDocsByDate('')} range: {local:getDocsByDateRange('range(1891-04-27,1891-08-12)')}
-    </test>
+    let $output :=
+        
+        switch(count(map:keys($queryMap)))
+        case 1 return
+            switch (map:keys($queryMap))
+                case "type" return local:getDocsByTypes(map:get($queryMap,'type'))
+                case "author" return local:getDocsByAuthors(map:get($queryMap,'author'))
+                case "date" return 
+                    if (contains(map:get($queryMap,'date'),'range')) then local:getDocsByDateRange(map:get($queryMap,'date')) 
+                    else local:getDocsByDate(map:get($queryMap,'date'))
+                default return "invalid params"
+            
+        case 2 return 
+            switch ( string-join(map:keys($queryMap),',') )
+                case "author,date" return 
+                    if (contains(map:get($queryMap,'date'),'range')) then 
+                        local:getDocsByDateRange(map:get($queryMap,'date'))[.=local:getDocsByAuthors(map:get($queryMap,'author'))] 
+                    else local:getDocsByDate(map:get($queryMap,'date'))[.=local:getDocsByAuthors(map:get($queryMap,'author'))]
+                case "author,type" return local:getDocsByAuthors(map:get($queryMap,'author'))[.=local:getDocsByTypes(map:get($queryMap,'type'))]
+                case "date,type" return if (contains(map:get($queryMap,'date'),'range')) then 
+                        local:getDocsByDateRange(map:get($queryMap,'date'))[.=local:getDocsByTypes(map:get($queryMap,'type'))] 
+                    else local:getDocsByDate(map:get($queryMap,'date'))[.=local:getDocsByTypes(map:get($queryMap,'type'))]
+                    
+                default return "invalid params"
+        
+        case 3 return
+            if ( string-join(map:keys($queryMap),',') eq "author,date,type") then 
+                    if (contains(map:get($queryMap,'date'),'range')) then 
+                        local:getDocsByDateRange(map:get($queryMap,'date'))[.=local:getDocsByAuthors(map:get($queryMap,'author'))][.=local:getDocsByTypes(map:get($queryMap,'type'))] 
+                    else local:getDocsByDate(map:get($queryMap,'date'))[.=local:getDocsByAuthors(map:get($queryMap,'author'))][.=local:getDocsByTypes(map:get($queryMap,'type'))]
+                
+                else "invalid params"
+        
+        default return ()
+            
+        return 
+            <ApiResponse>
+                <docs>
+                {
+                    for $id in $output
+                    return
+                        <doc>https://bahrschnitzler.acdh.oeaw.ac.at/id/{$id}</doc>
+                }
+                </docs>
+            </ApiResponse>
+        
 };
 
+
+
 declare function api:DocSortDate($docId as xs:string) {
-    (:~ Get the date for sorting of a document;
+    (:~ Get the date for sorting of a document; in day is not known, assumes 01; if month is not know, assumes 01.
     
     @param $docId xml:id of the Document
     @returns date for sorting in YYYY-MM-DD as plaintext
