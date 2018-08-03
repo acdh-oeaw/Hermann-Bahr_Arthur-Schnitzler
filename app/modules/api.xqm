@@ -11,6 +11,7 @@ module namespace api="http://bahrschnitzler.acdh.oeaw.ac.at/api";
 import module namespace config="http://hbas.at/config" at "config.xqm";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
+declare namespace custom="http://bahrschnitzler.acdh.oeaw.ac.at/ns";
 
 (: /testme :)
 declare function api:testme() {
@@ -178,9 +179,35 @@ declare function local:getDocsByAuthors($authors as xs:string) {
 };
 
 declare function local:getDocsByDate($date as xs:string) {
-    (:~ Helper function gets xml:ids of Documents of a Date 
+    (:~ Helper function gets xml:ids of Documents of a Date. Function doesn't calculate sortdate, but looks it up in data/meta/sortdates4docs.xml 
     @param $date in Format YYYY-MM-DD :)
-    <date>{$date}</date>
+    (: Check, if sortdates-index exists... :)
+    if (doc($config:data-root ||'/meta/sortdates4docs.xml')) then
+        
+        (: check, if $date matches the format YYYY-MM-DD :)
+        if (matches($date,'[0-9]{4}-[0-1][0-9]-[0-3][0-9]')) then
+            doc($config:data-root ||'/meta/sortdates4docs.xml')//custom:doc[@sortdate eq $date]/@id/string()
+        
+        else 
+            (: incorrect date format:)
+            <error>{$date}</error>
+    else
+        <error>No sortdate Index-File!</error>
+};
+
+
+declare function local:getDocsByDateRange($range as xs:string) {
+    (:~ Get documents in a defined date range 
+    @param $range Date range in format range(startdate,enddate)
+    :)
+    let $startDate := xs:date(replace($range, 'range\(([0-9]{4}-[0-9]{2}-[0-9]{2}),([0-9]{4}-[0-9]{2}-[0-9]{2})\)','$1'))
+    let $endDate := xs:date(replace($range, 'range\(([0-9]{4}-[0-9]{2}-[0-9]{2}),([0-9]{4}-[0-9]{2}-[0-9]{2})\)','$2'))
+    return
+    <dateRange>{$range}: {xs:date($startDate)} - {xs:date($endDate)} bla
+        
+        {doc($config:data-root || '/meta/sortdates4docs.xml')//custom:doc[($startDate <= xs:date(@sortdate)) and (xs:date(@sortdate) <= $endDate)]/@id/string()}
+        
+    </dateRange>
 };
 
 (: /doc/filterBy :)
@@ -195,7 +222,7 @@ declare function api:DocFilterBy($query as xs:string) {
     let $countQueryParams := count(map:keys($queryMap))
     return
     <test>{map:get($queryMap,'date'), $countQueryParams} {local:getDocsByTypes('')}
-        {local:getDocsByAuthors('')} {local:getDocsByDate('1984-05-30')}
+        {local:getDocsByAuthors('')} {local:getDocsByDate('')} range: {local:getDocsByDateRange('range(1891-04-27,1891-08-12)')}
     </test>
 };
 
@@ -222,7 +249,11 @@ declare function api:DocSortDate($docId as xs:string) {
             let $y := substring($date,1,4)
             let $m := substring($date,5,2)
             let $d := substring($date,7,2)
-            let $isodate := $y || "-" || $m || "-" || $d
+            let $isodate := 
+                    if ($m != '00' and $d != '00') then $y || "-" || $m || "-" || $d
+                    else if ($m eq '00') then  $y || "-" || "01" || "-" || "01"
+                    else $y || "-" || $m || "-" || "01"
+                        
             return $isodate
     else
         (:don't know how formated... return as is:)
