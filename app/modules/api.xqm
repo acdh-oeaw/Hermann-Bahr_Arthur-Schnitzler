@@ -15,6 +15,8 @@ declare namespace custom="http://bahrschnitzler.acdh.oeaw.ac.at/ns";
 declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ;
 declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#" ;
 declare namespace dc11="http://purl.org/dc/elements/1.1/" ;
+declare namespace gndo="http://d-nb.info/standards/elementset/gnd#" ;
+declare namespace owl="http://www.w3.org/2002/07/owl#" ; 
 
 
 (: /testme :)
@@ -46,7 +48,7 @@ declare function api:DocAboutRdf($docId as xs:string) {
         <dc11:creator rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$authorkey}"/>
         
         
-    let $date := <dc11:date>{api:DocSortDate($docId)}</dc11:date>
+    let $date := <dc11:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">{api:DocSortDate($docId)}</dc11:date>
     
     
     let $RDF := <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -117,6 +119,54 @@ declare function local:getTitlesOfDoc($docId as xs:string) {
     
 };
  
+declare function local:getMainEntityType($entityId as xs:string) {
+    (:~ Helper Function gets the Type of an Entity
+    @param $entityId xml:id of the entity
+    @returns Entity Type as String; values can be "person", "place", "work", "organization"
+    :)
+    
+    (: Element-Type can be "person" --> person, "place" --> place, "biblFull" --> work, "org" --> organization:)
+    
+    (: URIs for entity Types need to be defined! :)
+    
+    (: check, if correct entity id:)
+    if (matches($entityId, '[A][0-9]{6}')) then
+        (: check, if entity exists :)
+        if (collection($config:data-root)/id($entityId)) then
+            
+            switch(collection($config:data-root)/id($entityId)/name())
+            case "person" return "person"
+            case "place" return "place"
+            case "biblFull" return "work"
+            case "org" return "organization"
+            default return "none"
+            
+            
+        else <error>No such entity!</error>
+    else <error>Wrong Entity Id</error>
+    
+    
+    
+};
+
+
+declare function local:aboutPersonInnerRDF($entityId as xs:string) {
+    (:~ Returns info on a Person in RDF; is called by entity/{$entityId}/about.rdf
+    @param $entityId xmlid of the entity
+    @returns RDF/XML
+    :)
+    
+    
+    (: quick fix; this works more or less at the moment; implement parsers for the entities; especially name is a problem, but the code is already there in the module :)
+    (
+    <rdfs:label>{
+        collection($config:data-root)/id($entityId)//tei:surname || ', ' || 
+        collection($config:data-root)/id($entityId)//tei:forename
+    }</rdfs:label> ,
+    <owl:sameAs rdf:resource="http://d-nb.info/gnd/{collection($config:data-root)/id($entityId)//tei:idno[@type='GND']/text()}"/>
+    )
+};
+
 
 (: entity/{$entityId}/about.rdf :)
 declare function api:EntityAboutRdf($entityId as xs:string) {
@@ -124,7 +174,62 @@ declare function api:EntityAboutRdf($entityId as xs:string) {
     
     @param $entityId The xml:id of the Entity.
     :)
-    <ApiResponse>Get Info on Entity {$entityId}!</ApiResponse>
+    
+    
+    (: get type of entity :)
+    (: local:getEntityType($entityId) :)
+    
+    
+    
+     (: check, if correct entity id:)
+    if (matches($entityId, '[A][0-9]{6}')) then
+        (: check, if entity exists :)
+        if (collection($config:data-root)/id($entityId)) then
+            
+           
+           
+           
+           (: Main block follows here:)
+           
+           
+           
+           (: put output RDF together:)
+           
+           let $RDF := <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                        xmlns:gndo="http://d-nb.info/standards/elementset/gnd#" 
+                        xmlns:owl="http://www.w3.org/2002/07/owl#"
+                        >
+                        {
+                            
+                            <rdf:Description rdf:about="https://bahrschnitzler.acdh.oeaw.ac.at/id/{$entityId}">
+                            {
+                             (: switch on entity type, get triples based on entity type :)
+                             switch (local:getMainEntityType($entityId))
+                             case "person" return local:aboutPersonInnerRDF($entityId)
+                             case "place" return ()
+                             case "work" return ()
+                             case "organization" return ()
+                             default return ()
+                            }
+                            </rdf:Description>
+                        }
+                </rdf:RDF>
+    
+    return $RDF
+           
+           
+           (: End Main Block:)
+           
+           
+           
+            
+            (: entity doesn't exist:)
+        else <error>No such entity!</error>
+            (: error in entity id :)
+    else <error>Wrong Entity Id</error>
+    
+    
 };
 
 (: doc/{docId}/about.tei :)
