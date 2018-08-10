@@ -72,7 +72,8 @@ return
     else if (matches($apicall, 'doc/[DLT][0-9]{6}/sortDate')) then 
         let $docId := tokenize($apicall,'/')[2]
         return
-        api:DocSortDate($docId)
+        (response:set-header('Content-Type', 'text/plain'), api:DocSortDate($docId))    
+        
         
     (: /doc/filterBy :)    
     else if (matches($apicall, 'doc/filterBy')) then

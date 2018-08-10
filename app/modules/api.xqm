@@ -12,6 +12,10 @@ import module namespace config="http://hbas.at/config" at "config.xqm";
 
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 declare namespace custom="http://bahrschnitzler.acdh.oeaw.ac.at/ns";
+declare namespace rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ;
+declare namespace rdfs="http://www.w3.org/2000/01/rdf-schema#" ;
+declare namespace dc11="http://purl.org/dc/elements/1.1/" ;
+
 
 (: /testme :)
 declare function api:testme() {
@@ -28,8 +32,91 @@ declare function api:DocAboutRdf($docId as xs:string) {
     
     @param $docId The xml:id of the Document.
     :)
-    <ApiResponse>Get Info on Document {$docId}!</ApiResponse>
+  
+    (: build elements with functions and then insert to $RDF:)  
+    let $labels := for $titleString in local:getTitlesOfDoc($docId) return
+        <rdfs:label>{$titleString}</rdfs:label>
+    
+    let $titles := for $titleString in local:getTitlesOfDoc($docId) return
+        <dc11:title>{$titleString}</dc11:title>
+    
+    
+    
+    let $authors := for $authorkey in local:getAuthorsOfDoc($docId) return 
+        <dc11:creator rdf:resource="http://bahrschnitzler.acdh.oeaw.ac.at/id/{$authorkey}"/>
+        
+        
+    let $date := <dc11:date>{api:DocSortDate($docId)}</dc11:date>
+    
+    
+    let $RDF := <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                        xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+                        xmlns:dc11="http://purl.org/dc/elements/1.1/">
+                        {
+                            
+                            <rdf:Description rdf:about="https://bahrschnitzler.acdh.oeaw.ac.at/id/{$docId}">
+                            {
+                             ($labels, $titles, $authors, $date)
+                            }
+                            </rdf:Description>
+                        }
+                </rdf:RDF>
+    
+    return $RDF
+    
 };
+
+
+(: local:getAuthorsOfDoc :)
+declare function local:getAuthorsOfDoc($docId as xs:string) {
+    (:~ Helper Function returns  IDs of Authors of a Document as sequence
+    : @param $docId xml:id of the document
+    : @returns sequence of ids
+    :)
+    
+    (: check, if correct form of ID :)
+    
+    if (matches($docId, '[DLT][0-9]{6}')) then
+        
+        (: check if Document exists :)
+        if (collection($config:data-root)/id($docId)) then
+            
+            for $authorkey in collection($config:data-root)/id($docId)//tei:titleStmt//tei:author/@key/string()
+            return $authorkey
+            
+            
+            else <error>No such document</error>
+        
+    else 
+        <error>Incorrect DocId</error>
+    
+};
+
+(: local:getTitlesOfDoc :)
+declare function local:getTitlesOfDoc($docId as xs:string) {
+    (:~ Helper Function returns the titles of Documents 
+    @param $docId 
+    @returns sequence of Titles
+    :)
+    
+    (: check, if correct docId :)
+    if (matches($docId, '[DLT][0-9]{6}')) then
+        
+        (: check if Document exists :)
+        if (collection($config:data-root)/id($docId)) then
+            
+            for $title in collection($config:data-root)/id($docId)//tei:titleStmt//tei:title[@level='a']
+            return normalize-space($title/text())
+            
+            
+            else <error>No such document</error>
+        
+    else 
+        <error>Incorrect DocId</error>
+    
+    
+};
+ 
 
 (: entity/{$entityId}/about.rdf :)
 declare function api:EntityAboutRdf($entityId as xs:string) {
@@ -306,8 +393,8 @@ declare function api:DocSortDate($docId as xs:string) {
         $date
     
     return 
-        (:returns plaintext:)
-        (response:set-header('Content-Type', 'text/plain'), $formatedDate)
+        (:returns formatted date:)
+        $formatedDate
     
     else 
         (: No such Document:)
