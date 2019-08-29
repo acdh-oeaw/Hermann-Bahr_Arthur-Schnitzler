@@ -21,7 +21,7 @@ let $cmif :=
 <teiHeader>
     <fileDesc>
         <titleStmt>
-                <title>CMIF: Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</title>
+                <title>CMIF: Briefwechsel Hermann Bahr, Arthur Schnitzler (1891–1931)</tvitle>
                 <editor>Martin Anton Müller
                 <email>martin.anton.mueller@univie.ac.at</email>
                 </editor>
@@ -52,7 +52,7 @@ let $cmif :=
         {
             for $letter in collection($config:data-root || "/letters/")//tei:TEI
             return
-                 <correspDesc key="{$letter/@xml:id/string()}" ref="{$base-url ||'/view.html?id=' || $letter/@xml:id/string()}">
+                 <correspDesc key="{$letter/@xml:id/string()}" ref="{$base-url ||'/index.html?id=' || $letter/@xml:id/string()}">
             <correspAction type="sent">
                 {
                    for $persName in $letter//tei:correspDesc//tei:sender//tei:persName return

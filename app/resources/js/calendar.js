@@ -64,7 +64,7 @@ $('#calendar').clickDay(function(e){
         ids.push(entry.id)
     });
     /*alert(ids.join())*/
-    window.location = baseurl + "/view.html" + "?id=" + ids.join()
+    window.location = baseurl + "/index.html" + "?id=" + ids.join()
     
     
     

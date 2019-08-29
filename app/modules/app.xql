@@ -129,7 +129,7 @@ declare function app:view_list($type,$date,$author,$id,$q) {
 return
     <div class="docListItem">
         <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
-        <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
+        <a href="{concat('index.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
     </div>
     }
         </div>,
@@ -148,7 +148,7 @@ return
                 return 
                     <div class="docListItem">
         <span class="autor">{$letter//tei:titleStmt/tei:author/string()}</span>
-        <a href="{concat('view.html?id=',$letter/@xml:id/string())}" class="title-link">{$letter//tei:titleStmt/tei:title[@level='a']/string()}</a>
+        <a href="{concat('index.html?id=',$letter/@xml:id/string())}" class="title-link">{$letter//tei:titleStmt/tei:title[@level='a']/string()}</a>
     </div>
             }
             
@@ -200,7 +200,7 @@ return
 return
     <div class="docListItem doctype_{substring($doc/@xml:id/string(),1,1)}">
         <span class="autor">{$doc//tei:titleStmt/tei:author/string()}</span>
-        <a href="{concat('view.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
+        <a href="{concat('index.html?id=',$doc/@xml:id/string())}" class="title-link">{$doc//tei:titleStmt/tei:title[@level='a']/string()}</a>
     </div>
     }
     </div>
@@ -218,7 +218,7 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             (: fix #119:)
             if (contains($id,',')) then 
                 <h2 class="doc-title">
-                <a href="view.html?id={$docid}">
+                <a href="index.html?id={$docid}">
                     {collection($config:data-root)/id($docid)//tei:titleStmt//tei:title[@level='a']/text()}
                 </a>
                 </h2>
@@ -228,7 +228,7 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             }   
             <div class="authors">
             {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@key return
-            <a class="author-link" href="view.html?author={$authorkey}">
+            <a class="author-link" href="index.html?author={$authorkey}">
             {collection($config:data-root)/id($authorkey)//tei:forename || " " || collection($config:data-root)/id($authorkey)//tei:surname}</a>
             }    
             </div>
@@ -339,7 +339,7 @@ declare function app:view_verfasserliste() {
                 order by $nachname
                 return
                     <div class="docListItem">
-                        <a href="view.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
+                        <a href="index.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
                     </div>
             }
             </div>
@@ -478,7 +478,7 @@ function app:register_liste($type) {
                 <h2 class="doc-title">Register</h2>
             </div>
             <div class="verfListHinweis">
-                <a href="view.html?author=all">Verfasserverzeichnis</a>
+                <a href="index.html?author=all">Verfasserverzeichnis</a>
             </div>
                 <div class="filterSearch">
                 <form class="filter_search">
@@ -614,7 +614,7 @@ declare function app:register_single($keys) {
               (: Vollständig abgedruckte Werke:)
               if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[contains(@key,$key)]) then 
                     <div>
-                        <a href="view.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[contains(@key,$key)]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
+                        <a href="index.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[contains(@key,$key)]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
                         </a>
                     </div>
                   else ()
@@ -681,7 +681,7 @@ declare function app:register_single($keys) {
                     return
                        <div class="search-hit" data-docdate="{$sortdate}">
                 <span class="hit-title">
-                <a href="view.html?id={
+                <a href="index.html?id={
                 
                     
                     if (substring($doc/@xml:id/string(),1,1)="K") then 
@@ -750,18 +750,18 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inhalt</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="view.html?type=L">Briefe</a>
+                                            <a href="index.html?type=L">Briefe</a>
                                         </li>
                                         <li>
-                                            <a href="view.html?type=D">Aufzeichnungen</a>
+                                            <a href="index.html?type=D">Aufzeichnungen</a>
                                         </li>
                                         <li>
-                                            <a href="view.html?type=T">Texte</a>
+                                            <a href="index.html?type=T">Texte</a>
                                         </li>
                                     </ul>
                                 </li> 
                                 <li class="hidden-xs hidden-sm">
-                                    <a href="view.html">Inhalt</a>
+                                    <a href="index.html">Inhalt</a>
                                 </li>
                                 <!-- /Inhalt -->
                                 <li class="dropdown" id="nav_kalender">
@@ -805,25 +805,25 @@ function app:nav($node as node(), $model as map(*)) {
                                             </li>
                                             
                                         <li>
-                                                <a href="view.html?id=E000003">Buchausgaben</a>
+                                                <a href="index.html?id=E000003">Buchausgaben</a>
                                             </li>
                                          <li>
-                                                <a href="view.html?id=E000006">Theaterbesuche</a>
+                                                <a href="index.html?id=E000006">Theaterbesuche</a>
                                             </li>
                                          <li>
-                                                <a href="view.html?id=E000007">Aus Schnitzlers Tagebuch</a>
+                                                <a href="index.html?id=E000007">Aus Schnitzlers Tagebuch</a>
                                             </li>    
                                         <li>
-                                                <a href="view.html?id=E000001">Editorische Richtlinien</a>
+                                                <a href="index.html?id=E000001">Editorische Richtlinien</a>
                                             </li>
                                         <li>
-                                                <a href="view.html?id=E000005">Korrespondenz Bahr–Schnitzler</a>
+                                                <a href="index.html?id=E000005">Korrespondenz Bahr–Schnitzler</a>
                                             </li>
                                         <li>
-                                                <a href="view.html?id=E000002">Nachwort</a>
+                                                <a href="index.html?id=E000002">Nachwort</a>
                                             </li>
                                         <li>
-                                                <a href="view.html?id=E000004">Dank</a>
+                                                <a href="index.html?id=E000004">Dank</a>
                                             </li>
                                     </ul>
                                 </li> <!-- /About -->
@@ -1099,7 +1099,7 @@ declare function app:format_searchresults($ergebnisse, $q, $type, $orderby) {
          return 
             <div class="search-hit" data-docdate="{$hit/@docdate}" data-ftScore="{$hit/@ft-score}">
                 <span class="hit-title">
-                <a href="view.html?id={$hit/@docid/string()}&amp;q={$q}">{$hit/@doctitle/string()}</a>
+                <a href="index.html?id={$hit/@docid/string()}&amp;q={$q}">{$hit/@doctitle/string()}</a>
                 </span>
                 {kwic:summarize($hit, <config width="60"/>)}
             </div>
