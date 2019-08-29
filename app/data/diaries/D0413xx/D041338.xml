@@ -1,24 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041338"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Arthur Schnitzler, 1. 1. 1920</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-D" n="338"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
-        Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct corresp="ASTB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">Tagebuch 1920–1922</title><editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor><imprint><pubPlace>Wien</pubPlace><publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher><date when="1993">1993</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151111">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="19200101" n="1">1/1</date> Von 4–8 gut geschlafen. Neujahrsgelder
-        vertheilt.–</p><p>Ganz leidliche Stimmung. Nebel, Regen, Quatsch.</p><p>Zu Dr. <persName key="A002842">Karolyi</persName>. Vorläufige Plombe.–</p><p>Ins <placeName key="A000214">Burgth.</placeName> Mit <persName key="A002919">Hock</persName> Besetzung der »<workName key="A020451">Schwestern</workName>«, Termin, 
-Neuaufnahmen andrer meiner Stücke.–</p><p>– Zur <rs key="A002154" type="person">Hofrätin</rs>; Neujahr wünschen. Sie hatte eben die 
-       <workName key="A020451">Schwestern</workName> gelesen;– von hier aus Gespräch über Mann – Frau;– 
-Geist – Natur. <persName key="A002885">Fritz Zuckerkandl</persName>;– über <persName key="A002268">Kaufmann</persName>. – Mit der <rs key="A002154" type="person">Hofr.</rs> nur weniges über <persName key="A002038">O.</persName>; die <rs key="A002154" type="person">Hofr.</rs> spricht von ihrer (<persName key="A002038">O.</persName>s) »Eifersucht«.– 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041338">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 1. 1. 1920</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="338"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
+        Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1920–1922</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1993">1993</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19200101" n="1">1/1</date> Von 4–8 gut geschlafen. Neujahrsgelder
+        vertheilt.–</p>
+            <p>Ganz leidliche Stimmung. Nebel, Regen, Quatsch.</p>
+            <p>Zu Dr. <persName key="pmb19914">Karolyi</persName>. Vorläufige Plombe.–</p>
+            <p>Ins <placeName key="pmb14">Burgth.</placeName> Mit <persName key="pmb11720">Hock</persName> Besetzung der »<workName key="pmb30819">Schwestern</workName>«, Termin, 
+Neuaufnahmen andrer meiner Stücke.–</p>
+            <p>– Zur <rs key="pmb2312" type="person">Hofrätin</rs>; Neujahr wünschen. Sie hatte eben die 
+       <workName key="pmb30819">Schwestern</workName> gelesen;– von hier aus Gespräch über Mann – Frau;– 
+Geist – Natur. <persName key="pmb3115">Fritz Zuckerkandl</persName>;– über <persName key="pmb2496">Kaufmann</persName>. – Mit der <rs key="pmb2312" type="person">Hofr.</rs> nur weniges über <persName key="pmb2173">O.</persName>; die <rs key="pmb2312" type="person">Hofr.</rs> spricht von ihrer (<persName key="pmb2173">O.</persName>s) »Eifersucht«.– 
 Mein Standpunkt.– Politisches. Neue Regierung wahrscheinlich Mai; 
-voraussichtlicher Sturz der Sozialisten.– <placeName key="A000362">Oesterreichs</placeName> liter. Zukunft 
-in <placeName key="A000366">Frankreich</placeName>.</p><p ><persName key="A002011">Hugo</persName> kommt. Über <placeName key="A000230"><settlement>Salzburg</settlement></placeName>, Festspiel, <persName key="A002078">Reinhardt</persName>, <placeName key="A000437">Schloss
-        Leopoldskron</placeName>;– <persName key="A002374">Stef. Zweig</persName> in negat. Sinn;–
-         <persName key="A002002">Bahr</persName> etc. (Das Problem der Gesundheitsanfälle
+voraussichtlicher Sturz der Sozialisten.– <placeName key="pmb162">Oesterreichs</placeName> liter. Zukunft 
+in <placeName key="pmb166">Frankreich</placeName>.</p>
+            <p>
+               <persName key="pmb11740">Hugo</persName> kommt. Über <placeName key="pmb30">
+                  <settlement>Salzburg</settlement>
+               </placeName>, Festspiel, <persName key="pmb12504">Reinhardt</persName>, <placeName key="pmb237">Schloss
+        Leopoldskron</placeName>;– <persName key="pmb13212">Stef. Zweig</persName> in negat. Sinn;–
+         <persName key="pmb10815">Bahr</persName> etc. (Das Problem der Gesundheitsanfälle
         bei Kranken, der Herzlichkeitanfälle bei Egoisten – der Urtheilsanfälle bei
-        Urtheilslosen.) – Im Fortgehn redet <persName key="A002011">Hugo</persName> von
-         <persName key="A002858">Pannwitz</persName>, den er durch Sammlungen seit Jahren
+        Urtheilslosen.) – Im Fortgehn redet <persName key="pmb11740">Hugo</persName> von
+         <persName key="pmb12392">Pannwitz</persName>, den er durch Sammlungen seit Jahren
         fördere, vielmehr erhalte – 80–90.000 Kronen jährlich;– nächstens lese er aus
-         <persName key="A002858">P.</persName>s neuem Buch »<anchor type="commentary" xml:id="KD338-1" ><workName key="A020452">Die deutsche
-         Lehre</workName></anchor>« vor,– er habe gerade seine Freunde nicht eingeladen – wenn ich
-        aber kommen wolle <c rendition="#dots" n="3" place="center"/> Ich lehne dankend ab.–</p><p>Nm. mit Zeitunglesen vertrödelt und verduselt.</p><p>In Novellenplänen; kein Entschluss.–</p><p><persName key="A002088">Leo</persName> gegen Abend;– er ist über <persName key="A002268">Arthur Kfm.</persName> nicht ganz beruhigt;– findet ihn in seiner Erklärungsweise
+         <persName key="pmb12392">P.</persName>s neuem Buch »<anchor type="commentary" xml:id="KD338-1">
+                  <workName key="pmb30821">Die deutsche
+         Lehre</workName>
+               </anchor>« vor,– er habe gerade seine Freunde nicht eingeladen – wenn ich
+        aber kommen wolle <c rendition="#dots" n="3" place="center"/> Ich lehne dankend ab.–</p>
+            <p>Nm. mit Zeitunglesen vertrödelt und verduselt.</p>
+            <p>In Novellenplänen; kein Entschluss.–</p>
+            <p>
+               <persName key="pmb26392">Leo</persName> gegen Abend;– er ist über <persName key="pmb2496">Arthur Kfm.</persName> nicht ganz beruhigt;– findet ihn in seiner Erklärungsweise
         unpaedagogisch und zu wahllos bezügl. Auditorium;– was nicht ganz stimmt. Doch
-        scheinen auch ihm seine neuen Gedanken zu Zeitmessung u.&#160;s.&#160;w. genial.– Über
-         <persName key="A002007">Richard</persName> und seine <rs type="person" key="A002399 A002400 A002292">Kinder</rs>.– <persName key="A002088">Leo’s</persName> Herzbeschwerden <c rendition="#dots" n="3"/></p><p>Kleine Differenz zwischen <persName key="A002038">O.</persName> und <persName key="A002083">Heini</persName> Abends, als er aus dem 
-<workName key="A020453">Lohengrin</workName> kam, unüberlegte aber nicht sehr beträchtliche 
-Flegelei, die <persName key="A002038">O.</persName> zu schwer nahm, was gleich ins weitere wirkte und 
-die gute Stimmung des Tages trübte.–</p></div></body></text></TEI>
+        scheinen auch ihm seine neuen Gedanken zu Zeitmessung u. s. w. genial.– Über
+         <persName key="pmb10863">Richard</persName> und seine <rs type="person" key="pmb2668 pmb13923 pmb2534">Kinder</rs>.– <persName key="pmb26392">Leo’s</persName> Herzbeschwerden <c rendition="#dots" n="3"/>
+            </p>
+            <p>Kleine Differenz zwischen <persName key="pmb2173">O.</persName> und <persName key="pmb12692">Heini</persName> Abends, als er aus dem 
+<workName key="pmb30823">Lohengrin</workName> kam, unüberlegte aber nicht sehr beträchtliche 
+Flegelei, die <persName key="pmb2173">O.</persName> zu schwer nahm, was gleich ins weitere wirkte und 
+die gute Stimmung des Tages trübte.–</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,18 +1,115 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041246"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Arthur Schnitzler, 13. 12. 1904</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno n="246" type="HBAS-D"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
-        Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct corresp="ASTB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">Tagebuch 1903–1908</title><editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor><imprint><pubPlace>Wien</pubPlace><publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher><date when="1991">1991</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151111">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="19041213" n="3">13/12</date> – Referate über den gestrigen Abd., was ich las
-               (<rs type="work" key="A020669"><anchor type="commentary" xml:id="KD246-1" ><persName key="A002769">Sternberg</persName></anchor> in der <orgName  key="A080099">N.</orgName></rs>, <rs type="work" key="A020630"><persName key="A002002">Bahr</persName> im
-                  <orgName  key="A080148">Tgbl.</orgName></rs>, <rs type="work" key="A020670"><anchor type="commentary" xml:id="KD246-2" ><persName key="A002035">Salten</persName></anchor><space unit="chars" quantity="1"/><orgName  key="A080322">Zeit</orgName></rs> etc.) übermäßig günstig; habe wieder einmal die
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041246">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 13. 12. 1904</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="246" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
+        Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19041213" n="3">13/12</date> – Referate über den gestrigen Abd., was ich las
+               (<rs type="work" key="pmb31255">
+                  <anchor type="commentary" xml:id="KD246-1">
+                     <persName key="pmb3021">Sternberg</persName>
+                  </anchor> in der <orgName key="pmb29351">N.</orgName>
+               </rs>, <rs type="work" key="pmb31177">
+                  <persName key="pmb10815">Bahr</persName> im
+                  <orgName key="pmb29414">Tgbl.</orgName>
+               </rs>, <rs type="work" key="pmb31257">
+                  <anchor type="commentary" xml:id="KD246-2">
+                     <persName key="pmb2167">Salten</persName>
+                  </anchor>
+                  <space unit="chars" quantity="1"/>
+                  <orgName key="pmb29626">Zeit</orgName>
+               </rs> etc.) übermäßig günstig; habe wieder einmal die
         Empfindung, ohne dass ichs nöthig hatte, in Schulden gestürzt worden zu sein
-        (»<anchor type="commentary" xml:id="KD246-3" >bedeutendster Dramatiker <placeName key="A000362">Oesterreichs</placeName></anchor>« etc. – was ja
-        am Ende gar wahr ist, aber nicht viel bedeutet).</p><p>– Kam darauf, dass das beste, was ich gemacht, bisher sind: letzter Akt <workName key="A020049">Liebelei</workName>, letzter Akt <workName key="A020019">Beatrice</workName>, letzter
-        Akt <workName key="A020083">Eins. Weg</workName> – Schluss <workName key="A020012">Kakadu</workName>, Schluss <workName key="A020029">letzte Masken</workName> – sogar die
-        letzten Seiten <workName key="A020200">Vermächtnis</workName>.– Meine Expositionen sind novellistisch-mühselig (nicht
+        (»<anchor type="commentary" xml:id="KD246-3">bedeutendster Dramatiker <placeName key="pmb162">Oesterreichs</placeName>
+               </anchor>« etc. – was ja
+        am Ende gar wahr ist, aber nicht viel bedeutet).</p>
+            <p>– Kam darauf, dass das beste, was ich gemacht, bisher sind: letzter Akt <workName key="pmb29917">Liebelei</workName>, letzter Akt <workName key="pmb29857">Beatrice</workName>, letzter
+        Akt <workName key="pmb29985">Eins. Weg</workName> – Schluss <workName key="pmb29843">Kakadu</workName>, Schluss <workName key="pmb29877">letzte Masken</workName> – sogar die
+        letzten Seiten <workName key="pmb30219">Vermächtnis</workName>.– Meine Expositionen sind novellistisch-mühselig (nicht
         immer),– die Entwicklung öfters unterbrochen, schnarrend,– erst am Schluss, wie die
         stallriechenden Rösser, galoppir ich gut. Hängt wohl auch mit dem tiefen Grundfehler
-        meiner Natur zusammen: Ungeduld und geringe Sammlungsfähigkeit.–</p><p>– Traf Vorm. <persName key="A002559">Rob. Hirschfeld</persName>, der mich fragte, ob ich mich 
-neulich in einem Concert absichtlich von ihm abgewandt. (<persName key="A002038">O.</persName> hatte damals 
+        meiner Natur zusammen: Ungeduld und geringe Sammlungsfähigkeit.–</p>
+            <p>– Traf Vorm. <persName key="pmb11707">Rob. Hirschfeld</persName>, der mich fragte, ob ich mich 
+neulich in einem Concert absichtlich von ihm abgewandt. (<persName key="pmb2173">O.</persName> hatte damals 
 gleich gesagt, er würde ein zufälliges Umdrehn so deuten.) Längres 
-Gespräch mit ihm über seine Empfindlichkeit, sein (und <persName key="A002212">Schwarzkopf’s</persName>) 
-Mißtrauen, weiterhin über musikalisches, Verkehr, <persName key="A002007">Beer-Hofmann</persName>, etc. 
-Wir spazierten über 1 Stunde.–</p><p>Einkäufe bei <placeName key="A000384">Förster</placeName> und <placeName key="A000772">Gutmann</placeName> (Weihnachten).</p><p>– Mit <rs key="A002146" type="person">Mama</rs> Nm. <persName key="A002302">Tschaikowski</persName><space unit="chars" quantity="1"/><workName key="A020374">Pathétique</workName>.</p><p>An dem <rs type="work" key="A020042">Stück</rs> weiter.– Befand mich körperlich nicht
-        wohl.–</p></div></body></text></TEI>
+Gespräch mit ihm über seine Empfindlichkeit, sein (und <persName key="pmb12740">Schwarzkopf’s</persName>) 
+Mißtrauen, weiterhin über musikalisches, Verkehr, <persName key="pmb10863">Beer-Hofmann</persName>, etc. 
+Wir spazierten über 1 Stunde.–</p>
+            <p>Einkäufe bei <placeName key="pmb184">Förster</placeName> und <placeName key="pmb571">Gutmann</placeName> (Weihnachten).</p>
+            <p>– Mit <rs key="pmb12701" type="person">Mama</rs> Nm. <persName key="pmb2540">Tschaikowski</persName>
+               <space unit="chars" quantity="1"/>
+               <workName key="pmb30665">Pathétique</workName>.</p>
+            <p>An dem <rs type="work" key="pmb29903">Stück</rs> weiter.– Befand mich körperlich nicht
+        wohl.–</p>
+         </div>
+      </body>
+   </text>
+</TEI>

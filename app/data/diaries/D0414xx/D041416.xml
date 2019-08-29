@@ -1,7 +1,157 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041416"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Kalendereintrag von Hermann Bahr, 2. 11. 1901</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-D" n="416"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><listWit><witness n="1"><msDesc><msIdentifier><country>A</country><settlement>Wien</settlement><repository>Theatermuseum</repository><idno>HS VM 1757/9 Ba</idno></msIdentifier></msDesc></witness></listWit><listBibl><biblStruct corresp="HBT3" default="false"><monogr><title level="m">1901–1903</title><editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor><imprint><date when="1997">1997</date></imprint><biblScope unit="pp">12</biblScope></monogr><monogr><author key="A002002">Bahr, Hermann</author><title level="m">Tagebücher, Skizzenbücher, Notizhefte</title><editor>Hg. Moritz Csáky</editor><imprint><pubPlace>Wien, Köln, Weimar</pubPlace><publisher>Böhlau</publisher><date when="1994">1994–2003</date></imprint><biblScope unit="vol">III</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151222">angelegt</change><change who="KI MAM" when="20160129">Kollationiert am Original</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p ><date when="19011102" n="01"/>An <persName key="A003164">Langen</persName> für <anchor type="commentary" xml:id="KD416-1" ><workName key="A020034">Apostel</workName></anchor> Adressen geschickt:<lb/><persName key="A002065">Brahm</persName>, <persName key="A003165">Lindau</persName>, <persName key="A002051">Harden</persName>, <persName key="A003166">Levysohn</persName>, <persName key="A003167">Mautner</persName>, 
-            <persName key="A003168">Schönhoff</persName>, <persName key="A002435">Kerr</persName>, <persName key="A003169 A003170">Hart</persName>, <persName key="A003171">R. M. Meyer</persName>, 
-            <persName key="A002022">Erich Schmidt</persName>, <persName key="A003172">Wolf Heine</persName>, <persName key="A003173">Muther</persName>, 
-            <persName key="A003174">Koch</persName>, <persName key="A003175">Lichtwark</persName>, <persName key="A002023">Brandes</persName>, <persName key="A002204">Björnson</persName>, 
-            <persName key="A003176">Litzmann</persName>, <persName key="A003161">Olbrich</persName>, <persName key="A002982">Ganghofer</persName>, <persName key="A003177">Hirth</persName>, <persName key="A002529">Henri Albert</persName>,</p><p >–</p><p ><table><row><cell>Noch schicken:</cell><cell><del rend="strikethrough"><persName key="A003169">Heinrich Hart</persName></del></cell></row><row><cell/><cell><persName key="A002001">Arthur Schnitzler</persName></cell></row><row><cell/><cell><persName key="A003106">Bierbaum</persName></cell></row><row><cell/><cell><space unit="chars" quantity="10"/><persName key="A003146">Schönbach</persName></cell></row></table></p><p>–</p><p><persName key="A003178">Gottlieb Madl</persName></p><p>–</p><p>15&#160;fl <persName key="A003179">Ludwig</persName> bezahlt</p><p>–</p><p><orgName key="A021227">Akademischer Verein für Kunst u. Literatur</orgName>,
-                        <persName key="A003181">Hans Tietze</persName>, <placeName key="A000512">IX
-                        Mariannengasse 13</placeName></p><p>–</p><p>Dr <persName key="A003180">Ferd. Bronner</persName><lb/><placeName key="A000513">18/<hi rend="subscript">1</hi> Währingerstr. 147<hi rend="superscript">II</hi></placeName></p></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041416">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Kalendereintrag von Hermann Bahr, 2. 11. 1901</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="416"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1757/9 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3" default="false">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">12</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author key="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151222">angelegt</change>
+         <change who="KI MAM" when="20160129">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19011102" n="01"/>An <persName key="pmb3379">Langen</persName> für <anchor type="commentary" xml:id="KD416-1">
+                  <workName key="pmb29887">Apostel</workName>
+               </anchor> Adressen geschickt:<lb/>
+               <persName key="pmb10986">Brahm</persName>, <persName key="pmb12078">Lindau</persName>, <persName key="pmb11581">Harden</persName>, <persName key="pmb3382">Levysohn</persName>, <persName key="pmb3386">Mautner</persName>, 
+            <persName key="pmb3390">Schönhoff</persName>, <persName key="pmb11910">Kerr</persName>, <persName key="pmb11597 pmb3394">Hart</persName>, <persName key="pmb12237">R. M. Meyer</persName>, 
+            <persName key="pmb12678">Erich Schmidt</persName>, <persName key="pmb3397">Wolf Heine</persName>, <persName key="pmb12319">Muther</persName>, 
+            <persName key="pmb3400">Koch</persName>, <persName key="pmb3403">Lichtwark</persName>, <persName key="pmb10992">Brandes</persName>, <persName key="pmb2400">Björnson</persName>, 
+            <persName key="pmb12096">Litzmann</persName>, <persName key="pmb3368">Olbrich</persName>, <persName key="pmb11402">Ganghofer</persName>, <persName key="pmb11711">Hirth</persName>, <persName key="pmb2801">Henri Albert</persName>,</p>
+            <p>–</p>
+            <p>
+               <table>
+                  <row>
+                     <cell>Noch schicken:</cell>
+                     <cell>
+                        <del rend="strikethrough">
+                           <persName key="pmb11597">Heinrich Hart</persName>
+                        </del>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>
+                        <persName key="pmb2121">Arthur Schnitzler</persName>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>
+                        <persName key="pmb10928">Bierbaum</persName>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell/>
+                     <cell>
+                        <space unit="chars" quantity="10"/>
+                        <persName key="pmb3330">Schönbach</persName>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <p>–</p>
+            <p>
+               <persName key="pmb28075">Gottlieb Madl</persName>
+            </p>
+            <p>–</p>
+            <p>15 fl <persName key="pmb28076">Ludwig</persName> bezahlt</p>
+            <p>–</p>
+            <p>
+               <orgName key="pmb32370">Akademischer Verein für Kunst u. Literatur</orgName>,
+                        <persName key="pmb12958">Hans Tietze</persName>, <placeName key="pmb311">IX
+                        Mariannengasse 13</placeName>
+            </p>
+            <p>–</p>
+            <p>Dr <persName key="pmb11021">Ferd. Bronner</persName>
+               <lb/>
+               <placeName key="pmb312">18/<hi rend="subscript">1</hi> Währingerstr. 147<hi rend="superscript">II</hi>
+               </placeName>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

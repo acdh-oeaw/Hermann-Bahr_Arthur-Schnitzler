@@ -1,18 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041529"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Arthur Schnitzler, 8. 11. 1911</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-D" n="529"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="A002002">Bahr</persName> and Arthur Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct corresp="ASTB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">Tagebuch 1909–1912</title><editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor><imprint><pubPlace>Wien</pubPlace><publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher><date when="1981">1981</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151111">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="19111108" n="01">8/11</date><space unit="chars" quantity="1"/><persName key="A002063">Julius</persName> und <persName key="A002414">Helene</persName>, deren Anwesenheit uns
-               sehr erfreut hatte, reisen ab. Bahn. Dann mit <persName key="A002038">O.</persName> ein wenig
-               spazieren.</p><p>Nm. nach <placeName key="A000680">Stellingen</placeName>,
-                     <placeName key="A000679">Thierpark von Hagenbeck</placeName>.</p><p>Abends kam <persName key="A003552">Lindner</persName> ins Hotel; er denkt nun doch dran, nach
-                  <persName key="A002020">Fischers</persName> Vorschlag, das Buch über mich zu schreiben – ich
-               verhalte mich kühl. Immerhin ist <persName key="A003552">L.</persName> einer der wenigen, die nicht
-               mit den bekannten Clichés über mich arbeiten.– </p><p>Direktor <persName key="A003553">Koehne</persName> kam gleichfalls; zu
-               »<workName key="A020058">Anatol</workName>« ins <placeName key="A000846">Schauspielhaus</placeName>.
-                  <persName key="A003554">Lang</persName>, der als <rs type="work" key="A020194">Aigner</rs> schlecht war, als <rs type="work" key="A020058">Anatol</rs> amusant. <persName key="A003575">Wlach</persName> (<rs type="work" key="A020058">Max</rs>)
-               anständig, die <persName key="A003557">May</persName> als <rs type="work" key="A020172">Gabriele</rs> wieder
-               auffallend; sagte ihr einiges darauf bezüglich. Die <persName key="A002662">Elsinger</persName><space unit="chars" quantity="1"/><rs type="work" key="A020107">Ilona</rs>, gut. Mußte, wie gestern und vorgestern auch, nach Schluß mich
-               bedanken; auch nach dem <workName key="A020093">Abschiedsouper</workName>, bei dem ich selbst viel
-               lachen mußte, besonders über den Kellner.– </p><p >Im Hotel nachtmahlten wir mit <persName key="A003555">Hagemann</persName>,
-                  <persName key="A003553">Koehne</persName> und <rs type="person" key="A003556">Frau</rs>, und der
-                  <persName key="A002662">Elsinger</persName>. Sie sprach von einem Stück »wo sich der Sohn am
-               Schluß erschießt – oder was<c rendition="#dots" n="3"/>«. Die Idee wurde aufgegriffen, auch <anchor type="commentary" xml:id="KD529-1" >hier</anchor> zum
-                  »<workName key="A020133">Tänzchen</workName>« »<workName key="A020056">Comtesse Mizi</workName>« zu geben,
-               mit der <persName key="A002662">Elsinger</persName>.–</p></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041529">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 8. 11. 1911</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="529"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19111108" n="01">8/11</date>
+               <space unit="chars" quantity="1"/>
+               <persName key="pmb12698">Julius</persName> und <persName key="pmb24423">Helene</persName>, deren Anwesenheit uns
+               sehr erfreut hatte, reisen ab. Bahn. Dann mit <persName key="pmb2173">O.</persName> ein wenig
+               spazieren.</p>
+            <p>Nm. nach <placeName key="pmb479">Stellingen</placeName>,
+                     <placeName key="pmb478">Thierpark von Hagenbeck</placeName>.</p>
+            <p>Abends kam <persName key="pmb12081">Lindner</persName> ins Hotel; er denkt nun doch dran, nach
+                  <persName key="pmb11324">Fischers</persName> Vorschlag, das Buch über mich zu schreiben – ich
+               verhalte mich kühl. Immerhin ist <persName key="pmb12081">L.</persName> einer der wenigen, die nicht
+               mit den bekannten Clichés über mich arbeiten.– </p>
+            <p>Direktor <persName key="pmb3949">Koehne</persName> kam gleichfalls; zu
+               »<workName key="pmb29935">Anatol</workName>« ins <placeName key="pmb645">Schauspielhaus</placeName>.
+                  <persName key="pmb20080">Lang</persName>, der als <rs type="work" key="pmb30207">Aigner</rs> schlecht war, als <rs type="work" key="pmb29935">Anatol</rs> amusant. <persName key="pmb13143">Wlach</persName> (<rs type="work" key="pmb29935">Max</rs>)
+               anständig, die <persName key="pmb21216">May</persName> als <rs type="work" key="pmb30163">Gabriele</rs> wieder
+               auffallend; sagte ihr einiges darauf bezüglich. Die <persName key="pmb2938">Elsinger</persName>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" key="pmb30033">Ilona</rs>, gut. Mußte, wie gestern und vorgestern auch, nach Schluß mich
+               bedanken; auch nach dem <workName key="pmb30005">Abschiedsouper</workName>, bei dem ich selbst viel
+               lachen mußte, besonders über den Kellner.– </p>
+            <p>Im Hotel nachtmahlten wir mit <persName key="pmb11561">Hagemann</persName>,
+                  <persName key="pmb3949">Koehne</persName> und <rs type="person" key="pmb19488">Frau</rs>, und der
+                  <persName key="pmb2938">Elsinger</persName>. Sie sprach von einem Stück »wo sich der Sohn am
+               Schluß erschießt – oder was<c rendition="#dots" n="3"/>«. Die Idee wurde aufgegriffen, auch <anchor type="commentary" xml:id="KD529-1">hier</anchor> zum
+                  »<workName key="pmb30085">Tänzchen</workName>« »<workName key="pmb29931">Comtesse Mizi</workName>« zu geben,
+               mit der <persName key="pmb2938">Elsinger</persName>.–</p>
+         </div>
+      </body>
+   </text>
+</TEI>

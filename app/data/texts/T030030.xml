@@ -1,91 +1,211 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030030"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020115">Hermann Bahr: Brief an Arthur Schnitzler, Mai 1922</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="030"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19220500" n="1">Mai 1922</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020115">Brief an Arthur Schnitzler</title></analytic><monogr><title level="j" key="A080139">Moderne Welt</title><imprint><date when="192205" n="1">Mai 1922</date></imprint><biblScope unit="jg">3</biblScope><biblScope unit="nr">12</biblScope><biblScope unit="pp">3–5</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20160224" who="MAM">Angelegt aus Scan, kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head>Brief an <persName key="A002001">Arthur
-          Schnitzler</persName></head><p rend="center" >Lieber Arthur! </p><p>1889 in <placeName key="A000382"><settlement>Paris</settlement></placeName>, als ich eben über den Winter nach <placeName key="A000589"
-            >Spanien</placeName> und <placeName key="A000779">Marokko</placeName> ging, erhielt ich
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030030">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" key="pmb30049">Hermann Bahr: Brief an Arthur Schnitzler, Mai 1922</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="030"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19220500" n="1">Mai 1922</origDate>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="pmb10815">Bahr, Hermann</author>
+                     <title level="a" key="pmb30049">Brief an Arthur Schnitzler</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" key="pmb29404">Moderne Welt</title>
+                     <imprint>
+                        <date when="192205" n="1">Mai 1922</date>
+                     </imprint>
+                     <biblScope unit="jg">3</biblScope>
+                     <biblScope unit="nr">12</biblScope>
+                     <biblScope unit="pp">3–5</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160224" who="MAM">Angelegt aus Scan, kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>Brief an <persName key="pmb2121">Arthur
+          Schnitzler</persName>
+            </head>
+            <p rend="center" part="N">Lieber Arthur! </p>
+            <p part="N">1889 in <placeName key="pmb182">
+                  <settlement>Paris</settlement>
+               </placeName>, als ich eben über den Winter nach <placeName key="pmb388">Spanien</placeName> und <placeName key="pmb578">Marokko</placeName> ging, erhielt ich
           einen <anchor type="commentary" xml:id="KT030-8">Brief</anchor> mit der erstaunlichen
-          Nachricht, auch <placeName key="A000250"><settlement>Wien</settlement></placeName> fange
-          jetzt von neuem zu dichten an, wenn auch zunächst nur in <placeName key="A001034"
-              ><settlement>Brünn</settlement></placeName>. Und die Beredsamkeit eines jungen <placeName key="A001034"
-              ><settlement>Brünn</settlement></placeName>ers hatte wirklich einen bisher unbescholtenen <rs type="person" key="A003792"
-            subtype="local">Buchdrucker</rs> so betörend verwirrt, daß richtig <date when="18900101"
-            >Neujahr 1890</date> das erste Heft der »<orgName key="A080150">Modernen
+          Nachricht, auch <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> fange
+          jetzt von neuem zu dichten an, wenn auch zunächst nur in <placeName key="pmb833">
+                  <settlement>Brünn</settlement>
+               </placeName>. Und die Beredsamkeit eines jungen <placeName key="pmb833">
+                  <settlement>Brünn</settlement>
+               </placeName>ers hatte wirklich einen bisher unbescholtenen <rs type="person" key="pmb4213" subtype="local">Buchdrucker</rs> so betörend verwirrt, daß richtig <date when="18900101">Neujahr 1890</date> das erste Heft der »<orgName key="pmb29417">Modernen
             Dichtung</orgName>« erschien, eine »Monatsschrift für Literatur und Kritik« verheißend,
-          von <persName key="A002324">E. M. Kafka</persName> herausgegeben, im Verlag von <persName
-            key="A003792">Rudolf M. Rohrer</persName> in <placeName key="A001034"
-              ><settlement>Brünn</settlement></placeName>: ein Ereignis für uns Jungen, denn schon das verpönte »Modern« im Titel
+          von <persName key="pmb2563">E. M. Kafka</persName> herausgegeben, im Verlag von <persName key="pmb4213">Rudolf M. Rohrer</persName> in <placeName key="pmb833">
+                  <settlement>Brünn</settlement>
+               </placeName>: ein Ereignis für uns Jungen, denn schon das verpönte »Modern« im Titel
           kündigte den Bruch mit dem geheiligten Brauch an, auch ein noch so sittsames,
           unärgerliches, zimmerreines Talent, selbst wenn es von den Auguren schon beglaubigt war,
           erst mit ergrauenden oder ausgefallenen Haaren einzulassen; es müsse dunsten, um
-          schmackhaft zu werden. Ungedünsteten hatte bisher nur <persName key="A002525">Michael
-            Georg Conrad</persName> Zuflucht geboten, in seiner »<orgName key="A080167"
-            >Gesellschaft</orgName>«, seit <date>1885</date>: hier war nicht nur erlaubt, jung zu sein, es war
-          geboten; und es wurde jetzt, in <persName key="A002324">Kafkas</persName> »<orgName
-            key="A080150">Moderner Dichtung</orgName>« hier und <anchor type="commentary"
-            xml:id="KT030-4">gleich darauf</anchor> in <persName key="A002065">Brahms</persName>
-            »<orgName key="A080014">Freier Bühne für modernes Leben</orgName>« auch draußen, ein
-          Programm, jung zu sein, dem wir die Treue hielten, so lang es irgend ging. <anchor
-            type="label" xml:id="LT030-1">In dieser »<orgName key="A080150">Modernen
+          schmackhaft zu werden. Ungedünsteten hatte bisher nur <persName key="pmb11098">Michael
+            Georg Conrad</persName> Zuflucht geboten, in seiner »<orgName key="pmb29440">Gesellschaft</orgName>«, seit <date>1885</date>: hier war nicht nur erlaubt, jung zu sein, es war
+          geboten; und es wurde jetzt, in <persName key="pmb2563">Kafkas</persName> »<orgName key="pmb29417">Moderner Dichtung</orgName>« hier und <anchor type="commentary" xml:id="KT030-4">gleich darauf</anchor> in <persName key="pmb10986">Brahms</persName>
+            »<orgName key="pmb29212">Freier Bühne für modernes Leben</orgName>« auch draußen, ein
+          Programm, jung zu sein, dem wir die Treue hielten, so lang es irgend ging. <anchor type="label" xml:id="LT030-1">In dieser »<orgName key="pmb29417">Modernen
               Dichtung</orgName>« las ich zum erstenmal Deinen Namen</anchor>. Zwar warst Du schon
-          vorher in einem Blättchen, das glaube ich »<orgName key="A080892">An der schönen blauen
+          vorher in einem Blättchen, das glaube ich »<orgName key="pmb29698">An der schönen blauen
             Donau</orgName>« hieß, lyrisch aufgetaucht, aber erst jetzt zeigst Du Dein wahres
-          Gesicht: <workName key="A020058">Anatol</workName> erscheint, und in bester Gesellschaft;
-            <anchor type="commentary" xml:id="KT030-10">dasselbe Heft</anchor>, das den »<anchor
-            type="commentary" xml:id="KT030-11"><workName key="A020107"
-            >Hochzeitsmorgen</workName></anchor>« bringt, enthält <persName key="A002202">Gerhart
-            Hauptmanns</persName> »<anchor type="commentary" xml:id="KT030-12"><workName
-              key="A020980">Apostel</workName></anchor>«, <persName key="A002396"
-            >Liliencrons</persName> »<workName key="A020981"><anchor type="commentary"
-              xml:id="KT030-13">Gruß an <placeName key="A000362"
-                ><country>Österreich</country></placeName></anchor></workName>« und Beiträge von <anchor type="commentary" xml:id="KT030-14"><rs type="work"
-              key="A021429"><persName key="A003505">Bölsche</persName></rs></anchor>, <anchor
-                type="commentary" xml:id="KT030-15"><rs type="work" key="A021430"><persName key="A003416">Maria
-                Herzfeld</persName></rs></anchor>, <anchor type="commentary" xml:id="KT030-16"><rs
-                  type="work" key="A021431 A021438"><persName key="A003744">Paul Ernst</persName></rs></anchor>, der
-              Baronin <anchor type="commentary" xml:id="KT030-17"><rs type="work" key="A021432"><persName
-                key="A002580">Suttner</persName></rs></anchor>, <anchor type="commentary"
-                  xml:id="KT030-18"><rs type="work" key="A021433"><persName key="A002222"
-            >Dörmann</persName></rs></anchor>, <anchor type="commentary" xml:id="KT030-19"><rs
-              type="work" key="A021434"><persName key="A003758">Kitir</persName></rs></anchor>, <anchor
-                type="commentary" xml:id="KT030-20"><rs type="work" key="A021435"><persName key="A003826">Josef
-                Diner</persName></rs></anchor>, <anchor type="commentary" xml:id="KT030-21"><rs
-                  type="work" key="A021436"><persName key="A002035">Salten</persName></rs></anchor>, <anchor
-                    type="commentary" xml:id="KT030-22"><rs type="work" key="A021437"><persName key="A002313"
-                >Hermann Menkes</persName></rs></anchor> und <anchor type="commentary"
-            xml:id="KT030-23"><rs type="work" key="A020993">mir</rs></anchor>. Und das Jahr darauf
+          Gesicht: <workName key="pmb29935">Anatol</workName> erscheint, und in bester Gesellschaft;
+            <anchor type="commentary" xml:id="KT030-10">dasselbe Heft</anchor>, das den »<anchor type="commentary" xml:id="KT030-11">
+                  <workName key="pmb30033">Hochzeitsmorgen</workName>
+               </anchor>« bringt, enthält <persName key="pmb11617">Gerhart
+            Hauptmanns</persName> »<anchor type="commentary" xml:id="KT030-12">
+                  <workName key="pmb31877">Apostel</workName>
+               </anchor>«, <persName key="pmb12071">Liliencrons</persName> »<workName key="pmb31879">
+                  <anchor type="commentary" xml:id="KT030-13">Gruß an <placeName key="pmb162">
+                        <country>Österreich</country>
+                     </placeName>
+                  </anchor>
+               </workName>« und Beiträge von <anchor type="commentary" xml:id="KT030-14">
+                  <rs type="work" key="pmb32772">
+                     <persName key="pmb11061">Bölsche</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-15">
+                  <rs type="work" key="pmb32774">
+                     <persName key="pmb11666">Maria
+                Herzfeld</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-16">
+                  <rs type="work" key="pmb32776 pmb32790">
+                     <persName key="pmb11265">Paul Ernst</persName>
+                  </rs>
+               </anchor>, der
+              Baronin <anchor type="commentary" xml:id="KT030-17">
+                  <rs type="work" key="pmb32778">
+                     <persName key="pmb12906">Suttner</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-18">
+                  <rs type="work" key="pmb32780">
+                     <persName key="pmb2425">Dörmann</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-19">
+                  <rs type="work" key="pmb32782">
+                     <persName key="pmb19371">Kitir</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-20">
+                  <rs type="work" key="pmb32784">
+                     <persName key="pmb4262">Josef
+                Diner</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-21">
+                  <rs type="work" key="pmb32786">
+                     <persName key="pmb2167">Salten</persName>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KT030-22">
+                  <rs type="work" key="pmb32788">
+                     <persName key="pmb2553">Hermann Menkes</persName>
+                  </rs>
+               </anchor> und <anchor type="commentary" xml:id="KT030-23">
+                  <rs type="work" key="pmb31903">mir</rs>
+               </anchor>. Und das Jahr darauf
           gibst Du dem Blatt, das sich <anchor type="textConst" xml:id="TT030-1">indessen</anchor>
-          umgetauft hat und jetzt »<orgName key="A080150">Moderne Rundschau</orgName>« nennt, nicht
-          bloß die »<anchor type="commentary" xml:id="KT030-24"><workName key="A020163"
-              >Denksteine</workName></anchor>«, nicht bloß ein schwärmerisches <anchor
-            type="commentary" xml:id="KT030-25"><rs type="work" key="A020982">Gedicht</rs></anchor>,
+          umgetauft hat und jetzt »<orgName key="pmb29417">Moderne Rundschau</orgName>« nennt, nicht
+          bloß die »<anchor type="commentary" xml:id="KT030-24">
+                  <workName key="pmb30145">Denksteine</workName>
+               </anchor>«, nicht bloß ein schwärmerisches <anchor type="commentary" xml:id="KT030-25">
+                  <rs type="work" key="pmb31881">Gedicht</rs>
+               </anchor>,
           gewissermaßen einen Stoßseufzer darüber, daß Dir nichts Ordentliches einfällt, sondern,
-            <persName key="A002001">Arthur</persName>, <persName key="A002001">Arthur</persName>, Du
+            <persName key="pmb2121">Arthur</persName>, <persName key="pmb2121">Arthur</persName>, Du
           wirst es nicht glauben, aber Du kannst es nicht leugnen, es zeigt sich da schwarz auf
           weiß, daß Du damals ehrlich bemüht und auf dem besten Wege warst, Dich zum richtigen
           Feuilletonisten, und nicht etwa bloß von der großen Art, sondern auch von der andern,
-          umzufrisieren. Du schriebst damals eifrig Buchkritiken, und <rs type="work" key="A020984"
-            >eine</rs> davon schließt mit dem Ausruf: »<anchor type="commentary" xml:id="KT030-26" ><rs type="work" key="A020984">Das <rs type="work" key="A020992">Schauspiel</rs> ist, wie auf dem
+          umzufrisieren. Du schriebst damals eifrig Buchkritiken, und <rs type="work" key="pmb31885">eine</rs> davon schließt mit dem Ausruf: »<anchor type="commentary" xml:id="KT030-26">
+                  <rs type="work" key="pmb31885">Das <rs type="work" key="pmb31901">Schauspiel</rs> ist, wie auf dem
             Titel bemerkt steht, den Bühnen gegenüber Manuskript. Die Bühnen werden sich das nicht
-            zweimal sagen lassen.</rs></anchor>« Ist das nicht schon ganz der Augenaufschlag des
+            zweimal sagen lassen.</rs>
+               </anchor>« Ist das nicht schon ganz der Augenaufschlag des
           triumphierenden Plauderers, vor dem die schöne Leserin in Wonne zerfließt? Und ich bewahre
-          noch aus der Zeit, als ich Redakteur der <orgName key="A080155">Deutschen
+          noch aus der Zeit, als ich Redakteur der <orgName key="pmb29424">Deutschen
             Zeitung</orgName> war, einen Brief von Dir mit der ganz ernsthaften, treuherzigen
           Versicherung: »<anchor type="commentary" xml:id="KT030-6">Schließlich werde ich doch wohl
             auch das Feuilletonschreiben lernen – vorläufig fehlt mir noch manches dazu.</anchor>«
-          Ja, lieber <persName key="A002001">Arthur</persName>,<pb/> um ein Haar wärst Du vielleicht
+          Ja, lieber <persName key="pmb2121">Arthur</persName>,<pb/> um ein Haar wärst Du vielleicht
           ein glänzender <anchor type="commentary" xml:id="KT030-9">Causeur</anchor> geworden, der
-          Sonntagscauseur <placeName key="A000250"><settlement>Wien</settlement></placeName>s, wie
-          Du doch auch um ein Haar Dein <anchor type="commentary" xml:id="KT030-3"><rs type="work"
-              key="A020029">Alexander Weihgast</rs></anchor> hättest werden können. Und gerade diese
+          Sonntagscauseur <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>s, wie
+          Du doch auch um ein Haar Dein <anchor type="commentary" xml:id="KT030-3">
+                  <rs type="work" key="pmb29877">Alexander Weihgast</rs>
+               </anchor> hättest werden können. Und gerade diese
           paar Haare, um die Du dies und noch mancherlei, was in Deinem Horoskop stand, nicht
-          geworden bist, haben Dich mir von Jahr zu Jahr immer lieber und werter gemacht!</p><p>Wir lernten uns 1891 kennen. Ich war in
-            <placeName key="A000250"><settlement>Wien</settlement></placeName> gelandet, in meinen jungen Ruhm
-          gehüllt, in <placeName key="A000368"><settlement>Berlin</settlement></placeName> zum »Kritiker der
+          geworden bist, haben Dich mir von Jahr zu Jahr immer lieber und werter gemacht!</p>
+            <p part="N">Wir lernten uns 1891 kennen. Ich war in
+            <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> gelandet, in meinen jungen Ruhm
+          gehüllt, in <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName> zum »Kritiker der
           Moderne« ernannt, hochmütig, übermutig, unmutig, ein selber ganz ratloser Führer, durch
           die Welt wurstelnd. Du warst ein junger Arzt ohne Patienten, auf die Dein Wartezimmer (in
-          der <placeName key="A000743">Giselastraße</placeName>, wenn ich mich recht erinnere) sichtlich auch gar
-          nicht wartete, sondern auf <anchor type="commentary" xml:id="KT030-27" ><rs type="work" key="A020920 A020921">Froufrou</rs></anchor> von Frauen: es ergab schließlich
-          den ersten Akt der »<workName key="A020049">Liebelei</workName>«, damit hat es sich gerechtfertigt. Im
-              »<workName key="A020083">Einsamen Weg</workName>« heißt es: »<anchor type="commentary" xml:id="KT030-5" ><rs type="work" key="A020083">Wir bringen einander die Stichworte so
-          geschickt – es gibt pathetische Leute, die solche Beziehungen Freundschaft nennen.</rs></anchor>«
+          der <placeName key="pmb542">Giselastraße</placeName>, wenn ich mich recht erinnere) sichtlich auch gar
+          nicht wartete, sondern auf <anchor type="commentary" xml:id="KT030-27">
+                  <rs type="work" key="pmb31757 pmb31759">Froufrou</rs>
+               </anchor> von Frauen: es ergab schließlich
+          den ersten Akt der »<workName key="pmb29917">Liebelei</workName>«, damit hat es sich gerechtfertigt. Im
+              »<workName key="pmb29985">Einsamen Weg</workName>« heißt es: »<anchor type="commentary" xml:id="KT030-5">
+                  <rs type="work" key="pmb29985">Wir bringen einander die Stichworte so
+          geschickt – es gibt pathetische Leute, die solche Beziehungen Freundschaft nennen.</rs>
+               </anchor>«
           Pathetisch sind wir nun eigentlich beide nie gewesen, immerhin duzten wir uns bald, sahen
           uns oft und wetteiferten in Stirnlocken: Du mit einer blonden, die sich elegischer gab,
           ich mit einer braunen, südlich wehenden. Die Leute konnten sich nicht einigen, wer von uns
@@ -110,9 +230,9 @@
           will, erschütternde Klage höre, nicht nach einem verlorenen Paradies, sondern darüber, gar
           kein Paradies zu verlieren gehabt zu haben, daß Deine Gestalten nicht Entwurzelte sind,
           sondern wurzellos von vorneherein. Vor hundert Jahren haben Romantiker den letzten Versuch
-          eines lebendigen <placeName key="A000362">Österreichs</placeName> gewagt. Er wurde mit Recht
+          eines lebendigen <placeName key="pmb162">Österreichs</placeName> gewagt. Er wurde mit Recht
           Restauration genannt: Herstellung von etwas, das es nicht mehr gab, schon seit dem Barock
-          nicht mehr. Und alle Dichtung in <placeName key="A000362">Österreich</placeName>, wie sie sich auch
+          nicht mehr. Und alle Dichtung in <placeName key="pmb162">Österreich</placeName>, wie sie sich auch
           immer geberden mochte, blieb fortan romantisch: in welcher Zeit immer sie spielen mag und
           auch wenn sie Gegenwart fingiert, sie lebt vom Gewesenen. Du warst der Erste, Du bist der
           Einzige geblieben, der wirklich nach der Gegenwart zu greifen versucht hat. Es gelang Dir.
@@ -127,97 +247,118 @@
           Aber wenn es an Gegenwart fehlt, sich eben aus ihr, die fehlt, fingieren zu wollen, was
           fehlt, das scheint ein seltsamer Einfall, zu dem viel Selbstvertrauen gehört. Er ist
           übrigens nicht von Dir. Du bist nur<pb/> der Vollender und hast Dich Deiner Anfänger
-          nicht zu schämen. <persName key="A002422">Laube</persName> war der erste. Wissend, daß zum Theater, wenn
+          nicht zu schämen. <persName key="pmb2702">Laube</persName> war der erste. Wissend, daß zum Theater, wenn
           man es hohen Sinnes nimmt, Dichter und Schauspieler nicht ausreichen, so lange sich ihnen
           nicht ein Publikum gesellt, das, ihre Wirkungen auffangend nicht blos, sondern auch
           erwiedernd, mit zum Spiel gehört, da sich an ihm erst das Wunder der Allverwandlung
           beglaubigt, war er unangenehm überrascht, sich eingestehen zu müssen, daß in
-              <placeName key="A000250"><settlement>Wien</settlement></placeName> zurzeit, als er das
-            <placeName key="A000214">Burgtheater</placeName> übernahm, die Voraussetzung eines wirklichen
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> zurzeit, als er das
+            <placeName key="pmb14">Burgtheater</placeName> übernahm, die Voraussetzung eines wirklichen
           Publikums fehlte: eine Gesellschaft. Es gab eigentlich die alte
-              <placeName key="A000250"><settlement>Wien</settlement></placeName>er Gesellschaft nicht mehr und es
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>er Gesellschaft nicht mehr und es
           gab noch kaum Spuren einer neuen. Es gehört zu den stärksten Leistungen
-            <persName key="A002422">Laubes</persName>, daß er sich eine schuf, oder doch jedenfalls so viel von
+            <persName key="pmb2702">Laubes</persName>, daß er sich eine schuf, oder doch jedenfalls so viel von
           ihr, als nun einmal zum richtigen Theaterspielen unentbehrlich ist.
-              <placeName key="A000250"><settlement>Wien</settlement></placeName> hatte kein wirkliches Bürgertum,
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> hatte kein wirkliches Bürgertum,
           stark genug, als die höfische zerging, eine Gesellschaft nach den westlichen Mustern zu
-          bilden. <persName key="A002422">Laube</persName> holte sich nun aus der fließenden Schicht von Doktoren,
+          bilden. <persName key="pmb2702">Laube</persName> holte sich nun aus der fließenden Schicht von Doktoren,
           Beamten und was sonst noch etwa sich zu den »Gebildeten« hielt, einen Ersatz dafür. ln
-          seinem <placeName key="A000214">Burgtheater</placeName> drehte sich das natürliche Verhältnis des
+          seinem <placeName key="pmb14">Burgtheater</placeName> drehte sich das natürliche Verhältnis des
           Schauspiels zur Gesellschaft um: hier ward nicht mehr von der Bühne die Gesellschaft
           abgespiegelt, sondern Du wirst Dich erinnern, daß noch weit über
-            <persName key="A002422">Laube</persName> hinaus, noch bis in unsere Jugend hinein, alles was jener
-          Zeit sich <placeName key="A000250"><settlement>Wien</settlement></placeName>er Gesellschaft hieß, selber
-          blos ein Spiegelbild des <placeName key="A000214">Burgtheaters</placeName> war; Du selbst hast noch von
-            <persName key="A002528">Sonnenthal</persName> und <persName key="A002106">Hartmann</persName> gelernt, wie der Mann
+            <persName key="pmb2702">Laube</persName> hinaus, noch bis in unsere Jugend hinein, alles was jener
+          Zeit sich <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>er Gesellschaft hieß, selber
+          blos ein Spiegelbild des <placeName key="pmb14">Burgtheaters</placeName> war; Du selbst hast noch von
+            <persName key="pmb12809">Sonnenthal</persName> und <persName key="pmb11610">Hartmann</persName> gelernt, wie der Mann
           von Welt in einen Salon tritt, den Schmerz, sich seiner tiefen inneren Einsamkeit auf
           einen Augenblick entreißen zu müssen, in ein lässiges Lächeln hüllend. Aber wenn Dein
-          erster Ahn das <placeName key="A000214">Burgtheater</placeName><space unit="chars" quantity="1"/><persName key="A002422">Laubes</persName> war, der zweite war die <placeName key="A000312">Ringstraße</placeName>,
+          erster Ahn das <placeName key="pmb14">Burgtheater</placeName>
+               <space unit="chars" quantity="1"/>
+               <persName key="pmb2702">Laubes</persName> war, der zweite war die <placeName key="pmb112">Ringstraße</placeName>,
           dieses Unicum in der Baugeschichte: denn hier wurde der äußere Schauplatz für eine
           Gesellschaft errichtet, die noch gar nicht da war, die dann, um ihn zu füllen, sozusagen
           über Nacht geschwind erst improvisiert werden mußte. Du hast Dir sicherlich als Gymnasiast
-          den <anchor type="commentary" xml:id="KT030-7" ><persName key="A003745">Makart</persName>festzug</anchor> angesehen: das war die große öffentliche
-          Generalprobe des neuen <placeName key="A000250"><settlement>Wien</settlement></placeName>, da ritt es
+          den <anchor type="commentary" xml:id="KT030-7">
+                  <persName key="pmb12167">Makart</persName>festzug</anchor> angesehen: das war die große öffentliche
+          Generalprobe des neuen <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>, da ritt es
           nun in Fleisch und Blut einher, woher mag es nur eigentlich das frische rote Blut gesogen
-          haben?</p><p >Und genau zwölf Jahre später aber gingen nun wir zwei zuweilen in Mondnächten über
+          haben?</p>
+            <p part="N">Und genau zwölf Jahre später aber gingen nun wir zwei zuweilen in Mondnächten über
           diesen in unserer Kindheit auf Befehl von oben aus Nichts improvisierten
-            <placeName key="A000312">Ring</placeName> und unsere Herzen schlugen vor seliger Empfindung seiner
+            <placeName key="pmb112">Ring</placeName> und unsere Herzen schlugen vor seliger Empfindung seiner
           Schönheit! Erinnerst Dich noch, wie wir damals, immer unseren heimlichen Ernst in
-          Selbstironie verkleidend, einst den <placeName key="A000312">Ring</placeName> kindisch unter uns
-          verteilten, das eine Stückl sollte dem <persName key="A002007">Richard Beer-Hofmann</persName>, das
-          andere dem <persName key="A002011">Hugo</persName>, der damals, bis er die Matura hinter sich hätte,
-          noch <persName key="A002011">Loris</persName> hieß, das dritte Dir gehören und jeder feierlich geloben,
+          Selbstironie verkleidend, einst den <placeName key="pmb112">Ring</placeName> kindisch unter uns
+          verteilten, das eine Stückl sollte dem <persName key="pmb10863">Richard Beer-Hofmann</persName>, das
+          andere dem <persName key="pmb11740">Hugo</persName>, der damals, bis er die Matura hinter sich hätte,
+          noch <persName key="pmb11740">Loris</persName> hieß, das dritte Dir gehören und jeder feierlich geloben,
           auf keinen Fall ein Stückl der anderen zu bedichten, erinnerst Dich? Als mich vor ein paar
           Jahren mein Schicksal, das sich zuweilen in solchen Späßen gefällt, plötzlich ins
-            <placeName key="A000214">Burgtheater</placeName> verschlug, fiel mir in meinem Kammerl dort mit dem
-          Blick aufs <placeName key="A000574">Rathaus</placeName> eines Tages das verklungene Glück jener
+            <placeName key="pmb14">Burgtheater</placeName> verschlug, fiel mir in meinem Kammerl dort mit dem
+          Blick aufs <placeName key="pmb373">Rathaus</placeName> eines Tages das verklungene Glück jener
           Jugendnächte wieder ein und nun ging mir erst auf, welches Wunder uns damals eigentlich
-          geschehen war: dieser <placeName key="A000312">Ring</placeName>, aus Nichts entstanden, auf einen
+          geschehen war: dieser <placeName key="pmb112">Ring</placeName>, aus Nichts entstanden, auf einen
           äußeren Anlaß hin, ohne jeden inneren, aus Luft in die Luft gebaut, nicht blos
           ungeschichtlich, sondern auch ganz unlebendig, weder Ausdruck einer Vergangenheit noch
           einer Gegenwart, nichts als ein improvisierter Maskenscherz, hat mit seiner Wesenlosigkeit
           über unsere schönste Jugendzeit die Macht einer beseligenden Wirklichkeit gehabt! Ja wie
           denn? Kann denn das sein? Kann ein Nichts schwanger werden? Aber eben dies war ja das
-          Paradox der ganzen Epoche <persName key="A002278">Franz Josefs</persName>: ein schöpferisches Nichts zu
-          sein! <placeName key="A000362">Österreich</placeName>, das wirkliche, war weg und diese Unwirklichkeit
-          trug die schönsten Früchte: sie trug uns.</p><p>Schau Dir nur einmal Deinen
-          <workName key="A020058">Anatol</workName>, meinen Freund, an! Bist das Du? Nein, er fälscht Dich. Er
-          kopiert <persName key="A002106">Hartmann</persName>, gibt sich ein Air alten
-            <placeName key="A000214">Burgtheaters</placeName>, schielt aber auch nach der <placeName key="A000755">Comédie
-            française</placeName>, hat schrecklich viel <placeName key="A000366">Franzosen</placeName> gelesen,
-          aber beim <placeName key="A000242">Leidinger</placeName>, und will nun auf einmal noch Dir ähnlich sehen. Sei nicht<pb/> bös: er ist Papier. Aber was geschah? Dieser
-            <workName key="A020058">Anatol</workName>, der eben noch Papier war, lief dann auf einmal höchst
-          lebendig in allen Gassen herum: nach ein paar Jahren war jeder bessere junge Herr zum <rs type="work" key="A020058">Anatol</rs>, aus Druckerschwärze war auf einmal rotes Blut geworden. Soll man
-          nun sagen: Du hast ein profetisches Gemüt, Du hast mit dem <rs type="work" key="A020058">Anatol</rs> eine
+          Paradox der ganzen Epoche <persName key="pmb2513">Franz Josefs</persName>: ein schöpferisches Nichts zu
+          sein! <placeName key="pmb162">Österreich</placeName>, das wirkliche, war weg und diese Unwirklichkeit
+          trug die schönsten Früchte: sie trug uns.</p>
+            <p part="N">Schau Dir nur einmal Deinen
+          <workName key="pmb29935">Anatol</workName>, meinen Freund, an! Bist das Du? Nein, er fälscht Dich. Er
+          kopiert <persName key="pmb11610">Hartmann</persName>, gibt sich ein Air alten
+            <placeName key="pmb14">Burgtheaters</placeName>, schielt aber auch nach der <placeName key="pmb554">Comédie
+            française</placeName>, hat schrecklich viel <placeName key="pmb166">Franzosen</placeName> gelesen,
+          aber beim <placeName key="pmb42">Leidinger</placeName>, und will nun auf einmal noch Dir ähnlich sehen. Sei nicht<pb/> bös: er ist Papier. Aber was geschah? Dieser
+            <workName key="pmb29935">Anatol</workName>, der eben noch Papier war, lief dann auf einmal höchst
+          lebendig in allen Gassen herum: nach ein paar Jahren war jeder bessere junge Herr zum <rs type="work" key="pmb29935">Anatol</rs>, aus Druckerschwärze war auf einmal rotes Blut geworden. Soll man
+          nun sagen: Du hast ein profetisches Gemüt, Du hast mit dem <rs type="work" key="pmb29935">Anatol</rs> eine
           Vision der Zukunft gehabt? Oder soll man sagen: Du hast seiner Gestalt einen so starken
           Atem eingegeben, daß sich das Leben selber von ihr zwingen ließ, sie zu kopieren, Dich zu
-          kopieren? Ich denke: der <workName key="A020058">Anatol</workName> ist fast etwas Symbolisches für uns
+          kopieren? Ich denke: der <workName key="pmb29935">Anatol</workName> ist fast etwas Symbolisches für uns
           alle, dadurch, daß in ihm aus lauter Unwirklichkeiten auf einmal Wirklichkeit geworden
           ist. Er gab uns damit ein Beispiel der einzigen Art von Existenz, die für uns noch möglich
           war: einer Existenz nicht aus sich heraus, sondern auf etwas los.
-            <placeName key="A000362">Österreich</placeName> war schon seit hundert Jahren vorbei, es ist mit
-            <persName key="A003759">Karl VI.</persName> begraben worden; das <persName key="A003760">Metternichs</persName> war
+            <placeName key="pmb162">Österreich</placeName> war schon seit hundert Jahren vorbei, es ist mit
+            <persName key="pmb19136">Karl VI.</persName> begraben worden; das <persName key="pmb28462">Metternichs</persName> war
           nur noch der letzte Versuch einer grandiosen Erinnerung. Nichts blieb zurück, aus dem man
-          noch hätte leben können. So sieht sich seitdem jeder <placeName key="A000362">Österreicher</placeName>
+          noch hätte leben können. So sieht sich seitdem jeder <placeName key="pmb162">Österreicher</placeName>
           unablässig angstvoll nach etwas um, auf das hin er leben könnte. Keiner hat Wurzeln, jeder
           greift ins Leere, er möchte sich an etwas hängen können, und wärs auch nur, um sich
           wenigstens aufzuhängen. Du hast ihnen manchen Strick zugeworfen! Aber vom
-          <workName key="A020058">Anatol</workName> zum <workName key="A020019">Schleier der Beatrice</workName>, von der
-            <workName key="A020049">Liebelei</workName> zum <workName key="A020194">weiten Land</workName>, vom
-            <workName key="A020018">Reigen</workName> zum <workName key="A020059">jungen Medardus</workName>, welch ein Weg! Und
-          daß es immer der <workName key="A020083">einsame Weg</workName> war, den Du nahmst, und daß er Dir immer
-          wieder ein <workName key="A020052">Weg ins Freie</workName> wurde, daß Du Dich auf keinem Deiner Erfolge
+          <workName key="pmb29935">Anatol</workName> zum <workName key="pmb29857">Schleier der Beatrice</workName>, von der
+            <workName key="pmb29917">Liebelei</workName> zum <workName key="pmb30207">weiten Land</workName>, vom
+            <workName key="pmb29855">Reigen</workName> zum <workName key="pmb29937">jungen Medardus</workName>, welch ein Weg! Und
+          daß es immer der <workName key="pmb29985">einsame Weg</workName> war, den Du nahmst, und daß er Dir immer
+          wieder ein <workName key="pmb29923">Weg ins Freie</workName> wurde, daß Du Dich auf keinem Deiner Erfolge
           jemals beruhigt niedergelassen, das hat mir immer von neuem wieder Bewunderung abgerungen!
           Talent hat bald einer, das ist leicht, Du aber hast gewußt, daß Talent nur so viel wert
           ist, als man es sich schwer werden läßt. Talent ist immer eine Schuld. Ich, der Deiner
           Arbeit seit zweiunddreißig Jahren zusieht, a little more than kin and less than kind, wie
-          unser Vetter <workName key="A020095">Hamlet</workName> sagt, kann bestätigen, daß Du sie redlich bezahlt
-          hast.</p><p>In meiner grünsten Jugend sprach ich einst öffentlich den Wunsch aus, Jedermann sollte an
+          unser Vetter <workName key="pmb30009">Hamlet</workName> sagt, kann bestätigen, daß Du sie redlich bezahlt
+          hast.</p>
+            <p part="N">In meiner grünsten Jugend sprach ich einst öffentlich den Wunsch aus, Jedermann sollte an
           seinem dreißigsten Geburtstag erschlagen werden, nachher sei man doch nichts mehr nutz.
           Indessen war dann auf einmal mein vierzigster über mir. Du kanntest meine Verzweiflung und
-          zum Trost schriebst Du mir damals auf ein Bild: »<anchor type="commentary" xml:id="KT030-2" >Erinner Dich, wie oft Du schon alt
+          zum Trost schriebst Du mir damals auf ein Bild: »<anchor type="commentary" xml:id="KT030-2">Erinner Dich, wie oft Du schon alt
           gewesen bist, und freu Dich, wie oft Du noch wieder jung sein wirst!</anchor>«
-            <persName key="A002001">Arthur</persName>, heute kann ich Dich bestimmt versichern: so ganz richtig
+            <persName key="pmb2121">Arthur</persName>, heute kann ich Dich bestimmt versichern: so ganz richtig
           jung werden wir zwei gewiß erst mit siebzig! Aber könnten wir uns nicht vielleicht doch
           schon vorher einmal Wiedersehen? Dies wünscht sich und Dir von Herzen Dein, wie Du siehst,
-          unverbesserlicher <signed>Hermann Bahr.</signed></p></div></body></text></TEI>
+          unverbesserlicher <signed>Hermann Bahr.</signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

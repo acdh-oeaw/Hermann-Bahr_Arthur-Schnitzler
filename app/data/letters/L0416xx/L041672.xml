@@ -1,73 +1,232 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041672"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Olga an Arthur Schnitzler, 13. 2. 1922</title><author key="A002038">Schnitzler, Olga</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="672"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002038">Schnitzler, Olga</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><placeSender><placeName key="A000230">Salzburg</placeName></placeSender><placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee><dateSender><date when="19220213" n="01">13. 2. 1922</date></dateSender><context></context></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>A:Schnitzler, 85.1.4549</idno></msIdentifier><physDesc><p>eh. Brief, 4 Bl., 8 S., Lateinschrift.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20161025">Angelegt aus Abschrift</change><change who="KI MAM" when="20161108">Kollationiert am Faksimile</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline><date>Montag Vorm, 13. Februar 22.</date></dateline></opener><p><salute>Lieber, </salute> Du fragst mich, wie ich meinen Tag verbringe,– nun, ich will Dir
-                den gestrigen Sonntag schildern, und mit wenigen Variationen ist es immer das gleiche.</p><p>Um 8 gefrühstücjt, bis 9 im Bett gelesen (das Juni-Heft der Rundschau, das mir eine <rs type="person" key="A004498">Dame</rs>
-                    geliehen hatte,– darin eine hübsche <rs type="person" key="A021479">Novelle</rs> von <persName key="A003657">Bruno Frank</persName>,
-                    mit dem die <rs type="person" key="A004498">Dame</rs> eben verlobt war aber nicht mehr ist,
-                    dann ein sympathischer <rs type="work" key="A021480">Aufsatz</rs> von <persName key="A002614">Dauthendey</persName>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041672">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Olga an Arthur Schnitzler, 13. 2. 1922</title>
+            <author key="pmb2173">Schnitzler, Olga</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="672"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="pmb2173">Schnitzler, Olga</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="pmb30">Salzburg</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="pmb50">[Wien]</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19220213" n="01">13. 2. 1922</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.4549</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 4 Bl., 8 S., Lateinschrift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161025">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <date>Montag Vorm, 13. Februar 22.</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber, </salute> Du fragst mich, wie ich meinen Tag verbringe,– nun, ich will Dir
+                den gestrigen Sonntag schildern, und mit wenigen Variationen ist es immer das gleiche.</p>
+            <p>Um 8 gefrühstücjt, bis 9 im Bett gelesen (das Juni-Heft der Rundschau, das mir eine <rs type="person" key="pmb27735">Dame</rs>
+                    geliehen hatte,– darin eine hübsche <rs type="person" key="pmb32872">Novelle</rs> von <persName key="pmb4057">Bruno Frank</persName>,
+                    mit dem die <rs type="person" key="pmb27735">Dame</rs> eben verlobt war aber nicht mehr ist,
+                    dann ein sympathischer <rs type="work" key="pmb32874">Aufsatz</rs> von <persName key="pmb27849">Dauthendey</persName>
                     über <geogName type="island">Java</geogName>, wo es viele Karton<unclear>e</unclear>s zu geben scheint, – und endlich ein kleiner 
-                    <rs type="work" key="A021478">Essay</rs> von <persName key="A002728">Werfel</persName> über das Theater, sehr seinen
-                    Ansichten entsprechend, sehr frisch, klug und voll Phantasie und Unmittelbarkeit,– <persName key="A002728">Werfel</persName>
+                    <rs type="work" key="pmb32870">Essay</rs> von <persName key="pmb13094">Werfel</persName> über das Theater, sehr seinen
+                    Ansichten entsprechend, sehr frisch, klug und voll Phantasie und Unmittelbarkeit,– <persName key="pmb13094">Werfel</persName>
                     ist ein prachtvoller Kerl, ich hab sehr, sehr gern,) dann aufgestanden, genäht, – Strümpfe gewaschen, 
-                    sorgfältig Toilette gemacht, mein<pb/> altes immer noch schönes graues <persName key="A002081 A002082 A002717">Flöge</persName>-Kostüm,
+                    sorgfältig Toilette gemacht, mein<pb/> altes immer noch schönes graues <persName key="pmb27674 pmb27677 pmb2972">Flöge</persName>-Kostüm,
                     neuer grauer Hut, weisse Bluse, und zum Essen,– während des Essens, wie immer gelesen, weil mich die dummen Gesichter
-                    langweilen.</p><p>Menu: gefüllter Kohl, Entrecôte mit Pommes frites <add place="above">u. Gurken</add>, Palatschinken.</p><p>Um 3 spazieren, ganz allein im <hi rend="underline" n="1">strahlendsten Sonnenschein!</hi>, so dass
-                    ich mit offener Jacke ging, nach <placeName key="A001150">Maria Plain</placeName> hinauf,
+                    langweilen.</p>
+            <p>Menu: gefüllter Kohl, Entrecôte mit Pommes frites <add place="above">u. Gurken</add>, Palatschinken.</p>
+            <p>Um 3 spazieren, ganz allein im <hi rend="underline" n="1">strahlendsten Sonnenschein!</hi>, so dass
+                    ich mit offener Jacke ging, nach <placeName key="pmb949">Maria Plain</placeName> hinauf,
                     auf dem ganzen Weg viele Rodelkinder, Sonntagspaziergänger, unbeschreiblich herrliche Luft,
-                    Wärme, Schnee und die schöne, schöne Landschaft. Der Himmel hellblauseiden.</p><p>Oben auf einer Bank im Sonnenschein gesessen, einen Augenblick in der Kirche, einige von den dummen 
+                    Wärme, Schnee und die schöne, schöne Landschaft. Der Himmel hellblauseiden.</p>
+            <p>Oben auf einer Bank im Sonnenschein gesessen, einen Augenblick in der Kirche, einige von den dummen 
                 Attesten für die Muttergottes gelesen, und dann doch gleich lieber hinaus, wo der liebe Gott 
                 für sich selbst seufzt. Sehr an den Tag vor zwei Jahren gedacht, wo ich mit Dir da oben die 
                 vierblättrigen Kleeblätter gefunden habe,– ich wünschte Dich sehr herbei und wäre
                 gern mit Dir, Deine Hand haltend, den schönen Weg<pb/> zurück gegangen,– es hätte Dir
-                vielleicht auch gut getan.</p><p>Aber so bin ich eben allein hinunter,– stillvergnügt, und hab mich auf den Frühling
+                vielleicht auch gut getan.</p>
+            <p>Aber so bin ich eben allein hinunter,– stillvergnügt, und hab mich auf den Frühling
                 gefreut, bis alle die Obstbäume, an denen ich vorbeiging, in Blüte stehen werden. Die Sonne
-                ging gegen 5 unter, und bald darauf war ich zuhause, mit Frau <persName key="A002929">St.</persName> und
-                ihrer Freundin Frau <persName key="A004283">Korff</persName> Thee getrunken (oben in ihren Zimmern,) dann
+                ging gegen 5 unter, und bald darauf war ich zuhause, mit Frau <persName key="pmb27990">St.</persName> und
+                ihrer Freundin Frau <persName key="pmb19609">Korff</persName> Thee getrunken (oben in ihren Zimmern,) dann
                 bald zu mir herüber, gelesen, geruht, früh heroben <add place="inline">allein</add> genachtmalt, 
-                bald ins Bett. –</p><p>Aber vorgestern war Ball! und sehr auf Zureden der beiden <rs type="person" key="A004283 A002929">Damen</rs> hab ich 
+                bald ins Bett. –</p>
+            <p>Aber vorgestern war Ball! und sehr auf Zureden der beiden <rs type="person" key="pmb19609 pmb27990">Damen</rs> hab ich 
                 mir’s einmal angesehen,– aber nächstens bleib ich wieder weg. Erstaunlich die alten Herren und
-                Damen, die mit grösstem sachlichen Ernst Foxtrott tanzen, einige sehr erheiternde Gestalten, 2 ganz unwahrscheinliche.</p><p>Ich sass die ganze Zeit in einer Ecke, prächtig angetan, mein schwarzes Jettkleid und der
-                Fortuny-Mantel, liess mir Niemanden vorstellen, es sind fast lauter <placeName key="A000454"><country>Engländer</country></placeName><pb/>
-                und sammelte Cotillon-Orden für mein <persName key="A002097">Lilikind</persName> und ging dann,
-                hochbefriedigt gegen 12 schlafen. Nein, für diese Art von Heiterkeit bin ich leider verloren.</p><p>Heut hab ich <subst><del rend="overwritten">e</del><add place="inline">E</add></subst>iniges in der Stadt zu besorgen, das tu ich auch wieder, nach dem Lunch. Freitag Nachm. war
-                    bei Frau <persName key="A002929">St.</persName> grosse Nähstube, dann haben wir zu Dritt oben genachtmalt und
+                Damen, die mit grösstem sachlichen Ernst Foxtrott tanzen, einige sehr erheiternde Gestalten, 2 ganz unwahrscheinliche.</p>
+            <p>Ich sass die ganze Zeit in einer Ecke, prächtig angetan, mein schwarzes Jettkleid und der
+                Fortuny-Mantel, liess mir Niemanden vorstellen, es sind fast lauter <placeName key="pmb254">
+                  <country>Engländer</country>
+               </placeName>
+               <pb/>
+                und sammelte Cotillon-Orden für mein <persName key="pmb2238">Lilikind</persName> und ging dann,
+                hochbefriedigt gegen 12 schlafen. Nein, für diese Art von Heiterkeit bin ich leider verloren.</p>
+            <p>Heut hab ich <subst>
+                  <del rend="overwritten">e</del>
+                  <add place="inline">E</add>
+               </subst>iniges in der Stadt zu besorgen, das tu ich auch wieder, nach dem Lunch. Freitag Nachm. war
+                    bei Frau <persName key="pmb27990">St.</persName> grosse Nähstube, dann haben wir zu Dritt oben genachtmalt und
                 nachher Poker gespielt. Ist dieses Leben orgiastisch?! nein, aber beruhigend, und viel inhaltsvoller 
                 (freilich, es kommt auf der Dame an,) als manche äusserlich bewegte Zeiten, wo dann das 
-                <persName key="A002155">Liserl</persName> sagte: Ich kommt alle so heiss gelaufen zu mir.</p><p>Für immer möcht ich nicht so leben. Aber die bis zur Lethargie gehende Ermüdung
+                <persName key="pmb2315">Liserl</persName> sagte: Ich kommt alle so heiss gelaufen zu mir.</p>
+            <p>Für immer möcht ich nicht so leben. Aber die bis zur Lethargie gehende Ermüdung
                 in mir, eine natürliche Folge allzu schwerer Ereignisse, muss ausschwingen,– und sie 
                 geht ihrem Ende entgegen, das fühl ich deutlich, weil sich meine Arbeitslust wieder regt.
-                Ich könnte mir, das Zimmer ist gross genug, ein Pianino hereinstellen, alle die <placeName key="A000454"><country>englischen</country></placeName>
+                Ich könnte mir, das Zimmer ist gross genug, ein Pianino hereinstellen, alle die <placeName key="pmb254">
+                  <country>englischen</country>
+               </placeName>
                 Kinder hier üben und »fischeln«<pb/> auf ihren Zimmern. Auch ein guter Begleiter liesse 
-                sich finden, ich denke an <persName key="A004500">Ledwinka</persName>, den Begleiter der <persName key="A002080">Mildenburg</persName>.
+                sich finden, ich denke an <persName key="pmb5085">Ledwinka</persName>, den Begleiter der <persName key="pmb10818">Mildenburg</persName>.
                     Aber ich weiss nicht, ob’s mir bis dahin reicht,– ich wage vorläufig nicht, irgend
-                    etwas zu unternehmen.</p><p>Körperlich fühl ich mich nicht sonderlich, es ist immer die gleiche Ursache, ich spür’s
+                    etwas zu unternehmen.</p>
+            <p>Körperlich fühl ich mich nicht sonderlich, es ist immer die gleiche Ursache, ich spür’s
                 auch beim Gehen, eine gewisse Schwere im Kreuz, irgend etwas in mir, das ich weghaben möchte,
                 wie einen kranken Zahn,– und anders. Aber ich <add place="above">möchte</add> vorläufig
-                davon absehen<c rendition="#dots" n="3"/></p><p>Von der <persName key="A002832">Bella</persName> hab ich einen sehr warmen, sehr auf<subst><del rend="strikethrough"><gap quantity="7" reason="illegible" unit="chars"/></del><add place="inline">geschlossenen</add></subst>, sehr nahen Brief, der mir beweist, das sie mir genau so gegenübersteht, wie ich 
+                davon absehen<c rendition="#dots" n="3"/>
+            </p>
+            <p>Von der <persName key="pmb3068">Bella</persName> hab ich einen sehr warmen, sehr auf<subst>
+                  <del rend="strikethrough">
+                     <gap quantity="7" reason="illegible" unit="chars"/>
+                  </del>
+                  <add place="inline">geschlossenen</add>
+               </subst>, sehr nahen Brief, der mir beweist, das sie mir genau so gegenübersteht, wie ich 
                 ihr. Sie möchte mich gern sprechen, und mir geht’s auch so,– ich spiele schon längere Zeit
                 mit dem Gedanken, zu ihr zu fahren, wenn die Kälte nachlässt,–<pb/> und vor Allem, wenn
-                ich’s leisten kann. Darüber will ich sie um Auskunft fragen. <placeName key="A000368"><settlement>Berlin</settlement></placeName>, 
-                    <persName key="A002832">Bella</persName>’s Nähe, eventuell Stunden bei <persName key="A004499">Van Boos</persName>,– es
+                ich’s leisten kann. Darüber will ich sie um Auskunft fragen. <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName>, 
+                    <persName key="pmb3068">Bella</persName>’s Nähe, eventuell Stunden bei <persName key="pmb28975">Van Boos</persName>,– es
                 hat manches Verlockende. – Ich will einmal sehen. Vorläufig hält mich hier mein
-                köstlich geheiztes Zimmer fest, – <hi rend="underline" n="1">aber sonst nichts.</hi></p><p><hi rend="underline" n="1">Wen der <persName key="A002083">Heinili</persName> nach <placeName key="A001035"><settlement>Darmstadt</settlement></placeName> fährt,
-                kommt er nicht hier durch? und wann?</hi> bitte <hi rend="underline" n="3">gleich</hi> um Auskunft.</p><p>Alle die <workName key="A020018">Reigen</workName>-Geschichten hab ich gelesen. Die gewisse <rs type="work" key="A021482">Notiz</rs> in der
-                <orgName key="A080099">Presse</orgName> war riesig »ich habe geschrieben nach rechts und nach links«-voll. Der alte
-                <persName key="A002747">Benedikt</persName> ist nicht totzukriegen,– und sein Geist schreibt allemal noch
+                köstlich geheiztes Zimmer fest, – <hi rend="underline" n="1">aber sonst nichts.</hi>
+            </p>
+            <p>
+               <hi rend="underline" n="1">Wen der <persName key="pmb12692">Heinili</persName> nach <placeName key="pmb834">
+                     <settlement>Darmstadt</settlement>
+                  </placeName> fährt,
+                kommt er nicht hier durch? und wann?</hi> bitte <hi rend="underline" n="3">gleich</hi> um Auskunft.</p>
+            <p>Alle die <workName key="pmb29855">Reigen</workName>-Geschichten hab ich gelesen. Die gewisse <rs type="work" key="pmb32878">Notiz</rs> in der
+                <orgName key="pmb29351">Presse</orgName> war riesig »ich habe geschrieben nach rechts und nach links«-voll. Der alte
+                <persName key="pmb10875">Benedikt</persName> ist nicht totzukriegen,– und sein Geist schreibt allemal noch
                 nach rechts, wi es am familienvollsten ist. Ein komisch verwestes Saublatt. Da lobe ich mir 
-                mein <orgName key="A080080">Wiener Journal</orgName>, aus dem ich meine ganze Bildung beziehe, medicinische,
+                mein <orgName key="pmb29320">Wiener Journal</orgName>, aus dem ich meine ganze Bildung beziehe, medicinische,
                 historische, <add place="above">literarische</add>, – das ist wenigstens eine aufrichtige <hi rend="underline" n="1">Zeitung</hi>!, also
-                ehrlich: das Letzte!</p><p>Die Grippe-Nachrichten aus <placeName key="A000250"><settlement>Wien</settlement></placeName> sind sehr 
-                beunruhigend, ich bitte Dich, geh nicht Abends aus, fahr nicht viel in der Electrischen.<pb/></p><p>Und bitte um häufige Nachrichten über Euch Alle, – der <persName key="A002083">Heini</persName> soll
+                ehrlich: das Letzte!</p>
+            <p>Die Grippe-Nachrichten aus <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> sind sehr 
+                beunruhigend, ich bitte Dich, geh nicht Abends aus, fahr nicht viel in der Electrischen.<pb/>
+            </p>
+            <p>Und bitte um häufige Nachrichten über Euch Alle, – der <persName key="pmb12692">Heini</persName> soll
                     auch lieber erst reisen, wenn’s weniger kalt ist, ich bin sicher, in 8–10 Tagen meldet sich
-                    der Frühling an.</p><p>Neuestens muss ich in der Bank sehr hohe Umsatzsteuern zahlen, bei tausend Mark sind’s
-                dreissig. Die Herren raten mir,– da Du ja offenbar ebenso die Steuer zahlen musst, (von <placeName key="A000368"><settlement>Berlin</settlement></placeName>
-                nach <placeName key="A000355"><settlement>München</settlement></placeName><del rend="strikethrough">)</del> also zahlen wir 
+                    der Frühling an.</p>
+            <p>Neuestens muss ich in der Bank sehr hohe Umsatzsteuern zahlen, bei tausend Mark sind’s
+                dreissig. Die Herren raten mir,– da Du ja offenbar ebenso die Steuer zahlen musst, (von <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName>
+                nach <placeName key="pmb155">
+                  <settlement>München</settlement>
+               </placeName>
+               <del rend="strikethrough">)</del> also zahlen wir 
                 überflüssiger Weise doppelt,) mir lieber gleich ein Mark-Conto zu erröffnen. Geht das ohne 
-                Schwierigkeit? Der Teufel hole alle Valuten-Geschichten,– man ist gezwungen, ein alter Börsenjud zu werden. –</p><p>Die Bank hier heisst: <orgName key="A080124"><hi rend="underline" n="1">Carl Spängler <c rendition="#kaufmannsund"/> Co.</hi></orgName></p><p>Mit dem <persName key="A002002">Bahr</persName> hoff ich nächstens wieder
-                    spazieren zu gehen, die Baronin <persName key="A004132">Thienen</persName>, Schwester von
-                        <persName key="A004263">Franz Dubsky</persName>, bringt ihm eine Liebesbotschaft von mir,
-                    sie sieht ihn täglich.<pb/></p><p>Was Du über <persName key="A003488">Gundolf</persName> sagst, ist mir, für Deinen <add place="above">eigenen</add> jetzigen
+                Schwierigkeit? Der Teufel hole alle Valuten-Geschichten,– man ist gezwungen, ein alter Börsenjud zu werden. –</p>
+            <p>Die Bank hier heisst: <orgName key="pmb29385">
+                  <hi rend="underline" n="1">Carl Spängler <c rendition="#kaufmannsund"/> Co.</hi>
+               </orgName>
+            </p>
+            <p>Mit dem <persName key="pmb10815">Bahr</persName> hoff ich nächstens wieder
+                    spazieren zu gehen, die Baronin <persName key="pmb28700">Thienen</persName>, Schwester von
+                        <persName key="pmb11183">Franz Dubsky</persName>, bringt ihm eine Liebesbotschaft von mir,
+                    sie sieht ihn täglich.<pb/>
+            </p>
+            <p>Was Du über <persName key="pmb3824">Gundolf</persName> sagst, ist mir, für Deinen <add place="above">eigenen</add> jetzigen
                 innern Zustand, ungeheuer bezeichnend <hi rend="underline" n="1">und wertvoll</hi>, – aber davon abgesehen, hab
-                ich vor Hochmut in dem <workName key="A021481"><persName key="A002060">Goethe</persName>-Buch</workName> derweil noch nichts bemerkt. 
-                <persName key="A002232">George</persName> ist auch mir noch eine verschlossene Thür, hoffentlich tut sie sich mir eines Tages auf.</p><p>Leb wol, Lieber. Ich möchte, dass Du mir bald was von einer <hi rend="underline" n="1">guten</hi> innern Stimmung
+                ich vor Hochmut in dem <workName key="pmb32876">
+                  <persName key="pmb11461">Goethe</persName>-Buch</workName> derweil noch nichts bemerkt. 
+                <persName key="pmb2437">George</persName> ist auch mir noch eine verschlossene Thür, hoffentlich tut sie sich mir eines Tages auf.</p>
+            <p>Leb wol, Lieber. Ich möchte, dass Du mir bald was von einer <hi rend="underline" n="1">guten</hi> innern Stimmung
                 schreibst,– dass Du arbeitest,– dass Du in einer richtige Harmonie gerätst. Heut Nacht hab ich so sonderbar
-                von Dir geträumt, ich träum sehr oft von Dir.</p><p>Lass es Dir gefallen, dass ich Dich innigst umarme. Küss meine lieben <rs type="person" key="A002097 A002083">Kinder</rs> tausendmal,
-                ich schreib ihnen noch heut oder morgen.</p><closer><signed>O.</signed></closer></div></body></text></TEI>
+                von Dir geträumt, ich träum sehr oft von Dir.</p>
+            <p>Lass es Dir gefallen, dass ich Dich innigst umarme. Küss meine lieben <rs type="person" key="pmb2238 pmb12692">Kinder</rs> tausendmal,
+                ich schreib ihnen noch heut oder morgen.</p>
+            <closer>
+               <signed>O.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

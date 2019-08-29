@@ -1,16 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030014"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020092">Hermann Bahr: Zwischenspiel, 13. 10. 1905</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="014"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19051013" n="1">13. 10. 1905</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020092">Zwischenspiel (Komödie in drei Akten von Artur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905)</title></analytic><monogr><title level="j" key="A080153">Österreichische Volks-Zeitung</title><imprint><date when="19051013" n="1">13. 10. 1905</date></imprint><biblScope unit="jg">51</biblScope><biblScope unit="nr">283</biblScope><biblScope unit="pp">2–3</biblScope></monogr></biblStruct><biblStruct corresp="HBGL"><analytic><title level="a" key="A020092">Zwischenspiel (Komödie in drei Akten von Arthur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905)</title></analytic><monogr><author key="A002002">Bahr, Hermann</author><title level="m" key="A020384">Glossen. Zum Wiener Theater (1903 bis 1906)</title><imprint><pubPlace>Berlin</pubPlace><publisher>S.&#160;Fischer</publisher><date when="1907">1907</date></imprint><biblScope unit="pp">84–93</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="approved"><change when="20160217" who="MAM">Angelegt und kollationiert</change><change who="KI MAM" when="20170316">Kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head><workName key="A020042">Zwischenspiel</workName>.</head><head type="sub">(Komödie in drei Akten von <persName key="A002001">Artur <hi rend="spaced_out">Schnitzler</hi></persName>. Zum erstenmal aufgeführt im <placeName key="A000214">Burgtheater</placeName> am <date>12. Oktober 1905</date>.)</head><p><workName key="A020042">Zwischenspiel</workName>. Der Name gefällt mir sehr. Vielleicht ist es gar nicht
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030014">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" key="pmb30003">Hermann Bahr: Zwischenspiel, 13. 10. 1905</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="014"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19051013" n="1">13. 10. 1905</origDate>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="pmb10815">Bahr, Hermann</author>
+                     <title level="a" key="pmb30003">Zwischenspiel (Komödie in drei Akten von Artur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905)</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" key="pmb29421">Österreichische Volks-Zeitung</title>
+                     <imprint>
+                        <date when="19051013" n="1">13. 10. 1905</date>
+                     </imprint>
+                     <biblScope unit="jg">51</biblScope>
+                     <biblScope unit="nr">283</biblScope>
+                     <biblScope unit="pp">2–3</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="HBGL">
+                  <analytic>
+                     <title level="a" key="pmb30003">Zwischenspiel (Komödie in drei Akten von Arthur Schnitzler. Zum erstenmal aufgeführt im Burgtheater am 12. Oktober 1905)</title>
+                  </analytic>
+                  <monogr>
+                     <author key="pmb10815">Bahr, Hermann</author>
+                     <title level="m" key="pmb30685">Glossen. Zum Wiener Theater (1903 bis 1906)</title>
+                     <imprint>
+                        <pubPlace>Berlin</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1907">1907</date>
+                     </imprint>
+                     <biblScope unit="pp">84–93</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change when="20160217" who="MAM">Angelegt und kollationiert</change>
+         <change who="KI MAM" when="20170316">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>
+               <workName key="pmb29903">Zwischenspiel</workName>.</head>
+            <head type="sub">(Komödie in drei Akten von <persName key="pmb2121">Artur <hi rend="spaced_out">Schnitzler</hi>
+               </persName>. Zum erstenmal aufgeführt im <placeName key="pmb14">Burgtheater</placeName> am <date>12. Oktober 1905</date>.)</head>
+            <p part="N">
+               <workName key="pmb29903">Zwischenspiel</workName>. Der Name gefällt mir sehr. Vielleicht ist es gar nicht
           so gemeint, aber ich höre heraus: zwischen ernsten Dingen. Ein Aufatmen nach großen, vor
-          größeren Werken. Aufatmen und Ausrasten. Pause. Kein <placeName key="A000351">Deutscher</placeName>
+          größeren Werken. Aufatmen und Ausrasten. Pause. Kein <placeName key="pmb151">Deutscher</placeName>
           unserer Zeit ist auf der Bühne im Geistigen weiter gekommen als
-            <persName key="A002001">Schnitzler</persName> im »<workName key="A020083">Einsamen Weg</workName>«. Und ich habe
+            <persName key="pmb2121">Schnitzler</persName> im »<workName key="pmb29985">Einsamen Weg</workName>«. Und ich habe
           vielleicht nie Wahn und Wunsch der Heutigen, Morgigen stärker vernommen als aus seinem
-            »<workName key="A020043">Ruf des Lebens</workName>«. Aber dazwischen Pause. Atem zu holen und lächelnd
+            »<workName key="pmb29905">Ruf des Lebens</workName>«. Aber dazwischen Pause. Atem zu holen und lächelnd
           zurückzublicken. Auf vieles, das uns einst wichtig war. Und mit diesem jetzt zu spielen.
           Wieder einmal Theater zu spielen. Ganz einfach Theater. Wie damals, als wir noch für Herrn
-               <persName key="A002106">Hartmann</persName> schwärmten<c rendition="#dots" n="3" place="center"/> So spricht dieser Name mich an und ich kann
-          es sehr verstehen. <persName key="A002354">Nietzsche</persName> hatte seine Zeit mit
-            <persName key="A003689">Rée</persName>. Er nannte das im Spaß seinen <persName key="A003689">Rée</persName>alismus.
-          Man wunderte sich: der tief spürende, hochwollende <persName key="A002354">Nietzsche</persName> mit
+               <persName key="pmb11610">Hartmann</persName> schwärmten<c rendition="#dots" n="3" place="center"/> So spricht dieser Name mich an und ich kann
+          es sehr verstehen. <persName key="pmb12358">Nietzsche</persName> hatte seine Zeit mit
+            <persName key="pmb12586">Rée</persName>. Er nannte das im Spaß seinen <persName key="pmb12586">Rée</persName>alismus.
+          Man wunderte sich: der tief spürende, hochwollende <persName key="pmb12358">Nietzsche</persName> mit
           diesem gemäßigten Menschen der verständigen Klarheit. Es war ihm aber offenbar eine Kur,
           die er sich verordnet hatte. Wir haben solche Zeiten, in welchen uns nötig wird, uns
           einzuziehen, ja am besten: von uns einmal abzusehen. Wir brauchen Pausen, welche
@@ -24,7 +119,8 @@
           entfernen, welches, unfähig, uns nachzukommen, ratlos an die gemeinen Macher ausgeliefert
           würde. Weshalb es ihm zu gönnen ist, wenn manchmal ein Künstler sich zwischen seinen
           ernsten Dingen herabläßt, den strengen Ton etwas zu mildern, um in einer Pause mit ihm ein
-          bißchen zu spielen.</p><p>Der Kapellmeister Amadeus Adams und seine Frau, die Sängerin Ortenburg. Die zwei haben sich einst 
+          bißchen zu spielen.</p>
+            <p part="N">Der Kapellmeister Amadeus Adams und seine Frau, die Sängerin Ortenburg. Die zwei haben sich einst 
          sehr geliebt. Jetzt haben sie sich nur noch sehr gern. Vielleicht sollte man gar nicht sagen: nur noch. 
          Vielleicht ist das jetzt eigentlich viel schöner, als das damals war. Vielleicht verbinden sich zwei Menschen gerade
          dann erst ganz, wenn sie sich nicht mehr begehren. Vielleicht gibt es eine zweite Liebe, die zwar nur unter Menschen 
@@ -58,10 +154,13 @@
          Sie antwortet: »Es ist wohl möglich, daß es auch mir schwer fiele.« Er aber überhört, wie wenig zuversichtlich das klingt, und 
          umarmt sie. »Was tust Du?« fragt sie. Er erwidert: »Ich habe meiner Geliebten Lebewohl gesagt.« Und drückt ihr die Hand: »Und 
          nun begrüße ich die Freundin!« Und ist riesig vergnügt, weil es doch auch wirklich so bequem ist. »Ach, ich kann Dir gar nicht 
-         sagen, wie froh mir zumute ist! Es hat sich wahrhaftig nicht viel geändert. Nur die Befangenheit ist fort <c rendition="#dots" n="3" place="center"/> die Bangigkeit dieser letzten Wochen<c rendition="#dots" n="3"/> Es ist nicht schön gewesen in der letzten Zeit. Der Himmel so trüb über unserem Hause <c rendition="#dots" n="3" place="center"/> und nicht nur über unserem Hause. Jetzt schwinden die Wolken, jetzt wird die ganze Welt geradezu wieder licht. Und ich werde eine Symphonie schreiben – eine Symphonie!«</p><p>Und nun geht Amadeus zu seiner kleinen Gräfin in die weiß am Wasser leuchtende Villa unter
+         sagen, wie froh mir zumute ist! Es hat sich wahrhaftig nicht viel geändert. Nur die Befangenheit ist fort <c rendition="#dots" n="3" place="center"/> die Bangigkeit dieser letzten Wochen<c rendition="#dots" n="3"/> Es ist nicht schön gewesen in der letzten Zeit. Der Himmel so trüb über unserem Hause <c rendition="#dots" n="3" place="center"/> und nicht nur über unserem Hause. Jetzt schwinden die Wolken, jetzt wird die ganze Welt geradezu wieder licht. Und ich werde eine Symphonie schreiben – eine Symphonie!«</p>
+            <p part="N">Und nun geht Amadeus zu seiner kleinen Gräfin in die weiß am Wasser leuchtende Villa unter
           die berühmte Platane. Das hält sich übrigens nicht lange, im zweiten Akte ist es schon
-          wieder aus. Eben kommt Cäcilie aus <placeName key="A000368"><settlement>Berlin</settlement></placeName>
-               zurück, wo sie gastiert hat. Der junge Fürst war natürlich mit. <rs type="work" key="A020042">Amadeus</rs> hat nichts
+          wieder aus. Eben kommt Cäcilie aus <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName>
+               zurück, wo sie gastiert hat. Der junge Fürst war natürlich mit. <rs type="work" key="pmb29903">Amadeus</rs> hat nichts
           dagegen, als er es erfährt. Es stimmt ja mit der Verabredung. Es macht ihn höchstens
           manchmal ein bißchen nervös, daß die Leute schon davon reden, daß man ihn anonym warnt,
           daß eine Zeitung sogar von der Verlobung seiner Frau mit dem Fürsten wissen will. Aber er
@@ -93,7 +192,7 @@
           Eifersucht aus seinen Abenteuern zu ihr zurück zu ziehen? Nein. Sie war nicht treu. Und wenn
           sie dem Fürsten nicht gehört hat, so ist das nur, weil Frauen irgend etwas auch dann noch
           zögern macht, wenn sie schon längst entschlossen sind. Nur deshalb ist es noch nicht, aber
-          es wird sein. Amadeus fährt auf: »Nie!« Sie aber: »<rs type="work" key="A020042">Warum bildest Du Dir das ein, Amadeus?
+          es wird sein. Amadeus fährt auf: »Nie!« Sie aber: »<rs type="work" key="pmb29903">Warum bildest Du Dir das ein, Amadeus?
           Es wird wahr werden. Glaubst Du denn, dies sollte eine Prüfung für Dich sein? Denkst Du,
           ich spielte eine kindische Komödie, um Dich zu strafen, und jetzt, nachdem Du zu früh die
           ganze Wahrheit erfahren, würde ich Dir in die Arme sinken und erklären, alles sei wieder
@@ -104,45 +203,67 @@
           sie beschwichtigen: »Wir haben uns nicht betrogen und nicht versöhnt – wir waren frei und
           haben uns wiedergefunden.« Aber sie läßt sich jetzt von keinen Lügen mehr fangen: »Wir uns<c rendition="#dots" n="3"/> Als 
                wenn das nur möglich gewesen wäre! Was ist es denn, was mich mit einemmal für Dich
-          so begehrenswert machte? Nicht daß ich <rs type="work" key="A020042">Cäcilie</rs> war – nein: daß ich als eine andere
+          so begehrenswert machte? Nicht daß ich <rs type="work" key="pmb29903">Cäcilie</rs> war – nein: daß ich als eine andere
           wiederzukommen schien. Und war ich denn wirklich Dein? Ich war es nicht. Oder bist Du so
           bescheiden geworden mit einemmal, daß Dir ein Glück genügte, das zur selben Stunde sich
           vielleicht auch ein anderer hätte holen können, wenn er nur dagewesen wäre?« Und so
           scheiden sie. Es wird zu ertragen sein, sie haben ja beide zu arbeiten. Und vielleicht,
           wer weiß? »Wir sind einander soviel gewesen, Amadeus, daß wir uns die Erinnerung daran
           erhalten müssen. Wenn das ein Abenteuer war, so sind wir auch unser vergangenes Glück
-          nicht wert; war es ein Abschied, so sind wir doch vielleicht zu einem künftigen bestimmt <c rendition="#dots" n='3'/> vielleicht.«</p><p>Ich habe hier manches gefunden, das mir nachgegangen ist. Dieses: man lebt mit einer Frau,
+          nicht wert; war es ein Abschied, so sind wir doch vielleicht zu einem künftigen bestimmt <c rendition="#dots" n="3"/> vielleicht.«</p>
+            <p part="N">Ich habe hier manches gefunden, das mir nachgegangen ist. Dieses: man lebt mit einer Frau,
           hat sie gern und weiß doch eigentlich nichts von ihr, sie kann morgen eine andere sein,
           über Nacht. Und dieses: wir sehen die Menschen nur so, wie wir für sie fühlen. Seitdem
           Amadeus seine Frau sinnlich gleichgültig geworden ist, glaubt er sie gleichgültig,
           unsinnlich, kalt. Worin vielleicht noch ein ganz anderes Stück steckt. Und dieses: wir
           glauben unser Schicksal zu regieren, aber es spielt mit uns und unser eigenes Leben lebt
-          über uns hinweg; was ich im »<workName key="A020082">Meister</workName>« so sehr empfunden habe. Nicht
-               angenehm ist mir der <anchor type="commentary" xml:id="KT014-2" >Ton, in welchem <rs type="work" key="A020042">Amadeus</rs> mit seinem Freunde verkehrt</anchor>:
-            <placeName key="A000234">Griensteidl</placeName><space unit="chars" quantity="1"/><date>1890</date>. Und gar nicht mag ich den Fürsten. Dies mag
+          über uns hinweg; was ich im »<workName key="pmb29983">Meister</workName>« so sehr empfunden habe. Nicht
+               angenehm ist mir der <anchor type="commentary" xml:id="KT014-2">Ton, in welchem <rs type="work" key="pmb29903">Amadeus</rs> mit seinem Freunde verkehrt</anchor>:
+            <placeName key="pmb34">Griensteidl</placeName>
+               <space unit="chars" quantity="1"/>
+               <date>1890</date>. Und gar nicht mag ich den Fürsten. Dies mag
           meine Schuld sein. Jeder kann nur nach seinen Erfahrungen denken. Dieser junge Fürst
           beträgt sich edler als alle anderen in der Komödie. Nach meinen Erfahrungen ist in seinen
           Kreisen sittlicher Takt und Menschlichkeit der Empfindung unbekannt. Wenn ich die
           Kapellmeister nehme, die ich kenne, und mit den Baronen, Grafen oder Fürsten vergleiche,
           über welche mir ein Urteil zusteht, so ist jeder von jenen menschlich mehr wert als diese.
-          Ich weiß nicht, woher <persName key="A002001">Schnitzler</persName> andere Erfahrungen haben kann. Und
+          Ich weiß nicht, woher <persName key="pmb2121">Schnitzler</persName> andere Erfahrungen haben kann. Und
           es stört mich sehr, woran Schnitzler gewiß gar nicht gedacht hat, wie dieser Fürst im
-            <placeName key="A000214">Burgtheater</placeName> wirken muß: als ein Kompliment vor den Komtessen! Es
-          ist für mich, weil ich <persName key="A002001">Schnitzler</persName> sehr gern habe, ein peinliches
-               Gefühl, mir zu denken, daß <anchor type="commentary" xml:id="KT014-1" ><rs type="person" key="A003939">eine der hohen Damen</rs>, die damals den <workName key="A020012">Kakadu</workName>
+            <placeName key="pmb14">Burgtheater</placeName> wirken muß: als ein Kompliment vor den Komtessen! Es
+          ist für mich, weil ich <persName key="pmb2121">Schnitzler</persName> sehr gern habe, ein peinliches
+               Gefühl, mir zu denken, daß <anchor type="commentary" xml:id="KT014-1">
+                  <rs type="person" key="pmb4420">eine der hohen Damen</rs>, die damals den <workName key="pmb29843">Kakadu</workName>
           vertrieben haben</anchor>, jetzt vielleicht befriedigt ruft: Bravo, hat sich gebessert! Und ich
           darf nicht aufstehen und darf nicht schreien: Nein, es ist nicht wahr, er hat sich nicht
-          gebessert, er wird es nie!</p><p>Wunderbar ist <persName key="A002048"><hi rend="spaced_out">Kainz</hi></persName> als Amadeus. Nicht bloß schauspielerisch, in
+          gebessert, er wird es nie!</p>
+            <p part="N">Wunderbar ist <persName key="pmb11851">
+                  <hi rend="spaced_out">Kainz</hi>
+               </persName> als Amadeus. Nicht bloß schauspielerisch, in
           seiner unglaublichen Bravour, alle Neben-, Seiten-, Ober-, Unter- und Zwischenbedeutungen
           der Worte mitzusprechen und das Wort durch den Gestus umzubiegen und abzubrechen. Noch
-          viel mehr menschlich: er ist der einzige <placeName key="A000351"><country>deutsche</country></placeName> Schauspieler
-          jetzt, der den guten <placeName key="A000250"><settlement>Wien</settlement></placeName>er Ton hat, oder
+          viel mehr menschlich: er ist der einzige <placeName key="pmb151">
+                  <country>deutsche</country>
+               </placeName> Schauspieler
+          jetzt, der den guten <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>er Ton hat, oder
           richtiger: den Ton der zehn oder zwölf sehr kultivierten
-              <placeName key="A000250"><settlement>Wien</settlement></placeName>er; und einer der ganz wenigen,
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>er; und einer der ganz wenigen,
           die uns mit zwei Sätzen an einen wirklichen bedeutenden Menschen glauben machen können.
-          Das fehlt dem charmanten Fräulein <persName key="A002785"><hi rend="spaced_out">Witt</hi></persName> leider ganz, das die Cäcilie
+          Das fehlt dem charmanten Fräulein <persName key="pmb27259">
+                  <hi rend="spaced_out">Witt</hi>
+               </persName> leider ganz, das die Cäcilie
           bald ins Mondäne hinüber, bald ins bürgerlich Brave herab rückt. Den jungen Fürsten gab
-          Herr <persName key="A002105"><hi rend="spaced_out">Korff</hi></persName> mit einer zu sichtlichen Angst, ausgelacht zu werden. Das
+          Herr <persName key="pmb2249">
+                  <hi rend="spaced_out">Korff</hi>
+               </persName> mit einer zu sichtlichen Angst, ausgelacht zu werden. Das
           Publikum, anfangs sehr gut gelaunt, wollte im letzten Akte nicht mehr recht folgen. Nach
-          dem ersten Akte erschien der <rs type="person" key="A004129" subtype="local">Regisseur</rs>, dann
-               <persName key="A002001">Schnitzler</persName> selbst, herzlichst begrüßt. <signed>Hermann Bahr.</signed></p></div></body></text></TEI>
+          dem ersten Akte erschien der <rs type="person" key="pmb10995" subtype="local">Regisseur</rs>, dann
+               <persName key="pmb2121">Schnitzler</persName> selbst, herzlichst begrüßt. <signed>Hermann Bahr.</signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,3 +1,135 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041310"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Hermann Bahr an Arthur Schnitzler, 27. 4. 1907</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="310"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002002">Bahr, Hermann</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><placeSender><placeName key="A000250">Wien</placeName></placeSender><placeAddressee><placeName key="A000250">Wien</placeName></placeAddressee><dateSender><date when="19070427" n="01">27. 4. 1907</date></dateSender><context/></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 5b</idno></msIdentifier><physDesc><p>eh. Kartenbrief, Bleistift</p><stamp n="1"><placeName key="A000260">Wien 10/2</placeName><date when="19070427">27. IV. 07</date><time>8</time></stamp><stamp n="2"><placeName key="A000268">Wien 18/1</placeName><date when="19070428">28. IV. 07</date></stamp></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="approved"><change who="KI MAM" when="20151215">Kollationiert</change><change who="KI MAM" when="20170530">Kollationiert</change></revisionDesc></teiHeader><facsimile><graphic url="MS-B-00005-B-000-00261"/><graphic url="MS-B-00005-B-000-00262"/></facsimile><text type="card"><body><div type="address"><address><addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine><addrLine><placeName key="A000268">Wien XVIII</placeName></addrLine><addrLine><placeName key="A000333">Spöttelgasse 7</placeName></addrLine></address></div><div type="writingSession" n="1"><opener><dateline rend="right"><placeName key="A000332">Südbahnhof</placeName><lb/><date>27. 4</date></dateline></opener><p>Ich fahre eben auf den <placeName key="A000614">Semmering (Südbahnhotel)</placeName>, um <anchor type="commentary" xml:id="KL310-2" >Dienstag</anchor>
-        Früh von dort mit dem Frühschnellzug nach <placeName key="A001074"><settlement>Triest</settlement></placeName> zu fahren.
-        <anchor type="commentary" xml:id="KL310-1" >Komm mit!</anchor> In diesem Fall erwartet bis Montag Mittag telegrafische Nachricht</p><closer>Dein<lb/><signed>Hermann B</signed></closer></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041310">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 27. 4. 1907</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="310"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="pmb50">Wien</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="pmb50">Wien</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19070427" n="01">27. 4. 1907</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Kartenbrief, Bleistift</p>
+                        <stamp n="1">
+                           <placeName key="pmb60">Wien 10/2</placeName>
+                           <date when="19070427">27. IV. 07</date>
+                           <time>8</time>
+                        </stamp>
+                        <stamp n="2">
+                           <placeName key="pmb68">Wien 18/1</placeName>
+                           <date when="19070428">28. IV. 07</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00261"/>
+      <graphic url="MS-B-00005-B-000-00262"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
+               <addrLine>
+                  <placeName key="pmb68">Wien XVIII</placeName>
+               </addrLine>
+               <addrLine>
+                  <placeName key="pmb133">Spöttelgasse 7</placeName>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb132">Südbahnhof</placeName>
+                  <lb/>
+                  <date>27. 4</date>
+               </dateline>
+            </opener>
+            <p>Ich fahre eben auf den <placeName key="pmb413">Semmering (Südbahnhotel)</placeName>, um <anchor type="commentary" xml:id="KL310-2">Dienstag</anchor>
+        Früh von dort mit dem Frühschnellzug nach <placeName key="pmb873">
+                  <settlement>Triest</settlement>
+               </placeName> zu fahren.
+        <anchor type="commentary" xml:id="KL310-1">Komm mit!</anchor> In diesem Fall erwartet bis Montag Mittag telegrafische Nachricht</p>
+            <closer>Dein<lb/>
+               <signed>Hermann B</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

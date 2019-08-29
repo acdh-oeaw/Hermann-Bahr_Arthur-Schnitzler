@@ -1,9 +1,103 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030066"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A020865">Hermann Bahr: Flucht in die Finsternis, 10. 12. 1931</title><author key="A002002">Bahr, Hermann</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="066"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19311210" n="1">10. 12. 1931</origDate><listBibl><biblStruct default="false"><analytic><author key="A002002">Bahr, Hermann</author><title level="a" key="A020865">Arthur Schnitzler: Flucht in die Finsternis [Zehnzeilen-Kritik]</title></analytic><monogr><title level="j" key="A080001">Reclams Universum</title><imprint><date when="19311210">10. 12. 1931</date></imprint><biblScope unit="jg">47</biblScope><biblScope unit="nr">11</biblScope><biblScope unit="pp">441</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20161010" who="MAM">Angelegt</change><change who="KI MAM" when="20161015">Kollationiert am Original</change></revisionDesc></teiHeader><text type="article"><body><div><head><hi rend="antiqua"><persName key="A002001">Arthur Schnitzler</persName>: <workName key="A020473">Flucht in die Finsternis</workName>.</hi></head><head type="sub"><hi rend="antiqua">Novelle. <orgName key="A080434">S. Fischer, Verlag, Berlin</orgName>. M. 4.80 Leinen.</hi></head><p><persName key="A002001">Arthur Schnitzler</persName> kam 1862, ich 1863 zur Welt,
-               aber 1866 bei <placeName key="A000354"><settlement>Sadowa</settlement></placeName> versank sie. Wir scheuten seitdem
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030066">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" key="pmb31647">Hermann Bahr: Flucht in die Finsternis, 10. 12. 1931</title>
+            <author key="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="066"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19311210" n="1">10. 12. 1931</origDate>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="pmb10815">Bahr, Hermann</author>
+                     <title level="a" key="pmb31647">Arthur Schnitzler: Flucht in die Finsternis [Zehnzeilen-Kritik]</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" key="pmb29196">Reclams Universum</title>
+                     <imprint>
+                        <date when="19311210">10. 12. 1931</date>
+                     </imprint>
+                     <biblScope unit="jg">47</biblScope>
+                     <biblScope unit="nr">11</biblScope>
+                     <biblScope unit="pp">441</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20161010" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20161015">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>
+               <hi rend="antiqua">
+                  <persName key="pmb2121">Arthur Schnitzler</persName>: <workName key="pmb30863">Flucht in die Finsternis</workName>.</hi>
+            </head>
+            <head type="sub">
+               <hi rend="antiqua">Novelle. <orgName key="pmb29639">S. Fischer, Verlag, Berlin</orgName>. M. 4.80 Leinen.</hi>
+            </head>
+            <p part="N">
+               <persName key="pmb2121">Arthur Schnitzler</persName> kam 1862, ich 1863 zur Welt,
+               aber 1866 bei <placeName key="pmb154">
+                  <settlement>Sadowa</settlement>
+               </placeName> versank sie. Wir scheuten seitdem
                das neue Licht, das fortan leuchtete, nun begann unsere Flucht aus dem Hellen, die
-               »<workName key="A020473">Flucht in die Finsternis</workName>«. Warnung begleitete seitdem alle unsere Schritte.
-               »<workName key="A020519">Die dreifache Warnung</workName>« hat <persName key="A002001">Schnitzler</persName>
-               eine Sammlung von Novellen getauft. (Erschienen in <orgName key="A080682">Reclams
+               »<workName key="pmb30863">Flucht in die Finsternis</workName>«. Warnung begleitete seitdem alle unsere Schritte.
+               »<workName key="pmb30955">Die dreifache Warnung</workName>« hat <persName key="pmb2121">Schnitzler</persName>
+               eine Sammlung von Novellen getauft. (Erschienen in <orgName key="pmb29666">Reclams
                   Universal-Bibliothek</orgName> Nr. 6458.) Ein Hauch tiefer Melancholie lag seit
-               <placeName key="A000354"><settlement>Sadowa</settlement></placeName> auf uns, er tat uns ganz gut, es war dadurch gesorgt, daß unser eingeborener
-               Übermut einen Dämpfer empfing; die Dosis war freilich unnötig stark. <signed><hi rend="antiqua">Hermann Bahr.</hi></signed></p></div></body></text></TEI>
+               <placeName key="pmb154">
+                  <settlement>Sadowa</settlement>
+               </placeName> auf uns, er tat uns ganz gut, es war dadurch gesorgt, daß unser eingeborener
+               Übermut einen Dämpfer empfing; die Dosis war freilich unnötig stark. <signed>
+                  <hi rend="antiqua">Hermann Bahr.</hi>
+               </signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

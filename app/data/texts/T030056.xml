@@ -1,9 +1,95 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030056"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Arthur Schnitzler: [Zitat zum Bauernfeldpreis], [28. 3. 1899]</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="056"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="18990328" n="1">[28. 3. 1899]</origDate><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, A 20,9</idno></msIdentifier><physDesc><p>ms. Typoskript, 1 Bl., 1 S. Das Zitat stammt aus dem ohne Verfasserangabe erschienenen Text <bibl><workName key="A020963">Die Bauernfeld-Prämienstiftung</workName>. In: <orgName key="A080155">Deutsche Zeitung</orgName>, Nr. 9787, <date when="18990328">28. 3. 1899</date>, Morgen-Ausgabe, S. 5–6, hier: S. 5</bibl>.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20160510" who="MAM">Angelegt aus Kopie</change><change who="KI MAM" when="20160509">Kollationiert</change></revisionDesc></teiHeader><text type="manuscript"><body><div><p>Die <orgName key="A080733">Bauernfeld-Prämien-Stiftung</orgName> (Kuratorium: <persName key="A002034">Berger</persName>,
-            <persName key="A002682">Hardtl</persName>, <persName key="A002259">Lewinsky</persName>, <persName key="A003850">Minor</persName>,
-      <persName key="A004096">Weissel</persName>)</p><p >Preisträger: <persName key="A003918">Saar</persName>, Schnitzler, <persName key="A002029">Karlweis</persName>,
-            <persName key="A002605">Leo Hirschfeld</persName><c rendition="#dots" n="3"/> (dazu schreibt die <orgName  key="A080155">Deutsche
-               Zeitung</orgName><space unit="chars" quantity="1"/><date>28. 3. 99</date>:) <c rendition='#dots' n='4' place="center"/> »Die Verdienste Arthur Schnitzlers um die heimische
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030056">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler: [Zitat zum Bauernfeldpreis], [28. 3. 1899]</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="056"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="18990328" n="1">[28. 3. 1899]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A 20,9</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">ms. Typoskript, 1 Bl., 1 S. Das Zitat stammt aus dem ohne Verfasserangabe erschienenen Text <bibl>
+                              <workName key="pmb31843">Die Bauernfeld-Prämienstiftung</workName>. In: <orgName key="pmb29424">Deutsche Zeitung</orgName>, Nr. 9787, <date when="18990328">28. 3. 1899</date>, Morgen-Ausgabe, S. 5–6, hier: S. 5</bibl>.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160510" who="MAM">Angelegt aus Kopie</change>
+         <change who="KI MAM" when="20160509">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div>
+            <p part="N">Die <orgName key="pmb29675">Bauernfeld-Prämien-Stiftung</orgName> (Kuratorium: <persName key="pmb10883">Berger</persName>,
+            <persName key="pmb2953">Hardtl</persName>, <persName key="pmb12061">Lewinsky</persName>, <persName key="pmb12258">Minor</persName>,
+      <persName key="pmb28674">Weissel</persName>)</p>
+            <p part="N">Preisträger: <persName key="pmb12602">Saar</persName>, Schnitzler, <persName key="pmb13082">Karlweis</persName>,
+            <persName key="pmb18308">Leo Hirschfeld</persName>
+               <c rendition="#dots" n="3"/> (dazu schreibt die <orgName key="pmb29424">Deutsche
+               Zeitung</orgName>
+               <space unit="chars" quantity="1"/>
+               <date>28. 3. 99</date>:) <c rendition="#dots" n="4" place="center"/> »Die Verdienste Arthur Schnitzlers um die heimische
           Literatur bestehen lediglich darin, dass er von der geschickten manövrierenden
-            <persName key="A002002">Bahr</persName>-Gemeinde emporgehoben, bekannt geworden ist und das
-              <placeName key="A000250"><settlement>Wien</settlement></placeName>er Literatentum mehrmals blamiert
-          hat<c rendition="#dots" n="3"/><supplied>«</supplied></p></div></body></text></TEI>
+            <persName key="pmb10815">Bahr</persName>-Gemeinde emporgehoben, bekannt geworden ist und das
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>er Literatentum mehrmals blamiert
+          hat<c rendition="#dots" n="3"/>
+               <supplied>«</supplied>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

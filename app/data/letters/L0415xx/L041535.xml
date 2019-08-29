@@ -1,51 +1,222 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041535"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Adele Sandrock an Arthur Schnitzler, [5. 8. 1894]</title><author key="A002018">Sandrock, Adele</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="535"/><availability status="free"><p>Copyright © 2015</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002018">Sandrock, Adele</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><placeSender><placeName key="A000973">Marienbad</placeName></placeSender><!--<placeAddressee><placeName>[Salzburg?]</placeName></placeAddressee>--><dateSender><date when="18940805" n="01">[5. 8. 1894]</date></dateSender><context/></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>D</country><settlement>Marbach am Neckar</settlement><repository>Deutsches Literaturarchiv</repository><idno>A:Schnitzler, 85.1.4407/1</idno></msIdentifier><physDesc><p>hs. Brief, 2 Bl., 8 S., von Schnitzler datiert: »<quote><date>5/8 94.</date></quote>«</p></physDesc></msDesc></witness></listWit><listBibl><biblStruct corresp="ASAS" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><author key="A002018">Sandrock, Adele</author><title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und
-                                Dokumenten</title><editor>Zusammengestellt von Renate Wagner</editor><imprint><pubPlace>Wien, München</pubPlace><publisher>Amalthea</publisher><date when="1975">1975</date></imprint><biblScope unit="pp">171–173</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160411">Angelegt</change><change who="MAM" when="20160426">Kollationiert im DLA</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><placeName key="A00973"><settlement>Marienbad</settlement></placeName>. <date>Sonntag</date> 11 Uhr. –</dateline><salute>Mein süßes einziges Kind.</salute></opener><p>Endlich erhielt ich heute von Dir Nachricht – es war die höchste Zeit, hast Du
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041535">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Adele Sandrock an Arthur Schnitzler, [5. 8. 1894]</title>
+            <author key="pmb12618">Sandrock, Adele</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="535"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="pmb12618">Sandrock, Adele</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="pmb772">Marienbad</placeName>
+               </placeSender>
+               <!--<placeAddressee><placeName>[Salzburg?]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="18940805" n="01">[5. 8. 1894]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.4407/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>hs. Brief, 2 Bl., 8 S., von Schnitzler datiert: »<quote>
+                              <date>5/8 94.</date>
+                           </quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASAS" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author key="pmb12618">Sandrock, Adele</author>
+                     <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und
+                                Dokumenten</title>
+                     <editor>Zusammengestellt von Renate Wagner</editor>
+                     <imprint>
+                        <pubPlace>Wien, München</pubPlace>
+                        <publisher>Amalthea</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">171–173</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160411">Angelegt</change>
+         <change who="MAM" when="20160426">Kollationiert im DLA</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb772">
+                     <settlement>Marienbad</settlement>
+                  </placeName>. <date>Sonntag</date> 11 Uhr. –</dateline>
+               <salute>Mein süßes einziges Kind.</salute>
+            </opener>
+            <p>Endlich erhielt ich heute von Dir Nachricht – es war die höchste Zeit, hast Du
                     mich doch volle drei Tage warten lassen. – Also mein Engel – wir werden uns
-                    seh’n – bald seh’n – – – wie stellen Sie Herr Doctor sich das vor?? </p><p>Ich schrieb gestern an Herrn Director <persName key="A002032">Buco<unclear>v</unclear>ics</persName> um einen
+                    seh’n – bald seh’n – – – wie stellen Sie Herr Doctor sich das vor?? </p>
+            <p>Ich schrieb gestern an Herrn Director <persName key="pmb2161">Buco<unclear>v</unclear>ics</persName> um einen
                     Nachurlaub von 14 Tagen – habe<pb/> bis jetzt noch keine Antwordt. – Mir geht es
                     bedeutend besser mein Herz – ich habe meine Cur beinah beendigt und hoffe mit
                     Gottes Hilfe am 15<hi rend="superscript">ten</hi> wie Du es wünscht, in
-                            <placeName key="A000230"><settlement>Salzburg</settlement></placeName> zu sein.
+                            <placeName key="pmb30">
+                  <settlement>Salzburg</settlement>
+               </placeName> zu sein.
                     Bekomme ich noch Urlaub fahre ich noch nach
-                            <placeName key="A001112"><settlement>Ostende</settlement></placeName>, weil mir
-                        <persName key="A002768">Urbantschitz</persName> streng anempfohlen hat noch die Seebäder
+                            <placeName key="pmb911">
+                  <settlement>Ostende</settlement>
+               </placeName>, weil mir
+                        <persName key="pmb3018">Urbantschitz</persName> streng anempfohlen hat noch die Seebäder
                     zu gebrauchen. Er hat mir einen geradezu süßen Brief geschrieben – und<pb/>
                     schreibt unter Anderm – ich rathe Ihnen dringend die letzten Wochen Ihrer
                     Nachcur, <hi rend="underline" n="1">nur Ihrer Gesundheit</hi> zu leben – und sich sehr zu
-                    schonen! –</p><p>Na – wenn ich auch nach
-                        <placeName key="A000230"><settlement>Salzburg</settlement></placeName> fahre – Du wirst
+                    schonen! –</p>
+            <p>Na – wenn ich auch nach
+                        <placeName key="pmb30">
+                  <settlement>Salzburg</settlement>
+               </placeName> fahre – Du wirst
                     Wunder auf mich wirken – denn Dich mein Kind, liebe ich derart rasend – dass ich
                     schon vollkommen hergestellt bin wenn ich nur daran denke Dich zu seh’n. – Mutzi
-                    – warst Du mir treu? O Kind – ich kann<pb/> Dir ruhig in die Augen seh’n – aber Du! –</p><p>Nun Butzel – will ich schlafen geh’n. Bicycle bin ich nicht mehr gefahren – es
-                    hat mich zu sehr angestrengt. – </p><closer>Für heute tausend innige Grüsse und Küsse von Deinem<lb/>Dich anbetenden Diltsch.<lb/><signed>AS</signed></closer></div><div n="2" type="writingSession"><p>Meine Familie ist wüthend dass ich nicht schon jetzt nach
-                    <placeName key="A001112"><settlement>Ostende</settlement></placeName> fahre – ich
+                    – warst Du mir treu? O Kind – ich kann<pb/> Dir ruhig in die Augen seh’n – aber Du! –</p>
+            <p>Nun Butzel – will ich schlafen geh’n. Bicycle bin ich nicht mehr gefahren – es
+                    hat mich zu sehr angestrengt. – </p>
+            <closer>Für heute tausend innige Grüsse und Küsse von Deinem<lb/>Dich anbetenden Diltsch.<lb/>
+               <signed>AS</signed>
+            </closer>
+         </div>
+         <div n="2" type="writingSession">
+            <p>Meine Familie ist wüthend dass ich nicht schon jetzt nach
+                    <placeName key="pmb911">
+                  <settlement>Ostende</settlement>
+               </placeName> fahre – ich
                         mein Kind bin gar nicht dafür – jetzt habe ich mich<pb/> so schön erholt – und
-                        soll diese weite Reise unternehmen – da strenge ich mich mehr <subst><del rend="overwritten">al</del><add place="inline">an</add></subst> als gut ist
+                        soll diese weite Reise unternehmen – da strenge ich mich mehr <subst>
+                  <del rend="overwritten">al</del>
+                  <add place="inline">an</add>
+               </subst> als gut ist
                         – gelt Butzi? Wirst Du lieb und gut sein mit mir – muß ich Berge steigen?
-                        Museen besichtigen – Schlösser und Gärten?</p><p>Bitte – nein – nur mit Dir will der gute Diltsch sein – ganz für Dich leben –
+                        Museen besichtigen – Schlösser und Gärten?</p>
+            <p>Bitte – nein – nur mit Dir will der gute Diltsch sein – ganz für Dich leben –
                         still und ruhig, die paar Tage mit Dir verbringen. Wie lang kannst Du Dich
-                        mir widmen, <hi rend="underline" n="1">das</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">muß</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">ich</hi><space unit="chars" quantity="1"/><hi rend="underline" n="1">wissen</hi>. Bitte auf diese
-                        Frage<pb/> Antwort per Telegraf. – <hi rend="underline" n="1">Sofort</hi>. Bitte Schatz.</p><p >Und – noch Eins.– Gehst Du Anfang September auf drei Wochen fort von
-                    <placeName key="A000250"><settlement>Wien</settlement></placeName>? Wenn <hi rend="underline" n="1">ja</hi> –
+                        mir widmen, <hi rend="underline" n="1">das</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">muß</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">ich</hi>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">wissen</hi>. Bitte auf diese
+                        Frage<pb/> Antwort per Telegraf. – <hi rend="underline" n="1">Sofort</hi>. Bitte Schatz.</p>
+            <p>Und – noch Eins.– Gehst Du Anfang September auf drei Wochen fort von
+                    <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>? Wenn <hi rend="underline" n="1">ja</hi> –
                     komme ich <hi rend="underline" n="1">nicht</hi> zu Dir <add place="above">nach
-                            <placeName key="A000230"><settlement>Salzburg</settlement></placeName></add> und fahre
+                            <placeName key="pmb30">
+                     <settlement>Salzburg</settlement>
+                  </placeName>
+               </add> und fahre
                         direckt von hier nach
-                    <placeName key="A001112"><settlement>Ostende</settlement></placeName> – schreibe dann
-                        dem <persName key="A002032">Bucovics</persName> dass ich erkrankt bin – und
+                    <placeName key="pmb911">
+                  <settlement>Ostende</settlement>
+               </placeName> – schreibe dann
+                        dem <persName key="pmb2161">Bucovics</persName> dass ich erkrankt bin – und
                         treffe dann erst <hi rend="strikethrough">dann</hi> ein, wenn Du in
-                            <placeName key="A000250"><settlement>Wien</settlement></placeName> bist! Hier wird es
-                        unerträglich – kaltes abscheuliches Wetter –<pb/><space unit="chars" quantity="1"/><persName key="A002349">Willy</persName> ist sehr ungemüthlich – sie war unlängst in
-                                <placeName key="A000250"><settlement>Wien</settlement></placeName>, wo ihr der
-                            <persName key="A002002">Bahr</persName> erzählt hat, Du hast ihm gesagt
-                        sie sei sterblich in <persName key="A004086">Wögerer</persName> verliebt – sie hat
+                            <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> bist! Hier wird es
+                        unerträglich – kaltes abscheuliches Wetter –<pb/>
+               <space unit="chars" quantity="1"/>
+               <persName key="pmb12621">Willy</persName> ist sehr ungemüthlich – sie war unlängst in
+                                <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName>, wo ihr der
+                            <persName key="pmb10815">Bahr</persName> erzählt hat, Du hast ihm gesagt
+                        sie sei sterblich in <persName key="pmb4597">Wögerer</persName> verliebt – sie hat
                         mir einen wahnsinnigen Tanz gemacht – Du bist aber auch ein altes Waschweib.
                         – Ich vertraue Dir nichts mehr an. Quand on est bête, c’est pour longtemps.
-                        Das geht auf Dich! Auch sagte <persName key="A002002">Bahr</persName> Du
+                        Das geht auf Dich! Auch sagte <persName key="pmb10815">Bahr</persName> Du
                         wärst geradezu <hi rend="underline" n="1">empört</hi> gewesen – dass ich nach
-                                <placeName key="A000250"><settlement>Wien</settlement></placeName> kommen wollte –
+                                <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> kommen wollte –
                         Mutzi – wozu all dieser Unsinn – ich will Dich doch nicht belästigen,
                         hättest Du mir einfach geschrieben –<pb/> Diltsch – ich will Dich nicht in
-                                <placeName key="A000250"><settlement>Wien</settlement></placeName> seh’n – wäre ja
+                                <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> seh’n – wäre ja
                         Alles gut–! Wozu so einen fremden Menschen in sein Vertrauen einweisen. –
                         Nun – gute Nacht Schatz – ich liebe Dich doch – Du bist mein Abgott, mein
-                        Alles auf dieser Welt! Du, mit Deinen süßen Augen! –</p><closer>Auf Wiederseh’n–!–<lb/>Ewig Dein<lb/><signed>Diltsch</signed></closer><postscript><p rend="right" >Dein guter <hi rend="underline" n="2">treuer</hi></p></postscript></div></body></text></TEI>
+                        Alles auf dieser Welt! Du, mit Deinen süßen Augen! –</p>
+            <closer>Auf Wiederseh’n–!–<lb/>Ewig Dein<lb/>
+               <signed>Diltsch</signed>
+            </closer>
+            <postscript>
+               <p rend="right">Dein guter <hi rend="underline" n="2">treuer</hi>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

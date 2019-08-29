@@ -1,5 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041364"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Felix Salten an Arthur Schnitzler, [11. 9. 1894]</title><author key="A002035">Salten, Felix</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="364"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002035">Salten, Felix</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><!--<placeSender><placeName key="A000250">Wien</placeName></placeSender>--><placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee><dateSender><date when="18940911" n="01">[11. 9. 1894]</date></dateSender><context/></correspDesc><listWit><witness n="1"><msDesc><msIdentifier><country>UK</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, B 89 a/1</idno></msIdentifier><physDesc><p>eh. Visitenkarte, Lateinschrift, Bleistift, Aufdruck: »<quote>FELIX SALTEN /
-                              <placeName key="A000618">WIEN, / IX., Hörlgasse 16.</placeName> /
-                              ›<orgName key="A080010">Berliner Neueste Nachrichten</orgName>.‹ /
-                              ›<orgName key="A080680">Münchener General-Anzeiger</orgName>.‹</quote>«, hs.
-                           Datum von Schnitzler: »<quote><date>11/9 94</date></quote>«</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151126">Angelegt aus Original</change><change who="KI MAM" when="20160614">Kollationiert</change></revisionDesc></teiHeader><text type="card"><body><div type="writingSession" n="1"><opener><salute>Dear Sir,</salute></opener><p>to-day, I cannot glide with you because I must visit the p<subst><del rend="overwritten"><gap quantity="4" unit="chars" reason="illegible"/></del><add place="inline">oor</add></subst> little <rs type="person" key="A003430">girl</rs> in the <anchor type="commentary" xml:id="KL364-1" >prison</anchor>. You must excuse me.</p><p>Perhaps you can sent the <anchor type="commentary" xml:id="KL364-2" ><rs type="work" key="A020679" cert="low"><subst><del rend="overwritten">Bo</del><add place="inline">bo</add></subst>ok</rs></anchor> from <persName key="A002002">H Bahr</persName>?</p><closer>Yours<lb/><signed>Salten</signed></closer></div></body></text></TEI>
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041364">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Felix Salten an Arthur Schnitzler, [11. 9. 1894]</title>
+            <author key="pmb2167">Salten, Felix</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="364"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="pmb2167">Salten, Felix</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <!--<placeSender><placeName key="pmb50">Wien</placeName></placeSender>-->
+               <placeAddressee>
+                  <placeName key="pmb50">[Wien]</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18940911" n="01">[11. 9. 1894]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>UK</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 a/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Visitenkarte, Lateinschrift, Bleistift, Aufdruck: »<quote>FELIX SALTEN /
+                              <placeName key="pmb417">WIEN, / IX., Hörlgasse 16.</placeName> /
+                              ›<orgName key="pmb29207">Berliner Neueste Nachrichten</orgName>.‹ /
+                              ›<orgName key="pmb29664">Münchener General-Anzeiger</orgName>.‹</quote>«, hs.
+                           Datum von Schnitzler: »<quote>
+                              <date>11/9 94</date>
+                           </quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151126">Angelegt aus Original</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <salute>Dear Sir,</salute>
+            </opener>
+            <p>to-day, I cannot glide with you because I must visit the p<subst>
+                  <del rend="overwritten">
+                     <gap quantity="4" unit="chars" reason="illegible"/>
+                  </del>
+                  <add place="inline">oor</add>
+               </subst> little <rs type="person" key="pmb3784">girl</rs> in the <anchor type="commentary" xml:id="KL364-1">prison</anchor>. You must excuse me.</p>
+            <p>Perhaps you can sent the <anchor type="commentary" xml:id="KL364-2">
+                  <rs type="work" key="pmb31275" cert="low">
+                     <subst>
+                        <del rend="overwritten">Bo</del>
+                        <add place="inline">bo</add>
+                     </subst>ok</rs>
+               </anchor> from <persName key="pmb10815">H Bahr</persName>?</p>
+            <closer>Yours<lb/>
+               <signed>Salten</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

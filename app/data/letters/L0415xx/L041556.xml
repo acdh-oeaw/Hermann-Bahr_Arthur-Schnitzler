@@ -1,24 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041556"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Brahm an Arthur Schnitzler, 15. 10. 1910</title><author key="A002065">Brahm, Otto</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-L" n="556"/><availability status="free"><p>Copyright © 2015</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p></seriesStmt><sourceDesc><correspDesc><sender full="yes"><persName key="A002065">Brahm, Otto</persName></sender><addressee full="yes"><persName key="A002001">Schnitzler, Arthur</persName></addressee><placeSender><placeName key="A000368">Berlin</placeName></placeSender><placeAddressee><placeName key="A000250">[Wien]</placeName></placeAddressee><dateSender><date when="19101015" n="01">15. 10. 1910</date></dateSender><context></context></correspDesc><listBibl><biblStruct corresp="ASOB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><author key="A002065">Brahm, Otto</author><title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title><editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor><imprint><pubPlace>Tübingen</pubPlace><publisher>Max Niemeyer Verlag</publisher><date when="1975">1975</date></imprint><biblScope unit="pp">310–311</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160414">Angelegt</change></revisionDesc></teiHeader><text type="letter"><body><div type="writingSession" n="1"><opener><dateline rend="right"><placeName key="A000871">Tegel</placeName>, <date>15. Oktober 1910</date></dateline><salute>Lieber Freund,</salute></opener><p>für einen Rohrleger halte ich Sie nicht (eher schon für einen Poeten), aber Ihrem
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041556">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Arthur Schnitzler, 15. 10. 1910</title>
+            <author key="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="556"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName key="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName key="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placeName key="pmb168">Berlin</placeName>
+               </placeSender>
+               <placeAddressee>
+                  <placeName key="pmb50">[Wien]</placeName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19101015" n="01">15. 10. 1910</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <author key="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">310–311</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160414">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <placeName key="pmb670">Tegel</placeName>, <date>15. Oktober 1910</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>für einen Rohrleger halte ich Sie nicht (eher schon für einen Poeten), aber Ihrem
                     Meinungswechsel kann ich doch nicht recht folgen. »<date>Mitte Februar</date>« habe ich Ihnen
                     schon am <date>4. Oktober</date> genannt, worauf Sie am <date>6.</date> auch: »<date>1. Jänner</date> bis <date>15. Feber</date>«
                     akzeptierten; daß ich Ihnen nun als gewissenhaft-unreinhardtisches Subjekt den
                     <date>18. Februar</date> bezeichne, kann doch keinen Unterschied machen. Und daß der <date>Januar</date>
                     unmöglich ist, kann ich Ihnen, wie ich es damals schon begründete, heute nur
                     wiederholen. Auch waren Sie nicht »der Erste am Platz«, sondern Sie kamen nach
-                        <persName key="A002002"><rs type="work" key="A020225" subtype="local-short">Bahr</rs></persName>
+                        <persName key="pmb10815">
+                  <rs type="work" key="pmb30269" subtype="local-short">Bahr</rs>
+               </persName>
                     (der in meinem Entwurf dennoch nach Ihnen kommt!) und dies vor allem: Sie
                     wollten sich weder für die offerierte Nr. 3 noch sonstwie entscheiden. 
-                    Ein <rs type="work" key="A020194" subtype="local-short">Stück</rs> aber zugleich für einen bestimmten Termin akzeptieren und
+                    Ein <rs type="work" key="pmb30207" subtype="local-short">Stück</rs> aber zugleich für einen bestimmten Termin akzeptieren und
                     nicht akzeptieren, dem einen Teil alle Rechte einräumen und dem andern, nämlich
-                    sich selber, gar keine zuzuschreiben – das geht »<rs type="work" key="A020032">über die
-                    Kraft</rs>« (da ich ja nun mal gut <persName key="A002204">Björnsonisch</persName> bin, bis
+                    sich selber, gar keine zuzuschreiben – das geht »<rs type="work" key="pmb29883">über die
+                    Kraft</rs>« (da ich ja nun mal gut <persName key="pmb2400">Björnsonisch</persName> bin, bis
                     auf weiteres). Endlich, um auch das noch zu sagen, ist der Ihnen bezeichnete
-                    Termin m. E. ein durchaus guter. Sie haben schon voriges Jahr mir den <anchor type="commentary" xml:id="KL556-1" >Arm
-                    festgehalten</anchor>, mit dem ich den <hi rend="italic"><workName key="A020058">Anatol</workName></hi>
+                    Termin m. E. ein durchaus guter. Sie haben schon voriges Jahr mir den <anchor type="commentary" xml:id="KL556-1">Arm
+                    festgehalten</anchor>, mit dem ich den <hi rend="italic">
+                  <workName key="pmb29935">Anatol</workName>
+               </hi>
                     hochheben wollte, ich glaube zu Unrecht. Wollen Sie denselben Fehler nochmal
                     machen? Aber wie mein Gott (A. S.) will, ich halt still. Sie können aufführen
                     lassen, und Sie können liegen lassen, der Name des Herrn und Freundes sei
                     gelobt. – Besetzung habe ich heute nicht anders vorzuschlagen als damals, und
                     »totaler« kann sie auch nicht werden, Sie müßten denn noch Personen
                     hinzudichten. Über Striche werden wir uns später zu verständigen haben, wenn Sie
-                    erst wissen, wann Sie gespielt zu werden wünschen.</p><closer>Herzliche Grüße Ihres <signed>O. B.</signed></closer></div></body></text></TEI>
+                    erst wissen, wann Sie gespielt zu werden wünschen.</p>
+            <closer>Herzliche Grüße Ihres <signed>O. B.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

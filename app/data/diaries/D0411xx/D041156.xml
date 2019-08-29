@@ -1,29 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041156"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Arthur Schnitzler, 21. 12. 1895</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno n="156" type="HBAS-D"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
-        Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct corresp="ASTB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">Tagebuch 1893–1902</title><editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041156">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 21. 12. 1895</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="156" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
+        Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne
            Pertlik und Reinhard Urbach hg. v. der Kommission für literarische
            Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann:
-           Werner Welzig</editor><imprint><pubPlace>Wien</pubPlace><publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher><date when="1989">1989</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151111">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="18951221" n="1">21/12</date> Ergreifender Brief von <persName key="A002216">Mz.
-            I.</persName> die wieder krank ist.– Nm. <persName key="A002185">Mz. Rh.</persName> da.
-          Mein Geld (für Opernglas) an <persName key="A002047">Paul</persName> verloren gegangen
-          (aus dem Brief gestohlen).– Mit <persName key="A002185">Mz. Rh.</persName> bin ich sehr
+           Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18951221" n="1">21/12</date> Ergreifender Brief von <persName key="pmb14953">Mz.
+            I.</persName> die wieder krank ist.– Nm. <persName key="pmb2378">Mz. Rh.</persName> da.
+          Mein Geld (für Opernglas) an <persName key="pmb11485">Paul</persName> verloren gegangen
+          (aus dem Brief gestohlen).– Mit <persName key="pmb2378">Mz. Rh.</persName> bin ich sehr
           zärtlich und hab sie besonders wenn sie mit mir ist sehr lieb. Die unvermeidliche Lüge
-          stört mich – von <persName key="A002216">Mz. I</persName> kann ich ihr doch nichts
-          erzählen; und das <hi rend="italic">ist</hi> doch noch in meinem Leben.</p><p>Liederabd. <persName key="A002604">Nini Polatschek</persName>;– mit <persName key="A002606">Lou</persName>, <persName key="A002024">Engländer</persName>, <persName key="A002035">Salten</persName>, 
-<persName key="A002550">Eckstein</persName><space unit="chars" quantity="1"/><placeName key="A000316">Igel</placeName> soupirt.– Im Verkehr ist mir entschieden <persName key="A002035">Salten</persName> der 
+          stört mich – von <persName key="pmb14953">Mz. I</persName> kann ich ihr doch nichts
+          erzählen; und das <hi rend="italic">ist</hi> doch noch in meinem Leben.</p>
+            <p>Liederabd. <persName key="pmb27843">Nini Polatschek</persName>;– mit <persName key="pmb2881">Lou</persName>, <persName key="pmb2147">Engländer</persName>, <persName key="pmb2167">Salten</persName>, 
+<persName key="pmb2836">Eckstein</persName>
+               <space unit="chars" quantity="1"/>
+               <placeName key="pmb116">Igel</placeName> soupirt.– Im Verkehr ist mir entschieden <persName key="pmb2167">Salten</persName> der 
 angenehmste; ich hab ihn sehr gern, besonders wenn ich mit ihm 
 persönl. zusammen bin; vermisse ich ihn einige Tage, so stört mir 
-Ueberlegung, besonders seiner Unverlässlichkeit das Bild.– <persName key="A002007">Richard</persName>, 
+Ueberlegung, besonders seiner Unverlässlichkeit das Bild.– <persName key="pmb10863">Richard</persName>, 
 den ich außerordentlich gern hab, macht mich oft durch seine raunzige 
-Manierirtheit nervös.– <persName key="A002011">Hugo</persName> ist dem <persName key="A002002">Bahr</persName> zu nah; das läßt ihn offenbar 
+Manierirtheit nervös.– <persName key="pmb11740">Hugo</persName> ist dem <persName key="pmb10815">Bahr</persName> zu nah; das läßt ihn offenbar 
 mir gegenüber nicht wirklich und stetig warm werden; und trotz 
 beiderseitigem gutem und bestem Willen, ist kein tieferes Verhältnis 
 zwischen uns, wie es sein könnte und vielleicht müßte. Es ist eine 
 Thatsache, dass ich ihm gegenüber im persönl. Verkehr nicht ganz 
 ohne Befangenheit bin und das Gefühl hab nicht so aus mir heraus zu 
 können, wie es für seine Werthschätzung meiner Person nothwendig 
-wäre.– <persName key="A002212">Schwarzkopf</persName> hab ich sehr gern; sein Verstand, seine 
+wäre.– <persName key="pmb12740">Schwarzkopf</persName> hab ich sehr gern; sein Verstand, seine 
 Ehrlichkeit thun mir wohl. Er wird jetzt vielfach unterschätzt, was ihn 
 gewiss kränkt, und läßt sichs nicht merken – vielleicht sich selber 
-nicht.– <persName key="A002605">Leo Hirschfeld</persName> ehrlich gescheidter Mensch, zu dem ich aber in 
+nicht.– <persName key="pmb18308">Leo Hirschfeld</persName> ehrlich gescheidter Mensch, zu dem ich aber in 
 tiefere Beziehungen nicht treten kann. Er ist aus zweiter Hand. Ein 
-<persName key="A002603">Eckermann</persName> schlummert in ihm – für diese <persName key="A002060">Goethes</persName> wohl gut genug.</p></div></body></text></TEI>
+<persName key="pmb11220">Eckermann</persName> schlummert in ihm – für diese <persName key="pmb11461">Goethes</persName> wohl gut genug.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

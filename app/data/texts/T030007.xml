@@ -1,30 +1,265 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030007"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Arthur Schnitzler: Die Schwestern, mit Strichen von Andrian oder Bahr, 14.–19. 9. 1918</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="007"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19180914" n="2">14.–19. September 1918</origDate><listWit><witness n="1"><msDesc><msIdentifier><country>GB</country><settlement>Cambridge</settlement><repository>University Library</repository><idno>Schnitzler, A 107,1</idno></msIdentifier><physDesc><p>Bürstenabzug; Schmutztitel mit hs. Anm. von Schnitzler in Lateinschrift, 
-                           gestempelt: »<quote><orgName  key="A080822">Spamersche Buchdruckerei</orgName>, 
-                              <date when="19180903">3. Sep. 1918</date></quote>«. Die Wiedergabe beschränkt 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030007">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler: Die Schwestern, mit Strichen von Andrian oder Bahr, 14.–19. 9. 1918</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="007"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19180914" n="2">14.–19. September 1918</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A 107,1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">Bürstenabzug; Schmutztitel mit hs. Anm. von Schnitzler in Lateinschrift, 
+                           gestempelt: »<quote>
+                              <orgName key="pmb29694">Spamersche Buchdruckerei</orgName>, 
+                              <date when="19180903">3. Sep. 1918</date>
+                           </quote>«. Die Wiedergabe beschränkt 
                            sich auf die durch seitliche Striche mit rotem Buntstift markierten Passagen. 
                            Zwei durch Unterstreichungen hervorgehobene Textstellen werden gleichfalls wiedergegeben, 
-                           im zweiten Fall unterblieb die seitliche Markierung.</p></physDesc></msDesc></witness></listWit></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change when="20160216" who="MAM">Angelegt</change><change who="KI MAM" when="20160510">Kollationiert</change></revisionDesc></teiHeader><text type="manuscript"><body><div ><p><workName key="A020451"/>Aufzubewahren!</p><p><hi rend="underline" n="2">Burgth. Exemplar</hi></p><p>Die rothen Striche von <hi rend="underline" n="1"><persName key="A002042">Andrian</persName></hi> oder <hi rend="underline" n="1"><persName key="A002002">Bahr</persName></hi></p><p>–</p><p><date>September 1918</date>.</p><p>Sollt man es für möglich halten!!!</p><p>A. S.</p><p>–</p></div><div ><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/><hi rend="italic">TITO</hi>: Aber es könnte auch irgendwer bei ihm versteckt sein. Im Schrank – im <hi rend="underline" n="1" hand="A002002 A002007">Bett</hi> –</l><l><hi rend="italic">ANINA</hi>: Und warum vermutest du das?</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l>Ein kleines rundes Ding. Und <hi rend="spaced_out">solch</hi> ein Näschen.</l><l>Für zehn Dukaten konnt’ sie jeder
-               haben.</l><l>Und wer ihr just gefiel, für zwei. Das nennt</l><l>Sich Tänzerin. Die Sängerinnen
-                  sind</l><l>Geradeso. Triumphe Casanovas!</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/><hi rend="italic">ANDREA</hi>:<space unit="chars" quantity="15"/> Als Dank –? Wofür – –?</l><l><hi rend="italic">ANINA</hi>: Daß ich ihm angehört in dieser Nacht.</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/><hi rend="italic">FLAMINIA</hi>: Ist’s möglich? Wie? Ward so was
-          je erhört?</l><l>Auf keuschem Lager harr’ ich sehnsuchtsvoll,</l><l>Und diese hier fängt mir
-          den Liebsten ab –?!</l><l>Ins Leere durstig breitet sich mein Arm –</l><l>Indessen schlingt
-          der ihre sich um ihn?! –</l><l>Die Nachtluft trink’ <hi rend="spaced_out">ich</hi>, seine
-          Küsse <hi rend="spaced_out">die</hi> –</l><l>Und während ich mit rotgeweintem Aug’</l><l>Der
-          grauen Dämmrung wach entgegenstarre,</l><l>Ist diese da in süßem Morgentraum,</l><l>Der mir
-          gebührt, verrätrisch eingeschlummert?</l><l>Hat solches Ausmaß von Verworfenheit</l><l>In
-          einem Weiberherzen Raum? (<hi rend="italic">Zu Andrea gewandt:</hi>)</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>Mit Casanova sie bekannt gemacht,</l><l>Den sie zum Dank sofort vom Mahle weg</l><l>In ihr
-          wollüst’ges Bett zu locken weiß. – – (<hi rend="italic">Zu Anina</hi>)</l><l>Ein <hi rend="spaced_out">Fräulein</hi> Sie? Aus gutem Bürgerhaus –?</l><l>Ja, wer von solchem
-          unschuldsblassen Lärvchen</l><l>Sich narren ließe! Wer in diesem zarten</l><l>Hochmüt’gen
-          Antlitz nicht verruchter Laster</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/><hi rend="italic">ANINA</hi>: Doch nicht so laut, daß es Herr Santis hört.</l><l><hi rend="italic">FLAMINIA</hi>: Was geht mich Santis an? Die ganze Stadt</l><l>Soll’s
-          wissen. Diebin! Mörderin! Verruchte!</l><l>Das Fenster auf, Andrea, daß man’s hört.</l><l><hi rend="italic">ANINA</hi>: Gern will ich selbst –</l><l rend="center" >(<hi rend="italic">als wollte sie zum Fenster</hi>).</l><l><hi rend="italic">FLAMINIA</hi> (<hi rend="italic">sie am Mantel haltend</hi>): Verworfne,
-          Schamvergeßne!</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>Sie zechte mit, sprach englisch mit dem Lord.</l><l>Und wenn’s mir
-          recht ist, unterm Tisch französisch.</l><l>Die nehmen wir auf uns, Herr Bassi, wie?</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>Des Zufalls Opfer, doch zugleich ihm dankbar,</l><l>Jungfräulich-bräutlich, eh die Sonne sank</l><l>Und eh sie aufging – eines Fremden
-          Dirne.</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>So daß sie der erschlichnen Lust nicht froh</l><l>In neuem Durst
-          nach freigebotner schmachtet –,</l><l>Die andre, die er zu umarmen wähnte</l><l>Und die in
-          ungestillter Sehnsucht seufzt.</l><l>Und jede hält ihr Recht allein begründet,</l><l>Wie sie
-          der andern Recht für nichtig hält.</l><l>Dem Jüngling aber sich zur Wahl zu stellen,</l><l>Wie’s nahe läge, lehnen beide ab,</l><l>Denn ist er nicht, wie jetzt, ein
-          Ahnungsloser,</l><l>Vielmehr als wissend in den Fall verwickelt,</l><l>So ward’s ein
-          anderer, völlig neuer Fall,</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>So also steht die Frage: Welcher Schwester</l><l><hi rend="underline" n="1" hand="A002002 A002007">Nach Herzensrecht</hi> gehört der Jüngling zu?</l></lg><p><gap reason="outOfScope"/></p><lg type="poem"><l><workName key="A020451"/>Als die Teresa eben mir bewies?</l><l><hi rend="spaced_out">Sie kehrte mir zurück.</hi> Nur das ist Treue,</l><l>Die einz’ge, die
-          mit Fug so heißen darf.</l><l>Denn was uns sonst Gewähr der Treue gilt,</l><l>Das hält nicht
-          stand vor philosoph’scher Prüfung.</l><l>Ist’s etwa ein Beweis, wenn hingegeben</l><l>Nach
-          schwerem Kampf mit heißen Wollustzähren</l><l>Die Tugend selbst in Ihre Arme sinkt?</l></lg></div></body></text></TEI>
+                           im zweiten Fall unterblieb die seitliche Markierung.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160216" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20160510">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div>
+            <p part="N">
+               <workName key="pmb30819"/>Aufzubewahren!</p>
+            <p part="N">
+               <hi rend="underline" n="2">Burgth. Exemplar</hi>
+            </p>
+            <p part="N">Die rothen Striche von <hi rend="underline" n="1">
+                  <persName key="pmb10765">Andrian</persName>
+               </hi> oder <hi rend="underline" n="1">
+                  <persName key="pmb10815">Bahr</persName>
+               </hi>
+            </p>
+            <p part="N">–</p>
+            <p part="N">
+               <date>September 1918</date>.</p>
+            <p part="N">Sollt man es für möglich halten!!!</p>
+            <p part="N">A. S.</p>
+            <p part="N">–</p>
+         </div>
+         <div>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>
+                  <hi rend="italic">TITO</hi>: Aber es könnte auch irgendwer bei ihm versteckt sein. Im Schrank – im <hi rend="underline" n="1" hand="pmb10815 pmb10863">Bett</hi> –</l>
+               <l part="N">
+                  <hi rend="italic">ANINA</hi>: Und warum vermutest du das?</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">Ein kleines rundes Ding. Und <hi rend="spaced_out">solch</hi> ein Näschen.</l>
+               <l part="N">Für zehn Dukaten konnt’ sie jeder
+               haben.</l>
+               <l part="N">Und wer ihr just gefiel, für zwei. Das nennt</l>
+               <l part="N">Sich Tänzerin. Die Sängerinnen
+                  sind</l>
+               <l part="N">Geradeso. Triumphe Casanovas!</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>
+                  <hi rend="italic">ANDREA</hi>:<space unit="chars" quantity="15"/> Als Dank –? Wofür – –?</l>
+               <l part="N">
+                  <hi rend="italic">ANINA</hi>: Daß ich ihm angehört in dieser Nacht.</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>
+                  <hi rend="italic">FLAMINIA</hi>: Ist’s möglich? Wie? Ward so was
+          je erhört?</l>
+               <l part="N">Auf keuschem Lager harr’ ich sehnsuchtsvoll,</l>
+               <l part="N">Und diese hier fängt mir
+          den Liebsten ab –?!</l>
+               <l part="N">Ins Leere durstig breitet sich mein Arm –</l>
+               <l part="N">Indessen schlingt
+          der ihre sich um ihn?! –</l>
+               <l part="N">Die Nachtluft trink’ <hi rend="spaced_out">ich</hi>, seine
+          Küsse <hi rend="spaced_out">die</hi> –</l>
+               <l part="N">Und während ich mit rotgeweintem Aug’</l>
+               <l part="N">Der
+          grauen Dämmrung wach entgegenstarre,</l>
+               <l part="N">Ist diese da in süßem Morgentraum,</l>
+               <l part="N">Der mir
+          gebührt, verrätrisch eingeschlummert?</l>
+               <l part="N">Hat solches Ausmaß von Verworfenheit</l>
+               <l part="N">In
+          einem Weiberherzen Raum? (<hi rend="italic">Zu Andrea gewandt:</hi>)</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>Mit Casanova sie bekannt gemacht,</l>
+               <l part="N">Den sie zum Dank sofort vom Mahle weg</l>
+               <l part="N">In ihr
+          wollüst’ges Bett zu locken weiß. – – (<hi rend="italic">Zu Anina</hi>)</l>
+               <l part="N">Ein <hi rend="spaced_out">Fräulein</hi> Sie? Aus gutem Bürgerhaus –?</l>
+               <l part="N">Ja, wer von solchem
+          unschuldsblassen Lärvchen</l>
+               <l part="N">Sich narren ließe! Wer in diesem zarten</l>
+               <l part="N">Hochmüt’gen
+          Antlitz nicht verruchter Laster</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>
+                  <hi rend="italic">ANINA</hi>: Doch nicht so laut, daß es Herr Santis hört.</l>
+               <l part="N">
+                  <hi rend="italic">FLAMINIA</hi>: Was geht mich Santis an? Die ganze Stadt</l>
+               <l part="N">Soll’s
+          wissen. Diebin! Mörderin! Verruchte!</l>
+               <l part="N">Das Fenster auf, Andrea, daß man’s hört.</l>
+               <l part="N">
+                  <hi rend="italic">ANINA</hi>: Gern will ich selbst –</l>
+               <l rend="center" part="N">(<hi rend="italic">als wollte sie zum Fenster</hi>).</l>
+               <l part="N">
+                  <hi rend="italic">FLAMINIA</hi> (<hi rend="italic">sie am Mantel haltend</hi>): Verworfne,
+          Schamvergeßne!</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>Sie zechte mit, sprach englisch mit dem Lord.</l>
+               <l part="N">Und wenn’s mir
+          recht ist, unterm Tisch französisch.</l>
+               <l part="N">Die nehmen wir auf uns, Herr Bassi, wie?</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>Des Zufalls Opfer, doch zugleich ihm dankbar,</l>
+               <l part="N">Jungfräulich-bräutlich, eh die Sonne sank</l>
+               <l part="N">Und eh sie aufging – eines Fremden
+          Dirne.</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>So daß sie der erschlichnen Lust nicht froh</l>
+               <l part="N">In neuem Durst
+          nach freigebotner schmachtet –,</l>
+               <l part="N">Die andre, die er zu umarmen wähnte</l>
+               <l part="N">Und die in
+          ungestillter Sehnsucht seufzt.</l>
+               <l part="N">Und jede hält ihr Recht allein begründet,</l>
+               <l part="N">Wie sie
+          der andern Recht für nichtig hält.</l>
+               <l part="N">Dem Jüngling aber sich zur Wahl zu stellen,</l>
+               <l part="N">Wie’s nahe läge, lehnen beide ab,</l>
+               <l part="N">Denn ist er nicht, wie jetzt, ein
+          Ahnungsloser,</l>
+               <l part="N">Vielmehr als wissend in den Fall verwickelt,</l>
+               <l part="N">So ward’s ein
+          anderer, völlig neuer Fall,</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>So also steht die Frage: Welcher Schwester</l>
+               <l part="N">
+                  <hi rend="underline" n="1" hand="pmb10815 pmb10863">Nach Herzensrecht</hi> gehört der Jüngling zu?</l>
+            </lg>
+            <p part="N">
+               <gap reason="outOfScope"/>
+            </p>
+            <lg type="poem">
+               <l part="N">
+                  <workName key="pmb30819"/>Als die Teresa eben mir bewies?</l>
+               <l part="N">
+                  <hi rend="spaced_out">Sie kehrte mir zurück.</hi> Nur das ist Treue,</l>
+               <l part="N">Die einz’ge, die
+          mit Fug so heißen darf.</l>
+               <l part="N">Denn was uns sonst Gewähr der Treue gilt,</l>
+               <l part="N">Das hält nicht
+          stand vor philosoph’scher Prüfung.</l>
+               <l part="N">Ist’s etwa ein Beweis, wenn hingegeben</l>
+               <l part="N">Nach
+          schwerem Kampf mit heißen Wollustzähren</l>
+               <l part="N">Die Tugend selbst in Ihre Arme sinkt?</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,144 +1,291 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030040"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a" key="A021182">Alfred Deutsch-German: Wiener Porträts. XLVI. Hermann Bahr, 5. 4. 1903</title><author key="A002132">Deutsch-German, Alfred</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno type="HBAS-T" n="040"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><sourceDesc><origDate when="19030405" n="1">5. 4. 1903</origDate><listBibl><biblStruct default="false"><analytic><author key="A002132">Deutsch-German, Alfred</author><title level="a" key="A021182">Wiener Porträts. XLVI. Hermann Bahr</title></analytic><monogr><title level="j" key="A080080">Neues Wiener Journal</title><imprint><date when="19030405">5. 4. 1903</date></imprint><biblScope unit="jg">10</biblScope><biblScope unit="nr">3391</biblScope><biblScope unit="pp">3</biblScope></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-DE">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20160227">Angelegt und kollationiert</change></revisionDesc></teiHeader><text type="article"><body><div><head>Wiener Porträts.</head><head type="sub">XLVI.<lb/><hi rend="bold"><persName key="A002002">Hermann Bahr</persName></hi>.</head><p>Schleierumhüllt liegt die Stadt noch im halben Winterschlaf, und draußen auf den freieren
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030040">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" key="pmb32280">Alfred Deutsch-German: Wiener Porträts. XLVI. Hermann Bahr, 5. 4. 1903</title>
+            <author key="pmb2288">Deutsch-German, Alfred</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="040"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19030405" n="1">5. 4. 1903</origDate>
+            <listBibl>
+               <biblStruct default="false">
+                  <analytic>
+                     <author key="pmb2288">Deutsch-German, Alfred</author>
+                     <title level="a" key="pmb32280">Wiener Porträts. XLVI. Hermann Bahr</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" key="pmb29320">Neues Wiener Journal</title>
+                     <imprint>
+                        <date when="19030405">5. 4. 1903</date>
+                     </imprint>
+                     <biblScope unit="jg">10</biblScope>
+                     <biblScope unit="nr">3391</biblScope>
+                     <biblScope unit="pp">3</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160227">Angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>Wiener Porträts.</head>
+            <head type="sub">XLVI.<lb/>
+               <hi rend="bold">
+                  <persName key="pmb10815">Hermann Bahr</persName>
+               </hi>.</head>
+            <p part="N">Schleierumhüllt liegt die Stadt noch im halben Winterschlaf, und draußen auf den freieren
           Höhen pocht der Frühling schon an die Thore. Da liegt der Garten in der jungfräulichen
           Pracht des Werdens, die Stöcke noch vom Reif umfangen, der Rasen aber schon fett und
           locker und erdig duftend. Ein letzter Sonnentag und die Keime tauchen empor ans Licht zur
           Auferstehung. – Ein Haus, eigenartig und sonderbar, paßt mit der Nüchternheit der Mauern,
           mit den Fenstern, die wie aufgerissene Mäuler aussehen, nicht recht in die herbe
-          Landschaft.</p><p>Nur ein Marillenbaum hat seine Blüthenpracht entfaltet und grüßt mit den bestreuten
+          Landschaft.</p>
+            <p part="N">Nur ein Marillenbaum hat seine Blüthenpracht entfaltet und grüßt mit den bestreuten
           Zweigen. Es ist schier unangenehm, daß die Natur sich nicht dazu verstehen will, einem
           modernen Haus die richtige Stimmung zu geben, die Blüthen sollten größer, die Zweige
-          geradliniger sein.</p><p>Und vollends stört der Hausherr. Da kommt ein Mann, der bisher in der Sonne gesessen,
+          geradliniger sein.</p>
+            <p part="N">Und vollends stört der Hausherr. Da kommt ein Mann, der bisher in der Sonne gesessen,
           groß und kräftig mit durchaus unregelmäßigem Gang, von Antlitz finster und noch
           furchtbarer durch Kleidung und Begleitschaft. Jägermäßig ist seine Tracht, der
           aufgestülpte Hut, die Wadenstrümpfe und zwei böse Hunde an der Koppel vervollständigen den
-          Eindruck: <rs type="work" key="A020907"><anchor type="commentary" xml:id="KT040-10" >Kaspar</anchor>, der wilde Jäger</rs>. Aber es ist nur <persName key="A002002">Hermann
-            Bahr</persName> in seiner Behausung in <placeName key="A000365">Ober-St. Veit</placeName>. Wir treten
+          Eindruck: <rs type="work" key="pmb31731">
+                  <anchor type="commentary" xml:id="KT040-10">Kaspar</anchor>, der wilde Jäger</rs>. Aber es ist nur <persName key="pmb10815">Hermann
+            Bahr</persName> in seiner Behausung in <placeName key="pmb165">Ober-St. Veit</placeName>. Wir treten
           in das Haus und der grün-blaue Zauber umfängt mich bald. Da gibt es Räumlichkeiten, klein
           und zierlich und größer, bauernmäßig, aber es ist Alles luftig und licht und man sieht
           sich so was riesig gern an und freut sich noch mehr, wenn man draußen ist. Aber das muß
-          wohl Gewohnheit sein. Ich habe mich in der Villa <persName key="A002002">Bahr</persName> gründlich unmöglich gemacht, denn
+          wohl Gewohnheit sein. Ich habe mich in der Villa <persName key="pmb10815">Bahr</persName> gründlich unmöglich gemacht, denn
           ich hielt mir die Augen zu, als wir über einen grellblauen Teppich schritten; das soll
-          nicht die richtige Auffassung <persName key="A003161">Olbrich</persName>’scher Kunst sein. – Aber es
+          nicht die richtige Auffassung <persName key="pmb3368">Olbrich</persName>’scher Kunst sein. – Aber es
           gibt hier schöne Bilder von den Größen der neuen Kunst, und man sieht deutlich, wie sie
           den Rahmen heben. Niemals schienen mir auch Tulpen so wunderbar farbig und fein als in dem
           blauen Zimmer, da sie ihre Köpfe hochauf, fast duftvoll zur Decke strecken. Und vom
           Mittelzimmer sieht man weit hinaus ins Land und freut sich der Nebelgebilde, die über den
-          Städten hängen. Der echte <persName key="A002002">Bahr</persName> aber zeigt sich mir im Studirzimmer.
-          Es ist den schönen Künsten und vor Allem <persName key="A002774">Klimt</persName> geweiht. Da grüßt im
-          Mittelfeld die »<workName key="A020946">Wahrheit</workName>« mit dem häßlichen Antlitz und dem violetten
+          Städten hängen. Der echte <persName key="pmb10815">Bahr</persName> aber zeigt sich mir im Studirzimmer.
+          Es ist den schönen Künsten und vor Allem <persName key="pmb11941">Klimt</persName> geweiht. Da grüßt im
+          Mittelfeld die »<workName key="pmb31809">Wahrheit</workName>« mit dem häßlichen Antlitz und dem violetten
           Leib, und läßt an aller frauenhaften Anmuth zweifeln. Aber es bannt den Besucher wohl und
           kann ihn in noch so gesättigter Laune zum Nachdenken bringen. Und das Ganze ist ein
           Tempel, nur daß dieses <anchor type="commentary" xml:id="KT040-1">Bild von Sais</anchor> sich Einem immerfort aufdrängt
-          und die Nerven bedroht. Denn <persName key="A002002">Bahr</persName> hat dem <rs type="person" key="A003161" subtype="local">Erbauer des
-            Hauses</rs> klar seine Ansicht kundgethan, für die <workName key="A020946">Wahrheit</workName><space unit="chars" quantity="1"/><persName key="A002774">Klimt</persName>’s sollte ein Raum geschaffen
+          und die Nerven bedroht. Denn <persName key="pmb10815">Bahr</persName> hat dem <rs type="person" key="pmb3368" subtype="local">Erbauer des
+            Hauses</rs> klar seine Ansicht kundgethan, für die <workName key="pmb31809">Wahrheit</workName>
+               <space unit="chars" quantity="1"/>
+               <persName key="pmb11941">Klimt</persName>’s sollte ein Raum geschaffen
           werden, der das Bild in den Vordergrund drängt und alles Andere in Form und Farbe ihm zu
-          Füßen legt. Das ist nun trefflich gelungen.</p><p><persName key="A002002">Bahr</persName> erzählt Wundervolles von dem Bild. Es hält ihn in Stimmung, es
+          Füßen legt. Das ist nun trefflich gelungen.</p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> erzählt Wundervolles von dem Bild. Es hält ihn in Stimmung, es
           stärkt und kräftigt. Tritt er früh Morgens in sein Zimmer, dann ist die
-          <workName key="A020946">Wahrheit</workName> vom Licht umfluthet, dann erlebt er etwas wie
+          <workName key="pmb31809">Wahrheit</workName> vom Licht umfluthet, dann erlebt er etwas wie
           Sonnenaufgang. Und stets, auch in trüben Tagen, hat das Bild seine Kraft gewahrt. Da
-          begreift sich’s, daß er es liebt.</p><p>Wir sprechen nun von <persName key="A002774">Klimt</persName>, und <persName key="A002002">Hermann Bahr</persName>
+          begreift sich’s, daß er es liebt.</p>
+            <p part="N">Wir sprechen nun von <persName key="pmb11941">Klimt</persName>, und <persName key="pmb10815">Hermann Bahr</persName>
           nennt ihn einen großen, fertigen Menschen, der nur wie zufällig hier lebt, der aber mit
-          seiner Kunst so wahr ist, wie etwa die <placeName key="A000366"><country>Franzosen</country></placeName>. Er zeigt mir die
-          Bilder der <persName key="A002057">Duse</persName>, die sie zumeist in welker Sinnlichkeit wiedergeben.
+          seiner Kunst so wahr ist, wie etwa die <placeName key="pmb166">
+                  <country>Franzosen</country>
+               </placeName>. Er zeigt mir die
+          Bilder der <persName key="pmb11201">Duse</persName>, die sie zumeist in welker Sinnlichkeit wiedergeben.
           Wie theuer sie ihm ist, das weist wohl ein Spruch der Künstlerin, der mit fester,
-          erzwungener Männlichkeit über der Eingangsthür zu seinen Zimmern prangt.</p><p>Und dann sprechen wir im Studirzimmer von all den tausend Dingen, über die der erfahrene,
+          erzwungener Männlichkeit über der Eingangsthür zu seinen Zimmern prangt.</p>
+            <p part="N">Und dann sprechen wir im Studirzimmer von all den tausend Dingen, über die der erfahrene,
           kluge, geistvolle Hausherr wie selten Einer zu sprechen weiß. Er stand Pathe, da viel
           große Dinge entstanden, aber sein Ruhm übertrifft seine Thaten und er hat nur das Ueble,
           daß alle Auswüchse, alle Phrasen auf sein Conto kommen. Er lächelt und ereifert sich
           darüber nicht, er gibt gern zu, daß viel hinter ihm liegt, daß er gesucht, getastet hat.
           Aber er vertritt das nur so beiläufig. Und so fand ich keinen Feuergeist, athme nur sein
           Temperament und war am meisten enttäuscht, als ich die Bahr-Locke verschwunden fand, die
-          so lange richtunggebend für das Aeußere junger Talente war.</p><p>Ein Gast kam, da wir eben sprachen, und ich muß ihn einführen, denn es ist Dr.
-            <persName key="A002001">Arthur Schnitzler</persName>. Der machte sich’s nun gleich bequem, und es
+          so lange richtunggebend für das Aeußere junger Talente war.</p>
+            <p part="N">Ein Gast kam, da wir eben sprachen, und ich muß ihn einführen, denn es ist Dr.
+            <persName key="pmb2121">Arthur Schnitzler</persName>. Der machte sich’s nun gleich bequem, und es
           schien ihm ein Vergnügen, zu sehen, wie ein Anderer porträtirt wird.
-            <persName key="A002002">Bahr</persName> ist sehr leicht zu treffen, und er macht Einem die Arbeit auch
+            <persName key="pmb10815">Bahr</persName> ist sehr leicht zu treffen, und er macht Einem die Arbeit auch
           angenehm. Kennt er doch selbst das Metier und weiß, daß es nichts Angenehmeres gibt, als
-          auf ein Modell zu stoßen, das Kanten und Ecken hat, an die man den Meißel setzt.</p><p>»Ob er seinen Einfluß auf die Auswüchse der Modernen in Literatur und Kunst zugesteht
-          oder ob es Legenden sind, die ihm die vielen Vaterschaften zusprechen?« </p><p><persName key="A002002">Bahr</persName> lächelt und zögert mit der Antwort, und
-            <persName key="A002001">Schnitzler</persName> meint mit seiner feinen, gut abgetönten Stimme: »Ist das
-          nicht ein bißchen zu grob?«</p><p>Herr <persName key="A002002">Bahr</persName> verwahrt sich dagegen, so vieles Unfruchtbare gezeugt zu
-          haben. Es sind also Legenden. »Denken Sie,« sagt er, »<persName key="A003779">Mirbeau</persName>
-          entdeckt <persName key="A002077">Maeterlinck</persName> in
-             <placeName key="A000382"><settlement>Paris</settlement></placeName> und ich führe den Dichter, durch
-          den <anchor type="commentary" xml:id="KT040-5" ><rs type="work" key="A020947">Artikel</rs></anchor> im ›<orgName  key="A080948">Figaro</orgName>‹ angeregt, in
-              <placeName key="A000250"><settlement>Wien</settlement></placeName> als <anchor type="commentary" xml:id="KT040-4" >Conferencier</anchor> ein. Bin ich da
-          der Vater? – Oder denken Sie vielleicht, daß ich die <placeName key="A000207">Secession</placeName>
-          erfunden habe, oder daß ich an den Versen <persName key="A002011">Hofmannsthal</persName>s Schuld
-          trage?« – </p><p>Und das Café <placeName key="A000234">Griensteidl</placeName>? Die legendarische Kaffeehausliteratur?</p><p><persName key="A002002">Bahr</persName> lächelt und <persName key="A002001">Schnitzler</persName> greift in die
+          auf ein Modell zu stoßen, das Kanten und Ecken hat, an die man den Meißel setzt.</p>
+            <p part="N">»Ob er seinen Einfluß auf die Auswüchse der Modernen in Literatur und Kunst zugesteht
+          oder ob es Legenden sind, die ihm die vielen Vaterschaften zusprechen?« </p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> lächelt und zögert mit der Antwort, und
+            <persName key="pmb2121">Schnitzler</persName> meint mit seiner feinen, gut abgetönten Stimme: »Ist das
+          nicht ein bißchen zu grob?«</p>
+            <p part="N">Herr <persName key="pmb10815">Bahr</persName> verwahrt sich dagegen, so vieles Unfruchtbare gezeugt zu
+          haben. Es sind also Legenden. »Denken Sie,« sagt er, »<persName key="pmb8948">Mirbeau</persName>
+          entdeckt <persName key="pmb12156">Maeterlinck</persName> in
+             <placeName key="pmb182">
+                  <settlement>Paris</settlement>
+               </placeName> und ich führe den Dichter, durch
+          den <anchor type="commentary" xml:id="KT040-5">
+                  <rs type="work" key="pmb31811">Artikel</rs>
+               </anchor> im ›<orgName key="pmb29706">Figaro</orgName>‹ angeregt, in
+              <placeName key="pmb50">
+                  <settlement>Wien</settlement>
+               </placeName> als <anchor type="commentary" xml:id="KT040-4">Conferencier</anchor> ein. Bin ich da
+          der Vater? – Oder denken Sie vielleicht, daß ich die <placeName key="pmb7">Secession</placeName>
+          erfunden habe, oder daß ich an den Versen <persName key="pmb11740">Hofmannsthal</persName>s Schuld
+          trage?« – </p>
+            <p part="N">Und das Café <placeName key="pmb34">Griensteidl</placeName>? Die legendarische Kaffeehausliteratur?</p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> lächelt und <persName key="pmb2121">Schnitzler</persName> greift in die
           Debatte ein. Der Eine erklärt, in seinem Leben nur zweimal mit
-            <persName key="A002001">Schnitzler</persName> und <persName key="A002011">Hofmannsthal</persName> zusammen in dem
+            <persName key="pmb2121">Schnitzler</persName> und <persName key="pmb11740">Hofmannsthal</persName> zusammen in dem
           genannten Café gewesen zu sein, der Zweite ist geärgert darüber, daß man noch immer in
           »trefflich« informirten Zeitschriften von ihm als Kaffeehausdichter spricht. Und ich
-          entnehme den Ausführungen Folgendes: Das mit dem Café <placeName key="A000234">Griensteidl</placeName>
-          und den großen Schlagworten, die dort von <persName key="A002002">Bahr</persName> ausgegeben worden sein
-          sollen, ist Erfindung und Eselei. Aber <persName key="A002002">Bahr</persName> amüsirt sich darüber, daß
+          entnehme den Ausführungen Folgendes: Das mit dem Café <placeName key="pmb34">Griensteidl</placeName>
+          und den großen Schlagworten, die dort von <persName key="pmb10815">Bahr</persName> ausgegeben worden sein
+          sollen, ist Erfindung und Eselei. Aber <persName key="pmb10815">Bahr</persName> amüsirt sich darüber, daß
           die Legende noch heute erhalten ist. Er will Mode gemacht haben vor Jahren in
-              <placeName key="A000368"><settlement>Berlin</settlement></placeName>, als er,
-            <persName key="A003608">Tovote</persName> und <persName key="A002133">Holz</persName> einen neuen Stil creirten.
+              <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName>, als er,
+            <persName key="pmb12965">Tovote</persName> und <persName key="pmb11763">Holz</persName> einen neuen Stil creirten.
           Damals liebte er die kurzen Sätze, die Gedanken mußten knapper präcisirt sein, die
           durchwachten Nächte trugen auch Schuld daran. Und Andere machtens ihm nach. Heute ist das
           anders, er ertappt sich auf langwierigen Perioden und bringt das mit seiner veränderten
-          Herzthätigkeit, mit Vielschreiberei und Lectüre zusammen.</p><p>Wir kommen auf Kritik und ihren Einfluß auf den schaffenden Künstler.</p><p><persName key="A002002">Bahr</persName> gibt seine Ansicht kund, die dahin geht, daß der
+          Herzthätigkeit, mit Vielschreiberei und Lectüre zusammen.</p>
+            <p part="N">Wir kommen auf Kritik und ihren Einfluß auf den schaffenden Künstler.</p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> gibt seine Ansicht kund, die dahin geht, daß der
           Kritiker lediglich fürs Publicum sein Amt ausübt. Belehrung der Leute ist seine Mission,
-          für den Künstler ist sie bedeutungslos. Denn <persName key="A002002">Bahr</persName>
+          für den Künstler ist sie bedeutungslos. Denn <persName key="pmb10815">Bahr</persName>
           glaubt nicht, daß der Künstler durch das Wort des Tadels oder des Lobes ein Anderer werden
-          kann, und gerade so wenig der Dichter.</p><p>»Die schlechte Kritik hat also keinen Einfluß?« </p><p>»Auf den Künstler nicht!« </p><p>»Doch,« unterbricht <persName key="A002001">Schnitzler</persName>, »er giftet sich.« </p><p>Und wir sind nun mitten im Thema: Ungerechte, persönliche Beurtheilung, Verrohung der
-          Theaterkritik.</p><p><persName key="A002002">Bahr</persName> mag die Kritik nicht, die persönlich wird und hat den Stachel selbst empfunden, als
-          man beispielsweise nach seinem »<workName key="A020034">Apostel</workName>« schrieb: 
-              »<anchor type="commentary" xml:id="KT040-6" ><rs type="work" key="A020926">Der Dichter, der eine Villa in <placeName key="A000365">Ober-St. Veit</placeName> besitzt</rs></anchor><space 
-                unit="chars" quantity="1"/><c rendition="#dots" n="3" place="center"/><space unit="chars" 
-                  quantity="1"/><c rendition="#kaufmannsund"/>c.« <persName key="A002001">Schnitzler</persName> denkt milder, er will nur nicht, daß die Kritik
-          böswillig sei; schließlich ist er der Ansicht, daß der <anchor type="commentary" xml:id="KT040-7" ><persName key="A002062">Sudermann</persName>’sche 
+          kann, und gerade so wenig der Dichter.</p>
+            <p part="N">»Die schlechte Kritik hat also keinen Einfluß?« </p>
+            <p part="N">»Auf den Künstler nicht!« </p>
+            <p part="N">»Doch,« unterbricht <persName key="pmb2121">Schnitzler</persName>, »er giftet sich.« </p>
+            <p part="N">Und wir sind nun mitten im Thema: Ungerechte, persönliche Beurtheilung, Verrohung der
+          Theaterkritik.</p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> mag die Kritik nicht, die persönlich wird und hat den Stachel selbst empfunden, als
+          man beispielsweise nach seinem »<workName key="pmb29887">Apostel</workName>« schrieb: 
+              »<anchor type="commentary" xml:id="KT040-6">
+                  <rs type="work" key="pmb31769">Der Dichter, der eine Villa in <placeName key="pmb165">Ober-St. Veit</placeName> besitzt</rs>
+               </anchor>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#dots" n="3" place="center"/>
+               <space unit="chars" quantity="1"/>
+               <c rendition="#kaufmannsund"/>c.« <persName key="pmb2121">Schnitzler</persName> denkt milder, er will nur nicht, daß die Kritik
+          böswillig sei; schließlich ist er der Ansicht, daß der <anchor type="commentary" xml:id="KT040-7">
+                  <persName key="pmb12899">Sudermann</persName>’sche 
             Rummel</anchor> nicht sehr begründet war, denn das persönliche Moment
-          bei der Beurtheilung hätten schon <persName key="A002060">Goethe</persName> und <persName key="A002203">Schiller</persName> empfinden müssen. Ein gesuchter Witz in einem Referat
+          bei der Beurtheilung hätten schon <persName key="pmb11461">Goethe</persName> und <persName key="pmb12654">Schiller</persName> empfinden müssen. Ein gesuchter Witz in einem Referat
           sei aber keine so himmelschreiende Sache, denn »ein guter Spaß ist mir lieber, als ein
-          schlechtes Stück«.</p><p>Ein schlechter Kritiker kann mich nicht ändern, sagt Herr <persName key="A002002">Bahr</persName>, aber
+          schlechtes Stück«.</p>
+            <p part="N">Ein schlechter Kritiker kann mich nicht ändern, sagt Herr <persName key="pmb10815">Bahr</persName>, aber
           ein weiser Kritiker kann es wohl dazu bringen, daß ich in Erkennung meiner Mängel mein
           Werk aufgebe. Und dazu kann den Dichter der Kritiker bewegen; das zeigt sich trefflich bei
-            <persName key="A002092">Grillparzer</persName>, den die Kritik verbittert hat und nicht die Censur. Es
-          ist höchst überflüssig, wenn ich von <persName key="A002001">Schnitzler</persName> beispielsweise
-          schreibe, daß ihm zum <persName key="A002207">Shakespeare</persName> etwas fehlt. Das kann ihn nicht
+            <persName key="pmb11518">Grillparzer</persName>, den die Kritik verbittert hat und nicht die Censur. Es
+          ist höchst überflüssig, wenn ich von <persName key="pmb2121">Schnitzler</persName> beispielsweise
+          schreibe, daß ihm zum <persName key="pmb2412">Shakespeare</persName> etwas fehlt. Das kann ihn nicht
           besser machen, denn er weiß, daß ihm nur Eines dazu fehlt: das Talent. Nicht wahr, das
-          stimmt doch! Und <persName key="A002001">Schnitzler</persName> bejaht.</p><p><persName key="A002002">Bahr</persName> fuhr mit <persName key="A002062">Sudermann</persName> nach der <anchor type="commentary" xml:id="KT040-8" >Première der »<workName key="A020949">Drei
-            Reiherfedern</workName>«</anchor> nach <placeName key="A000368"><settlement>Berlin</settlement></placeName> und
-          merkte dem Dichter schon im Coupé an, daß er mit der »<workName key="A020950">Verrohung in der
-            Kritik</workName>« schwanger ging. <persName key="A002062">Sudermann</persName> war beispielsweise von
-          einem <anchor type="commentary" xml:id="KT040-9" >Referat gekränkt</anchor>, in dem von seinem schönen Bart die Rede war. Herr
-            <persName key="A002001">Schnitzler</persName> erklärt, ihn würde das nicht ärgern, und Herr
-            <persName key="A002002">Bahr</persName> ist der gleichen Meinung.</p><p>Wir kommen auf die Schauspielkunst der <persName key="A002057">Duse</persName>. Ob Herr
-            <persName key="A002002">Bahr</persName> der Ansicht ist, daß ihre Kunst auf die deutschen
-          Schauspielerinnen gewirkt hat? </p><p>Herr <persName key="A002002">Bahr</persName> verneint sehr energisch. »Nein, sie haben nichts gelernt
+          stimmt doch! Und <persName key="pmb2121">Schnitzler</persName> bejaht.</p>
+            <p part="N">
+               <persName key="pmb10815">Bahr</persName> fuhr mit <persName key="pmb12899">Sudermann</persName> nach der <anchor type="commentary" xml:id="KT040-8">Première der »<workName key="pmb31815">Drei
+            Reiherfedern</workName>«</anchor> nach <placeName key="pmb168">
+                  <settlement>Berlin</settlement>
+               </placeName> und
+          merkte dem Dichter schon im Coupé an, daß er mit der »<workName key="pmb31817">Verrohung in der
+            Kritik</workName>« schwanger ging. <persName key="pmb12899">Sudermann</persName> war beispielsweise von
+          einem <anchor type="commentary" xml:id="KT040-9">Referat gekränkt</anchor>, in dem von seinem schönen Bart die Rede war. Herr
+            <persName key="pmb2121">Schnitzler</persName> erklärt, ihn würde das nicht ärgern, und Herr
+            <persName key="pmb10815">Bahr</persName> ist der gleichen Meinung.</p>
+            <p part="N">Wir kommen auf die Schauspielkunst der <persName key="pmb11201">Duse</persName>. Ob Herr
+            <persName key="pmb10815">Bahr</persName> der Ansicht ist, daß ihre Kunst auf die deutschen
+          Schauspielerinnen gewirkt hat? </p>
+            <p part="N">Herr <persName key="pmb10815">Bahr</persName> verneint sehr energisch. »Nein, sie haben nichts gelernt
           von ihr, oder doch Einiges. Sie zerraufen sich die Haare, tragen keine Mieder und gefallen
-          sich in den unmöglichsten Schaukelbewegungen.« – Herr <persName key="A002002">Bahr</persName> zeigt mir
+          sich in den unmöglichsten Schaukelbewegungen.« – Herr <persName key="pmb10815">Bahr</persName> zeigt mir
           diese Darstellungskunst sehr drastisch, indem er seine noch immer stattliche Mähne kraut
           und im Sessel lustige Wippübungen macht. Und er hält überhaupt nichts von dem Ablernen,
           dem Copiren. Es werden Namen genannt von Leuten, die Jeder auf seiner Walze hat, und dann
-          zwei, die nicht nachzuahmen sind: <persName key="A003780">Baumeister</persName>,
-            <persName key="A002046">Mitterwurzer</persName>. Schnitzler nennt auch den Namen
-            <persName key="A002039">Girardi</persName>, und wie es kommt, daß seine unantastbare Originalität so
-          viele Nachbeter verträgt.</p><p>»Das hat schon seinen Grund,« sagt <persName key="A002002">Bahr</persName>. »Er schöpft eben aus dem
+          zwei, die nicht nachzuahmen sind: <persName key="pmb28476">Baumeister</persName>,
+            <persName key="pmb12265">Mitterwurzer</persName>. Schnitzler nennt auch den Namen
+            <persName key="pmb11441">Girardi</persName>, und wie es kommt, daß seine unantastbare Originalität so
+          viele Nachbeter verträgt.</p>
+            <p part="N">»Das hat schon seinen Grund,« sagt <persName key="pmb10815">Bahr</persName>. »Er schöpft eben aus dem
           Volk und es ist nur ein Beweis seiner Echtheit, wenn Viele so sprechen wie er. Ich kenne
-          einen <rs type="person" key="A004383">Bäcker</rs>, der zur Zeit meinem <rs type="person" key="A004382">Stubenmädchen</rs> den Hof macht, und ich
-          kann nicht genug staunen, wie er dem <persName key="A002039">Girardi</persName> in Gesten und Worten
+          einen <rs type="person" key="pmb27726">Bäcker</rs>, der zur Zeit meinem <rs type="person" key="pmb27725">Stubenmädchen</rs> den Hof macht, und ich
+          kann nicht genug staunen, wie er dem <persName key="pmb11441">Girardi</persName> in Gesten und Worten
           ähnelt, obzwar es sicher anzunehmen ist, daß er ihn vielleicht nur einmal in seinem Leben
-          auf der Bühne gesehen hat –.« </p><p>Ob man Journalist und Bühnenschriftsteller sein kann, ohne in einem eine
-          Nebenbeschäftigung erblicken zu müssen? </p><p><persName key="A002001">Arthur Schnitzler</persName> läßt die Fragestellung nicht zu:
-          »Das dürfen Sie doch nicht <persName key="A002002">Bahr</persName> fragen, der Beides ist,
+          auf der Bühne gesehen hat –.« </p>
+            <p part="N">Ob man Journalist und Bühnenschriftsteller sein kann, ohne in einem eine
+          Nebenbeschäftigung erblicken zu müssen? </p>
+            <p part="N">
+               <persName key="pmb2121">Arthur Schnitzler</persName> läßt die Fragestellung nicht zu:
+          »Das dürfen Sie doch nicht <persName key="pmb10815">Bahr</persName> fragen, der Beides ist,
           denn über sich selbst kann man nicht bei Beantwortung einer Frage stehen. Ich glaube aber,
-          daß <persName key="A002060">Goethe</persName>, <persName key="A003781">Lessing</persName>
-          und <persName key="A002205">Hebbel</persName> den Befähigungsnachweis erbracht haben, sie
+          daß <persName key="pmb11461">Goethe</persName>, <persName key="pmb12053">Lessing</persName>
+          und <persName key="pmb2404">Hebbel</persName> den Befähigungsnachweis erbracht haben, sie
           waren Kritiker, Journalisten, Schriftsteller; man kann Arzt sein als Schriftsteller, man
-          kann Taschendieb sein, man muß nur Zeit genug haben  <c rendition="#dots" n="3"/>« </p><p>Wie <persName key="A002002">Hermann Bahr</persName> arbeitet? </p><p>Es muß ihm etwas einfallen, blitzmäßig muß es ihn erleuchten, das Andere geht dann
-          leicht: der Weg von <placeName key="A000263">Hietzing</placeName> nach seiner Wohnung in
-            <placeName key="A000365">Ober-St. Veit</placeName> kommt ihm prächtig zustatten, da kommen die
-          hübschesten Ideen. Auch <persName key="A002001">Schnitzler</persName> ist gern allein bei der ersten
-          Arbeit, er liebt noch die Ortsveränderung, das Radfahren.</p><p>Wir begeben uns ins blaue Zimmer und ich verabschiede mich. Da sieht man, was die
+          kann Taschendieb sein, man muß nur Zeit genug haben  <c rendition="#dots" n="3"/>« </p>
+            <p part="N">Wie <persName key="pmb10815">Hermann Bahr</persName> arbeitet? </p>
+            <p part="N">Es muß ihm etwas einfallen, blitzmäßig muß es ihn erleuchten, das Andere geht dann
+          leicht: der Weg von <placeName key="pmb63">Hietzing</placeName> nach seiner Wohnung in
+            <placeName key="pmb165">Ober-St. Veit</placeName> kommt ihm prächtig zustatten, da kommen die
+          hübschesten Ideen. Auch <persName key="pmb2121">Schnitzler</persName> ist gern allein bei der ersten
+          Arbeit, er liebt noch die Ortsveränderung, das Radfahren.</p>
+            <p part="N">Wir begeben uns ins blaue Zimmer und ich verabschiede mich. Da sieht man, was die
           Gewohnheit ausmacht, die grellen Reflexe wirken jetzt nicht mehr so störend, und man
           wünschte in diesem Raume eine Frau zu sehen, mit rothem Haar und angethan mit weißen,
-          losen Gewändern.</p><p>Noch einmal kommt das Gespräch auf vergangene Zeit. »Weißt Du noch,« sagt <persName key="A002001">Schnitzler</persName>, »wie wir an jenem Abend 
-              zusammensaßen im <placeName key="A000728"><anchor type="commentary" xml:id="KT040-2">Lothringer Bierhaus</anchor></placeName> und Du
-          das <anchor type="commentary" xml:id="KT040-3" >Wort »die Moderne«, kurz vorher geprägt, auf den Antrag eines Gastes zurücknahmst</anchor>? Es
-          war lustig!« – Und <persName key="A002002">Bahr</persName> lacht herzlich in der
-          Erinnerung an jenen Abend, es war ja doch eine Zeit, die Männer zum Reifen brachte.</p><p>Auf dem Heimweg schien mir die Natur fabelhaft unecht. <persName key="A002002">Bahr</persName>’s Stolz, der Marillenbaum hatte violette Flecke und sein Haus war in
+          losen Gewändern.</p>
+            <p part="N">Noch einmal kommt das Gespräch auf vergangene Zeit. »Weißt Du noch,« sagt <persName key="pmb2121">Schnitzler</persName>, »wie wir an jenem Abend 
+              zusammensaßen im <placeName key="pmb527">
+                  <anchor type="commentary" xml:id="KT040-2">Lothringer Bierhaus</anchor>
+               </placeName> und Du
+          das <anchor type="commentary" xml:id="KT040-3">Wort »die Moderne«, kurz vorher geprägt, auf den Antrag eines Gastes zurücknahmst</anchor>? Es
+          war lustig!« – Und <persName key="pmb10815">Bahr</persName> lacht herzlich in der
+          Erinnerung an jenen Abend, es war ja doch eine Zeit, die Männer zum Reifen brachte.</p>
+            <p part="N">Auf dem Heimweg schien mir die Natur fabelhaft unecht. <persName key="pmb10815">Bahr</persName>’s Stolz, der Marillenbaum hatte violette Flecke und sein Haus war in
           grelles Roth getaucht, seine Hunde aber bellten blau. Ich glaube, so muß es jedem Naivling
-          ergehen, der auszieht, die Wahrheit zu schauen. <c rendition="#dots" n="3" place="center"/><space unit="chars" quantity="1"/><signed><hi rend="antiqua">A. D.-G.</hi></signed></p></div></body></text></TEI>
+          ergehen, der auszieht, die Wahrheit zu schauen. <c rendition="#dots" n="3" place="center"/>
+               <space unit="chars" quantity="1"/>
+               <signed>
+                  <hi rend="antiqua">A. D.-G.</hi>
+               </signed>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,39 +1,117 @@
-<?xml version="1.0" encoding="utf-8"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041135"><teiHeader type="text"><fileDesc><titleStmt><title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title><title level="a">Tagebuch von Arthur Schnitzler, 30. 1. 1895</title><author key="A002001">Schnitzler, Arthur</author><editor><name full="yes" instant="false">Ifkovits, Kurt</name><name full="yes" instant="false">Müller, Martin Anton</name></editor><funder><name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name><address><street>Sensengasse 1</street><postCode>1090 Wien</postCode><placeName><country>A</country><settlement>Wien</settlement></placeName></address></funder></titleStmt><editionStmt><edition>HBAS</edition><respStmt><resp>Transkription und Kommentierung</resp><name full="yes" instant="false">Kurt Ifkovits</name><name full="yes" instant="false">Martin Anton Müller</name></respStmt></editionStmt><publicationStmt><publisher>Theatermuseum, Wien</publisher><idno n="135" type="HBAS-D"/><availability status="free"><p>Copyright © 2017</p></availability></publicationStmt><seriesStmt><p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
-        Schnitzler</p></seriesStmt><sourceDesc><listBibl><biblStruct corresp="ASTB" default="false"><monogr><author key="A002001">Schnitzler, Arthur</author><title level="m">Tagebuch 1893–1902</title><editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041135">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 30. 1. 1895</title>
+            <author key="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placeName>
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placeName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="135" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
+        Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB" default="false">
+                  <monogr>
+                     <author key="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne
            Pertlik und Reinhard Urbach hg. v. der Kommission für literarische
            Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann:
-           Werner Welzig</editor><imprint><pubPlace>Wien</pubPlace><publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher><date when="1989">1989</date></imprint></monogr></biblStruct></listBibl></sourceDesc></fileDesc><profileDesc><langUsage><language ident="de-AT">German</language></langUsage></profileDesc><revisionDesc status="candidate"><change who="MAM" when="20151111">angelegt</change></revisionDesc></teiHeader><text type="diaryDay"><body><div type="writingSession" n="1"><p><date when="18950130" n="1">30/1</date> Bei <persName key="A002002">Bahr</persName>.
-               Hat gestern mit <persName key="A002000">Burckhard</persName> gesprochen; der
-               vorgestern bei <persName key="A002018">Dilly</persName> war. Hatte von 5 Rollen
-               gesprochen, und <persName key="A002000">Brkh.</persName> (Erzählung <persName key="A002002">Bahr’s</persName>!) hatte die Empfindung, dass sie eigentlich von
-               meinem <rs type="work" key="A020049">Stück</rs> und ihrer Rolle wenig halte. <persName key="A002002">Bahr</persName> theilte ihm den ungefähren Sachverhalt mit.
-                  (<persName key="A002000">Burckh.</persName>: »Sie wird ihn halt betrogen haben,
-               das hätt er sich ja bei der <persName key="A002018">D.</persName> denken können. Aber
+           Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950130" n="1">30/1</date> Bei <persName key="pmb10815">Bahr</persName>.
+               Hat gestern mit <persName key="pmb11036">Burckhard</persName> gesprochen; der
+               vorgestern bei <persName key="pmb12618">Dilly</persName> war. Hatte von 5 Rollen
+               gesprochen, und <persName key="pmb11036">Brkh.</persName> (Erzählung <persName key="pmb10815">Bahr’s</persName>!) hatte die Empfindung, dass sie eigentlich von
+               meinem <rs type="work" key="pmb29917">Stück</rs> und ihrer Rolle wenig halte. <persName key="pmb10815">Bahr</persName> theilte ihm den ungefähren Sachverhalt mit.
+                  (<persName key="pmb11036">Burckh.</persName>: »Sie wird ihn halt betrogen haben,
+               das hätt er sich ja bei der <persName key="pmb12618">D.</persName> denken können. Aber
                in zehn Tagen sind’s entweder gut, oder sie hat einen andern Geliebten – wozu hab ich
-               denn die vielen feschen jungen Leut’an der <placeName key="A000214">Burg</placeName>?
-               Den <persName key="A002566">Zeska</persName> und den <persName key="A002110">Reimers</persName> etc.«) Abend war <persName key="A002002">Bahr</persName> bei
-                  <persName key="A002018">Dilly</persName>, ich könne (so hatt ich ihr sagen lassen)
+               denn die vielen feschen jungen Leut’an der <placeName key="pmb14">Burg</placeName>?
+               Den <persName key="pmb13180">Zeska</persName> und den <persName key="pmb12498">Reimers</persName> etc.«) Abend war <persName key="pmb10815">Bahr</persName> bei
+                  <persName key="pmb12618">Dilly</persName>, ich könne (so hatt ich ihr sagen lassen)
                jetzt erst recht nicht mit ihr verkehren, bevor sie die Rolle spielen wolle, da das
                so herauskäme, als verkehrte ich mit ihr, <hi rend="italic">um</hi> sie dazu zu
-               bewegen.– <persName key="A002018">Dilly</persName> unter Thränen, ja sie wolle es als
-               4. Rolle spielen; beschimpfte <persName key="A002035">Salten</persName> unerhört und
-               läugnet alles.– Zum Schluss macht mich <persName key="A002002">Bahr</persName> auf
-               infame Gerüchte aufmerksam welche die Familie <rs type="person" key="A002349 A002350 A002351">S.</rs>
+               bewegen.– <persName key="pmb12618">Dilly</persName> unter Thränen, ja sie wolle es als
+               4. Rolle spielen; beschimpfte <persName key="pmb2167">Salten</persName> unerhört und
+               läugnet alles.– Zum Schluss macht mich <persName key="pmb10815">Bahr</persName> auf
+               infame Gerüchte aufmerksam welche die Familie <rs type="person" key="pmb12621 pmb2589 pmb2591">S.</rs>
                (die hetzen schon seit November gegen dich) über mich in Umlauf setze (»Es ist
-               besser, wenn du das von einem guten Freund erfährst«) – ich hätte <persName key="A002018">Dilly</persName> soviel – gekostet – sie hätte mir soviel Geschenke
+               besser, wenn du das von einem guten Freund erfährst«) – ich hätte <persName key="pmb12618">Dilly</persName> soviel – gekostet – sie hätte mir soviel Geschenke
                gemacht, ein Necessaire (richtig) – Bonbons (Lüge) – Wie sehr hatte ich sie immer
                gebeten, mir nichts als Blumen zu geben!– Ich war aufs tiefste verstimmt –
-               unsagbar.</p><p>Nm. – erschien plötzlich <persName key="A002185">Mz. Rnh.</persName> Ich war ganz
+               unsagbar.</p>
+            <p>Nm. – erschien plötzlich <persName key="pmb2378">Mz. Rnh.</persName> Ich war ganz
                glücklich. Wie sie hereintrat, merkt ich – dass auch der kleine Bleistift den ich
                seit Wochen verloren (ihr Weihnachtsgeschenk) auf meinem Schreibtisch lag. Ich
-               theilte ihr mit, dass mein Verh. mit <persName key="A002018">Dilly</persName> aus
-               sei.– <persName key="A002185">Mz.</persName> war sehr erfreut darüber. Neulich war
-               sie im Hause <persName key="A002018">Dilly</persName>s – bei den <persName key="A003434">L.s</persName>, gerade über ihr; und da erzählte ihr die <rs type="person" key="A004178">Frau</rs> des Hauses, dass
-               sie der <persName key="A002018">Dilly</persName> einmal geschrieben, es möge nicht
+               theilte ihr mit, dass mein Verh. mit <persName key="pmb12618">Dilly</persName> aus
+               sei.– <persName key="pmb2378">Mz.</persName> war sehr erfreut darüber. Neulich war
+               sie im Hause <persName key="pmb12618">Dilly</persName>s – bei den <persName key="pmb28283">L.s</persName>, gerade über ihr; und da erzählte ihr die <rs type="person" key="pmb28751">Frau</rs> des Hauses, dass
+               sie der <persName key="pmb12618">Dilly</persName> einmal geschrieben, es möge nicht
                nach zehn bei ihr Klavier gespielt werden.– Und dieser Klavierspieler war ich
                gewesen.– Wir waren dann sehr zärtlich, küssten uns viel, und nächstens hab ich ein
-               Rendezvous mit ihr.– Abd. in <placeName key="A000309">Excelsior</placeName> mit
-                  <persName key="A002035">Salten</persName>.– Beim <placeName key="A000310">rothen
+               Rendezvous mit ihr.– Abd. in <placeName key="pmb109">Excelsior</placeName> mit
+                  <persName key="pmb2167">Salten</persName>.– Beim <placeName key="pmb110">rothen
                   Rössel</placeName> soupirt – <unclear>Dort</unclear> sprachen fremde alte Herren
-               am Tisch nebenan – über <persName key="A002567">Giampietros</persName> Maske in den
-                  <workName key="A020303">Kameraden</workName>.</p></div></body></text></TEI>
+               am Tisch nebenan – über <persName key="pmb2847">Giampietros</persName> Maske in den
+                  <workName key="pmb30425">Kameraden</workName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
