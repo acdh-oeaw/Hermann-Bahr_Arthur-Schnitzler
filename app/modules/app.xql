@@ -228,7 +228,7 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             }   
             <div class="authors">
             {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@key return
-            <a class="author-link" href="index.html?author={$authorkey}">
+            <a class="author-link" href="view.html?author={$authorkey}">
             {collection($config:data-root)/id($authorkey)//tei:forename || " " || collection($config:data-root)/id($authorkey)//tei:surname}</a>
             }    
             </div>
@@ -750,18 +750,18 @@ function app:nav($node as node(), $model as map(*)) {
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Inhalt</a>
                                     <ul class="dropdown-menu">
                                         <li>
-                                            <a href="index.html?type=L">Briefe</a>
+                                            <a href="view.html?type=L">Briefe</a>
                                         </li>
                                         <li>
-                                            <a href="index.html?type=D">Aufzeichnungen</a>
+                                            <a href="view.html?type=D">Aufzeichnungen</a>
                                         </li>
                                         <li>
-                                            <a href="index.html?type=T">Texte</a>
+                                            <a href="view.html?type=T">Texte</a>
                                         </li>
                                     </ul>
                                 </li> 
                                 <li class="hidden-xs hidden-sm">
-                                    <a href="index.html">Inhalt</a>
+                                    <a href="view.html">Inhalt</a>
                                 </li>
                                 <!-- /Inhalt -->
                                 <li class="dropdown" id="nav_kalender">
