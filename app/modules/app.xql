@@ -823,6 +823,9 @@ function app:nav($node as node(), $model as map(*)) {
                                                 <a href="index.html?id=E000002">Nachwort</a>
                                             </li>
                                         <li>
+                                                <a href="documentation/api.html">API</a>
+                                            </li>    
+                                        <li>
                                                 <a href="index.html?id=E000004">Dank</a>
                                             </li>
                                     </ul>
