@@ -1,0 +1,11 @@
+version: '2'
+services:
+  hbas:
+    image: "acdh/hbas"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9020:8080"
+    volumes:
+      - .:/tmp/export
