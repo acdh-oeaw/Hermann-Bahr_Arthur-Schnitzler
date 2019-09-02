@@ -1,1 +1,94 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041574"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Aufzeichnung von Hermann Bahr, [21.] 9. 1918</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="574"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS VM 843 Ba</idno> </msIdentifier> <physDesc> <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 4, beschriftet »<quote> <date>21. 9.</date> – <date>26. 9. 18</date> </quote>«, 9 Bl., Tinte, S. 1.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20160114">angelegt und kollationiert</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="19180921" n="1"/> <persName key="pmb2249">Korff</persName> <space unit="chars" quantity="1"/> <workName key="pmb30207">Weites Land</workName>, <anchor type="commentary" xml:id="KD574-2"> <workName key="pmb31733">Idealer Gatte</workName> </anchor>, <anchor type="commentary" xml:id="KD574-1"> <rs type="work" key="pmb31929">Riccaut</rs> </anchor> <space unit="chars" quantity="1"/> <persName key="pmb2446">Devrient</persName> </p> <p> <gap reason="outOfScope"/> </p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041574"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Aufzeichnung von Hermann Bahr, [21.] 9. 1918</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="574"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 843 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 4, beschriftet »<quote> 
+                              <date>21. 9.</date> – <date>26. 9. 18</date> 
+                           </quote>«, 9 Bl., Tinte, S. 1.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20160114">angelegt und kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19180921" n="1"/> 
+               <persName key="pmb2249">Korff</persName> 
+               <space unit="chars" quantity="1"/> 
+               <workName key="pmb30207">Weites Land</workName>, <anchor type="commentary" xml:id="KD574-2"> 
+                  <workName key="pmb31733">Idealer Gatte</workName> 
+               </anchor>, <anchor type="commentary" xml:id="KD574-1"> 
+                  <rs type="work" key="pmb31929">Riccaut</rs> 
+               </anchor> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb2446">Devrient</persName> 
+            </p> 
+            <p> 
+               <gap reason="outOfScope"/> 
+            </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

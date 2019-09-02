@@ -1,1 +1,119 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041497"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Aufzeichnung von Hermann Bahr, 5. 11. 1908</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="497"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS VM 2103/61 Ba</idno> </msIdentifier> </msDesc> </witness> </listWit> <listBibl> <biblStruct corresp="HBT5" default="false"> <monogr> <title level="m">1906–1908</title> <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor> <imprint> <date when="2003">2003</date> </imprint> <biblScope unit="pp">390–391</biblScope> </monogr> <monogr> <author key="pmb10815">Bahr, Hermann</author> <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> <editor>Hg. Moritz Csáky</editor> <imprint> <pubPlace>Wien, Köln, Weimar</pubPlace> <publisher>Böhlau</publisher> <date when="1994">1994–2003</date> </imprint> <biblScope unit="vol">V</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20160112">angelegt</change> <change who="KI MAM" when="20160208">Kollationiert am Original</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="19081105" n="1">5. 11</date> Herr <persName key="pmb13846">Baum</persName> holt mich im <placeName key="pmb321">Continental</placeName> ab, ins <placeName key="pmb322">Vereinhaus</placeName>, <placeName key="pmb323">Hirschengraben</placeName>, <placeName key="pmb324"> <persName key="pmb11461">Goethe</persName>haus</placeName>, ins neue Viertel der <placeName key="pmb325">Bockenheimer Villenvorstadt</placeName>, zur <placeName key="pmb326">Ausstellgshalle</placeName> von <persName key="pmb3504">Tiersch</persName>, der überhaupt hier sehr viel baut. Zum bedeckten Himmel paßt das sanfte Rot des rohen Sandsteins, in welchem die meisten Häuser hier sind.</p> <p> <note type="introduction">In <placeName key="pmb146"> <settlement>Frankfurt am Main</settlement> </placeName>.</note>Abends nach der Vorlesg über<pb/> <space unit="chars" quantity="1"/> <persName key="pmb2121">Schnitzler</persName> (<del rend="strikethrough"> <gap quantity="5" reason="illegible" unit="chars"/> </del> 1600 Personen) mit ein paar Leuten, darunter eine Frau <persName key="pmb3508">Mennzel</persName>, alt, <persName key="pmb11461">Goethe</persName>-Enthusiastin, Ur-<placeName key="pmb146"> <settlement>Frankfurt</settlement> </placeName>erin, stolz auf die »kleinen Familien«, zu denen <persName key="pmb11461">Goethes</persName> gehörten. Erzält reizend von <placeName key="pmb932"> <settlement>Malcesine</settlement> </placeName>, wo sie kürzlich <persName key="pmb11461">Goethe</persName> nachgegangen ist. Ihre komische Wut auf <anchor type="commentary" xml:id="KD497-1"> <persName key="pmb10992">Brandes</persName>, der in einem Vortrag über <persName key="pmb3124">Voltaires</persName> Verhaftg in <placeName key="pmb146"> <settlement>Frankfurt</settlement> </placeName> </anchor> sich unehrerbietig über den <placeName key="pmb146"> <settlement>Frankfurt</settlement> </placeName>er Senat geäußert. <persName key="pmb11740">Hofmannsthal</persName> mag sie nicht: er »seufzt« mir gar zu viel.</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041497"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Aufzeichnung von Hermann Bahr, 5. 11. 1908</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="497"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 2103/61 Ba</idno> 
+                     </msIdentifier> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HBT5" default="false"> 
+                  <monogr> 
+                     <title level="m">1906–1908</title> 
+                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor> 
+                     <imprint> 
+                        <date when="2003">2003</date> 
+                     </imprint> 
+                     <biblScope unit="pp">390–391</biblScope> 
+                  </monogr> 
+                  <monogr> 
+                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
+                     <editor>Hg. Moritz Csáky</editor> 
+                     <imprint> 
+                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
+                        <publisher>Böhlau</publisher> 
+                        <date when="1994">1994–2003</date> 
+                     </imprint> 
+                     <biblScope unit="vol">V</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20160112">angelegt</change> 
+         <change who="KI MAM" when="20160208">Kollationiert am Original</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19081105" n="1">5. 11</date> Herr <persName key="pmb13846">Baum</persName> holt mich im <placeName key="pmb321">Continental</placeName> ab, ins <placeName key="pmb322">Vereinhaus</placeName>, <placeName key="pmb323">Hirschengraben</placeName>, <placeName key="pmb324"> 
+                  <persName key="pmb11461">Goethe</persName>haus</placeName>, ins neue Viertel der <placeName key="pmb325">Bockenheimer Villenvorstadt</placeName>, zur <placeName key="pmb326">Ausstellgshalle</placeName> von <persName key="pmb3504">Tiersch</persName>, der überhaupt hier sehr viel baut. Zum bedeckten Himmel paßt das sanfte Rot des rohen Sandsteins, in welchem die meisten Häuser hier sind.</p> 
+            <p> 
+               <note type="introduction">In <placeName key="pmb146"> 
+                     <settlement>Frankfurt am Main</settlement> 
+                  </placeName>.</note>Abends nach der Vorlesg über<pb/> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb2121">Schnitzler</persName> (<del rend="strikethrough"> 
+                  <gap quantity="5" reason="illegible" unit="chars"/> 
+               </del> 1600 Personen) mit ein paar Leuten, darunter eine Frau <persName key="pmb3508">Mennzel</persName>, alt, <persName key="pmb11461">Goethe</persName>-Enthusiastin, Ur-<placeName key="pmb146"> 
+                  <settlement>Frankfurt</settlement> 
+               </placeName>erin, stolz auf die »kleinen Familien«, zu denen <persName key="pmb11461">Goethes</persName> gehörten. Erzält reizend von <placeName key="pmb932"> 
+                  <settlement>Malcesine</settlement> 
+               </placeName>, wo sie kürzlich <persName key="pmb11461">Goethe</persName> nachgegangen ist. Ihre komische Wut auf <anchor type="commentary" xml:id="KD497-1"> 
+                  <persName key="pmb10992">Brandes</persName>, der in einem Vortrag über <persName key="pmb3124">Voltaires</persName> Verhaftg in <placeName key="pmb146"> 
+                     <settlement>Frankfurt</settlement> 
+                  </placeName> 
+               </anchor> sich unehrerbietig über den <placeName key="pmb146"> 
+                  <settlement>Frankfurt</settlement> 
+               </placeName>er Senat geäußert. <persName key="pmb11740">Hofmannsthal</persName> mag sie nicht: er »seufzt« mir gar zu viel.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

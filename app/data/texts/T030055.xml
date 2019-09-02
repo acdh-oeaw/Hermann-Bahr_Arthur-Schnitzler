@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030055"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a" key="pmb32308">Arthur Schnitzler: Aus Bahrs Tagebuch [16. Februar], 22. 2. 1931</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-T" n="055"/> <availability status="free"> <p part="N">Copyright © 2017</p> </availability> </publicationStmt> <sourceDesc> <origDate when="19310222" n="1">22. 2. 1931</origDate> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>D</country> <settlement>Marbach am Neckar</settlement> <repository>Deutsches Literaturarchiv</repository> <idno>A:Schnitzler, 85.1.2400</idno> </msIdentifier> <physDesc> <p part="N">ms. Typoskript, 1 Bl., 1 S. In Schnitzlers Zeitausschnitten (<bibl>University of Exeter, <orgName>The Schnitzler Press-Cuttings Archive</orgName>, Box 42/4</bibl>) ist die Zeitungsvorlage aufbewahrt, wobei diese Stelle hs. markiert und mit »<quote>(eingeschaltetes ab hier <unclear>b</unclear> </quote>« beschriftet ist.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-DE">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change when="20160428" who="MAM">Angelegt</change> <change who="KI MAM" when="20160509">Kollationiert</change> </revisionDesc> </teiHeader> <text type="manuscript"> <body> <div> <head>Aus Bahrs Tagebuch. <del rend="strikethrough">16. Februar</del> <space unit="chars" quantity="1"/> <orgName key="pmb29320">Neues Wr. Journal</orgName>, 22. Februar 1931.</head> <p part="N">- - - - - - - - - - - - - Verlockt es keine deutsche Zeitschrift, den <anchor type="commentary" xml:id="KT055-1">Versuch der »<orgName key="pmb29759">Latinité</orgName> </anchor>« nachahmend, unsere Dichter um ihr Urteil über einen hervorragenden Kollegen zu verhören, zum Beispiel Arthur Schnitzler: er wird bald siebzig, wäre dies nicht ein willkommener Anlass, die nachrückende Jugend über ihr Verhältnis zu im zu verhören, nicht als ob wir von ihr über ihn Neues erfahren könnten, aber ihr Urteil über ihn würde uns über sie mancherlei verraten; was wir uns von ihr nicht im Traume beikommen lassen. Wer wagt dieses Rundgespräch? - - - - - - - - - - - - - </p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030055"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a" key="pmb32308">Arthur Schnitzler: Aus Bahrs Tagebuch [16. Februar], 22. 2. 1931</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-T" n="055"/> 
+            <availability status="free"> 
+               <p part="N">Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <sourceDesc> 
+            <origDate when="19310222" n="1">22. 2. 1931</origDate> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Marbach am Neckar</settlement> 
+                        <repository>Deutsches Literaturarchiv</repository> 
+                        <idno>A:Schnitzler, 85.1.2400</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p part="N">ms. Typoskript, 1 Bl., 1 S. In Schnitzlers Zeitausschnitten (<bibl>University of Exeter, <orgName>The Schnitzler Press-Cuttings Archive</orgName>, Box 42/4</bibl>) ist die Zeitungsvorlage aufbewahrt, wobei diese Stelle hs. markiert und mit »<quote>(eingeschaltetes ab hier <unclear>b</unclear> 
+                           </quote>« beschriftet ist.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-DE">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change when="20160428" who="MAM">Angelegt</change> 
+         <change who="KI MAM" when="20160509">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="manuscript"> 
+      <body> 
+         <div> 
+            <head>Aus Bahrs Tagebuch. <del rend="strikethrough">16. Februar</del> 
+               <space unit="chars" quantity="1"/> 
+               <orgName key="pmb29320">Neues Wr. Journal</orgName>, 22. Februar 1931.</head> 
+            <p part="N">- - - - - - - - - - - - - Verlockt es keine deutsche Zeitschrift, den <anchor type="commentary" xml:id="KT055-1">Versuch der »<orgName key="pmb29759">Latinité</orgName> 
+               </anchor>« nachahmend, unsere Dichter um ihr Urteil über einen hervorragenden Kollegen zu verhören, zum Beispiel Arthur Schnitzler: er wird bald siebzig, wäre dies nicht ein willkommener Anlass, die nachrückende Jugend über ihr Verhältnis zu im zu verhören, nicht als ob wir von ihr über ihn Neues erfahren könnten, aber ihr Urteil über ihn würde uns über sie mancherlei verraten; was wir uns von ihr nicht im Traume beikommen lassen. Wer wagt dieses Rundgespräch? - - - - - - - - - - - - - </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

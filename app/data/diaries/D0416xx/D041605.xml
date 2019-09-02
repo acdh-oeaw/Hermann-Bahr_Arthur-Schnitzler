@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041605"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Aufzeichnung von Hermann Bahr, 5. 11. 1931</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="605"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS VM 2634 Ba</idno> </msIdentifier> <physDesc> <p>In: Braunes Buch, eh. beschrieben, von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 65–66.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20160816">Angelegt</change> <change who="KI MAM" when="20160906">Kollationiert am Original</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <anchor type="textConst" xml:id="TD605-1"> <date when="19311105" n="2">5.</date>– K.–</anchor> Weiter Auszug der »<anchor type="commentary" xml:id="KD605-1"> <workName key="pmb30993">Entwicklungsgeschichte Bayerns</workName> </anchor>« von <persName key="pmb4760">Doeberl</persName> (3. Band) bis 557. Dann auf<pb/> dem Wege zu <persName key="pmb4631">Brandenburg</persName> dreißig Minuten in der <placeName key="pmb711">Ludwigskirche</placeName>, dann mit ihm durch den von herbstlicher Schönheit glühenden <placeName key="pmb706">Englischen Garten</placeName>. Dann, etwas verspätet zur 6 Uhr Abendandacht in der <placeName key="pmb707">Fronleichnamskapelle</placeName>; freudenreicher Rosenkranz; Litanei. – Morgen, <persName key="pmb2121">Schnitzler</persName>s Werke, die jetzt allgemein verlangt werden, weil Jedermann einen Nekrolog verfassen will, darüber klagend, wie töricht es doch ist, daß man sterben muß, damit man halbwegs verstanden oder gar erkannt wird.</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041605"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Aufzeichnung von Hermann Bahr, 5. 11. 1931</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="605"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 2634 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>In: Braunes Buch, eh. beschrieben, von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 65–66.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20160816">Angelegt</change> 
+         <change who="KI MAM" when="20160906">Kollationiert am Original</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <anchor type="textConst" xml:id="TD605-1"> 
+                  <date when="19311105" n="2">5.</date>– K.–</anchor> Weiter Auszug der »<anchor type="commentary" xml:id="KD605-1"> 
+                  <workName key="pmb30993">Entwicklungsgeschichte Bayerns</workName> 
+               </anchor>« von <persName key="pmb4760">Doeberl</persName> (3. Band) bis 557. Dann auf<pb/> dem Wege zu <persName key="pmb4631">Brandenburg</persName> dreißig Minuten in der <placeName key="pmb711">Ludwigskirche</placeName>, dann mit ihm durch den von herbstlicher Schönheit glühenden <placeName key="pmb706">Englischen Garten</placeName>. Dann, etwas verspätet zur 6 Uhr Abendandacht in der <placeName key="pmb707">Fronleichnamskapelle</placeName>; freudenreicher Rosenkranz; Litanei. – Morgen, <persName key="pmb2121">Schnitzler</persName>s Werke, die jetzt allgemein verlangt werden, weil Jedermann einen Nekrolog verfassen will, darüber klagend, wie töricht es doch ist, daß man sterben muß, damit man halbwegs verstanden oder gar erkannt wird.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

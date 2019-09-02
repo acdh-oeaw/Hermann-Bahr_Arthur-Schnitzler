@@ -1,1 +1,131 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041420"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [1. 3.? 1893]</title> <author key="pmb11740">Hofmannsthal, Hugo von</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="420"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb11740">Hofmannsthal, Hugo von</persName> </sender> <addressee full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </addressee> <placeSender> <placeName key="pmb50">[Wien]</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="18930301" n="1">[1. 3.? 1893]</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>UK</country> <settlement>Cambridge</settlement> <repository>University Library</repository> <idno>Schnitzler, B 43b/1</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 2 S.; von Schnitzler mit Bleistift Jahreszahl »<quote> <date>93</date> </quote>« ergänzt. Die hs. Datierung »<quote>1. II.</quote>« wirft mehrere Fragen auf, die <persName key="pmb2121">Schnitzler</persName> selbst versuchte zu lösen, indem er durch Ergänzung eines weiteren Strichs bei der Monatsangabe auf März umdatierte.</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct corresp="HvHAS" default="false"> <monogr> <author key="pmb11740">Hofmannsthal, Hugo</author> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">Briefwechsel</title> <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> <imprint> <pubPlace>Frankfurt am Main</pubPlace> <publisher>S. Fischer</publisher> <date when="1964">1964</date> </imprint> <biblScope unit="pp">35–36</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20160304">Angelegt aus OCR</change> <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <dateline rend="right"> <date> <anchor type="textConst" xml:id="TL420-1">1. II.</anchor> </date> </dateline> <salute>lieber Arthur.</salute> </opener> <p> <persName key="pmb10815">Bahr</persName> stellte mir zu meiner Freude folgenden Antrag: er sei im Stande und gern bereit, <persName key="pmb2450">Fels</persName> von <date>Anfang März</date> an mit einem Gehalt von 100 fl in der <orgName key="pmb29424">Deutschen Zeitung</orgName> als Redacteur unterzubringen. Es handelt sich nur um Fähigkeit und Bereitwilligkeit. Dritten Personen werden Sie es vorläufig ebensowenig erzählen, wie ich.</p> <p>Falls wir Sonntag bei Ihnen Zusammenkommen, zu welchem<pb/> Zweck ich wenigstens vorläufig eine Einladung abgelehnt habe, seien Sie doch sogut, <persName key="pmb4326">Robert Ehrhardt</persName> (<hi rend="latintype">V. <placeName key="pmb566">Siebenbrunng.</placeName> 29</hi>) ausdrücklich einzuladen. Er geht der Trauer wegen fast nicht in Gesellschaft und würde gewiss gern kommen.</p> <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr<lb/> <signed>Loris.</signed> </closer> <postscript> <p>P. S.<lb/>Ich denke sehr oft an die Novelle vom <workName key="pmb30117">Sterben</workName> und möchte viel mehr davon reden, als geschieht. Sie haben was gegen die Geschichte. Wenigstens scheinen Sie sie todtschweigen zu wollen.</p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041420"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, [1. 3.? 1893]</title> 
+            <author key="pmb11740">Hofmannsthal, Hugo von</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="420"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18930301" n="1">[1. 3.? 1893]</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>UK</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, B 43b/1</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 2 S.; von Schnitzler mit Bleistift Jahreszahl »<quote> 
+                              <date>93</date> 
+                           </quote>« ergänzt. Die hs. Datierung »<quote>1. II.</quote>« wirft mehrere Fragen auf, die <persName key="pmb2121">Schnitzler</persName> selbst versuchte zu lösen, indem er durch Ergänzung eines weiteren Strichs bei der Monatsangabe auf März umdatierte.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HvHAS" default="false"> 
+                  <monogr> 
+                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Briefwechsel</title> 
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
+                     <imprint> 
+                        <pubPlace>Frankfurt am Main</pubPlace> 
+                        <publisher>S. Fischer</publisher> 
+                        <date when="1964">1964</date> 
+                     </imprint> 
+                     <biblScope unit="pp">35–36</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160304">Angelegt aus OCR</change> 
+         <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date> 
+                     <anchor type="textConst" xml:id="TL420-1">1. II.</anchor> 
+                  </date> 
+               </dateline> 
+               <salute>lieber Arthur.</salute> 
+            </opener> 
+            <p> 
+               <persName key="pmb10815">Bahr</persName> stellte mir zu meiner Freude folgenden Antrag: er sei im Stande und gern bereit, <persName key="pmb2450">Fels</persName> von <date>Anfang März</date> an mit einem Gehalt von 100 fl in der <orgName key="pmb29424">Deutschen Zeitung</orgName> als Redacteur unterzubringen. Es handelt sich nur um Fähigkeit und Bereitwilligkeit. Dritten Personen werden Sie es vorläufig ebensowenig erzählen, wie ich.</p> 
+            <p>Falls wir Sonntag bei Ihnen Zusammenkommen, zu welchem<pb/> Zweck ich wenigstens vorläufig eine Einladung abgelehnt habe, seien Sie doch sogut, <persName key="pmb4326">Robert Ehrhardt</persName> (<hi rend="latintype">V. <placeName key="pmb566">Siebenbrunng.</placeName> 29</hi>) ausdrücklich einzuladen. Er geht der Trauer wegen fast nicht in Gesellschaft und würde gewiss gern kommen.</p> 
+            <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr<lb/> 
+               <signed>Loris.</signed> 
+            </closer> 
+            <postscript> 
+               <p>P. S.<lb/>Ich denke sehr oft an die Novelle vom <workName key="pmb30117">Sterben</workName> und möchte viel mehr davon reden, als geschieht. Sie haben was gegen die Geschichte. Wenigstens scheinen Sie sie todtschweigen zu wollen.</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

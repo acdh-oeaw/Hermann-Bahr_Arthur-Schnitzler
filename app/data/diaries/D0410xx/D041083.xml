@@ -1,1 +1,91 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041083"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Tagebuch von Arthur Schnitzler, 30. 10. 1912</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="083"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listBibl> <biblStruct corresp="ASTB" default="false"> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">Tagebuch 1909–1912</title> <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> <imprint> <pubPlace>Wien</pubPlace> <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> <date when="1981">1981</date> </imprint> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20151111">angelegt</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="19121030" n="01">30/10</date> Interpellation <persName key="pmb2785">Winter</persName>, <persName key="pmb2793">Hanusch</persName> <space unit="chars" quantity="1"/>Genossen (mir alle unbekannt), wegen <workName key="pmb30203">Bernhardi</workName> Verbots, ziemlich scharf.–</p> <p>Beim Buchhändler <persName key="pmb11646">Hugo Heller</persName>, wegen ev. Vorlesung des <workName key="pmb30203">Bernhardi</workName> (er hatte mir geschrieben).– </p> <p>Nm. allerlei geordnet.</p> <p>Dr. <persName key="pmb22733">Pollak</persName>, wegen <persName key="pmb12692">Heini</persName>s Zucken der Schultern.– </p> <p>Frl. <persName key="pmb2327">Loewenstamm</persName>, bei der <persName key="pmb12692">Heini</persName> nun Zeichnen lernt.– </p> <p>Großer <workName key="pmb29935">Anatol</workName> Erfolg in <placeName key="pmb5199"> <settlement>New York</settlement> </placeName>. Wie viel Geld könnte, würde ich jetzt mit tüchtiger Verlegerhilfe verdienen!– </p> <p>Las <persName key="pmb10815">Bahrs</persName> <space unit="chars" quantity="1"/> <anchor type="commentary" xml:id="KD083-1"> <workName key="pmb30375">Prinzip</workName> </anchor>; prätentiöse Posse mit Lustspiel- und Philosophie Allüren.–</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041083"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Tagebuch von Arthur Schnitzler, 30. 10. 1912</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="083"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASTB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Tagebuch 1909–1912</title> 
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
+                     <imprint> 
+                        <pubPlace>Wien</pubPlace> 
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
+                        <date when="1981">1981</date> 
+                     </imprint> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19121030" n="01">30/10</date> Interpellation <persName key="pmb2785">Winter</persName>, <persName key="pmb2793">Hanusch</persName> 
+               <space unit="chars" quantity="1"/>Genossen (mir alle unbekannt), wegen <workName key="pmb30203">Bernhardi</workName> Verbots, ziemlich scharf.–</p> 
+            <p>Beim Buchhändler <persName key="pmb11646">Hugo Heller</persName>, wegen ev. Vorlesung des <workName key="pmb30203">Bernhardi</workName> (er hatte mir geschrieben).– </p> 
+            <p>Nm. allerlei geordnet.</p> 
+            <p>Dr. <persName key="pmb22733">Pollak</persName>, wegen <persName key="pmb12692">Heini</persName>s Zucken der Schultern.– </p> 
+            <p>Frl. <persName key="pmb2327">Loewenstamm</persName>, bei der <persName key="pmb12692">Heini</persName> nun Zeichnen lernt.– </p> 
+            <p>Großer <workName key="pmb29935">Anatol</workName> Erfolg in <placeName key="pmb5199"> 
+                  <settlement>New York</settlement> 
+               </placeName>. Wie viel Geld könnte, würde ich jetzt mit tüchtiger Verlegerhilfe verdienen!– </p> 
+            <p>Las <persName key="pmb10815">Bahrs</persName> 
+               <space unit="chars" quantity="1"/> 
+               <anchor type="commentary" xml:id="KD083-1"> 
+                  <workName key="pmb30375">Prinzip</workName> 
+               </anchor>; prätentiöse Posse mit Lustspiel- und Philosophie Allüren.–</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

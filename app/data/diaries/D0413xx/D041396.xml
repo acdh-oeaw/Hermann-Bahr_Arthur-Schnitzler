@@ -1,1 +1,100 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041396"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Kalendereintrag von Hermann Bahr, 22. 12. 1896</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="396"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS VM 1775 Ba</idno> </msIdentifier> </msDesc> </witness> </listWit> <listBibl> <biblStruct corresp="HBT2" default="false"> <monogr> <title level="m">1891–1900</title> <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor> <imprint> <date when="1996">1996</date> </imprint> <biblScope unit="pp">232</biblScope> </monogr> <monogr> <author key="pmb10815">Bahr, Hermann</author> <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> <editor>Hg. Moritz Csáky</editor> <imprint> <pubPlace>Wien, Köln, Weimar</pubPlace> <publisher>Böhlau</publisher> <date when="1994">1994–2003</date> </imprint> <biblScope unit="vol">II</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20151116">angelegt und kollationiert</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="18961222" n="01"/> <persName key="pmb2121">Schnitzler</persName> bringt mir seine neue Novelle »<workName key="pmb30075">Die Frau des Weisen</workName>« für die »<orgName key="pmb29209">Zeit</orgName>«. Wir sprechen über die Familie <persName key="pmb12618 pmb12621 pmb2589 pmb2591">Sandrock</persName>. Er empfindet das Wesen der <rs type="person" key="pmb12618">grande comedienne</rs> wie ich in der »Anverbindung vieler Personen an einen Körper«.</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041396"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Kalendereintrag von Hermann Bahr, 22. 12. 1896</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="396"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 1775 Ba</idno> 
+                     </msIdentifier> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HBT2" default="false"> 
+                  <monogr> 
+                     <title level="m">1891–1900</title> 
+                     <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor> 
+                     <imprint> 
+                        <date when="1996">1996</date> 
+                     </imprint> 
+                     <biblScope unit="pp">232</biblScope> 
+                  </monogr> 
+                  <monogr> 
+                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
+                     <editor>Hg. Moritz Csáky</editor> 
+                     <imprint> 
+                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
+                        <publisher>Böhlau</publisher> 
+                        <date when="1994">1994–2003</date> 
+                     </imprint> 
+                     <biblScope unit="vol">II</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20151116">angelegt und kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="18961222" n="01"/> 
+               <persName key="pmb2121">Schnitzler</persName> bringt mir seine neue Novelle »<workName key="pmb30075">Die Frau des Weisen</workName>« für die »<orgName key="pmb29209">Zeit</orgName>«. Wir sprechen über die Familie <persName key="pmb12618 pmb12621 pmb2589 pmb2591">Sandrock</persName>. Er empfindet das Wesen der <rs type="person" key="pmb12618">grande comedienne</rs> wie ich in der »Anverbindung vieler Personen an einen Körper«.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

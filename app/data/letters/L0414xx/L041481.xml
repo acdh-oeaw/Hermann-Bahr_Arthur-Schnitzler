@@ -1,1 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041481"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Paula Dehmel an Hermann Bahr, 23. 9. 1902</title> <author key="pmb2281">Dehmel, Paula</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="481"/> <availability status="free"> <p>Copyright © 2015</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2281">Dehmel, Paula</persName> </sender> <addressee full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </addressee> <placeSender> <placeName key="pmb168">Berlin</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="19020923" n="01">23. 9. 1902</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS AM 16861 Ba</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 3 S., Lateinschrift</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct corresp="HvHHB" default="false"> <monogr> <author key="pmb11740">Hofmannsthal, Hugo von</author> <author key="pmb2292">Hofmannsthal, Gerty von</author> <author key="pmb10815">Bahr, Hermann</author> <title level="m">Briefwechsel 1891–1934</title> <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor> <imprint> <pubPlace>Göttingen</pubPlace> <publisher>Wallstein</publisher> <date when="2013">2013</date> </imprint> <biblScope unit="pp">633</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-DE">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20160316">Angelegt</change> <change who="KI MAM" when="20160614">Kollationiert</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <dateline rend="right"> <placeName key="pmb593">Wilmersdorf</placeName>, d. <date>23. 9. 02</date>.</dateline> <salute rend="center">Sehr geehrter Herr Bahr.</salute> </opener> <p>Wollen Sie uns helfen, etwas Dauerndes für <persName key="pmb12664">Joh. Schlaf </persName>zu thun? Es handelt sich darum, ein paar Leute ausfindig zu machen, die monatl. 10 Mark übrig haben, diesem wundervollen Menschen und Künstler sein schweres Leben ein bischen zu erleichtern! </p> <p>Natürlich unter Discretion; er<pb/> würde unter der Vorstellung, daß ich für ihn »sammle« sehr leiden. Ich sage ihm blos: Das schenken Dir Freunde Deiner Kunst, da nimmt ers gern. Er quittiert mir die Summen natürlich, denn es könnte böse Menschen geben, die etc etc<c rendition="#dots" n="4"/> </p> <p>Ich habe heute durch eine junge reizende <placeName key="pmb50"> <settlement>Wien</settlement> </placeName>erin gehört, daß Sie <persName key="pmb12664">Schlaf</persName>s Portrait im Zimmer hängen haben; da faßte ich den Mut, Ihnen zu schreiben. <persName key="pmb2121">Schnitzler</persName> und<pb/> <space unit="chars" quantity="1"/> <persName key="pmb11740">Hoffmannsthal</persName> haben so viel Geld; vielleicht thun die mit? Aber, wie gesagt: In der Stille davon!</p> <closer>In herzlicher Verehrung<lb/> <signed>Frau Paula Dehmel.</signed> </closer> <postscript> <p> <placeName key="pmb593">Wilmersdorf b. <placeName key="pmb168"> <settlement>Berlin</settlement> </placeName> </placeName>, <placeName key="pmb594">Wilhelms-Aue 113</placeName>.</p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041481"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Paula Dehmel an Hermann Bahr, 23. 9. 1902</title> 
+            <author key="pmb2281">Dehmel, Paula</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="481"/> 
+            <availability status="free"> 
+               <p>Copyright © 2015</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2281">Dehmel, Paula</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb168">Berlin</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19020923" n="01">23. 9. 1902</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 16861 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 3 S., Lateinschrift</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HvHHB" default="false"> 
+                  <monogr> 
+                     <author key="pmb11740">Hofmannsthal, Hugo von</author> 
+                     <author key="pmb2292">Hofmannsthal, Gerty von</author> 
+                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <title level="m">Briefwechsel 1891–1934</title> 
+                     <editor>Hg. und kommentiert von Elsbeth Dangel-Pelloquin</editor> 
+                     <imprint> 
+                        <pubPlace>Göttingen</pubPlace> 
+                        <publisher>Wallstein</publisher> 
+                        <date when="2013">2013</date> 
+                     </imprint> 
+                     <biblScope unit="pp">633</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-DE">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160316">Angelegt</change> 
+         <change who="KI MAM" when="20160614">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb593">Wilmersdorf</placeName>, d. <date>23. 9. 02</date>.</dateline> 
+               <salute rend="center">Sehr geehrter Herr Bahr.</salute> 
+            </opener> 
+            <p>Wollen Sie uns helfen, etwas Dauerndes für <persName key="pmb12664">Joh. Schlaf </persName>zu thun? Es handelt sich darum, ein paar Leute ausfindig zu machen, die monatl. 10 Mark übrig haben, diesem wundervollen Menschen und Künstler sein schweres Leben ein bischen zu erleichtern! </p> 
+            <p>Natürlich unter Discretion; er<pb/> würde unter der Vorstellung, daß ich für ihn »sammle« sehr leiden. Ich sage ihm blos: Das schenken Dir Freunde Deiner Kunst, da nimmt ers gern. Er quittiert mir die Summen natürlich, denn es könnte böse Menschen geben, die etc etc<c rendition="#dots" n="4"/> 
+            </p> 
+            <p>Ich habe heute durch eine junge reizende <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>erin gehört, daß Sie <persName key="pmb12664">Schlaf</persName>s Portrait im Zimmer hängen haben; da faßte ich den Mut, Ihnen zu schreiben. <persName key="pmb2121">Schnitzler</persName> und<pb/> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb11740">Hoffmannsthal</persName> haben so viel Geld; vielleicht thun die mit? Aber, wie gesagt: In der Stille davon!</p> 
+            <closer>In herzlicher Verehrung<lb/> 
+               <signed>Frau Paula Dehmel.</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <placeName key="pmb593">Wilmersdorf b. <placeName key="pmb168"> 
+                        <settlement>Berlin</settlement> 
+                     </placeName> 
+                  </placeName>, <placeName key="pmb594">Wilhelms-Aue 113</placeName>.</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

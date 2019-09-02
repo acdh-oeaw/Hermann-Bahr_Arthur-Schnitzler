@@ -1,1 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041303"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Hermann Bahr an Arthur Schnitzler, 16. 10. 1906</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="303"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </sender> <addressee full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </addressee> <placeSender> <placeName key="pmb50">[Wien]</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="19061016" n="01">16. 10. 1906</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>GB</country> <settlement>Cambridge</settlement> <repository>University Library</repository> <idno>Schnitzler, B 5b</idno> </msIdentifier> <physDesc> <p>hs. Brief von <persName key="pmb27910">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="approved"> <change who="KI MAM" when="20151215">Kollationiert</change> <change who="KI MAM" when="20170529">Kollationiert</change> </revisionDesc> </teiHeader> <facsimile> <graphic url="MS-B-00005-B-000-00248"/> <graphic url="MS-B-00005-B-000-00249"/> </facsimile> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <dateline rend="right"> <date>16. 10. 06</date>.</dateline> <salute rend="center">Lieber Arthur!</salute> </opener> <p>Ich sende Dir beiliegend einen kleinen <rs type="work" key="pmb30007" subtype="local-short">Akt</rs> mit der Frage, ob Du was dagegen hast, dass ich ihm, wenn er gedruckt wird, die folgende Widmung vorsetze:</p> <p rend="center">»In Erinnerung an meinen lieben Anatol«.</p> <p>Mir ist nämlich folgendes passiert: Ich schrieb den Akt »nach einer wahren Begebenheit« (worüber gelegentlich einmal mündlich), eigentlich nur, weil ich Spass an der weiblichen Figur fand; nun teilt mir <persName key="pmb11036">Burckhard</persName> mit, dass es eigentlich das <workName key="pmb30005">Abschiedsouper</workName> ist, ich erschrecke, denke nach und –<pb/> kann es nicht läugnen. Du wirst mir glauben, dass es unbewusst war. Ich möchte aber doch jedenfalls öffentlich irgendwie den wahren Autor nennen: daher die Widmung.</p> <p>Ich lasse Deiner lieben <rs type="person" key="pmb2173">Frau</rs> herzlichst für die <anchor type="commentary" xml:id="KL303-1">Bilder</anchor> danken und werde mich sehr freuen, wenn sie mir erlaubt, ihr <anchor type="commentary" xml:id="KL303-2">gelegentlich eines zu bringen</anchor>.</p> <closer>Mit vielen herzlichen Grüssen<lb/>Dein<lb/> <signed> <handShift scribe="pmb10815"/>Hermann</signed> </closer> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041303"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 16. 10. 1906</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="303"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19061016" n="01">16. 10. 1906</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>GB</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, B 5b</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>hs. Brief von <persName key="pmb27910">Lisa Clarus</persName> mit eh. Unterschrift, 1 Bl., 2 S., Lateinschrift, von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151215">Kollationiert</change> 
+         <change who="KI MAM" when="20170529">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="MS-B-00005-B-000-00248"/> 
+      <graphic url="MS-B-00005-B-000-00249"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>16. 10. 06</date>.</dateline> 
+               <salute rend="center">Lieber Arthur!</salute> 
+            </opener> 
+            <p>Ich sende Dir beiliegend einen kleinen <rs type="work" key="pmb30007" subtype="local-short">Akt</rs> mit der Frage, ob Du was dagegen hast, dass ich ihm, wenn er gedruckt wird, die folgende Widmung vorsetze:</p> 
+            <p rend="center">»In Erinnerung an meinen lieben Anatol«.</p> 
+            <p>Mir ist nämlich folgendes passiert: Ich schrieb den Akt »nach einer wahren Begebenheit« (worüber gelegentlich einmal mündlich), eigentlich nur, weil ich Spass an der weiblichen Figur fand; nun teilt mir <persName key="pmb11036">Burckhard</persName> mit, dass es eigentlich das <workName key="pmb30005">Abschiedsouper</workName> ist, ich erschrecke, denke nach und –<pb/> kann es nicht läugnen. Du wirst mir glauben, dass es unbewusst war. Ich möchte aber doch jedenfalls öffentlich irgendwie den wahren Autor nennen: daher die Widmung.</p> 
+            <p>Ich lasse Deiner lieben <rs type="person" key="pmb2173">Frau</rs> herzlichst für die <anchor type="commentary" xml:id="KL303-1">Bilder</anchor> danken und werde mich sehr freuen, wenn sie mir erlaubt, ihr <anchor type="commentary" xml:id="KL303-2">gelegentlich eines zu bringen</anchor>.</p> 
+            <closer>Mit vielen herzlichen Grüssen<lb/>Dein<lb/> 
+               <signed> 
+                  <handShift scribe="pmb10815"/>Hermann</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

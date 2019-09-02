@@ -1,1 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030070"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Hermann Bahr: [Buchversandliste Stimmen des Bluts], [Mitte Oktober – 8. 11. 1908]</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-T" n="070"/> <availability status="free"> <p part="N">Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <origDate when="19081015" n="1">Mitte Oktober – 8. 11. 1908</origDate> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS VM 2625 Ba</idno> </msIdentifier> <physDesc> <p part="N">1 Bl., 1 S., eh., Bleistift, Buntstift, Tinte</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20160112">angelegt</change> <change who="KI MAM" when="20160120">Kollationiert</change> </revisionDesc> </teiHeader> <text type="text"> <body> <div type="writingSession" n="1"> <p part="N"> <anchor type="commentary" xml:id="KT070-1"> <rs type="work" key="pmb31089">Novellen Büchl</rs> </anchor> </p> <p part="N">geschickt an <persName key="pmb11036">Burckhard</persName>, <persName key="pmb10875">Benedikt</persName> <space unit="chars" quantity="1"/> <persName key="pmb10788">Auernheimer</persName>, <persName key="pmb2947">Epstein</persName>, <persName key="pmb3021">Sternberg</persName>, <persName key="pmb3711">Levin</persName>, <persName key="pmb2202">Singer</persName>, <persName key="pmb3280">Kolo</persName>, <persName key="pmb28256">Magda</persName>, <persName key="pmb3715">Sitte</persName>, <persName key="pmb2121">Schnitzler</persName>, <persName key="pmb2167">Salten</persName>, <persName key="pmb12481">Redlich</persName>, <persName key="pmb10863">Beer-Hofmann</persName>, <persName key="pmb2229">Handl</persName>, <persName key="pmb13212">Zweig</persName>, <persName key="pmb2456">Specht</persName>, <persName key="pmb13163">Theodor Wolff</persName>, <persName key="pmb2124">Machar</persName>, D<hi rend="superscript">r</hi> <space unit="chars" quantity="1"/> <persName key="pmb12826">Stefan</persName>,</p> <p part="N"> <unclear>Schicken</unclear> an <del rend="strikethrough"> <persName key="pmb2229"> <hi rend="underline" n="1">Handl</hi> </persName> </del> <space unit="chars" quantity="3"/> <persName key="pmb11527">Grossmann</persName>, <persName key="pmb28148">Zweybrück</persName> </p> <p part="N"> <del rend="strikethrough"> <persName key="pmb2121">Schnitzler</persName> </del>, <del rend="strikethrough"> <persName key="pmb2167">Salten</persName> </del>, <del rend="strikethrough"> <persName key="pmb12481">Redlich</persName> </del>, <del rend="strikethrough"> <persName key="pmb10863">Richard</persName> </del> <space unit="chars" quantity="3"/> <del rend="strikethrough"> <persName key="pmb13212">Zweig</persName> </del> </p> <p part="N"> <del rend="strikethrough"> <persName key="pmb13163">Theodor Wolff</persName> | <persName key="pmb2456">Specht</persName> </del> |</p> <p part="N"> <del rend="strikethrough"> <persName key="pmb10955">Blei</persName> <space unit="chars" quantity="3"/> <persName key="pmb11760">Holm</persName> </del> </p> <p part="N"> <persName key="pmb11771">Holzer</persName> </p> <p part="N"> <rs type="work" key="pmb31093">Kritik</rs> von <persName key="pmb11036">Burckhard</persName> im <orgName key="pmb29306">Pester Lloyd</orgName> <space unit="chars" quantity="1"/> <date when="19081108">8. 11. 08</date> </p> </div> </body> </text> </TEI> <!--Datierung: Redlich hat es am 10. Oktober 1908 zur Lektüre als Orientierungspunkt. Die Kritik von Burckhard nachher ergänzt --> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030070"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr: [Buchversandliste Stimmen des Bluts], [Mitte Oktober – 8. 11. 1908]</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-T" n="070"/> 
+            <availability status="free"> 
+               <p part="N">Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <origDate when="19081015" n="1">Mitte Oktober – 8. 11. 1908</origDate> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 2625 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p part="N">1 Bl., 1 S., eh., Bleistift, Buntstift, Tinte</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20160112">angelegt</change> 
+         <change who="KI MAM" when="20160120">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="text"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p part="N"> 
+               <anchor type="commentary" xml:id="KT070-1"> 
+                  <rs type="work" key="pmb31089">Novellen Büchl</rs> 
+               </anchor> 
+            </p> 
+            <p part="N">geschickt an <persName key="pmb11036">Burckhard</persName>, <persName key="pmb10875">Benedikt</persName> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb10788">Auernheimer</persName>, <persName key="pmb2947">Epstein</persName>, <persName key="pmb3021">Sternberg</persName>, <persName key="pmb3711">Levin</persName>, <persName key="pmb2202">Singer</persName>, <persName key="pmb3280">Kolo</persName>, <persName key="pmb28256">Magda</persName>, <persName key="pmb3715">Sitte</persName>, <persName key="pmb2121">Schnitzler</persName>, <persName key="pmb2167">Salten</persName>, <persName key="pmb12481">Redlich</persName>, <persName key="pmb10863">Beer-Hofmann</persName>, <persName key="pmb2229">Handl</persName>, <persName key="pmb13212">Zweig</persName>, <persName key="pmb2456">Specht</persName>, <persName key="pmb13163">Theodor Wolff</persName>, <persName key="pmb2124">Machar</persName>, D<hi rend="superscript">r</hi> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb12826">Stefan</persName>,</p> 
+            <p part="N"> 
+               <unclear>Schicken</unclear> an <del rend="strikethrough"> 
+                  <persName key="pmb2229"> 
+                     <hi rend="underline" n="1">Handl</hi> 
+                  </persName> 
+               </del> 
+               <space unit="chars" quantity="3"/> 
+               <persName key="pmb11527">Grossmann</persName>, <persName key="pmb28148">Zweybrück</persName> 
+            </p> 
+            <p part="N"> 
+               <del rend="strikethrough"> 
+                  <persName key="pmb2121">Schnitzler</persName> 
+               </del>, <del rend="strikethrough"> 
+                  <persName key="pmb2167">Salten</persName> 
+               </del>, <del rend="strikethrough"> 
+                  <persName key="pmb12481">Redlich</persName> 
+               </del>, <del rend="strikethrough"> 
+                  <persName key="pmb10863">Richard</persName> 
+               </del> 
+               <space unit="chars" quantity="3"/> 
+               <del rend="strikethrough"> 
+                  <persName key="pmb13212">Zweig</persName> 
+               </del> 
+            </p> 
+            <p part="N"> 
+               <del rend="strikethrough"> 
+                  <persName key="pmb13163">Theodor Wolff</persName> | <persName key="pmb2456">Specht</persName> 
+               </del> |</p> 
+            <p part="N"> 
+               <del rend="strikethrough"> 
+                  <persName key="pmb10955">Blei</persName> 
+                  <space unit="chars" quantity="3"/> 
+                  <persName key="pmb11760">Holm</persName> 
+               </del> 
+            </p> 
+            <p part="N"> 
+               <persName key="pmb11771">Holzer</persName> 
+            </p> 
+            <p part="N"> 
+               <rs type="work" key="pmb31093">Kritik</rs> von <persName key="pmb11036">Burckhard</persName> im <orgName key="pmb29306">Pester Lloyd</orgName> 
+               <space unit="chars" quantity="1"/> 
+               <date when="19081108">8. 11. 08</date> 
+            </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>
+<!--Datierung: Redlich hat es am 10. Oktober 1908 zur Lektüre als Orientierungspunkt. Die Kritik von Burckhard nachher ergänzt -->

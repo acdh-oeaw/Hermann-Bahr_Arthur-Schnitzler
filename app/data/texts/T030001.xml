@@ -1,1 +1,84 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030001"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur Schnitzler: Aus Kritiken, [7. 4. 1912]</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-T" n="001"/> <availability status="free"> <p part="N">Copyright © 2017</p> </availability> </publicationStmt> <sourceDesc> <origDate when="19120407" n="1">[7. April 1912]</origDate> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>GB</country> <settlement>Cambridge</settlement> <repository>University Library</repository> <idno>Schnitzler, A 20,9</idno> </msIdentifier> <physDesc> <p part="N">ms. Typoskript, hs. Korrektur in Bleistift, undatiert.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change when="2015-11-04" who="MAM">Angelegt</change>  <change who="KI MAM" when="20160509">Kollationiert</change> </revisionDesc> </teiHeader> <text type="manuscript"> <body> <div> <p part="N">»<c rendition="#dots" n="5"/>Ich kann <persName key="pmb12749">Schönherr</persName> loben, weil er eine einfache Bauernkraft ist, <persName key="pmb10815">Bahr</persName> weil er ein Variétéjongleur der Literatur ist. Aber was soll ich über die andere<add place="inline">n</add> <space unit="chars" quantity="1"/> <anchor type="commentary" xml:id="KT001-1">fleissigen Leute</anchor> sagen, die ihr geistiges Kapitalchen mit netten anständigen Zinsen korrekt verwerten.«</p> <p rend="center" part="N"> <workName key="pmb31247">Wiener Literatenköpfe</workName> von <persName key="pmb2147">Peter Altenberg</persName> <lb/> <date when="19120407">7. 4. 1912.</date> </p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030001"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler: Aus Kritiken, [7. 4. 1912]</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-T" n="001"/> 
+            <availability status="free"> 
+               <p part="N">Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <sourceDesc> 
+            <origDate when="19120407" n="1">[7. April 1912]</origDate> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>GB</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, A 20,9</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p part="N">ms. Typoskript, hs. Korrektur in Bleistift, undatiert.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change when="2015-11-04" who="MAM">Angelegt</change>  <change who="KI MAM" when="20160509">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="manuscript"> 
+      <body> 
+         <div> 
+            <p part="N">»<c rendition="#dots" n="5"/>Ich kann <persName key="pmb12749">Schönherr</persName> loben, weil er eine einfache Bauernkraft ist, <persName key="pmb10815">Bahr</persName> weil er ein Variétéjongleur der Literatur ist. Aber was soll ich über die andere<add place="inline">n</add> 
+               <space unit="chars" quantity="1"/> 
+               <anchor type="commentary" xml:id="KT001-1">fleissigen Leute</anchor> sagen, die ihr geistiges Kapitalchen mit netten anständigen Zinsen korrekt verwerten.«</p> 
+            <p rend="center" part="N"> 
+               <workName key="pmb31247">Wiener Literatenköpfe</workName> von <persName key="pmb2147">Peter Altenberg</persName> 
+               <lb/> 
+               <date when="19120407">7. 4. 1912.</date> 
+            </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

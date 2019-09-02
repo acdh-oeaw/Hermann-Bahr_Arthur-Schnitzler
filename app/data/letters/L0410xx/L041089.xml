@@ -1,1 +1,190 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041089"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur und Olga Schnitzler an Hermann Bahr, 14. 7. 1906</title> <author key="pmb2121">Schnitzler, Arthur</author> <author key="pmb2173">Schnitzler, Olga</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="089"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> <persName key="pmb2173">Schnitzler, Olga</persName> </sender> <addressee full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </addressee> <placeSender> <placeName key="pmb726">Helsingør</placeName> </placeSender> <placeAddressee> <placeName key="pmb462">Venedig</placeName> </placeAddressee> <dateSender> <date when="19060714" n="01">14. 7. 1906</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS AM 60174 Ba</idno> </msIdentifier> <physDesc> <p>eh. Ansichtskarte, Motiv: »<quote> <placeName key="pmb959"> <settlement>Marienlyst</settlement> </placeName>, Parken</quote>«, Bleistift</p> <stamp n="1"> <date when="19060714">1<supplied>4</supplied>. 7. 06</date> <time>2–5 E</time> </stamp> <stamp n="2"> <placeName key="pmb462">Venezia</placeName> <date when="19060716">16. 7<supplied>. 06</supplied> </date> </stamp> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct default="false"> <analytic> <date when="19060714">14. 7. 1906</date> <respStmt>Abschrift</respStmt> </analytic> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> <biblScope unit="pp">95</biblScope> </monogr> <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="approved"> <change who="KI MAM" when="20151001">Kollationiert</change> <change who="KI MAM" when="20170515">Kollationiert</change> </revisionDesc> </teiHeader> <facsimile> <graphic url="HS_AM60174Ba"/> <graphic url="HS_AM60174Ba_R"/> </facsimile> <text type="card"> <body> <div type="address"> <address> <addrLine> <hi rend="latintype"> <hi rend="underline" n="1"> <placeName key="pmb462">Italie</placeName> </hi> </hi> </addrLine> <addrLine> <hi rend="latintype">Herrn</hi> </addrLine> <addrLine> <hi rend="latintype">Hermann Bahr</hi> </addrLine> <addrLine> <hi rend="latintype"> <placeName key="pmb275"> <settlement>Venezia</settlement> </placeName> </hi> </addrLine> <addrLine> <hi rend="latintype"> <placeName key="pmb305">Casa <rs type="person" key="pmb2975">Petrarca</rs> </placeName> </hi> </addrLine> </address> </div> <div type="writingSession" n="1"> <opener> <dateline> <hi rend="latintype"> <placeName key="pmb959"> <settlement>Marienlyst</settlement> </placeName> </hi>, <date>14. 7. 906</date> </dateline> </opener> <p>hier, <salute>lieber Hermann, </salute>wohnen wir seit 14 Tagen. Es ist wunderschön, und wenn du herkämst, könntest du ein angenehmes Leben, ohne Strand zwar, aber auch ohne Brandwunden führen. Wir bleiben bis auf weiteres.</p> <closer>Herzlichst<lb/>dein <signed>A.</signed> <pb/> </closer> </div> <div type="writingSession" n="2"> <p> <handShift scribe="pmb2173"/>(<anchor type="textConst" xml:id="TL089-1">Dies</anchor> soll <hi rend="latintype"> <rs type="work" key="pmb30009">Hamlet</rs> sein.</hi>)</p> <closer> <hi rend="latintype">Herzliche Erwiderung Ihrer lieben Grüsse!</hi> <space unit="chars" quantity="1"/> <signed>Olga Schnitzler.</signed> </closer> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041089"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur und Olga Schnitzler an Hermann Bahr, 14. 7. 1906</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author key="pmb2173">Schnitzler, Olga</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="089"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName key="pmb2173">Schnitzler, Olga</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb726">Helsingør</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb462">Venedig</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19060714" n="01">14. 7. 1906</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 60174 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Ansichtskarte, Motiv: »<quote> 
+                              <placeName key="pmb959"> 
+                                 <settlement>Marienlyst</settlement> 
+                              </placeName>, Parken</quote>«, Bleistift</p> 
+                        <stamp n="1"> 
+                           <date when="19060714">1<supplied>4</supplied>. 7. 06</date> 
+                           <time>2–5 E</time> 
+                        </stamp> 
+                        <stamp n="2"> 
+                           <placeName key="pmb462">Venezia</placeName> 
+                           <date when="19060716">16. 7<supplied>. 06</supplied> 
+                           </date> 
+                        </stamp> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <analytic> 
+                     <date when="19060714">14. 7. 1906</date> 
+                     <respStmt>Abschrift</respStmt> 
+                  </analytic> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
+                     <imprint> 
+                        <pubPlace>Chapel Hill</pubPlace> 
+                        <publisher>The University of North Carolina Press</publisher> 
+                        <date when="1978">1978</date> 
+                     </imprint> 
+                     <biblScope unit="pp">95</biblScope> 
+                  </monogr> 
+                  <series> 
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
+                     <biblScope unit="nr">89</biblScope> 
+                  </series> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+         <change who="KI MAM" when="20170515">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="HS_AM60174Ba"/> 
+      <graphic url="HS_AM60174Ba_R"/> 
+   </facsimile> 
+   <text type="card"> 
+      <body> 
+         <div type="address"> 
+            <address> 
+               <addrLine> 
+                  <hi rend="latintype"> 
+                     <hi rend="underline" n="1"> 
+                        <placeName key="pmb462">Italie</placeName> 
+                     </hi> 
+                  </hi> 
+               </addrLine> 
+               <addrLine> 
+                  <hi rend="latintype">Herrn</hi> 
+               </addrLine> 
+               <addrLine> 
+                  <hi rend="latintype">Hermann Bahr</hi> 
+               </addrLine> 
+               <addrLine> 
+                  <hi rend="latintype"> 
+                     <placeName key="pmb275"> 
+                        <settlement>Venezia</settlement> 
+                     </placeName> 
+                  </hi> 
+               </addrLine> 
+               <addrLine> 
+                  <hi rend="latintype"> 
+                     <placeName key="pmb305">Casa <rs type="person" key="pmb2975">Petrarca</rs> 
+                     </placeName> 
+                  </hi> 
+               </addrLine> 
+            </address> 
+         </div> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline> 
+                  <hi rend="latintype"> 
+                     <placeName key="pmb959"> 
+                        <settlement>Marienlyst</settlement> 
+                     </placeName> 
+                  </hi>, <date>14. 7. 906</date> 
+               </dateline> 
+            </opener> 
+            <p>hier, <salute>lieber Hermann, </salute>wohnen wir seit 14 Tagen. Es ist wunderschön, und wenn du herkämst, könntest du ein angenehmes Leben, ohne Strand zwar, aber auch ohne Brandwunden führen. Wir bleiben bis auf weiteres.</p> 
+            <closer>Herzlichst<lb/>dein <signed>A.</signed> 
+               <pb/> 
+            </closer> 
+         </div> 
+         <div type="writingSession" n="2"> 
+            <p> 
+               <handShift scribe="pmb2173"/>(<anchor type="textConst" xml:id="TL089-1">Dies</anchor> soll <hi rend="latintype"> 
+                  <rs type="work" key="pmb30009">Hamlet</rs> sein.</hi>)</p> 
+            <closer> 
+               <hi rend="latintype">Herzliche Erwiderung Ihrer lieben Grüsse!</hi> 
+               <space unit="chars" quantity="1"/> 
+               <signed>Olga Schnitzler.</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

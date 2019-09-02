@@ -1,1 +1,134 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041048"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur Schnitzler an Hermann Bahr, 25. 1. 1902</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="048"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </sender> <addressee full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </addressee> <dateSender> <date when="19020125" n="1">25. 1. 1902</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS AM 23349 Ba</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 2 S.</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct default="false"> <analytic> <date when="19020125">25. 1. 1902</date> </analytic> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> <biblScope unit="pp">74</biblScope> </monogr> <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="approved"> <change who="KI MAM" when="20151001">Kollationiert</change> <change who="KI MAM" when="20170508">Kollationiert</change> </revisionDesc> </teiHeader> <facsimile> <graphic url="HS_AM23349Ba"/> <graphic url="HS_AM23349Ba_R"/> </facsimile> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <salute>mein lieber Hermann;</salute> </opener> <p>ich danke dir sehr. Du hast Dinge über mich gesagt, die mich ganz besonders gefreut haben; – ich wollte sie endlich hören, wollte sie vor allem von dir hören. Nicht das beiläufige über den <orgName key="pmb29677">Grillparzer Preis</orgName> meine ich, sondern das<pb/> allgemeine. Jemand, der heute deinen <rs type="work" key="pmb31379">Artikel</rs> las, sagte: »Es ist ganz einfach, Ihr seid <add place="inline">a<unclear>l</unclear> <damage agent="paperloss"> <supplied>le</supplied> </damage> </add> beide mit der Zeit anständige Leute geworden.«</p> <closer>herzlichen Gruss<lb/>dein <signed>Arthur</signed> </closer> <postscript> <p> <date>2<subst> <del rend="overwritten">4</del> <add place="inline">5</add> </subst>. 1. 902</date> </p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041048"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 25. 1. 1902</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="048"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <dateSender> 
+                  <date when="19020125" n="1">25. 1. 1902</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 23349 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 2 S.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <analytic> 
+                     <date when="19020125">25. 1. 1902</date> 
+                  </analytic> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
+                     <imprint> 
+                        <pubPlace>Chapel Hill</pubPlace> 
+                        <publisher>The University of North Carolina Press</publisher> 
+                        <date when="1978">1978</date> 
+                     </imprint> 
+                     <biblScope unit="pp">74</biblScope> 
+                  </monogr> 
+                  <series> 
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
+                     <biblScope unit="nr">89</biblScope> 
+                  </series> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+         <change who="KI MAM" when="20170508">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="HS_AM23349Ba"/> 
+      <graphic url="HS_AM23349Ba_R"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <salute>mein lieber Hermann;</salute> 
+            </opener> 
+            <p>ich danke dir sehr. Du hast Dinge über mich gesagt, die mich ganz besonders gefreut haben; – ich wollte sie endlich hören, wollte sie vor allem von dir hören. Nicht das beiläufige über den <orgName key="pmb29677">Grillparzer Preis</orgName> meine ich, sondern das<pb/> allgemeine. Jemand, der heute deinen <rs type="work" key="pmb31379">Artikel</rs> las, sagte: »Es ist ganz einfach, Ihr seid <add place="inline">a<unclear>l</unclear> 
+                  <damage agent="paperloss"> 
+                     <supplied>le</supplied> 
+                  </damage> 
+               </add> beide mit der Zeit anständige Leute geworden.«</p> 
+            <closer>herzlichen Gruss<lb/>dein <signed>Arthur</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <date>2<subst> 
+                        <del rend="overwritten">4</del> 
+                        <add place="inline">5</add> 
+                     </subst>. 1. 902</date> 
+               </p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

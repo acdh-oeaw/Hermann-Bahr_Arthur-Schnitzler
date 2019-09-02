@@ -1,1 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041355"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">S. Fischer an Arthur Schnitzler, 27. 1. 1892</title> <author key="pmb11324">Fischer, Samuel</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="355"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb11324">Fischer, Samuel</persName> </sender> <addressee full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </addressee> <placeSender> <placeName key="pmb168">Berlin</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="18920127" n="01">27. 1. 1892</date> </dateSender> <context/> </correspDesc> <listBibl> <biblStruct corresp="BWFi" default="false"> <monogr> <author>Fischer, Samuel</author> <author>Fischer, Hedwig</author> <title level="m">Briefwechsel mit Autoren</title> <editor>Hg. Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor> <imprint> <pubPlace>Frankfurt am Main</pubPlace> <publisher>S. Fischer</publisher> <date when="1989">1989</date> </imprint> <biblScope unit="pp">51</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-DE">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20151111">angelegt</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <dateline rend="right"> <placeName key="pmb168"> <settlement>Berlin, W.</settlement> </placeName> <space unit="chars" quantity="1"/> <date>27/1 92</date> <lb/> <placeName key="pmb359">Köthenerstr. 44 I</placeName> </dateline> <salute>Sehr geehrter Herr Doctor,</salute> </opener> <p>Herr <persName key="pmb10815">Bahr</persName> war so gütig zwischen uns die Präliminarien eines event. Verlags Ihres <workName key="pmb29935">Anatole-Cyclus</workName> zu führen.</p> <p>Haben Sie die Güte, uns die betr. Manuscripte einzusenden, damit wir Ihnen mit näheren Vorschlägen dienen.</p> <closer>Hochachtungsvoll<lb/>Ihr ergebener<lb/> <signed>SFischer</signed> </closer> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041355"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">S. Fischer an Arthur Schnitzler, 27. 1. 1892</title> 
+            <author key="pmb11324">Fischer, Samuel</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="355"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb11324">Fischer, Samuel</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb168">Berlin</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18920127" n="01">27. 1. 1892</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listBibl> 
+               <biblStruct corresp="BWFi" default="false"> 
+                  <monogr> 
+                     <author>Fischer, Samuel</author> 
+                     <author>Fischer, Hedwig</author> 
+                     <title level="m">Briefwechsel mit Autoren</title> 
+                     <editor>Hg. Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor> 
+                     <imprint> 
+                        <pubPlace>Frankfurt am Main</pubPlace> 
+                        <publisher>S. Fischer</publisher> 
+                        <date when="1989">1989</date> 
+                     </imprint> 
+                     <biblScope unit="pp">51</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-DE">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb168"> 
+                     <settlement>Berlin, W.</settlement> 
+                  </placeName> 
+                  <space unit="chars" quantity="1"/> 
+                  <date>27/1 92</date> 
+                  <lb/> 
+                  <placeName key="pmb359">Köthenerstr. 44 I</placeName> 
+               </dateline> 
+               <salute>Sehr geehrter Herr Doctor,</salute> 
+            </opener> 
+            <p>Herr <persName key="pmb10815">Bahr</persName> war so gütig zwischen uns die Präliminarien eines event. Verlags Ihres <workName key="pmb29935">Anatole-Cyclus</workName> zu führen.</p> 
+            <p>Haben Sie die Güte, uns die betr. Manuscripte einzusenden, damit wir Ihnen mit näheren Vorschlägen dienen.</p> 
+            <closer>Hochachtungsvoll<lb/>Ihr ergebener<lb/> 
+               <signed>SFischer</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

@@ -1,1 +1,122 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041584"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur Schnitzler an Marie Reinhard, 25. 6. 1897</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="584"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </sender> <addressee full="yes"> <persName key="pmb2378">Reinhard, Marie</persName> </addressee> <placeSender> <placeName key="pmb50">Wien</placeName> </placeSender> <placeAddressee> <placeName key="pmb390">Franzensbad/Františkovy Lázně</placeName> </placeAddressee> <dateSender> <date when="18970625" n="1">25. 6. 1897</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>D</country> <settlement>Marbach am Neckar</settlement> <repository>Deutsches Literaturarchiv</repository> <idno>A:Schnitzler, 85.1.1678/108</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 4 S., Bleistift</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20160426">Angelegt</change> <change who="KI MAM" when="20160920">Kollationiert</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <p>23.</p> <dateline rend="right"> <date>25. 6. 97</date>.</dateline> </opener> <p> <salute>Mein geliebter Schatz, </salute>noch bevor ich einpacke, will ich dir aus <placeName key="pmb50"> <settlement>Wien</settlement> </placeName> tausend Grüße u Küsse senden. Ich will auch noch erwähnen, dass ich gestern Abend in <placeName key="pmb678">Döbling, Pyrkergasse</placeName> war <add place="above">(mit <anchor type="commentary" xml:id="KL584-1">Frau <persName key="pmb19337">K.</persName> </anchor>)</add>, ein angeblich allein stehendes Häuschen zum Allein<pb/> bewohnen ansehen – Es wimmelte von Menschen; neben dem alleinstehend Häuschen im Garten steht ein großes Haus, wo Leute wohnen, die Jahrelang im selben Haus mit uns (<placeName key="pmb274">Burgring</placeName>) gewohnt; im Garten traf ich sofort einen Bekannten! (<rs type="person" key="pmb4599">Bru<pb/>der</rs> des verstorbnen Prof <persName key="pmb10792">Auspitz</persName>) – Ich war sehr verstimmt über die Schwierigkeiten; ging dann gegen <placeName key="pmb159">Heiligenstad<unclear>t</unclear> </placeName> zu spazieren, zu Fuss nach <placeName key="pmb50"> <settlement>Wien</settlement> </placeName>; früh nach haus, das <rs type="work" key="pmb30474">Stück</rs> von <persName key="pmb11701"> <hi rend="latintype">G. Hirschf.</hi> </persName> lesen; Das wirklich schön ist. <persName key="pmb10815">Bahr</persName> ist einfach ein Esel; man kann<pb/> nichts Dümmeres über das Stück sagen, als er mir vorgestern <subst> <del rend="overwritten"> <unclear>erk</unclear> </del> <add place="inline">sa</add> </subst>gte. Er erklärte es u. a. für antisemitisch.– </p> <p>So, jetzt muss gepackt werden. Ich bin übel gelaunt; hoffe auf bessere Tage in <placeName key="pmb213"> <settlement>Ischl</settlement> </placeName>, und sehne mich nach Dir unbeschreiblich. Tausend innige Küsse für heut. Du weißt <placeName key="pmb414"> <hi rend="latintype">Ischl, Pens. Petter</hi> Rudolfshöhe</placeName>!– </p> <closer>Ich bete Dich an<space unit="chars" quantity="5"/>Dein <signed>Art</signed> </closer> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041584"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Marie Reinhard, 25. 6. 1897</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="584"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2378">Reinhard, Marie</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb390">Franzensbad/Františkovy Lázně</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18970625" n="1">25. 6. 1897</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Marbach am Neckar</settlement> 
+                        <repository>Deutsches Literaturarchiv</repository> 
+                        <idno>A:Schnitzler, 85.1.1678/108</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 4 S., Bleistift</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160426">Angelegt</change> 
+         <change who="KI MAM" when="20160920">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <p>23.</p> 
+               <dateline rend="right"> 
+                  <date>25. 6. 97</date>.</dateline> 
+            </opener> 
+            <p> 
+               <salute>Mein geliebter Schatz, </salute>noch bevor ich einpacke, will ich dir aus <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName> tausend Grüße u Küsse senden. Ich will auch noch erwähnen, dass ich gestern Abend in <placeName key="pmb678">Döbling, Pyrkergasse</placeName> war <add place="above">(mit <anchor type="commentary" xml:id="KL584-1">Frau <persName key="pmb19337">K.</persName> 
+                  </anchor>)</add>, ein angeblich allein stehendes Häuschen zum Allein<pb/> bewohnen ansehen – Es wimmelte von Menschen; neben dem alleinstehend Häuschen im Garten steht ein großes Haus, wo Leute wohnen, die Jahrelang im selben Haus mit uns (<placeName key="pmb274">Burgring</placeName>) gewohnt; im Garten traf ich sofort einen Bekannten! (<rs type="person" key="pmb4599">Bru<pb/>der</rs> des verstorbnen Prof <persName key="pmb10792">Auspitz</persName>) – Ich war sehr verstimmt über die Schwierigkeiten; ging dann gegen <placeName key="pmb159">Heiligenstad<unclear>t</unclear> 
+               </placeName> zu spazieren, zu Fuss nach <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>; früh nach haus, das <rs type="work" key="pmb30474">Stück</rs> von <persName key="pmb11701"> 
+                  <hi rend="latintype">G. Hirschf.</hi> 
+               </persName> lesen; Das wirklich schön ist. <persName key="pmb10815">Bahr</persName> ist einfach ein Esel; man kann<pb/> nichts Dümmeres über das Stück sagen, als er mir vorgestern <subst> 
+                  <del rend="overwritten"> 
+                     <unclear>erk</unclear> 
+                  </del> 
+                  <add place="inline">sa</add> 
+               </subst>gte. Er erklärte es u. a. für antisemitisch.– </p> 
+            <p>So, jetzt muss gepackt werden. Ich bin übel gelaunt; hoffe auf bessere Tage in <placeName key="pmb213"> 
+                  <settlement>Ischl</settlement> 
+               </placeName>, und sehne mich nach Dir unbeschreiblich. Tausend innige Küsse für heut. Du weißt <placeName key="pmb414"> 
+                  <hi rend="latintype">Ischl, Pens. Petter</hi> Rudolfshöhe</placeName>!– </p> 
+            <closer>Ich bete Dich an<space unit="chars" quantity="5"/>Dein <signed>Art</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

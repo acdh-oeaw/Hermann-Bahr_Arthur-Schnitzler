@@ -1,1 +1,111 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041582"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Hermann Bahr: Widmungsexemplar Buch der Jugend, Dezember 1908</title> <author key="pmb10815">Bahr, Hermann</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="582"/> <availability status="free"> <p>Copyright © 2015</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </sender> <addressee full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </addressee> <!--<placeSender><placeName>[Berlin???]</placeName></placeSender>--> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="19081200" n="2">Dezember 1908</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>D</country> <settlement>Marbach am Neckar</settlement> <repository>Deutsches Literaturarchiv</repository> <idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno> </msIdentifier> <physDesc> <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName key="pmb31097">Buch der Jugend</workName>. <placeName key="pmb50"> <settlement>Wien</settlement> </placeName>, <placeName key="pmb864"> <settlement>Leipzig</settlement> </placeName>: <orgName key="pmb29747">H. Heller</orgName> <space unit="chars" quantity="1"/> <date>1908</date> </bibl>.</p> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20160426">Angelegt mit Original</change> <change who="KI MAM" when="20160509">Kollationiert</change> </revisionDesc> </teiHeader> <text type="dedication"> <body> <div type="writingSession" n="1"> <p> <workName key="pmb31097"/>Seinem lieben Arthur</p> <closer>herzlichst<lb/> <signed>HermannB.</signed> </closer> <postscript> <p> <date when="190812">Dez. 1908</date> </p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041582"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr: Widmungsexemplar Buch der Jugend, Dezember 1908</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="582"/> 
+            <availability status="free"> 
+               <p>Copyright © 2015</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <!--<placeSender><placeName>[Berlin???]</placeName></placeSender>--> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19081200" n="2">Dezember 1908</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Marbach am Neckar</settlement> 
+                        <repository>Deutsches Literaturarchiv</repository> 
+                        <idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName key="pmb31097">Buch der Jugend</workName>. <placeName key="pmb50"> 
+                                 <settlement>Wien</settlement> 
+                              </placeName>, <placeName key="pmb864"> 
+                                 <settlement>Leipzig</settlement> 
+                              </placeName>: <orgName key="pmb29747">H. Heller</orgName> 
+                              <space unit="chars" quantity="1"/> 
+                              <date>1908</date> 
+                           </bibl>.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160426">Angelegt mit Original</change> 
+         <change who="KI MAM" when="20160509">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="dedication"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <workName key="pmb31097"/>Seinem lieben Arthur</p> 
+            <closer>herzlichst<lb/> 
+               <signed>HermannB.</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <date when="190812">Dez. 1908</date> 
+               </p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

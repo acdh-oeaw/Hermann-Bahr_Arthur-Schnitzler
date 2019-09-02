@@ -1,1 +1,142 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041534"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur Schnitzler an Adele Sandrock, [5.] 6. 1894</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="534"/> <availability status="free"> <p>Copyright © 2015</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </sender> <addressee full="yes"> <persName key="pmb12618">Sandrock, Adele</persName> </addressee> <placeSender> <placeName key="pmb155">München</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="18940605" n="01">[5.] 6. 1894</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>D</country> <settlement>Marbach am Neckar</settlement> <repository>Deutsches Literaturarchiv</repository> <idno>A:Schnitzler, 85.1.1758</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 4 S., Bleistift</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct corresp="ASAS" default="false"> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <author key="pmb12618">Sandrock, Adele</author> <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten</title> <editor>Zusammengestellt von Renate Wagner</editor> <imprint> <pubPlace>Wien, München</pubPlace> <publisher>Amalthea</publisher> <date when="1975">1975</date> </imprint> <biblScope unit="pp">148</biblScope> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20160411">Angelegt</change> <change who="MAM" when="20160426">Kollationiert DLA</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <dateline rend="right"> <placeName key="pmb155"> <settlement>München</settlement> </placeName>, <date>AnfJuni</date> </dateline> <salute>Meine geliebte Dilly,</salute> </opener> <p>bin noch im <placeName key="pmb100">Café Luitpold</placeName>, aber nach dem Speisen, zwischen zwei Gallerien – und zwischen <rs type="person" key="pmb10863">zwei großen Dichtern</rs>. –</p> <p> <persName key="pmb10815"> <hi rend="latintype">Bahr</hi> </persName> ist heute früh gekommen.–</p> <p>Gestern Abend waren wir bei der »<workName key="pmb29825">Jugend</workName>« von <persName key="pmb11565"> <hi rend="latintype">Halbe</hi> </persName> . Sehr interessantes Stück<pb/> das in <placeName key="pmb50"> <settlement>Wien</settlement> </placeName> wahrscheinlich verhöhnt worden wäre.– </p> <p>Dein Telegramm, Schatz, fand <subst> <del rend="overwritten">d<unclear>er</unclear> </del> <add place="inline">ich</add> </subst> gestern Abend – nun ist hoffentlich Dein Fieber und die Schmerzen völlig weg – Aber, Kind, Kind, dass diese »Aufklärung« – nothwendig war – das hab ich doch nicht gedacht. Ich bin ja ein Säugling<pb/> des Mistrauens gegen Dich!–</p> <p>So sind nun bald 3 mal 24 Stunden, dass ich – von den telegraf. Worten abgesehn, nichts, gar nichts von dir gehört. Morgen bekomm’ ich wohl einen Brief. Ich reise Donnerstg u Freitg von hier ab, – wird rechtzeitg telegrafirt –</p> <p>Im ganzen fühl ich mich recht<pb/> wohl – abgesehen von der Sehnsucht nach den lieben Worten und nach den süßen Küssen, die mir in <placeName key="pmb50"> <settlement>Wien</settlement> </placeName> das Leben – nach halb zehn versüßen und verschönen.</p> <p>Hast du mich lieb? – Mir ist, als hätt ich dich Wochen lang nicht gesehn – </p> <p>Leb wohl, mein geliebter Schatz und tausend Küsse!<space unit="chars" quantity="5"/>Dein dein <signed>Arth</signed> </p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041534"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Adele Sandrock, [5.] 6. 1894</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="534"/> 
+            <availability status="free"> 
+               <p>Copyright © 2015</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb12618">Sandrock, Adele</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb155">München</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18940605" n="01">[5.] 6. 1894</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Marbach am Neckar</settlement> 
+                        <repository>Deutsches Literaturarchiv</repository> 
+                        <idno>A:Schnitzler, 85.1.1758</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 4 S., Bleistift</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="ASAS" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author key="pmb12618">Sandrock, Adele</author> 
+                     <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten</title> 
+                     <editor>Zusammengestellt von Renate Wagner</editor> 
+                     <imprint> 
+                        <pubPlace>Wien, München</pubPlace> 
+                        <publisher>Amalthea</publisher> 
+                        <date when="1975">1975</date> 
+                     </imprint> 
+                     <biblScope unit="pp">148</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160411">Angelegt</change> 
+         <change who="MAM" when="20160426">Kollationiert DLA</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb155"> 
+                     <settlement>München</settlement> 
+                  </placeName>, <date>AnfJuni</date> 
+               </dateline> 
+               <salute>Meine geliebte Dilly,</salute> 
+            </opener> 
+            <p>bin noch im <placeName key="pmb100">Café Luitpold</placeName>, aber nach dem Speisen, zwischen zwei Gallerien – und zwischen <rs type="person" key="pmb10863">zwei großen Dichtern</rs>. –</p> 
+            <p> 
+               <persName key="pmb10815"> 
+                  <hi rend="latintype">Bahr</hi> 
+               </persName> ist heute früh gekommen.–</p> 
+            <p>Gestern Abend waren wir bei der »<workName key="pmb29825">Jugend</workName>« von <persName key="pmb11565"> 
+                  <hi rend="latintype">Halbe</hi> 
+               </persName> . Sehr interessantes Stück<pb/> das in <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName> wahrscheinlich verhöhnt worden wäre.– </p> 
+            <p>Dein Telegramm, Schatz, fand <subst> 
+                  <del rend="overwritten">d<unclear>er</unclear> 
+                  </del> 
+                  <add place="inline">ich</add> 
+               </subst> gestern Abend – nun ist hoffentlich Dein Fieber und die Schmerzen völlig weg – Aber, Kind, Kind, dass diese »Aufklärung« – nothwendig war – das hab ich doch nicht gedacht. Ich bin ja ein Säugling<pb/> des Mistrauens gegen Dich!–</p> 
+            <p>So sind nun bald 3 mal 24 Stunden, dass ich – von den telegraf. Worten abgesehn, nichts, gar nichts von dir gehört. Morgen bekomm’ ich wohl einen Brief. Ich reise Donnerstg u Freitg von hier ab, – wird rechtzeitg telegrafirt –</p> 
+            <p>Im ganzen fühl ich mich recht<pb/> wohl – abgesehen von der Sehnsucht nach den lieben Worten und nach den süßen Küssen, die mir in <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName> das Leben – nach halb zehn versüßen und verschönen.</p> 
+            <p>Hast du mich lieb? – Mir ist, als hätt ich dich Wochen lang nicht gesehn – </p> 
+            <p>Leb wohl, mein geliebter Schatz und tausend Küsse!<space unit="chars" quantity="5"/>Dein dein <signed>Arth</signed> 
+            </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

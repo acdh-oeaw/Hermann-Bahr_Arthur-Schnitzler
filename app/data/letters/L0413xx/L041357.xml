@@ -1,1 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041357"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Felix Salten an Arthur Schnitzler, 23. 7. 1897</title> <author key="pmb2167">Salten, Felix</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="357"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2167">Salten, Felix</persName> </sender> <addressee full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </addressee> <placeSender> <placeName key="pmb50">Wien</placeName> </placeSender> <placeAddressee> <placeName key="pmb213">Bad Ischl</placeName> </placeAddressee> <dateSender> <date when="18970723" n="02">23. 7. 1897</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>GB</country> <settlement>Cambridge</settlement> <repository>University Library</repository> <idno>Schnitzler, B 89 a/2</idno> </msIdentifier> <physDesc> <p>eh. Karte, Lateinschrift, Bleistift</p> <stamp n="1"> <placeName key="pmb59">Wien 9/3</placeName> <date when="18970723">23. 7. 97</date> <time>4–5 N</time> </stamp> <stamp n="2"> <placeName key="pmb213">Ischl</placeName> <date when="18970724">24/7 97</date> <time>7–8</time> </stamp> </physDesc> </msDesc> </witness> </listWit> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20151112">Angelegt aus Abschrift</change> <change who="MAM" when="20151126">Autopsie am Original</change> <change who="KI MAM" when="20160614">Kollationiert</change> </revisionDesc> </teiHeader> <text type="card"> <body> <div type="address"> <address> <addrLine>Herrn D<hi rend="superscript"> <hi rend="underline" n="1">r</hi> </hi> Arthur Schnitzler</addrLine> <addrLine> <del rend="erased"> <placeName key="pmb50"> <settlement>Wien</settlement> </placeName> </del> <space unit="chars" quantity="1"/> <placeName key="pmb213"> <settlement>Ischl</settlement> </placeName> </addrLine> <addrLine> <placeName key="pmb414">Kaltenbach, Pension Petter</placeName>.</addrLine> </address> </div> <div type="writingSession" n="1"> <opener> <dateline> <date>23/7</date> </dateline> </opener> <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1"> <persName key="pmb10815 pmb11036" cert="low">B</persName>.</anchor> </p> <p>Das hätte <subst> <del rend="overwritten"> <gap quantity="2" reason="illegible" unit="chars"/> </del> <add place="inline">m</add> </subst>an sich eigentlich denken können.</p> <closer>Herzlich <signed>S.</signed> </closer> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041357"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Felix Salten an Arthur Schnitzler, 23. 7. 1897</title> 
+            <author key="pmb2167">Salten, Felix</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="357"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2167">Salten, Felix</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb213">Bad Ischl</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18970723" n="02">23. 7. 1897</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>GB</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, B 89 a/2</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Karte, Lateinschrift, Bleistift</p> 
+                        <stamp n="1"> 
+                           <placeName key="pmb59">Wien 9/3</placeName> 
+                           <date when="18970723">23. 7. 97</date> 
+                           <time>4–5 N</time> 
+                        </stamp> 
+                        <stamp n="2"> 
+                           <placeName key="pmb213">Ischl</placeName> 
+                           <date when="18970724">24/7 97</date> 
+                           <time>7–8</time> 
+                        </stamp> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151112">Angelegt aus Abschrift</change> 
+         <change who="MAM" when="20151126">Autopsie am Original</change> 
+         <change who="KI MAM" when="20160614">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="card"> 
+      <body> 
+         <div type="address"> 
+            <address> 
+               <addrLine>Herrn D<hi rend="superscript"> 
+                     <hi rend="underline" n="1">r</hi> 
+                  </hi> Arthur Schnitzler</addrLine> 
+               <addrLine> 
+                  <del rend="erased"> 
+                     <placeName key="pmb50"> 
+                        <settlement>Wien</settlement> 
+                     </placeName> 
+                  </del> 
+                  <space unit="chars" quantity="1"/> 
+                  <placeName key="pmb213"> 
+                     <settlement>Ischl</settlement> 
+                  </placeName> 
+               </addrLine> 
+               <addrLine> 
+                  <placeName key="pmb414">Kaltenbach, Pension Petter</placeName>.</addrLine> 
+            </address> 
+         </div> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline> 
+                  <date>23/7</date> 
+               </dateline> 
+            </opener> 
+            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1"> 
+                  <persName key="pmb10815 pmb11036" cert="low">B</persName>.</anchor> 
+            </p> 
+            <p>Das hätte <subst> 
+                  <del rend="overwritten"> 
+                     <gap quantity="2" reason="illegible" unit="chars"/> 
+                  </del> 
+                  <add place="inline">m</add> 
+               </subst>an sich eigentlich denken können.</p> 
+            <closer>Herzlich <signed>S.</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

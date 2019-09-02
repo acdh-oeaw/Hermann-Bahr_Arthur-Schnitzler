@@ -1,1 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041295"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Tagebuch von Arthur Schnitzler, 13. 11. 1908</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno n="295" type="HBAS-D"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listBibl> <biblStruct corresp="ASTB" default="false"> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">Tagebuch 1903–1908</title> <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> <imprint> <pubPlace>Wien</pubPlace> <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> <date when="1991">1991</date> </imprint> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20151111">angelegt</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="19081113" n="1">13/11</date> Vm. bei <persName key="pmb27882">Wärndorfer</persName>. Er wollte aus dem <workName key="pmb29855">Reigen</workName> den Dialog »Schauspielerin Graf« aufführen, hatte schon die polizeiliche Erlaubnis, Rollen ausgetheilt – und war höchst ungnädig, als ich die Erlaubnis verweigerte; angeblich besonders weil ers der <persName key="pmb27956">Rossi</persName> versprochen.–</p> <p>Nm. Frau <persName key="pmb14082">Joh. Freund Bergmeister</persName> und Frl. <persName key="pmb12855">v. Stockert-Meynert</persName> da, Einladung zur Aufführung eines Blindenstücks überbringen.–</p> <p>Frl. <persName key="pmb19332">Kipiany</persName> da.</p> <p>Hr. <persName key="pmb11230">Albert Ehrenstein</persName>, dem ich einiges über seine Skizzen zu sagen hatte; er äußerte wieder viel kluges.–</p> <p>Bei <rs key="pmb12701" type="person">Mama</rs> en fam. (ohne <persName key="pmb2173">O.</persName>, die bettlägerig war).</p> <p>– <persName key="pmb10815">Bahr</persName> reist herum, hält Vorträge über mich, schrieb mir neulich, auch dass ich letztes Heft »<orgName key="pmb29398">Morgen</orgName>« lesen solle, mit seinen <rs type="work" key="pmb30089">Bemerkungen</rs> über »<workName key="pmb29923">Weg ins freie</workName>«. Ich las sie; sie sind <anchor type="label" xml:id="LD295-1">fabelhaft dumm</anchor>. Im übrigen ist er in all seiner Unfähigkeit jemals irgend eine Sache klar, frei, rein anzusehen, <anchor type="label" xml:id="LD295-2">ein wundervolles Exemplar Mensch</anchor>.</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041295"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Tagebuch von Arthur Schnitzler, 13. 11. 1908</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno n="295" type="HBAS-D"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASTB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Tagebuch 1903–1908</title> 
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
+                     <imprint> 
+                        <pubPlace>Wien</pubPlace> 
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
+                        <date when="1991">1991</date> 
+                     </imprint> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19081113" n="1">13/11</date> Vm. bei <persName key="pmb27882">Wärndorfer</persName>. Er wollte aus dem <workName key="pmb29855">Reigen</workName> den Dialog »Schauspielerin Graf« aufführen, hatte schon die polizeiliche Erlaubnis, Rollen ausgetheilt – und war höchst ungnädig, als ich die Erlaubnis verweigerte; angeblich besonders weil ers der <persName key="pmb27956">Rossi</persName> versprochen.–</p> 
+            <p>Nm. Frau <persName key="pmb14082">Joh. Freund Bergmeister</persName> und Frl. <persName key="pmb12855">v. Stockert-Meynert</persName> da, Einladung zur Aufführung eines Blindenstücks überbringen.–</p> 
+            <p>Frl. <persName key="pmb19332">Kipiany</persName> da.</p> 
+            <p>Hr. <persName key="pmb11230">Albert Ehrenstein</persName>, dem ich einiges über seine Skizzen zu sagen hatte; er äußerte wieder viel kluges.–</p> 
+            <p>Bei <rs key="pmb12701" type="person">Mama</rs> en fam. (ohne <persName key="pmb2173">O.</persName>, die bettlägerig war).</p> 
+            <p>– <persName key="pmb10815">Bahr</persName> reist herum, hält Vorträge über mich, schrieb mir neulich, auch dass ich letztes Heft »<orgName key="pmb29398">Morgen</orgName>« lesen solle, mit seinen <rs type="work" key="pmb30089">Bemerkungen</rs> über »<workName key="pmb29923">Weg ins freie</workName>«. Ich las sie; sie sind <anchor type="label" xml:id="LD295-1">fabelhaft dumm</anchor>. Im übrigen ist er in all seiner Unfähigkeit jemals irgend eine Sache klar, frei, rein anzusehen, <anchor type="label" xml:id="LD295-2">ein wundervolles Exemplar Mensch</anchor>.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

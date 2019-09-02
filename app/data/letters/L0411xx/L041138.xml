@@ -1,1 +1,129 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041138"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Olga Schnitzler an Hermann Bahr, 16. 12. 1921</title> <author key="pmb2173">Schnitzler, Olga</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="138"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2173">Schnitzler, Olga</persName> </sender> <addressee full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </addressee> <placeAddressee> <placeName key="pmb30">[Salzburg]</placeName> </placeAddressee> <dateSender> <date when="19211216" n="01">16. 12. 1921</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS AM 69560 Ba</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 2 S., Lateinschrift</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct default="false"> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> <biblScope unit="pp">116</biblScope> </monogr> <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="KI MAM" when="20151001">Kollationiert</change> </revisionDesc> </teiHeader> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <salute>Sehr verehrter lieber Herr Bahr,</salute> </opener> <p>schon längst wollt ich mich wieder bei Ihnen melden. Aber ich hatte Besuch, – und nun seh ich <placeName key="pmb50"> <settlement>Wien</settlement> </placeName>er Gesichter auftauchen und da denk ich, Sie werden keine ruhigen Tage haben, – und wage schon gar nichts für mich zu erbitten.</p> <p>Dem <persName key="pmb2121">Arthur</persName> hab ich von den beiden Spaziergängen mit Ihnen berichtet, daraufhin schrieb er mir neulich eine Menge schöner Dinge über Sie und nun fragt er immer nach Ihnen, – ich wünschte so sehr – er würde Ihnen einmal in einer guten Stunde begegnen. Von allen Menschen, die ich kenne, glaub ich, sind Sie der Einzige, der befreiend auf ihn wirken könnte.</p> <p>Meine <rs type="person" key="pmb2238 pmb12692">Kinder</rs> kommen zu Weihnachten hieher zu mir.<pb/> </p> <p>Ich wünsche Ihnen gute und frohe Tage! </p> <closer>Von Herzen ergeben<lb/>Ihre<lb/> <signed>Olga Schnitzler.</signed> </closer> <postscript> <p> <date when="19211216">16. Dec. 21.</date> </p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041138"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Olga Schnitzler an Hermann Bahr, 16. 12. 1921</title> 
+            <author key="pmb2173">Schnitzler, Olga</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="138"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2173">Schnitzler, Olga</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeAddressee> 
+                  <placeName key="pmb30">[Salzburg]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19211216" n="01">16. 12. 1921</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 69560 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
+                     <imprint> 
+                        <pubPlace>Chapel Hill</pubPlace> 
+                        <publisher>The University of North Carolina Press</publisher> 
+                        <date when="1978">1978</date> 
+                     </imprint> 
+                     <biblScope unit="pp">116</biblScope> 
+                  </monogr> 
+                  <series> 
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
+                     <biblScope unit="nr">89</biblScope> 
+                  </series> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <salute>Sehr verehrter lieber Herr Bahr,</salute> 
+            </opener> 
+            <p>schon längst wollt ich mich wieder bei Ihnen melden. Aber ich hatte Besuch, – und nun seh ich <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>er Gesichter auftauchen und da denk ich, Sie werden keine ruhigen Tage haben, – und wage schon gar nichts für mich zu erbitten.</p> 
+            <p>Dem <persName key="pmb2121">Arthur</persName> hab ich von den beiden Spaziergängen mit Ihnen berichtet, daraufhin schrieb er mir neulich eine Menge schöner Dinge über Sie und nun fragt er immer nach Ihnen, – ich wünschte so sehr – er würde Ihnen einmal in einer guten Stunde begegnen. Von allen Menschen, die ich kenne, glaub ich, sind Sie der Einzige, der befreiend auf ihn wirken könnte.</p> 
+            <p>Meine <rs type="person" key="pmb2238 pmb12692">Kinder</rs> kommen zu Weihnachten hieher zu mir.<pb/> 
+            </p> 
+            <p>Ich wünsche Ihnen gute und frohe Tage! </p> 
+            <closer>Von Herzen ergeben<lb/>Ihre<lb/> 
+               <signed>Olga Schnitzler.</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <date when="19211216">16. Dec. 21.</date> 
+               </p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

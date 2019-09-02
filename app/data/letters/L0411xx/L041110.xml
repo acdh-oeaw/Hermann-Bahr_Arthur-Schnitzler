@@ -1,1 +1,143 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041110"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Arthur Schnitzler an Hermann Bahr, 1. 7. 1901</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-L" n="110"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <correspDesc> <sender full="yes"> <persName key="pmb2121">Schnitzler, Arthur</persName> </sender> <addressee full="yes"> <persName key="pmb10815">Bahr, Hermann</persName> </addressee> <placeSender> <placeName key="pmb212">St. Anton am Arlberg</placeName> </placeSender> <placeAddressee> <placeName key="pmb50">[Wien]</placeName> </placeAddressee> <dateSender> <date when="19010701" n="01">1. 7. 1901</date> </dateSender> <context/> </correspDesc> <listWit> <witness n="1"> <msDesc> <msIdentifier> <country>A</country> <settlement>Wien</settlement> <repository>Theatermuseum</repository> <idno>HS AM 23390 Ba</idno> </msIdentifier> <physDesc> <p>eh. Brief, 1 Bl., 3 S., Bleistift</p> </physDesc> </msDesc> </witness> </listWit> <listBibl> <biblStruct default="false"> <analytic> <date when="19090701">1. 7. 1909</date> </analytic> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> <imprint> <pubPlace>Chapel Hill</pubPlace> <publisher>The University of North Carolina Press</publisher> <date when="1978">1978</date> </imprint> <biblScope unit="pp">103</biblScope> </monogr> <series> <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> <biblScope unit="nr">89</biblScope> </series> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="approved"> <change who="KI MAM" when="20151001">Kollationiert</change> <change who="KI MAM" when="20170509">Kollationiert</change> </revisionDesc> </teiHeader> <facsimile> <graphic url="HS_AM23390Ba"/> <graphic url="HS_AM23390Ba_R"/> </facsimile> <text type="letter"> <body> <div type="writingSession" n="1"> <opener> <salute>lieber Hermann</salute> </opener> <p>es drängt mich, dir zu deinem Collegen <persName key="pmb12460">Poetzl</persName> wärmstens zu gratuliren. Das sind einmal mannhafte, echt <anchor type="commentary" xml:id="KL110-1"> <rs type="work" key="pmb30025">t<damage agent="hole"> <supplied>e</supplied> </damage>utsche Worte</rs> </anchor>! Das Herz geht einem auf, wenn man sie liest. »<rs type="work" key="pmb30025">Es ist besser, das gute zu heucheln als es durch offenkundige Frevel<pb/> aller Art von der Tagesordnung gänzlich absetzen</rs>.« – »<rs type="work" key="pmb30025">Es ist immer noch moralischer im Geheimen zu sündigen als auf oeffentlichem Markte mit dem Laster Arm in Arm zu gehen –</rs>« »<rs type="work" key="pmb30025">Die Gesammtheit darf die Tugend nicht verachten, sondern muss sie heilig halten und auf ihren Schild erheben</rs>« –<pb/> </p> <p>– So ehrlich ist die Heuchelei selten gewesen!</p> <closer>Leb wohl und sei herzlich gegrüßt.<lb/>Dein<lb/> <signed>Arth Sch</signed> </closer> <postscript> <p> <placeName key="pmb212"> <settlement>St Anton</settlement> </placeName> <space unit="chars" quantity="1"/> <date when="19010701">1. 7. 109</date>.</p> </postscript> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041110"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 1. 7. 1901</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="110"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb212">St. Anton am Arlberg</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19010701" n="01">1. 7. 1901</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 23390 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 3 S., Bleistift</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <analytic> 
+                     <date when="19090701">1. 7. 1909</date> 
+                  </analytic> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
+                     <imprint> 
+                        <pubPlace>Chapel Hill</pubPlace> 
+                        <publisher>The University of North Carolina Press</publisher> 
+                        <date when="1978">1978</date> 
+                     </imprint> 
+                     <biblScope unit="pp">103</biblScope> 
+                  </monogr> 
+                  <series> 
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
+                     <biblScope unit="nr">89</biblScope> 
+                  </series> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+         <change who="KI MAM" when="20170509">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="HS_AM23390Ba"/> 
+      <graphic url="HS_AM23390Ba_R"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <salute>lieber Hermann</salute> 
+            </opener> 
+            <p>es drängt mich, dir zu deinem Collegen <persName key="pmb12460">Poetzl</persName> wärmstens zu gratuliren. Das sind einmal mannhafte, echt <anchor type="commentary" xml:id="KL110-1"> 
+                  <rs type="work" key="pmb30025">t<damage agent="hole"> 
+                        <supplied>e</supplied> 
+                     </damage>utsche Worte</rs> 
+               </anchor>! Das Herz geht einem auf, wenn man sie liest. »<rs type="work" key="pmb30025">Es ist besser, das gute zu heucheln als es durch offenkundige Frevel<pb/> aller Art von der Tagesordnung gänzlich absetzen</rs>.« – »<rs type="work" key="pmb30025">Es ist immer noch moralischer im Geheimen zu sündigen als auf oeffentlichem Markte mit dem Laster Arm in Arm zu gehen –</rs>« »<rs type="work" key="pmb30025">Die Gesammtheit darf die Tugend nicht verachten, sondern muss sie heilig halten und auf ihren Schild erheben</rs>« –<pb/> 
+            </p> 
+            <p>– So ehrlich ist die Heuchelei selten gewesen!</p> 
+            <closer>Leb wohl und sei herzlich gegrüßt.<lb/>Dein<lb/> 
+               <signed>Arth Sch</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <placeName key="pmb212"> 
+                     <settlement>St Anton</settlement> 
+                  </placeName> 
+                  <space unit="chars" quantity="1"/> 
+                  <date when="19010701">1. 7. 109</date>.</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

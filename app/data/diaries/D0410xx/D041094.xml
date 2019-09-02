@@ -1,1 +1,86 @@
-<?xml version="1.0" encoding="utf-8"?> <?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?> <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041094"> <teiHeader type="text"> <fileDesc> <titleStmt> <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> <title level="a">Tagebuch von Arthur Schnitzler, 2. 12. 1893</title> <author key="pmb2121">Schnitzler, Arthur</author> <editor> <name full="yes" instant="false">Ifkovits, Kurt</name> <name full="yes" instant="false">Müller, Martin Anton</name> </editor> <funder> <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> <address> <street>Sensengasse 1</street> <postCode>1090 Wien</postCode> <placeName> <country>A</country> <settlement>Wien</settlement> </placeName> </address> </funder> </titleStmt> <editionStmt> <edition>HBAS</edition> <respStmt> <resp>Transkription und Kommentierung</resp> <name full="yes" instant="false">Kurt Ifkovits</name> <name full="yes" instant="false">Martin Anton Müller</name> </respStmt> </editionStmt> <publicationStmt> <publisher>Theatermuseum, Wien</publisher> <idno type="HBAS-D" n="094"/> <availability status="free"> <p>Copyright © 2017</p> </availability> </publicationStmt> <seriesStmt> <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p> </seriesStmt> <sourceDesc> <listBibl> <biblStruct corresp="ASTB" default="false"> <monogr> <author key="pmb2121">Schnitzler, Arthur</author> <title level="m">Tagebuch 1893–1902</title> <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> <imprint> <pubPlace>Wien</pubPlace> <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> <date when="1989">1989</date> </imprint> </monogr> </biblStruct> </listBibl> </sourceDesc> </fileDesc> <profileDesc> <langUsage> <language ident="de-AT">German</language> </langUsage> </profileDesc> <revisionDesc status="candidate"> <change who="MAM" when="20151111">angelegt</change> </revisionDesc> </teiHeader> <text type="diaryDay"> <body> <div type="writingSession" n="1"> <p> <date when="18931202" n="3">2/12</date> Kritiken nicht gar so übel; außer den antisemit. Blättern. Perfid dumm <anchor type="commentary" xml:id="KD094-1"> <rs type="work" key="pmb30463"> <persName key="pmb2583">Schütz</persName> </rs> </anchor>; auch <anchor type="commentary" xml:id="KD094-2"> <rs type="work" key="pmb30449"> <persName key="pmb2586">Granichstädten</persName> </rs> </anchor>. – Der Riesenerfolg der <persName key="pmb12618">S.</persName> wohl absichtlich nicht recht hervorgehoben.– Im <placeName key="pmb20">Volkstheater</placeName>.– Bei <persName key="pmb11848">Kadelburg</persName>.– Bei der <persName key="pmb12618">S.</persName>– Sie im Bett. Ihre sinnlich höhnischen Augen. Erzählt mir von ihrem Verhältnis mit <persName key="pmb11036">B-d</persName>; »einziger«, den sie geliebt!– Wieso hab ich dieses Vertrauen zu Ihnen.– Plötzlich küsst sie mir die Hand.– Sie nehmen das so ruhig hin?– »Sie experimentiren vielleicht<c rendition="#dots" n="3"/> Wen lieben Sie jetzt – <persName key="pmb12355">Robertus</persName>–?–« »Nein, Kamerad.– Ich muss nur an einen denken. Abends Schatten<c rendition="#dots" n="3"/>« Plötzlich rasende Küsse.– »Ich hab dich lieb!– Was soll das nur werden?«– –»An wen denkst du?« (in meinen Küssen). Auf mein Mißtraun: »Spiel nicht den <rs type="work" key="pmb29823">Fedor Denner</rs>.« – <rs type="person" key="pmb12621">Schwester</rs> kam.– Nm. <persName key="pmb10815">Bahr</persName>, <persName key="pmb2167">Salten</persName>, <persName key="pmb10863">B.-Hofmann</persName> da.– Abd. im Theater.– <workName key="pmb29823">M.</workName> für die nächste Woche nicht mehr angesetzt,– 3. Akt zu ändern.– Ziemlich leeres Haus, sehr viel Beifall; auch nach dem 3. Akt, den ich gekürzt hatte.– In der Loge mit den dreien.– Nach dem 2. Akt auf die Bühne zur <persName key="pmb12618">S.</persName> – »Komm heut zu mir zum Abendessen.« Ich lehnte in Hinblick auf meine Freunde ab.– »Hast du mich lieb?«</p> </div> </body> </text> </TEI> 
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041094"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Tagebuch von Arthur Schnitzler, 2. 12. 1893</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="094"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASTB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Tagebuch 1893–1902</title> 
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
+                     <imprint> 
+                        <pubPlace>Wien</pubPlace> 
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
+                        <date when="1989">1989</date> 
+                     </imprint> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="18931202" n="3">2/12</date> Kritiken nicht gar so übel; außer den antisemit. Blättern. Perfid dumm <anchor type="commentary" xml:id="KD094-1"> 
+                  <rs type="work" key="pmb30463"> 
+                     <persName key="pmb2583">Schütz</persName> 
+                  </rs> 
+               </anchor>; auch <anchor type="commentary" xml:id="KD094-2"> 
+                  <rs type="work" key="pmb30449"> 
+                     <persName key="pmb2586">Granichstädten</persName> 
+                  </rs> 
+               </anchor>. – Der Riesenerfolg der <persName key="pmb12618">S.</persName> wohl absichtlich nicht recht hervorgehoben.– Im <placeName key="pmb20">Volkstheater</placeName>.– Bei <persName key="pmb11848">Kadelburg</persName>.– Bei der <persName key="pmb12618">S.</persName>– Sie im Bett. Ihre sinnlich höhnischen Augen. Erzählt mir von ihrem Verhältnis mit <persName key="pmb11036">B-d</persName>; »einziger«, den sie geliebt!– Wieso hab ich dieses Vertrauen zu Ihnen.– Plötzlich küsst sie mir die Hand.– Sie nehmen das so ruhig hin?– »Sie experimentiren vielleicht<c rendition="#dots" n="3"/> Wen lieben Sie jetzt – <persName key="pmb12355">Robertus</persName>–?–« »Nein, Kamerad.– Ich muss nur an einen denken. Abends Schatten<c rendition="#dots" n="3"/>« Plötzlich rasende Küsse.– »Ich hab dich lieb!– Was soll das nur werden?«– –»An wen denkst du?« (in meinen Küssen). Auf mein Mißtraun: »Spiel nicht den <rs type="work" key="pmb29823">Fedor Denner</rs>.« – <rs type="person" key="pmb12621">Schwester</rs> kam.– Nm. <persName key="pmb10815">Bahr</persName>, <persName key="pmb2167">Salten</persName>, <persName key="pmb10863">B.-Hofmann</persName> da.– Abd. im Theater.– <workName key="pmb29823">M.</workName> für die nächste Woche nicht mehr angesetzt,– 3. Akt zu ändern.– Ziemlich leeres Haus, sehr viel Beifall; auch nach dem 3. Akt, den ich gekürzt hatte.– In der Loge mit den dreien.– Nach dem 2. Akt auf die Bühne zur <persName key="pmb12618">S.</persName> – »Komm heut zu mir zum Abendessen.« Ich lehnte in Hinblick auf meine Freunde ab.– »Hast du mich lieb?«</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>
