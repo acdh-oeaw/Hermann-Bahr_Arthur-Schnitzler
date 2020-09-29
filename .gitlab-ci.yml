@@ -34,8 +34,7 @@ build_image:
     - docker build -t $CI_APPLICATION_REPOSITORY:$CI_APPLICATION_TAG ./app
     - echo "Pushing the image to the registry"
     - docker push $CI_APPLICATION_REPOSITORY:$CI_APPLICATION_TAG
-    - echo "Deploying the image to the ACDH-CH Kubernetes over the Gitlab CI/CD"
-
+    - echo "Deploying the image to the ACDH-CH Kubernetes over the Gitlab CI/CD AutoDevOps"
 
   only:
     - master
