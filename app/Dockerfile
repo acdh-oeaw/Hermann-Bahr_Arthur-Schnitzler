@@ -3,7 +3,7 @@ FROM openjdk:8
 
 USER root
 
-ENV ANT_VERSION 1.10.5
+ENV ANT_VERSION 1.10.6
 ENV ANT_HOME /etc/ant-${ANT_VERSION}
 
 WORKDIR /tmp
