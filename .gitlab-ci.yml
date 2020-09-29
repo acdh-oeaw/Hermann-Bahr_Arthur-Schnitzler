@@ -27,7 +27,7 @@ build_image:
     
   script:
     - export CI_APPLICATION_REPOSITORY=${CI_APPLICATION_REPOSITORY:-$CI_REGISTRY_IMAGE/$CI_COMMIT_REF_SLUG}
-      export CI_APPLICATION_TAG=${CI_APPLICATION_TAG:-$CI_COMMIT_SHA}
+    -  export CI_APPLICATION_TAG=${CI_APPLICATION_TAG:-$CI_COMMIT_SHA}
     - export
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     - echo "Building the image"
@@ -36,5 +36,5 @@ build_image:
     - docker push $CI_APPLICATION_REPOSITORY:$CI_APPLICATION_TAG
     - echo "Deploying the image to the ACDH-CH Kubernetes over the Gitlab CI/CD AutoDevOps"
 
-  only:
-    - master
+#  only:
+#   - master
