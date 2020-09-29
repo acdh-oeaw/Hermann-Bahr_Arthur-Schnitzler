@@ -2,7 +2,9 @@ xquery version "3.1";
 import module namespace config="http://hbas.at/config" at "modules/config.xqm";
 declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $headerAccept := request:get-header('Accept')
-let $id := tokenize(request:get-url(),'/id/')[2]
+let $id := if (contains(request:get-url(),'/id/'))
+          then tokenize(request:get-url(),'/id/')[2]
+          else tokenize(request:get-url(),'/entity/')[2] 
 let $rootID := collection($config:data-root)/id($id)/root()/tei:TEI/@xml:id/string()
 return
 
@@ -12,7 +14,7 @@ return
         (:requested rdf:)
         then
             response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/api/v1.0/doc/" || $id || "/about.rdf")))
-        else 
+        else
             (:redirect to http-page:)
             (:a document HTTP html requested redirect:)
             response:redirect-to(xs:anyURI(iri-to-uri("https://bahrschnitzler.acdh.oeaw.ac.at/view.html?id=" || $id)))
