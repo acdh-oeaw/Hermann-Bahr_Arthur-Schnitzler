@@ -4,7 +4,9 @@ declare namespace tei="http://www.tei-c.org/ns/1.0";
 let $headerAccept := request:get-header('Accept')
 let $id := if (contains(request:get-url(),'/id/'))
           then tokenize(request:get-url(),'/id/')[2]
-          else tokenize(request:get-url(),'/entity/')[2] 
+          else if (contains(request:get-url(),'/entity/'))
+            then tokenize(request:get-url(),'/entity/')[2]
+            else ""
 let $rootID := collection($config:data-root)/id($id)/root()/tei:TEI/@xml:id/string()
 return
 
