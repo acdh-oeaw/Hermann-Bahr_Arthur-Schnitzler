@@ -339,7 +339,7 @@ declare function app:view_verfasserliste() {
                 order by $nachname
                 return
                     <div class="docListItem">
-                        <a href="index.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
+                        <a href="view.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
                     </div>
             }
             </div>
