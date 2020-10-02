@@ -478,7 +478,7 @@ function app:register_liste($type) {
                 <h2 class="doc-title">Register</h2>
             </div>
             <div class="verfListHinweis">
-                <a href="index.html?author=all">Verfasserverzeichnis</a>
+                <a href="view.html?author=all">Verfasserverzeichnis</a>
             </div>
                 <div class="filterSearch">
                 <form class="filter_search">
