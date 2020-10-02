@@ -27,7 +27,7 @@ RUN cd app && ant
 # START STAGE 2
 FROM existdb/existdb:release
 
-COPY --from=0 /home/hbas-app/build/*.xar /exist/autodeploy
+COPY --from=0 /home/hbas-app/app/build/*.xar /exist/autodeploy
 
 EXPOSE 8080 8443
 
