@@ -21,7 +21,7 @@ ENV PATH ${PATH}:${ANT_HOME}/bin
 
 WORKDIR /home/hbas-app
 COPY . .
-RUN pwd && ls -la && ant
+RUN cd app && ant
 
 
 # START STAGE 2
