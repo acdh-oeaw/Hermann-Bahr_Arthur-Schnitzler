@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/89230887.svg)](https://zenodo.org/badge/latestdoi/89230887)
+
 # Hermann Bahr, Arthur Schnitzler: 
 
 Briefwechsel, Materialien, Dokumente

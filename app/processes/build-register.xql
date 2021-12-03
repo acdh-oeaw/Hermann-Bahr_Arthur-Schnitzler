@@ -100,7 +100,7 @@ return
                             (: Texte :)
                             (: wenn es mehrere Texte von einem Autor gibt, dann zusätzliche Klasse .multiple oder sowas und die Filterfunktion nur für li mit dieser class erlauben:)
                             let $autor-ref := $data//tei:author/@ref
-                            let $ref-count := count(doc($config:data-root||"/meta/Werke.xml")//tei:body//tei:author[contains(@ref,$autor-ref)])
+                            let $ref-count := count(doc($config:data-root||"/indices/listwork.xml")//tei:body//tei:author[contains(@ref,$autor-ref)])
                             return
                             <li class="register_{$type} {if ($ref-count > 1) then "multiple" else ()}" data-sortstring="{$sortstring}" data-autor-ref="{$autor-ref}" data-ref-count="{$ref-count}">
                                 <a href="register.html?key={$key}">
@@ -115,7 +115,7 @@ return
 let $out := 
     <ul class="register">{$output}</ul>
 let $filename := "register.xml"
-let $location := $config:data-root || "/meta/"
+let $location := $config:data-root || "/indices/"
 let $saved := xmldb:store($location, $filename, $out)
 return 
   "Success!"

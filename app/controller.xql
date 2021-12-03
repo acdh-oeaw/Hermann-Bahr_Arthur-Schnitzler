@@ -17,6 +17,13 @@ else if (starts-with($exist:path, '/api')) then
                 <set-attribute name="path" value="{$exist:path}"/>
             </dispatch>
 
+
+else if (starts-with($exist:path, '/entity/')) then
+    <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
+        <forward url="{$exist:controller}/resolve.xql"/>
+        <set-attribute name="path" value="{$exist:path}"/>
+    </dispatch>
+
 else if (starts-with($exist:path, '/id/')) then
             <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
                 <forward url="{$exist:controller}/resolve.xql"/>
@@ -31,7 +38,7 @@ else if ($exist:path eq "/") then
 
 
 
-    
+
 else if (ends-with($exist:resource, ".html")) then
     (: the html page is run through view.xql to expand templates :)
     <dispatch xmlns="http://exist.sourceforge.net/NS/exist">
@@ -50,9 +57,9 @@ else if (contains($exist:path, "/$shared/")) then
             <set-header name="Cache-Control" value="max-age=3600, must-revalidate"/>
         </forward>
     </dispatch>
-    
+
 (: API implemented here :)
- (: Root path: forward to search.xq in the same collection 
+ (: Root path: forward to search.xq in the same collection
    (or directory) as the controller.xql :)
 (: Resource paths starting with api are loaded from the shared-resources app :)
 

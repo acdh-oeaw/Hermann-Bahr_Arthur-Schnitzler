@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041231"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 21. 12. [1900]</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="231"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19001221" n="01">21. 12. [1900]</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>GB</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, B 5b</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl, 3 S., von Schnitzler Jahreszahl »<quote> 
+                              <date>900</date> 
+                           </quote>« zum Datum ergänzt.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151204">Nur erste Seite kollationiert, Foto unvollständig</change> 
+         <change who="MAM" when="20161107">Zweite Seite kollationiert</change> 
+         <change who="KI MAM" when="20161107">Kollationiert am Faksimile</change> 
+         <change who="KI MAM" when="20170526">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="MS-B-00005-B-000-00114"/> 
+      <graphic url="MS-B-00005-B-000-00115"/> 
+      <graphic url="MS-B-00005-B-000-00116"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>2<subst> 
+                        <del rend="overwritten">2</del> 
+                        <add place="inline">1</add> 
+                     </subst> 
+                  </date> 
+               </dateline> 
+               <salute rend="center">Lieber Arthur!</salute> 
+            </opener> 
+            <p> 
+               <persName key="pmb2161">Bukovics</persName> sagt mir, es sei über den <anchor type="commentary" xml:id="KL231-1"> 
+                  <placeName key="pmb20">Volkstheater</placeName>abend</anchor> dieses Jahr noch nichts beschlossen. Ich mache Dich nur aufmerksam, daß bei dem späten Anfang (½ 11), der elenden Bühne (meistens <placeName key="pmb19">Ronacher</placeName>) u. der kaum zu bändigenden Tanzlust hier nur<pb/> ganz einfache u. rohe Sachen wirken.</p> 
+            <p>Für die lieben Worte Deines Briefes danke ich Dir sehr und bin, Dir das Beste wünschend,</p> 
+            <closer>Dein alter<lb/> 
+               <signed>Hermann</signed> 
+            </closer> 
+            <postscript> 
+               <p>Hofrath <persName key="pmb11036">Burckhard</persName> möchte sehr gern ein Exemplar der<pb/> 
+                  <space unit="chars" quantity="1"/> 
+                  <workName key="pmb29857">Beatrice</workName> haben; kannst Du ihm nicht eins schicken?</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

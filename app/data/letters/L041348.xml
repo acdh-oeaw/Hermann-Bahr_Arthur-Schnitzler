@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041348"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr an S. Fischer, [6.] 5. 1923</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="348"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb11324">Fischer, Samuel</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb155">München</placeName> 
+               </placeSender> 
+               <!--<placeAddressee><placeName key="pmb168">Berlin</placeName></placeAddressee>--> 
+               <dateSender> 
+                  <date when="19230506" n="01">[6.] 5. 1923</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>USA</country> 
+                        <settlement>Bloomington</settlement> 
+                        <repository>Indiana University, Lilly Library</repository> 
+                        <idno>Fischer mss.</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Karte</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160201">Angelegt aus Abschrift von KI und LM</change> 
+         <change who="KI MAM">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb161">München Barerstr. 50</placeName> 
+                  <lb/> 
+                  <date> 
+                     <unclear>6</unclear>. 5. 23</date> 
+               </dateline> 
+               <salute>Lieber Freund!</salute> 
+            </opener> 
+            <p>Ich darf wol annehmen, daß »<workName key="pmb30813">Selbstbildnis</workName>« nun bald erscheint; je früher, desto besser: jedenfalls bevor die Herren Rezensenten auf Sommerferien gehen, was wol mit Juni beginnt. Anbei folgt ein Verzeichnis der Adressen, an die Freiexemplare zu senden sind. Die mit + bezeichneten gehen an Leute, die voraussichtlich darüber schreiben: also auf Kosten des Verlags. Die <hi rend="underline" n="1">nicht</hi> mit + bezeichneten dagegen auf meine Kosten, wobei ich voraussetze, daß Sie mir diese Kosten so gering als möglich ansetzen. Diese »persönlichen« Exemplare sollen mit einer Karte versehen sein, auf der steht: »Im Auftrag des Verfassers.« – Nach Gebrauch erbitte ich mir das Verzeichnis der Adressen zurück: es könnte ja dennoch sein, daß ich auch in Zukunft noch einmal ein Buch schreibe. Zur<pb/> Zeit siehts nicht danach aus: ich bin nach einer wochenlangen schweren, echt <placeName key="pmb155">münchnerischen</placeName> Grippe in einer solchen körperlichen und geistigen, seelischen und menschlichen Depression, daß ich mir kaum vorstellen kann, wie sich der dünne Lebensfaden weiterspinnen soll. Ich darf annehmen, daß Sie bald mit meinen Büchern das schöne Geschäft machen werden, daß ja der Tod eines Autors meistens bringt. Zunächst schicken mich die Ärzte nach <anchor type="commentary" xml:id="KL348-3"> 
+                  <placeName key="pmb944"> 
+                     <settlement>Meersburg am Bodensee</settlement> 
+                  </placeName> 
+               </anchor>: das ist ein Versuch, mir einen Ersatz für meine geliebte, jetzt aber valuterisch verschlossene <geogName type="coast" key="pmb568">Adria</geogName> zu bieten, die <persName key="pmb2142">d’Annunzio</persName> immer schon <anchor type="commentary" xml:id="KL348-2">il mare nostro</anchor> nannte; er hat recht behalten und sie hat aufgehört, il mare mio zu sein, das mich Jahrelang immer wieder mit neuer Kraft, neuem Mut und neuer Lust verproviantierte – »<anchor type="commentary" xml:id="KL348-1"> 
+                  <rs type="work" key="pmb31213">Vorbei, vorbei</rs> 
+               </anchor>«, sagt der alte <rs type="work" key="pmb31213">Capulet</rs>.</p> 
+            <p>Grüßen Sie die verehrte liebe Frau <persName key="pmb2657">Hedwig</persName> von <rs type="person" key="pmb10818">uns</rs> beiden herzlichst und bewahren Sie ein gutes Andenken Ihrem für Melancholie ganz unbegabten</p> 
+            <closer> 
+               <signed>HermannBahr</signed> 
+            </closer> 
+            <postscript> 
+               <p>P. S. Ich nehme an, daß an Ihre Hausautoren <persName key="pmb12176">Thomas Mann</persName>, <persName key="pmb11740">Hofmannsthal</persName>, Schnitzler, <persName key="pmb10863">Beerhofmann</persName>, <persName key="pmb2167">Salten</persName> u. <persName key="pmb2381">Bernard Shaw</persName> 
+                  <space unit="chars" quantity="1"/> 
+                  <hi rend="underline" n="1">ohnedies</hi> Exemplare geschickt werden.</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041451"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 11. 1908</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="451"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeSender> 
+               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
+               <dateSender> 
+                  <date when="19081126" n="1">26. 11. 1908</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Frankfurt am Main</settlement> 
+                        <repository>Freies Deutsches Hochstift</repository> 
+                        <idno>Hs-30885,133</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 3 S., gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.« </p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HvHAS" default="false"> 
+                  <monogr> 
+                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Briefwechsel</title> 
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
+                     <imprint> 
+                        <pubPlace>Frankfurt am Main</pubPlace> 
+                        <publisher>S. Fischer</publisher> 
+                        <date when="1964">1964</date> 
+                     </imprint> 
+                     <biblScope unit="pp">242</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="MAM" when="20160311">Angelegt aus OCR</change> 
+         <change who="KI MAM" when="20170627">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>2<subst> 
+                        <del rend="overwritten">5</del> 
+                        <add place="inline">6</add> 
+                     </subst>. 11. 08</date> 
+               </dateline> 
+            </opener> 
+            <p> 
+               <salute>mein lieber Hugo, </salute> gestern waren wir in <anchor type="commentary" xml:id="KL451-1"> 
+                  <workName key="pmb31985">2 × 2 = 5</workName> 
+               </anchor> (<hi rend="underline" n="1">unbedingt</hi> anzusehen, schon, u. besonders wegen <persName key="pmb11224">Ethofer</persName>) vorgestern beim <workName key="pmb31987">Krampus</workName>, heut gehn wir ins Tonkünstlerconcert, Samstag zum <persName key="pmb11165">Dohnanyi</persName>, Sonntag zum <hi rend="latintype"> 
+                  <persName key="pmb11640">Heine</persName> Abend</hi> – es gibt so verhexte Wochen; hingegen wollen wir am Montag oder Dienstag für 2 Tage auf den <placeName key="pmb189"> 
+                  <settlement>Semmering</settlement> 
+               </placeName>, es wäre sehr schön, wenn Sie u <persName key="pmb2292">Gerty</persName> auch hinauf kämen; schrei<pb/>ben Sie mir ein Wort. (Nicht unmöglich, dss auch <persName key="pmb13055">Wassermann</persName> u <persName key="pmb12176">Thomas Mann</persName> (mit dem wir gestern Mittag bei <persName key="pmb13055">W.</persName> zusammen waren) hinaufkommen.)</p> 
+            <p>– Es freut mich, dss Sie meine Ansicht von den <persName key="pmb13136">Winterstein</persName>’schen Gedichten theilen. Einmal hab ich schon an <persName key="pmb2914">Bie</persName> geschrieben u ihm Gedichte von <persName key="pmb13136">W</persName>. geschickt, es waren aber viel schwächere als diesmal; wenn Sie glauben, so könnte man doch die <orgName key="pmb29212"> 
+                  <hi rend="latintype">N. Rdsch</hi> 
+               </orgName> noch einmal<pb/> versuchen; ein paar Zeilen von Ihnen denk ich wären von allergrößtem Werth. Übrigens schreib ich auch an den Baron <persName key="pmb13136">W.</persName>, vielleicht hat er eine andre Bitte an Sie. – Also auf sehr baldiges Wiedersehen; u herzliche Grüße.</p> 
+            <closer>Ihr<lb/> 
+               <signed>Arthur</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

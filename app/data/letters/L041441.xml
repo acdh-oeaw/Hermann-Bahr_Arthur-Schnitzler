@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041441"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 10. 8. 1901</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="441"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb946">Vahrn</placeName> 
+               </placeSender> 
+               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
+               <dateSender> 
+                  <date when="19010810" n="01">10. 8. 1901</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>D</country> 
+                        <settlement>Frankfurt am Main</settlement> 
+                        <repository>Freies Deutsches Hochstift</repository> 
+                        <idno>Hs-30885,96</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 4 S.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HvHAS" default="false"> 
+                  <monogr> 
+                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Briefwechsel</title> 
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
+                     <imprint> 
+                        <pubPlace>Frankfurt am Main</pubPlace> 
+                        <publisher>S. Fischer</publisher> 
+                        <date when="1964">1964</date> 
+                     </imprint> 
+                     <biblScope unit="pp">150–151</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="MAM" when="20160309">Angelegt aus OCR</change> 
+         <change who="KI MAM" when="20170627">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb946"> 
+                     <settlement> 
+                        <hi rend="latintype">Vahrn</hi> 
+                     </settlement> 
+                  </placeName>, <date>10. 8. 901</date> 
+               </dateline> 
+            </opener> 
+            <p> 
+               <salute>mein lieber Hugo, </salute>seit vier Wochen bin ich hier, und habe mich, in angenehmer Gesellschaft, mit Neigung zu Arbeit u<unclear>.</unclear> einigem Fleiss und gelegentlichem Talent, in einer wunderbaren Luft, mit Sonne und Wald, recht behaglich gefühlt. Montag reis<damage agent="ink">en</damage> wir nach <placeName key="pmb294"> 
+                  <settlement>Bozen</settlement> 
+               </placeName>, wo man <persName key="pmb11485">Goldmann</persName> trifft, dann nach <placeName key="pmb954"> 
+                  <settlement>Trient</settlement> 
+               </placeName>, und endlich etwa <date>16. 8.</date> gehts nach <placeName key="pmb428"> 
+                  <settlement> 
+                     <hi rend="underline" n="1"> 
+                        <hi rend="latintype">Welsberg</hi> 
+                     </hi> im Pusthertal</settlement> 
+               </placeName>, <hi rend="underline" n="1"> 
+                  <placeName key="pmb723"> 
+                     <hi rend="latintype">Bad Waldbrunn</hi> 
+                  </placeName> 
+               </hi>, das ich neulich entdeckt habe u von dem ich mich nur wundre<pb/> dass es kaum bekannt ist. <date>Ende August</date> möchte ich in <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName> sein, vor allem <rs type="work" key="pmb29957 pmb29865">2 neue Einakter</rs> dictiren, die der »<workName key="pmb29869">Literatur</workName>« vorangehen sollen. Die drei Stückchen sind nur durch einen Grundgedanken verbunden, und eines mag immer das andre beleuchten. Auch das dreiaktige <rs type="work" key="pmb29985">Stück</rs> kann bald beendet sein. Ich freue mich auf einen schönen Septemberabend, wo wir einander allerlei erzählen und vorlesen<pb/> können. Um den verlornen <placeName key="pmb867"> 
+                  <settlement>Innsbruck</settlement> 
+               </placeName>er Abend thut es mir sehr leid. Anonymität wäre übrigens gar nicht vonnöthen gewesen, jeder Grund fehlt, besonders Ihnen und Ihrer <rs type="person" key="pmb2292">Frau</rs> gegenüber. <rs type="person" key="pmb2173">Wir</rs> waren damals an der Bahn, – der andre einzige Ort, wo man <del rend="strikethrough"> 
+                  <unclear>nie</unclear> 
+               </del> im Freien speisen kann, nachdem mir der dritte einzige Ort, in der Nähe der <placeName key="pmb657"> 
+                  <hi rend="latintype">Weierburg</hi> 
+               </placeName>, nicht zusagte. –</p> 
+            <p>Viel Freude habe ich heuer wieder vom Radfahren gehabt und mich mehr<pb/> als einmal an unsre Fahrt am <geogName type="lake">Genfer See</geogName> erinnert, die nun drei Jahre hinter uns liegt.</p> 
+            <p>Ich höre hoffentlich noch von Ihnen, ehe wir uns wiedersehn</p> 
+            <closer>Herzliche Grüße<lb/>Ihr <signed>Arthur.</signed> 
+            </closer> 
+            <postscript> 
+               <p>Wenn <persName key="pmb10765">Poldi</persName> bei Ihnen ist, grüßen Sie ihn vielmals. <persName key="pmb12254">Michel</persName> hat mir einen so netten Brief geschrieben. Auch <persName key="pmb10815">Bahr</persName>, den Sie ja öfters sehn, grüßen Sie herzlich. Und empfehlen mich Ihrer <rs type="person" key="pmb2292">Frau</rs>.<lb/>Ihr <signed>A.</signed> 
+               </p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

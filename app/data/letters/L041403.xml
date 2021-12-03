@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041403"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Theodor Herzl an Arthur Schnitzler, 8. 12. 1893</title> 
+            <author key="pmb11673">Herzl, Theodor</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="403"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb11673">Herzl, Theodor</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb182">Paris</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18931208" n="01">8. 12. 1893</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <monogr> 
+                     <author key="pmb11673">Herzl, Theodor</author> 
+                     <title level="m">Briefe und autobiographische Notizen. 1866–1895</title> 
+                     <editor>Bearbeitet von Johannes Wachten</editor> 
+                     <imprint> 
+                        <pubPlace>Berlin, Frankfurt am Main, Wien</pubPlace> 
+                        <publisher>Propyläen</publisher> 
+                        <date when="1983">1983</date> 
+                     </imprint> 
+                     <biblScope unit="pp">541–542</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160126">Angelegt aus Scan</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb182"> 
+                     <settlement>Paris</settlement> 
+                  </placeName>, le <date>8 Dez<supplied>ember</supplied> 1893</date> 
+               </dateline> 
+               <salute>Lieber Freund!</salute> 
+            </opener> 
+            <p>Sieben Wochen war ich malariakrank – aus <placeName key="pmb462"> 
+                  <settlement>Venedig</settlement> 
+               </placeName> – <placeName key="pmb898"> 
+                  <settlement>Toulon</settlement> 
+               </placeName> mitgebracht –, schwere Fieberwochen. Heute ein zermatschgerter Reconvalescent. So fasse ich mich nothgedrungen kurz. Ich gratulire zur <workName key="pmb29823">Märchenaufführung</workName>. Die Bühne ist erobert. Sie werden sie nicht mehr verlassen. Nur sich treu bleiben! u. ringsherum reden lassen.</p> 
+            <closer>Ich grüsse Sie herzlich<lb/>Ihr aufrichtig ergebener <signed>Herzl</signed> 
+            </closer> 
+            <postscript> 
+               <p>Könnten Sie mir <persName key="pmb10815">Bahrs</persName> 
+                  <space unit="chars" quantity="1"/> 
+                  <anchor type="commentary" xml:id="KL403-1"> 
+                     <rs type="work" key="pmb30271">Artikelserie über Jung-Oesterreich</rs> 
+                  </anchor> (<orgName key="pmb29424">Deutsche Zeitung</orgName>) verschaffen? Bitte!</p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

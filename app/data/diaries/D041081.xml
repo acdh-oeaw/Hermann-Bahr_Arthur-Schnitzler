@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041081"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Tagebuch von Arthur Schnitzler, 23. 5. 1912</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="081"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName key="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASTB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Tagebuch 1909–1912</title> 
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
+                     <imprint> 
+                        <pubPlace>Wien</pubPlace> 
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
+                        <date when="1981">1981</date> 
+                     </imprint> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19120523" n="01">23/5</date> 
+               <space unit="chars" quantity="1"/> 
+               <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>.– Dienstbotenstreit und Vernehmung.</p> 
+            <p>– Die Geschenke. Blumen, meist verwelkt; von Frau <persName key="pmb18084">Hellmann</persName> Baum mit Schleifen, ebenso von <persName key="pmb12327">Hans Müller</persName>. Ein Beleuchtungsobjekt von <persName key="pmb12968">Trebitsch</persName>. Lampe von <persName key="pmb2315">Liesl</persName>. Polster mit Photographie meiner Buchdeckel und meiner selbst von <persName key="pmb13970 pmb28697">Benedicts</persName> (!).– Über 450 Briefe und Telegramme.</p> 
+            <p>– Ordnete leidlich mit <persName key="pmb22728">Frieda Pollak</persName>. (Decke für die Schreibmaschine von ihr.) </p> 
+            <p>Las Nachmittag mit <persName key="pmb2173">O.</persName> Telegramme und Briefe durch. Manche sympathische Eindrücke (<persName key="pmb2771">Friedell</persName>, <persName key="pmb2612">Gomperz</persName> (Hofrath) u. a.), auch komisches.– </p> 
+            <p> 
+               <anchor type="commentary" xml:id="KD081-1"> 
+                  <rs type="work" key="pmb32530" cert="low">Bild</rs> von <persName key="pmb10815">Bahr</persName> 
+               </anchor>, <persName key="pmb10772">Anzengruber</persName> Bild von <persName key="pmb10912">Bettelheim</persName>.– </p> 
+            <p>Werthvolle Ausgabe alt des <workName key="pmb30367">Heptameron</workName> von <persName key="pmb11324">S. Fischer</persName>.– </p> 
+            <p>Radirung meines Portraits von <persName key="pmb12384">Oppenheimer</persName>.</p> 
+            <p>Altes Buch von <persName key="pmb2774">Dora Michaelis</persName>.</p> 
+            <p>Actensammlung <date>1809</date> von <persName key="pmb12396">Paschkis</persName>.– </p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

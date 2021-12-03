@@ -339,7 +339,7 @@ declare function app:view_verfasserliste() {
                 order by $nachname
                 return
                     <div class="docListItem">
-                        <a href="index.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
+                        <a href="view.html?author={$verfasser-id}">{concat(string-join($nachname, ' '), ', ', string-join($vorname, ' '))}</a>
                     </div>
             }
             </div>
@@ -478,7 +478,7 @@ function app:register_liste($type) {
                 <h2 class="doc-title">Register</h2>
             </div>
             <div class="verfListHinweis">
-                <a href="index.html?author=all">Verfasserverzeichnis</a>
+                <a href="view.html?author=all">Verfasserverzeichnis</a>
             </div>
                 <div class="filterSearch">
                 <form class="filter_search">
@@ -489,7 +489,7 @@ function app:register_liste($type) {
                 </form>
                 </div>
                 {
-                    doc($config:data-root || "/meta/register.xml")//ul
+                    doc($config:data-root || "/indices/register.xml")//ul
                 }
             </div>
 };
@@ -612,9 +612,9 @@ declare function app:register_single($keys) {
           </div>
           {
               (: Vollständig abgedruckte Werke:)
-              if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[contains(@key,$key)]) then 
+              if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[@key = $key]) then 
                     <div>
-                        <a href="index.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[contains(@key,$key)]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
+                        <a href="index.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[@key = $key]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
                         </a>
                     </div>
                   else ()
@@ -668,7 +668,7 @@ declare function app:register_single($keys) {
           {
               let $liste :=
                 for $key in tokenize($keys,',') return
-                    for $doc in (collection($config:data-root)//tei:body//element()[contains(@key,$key)]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[contains(@key,$key)]/ancestor::tei:note, collection($config:data-root)//tei:physDesc//element()[contains(@key,$key)]/ancestor::tei:TEI)
+                    for $doc in (collection($config:data-root)//tei:body//element()[@key = $key]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[@key = $key]/ancestor::tei:note, collection($config:data-root)//tei:physDesc//element()[@key = $key]/ancestor::tei:TEI)
                     (:issue #108 – physDesc :)
                     let $sortdate :=
                     switch (substring($doc/@xml:id/string(),1,1))
@@ -703,7 +703,7 @@ declare function app:register_single($keys) {
                 <p>
                     { 
                         
-                        for $hit in $doc//tei:body//element()[contains(@key,$key)]
+                        for $hit in $doc//tei:body//element()[@key = $key]
                         return
                             (
                             <span class="previous">... 

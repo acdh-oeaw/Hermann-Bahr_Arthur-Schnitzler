@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041022"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an [Paul Dorff oder Robert Ress], [April] 1913</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="022"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb3338">Ress, Robert</persName> 
+                  <persName key="pmb27945">Dorff, Paul</persName> 
+               </addressee> 
+               <dateSender> 
+                  <date when="19130400" n="01">[April] 1913</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 23321 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>hs. Brief v. fr. Hand (<persName key="pmb22728">Frieda Pollak</persName>?), 1 Bl., 1 S.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+         <change who="KI MAM" when="20170515">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="HS_AM23321Ba"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p>Sehr geehrter Herr. Im Princip sehr einverstanden. Aber wollen Sie nicht <hi rend="latintype"> 
+                  <persName key="pmb10815">Bahr</persName> 
+               </hi> und den andern zur Unterzeichnung des Aufrufs bestimmten Personen vorschlagen, zugleich mit der Unterschrift eine Summe zu zeichnen? Es gäbe der Sache mehr Gewicht und bessere Chancen. Wenn der Aufruf auch etwas später erscheinen müßte.</p> 
+            <p>Und noch eins: Wollen wir nicht den Passus: <supplied>»</supplied>Es empört uns« abändern in »<anchor type="commentary" xml:id="KL022-1">Es ergreift und beschämt uns</anchor>«. Und wenn Sie und <hi rend="latintype"> 
+                  <persName key="pmb10815">Bahr</persName> 
+               </hi>, wie ich hoffe, mit dem ersten Vorschlag einverstanden sind, sollte es nach »tilgen« nicht heißen »die die Unterzeichneten hiermit eröffnen« oder ähnlich? </p> 
+            <closer>Mit vorzüglicher Hochachtung<lb/> 
+               <signed>Dr. Arthur Schnitzler.</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>
+<!-- Datierung nach der vorgeschlagenen Formulierung, die sich im Aufruf für Arno Holz befindet -->

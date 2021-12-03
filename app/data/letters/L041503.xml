@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041503"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [5. 4. 1894?]</title> 
+            <author key="pmb10863">Beer-Hofmann, Richard</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="503"/> 
+            <availability status="free"> 
+               <p>Copyright © 2015</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10863">Beer-Hofmann, Richard</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <!--<placeSender><placeName key="pmb50">Wien</placeName></placeSender>--> 
+               <placeAddressee> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18940405" n="01">[5. 4. 1894?]</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASBH" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author key="pmb10863">Beer-Hofmann, Richard</author> 
+                     <title level="m">Briefwechsel 1891–1931</title> 
+                     <editor>Hg. Konstanze Fliedl</editor> 
+                     <imprint> 
+                        <pubPlace>Wien, Zürich</pubPlace> 
+                        <publisher>Europaverlag</publisher> 
+                        <date when="1992">1992</date> 
+                     </imprint> 
+                     <biblScope unit="pp">54</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160405">Angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <salute>Lieber Arthur! </salute> Bitte holen Sie mich nicht zum Bicycle ab. Nicht nur <persName key="pmb10815">Bahr</persName> auch ich schaudere davor zurück.</p> 
+            <p>Sind Sie nicht böse.</p> 
+            <closer>Herzlichst<lb/>Ihr <signed>Richard</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>
