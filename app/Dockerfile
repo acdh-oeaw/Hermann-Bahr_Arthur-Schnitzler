@@ -26,7 +26,6 @@ WORKDIR /home/hbas-app
 COPY . .
 RUN  ant
 
-
 # START STAGE 2
 FROM acdhch/existdb:5.2.0-java11-ShenGC
 
@@ -39,4 +38,3 @@ RUN [ "java", \
     "--no-gui",  "--xpath", "system:get-version()" ]
 
 CMD [ "java", "org.exist.start.Main", "jetty" ]
-
