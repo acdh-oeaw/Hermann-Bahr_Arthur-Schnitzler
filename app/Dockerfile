@@ -3,12 +3,12 @@ FROM openjdk:8
 
 USER root
 
-ENV ANT_VERSION 1.10.8
+ENV ANT_VERSION 1.10.11
 ENV ANT_HOME /etc/ant-${ANT_VERSION}
 
 WORKDIR /tmp
 
-RUN wget http://www-us.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz \
+RUN wget https://archive.apache.org/dist/ant/binaries/apache-ant-${ANT_VERSION}-bin.tar.gz --no-check-certificate \
     && mkdir ant-${ANT_VERSION} \
     && tar -zxvf apache-ant-${ANT_VERSION}-bin.tar.gz \
     && mv apache-ant-${ANT_VERSION} ${ANT_HOME} \
@@ -25,10 +25,15 @@ RUN cd app && ant
 
 
 # START STAGE 2
-FROM existdb/existdb:release
+FROM acdhch/existdb:5.2.0-java11-ShenGC
 
 COPY --from=0 /home/hbas-app/app/build/*.xar /exist/autodeploy
 
 EXPOSE 8080 8443
 
-CMD [ "java", "-jar", "start.jar", "jetty" ]
+RUN [ "java", \
+    "org.exist.start.Main", "client", "-l", \
+    "--no-gui",  "--xpath", "system:get-version()" ]
+
+CMD [ "java", "org.exist.start.Main", "jetty" ]
+
