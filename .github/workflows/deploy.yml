@@ -1,6 +1,8 @@
 name: Publish and Deploy
 
-on: push
+on:
+  release:
+    types: [published]
 
 jobs:
   push_to_registry:
