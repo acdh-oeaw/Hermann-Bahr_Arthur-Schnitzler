@@ -30,7 +30,7 @@ RUN  ant
 # START STAGE 2
 FROM acdhch/existdb:5.2.0-java11-ShenGC
 
-COPY --from=0 /home/hbas-app/app/build/*.xar /exist/autodeploy
+COPY --from=0 /home/hbas-app/build/*.xar /exist/autodeploy
 
 EXPOSE 8080 8443
 
