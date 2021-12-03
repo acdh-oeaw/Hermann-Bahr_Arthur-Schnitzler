@@ -489,7 +489,7 @@ function app:register_liste($type) {
                 </form>
                 </div>
                 {
-                    doc($config:data-root || "/meta/register.xml")//ul
+                    doc($config:data-root || "/indices/register.xml")//ul
                 }
             </div>
 };
