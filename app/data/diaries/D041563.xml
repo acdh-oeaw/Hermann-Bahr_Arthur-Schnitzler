@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041563"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Tagebuch von Arthur Schnitzler, 7. 12. 1918</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno n="563" type="HBAS-D"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASTB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">Tagebuch 1917–1919</title> 
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
+                     <imprint> 
+                        <pubPlace>Wien</pubPlace> 
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
+                        <date when="1985">1985</date> 
+                     </imprint> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20151111">angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19181207" n="1">7/12</date> Antrag von <persName key="pmb12504">Reinhardt</persName> – <workName key="pmb29855">Reigen</workName> zu spielen. Vorläufig nein.–</p> 
+            <p> 
+               <persName key="pmb4054">Lippowitz</persName> 
+               <space unit="chars" quantity="1"/> 
+               <orgName key="pmb29320">N. W. J.</orgName> will wöchentliche <rs type="work" key="pmb30047">tagebuchartige</rs> Beiträge;– zahlt für Vorabdruck und Verlagsrecht auf 3 Jahre sofort 60.000.– Nein.–</p> 
+            <p>Besorgungen (Petroleumlampen etc.).</p> 
+            <p>Nm. am <workName key="pmb30775">Weiher</workName>.</p> 
+            <p>N. d. N. <persName key="pmb2167">Felix</persName> und <persName key="pmb23918">Otti Salten</persName> (die wieder im <placeName key="pmb533">Cottage</placeName> wohnen). Traurige Ausblicke in die Zukunft <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>s und <placeName key="pmb162">Deutschoesterreichs</placeName>.– Über Differenzen <persName key="pmb10815">Bahr</persName> – <persName key="pmb11740">Hugo</persName> 
+               <space unit="chars" quantity="1"/> 
+               <c rendition="#dots" n="3" place="center"/> »daß sie alle beide <c rendition="#dots" n="3"/>«.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

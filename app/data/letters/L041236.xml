@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041236"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 25. 4. 1901</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="236"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19010425" n="01">25. 4. 1901</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>GB</country> 
+                        <settlement>Cambridge</settlement> 
+                        <repository>University Library</repository> 
+                        <idno>Schnitzler, B 5b</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<placeName key="pmb683">Redaktion des <orgName key="pmb29414">Neuen Wiener Tagblatt</orgName> 
+                           </placeName> / <placeName key="pmb709">Wien, I., Rothenthurmstrasse, Steyrerhof</placeName>. / Telegramm-Adresse: Tagblatt, Steyrerhof, Wien. – Telephon Nr. 384. Staats-Telephon Nr. 36.«, von Schnitzler Jahreszahl »<quote> 
+                              <date>901</date> 
+                           </quote>« ergänzt.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151209">Kollationiert</change> 
+         <change who="KI MAM" when="20170526">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="MS-B-00005-B-000-00122"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>25/4</date> 
+               </dateline> 
+               <salute rend="center">Lieber Freund!</salute> 
+            </opener> 
+            <p>Danke sehr für die Zusendung Deines <rs type="work" key="pmb30486">Romanes</rs> und die <anchor type="commentary" xml:id="KL236-1"> 
+                  <placeName key="pmb445"> 
+                     <settlement>römische</settlement> 
+                  </placeName> Karte</anchor>, die mich sehr neidisch gemacht hat.</p> 
+            <p>Sonntag gehe ich zu jener Vorstellung, habe aber den Namen Deines <rs type="person" key="pmb2173">Schützlings</rs> vergessen und bitte Dich, ihn mir per Postkarte mitzutheilen.</p> 
+            <closer>Herzlichst<lb/>Dein<lb/> 
+               <signed>Hermann</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

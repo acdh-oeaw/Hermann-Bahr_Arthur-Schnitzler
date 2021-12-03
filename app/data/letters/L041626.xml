@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041626"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Brahm an Hermann Bahr, 19. 10. 1911</title> 
+            <author key="pmb10986">Brahm, Otto</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="626"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10986">Brahm, Otto</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb168">Berlin</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19111019" n="1">19. 10. 1911</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 16072 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, gedruckter Kopf: »<quote> 
+                              <placeName key="pmb18">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName key="pmb168"> 
+                                 <settlement>Berlin NW. 40</settlement> 
+                              </placeName>, den ........... <date>1911</date> 
+                           </quote>«</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-DE">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160624">Angelegt</change> 
+         <change who="KI MAM" when="20160624">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>19. 10</date> 
+               </dateline> 
+               <salute rend="center">Lieber Freund,</salute> 
+            </opener> 
+            <p>Ihr <anchor type="commentary" xml:id="KL626-3"> 
+                  <rs type="work" key="pmb30375">Stück</rs> 
+               </anchor> hat mir recht gut gefallen und ich habe durchaus empfunden, dass es Ihnen näher steht, als die letzten Arbeiten. »Höchst bedenklich« erscheint es mir nicht, wenn ich auch annehme, dass die Sphäre des »<anchor type="commentary" xml:id="KL626-1"> 
+                  <rs type="work" key="pmb29939">Nussmenschen</rs> 
+               </anchor>«, die Sie hier ins Dramatische übertragen, manchem befremdlich und schwer verständlich sein wird. Aber das gilt doch für die ferne Provinz eben so sehr und noch mehr, als für die Grossstädte, und deshalb könnte ich zu einer Uraufführung irgendwo da draussen nicht raten. Für uns<pb/> wäre es freilich schwer möglich<damage agent="hole"> 
+                  <supplied>,</supplied> 
+               </damage> das Stück <add place="above">in <placeName key="pmb168"> 
+                     <settlement>Berlin</settlement> 
+                  </placeName> 
+               </add> noch in diesem Spieljahr zu bringen; aber wie dächten Sie darüber, wenn wir es den <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>ern zuerst vorführten, im Mai? Besetzen können wir es wol, nur der Hans bietet ein Problem; sonst etwa: Friedrich – <persName key="pmb12491">Reicher</persName>, Gertrud – <persName key="pmb2865">Lehmann</persName> oder <persName key="pmb12111">Lossen</persName>, Luz – <persName key="pmb28757">Somary</persName>, Peter – <persName key="pmb10733">Stieler</persName>, Kreger – <persName key="pmb4431">Forest</persName>, Everbusch – <persName key="pmb12192">Marr</persName> 
+               <add place="inline">(?)</add>, Lene – <persName key="pmb4693">Herterich</persName>. – Da Sie mir Secretirung anbefahlen, hab ich das <rs type="work" key="pmb30375">Lustspiel</rs> 
+               <space unit="chars" quantity="1"/> 
+               <persName key="pmb12050">Lessing</persName> noch nicht lesen lassen; kann er es jetzt haben? – Im Ganzen stehe ich positiv zu dem Stück, wie ich eingangs sagte, finde vieles fein und lustig; im Einzelnen könnte ich mir manches runder, lebendiger noch denken, und habe mir einen Sack von Einwänden <unclear>sonderlich</unclear> gesammelt. Eh ich ihn aber ausschütte, möchte ich wissen, ob Sie Lust hätten, in der Zeit, die etwa bis zur Aufführung verginge, noch einmal an das Werk heranzugehen, vielleicht nach einigen Monaten,<pb/> wenn das <damage agent="hole"> 
+                  <supplied>St</supplied> 
+               </damage>ück schon etwas von Ihnen abgerückt ist. Hoffentlich bescheert uns das Glück dann eine persönliche Begegnung hier oder in <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName>, zur mündlichen Beredung.</p> 
+            <p>Insbesondere der dritte Akt erscheint mir noch nicht recht »durch«, die Szenen der Gertrud mit Kreger (dem ich keinen so bösen Steckbrief wünschte), mit Hans, mit Lene finde ich noch zu theoretisch; der hübsche Schluss von Hans – Irene <subst> 
+                  <del rend="overwritten"> 
+                     <gap quantity="5" reason="illegible" unit="chars"/> 
+                  </del> 
+                  <add place="inline"> 
+                     <unclear>notire</unclear> 
+                  </add> 
+               </subst> ich allerdings aus. Und misslungen finde ich die Gräfin, die müsste m. <unclear>A</unclear>. ganz neu geformt werden. Aber ich sehe, ich komme doch zum Sack-Ausschütten, und kehre ich schleunigst wieder um.</p> 
+            <p>Für das »<workName key="pmb30085">Tänzchen</workName>« möchte ich vorläufig an der Ergänzung durch »<workName key="pmb29931">Mizzi</workName>« festhalten; sollten mich die Proben anders belehren, werd ich es dann machen wie beim »<workName key="pmb29933">Concert</workName>« und Ihre Alleinherrschaft etabliren. Die treffliche <persName key="pmb4693">Herterich</persName> 
+               <pb/> halte ich für Fr. Heydt wenig geeignet. Die <persName key="pmb28750">Busch</persName> hat sich bei <rs type="work" key="pmb30207"> 
+                  <persName key="pmb2121">Schnitzler</persName> 
+               </rs> ganz gut bewährt. <persName key="pmb2865">Lehmann</persName> – Frau Biest wird allerdings nicht zu machen sein, aber die <persName key="pmb12111">Lossen</persName>, unsere <anchor type="commentary" xml:id="KL626-4">Frau <rs type="work" key="pmb31157">Solness</rs> 
+               </anchor>, wird die Rolle gut spielen, denke ich. Frl <persName key="pmb12111">Lossen</persName> hoff ich an die Malwine heranzukriegen; wenn sie sich nur nicht auf einen gewissen Hermann Bahr und seinen Schiedsspruch in einer <anchor type="commentary" xml:id="KL626-2">Kleine-Rollen-Affäre</anchor> in <placeName key="pmb50"> 
+                  <settlement>Wien</settlement> 
+               </placeName> bezieht!</p> 
+            <p>Dass der arme <persName key="pmb11933">Kleist</persName> nun auch das Scheltwort: Revolvermann nachgerufen bekommt, wird ihm sein 100jähriges Totsein hoffentlich nicht stören; auch über dieses Problem spreche ich lieber mündlich mit Ihnen, als auf diesem unvollkommenen Federwege.</p> 
+            <p>Alles Schöne Ihnen <rs type="person" key="pmb10818">Beiden</rs>!</p> 
+            <closer>Ihr<lb/> 
+               <signed>OB</signed> 
+            </closer> 
+            <postscript> 
+               <p> 
+                  <anchor type="textConst" xml:id="TL626-1"> 
+                     <persName key="pmb2193">Sauer</persName> – Kathen unmöglich wer traut dem Ärmsten das Ballhaus zu? Bin für <persName key="pmb4704">Rickelt</persName> 
+                  </anchor> 
+               </p> 
+            </postscript> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

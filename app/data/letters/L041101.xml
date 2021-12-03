@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041101"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 16. 12. 1907</title> 
+            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="101"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19071216" n="01">16. 12. 1907</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS AM 23388 Ba</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 3 S., Lateinschrift; gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName key="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.« </p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct default="false"> 
+                  <analytic> 
+                     <date when="19071216">16. 12. 1907</date> 
+                  </analytic> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
+                     <imprint> 
+                        <pubPlace>Chapel Hill</pubPlace> 
+                        <publisher>The University of North Carolina Press</publisher> 
+                        <date when="1978">1978</date> 
+                     </imprint> 
+                     <biblScope unit="pp">100</biblScope> 
+                  </monogr> 
+                  <series> 
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
+                     <biblScope unit="nr">89</biblScope> 
+                  </series> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="approved"> 
+         <change who="KI MAM" when="20151001">Kollationiert</change> 
+         <change who="KI MAM" when="20170509">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <facsimile> 
+      <graphic url="HS_AM23388Ba"/> 
+      <graphic url="HS_AM23388Ba_R"/> 
+   </facsimile> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <p rend="right"> 
+                  <hi rend="underline" n="2">Vertraulich</hi> 
+               </p> 
+               <dateline rend="right"> 
+                  <date>16/12 907</date> 
+               </dateline> 
+               <salute>lieber Hermann,</salute> 
+            </opener> 
+            <p>ich weiss nicht, ob du noch <anchor type="commentary" xml:id="KL101-2">in <placeName key="pmb50"> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </anchor> bist – schreibe dir jedenfalls an deine <placeName key="pmb50"> 
+                  <settlement>Wr</settlement> 
+               </placeName> Adresse, aufsuchen könnt ich dich keineswegs, weil meine <rs type="person" key="pmb2173">Frau</rs> sich eben in Reconvalescenz von einem Scharlach befindet – (doch schon gekräftigt genug, um dich herzlich zu grüßen und dir mit mir zu dem <anchor type="commentary" xml:id="KL101-1"> 
+                  <rs type="work" key="pmb30021">nachtigalligen Erfolg</rs> 
+               </anchor> schönstens zu gratuliren) – Also <hi rend="underline" n="2">unter uns</hi> 
+               <pb/> 
+               <space unit="chars" quantity="1"/>formeller Antrag des <placeName key="pmb13">Hebbeltheater</placeName> liegt mir vor: <workName key="pmb29857">Beatrice</workName> nächste Saison, <persName key="pmb2303">Ritscher</persName> als Beatrice. Meine Frage an dich: hältst dus 1) für wahrscheinlich, dass <persName key="pmb12504">Reinhardt</persName> auf die Beatrice reflectirt<del rend="strikethrough">e</del>? 2) hältst du, im Jafalle <placeName key="pmb3">Deutsches Theater</placeName> für praktischer als <del rend="strikethrough">für</del> 
+               <space unit="chars" quantity="1"/> 
+               <placeName key="pmb13">Hebbeltheater</placeName>? 3) Zu welcher Zeit wäre Reinhardt zu einer fixen Entscheidg zu veranlassen?<del rend="strikethrough">)</del> 
+               <pb/> 
+            </p> 
+            <p>– Du bist nicht böse, wenn ich dich nochmals um vollkommen <hi rend="underline" n="1">vertrauliche</hi> Behandlg der Angelegenheit ersuche.</p> 
+            <closer>herzlichst der Deine,<lb/> 
+               <signed>Arthur</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

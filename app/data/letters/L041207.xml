@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041207"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Hermann Bahr an S. Fischer, 20. 3. 1897</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="207"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10815">Bahr, Hermann</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb11324">Fischer, Samuel</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb50">Wien</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb168">[Berlin]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="18970320" n="01">20. 3. 1897</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>USA</country> 
+                        <settlement>Bloomington</settlement> 
+                        <repository>Indiana University, Lilly Library</repository> 
+                        <idno>Fischer mss.</idno> 
+                     </msIdentifier> 
+                     <physDesc> 
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: <orgName key="pmb29209">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von unbekannter Hand auf erster Seite mit »<quote>10 / 20 – / 5 / 5</quote>« versehen.</p> 
+                     </physDesc> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160303">Angelegt</change> 
+         <change who="KI MAM" when="20160406">Kollationiert</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <date>20. März 7</date> 
+               </dateline> 
+               <salute rend="center">Lieber Fischer!</salute> 
+            </opener> 
+            <p>Ich habe heute <anchor type="commentary" xml:id="KL207-1"> 
+                  <rs type="work" key="pmb31999">verschickt</rs> 
+               </anchor>:</p> 
+            <p> 
+               <table cols="2" rend="group"> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="4"> 
+                           <row> 
+                              <cell>1)</cell> 
+                              <cell>D<hi rend="superscript">r</hi> 
+                                 <space unit="chars" quantity="1"/> 
+                                 <persName key="pmb10809">Eduard Bacher</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>2)</cell> 
+                              <cell>D<hi rend="superscript">r</hi> 
+                                 <space unit="chars" quantity="1"/> 
+                                 <persName key="pmb11673">Theodor Herzl</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>3)</cell> 
+                              <cell> 
+                                 <persName key="pmb2583">Friedrich Schütz</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>4)</cell> 
+                              <cell>D<hi rend="superscript">r</hi> 
+                                 <space unit="chars" quantity="1"/> 
+                                 <persName key="pmb28523">Moriz Necker</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29351">Neue Freie Presse</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="2"> 
+                           <row> 
+                              <cell>5)</cell> 
+                              <cell> 
+                                 <persName key="pmb28238">Hans Koppel</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>6)</cell> 
+                              <cell> 
+                                 <persName key="pmb3442">Marco Brociner</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <persName key="pmb25798">Sceps</persName>’sches <orgName key="pmb29414">Tagblatt</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>7)</cell> 
+                              <cell> 
+                                 <persName key="pmb2202">Wilhelm Singer</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29414">Neues Wiener Tagblatt</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="2"> 
+                           <row> 
+                              <cell>8)</cell> 
+                              <cell> 
+                                 <persName key="pmb11524">Ferdinand Groß</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>9)</cell> 
+                              <cell> 
+                                 <persName key="pmb11687">Ludwig Hevesi</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29600">Fremdenblatt</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>10)</cell> 
+                              <cell> 
+                                 <persName key="pmb28526">Moriz Baumfeld</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29717">Extrapost</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>11)</cell> 
+                              <cell> 
+                                 <persName key="pmb14756">Ferry Beraton</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29719">Vornehme Welt</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>12)</cell> 
+                              <cell> 
+                                 <persName key="pmb12920">Ottokar Tann-Bergler</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29320">Neues W<hi rend="superscript">r</hi> Journal</orgName> 
+                        <pb/> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>13)</cell> 
+                              <cell> 
+                                 <persName key="pmb2150">Julius Bauer</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29720">Extrablatt</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>14)</cell> 
+                              <cell>D<hi rend="superscript">r</hi> 
+                                 <space unit="chars" quantity="1"/> 
+                                 <persName key="pmb10912">Anton Bettelheim</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29722">Münchner Allgemeine</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="2"> 
+                           <row> 
+                              <cell>15)</cell> 
+                              <cell>D<hi rend="superscript">r</hi> 
+                                 <space unit="chars" quantity="1"/> 
+                                 <persName key="pmb11270">Emil Ertl</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>16)</cell> 
+                              <cell> 
+                                 <persName key="pmb12984">Hermann Ubell</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29684">Grazer Tagespost</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>17)</cell> 
+                              <cell>Direktor <persName key="pmb11036">Burckhard</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"/> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>18)</cell> 
+                              <cell> 
+                                 <persName key="pmb2154">Vincenz Chiavacci</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29724">Wiener Bilder</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="2"> 
+                           <row> 
+                              <cell>19)</cell> 
+                              <cell> 
+                                 <persName key="pmb11867">Heinrich Kanner</persName> 
+                              </cell> 
+                           </row> 
+                           <row> 
+                              <cell>20)</cell> 
+                              <cell>Professor <persName key="pmb12790">Singer</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"> 
+                        <orgName key="pmb29209">Zeit</orgName> 
+                     </cell> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>21)</cell> 
+                              <cell> 
+                                 <persName key="pmb11469">Alfred Gold</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"/> 
+                  </row> 
+                  <row> 
+                     <cell> 
+                        <table cols="2" rows="1"> 
+                           <row> 
+                              <cell>22)</cell> 
+                              <cell> 
+                                 <persName key="pmb13082">C. Karlweis</persName> 
+                              </cell> 
+                           </row> 
+                        </table> 
+                     </cell> 
+                     <cell role="label"/> 
+                  </row> 
+               </table> 
+            </p> 
+            <p rend="center"> 
+               <hi rend="overline">2<subst> 
+                     <del rend="overwritten">1</del> 
+                     <add place="inline">2</add> 
+                  </subst> Exemplare bisher verschickt.</hi> 
+            </p> 
+            <p>Nun brauche ich noch:</p> 
+            <p>1) <persName key="pmb2121">Arthur Schnitzler</persName> 2) <persName key="pmb11740">Hugo v. Hofmannsthal</persName> 3) <persName key="pmb10765">Leopold Andrian</persName> 4) <persName key="pmb2157">Leo Ebermann</persName> 5) <persName key="pmb28606">Ludwig Sc<unclear>v</unclear>epanski</persName> (für die <placeName key="pmb313">polnische</placeName> Presse) 6) u 7) <persName key="pmb2124">Machar</persName> und <persName key="pmb4300">Krejci</persName> (für die <placeName key="pmb628">böhmische</placeName> Presse) 8) <persName key="pmb10928">Otto Julius Bierbaum</persName> 9) <persName key="pmb12858">Otto Stößl</persName> 10) <persName key="pmb2885">Max Messer</persName> 11) <persName key="pmb28529">Franz Weislein</persName> 
+               <pb/> 12) <orgName key="pmb29682">Linzer Tagespost</orgName> 13) <orgName key="pmb29686">Salzburger Volksblatt</orgName> 14) <orgName key="pmb29725">Freie Schlesische Presse</orgName> 15) <persName key="pmb2618">Hugo Ganz</persName> (<orgName key="pmb29732">Neues Pester Journal</orgName>) 16) <orgName key="pmb29728">Brünner Tagesbote</orgName> 17) <orgName key="pmb29730">Brünner Sonntagszeitung</orgName> 18) <orgName key="pmb29306">Pester Lloyd</orgName> 19) Prof. <persName key="pmb12258">Minor</persName>. Ferner will ich an jedem Theater einem Schauspieler ein Exemplar geben, damit der »Tratsch« los geht. Schicken Sie mir also <hi rend="underline" n="2">sofort</hi> noch 30 Exemplare und fügen Sie in dem Paket auch einige Exemplare von <anchor type="commentary" xml:id="KL207-3"> 
+                  <workName key="pmb31987">Caph</workName> 
+               </anchor> u. <anchor type="commentary" xml:id="KL207-4"> 
+                  <workName key="pmb31989">Dora</workName> 
+               </anchor> bei, die auch<pb/> alle Augenblicke von Journalisten verlangt werden. Ich hoffe, diesmal machen wir ein Geschäft.</p> 
+            <p>Und beantworten Sie meine <anchor type="commentary" xml:id="KL207-2">Frage wegen der »<workName key="pmb31991">guten Schule</workName>.«</anchor> 
+            </p> 
+            <closer>Herzlichst<lb/>Ihr<lb/> 
+               <signed>Hermann Bahr</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041555"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Brahm an Arthur Schnitzler, 23. 7. 1910</title> 
+            <author key="pmb10986">Brahm, Otto</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-L" n="555"/> 
+            <availability status="free"> 
+               <p>Copyright © 2015</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <correspDesc> 
+               <sender full="yes"> 
+                  <persName key="pmb10986">Brahm, Otto</persName> 
+               </sender> 
+               <addressee full="yes"> 
+                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+               </addressee> 
+               <placeSender> 
+                  <placeName key="pmb189">Semmering</placeName> 
+               </placeSender> 
+               <placeAddressee> 
+                  <placeName key="pmb50">[Wien]</placeName> 
+               </placeAddressee> 
+               <dateSender> 
+                  <date when="19100723" n="01">23. 7. 1910</date> 
+               </dateSender> 
+               <context/> 
+            </correspDesc> 
+            <listBibl> 
+               <biblStruct corresp="ASOB" default="false"> 
+                  <monogr> 
+                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author key="pmb10986">Brahm, Otto</author> 
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
+                     <imprint> 
+                        <pubPlace>Tübingen</pubPlace> 
+                        <publisher>Max Niemeyer Verlag</publisher> 
+                        <date when="1975">1975</date> 
+                     </imprint> 
+                     <biblScope unit="pp">307</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-DE">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160413">Angelegt</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="letter"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <opener> 
+               <dateline rend="right"> 
+                  <placeName key="pmb189"> 
+                     <settlement>Semmering</settlement> 
+                  </placeName>, <date>23. 7. 10</date> 
+               </dateline> 
+               <salute>Lieber Freund,</salute> 
+            </opener> 
+            <p>auf dem Balkon neben mir wird zwar so geschrien, daß kein <anchor type="commentary" xml:id="KL555-1"> 
+                  <placeName key="pmb852"> 
+                     <settlement>Würzburg</settlement> 
+                  </placeName>er <persName key="pmb11933">Kleist</persName>-Problem</anchor> zu lösen ist, ich denke aber doch noch hier zu bleiben, ungleich dem <persName key="pmb4532">Jonas</persName>, der bereits <placeName key="pmb168"> 
+                  <settlement>Berlin</settlement> 
+               </placeName> bevölkert. Ihres Kommens froh gewärtig, jetzt mit <persName key="pmb10815">Bahr</persName> speisend, wünsche ich recht wohl zu leben.</p> 
+            <closer> 
+               <signed>O. B.</signed> 
+            </closer> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>

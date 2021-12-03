@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041437"> 
+   <teiHeader type="text"> 
+      <fileDesc> 
+         <titleStmt> 
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
+            <title level="a">Aufzeichnung von Hermann Bahr, 31. 10. 1903</title> 
+            <author key="pmb10815">Bahr, Hermann</author> 
+            <editor> 
+               <name full="yes" instant="false">Ifkovits, Kurt</name> 
+               <name full="yes" instant="false">Müller, Martin Anton</name> 
+            </editor> 
+            <funder> 
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
+               <address> 
+                  <street>Sensengasse 1</street> 
+                  <postCode>1090 Wien</postCode> 
+                  <placeName> 
+                     <country>A</country> 
+                     <settlement>Wien</settlement> 
+                  </placeName> 
+               </address> 
+            </funder> 
+         </titleStmt> 
+         <editionStmt> 
+            <edition>HBAS</edition> 
+            <respStmt> 
+               <resp>Transkription und Kommentierung</resp> 
+               <name full="yes" instant="false">Kurt Ifkovits</name> 
+               <name full="yes" instant="false">Martin Anton Müller</name> 
+            </respStmt> 
+         </editionStmt> 
+         <publicationStmt> 
+            <publisher>Theatermuseum, Wien</publisher> 
+            <idno type="HBAS-D" n="437"/> 
+            <availability status="free"> 
+               <p>Copyright © 2017</p> 
+            </availability> 
+         </publicationStmt> 
+         <seriesStmt> 
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
+         </seriesStmt> 
+         <sourceDesc> 
+            <listWit> 
+               <witness n="1"> 
+                  <msDesc> 
+                     <msIdentifier> 
+                        <country>A</country> 
+                        <settlement>Wien</settlement> 
+                        <repository>Theatermuseum</repository> 
+                        <idno>HS VM 1766 Ba</idno> 
+                     </msIdentifier> 
+                  </msDesc> 
+               </witness> 
+            </listWit> 
+            <listBibl> 
+               <biblStruct corresp="HBT3" default="false"> 
+                  <monogr> 
+                     <title level="m">1901–1903</title> 
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
+                     <imprint> 
+                        <date when="1997">1997</date> 
+                     </imprint> 
+                     <biblScope unit="pp">404</biblScope> 
+                  </monogr> 
+                  <monogr> 
+                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
+                     <editor>Hg. Moritz Csáky</editor> 
+                     <imprint> 
+                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
+                        <publisher>Böhlau</publisher> 
+                        <date when="1994">1994–2003</date> 
+                     </imprint> 
+                     <biblScope unit="vol">III</biblScope> 
+                  </monogr> 
+               </biblStruct> 
+            </listBibl> 
+         </sourceDesc> 
+      </fileDesc> 
+      <profileDesc> 
+         <langUsage> 
+            <language ident="de-AT">German</language> 
+         </langUsage> 
+      </profileDesc> 
+      <revisionDesc status="candidate"> 
+         <change who="MAM" when="20160107">angelegt</change> 
+         <change who="KI MAM" when="20160202">Kollationiert am Original</change> 
+      </revisionDesc> 
+   </teiHeader> 
+   <text type="diaryDay"> 
+      <body> 
+         <div type="writingSession" n="1"> 
+            <p> 
+               <date when="19031031" n="3">31.</date> Dictiere über <persName key="pmb3272">Molière</persName>.</p> 
+            <p> 
+               <persName key="pmb3275">Coquelin</persName>: <workName key="pmb31075">Bourgeois Gentilhomme</workName>, <workName key="pmb31077">Precieuses ridicules</workName>.</p> 
+            <p>Sende »<workName key="pmb32814">Dialog vom Tragischen</workName>« an <persName key="pmb27882">Wärndofer</persName>, <persName key="pmb11036">Burckhard</persName>, <persName key="pmb2121">Schnitzler</persName>, <persName key="pmb11740">Hofmannsthal</persName>, <persName key="pmb10863">Beer-Hofmann</persName>, <persName key="pmb3280">Kolo Moser</persName>, <persName key="pmb11941">Klimt</persName>, <persName key="pmb11687">Hevesi</persName>, <persName key="pmb10875">Moriz Benedikt</persName>, <persName key="pmb2167">Salten</persName>, <persName key="pmb11284">Eysoldt</persName>, <persName key="pmb12977">Triesch</persName>, <persName key="pmb2425">Dörmann</persName>, <persName key="pmb2150">Julius Bauer</persName>, <persName key="pmb3021">Sternberg</persName>, <persName key="pmb12920">Tann-Bergler</persName>, <persName key="pmb2202">Wilhelm Singer</persName>.</p> 
+            <p>Vergnügtes Telegramm von <persName key="pmb11740">Hugo</persName>, <persName key="pmb3025">Kahane</persName>, <persName key="pmb27990">Holländer</persName>, <persName key="pmb12504">Reinhardt</persName> u. der <persName key="pmb11284">Eysoldt</persName> über den »mächtigsten wuchtigsten Eindruck« der <workName key="pmb30633">Elektra</workName>.</p> 
+         </div> 
+      </body> 
+   </text> 
+</TEI>
