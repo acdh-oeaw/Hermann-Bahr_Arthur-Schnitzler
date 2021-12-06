@@ -1,0 +1,183 @@
+<acdh:ACDH xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:acdh="https://vocabs.acdh.oeaw.ac.at/schema#">
+    <acdh:Constanst>
+        <acdh:DefaultLang>de</acdh:DefaultLang>
+    </acdh:Constanst>
+    <!-- definition of agents mentioned in the Metadata as e.g. PI, Curator, ... but not yet in ARCHE -->
+    <acdh:MetaAgents>
+        <acdh:Resource rdf:about="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/title-img.jpg">
+            <acdh:hasTitle xml:lang="de">Titelbild</acdh:hasTitle>
+            <acdh:hasCreator rdf:resource="https://id.acdh.oeaw.ac.at/slehecka"/>
+            <acdh:hasRightsHolder rdf:resource="http://viaf.org/viaf/141440509"/><!-- ÖAW -->
+            <acdh:hasContact rdf:resource="https://viaf.org/viaf/6515148451584915970000"/> <!-- ACDH -->
+            <acdh:hasOwner rdf:resource="https://viaf.org/viaf/6515148451584915970000"/> <!-- ACDH -->
+            <acdh:hasLicensor rdf:resource="https://viaf.org/viaf/6515148451584915970000"/> <!-- ACDH -->
+            <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+            <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/image"/>
+            <acdh:isPartOf rdf:resource="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/meta"/>
+            <acdh:isTitleImageOf rdf:resource="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler"/>
+            <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/1043833846"/>
+            <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/1043833846"/>
+        </acdh:Resource>
+        <acdh:Person rdf:about="https://d-nb.info/gnd/1043833846">
+            <acdh:hasTitle xml:lang="und">Peter Andorfer</acdh:hasTitle>
+            <acdh:hasLastName xml:lang="und">Andorfer</acdh:hasLastName>
+            <acdh:hasFirstName xml:lang="und">Peter</acdh:hasFirstName>
+        </acdh:Person>
+        <acdh:Person rdf:about="https://orcid.org/0000-0001-8294-2541">
+            <acdh:hasIdentifier rdf:resource="https://id.acdh.oeaw.ac.at/iboerner"/>
+            <acdh:hasTitle xml:lang="und">Ingo Börner</acdh:hasTitle>
+            <acdh:hasLastName xml:lang="und">Börner</acdh:hasLastName>
+            <acdh:hasFirstName xml:lang="und">Ingo</acdh:hasFirstName>
+        </acdh:Person>
+        <acdh:Person rdf:about="https://d-nb.info/gnd/132560496">
+            <acdh:hasTitle xml:lang="und">Kurt Ifkovits</acdh:hasTitle>
+            <acdh:hasLastName xml:lang="und">Ifkovits</acdh:hasLastName>
+            <acdh:hasFirstName xml:lang="und">Kurt</acdh:hasFirstName>
+        </acdh:Person>
+        <acdh:Person rdf:about="https://d-nb.info/gnd/118609807">
+            <acdh:hasTitle xml:lang="und">Arthur Schnitzler</acdh:hasTitle>
+            <acdh:hasLastName xml:lang="und">Schnitzler</acdh:hasLastName>
+            <acdh:hasFirstName xml:lang="und">Arthur</acdh:hasFirstName>
+        </acdh:Person>
+        <acdh:Person rdf:about="https://d-nb.info/gnd/118505955">
+            <acdh:hasLastName xml:lang="und">Bahr</acdh:hasLastName>
+            <acdh:hasFirstName xml:lang="und">Hermann</acdh:hasFirstName>
+        </acdh:Person>
+        <acdh:Person rdf:about="https://d-nb.info/gnd/1050382196">
+            <acdh:hasTitle xml:lang="und">Martin Anton Müller</acdh:hasTitle>
+            <acdh:hasFirstName xml:lang="und">Martin Anton</acdh:hasFirstName>
+            <acdh:hasLastName xml:lang="und">Müller</acdh:hasLastName>
+        </acdh:Person>
+        <acdh:Organisation rdf:about="https://d-nb.info/gnd/108889819X">
+            <acdh:hasTitle xml:lang="de">Der Wissenschaftsfonds (Österreich)</acdh:hasTitle>
+        </acdh:Organisation>
+    </acdh:MetaAgents>
+    <acdh:CollStruct>
+        <acdh:TopColl url="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler">
+            <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000E-8562-D</acdh:hasPid>
+            <acdh:hasTitle xml:lang="de">Die Korrespondenz Hermann Bahr – Arthur Schnitzler</acdh:hasTitle>
+            <acdh:hasDescription xml:lang="de">Digitale Edition der Korrespondenz Hermann Bahr – Arthur Schnitzler</acdh:hasDescription>
+            <acdh:hasActor rdf:resource="http://d-nb.info/gnd/118609807"/> <!-- Schnitzler -->
+            <acdh:hasActor rdf:resource="http://d-nb.info/gnd/118505955"/> <!-- Bahr Hermann -->
+            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</acdh:hasCoverageStartDate>
+            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-01-01</acdh:hasCoverageEndDate>
+            <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-01</acdh:hasCreatedStartDate>
+            <acdh:hasCreatedEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-31</acdh:hasCreatedEndDate>
+            <acdh:hasSubject xml:lang="de">Briefausgabe</acdh:hasSubject>
+            <acdh:hasSubject xml:lang="de">Korrespondenz</acdh:hasSubject>
+            <acdh:hasSubject xml:lang="de">Tagebuch</acdh:hasSubject>
+            <acdh:hasSubject xml:lang="de">Edition</acdh:hasSubject>
+            <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+            
+        </acdh:TopColl>
+        <acdh:DataColl name="editions">
+            <acdh:hasTitle xml:lang="de">Editionen</acdh:hasTitle>
+            <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000E-8561-E</acdh:hasPid>
+            <acdh:hasDescription xml:lang="de">XML/TEI Dokumente </acdh:hasDescription>
+            <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+            <acdh:hasCoverageStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1889-01-01</acdh:hasCoverageStartDate>
+            <acdh:hasCoverageEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1931-01-01</acdh:hasCoverageEndDate>
+            <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-01</acdh:hasCreatedStartDate>
+            <acdh:hasCreatedEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-31</acdh:hasCreatedEndDate>
+        </acdh:DataColl>
+        <acdh:DataColl name="meta">
+            <acdh:hasTitle xml:lang="de">Ergänzende Materialen</acdh:hasTitle>
+            <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000E-8563-C</acdh:hasPid>
+            <acdh:hasDescription xml:lang="de">Ergänzende Materialen zur Edition</acdh:hasDescription>
+            <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+            <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-01</acdh:hasCreatedStartDate>
+            <acdh:hasCreatedEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-31</acdh:hasCreatedEndDate>
+        </acdh:DataColl>
+        <acdh:DataColl name="indices">
+            <acdh:hasTitle xml:lang="de">Register</acdh:hasTitle>
+            <acdh:hasPid>https://hdl.handle.net/21.11115/0000-000E-8564-B</acdh:hasPid>
+            <acdh:hasDescription xml:lang="de">XML/TEI kodiertes Orts-, Institutions- und Personenregister</acdh:hasDescription>
+            <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+            <acdh:hasCreatedStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-07-01</acdh:hasCreatedStartDate>
+            <acdh:hasCreatedEndDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-08-31</acdh:hasCreatedEndDate>
+        </acdh:DataColl>
+    </acdh:CollStruct>
+    
+    <!-- mandatory properties shared by acdh:Collection AND acdh:Resource -->
+    <acdh:RepoObject>
+        <acdh:hasLicense rdf:resource="https://vocabs.acdh.oeaw.ac.at/archelicenses/cc-by-4-0"/>
+        <acdh:hasLicensor rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/> <!-- ACDH -->
+        <acdh:hasContact rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/> <!-- ACDH -->
+        <acdh:hasOwner rdf:resource="https://id.acdh.oeaw.ac.at/acdh"/>
+        <acdh:hasRightsHolder rdf:resource="https://id.acdh.oeaw.ac.at/oeaw"/><!-- ÖAW -->
+        <acdh:hasRelatedDiscipline rdf:resource="https://vocabs.acdh.oeaw.ac.at/oefosdisciplines/602014"/> <!-- German Literature -->
+        <acdh:hasCreator rdf:resource="https://d-nb.info/gnd/1050382196"/> <!-- Martin Anton Müller -->
+        <acdh:hasDepositor rdf:resource="https://d-nb.info/gnd/1050382196"/>
+        <acdh:hasCurator rdf:resource="https://d-nb.info/gnd/1050382196"/> <!-- Müller -->
+        <acdh:hasContributor rdf:resource="https://d-nb.info/gnd/1043833846"/><!-- Andorfer -->
+        <acdh:hasContributor rdf:resource="https://orcid.org/0000-0001-8294-2541"/><!-- Börner -->
+        <acdh:hasContributor rdf:resource="https://d-nb.info/gnd/132560496"/><!-- Ifkovits -->
+        <acdh:hasMetadataCreator rdf:resource="https://d-nb.info/gnd/1050382196"/>
+        <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/kulturpool"/>
+        <acdh:hasOaiSet rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeoaisets/clarin-vlo"/>
+    </acdh:RepoObject>
+    
+    <!-- Resource specific mandatory or very nice to have constant properties -->
+    <acdh:SpecResource collection="editions">
+        <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
+        <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/> <!-- TEI encoded texts -->
+        <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+        <!-- <acdh:hasSchema rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/meta/asbwschema.xsd</acdh:hasSchema> -->
+    </acdh:SpecResource>
+    <acdh:SpecResource collection="indices">
+        <acdh:hasAccessRestriction rdf:resource="https://vocabs.acdh.oeaw.ac.at/archeaccessrestrictions/public"/>
+        <acdh:hasCategory rdf:resource="https://vocabs.acdh.oeaw.ac.at/archecategory/text/tei"/> <!-- TEI encoded texts -->
+        <acdh:hasLanguage rdf:resource="https://vocabs.acdh.oeaw.ac.at/iso6393/deu"/>
+    </acdh:SpecResource>
+    
+    <!-- maps arche props to their values via xpath expressions; be aware the current TEI document needs to be encoded as '$item' -->
+    <acdh:TeiLookUps collection="editions"> 
+        <acdh:hasTitle type="literal">$item//tei:titleStmt/tei:title[@level='a']/text()</acdh:hasTitle>
+        <acdh:hasCreator type="resource">app:ifkovits($item)</acdh:hasCreator>
+        <acdh:hasCoverageStartDate type="date">archeutils:normalize-date(data($item//tei:correspAction[1]/tei:date/@when), true())</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageStartDate type="date">archeutils:normalize-date(data($item//tei:correspAction[1]/tei:notBefore/@when), true())</acdh:hasCoverageStartDate>
+        <acdh:hasCoverageEndDate type="date">archeutils:normalize-date(data($item//tei:correspAction[1]/tei:date/@when), false())</acdh:hasCoverageEndDate>
+        <acdh:hasCoverageEndDate type="date">archeutils:normalize-date(data($item//tei:correspAction[1]/tei:notAfter/@when), false())</acdh:hasCoverageEndDate>
+        <acdh:hasCreatedStartDate type="date">archeutils:normalize-date(data($item//tei:change[1]/@when), true())</acdh:hasCreatedStartDate>
+        <acdh:hasCreatedEndDate type="date">archeutils:normalize-date(data($item//tei:change[last()]/@when), false())</acdh:hasCreatedEndDate>
+         <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid> 
+        <acdh:hasNonLinkedIdentifier type="literal_no_lang">normalize-space(string-join($item//tei:sourceDesc//tei:msIdentifier//text(), '; '))</acdh:hasNonLinkedIdentifier>
+        <acdh:hasCustomXsl type="no_eval">https://tei4arche.acdh-dev.oeaw.ac.at/xsl/schnitzler-briefe2arche.xsl</acdh:hasCustomXsl> 
+    </acdh:TeiLookUps>
+    
+    <acdh:TeiLookUps collection="indices"> 
+        <acdh:hasTitle type="literal">$item//tei:titleStmt/tei:title[@level='a']/text()</acdh:hasTitle>
+        <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid>
+        <acdh:isPartOf type="resource">$item/@xml:base</acdh:isPartOf>
+<!--        <acdh:hasCustomXsl type="literal_no_lang">concat('https://tei4arche.acdh-dev.oeaw.ac.at/xsl/', substring-before(data($item/@xml:id), '.'), '.xsl')</acdh:hasCustomXsl>-->
+    </acdh:TeiLookUps>
+    
+    <!-- mapping  tei:person to arche:Person -->
+    <acdh:PersonLookUps source="indices/listperson.xml">
+        <acdh:hasIdentifier type="resource_many">archeutils:get_entity_id($item)</acdh:hasIdentifier>
+        <acdh:hasTitle type="literal" lang="und">normalize-space($item/tei:persName[1]/tei:forename/text()||' '||$item/tei:persName[1]/tei:surname/text())</acdh:hasTitle>
+        <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid>
+    </acdh:PersonLookUps>
+    
+    <!-- mapping  tei:place to arche:Place -->
+    <acdh:PlaceLookUps source="indices/listplace.xml">
+        <acdh:hasIdentifier type="resource_many">archeutils:get_entity_id($item)</acdh:hasIdentifier>
+        <acdh:hasTitle type="literal" lang="und">normalize-space($item/tei:placeName[1]/text())</acdh:hasTitle>
+        <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid>
+    </acdh:PlaceLookUps>
+    
+    <!-- mapping  tei:org to arche:Organisation -->
+    <acdh:OrgLookUps source="indices/listorg.xml">
+        <acdh:hasIdentifier type="resource_many">archeutils:get_entity_id($item)</acdh:hasIdentifier>
+        <acdh:hasTitle type="literal" lang="und">normalize-space($item/tei:orgName[1]/text())</acdh:hasTitle>
+        <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid>
+    </acdh:OrgLookUps>
+    
+    <!-- mapping  tei:org to arche:Publication -->
+    <acdh:PubLookUps source="indices/listwork.xml">
+        <acdh:hasIdentifier type="resource_many">archeutils:get_entity_id($item)</acdh:hasIdentifier>
+        <acdh:hasTitle type="literal" lang="und">normalize-space($item/tei:title[1]/text())</acdh:hasTitle>
+        <acdh:hasPid type="literal_no_lang">$item//tei:idno[@type="handle"]/text()</acdh:hasPid>
+    </acdh:PubLookUps>
+    
+</acdh:ACDH>
