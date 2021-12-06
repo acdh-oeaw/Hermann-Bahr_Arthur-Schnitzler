@@ -1,131 +1,128 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041560.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041559.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041561.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Brahm an Arthur Schnitzler, 10. 12. 1911</title> 
-            <author ref="pmb10986">Brahm, Otto</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="560"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A1-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19111210" n="01">10. 12. 1911</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASOB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">332</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160414">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement>Berlin</settlement> 
-                  </rs>, <date>10. 12. 11</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>die Vorstellung des <hi rend="italic"> 
-                  <rs type="work" ref="pmb29935">Anatol</rs> 
-               </hi> war von der »<rs type="place" ref="pmb739">Freien Volksbühne</rs>« veranstaltet, diese hatte sich tantiememäßig zu äußern, und ich habe ihr nun ihr grobes Versehen unter die Nase reiben lassen. –</p> 
-            <p>Das <hi rend="italic"> 
-                  <rs type="work" ref="pmb30085">Tänzchen</rs> 
-               </hi> ist arrangiert, die <hi rend="italic"> 
-                  <rs type="work" ref="pmb29931">Mizzi</rs> 
-               </hi> kommt nächstens dran. Den Philipp habe ich <rs type="person" ref="pmb26651">Walther</rs> gegeben, über höheren Wunsch; jetzt wurde mir von einem Agenten der <rs type="place" ref="pmb652">Prag</rs>er <rs type="person" subtype="implied" ref="pmb28685">Darsteller</rs> der Rolle empfohlen, kennen Sie ihn? Er könnte natürlich nur in Frage kommen, wenn <rs type="person" ref="pmb26651">Walther</rs> nicht einleuchtet. <rs type="person" ref="pmb12932">Teweles</rs>, den ich dieser Tage im <rs type="org" ref="pmb29769">Bühnenverein</rs> sprach, will den nötigen Urlaub geben. Von <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi> sprach er nicht.</p> 
-            <p>Die »<rs type="place" ref="pmb740">Neue Freie Volksbühne</rs>« scheint mir nichts für Sie und den <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi>. – Unsere Verhandlungen mit <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> »schweben«. <hi rend="italic"> 
-                  <rs type="work" ref="pmb30207">Das weite Land</rs> 
-               </hi> hält sich zu meiner Freude gut, obgleich seit letztem Montag die <rs type="person" ref="pmb4693">Herterich</rs>, die einen Krankheitsurlaub nehmen mußte, durch die <rs type="person" ref="pmb28643">Gernot</rs> ersetzt wurde, in aller Eile; ich werde wohl den 2. Weihnachtsfeiertag, den besten Theatertag des Jahres, unserm Lieblingsstück geben können. Und auch die 25. soll Ihrer <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> beschert werden! Daß es ihr gut ergeht, freut mich; aber unverantwortlich bleibt es, daß sie uns <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>ern diesmal unterschlagen wurde.</p> 
-            <p>Der Jänner- <rs type="place" ref="pmb189"> 
-                  <settlement>Semmering</settlement> 
-               </rs> ist mir z. Zt. zweifelhaft, eher denke ich an eine Frühlingsfahrt nach <rs type="place" ref="pmb650"> 
-                  <settlement>Gries</settlement> 
-               </rs> oder dgl. Wer kommt mit? – Die Verhandlungen mit <rs type="person" ref="pmb10833">Barnowsky</rs> und <rs type="person" ref="pmb14328">Blumenthal</rs> sind so gut wie beendigt; die Freiheit winkt und ich winke wieder!</p> 
-            <p>Vom <rs type="person" ref="pmb11933"> 
-                  <rs type="work" ref="pmb31319">Kleist</rs> 
-               </rs> kommt eine neue Auflage noch vor Weihnachten; ich habe eckckelhaft mit den Korrekturen zu schaffen gehabt. Schön, daß Sie arbeiten, Sie müssen bis 1914 noch sehr Schönes schreiben; aber nachher auch, bitte!</p> 
-            <closer>Ihr <signed>O. B.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041560.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041559.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041561.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Arthur Schnitzler, 10. 12. 1911</title>
+            <author ref="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="560"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A1-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19111210" n="01">10. 12. 1911</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">332</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160414">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb168">Berlin</rs>, <date>10. 12. 11</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>die Vorstellung des <hi rend="italic">
+                  <rs type="work" ref="pmb29935">Anatol</rs>
+               </hi> war von der »<rs type="place" ref="pmb739">Freien Volksbühne</rs>« veranstaltet, diese hatte sich tantiememäßig zu äußern, und ich habe ihr nun ihr grobes Versehen unter die Nase reiben lassen. –</p>
+            <p>Das <hi rend="italic">
+                  <rs type="work" ref="pmb30085">Tänzchen</rs>
+               </hi> ist arrangiert, die <hi rend="italic">
+                  <rs type="work" ref="pmb29931">Mizzi</rs>
+               </hi> kommt nächstens dran. Den Philipp habe ich <rs type="person" ref="pmb26651">Walther</rs> gegeben, über höheren Wunsch; jetzt wurde mir von einem Agenten der <rs type="place" ref="pmb652">Prag</rs>er <rs type="person" subtype="implied" ref="pmb28685">Darsteller</rs> der Rolle empfohlen, kennen Sie ihn? Er könnte natürlich nur in Frage kommen, wenn <rs type="person" ref="pmb26651">Walther</rs> nicht einleuchtet. <rs type="person" ref="pmb12932">Teweles</rs>, den ich dieser Tage im <rs type="org" ref="pmb29769">Bühnenverein</rs> sprach, will den nötigen Urlaub geben. Von <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi> sprach er nicht.</p>
+            <p>Die »<rs type="place" ref="pmb740">Neue Freie Volksbühne</rs>« scheint mir nichts für Sie und den <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi>. – Unsere Verhandlungen mit <rs type="place" ref="pmb50">Wien</rs> »schweben«. <hi rend="italic">
+                  <rs type="work" ref="pmb30207">Das weite Land</rs>
+               </hi> hält sich zu meiner Freude gut, obgleich seit letztem Montag die <rs type="person" ref="pmb4693">Herterich</rs>, die einen Krankheitsurlaub nehmen mußte, durch die <rs type="person" ref="pmb28643">Gernot</rs> ersetzt wurde, in aller Eile; ich werde wohl den 2. Weihnachtsfeiertag, den besten Theatertag des Jahres, unserm Lieblingsstück geben können. Und auch die 25. soll Ihrer <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> beschert werden! Daß es ihr gut ergeht, freut mich; aber unverantwortlich bleibt es, daß sie uns <rs type="place" ref="pmb168">Berlin</rs>ern diesmal unterschlagen wurde.</p>
+            <p>Der Jänner- <rs type="place" ref="pmb189">Semmering</rs> ist mir z. Zt. zweifelhaft, eher denke ich an eine Frühlingsfahrt nach <rs type="place" ref="pmb45088">Gries</rs> oder dgl. Wer kommt mit? – Die Verhandlungen mit <rs type="person" ref="pmb10833">Barnowsky</rs> und <rs type="person" ref="pmb14328">Blumenthal</rs> sind so gut wie beendigt; die Freiheit winkt und ich winke wieder!</p>
+            <p>Vom <rs type="person" ref="pmb11933">
+                  <rs type="work" ref="pmb31319">Kleist</rs>
+               </rs> kommt eine neue Auflage noch vor Weihnachten; ich habe eckckelhaft mit den Korrekturen zu schaffen gehabt. Schön, daß Sie arbeiten, Sie müssen bis 1914 noch sehr Schönes schreiben; aber nachher auch, bitte!</p>
+            <closer>Ihr <signed>O. B.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

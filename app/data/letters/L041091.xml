@@ -1,138 +1,141 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041091.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041090.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041092.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 18. 10. 1906 </title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="091"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85CC-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19061018" n="01">18. 10. 1906</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23383 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19061018">18. 10. 1906</date> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">95–96</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="missing_TMW"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>18. X. 906</date> 
-               </dateline> 
-               <salute>lieber Hermann, </salute> 
-            </opener> 
-            <p>eine Aehnlichkeit zwischen <rs type="work" subtype="implied" ref="pmb30007">deinem Akt</rs> und dem <rs type="work" ref="pmb30005">Abschiedsouper</rs> wäre höchstens irgendwo im äußerlich stofflichen zu finden, im innerlich stofflichen schon nicht mehr, und gewiss nicht im <del rend="strikethrough">eigentlich</del> »seelisch gestaltlichen« – <add place="inline">(</add>um zu immer grauenhafteren Worten auf- oder niederzusteigen). Dein Problem ist viel verzwickter, der Fortgang der Handlung gedrehter, spiraliger, jüdischer gegenüber der naiv <rs type="place" ref="pmb166"> 
-                  <country>gauloisen</country> 
-               </rs> Fabel des braven alten <rs type="work" subtype="implied" ref="pmb29935">Anatolstückls</rs>, außerdem wird bei mir soupirt und bei dir doch eigentlich nur <anchor type="commentary" xml:id="KL091-2">gejausnet</anchor>. Die Atmosphäre deines Stücks ist dünner, schärfer; das ganze brutaler (für<pb/> meinen Geschmack im Beginn besonders bis zum Abstoßenden brutal) angepackt. Wenn du mir, oder dem guten <rs type="work" subtype="implied" ref="pmb29935">Anatol</rs>, diesen <rs type="work" subtype="implied" ref="pmb30007">interessanten Einakter</rs> widmen willst, so nehm ich s natürlich mit Dank u Rührung an, nur mußt du mir erlauben, deine Erinnerung nicht als Anregungsqui<damage agent="hole"> 
-                  <supplied>tt</supplied> 
-               </damage>ierung und Ausdruck einer Gewissensschuld sondern als ein neues und daher mir willkommenes Zeichen unserer guten Zusammengehörigkeit zu empfinden u zu empfangen.</p> 
-            <p>Hoffentlich fügt es sich, dss wir einander vor deiner Abreise noch einmal sehen. (Gern möcht ich auch etwas, <anchor type="commentary" xml:id="KL091-1"> 
-                  <rs type="person" ref="pmb12504">Reinhardt</rs> betreffendes</anchor>, aber hauptsächlich in <damage agent="hole"> 
-                  <supplied>mei</supplied> 
-               </damage>nem Interesse liegendes<del rend="strikethrough">)</del> mit dir besprechen.)</p> 
-            <closer>Herzlichst, mit Grüßen von<lb/>meiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> u mir<lb/>dein<lb/> 
-               <signed>Arthur</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041091.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041090.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041092.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 18. 10. 1906 </title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="091"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85CC-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19061018" n="01">18. 10. 1906</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23383 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19061018">18. 10. 1906</date>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">95–96</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="missing_TMW"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>18. X. 906</date>
+               </dateline>
+               <salute>lieber Hermann, </salute>
+            </opener>
+            <p>eine Aehnlichkeit zwischen <rs type="work" subtype="implied" ref="pmb30007">deinem Akt</rs> und dem <rs type="work" ref="pmb30005">Abschiedsouper</rs> wäre höchstens irgendwo im äußerlich stofflichen zu finden, im innerlich stofflichen schon nicht mehr, und gewiss nicht im <del rend="strikethrough">eigentlich</del> »seelisch gestaltlichen« – <add place="inline">(</add>um zu immer grauenhafteren Worten auf- oder niederzusteigen). Dein Problem ist viel verzwickter, der Fortgang der Handlung gedrehter, spiraliger, jüdischer gegenüber der naiv <rs type="place" ref="pmb166">gauloisen</rs> Fabel des braven alten <rs type="work" subtype="implied" ref="pmb29935">Anatolstückls</rs>, außerdem wird bei mir soupirt und bei dir doch eigentlich nur <anchor type="commentary" xml:id="KL091-2">gejausnet</anchor>. Die Atmosphäre deines Stücks ist dünner, schärfer; das ganze brutaler (für<pb/> meinen Geschmack im Beginn besonders bis zum Abstoßenden brutal) angepackt. Wenn du mir, oder dem guten <rs type="work" subtype="implied" ref="pmb29935">Anatol</rs>, diesen <rs type="work" subtype="implied" ref="pmb30007">interessanten Einakter</rs> widmen willst, so nehm ich s natürlich mit Dank u Rührung an, nur mußt du mir erlauben, deine Erinnerung nicht als Anregungsqui<damage agent="hole">
+                  <supplied>tt</supplied>
+               </damage>ierung und Ausdruck einer Gewissensschuld sondern als ein neues und daher mir willkommenes Zeichen unserer guten Zusammengehörigkeit zu empfinden u zu empfangen.</p>
+            <p>Hoffentlich fügt es sich, dss wir einander vor deiner Abreise noch einmal sehen. (Gern möcht ich auch etwas, <anchor type="commentary" xml:id="KL091-1">
+                  <rs type="person" ref="pmb12504">Reinhardt</rs> betreffendes</anchor>, aber hauptsächlich in <damage agent="hole">
+                  <supplied>mei</supplied>
+               </damage>nem Interesse liegendes<del rend="strikethrough">)</del> mit dir besprechen.)</p>
+            <closer>Herzlichst, mit Grüßen von<lb/>meiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> u mir<lb/>dein<lb/>
+               <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

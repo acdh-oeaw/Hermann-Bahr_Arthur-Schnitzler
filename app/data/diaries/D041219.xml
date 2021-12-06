@@ -1,78 +1,87 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041219.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041218.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041220.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 19. 7. 1903</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="219" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-890D-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19030719" n="3">19/7</date> S.– <rs type="work" subtype="implied" ref="pmb29985">4. Akt</rs>.– Fiaker zu <rs type="person" ref="pmb10815">Bahr</rs>; 40. Geburtstag.– Er lag verstimmt und sehr alt aussehend in einem Gartensessel. Ich brachte ihm ein Bild mit Widmung. (Erinnre dich wie oft du alt warst – und freu dich, wie oft du noch jung sein wirst.) – <rs type="person" ref="pmb2161">Direktor Bukovics</rs> und sein unförmlicher <rs type="person" cert="low" subtype="implied" ref="pmb2951 pmb27875 pmb27878 pmb27880">Sohn</rs>. Frau <rs type="person" ref="pmb13682">R. Bahr</rs>. – <rs type="person" ref="pmb10815">B.</rs> Absicht, »<rs type="work" ref="pmb29855">Reigen</rs>« oeffentlich zu lesen.–</p> 
-            <p>Nachm. am <rs type="work" subtype="implied" ref="pmb29985">4. Akt</rs>.–</p> 
-            <p>Zu <rs type="person" ref="pmb2173">O.</rs> Die Mädeln. <rs type="person" ref="pmb2959">Lantz</rs> las uns eine nicht ganz unbegabte aber ausnehmend affectirte Novellette vor.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041219.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041218.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041220.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 19. 7. 1903</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="219" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-890D-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19030719" n="3">19/7</date> S.– <rs type="work" subtype="implied" ref="pmb29985">4. Akt</rs>.– Fiaker zu <rs type="person" ref="pmb10815">Bahr</rs>; 40. Geburtstag.– Er lag verstimmt und sehr alt aussehend in einem Gartensessel. Ich brachte ihm ein Bild mit Widmung. (Erinnre dich wie oft du alt warst – und freu dich, wie oft du noch jung sein wirst.) – <rs type="person" ref="pmb2161">Direktor Bukovics</rs> und sein unförmlicher <rs type="person"
+                   subtype="implied"
+                   ref="pmb2951 pmb27875 pmb27878 pmb27880">Sohn</rs>. Frau <rs type="person" ref="pmb13682">R. Bahr</rs>. – <rs type="person" ref="pmb10815">B.</rs> Absicht, »<rs type="work" ref="pmb29855">Reigen</rs>« oeffentlich zu lesen.–</p>
+            <p>Nachm. am <rs type="work" subtype="implied" ref="pmb29985">4. Akt</rs>.–</p>
+            <p>Zu <rs type="person" ref="pmb2173">O.</rs> Die Mädeln. <rs type="person" ref="pmb2959">Lantz</rs> las uns eine nicht ganz unbegabte aber ausnehmend affectirte Novellette vor.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

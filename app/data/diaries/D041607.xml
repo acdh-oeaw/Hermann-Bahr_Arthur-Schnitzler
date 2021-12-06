@@ -1,82 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041607.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041606.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041608.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 6. 11. 1931</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="607"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A6E-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2634 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Braunes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 66–67.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160906">Angelegt</change> 
-         <change who="KI MAM" when="20160906">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19311106" n="01">6.</date>– K. – Himmel bewölkt sich. Sehr kalt. Weiter Auszug der <anchor type="commentary" xml:id="KD607-1"> 
-                  <rs type="work" ref="pmb30831">Memoiren Lola Montez</rs> 
-               </anchor>. Auf dem Wege zu P. <rs type="person" ref="pmb3926">Przywara</rs> zunächst zwanzig Minuten in <rs type="place" ref="pmb711">Sankt Ludwig</rs> zu stiller Andacht. Dann mit <rs type="person" ref="pmb3926">Przywara</rs> durch <rs type="place" ref="pmb706">Englischen Garten</rs>. Nächsten Freitag ist <rs type="person" ref="pmb3926">Przywara</rs> nicht hier, sondern erst in vierzehn Tagen. Dann noch um sechs in die <rs type="place" ref="pmb707">Fronleichnamskapelle</rs> zur Abendandacht. Litanei.<pb/> 
-            </p> 
-            <p>Morgen gleich <rs type="org" ref="pmb29196">Reclams Universum</rs> verständigen, daß ich <rs type="work" subtype="implied" ref="pmb31647">Zehnzeilenkritik</rs> der »<rs type="work" ref="pmb30863">Flucht in die Finsternis</rs>« sowie der »<rs type="work" ref="pmb30955">Dreifachen Warnung</rs>« besorgen will.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041607.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041606.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041608.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 6. 11. 1931</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="607"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A6E-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2634 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Braunes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 66–67.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160906">Angelegt</change>
+         <change who="KI MAM" when="20160906">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19311106" n="01">6.</date>– K. – Himmel bewölkt sich. Sehr kalt. Weiter Auszug der <anchor type="commentary" xml:id="KD607-1">
+                  <rs type="work" ref="pmb30831">Memoiren Lola Montez</rs>
+               </anchor>. Auf dem Wege zu P. <rs type="person" ref="pmb3926">Przywara</rs> zunächst zwanzig Minuten in <rs type="place" ref="pmb711">Sankt Ludwig</rs> zu stiller Andacht. Dann mit <rs type="person" ref="pmb3926">Przywara</rs> durch <rs type="place" ref="pmb706">Englischen Garten</rs>. Nächsten Freitag ist <rs type="person" ref="pmb3926">Przywara</rs> nicht hier, sondern erst in vierzehn Tagen. Dann noch um sechs in die <rs type="place" ref="pmb707">Fronleichnamskapelle</rs> zur Abendandacht. Litanei.<pb/>
+            </p>
+            <p>Morgen gleich <rs type="org" ref="pmb29196">Reclams Universum</rs> verständigen, daß ich <rs type="work" subtype="implied" ref="pmb31647">Zehnzeilenkritik</rs> der »<rs type="work" ref="pmb30863">Flucht in die Finsternis</rs>« sowie der »<rs type="work" ref="pmb30955">Dreifachen Warnung</rs>« besorgen will.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

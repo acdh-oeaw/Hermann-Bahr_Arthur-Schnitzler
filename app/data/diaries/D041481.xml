@@ -1,184 +1,189 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041481.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041480.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041482.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Reiseplanung für Wienaufenthalt], [Februar 1917]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="481"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89FA-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2627 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh., 1 Bl., 2 S., Tinte und Bleistift, der Wechsel des Schreibmaterials wird nicht thematisiert</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">angelegt</change> 
-         <change who="KI MAM" when="20160120">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19170200" n="01"/> 
-               <hi rend="underline" n="1">Visitkarten</hi> 
-            </p> 
-            <p>Früh <rs type="org" ref="pmb29788">Deutsche Paßstelle</rs> 
-            </p> 
-            <p>Dienstag Vormittag: <rs type="person" ref="pmb3727">Eberle</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb371">Döbling – Nußwaldgasse 12<hi rend="superscript">I</hi> 
-               </rs> (<rs type="place" ref="pmb381">Carmeliten</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28262">Willibrord</rs>)</p> 
-            <p>Nachmittag Frau <rs type="person" ref="pmb27790">Benedikt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb382">Wohllebengasse</rs> 
-            </p> 
-            <p>Mittwoch Mittag <rs type="person" ref="pmb10863">Richard Beerhofmann</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb383">Hasenauerstraße 59</rs> 
-            </p> 
-            <p>von ihm zu</p> 
-            <p> 
-               <rs type="person" ref="pmb3731">Kralik</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb383">Hasenauerstr. 20</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb384">Karl Ludwigpl. 3</rs> 
-            </p> 
-            <p>u. eventuell</p> 
-            <p> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb150">Sternwartestr. 71</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb2167">Salten</rs>?</p> 
-            <p>Vielleicht Mittwoch Vormittag <rs type="person" ref="pmb28261">P. Szabo</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb385">Postgasse 4</rs> 
-            </p> 
-            <p>20. <del rend="strikethrough"> 
-                  <unclear>Mont</unclear> 
-               </del> Dienstag ganz frei für <rs type="person" ref="pmb12481">Redlich</rs>.<pb/> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb28262">Verkade</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb327"> 
-                  <settlement>Riedlingen/Donau Würtemberg</settlement> 
-               </rs> 
-            </p> 
-            <p>Frau <rs type="person" ref="pmb27826">Dora Breisach</rs> (<rs type="person" ref="pmb18084">Irene Hellman</rs>s Freundin)</p> 
-            <p> 
-               <rs type="person" ref="pmb2202">Wilhelm Singer</rs>, <rs type="person" ref="pmb16958">Adolf Gelber</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb10875">Benedikt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <add place="inline"> 
-                  <rs type="place" ref="pmb382">Wollebeng 6</rs> 
-               </add>, <rs type="person" ref="pmb3021">Sternberg</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb28625">Baron Fuchs</rs> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="place" ref="pmb786">Lugeck 6</rs> 
-               </del> | <rs type="place" ref="pmb444">Jordang 9</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3280">Kolo Moser</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb12954">Jaroslav Thun</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb498">Am Hof 13.</rs> 
-            </p> 
-            <p>Generaladjutant Generalmajor Pz <rs type="person" ref="pmb4291">Lobkowitz</rs> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb2686">Conrad Hohenlohe</rs> 
-               </hi> (<rs type="org" ref="pmb29760">Kaiser Karl Gesellschaft</rs>)</p> 
-            <p> 
-               <rs type="person" ref="pmb11646">Hugo Heller</rs> 
-            </p> 
-            <p>Fürstin <rs type="person" ref="pmb12231">Metternich</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb528">Fasangasse 34</rs> 
-            </p> 
-            <p> 
-               <rs type="org" ref="pmb29320">Journal</rs>, <rs type="person" ref="pmb3579">Jacobson</rs>, Abds gegen 7</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb10765">Poldi Andrian</rs> 
-               </hi> 
-            </p> 
-            <p>Gräfin <rs type="person" ref="pmb26046">Thun</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb529">Hoher Markt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb787">Palais Sina</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3916">Ludwig Klinenberger</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="org" ref="pmb29351">N. Fr. Pr.</rs> und Generalstabsoberst <rs type="person" ref="pmb28336">Wilhelm Eisner-Bubna</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041481.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041480.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041482.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Reiseplanung für Wienaufenthalt], [Februar 1917]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="481"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89FA-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2627 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh., 1 Bl., 2 S., Tinte und Bleistift, der Wechsel des Schreibmaterials wird nicht thematisiert</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">angelegt</change>
+         <change who="KI MAM" when="20160120">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19170200" n="01"/>
+               <hi rend="underline" n="1">Visitkarten</hi>
+            </p>
+            <p>Früh <rs type="org" ref="pmb29788">Deutsche Paßstelle</rs>
+            </p>
+            <p>Dienstag Vormittag: <rs type="person" ref="pmb3727">Eberle</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb371">Döbling – Nußwaldgasse 12<hi rend="superscript">I</hi>
+               </rs> (<rs type="place" ref="pmb381">Carmeliten</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28262">Willibrord</rs>)</p>
+            <p>Nachmittag Frau <rs type="person" ref="pmb27790">Benedikt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb382">Wohllebengasse</rs>
+            </p>
+            <p>Mittwoch Mittag <rs type="person" ref="pmb10863">Richard Beerhofmann</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb383">Hasenauerstraße 59</rs>
+            </p>
+            <p>von ihm zu</p>
+            <p>
+               <rs type="person" ref="pmb3731">Kralik</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb383">Hasenauerstr. 20</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb384">Karl Ludwigpl. 3</rs>
+            </p>
+            <p>u. eventuell</p>
+            <p>
+               <rs type="person" ref="pmb2121">Schnitzler</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb150">Sternwartestr. 71</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb2167">Salten</rs>?</p>
+            <p>Vielleicht Mittwoch Vormittag <rs type="person" ref="pmb28261">P. Szabo</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb385">Postgasse 4</rs>
+            </p>
+            <p>20. <del rend="strikethrough">
+                  <unclear>Mont</unclear>
+               </del> Dienstag ganz frei für <rs type="person" ref="pmb12481">Redlich</rs>.<pb/>
+            </p>
+            <p>
+               <rs type="person" ref="pmb28262">Verkade</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb40253">Riedlingen/Donau Würtemberg</rs>
+            </p>
+            <p>Frau <rs type="person" ref="pmb27826">Dora Breisach</rs> (<rs type="person" ref="pmb18084">Irene Hellman</rs>s Freundin)</p>
+            <p>
+               <rs type="person" ref="pmb2202">Wilhelm Singer</rs>, <rs type="person" ref="pmb16958">Adolf Gelber</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb10875">Benedikt</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="inline">
+                  <rs type="place" ref="pmb382">Wollebeng 6</rs>
+               </add>, <rs type="person" ref="pmb3021">Sternberg</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb28625">Baron Fuchs</rs>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="place" ref="pmb786">Lugeck 6</rs>
+               </del> | <rs type="place" ref="pmb444">Jordang 9</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3280">Kolo Moser</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb12954">Jaroslav Thun</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb498">Am Hof 13.</rs>
+            </p>
+            <p>Generaladjutant Generalmajor Pz <rs type="person" ref="pmb4291">Lobkowitz</rs>
+            </p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb2686">Conrad Hohenlohe</rs>
+               </hi> (<rs type="org" ref="pmb29760">Kaiser Karl Gesellschaft</rs>)</p>
+            <p>
+               <rs type="person" ref="pmb11646">Hugo Heller</rs>
+            </p>
+            <p>Fürstin <rs type="person" ref="pmb12231">Metternich</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb528">Fasangasse 34</rs>
+            </p>
+            <p>
+               <rs type="org" ref="pmb29320">Journal</rs>, <rs type="person" ref="pmb3579">Jacobson</rs>, Abds gegen 7</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb10765">Poldi Andrian</rs>
+               </hi>
+            </p>
+            <p>Gräfin <rs type="person" ref="pmb26046">Thun</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb529">Hoher Markt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb787">Palais Sina</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3916">Ludwig Klinenberger</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="org" ref="pmb29351">N. Fr. Pr.</rs> und Generalstabsoberst <rs type="person" ref="pmb28336">Wilhelm Eisner-Bubna</rs>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

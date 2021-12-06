@@ -1,103 +1,110 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041486.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041485.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041487.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 29. 1. 1906</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="486"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89FF-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2093/1 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT5" default="false"> 
-                  <monogr> 
-                     <title level="m">1906–1908</title> 
-                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="2003">2003</date> 
-                     </imprint> 
-                     <biblScope unit="pp">5</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">V</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160111">angelegt</change> 
-         <change who="KI MAM" when="20160204">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19060129" n="3">29.</date> Brief von <rs type="person" ref="pmb12813">Speidel</rs>, der den von mir angenommenen »<rs type="work" ref="pmb29905">Ruf des Lebens</rs>« ablehnt. | An <rs type="person" ref="pmb2121">Arthur</rs>. An <rs type="person" ref="pmb11324">Fischer</rs>.</p> 
-            <p>Mit <rs type="person" ref="pmb10955">Blei</rs> im Hotel <rs type="place" ref="pmb377">Klomser</rs>, der wissen will, <add place="above">dem</add> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3666">Victor Naumann</rs> sei mit einer »großen Stellung« der Mund gestopft worden.</p> 
-            <p>Dann <rs type="person" ref="pmb11464">Gogh</rs> Ausstellung.</p> 
-            <p>Schreibe an <rs type="person" ref="pmb11590">Harpner</rs>, darüber den <rs type="person" subtype="implied" ref="pmb12813">Intendanten</rs> zu interpellieren, »da ich durchaus nicht gewillt bin, mir einen solchen Kuhhandel um mich herum gefallen zu lassen, bei dem mich das Publicum für den Mitwisser, wo nicht gar für den Anstifter halten und wirklich noch glauben wird, weiß Gott was ich alles zu verbergen haben müsse, um mir das Stillschweigen eines Pamphletisten so teuer zu erkaufen.«</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041486.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041485.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041487.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 29. 1. 1906</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="486"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89FF-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2093/1 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT5">
+                  <monogr>
+                     <title level="m">1906–1908</title>
+                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="2003">2003</date>
+                     </imprint>
+                     <biblScope unit="pp">5</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">V</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160111">angelegt</change>
+         <change who="KI MAM" when="20160204">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19060129" n="3">29.</date> Brief von <rs type="person" ref="pmb12813">Speidel</rs>, der den von mir angenommenen »<rs type="work" ref="pmb29905">Ruf des Lebens</rs>« ablehnt. | An <rs type="person" ref="pmb2121">Arthur</rs>. An <rs type="person" ref="pmb11324">Fischer</rs>.</p>
+            <p>Mit <rs type="person" ref="pmb10955">Blei</rs> im Hotel <rs type="place" ref="pmb377">Klomser</rs>, der wissen will, <add place="above">dem</add>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3666">Victor Naumann</rs> sei mit einer »großen Stellung« der Mund gestopft worden.</p>
+            <p>Dann <rs type="person" ref="pmb11464">Gogh</rs> Ausstellung.</p>
+            <p>Schreibe an <rs type="person" ref="pmb11590">Harpner</rs>, darüber den <rs type="person" subtype="implied" ref="pmb12813">Intendanten</rs> zu interpellieren, »da ich durchaus nicht gewillt bin, mir einen solchen Kuhhandel um mich herum gefallen zu lassen, bei dem mich das Publicum für den Mitwisser, wo nicht gar für den Anstifter halten und wirklich noch glauben wird, weiß Gott was ich alles zu verbergen haben müsse, um mir das Stillschweigen eines Pamphletisten so teuer zu erkaufen.«</p>
+         </div>
+      </body>
+   </text>
 </TEI>

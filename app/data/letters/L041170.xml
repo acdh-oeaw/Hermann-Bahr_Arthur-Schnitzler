@@ -1,129 +1,134 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041170.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041169.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041171.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 7. 1894</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="170"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-861B-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb282">Grundlsee</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb213">Bad Ischl</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18940720" n="01">20. 7. 1894</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Kartenbrief, Bleistift, von Schnitzler datiert: »<quote> 
-                              <date>20/7 94</date> 
-                           </quote>«.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb282">Grundlsee</placeName> 
-                           <date when="18940720">20/7</date> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <placeName ref="pmb213">Ischl</placeName> 
-                           <date when="18940720">20 7 94</date> 
-                           <time>12M</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151201">Kollationiert</change> 
-         <change who="KI MAM" when="20170522">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00036"/> 
-      <graphic url="MS-B-00005-B-000-00037"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb414">Pension Leop. Petta</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="place" ref="pmb214">Rudolfshöhe</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb213"> 
-                     <settlement>Ischl</settlement> 
-                  </rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <salute>Lieber Thuri! </salute>Ich komme Samstag mit dem Zuge, der 9 Uhr 40 von <rs type="place" ref="pmb415">Aussee</rs> geht. Dann schaue ich ins <rs type="place" ref="pmb416">Café Walter</rs> u. suche zunächst einen Masseur oder Masseuse, da ich wahnsinnige rheumat. Kreuzschmerzen habe. Dann bleibe ich bei euch bis 6 Uhr Abds.</p> 
-            <closer>Herzlichst Dein<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041170.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041169.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041171.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 7. 1894</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="170"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-861B-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb46000">Grundlsee</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb213">Bad Ischl</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18940720" n="01">20. 7. 1894</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Kartenbrief, Bleistift, von Schnitzler datiert: »<quote>
+                              <date>20/7 94</date>
+                           </quote>«.</p>
+                        <stamp n="1">
+                           <placName ref="pmb46000">Grundlsee</placName>
+                           <date when="18940720">20/7</date>
+                        </stamp>
+                        <stamp n="2">
+                           <placName ref="pmb213">Ischl</placName>
+                           <date when="18940720">20 7 94</date>
+                           <time>12M</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151201">Kollationiert</change>
+         <change who="KI MAM" when="20170522">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00036"/>
+      <graphic url="MS-B-00005-B-000-00037"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb414">Pension Leop. Petta</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="place" ref="pmb414">Rudolfshöhe</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb213">Ischl</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+               <salute>Lieber Thuri! </salute>Ich komme Samstag mit dem Zuge, der 9 Uhr 40 von <rs type="place" ref="pmb415">Aussee</rs> geht. Dann schaue ich ins <rs type="place" ref="pmb416">Café Walter</rs> u. suche zunächst einen Masseur oder Masseuse, da ich wahnsinnige rheumat. Kreuzschmerzen habe. Dann bleibe ich bei euch bis 6 Uhr Abds.</p>
+            <closer>Herzlichst Dein<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

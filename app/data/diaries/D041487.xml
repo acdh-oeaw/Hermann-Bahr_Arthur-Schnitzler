@@ -1,119 +1,122 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041487.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041486.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041488.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 5. 2. 1906</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="487"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A00-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2093/1 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT5" default="false"> 
-                  <monogr> 
-                     <title level="m">1906–1908</title> 
-                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="2003">2003</date> 
-                     </imprint> 
-                     <biblScope unit="pp">6</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">V</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160111">angelegt</change> 
-         <change who="KI MAM" when="20160204">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19060205" n="01">5.</date> Brief an <rs type="person" ref="pmb12813">Speidel</rs>: Verwunderung über die Ablehnung des »<rs type="work" ref="pmb29905">Rufs</rs>«; schlage vor: <anchor type="commentary" xml:id="KD487-1"> 
-                  <rs type="work" ref="pmb31189">Oedipus</rs> 
-               </anchor>, <rs type="person" ref="pmb10799">Babs</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31195">Anderen</rs>, <rs type="person" ref="pmb12254">Robert Michels</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31197">Oberleutnant Bjaessnowaschi</rs>.</p> 
-            <p>–</p> 
-            <p>Schreibe an D<hi rend="underline" n="1">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3669">Schmidt</rs> in <rs type="place" ref="pmb876"> 
-                  <settlement>Jena</settlement> 
-               </rs>:</p> 
-            <p rend="right"> 
-               <handShift scribe="pmb27910"/> 
-               <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>, <date>5. 2. 06</date>.</p> 
-            <p>Sehr verehrter Herr!</p> 
-            <p>Ich halte »Weltanschauung« für etwas ganz Persönliches, jede Vereinigung mit Anderen Ausschliessendes, ja gerade für das, worin wir ganz allein, ganz eigen zu sein haben. Mit diesem Vorbehalte will ich dennoch dem »<rs type="org" ref="pmb29764">Monistenbund</rs>« beitreten, weil es mir notwendig scheint, vor allem die Mächte zu brechen, die<pb/> heute jede »Weltanschauung<supplied>«</supplied> verwehren: Ultramontanismus und Orthodoxie.</p> 
-            <p>Ergebenst</p> 
-            <p>Hermann Bahr.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041487.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041486.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041488.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 5. 2. 1906</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="487"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A00-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2093/1 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT5">
+                  <monogr>
+                     <title level="m">1906–1908</title>
+                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="2003">2003</date>
+                     </imprint>
+                     <biblScope unit="pp">6</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">V</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160111">angelegt</change>
+         <change who="KI MAM" when="20160204">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19060205" n="01">5.</date> Brief an <rs type="person" ref="pmb12813">Speidel</rs>: Verwunderung über die Ablehnung des »<rs type="work" ref="pmb29905">Rufs</rs>«; schlage vor: <anchor type="commentary" xml:id="KD487-1">
+                  <rs type="work" ref="pmb31189">Oedipus</rs>
+               </anchor>, <rs type="person" ref="pmb10799">Babs</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31195">Anderen</rs>, <rs type="person" ref="pmb12254">Robert Michels</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31197">Oberleutnant Bjaessnowaschi</rs>.</p>
+            <p>–</p>
+            <p>Schreibe an D<hi rend="underline" n="1">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3669">Schmidt</rs> in <rs type="place" ref="pmb876">Jena</rs>:</p>
+            <p rend="right">
+               <handShift scribe="pmb27910"/>
+               <rs type="place" ref="pmb50">Wien</rs>, <date>5. 2. 06</date>.</p>
+            <p>Sehr verehrter Herr!</p>
+            <p>Ich halte »Weltanschauung« für etwas ganz Persönliches, jede Vereinigung mit Anderen Ausschliessendes, ja gerade für das, worin wir ganz allein, ganz eigen zu sein haben. Mit diesem Vorbehalte will ich dennoch dem »<rs type="org" ref="pmb29764">Monistenbund</rs>« beitreten, weil es mir notwendig scheint, vor allem die Mächte zu brechen, die<pb/> heute jede »Weltanschauung<supplied>«</supplied> verwehren: Ultramontanismus und Orthodoxie.</p>
+            <p>Ergebenst</p>
+            <p>Hermann Bahr.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,119 +1,126 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041445.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041444.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041446.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 29. 9. 1903</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="445"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-872E-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeSender> 
-               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
-               <dateSender> 
-                  <date when="19030929" n="01">29. 9. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Frankfurt am Main</settlement> 
-                        <repository>Freies Deutsches Hochstift</repository> 
-                        <idno>Hs-30885,104</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 1 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HvHAS" default="false"> 
-                  <monogr> 
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefwechsel</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1964">1964</date> 
-                     </imprint> 
-                     <biblScope unit="pp">174</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="MAM" when="20160311">Angelegt aus OCR</change> 
-         <change who="KI MAM" when="20170627">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>29. 9. 903</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>lieber Hugo,</salute> vielleicht sehn Sie <rs type="person" ref="pmb10815">Bahr</rs> in diesen Tagen, u er käme <anchor type="commentary" xml:id="KL445-1">Samstag</anchor> auch nach <rs type="place" ref="pmb63">Hietzing</rs>?–</p> 
-            <p>Wir freuen uns dss es Ihnen beiden bei uns behagl ist. Ihre sehr wahren Bemerkungen über Spiel und Gesang hat <rs type="person" ref="pmb2173">Olga</rs> mit Einsicht gelesen.</p> 
-            <p>Das <rs type="work" subtype="implied" ref="pmb30637">Bild</rs> werden Sie haben; und einen schönen Rahmen obendrein.</p> 
-            <p>Mit dem Arbeiten geht es nun vorwärts.</p> 
-            <closer>Auf Wiedersehen.<lb/>Ihr <signed>A.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041445.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041444.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041446.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 29. 9. 1903</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="445"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-872E-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeSender>
+               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19030929" n="01">29. 9. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,104</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">174</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="20160311">Angelegt aus OCR</change>
+         <change who="KI MAM" when="20170627">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>29. 9. 903</date>.</dateline>
+            </opener>
+            <p>
+               <salute>lieber Hugo,</salute> vielleicht sehn Sie <rs type="person" ref="pmb10815">Bahr</rs> in diesen Tagen, u er käme <anchor type="commentary" xml:id="KL445-1">Samstag</anchor> auch nach <rs type="place" ref="pmb63">Hietzing</rs>?–</p>
+            <p>Wir freuen uns dss es Ihnen beiden bei uns behagl ist. Ihre sehr wahren Bemerkungen über Spiel und Gesang hat <rs type="person" ref="pmb2173">Olga</rs> mit Einsicht gelesen.</p>
+            <p>Das <rs type="work" subtype="implied" ref="pmb30637">Bild</rs> werden Sie haben; und einen schönen Rahmen obendrein.</p>
+            <p>Mit dem Arbeiten geht es nun vorwärts.</p>
+            <closer>Auf Wiedersehen.<lb/>Ihr <signed>A.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

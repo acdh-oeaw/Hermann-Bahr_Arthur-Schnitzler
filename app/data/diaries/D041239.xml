@@ -1,88 +1,93 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041239.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041238.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041240.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 25. 9. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="239" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8921-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19040925" n="2">25/9</date> S. <rs type="place" ref="pmb173">Rodaun</rs>, z. Th. mit <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb26392">Leo</rs> hinaus.– Außerdem <rs type="person" ref="pmb12740">Gustav</rs>.– Auch <rs type="person" ref="pmb11740">Hugo</rs> war aus <rs type="place" ref="pmb462"> 
-                  <settlement>Venedig</settlement> 
-               </rs> da, früher als er sich vorgenommen, worüber <rs type="person" ref="pmb10863">Richard</rs> in seiner Gereiztheit gegen <rs type="person" ref="pmb11740">Hugo</rs> erbittert war.– <rs type="person" ref="pmb2167">Salten</rs> erzählte von seiner <anchor type="commentary" xml:id="KD239-1"> 
-                  <rs type="place" ref="pmb182">Pariser</rs> Reise</anchor>. Die <rs type="person" ref="pmb27933">Coburg</rs> »Saujuden«.– Wie <rs type="person" ref="pmb2167">S.</rs> ihr sagte: Und Ihr <rs type="person" subtype="implied" ref="pmb27936">Mann</rs>?, <rs type="person" ref="pmb3007">Feistmantel</rs> 
-               <c rendition="#dots" n="3"/> etc. – Warum sagen Sie nicht Sauchristen?– »Da haben S recht <c rendition="#dots" n="3" place="center"/> das is sehr gut <c rendition="#dots" n="3"/>« Und wie sie dann gleich wieder von Saujuden sprach.– <anchor type="commentary" xml:id="KD239-2"> 
-                  <rs type="person" ref="pmb12909">Südekum</rs> 
-               </anchor> und <anchor type="commentary" xml:id="KD239-3"> 
-                  <rs type="person" ref="pmb26891">Weitzer</rs> 
-               </anchor> in ihrer wahren Gestalt!–</p> 
-            <p> 
-               <rs type="person" ref="pmb10863">Richard</rs> las <rs type="work" ref="pmb30233">Graf von Charolais</rs>, den er nach 4 Jahren beendet. Nach dem 3. Akt war der Erfolg außerordentlich; der 4. und 5. (bei gleicher gedanklicher und sprachl. Höhe) erweckt schwere Bedenken.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041239.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041238.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041240.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 25. 9. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="239" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8921-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19040925" n="2">25/9</date> S. <rs type="place" ref="pmb173">Rodaun</rs>, z. Th. mit <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb26392">Leo</rs> hinaus.– Außerdem <rs type="person" ref="pmb12740">Gustav</rs>.– Auch <rs type="person" ref="pmb11740">Hugo</rs> war aus <rs type="place" ref="pmb462">Venedig</rs> da, früher als er sich vorgenommen, worüber <rs type="person" ref="pmb10863">Richard</rs> in seiner Gereiztheit gegen <rs type="person" ref="pmb11740">Hugo</rs> erbittert war.– <rs type="person" ref="pmb2167">Salten</rs> erzählte von seiner <anchor type="commentary" xml:id="KD239-1">
+                  <rs type="place" ref="pmb182">Pariser</rs> Reise</anchor>. Die <rs type="person" ref="pmb27933">Coburg</rs> »Saujuden«.– Wie <rs type="person" ref="pmb2167">S.</rs> ihr sagte: Und Ihr <rs type="person" subtype="implied" ref="pmb27936">Mann</rs>?, <rs type="person" ref="pmb3007">Feistmantel</rs>
+               <c rendition="#dots" n="3"/> etc. – Warum sagen Sie nicht Sauchristen?– »Da haben S recht <c rendition="#dots" n="3" place="center"/> das is sehr gut <c rendition="#dots" n="3"/>« Und wie sie dann gleich wieder von Saujuden sprach.– <anchor type="commentary" xml:id="KD239-2">
+                  <rs type="person" ref="pmb12909">Südekum</rs>
+               </anchor> und <anchor type="commentary" xml:id="KD239-3">
+                  <rs type="person" ref="pmb26891">Weitzer</rs>
+               </anchor> in ihrer wahren Gestalt!–</p>
+            <p>
+               <rs type="person" ref="pmb10863">Richard</rs> las <rs type="work" ref="pmb30233">Graf von Charolais</rs>, den er nach 4 Jahren beendet. Nach dem 3. Akt war der Erfolg außerordentlich; der 4. und 5. (bei gleicher gedanklicher und sprachl. Höhe) erweckt schwere Bedenken.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

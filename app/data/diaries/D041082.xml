@@ -1,143 +1,146 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041082.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041081.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041083.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 12. 6. 1912</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="082"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8884-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19120612" n="01">12/6</date> Dictirt, geordnet etc.</p> 
-            <p>»<rs type="work" ref="pmb30203">Bernhardi</rs>« an Secretär <rs type="person" ref="pmb12556">Rosenbaum</rs>.</p> 
-            <p>Mit <rs type="person" ref="pmb2173">O.</rs> spazieren, Felder gegen <rs type="place" ref="pmb169"> 
-                  <settlement>Pötzleinsdorf</settlement> 
-               </rs>.</p> 
-            <p>Nm. gelesen und getrendelt.–</p> 
-            <p>Mit <rs type="person" ref="pmb2173">O.</rs> zu <rs type="person" ref="pmb12698">Julius</rs>. Kammermusik. (<rs type="person" ref="pmb24160">Arthur Schiff</rs>, Herr Dr. <rs type="person" ref="pmb18026">Heim</rs>, Prof. <rs type="person" ref="pmb10785">Auber</rs>, <rs type="person" ref="pmb2456">Specht</rs>.) – <rs type="work" ref="pmb30369"> 
-                  <rs type="person" ref="pmb12303">Mozart</rs> Quintett Nr. 4</rs>, <rs type="work" ref="pmb30371"> 
-                  <rs type="person" ref="pmb12729">Schubert</rs> C Quintett</rs>; <rs type="work" ref="pmb30369"> 
-                  <rs type="person" ref="pmb10866">Beethoven</rs> 59, 3</rs>. Es war schön, aber zu viel, insbesondre da ich müd und hypochondrisch war.–</p> 
-            <p>Rückblick auf die Erfahrungen vom 15. Mai: soweit das journalistische Echo in Betracht kommt. Im ganzen Verhalten: sehr liebenswürdig; anscheinend, nicht immer echt mit mehr Herzlichkeit, »Liebe« als Bewunderung <c rendition="#dots" n="3" place="center"/> »Nicht stark und groß« wird öfters betont; immerhin da und dort »Größe« constatirt. Menschliche »Vorzüge« gern ins Licht gerückt, <c rendition="#dots" n="3" place="center"/> »nachdenklich«, »gütig« kehrt oft wieder <c rendition="#dots" n="3" place="center"/> »Süßes Mädl«, verschwindet allmälig, »weit darüber hinausgewachsen<c rendition="#dots" n="3"/>« etc.– immerhin das Vorwiegen erotischer Probleme gern betont; hierin leistet <anchor type="commentary" xml:id="KD082-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31125 pmb31199 pmb31443"> 
-                     <rs type="person" ref="pmb2167">Salten</rs> 
-                  </rs> 
-               </anchor> das hervorragendste. Auch »Liebe und Tod« – oft genug – dann »Liebe, Tod, Spiel<c rendition="#dots" n="3"/>« – gelegentlich das Judenproblem – von anderm (z. B. Problem der <rs type="work" ref="pmb29863">Lebend. Stunden</rs> und dergl., Verantwortungsproblem etc.) kaum die Rede.– Die antisemitischen Blätter schweigen meist, <rs type="org" subtype="implied" ref="pmb29201">eins</rs> (<rs type="place" ref="pmb860"> 
-                  <settlement>Graz</settlement> 
-               </rs>) ist bemerkenswerth, weil hier ein überzeugter <anchor type="commentary" xml:id="KD082-12"> 
-                  <rs type="person" subtype="implied" ref="pmb4781">Antisemit</rs> 
-               </anchor> mich – <rs type="work" subtype="implied" ref="pmb30785">als großen – jüdischen Dichter gelten läßt</rs>. Bübereien wenig; etwa »<anchor type="commentary" xml:id="KD082-10"> 
-                  <rs type="org" ref="pmb29662">Scherer</rs> 
-               </anchor>« mit Carikatur, <rs type="work" subtype="implied" ref="pmb30469">Verhöhnung <rs type="person" ref="pmb11273">Eulenbergs</rs> 
-               </rs>,– <rs type="work" subtype="implied" ref="pmb30733">Abdruck aus <rs type="work" subtype="implied" ref="pmb30771"> 
-                     <rs type="person" ref="pmb14281">Bleibtreu</rs> 
-                  </rs> und – »<rs type="work" subtype="implied" ref="pmb30747"> 
-                     <rs type="person" ref="pmb12823">Stauf von der March</rs> 
-                  </rs> 
-               </rs>«.– Überraschend freundschaftlich <anchor type="commentary" xml:id="KD082-3"> 
-                  <rs type="work" subtype="implied" ref="pmb31117"> 
-                     <rs type="person" ref="pmb2226">Fred</rs> 
-                  </rs> 
-               </anchor>; klug <anchor type="commentary" xml:id="KD082-8"> 
-                  <rs type="work" subtype="implied" ref="pmb31433"> 
-                     <rs type="person" ref="pmb2456">Specht</rs> 
-                  </rs> 
-               </anchor>, die <anchor type="commentary" xml:id="KD082-7"> 
-                  <rs type="work" subtype="implied" ref="pmb31441 pmb31439"> 
-                     <rs type="person" ref="pmb12176 pmb12170">Manns</rs> 
-                  </rs> 
-               </anchor>; <anchor type="commentary" xml:id="KD082-11"> 
-                  <rs type="work" subtype="implied" ref="pmb30917 pmb31113"> 
-                     <rs type="person" ref="pmb11924">Kienzl</rs> 
-                  </rs> 
-               </anchor> und manche andre. <anchor type="commentary" xml:id="KD082-9"> 
-                  <rs type="work" subtype="implied" ref="pmb30973"> 
-                     <rs type="person" ref="pmb13068">Wedekind</rs> 
-                  </rs> 
-               </anchor> eine Fanfare – wohl mehr um andre zu ärgern; <anchor type="label" xml:id="LD082-1">herzlich und dumm</anchor> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" subtype="implied" ref="pmb30861"> 
-                  <rs type="person" ref="pmb10815">Bahr</rs> 
-               </rs>. Persönlich ganz unbekannte, wie meist, am wärmsten, wie <anchor type="commentary" xml:id="KD082-4"> 
-                  <rs type="work" subtype="implied" ref="pmb31139"> 
-                     <rs type="person" ref="pmb2790">K. F. Nowak</rs> 
-                  </rs> 
-               </anchor>, <anchor type="commentary" xml:id="KD082-2"> 
-                  <rs type="work" subtype="implied" ref="pmb31119"> 
-                     <rs type="person" ref="pmb12990">Ludwig Ullmann</rs> 
-                  </rs> 
-               </anchor>. Gedichte von <anchor type="commentary" xml:id="KD082-5"> 
-                  <rs type="work" subtype="implied" ref="pmb31503"> 
-                     <rs type="person" ref="pmb11273">Eulenberg</rs> 
-                  </rs> 
-               </anchor> (<rs type="org" ref="pmb29626">Zeit</rs>) und <anchor type="commentary" xml:id="KD082-6"> 
-                  <rs type="work" subtype="implied" ref="pmb31271"> 
-                     <rs type="person" ref="pmb12019">König</rs> 
-                  </rs> 
-               </anchor> (<rs type="org" ref="pmb29560">Merker</rs>).</p> 
-            <p>– Überraschungen eigentlich keine. Das Echo im ganzen lauter als ich vermutet.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041082.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041081.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041083.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 12. 6. 1912</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="082"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8884-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19120612" n="01">12/6</date> Dictirt, geordnet etc.</p>
+            <p>»<rs type="work" ref="pmb30203">Bernhardi</rs>« an Secretär <rs type="person" ref="pmb12556">Rosenbaum</rs>.</p>
+            <p>Mit <rs type="person" ref="pmb2173">O.</rs> spazieren, Felder gegen <rs type="place" ref="pmb169">Pötzleinsdorf</rs>.</p>
+            <p>Nm. gelesen und getrendelt.–</p>
+            <p>Mit <rs type="person" ref="pmb2173">O.</rs> zu <rs type="person" ref="pmb12698">Julius</rs>. Kammermusik. (<rs type="person" ref="pmb24160">Arthur Schiff</rs>, Herr Dr. <rs type="person" ref="pmb18026">Heim</rs>, Prof. <rs type="person" ref="pmb10785">Auber</rs>, <rs type="person" ref="pmb2456">Specht</rs>.) – <rs type="work" ref="pmb30369">
+                  <rs type="person" ref="pmb12303">Mozart</rs> Quintett Nr. 4</rs>, <rs type="work" ref="pmb30371">
+                  <rs type="person" ref="pmb12729">Schubert</rs> C Quintett</rs>; <rs type="work" ref="pmb30369">
+                  <rs type="person" ref="pmb10866">Beethoven</rs> 59, 3</rs>. Es war schön, aber zu viel, insbesondre da ich müd und hypochondrisch war.–</p>
+            <p>Rückblick auf die Erfahrungen vom 15. Mai: soweit das journalistische Echo in Betracht kommt. Im ganzen Verhalten: sehr liebenswürdig; anscheinend, nicht immer echt mit mehr Herzlichkeit, »Liebe« als Bewunderung <c rendition="#dots" n="3" place="center"/> »Nicht stark und groß« wird öfters betont; immerhin da und dort »Größe« constatirt. Menschliche »Vorzüge« gern ins Licht gerückt, <c rendition="#dots" n="3" place="center"/> »nachdenklich«, »gütig« kehrt oft wieder <c rendition="#dots" n="3" place="center"/> »Süßes Mädl«, verschwindet allmälig, »weit darüber hinausgewachsen<c rendition="#dots" n="3"/>« etc.– immerhin das Vorwiegen erotischer Probleme gern betont; hierin leistet <anchor type="commentary" xml:id="KD082-1">
+                  <rs type="work" subtype="implied" ref="pmb31125 pmb31199 pmb31443">
+                     <rs type="person" ref="pmb2167">Salten</rs>
+                  </rs>
+               </anchor> das hervorragendste. Auch »Liebe und Tod« – oft genug – dann »Liebe, Tod, Spiel<c rendition="#dots" n="3"/>« – gelegentlich das Judenproblem – von anderm (z. B. Problem der <rs type="work" ref="pmb29863">Lebend. Stunden</rs> und dergl., Verantwortungsproblem etc.) kaum die Rede.– Die antisemitischen Blätter schweigen meist, <rs type="org" subtype="implied" ref="pmb29201">eins</rs> (<rs type="place" ref="pmb860">Graz</rs>) ist bemerkenswerth, weil hier ein überzeugter <anchor type="commentary" xml:id="KD082-12">
+                  <rs type="person" subtype="implied" ref="pmb4781">Antisemit</rs>
+               </anchor> mich – <rs type="work" subtype="implied" ref="pmb30785">als großen – jüdischen Dichter gelten läßt</rs>. Bübereien wenig; etwa »<anchor type="commentary" xml:id="KD082-10">
+                  <rs type="org" ref="pmb29662">Scherer</rs>
+               </anchor>« mit Carikatur, <rs type="work" subtype="implied" ref="pmb30469">Verhöhnung <rs type="person" ref="pmb11273">Eulenbergs</rs>
+               </rs>,– <rs type="work" subtype="implied" ref="pmb30733">Abdruck aus <rs type="work" subtype="implied" ref="pmb30771">
+                     <rs type="person" ref="pmb14281">Bleibtreu</rs>
+                  </rs> und – »<rs type="work" subtype="implied" ref="pmb30747">
+                     <rs type="person" ref="pmb12823">Stauf von der March</rs>
+                  </rs>
+               </rs>«.– Überraschend freundschaftlich <anchor type="commentary" xml:id="KD082-3">
+                  <rs type="work" subtype="implied" ref="pmb31117">
+                     <rs type="person" ref="pmb2226">Fred</rs>
+                  </rs>
+               </anchor>; klug <anchor type="commentary" xml:id="KD082-8">
+                  <rs type="work" subtype="implied" ref="pmb31433">
+                     <rs type="person" ref="pmb2456">Specht</rs>
+                  </rs>
+               </anchor>, die <anchor type="commentary" xml:id="KD082-7">
+                  <rs type="work" subtype="implied" ref="pmb31441 pmb31439">
+                     <rs type="person" ref="pmb12176 pmb12170">Manns</rs>
+                  </rs>
+               </anchor>; <anchor type="commentary" xml:id="KD082-11">
+                  <rs type="work" subtype="implied" ref="pmb30917 pmb31113">
+                     <rs type="person" ref="pmb11924">Kienzl</rs>
+                  </rs>
+               </anchor> und manche andre. <anchor type="commentary" xml:id="KD082-9">
+                  <rs type="work" subtype="implied" ref="pmb30973">
+                     <rs type="person" ref="pmb13068">Wedekind</rs>
+                  </rs>
+               </anchor> eine Fanfare – wohl mehr um andre zu ärgern; <anchor type="label" xml:id="LD082-1">herzlich und dumm</anchor>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" subtype="implied" ref="pmb30861">
+                  <rs type="person" ref="pmb10815">Bahr</rs>
+               </rs>. Persönlich ganz unbekannte, wie meist, am wärmsten, wie <anchor type="commentary" xml:id="KD082-4">
+                  <rs type="work" subtype="implied" ref="pmb31139">
+                     <rs type="person" ref="pmb2790">K. F. Nowak</rs>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KD082-2">
+                  <rs type="work" subtype="implied" ref="pmb31119">
+                     <rs type="person" ref="pmb12990">Ludwig Ullmann</rs>
+                  </rs>
+               </anchor>. Gedichte von <anchor type="commentary" xml:id="KD082-5">
+                  <rs type="work" subtype="implied" ref="pmb31503">
+                     <rs type="person" ref="pmb11273">Eulenberg</rs>
+                  </rs>
+               </anchor> (<rs type="org" ref="pmb29626">Zeit</rs>) und <anchor type="commentary" xml:id="KD082-6">
+                  <rs type="work" subtype="implied" ref="pmb31271">
+                     <rs type="person" ref="pmb12019">König</rs>
+                  </rs>
+               </anchor> (<rs type="org" ref="pmb29560">Merker</rs>).</p>
+            <p>– Überraschungen eigentlich keine. Das Echo im ganzen lauter als ich vermutet.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

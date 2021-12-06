@@ -1,83 +1,90 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041019.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041018.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041020.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 17. 1. 1892</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="019"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8845-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1879–1892</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1987">1987</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18920117" n="2">17/1 Sonntag.</date> Vorm. <rs type="person" ref="pmb14953">Mz.</rs>– In der <rs type="org" ref="pmb29440">Gesellschaft</rs> Notiz über sie. (Nicht <unclear>aggressiv</unclear>.)</p> 
-            <p>Nm. <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb14756">Bératon</rs>, <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs>. <rs type="person" ref="pmb14756">Bératon</rs> und <rs type="person" ref="pmb10815">B.</rs> gingen zur <rs type="person" subtype="implied" ref="pmb27695">Gel. Bératons</rs>.– Mit <rs type="person" ref="pmb2167">Salten</rs> im <rs type="place" ref="pmb43">Cf. Imperial</rs> lang geplaudert.– </p> 
-            <p> 
-               <rs type="person" ref="pmb11740">Loris</rs> Freude, daß wir uns überhaupt gefunden.</p> 
-            <p> 
-               <rs type="person" ref="pmb10863">B.-H.</rs> hat eine für den Anfang überraschend gute, aber auch schlechtweg geistvolle und stilistisch glänzende Skizze: <rs type="work" ref="pmb30177">Camelias</rs> geschrieben.</p> 
-            <p>Salten hat bei <rs type="person" ref="pmb10815">Bahr</rs> und <rs type="person" ref="pmb14756">Bér.</rs> noch das Gefühl, als hinge ihnen was heraus, das man wegschneiden müsse (geistig natürlich!!).– </p> 
-            <p>Ich: Die einzigen Weiber, denen man vertrauen kann, sind die, die ein Freund dichtet.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041019.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041018.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041020.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 17. 1. 1892</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="019"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8845-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1879–1892</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1987">1987</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18920117" n="2">17/1 Sonntag.</date> Vorm. <rs type="person" ref="pmb14953">Mz.</rs>– In der <rs type="org" ref="pmb29440">Gesellschaft</rs> Notiz über sie. (Nicht <unclear>aggressiv</unclear>.)</p>
+            <p>Nm. <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb14756">Bératon</rs>, <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs>. <rs type="person" ref="pmb14756">Bératon</rs> und <rs type="person" ref="pmb10815">B.</rs> gingen zur <rs type="person" subtype="implied" ref="pmb27695">Gel. Bératons</rs>.– Mit <rs type="person" ref="pmb2167">Salten</rs> im <rs type="place" ref="pmb43">Cf. Imperial</rs> lang geplaudert.– </p>
+            <p>
+               <rs type="person" ref="pmb11740">Loris</rs> Freude, daß wir uns überhaupt gefunden.</p>
+            <p>
+               <rs type="person" ref="pmb10863">B.-H.</rs> hat eine für den Anfang überraschend gute, aber auch schlechtweg geistvolle und stilistisch glänzende Skizze: <rs type="work" ref="pmb30177">Camelias</rs> geschrieben.</p>
+            <p>Salten hat bei <rs type="person" ref="pmb10815">Bahr</rs> und <rs type="person" ref="pmb14756">Bér.</rs> noch das Gefühl, als hinge ihnen was heraus, das man wegschneiden müsse (geistig natürlich!!).– </p>
+            <p>Ich: Die einzigen Weiber, denen man vertrauen kann, sind die, die ein Freund dichtet.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

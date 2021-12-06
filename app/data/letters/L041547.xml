@@ -1,118 +1,113 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041547.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041546.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041548.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Brahm an Arthur Schnitzler, 3. 7. 1909</title> 
-            <author ref="pmb10986">Brahm, Otto</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="547"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8794-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb648">Bad Nauheim</placeName> 
-               </placeSender> 
-               <!-- <placeAddressee><placeName>Wien???Edlach</placeName></placeAddressee>--> 
-               <dateSender> 
-                  <date when="19090703" n="01">3. 7. 1909</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct default="false" corresp="ASOB"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">278</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160413">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb648"> 
-                     <settlement>Bad Nauheim</settlement> 
-                  </rs>, <date>3. Juli 09</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>nun hoffe ich Sie also in guter Ruh in <rs type="place" ref="pmb470"> 
-                  <settlement>Edlach</settlement> 
-               </rs> sitzend und die Trennung vom <rs type="person" subtype="implied" ref="pmb12692">Freunde des <rs type="work" ref="pmb29937">Medardus</rs> 
-               </rs> nicht allzu schmerzlich empfindend. Mich freut’s sehr, daß Sie so verlockende Fernsichten beim <rs type="person" ref="pmb12671">Paul Schlenther</rs> haben, mögen sie näher und näher kommen. Von ihm ist es gewiß richtig, das <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er Werk den <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>ern zu zeigen, Anno 9. Kann schon sein, daß indirekt der <rs type="person" ref="pmb11851">Kainz</rs> bei der Annahme mitspricht. Wer soll denn den <rs type="work" subtype="implied" ref="pmb29937">Medardus</rs> spielen? <rs type="person" ref="pmb11423">Gerasch</rs>? – Ich bin mit <rs type="person" ref="pmb11851">Kainz</rs>, wie Sie jetzt schon wissen, nicht einig geworden, d. h., <hi rend="spaced_out">Sie</hi> wußten es ja eigentlich schon in unseren Gastspieltagen. Er wollte nur Oktober, November kommen und zu anderen Bedingungen als in Aussicht genommen. Diese waren mir zuviel, jene zu wenig. – <hi rend="italic"> 
-                  <rs type="work" ref="pmb29933">Das Konzert</rs> 
-               </hi> könnt ich Ihnen wohl nur schicken, wenn ich <rs type="person" ref="pmb10815">Bahr</rs> darum frage. Ist Ihnen das recht, oder wollen Sie’s etwa selber tun? (Er ist in <rs type="place" ref="pmb734"> 
-                  <settlement>Bayreuth</settlement> 
-               </rs> bei Frau Pfarrer <rs type="person" ref="pmb23351">Richter</rs>.) Über die Prozente hab ich noch nicht mit ihm gesprochen, halte aber auch 7 und 3 für das Angemessene. – Mit dem <rs type="place" ref="pmb208">Kleinen Theater</rs> möcht ich nie konkurrieren, also auch nicht in einer Tantiemen-Garantie, deren gleichen ich bei <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er Aufführungen noch nie gezahlt habe: Nun ist ja die Dame <rs type="work" ref="pmb29931"> 
-                  <rs type="person" subtype="implied" ref="pmb28629">Mizzi</rs> 
-               </rs> gewiß von besonderm Schlag, aber daß ich dieses kleinen Fräuleins wegen eine neue Einrichtung schaffe, <hi rend="spaced_out">so</hi> weit wird der Herr Vater doch nicht gehen? (Er ist ja nicht der Conte <rs type="person" ref="pmb28628">Veith</rs>.) Wir haben hier endlich wieder schönes Wetter heut, und ich wünsche Ihnen ein gleiches in Ihren Höhen-und-Tiefen-Fahrten. Alles Schöne an Frau <rs type="person" ref="pmb2173">Olga</rs>,</p> 
-            <closer>Ihr <signed>O. B.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041547.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041546.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041548.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Arthur Schnitzler, 3. 7. 1909</title>
+            <author ref="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="547"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8794-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb648">Bad Nauheim</placName>
+               </placeSender>
+               <!-- <placeAddressee><placeName>Wien???Edlach</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19090703" n="01">3. 7. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">278</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160413">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb648">Bad Nauheim</rs>, <date>3. Juli 09</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>nun hoffe ich Sie also in guter Ruh in <rs type="place" ref="pmb470">Edlach</rs> sitzend und die Trennung vom <rs type="person" subtype="implied" ref="pmb12692">Freunde des <rs type="work" ref="pmb29937">Medardus</rs>
+               </rs> nicht allzu schmerzlich empfindend. Mich freut’s sehr, daß Sie so verlockende Fernsichten beim <rs type="person" ref="pmb12671">Paul Schlenther</rs> haben, mögen sie näher und näher kommen. Von ihm ist es gewiß richtig, das <rs type="place" ref="pmb50">Wien</rs>er Werk den <rs type="place" ref="pmb50">Wien</rs>ern zu zeigen, Anno 9. Kann schon sein, daß indirekt der <rs type="person" ref="pmb11851">Kainz</rs> bei der Annahme mitspricht. Wer soll denn den <rs type="work" subtype="implied" ref="pmb29937">Medardus</rs> spielen? <rs type="person" ref="pmb11423">Gerasch</rs>? – Ich bin mit <rs type="person" ref="pmb11851">Kainz</rs>, wie Sie jetzt schon wissen, nicht einig geworden, d. h., <hi rend="spaced_out">Sie</hi> wußten es ja eigentlich schon in unseren Gastspieltagen. Er wollte nur Oktober, November kommen und zu anderen Bedingungen als in Aussicht genommen. Diese waren mir zuviel, jene zu wenig. – <hi rend="italic">
+                  <rs type="work" ref="pmb29933">Das Konzert</rs>
+               </hi> könnt ich Ihnen wohl nur schicken, wenn ich <rs type="person" ref="pmb10815">Bahr</rs> darum frage. Ist Ihnen das recht, oder wollen Sie’s etwa selber tun? (Er ist in <rs type="place" ref="pmb734">Bayreuth</rs> bei Frau Pfarrer <rs type="person" ref="pmb23351">Richter</rs>.) Über die Prozente hab ich noch nicht mit ihm gesprochen, halte aber auch 7 und 3 für das Angemessene. – Mit dem <rs type="place" ref="pmb208">Kleinen Theater</rs> möcht ich nie konkurrieren, also auch nicht in einer Tantiemen-Garantie, deren gleichen ich bei <rs type="place" ref="pmb168">Berlin</rs>er Aufführungen noch nie gezahlt habe: Nun ist ja die Dame <rs type="work" ref="pmb29931">
+                  <rs type="person" subtype="implied" ref="pmb28629">Mizzi</rs>
+               </rs> gewiß von besonderm Schlag, aber daß ich dieses kleinen Fräuleins wegen eine neue Einrichtung schaffe, <hi rend="spaced_out">so</hi> weit wird der Herr Vater doch nicht gehen? (Er ist ja nicht der Conte <rs type="person" ref="pmb28628">Veith</rs>.) Wir haben hier endlich wieder schönes Wetter heut, und ich wünsche Ihnen ein gleiches in Ihren Höhen-und-Tiefen-Fahrten. Alles Schöne an Frau <rs type="person" ref="pmb2173">Olga</rs>,</p>
+            <closer>Ihr <signed>O. B.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

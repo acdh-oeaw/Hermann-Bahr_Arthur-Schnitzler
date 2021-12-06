@@ -1,117 +1,122 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041329.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041328.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041330.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 22. 10. 1910</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="329"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86BA-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb224">London</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19101022" n="01">22. 10. 1910</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151216">Kollationiert</change> 
-         <change who="KI MAM" when="20170530">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00296"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb224"> 
-                     <settlement>London</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>22. 10. 10</date> 
-               </dateline> 
-               <salute>Lieber Arthur!</salute> 
-            </opener> 
-            <p>Herzlichsten Dank für Deinen Brief. Ich freue mich sehr auf das <anchor type="label" xml:id="LL329-1"> 
-                  <rs type="work" subtype="implied" ref="pmb29937">Buch</rs>. Wenn das Stück wirklich erst am <date>19. November</date> ist, kann ich leider nicht bei der Première sein, ich muß am <date>17.</date> wieder auf eine der leidigen <anchor type="commentary" xml:id="KL329-1">Tourneen</anchor> 
-               </anchor>, mit denen der Mensch Geld verdient.</p> 
-            <p>Grüße Deine liebe <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> herzlichst und sei selbst in alter Freundschaft gegrüßt von</p> 
-            <closer>Deinem<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-            <postscript> 
-               <p>Auch meine <rs type="person" subtype="implied" ref="pmb10818">Frau</rs> läßt Dich schönstens grüßen.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041329.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041328.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041330.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 22. 10. 1910</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="329"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86BA-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb224">London</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19101022" n="01">22. 10. 1910</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151216">Kollationiert</change>
+         <change who="KI MAM" when="20170530">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00296"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb224">London</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>22. 10. 10</date>
+               </dateline>
+               <salute>Lieber Arthur!</salute>
+            </opener>
+            <p>Herzlichsten Dank für Deinen Brief. Ich freue mich sehr auf das <anchor type="label" xml:id="LL329-1">
+                  <rs type="work" subtype="implied" ref="pmb29937">Buch</rs>. Wenn das Stück wirklich erst am <date>19. November</date> ist, kann ich leider nicht bei der Première sein, ich muß am <date>17.</date> wieder auf eine der leidigen <anchor type="commentary" xml:id="KL329-1">Tourneen</anchor>
+               </anchor>, mit denen der Mensch Geld verdient.</p>
+            <p>Grüße Deine liebe <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> herzlichst und sei selbst in alter Freundschaft gegrüßt von</p>
+            <closer>Deinem<lb/>
+               <signed>Hermann</signed>
+            </closer>
+            <postscript>
+               <p>Auch meine <rs type="person" subtype="implied" ref="pmb10818">Frau</rs> läßt Dich schönstens grüßen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,239 +1,244 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041450.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041449.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041451.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Kalendereintrag von Hermann Bahr, 2. 1. 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="450"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89DB-1</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1767/1 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">429</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160107">angelegt</change> 
-         <change who="KI MAM" when="20160129">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19030102" n="01"/> 
-               <rs type="place" ref="pmb336">Frick</rs>: <rs type="person" ref="pmb20315"> 
-                  <rs type="work" ref="pmb31109">Leonardo</rs> 
-               </rs> – <rs type="person" ref="pmb3542">Knackfuß</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb11632">Heymann</rs>: <rs type="work" ref="pmb30105">Kritik der Kritik</rs> 
-            </p> 
-            <p>Ob <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb2665">Bell</rs> 
-               </hi> oder <rs type="work" ref="pmb31111">Masters in Art <rs type="person" ref="pmb20315">Leonardo</rs> 
-               </rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3539">Zillner</rs> »<rs type="work" ref="pmb31107">Gesch der Stadt <rs type="place" ref="pmb30"> 
-                     <settlement>Salzburg</settlement> 
-                  </rs> 
-               </rs>« 1890 u 95 </p> 
-            <p> 
-               <table cols="2" rows="5"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Morgen: </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2202">Singer</rs> oder <rs type="person" ref="pmb12796">Skrein</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Redactionstrinkgelder</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Briefpapier</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Leiter neben <rs type="place" ref="pmb337">Hotel de France</rs> (2 Meter 70, da Kasten 2 M 30 ist)</cell> 
-                  </row> 
-               </table> 
-            </p> 
-            <p> 
-               <table cols="3" rows="16"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Einnahmen</cell> 
-                     <cell role="data" rows="1" cols="1">Von oder für</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="textConst" xml:id="TD450-1">Ausgaben</anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Nach Bezalg von 500 Kr an <rs type="person" ref="pmb13682">Rosa</rs> bleiben mir</cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">600 Kr.</cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb27721">Brieftr</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">10 Kr</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb27722">Gemeindediener</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">2 Kr</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">für Hefte</cell> 
-                     <cell role="data" rows="1" cols="1">4 Kr</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Commission</cell> 
-                     <cell role="data" rows="1" cols="1">1 Kr</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Apotheke</cell> 
-                     <cell role="data" rows="1" cols="1">2 68 h</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Trinkgelder für Diener des <rs type="org" ref="pmb29414">N. W.</rs> u. der <rs type="org" ref="pmb29421">Ö. V.</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">30 Kr.</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28184">Ferdinand</rs> Comission</cell> 
-                     <cell role="data" rows="1" cols="1">2</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Wagen</cell> 
-                     <cell role="data" rows="1" cols="1">3 30</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb27721">Briefträger</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">3</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Feuerwehrball</cell> 
-                     <cell role="data" rows="1" cols="1">4</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">39 Kr</cell> 
-                     <cell role="data" rows="1" cols="1">vom <rs type="org" ref="pmb29655">Rubinverlag</rs> am 4/1 erhalten</cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <hi rend="overline">61 98</hi> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">An <rs type="person" ref="pmb28076">Ludwig</rs> noch am 31. Dez. bezalt</cell> 
-                     <cell role="data" rows="1" cols="1">30 Kr</cell> 
-                  </row> 
-               </table> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041450.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041449.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041451.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Kalendereintrag von Hermann Bahr, 2. 1. 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="450"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89DB-1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1767/1 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">429</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160107">angelegt</change>
+         <change who="KI MAM" when="20160129">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19030102" n="01"/>
+               <rs type="place" ref="pmb336">Frick</rs>: <rs type="person" ref="pmb20315">
+                  <rs type="work" ref="pmb31109">Leonardo</rs>
+               </rs> – <rs type="person" ref="pmb3542">Knackfuß</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb11632">Heymann</rs>: <rs type="work" ref="pmb30105">Kritik der Kritik</rs>
+            </p>
+            <p>Ob <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb2665">Bell</rs>
+               </hi> oder <rs type="work" ref="pmb31111">Masters in Art <rs type="person" ref="pmb20315">Leonardo</rs>
+               </rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3539">Zillner</rs> »<rs type="work" ref="pmb31107">Gesch der Stadt <rs type="place" ref="pmb30">Salzburg</rs>
+               </rs>« 1890 u 95 </p>
+            <p>
+               <table cols="2" rows="5">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Morgen: </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2202">Singer</rs> oder <rs type="person" ref="pmb12796">Skrein</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2121">Schnitzler</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Redactionstrinkgelder</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Briefpapier</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Leiter neben <rs type="place" ref="pmb337">Hotel de France</rs> (2 Meter 70, da Kasten 2 M 30 ist)</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <table cols="3" rows="16">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Einnahmen</cell>
+                     <cell role="data" rows="1" cols="1">Von oder für</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="textConst" xml:id="TD450-1">Ausgaben</anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Nach Bezalg von 500 Kr an <rs type="person" ref="pmb13682">Rosa</rs> bleiben mir</cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">600 Kr.</cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb27721">Brieftr</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">10 Kr</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb27722">Gemeindediener</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">2 Kr</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">für Hefte</cell>
+                     <cell role="data" rows="1" cols="1">4 Kr</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Commission</cell>
+                     <cell role="data" rows="1" cols="1">1 Kr</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Apotheke</cell>
+                     <cell role="data" rows="1" cols="1">2 68 h</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Trinkgelder für Diener des <rs type="org" ref="pmb29414">N. W.</rs> u. der <rs type="org" ref="pmb29421">Ö. V.</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">30 Kr.</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28184">Ferdinand</rs> Comission</cell>
+                     <cell role="data" rows="1" cols="1">2</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Wagen</cell>
+                     <cell role="data" rows="1" cols="1">3 30</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb27721">Briefträger</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">3</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">Feuerwehrball</cell>
+                     <cell role="data" rows="1" cols="1">4</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">39 Kr</cell>
+                     <cell role="data" rows="1" cols="1">vom <rs type="org" ref="pmb29655">Rubinverlag</rs> am 4/1 erhalten</cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <hi rend="overline">61 98</hi>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">An <rs type="person" ref="pmb28076">Ludwig</rs> noch am 31. Dez. bezalt</cell>
+                     <cell role="data" rows="1" cols="1">30 Kr</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

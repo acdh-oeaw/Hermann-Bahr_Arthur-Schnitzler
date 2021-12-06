@@ -1,83 +1,90 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041567.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041566.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041568.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 5. 1. 1922</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="567"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A47-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1920–1922</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1993">1993</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160215">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19220105" n="1">5/1</date> Immer übler die Morgenstunden; durchgewühlt und hoffnungslos <c rendition="#dots" n="3"/> 
-            </p> 
-            <p>In der Schule von <rs type="person" ref="pmb2238">Lili</rs>; von <rs type="person" ref="pmb17953">Gerda</rs> die Aufgaben etc.– </p> 
-            <p>Dictirt Briefe, Aphoristisches.</p> 
-            <p>Nm. am <rs type="work" ref="pmb30205">Verführer</rs>.– </p> 
-            <p>Zum Thee <rs type="person" ref="pmb13094">Werfel</rs>; brachte mir »<rs type="work" ref="pmb31925">Bocksgesang</rs>« (das ich schon gelesen). Sagte ihm einiges darüber und zugleich über die »<anchor type="commentary" xml:id="KD567-1">Sünden wider den heiligen Geist des Dramas</anchor>« im allgemeinen (<rs type="work" ref="pmb29905">Ruf</rs>,– <rs type="work" ref="pmb30233">Charolais</rs> – <rs type="work" ref="pmb30093">Ringelspiel</rs> –). Wir sprachen über lyrische, epische, dramatische Kunst- und Lebensform; es war ein wohlthuendes Niveau.– </p> 
-            <p>In ein Kino.– </p> 
-            <p>Telegr. <rs type="person" ref="pmb12692">Heini</rs>; morgen Ankunft der <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>. In die Freude – ein heftiger Schmerz, daß nun <rs type="person" ref="pmb2173">O.</rs> wieder alleinbleibt. Ahnt sie es auch nur?– Ahnt sie wie ich unter ihrem Schicksal, ihrem Leid – wahrscheinlich tiefer leide, als sie selbst?–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041567.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041566.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041568.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 5. 1. 1922</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="567"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A47-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1920–1922</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1993">1993</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160215">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19220105" n="1">5/1</date> Immer übler die Morgenstunden; durchgewühlt und hoffnungslos <c rendition="#dots" n="3"/>
+            </p>
+            <p>In der Schule von <rs type="person" ref="pmb2238">Lili</rs>; von <rs type="person" ref="pmb17953">Gerda</rs> die Aufgaben etc.– </p>
+            <p>Dictirt Briefe, Aphoristisches.</p>
+            <p>Nm. am <rs type="work" ref="pmb30205">Verführer</rs>.– </p>
+            <p>Zum Thee <rs type="person" ref="pmb13094">Werfel</rs>; brachte mir »<rs type="work" ref="pmb31925">Bocksgesang</rs>« (das ich schon gelesen). Sagte ihm einiges darüber und zugleich über die »<anchor type="commentary" xml:id="KD567-1">Sünden wider den heiligen Geist des Dramas</anchor>« im allgemeinen (<rs type="work" ref="pmb29905">Ruf</rs>,– <rs type="work" ref="pmb30233">Charolais</rs> – <rs type="work" ref="pmb30093">Ringelspiel</rs> –). Wir sprachen über lyrische, epische, dramatische Kunst- und Lebensform; es war ein wohlthuendes Niveau.– </p>
+            <p>In ein Kino.– </p>
+            <p>Telegr. <rs type="person" ref="pmb12692">Heini</rs>; morgen Ankunft der <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>. In die Freude – ein heftiger Schmerz, daß nun <rs type="person" ref="pmb2173">O.</rs> wieder alleinbleibt. Ahnt sie es auch nur?– Ahnt sie wie ich unter ihrem Schicksal, ihrem Leid – wahrscheinlich tiefer leide, als sie selbst?–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

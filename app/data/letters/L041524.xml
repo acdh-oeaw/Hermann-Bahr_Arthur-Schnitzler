@@ -1,161 +1,168 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041524.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041523.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041525.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9. 1893</title> 
-            <author ref="pmb11988">Kraus, Karl</author> 
-            <author ref="pmb12564">Rosner, Karl</author> 
-            <author ref="pmb4498">Schaumberger, Julius</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="524"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-877D-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb11988">Kraus, Karl</persName> 
-                  <persName ref="pmb12564">Rosner, Karl</persName> 
-                  <persName ref="pmb4498">Schaumberger, Julius</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb155">München</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18930930" n="01">30. 9. 1893</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>UK</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 55</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Karte, 3 Verf., Bleistift</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb155">München II</placeName> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <title level="a">Karl Kraus und Arthur Schnitzler. Eine Dokumentation</title> 
-                     <editor>Hg. Reinhard Urbach</editor> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j">Literatur und Kritik</title> 
-                     <imprint> 
-                        <date when="197010">Oktober 1970</date> 
-                     </imprint> 
-                     <biblScope unit="vol">49</biblScope> 
-                     <biblScope unit="pp">515–516</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160405">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine> 
-                  <hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="latintype"> 
-                     <rs type="place" ref="pmb51">Wien I</rs> 
-                  </hi> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="latintype"> 
-                     <rs type="place" ref="pmb412">Grillparzerstraße 7. I</rs> 
-                  </hi> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb100">München, Café Luitpold</rs>, <date>30/9 93</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>Liebster Doktor, </salute>herzlichste Grüße.</p> 
-            <p>Grüßen Sie bestens auch <rs type="person" ref="pmb10863">Beer-Hofmann</rs> 
-               <space unit="chars" quantity="1"/> 
-               <add place="above"> 
-                  <rs type="person" ref="pmb11740">Loris</rs> 
-               </add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie <subst> 
-                  <del rend="overwritten">i</del> 
-                  <add place="inline">I</add> 
-               </subst>nteressierende zu sagen.</p> 
-            <closer>Ihr <signed>Kraus</signed> poste restante</closer> 
-            <p>–<handShift scribe="pmb12564"/> 
-            </p> 
-            <p>Viele innige Grüße an Sie, <rs type="person" ref="pmb10863">Hoffmann</rs>, <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb10815">Bahr</rs> 
-            </p> 
-            <closer>Ihr treuer<lb/> 
-               <signed>Karl Rosner.</signed> 
-            </closer> 
-            <p> 
-               <handShift scribe="pmb11988"/>Dieser Mensch hat sich <hi rend="underline" n="1">sehr</hi> gebessert, alle Rosen sich abgewöhnt. Kraus</p> 
-            <p>–</p> 
-            <p> 
-               <handShift scribe="pmb4498"/>Prosit <signed>JSchaumberger</signed> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041524.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041523.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041525.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9. 1893</title>
+            <author ref="pmb11988">Kraus, Karl</author>
+            <author ref="pmb12564">Rosner, Karl</author>
+            <author ref="pmb4498">Schaumberger, Julius</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="524"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-877D-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb11988">Kraus, Karl</persName>
+                  <persName ref="pmb12564">Rosner, Karl</persName>
+                  <persName ref="pmb4498">Schaumberger, Julius</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb45258">München</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18930930" n="01">30. 9. 1893</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>UK</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 55</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, 3 Verf., Bleistift</p>
+                        <stamp n="1">
+                           <placName ref="pmb45258">München II</placName>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <title level="a">Karl Kraus und Arthur Schnitzler. Eine Dokumentation</title>
+                     <editor>Hg. Reinhard Urbach</editor>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Literatur und Kritik</title>
+                     <imprint>
+                        <date when="197010">Oktober 1970</date>
+                     </imprint>
+                     <biblScope unit="vol">49</biblScope>
+                     <biblScope unit="pp">515–516</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160405">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <hi rend="latintype">Herrn D<hi rend="superscript">r.</hi> Arthur Schnitzler</hi>
+               </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <rs type="place" ref="pmb51">Wien I</rs>
+                  </hi>
+               </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <rs type="place" ref="pmb412">Grillparzerstraße 7. I</rs>
+                  </hi>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb100">München, Café Luitpold</rs>, <date>30/9 93</date>.</dateline>
+            </opener>
+            <p>
+               <salute>Liebster Doktor, </salute>herzlichste Grüße.</p>
+            <p>Grüßen Sie bestens auch <rs type="person" ref="pmb10863">Beer-Hofmann</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="above">
+                  <rs type="person" ref="pmb11740">Loris</rs>
+               </add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie <subst>
+                  <del rend="overwritten">i</del>
+                  <add place="inline">I</add>
+               </subst>nteressierende zu sagen.</p>
+            <closer>Ihr <signed>Kraus</signed> poste restante</closer>
+            <p>–<handShift scribe="pmb12564"/>
+            </p>
+            <p>Viele innige Grüße an Sie, <rs type="person" ref="pmb10863">Hoffmann</rs>, <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb10815">Bahr</rs>
+            </p>
+            <closer>Ihr treuer<lb/>
+               <signed>Karl Rosner.</signed>
+            </closer>
+            <p>
+               <handShift scribe="pmb11988"/>Dieser Mensch hat sich <hi rend="underline" n="1">sehr</hi> gebessert, alle Rosen sich abgewöhnt. Kraus</p>
+            <p>–</p>
+            <p>
+               <handShift scribe="pmb4498"/>Prosit <signed>JSchaumberger</signed>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

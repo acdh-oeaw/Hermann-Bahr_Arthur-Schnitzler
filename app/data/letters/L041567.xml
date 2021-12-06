@@ -1,132 +1,139 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041567.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041566.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041568.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">S. Fischer an Arthur Schnitzler, 12. 11. 1903</title> 
-            <author ref="pmb11324">Fischer, Samuel</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="567"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A8-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb11324">Fischer, Samuel</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19031112" n="2">12. 11. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 121b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Brief, 1 Bl., 1 S. mit gestempelter Unterschrift, gedruckter Kopf: »<quote> 
-                              <orgName ref="pmb29639">S. Fischer, VERLAG</orgName> / TELEPHON: / AMT VI, 1662 / <placeName ref="pmb168"> 
-                                 <settlement>BERLIN W.</settlement> 
-                              </placeName>, DEN ... / <placeName ref="pmb659">BÜLOWSTRASSE 90/91</placeName>.</quote>«, mit eh. Notizen von Schnitzler, diese nicht wiedergegeben.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="BWFi" default="false"> 
-                  <monogr> 
-                     <author>Fischer, Samuel</author> 
-                     <author>Fischer, Hedwig</author> 
-                     <title level="m">Briefwechsel mit Autoren</title> 
-                     <editor>Hg. Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                     <biblScope unit="pp">86–87</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160418">Angelegt</change> 
-         <change who="KI MAM" when="20160624">Kollationiert mit Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn Dr. Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>12. Nov. 1903</date> 
-               </dateline> 
-               <salute>Lieber Herr Doktor!</salute> 
-            </opener> 
-            <p>Auf meinen Brief vom 6. ds. habe ich von Ihnen noch keine Antwort bekommen.</p> 
-            <p>Ich möchte jetzt die neue Auflage des »<rs type="work" ref="pmb29853">Leutnant Gustl</rs>« drucken. Bitte lassen Sie mich wissen, ob Sie die Ausgabe in der bisherigen Form wünschen, oder ob wir am Ende nicht besser thäten, die Illustrationen von <rs type="person" ref="pmb28645">Coschell</rs> ganz wegzulassen und das Buch in einem kleinen <anchor type="commentary" xml:id="KL567-1">Format</anchor>, etwa wie <rs type="person" ref="pmb10815">Bahr</rs>’s »<rs type="work" ref="pmb32814">Dialoge</rs>« herauszugeben. Ich würde nur den <rs type="person" ref="pmb28645">Coschell</rs>’schen Umschlag in entsprechender Verkleinerung beibehalten, und ich glaube, das Aeussere des Buches würde durch diese neue Form nur gewinnen.</p> 
-            <closer>Mit vielen Grüssen<lb/>Ihr ergebener<lb/> 
-               <signed>S.Fischer</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041567.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041566.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041568.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">S. Fischer an Arthur Schnitzler, 12. 11. 1903</title>
+            <author ref="pmb11324">Fischer, Samuel</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="567"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A8-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb11324">Fischer, Samuel</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19031112" n="2">12. 11. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 121b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief, 1 Bl., 1 S. mit gestempelter Unterschrift, gedruckter Kopf: »<quote>
+                              <orgName ref="pmb29639">S. Fischer, VERLAG</orgName> / TELEPHON: / AMT VI, 1662 / <placName ref="pmb168">
+                                 <settlement>BERLIN W.</settlement>
+                              </placName>, DEN ... / <placName ref="pmb659">BÜLOWSTRASSE 90/91</placName>.</quote>«, mit eh. Notizen von Schnitzler, diese nicht wiedergegeben.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="BWFi">
+                  <monogr>
+                     <author>Fischer, Samuel</author>
+                     <author>Fischer, Hedwig</author>
+                     <title level="m">Briefwechsel mit Autoren</title>
+                     <editor>Hg. Dierk Rodewald und Corinna Fiedler. Mit einer Einführung von Bernhard Zeller</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                     <biblScope unit="pp">86–87</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160418">Angelegt</change>
+         <change who="KI MAM" when="20160624">Kollationiert mit Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn Dr. Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb68">Wien XVIII</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>12. Nov. 1903</date>
+               </dateline>
+               <salute>Lieber Herr Doktor!</salute>
+            </opener>
+            <p>Auf meinen Brief vom 6. ds. habe ich von Ihnen noch keine Antwort bekommen.</p>
+            <p>Ich möchte jetzt die neue Auflage des »<rs type="work" ref="pmb29853">Leutnant Gustl</rs>« drucken. Bitte lassen Sie mich wissen, ob Sie die Ausgabe in der bisherigen Form wünschen, oder ob wir am Ende nicht besser thäten, die Illustrationen von <rs type="person" ref="pmb28645">Coschell</rs> ganz wegzulassen und das Buch in einem kleinen <anchor type="commentary" xml:id="KL567-1">Format</anchor>, etwa wie <rs type="person" ref="pmb10815">Bahr</rs>’s »<rs type="work" ref="pmb32814">Dialoge</rs>« herauszugeben. Ich würde nur den <rs type="person" ref="pmb28645">Coschell</rs>’schen Umschlag in entsprechender Verkleinerung beibehalten, und ich glaube, das Aeussere des Buches würde durch diese neue Form nur gewinnen.</p>
+            <closer>Mit vielen Grüssen<lb/>Ihr ergebener<lb/>
+               <signed>S.Fischer</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

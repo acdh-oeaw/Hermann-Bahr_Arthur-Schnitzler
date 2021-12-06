@@ -1,100 +1,107 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041588.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041587.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041589.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 14. 8. 1920</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="588"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A5B-1</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2631 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Graues Heft, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 46 Bl., S. 42.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160816">Angelegt</change> 
-         <change who="KI MAM" when="20160816">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19200814" n="01">14.</date> K. – Schön. – <anchor type="commentary" xml:id="KD588-1"> 
-                  <rs type="work" ref="pmb30347">letter</rs> für <rs type="org" ref="pmb29705">Mercury</rs> 
-               </anchor> Oktober (<rs type="person" ref="pmb11024">Bruckner</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb13152">Wolf</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12163">Mahler</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11342">Fontane</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28765">Grünewald</rs>); geht heut ab. Ebenso <anchor type="commentary" xml:id="KD588-2"> 
-                  <rs type="work" subtype="implied" ref="pmb30121"> 
-                     <rs type="org" subtype="implied" ref="pmb29320">Journaltagb</rs> 29</rs>.</anchor> Ferner <anchor type="commentary" xml:id="KD588-3"> 
-                  <rs type="work" subtype="implied" ref="pmb30125">Burgtheaterbüchl</rs> 
-               </anchor> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28792">Rainalter</rs>, Mahnung<pb/> Einreiseamts für D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs cert="low" type="person" ref="pmb28786"> 
-                  <unclear>Krziwelzky</unclear> 
-               </rs>. – <rs type="person" ref="pmb11297">Claude Farrer</rs>s <rs type="work" ref="pmb32566">Mademoiselle Dax</rs> gelesen. – An Frau <rs type="person" ref="pmb28768">Rochowanski</rs>, <rs type="person" ref="pmb13682">Rosa Bahr</rs>, <rs type="person" ref="pmb12481">Josef Redlich</rs> – Mit <rs type="person" ref="pmb2312">Berta Zuckerkandl</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb269">Aigen</rs> (über <rs type="person" ref="pmb2121">Artur</rs> – <rs type="person" ref="pmb2173">Olga Schnitzler</rs>). Gewitter. <rs type="person" ref="pmb10818">Anna</rs> zur <rs type="work" ref="pmb30129">Jedermann</rs>probe.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041588.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041587.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041589.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 14. 8. 1920</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="588"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A5B-1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2631 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Graues Heft, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 46 Bl., S. 42.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160816">Angelegt</change>
+         <change who="KI MAM" when="20160816">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19200814" n="01">14.</date> K. – Schön. – <anchor type="commentary" xml:id="KD588-1">
+                  <rs type="work" ref="pmb30347">letter</rs> für <rs type="org" ref="pmb29705">Mercury</rs>
+               </anchor> Oktober (<rs type="person" ref="pmb11024">Bruckner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb13152">Wolf</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12163">Mahler</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11342">Fontane</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28765">Grünewald</rs>); geht heut ab. Ebenso <anchor type="commentary" xml:id="KD588-2">
+                  <rs type="work" subtype="implied" ref="pmb30121">
+                     <rs type="org" subtype="implied" ref="pmb29320">Journaltagb</rs> 29</rs>.</anchor> Ferner <anchor type="commentary" xml:id="KD588-3">
+                  <rs type="work" subtype="implied" ref="pmb30125">Burgtheaterbüchl</rs>
+               </anchor>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28792">Rainalter</rs>, Mahnung<pb/> Einreiseamts für D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28786">
+                  <unclear>Krziwelzky</unclear>
+               </rs>. – <rs type="person" ref="pmb11297">Claude Farrer</rs>s <rs type="work" ref="pmb32566">Mademoiselle Dax</rs> gelesen. – An Frau <rs type="person" ref="pmb28768">Rochowanski</rs>, <rs type="person" ref="pmb13682">Rosa Bahr</rs>, <rs type="person" ref="pmb12481">Josef Redlich</rs> – Mit <rs type="person" ref="pmb2312">Berta Zuckerkandl</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb269">Aigen</rs> (über <rs type="person" ref="pmb2121">Artur</rs> – <rs type="person" ref="pmb2173">Olga Schnitzler</rs>). Gewitter. <rs type="person" ref="pmb10818">Anna</rs> zur <rs type="work" ref="pmb30129">Jedermann</rs>probe.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

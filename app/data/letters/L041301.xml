@@ -1,140 +1,143 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041301.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041300.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041302.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 4. 7. 1906</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="301"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-869E-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb462">Venedig</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19060704" n="01">4. 7. 1906</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Korrespondenzkarte, Bleistift</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb850">Venezia Ferrovia</placeName> 
-                           <date when="19060704"> 
-                              <supplied>4. 7.</supplied> 06</date> 
-                           <time>2S</time> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <vorgang>Bestellt</vorgang> 
-                           <placeName ref="pmb68">Wien 18/1</placeName> 
-                           <date when="19060706">6. VII. 06</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151215">Kollationiert</change> 
-         <change who="KI MAM" when="20170529">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00244"/> 
-      <graphic url="MS-B-00005-B-000-00245"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb68">XVIII Spöttelgasse 7</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb462"> 
-                     <settlement>Venezia</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>4. 7. 06</date> 
-                  <lb/> 
-                  <rs type="place" ref="pmb305">Casa <rs type="person" subtype="implied" ref="pmb2975">Petrarca</rs> 
-                  </rs> 
-               </dateline> 
-            </opener> 
-            <p>Dank schön, <salute>lieber Artur. </salute>Dein Brief hat mir eine große Freude gemacht, und Lust, solchen zweiten und dritten <rs type="work" subtype="implied" ref="pmb29913">Akt</rs> wirklich zu schreiben. Neugierig, was <rs type="person" ref="pmb10986">Brahm</rs> sagen wird. – Hier herrlichst, obwol mir die Sonne die Beine so verbrannt hat, daß sie zwei Tage in Bleiwasser gelegt werden mußten. – Grüß Frau <rs type="person" ref="pmb2173">Olga</rs> herzlichst und laßt es Euch gut gehen und schreib Deine Adresse</p> 
-            <closer>Deinem alten<lb/> 
-               <signed>Hermann<space unit="chars" quantity="1"/> 
-                  <rs type="work" subtype="implied" ref="pmb29913">Faun</rs> 
-               </signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041301.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041300.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041302.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 4. 7. 1906</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="301"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-869E-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb462">Venedig</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19060704" n="01">4. 7. 1906</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Korrespondenzkarte, Bleistift</p>
+                        <stamp n="1">
+                           <placName ref="pmb850">Venezia Ferrovia</placName>
+                           <date when="19060704">
+                              <supplied>4. 7.</supplied> 06</date>
+                           <time>2S</time>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placName ref="pmb68">Wien 18/1</placName>
+                           <date when="19060706">6. VII. 06</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151215">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00244"/>
+      <graphic url="MS-B-00005-B-000-00245"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb68">XVIII Spöttelgasse 7</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb50">Wien</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb462">Venezia</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>4. 7. 06</date>
+                  <lb/>
+                  <rs type="place" ref="pmb305">Casa <rs type="person" subtype="implied" ref="pmb2975">Petrarca</rs>
+                  </rs>
+               </dateline>
+            </opener>
+            <p>Dank schön, <salute>lieber Artur. </salute>Dein Brief hat mir eine große Freude gemacht, und Lust, solchen zweiten und dritten <rs type="work" subtype="implied" ref="pmb29913">Akt</rs> wirklich zu schreiben. Neugierig, was <rs type="person" ref="pmb10986">Brahm</rs> sagen wird. – Hier herrlichst, obwol mir die Sonne die Beine so verbrannt hat, daß sie zwei Tage in Bleiwasser gelegt werden mußten. – Grüß Frau <rs type="person" ref="pmb2173">Olga</rs> herzlichst und laßt es Euch gut gehen und schreib Deine Adresse</p>
+            <closer>Deinem alten<lb/>
+               <signed>Hermann<space unit="chars" quantity="1"/>
+                  <rs type="work" subtype="implied" ref="pmb29913">Faun</rs>
+               </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

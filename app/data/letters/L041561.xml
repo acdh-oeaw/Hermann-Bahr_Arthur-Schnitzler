@@ -1,127 +1,128 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041561.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041560.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041562.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Brahm an Arthur Schnitzler, 27. 12. 1911</title> 
-            <author ref="pmb10986">Brahm, Otto</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="561"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A2-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19111227" n="01">27. 12. 1911</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASOB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">333–334</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160414">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement>Berlin</settlement> 
-                  </rs>, <date>27. Dezember 1911</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p> 
-               <hi rend="italic"> 
-                  <rs type="work" ref="pmb30085">Tänzchen</rs> 
-               </hi> und <hi rend="italic"> 
-                  <rs type="work" ref="pmb29931">Mizzi</rs> 
-               </hi> wollten sich nicht recht vertragen, stießen sich in der Zeit und im Raum. Deshalb hab ich mich entschließen müssen, von dieser Kombination abzusehen und eine andere zu unternehmen. Gleich nach dem <rs type="person" ref="pmb10815">Bahr</rs> denke ich an die <hi rend="italic"> 
-                  <rs type="work" ref="pmb30235">Erde</rs> 
-               </hi> von <anchor type="commentary" xml:id="KL561-1"> 
-                  <rs type="person" ref="pmb12749">Schönherr</rs> zu gehen, die für uns Novität ist und daran – Reiz e contrario – die <hi rend="italic"> 
-                     <rs type="work" ref="pmb29931">Mizzi</rs> 
-                  </hi> zu fügen</anchor>. Die Zusammenstellung hat ja wohl zuerst etwas Frappierendes, aber ich halte sie für günstig und praktisch, »<rs type="place" ref="pmb162">österreichischer</rs> Abend«, oder von <rs type="place" ref="pmb134"> 
-                  <settlement>Zill im Zillertal</settlement> 
-               </rs> bis <rs type="place" ref="pmb173">Rodaun</rs>.</p> 
-            <p> 
-               <rs type="person" ref="pmb28635">Boas</rs> rät mir Ausspannen und Höhenluft, so daß ich doch mit einer Januar- <rs type="place" ref="pmb189"> 
-                  <settlement>Semmering</settlement> 
-               </rs>-Spritze kokettiere. Sie kommen doch mit?</p> 
-            <closer>Herzlich Ihr <signed>O. B.</signed> 
-            </closer> 
-            <postscript> 
-               <p> 
-                  <hi rend="italic"> 
-                     <rs type="work" ref="pmb30207">Das weite Land</rs> 
-                  </hi> gestern 5750. Vorher weniger.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041561.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041560.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041562.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Arthur Schnitzler, 27. 12. 1911</title>
+            <author ref="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="561"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87A2-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19111227" n="01">27. 12. 1911</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">333–334</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160414">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb168">Berlin</rs>, <date>27. Dezember 1911</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>
+               <hi rend="italic">
+                  <rs type="work" ref="pmb30085">Tänzchen</rs>
+               </hi> und <hi rend="italic">
+                  <rs type="work" ref="pmb29931">Mizzi</rs>
+               </hi> wollten sich nicht recht vertragen, stießen sich in der Zeit und im Raum. Deshalb hab ich mich entschließen müssen, von dieser Kombination abzusehen und eine andere zu unternehmen. Gleich nach dem <rs type="person" ref="pmb10815">Bahr</rs> denke ich an die <hi rend="italic">
+                  <rs type="work" ref="pmb30235">Erde</rs>
+               </hi> von <anchor type="commentary" xml:id="KL561-1">
+                  <rs type="person" ref="pmb12749">Schönherr</rs> zu gehen, die für uns Novität ist und daran – Reiz e contrario – die <hi rend="italic">
+                     <rs type="work" ref="pmb29931">Mizzi</rs>
+                  </hi> zu fügen</anchor>. Die Zusammenstellung hat ja wohl zuerst etwas Frappierendes, aber ich halte sie für günstig und praktisch, »<rs type="place" ref="pmb41240">österreichischer</rs> Abend«, oder von <rs type="place" ref="pmb134">Zill im Zillertal</rs> bis <rs type="place" ref="pmb173">Rodaun</rs>.</p>
+            <p>
+               <rs type="person" ref="pmb28635">Boas</rs> rät mir Ausspannen und Höhenluft, so daß ich doch mit einer Januar- <rs type="place" ref="pmb189">Semmering</rs>-Spritze kokettiere. Sie kommen doch mit?</p>
+            <closer>Herzlich Ihr <signed>O. B.</signed>
+            </closer>
+            <postscript>
+               <p>
+                  <hi rend="italic">
+                     <rs type="work" ref="pmb30207">Das weite Land</rs>
+                  </hi> gestern 5750. Vorher weniger.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

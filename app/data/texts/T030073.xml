@@ -1,192 +1,201 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030073.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030072.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030074.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Buchversandliste Grotesken?], [Januar 1907?]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="073"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB6-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19070100" n="01">[Januar 1907?]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2621 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">Undat. Notiz, 1 Bl., 2 S., hs. <persName ref="pmb27910">Clarus</persName>, Ergänzungen von Bahr in Bleistift und Buntstift.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">Angelegt</change> 
-         <change who="KI MAM" when="20160120">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>.</p> 
-            <p part="N">D<hi rend="superscript"> 
-                  <hi rend="underline" n="2">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb10863">Beer-Hofmann</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11740">Hugo v Hofmannsthal</rs>.</p> 
-            <p part="N">D<hi rend="superscript"> 
-                  <hi rend="underline" n="2">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11545">Guglia</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11447">Reg. Glossy.</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11771">Rud. Holzer.</rs> 
-            </p> 
-            <p part="N">Rechtanw. <rs type="person" ref="pmb3397">Wolfg. Heine</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11581">Maximil. Harden</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb13163">Theod. Wolff</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28213">Isid. Landau</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3589">Herm. Bachmann</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript"> 
-                  <hi rend="underline" n="2">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11212">Friedr. Düsel</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3593">Phil. Stein</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12031">Gust Landauer</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11240">Kurt Eisner</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12441">Felix Poppenberg</rs> 
-               <pb/> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3774">Max Lorenz</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11910">Alfr. Kerr</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11813">Siegfr. Jacobsohn</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11477">Eduard Goldbeck</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2713">Emil Heilbutt</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12319">Richard Muther</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2295">Prof. Lamprecht</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3770">Kurt Aram</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript"> 
-                  <hi rend="underline" n="2">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb10955">Blei</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11711">Georg Hirth</rs> 
-            </p> 
-            <p part="N"> 
-               <handShift scribe="pmb10815"/>Noch schicken: <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12163">Mahler</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2199">Epstein</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11851">Kainz</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12671">Schlenther</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3280">Kolo</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11941">Klimt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12548">Roller</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb27882">Wärndorfer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28256">Magda Mautner</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11590">Harpner</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3406">BernhMünz</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2199">Epstein</rs> 
-            </p> 
-            <p part="N"> 
-               <anchor type="textConst" xml:id="TT073-1">Buch</anchor> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
-</TEI><!-- Guglia bedankt: Krampus 28. 12. 1902 Dialog vom Tragischen Nov 1903 Marsyas 7. 2. 1906 Meister 16. 5. 1907 Sanna 1X. 4. 1905 Datierung: Die Handschrift von Clarus setzt es nach 1905 an, der Tod von Max Lorenz vor Ende 1907 Datierung: Dankschreiben von Roller, 4. 1. 1907 (AM 22772 Ba) -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030073.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030072.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030074.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Buchversandliste Grotesken?], [Januar 1907?]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="073"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB6-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19070100" n="01">[Januar 1907?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2621 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">Undat. Notiz, 1 Bl., 2 S., hs. <persName ref="pmb27910">Clarus</persName>, Ergänzungen von Bahr in Bleistift und Buntstift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">Angelegt</change>
+         <change who="KI MAM" when="20160120">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <p part="N">
+               <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>.</p>
+            <p part="N">D<hi rend="superscript">
+                  <hi rend="underline" n="2">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb10863">Beer-Hofmann</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11740">Hugo v Hofmannsthal</rs>.</p>
+            <p part="N">D<hi rend="superscript">
+                  <hi rend="underline" n="2">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11545">Guglia</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11447">Reg. Glossy.</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11771">Rud. Holzer.</rs>
+            </p>
+            <p part="N">Rechtanw. <rs type="person" ref="pmb38364">Wolfg. Heine</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11581">Maximil. Harden</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb13163">Theod. Wolff</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28213">Isid. Landau</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3589">Herm. Bachmann</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">
+                  <hi rend="underline" n="2">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11212">Friedr. Düsel</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3593">Phil. Stein</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12031">Gust Landauer</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11240">Kurt Eisner</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb12441">Felix Poppenberg</rs>
+               <pb/>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3774">Max Lorenz</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb11910">Alfr. Kerr</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb11813">Siegfr. Jacobsohn</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11477">Eduard Goldbeck</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb2713">Emil Heilbutt</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12319">Richard Muther</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb2295">Prof. Lamprecht</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb3770">Kurt Aram</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">
+                  <hi rend="underline" n="2">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb10955">Blei</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11711">Georg Hirth</rs>
+            </p>
+            <p part="N">
+               <handShift scribe="pmb10815"/>Noch schicken: <del rend="strikethrough">
+                  <rs type="person" ref="pmb12163">Mahler</rs>
+               </del>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb2199">Epstein</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11851">Kainz</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12671">Schlenther</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3280">Kolo</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11941">Klimt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12548">Roller</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb27882">Wärndorfer</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28256">Magda Mautner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11590">Harpner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3406">BernhMünz</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2199">Epstein</rs>
+            </p>
+            <p part="N">
+               <anchor type="textConst" xml:id="TT073-1">Buch</anchor>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Guglia bedankt: Krampus 28. 12. 1902 Dialog vom Tragischen Nov 1903 Marsyas 7. 2. 1906 Meister 16. 5. 1907 Sanna 1X. 4. 1905 Datierung: Die Handschrift von Clarus setzt es nach 1905 an, der Tod von Max Lorenz vor Ende 1907 Datierung: Dankschreiben von Roller, 4. 1. 1907 (AM 22772 Ba) -->

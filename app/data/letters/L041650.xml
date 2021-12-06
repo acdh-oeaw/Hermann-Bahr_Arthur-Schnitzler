@@ -1,103 +1,110 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041650.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041649.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041651.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">C. Karlweis an Arthur Schnitzler, [18. 2. 1897]</title> 
-            <author ref="pmb13082">Karlweis, C.</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="650"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FA-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb13082">Karlweis, C.</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18970218" n="01">[18. 2. 1897]</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.3637</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler datiert: »<quote> 
-                              <date>18/2 97</date> 
-                           </quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161010">Angelegt</change> 
-         <change who="KI MAM" when="20161016">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <salute>Lieber Freund!</salute> 
-            </opener> 
-            <p>Wollen Sie uns das Vergnügen machen, <anchor type="commentary" xml:id="KL650-1">diesen Sonntag</anchor> (21. d<unclear>M</unclear>) Abends zu uns zu kommen? Sie finden nur <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb12037 pmb12040">Langkammers</rs>, <rs type="person" ref="pmb2157">Ebermann</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> u. – hoffentlicht – auch <rs type="person" ref="pmb2167">Salten</rs>. Die Nichtanwesenden werden ausgerichtet, – kommen Sie also sicher!</p> 
-            <closer>Herzlichst grüßt<lb/>Ihr<lb/>aufrichtiger<lb/> 
-               <signed>C. Karlweis</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041650.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041649.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041651.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">C. Karlweis an Arthur Schnitzler, [18. 2. 1897]</title>
+            <author ref="pmb13082">Karlweis, C.</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="650"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FA-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb13082">Karlweis, C.</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18970218" n="01">[18. 2. 1897]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.3637</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S., von Schnitzler datiert: »<quote>
+                              <date>18/2 97</date>
+                           </quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161010">Angelegt</change>
+         <change who="KI MAM" when="20161016">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <salute>Lieber Freund!</salute>
+            </opener>
+            <p>Wollen Sie uns das Vergnügen machen, <anchor type="commentary" xml:id="KL650-1">diesen Sonntag</anchor> (21. d<unclear>M</unclear>) Abends zu uns zu kommen? Sie finden nur <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb12037 pmb12040">Langkammers</rs>, <rs type="person" ref="pmb2157">Ebermann</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> u. – hoffentlicht – auch <rs type="person" ref="pmb2167">Salten</rs>. Die Nichtanwesenden werden ausgerichtet, – kommen Sie also sicher!</p>
+            <closer>Herzlichst grüßt<lb/>Ihr<lb/>aufrichtiger<lb/>
+               <signed>C. Karlweis</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

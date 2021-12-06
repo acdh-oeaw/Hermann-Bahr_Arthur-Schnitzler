@@ -1,96 +1,94 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030042.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030041.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030043.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a" ref="pmb31875">Hermann Bahr: Artur Schnitzler. Nachruf, 25. 10. 1931</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="042"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A98-B</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="19311025" n="1">25. 10. 1931</origDate> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb31875">Artur Schnitzler. Nachruf</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j" ref="pmb29414">Neues Wiener Tagblatt</title> 
-                     <imprint> 
-                        <date when="19311025" n="1">25. 10. 1931</date> 
-                     </imprint> 
-                     <biblScope unit="jg">65</biblScope> 
-                     <biblScope unit="nr">294</biblScope> 
-                     <biblScope unit="pp">6</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160302">Angelegt aus Scan Exeter</change> 
-         <change who="KI MAM" when="20160303">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <anchor type="label" xml:id="LT042-1"/> 
-            <head> 
-               <rs type="person" ref="pmb2121">Artur Schnitzler</rs>.</head> 
-            <head type="sub">Nachruf von <hi rend="bold">Hermann Bahr</hi>, Mitglied der preußischen Dichterakademie</head> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2121">Artur Schnitzler</rs> wuchs in den sechziger Jahren auf, in der Zeit der <anchor type="commentary" xml:id="KT042-1">Schlacht von <rs type="place" ref="pmb154"> 
-                     <settlement>Sadowa</settlement> 
-                  </rs> 
-               </anchor>, deren Ergebnis alle Hoffnungen <rs type="place" ref="pmb162">Oesterreichs</rs> knickte. Seit <rs type="place" ref="pmb162">Oesterreich</rs> im Abendland nicht mehr mitzusprechen oder gar mitzuwirken hatte, mußte jugendlicher Tatkraft ein Blitzableiter gegeben werden. Ich selbst hielt es daheim einfach nicht mehr aus, <anchor type="commentary" xml:id="KT042-2">fuhr zunächst nach</anchor> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>, dann nach <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>, <rs type="place" ref="pmb914"> 
-                  <settlement>Madrid</settlement> 
-               </rs>, <rs type="place" ref="pmb951"> 
-                  <settlement>Tanger</settlement> 
-               </rs> und landete schließlich doch wieder daheim, in der »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>«, hier sollten alle Begabungen sich entfalten können. Stadtberühmt war damals vor allem durch die Pracht seiner Krawatten Dr. <rs type="person" ref="pmb10863">Richard Beer-Hofmann</rs>, und bald stellte sich ein Gymnasiast ein, der unter dem Namen <rs type="person" ref="pmb11740">Loris</rs> schrieb: <rs type="person" ref="pmb11740">Hugo v. Hofmannsthal</rs>. Eine Reihe von Werken <rs type="person" ref="pmb2121">Schnitzlers</rs> lebt noch immer heiter fort, und man kann dreist voraussagen, daß »<rs type="work" ref="pmb29935">Anatol</rs> 
-               <supplied>«</supplied>, »<rs type="work" ref="pmb29917">Liebelei</rs>«, »<rs type="work" ref="pmb29899">Freiwild</rs>«, »<rs type="work" ref="pmb29855">Reigen</rs>«, »<rs type="work" ref="pmb29985">Der einsame Weg</rs>«, »<rs type="work" ref="pmb30775">Der Gang zum Weiher</rs>« und das »<rs type="work" ref="pmb30053">Buch der Sprüche</rs>«, mögen sie zuweilen eine Zeitlang vergessen sein, doch immer wieder fröhlichen Urstand feiern werden.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030042.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030041.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030043.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb31875">Hermann Bahr: Artur Schnitzler. Nachruf, 25. 10. 1931</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="042"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A98-B</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19311025" n="1">25. 10. 1931</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb31875">Artur Schnitzler. Nachruf</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29414">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="19311025" n="1">25. 10. 1931</date>
+                     </imprint>
+                     <biblScope unit="jg">65</biblScope>
+                     <biblScope unit="nr">294</biblScope>
+                     <biblScope unit="pp">6</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160302">Angelegt aus Scan Exeter</change>
+         <change who="KI MAM" when="20160303">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <anchor type="label" xml:id="LT042-1"/>
+            <head>
+               <rs type="person" ref="pmb2121">Artur Schnitzler</rs>.</head>
+            <head type="sub">Nachruf von <hi rend="bold">Hermann Bahr</hi>, Mitglied der preußischen Dichterakademie</head>
+            <p part="N">
+               <rs type="person" ref="pmb2121">Artur Schnitzler</rs> wuchs in den sechziger Jahren auf, in der Zeit der <anchor type="commentary" xml:id="KT042-1">Schlacht von <rs type="place" ref="pmb49089">Sadowa</rs>
+               </anchor>, deren Ergebnis alle Hoffnungen <rs type="place" ref="pmb41240">Oesterreichs</rs> knickte. Seit <rs type="place" ref="pmb41240">Oesterreich</rs> im Abendland nicht mehr mitzusprechen oder gar mitzuwirken hatte, mußte jugendlicher Tatkraft ein Blitzableiter gegeben werden. Ich selbst hielt es daheim einfach nicht mehr aus, <anchor type="commentary" xml:id="KT042-2">fuhr zunächst nach</anchor>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb168">Berlin</rs>, dann nach <rs type="place" ref="pmb182">Paris</rs>, <rs type="place" ref="pmb914">Madrid</rs>, <rs type="place" ref="pmb951">Tanger</rs> und landete schließlich doch wieder daheim, in der »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>«, hier sollten alle Begabungen sich entfalten können. Stadtberühmt war damals vor allem durch die Pracht seiner Krawatten Dr. <rs type="person" ref="pmb10863">Richard Beer-Hofmann</rs>, und bald stellte sich ein Gymnasiast ein, der unter dem Namen <rs type="person" ref="pmb11740">Loris</rs> schrieb: <rs type="person" ref="pmb11740">Hugo v. Hofmannsthal</rs>. Eine Reihe von Werken <rs type="person" ref="pmb2121">Schnitzlers</rs> lebt noch immer heiter fort, und man kann dreist voraussagen, daß »<rs type="work" ref="pmb29935">Anatol</rs>
+               <supplied>«</supplied>, »<rs type="work" ref="pmb29917">Liebelei</rs>«, »<rs type="work" ref="pmb29899">Freiwild</rs>«, »<rs type="work" ref="pmb29855">Reigen</rs>«, »<rs type="work" ref="pmb29985">Der einsame Weg</rs>«, »<rs type="work" ref="pmb30775">Der Gang zum Weiher</rs>« und das »<rs type="work" ref="pmb30053">Buch der Sprüche</rs>«, mögen sie zuweilen eine Zeitlang vergessen sein, doch immer wieder fröhlichen Urstand feiern werden.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

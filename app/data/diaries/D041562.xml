@@ -1,84 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041562.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041561.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041563.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 28. 9. 1918</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="562" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A42-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1917–1919</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1985">1985</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19180928" n="1">28/9</date> Mit <rs type="person" ref="pmb27549">Vicki</rs> spazieren <rs type="place" ref="pmb169">Pötzleinsdorf</rs> – <rs type="place" ref="pmb176">Dornbacher Park</rs>. Über <rs type="person" ref="pmb10815">Bahr</rs>; meine <rs type="place" ref="pmb14">Burgtheater</rs>erlebnisse; über die <rs type="work" subtype="implied" ref="pmb30971">Novelle</rs>.– Viel über <rs type="person" ref="pmb13653">Stephi</rs> und <rs type="person" ref="pmb2753">Mimi</rs>. Gemeinsames und Verschiedenheiten. Decadence und zugleich ein neuer Anfang. Mußte <rs type="person" ref="pmb13653">St.</rs> sterben?– Über <rs type="person" ref="pmb12374">Rudi O.</rs>, der nächstens Frau <rs type="person" ref="pmb28381">Mädi F.</rs> heiratet.</p> 
-            <p>Nm. <rs type="work" subtype="implied" ref="pmb31377">Nachklg.</rs> 6. B. gelesen;– recht flüchtig.– </p> 
-            <p> 
-               <rs type="person" ref="pmb12711">Schott</rs>;– wir halfen ihm bei einem Brief an <rs type="person" ref="pmb10815">Bahr</rs>, der den Schauspielern gegenüber auch nicht sehr geschickt scheint. Er gibt ihm eine Rolle und theilt ihm zugleich mit, daß die andern ihm sie nicht zutraun – er sie also vielleicht noch wird abgeben müssen (König in <rs subtype="local" type="work" ref="pmb31585">nat. Tochter</rs>).</p> 
-            <p>– Mit <rs type="person" ref="pmb12692">Heini</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12303">Mozart</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31667">Jupitersymph.</rs> – <rs type="person" ref="pmb27815">Hansi</rs> n. d. N.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041562.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041561.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041563.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 28. 9. 1918</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="562" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A42-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1917–1919</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1985">1985</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19180928" n="1">28/9</date> Mit <rs type="person" ref="pmb27549">Vicki</rs> spazieren <rs type="place" ref="pmb169">Pötzleinsdorf</rs> – <rs type="place" ref="pmb176">Dornbacher Park</rs>. Über <rs type="person" ref="pmb10815">Bahr</rs>; meine <rs type="place" ref="pmb14">Burgtheater</rs>erlebnisse; über die <rs type="work" subtype="implied" ref="pmb30971">Novelle</rs>.– Viel über <rs type="person" ref="pmb13653">Stephi</rs> und <rs type="person" ref="pmb2753">Mimi</rs>. Gemeinsames und Verschiedenheiten. Decadence und zugleich ein neuer Anfang. Mußte <rs type="person" ref="pmb13653">St.</rs> sterben?– Über <rs type="person" ref="pmb12374">Rudi O.</rs>, der nächstens Frau <rs type="person" ref="pmb28381">Mädi F.</rs> heiratet.</p>
+            <p>Nm. <rs type="work" subtype="implied" ref="pmb31377">Nachklg.</rs> 6. B. gelesen;– recht flüchtig.– </p>
+            <p>
+               <rs type="person" ref="pmb12711">Schott</rs>;– wir halfen ihm bei einem Brief an <rs type="person" ref="pmb10815">Bahr</rs>, der den Schauspielern gegenüber auch nicht sehr geschickt scheint. Er gibt ihm eine Rolle und theilt ihm zugleich mit, daß die andern ihm sie nicht zutraun – er sie also vielleicht noch wird abgeben müssen (König in <rs subtype="local" type="work" ref="pmb31585">nat. Tochter</rs>).</p>
+            <p>– Mit <rs type="person" ref="pmb12692">Heini</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12303">Mozart</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31667">Jupitersymph.</rs> – <rs type="person" ref="pmb27815">Hansi</rs> n. d. N.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

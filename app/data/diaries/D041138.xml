@@ -1,76 +1,95 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041138.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041137.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041139.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 6. 2. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="138" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88BC-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950206" n="1">6/2</date> Abds. schrieb <rs type="person" ref="pmb2167">Salten</rs> der <rs type="person" ref="pmb12621">Willy</rs>; sie berief ihn, er sagte ihr, sie solle <rs type="person" ref="pmb12618">Dilly</rs> warnen, über ihn Lügen zu verbreiten, auch Beschimpfungen über mich werde er nicht dulden. Sie zu ihm: Sie sind mir im kleinen Finger lieber als Sch. Zugleich erzählte sie, <rs type="person" ref="pmb12618">Dilly</rs> habe schon <anchor type="commentary" xml:id="KD138-2">Mittwoch (nach jenem Dinstag)</anchor> von ihm geschwärmt, und <rs type="person" ref="pmb10815">Bahr</rs> hatte <rs type="person" ref="pmb12618">Dilly</rs> seine <anchor type="commentary" xml:id="KD138-1">psychol. Auffassung</anchor> über <rs type="person" ref="pmb2167">Salten</rs> (Carrière, Liebhaber der ersten Tragödin) gesagt.– Bei <rs type="person" ref="pmb13342">Altmann</rs>.– <rs type="person" ref="pmb27833">Grethe Br.</rs> Clavier.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041138.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041137.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041139.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen,
+               Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 6. 2. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="138" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88BC-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur
+               Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl,
+                        Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische
+                        Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann:
+                        Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der
+                           Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950206" n="1">6/2</date> Abds. schrieb <rs type="person" ref="pmb2167">Salten</rs> der <rs type="person" ref="pmb12621">Willy</rs>; sie berief ihn, er
+               sagte ihr, sie solle <rs type="person" ref="pmb12618">Dilly</rs> warnen, über ihn
+               Lügen zu verbreiten, auch Beschimpfungen über mich werde er nicht dulden. Sie zu ihm:
+               Sie sind mir im kleinen Finger lieber als Sch. Zugleich erzählte sie, <rs type="person" ref="pmb12618">Dilly</rs> habe schon <anchor type="commentary" xml:id="KD138-2">Mittwoch (nach jenem Dinstag)</anchor> von ihm geschwärmt, und
+                  <rs type="person" ref="pmb10815">Bahr</rs> hatte <rs type="person" ref="pmb12618">Dilly</rs> seine <anchor type="commentary" xml:id="KD138-1">psychol.
+                  Auffassung</anchor> über <rs type="person" ref="pmb2167">Salten</rs> (Carrière,
+               Liebhaber der ersten Tragödin) gesagt.– Bei <rs type="person" ref="pmb13342">Altmann</rs>.– <rs type="person" ref="pmb14534">Grethe Br.</rs> Clavier.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

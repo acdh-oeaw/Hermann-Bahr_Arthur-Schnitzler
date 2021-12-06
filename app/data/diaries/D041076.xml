@@ -1,84 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041076.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041075.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041077.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 14. 1. 1912</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="076"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-887E-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19120114" n="01">14/1</date> S. Mit <rs type="person" ref="pmb2173">O.</rs> spazieren. Sonnenwintertag. Skiläufer, Rodelleute, schönes Bild beim »<rs type="place" ref="pmb634">Johann</rs>«.</p> 
-            <p>Nach Tisch <rs type="person" ref="pmb10815">Bahr</rs>. (Erzählt von Frau <rs type="person" ref="pmb2757">Munk</rs>, ihrem Telephoniren gleich nach dem <anchor type="commentary" xml:id="KD076-2">Selbstmord der <rs type="person" subtype="implied" ref="pmb21676">Tochter</rs> 
-               </anchor> (wegen <rs type="person" ref="pmb11281">Hans H. Ewers</rs> 
-               <c rendition="#dots" n="3"/>): »Was sagen Sie zu dem <anchor type="commentary" xml:id="KD076-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31695">Buch</rs> 
-               </anchor> –?«) Mit <rs type="person" ref="pmb10815">Bahr</rs>, während <rs type="person" ref="pmb10986">Brahm</rs> zu Hause schläft, zur <geogName type="place" instant="false" ref="pmb94">Meiereiwiese</geogName> (Reste des Stafettenskilaufs). Über Vorlesungen und Vorlesungsprogramme. Unintimes Gespräch.– </p> 
-            <p>Mit <rs type="person" ref="pmb2173">O.</rs>, <rs type="person" ref="pmb13648 pmb13644">Bachrachs</rs>, <rs type="person" ref="pmb23061 pmb23062">Rappaports</rs> zurück.</p> 
-            <p>– <rs type="person" ref="pmb13055">Wassermann</rs> liest in seinem Zimmer Frau <rs type="person" ref="pmb13644">Bachrach</rs>, <rs type="person" ref="pmb2753">Mimi</rs>, <rs type="person" ref="pmb13653">Stephi</rs>, <rs type="person" ref="pmb2173">Olga</rs> und mir den Anfang seines neuen kleinen Romans <rs type="work" ref="pmb30359">Der Mann von 40 Jahren</rs> vor.– </p> 
-            <p>Nach dem Nachtmahl Billard mit ihm.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041076.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041075.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041077.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 14. 1. 1912</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="076"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-887E-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19120114" n="01">14/1</date> S. Mit <rs type="person" ref="pmb2173">O.</rs> spazieren. Sonnenwintertag. Skiläufer, Rodelleute, schönes Bild beim »<rs type="place" ref="pmb634">Johann</rs>«.</p>
+            <p>Nach Tisch <rs type="person" ref="pmb10815">Bahr</rs>. (Erzählt von Frau <rs type="person" ref="pmb2757">Munk</rs>, ihrem Telephoniren gleich nach dem <anchor type="commentary" xml:id="KD076-2">Selbstmord der <rs type="person" subtype="implied" ref="pmb21676">Tochter</rs>
+               </anchor> (wegen <rs type="person" ref="pmb11281">Hans H. Ewers</rs>
+               <c rendition="#dots" n="3"/>): »Was sagen Sie zu dem <anchor type="commentary" xml:id="KD076-1">
+                  <rs type="work" subtype="implied" ref="pmb31695">Buch</rs>
+               </anchor> –?«) Mit <rs type="person" ref="pmb10815">Bahr</rs>, während <rs type="person" ref="pmb10986">Brahm</rs> zu Hause schläft, zur <geogName type="place" instant="false" ref="pmb94">Meiereiwiese</geogName> (Reste des Stafettenskilaufs). Über Vorlesungen und Vorlesungsprogramme. Unintimes Gespräch.– </p>
+            <p>Mit <rs type="person" ref="pmb2173">O.</rs>, <rs type="person" ref="pmb13648 pmb13644">Bachrachs</rs>, <rs type="person" ref="pmb23061 pmb23062">Rappaports</rs> zurück.</p>
+            <p>– <rs type="person" ref="pmb13055">Wassermann</rs> liest in seinem Zimmer Frau <rs type="person" ref="pmb13644">Bachrach</rs>, <rs type="person" ref="pmb2753">Mimi</rs>, <rs type="person" ref="pmb13653">Stephi</rs>, <rs type="person" ref="pmb2173">Olga</rs> und mir den Anfang seines neuen kleinen Romans <rs type="work" ref="pmb30359">Der Mann von 40 Jahren</rs> vor.– </p>
+            <p>Nach dem Nachtmahl Billard mit ihm.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

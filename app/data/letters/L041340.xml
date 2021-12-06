@@ -1,145 +1,134 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041340.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041339.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041341.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 7. 3. 1914</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="340"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86C5-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19140307" n="01">7. 3. 1914</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151217">Kollationiert</change> 
-         <change who="KI MAM" when="20170531">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00318"/> 
-      <graphic url="MS-B-00005-B-000-00319"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb30"> 
-                     <settlement>Salzburg</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>7. 3. 14</date> 
-               </dateline> 
-               <salute rend="center">Lieber Arthur!</salute> 
-            </opener> 
-            <p>Ich bin <supplied>in</supplied> der letzten Zeit so viel herumgegaukelt (<anchor type="commentary" xml:id="KL340-2"> 
-                  <rs type="place" ref="pmb976"> 
-                     <settlement>Czernowitz</settlement> 
-                  </rs> 
-               </anchor>, <anchor type="commentary" xml:id="KL340-3"> 
-                  <rs type="place" ref="pmb956"> 
-                     <settlement>Lemberg</settlement> 
-                  </rs> 
-               </anchor>, <anchor type="commentary" xml:id="KL340-4"> 
-                  <rs type="place" ref="pmb833"> 
-                     <settlement>Brünn</settlement> 
-                  </rs> 
-               </anchor>, dann <anchor type="commentary" xml:id="KL340-5"> 
-                  <rs type="place" ref="pmb797"> 
-                     <settlement>Berchtesgaden</settlement> 
-                  </rs> 
-               </anchor> skiend, dann <rs type="place" ref="pmb155"> 
-                  <settlement>Münchener</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="commentary" xml:id="KL340-1">Suffragetten</anchor>, dann <anchor type="commentary" xml:id="KL340-6"> 
-                  <rs type="place" ref="pmb834"> 
-                     <settlement>Darmstadt</settlement> 
-                  </rs> 
-               </anchor> bei Hofe – die Welt ist sehr rund), daß ich jetzt erst dazu komme, Dir zu sagen, wie furchtbar leid mir tat, <rs type="person" subtype="implied" ref="pmb2173">Euren</rs> lieben Besuch versäumt zu haben. So gern möcht ich <rs type="person" subtype="implied" ref="pmb2173">Euch Beide</rs> wieder einmal sehen, so gern <rs type="person" subtype="implied" ref="pmb2173">Euch</rs> unsere Behausung und den Park zeigen, so viel hätt ich Dich zu fragen, Dir zu sagen! Hoffentlich<pb/> trifft sichs das nächste Mal besser. Aber wann wird dies nächste Mal sein? Wir gehen ja heuer schon zu <date>Pfingsten</date> nach <anchor type="commentary" xml:id="KL340-7"> 
-                  <rs type="place" ref="pmb462"> 
-                     <settlement>Venedig</settlement> 
-                  </rs> 
-               </anchor>, da wir <date>Ende Juni</date> schon nach <anchor type="commentary" xml:id="KL340-8"> 
-                  <rs type="place" ref="pmb734"> 
-                     <settlement>Bayreuth</settlement> 
-                  </rs> 
-               </anchor> müssen, bis <date>Ende August</date> dort bleiben und uns also eigentlich jetzt schon auf den Herbst hier freuen, bevor noch der Frühling da ist.</p> 
-            <p>Lasst es Euch immer gut gehen, grüß auch die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>, wenn sie gleich nichts von mir wissen, herzlich von mir und bleibt mir gut, wie ich <rs type="person" subtype="implied" ref="pmb2173">Euch</rs> immer derselbe bleiben will, eben dieser Euer alter </p> 
-            <closer> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041340.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041339.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041341.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 7. 3. 1914</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="340"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86C5-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19140307" n="01">7. 3. 1914</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., von Schnitzler hs. ergänzt »<quote>Bahr</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151217">Kollationiert</change>
+         <change who="KI MAM" when="20170531">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00318"/>
+      <graphic url="MS-B-00005-B-000-00319"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb30">Salzburg</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>7. 3. 14</date>
+               </dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>Ich bin <supplied>in</supplied> der letzten Zeit so viel herumgegaukelt (<anchor type="commentary" xml:id="KL340-2">
+                  <rs type="place" ref="pmb976">Czernowitz</rs>
+               </anchor>, <anchor type="commentary" xml:id="KL340-3">
+                  <rs type="place" ref="pmb46224">Lemberg</rs>
+               </anchor>, <anchor type="commentary" xml:id="KL340-4">
+                  <rs type="place" ref="pmb833">Brünn</rs>
+               </anchor>, dann <anchor type="commentary" xml:id="KL340-5">
+                  <rs type="place" ref="pmb797">Berchtesgaden</rs>
+               </anchor> skiend, dann <rs type="place" ref="pmb45258">Münchener</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KL340-1">Suffragetten</anchor>, dann <anchor type="commentary" xml:id="KL340-6">
+                  <rs type="place" ref="pmb834">Darmstadt</rs>
+               </anchor> bei Hofe – die Welt ist sehr rund), daß ich jetzt erst dazu komme, Dir zu sagen, wie furchtbar leid mir tat, <rs type="person" subtype="implied" ref="pmb2173">Euren</rs> lieben Besuch versäumt zu haben. So gern möcht ich <rs type="person" subtype="implied" ref="pmb2173">Euch Beide</rs> wieder einmal sehen, so gern <rs type="person" subtype="implied" ref="pmb2173">Euch</rs> unsere Behausung und den Park zeigen, so viel hätt ich Dich zu fragen, Dir zu sagen! Hoffentlich<pb/> trifft sichs das nächste Mal besser. Aber wann wird dies nächste Mal sein? Wir gehen ja heuer schon zu <date>Pfingsten</date> nach <anchor type="commentary" xml:id="KL340-7">
+                  <rs type="place" ref="pmb462">Venedig</rs>
+               </anchor>, da wir <date>Ende Juni</date> schon nach <anchor type="commentary" xml:id="KL340-8">
+                  <rs type="place" ref="pmb734">Bayreuth</rs>
+               </anchor> müssen, bis <date>Ende August</date> dort bleiben und uns also eigentlich jetzt schon auf den Herbst hier freuen, bevor noch der Frühling da ist.</p>
+            <p>Lasst es Euch immer gut gehen, grüß auch die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>, wenn sie gleich nichts von mir wissen, herzlich von mir und bleibt mir gut, wie ich <rs type="person" subtype="implied" ref="pmb2173">Euch</rs> immer derselbe bleiben will, eben dieser Euer alter </p>
+            <closer>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

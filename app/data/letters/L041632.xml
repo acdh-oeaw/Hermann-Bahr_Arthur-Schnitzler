@@ -1,135 +1,140 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041632.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041631.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041633.xml"> 
-   <teiHeader> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Richard Beer-Hofmann, 21. 8. 1905</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name>Ifkovits, Kurt</name> 
-               <name>Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name>FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name>Kurt Ifkovits</name> 
-               <name>Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="632"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87E8-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee> 
-                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb985">Fulpmes</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19050821" n="1">21. 8. 1905</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>U.S.A.</country> 
-                        <settlement>Yale</settlement> 
-                        <repository>Beinecke Rare Book and Manuscript Library</repository> 
-                        <idno>Yale Collection of German Literature, MSSS 30 f.</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse auf dem Kuvert von unbek. Hand gestrichen und ersetzt durch: »<quote>derzeit: <placeName ref="pmb751">Fulpmes Hotel Stubal Tirol</placeName> 
-                           </quote>« (eigentlich ›Hotel Stubai‹).</p> 
-                        <stamp n="1"> 
-                           <date when="19050821">21. <supplied>8.</supplied> 05</date> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <placeName ref="pmb173">Rodaun</placeName> 
-                        </stamp> 
-                        <stamp n="3"> 
-                           <placeName ref="pmb751">Fulpmes</placeName> 
-                           <date when="19050823">23. 8. 05</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160711">Angelegt</change> 
-         <change who="KI MAM" when="20160818">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Richard Beer-Hofmann</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb173"> 
-                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="underline" n="1">Bitte nachsenden.</hi> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>21. 8 05</date> 
-               </dateline> 
-               <p rend="right">Wien XIII/<hi rend="subscript">7</hi> 
-               </p> 
-               <salute>Lieber Richard!</salute> 
-            </opener> 
-            <p>Die <anchor type="commentary" xml:id="KL632-1">Karten</anchor> aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und ebenso hat Ihnen <rs type="person" ref="pmb26392">Vanjung</rs> wol meine <rs type="place" ref="pmb30"> 
-                  <settlement>Salzburg</settlement> 
-               </rs>er Grüße gebracht. Leider vergaß ich, nach Ihrer Adresse zu fragen, und muß Ihnen deshalb über <rs type="place" ref="pmb173">Rodaun</rs> schreiben. Ich brauche nemlich das Exemplar der »<rs type="work" ref="pmb29999">Anderen</rs>«, das Ihnen <rs type="person" ref="pmb2121">Arthur</rs>, auf meine Bitte, gegeben hat, und wäre Ihnen sehr dankbar, wenn es ihnen nicht zu viel Mühe machen wurde, es mir zu schicken. Plagen Sie sich aber nicht damit, mir dazu einen langen Brief zu schreiben – es ist viel gemütlicher: wir sprechen dann einmal hier in aller Ruhe davon. Ich sehne mich schon sehr, Sie und Frau <rs type="person" ref="pmb10860">Paula</rs>, die ich herzlichst grüße, wiederzusehen.</p> 
-            <closer>Ihr alter<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-            <postscript> 
-               <p> 
-                  <rs type="person" ref="pmb12504">Reinhardt</rs> hat mein <rs type="work" subtype="implied" ref="pmb29999">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041632.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041631.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041633.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Richard Beer-Hofmann, 21. 8. 1905</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="632"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87E8-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender>
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee>
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb985">Fulpmes</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19050821" n="1">21. 8. 1905</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSSS 30 f.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse auf dem Kuvert von unbek. Hand gestrichen und ersetzt durch: »<quote>derzeit: <placName ref="pmb751">Fulpmes Hotel Stubal Tirol</placName>
+                           </quote>« (eigentlich ›Hotel Stubai‹).</p>
+                        <stamp n="1">
+                           <date when="19050821">21. <supplied>8.</supplied> 05</date>
+                        </stamp>
+                        <stamp n="2">
+                           <placName ref="pmb173">Rodaun</placName>
+                        </stamp>
+                        <stamp n="3">
+                           <placName ref="pmb751">Fulpmes</placName>
+                           <date when="19050823">23. 8. 05</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160711">Angelegt</change>
+         <change who="KI MAM" when="20160818">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Richard Beer-Hofmann</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb173">
+                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</rs>
+               </addrLine>
+               <addrLine>
+                  <hi rend="underline" n="1">Bitte nachsenden.</hi>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>21. 8 05</date>
+               </dateline>
+               <p rend="right">Wien XIII/<hi rend="subscript">7</hi>
+               </p>
+               <salute>Lieber Richard!</salute>
+            </opener>
+            <p>Die <anchor type="commentary" xml:id="KL632-1">Karten</anchor> aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und ebenso hat Ihnen <rs type="person" ref="pmb26392">Vanjung</rs> wol meine <rs type="place" ref="pmb30">Salzburg</rs>er Grüße gebracht. Leider vergaß ich, nach Ihrer Adresse zu fragen, und muß Ihnen deshalb über <rs type="place" ref="pmb173">Rodaun</rs> schreiben. Ich brauche nemlich das Exemplar der »<rs type="work" ref="pmb29999">Anderen</rs>«, das Ihnen <rs type="person" ref="pmb2121">Arthur</rs>, auf meine Bitte, gegeben hat, und wäre Ihnen sehr dankbar, wenn es ihnen nicht zu viel Mühe machen wurde, es mir zu schicken. Plagen Sie sich aber nicht damit, mir dazu einen langen Brief zu schreiben – es ist viel gemütlicher: wir sprechen dann einmal hier in aller Ruhe davon. Ich sehne mich schon sehr, Sie und Frau <rs type="person" ref="pmb10860">Paula</rs>, die ich herzlichst grüße, wiederzusehen.</p>
+            <closer>Ihr alter<lb/>
+               <signed>Hermann</signed>
+            </closer>
+            <postscript>
+               <p>
+                  <rs type="person" ref="pmb12504">Reinhardt</rs> hat mein <rs type="work" subtype="implied" ref="pmb29999">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

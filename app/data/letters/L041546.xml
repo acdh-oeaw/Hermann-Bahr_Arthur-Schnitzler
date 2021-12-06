@@ -1,130 +1,125 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041546.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041545.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041547.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Otto Brahm, 29. 6. 1909</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="546"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8793-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">[Berlin]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19090629" n="01">29. 6. 1909</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct default="false" corresp="ASOB"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">276–278</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160413">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>29. Juni 09</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p> 
-               <rs type="person" ref="pmb12692">Heini</rs> hat seinen Krampfhusten, befindet sich aber dabei so gut als möglich. Nun steht die Sache aber so, daß <rs type="person" ref="pmb2173">Olga</rs> nicht viel mit ihm zusammen sein soll und daß er vorläufig nicht in ein belebtes Hotel darf – ich fahre also morgen mit <rs type="person" ref="pmb2173">Olga</rs> nach <rs type="place" ref="pmb714"> 
-                  <rs type="place" ref="pmb470"> 
-                     <settlement>Edlach</settlement> 
-                  </rs> (bei <rs type="place" ref="pmb948"> 
-                     <settlement>Payerbach</settlement> 
-                  </rs>, Edlacher Hof)</rs>, <rs type="person" ref="pmb12692">Heini</rs> bleibt bis auf weiteres hier, und ich werde etliche Male hin und her reisen. Warum aber fahren wir erst morgen (nachmittag)? Hier, höchst vertraulich, Mitteilung des Grundes. Ich hatte gestern mit <rs type="person" ref="pmb12671">Schlenther</rs> eine Besprechung über den <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi>: die erste, er kam gerade von <rs type="person" ref="pmb3290">Montenuovo</rs>, und die immerhin vorhandenen »Bedenken« scheinen so geringfügig, daß eine Aufführung am <rs type="place" ref="pmb14">Burgtheater</rs> höchstwahrscheinlich ist, um so mehr als <rs type="person" ref="pmb12671">Schlenther</rs> das Stück »mit wärmerer Anteilnahme gelesen als irgendeines meiner Werke« und mir auch allerlei Erfreuliches darüber sagte. Sogar die Dekorationsskizzen sind schon gezeichnet, und ich habe morgen vormittag auf der Bühne eine Konferenz mit <rs type="person" ref="pmb28634">Frank</rs> und <rs type="person" ref="pmb12047">Leffler</rs>, wo gewisse Sachen gleich ausprobiert werden sollen. Im ganzen wird es sich für mich nur um tüchtige Striche und Zusammenziehung einiger Figuren handeln. (Die Kosten sind auf 60–80 000 Kronen veranschlagt.) In einer gestrigen Besprechung mit <rs type="person" ref="pmb28634">Frank</rs> zeigte es sich, daß die Szenenwechsel (außer vor dem Bastei-Akt) nie mehr als 3–5 Minuten dauern müssen. – Es freut mich sehr, daß auch Sie der Historie ein so herzliches Interesse entgegengebracht haben; gewiß können Sie das Ms. noch behalten. – Was nun das andere in Betracht kommende <rs type="work" subtype="implied" ref="pmb30207">Stück</rs> anbelangt, so treten meine Aufführungspläne so lange in den Hintergrund (im Spielraum der nächsten Saison), als sich nicht die Aufführungsmöglichkeiten des <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi> wieder zerschlagen sollten, denn es schiene mir unpraktisch, mit zwei so umfangreichen Novitäten die Götter und die Schweine herauszufordern, um so mehr als auch die <rs type="work" subtype="implied" ref="pmb30215">Pantomime</rs> (in <rs type="place" ref="pmb866"> 
-                  <settlement>Dresden</settlement> 
-               </rs> zuerst) und das <rs type="work" subtype="implied" ref="pmb30217">Singspiel</rs> einiges Interesse beanspruchen möchten. Immerhin habe ich vor allem die Exposition einigermaßen verbessert (Striche, Umstellungen), korrigiere noch da und dort, lasse die Sache abschreiben und sende sie bald gelegentlich an Sie ab. – Den <rs type="work" ref="pmb29905"> 
-                  <hi rend="italic">Ruf</hi> 
-               </rs> werde ich also am <rs type="place" ref="pmb334">Schillertheater</rs> spielen lassen. – Nun zur <rs type="work" ref="pmb29931"> 
-                  <hi rend="italic">Komtesse</hi> 
-               </rs>. Bin natürlich a priori sehr angenehm berührt, mit <rs type="person" ref="pmb10815">Bahr</rs> zusammen aufzutauchen, aber möchten Sie mich nicht doch das <hi rend="italic"> 
-                  <rs type="work" ref="pmb29933">Konzert</rs> 
-               </hi> lesen lassen? Auch nehme ich gern an, daß Sie an Tantiemegarantie das <rs type="place" ref="pmb208">Kleine Theater</rs> nicht hinter sich lassen wollen. Perzente, wenn <rs type="person" ref="pmb10815">Bahr</rs> 7 hat, natürlich mir 3, andernfalls die Ergänzung auf 10. Aber selbstverständlich fände ich 7 : 3 am richtigsten.</p> 
-            <p>Und nun, nach all dem Geschäftlichen, wie geht’s Ihnen, Ihrer Gesundheit, was haben Sie für weitere Sommerpläne? Wir bleiben wohl bis Ende August in <rs type="place" ref="pmb470"> 
-                  <settlement>Edlach</settlement> 
-               </rs>; ich nicht ohne kleinere Berg-und-Tal-Fahrten – am Ende schließen Sie Ihren Sommer doch mit etwas <rs type="place" ref="pmb189"> 
-                  <settlement>Semmering</settlement> 
-               </rs> ab? Heute Abend sehen wir uns, nach Jahren, <rs type="person" ref="pmb11851">Kainz</rs> wieder einmal als <rs type="work" subtype="implied" ref="pmb29903">Amadeus</rs> an. Mir ist, als wäre sein geändertes Spielverhältnis zum <rs type="place" ref="pmb14">Burgtheater</rs> nicht ohne Zusammenhang mit den günstigen Chancen des <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi> am gleichen Ort. So ist alles Konstellation. Mit den schönsten Grüßen von uns allen</p> 
-            <closer>Ihr <signed>A. S.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041546.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041545.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041547.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Otto Brahm, 29. 6. 1909</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="546"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8793-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">[Berlin]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19090629" n="01">29. 6. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">276–278</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160413">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>29. Juni 09</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>
+               <rs type="person" ref="pmb12692">Heini</rs> hat seinen Krampfhusten, befindet sich aber dabei so gut als möglich. Nun steht die Sache aber so, daß <rs type="person" ref="pmb2173">Olga</rs> nicht viel mit ihm zusammen sein soll und daß er vorläufig nicht in ein belebtes Hotel darf – ich fahre also morgen mit <rs type="person" ref="pmb2173">Olga</rs> nach <rs type="place" ref="pmb714">
+                  <rs type="place" ref="pmb470">Edlach</rs> (bei <rs type="place" ref="pmb948">Payerbach</rs>, Edlacher Hof)</rs>, <rs type="person" ref="pmb12692">Heini</rs> bleibt bis auf weiteres hier, und ich werde etliche Male hin und her reisen. Warum aber fahren wir erst morgen (nachmittag)? Hier, höchst vertraulich, Mitteilung des Grundes. Ich hatte gestern mit <rs type="person" ref="pmb12671">Schlenther</rs> eine Besprechung über den <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi>: die erste, er kam gerade von <rs type="person" ref="pmb3290">Montenuovo</rs>, und die immerhin vorhandenen »Bedenken« scheinen so geringfügig, daß eine Aufführung am <rs type="place" ref="pmb14">Burgtheater</rs> höchstwahrscheinlich ist, um so mehr als <rs type="person" ref="pmb12671">Schlenther</rs> das Stück »mit wärmerer Anteilnahme gelesen als irgendeines meiner Werke« und mir auch allerlei Erfreuliches darüber sagte. Sogar die Dekorationsskizzen sind schon gezeichnet, und ich habe morgen vormittag auf der Bühne eine Konferenz mit <rs type="person" ref="pmb28634">Frank</rs> und <rs type="person" ref="pmb12047">Leffler</rs>, wo gewisse Sachen gleich ausprobiert werden sollen. Im ganzen wird es sich für mich nur um tüchtige Striche und Zusammenziehung einiger Figuren handeln. (Die Kosten sind auf 60–80 000 Kronen veranschlagt.) In einer gestrigen Besprechung mit <rs type="person" ref="pmb28634">Frank</rs> zeigte es sich, daß die Szenenwechsel (außer vor dem Bastei-Akt) nie mehr als 3–5 Minuten dauern müssen. – Es freut mich sehr, daß auch Sie der Historie ein so herzliches Interesse entgegengebracht haben; gewiß können Sie das Ms. noch behalten. – Was nun das andere in Betracht kommende <rs type="work" subtype="implied" ref="pmb30207">Stück</rs> anbelangt, so treten meine Aufführungspläne so lange in den Hintergrund (im Spielraum der nächsten Saison), als sich nicht die Aufführungsmöglichkeiten des <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi> wieder zerschlagen sollten, denn es schiene mir unpraktisch, mit zwei so umfangreichen Novitäten die Götter und die Schweine herauszufordern, um so mehr als auch die <rs type="work" subtype="implied" ref="pmb30215">Pantomime</rs> (in <rs type="place" ref="pmb866">Dresden</rs> zuerst) und das <rs type="work" subtype="implied" ref="pmb30217">Singspiel</rs> einiges Interesse beanspruchen möchten. Immerhin habe ich vor allem die Exposition einigermaßen verbessert (Striche, Umstellungen), korrigiere noch da und dort, lasse die Sache abschreiben und sende sie bald gelegentlich an Sie ab. – Den <rs type="work" ref="pmb29905">
+                  <hi rend="italic">Ruf</hi>
+               </rs> werde ich also am <rs type="place" ref="pmb334">Schillertheater</rs> spielen lassen. – Nun zur <rs type="work" ref="pmb29931">
+                  <hi rend="italic">Komtesse</hi>
+               </rs>. Bin natürlich a priori sehr angenehm berührt, mit <rs type="person" ref="pmb10815">Bahr</rs> zusammen aufzutauchen, aber möchten Sie mich nicht doch das <hi rend="italic">
+                  <rs type="work" ref="pmb29933">Konzert</rs>
+               </hi> lesen lassen? Auch nehme ich gern an, daß Sie an Tantiemegarantie das <rs type="place" ref="pmb208">Kleine Theater</rs> nicht hinter sich lassen wollen. Perzente, wenn <rs type="person" ref="pmb10815">Bahr</rs> 7 hat, natürlich mir 3, andernfalls die Ergänzung auf 10. Aber selbstverständlich fände ich 7 : 3 am richtigsten.</p>
+            <p>Und nun, nach all dem Geschäftlichen, wie geht’s Ihnen, Ihrer Gesundheit, was haben Sie für weitere Sommerpläne? Wir bleiben wohl bis Ende August in <rs type="place" ref="pmb470">Edlach</rs>; ich nicht ohne kleinere Berg-und-Tal-Fahrten – am Ende schließen Sie Ihren Sommer doch mit etwas <rs type="place" ref="pmb189">Semmering</rs> ab? Heute Abend sehen wir uns, nach Jahren, <rs type="person" ref="pmb11851">Kainz</rs> wieder einmal als <rs type="work" subtype="implied" ref="pmb29903">Amadeus</rs> an. Mir ist, als wäre sein geändertes Spielverhältnis zum <rs type="place" ref="pmb14">Burgtheater</rs> nicht ohne Zusammenhang mit den günstigen Chancen des <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi> am gleichen Ort. So ist alles Konstellation. Mit den schönsten Grüßen von uns allen</p>
+            <closer>Ihr <signed>A. S.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

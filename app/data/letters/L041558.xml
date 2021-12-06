@@ -1,114 +1,119 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041558.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041557.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041559.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Brahm an Arthur Schnitzler, 7. 9. 1911</title> 
-            <author ref="pmb10986">Brahm, Otto</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="558"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-879F-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19110907" n="01">7. 9. 1911</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASOB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">326–327</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160414">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement>Berlin</settlement> 
-                  </rs>, <date>7. 9. 11</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>mit herzlicher Teilnahme erfahre ich von der ernsten Erkrankung Ihrer <rs type="person" subtype="implied" ref="pmb12701">Mutter</rs> und begleite Sie alle in der schweren Not dieser Zeiten mit meinen besten, innigsten Wünschen.</p> 
-            <p>Ihre Amendierung meiner <rs type="work" subtype="implied" ref="pmb30207">Vorschläge</rs> wird genauestens berücksichtigt, bei den Reparaturen S. 105 und besonders S. 172 allerdings nicht mit dramaturgischer Überzeugtheit. Daß Ihnen die Besetzung recht ist, ist mir sehr lieb.</p> 
-            <p>Ihr Gönner <rs type="person" ref="pmb3579">Jacobsohn</rs> (der von der Operette, ich glaube ich habe ein H in ihm gefunden, das er nicht beansprucht) hat also den <rs type="person" ref="pmb10896">Bernauer</rs> für <hi rend="italic"> 
-                  <rs type="work" ref="pmb29937">Medardus</rs> 
-               </hi> richtig »gewonnen« – aber was hilft der Protektor bei einem so spröden Autor? Sie können’s gewiß abwarten und wenn das Theater sich entwickelt, ihm immer noch das Stück geben. Oder wohl besser dem <rs type="place" ref="pmb738">Berliner Theater</rs>, wo es als Zugstück zu inszenieren wäre! –</p> 
-            <p>Der Gedanke, <hi rend="italic"> 
-                  <rs type="work" ref="pmb29931">Mizzi</rs> 
-               </hi> mit <rs type="person" ref="pmb10815">Bahr</rs>s <hi rend="italic"> 
-                  <rs type="work" ref="pmb30085">Tänzchen</rs> 
-               </hi> zusammen zu geben, lebt embryonalisch in mir fort.</p> 
-            <closer>Herzlich Ihr <signed>O. B.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041558.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041557.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041559.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Arthur Schnitzler, 7. 9. 1911</title>
+            <author ref="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="558"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-879F-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19110907" n="01">7. 9. 1911</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">326–327</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160414">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb168">Berlin</rs>, <date>7. 9. 11</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>mit herzlicher Teilnahme erfahre ich von der ernsten Erkrankung Ihrer <rs type="person" subtype="implied" ref="pmb12701">Mutter</rs> und begleite Sie alle in der schweren Not dieser Zeiten mit meinen besten, innigsten Wünschen.</p>
+            <p>Ihre Amendierung meiner <rs type="work" subtype="implied" ref="pmb30207">Vorschläge</rs> wird genauestens berücksichtigt, bei den Reparaturen S. 105 und besonders S. 172 allerdings nicht mit dramaturgischer Überzeugtheit. Daß Ihnen die Besetzung recht ist, ist mir sehr lieb.</p>
+            <p>Ihr Gönner <rs type="person" ref="pmb3579">Jacobsohn</rs> (der von der Operette, ich glaube ich habe ein H in ihm gefunden, das er nicht beansprucht) hat also den <rs type="person" ref="pmb10896">Bernauer</rs> für <hi rend="italic">
+                  <rs type="work" ref="pmb29937">Medardus</rs>
+               </hi> richtig »gewonnen« – aber was hilft der Protektor bei einem so spröden Autor? Sie können’s gewiß abwarten und wenn das Theater sich entwickelt, ihm immer noch das Stück geben. Oder wohl besser dem <rs type="place" ref="pmb738">Berliner Theater</rs>, wo es als Zugstück zu inszenieren wäre! –</p>
+            <p>Der Gedanke, <hi rend="italic">
+                  <rs type="work" ref="pmb29931">Mizzi</rs>
+               </hi> mit <rs type="person" ref="pmb10815">Bahr</rs>s <hi rend="italic">
+                  <rs type="work" ref="pmb30085">Tänzchen</rs>
+               </hi> zusammen zu geben, lebt embryonalisch in mir fort.</p>
+            <closer>Herzlich Ihr <signed>O. B.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

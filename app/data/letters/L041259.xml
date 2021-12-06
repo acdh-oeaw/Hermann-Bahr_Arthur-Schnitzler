@@ -1,138 +1,143 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041259.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041258.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041260.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 21. 5. 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="259"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8674-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb470">Reichenau an der Rax</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19030521" n="01">21. 5. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote> 
-                              <date>903</date>.</quote>« von Schnitzler ergänzt.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb470">Edlach b. Reichenau in N.OE.</placeName> 
-                           <date when="19030522">22 5 03</date> 
-                           <time>8–12V</time> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <vorgang>Bestellt</vorgang> 
-                           <placeName ref="pmb59">Wien 9/3</placeName> 
-                           <date when="19030522">22 5. 03</date> 
-                           <time>1.N</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151210">Kollationiert</change> 
-         <change who="KI MAM" when="20170529">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00175"/> 
-      <graphic url="MS-B-00005-B-000-00176"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb59">Wien IX</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb397">Frankgasse</rs> 1.</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb80">Edlach Anstalt D<hi rend="superscript">r</hi> Konried</rs> 
-                  <lb/> 
-                  <date>21. 5.</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber Arthur! </salute>Ich habe keine Ahnung, was Du eigentlich meinst. Ich bin seit drei Jahren Mitglied des <anchor type="commentary" xml:id="KL259-1"> 
-                  <rs type="place" ref="pmb155"> 
-                     <settlement>Münchner</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="org" subtype="implied" ref="pmb29757">Pensionsfonds</rs> 
-               </anchor> und zahle dafür sehr wenig; ich glaube 6 oder 8 Mark pro Quartal. Von einer anderen »Zeichnung« ist mir nichts bekannt. Ich komme übrigens Montag zurück u. werde mich dann erkundigen.</p> 
-            <closer>Herzlichst<lb/>Dein<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041259.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041258.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041260.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 21. 5. 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="259"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8674-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb470">Reichenau an der Rax</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19030521" n="01">21. 5. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Korrespondenzkarte, Jahreszahl »<quote>
+                              <date>903</date>.</quote>« von Schnitzler ergänzt.</p>
+                        <stamp n="1">
+                           <placName ref="pmb470">Edlach b. Reichenau in N.OE.</placName>
+                           <date when="19030522">22 5 03</date>
+                           <time>8–12V</time>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placName ref="pmb59">Wien 9/3</placName>
+                           <date when="19030522">22 5. 03</date>
+                           <time>1.N</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151210">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00175"/>
+      <graphic url="MS-B-00005-B-000-00176"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb59">Wien IX</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb397">Frankgasse</rs> 1.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb80">Edlach Anstalt D<hi rend="superscript">r</hi> Konried</rs>
+                  <lb/>
+                  <date>21. 5.</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber Arthur! </salute>Ich habe keine Ahnung, was Du eigentlich meinst. Ich bin seit drei Jahren Mitglied des <anchor type="commentary" xml:id="KL259-1">
+                  <rs type="place" ref="pmb45258">Münchner</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="org" subtype="implied" ref="pmb29757">Pensionsfonds</rs>
+               </anchor> und zahle dafür sehr wenig; ich glaube 6 oder 8 Mark pro Quartal. Von einer anderen »Zeichnung« ist mir nichts bekannt. Ich komme übrigens Montag zurück u. werde mich dann erkundigen.</p>
+            <closer>Herzlichst<lb/>Dein<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

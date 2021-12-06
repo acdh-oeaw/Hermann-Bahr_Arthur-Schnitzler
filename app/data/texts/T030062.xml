@@ -1,143 +1,151 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030062.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030061.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030063.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: Münchner Hoftheater Pläne [I], Dezember 1905</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="062"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AAB-6</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="19051200" n="1">Dezember 1905</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 3675 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">In: Abreißblock, Bleistift, 12 Bl. in Umschlag, von Bahr eh. beschriftet: »<quote> 
-                              <placeName ref="pmb9">Münchner Hoftheater</placeName> Pläne. / <date>Dezember 1905</date> 
-                           </quote>«, unpag., [S. 13].</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20161004" who="KI MAM">Angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="note"> 
-      <body> 
-         <div> 
-            <p part="N"> 
-               <table> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">1.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KT062-2"> 
-                           <rs type="work" ref="pmb32111">Bakchen</rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">2.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KT062-1"> 
-                           <rs type="work" subtype="implied" ref="pmb32029"> 
-                              <rs type="person" ref="pmb12605">Hans Sachs</rs> 
-                           </rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">3.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb29905">Ruf des Lebens</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">4.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs subtype="local" type="work" ref="pmb31897">Widerspenstige</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">5.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KT062-4"> 
-                           <rs type="work" ref="pmb32045">Der reiche Jüngling</rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">6.</cell> 
-                     <cell role="data" rows="1" cols="1">Einakter</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">(<rs type="person" ref="pmb12311">Musset</rs>. <anchor type="commentary" xml:id="KT062-5"> 
-                           <rs type="work" ref="pmb31955">Der Bär</rs> 
-                        </anchor>. <rs type="person" ref="pmb13107">Wied</rs>s <rs type="work" ref="pmb31969">Abrechnung</rs>.)</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">7.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31705">Cain</rs> 
-                        <space unit="chars" quantity="1"/> 
-                        <rs type="person" ref="pmb11057">Byron</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">8.</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KT062-3"> 
-                           <rs type="work" ref="pmb30221">Penthesilea</rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-               </table> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030062.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030061.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030063.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: Münchner Hoftheater Pläne [I], Dezember 1905</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="062"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AAB-6</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19051200" n="1">Dezember 1905</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 3675 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">In: Abreißblock, Bleistift, 12 Bl. in Umschlag, von Bahr eh. beschriftet: »<quote>
+                              <placName ref="pmb9">Münchner Hoftheater</placName> Pläne. / <date>Dezember 1905</date>
+                           </quote>«, unpag., [S. 13].</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20161004" who="KI MAM">Angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="note">
+      <body>
+         <div>
+            <p part="N">
+               <table>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">1.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KT062-2">
+                           <rs type="work" ref="pmb32111">Bakchen</rs>
+                        </anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">2.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KT062-1">
+                           <rs type="work" subtype="implied" ref="pmb32029">
+                              <rs type="person" ref="pmb12605">Hans Sachs</rs>
+                           </rs>
+                        </anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">3.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb29905">Ruf des Lebens</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">4.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs subtype="local" type="work" ref="pmb31897">Widerspenstige</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">5.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KT062-4">
+                           <rs type="work" ref="pmb32045">Der reiche Jüngling</rs>
+                        </anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">6.</cell>
+                     <cell role="data" rows="1" cols="1">Einakter</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">(<rs type="person" ref="pmb12311">Musset</rs>. <anchor type="commentary" xml:id="KT062-5">
+                           <rs type="work" ref="pmb31955">Der Bär</rs>
+                        </anchor>. <rs type="person" ref="pmb13107">Wied</rs>s <rs type="work" ref="pmb31969">Abrechnung</rs>.)</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">7.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31705">Cain</rs>
+                        <space unit="chars" quantity="1"/>
+                        <rs type="person" ref="pmb11057">Byron</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">8.</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KT062-3">
+                           <rs type="work" ref="pmb30221">Penthesilea</rs>
+                        </anchor>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

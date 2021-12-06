@@ -1,89 +1,96 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041345.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041344.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041346.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 9. 5. 1922</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="345"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8973-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1920–1922</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1993">1993</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19220509" n="1">9/5</date> früh Ankunft <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>.– <rs type="place" ref="pmb245">Hotel Esplanade</rs>. Die Hausdame des 1. Stockes erinnert sich, daß ich zuletzt mit <rs type="person" ref="pmb2173">O.</rs> dagewohnt, zu ihrem Concert.– <rs type="person" ref="pmb2774">Dora M.</rs> holt mich im Hotel ab.– <rs type="person" ref="pmb11324">Verlag Fischer</rs>. <rs type="person" ref="pmb11324">Fischer</rs> zeigt mir die neue <rs type="work" subtype="implied" ref="pmb30313">Ges. Ausgabe</rs>. Lerne <rs type="person" ref="pmb11515">Greiner</rs> kennen. Geschäftliches.–</p> 
-            <p>Mittagesse bei <rs type="person" ref="pmb3064 pmb2774">Michaelis’</rs>. Die <rs type="person" subtype="implied" ref="pmb21415 pmb27995 pmb27999">drei Buben</rs>.–</p> 
-            <p>Lese Nm. die <anchor type="commentary" xml:id="KD345-1"> 
-                  <rs type="org" ref="pmb29212">N. R.</rs> 
-               </anchor> mit den großentheils sehr hübschen <rs type="work" subtype="implied" ref="pmb31483 pmb31481 pmb31479 pmb31477 pmb31475 pmb31473 pmb31471 pmb31469 pmb31467 pmb31465 pmb31463 pmb31461 pmb31459 pmb31457 pmb31455">Grüßen zu meinem Geburtstag</rs>. (<anchor type="commentary" xml:id="KD345-2"> 
-                  <rs type="work" subtype="implied" ref="pmb31235"> 
-                     <rs type="person" ref="pmb2456">Specht</rs> 
-                  </rs> 
-               </anchor>, <anchor type="commentary" xml:id="KD345-3"> 
-                  <rs type="person" ref="pmb10788">Auernheimer</rs>, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10955">Blei</rs>, <rs type="person" ref="pmb11324">Fischer</rs>, <rs type="person" ref="pmb11327">Flake</rs>, <rs type="person" ref="pmb2771">Friedell</rs>, <rs type="person" ref="pmb11617">Hauptmann</rs>, <rs type="person" ref="pmb11740">Hofmannsthal</rs>, <rs type="person" ref="pmb11752">Hollaender</rs>, <rs type="person" ref="pmb11910">Kerr</rs>, <rs type="person" ref="pmb12170">Heinrich Mann</rs>, <rs type="person" ref="pmb12176">Th. Mann</rs>, <rs type="person" ref="pmb13055">Wassermann</rs>, <rs type="person" ref="pmb13094">Werfel</rs>, <rs type="person" ref="pmb13212">Zweig</rs> 
-               </anchor>.)</p> 
-            <p>Mit <rs type="person" ref="pmb3064 pmb2774">Michaelis’</rs> im <rs type="place" ref="pmb246">Königgr. Theater</rs>, »<rs type="work" ref="pmb30835">die wunderlichen Abenteuer des Kapellm. Kreisler</rs>« – nur technisch decorativ interessant.– Bei <rs type="place" ref="pmb247">Stallmann</rs> genachtm.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041345.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041344.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041346.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 9. 5. 1922</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="345"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8973-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1920–1922</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1993">1993</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19220509" n="1">9/5</date> früh Ankunft <rs type="place" ref="pmb168">Berlin</rs>.– <rs type="place" ref="pmb245">Hotel Esplanade</rs>. Die Hausdame des 1. Stockes erinnert sich, daß ich zuletzt mit <rs type="person" ref="pmb2173">O.</rs> dagewohnt, zu ihrem Concert.– <rs type="person" ref="pmb2774">Dora M.</rs> holt mich im Hotel ab.– <rs type="person" ref="pmb11324">Verlag Fischer</rs>. <rs type="person" ref="pmb11324">Fischer</rs> zeigt mir die neue <rs type="work" subtype="implied" ref="pmb30313">Ges. Ausgabe</rs>. Lerne <rs type="person" ref="pmb11515">Greiner</rs> kennen. Geschäftliches.–</p>
+            <p>Mittagesse bei <rs type="person" ref="pmb3064 pmb2774">Michaelis’</rs>. Die <rs type="person" subtype="implied" ref="pmb21415 pmb27995 pmb27999">drei Buben</rs>.–</p>
+            <p>Lese Nm. die <anchor type="commentary" xml:id="KD345-1">
+                  <rs type="org" ref="pmb29212">N. R.</rs>
+               </anchor> mit den großentheils sehr hübschen <rs type="work"
+                   subtype="implied"
+                   ref="pmb31483 pmb31481 pmb31479 pmb31477 pmb31475 pmb31473 pmb31471 pmb31469 pmb31467 pmb31465 pmb31463 pmb31461 pmb31459 pmb31457 pmb31455">Grüßen zu meinem Geburtstag</rs>. (<anchor type="commentary" xml:id="KD345-2">
+                  <rs type="work" subtype="implied" ref="pmb31235">
+                     <rs type="person" ref="pmb2456">Specht</rs>
+                  </rs>
+               </anchor>, <anchor type="commentary" xml:id="KD345-3">
+                  <rs type="person" ref="pmb10788">Auernheimer</rs>, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10955">Blei</rs>, <rs type="person" ref="pmb11324">Fischer</rs>, <rs type="person" ref="pmb11327">Flake</rs>, <rs type="person" ref="pmb2771">Friedell</rs>, <rs type="person" ref="pmb11617">Hauptmann</rs>, <rs type="person" ref="pmb11740">Hofmannsthal</rs>, <rs type="person" ref="pmb11752">Hollaender</rs>, <rs type="person" ref="pmb11910">Kerr</rs>, <rs type="person" ref="pmb12170">Heinrich Mann</rs>, <rs type="person" ref="pmb12176">Th. Mann</rs>, <rs type="person" ref="pmb13055">Wassermann</rs>, <rs type="person" ref="pmb13094">Werfel</rs>, <rs type="person" ref="pmb13212">Zweig</rs>
+               </anchor>.)</p>
+            <p>Mit <rs type="person" ref="pmb3064 pmb2774">Michaelis’</rs> im <rs type="place" ref="pmb13">Königgr. Theater</rs>, »<rs type="work" ref="pmb30835">die wunderlichen Abenteuer des Kapellm. Kreisler</rs>« – nur technisch decorativ interessant.– Bei <rs type="place" ref="pmb247">Stallmann</rs> genachtm.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

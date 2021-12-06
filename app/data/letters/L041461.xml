@@ -1,130 +1,119 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041461.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041460.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041462.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Heinrich Schnitzler, 13. 4. 1929</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="461"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-873E-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb12692">Schnitzler, Heinrich</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19290413" n="01">13. 4. 1929</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASB2" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1913–1931</title> 
-                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1984">1984</date> 
-                     </imprint> 
-                     <biblScope unit="pp">601–602</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160315">Angelegt aus Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>13. 4. 1929</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>Mein lieber Heini, </salute>um vor allem deine Reisefragen zu beantworten: <geogName type="lake" instant="false" ref="pmb605">Faakersee</geogName> kenn ich nur vom Vorbeifahren; <rs type="person" ref="pmb12936">Thaller</rs> hat dort eine Besitzung; liebliche, nicht sehr aufregende Landschaft. <rs type="place" ref="pmb590"> 
-                  <settlement>Veldes</settlement> 
-               </rs> etwa ebenso; dort bin ich als Knabe, Knäbchen<c rendition="#dots" n="2"/> gewesen, mit den <rs type="person" subtype="implied" ref="pmb12701 pmb12695">Eltern</rs>, nur ein paar Tage lang – zu längerm Aufenthalt wohl nichts. Ich glaube, dass es in <rs type="place" ref="pmb265">Dalmatien</rs>, wenigstens an den Küstenorten nicht heißer ist als an den <geogName type="lake">Kärntnerseen</geogName>; – und ich würde unter diesen doch nur den <geogName type="lake" instant="false" ref="pmb606">Wörther See</geogName> und zwar das gegen Norden offne <rs type="place" ref="pmb590"> 
-                  <settlement>Veldes</settlement> 
-               </rs> wählen (wo es<pb/> überdies schöne Wälder gibt). – <rs type="place" ref="pmb981"> 
-                  <settlement>Vent</settlement> 
-               </rs>, mir unbekannt, höchstes Dorf <rs type="place" ref="pmb162">Oesterreichs</rs> –?, – soll sehr schön sein; ich glaube <rs type="person" ref="pmb13149 pmb28595">Wohlgemuts</rs> wohnen dort gewöhnlich in den Ferien <c rendition="#dots" n="3" place="center"/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb607">Stubaithal</rs> sehr reizvoll, wie auch andre <rs type="place" ref="pmb607">Brenner</rs>orte, wie <rs type="place" ref="pmb591"> 
-                  <settlement>Matrei</settlement> 
-               </rs> u. dgl (nicht <hi rend="italic"> 
-                  <rs type="place" ref="pmb364"> 
-                     <settlement>Windischmatrei</settlement> 
-                  </rs> 
-               </hi>, das übrigens sehr schön sein soll, – nahe <rs type="place" ref="pmb897"> 
-                  <settlement>Lienz</settlement> 
-               </rs>, u ich glaube 1400 meter hoch.) –</p> 
-            <p>Wegen <rs type="person" ref="pmb11836">Jessner</rs> bin ich unbesorgt; – soweit es dich anbelangt. – Sein Schicksal ist mir gleichgiltig. –</p> 
-            <p>– Ich fühle mich nur mäßig wohl; – und im seelischen gar nicht. Der Frühling thut meinem Herzen besonders weh. Arbeite wenig; nichts wird fertig. – </p> 
-            <p>Meine <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er Angelegenheiten ruhn. Erstens hat <rs type="person" ref="pmb28574">Lyonel</rs> für den »<rs type="work" ref="pmb29985">Weg</rs>« noch nichts gezahlt; – zweitens hab ich natürlich auch von <rs type="person" ref="pmb13004">Conny</rs> nichts mehr gehört (dessen zweiter <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er <rs type="work" subtype="implied" ref="pmb32055">Film</rs> wie ich lese auch schon feststeht). – An neuen Menschen mangelts nicht; manche von ihnen sind anregend, und man fühlt zuweilen, dass in manchen Gegenden, – seelisch genommen – eine Art nachwelthaften Interesses für Einen besteht – an dem man doch noch in verhältnismäßiger Lebendigkeit Freude haben kann. – </p> 
-            <p>Im <rs type="place" ref="pmb14">Burgtheater</rs> spielt nächstens <hi rend="italic"> 
-                  <rs type="person" ref="pmb10821">Balser</rs> 
-               </hi> den <rs type="work" ref="pmb29873">Puppenspieler</rs>, – gemildert durch den <rs type="work" ref="pmb29913">Faun</rs> von <rs type="person" ref="pmb10815">Bahr</rs> und die <rs type="work" ref="pmb31659">schönen Seelen</rs> von <rs type="person" ref="pmb2167">Salten</rs>. – </p> 
-            <p>Neulich ein Concert (<rs type="person" ref="pmb10934">Billroth</rs>feier), in dem <rs type="person" ref="pmb10812">Backhaus</rs> das <rs type="work" ref="pmb32127">B dur Concert</rs> von <rs type="work" ref="pmb32127">Brahms</rs> sehr schön spielte.</p> 
-            <p>Grüß mir <rs type="person" ref="pmb5960">Ruth</rs> mein lieber <rs type="person" subtype="implied" ref="pmb12692">Sohn</rs> und sei innig umarmt.</p> 
-            <closer>Dein<lb/> 
-               <signed>Vater.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041461.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041460.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041462.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Heinrich Schnitzler, 13. 4. 1929</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="461"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-873E-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb12692">Schnitzler, Heinrich</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19290413" n="01">13. 4. 1929</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASB2">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1913–1931</title>
+                     <editor>Hg. Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                     <biblScope unit="pp">601–602</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160315">Angelegt aus Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>13. 4. 1929</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Mein lieber Heini, </salute>um vor allem deine Reisefragen zu beantworten: <geogName type="lake" instant="false" ref="pmb605">Faakersee</geogName> kenn ich nur vom Vorbeifahren; <rs type="person" ref="pmb12936">Thaller</rs> hat dort eine Besitzung; liebliche, nicht sehr aufregende Landschaft. <rs type="place" ref="pmb590">Veldes</rs> etwa ebenso; dort bin ich als Knabe, Knäbchen<c rendition="#dots" n="2"/> gewesen, mit den <rs type="person" subtype="implied" ref="pmb12701 pmb12695">Eltern</rs>, nur ein paar Tage lang – zu längerm Aufenthalt wohl nichts. Ich glaube, dass es in <rs type="place" ref="pmb265">Dalmatien</rs>, wenigstens an den Küstenorten nicht heißer ist als an den <geogName type="lake">Kärntnerseen</geogName>; – und ich würde unter diesen doch nur den <geogName type="lake" instant="false" ref="pmb606">Wörther See</geogName> und zwar das gegen Norden offne <rs type="place" ref="pmb590">Veldes</rs> wählen (wo es<pb/> überdies schöne Wälder gibt). – <rs type="place" ref="pmb49118">Vent</rs>, mir unbekannt, höchstes Dorf <rs type="place" ref="pmb41240">Oesterreichs</rs> –?, – soll sehr schön sein; ich glaube <rs type="person" ref="pmb13149 pmb28595">Wohlgemuts</rs> wohnen dort gewöhnlich in den Ferien <c rendition="#dots" n="3" place="center"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb607">Stubaithal</rs> sehr reizvoll, wie auch andre <rs type="place" ref="pmb607">Brenner</rs>orte, wie <rs type="place" ref="pmb591">Matrei</rs> u. dgl (nicht <hi rend="italic">
+                  <rs type="place" ref="pmb364">Windischmatrei</rs>
+               </hi>, das übrigens sehr schön sein soll, – nahe <rs type="place" ref="pmb897">Lienz</rs>, u ich glaube 1400 meter hoch.) –</p>
+            <p>Wegen <rs type="person" ref="pmb11836">Jessner</rs> bin ich unbesorgt; – soweit es dich anbelangt. – Sein Schicksal ist mir gleichgiltig. –</p>
+            <p>– Ich fühle mich nur mäßig wohl; – und im seelischen gar nicht. Der Frühling thut meinem Herzen besonders weh. Arbeite wenig; nichts wird fertig. – </p>
+            <p>Meine <rs type="place" ref="pmb168">Berlin</rs>er Angelegenheiten ruhn. Erstens hat <rs type="person" ref="pmb28574">Lyonel</rs> für den »<rs type="work" ref="pmb29985">Weg</rs>« noch nichts gezahlt; – zweitens hab ich natürlich auch von <rs type="person" ref="pmb13004">Conny</rs> nichts mehr gehört (dessen zweiter <rs type="place" ref="pmb168">Berlin</rs>er <rs type="work" subtype="implied" ref="pmb32055">Film</rs> wie ich lese auch schon feststeht). – An neuen Menschen mangelts nicht; manche von ihnen sind anregend, und man fühlt zuweilen, dass in manchen Gegenden, – seelisch genommen – eine Art nachwelthaften Interesses für Einen besteht – an dem man doch noch in verhältnismäßiger Lebendigkeit Freude haben kann. – </p>
+            <p>Im <rs type="place" ref="pmb14">Burgtheater</rs> spielt nächstens <hi rend="italic">
+                  <rs type="person" ref="pmb10821">Balser</rs>
+               </hi> den <rs type="work" ref="pmb29873">Puppenspieler</rs>, – gemildert durch den <rs type="work" ref="pmb29913">Faun</rs> von <rs type="person" ref="pmb10815">Bahr</rs> und die <rs type="work" ref="pmb31659">schönen Seelen</rs> von <rs type="person" ref="pmb2167">Salten</rs>. – </p>
+            <p>Neulich ein Concert (<rs type="person" ref="pmb10934">Billroth</rs>feier), in dem <rs type="person" ref="pmb10812">Backhaus</rs> das <rs type="work" ref="pmb32127">B dur Concert</rs> von <rs type="work" ref="pmb32127">Brahms</rs> sehr schön spielte.</p>
+            <p>Grüß mir <rs type="person" ref="pmb5960">Ruth</rs> mein lieber <rs type="person" subtype="implied" ref="pmb12692">Sohn</rs> und sei innig umarmt.</p>
+            <closer>Dein<lb/>
+               <signed>Vater.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

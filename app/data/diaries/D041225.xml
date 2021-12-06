@@ -1,91 +1,96 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041225.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041224.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041226.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 9. 1. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="225" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8913-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19040109" n="1">9/1</date> Früh mit <rs type="person" ref="pmb2173">O.</rs> 
-               <rs type="place" ref="pmb189">Semmering</rs>. Spaziergang.–</p> 
-            <p> 
-               <rs type="person" ref="pmb11851">Kainz</rs>, <rs type="person" ref="pmb12781">Simon</rs> bei Tisch. Über <rs type="person" ref="pmb10815">Bahrs</rs> Krankheit. Er ist, mit ungünstiger Diagnose, nach <rs type="place" ref="pmb218"> 
-                  <settlement>Marbach</settlement> 
-               </rs> geschickt worden.– <rs type="person" ref="pmb11036">Burckhards</rs> Veränderung.–</p> 
-            <p> 
-               <rs type="person" ref="pmb12101">Siegfr. Loewy</rs>; über die Krankheit der <rs type="person" ref="pmb22098">Odilon</rs>.–</p> 
-            <p>Meierei Spaziergang.–</p> 
-            <p> 
-               <rs type="person" ref="pmb2173">O.</rs> reimt: Die Augen thun mir weh vom Weinen und vom Schnee. Sie findet das Dichten leicht. Ich nenne sie Herzogin von Anticipazi.–</p> 
-            <p>Abd. kommt <rs type="person" ref="pmb2461">Gisa</rs> und <rs type="person" ref="pmb2284">Hajek</rs> an; auch <rs type="person" ref="pmb2167">Salten</rs>.</p> 
-            <p> 
-               <rs type="person" ref="pmb2404">Hebbels</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb30609">Tagebücher</rs> (zum 2. Mal) als Lecture.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041225.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041224.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041226.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 9. 1. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="225" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8913-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19040109" n="1">9/1</date> Früh mit <rs type="person" ref="pmb2173">O.</rs>
+               <rs type="place" ref="pmb189">Semmering</rs>. Spaziergang.–</p>
+            <p>
+               <rs type="person" ref="pmb11851">Kainz</rs>, <rs type="person" ref="pmb12781">Simon</rs> bei Tisch. Über <rs type="person" ref="pmb10815">Bahrs</rs> Krankheit. Er ist, mit ungünstiger Diagnose, nach <rs type="place" ref="pmb218">Marbach</rs> geschickt worden.– <rs type="person" ref="pmb11036">Burckhards</rs> Veränderung.–</p>
+            <p>
+               <rs type="person" ref="pmb12101">Siegfr. Loewy</rs>; über die Krankheit der <rs type="person" ref="pmb22098">Odilon</rs>.–</p>
+            <p>Meierei Spaziergang.–</p>
+            <p>
+               <rs type="person" ref="pmb2173">O.</rs> reimt: Die Augen thun mir weh vom Weinen und vom Schnee. Sie findet das Dichten leicht. Ich nenne sie Herzogin von Anticipazi.–</p>
+            <p>Abd. kommt <rs type="person" ref="pmb2461">Gisa</rs> und <rs type="person" ref="pmb2284">Hajek</rs> an; auch <rs type="person" ref="pmb2167">Salten</rs>.</p>
+            <p>
+               <rs type="person" ref="pmb2404">Hebbels</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb30609">Tagebücher</rs> (zum 2. Mal) als Lecture.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

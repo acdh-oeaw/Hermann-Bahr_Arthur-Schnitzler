@@ -1,108 +1,113 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041614.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041613.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041615.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Stefan Zweig, 25. 5. 1913</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="614"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D6-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb13212">Zweig, Stefan</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">[Salzburg]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19130525" n="01">25. 5. 1913</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="SZBW" default="false"> 
-                  <monogr> 
-                     <author ref="pmb13212">Zweig, Stefan</author> 
-                     <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title> 
-                     <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1989">1987</date> 
-                     </imprint> 
-                     <biblScope unit="pp">378</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160620">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb150">Wien XVIII. Sternwartestrasse 71</rs> 
-                  <lb/> 
-                  <date>5. 5. 913</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber Herr Doctor. </salute>Ihr schöner Brief hat mir wahrhaft wohlgetan. So sicher ich bei dem Dichter des »<rs type="work" ref="pmb32532">Kinderlands</rs>« auf vollkommenes Verständnis gefasst sein durfte (Ihre Bedenken hinsichtlich des <rs type="work" subtype="implied" ref="pmb32133">Schlusses</rs> theil ich sogar – seit einiger Zeit erst); die warme menschliche Antheilnahme die Sie an meinem Schaffen haben und deren ich immer gewiss war, hat sich selten so lebhaft ausgedrückt als in Ihren letzten Worten, für die ich Ihnen freundschaftlichst die Hand drücke. –</p> 
-            <p>Ich danke auch für die Einladung zur <rs type="person" ref="pmb10815">Bahr</rs> Feier u bitte zugleich um Entschuldigung, daß ich nicht kommen werde. Sie wissen ja, daß ich mich (aus Gründen, die nicht ausschließlich nervöser Natur sind) von solchen Veranstaltungen wenn es nur irgend angeht fernhalte (das <rs type="person" ref="pmb11617">Hauptmann</rs> Bankett war eine Ausnahme, weil ich, nach einem Misverständnis zwischen <rs type="person" ref="pmb11617">Hauptmann</rs> u mir die Gelegenheit benutzen mußte ihm zu begegnen) – auch <rs type="person" ref="pmb10815">Bahr</rs> (der übrigens glaub ich dasselbe thut) kennt diese meine Gepflogenheit und wird fern davon sein mir mein Ausbleiben übel zu nehmen. Sie aber, lieber Freund, bitt ich um das gleiche – und zugleich um Mittheilung wo Ihre <rs type="work" subtype="implied" ref="pmb32552">Rede</rs> ausführlich im Druck erscheinen wird. Wie sind Ihre Sommerpläne? Wir wollen Anfang Juli einige Wochen fort sein, und dann bis gegen Ende Juli in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> verbringen. Ein baldiges Wiedersehen erhoffend und mit herzlichen Grüßen</p> 
-            <closer>Ihr aufrichtig ergebener<lb/> 
-               <signed>Arthur Schnitzler</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041614.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041613.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041615.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Stefan Zweig, 25. 5. 1913</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="614"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D6-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb13212">Zweig, Stefan</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">[Salzburg]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19130525" n="01">25. 5. 1913</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="SZBW">
+                  <monogr>
+                     <author ref="pmb13212">Zweig, Stefan</author>
+                     <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title>
+                     <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1989">1987</date>
+                     </imprint>
+                     <biblScope unit="pp">378</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160620">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb150">Wien XVIII. Sternwartestrasse 71</rs>
+                  <lb/>
+                  <date>5. 5. 913</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber Herr Doctor. </salute>Ihr schöner Brief hat mir wahrhaft wohlgetan. So sicher ich bei dem Dichter des »<rs type="work" ref="pmb32532">Kinderlands</rs>« auf vollkommenes Verständnis gefasst sein durfte (Ihre Bedenken hinsichtlich des <rs type="work" subtype="implied" ref="pmb32133">Schlusses</rs> theil ich sogar – seit einiger Zeit erst); die warme menschliche Antheilnahme die Sie an meinem Schaffen haben und deren ich immer gewiss war, hat sich selten so lebhaft ausgedrückt als in Ihren letzten Worten, für die ich Ihnen freundschaftlichst die Hand drücke. –</p>
+            <p>Ich danke auch für die Einladung zur <rs type="person" ref="pmb10815">Bahr</rs> Feier u bitte zugleich um Entschuldigung, daß ich nicht kommen werde. Sie wissen ja, daß ich mich (aus Gründen, die nicht ausschließlich nervöser Natur sind) von solchen Veranstaltungen wenn es nur irgend angeht fernhalte (das <rs type="person" ref="pmb11617">Hauptmann</rs> Bankett war eine Ausnahme, weil ich, nach einem Misverständnis zwischen <rs type="person" ref="pmb11617">Hauptmann</rs> u mir die Gelegenheit benutzen mußte ihm zu begegnen) – auch <rs type="person" ref="pmb10815">Bahr</rs> (der übrigens glaub ich dasselbe thut) kennt diese meine Gepflogenheit und wird fern davon sein mir mein Ausbleiben übel zu nehmen. Sie aber, lieber Freund, bitt ich um das gleiche – und zugleich um Mittheilung wo Ihre <rs type="work" subtype="implied" ref="pmb32552">Rede</rs> ausführlich im Druck erscheinen wird. Wie sind Ihre Sommerpläne? Wir wollen Anfang Juli einige Wochen fort sein, und dann bis gegen Ende Juli in <rs type="place" ref="pmb50">Wien</rs> verbringen. Ein baldiges Wiedersehen erhoffend und mit herzlichen Grüßen</p>
+            <closer>Ihr aufrichtig ergebener<lb/>
+               <signed>Arthur Schnitzler</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

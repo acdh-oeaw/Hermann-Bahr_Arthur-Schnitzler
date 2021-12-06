@@ -1,147 +1,138 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041671.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041670.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041672.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Olga an Arthur Schnitzler, [20. 12. 1921]</title> 
-            <author ref="pmb2173">Schnitzler, Olga</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="671"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-880F-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19211220" n="01">[20. 12. 1921]</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.4548</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 2 Bl., 4 S., Lateinschrift, mit Nachschrift von <persName ref="pmb11806">Lucy von Jacobi</persName> in Kurrent. Datum »<quote> 
-                              <date>20/12 1921</date> 
-                           </quote>« von A. S. ergänzt.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161025">Angelegt aus Abschrift</change> 
-         <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline> 
-                  <date>Dienstag Abend.</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber, </salute> eben kommt Dein Telegramm, das mir das <rs type="person" subtype="implied" ref="pmb2238">Kind</rs> erst für Freitag ankündigt,– ich hoffe, dass daran nicht ihre Erkältung schuld ist, sondern die schwer zu erlangenden Platzkarten.</p> 
-            <p>Wenn der <rs type="person" ref="pmb12692">Heini</rs> über Sylvester da bleiben könnte, wär’s wunderschön.</p> 
-            <p>Ich komme eben von einem Spaziergang mit <rs type="person" ref="pmb10815">Bahr</rs>,– gegen <rs type="place" ref="pmb949"> 
-                  <settlement>Maria-Plain</settlement> 
-               </rs> an der <geogName type="river">Salzach</geogName> entlang, unter einem herrlich farbenglühenden Himmel,– ich hab gebeten, ihm den <rs type="person" ref="pmb12692">Heini</rs> vorstellen zu dürfen und: »er wird sich freuen.« Er war wieder sehr lieb, lässt Dich herzlich grüssen, und möchte auch Dich gern einmal wiedersehen. Heut hab ich ihn fast ununterbrochen reden lassen,– viel über Theater, über <rs type="person" ref="pmb11461">Goethe</rs>, <rs type="person" ref="pmb28820">Stendhal</rs>, <rs type="person" ref="pmb11740">Hugo</rs>’s neues »<rs type="work" ref="pmb30839">Welttheater</rs>«, das sehr schön sein soll. Auch über Gelddinge, seine Lebensweise,– er<pb/> isst seit 12 Jahren kein Fleisch mehr, geht abends meist vor 7 in’s Bett und liest bis 11 Uhr.</p> 
-            <p>Seit vorgestern Abend ist die <rs type="person" ref="pmb11806">Lucy</rs> da, leider kann sie nur bis Freitag bleiben, wird also das <rs type="person" subtype="implied" ref="pmb2238">Häschen</rs> grad noch an der Bahn erwischen. Sie ist recht müd, war daher auch nicht mit spazieren, und sehr, sehr lieb. Erpicht darauf, dass ich bald nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> übersiedle. Die Wohnungsfrage ist wieder eine Schwierigkeit,– aber ich möchte doch jetzt mit Energie suchen, um aus diesen Provisorien herauszukommen. Ich fange an, mich nach einem ruhig abgeschlossenen Heim, nach meinen Möbeln und nach Arbeit zu sehnen. Im <rs type="place" ref="pmb1015">Herzogpark</rs> wird viel gebaut, vielleicht hab ich Chance, zwei Zimmer zu bekommen.</p> 
-            <p> 
-               <rs type="person" ref="pmb4858">Roessler</rs> hat in <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> von Dir erzält, Du sähest gut aus, seist sehr vergnügt und »überall zu sehen«. Auch <rs type="person" ref="pmb11090">Chapiro</rs> hat mir von Dir berichtet, Deinen Reiseplänen (<rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>, Vorlesung in <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs>) und ich freue mich Deiner Geselligkeit und Agilität, die Dir sicher gut bekommen.<pb/> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb28971">Jean Jacques</rs> berichtet sehr betrübt, er müsse im <date>März</date> aus seiner Wohnung raus, das ist jetzt wirklich eine Katastrophe, denn Hotels und Pensionen sind sehr teuer. Auch Frau <rs type="person" ref="pmb27990">Stoessler</rs>, deren <rs type="person" subtype="implied" ref="pmb28972">Tochter</rs> eben hier ist (sie ist <add place="above">sonst</add> im Pensionat der <rs type="person" ref="pmb28974">Anneliese</rs> in <rs type="place" ref="pmb667"> 
-                  <settlement>Partenkirchen</settlement> 
-               </rs>) möchte eventuell nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> übersiedeln, das wäre mir sehr sympathisch.</p> 
-            <p>Es wird sich schon alles gestalten, ich hoffe, ohne all zu grossen Kraftaufwand. <rs type="person" ref="pmb11806">Lucy</rs> wundert sich über meine Ruhe äussern Dingen gegenüber, <subst> 
-                  <del rend="overwritten"> 
-                     <gap quantity="3" reason="illegible" unit="chars"/> 
-                  </del> 
-                  <add place="inline">denn</add> 
-               </subst> ihr passt weder mein Zimmer, noch meine Hotel-Möbel,– lauter Dinge, die ich mit Gleichmut ertrage. In meinem grossen Hutkoffer befindet sich in verlegtem Zustand ein bezaubernder, selten schöner vergoldeter alter Holzluster, den ich mir hier vor 2 Monaten gekauft habe, den hoff ich bald wo aufzuhängen, als Mittelpunkt eines Zimmers, das wieder meine Physionomie tragen soll,– geb es Gott.<pb/> 
-            </p> 
-            <p>Leb wol, Lieber, ich wünsch Dir gute Feiertage, – ich freu mich unsagbar auf meine <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>. Küss sie beide tausendmal.</p> 
-            <closer>Alles Herzlichste,<space unit="chars" quantity="5"/> 
-               <signed>O.</signed> 
-            </closer> 
-         </div> 
-         <div n="2" type="writingSession"> 
-            <opener> 
-               <salute> 
-                  <handShift scribe="pmb11806"/>Lieber verehrter Herr Doctor,</salute> 
-            </opener> 
-            <p>hier ist sonniger März, <rs type="person" ref="pmb2173">Olga</rs> ist frisch u. heiter wie immer, aber ich mag sie nicht gern hier wissen,– es wird auf die Dauer doch ein bissel öd in so einem kalten Hotelzimmer, – dagegen kommt keine innere Kraft auf. Mein Urlaub läuft am <date>23.</date> ab,– – ich bin schon ein bissel traurig, dass ich sie nicht sammt dem <rs type="person" ref="pmb2238">Lillykind</rs> zu Weihnachten bei mir haben kann und wünsche sehnlichst, dass ihr das neue Jahr die Umgebung bringt, die für sie <unclear>gehört</unclear>.– Wann werden wir Sie wieder in <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> sehn? Lesen Sie nicht einmal wieder bei uns? Wie schön wär das! Kommen Sie! Kommen Sie recht bald!!</p> 
-            <closer>Indessen viele herzliche Grüße!<lb/>Ihre <signed>Lucy v. J.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041671.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041670.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041672.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Olga an Arthur Schnitzler, [20. 12. 1921]</title>
+            <author ref="pmb2173">Schnitzler, Olga</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="671"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-880F-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19211220" n="01">[20. 12. 1921]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.4548</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 2 Bl., 4 S., Lateinschrift, mit Nachschrift von <persName ref="pmb11806">Lucy von Jacobi</persName> in Kurrent. Datum »<quote>
+                              <date>20/12 1921</date>
+                           </quote>« von A. S. ergänzt.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161025">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <date>Dienstag Abend.</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber, </salute> eben kommt Dein Telegramm, das mir das <rs type="person" subtype="implied" ref="pmb2238">Kind</rs> erst für Freitag ankündigt,– ich hoffe, dass daran nicht ihre Erkältung schuld ist, sondern die schwer zu erlangenden Platzkarten.</p>
+            <p>Wenn der <rs type="person" ref="pmb12692">Heini</rs> über Sylvester da bleiben könnte, wär’s wunderschön.</p>
+            <p>Ich komme eben von einem Spaziergang mit <rs type="person" ref="pmb10815">Bahr</rs>,– gegen <rs type="place" ref="pmb49120">Maria-Plain</rs> an der <geogName type="river">Salzach</geogName> entlang, unter einem herrlich farbenglühenden Himmel,– ich hab gebeten, ihm den <rs type="person" ref="pmb12692">Heini</rs> vorstellen zu dürfen und: »er wird sich freuen.« Er war wieder sehr lieb, lässt Dich herzlich grüssen, und möchte auch Dich gern einmal wiedersehen. Heut hab ich ihn fast ununterbrochen reden lassen,– viel über Theater, über <rs type="person" ref="pmb11461">Goethe</rs>, <rs type="person" ref="pmb28820">Stendhal</rs>, <rs type="person" ref="pmb11740">Hugo</rs>’s neues »<rs type="work" ref="pmb30839">Welttheater</rs>«, das sehr schön sein soll. Auch über Gelddinge, seine Lebensweise,– er<pb/> isst seit 12 Jahren kein Fleisch mehr, geht abends meist vor 7 in’s Bett und liest bis 11 Uhr.</p>
+            <p>Seit vorgestern Abend ist die <rs type="person" ref="pmb11806">Lucy</rs> da, leider kann sie nur bis Freitag bleiben, wird also das <rs type="person" subtype="implied" ref="pmb2238">Häschen</rs> grad noch an der Bahn erwischen. Sie ist recht müd, war daher auch nicht mit spazieren, und sehr, sehr lieb. Erpicht darauf, dass ich bald nach <rs type="place" ref="pmb45258">München</rs> übersiedle. Die Wohnungsfrage ist wieder eine Schwierigkeit,– aber ich möchte doch jetzt mit Energie suchen, um aus diesen Provisorien herauszukommen. Ich fange an, mich nach einem ruhig abgeschlossenen Heim, nach meinen Möbeln und nach Arbeit zu sehnen. Im <rs type="place" ref="pmb1015">Herzogpark</rs> wird viel gebaut, vielleicht hab ich Chance, zwei Zimmer zu bekommen.</p>
+            <p>
+               <rs type="person" ref="pmb4858">Roessler</rs> hat in <rs type="place" ref="pmb45258">München</rs> von Dir erzält, Du sähest gut aus, seist sehr vergnügt und »überall zu sehen«. Auch <rs type="person" ref="pmb11090">Chapiro</rs> hat mir von Dir berichtet, Deinen Reiseplänen (<rs type="place" ref="pmb168">Berlin</rs>, Vorlesung in <rs type="place" ref="pmb652">Prag</rs>) und ich freue mich Deiner Geselligkeit und Agilität, die Dir sicher gut bekommen.<pb/>
+            </p>
+            <p>
+               <rs type="person" ref="pmb28971">Jean Jacques</rs> berichtet sehr betrübt, er müsse im <date>März</date> aus seiner Wohnung raus, das ist jetzt wirklich eine Katastrophe, denn Hotels und Pensionen sind sehr teuer. Auch Frau <rs type="person" ref="pmb27990">Stoessler</rs>, deren <rs type="person" subtype="implied" ref="pmb28972">Tochter</rs> eben hier ist (sie ist <add place="above">sonst</add> im Pensionat der <rs type="person" ref="pmb19963">Anneliese</rs> in <rs type="place" ref="pmb667">Partenkirchen</rs>) möchte eventuell nach <rs type="place" ref="pmb45258">München</rs> übersiedeln, das wäre mir sehr sympathisch.</p>
+            <p>Es wird sich schon alles gestalten, ich hoffe, ohne all zu grossen Kraftaufwand. <rs type="person" ref="pmb11806">Lucy</rs> wundert sich über meine Ruhe äussern Dingen gegenüber, <subst>
+                  <del rend="overwritten">
+                     <gap quantity="3" reason="illegible" unit="chars"/>
+                  </del>
+                  <add place="inline">denn</add>
+               </subst> ihr passt weder mein Zimmer, noch meine Hotel-Möbel,– lauter Dinge, die ich mit Gleichmut ertrage. In meinem grossen Hutkoffer befindet sich in verlegtem Zustand ein bezaubernder, selten schöner vergoldeter alter Holzluster, den ich mir hier vor 2 Monaten gekauft habe, den hoff ich bald wo aufzuhängen, als Mittelpunkt eines Zimmers, das wieder meine Physionomie tragen soll,– geb es Gott.<pb/>
+            </p>
+            <p>Leb wol, Lieber, ich wünsch Dir gute Feiertage, – ich freu mich unsagbar auf meine <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs>. Küss sie beide tausendmal.</p>
+            <closer>Alles Herzlichste,<space unit="chars" quantity="5"/>
+               <signed>O.</signed>
+            </closer>
+         </div>
+         <div n="2" type="writingSession">
+            <opener>
+               <salute>
+                  <handShift scribe="pmb11806"/>Lieber verehrter Herr Doctor,</salute>
+            </opener>
+            <p>hier ist sonniger März, <rs type="person" ref="pmb2173">Olga</rs> ist frisch u. heiter wie immer, aber ich mag sie nicht gern hier wissen,– es wird auf die Dauer doch ein bissel öd in so einem kalten Hotelzimmer, – dagegen kommt keine innere Kraft auf. Mein Urlaub läuft am <date>23.</date> ab,– – ich bin schon ein bissel traurig, dass ich sie nicht sammt dem <rs type="person" ref="pmb2238">Lillykind</rs> zu Weihnachten bei mir haben kann und wünsche sehnlichst, dass ihr das neue Jahr die Umgebung bringt, die für sie <unclear>gehört</unclear>.– Wann werden wir Sie wieder in <rs type="place" ref="pmb45258">München</rs> sehn? Lesen Sie nicht einmal wieder bei uns? Wie schön wär das! Kommen Sie! Kommen Sie recht bald!!</p>
+            <closer>Indessen viele herzliche Grüße!<lb/>Ihre <signed>Lucy v. J.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

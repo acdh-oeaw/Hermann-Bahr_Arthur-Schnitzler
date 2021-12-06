@@ -1,218 +1,217 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041210.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041209.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041211.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an S. Fischer, 21. 6. 1897</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="210"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8643-F</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11324">Fischer, Samuel</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">[Berlin]</placeName> 
-               </placeAddressee>--&gt;<dateSender> 
-                  <date when="18970621" n="1">21. 6. 1897</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>USA</country> 
-                        <settlement>Bloomington</settlement> 
-                        <repository>Indiana University, Lilly Library</repository> 
-                        <idno>Fischer mss.</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"> 
-                              <placeName ref="pmb50">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName ref="pmb296">IX/3, Günthergasse 1</placeName>.« Von fremder Hand: »<quote>Herm. Bahr / <placeName ref="pmb59">Wien IX</placeName> / <placeName ref="pmb436">Porzellangasse 37</placeName> / ges. 23/6.</quote>« Abgehakt sind: <workName ref="pmb31993">Gastfreier Pastor</workName>, <workName ref="pmb31997">Meine Verse</workName>, <workName ref="pmb30117">Liebelei</workName> und <workName ref="pmb30117">Sterben</workName>; <workName ref="pmb32001">Erziehung zur Ehe</workName> ist mit Buntstift hervorgehoben.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM">Abschrift eingebaut</change> 
-         <change who="KI MAM" when="20160406">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>21. Juni 7</date> 
-               </dateline> 
-               <salute rend="center">Lieber Fischer!</salute> 
-            </opener> 
-            <p>Anbei sende ich Ihnen das zum Druck eingerichtete E<damage agent="hole"> 
-                  <supplied>xe</supplied> 
-               </damage>mplar des »<rs type="work" ref="pmb29829">Tschaperl</rs>«. Es wäre gut, wenn Sie sofort mit dem Drucke beginnen würden. Erstens weil ich jetzt mehr Muße habe, sorgfältig zu korrigieren; zweitens weil es möglich ist, wie mir <rs type="person" ref="pmb14328">Blumenthal</rs> schreibt, daß die <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er Première schon im September kommt, und am nächsten Tage soll das Büchel doch erscheinen.</p> 
-            <p>Sie haben mir zugesagt, mir am 15. Juni<pb/> die vereinbarten 600 Mark zu senden. Ich habe aber noch nichts erhalten. Es wäre mir angenehm, wenn Sie das jetzt gleich nachholen würden.</p> 
-            <p>Mir fehlen einige Werke Ihres Verlages, die <damage agent="hole"> 
-                  <supplied>mi</supplied> 
-               </damage>r wichtig sind:</p> 
-            <p> 
-               <table rows="12" cols="2"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11617">Hauptmann</rs>, </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31939"> 
-                           <anchor type="commentary" xml:id="KL210-1">Vor Sonnenaufgang</anchor> 
-                        </rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31941">College Crampton</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31943">Biberpelz</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31511">Hanneles Himmelfahrt</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31735">Versunkene Glocke</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31877">Apostel</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11605">Hartleben</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KL210-2"> 
-                           <rs type="work" ref="pmb31995">Abgerissener Knopf</rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31993">Gastfreier Pastor</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb31997">Meine Verse</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="4"/>–„–</cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb32001">Erziehung zur Ehe</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <anchor type="commentary" xml:id="KL210-3"> 
-                           <rs type="work" ref="pmb29917">Liebelei</rs> 
-                        </anchor> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="work" ref="pmb30117">Sterben</rs>.</cell> 
-                  </row> 
-               </table> 
-            </p> 
-            <p>Wollen Sie mir diese Bände schenken?</p> 
-            <closer>Herzlichst<lb/>Ihr treuer<lb/> 
-               <signed>Hermann Bahr</signed> 
-            </closer> 
-            <postscript> 
-               <p> 
-                  <anchor type="textConst" xml:id="TL210-1">Noch etwas: sowohl aus <rs type="place" ref="pmb842"> 
-                        <settlement>Karlsbad</settlement> 
-                     </rs> u. <rs type="place" ref="pmb772"> 
-                        <settlement>Marienbad</settlement> 
-                     </rs> wie aus <rs type="place" ref="pmb213"> 
-                        <settlement>Ischl</settlement> 
-                     </rs> beklagen sich Bekannte bei mir, daß »<rs type="work" ref="pmb31999">Theater</rs>« in keiner der dortigen Buchhandlungen zu haben ist. Versorgen Sie doch die Buchhändler der Badeorte mit Exemplaren. Es ist wichtig, daß man das Buch an regnerischen Tagen im Schaufenster sieht.</anchor> 
-               </p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041210.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041209.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041211.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an S. Fischer, 21. 6. 1897</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="210"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8643-F</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11324">Fischer, Samuel</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">[Berlin]</placName>
+               </placeAddressee>--&gt;<dateSender>
+                  <date when="18970621" n="1">21. 6. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Bloomington</settlement>
+                        <repository>Indiana University, Lilly Library</repository>
+                        <idno>Fischer mss.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold">
+                              <placName ref="pmb50">Wien</placName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placName ref="pmb296">IX/3, Günthergasse 1</placName>.« Von fremder Hand: »<quote>Herm. Bahr / <placName ref="pmb59">Wien IX</placName> / <placName ref="pmb436">Porzellangasse 37</placName> / ges. 23/6.</quote>« Abgehakt sind: <workName ref="pmb31993">Gastfreier Pastor</workName>, <workName ref="pmb31997">Meine Verse</workName>, <workName ref="pmb30117">Liebelei</workName> und <workName ref="pmb30117">Sterben</workName>; <workName ref="pmb32001">Erziehung zur Ehe</workName> ist mit Buntstift hervorgehoben.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM">Abschrift eingebaut</change>
+         <change who="KI MAM" when="20160406">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>21. Juni 7</date>
+               </dateline>
+               <salute rend="center">Lieber Fischer!</salute>
+            </opener>
+            <p>Anbei sende ich Ihnen das zum Druck eingerichtete E<damage agent="hole">
+                  <supplied>xe</supplied>
+               </damage>mplar des »<rs type="work" ref="pmb29829">Tschaperl</rs>«. Es wäre gut, wenn Sie sofort mit dem Drucke beginnen würden. Erstens weil ich jetzt mehr Muße habe, sorgfältig zu korrigieren; zweitens weil es möglich ist, wie mir <rs type="person" ref="pmb14328">Blumenthal</rs> schreibt, daß die <rs type="place" ref="pmb168">Berlin</rs>er Première schon im September kommt, und am nächsten Tage soll das Büchel doch erscheinen.</p>
+            <p>Sie haben mir zugesagt, mir am 15. Juni<pb/> die vereinbarten 600 Mark zu senden. Ich habe aber noch nichts erhalten. Es wäre mir angenehm, wenn Sie das jetzt gleich nachholen würden.</p>
+            <p>Mir fehlen einige Werke Ihres Verlages, die <damage agent="hole">
+                  <supplied>mi</supplied>
+               </damage>r wichtig sind:</p>
+            <p>
+               <table rows="12" cols="2">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11617">Hauptmann</rs>, </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31939">
+                           <anchor type="commentary" xml:id="KL210-1">Vor Sonnenaufgang</anchor>
+                        </rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31941">College Crampton</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31943">Biberpelz</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31511">Hanneles Himmelfahrt</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31735">Versunkene Glocke</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31877">Apostel</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11605">Hartleben</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KL210-2">
+                           <rs type="work" ref="pmb31995">Abgerissener Knopf</rs>
+                        </anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31993">Gastfreier Pastor</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb31997">Meine Verse</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="4"/>–„–</cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb32001">Erziehung zur Ehe</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2121">Schnitzler</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <anchor type="commentary" xml:id="KL210-3">
+                           <rs type="work" ref="pmb29917">Liebelei</rs>
+                        </anchor>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="work" ref="pmb30117">Sterben</rs>.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Wollen Sie mir diese Bände schenken?</p>
+            <closer>Herzlichst<lb/>Ihr treuer<lb/>
+               <signed>Hermann Bahr</signed>
+            </closer>
+            <postscript>
+               <p>
+                  <anchor type="textConst" xml:id="TL210-1">Noch etwas: sowohl aus <rs type="place" ref="pmb842">Karlsbad</rs> u. <rs type="place" ref="pmb772">Marienbad</rs> wie aus <rs type="place" ref="pmb213">Ischl</rs> beklagen sich Bekannte bei mir, daß »<rs type="work" ref="pmb31999">Theater</rs>« in keiner der dortigen Buchhandlungen zu haben ist. Versorgen Sie doch die Buchhändler der Badeorte mit Exemplaren. Es ist wichtig, daß man das Buch an regnerischen Tagen im Schaufenster sieht.</anchor>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

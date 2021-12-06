@@ -1,78 +1,83 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041144.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041143.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041145.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 21. 3. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="144" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C2-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950321" n="1">21/3</date> Nm. teleph. <rs type="person" ref="pmb12618">Dilly</rs> – »<rs type="work" ref="pmb29823">Märchen</rs>« <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> gastiren, will Rolle, mich sehen, ob ich Gel. habe.– Ich fragte um »<rs type="work" ref="pmb29917">Liebelei</rs>«– Censurschwierigkeiten sagt <rs type="person" ref="pmb11036">Burckhard</rs>.– Mit <rs type="person" ref="pmb2378">Mz. Rh.</rs> bis eins bei »uns«.– Im Kfh. erzählt mir <rs type="person" ref="pmb10863">Rich.</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> habe ihm gesagt, man wisse allgemein, dass <rs type="person" ref="pmb12618">Dilly</rs> mich mit <rs type="person" ref="pmb2167">S.</rs> betrog, finde es gemein von ihm – aber auch gemein – von mir, dass ich mit ihm verkehre!– Ausschmückung der Geschichte natürlich von <rs type="person" ref="pmb10815">Bahr</rs> ausgehend.– <rs type="person" ref="pmb12740">Schwk.</rs> kam; ich erklärte ihm.– Auch an ihn hat sich <rs type="person" ref="pmb12618">Dilly</rs> via <rs type="person" ref="pmb26786">Weigel</rs> wenden wollen, und als diese von der Aussichtslosigkeit sprach, sagte <rs type="person" ref="pmb12618">Dilly</rs>: »Also ist er auch einer von den modernen, die an die Fraun nicht glauben?–« Sie läugnet jede Schuld; sie hat nur vergessen, mir von dem harmlosen Besuch eines Manns zu erzählen, der aber nicht <rs type="person" ref="pmb2167">S.</rs> war –</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041144.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041143.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041145.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 21. 3. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="144" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C2-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950321" n="1">21/3</date> Nm. teleph. <rs type="person" ref="pmb12618">Dilly</rs> – »<rs type="work" ref="pmb29823">Märchen</rs>« <rs type="place" ref="pmb168">Berlin</rs> gastiren, will Rolle, mich sehen, ob ich Gel. habe.– Ich fragte um »<rs type="work" ref="pmb29917">Liebelei</rs>«– Censurschwierigkeiten sagt <rs type="person" ref="pmb11036">Burckhard</rs>.– Mit <rs type="person" ref="pmb2378">Mz. Rh.</rs> bis eins bei »uns«.– Im Kfh. erzählt mir <rs type="person" ref="pmb10863">Rich.</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> habe ihm gesagt, man wisse allgemein, dass <rs type="person" ref="pmb12618">Dilly</rs> mich mit <rs type="person" ref="pmb2167">S.</rs> betrog, finde es gemein von ihm – aber auch gemein – von mir, dass ich mit ihm verkehre!– Ausschmückung der Geschichte natürlich von <rs type="person" ref="pmb10815">Bahr</rs> ausgehend.– <rs type="person" ref="pmb12740">Schwk.</rs> kam; ich erklärte ihm.– Auch an ihn hat sich <rs type="person" ref="pmb12618">Dilly</rs> via <rs type="person" ref="pmb26786">Weigel</rs> wenden wollen, und als diese von der Aussichtslosigkeit sprach, sagte <rs type="person" ref="pmb12618">Dilly</rs>: »Also ist er auch einer von den modernen, die an die Fraun nicht glauben?–« Sie läugnet jede Schuld; sie hat nur vergessen, mir von dem harmlosen Besuch eines Manns zu erzählen, der aber nicht <rs type="person" ref="pmb2167">S.</rs> war –</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,192 +1,199 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041412.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041411.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041413.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Kalendereintrag von Hermann Bahr, 11. 5. 1901</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="412"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89B6-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1757/3 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">26</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151215">angelegt</change> 
-         <change who="KI MAM" when="20160129">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <table cols="2" rows="4"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <date when="19010511" n="01"/> 
-                        <rs type="person" ref="pmb12460">Pötzl</rs> hat von mir:</cell> 
-                     <cell role="data" rows="1" cols="1">1) <rs type="work" ref="pmb31003">Kunst des Kindes</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">2) <del rend="strikethrough"> 
-                           <rs type="work" ref="pmb30987">Andre Hofer</rs> 
-                        </del> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">3) <del rend="strikethrough"> 
-                           <rs type="work" ref="pmb31001">Der gute Ton</rs> 
-                        </del>. <add place="inline">(erschienen 12/5)</add> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">4) <del rend="strikethrough"> 
-                           <rs type="work" ref="pmb30989">Die Menschen</rs> 
-                        </del> 
-                     </cell> 
-                  </row> 
-               </table> 
-            </p> 
-            <p> 
-               <add place="inline"> 
-                  <date when="19010529">29/5</date> 
-                  <rs type="work" ref="pmb30999">Orchideen</rs> 
-               </add> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <anchor type="textConst" xml:id="TD412-1"> 
-                  <table cols="2" rows="4"> 
-                     <row role="data" rows="1" cols="1"> 
-                        <cell role="data" rows="1" cols="1"> 
-                           <rs type="org" ref="pmb29414">Neues Wr Tagblatt</rs> 
-                        </cell> 
-                     </row> 
-                     <row role="data" rows="1" cols="1"> 
-                        <cell role="data" rows="1" cols="1">Morgenblatt vom</cell> 
-                        <cell role="data" rows="1" cols="1"> 
-                           <date>25. November</date> (<anchor type="commentary" xml:id="KD412-1"> 
-                              <rs type="work" subtype="implied" ref="pmb30995"> 
-                                 <rs type="person" ref="pmb12899">Sudermann</rs> 
-                              </rs> 
-                           </anchor>)</cell> 
-                     </row> 
-                     <row role="data" rows="1" cols="1"> 
-                        <cell role="data" rows="1" cols="1">u. –„–</cell> 
-                        <cell role="data" rows="1" cols="1"> 
-                           <date>5. December 1900</date> (<anchor type="commentary" xml:id="KD412-2"> 
-                              <rs type="work" subtype="implied" ref="pmb30997"> 
-                                 <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                              </rs> 
-                           </anchor>)</cell> 
-                     </row> 
-                     <row role="data" rows="1" cols="1"> 
-                        <cell role="data" rows="1" cols="1">Morgenbl vom</cell> 
-                        <cell role="data" rows="1" cols="1"> 
-                           <anchor type="commentary" xml:id="KD412-3"> 
-                              <rs type="work" subtype="implied" ref="pmb31381"> 
-                                 <date>1. Januar 1901</date> 
-                              </rs> 
-                           </anchor> 
-                        </cell> 
-                     </row> 
-                  </table> 
-               </anchor> 
-            </p> 
-            <p>–</p> 
-            <p>An den »<rs type="org" ref="pmb29650">Tag</rs>«</p> 
-            <p>–<pb/> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1">Nachsehen <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="work" ref="pmb29857">Beatrice</rs> 
-               </hi> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <rs type="work" ref="pmb30991">Premièren</rs>.</p> 
-            <p>1) <rs type="place" ref="pmb14">Burgtheater</rs> 10 Nummern. Ein Nachtrag wäre Nr 11.</p> 
-            <p>2. <rs type="place" ref="pmb20">Volksth.</rs> 12 Nummern (incl. den fehlenden <rs type="person" ref="pmb12899">Sudermanns</rs>). Nachtrag wäre Nr 13)</p> 
-            <p>–</p> 
-            <p> 
-               <rs type="person" ref="pmb28301">Willy Ahlfeld</rs>, <rs type="person" ref="pmb28302">Josefine</rs>ns Freund</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041412.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041411.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041413.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Kalendereintrag von Hermann Bahr, 11. 5. 1901</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="412"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89B6-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1757/3 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">26</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151215">angelegt</change>
+         <change who="KI MAM" when="20160129">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <table cols="2" rows="4">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <date when="19010511" n="01"/>
+                        <rs type="person" ref="pmb12460">Pötzl</rs> hat von mir:</cell>
+                     <cell role="data" rows="1" cols="1">1) <rs type="work" ref="pmb31003">Kunst des Kindes</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">2) <del rend="strikethrough">
+                           <rs type="work" ref="pmb30987">Andre Hofer</rs>
+                        </del>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">3) <del rend="strikethrough">
+                           <rs type="work" ref="pmb31001">Der gute Ton</rs>
+                        </del>. <add place="inline">(erschienen 12/5)</add>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">4) <del rend="strikethrough">
+                           <rs type="work" ref="pmb30989">Die Menschen</rs>
+                        </del>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <add place="inline">
+                  <date when="19010529">29/5</date>
+                  <rs type="work" ref="pmb30999">Orchideen</rs>
+               </add>
+            </p>
+            <p>–</p>
+            <p>
+               <anchor type="textConst" xml:id="TD412-1">
+                  <table cols="2" rows="4">
+                     <row role="data" rows="1" cols="1">
+                        <cell role="data" rows="1" cols="1">
+                           <rs type="org" ref="pmb29414">Neues Wr Tagblatt</rs>
+                        </cell>
+                     </row>
+                     <row role="data" rows="1" cols="1">
+                        <cell role="data" rows="1" cols="1">Morgenblatt vom</cell>
+                        <cell role="data" rows="1" cols="1">
+                           <date>25. November</date> (<anchor type="commentary" xml:id="KD412-1">
+                              <rs type="work" subtype="implied" ref="pmb30995">
+                                 <rs type="person" ref="pmb12899">Sudermann</rs>
+                              </rs>
+                           </anchor>)</cell>
+                     </row>
+                     <row role="data" rows="1" cols="1">
+                        <cell role="data" rows="1" cols="1">u. –„–</cell>
+                        <cell role="data" rows="1" cols="1">
+                           <date>5. December 1900</date> (<anchor type="commentary" xml:id="KD412-2">
+                              <rs type="work" subtype="implied" ref="pmb30997">
+                                 <rs type="person" ref="pmb2121">Schnitzler</rs>
+                              </rs>
+                           </anchor>)</cell>
+                     </row>
+                     <row role="data" rows="1" cols="1">
+                        <cell role="data" rows="1" cols="1">Morgenbl vom</cell>
+                        <cell role="data" rows="1" cols="1">
+                           <anchor type="commentary" xml:id="KD412-3">
+                              <rs type="work" subtype="implied" ref="pmb31381">
+                                 <date>1. Januar 1901</date>
+                              </rs>
+                           </anchor>
+                        </cell>
+                     </row>
+                  </table>
+               </anchor>
+            </p>
+            <p>–</p>
+            <p>An den »<rs type="org" ref="pmb29650">Tag</rs>«</p>
+            <p>–<pb/>
+            </p>
+            <p>
+               <hi rend="underline" n="1">Nachsehen <rs type="person" ref="pmb2121">Schnitzler</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="work" ref="pmb29857">Beatrice</rs>
+               </hi>
+            </p>
+            <p>–</p>
+            <p>
+               <rs type="work" ref="pmb30991">Premièren</rs>.</p>
+            <p>1) <rs type="place" ref="pmb14">Burgtheater</rs> 10 Nummern. Ein Nachtrag wäre Nr 11.</p>
+            <p>2. <rs type="place" ref="pmb20">Volksth.</rs> 12 Nummern (incl. den fehlenden <rs type="person" ref="pmb12899">Sudermanns</rs>). Nachtrag wäre Nr 13)</p>
+            <p>–</p>
+            <p>
+               <rs type="person" ref="pmb28301">Willy Ahlfeld</rs>, <rs type="person" ref="pmb28302">Josefine</rs>ns Freund</p>
+         </div>
+      </body>
+   </text>
 </TEI>

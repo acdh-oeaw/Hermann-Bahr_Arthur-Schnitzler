@@ -1,83 +1,90 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030077.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030076.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030078.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: Marginalie in Der Geist im Wort, [25. 2. 1927]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="077"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8ABA-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19270225" n="1">[25. 2. 1927]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Salzburg</settlement> 
-                        <repository>Universitätsbibliothek</repository> 
-                        <idno>32328-I</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>hs., Bleistift, seitlich zur Vorbemerkung von: <bibl>Arthur Schnitzler: <workName ref="pmb30051">Der Geist im Wort und Der Geist in der Tat. Vorläufige Bemerkungen zu zwei Diagrammen</workName>. <placeName ref="pmb168"> 
-                                 <settlement>Berlin</settlement> 
-                              </placeName>: <orgName ref="pmb29639">S. Fischer</orgName> 
-                              <space unit="chars" quantity="1"/> 
-                              <date when="1927">1927</date>, S. [5].</bibl> 
-                        </p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20170210">Angelegt</change> 
-         <change who="KI MAM" when="20170213">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p>Aber: gibt sich der Geist durch die Tat kund? Offenbart sich der Geist durch Tat oder offenbart ihm die Tat erst um ihm, so lang er <del rend="strikethrough">unnötig</del> untätig ist, stummes Geheimnis?</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030077.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030076.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030078.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: Marginalie in Der Geist im Wort, [25. 2. 1927]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="077"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8ABA-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19270225" n="1">[25. 2. 1927]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Salzburg</settlement>
+                        <repository>Universitätsbibliothek</repository>
+                        <idno>32328-I</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>hs., Bleistift, seitlich zur Vorbemerkung von: <bibl>Arthur Schnitzler: <workName ref="pmb30051">Der Geist im Wort und Der Geist in der Tat. Vorläufige Bemerkungen zu zwei Diagrammen</workName>. <placName ref="pmb168">
+                                 <settlement>Berlin</settlement>
+                              </placName>: <orgName ref="pmb29639">S. Fischer</orgName>
+                              <space unit="chars" quantity="1"/>
+                              <date when="1927">1927</date>, S. [5].</bibl>
+                        </p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20170210">Angelegt</change>
+         <change who="KI MAM" when="20170213">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <p>Aber: gibt sich der Geist durch die Tat kund? Offenbart sich der Geist durch Tat oder offenbart ihm die Tat erst um ihm, so lang er <del rend="strikethrough">unnötig</del> untätig ist, stummes Geheimnis?</p>
+         </div>
+      </body>
+   </text>
 </TEI>

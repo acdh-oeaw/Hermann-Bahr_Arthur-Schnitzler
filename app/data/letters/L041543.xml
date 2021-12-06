@@ -1,113 +1,118 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041543.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041542.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041544.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Otto Brahm, 8. 8. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="543"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8790-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">[Berlin]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040808" n="1">8. 8. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct default="false" corresp="ASOB"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">164–166</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160413">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>8. August 04</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>Sie kennen ein kleines Stück von mir, <hi rend="italic"> 
-                  <rs type="work" ref="pmb30217">Der tapfere Cassian</rs> 
-               </hi> betitelt, und ein anderes, <hi rend="italic"> 
-                  <rs type="work" ref="pmb29859">Marionetten</rs> 
-               </hi>, das seinerzeit von <rs type="person" ref="pmb13169">Wolzogen</rs> in Grund und Boden gespielt wurde, und sind jedenfalls meiner Ansicht, daß sich diese beiden Burlesken zur Aufführung an einem großen Theater nicht eignen. Außer diesen zwei Sachen existiert ein etwas frecher <rs type="work" subtype="implied" ref="pmb31547">Einakter</rs>, den ich schon ein paar Jahre liegen habe, weil ich zu seiner evtl. Verwertung erst die richtige Gelegenheit abwarten wollte. Daß <rs type="person" ref="pmb12504">Reinhardt</rs> schon lange etwas von mir geben will, ist Ihnen nicht unbekannt, und nun hat er sich telegraphisch wegen dieser 3 Einakter an mich gewandt, die er noch nicht kennt (höchstens den <hi rend="italic"> 
-                  <rs type="work" ref="pmb30217">Cassian</rs> 
-               </hi>), auf die er aber durch <rs type="person" ref="pmb12837">Steinrück</rs>, dem ich die zwei Einakter neulich vorlas, in der lebhaftesten Weise hingewiesen worden zu sein scheint. Ich halte es nun für möglich, daß die 3 Einakter im <rs type="place" ref="pmb208">Kleinen Theater</rs>, zur Faschingszeit eventuell und gleich als »burlesker Abend« bezeichnet, wirken könnten, und habe die Absicht, <rs type="person" ref="pmb12504">Reinhardts</rs> Telegramm zusagend zu beantworten. Sie aber sollen es früher erfahren als jeder andere, damit eventuelle Mißverständnisse von vornherein unmöglich werden. Daher diese Benachrichtigung, die sonst kein besonderes Interesse zu beanspruchen sich erlauben möchte.</p> 
-            <p>Das <rs type="work" subtype="implied" ref="pmb29903">neue</rs> (soll ich wirklich wagen, es »Lustspiel« zu nennen? <c rendition="#dots" n="3" place="center"/> leichte Wolken ziehen wieder auf), nun wie immer: es schreitet vorwärts, und gestern hab ich, in erster Schlampschrift, den 2. Akt begonnen.</p> 
-            <p>Wie wird Ihnen unter dem unbegreiflichen blauen Himmel dieses seltsamen Jahres? Ich bin im Grunde sehr froh darüber, in manchen Stunden beinahe beglückt, und das Wort Sommer beginnt einen Sinn zu bekommen, der hierzulande schon vergessen war. Gestern waren <rs type="person" subtype="implied" ref="pmb2173">wir</rs> mit <rs type="person" ref="pmb10815">Bahr</rs> zusammen, der vergnügt und recht wohl scheint. Viele Grüße an <rs type="person" ref="pmb11617">Hauptmann</rs>.</p> 
-            <closer>Herzlichst Ihr <signed>A. S.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041543.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041542.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041544.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Otto Brahm, 8. 8. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="543"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8790-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">[Berlin]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040808" n="1">8. 8. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">164–166</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160413">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>8. August 04</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>Sie kennen ein kleines Stück von mir, <hi rend="italic">
+                  <rs type="work" ref="pmb30217">Der tapfere Cassian</rs>
+               </hi> betitelt, und ein anderes, <hi rend="italic">
+                  <rs type="work" ref="pmb29859">Marionetten</rs>
+               </hi>, das seinerzeit von <rs type="person" ref="pmb13169">Wolzogen</rs> in Grund und Boden gespielt wurde, und sind jedenfalls meiner Ansicht, daß sich diese beiden Burlesken zur Aufführung an einem großen Theater nicht eignen. Außer diesen zwei Sachen existiert ein etwas frecher <rs type="work" subtype="implied" ref="pmb31547">Einakter</rs>, den ich schon ein paar Jahre liegen habe, weil ich zu seiner evtl. Verwertung erst die richtige Gelegenheit abwarten wollte. Daß <rs type="person" ref="pmb12504">Reinhardt</rs> schon lange etwas von mir geben will, ist Ihnen nicht unbekannt, und nun hat er sich telegraphisch wegen dieser 3 Einakter an mich gewandt, die er noch nicht kennt (höchstens den <hi rend="italic">
+                  <rs type="work" ref="pmb30217">Cassian</rs>
+               </hi>), auf die er aber durch <rs type="person" ref="pmb12837">Steinrück</rs>, dem ich die zwei Einakter neulich vorlas, in der lebhaftesten Weise hingewiesen worden zu sein scheint. Ich halte es nun für möglich, daß die 3 Einakter im <rs type="place" ref="pmb208">Kleinen Theater</rs>, zur Faschingszeit eventuell und gleich als »burlesker Abend« bezeichnet, wirken könnten, und habe die Absicht, <rs type="person" ref="pmb12504">Reinhardts</rs> Telegramm zusagend zu beantworten. Sie aber sollen es früher erfahren als jeder andere, damit eventuelle Mißverständnisse von vornherein unmöglich werden. Daher diese Benachrichtigung, die sonst kein besonderes Interesse zu beanspruchen sich erlauben möchte.</p>
+            <p>Das <rs type="work" subtype="implied" ref="pmb29903">neue</rs> (soll ich wirklich wagen, es »Lustspiel« zu nennen? <c rendition="#dots" n="3" place="center"/> leichte Wolken ziehen wieder auf), nun wie immer: es schreitet vorwärts, und gestern hab ich, in erster Schlampschrift, den 2. Akt begonnen.</p>
+            <p>Wie wird Ihnen unter dem unbegreiflichen blauen Himmel dieses seltsamen Jahres? Ich bin im Grunde sehr froh darüber, in manchen Stunden beinahe beglückt, und das Wort Sommer beginnt einen Sinn zu bekommen, der hierzulande schon vergessen war. Gestern waren <rs type="person" subtype="implied" ref="pmb2173">wir</rs> mit <rs type="person" ref="pmb10815">Bahr</rs> zusammen, der vergnügt und recht wohl scheint. Viele Grüße an <rs type="person" ref="pmb11617">Hauptmann</rs>.</p>
+            <closer>Herzlichst Ihr <signed>A. S.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

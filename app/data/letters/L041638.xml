@@ -1,156 +1,144 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041638.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041637.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041639.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Siegfried Trebitsch an Hermann Bahr, 22. 1. 1904</title> 
-            <author ref="pmb12968">Trebitsch, Siegfried</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="638"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87EE-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb12968">Trebitsch, Siegfried</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb218">[Marbach am Bodensee]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040122" n="1">22. 1. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 24631 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 3 S., Prägedruck »S. T.«; hs. Anm. von Bahr auf der ersten Seite: »<quote> 
-                              <persName ref="pmb2299">Sorma</persName> / <persName ref="pmb12140">Löwenfeld</persName> / <workName ref="pmb29851">Franzl</workName> 
-                           </quote>«, mit geschwungener Klammer verbunden mit »<quote> 
-                              <persName ref="pmb11246">Elias</persName> / <persName ref="pmb2914">Bie</persName> 
-                           </quote>«; Bleistiftanmerkung von Bahr auf 4. Seite: »<quote>Ring / D<hi rend="superscript">r</hi> 
-                              <space unit="chars" quantity="1"/> 
-                              <persName ref="pmb28762">Graf</persName> 
-                              <space unit="chars" quantity="1"/> 
-                              <placeName ref="pmb752">Werderthorgasse</placeName>.</quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160712">Angelegt</change> 
-         <change who="KI MAM" when="20160914">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="card"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>22. 1. 04.</date> 
-               </dateline> 
-               <salute>Liebster Herr Bahr!</salute> 
-            </opener> 
-            <p>Also jetzt wirds Ernst. Sonntag Abends reise ich nach <hi rend="underline" n="1"> 
-                  <rs type="place" ref="pmb768">Berlin W. Rankestrasse 20 Pension Westpalast</rs> 
-               </hi>. Am <date when="19040130">30.</date> dies od <date when="19040202">2. Feber</date> ist die <anchor type="commentary" xml:id="KL638-6">Première</anchor>: <rs type="work" ref="pmb29841">Schlachtenl.</rs> und <rs type="work" ref="pmb32288">Schwester B.</rs> Besetzung: <rs type="person" ref="pmb2299">Sorma</rs>, <rs type="person" ref="pmb12504">Reinhardt</rs>, <rs type="person" ref="pmb13061">Wassmann</rs>, <rs type="person" ref="pmb2859">Arnold</rs>. 14 Tage (ungefähr) später »<anchor type="commentary" xml:id="KL638-5"> 
-                  <rs type="work" ref="pmb30645">Candida</rs> 
-               </anchor>«.</p> 
-            <p>Gleichzeitig erhielt ich einen Brief aus dem <rs type="place" ref="pmb738">Berliner Th.</rs>, dass dort Mitte Feber der »<rs type="work" ref="pmb29961">Teufelskerl</rs>« herauskommen soll. Ihre Aufträge für <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> werde ich nicht vergessen, seien Sie davon fest überzeugt. ich <subst> 
-                  <del rend="overwritten"> 
-                     <unclear>bin</unclear> 
-                  </del> 
-                  <add place="inline">werde</add> 
-               </subst> über die <rs type="person" ref="pmb2121">Schnitzler</rs> Première nach alledem in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> bleiben, was mich ganz besonders freut, denn »<rs type="work" ref="pmb29985">Der einsame Weg</rs>« ist ganz einzigartig schön! <rs type="person" ref="pmb2121">Arthur S.</rs> hat die <hi rend="underline" n="1">Absicht (verrathen Sie mich um Gotteswillen nicht!!!)</hi> Sie auf der Reise nach <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> zu besuchen<pb/> um Sie u. a. auch zu unserer und seiner Beruhigung zu untersuchen, da ihm <rs type="person" ref="pmb2216">Ortner</rs> den Fall doch etwas zu schwer zu nehmen scheint. ich möchte Sie <hi rend="underline" n="1">nach</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>, mit Schimpf und Schande und Neuigkeiten beladen, besuchen. Soll ich? Da ich Ihrer <rs type="person" subtype="implied" ref="pmb13682">Frau</rs> nun nicht mehr werde telephoniren können, bitte schreiben Sie mir ab und zu eine Zeile über Ihr Wohlbefinden.</p> 
-            <p>Weitere Neuigkeiten: <rs type="person" ref="pmb12481 pmb28111">Redlichs</rs> lassen Sie vielmals herzlichst Grüßen.</p> 
-            <p> 
-               <rs type="person" ref="pmb27882">Fritz Wärndorfer</rs> hatte Lungenentzündung; ist aber seit gestern außer Gefahr! Frau <rs type="person" ref="pmb19144">Weiss</rs>, die den Gang einer verbannten kleinen Königin hat, lässt Sie vielmals grüßen, Sie verlässt sich ganz auf den Eindruck, den Sie <subst> 
-                  <del rend="overwritten">I</del> 
-                  <add place="inline">i</add> 
-               </subst>hr gemacht haben und ist von Ihrer baldigsten vollständigen »Genesung« <hi rend="underline" n="1">fest</hi> 
-               <pb/> überzeugt. ich gratulire Ihnen zum großen <rs type="place" ref="pmb506"> 
-                  <settlement> 
-                     <damage agent="hole"> 
-                        <supplied>Ha</supplied> 
-                     </damage>mburg</settlement> 
-               </rs>er <anchor type="commentary" xml:id="KL638-1">»<rs type="work" ref="pmb29983">Meister</rs>«-Erfolg</anchor>. Unlängst sprach ich <rs type="person" ref="pmb2601">Jarno</rs>, der Sie auf seiner nächsten Reise nach <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> auch besuchen will; es verstimmt mich dass er mit den »<anchor type="commentary" xml:id="KL638-4"> 
-                  <rs type="work" ref="pmb29963">Helden</rs> 
-               </anchor>« so lange und so gerne zögert. ich war sehr fleißig, der <anchor type="commentary" xml:id="KL638-2"> 
-                  <rs type="work" cert="low" subtype="implied" ref="pmb30153">Roman</rs> 
-               </anchor> ist bis zur Hälfte gediehen und das <anchor type="commentary" xml:id="KL638-3"> 
-                  <rs type="work" cert="low" subtype="implied" ref="pmb32079">Stück</rs> 
-               </anchor> möchte ich in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> zuende führen, d. h. Durchsieben und Feilen. Bitte fragen Sie nicht »was noch«? ich weiß wirklich nichts mehr als die Frage: wie geht es Ihnen????</p> 
-            <closer>Mit den herzlichsten Grüßen und Wünschen, bin ich<lb/>Ihr sehr aufrichtig getreuer<lb/> 
-               <signed>Siegfr. Trebitsch</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041638.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041637.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041639.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Siegfried Trebitsch an Hermann Bahr, 22. 1. 1904</title>
+            <author ref="pmb12968">Trebitsch, Siegfried</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="638"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87EE-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12968">Trebitsch, Siegfried</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb218">[Marbach am Bodensee]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040122" n="1">22. 1. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 24631 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 3 S., Prägedruck »S. T.«; hs. Anm. von Bahr auf der ersten Seite: »<quote>
+                              <persName ref="pmb2299">Sorma</persName> / <persName ref="pmb12140">Löwenfeld</persName> / <workName ref="pmb29851">Franzl</workName>
+                           </quote>«, mit geschwungener Klammer verbunden mit »<quote>
+                              <persName ref="pmb11246">Elias</persName> / <persName ref="pmb2914">Bie</persName>
+                           </quote>«; Bleistiftanmerkung von Bahr auf 4. Seite: »<quote>Ring / D<hi rend="superscript">r</hi>
+                              <space unit="chars" quantity="1"/>
+                              <persName ref="pmb28762">Graf</persName>
+                              <space unit="chars" quantity="1"/>
+                              <placName ref="pmb752">Werderthorgasse</placName>.</quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160712">Angelegt</change>
+         <change who="KI MAM" when="20160914">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>22. 1. 04.</date>
+               </dateline>
+               <salute>Liebster Herr Bahr!</salute>
+            </opener>
+            <p>Also jetzt wirds Ernst. Sonntag Abends reise ich nach <hi rend="underline" n="1">
+                  <rs type="place" ref="pmb768">Berlin W. Rankestrasse 20 Pension Westpalast</rs>
+               </hi>. Am <date when="19040130">30.</date> dies od <date when="19040202">2. Feber</date> ist die <anchor type="commentary" xml:id="KL638-6">Première</anchor>: <rs type="work" ref="pmb29841">Schlachtenl.</rs> und <rs type="work" ref="pmb32288">Schwester B.</rs> Besetzung: <rs type="person" ref="pmb2299">Sorma</rs>, <rs type="person" ref="pmb12504">Reinhardt</rs>, <rs type="person" ref="pmb13061">Wassmann</rs>, <rs type="person" ref="pmb2859">Arnold</rs>. 14 Tage (ungefähr) später »<anchor type="commentary" xml:id="KL638-5">
+                  <rs type="work" ref="pmb30645">Candida</rs>
+               </anchor>«.</p>
+            <p>Gleichzeitig erhielt ich einen Brief aus dem <rs type="place" ref="pmb738">Berliner Th.</rs>, dass dort Mitte Feber der »<rs type="work" ref="pmb29961">Teufelskerl</rs>« herauskommen soll. Ihre Aufträge für <rs type="place" ref="pmb168">Berlin</rs> werde ich nicht vergessen, seien Sie davon fest überzeugt. ich <subst>
+                  <del rend="overwritten">
+                     <unclear>bin</unclear>
+                  </del>
+                  <add place="inline">werde</add>
+               </subst> über die <rs type="person" ref="pmb2121">Schnitzler</rs> Première nach alledem in <rs type="place" ref="pmb168">Berlin</rs> bleiben, was mich ganz besonders freut, denn »<rs type="work" ref="pmb29985">Der einsame Weg</rs>« ist ganz einzigartig schön! <rs type="person" ref="pmb2121">Arthur S.</rs> hat die <hi rend="underline" n="1">Absicht (verrathen Sie mich um Gotteswillen nicht!!!)</hi> Sie auf der Reise nach <rs type="place" ref="pmb168">Berlin</rs> zu besuchen<pb/> um Sie u. a. auch zu unserer und seiner Beruhigung zu untersuchen, da ihm <rs type="person" ref="pmb2216">Ortner</rs> den Fall doch etwas zu schwer zu nehmen scheint. ich möchte Sie <hi rend="underline" n="1">nach</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb168">Berlin</rs>, mit Schimpf und Schande und Neuigkeiten beladen, besuchen. Soll ich? Da ich Ihrer <rs type="person" subtype="implied" ref="pmb13682">Frau</rs> nun nicht mehr werde telephoniren können, bitte schreiben Sie mir ab und zu eine Zeile über Ihr Wohlbefinden.</p>
+            <p>Weitere Neuigkeiten: <rs type="person" ref="pmb12481 pmb28111">Redlichs</rs> lassen Sie vielmals herzlichst Grüßen.</p>
+            <p>
+               <rs type="person" ref="pmb27882">Fritz Wärndorfer</rs> hatte Lungenentzündung; ist aber seit gestern außer Gefahr! Frau <rs type="person" ref="pmb19144">Weiss</rs>, die den Gang einer verbannten kleinen Königin hat, lässt Sie vielmals grüßen, Sie verlässt sich ganz auf den Eindruck, den Sie <subst>
+                  <del rend="overwritten">I</del>
+                  <add place="inline">i</add>
+               </subst>hr gemacht haben und ist von Ihrer baldigsten vollständigen »Genesung« <hi rend="underline" n="1">fest</hi>
+               <pb/> überzeugt. ich gratulire Ihnen zum großen <rs type="place" ref="pmb506">Ha mburg</rs>er <anchor type="commentary" xml:id="KL638-1">»<rs type="work" ref="pmb29983">Meister</rs>«-Erfolg</anchor>. Unlängst sprach ich <rs type="person" ref="pmb2601">Jarno</rs>, der Sie auf seiner nächsten Reise nach <rs type="place" ref="pmb182">Paris</rs> auch besuchen will; es verstimmt mich dass er mit den »<anchor type="commentary" xml:id="KL638-4">
+                  <rs type="work" ref="pmb29963">Helden</rs>
+               </anchor>« so lange und so gerne zögert. ich war sehr fleißig, der <anchor type="commentary" xml:id="KL638-2">
+                  <rs type="work" cert="low" subtype="implied" ref="pmb30153">Roman</rs>
+               </anchor> ist bis zur Hälfte gediehen und das <anchor type="commentary" xml:id="KL638-3">
+                  <rs type="work" cert="low" subtype="implied" ref="pmb32079">Stück</rs>
+               </anchor> möchte ich in <rs type="place" ref="pmb168">Berlin</rs> zuende führen, d. h. Durchsieben und Feilen. Bitte fragen Sie nicht »was noch«? ich weiß wirklich nichts mehr als die Frage: wie geht es Ihnen????</p>
+            <closer>Mit den herzlichsten Grüßen und Wünschen, bin ich<lb/>Ihr sehr aufrichtig getreuer<lb/>
+               <signed>Siegfr. Trebitsch</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

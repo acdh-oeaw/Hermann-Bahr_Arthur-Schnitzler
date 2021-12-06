@@ -1,112 +1,116 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030059.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030057.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030060.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">von Arthur Schnitzler markierte Stelle in Hermann Bahr: Die Entdeckung der Provinz, 1. 10. 1899</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="059"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AA8-9</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="18991001" n="1">1. 10. 1899</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Exeter</settlement> 
-                        <repository>University of Exeter</repository> 
-                        <idno>The Schnitzler Press-Cuttings Archive, Box 44/10</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">Zeitungsausschnitt; ein seitlicher Strich markiert die aufgenommene Stelle, eine Unterstreichung im Text wird wiedergegeben</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb31979">Die Entdeckung der Provinz</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j" ref="pmb29414">Neues Wiener Tagblatt</title> 
-                     <imprint> 
-                        <date when="18991001" n="1">1. 10. 1899</date> 
-                     </imprint> 
-                     <biblScope unit="jg">33</biblScope> 
-                     <biblScope unit="nr">270</biblScope> 
-                     <biblScope unit="pp">1–3</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-               <biblStruct> 
-                  <analytic> 
-                     <title level="a" ref="pmb31979">Die Entdeckung der Provinz</title> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Bildung</title> 
-                     <imprint> 
-                        <pubPlace>Berlin, Leipzig</pubPlace> 
-                        <publisher>Insel</publisher> 
-                        <date when="1900">1900</date> 
-                     </imprint> 
-                     <biblScope unit="pp">184–191</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20160916" who="MAM">Angelegt und kollationiert.</change> 
-         <change who="KI MAM" when="20160920">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <p part="N">Muß man sich denn nicht wundern, was die Autoren des »jungen <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>« Alles liegen lassen, das doch der größten Wirkungen sicher wäre? Gibt es denn in <hi rend="underline" n="1" hand="pmb10815"> 
-                  <rs type="place" ref="pmb162"> 
-                     <country>Oesterreich</country> 
-                  </rs> wirklich nichts mehr als ewig das süße Mädel</hi> von <rs type="person" ref="pmb2121">Schnitzler</rs>, höchstens einmal in ein anderes Costüm gesteckt, und jene reizend verruchte Welt des Theaters, von der ich nicht loskommen kann, und die paar sonderbaren Laute einer äußersten, ja sublimen, aber schon fast kaum mehr faßlichen Verfeinerung, die <rs type="person" ref="pmb11740">Hofmannsthal</rs> hat?</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030059.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030057.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030060.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">von Arthur Schnitzler markierte Stelle in Hermann Bahr: Die Entdeckung der Provinz, 1. 10. 1899</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="059"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AA8-9</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="18991001" n="1">1. 10. 1899</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Exeter</settlement>
+                        <repository>University of Exeter</repository>
+                        <idno>The Schnitzler Press-Cuttings Archive, Box 44/10</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">Zeitungsausschnitt; ein seitlicher Strich markiert die aufgenommene Stelle, eine Unterstreichung im Text wird wiedergegeben</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb31979">Die Entdeckung der Provinz</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29414">Neues Wiener Tagblatt</title>
+                     <imprint>
+                        <date when="18991001" n="1">1. 10. 1899</date>
+                     </imprint>
+                     <biblScope unit="jg">33</biblScope>
+                     <biblScope unit="nr">270</biblScope>
+                     <biblScope unit="pp">1–3</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <title level="a" ref="pmb31979">Die Entdeckung der Provinz</title>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Bildung</title>
+                     <imprint>
+                        <pubPlace>Berlin, Leipzig</pubPlace>
+                        <publisher>Insel</publisher>
+                        <date when="1900">1900</date>
+                     </imprint>
+                     <biblScope unit="pp">184–191</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160916" who="MAM">Angelegt und kollationiert.</change>
+         <change who="KI MAM" when="20160920">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <p part="N">Muß man sich denn nicht wundern, was die Autoren des »jungen <rs type="place" ref="pmb50">Wien</rs>« Alles liegen lassen, das doch der größten Wirkungen sicher wäre? Gibt es denn in <hi rend="underline" n="1" hand="pmb10815">
+                  <rs type="place" ref="pmb41240">Oesterreich</rs> wirklich nichts mehr als ewig das süße Mädel</hi> von <rs type="person" ref="pmb2121">Schnitzler</rs>, höchstens einmal in ein anderes Costüm gesteckt, und jene reizend verruchte Welt des Theaters, von der ich nicht loskommen kann, und die paar sonderbaren Laute einer äußersten, ja sublimen, aber schon fast kaum mehr faßlichen Verfeinerung, die <rs type="person" ref="pmb11740">Hofmannsthal</rs> hat?</p>
+         </div>
+      </body>
+   </text>
 </TEI>

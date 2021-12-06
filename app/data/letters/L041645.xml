@@ -1,163 +1,138 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041645.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041644.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041646.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Stephan Epstein an Hermann Bahr, 15. 2. 1904</title> 
-            <author ref="pmb2199">Epstein, Stephan</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="645"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F5-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2199">Epstein, Stephan</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb182">Paris</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19040215" n="01">15. 2. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 17385 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 3 S., Lateinschrift, Absenderstempel: »<quote>D<hi rend="superscript">r</hi> Stéphane EPSTEIN / <placeName ref="pmb450">78, Rue de l’Assomption</placeName> 
-                           </quote>«. Die Stelle über Vermittlung an eine Zeitung seitlich mit schwarzem Strich markiert.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160926">Angelegt</change> 
-         <change who="KI MAM" when="20160929">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right">den <date>15. F. 1904</date> 
-               </dateline> 
-               <p rend="right"> 
-                  <rs type="place" ref="pmb785">Paris 16<hi rend="superscript">e.</hi> 
-                  </rs> 
-               </p> 
-               <salute rend="center">Sehr geehrter Herr Bahr!</salute> 
-            </opener> 
-            <p>Für die liebenswürdige Zusendung des »<rs type="work" ref="pmb29983">Meister</rs>«, sowie Ihr Schreiben danke ich Ihnen bestens. Das Szenarium des »<rs type="work" ref="pmb29983">Meister</rs>« habe ich <rs type="person" ref="pmb2211">Antoine</rs> bereits vorigen Monat überreicht, jedoch noch keinen Bescheid bekommen. Ich werde mich in das Stück vertiefen und Ihnen in den nächsten Tagen ausführlich be<damage agent="hole"> 
-                  <supplied>rich</supplied> 
-               </damage>ten, was meiner Meinung zu thun ist.</p> 
-            <p>Ihr w. Schreiben giebt mir willkommene Gelegenheit, auf die »<rs type="work" ref="pmb29887">Apostel</rs>«-Frage <anchor type="commentary" xml:id="KL645-1">zurückzukommen</anchor>: Sie schrieben mir seinerzeit, Sie wollten mir die Autorisation zur Uebersetzung geben, wenn ich Ihnen ein à valoir von 2000<hi rend="superscript">fs</hi> auszahle. Inzwischen aber hatte ich bereits von <rs type="org" ref="pmb29654">Langen</rs> bezw. <rs type="org" ref="pmb29711">Ahn</rs> diese Autorisation bekommen und auch den »<rs type="work" ref="pmb29887">Apostel</rs>« für die <rs type="place" ref="pmb166"> 
-                  <country>französische</country> 
-               </rs> Bühne bearbeitet. Ich habe dann das Stück <rs type="person" ref="pmb2211">Antoine</rs> gelesen und er war dafür sehr emballirt; als es sich aber darum handelte von Worten zu Thaten zu schreiten, stellte es sich heraus, daß <rs type="person" ref="pmb2211">Antoine</rs>’s <rs type="place" subtype="implied" ref="pmb610">Bühne (vorm Menus-Plaisirs)</rs> für den zweiten Akt völlig unzureichend ist.</p> 
-            <p>Der <rs type="work" ref="pmb29887">Apostel</rs> befindet sich gegenwärtig im <rs type="place" ref="pmb792">Odéon</rs> und nachdem, was mir <rs type="person" ref="pmb28001">Ginisty</rs> jüngst gesagt hat, ist es mehr als wahrscheinlich, daß er Ihr Stück <anchor type="commentary" xml:id="KL645-2">aufführen</anchor> wird.</p> 
-            <p>Als Sie bei mir für die Ueberlassung des »<rs type="work" ref="pmb29887">Apostel</rs>« 2000 fs verlangten, befanden Sie sich offenbar in der irrigen Meinung, daß ich hier in <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> so eine Art litterarische Agentur betreibe. Dies ist keineswegs der Fall. Was ich hier betreibe, betrachte ich als eine Art Mission. Eine Mission, die ungeheuere Arbeit macht und <hi rend="underline" n="1">sehr</hi> wenig einträgt: es ist leichter zehn schlechte <rs type="place" ref="pmb166"> 
-                  <country>französische</country> 
-               </rs> Stücke aufführen zu lassen, als auch nur ein einziges auslaendisches Meisterwerk anzubringen.<pb/> Was soll man da sagen, verehrter Herr, wenn diese Bergochsen von Direktoren und Cretins von Kritikern <rs type="person" ref="pmb2412">Shakespeare</rs> nur aus der skandalösen <rs type="work" ref="pmb30009">Hamlet</rs>-Bearbeitung von <rs type="person" ref="pmb11190">Dumas</rs> kennen und von <rs type="person" ref="pmb11068">Calderon</rs> nicht einmal etwas vom Hören-Sagen wissen? Dafür aber <rs type="person" ref="pmb12899">Sudermann</rs>’s »<rs type="work" ref="pmb30255">Ehre</rs>« für das Beste halten, was die deutsche Litteratur gegeben hat?</p> 
-            <p>Als ich nun bei <rs type="person" ref="pmb2211">Antoine</rs> die Stelle eines Dramaturgen annahm, so geschah dies in erster Linie deswegen, damit ich frei mit ihm und den anderen Direktoren verhandeln kann: es ist nämlich leichter beim <rs type="person" subtype="implied" ref="pmb28347">Dalai-Lama</rs> eine Audienz zu bekommen, als bei einem <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>er Theaterdirektor vorzukommen, der immer »Damenbesuch« hat. <rs type="person" ref="pmb2500">Claretie</rs> macht eine Ausnahme, er ist schon zu alt! Und nach 1 ½ jäh<damage agent="hole"> 
-                  <supplied>ri</supplied> 
-               </damage>gem unausgesetztem Streben, bei dem ich so ziemlich Alles aufgebraucht habe, was ich erspart hatte, brachte ich es wenigstens so weit, daß <rs type="person" ref="pmb2211">Antoine</rs> diesen Winter <rs type="work" ref="pmb31623">Lear</rs> in einer Bearbeitung <rs type="person" ref="pmb12114">Pierre Loti</rs>s spielen wird, daß <rs type="person" ref="pmb2500">Claretie</rs> an der <rs type="place" ref="pmb554">Comédie</rs> nächste Saison <rs type="person" ref="pmb11068">Calderon</rs>s »<rs type="work" ref="pmb31617">Alkade von Zalamea</rs>«, den ich ihm aus dem <rs type="place" ref="pmb388"> 
-                  <country>Spanischen</country> 
-               </rs> übersetzt habe, giebt, daß <rs type="person" ref="pmb2121">Schnitzler</rs>’s »<rs type="work" ref="pmb29843">Kakadu</rs>« hier ein litterarisches Ereignis war, und daß <rs type="person" ref="pmb2211">Antoine</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb14948">Werkmann</rs> »<rs type="work" ref="pmb31387">Liebessünden</rs>« und <rs type="person" ref="pmb11565">Halbe</rs> »<rs type="work" ref="pmb31389">Der Strom</rs>« acceptirt hat. Wissen Sie was ich für Stücke bei <rs type="person" ref="pmb2211">Antoine</rs> 
-               <space unit="chars" quantity="1"/> 
-               <hi rend="underline" n="1">acceptirt</hi> vorfand: »<rs type="work" ref="pmb31505">Alt-Heidelberg</rs>« und »<rs type="work" ref="pmb31915">Der blinde Passagier</rs>«, letzterer unter dem he<damage agent="hole"> 
-                  <supplied>rr</supplied> 
-               </damage>lichen Titel: »Le passager aveugle«.</p> 
-            <p>Und nun ist es mit dem Anbringen eines Stückes noch nicht gethan: da beginnt erst die Lauferei zur Presse, zu den verschiedenen Membres de <rs type="place" ref="pmb793">l’Institut</rs>, denen man begreiflich machen muß, daß <rs type="person" ref="pmb11068">Calderon</rs> beinahe so viel wert ist, wie <rs type="person" ref="pmb4791">Brieux</rs>; denn, daß er dasselbe kann, wie <rs type="person" ref="pmb2931">Feydeau</rs>, wage ich gar zu behaupten, ohne zu riskiren, als »ennemi de la <rs type="place" ref="pmb166"> 
-                  <country>France</country> 
-               </rs>« verschriehen zu werden.</p> 
-            <p>Ich darf wohl behaupten, daß <rs type="person" ref="pmb2121">Schnitzler</rs>s <rs type="work" ref="pmb29843">Kakadu</rs> zum ersten Mal von der Presse thatsächlich als <anchor type="label" xml:id="LL645-1"> 
-                  <hi rend="underline" n="1">litterarisches Ereignis</hi> 
-               </anchor> aufgefasst wurde, und dies war <hi rend="underline" n="1">mein</hi> Verdienst. Materiellen Vorteil: ausser dem<pb/> Gehalt bei <rs type="person" ref="pmb2211">Antoine</rs>, circa 500<hi rend="superscript">fs</hi>.</p> 
-            <p>Sie werden also begreifen und verzeihen, wenn ich Ihnen auf die Forderung von 2000<hi rend="superscript">fs</hi> keine Antwort gegeben habe, wo nehmen, ohne Depots anzugreifen?</p> 
-            <p>Ich würde sicherlich in meiner Thätigkeit, die etwas <rs type="work" subtype="implied" ref="pmb31515">Don-Quijote</rs>-artiges in sich hat, nicht fortfahren, wenn ich nicht sähe, daß ich auf dem Wege bin, durchzudringen und daß dann auch der materielle Erfolg nicht fehlen wird. Aber en attendant <c rendition="#dots" n="7" place="center"/> Alles könnte ein wenig schneller gehen, wenn ich von Seiten meiner »Confrères« in <rs type="place" ref="pmb151"> 
-                  <country>Deutschland</country> 
-               </rs> etwas mehr Unterstützung hätte; »etwas mehr« ist nicht das Wort, denn ich habe gar keine. <damage agent="hole"> 
-                  <supplied>We</supplied> 
-               </damage>nn ich beispielsweise ein gutes Blatt fände, daß in regelmässigen Intervallen von mir »<rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>er Theaterbriefe« brächte und worin ich in erster Linie auch über die hiesigen Theaterverhältnisse aussprechen könnte, und auch die Stellung beleuchtete, welche fremde Litteraturen auf den <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>er Bühnen einnehmen. Dies dürfte ja auch das Publikum interessiren. Denn daß die <rs type="place" ref="pmb151"> 
-                  <country>deutschen</country> 
-               </rs> Korrespondenten in <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> mit dem <rs type="place" subtype="implied" ref="pmb166"> 
-                  <country>Franzosenthum</country> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <hi rend="underline" n="1">ausser jeder</hi> Fühlung stehen, wissen Sie wohl selbst und was das <rs type="place" ref="pmb151"> 
-                  <country>deutsche</country> 
-               </rs> oder <rs type="place" ref="pmb162"> 
-                  <country>öster</country> 
-               </rs>. Publikum als <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>er Theater oder Kunstberichte bekommt, ist verdünnter Aufguss aus dem »<rs type="org" ref="pmb29706">Figaro</rs>« und den »<rs type="org" ref="pmb29221">Debats</rs>«.</p> 
-            <p>Könnte es Ihrem Einfluß – da ich ganz ausserhalb des <rs type="place" ref="pmb151"> 
-                  <country>deutschen</country> 
-               </rs> Mouvements stehe – möglich sein, mir durch Ihre Verwendung die Spalten eines solchen Blattes zu öffnen?</p> 
-            <p>Ueber den »<rs type="work" ref="pmb29983">Meister</rs>«, wie gesagt, dieser Tage!</p> 
-            <closer>Bis dahin zeichne ich, Ihrer Antwort entgegensehend<lb/>hochachtungsvoll ergebenst<lb/> 
-               <signed>D<hi rend="superscript">r</hi> Stephan Epstein</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041645.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041644.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041646.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Stephan Epstein an Hermann Bahr, 15. 2. 1904</title>
+            <author ref="pmb2199">Epstein, Stephan</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="645"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F5-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2199">Epstein, Stephan</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb182">Paris</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19040215" n="01">15. 2. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 17385 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 3 S., Lateinschrift, Absenderstempel: »<quote>D<hi rend="superscript">r</hi> Stéphane EPSTEIN / <placName ref="pmb450">78, Rue de l’Assomption</placName>
+                           </quote>«. Die Stelle über Vermittlung an eine Zeitung seitlich mit schwarzem Strich markiert.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160926">Angelegt</change>
+         <change who="KI MAM" when="20160929">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">den <date>15. F. 1904</date>
+               </dateline>
+               <p rend="right">
+                  <rs type="place" ref="pmb47026">Paris 16<hi rend="superscript">e.</hi>
+                  </rs>
+               </p>
+               <salute rend="center">Sehr geehrter Herr Bahr!</salute>
+            </opener>
+            <p>Für die liebenswürdige Zusendung des »<rs type="work" ref="pmb29983">Meister</rs>«, sowie Ihr Schreiben danke ich Ihnen bestens. Das Szenarium des »<rs type="work" ref="pmb29983">Meister</rs>« habe ich <rs type="person" ref="pmb2211">Antoine</rs> bereits vorigen Monat überreicht, jedoch noch keinen Bescheid bekommen. Ich werde mich in das Stück vertiefen und Ihnen in den nächsten Tagen ausführlich be<damage agent="hole">
+                  <supplied>rich</supplied>
+               </damage>ten, was meiner Meinung zu thun ist.</p>
+            <p>Ihr w. Schreiben giebt mir willkommene Gelegenheit, auf die »<rs type="work" ref="pmb29887">Apostel</rs>«-Frage <anchor type="commentary" xml:id="KL645-1">zurückzukommen</anchor>: Sie schrieben mir seinerzeit, Sie wollten mir die Autorisation zur Uebersetzung geben, wenn ich Ihnen ein à valoir von 2000<hi rend="superscript">fs</hi> auszahle. Inzwischen aber hatte ich bereits von <rs type="org" ref="pmb29654">Langen</rs> bezw. <rs type="org" ref="pmb29711">Ahn</rs> diese Autorisation bekommen und auch den »<rs type="work" ref="pmb29887">Apostel</rs>« für die <rs type="place" ref="pmb166">französische</rs> Bühne bearbeitet. Ich habe dann das Stück <rs type="person" ref="pmb2211">Antoine</rs> gelesen und er war dafür sehr emballirt; als es sich aber darum handelte von Worten zu Thaten zu schreiten, stellte es sich heraus, daß <rs type="person" ref="pmb2211">Antoine</rs>’s <rs type="place" subtype="implied" ref="pmb610">Bühne (vorm Menus-Plaisirs)</rs> für den zweiten Akt völlig unzureichend ist.</p>
+            <p>Der <rs type="work" ref="pmb29887">Apostel</rs> befindet sich gegenwärtig im <rs type="place" ref="pmb792">Odéon</rs> und nachdem, was mir <rs type="person" ref="pmb28001">Ginisty</rs> jüngst gesagt hat, ist es mehr als wahrscheinlich, daß er Ihr Stück <anchor type="commentary" xml:id="KL645-2">aufführen</anchor> wird.</p>
+            <p>Als Sie bei mir für die Ueberlassung des »<rs type="work" ref="pmb29887">Apostel</rs>« 2000 fs verlangten, befanden Sie sich offenbar in der irrigen Meinung, daß ich hier in <rs type="place" ref="pmb182">Paris</rs> so eine Art litterarische Agentur betreibe. Dies ist keineswegs der Fall. Was ich hier betreibe, betrachte ich als eine Art Mission. Eine Mission, die ungeheuere Arbeit macht und <hi rend="underline" n="1">sehr</hi> wenig einträgt: es ist leichter zehn schlechte <rs type="place" ref="pmb166">französische</rs> Stücke aufführen zu lassen, als auch nur ein einziges auslaendisches Meisterwerk anzubringen.<pb/> Was soll man da sagen, verehrter Herr, wenn diese Bergochsen von Direktoren und Cretins von Kritikern <rs type="person" ref="pmb2412">Shakespeare</rs> nur aus der skandalösen <rs type="work" ref="pmb30009">Hamlet</rs>-Bearbeitung von <rs type="person" ref="pmb11190">Dumas</rs> kennen und von <rs type="person" ref="pmb11068">Calderon</rs> nicht einmal etwas vom Hören-Sagen wissen? Dafür aber <rs type="person" ref="pmb12899">Sudermann</rs>’s »<rs type="work" ref="pmb30255">Ehre</rs>« für das Beste halten, was die deutsche Litteratur gegeben hat?</p>
+            <p>Als ich nun bei <rs type="person" ref="pmb2211">Antoine</rs> die Stelle eines Dramaturgen annahm, so geschah dies in erster Linie deswegen, damit ich frei mit ihm und den anderen Direktoren verhandeln kann: es ist nämlich leichter beim <rs type="person" subtype="implied" ref="pmb28347">Dalai-Lama</rs> eine Audienz zu bekommen, als bei einem <rs type="place" ref="pmb182">Paris</rs>er Theaterdirektor vorzukommen, der immer »Damenbesuch« hat. <rs type="person" ref="pmb2500">Claretie</rs> macht eine Ausnahme, er ist schon zu alt! Und nach 1 ½ jäh<damage agent="hole">
+                  <supplied>ri</supplied>
+               </damage>gem unausgesetztem Streben, bei dem ich so ziemlich Alles aufgebraucht habe, was ich erspart hatte, brachte ich es wenigstens so weit, daß <rs type="person" ref="pmb2211">Antoine</rs> diesen Winter <rs type="work" ref="pmb31623">Lear</rs> in einer Bearbeitung <rs type="person" ref="pmb12114">Pierre Loti</rs>s spielen wird, daß <rs type="person" ref="pmb2500">Claretie</rs> an der <rs type="place" ref="pmb554">Comédie</rs> nächste Saison <rs type="person" ref="pmb11068">Calderon</rs>s »<rs type="work" ref="pmb31617">Alkade von Zalamea</rs>«, den ich ihm aus dem <rs type="place" ref="pmb388">Spanischen</rs> übersetzt habe, giebt, daß <rs type="person" ref="pmb2121">Schnitzler</rs>’s »<rs type="work" ref="pmb29843">Kakadu</rs>« hier ein litterarisches Ereignis war, und daß <rs type="person" ref="pmb2211">Antoine</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb14948">Werkmann</rs> »<rs type="work" ref="pmb31387">Liebessünden</rs>« und <rs type="person" ref="pmb11565">Halbe</rs> »<rs type="work" ref="pmb31389">Der Strom</rs>« acceptirt hat. Wissen Sie was ich für Stücke bei <rs type="person" ref="pmb2211">Antoine</rs>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">acceptirt</hi> vorfand: »<rs type="work" ref="pmb31505">Alt-Heidelberg</rs>« und »<rs type="work" ref="pmb31915">Der blinde Passagier</rs>«, letzterer unter dem he<damage agent="hole">
+                  <supplied>rr</supplied>
+               </damage>lichen Titel: »Le passager aveugle«.</p>
+            <p>Und nun ist es mit dem Anbringen eines Stückes noch nicht gethan: da beginnt erst die Lauferei zur Presse, zu den verschiedenen Membres de <rs type="place" ref="pmb793">l’Institut</rs>, denen man begreiflich machen muß, daß <rs type="person" ref="pmb11068">Calderon</rs> beinahe so viel wert ist, wie <rs type="person" ref="pmb4791">Brieux</rs>; denn, daß er dasselbe kann, wie <rs type="person" ref="pmb2931">Feydeau</rs>, wage ich gar zu behaupten, ohne zu riskiren, als »ennemi de la <rs type="place" ref="pmb166">France</rs>« verschriehen zu werden.</p>
+            <p>Ich darf wohl behaupten, daß <rs type="person" ref="pmb2121">Schnitzler</rs>s <rs type="work" ref="pmb29843">Kakadu</rs> zum ersten Mal von der Presse thatsächlich als <anchor type="label" xml:id="LL645-1">
+                  <hi rend="underline" n="1">litterarisches Ereignis</hi>
+               </anchor> aufgefasst wurde, und dies war <hi rend="underline" n="1">mein</hi> Verdienst. Materiellen Vorteil: ausser dem<pb/> Gehalt bei <rs type="person" ref="pmb2211">Antoine</rs>, circa 500<hi rend="superscript">fs</hi>.</p>
+            <p>Sie werden also begreifen und verzeihen, wenn ich Ihnen auf die Forderung von 2000<hi rend="superscript">fs</hi> keine Antwort gegeben habe, wo nehmen, ohne Depots anzugreifen?</p>
+            <p>Ich würde sicherlich in meiner Thätigkeit, die etwas <rs type="work" subtype="implied" ref="pmb31515">Don-Quijote</rs>-artiges in sich hat, nicht fortfahren, wenn ich nicht sähe, daß ich auf dem Wege bin, durchzudringen und daß dann auch der materielle Erfolg nicht fehlen wird. Aber en attendant <c rendition="#dots" n="7" place="center"/> Alles könnte ein wenig schneller gehen, wenn ich von Seiten meiner »Confrères« in <rs type="place" ref="pmb151">Deutschland</rs> etwas mehr Unterstützung hätte; »etwas mehr« ist nicht das Wort, denn ich habe gar keine. <damage agent="hole">
+                  <supplied>We</supplied>
+               </damage>nn ich beispielsweise ein gutes Blatt fände, daß in regelmässigen Intervallen von mir »<rs type="place" ref="pmb182">Paris</rs>er Theaterbriefe« brächte und worin ich in erster Linie auch über die hiesigen Theaterverhältnisse aussprechen könnte, und auch die Stellung beleuchtete, welche fremde Litteraturen auf den <rs type="place" ref="pmb182">Paris</rs>er Bühnen einnehmen. Dies dürfte ja auch das Publikum interessiren. Denn daß die <rs type="place" ref="pmb151">deutschen</rs> Korrespondenten in <rs type="place" ref="pmb182">Paris</rs> mit dem <rs type="place" subtype="implied" ref="pmb166">Franzosenthum</rs>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">ausser jeder</hi> Fühlung stehen, wissen Sie wohl selbst und was das <rs type="place" ref="pmb151">deutsche</rs> oder <rs type="place" ref="pmb41240">öster</rs>. Publikum als <rs type="place" ref="pmb182">Paris</rs>er Theater oder Kunstberichte bekommt, ist verdünnter Aufguss aus dem »<rs type="org" ref="pmb29706">Figaro</rs>« und den »<rs type="org" ref="pmb29221">Debats</rs>«.</p>
+            <p>Könnte es Ihrem Einfluß – da ich ganz ausserhalb des <rs type="place" ref="pmb151">deutschen</rs> Mouvements stehe – möglich sein, mir durch Ihre Verwendung die Spalten eines solchen Blattes zu öffnen?</p>
+            <p>Ueber den »<rs type="work" ref="pmb29983">Meister</rs>«, wie gesagt, dieser Tage!</p>
+            <closer>Bis dahin zeichne ich, Ihrer Antwort entgegensehend<lb/>hochachtungsvoll ergebenst<lb/>
+               <signed>D<hi rend="superscript">r</hi> Stephan Epstein</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

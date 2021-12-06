@@ -1,108 +1,109 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041394.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041393.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041395.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Felix Salten, 10. 1. 1905</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="394"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86FB-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2167">Salten, Felix</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <!--<placeAddressee><placeName>[Wien???]</placeName></placeAddressee>--> 
-               <dateSender> 
-                  <date when="19050110" n="01">10. 1. 1905</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASB1" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1875–1912</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                     <biblScope unit="pp">510</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160125">Angelegt aus Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>10. 1. 905</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>lieber, </salute>die <rs type="person" ref="pmb12618">Sandrock</rs> war wegen der <anchor type="commentary" xml:id="KL394-2"> 
-                  <rs type="person" ref="pmb2221">Hervay</rs>-Vorlesung</anchor> bei mir; da ich heuer sowie voriges Jahr absolut immer abgelehnt und in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> (von jener <anchor type="commentary" xml:id="KL394-1"> 
-                  <rs type="person" ref="pmb13082">Karlweis</rs>-Sache im Jahre 97</anchor> abgesehen) überhaupt nur ein paar Mal in <anchor type="commentary" xml:id="KL394-3">Arbeitervereinen</anchor> gelesen habe, mir das Vorlesen vor der <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er Bürgerschaft so widerwärtig wie möglich ist und ich nebstbei alle die Leute, denen ich bisher Refus gegeben, nicht ohne tiefe innere Nöthigung zu verletzen Lust habe, – widerstrebt es mir sehr, in diesem Fall eine Ausnahme zu machen, und ich schreibe Ihnen das, weil die <rs type="person" ref="pmb12618">S.</rs> natürlich gegen alle diese Gründe taub war, und ich annehme, daß es Ihnen ganz leicht sein wird, ihr meine Mitwirkung auszureden. <rs type="person" ref="pmb10815">Bahr</rs> hat telegrafisch zugesagt (ich versprach der <rs type="person" ref="pmb12618">S.</rs> Ihnen das gleich zu schreiben) der Abend selbst ist durch Sie, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb12618">Sandrock</rs> zugkräftig u gesichert genug; und ich hoffe überzeugt sein zu dürfen, daß Ihnen meine Vorleserei an diesem Abend nicht fehlen wird. (Den wohlthätigen Zweck kann ich ja, hab ich schon, in bescheidener Weise gefördert, indem ich mich an der <rs type="person" ref="pmb12618">Sandrock</rs> Sammlung betheilige. –) – Ich belästige Sie mit diesem Brief, weil Sie ja die <rs type="person" ref="pmb12618">Sandrock</rs> gewiß in dieser Angelegenheit bald sprechen – u weil es wohl gar nichts hilft, wenn ich ihr selbst diese Sachen schreibe.</p> 
-            <closer>Seien Sie herzlich gegrüßt,<lb/>Ihr<lb/> 
-               <signed>Arth</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041394.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041393.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041395.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Felix Salten, 10. 1. 1905</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="394"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86FB-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2167">Salten, Felix</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <!--<placeAddressee><placeName>[Wien???]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="19050110" n="01">10. 1. 1905</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">510</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160125">Angelegt aus Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>10. 1. 905</date>.</dateline>
+            </opener>
+            <p>
+               <salute>lieber, </salute>die <rs type="person" ref="pmb12618">Sandrock</rs> war wegen der <anchor type="commentary" xml:id="KL394-2">
+                  <rs type="person" ref="pmb2221">Hervay</rs>-Vorlesung</anchor> bei mir; da ich heuer sowie voriges Jahr absolut immer abgelehnt und in <rs type="place" ref="pmb50">Wien</rs> (von jener <anchor type="commentary" xml:id="KL394-1">
+                  <rs type="person" ref="pmb13082">Karlweis</rs>-Sache im Jahre 97</anchor> abgesehen) überhaupt nur ein paar Mal in <anchor type="commentary" xml:id="KL394-3">Arbeitervereinen</anchor> gelesen habe, mir das Vorlesen vor der <rs type="place" ref="pmb50">Wien</rs>er Bürgerschaft so widerwärtig wie möglich ist und ich nebstbei alle die Leute, denen ich bisher Refus gegeben, nicht ohne tiefe innere Nöthigung zu verletzen Lust habe, – widerstrebt es mir sehr, in diesem Fall eine Ausnahme zu machen, und ich schreibe Ihnen das, weil die <rs type="person" ref="pmb12618">S.</rs> natürlich gegen alle diese Gründe taub war, und ich annehme, daß es Ihnen ganz leicht sein wird, ihr meine Mitwirkung auszureden. <rs type="person" ref="pmb10815">Bahr</rs> hat telegrafisch zugesagt (ich versprach der <rs type="person" ref="pmb12618">S.</rs> Ihnen das gleich zu schreiben) der Abend selbst ist durch Sie, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb12618">Sandrock</rs> zugkräftig u gesichert genug; und ich hoffe überzeugt sein zu dürfen, daß Ihnen meine Vorleserei an diesem Abend nicht fehlen wird. (Den wohlthätigen Zweck kann ich ja, hab ich schon, in bescheidener Weise gefördert, indem ich mich an der <rs type="person" ref="pmb12618">Sandrock</rs> Sammlung betheilige. –) – Ich belästige Sie mit diesem Brief, weil Sie ja die <rs type="person" ref="pmb12618">Sandrock</rs> gewiß in dieser Angelegenheit bald sprechen – u weil es wohl gar nichts hilft, wenn ich ihr selbst diese Sachen schreibe.</p>
+            <closer>Seien Sie herzlich gegrüßt,<lb/>Ihr<lb/>
+               <signed>Arth</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

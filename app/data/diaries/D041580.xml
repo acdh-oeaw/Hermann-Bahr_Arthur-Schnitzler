@@ -1,97 +1,104 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041580.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041579.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041581.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hugo Thimig, 25. 10. 1910</title> 
-            <author ref="pmb12948">Thimig, Hugo</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="580"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A53-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>TM VM 2962/20 Th</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh., Bleistift, 1 Bl., 1 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="ASAS" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb12618">Sandrock, Adele</author> 
-                     <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten</title> 
-                     <editor>Zusammengestellt von Renate Wagner</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, München</pubPlace> 
-                        <publisher>Amalthea</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">311</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160411">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19101025" n="1">25. Okt. 1910.</date> 
-            </p> 
-            <p>Soeben erzählt mir <rs type="person" ref="pmb10959">Hedwig Römpler-Bleibtreu</rs>: Baron <rs type="person" ref="pmb10883">Berger</rs> hat ihr mitgetheilt, daß die Clique: <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb2167">Salten</rs> in ihn dringen <rs type="person" ref="pmb12618">Adele Sandrock</rs> direkt zu engagieren. Er könne diesem Drucke schwer widerstehen und versichere ihr nur, daß, falls dieses Engagement perfekt würde, es nicht gegen sie gemünzt sei. Auch will <rs type="person" ref="pmb10959">Hedwig</rs> bestimmt wissen, daß vom 1. April Frau <rs type="person" ref="pmb23918">Salten-Metzl</rs> direkt engangiert sei. <rs type="person" ref="pmb10883">Berger</rs> scheint also den ganzen Corruptionsmist wieder in den ziemlich reingehaltenen Stall zu schleppen.</p> 
-            <p> 
-               <rs type="person" ref="pmb11036">Burckhard</rs> ist wieder Kritiker; am »<rs type="org" ref="pmb29600">Fremdenblatt</rs>«.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041580.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041579.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041581.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hugo Thimig, 25. 10. 1910</title>
+            <author ref="pmb12948">Thimig, Hugo</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="580"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A53-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>TM VM 2962/20 Th</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh., Bleistift, 1 Bl., 1 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASAS">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb12618">Sandrock, Adele</author>
+                     <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten</title>
+                     <editor>Zusammengestellt von Renate Wagner</editor>
+                     <imprint>
+                        <pubPlace>Wien, München</pubPlace>
+                        <publisher>Amalthea</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">311</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160411">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19101025" n="1">25. Okt. 1910.</date>
+            </p>
+            <p>Soeben erzählt mir <rs type="person" ref="pmb10959">Hedwig Römpler-Bleibtreu</rs>: Baron <rs type="person" ref="pmb10883">Berger</rs> hat ihr mitgetheilt, daß die Clique: <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb2167">Salten</rs> in ihn dringen <rs type="person" ref="pmb12618">Adele Sandrock</rs> direkt zu engagieren. Er könne diesem Drucke schwer widerstehen und versichere ihr nur, daß, falls dieses Engagement perfekt würde, es nicht gegen sie gemünzt sei. Auch will <rs type="person" ref="pmb10959">Hedwig</rs> bestimmt wissen, daß vom 1. April Frau <rs type="person" ref="pmb23918">Salten-Metzl</rs> direkt engangiert sei. <rs type="person" ref="pmb10883">Berger</rs> scheint also den ganzen Corruptionsmist wieder in den ziemlich reingehaltenen Stall zu schleppen.</p>
+            <p>
+               <rs type="person" ref="pmb11036">Burckhard</rs> ist wieder Kritiker; am »<rs type="org" ref="pmb29600">Fremdenblatt</rs>«.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

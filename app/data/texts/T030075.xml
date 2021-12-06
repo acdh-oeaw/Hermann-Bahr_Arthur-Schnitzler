@@ -1,447 +1,453 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030075.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030074.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030076.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Buchversandliste Das österreichische Wunder], [Anfang Juni 1915]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="075"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB8-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19150600" n="1">[Anfang Juni 1915]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 3680 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">1 Bl., 2 S., eh. mit verschiedenen Schreibmaterialien (roter, blauer Buntstift, Bleistift und Tinte) beschriftet. Wiedergabe der ersten Seite.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20161215">angelegt</change> 
-         <change who="KI MAM" when="20161216">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <head> 
-               <anchor type="commentary" xml:id="KT075-1"> 
-                  <rs type="work" ref="pmb32336">Wunder</rs> 
-               </anchor> 
-            </head> 
-            <p part="N"> 
-               <table rows="32" cols="3"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb28871">Dr Schuchter</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">Major <rs type="person" ref="pmb11952">Koch</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11447">Glossy</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Noch an </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11227">Paul Eger</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3397">Heine</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb3835">Schweniger</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3919">Prinz Max</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb10875">Benedikt</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb11086">Chamberlain</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2686">Pr. Hohenlohe</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2202">Singer</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="org" ref="pmb29637">Reichspost</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb13079">Weiskirchner</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28874">Danzer</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough">Stadtrat <rs type="person" ref="pmb28859">Goeritz</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2150">Julius Bauer</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4900">Lecher</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Lehrer in <rs type="place" ref="pmb409"> 
-                           <settlement>Stargard</settlement> 
-                        </rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28878">Kumpf</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2167">Salten</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb4903">Erzh Eugen</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="org" ref="pmb29701">Sozialist Monatsh</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3940">Dietzel</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="org" ref="pmb29320">Wr Journal</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4903">Erzh Eugen</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11447">Glossy</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb11581">Harden</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28777">Lucy Moy</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb12870">Strauss</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="org" ref="pmb29691">Tagl. Rundschau</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28615">Nesty</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb12481">Redlich</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11098">Conrad</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4270">Eibl</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3731">Kralik</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb2226">Fred</rs> 
-                        </del> 
-                        <space unit="chars" quantity="7"/> 
-                        <del rend="strikethrough"> 
-                           <hi rend="underline" n="1"> 
-                              <rs type="person" ref="pmb4270">Eibl</rs> 
-                           </hi> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4907">Troeltsch</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2292">Gerty</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb24239">Hans Schlesinger</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3900">Traub</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28879">Vian</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb4893">Rambousek</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb12254">Robert Michel</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4896">Schmitt-Gasteiger</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4915">Kuenburg</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3280">KoloMoser</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28700">Thienen</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb2686">Hohenlohe</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28883">Beurle</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28867">Ott</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4890">Stibral</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3715">Sitte</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4911">Sylvester</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <hi rend="underline" n="1"> 
-                              <rs type="person" ref="pmb28887">Rieder</rs> 
-                           </hi> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="org" ref="pmb29686">Volksblatt</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <gap quantity="1" reason="illegible" unit="chars"/>a<unclear>y</unclear>er</del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="org" ref="pmb29656">Chronik</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb28777">Moy</rs> 
-                        </del> 
-                        <space unit="chars" quantity="7"/> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb13514">Arani</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb13163">Theodor Wolff</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4918">Schuchter</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb10863 pmb10860">Beerhofmanns</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3835">Schweninger</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough"> 
-                           <rs type="person" ref="pmb28615">Nesti</rs> 
-                        </del> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11086">Chamberlain</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28124">Anna Buz</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb24239">Hans Schlesinger</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4893">Rambousek</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11581">Harden</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="org" ref="pmb29637">Reichspost</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28859">Goeritz</rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs cert="low" type="org" ref="pmb29216"> 
-                           <unclear>Manz</unclear> 
-                        </rs> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb28518"> 
-                           <unclear>K</unclear>arl Jentsch</rs> 
-                     </cell> 
-                  </row> 
-               </table> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="org" ref="pmb29348">Schaubü</rs>, <rs type="person" ref="pmb11760">Korfiz Holm</rs> | <rs type="person" ref="pmb13163">Theodor Wolff</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb4903">Erzh Eugen</rs> | <rs type="person" ref="pmb3419">Ahn</rs> 
-               </del> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030075.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030074.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030076.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Buchversandliste Das österreichische Wunder], [Anfang Juni 1915]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="075"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB8-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19150600" n="1">[Anfang Juni 1915]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 3680 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">1 Bl., 2 S., eh. mit verschiedenen Schreibmaterialien (roter, blauer Buntstift, Bleistift und Tinte) beschriftet. Wiedergabe der ersten Seite.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20161215">angelegt</change>
+         <change who="KI MAM" when="20161216">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <head>
+               <anchor type="commentary" xml:id="KT075-1">
+                  <rs type="work" ref="pmb32336">Wunder</rs>
+               </anchor>
+            </head>
+            <p part="N">
+               <table rows="32" cols="3">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb28871">Dr Schuchter</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">Major <rs type="person" ref="pmb11952">Koch</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11447">Glossy</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Noch an </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11227">Paul Eger</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb38364">Heine</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb3835">Schweniger</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3919">Prinz Max</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb10875">Benedikt</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb11086">Chamberlain</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2686">Pr. Hohenlohe</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2202">Singer</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="org" ref="pmb29637">Reichspost</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb13079">Weiskirchner</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28874">Danzer</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">Stadtrat <rs type="person" ref="pmb28859">Goeritz</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2150">Julius Bauer</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4900">Lecher</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Lehrer in <rs type="place" ref="pmb409">Stargard</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28878">Kumpf</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2167">Salten</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb4903">Erzh Eugen</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="org" ref="pmb29701">Sozialist Monatsh</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3940">Dietzel</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="org" ref="pmb29320">Wr Journal</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4903">Erzh Eugen</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11447">Glossy</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb11581">Harden</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28777">Lucy Moy</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb12870">Strauss</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="org" ref="pmb29691">Tagl. Rundschau</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28615">Nesty</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb12481">Redlich</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11098">Conrad</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4270">Eibl</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3731">Kralik</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb2226">Fred</rs>
+                        </del>
+                        <space unit="chars" quantity="7"/>
+                        <del rend="strikethrough">
+                           <hi rend="underline" n="1">
+                              <rs type="person" ref="pmb4270">Eibl</rs>
+                           </hi>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4907">Troeltsch</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2292">Gerty</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb24239">Hans Schlesinger</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3900">Traub</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28879">Vian</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb4893">Rambousek</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb12254">Robert Michel</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4896">Schmitt-Gasteiger</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4915">Kuenburg</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3280">KoloMoser</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28700">Thienen</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb2686">Hohenlohe</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28883">Beurle</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28867">Ott</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4890">Stibral</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3715">Sitte</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4911">Sylvester</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <hi rend="underline" n="1">
+                              <rs type="person" ref="pmb28887">Rieder</rs>
+                           </hi>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="org" ref="pmb29686">Volksblatt</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <gap quantity="1" reason="illegible" unit="chars"/>a<unclear>y</unclear>er</del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="org" ref="pmb29656">Chronik</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb28777">Moy</rs>
+                        </del>
+                        <space unit="chars" quantity="7"/>
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb13514">Arani</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb13163">Theodor Wolff</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2121">Schnitzler</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4918">Schuchter</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb10863 pmb10860">Beerhofmanns</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3835">Schweninger</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">
+                           <rs type="person" ref="pmb28615">Nesti</rs>
+                        </del>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11086">Chamberlain</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28124">Anna Buz</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb24239">Hans Schlesinger</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4893">Rambousek</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11581">Harden</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="org" ref="pmb29637">Reichspost</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28859">Goeritz</rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs cert="low" type="org" ref="pmb29216">
+                           <unclear>Manz</unclear>
+                        </rs>
+                     </cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1"/>
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb28518">
+                           <unclear>K</unclear>arl Jentsch</rs>
+                     </cell>
+                  </row>
+               </table>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="org" ref="pmb29348">Schaubü</rs>, <rs type="person" ref="pmb11760">Korfiz Holm</rs> | <rs type="person" ref="pmb13163">Theodor Wolff</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb4903">Erzh Eugen</rs> | <rs type="person" ref="pmb3419">Ahn</rs>
+               </del>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

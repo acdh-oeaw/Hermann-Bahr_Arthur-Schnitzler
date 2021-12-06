@@ -1,115 +1,120 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041211.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041210.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041212.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 8. 7. 1897</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="211"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8644-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18970708" n="01">8. 7. 1897</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"> 
-                              <placeName ref="pmb50">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName ref="pmb296">IX/3, Günthergasse 1</placeName>.«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151203">Kollationiert</change> 
-         <change who="KI MAM" when="20170527">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00082"/> 
-      <graphic url="MS-B-00005-B-000-00083"/> 
-      <graphic url="MS-B-00005-B-000-00084"/> 
-      <graphic url="MS-B-00005-B-000-00085"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>8. Juli 7</date> 
-               </dateline> 
-               <salute rend="center">Lieber Freund!</salute> 
-            </opener> 
-            <p> 
-               <rs type="person" ref="pmb12348">Neumann-Hofers</rs> Drängen nachgebend, der mich noch immer mit Dir plagt, frage ich noch einmal bei Dir an, ob Du denn nicht doch irgendwie zu bestimmen wärest, einen Vertrag mit ihm einzugehen, der Dich für drei oder fünf Jahre an sein <rs type="place" subtype="implied" ref="pmb18">Theater</rs> bindet. Ich habe Dir schon gesagt: er bietet Dir 12<c rendition="#prozent"/> Tantièmen an, oder wenn Du es vorziehst, ein Einreichungs<pb/>honorar; eventuell ließe er sich wohl zu beidem bereden. Es ist ihm sehr wichtig, gerade Dich zu haben. Stelle Deine Forderungen; ich habe neulich in den paar Minuten Dir nicht so recht zureden können u. weiß nicht, ob ich Dich in <rs type="place" ref="pmb213"> 
-                  <settlement>Ischl</settlement> 
-               </rs> sehen werde. Ich bitte Dich also brieflich, Dir die Sache doch noch einmal zu überlegen. Sie hat gewiß ihre Bedenken. Aber überlege Dir, ob sie sich nicht so drehen läßt, daß sie die größten Vorzüge für Dich hat. Suche Dir etwa Termine aus, wie Du sie sonst an keinem Theater<pb/> kriegst, oder was sonst etwa in Deinen Wünschen liegt. Ich weiß ja nicht, worauf Du am meisten Werth legst. Schreib mir das dann. Ich würde sehr wünschen, daß Du doch irgendwie mit <rs type="person" ref="pmb12348">Neumannhofer</rs> zusammen kommst: denn ich hoffe so diesen allmälig dahin zu bringen, daß er aus dem <rs type="place" ref="pmb18">Lessingtheater</rs> eine gut <rs type="place" ref="pmb162">östreichische</rs> Bühne macht. Dies würde ich von Herzen wünschen.</p> 
-            <p>In der Hoffnung, daß es Dir immer gut geht, bin ich, mit vielen Grüßen<pb/> an <rs type="person" ref="pmb10863">Richard</rs>,</p> 
-            <closer>Dein alter treuer<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041211.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041210.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041212.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 8. 7. 1897</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="211"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8644-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18970708" n="01">8. 7. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold">
+                              <placName ref="pmb50">Wien</placName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placName ref="pmb296">IX/3, Günthergasse 1</placName>.«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151203">Kollationiert</change>
+         <change who="KI MAM" when="20170527">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00082"/>
+      <graphic url="MS-B-00005-B-000-00083"/>
+      <graphic url="MS-B-00005-B-000-00084"/>
+      <graphic url="MS-B-00005-B-000-00085"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>8. Juli 7</date>
+               </dateline>
+               <salute rend="center">Lieber Freund!</salute>
+            </opener>
+            <p>
+               <rs type="person" ref="pmb12348">Neumann-Hofers</rs> Drängen nachgebend, der mich noch immer mit Dir plagt, frage ich noch einmal bei Dir an, ob Du denn nicht doch irgendwie zu bestimmen wärest, einen Vertrag mit ihm einzugehen, der Dich für drei oder fünf Jahre an sein <rs type="place" subtype="implied" ref="pmb18">Theater</rs> bindet. Ich habe Dir schon gesagt: er bietet Dir 12<c rendition="#prozent"/> Tantièmen an, oder wenn Du es vorziehst, ein Einreichungs<pb/>honorar; eventuell ließe er sich wohl zu beidem bereden. Es ist ihm sehr wichtig, gerade Dich zu haben. Stelle Deine Forderungen; ich habe neulich in den paar Minuten Dir nicht so recht zureden können u. weiß nicht, ob ich Dich in <rs type="place" ref="pmb213">Ischl</rs> sehen werde. Ich bitte Dich also brieflich, Dir die Sache doch noch einmal zu überlegen. Sie hat gewiß ihre Bedenken. Aber überlege Dir, ob sie sich nicht so drehen läßt, daß sie die größten Vorzüge für Dich hat. Suche Dir etwa Termine aus, wie Du sie sonst an keinem Theater<pb/> kriegst, oder was sonst etwa in Deinen Wünschen liegt. Ich weiß ja nicht, worauf Du am meisten Werth legst. Schreib mir das dann. Ich würde sehr wünschen, daß Du doch irgendwie mit <rs type="person" ref="pmb12348">Neumannhofer</rs> zusammen kommst: denn ich hoffe so diesen allmälig dahin zu bringen, daß er aus dem <rs type="place" ref="pmb18">Lessingtheater</rs> eine gut <rs type="place" ref="pmb41240">östreichische</rs> Bühne macht. Dies würde ich von Herzen wünschen.</p>
+            <p>In der Hoffnung, daß es Dir immer gut geht, bin ich, mit vielen Grüßen<pb/> an <rs type="person" ref="pmb10863">Richard</rs>,</p>
+            <closer>Dein alter treuer<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

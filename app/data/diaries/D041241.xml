@@ -1,86 +1,93 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041241.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041240.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041242.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 5. 10. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="241" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8923-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19041005" n="1">5/10</date> An <rs type="person" ref="pmb11851">Kainz</rs> 3 Einakter (<rs type="work" ref="pmb29873">Puppenspieler</rs>, <rs type="work" ref="pmb29877">Letzte M.</rs>, <rs type="work" ref="pmb29869">Lit.</rs>) –</p> 
-            <p>Zu <rs type="person" ref="pmb13055">Wassermann</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb63">Hietzing</rs>; <rs type="person" ref="pmb13058">Julie</rs> war krank im Sommer.– Über <rs type="person" ref="pmb10863">Richard</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" subtype="implied" ref="pmb30233">Stück</rs>, <rs type="person" ref="pmb10815">Bahrs</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb30065">Marsyas</rs>, <rs type="person" ref="pmb27903">Vehse</rs>, Militarismus, Kindererziehung, Autorenschutz und -schutzlosigkeit.</p> 
-            <p>– Im Hinweg <rs type="person" ref="pmb12037">Langkammer</rs> getroffen, bös, falsch, verbittert, eben zu einer Sitzung ein neues Theater betreffend.– Im Rückweg <rs type="person" ref="pmb2570">Lothar</rs>; geschwätzig und freundlich nach seiner Art.– Auf dem Weg <rs type="work" ref="pmb30641">Cameliendame</rs> (wegen der <rs type="person" ref="pmb11201">Duse</rs>) gelesen.–</p> 
-            <p>Nm. <rs type="person" ref="pmb12147">Mach</rs> gelesen, <rs type="work" ref="pmb29903">N. E.</rs> weiter.–</p> 
-            <p>Abd. <rs type="place" ref="pmb40">Josefstadt</rs> mit <rs type="person" ref="pmb12740">Gustav</rs>, <rs type="work" ref="pmb30643">Herzogin Crevette</rs>, gut amüsirt, im <rs type="place" ref="pmb44">Riedhof</rs>, über Hypochondrien, <rs type="person" ref="pmb10863">Richard</rs>s und <rs type="person" ref="pmb11740">Hugo</rs>s Stück etc.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041241.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041240.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041242.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 5. 10. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="241" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8923-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19041005" n="1">5/10</date> An <rs type="person" ref="pmb11851">Kainz</rs> 3 Einakter (<rs type="work" ref="pmb29873">Puppenspieler</rs>, <rs type="work" ref="pmb29877">Letzte M.</rs>, <rs type="work" ref="pmb29869">Lit.</rs>) –</p>
+            <p>Zu <rs type="person" ref="pmb13055">Wassermann</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb63">Hietzing</rs>; <rs type="person" ref="pmb13058">Julie</rs> war krank im Sommer.– Über <rs type="person" ref="pmb10863">Richard</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" subtype="implied" ref="pmb30233">Stück</rs>, <rs type="person" ref="pmb10815">Bahrs</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb30065">Marsyas</rs>, <rs type="person" ref="pmb27903">Vehse</rs>, Militarismus, Kindererziehung, Autorenschutz und -schutzlosigkeit.</p>
+            <p>– Im Hinweg <rs type="person" ref="pmb12037">Langkammer</rs> getroffen, bös, falsch, verbittert, eben zu einer Sitzung ein neues Theater betreffend.– Im Rückweg <rs type="person" ref="pmb2570">Lothar</rs>; geschwätzig und freundlich nach seiner Art.– Auf dem Weg <rs type="work" ref="pmb30641">Cameliendame</rs> (wegen der <rs type="person" ref="pmb11201">Duse</rs>) gelesen.–</p>
+            <p>Nm. <rs type="person" ref="pmb12147">Mach</rs> gelesen, <rs type="work" ref="pmb29903">N. E.</rs> weiter.–</p>
+            <p>Abd. <rs type="place" ref="pmb40">Josefstadt</rs> mit <rs type="person" ref="pmb12740">Gustav</rs>, <rs type="work" ref="pmb30643">Herzogin Crevette</rs>, gut amüsirt, im <rs type="place" ref="pmb44">Riedhof</rs>, über Hypochondrien, <rs type="person" ref="pmb10863">Richard</rs>s und <rs type="person" ref="pmb11740">Hugo</rs>s Stück etc.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

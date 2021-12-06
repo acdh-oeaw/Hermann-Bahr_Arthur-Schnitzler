@@ -1,84 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041526.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041525.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041527.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 28. 9. 1910</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="526"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A1E-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160209">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19100928" n="02">28/9</date> Vm. bei Baron <rs type="person" ref="pmb10883">Berger</rs>. Bittet mich Aufschub des <rs type="work" ref="pmb29937">Medardus</rs> nicht für ein »Bühnenmanöver« zu halten; <rs type="person" ref="pmb11851">Kainz</rs> »<rs type="work" ref="pmb30667">Saul</rs>« mit »<rs type="work" ref="pmb30279">Thor und Tod</rs>« soll zuerst studirt werden.– »<rs type="work" ref="pmb30207">Das weite Land</rs>« will er mir nicht zurückgeben; reist heut ab, um »<rs type="person" ref="pmb12530">Rittner</rs>« zu gewinnen, der dann den <rs type="work" subtype="implied" ref="pmb30207">Hofreiter</rs> spielen würde.– Über <rs type="person" ref="pmb10844">Bassermann</rs>, <rs type="person" ref="pmb3201">Walden</rs>, <rs type="place" ref="pmb14">Burg</rs> (!).</p> 
-            <p>– Er war von besondrer Herzlichkeit.– </p> 
-            <p>Dann zu <rs type="person" ref="pmb12556">Rosenbaum</rs>, der als er mich doch noch schwanken sah (zwischen <rs type="place" ref="pmb20">Volkstheater</rs> und <rs type="place" ref="pmb14">Burg</rs>), mir den Revers zum Unterschreiben vorlegte; das »<rs type="work" ref="pmb30207">W. L.</rs>« sei das Stück, nach dem »die deutsche Bühne lechzt« <c rendition="#dots" n="3" place="center"/> er ist von einem großen Erfolg überzeugt. Dagegen ist es interessant, wie er nun innerlich am »<rs type="work" ref="pmb29937">Medardus</rs>« zu zweifeln beginnt.–</p> 
-            <p> 
-               <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Mit ihr ein <rs type="person" ref="pmb10806">Bach</rs>.</p> 
-            <p>Wieder nichts gearbeitet, nur »<rs type="work" ref="pmb29939">O Mensch</rs>« gelesen.</p> 
-            <p>Ein kleiner Judenbub mit 2 ditto Mädeln erscheinen plötzlich (ich lief ihnen im Vorzimmer in die Arme) – um Rat fragend wegen Gründung einer Zeitung, da ihnen ihre Arbeiten von allen Zeitungen refusirt würden!– </p> 
-            <p>Las »<rs type="work" ref="pmb29939">O Mensch</rs>« zu Ende; <anchor type="label" xml:id="LD526-1">ein recht abgeschmacktes, gräßlich geschriebnes, greisenhaft geschwätziges Buch.</anchor> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041526.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041525.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041527.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 28. 9. 1910</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="526"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A1E-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160209">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19100928" n="02">28/9</date> Vm. bei Baron <rs type="person" ref="pmb10883">Berger</rs>. Bittet mich Aufschub des <rs type="work" ref="pmb29937">Medardus</rs> nicht für ein »Bühnenmanöver« zu halten; <rs type="person" ref="pmb11851">Kainz</rs> »<rs type="work" ref="pmb30667">Saul</rs>« mit »<rs type="work" ref="pmb30279">Thor und Tod</rs>« soll zuerst studirt werden.– »<rs type="work" ref="pmb30207">Das weite Land</rs>« will er mir nicht zurückgeben; reist heut ab, um »<rs type="person" ref="pmb12530">Rittner</rs>« zu gewinnen, der dann den <rs type="work" subtype="implied" ref="pmb30207">Hofreiter</rs> spielen würde.– Über <rs type="person" ref="pmb10844">Bassermann</rs>, <rs type="person" ref="pmb3201">Walden</rs>, <rs type="place" ref="pmb14">Burg</rs> (!).</p>
+            <p>– Er war von besondrer Herzlichkeit.– </p>
+            <p>Dann zu <rs type="person" ref="pmb12556">Rosenbaum</rs>, der als er mich doch noch schwanken sah (zwischen <rs type="place" ref="pmb20">Volkstheater</rs> und <rs type="place" ref="pmb14">Burg</rs>), mir den Revers zum Unterschreiben vorlegte; das »<rs type="work" ref="pmb30207">W. L.</rs>« sei das Stück, nach dem »die deutsche Bühne lechzt« <c rendition="#dots" n="3" place="center"/> er ist von einem großen Erfolg überzeugt. Dagegen ist es interessant, wie er nun innerlich am »<rs type="work" ref="pmb29937">Medardus</rs>« zu zweifeln beginnt.–</p>
+            <p>
+               <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Mit ihr ein <rs type="person" ref="pmb10806">Bach</rs>.</p>
+            <p>Wieder nichts gearbeitet, nur »<rs type="work" ref="pmb29939">O Mensch</rs>« gelesen.</p>
+            <p>Ein kleiner Judenbub mit 2 ditto Mädeln erscheinen plötzlich (ich lief ihnen im Vorzimmer in die Arme) – um Rat fragend wegen Gründung einer Zeitung, da ihnen ihre Arbeiten von allen Zeitungen refusirt würden!– </p>
+            <p>Las »<rs type="work" ref="pmb29939">O Mensch</rs>« zu Ende; <anchor type="label" xml:id="LD526-1">ein recht abgeschmacktes, gräßlich geschriebnes, greisenhaft geschwätziges Buch.</anchor>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

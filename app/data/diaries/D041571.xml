@@ -1,100 +1,107 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041571.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041569.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041572.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 15. 9. 1918</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="571"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A4A-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 843 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 3, beschriftet »<quote> 
-                              <date>15. 9.</date> – <date>21. 9. 18</date> 
-                           </quote>«, 9 Bl., roter und blauer Buntstift und Tinte (Wechsel der Schreibmaterialien nicht thematisiert), S. 3.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p rend="right">S. <date when="19180915" n="1">15. 9. 18</date> 
-            </p> 
-            <p>Geld? 150</p> 
-            <p> 
-               <rs type="person" ref="pmb18567">Horsetzky</rs> wegen <rs type="person" ref="pmb2249">Korff</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb23452">Rittner</rs> (das andere Stück)</p> 
-            <p> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs>, ob um drei daheim | Adresse</p> 
-            <p> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="textConst" xml:id="TD571-1"> 
-                  <rs type="place" ref="pmb150">Sternwartestr 71</rs>.</anchor> 
-            </p> 
-            <p>Notiz 5 <rs type="person" subtype="implied" ref="pmb16477">Frankfurter</rs> – <rs type="person" ref="pmb4012">Smekal</rs> 
-            </p> 
-            <p>–</p> 
-            <p>1 Uhr <rs type="person" ref="pmb12481">Redlich</rs> 
-            </p> 
-            <p>Brief oder Karte <rs type="person" ref="pmb10818">Anna</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041571.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041569.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041572.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 15. 9. 1918</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="571"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A4A-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 843 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 3, beschriftet »<quote>
+                              <date>15. 9.</date> – <date>21. 9. 18</date>
+                           </quote>«, 9 Bl., roter und blauer Buntstift und Tinte (Wechsel der Schreibmaterialien nicht thematisiert), S. 3.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p rend="right">S. <date when="19180915" n="1">15. 9. 18</date>
+            </p>
+            <p>Geld? 150</p>
+            <p>
+               <rs type="person" ref="pmb18567">Horsetzky</rs> wegen <rs type="person" ref="pmb2249">Korff</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb23452">Rittner</rs> (das andere Stück)</p>
+            <p>
+               <rs type="person" ref="pmb2121">Schnitzler</rs>, ob um drei daheim | Adresse</p>
+            <p>
+               <rs type="person" ref="pmb2121">Schnitzler</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="textConst" xml:id="TD571-1">
+                  <rs type="place" ref="pmb150">Sternwartestr 71</rs>.</anchor>
+            </p>
+            <p>Notiz 5 <rs type="person" subtype="implied" ref="pmb16477">Frankfurter</rs> – <rs type="person" ref="pmb4012">Smekal</rs>
+            </p>
+            <p>–</p>
+            <p>1 Uhr <rs type="person" ref="pmb12481">Redlich</rs>
+            </p>
+            <p>Brief oder Karte <rs type="person" ref="pmb10818">Anna</rs>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

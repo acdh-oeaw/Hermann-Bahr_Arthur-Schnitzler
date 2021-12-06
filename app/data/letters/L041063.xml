@@ -1,172 +1,175 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041063.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041062.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041064.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 9. 10. 1903</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="063"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85B0-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19031009" n="01">9. 10. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23358 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Kartenbrief</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb59">Wien 9</placeName> 
-                           <date when="19031009">9. 10. <supplied>1903</supplied> 
-                           </date> 
-                           <time>11–12 V</time> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <placeName ref="pmb63">Wien 13</placeName> 
-                           <date when="19031009">9 10 03</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19031009">9. 10. 1903</date> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">80</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-         <change who="KI MAM" when="20170508">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="HS_AM23358Ba"/> 
-      <graphic url="HS_AM23358Ba_R"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn Hermann Bahr</addrLine> 
-               <addrLine> 
-                  <hi rend="underline" n="1"> 
-                     <rs type="place" ref="pmb165">Wien-Ob-St Veit</rs> 
-                  </hi> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb220">Veitlissengasse.</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <p rend="right"> 
-                  <hi rend="latintype"> 
-                     <anchor type="textConst" xml:id="TL063-1"> 
-                        <hi rend="underline" n="1"> 
-                           <rs type="place" ref="pmb133">XVIII Spöttelgasse 7</rs> 
-                        </hi> 
-                     </anchor> 
-                  </hi> 
-               </p> 
-               <dateline> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>9. 10. 903</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>lieber Hermann, </salute> 
-               <rs type="work" ref="pmb29855">Reigen</rs> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht zu stellen. In <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> grüße mir, wenn du sie siehst, <rs type="person" ref="pmb10986">Brahm</rs>, <rs type="person" ref="pmb10844">Bassermann</rs>, <rs type="person" ref="pmb12530">Rittner</rs>, <rs type="person" ref="pmb2193">Sauer</rs>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1"> 
-                  <rs type="work" subtype="implied" ref="pmb29983">Stück</rs> 
-               </anchor>? Hoffentlich seh ich dich ab<damage agent="hole"> 
-                  <supplied>er</supplied> 
-               </damage> noch vor deiner Abreise. Entweder komm ich auf eine viertel Stunde zu dir nach <rs type="place" ref="pmb165">Ob Veit</rs> – oder, man könnte sich, ev. mit <rs type="person" ref="pmb11740 pmb2292">Hugo’s</rs> in <rs type="place" ref="pmb63">Hietzing</rs> zu Abend u Abendessen treffen?</p> 
-            <closer>Herzlichst dein<lb/> 
-               <signed>Arthur.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041063.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041062.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041064.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 9. 10. 1903</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="063"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85B0-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19031009" n="01">9. 10. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23358 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Kartenbrief</p>
+                        <stamp n="1">
+                           <placName ref="pmb59">Wien 9</placName>
+                           <date when="19031009">9. 10. <supplied>1903</supplied>
+                           </date>
+                           <time>11–12 V</time>
+                        </stamp>
+                        <stamp n="2">
+                           <placName ref="pmb63">Wien 13</placName>
+                           <date when="19031009">9 10 03</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19031009">9. 10. 1903</date>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">80</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM23358Ba"/>
+      <graphic url="HS_AM23358Ba_R"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn Hermann Bahr</addrLine>
+               <addrLine>
+                  <hi rend="underline" n="1">
+                     <rs type="place" ref="pmb165">Wien-Ob-St Veit</rs>
+                  </hi>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb220">Veitlissengasse.</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <p rend="right">
+                  <hi rend="latintype">
+                     <anchor type="textConst" xml:id="TL063-1">
+                        <hi rend="underline" n="1">
+                           <rs type="place" ref="pmb133">XVIII Spöttelgasse 7</rs>
+                        </hi>
+                     </anchor>
+                  </hi>
+               </p>
+               <dateline>
+                  <rs type="place" ref="pmb50">Wien</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>9. 10. 903</date>.</dateline>
+            </opener>
+            <p>
+               <salute>lieber Hermann, </salute>
+               <rs type="work" ref="pmb29855">Reigen</rs> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht zu stellen. In <rs type="place" ref="pmb168">Berlin</rs> grüße mir, wenn du sie siehst, <rs type="person" ref="pmb10986">Brahm</rs>, <rs type="person" ref="pmb10844">Bassermann</rs>, <rs type="person" ref="pmb12530">Rittner</rs>, <rs type="person" ref="pmb2193">Sauer</rs>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1">
+                  <rs type="work" subtype="implied" ref="pmb29983">Stück</rs>
+               </anchor>? Hoffentlich seh ich dich ab<damage agent="hole">
+                  <supplied>er</supplied>
+               </damage> noch vor deiner Abreise. Entweder komm ich auf eine viertel Stunde zu dir nach <rs type="place" ref="pmb165">Ob Veit</rs> – oder, man könnte sich, ev. mit <rs type="person" ref="pmb11740 pmb2292">Hugo’s</rs> in <rs type="place" ref="pmb63">Hietzing</rs> zu Abend u Abendessen treffen?</p>
+            <closer>Herzlichst dein<lb/>
+               <signed>Arthur.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

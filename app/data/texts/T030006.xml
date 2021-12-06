@@ -1,92 +1,98 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030006.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030005.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030007.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler: Aus dem Tagebuch von Hermann Bahr, 31. 3. 1929</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="006"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A75-3</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="19290331" n="1">31. 3. 1920</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, A 7,2</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">ms. Typoskript, 1 Bl., 1 S., mit hs. Unterstreichungen und einem ergänzten Apostroph in Bleistift.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20160216" who="MAM">Angelegt</change> 
-         <change who="KI MAM" when="20160509">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="manuscript"> 
-      <body> 
-         <div> 
-            <head> 
-               <anchor type="commentary" xml:id="KT006-1">Aus dem <rs type="work" ref="pmb31559">Tagebuch</rs> 
-               </anchor> 
-               <space unit="chars" quantity="1"/> 
-               <hi rend="underline" n="1">von <rs type="person" ref="pmb10815">Bahr</rs> 
-               </hi>, <date>31. März 1929</date>, <rs type="org" ref="pmb29320">Neues Wiener Journal</rs>.</head> 
-            <p part="N">Anlässlich <anchor type="commentary" xml:id="KT006-2"> 
-                  <rs type="person" ref="pmb28448">Cajetan Bernvilles</rs> 
-                  <add place="inline">’</add> Schrift »<rs type="work" ref="pmb31721"> 
-                     <hi rend="underline" n="1">Ueber das Leben der heiligen </hi> 
-                     <rs type="person" ref="pmb28452"> 
-                        <hi rend="underline" n="1">Therese, vom Kinde Jesu</hi> 
-                     </rs> 
-                  </rs> 
-               </anchor>.«</p> 
-            <p part="N">»<c rendition="#dots" n="4" place="center"/> doch dass sie jetzt bis in die kleinsten <rs type="place" ref="pmb314">bayrischen</rs> und <rs type="place" ref="pmb162"> 
-                  <country>österreichischen</country> 
-               </rs> Landorte hinein vom Volke verehrt wird, ja dass in keiner Dorfkirche ja fast schon auch in keinem Gebetbuch ihr Bild fehlt, ist seltsam. Gerade die Bilder befremden <del rend="strikethrough">ujn</del> unseren Geschmack zunächst, sie süsseln, man hat den Eindruck: sie kokettieren mit dem lieben Gott. Erst wer die Heilige näher kennen lernt, sei es aus Schilderungen ihres Lebens, sei es durch unmittelbaren Verkehr mit ihr im Gebet wird der hohen Kraft inne, die von ihr ausstrahlt.« </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030006.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030005.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030007.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler: Aus dem Tagebuch von Hermann Bahr, 31. 3. 1929</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="006"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A75-3</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19290331" n="1">31. 3. 1920</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A 7,2</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">ms. Typoskript, 1 Bl., 1 S., mit hs. Unterstreichungen und einem ergänzten Apostroph in Bleistift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160216" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20160509">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div>
+            <head>
+               <anchor type="commentary" xml:id="KT006-1">Aus dem <rs type="work" ref="pmb31559">Tagebuch</rs>
+               </anchor>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">von <rs type="person" ref="pmb10815">Bahr</rs>
+               </hi>, <date>31. März 1929</date>, <rs type="org" ref="pmb29320">Neues Wiener Journal</rs>.</head>
+            <p part="N">Anlässlich <anchor type="commentary" xml:id="KT006-2">
+                  <rs type="person" ref="pmb28448">Cajetan Bernvilles</rs>
+                  <add place="inline">’</add> Schrift »<rs type="work" ref="pmb31721">
+                     <hi rend="underline" n="1">Ueber das Leben der heiligen </hi>
+                     <rs type="person" ref="pmb28452">
+                        <hi rend="underline" n="1">Therese, vom Kinde Jesu</hi>
+                     </rs>
+                  </rs>
+               </anchor>.«</p>
+            <p part="N">»<c rendition="#dots" n="4" place="center"/> doch dass sie jetzt bis in die kleinsten <rs type="place" ref="pmb314">bayrischen</rs> und <rs type="place" ref="pmb41240">österreichischen</rs> Landorte hinein vom Volke verehrt wird, ja dass in keiner Dorfkirche ja fast schon auch in keinem Gebetbuch ihr Bild fehlt, ist seltsam. Gerade die Bilder befremden <del rend="strikethrough">ujn</del> unseren Geschmack zunächst, sie süsseln, man hat den Eindruck: sie kokettieren mit dem lieben Gott. Erst wer die Heilige näher kennen lernt, sei es aus Schilderungen ihres Lebens, sei es durch unmittelbaren Verkehr mit ihr im Gebet wird der hohen Kraft inne, die von ihr ausstrahlt.« </p>
+         </div>
+      </body>
+   </text>
 </TEI>

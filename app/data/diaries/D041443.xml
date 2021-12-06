@@ -1,107 +1,114 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041443.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041442.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041444.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 10. 11. 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="443"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89D4-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1766 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">406</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160107">angelegt</change> 
-         <change who="KI MAM" when="20160202">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19031110" n="4">10.</date> Versendung von »<rs type="work" ref="pmb31067 pmb31049 pmb31045 pmb31043">Gegen <rs type="person" ref="pmb11941">Klimt</rs> 
-               </rs>«</p> 
-            <p>Arbeit an »<rs type="work" ref="pmb29983">Meister</rs>«</p> 
-            <p>Direktor <rs type="person" ref="pmb3056">Henry</rs> von den <rs type="place" ref="pmb155">Münchner</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="org" ref="pmb29779">Scharfrichtern</rs> bei mir.</p> 
-            <p> 
-               <rs type="person" ref="pmb2167">Salten</rs> bei mir, sich bitter über <rs type="person" ref="pmb2121">Schnitzler</rs> beklagend, der das Wort »<anchor type="label" xml:id="LD443-1">Kleinkunst</anchor>« in <rs type="person" ref="pmb2167 pmb23918">Saltens</rs> »<rs type="work" ref="pmb31401"> 
-                  <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> u. sein <rs type="work" ref="pmb29855">Reigen</rs> 
-               </rs>« tragisch genommen hat.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041443.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041442.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041444.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 10. 11. 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="443"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89D4-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1766 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">406</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160107">angelegt</change>
+         <change who="KI MAM" when="20160202">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19031110" n="4">10.</date> Versendung von »<rs type="work" ref="pmb31067 pmb31049 pmb31045 pmb31043">Gegen <rs type="person" ref="pmb11941">Klimt</rs>
+               </rs>«</p>
+            <p>Arbeit an »<rs type="work" ref="pmb29983">Meister</rs>«</p>
+            <p>Direktor <rs type="person" ref="pmb3056">Henry</rs> von den <rs type="place" ref="pmb45258">Münchner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="org" ref="pmb29779">Scharfrichtern</rs> bei mir.</p>
+            <p>
+               <rs type="person" ref="pmb2167">Salten</rs> bei mir, sich bitter über <rs type="person" ref="pmb2121">Schnitzler</rs> beklagend, der das Wort »<anchor type="label" xml:id="LD443-1">Kleinkunst</anchor>« in <rs type="person" ref="pmb2167 pmb23918">Saltens</rs> »<rs type="work" ref="pmb31401">
+                  <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> u. sein <rs type="work" ref="pmb29855">Reigen</rs>
+               </rs>« tragisch genommen hat.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

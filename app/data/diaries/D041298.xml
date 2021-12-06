@@ -1,78 +1,85 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041298.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041297.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041299.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 27. 11. 1908</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="298" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-895C-1</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19081127" n="1">27/11</date> Vm. im <rs type="place" ref="pmb20">Volksth.</rs> Generalprobe von <rs type="person" ref="pmb11036">Burckhards</rs> 4 Einaktern »<rs type="work" ref="pmb30743">Die verflixten Frauenzimmer</rs>«. Anekdoten; übers <anchor type="commentary" xml:id="KD298-1">spassettelhafte</anchor> hinaus nur durch die Liebenswürdigkeit und Prächtigkeit des Autors (aber wohl nur wenn man ihn kennt). Sprach viele Leute: <rs type="person" ref="pmb2618">Hugo Ganz</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb11036">Burckhard</rs>, <rs type="person" ref="pmb12101">Siegfr. Loewy</rs>, <rs type="person" ref="pmb10848">Ludwig Bauer</rs>, <rs type="person" ref="pmb2150">Jul. Bauer</rs>, <rs type="person" ref="pmb26880">Weisse</rs>, <rs type="person" ref="pmb11670">Herzka</rs>.–</p> 
-            <p>Nm. dictirt: Briefe, <rs type="work" ref="pmb30213">Hirtenflöte</rs>, <rs type="work" ref="pmb29937">Medardus</rs>.–</p> 
-            <p>– Zum <rs type="work" ref="pmb29937">Medardus</rs> gelesen und notirt.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041298.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041297.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041299.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 27. 11. 1908</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="298" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-895C-1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19081127" n="1">27/11</date> Vm. im <rs type="place" ref="pmb20">Volksth.</rs> Generalprobe von <rs type="person" ref="pmb11036">Burckhards</rs> 4 Einaktern »<rs type="work" ref="pmb30743">Die verflixten Frauenzimmer</rs>«. Anekdoten; übers <anchor type="commentary" xml:id="KD298-1">spassettelhafte</anchor> hinaus nur durch die Liebenswürdigkeit und Prächtigkeit des Autors (aber wohl nur wenn man ihn kennt). Sprach viele Leute: <rs type="person" ref="pmb2618">Hugo Ganz</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb11036">Burckhard</rs>, <rs type="person" ref="pmb12101">Siegfr. Loewy</rs>, <rs type="person" ref="pmb10848">Ludwig Bauer</rs>, <rs type="person" ref="pmb2150">Jul. Bauer</rs>, <rs type="person" ref="pmb26880">Weisse</rs>, <rs type="person" ref="pmb11670">Herzka</rs>.–</p>
+            <p>Nm. dictirt: Briefe, <rs type="work" ref="pmb30213">Hirtenflöte</rs>, <rs type="work" ref="pmb29937">Medardus</rs>.–</p>
+            <p>– Zum <rs type="work" ref="pmb29937">Medardus</rs> gelesen und notirt.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

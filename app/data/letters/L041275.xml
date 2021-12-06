@@ -1,133 +1,136 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041275.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041274.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041276.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 8. 3. 1904</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="275"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8684-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb682">Dubrovnik/Ragusa</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040308" n="01">8. 3. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Postkarte, Motiv: »<quote> 
-                              <geogName type="river" instant="false">L’Ombla – Cempresata</geogName> 
-                           </quote>«, von Schnitzler datiert: »<quote> 
-                              <date>11. 3. 904</date> 
-                           </quote>«.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb682">Dubrovnik</placeName> 
-                           <date when="19040309">9/3 <supplied>1904</supplied> 
-                           </date> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <vorgang>Bestellt</vorgang> 
-                           <placeName ref="pmb68">Wien 18/1</placeName> 
-                           <date when="19040311">11. 3. 04</date> 
-                           <time>12. V</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151211">Kollationiert</change> 
-         <change who="KI MAM" when="20170529">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00201"/> 
-      <graphic url="MS-B-00005-B-000-00340"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb133">Spöttelgasse 7</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p>Danke für Deinen lieben Brief. Mir geht es langsam besser.</p> 
-            <p>Fahr jedenfalls über <rs type="place" ref="pmb265">Dalmatien</rs>! <rs type="place" ref="pmb365"> 
-                  <settlement>Ragusa</settlement> 
-               </rs> ist schöner als alles <rs type="place" ref="pmb275"> 
-                  <country>Italien</country> 
-               </rs> und selbst <rs type="place" ref="pmb388">Spanien</rs>.</p> 
-            <closer>Grüße an Deine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>.<lb/>Herzlichst<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041275.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041274.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041276.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 8. 3. 1904</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="275"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8684-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb682">Dubrovnik/Ragusa</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040308" n="01">8. 3. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Postkarte, Motiv: »<quote>
+                              <geogName type="river" instant="false">L’Ombla – Cempresata</geogName>
+                           </quote>«, von Schnitzler datiert: »<quote>
+                              <date>11. 3. 904</date>
+                           </quote>«.</p>
+                        <stamp n="1">
+                           <placName ref="pmb682">Dubrovnik</placName>
+                           <date when="19040309">9/3 <supplied>1904</supplied>
+                           </date>
+                        </stamp>
+                        <stamp n="2">
+                           <vorgang>Bestellt</vorgang>
+                           <placName ref="pmb68">Wien 18/1</placName>
+                           <date when="19040311">11. 3. 04</date>
+                           <time>12. V</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00201"/>
+      <graphic url="MS-B-00005-B-000-00340"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb68">Wien XVIII</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb133">Spöttelgasse 7</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>Danke für Deinen lieben Brief. Mir geht es langsam besser.</p>
+            <p>Fahr jedenfalls über <rs type="place" ref="pmb265">Dalmatien</rs>! <rs type="place" ref="pmb365">Ragusa</rs> ist schöner als alles <rs type="place" ref="pmb40306">Italien</rs> und selbst <rs type="place" ref="pmb388">Spanien</rs>.</p>
+            <closer>Grüße an Deine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>.<lb/>Herzlichst<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

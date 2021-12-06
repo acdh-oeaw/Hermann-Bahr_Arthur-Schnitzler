@@ -1,154 +1,147 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041372.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041371.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041373.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Felix und Ottilie Felix Salten an Arthur Schnitzler, 3. 8. 1907</title> 
-            <author ref="pmb2167">Salten, Felix</author> 
-            <author ref="pmb23918">Salten, Ottilie</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="372"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E5-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2167">Salten, Felix</persName> 
-                  <persName ref="pmb23918">Salten, Ottilie</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb428">Welsberg–Taisten</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19070803" n="01">3. 8. 1907</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 89 b/1</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Korrespondenzkarte, 1 Bl., 1 S., Lateinschrift, teilw. Unterstreichungen mit Bleistift von unbek. Hand.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb63">Wien 13</placeName> 
-                           <date when="19070803">3 VIII 07</date> 
-                           <time>6</time> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <date when="19070804">4. 8. 07</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20151126">Angelegt und Kollationiert von Foto</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Salten</addrLine> 
-               <addrLine ref="pmb69">Wien XIX.</addrLine> 
-               <addrLine ref="pmb722">Armbrustergasse 6</addrLine> 
-            </address> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
-               <addrLine ref="pmb723">Wildbad Waldbrunn bei Welsberg</addrLine> 
-               <addrLine ref="pmb724">Pustertal.</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb159">Heiligenstadt</rs>, <date>3. VIII. 07</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber, </salute>ich habe Ihre letzte Karte nicht gut lesen können, glaube aber dass Sie noch in <rs type="place" ref="pmb723">Waldbrunn</rs> sind. Uns ist es nicht besonders gegangen. <rs type="person" ref="pmb23918">Otti</rs> mußte operirt werden, was zu Hause geschah. Sie hat sich bis heute noch nicht völlig erholt. Der Arzt will, dass sie jetzt noch eine Kur brauchen soll. So gehen wir nächster Tage auf 4 Wochen nach <rs type="place" ref="pmb772"> 
-                  <settlement>Marienbad</settlement> 
-               </rs>. Ich komme eben von dort, wo ich Wohnung genommen habe. Vorher war ich ein paar Tage in <rs type="place" ref="pmb842"> 
-                  <settlement>Karlsbad</settlement> 
-               </rs>. Unsere Adresse ist dann (wahrscheinlich vom 8. an) »<rs type="place" ref="pmb509">Quisiana</rs>«. Ein sehr hübsches Haus, oben im Wald bei der <rs type="place" ref="pmb510">Waldmühle</rs>. <rs type="person" ref="pmb2922">Paul</rs> ist dieser Tage auch wieder krank gewesen, hoffentlich wird er sich in <rs type="place" ref="pmb772"> 
-                  <settlement>Marienbad</settlement> 
-               </rs> vollständig erholen. Wann kommen Sie nach <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> zurück? Spielen Sie dort Tennis? Haben Sie gearbeitet? Haben Sie für den September Reisepläne? Ich möchte im September irgendeine Meerfahrt machen. <rs type="place" ref="pmb505"> 
-                  <settlement>Athen</settlement> 
-               </rs> oder so was ähnliches. <rs type="person" ref="pmb10815">Bahr</rs> hat mir vom <rs type="place" ref="pmb259"> 
-                  <settlement>Lido</settlement> 
-               </rs> einen entrüsteten Brief geschrieben, weil mich der <anchor type="commentary" xml:id="KL372-2"> 
-                  <rs type="person" ref="pmb12460">Pötzl</rs> im <rs type="work" subtype="implied" ref="pmb31713"> 
-                     <rs type="org" ref="pmb29414">Tagblatt</rs> 
-                     <space unit="chars" quantity="1"/> gelobt</rs> 
-               </anchor> hat. Und der <rs type="person" ref="pmb12460">Pötzl</rs> hat mich gelobt, weil ich im »<rs type="org" ref="pmb29398">Morgen</rs>« <anchor type="commentary" xml:id="KL372-1"> 
-                  <rs type="work" ref="pmb30715">Wien</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="work" subtype="implied" ref="pmb31293">gelobt</rs> 
-               </anchor> habe. Es ist eine düstere Sache, wie Sie sehen. Aber was soll ich thun? Ich zittere, dass mich am Ende nächstens auch noch der <rs type="person" ref="pmb12769">Seligmann</rs> lobt, oder der <rs type="person" ref="pmb2618">Hugo Ganz</rs> und dann wird mich <rs type="person" ref="pmb10815">Bahr</rs> sicherlich total verachten, und komme ich einmal in die <rs type="place" ref="pmb15">Oper</rs>, wird die <rs type="person" ref="pmb10818">M.</rs> zu singen aufhören, weil ich da bin. Mir fehlt zu meinem gänzlichen Untergang nur noch, dass <rs type="person" ref="pmb11707">Robert Hirschfeld</rs> ein Feuilleton über mich schreibt, und dass <rs type="person" ref="pmb12740">Gustav S–kopf</rs> in einem Aufruf die <rs type="place" ref="pmb50"> 
-                  <settlement>Wiener</settlement> 
-               </rs> einlädt, meine Bücher fleißiger zu kaufen. Dann bin ich ganz kaput, und kann mich von D<hi rend="superscript"> 
-                  <hi rend="underline" n="1">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3073">Spitzer</rs> ehrlicher Weise nicht einmal mehr fotografiren laßen. Ich habe trübe Ahnungen und bin auf das Schlimmste gefaßt. Aber, wenn’s mir bestimmt ist, kann ich garnichts machen. – Hoffentlich geht es Ihnen allen gut.</p> 
-            <p>Leben Sie wol und schreiben Sie bald wieder eine Zeile. Herzliche Grüße von <rs type="person" subtype="implied" ref="pmb2167 pmb23918">uns</rs> zu Ihnen.<space unit="chars" quantity="5"/>Ihr <signed>FSalten</signed> 
-            </p> 
-            <postscript> 
-               <p> 
-                  <handShift scribe="pmb23918"/>Viele herzliche Grüße <signed>Ottilie S.</signed> 
-               </p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041372.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041371.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041373.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Felix und Ottilie Felix Salten an Arthur Schnitzler, 3. 8. 1907</title>
+            <author ref="pmb2167">Salten, Felix</author>
+            <author ref="pmb23918">Salten, Ottilie</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="372"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E5-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2167">Salten, Felix</persName>
+                  <persName ref="pmb23918">Salten, Ottilie</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb428">Welsberg–Taisten</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19070803" n="01">3. 8. 1907</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 b/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Korrespondenzkarte, 1 Bl., 1 S., Lateinschrift, teilw. Unterstreichungen mit Bleistift von unbek. Hand.</p>
+                        <stamp n="1">
+                           <placName ref="pmb63">Wien 13</placName>
+                           <date when="19070803">3 VIII 07</date>
+                           <time>6</time>
+                        </stamp>
+                        <stamp n="2">
+                           <date when="19070804">4. 8. 07</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151126">Angelegt und Kollationiert von Foto</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Salten</addrLine>
+               <addrLine ref="pmb69">Wien XIX.</addrLine>
+               <addrLine ref="pmb722">Armbrustergasse 6</addrLine>
+            </address>
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine ref="pmb723">Wildbad Waldbrunn bei Welsberg</addrLine>
+               <addrLine ref="pmb724">Pustertal.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb159">Heiligenstadt</rs>, <date>3. VIII. 07</date>.</dateline>
+            </opener>
+            <p>
+               <salute>Lieber, </salute>ich habe Ihre letzte Karte nicht gut lesen können, glaube aber dass Sie noch in <rs type="place" ref="pmb723">Waldbrunn</rs> sind. Uns ist es nicht besonders gegangen. <rs type="person" ref="pmb23918">Otti</rs> mußte operirt werden, was zu Hause geschah. Sie hat sich bis heute noch nicht völlig erholt. Der Arzt will, dass sie jetzt noch eine Kur brauchen soll. So gehen wir nächster Tage auf 4 Wochen nach <rs type="place" ref="pmb772">Marienbad</rs>. Ich komme eben von dort, wo ich Wohnung genommen habe. Vorher war ich ein paar Tage in <rs type="place" ref="pmb842">Karlsbad</rs>. Unsere Adresse ist dann (wahrscheinlich vom 8. an) »<rs type="place" ref="pmb509">Quisiana</rs>«. Ein sehr hübsches Haus, oben im Wald bei der <rs type="place" ref="pmb510">Waldmühle</rs>. <rs type="person" ref="pmb2922">Paul</rs> ist dieser Tage auch wieder krank gewesen, hoffentlich wird er sich in <rs type="place" ref="pmb772">Marienbad</rs> vollständig erholen. Wann kommen Sie nach <rs type="place" ref="pmb50">Wien</rs> zurück? Spielen Sie dort Tennis? Haben Sie gearbeitet? Haben Sie für den September Reisepläne? Ich möchte im September irgendeine Meerfahrt machen. <rs type="place" ref="pmb505">Athen</rs> oder so was ähnliches. <rs type="person" ref="pmb10815">Bahr</rs> hat mir vom <rs type="place" ref="pmb259">Lido</rs> einen entrüsteten Brief geschrieben, weil mich der <anchor type="commentary" xml:id="KL372-2">
+                  <rs type="person" ref="pmb12460">Pötzl</rs> im <rs type="work" subtype="implied" ref="pmb31713">
+                     <rs type="org" ref="pmb29414">Tagblatt</rs>
+                     <space unit="chars" quantity="1"/> gelobt</rs>
+               </anchor> hat. Und der <rs type="person" ref="pmb12460">Pötzl</rs> hat mich gelobt, weil ich im »<rs type="org" ref="pmb29398">Morgen</rs>« <anchor type="commentary" xml:id="KL372-1">
+                  <rs type="work" ref="pmb30715">Wien</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="work" subtype="implied" ref="pmb31293">gelobt</rs>
+               </anchor> habe. Es ist eine düstere Sache, wie Sie sehen. Aber was soll ich thun? Ich zittere, dass mich am Ende nächstens auch noch der <rs type="person" ref="pmb12769">Seligmann</rs> lobt, oder der <rs type="person" ref="pmb2618">Hugo Ganz</rs> und dann wird mich <rs type="person" ref="pmb10815">Bahr</rs> sicherlich total verachten, und komme ich einmal in die <rs type="place" ref="pmb15">Oper</rs>, wird die <rs type="person" ref="pmb10818">M.</rs> zu singen aufhören, weil ich da bin. Mir fehlt zu meinem gänzlichen Untergang nur noch, dass <rs type="person" ref="pmb11707">Robert Hirschfeld</rs> ein Feuilleton über mich schreibt, und dass <rs type="person" ref="pmb12740">Gustav S–kopf</rs> in einem Aufruf die <rs type="place" ref="pmb50">Wiener</rs> einlädt, meine Bücher fleißiger zu kaufen. Dann bin ich ganz kaput, und kann mich von D<hi rend="superscript">
+                  <hi rend="underline" n="1">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3073">Spitzer</rs> ehrlicher Weise nicht einmal mehr fotografiren laßen. Ich habe trübe Ahnungen und bin auf das Schlimmste gefaßt. Aber, wenn’s mir bestimmt ist, kann ich garnichts machen. – Hoffentlich geht es Ihnen allen gut.</p>
+            <p>Leben Sie wol und schreiben Sie bald wieder eine Zeile. Herzliche Grüße von <rs type="person" subtype="implied" ref="pmb2167 pmb23918">uns</rs> zu Ihnen.<space unit="chars" quantity="5"/>Ihr <signed>FSalten</signed>
+            </p>
+            <postscript>
+               <p>
+                  <handShift scribe="pmb23918"/>Viele herzliche Grüße <signed>Ottilie S.</signed>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

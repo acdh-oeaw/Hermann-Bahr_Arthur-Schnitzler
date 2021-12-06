@@ -1,141 +1,144 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041357.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041356.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041358.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Felix Salten an Arthur Schnitzler, 23. 7. 1897</title> 
-            <author ref="pmb2167">Salten, Felix</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="357"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D6-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2167">Salten, Felix</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb213">Bad Ischl</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18970723" n="02">23. 7. 1897</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 89 a/2</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Karte, Lateinschrift, Bleistift</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb59">Wien 9/3</placeName> 
-                           <date when="18970723">23. 7. 97</date> 
-                           <time>4–5 N</time> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <placeName ref="pmb213">Ischl</placeName> 
-                           <date when="18970724">24/7 97</date> 
-                           <time>7–8</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151112">Angelegt aus Abschrift</change> 
-         <change who="MAM" when="20151126">Autopsie am Original</change> 
-         <change who="KI MAM" when="20160614">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript"> 
-                     <hi rend="underline" n="1">r</hi> 
-                  </hi> Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <del rend="erased"> 
-                     <rs type="place" ref="pmb50"> 
-                        <settlement>Wien</settlement> 
-                     </rs> 
-                  </del> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="place" ref="pmb213"> 
-                     <settlement>Ischl</settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb414">Kaltenbach, Pension Petter</rs>.</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline> 
-                  <date>23/7</date> 
-               </dateline> 
-            </opener> 
-            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1"> 
-                  <rs cert="low" type="person" ref="pmb10815 pmb11036">B</rs>.</anchor> 
-            </p> 
-            <p>Das hätte <subst> 
-                  <del rend="overwritten"> 
-                     <gap quantity="2" reason="illegible" unit="chars"/> 
-                  </del> 
-                  <add place="inline">m</add> 
-               </subst>an sich eigentlich denken können.</p> 
-            <closer>Herzlich <signed>S.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041357.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041356.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041358.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Felix Salten an Arthur Schnitzler, 23. 7. 1897</title>
+            <author ref="pmb2167">Salten, Felix</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="357"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D6-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2167">Salten, Felix</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb213">Bad Ischl</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18970723" n="02">23. 7. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 a/2</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, Lateinschrift, Bleistift</p>
+                        <stamp n="1">
+                           <placName ref="pmb59">Wien 9/3</placName>
+                           <date when="18970723">23. 7. 97</date>
+                           <time>4–5 N</time>
+                        </stamp>
+                        <stamp n="2">
+                           <placName ref="pmb213">Ischl</placName>
+                           <date when="18970724">24/7 97</date>
+                           <time>7–8</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151112">Angelegt aus Abschrift</change>
+         <change who="MAM" when="20151126">Autopsie am Original</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">
+                     <hi rend="underline" n="1">r</hi>
+                  </hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <del rend="erased">
+                     <rs type="place" ref="pmb50">Wien</rs>
+                  </del>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="place" ref="pmb213">Ischl</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb414">Kaltenbach, Pension Petter</rs>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <date>23/7</date>
+               </dateline>
+            </opener>
+            <p>Heute hab ich die Quelle jener Nachricht erfahren.– <anchor type="commentary" xml:id="KL357-1">
+                  <rs type="person" ref="pmb10815 pmb11036">B</rs>.</anchor>
+            </p>
+            <p>Das hätte <subst>
+                  <del rend="overwritten">
+                     <gap quantity="2" reason="illegible" unit="chars"/>
+                  </del>
+                  <add place="inline">m</add>
+               </subst>an sich eigentlich denken können.</p>
+            <closer>Herzlich <signed>S.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

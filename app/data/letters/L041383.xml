@@ -1,148 +1,135 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041383.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041382.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041384.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Marie Reinhard, 23. 8. 1896</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="383"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86F0-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2378">Reinhard, Marie</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <!-- <placeAddressee><placeName>[Wien???]</placeName></placeAddressee>--> 
-               <dateSender> 
-                  <date when="18960823" n="01">23. 8. 1896</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASB1" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1875–1912</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                     <biblScope unit="pp">299–302</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Arthur Schnitzler an Marie Reinhard (1896)</title> 
-                     <editor>Hg. Therese Nickl</editor> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j">Modern Austrian Literature</title> 
-                     <imprint> 
-                        <date when="1977">1977</date> 
-                     </imprint> 
-                     <biblScope unit="vol">10</biblScope> 
-                     <biblScope unit="nr">3/4</biblScope> 
-                     <biblScope unit="pp">62–64</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160119">Angelegt aus Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>23. 8. 96</date> 
-                  <lb/> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement>Berlin</settlement> 
-                  </rs> 
-                  <lb/>12 Uhr Mittag </dateline> 
-            </opener> 
-            <p> 
-               <salute>Meine geliebte Mizi, </salute>eben komme ich aus dem <rs type="place" ref="pmb3">Deutschen Theater</rs>, wo ich mit <rs type="person" ref="pmb10986">Brahm</rs> die Vorlesestunde ausgemacht habe: heut Abends ½ 7. Im allgemeinen hat er eine große Antipathie gegen Vorlesen, und hat sie mit fast verstimmender Deutlichkeit zu erkennen gegeben. Schließlich ist es ihm aber doch lieber, daß er das <rs type="work" subtype="implied" ref="pmb29899">Stück</rs> gleich kennenlernt als daß er noch ein paar Wochen wartet, bis es in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> abgeschrieben worden ist. Ich hab ihm natürlich freie Wahl gelassen. Hieran kann ich gleich anschließen, daß ich am Vortag meiner Abreise von <rs type="place" ref="pmb958"> 
-                  <settlement>Skodsborg</settlement> 
-               </rs> die veränderten Scenen vorgelesen habe; sie schienen im ganzen zufriedenzustellen. Aber noch kommt man nicht drüber hinaus, daß im 1. Akt eigentlich ein andres Stück versprochen als im 2. u. 3. Akt geboten wird. Da müßten die Schauspielerscenen auf ein Minimum zusammengestrichen werden, was von andern Gesichtspunkten aus wieder nicht wünschenswerth erscheint. – Ich kann nicht verhehlen, daß ich der heutigen Vorlesung mit sehr mäßigen Hoffnungen entgegensehe, obwohl <rs type="person" ref="pmb10986">Br.</rs> erklärt hat, nach Tisch besser aufgelegt zu sein als Vormittag. Es wird niemand bei ihm sein außer mir – was nun einmal nicht zu vermeiden ist. Im ganzen war er übrigens so liebenswürdig und bon camarade wie immer. – </p> 
-            <p>Hier unterbrech ich auf einen Moment, um dich im Geiste zärtlich an mein Herz zu schließen. – </p> 
-            <p>Vorgestern hab ich in <rs type="place" ref="pmb36300"> 
-                  <settlement>Kop.</settlement> 
-               </rs> die <rs type="place" ref="pmb640">Glyptothek</rs>, eine Sculpturensammlung angesehen und viel schönes gefunden, besonders antike Büsten. Abends um ½ 7 war ich bei <rs type="person" ref="pmb10992">Brandes</rs>; es wurde über vieles gesprochen und er fragte mich mancherlei was nicht leicht zu beantworten war, u. a. was die Ideale der jungen Leute von 25 Jahren in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> seien. Über <rs type="person" ref="pmb10815">Bahr</rs> äußerte er kurz, daß er ein Affe sei; ich fragte ihn ob er <rs type="person" ref="pmb11740">Loris</rs> kenne, er sagte nein, erinnerte sich aber daß <rs type="person" ref="pmb10815">Bahr</rs> einen »lebendigen« <rs type="work" subtype="implied" ref="pmb30259">Artikel</rs> über ihn geschrieben. Auch über die oft besprochenen Symbolist Schwindler ging er her; die ihm so ekelhaft sind, daß er einige, die ihn öfters zu besuchen versuchten, nicht empfangen hat<c rendition="#dots" n="2" place="center"/> »Vor allem darf einer nicht affectirt sein<c rendition="#dots" n="2"/>«</p> 
-            <p>– Was er über einzelne Menschen sagte, werd ich dir alles in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> erzählen. Freilich wird das Beste fehlen: seine eigentümliche Art zu reden; zu schauen, von einem Gegenstand zum andern überzugehen, die Bewegung seiner Seele unterhalb des Gesprächs, das schmerzliche, selbstbewußte, bittre, heftige und ironische seines Wesens; das Auf und Ab vom Anekdotischen zum Philosophischen, – kurz alles was eben Persönlichkeit an ihm ist, also <hi rend="italic">sein</hi> bestes, wie das beste von allen, die überhaupt was sind. – Um 8 ging ich ins Hotel, nahm Migraenin, legte mich auf ½ Stunde hin; nachtmahlte dann, und ging zum schwarzen Kaffee zu <rs type="person" ref="pmb2357 pmb2910">Nansens</rs>, wo sich bereits <rs type="person" ref="pmb11485">Goldmann</rs> befand. Daß ich das 2. Mal von Frau <rs type="person" ref="pmb2910">N.</rs> nichts erwähnte, liegt daran, daß nichts erwähnenswertes vorlag; und diesmal ist es nicht anders, nur muß ich bemerken, daß sie mir immer weniger sympathisch und er mir immer sympathischer wird. Mitspielen mag da, was <rs type="person" ref="pmb10992">Brandes</rs> mir erzählt hat. – Sowohl <rs type="person" ref="pmb2357 pmb2910">Nansens</rs> als <rs type="person" ref="pmb11485">Goldmann</rs> kamen mit ins Cafehaus wohin auch <rs type="person" ref="pmb10992">Br.</rs> zu kommen versprochen hatte; er erschien um ½ 11 und man blieb <supplied>bis</supplied> nach 1 zusammen; <rs type="person" ref="pmb10992">Br.</rs> sprach nahezu ausschließlich – erzählte von einer Menge Menschen, auch von sich. Der Grundton ist immer: Ich kenne so viele, und ich bin allein. <rs type="person" ref="pmb2357 pmb2910">Nansen’s</rs> gingen früher, und dann blieben <rs type="person" ref="pmb11485">Goldm</rs>. u. ich noch mit ihm zusammen. Ich setze ein paar Namen her, an die du mich erinnern magst : <rs type="person" ref="pmb3379">Albert Langen</rs>, <rs type="person" ref="pmb11134">Daudet</rs>, <rs type="person" subtype="implied" ref="pmb2907">argentinischer Oberst</rs>, <rs type="person" ref="pmb3908">Sarah Kainz</rs>, <rs type="person" ref="pmb2896">Gretor</rs>, <rs type="person" ref="pmb2404">Hebbel</rs>. – Themen: Biographien; <rs type="place" ref="pmb434"> 
-                  <country>dänische</country> 
-               </rs> Literatur, Übersetzungen; Königshaus; Stellung <rs type="person" ref="pmb10992">Brandes</rs> etc. etc. – Allmälig wird mir das meiste einfallen. – </p> 
-            <p>Hier unterbrech ich wieder, mein Schatz, und küsse dich tausendmal. – </p> 
-            <p>Auf der Fahrt gestern las ich <rs type="work" ref="pmb31783">Dichtung u Wahrheit</rs> zu Ende, begann den »<rs type="work" ref="pmb31781">goldenen Esel</rs>« von <rs type="person" ref="pmb28467">Apulejus</rs>. Überdachte einen 1-aktigen <rs type="work" subtype="implied" ref="pmb29845">Dramenstoff</rs>, der mir aus der Novelle, die du glaub ich nicht kennst »<rs type="work" ref="pmb30407">Der Wittwer</rs>« erwächst – die, als Novelle, mir wie du weißt nie gefallen hat. Ebensowenig jetzt dem <rs type="person" ref="pmb11485">Paul Goldm.</rs> 
-            </p> 
-            <p>– Das Wetter war sehr schlecht; auch bei Regen hier angekommen. – Im <rs type="place" ref="pmb399">Continental</rs> ein schönes, aber theures Zimmer. – In ein <rs type="place" ref="pmb50"> 
-                  <settlement>Wiener</settlement> 
-               </rs> Restaurant, mich nach langer Entbehrung an <rs type="place" ref="pmb553">Pilsner</rs> Bier, Kalbsgulyas und garnirtem Liptauer erlabt. – Dann noch ins <rs type="place" ref="pmb400">C. Kaiserhof</rs>, wo ich die paar Zeilen an dich, mein Schatz, geschrieben habe. – </p> 
-            <p>Ich bin so glücklich, daß du nun doch um 1 Tag früher kommst. Daß wir uns Abends treffen, fürcht ich wird dir unmöglich sein – also um 3. <hi rend="italic">Wo</hi> ist ja selbstverständlich – hoff ich, mein geliebter Engel. – </p> 
-            <p>Ich bin hier 23., 24., 25., 26. Also auf diesen hier, <hi rend="italic">falls du ihn erst am 25. bekommst,</hi> antworte mir nach <rs type="place" ref="pmb401">München, Hotel Marienbad</rs>. Dort werde ich am 27. u. 28. sein; kannst also, da es ja nah ist, noch am 27. hinschreiben. Am 29. bitte eine Zeile nach <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>. Damit ich gleich beim Nachhausekommen eine finde. Also, der Übersicht halber: Am 25. 26. 27. kannst du Briefe nach <rs type="place" ref="pmb401">München, Hotel Marienbad</rs>, am 28. u 29. nach <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> senden. – </p> 
-            <p>Und nun, mein Schatz, leb wohl. Deine Freude an der Natur sowie dein Gefallen an der <rs type="work" ref="pmb31493">Mme Bovary</rs> hab ich gern erfahren noch lieber, daß du die Natur mit mir genießen möchtest. Ich kann das in der schmerzlichsten Weise nachfühlen – denn ich fühl es längst! </p> 
-            <closer>Ich drücke dich ans Herz und küsse deine süßen Augen!<lb/>Dein <signed>A</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041383.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041382.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041384.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Marie Reinhard, 23. 8. 1896</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="383"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86F0-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2378">Reinhard, Marie</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <!-- <placeAddressee><placeName>[Wien???]</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="18960823" n="01">23. 8. 1896</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">299–302</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Arthur Schnitzler an Marie Reinhard (1896)</title>
+                     <editor>Hg. Therese Nickl</editor>
+                  </analytic>
+                  <monogr>
+                     <title level="j">Modern Austrian Literature</title>
+                     <imprint>
+                        <date when="1977">1977</date>
+                     </imprint>
+                     <biblScope unit="vol">10</biblScope>
+                     <biblScope unit="nr">3/4</biblScope>
+                     <biblScope unit="pp">62–64</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160119">Angelegt aus Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>23. 8. 96</date>
+                  <lb/>
+                  <rs type="place" ref="pmb168">Berlin</rs>
+                  <lb/>12 Uhr Mittag </dateline>
+            </opener>
+            <p>
+               <salute>Meine geliebte Mizi, </salute>eben komme ich aus dem <rs type="place" ref="pmb3">Deutschen Theater</rs>, wo ich mit <rs type="person" ref="pmb10986">Brahm</rs> die Vorlesestunde ausgemacht habe: heut Abends ½ 7. Im allgemeinen hat er eine große Antipathie gegen Vorlesen, und hat sie mit fast verstimmender Deutlichkeit zu erkennen gegeben. Schließlich ist es ihm aber doch lieber, daß er das <rs type="work" subtype="implied" ref="pmb29899">Stück</rs> gleich kennenlernt als daß er noch ein paar Wochen wartet, bis es in <rs type="place" ref="pmb50">Wien</rs> abgeschrieben worden ist. Ich hab ihm natürlich freie Wahl gelassen. Hieran kann ich gleich anschließen, daß ich am Vortag meiner Abreise von <rs type="place" ref="pmb958">Skodsborg</rs> die veränderten Scenen vorgelesen habe; sie schienen im ganzen zufriedenzustellen. Aber noch kommt man nicht drüber hinaus, daß im 1. Akt eigentlich ein andres Stück versprochen als im 2. u. 3. Akt geboten wird. Da müßten die Schauspielerscenen auf ein Minimum zusammengestrichen werden, was von andern Gesichtspunkten aus wieder nicht wünschenswerth erscheint. – Ich kann nicht verhehlen, daß ich der heutigen Vorlesung mit sehr mäßigen Hoffnungen entgegensehe, obwohl <rs type="person" ref="pmb10986">Br.</rs> erklärt hat, nach Tisch besser aufgelegt zu sein als Vormittag. Es wird niemand bei ihm sein außer mir – was nun einmal nicht zu vermeiden ist. Im ganzen war er übrigens so liebenswürdig und bon camarade wie immer. – </p>
+            <p>Hier unterbrech ich auf einen Moment, um dich im Geiste zärtlich an mein Herz zu schließen. – </p>
+            <p>Vorgestern hab ich in <rs type="place" ref="pmb36300">Kop.</rs> die <rs type="place" ref="pmb640">Glyptothek</rs>, eine Sculpturensammlung angesehen und viel schönes gefunden, besonders antike Büsten. Abends um ½ 7 war ich bei <rs type="person" ref="pmb10992">Brandes</rs>; es wurde über vieles gesprochen und er fragte mich mancherlei was nicht leicht zu beantworten war, u. a. was die Ideale der jungen Leute von 25 Jahren in <rs type="place" ref="pmb50">Wien</rs> seien. Über <rs type="person" ref="pmb10815">Bahr</rs> äußerte er kurz, daß er ein Affe sei; ich fragte ihn ob er <rs type="person" ref="pmb11740">Loris</rs> kenne, er sagte nein, erinnerte sich aber daß <rs type="person" ref="pmb10815">Bahr</rs> einen »lebendigen« <rs type="work" subtype="implied" ref="pmb30259">Artikel</rs> über ihn geschrieben. Auch über die oft besprochenen Symbolist Schwindler ging er her; die ihm so ekelhaft sind, daß er einige, die ihn öfters zu besuchen versuchten, nicht empfangen hat<c rendition="#dots" n="2" place="center"/> »Vor allem darf einer nicht affectirt sein<c rendition="#dots" n="2"/>«</p>
+            <p>– Was er über einzelne Menschen sagte, werd ich dir alles in <rs type="place" ref="pmb50">Wien</rs> erzählen. Freilich wird das Beste fehlen: seine eigentümliche Art zu reden; zu schauen, von einem Gegenstand zum andern überzugehen, die Bewegung seiner Seele unterhalb des Gesprächs, das schmerzliche, selbstbewußte, bittre, heftige und ironische seines Wesens; das Auf und Ab vom Anekdotischen zum Philosophischen, – kurz alles was eben Persönlichkeit an ihm ist, also <hi rend="italic">sein</hi> bestes, wie das beste von allen, die überhaupt was sind. – Um 8 ging ich ins Hotel, nahm Migraenin, legte mich auf ½ Stunde hin; nachtmahlte dann, und ging zum schwarzen Kaffee zu <rs type="person" ref="pmb2357 pmb2910">Nansens</rs>, wo sich bereits <rs type="person" ref="pmb11485">Goldmann</rs> befand. Daß ich das 2. Mal von Frau <rs type="person" ref="pmb2910">N.</rs> nichts erwähnte, liegt daran, daß nichts erwähnenswertes vorlag; und diesmal ist es nicht anders, nur muß ich bemerken, daß sie mir immer weniger sympathisch und er mir immer sympathischer wird. Mitspielen mag da, was <rs type="person" ref="pmb10992">Brandes</rs> mir erzählt hat. – Sowohl <rs type="person" ref="pmb2357 pmb2910">Nansens</rs> als <rs type="person" ref="pmb11485">Goldmann</rs> kamen mit ins Cafehaus wohin auch <rs type="person" ref="pmb10992">Br.</rs> zu kommen versprochen hatte; er erschien um ½ 11 und man blieb <supplied>bis</supplied> nach 1 zusammen; <rs type="person" ref="pmb10992">Br.</rs> sprach nahezu ausschließlich – erzählte von einer Menge Menschen, auch von sich. Der Grundton ist immer: Ich kenne so viele, und ich bin allein. <rs type="person" ref="pmb2357 pmb2910">Nansen’s</rs> gingen früher, und dann blieben <rs type="person" ref="pmb11485">Goldm</rs>. u. ich noch mit ihm zusammen. Ich setze ein paar Namen her, an die du mich erinnern magst : <rs type="person" ref="pmb3379">Albert Langen</rs>, <rs type="person" ref="pmb11134">Daudet</rs>, <rs type="person" subtype="implied" ref="pmb2907">argentinischer Oberst</rs>, <rs type="person" ref="pmb3908">Sarah Kainz</rs>, <rs type="person" ref="pmb2896">Gretor</rs>, <rs type="person" ref="pmb2404">Hebbel</rs>. – Themen: Biographien; <rs type="place" ref="pmb43570">dänische</rs> Literatur, Übersetzungen; Königshaus; Stellung <rs type="person" ref="pmb10992">Brandes</rs> etc. etc. – Allmälig wird mir das meiste einfallen. – </p>
+            <p>Hier unterbrech ich wieder, mein Schatz, und küsse dich tausendmal. – </p>
+            <p>Auf der Fahrt gestern las ich <rs type="work" ref="pmb31783">Dichtung u Wahrheit</rs> zu Ende, begann den »<rs type="work" ref="pmb31781">goldenen Esel</rs>« von <rs type="person" ref="pmb28467">Apulejus</rs>. Überdachte einen 1-aktigen <rs type="work" subtype="implied" ref="pmb29845">Dramenstoff</rs>, der mir aus der Novelle, die du glaub ich nicht kennst »<rs type="work" ref="pmb30407">Der Wittwer</rs>« erwächst – die, als Novelle, mir wie du weißt nie gefallen hat. Ebensowenig jetzt dem <rs type="person" ref="pmb11485">Paul Goldm.</rs>
+            </p>
+            <p>– Das Wetter war sehr schlecht; auch bei Regen hier angekommen. – Im <rs type="place" ref="pmb399">Continental</rs> ein schönes, aber theures Zimmer. – In ein <rs type="place" ref="pmb50">Wiener</rs> Restaurant, mich nach langer Entbehrung an <rs type="place" ref="pmb553">Pilsner</rs> Bier, Kalbsgulyas und garnirtem Liptauer erlabt. – Dann noch ins <rs type="place" ref="pmb400">C. Kaiserhof</rs>, wo ich die paar Zeilen an dich, mein Schatz, geschrieben habe. – </p>
+            <p>Ich bin so glücklich, daß du nun doch um 1 Tag früher kommst. Daß wir uns Abends treffen, fürcht ich wird dir unmöglich sein – also um 3. <hi rend="italic">Wo</hi> ist ja selbstverständlich – hoff ich, mein geliebter Engel. – </p>
+            <p>Ich bin hier 23., 24., 25., 26. Also auf diesen hier, <hi rend="italic">falls du ihn erst am 25. bekommst,</hi> antworte mir nach <rs type="place" ref="pmb401">München, Hotel Marienbad</rs>. Dort werde ich am 27. u. 28. sein; kannst also, da es ja nah ist, noch am 27. hinschreiben. Am 29. bitte eine Zeile nach <rs type="place" ref="pmb50">Wien</rs>. Damit ich gleich beim Nachhausekommen eine finde. Also, der Übersicht halber: Am 25. 26. 27. kannst du Briefe nach <rs type="place" ref="pmb401">München, Hotel Marienbad</rs>, am 28. u 29. nach <rs type="place" ref="pmb50">Wien</rs> senden. – </p>
+            <p>Und nun, mein Schatz, leb wohl. Deine Freude an der Natur sowie dein Gefallen an der <rs type="work" ref="pmb31493">Mme Bovary</rs> hab ich gern erfahren noch lieber, daß du die Natur mit mir genießen möchtest. Ich kann das in der schmerzlichsten Weise nachfühlen – denn ich fühl es längst! </p>
+            <closer>Ich drücke dich ans Herz und küsse deine süßen Augen!<lb/>Dein <signed>A</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

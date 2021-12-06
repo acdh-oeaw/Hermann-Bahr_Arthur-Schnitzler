@@ -1,130 +1,133 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041367.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041366.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041368.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Cesare Levi an Arthur Schnitzler, 5. 10. 1910</title> 
-            <author ref="pmb2242">Levi, Cesare</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="367"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E0-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2242">Levi, Cesare</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb263">Florenz</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19101005" n="01">5. 10. 1910</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>UK</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 295</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, gedruckter Kopf: »<quote> 
-                              <placeName ref="pmb472">Via S. Ambrogio</placeName> N.8</quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151127">Angelegt nach Original in CUL</change> 
-         <change who="KI MAM" when="20160920">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb263"> 
-                     <settlement>Florenz</settlement> 
-                  </rs>, dem <date>5 Octbr. 1910</date>.</dateline> 
-               <salute>Sehr geehrter Herr Doctor,</salute> 
-            </opener> 
-            <p>Ich habe eben das Lustspiel von Ihnen <rs type="work" ref="pmb29931"> 
-                  <hi rend="underline" n="1">Comtesse</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <hi rend="underline" n="1">Mizzi</hi> 
-               </rs> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1">Zusammentref<supplied>f</supplied>ens</anchor> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p> 
-            <p> 
-               <rs type="work" ref="pmb29933"> 
-                  <hi rend="underline" n="1">Das</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <hi rend="underline" n="1">Konzert</hi> 
-               </rs> von <rs type="person" ref="pmb10815">Hermann Bahr</rs> habe ich auch gelesen: wenn es möglich wäre einige Szenen umzuarbeiten um knapper dasselbe zusammenzustellen, würde ich sehr gerne <rs type="work" ref="pmb29933"> 
-                  <hi rend="underline" n="1">das</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <hi rend="underline" n="1">Konzert</hi> 
-               </rs> übersetzen.<pb/> Möchte ich sie bitten mich in Verbindung mit Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu setzen, da ich weiss, dass Sie mit ihm sehr in freundlichen Verhältnissen sind, um das Erlaubniss das <rs type="work" subtype="implied" ref="pmb29933">Schauspiel</rs> von Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu übersetzen, zu erhalten?</p> 
-            <p> 
-               <rs type="work" ref="pmb30033"> 
-                  <hi rend="underline" n="1">Anatol’s</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <hi rend="underline" n="1">Heiratsmorgen</hi> 
-               </rs> wurde in<pb/> diesen letzten Tagen in <rs type="place" ref="pmb445"> 
-                  <settlement>Rom</settlement> 
-               </rs> ausgeführt; und schon zwei Mal wiederholt.</p> 
-            <closer>Hochachtungsvoll<lb/> 
-               <signed>D<hi rend="superscript"> 
-                     <hi rend="underline" n="1">r</hi> 
-                  </hi> CesareLevi.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041367.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041366.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041368.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Cesare Levi an Arthur Schnitzler, 5. 10. 1910</title>
+            <author ref="pmb2242">Levi, Cesare</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="367"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E0-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2242">Levi, Cesare</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb263">Florenz</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19101005" n="01">5. 10. 1910</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>UK</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 295</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, gedruckter Kopf: »<quote>
+                              <placName ref="pmb472">Via S. Ambrogio</placName> N.8</quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151127">Angelegt nach Original in CUL</change>
+         <change who="KI MAM" when="20160920">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb263">Florenz</rs>, dem <date>5 Octbr. 1910</date>.</dateline>
+               <salute>Sehr geehrter Herr Doctor,</salute>
+            </opener>
+            <p>Ich habe eben das Lustspiel von Ihnen <rs type="work" ref="pmb29931">
+                  <hi rend="underline" n="1">Comtesse</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline" n="1">Mizzi</hi>
+               </rs> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1">Zusammentref<supplied>f</supplied>ens</anchor> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p>
+            <p>
+               <rs type="work" ref="pmb29933">
+                  <hi rend="underline" n="1">Das</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline" n="1">Konzert</hi>
+               </rs> von <rs type="person" ref="pmb10815">Hermann Bahr</rs> habe ich auch gelesen: wenn es möglich wäre einige Szenen umzuarbeiten um knapper dasselbe zusammenzustellen, würde ich sehr gerne <rs type="work" ref="pmb29933">
+                  <hi rend="underline" n="1">das</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline" n="1">Konzert</hi>
+               </rs> übersetzen.<pb/> Möchte ich sie bitten mich in Verbindung mit Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu setzen, da ich weiss, dass Sie mit ihm sehr in freundlichen Verhältnissen sind, um das Erlaubniss das <rs type="work" subtype="implied" ref="pmb29933">Schauspiel</rs> von Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu übersetzen, zu erhalten?</p>
+            <p>
+               <rs type="work" ref="pmb30033">
+                  <hi rend="underline" n="1">Anatol’s</hi>
+                  <space unit="chars" quantity="1"/>
+                  <hi rend="underline" n="1">Heiratsmorgen</hi>
+               </rs> wurde in<pb/> diesen letzten Tagen in <rs type="place" ref="pmb445">Rom</rs> ausgeführt; und schon zwei Mal wiederholt.</p>
+            <closer>Hochachtungsvoll<lb/>
+               <signed>D<hi rend="superscript">
+                     <hi rend="underline" n="1">r</hi>
+                  </hi> CesareLevi.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

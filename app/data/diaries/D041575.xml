@@ -1,87 +1,94 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041575.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041574.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041576.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 28. 10. 1918</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="575"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A4E-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 843 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 10, beschriftet »<quote> 
-                              <date>28. X.</date> – <date>3. XI.</date> 
-                           </quote>«, 17 Bl., S. 5.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p rend="right"> 
-               <date when="19181028" n="1">28.</date> 
-            </p> 
-            <p>Nachmittag <rs type="person" ref="pmb13094">Werfel</rs> zwei Stunden bei mir. Jüdisch hymnisch. – Sein höchstes <rs type="person" ref="pmb3739">Tolstoi</rs>. – Verachtg der überlieferten Form, worüber er spricht wie <rs type="person" ref="pmb11763">Arno Holz</rs> 1885. – Das Menschliche geht ihm übers Künstlerische. – Unverhältnis zu <rs type="person" ref="pmb13122">Wildgans</rs>, den er als bürgerlich, subaltern und künstlerisch unaufrichtig empfindet. – Sein jüdisches Medusenhaupt. – Gespräch über »realisierbare Utopie«, mit Akzent auf beiden.</p> 
-            <p>–</p> 
-            <p>Abends bei <rs type="person" ref="pmb2312">Berta Zuckerkandl</rs> mit <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb2173">Olga</rs>, <rs type="person" ref="pmb2771">Friedell</rs> – später allerhand Menschen, darunter <rs type="person" ref="pmb13598">Auspitz</rs>, der mit mir einst im <anchor type="commentary" xml:id="KD575-1"> 
-                  <rs cert="low" type="place" ref="pmb376"> 
-                     <unclear>Wagnerheim</unclear> 
-                  </rs> 
-               </anchor> war.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041575.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041574.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041576.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 28. 10. 1918</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="575"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A4E-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 843 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: 17 und drei zusammengebundenen Heften, eh., einzeln von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, hier Heft 10, beschriftet »<quote>
+                              <date>28. X.</date> – <date>3. XI.</date>
+                           </quote>«, 17 Bl., S. 5.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p rend="right">
+               <date when="19181028" n="1">28.</date>
+            </p>
+            <p>Nachmittag <rs type="person" ref="pmb13094">Werfel</rs> zwei Stunden bei mir. Jüdisch hymnisch. – Sein höchstes <rs type="person" ref="pmb3739">Tolstoi</rs>. – Verachtg der überlieferten Form, worüber er spricht wie <rs type="person" ref="pmb11763">Arno Holz</rs> 1885. – Das Menschliche geht ihm übers Künstlerische. – Unverhältnis zu <rs type="person" ref="pmb13122">Wildgans</rs>, den er als bürgerlich, subaltern und künstlerisch unaufrichtig empfindet. – Sein jüdisches Medusenhaupt. – Gespräch über »realisierbare Utopie«, mit Akzent auf beiden.</p>
+            <p>–</p>
+            <p>Abends bei <rs type="person" ref="pmb2312">Berta Zuckerkandl</rs> mit <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb2173">Olga</rs>, <rs type="person" ref="pmb2771">Friedell</rs> – später allerhand Menschen, darunter <rs type="person" ref="pmb13598">Auspitz</rs>, der mit mir einst im <anchor type="commentary" xml:id="KD575-1">
+                  <rs type="place" ref="pmb376">
+                     <unclear>Wagnerheim</unclear>
+                  </rs>
+               </anchor> war.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

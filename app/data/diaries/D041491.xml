@@ -1,127 +1,132 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041491.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041490.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041492.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Monatszusammenfassung Oktober], [nach dem 20.] 10. 1906</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="491"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A04-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2093/2 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT5" default="false"> 
-                  <monogr> 
-                     <title level="m">1906–1908</title> 
-                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="2003">2003</date> 
-                     </imprint> 
-                     <biblScope unit="pp">21</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">V</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160111">angelegt</change> 
-         <change who="KI MAM" when="20160205">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p rend="center"> 
-               <date when="19061021" n="01">October.</date> 
-            </p> 
-            <p>Von <date>1.</date> bis <date>16.</date> ein kleines <rs type="work" subtype="implied" ref="pmb30715">Büchel</rs> über »<rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>« diktiert.</p> 
-            <p>Nachmittag immer bei <rs type="person" ref="pmb10818">M.</rs> 
-            </p> 
-            <p>Einmal bei <rs type="person" ref="pmb2121">Arthur</rs>, einmal bei <rs type="person" ref="pmb2167">Salten</rs> und <rs type="person" ref="pmb12481 pmb28111">Redlichs</rs>.</p> 
-            <p>Gelesen <rs type="person" ref="pmb3673">Hohenlohes</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31201">Memoiren</rs>, <rs type="person" ref="pmb10943">Bismarcks</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31203">Briefe an seine <rs type="person" subtype="implied" ref="pmb3677">Frau</rs> 
-               </rs>, <rs type="person" ref="pmb3682">Ratzels</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31205">Völkerkunde</rs>, <rs type="person" ref="pmb3686">Schurz</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31207">Urgeschichte der Cultur</rs>.</p> 
-            <p> 
-               <date>19.</date> Schönster <rs type="work" ref="pmb29897">Tristan</rs>abend.</p> 
-            <p> 
-               <date>21.</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11024">Bruckner</rs>feier der <rs type="org" ref="pmb29378">Philharmoniker</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31421">C. Dur</rs>.</p> 
-            <p>Eröffng der Volksbücher mit <rs type="person" ref="pmb28321">Andrejews</rs> »<rs type="work" ref="pmb31419">Zu den Sternen</rs>«.</p> 
-            <p>Immer stark darüber nachgedacht, ob ich nicht politisch aktiv werden soll. Immer ein Büchel über »das östreichische Problem« im Kopf.<pb/> 
-            </p> 
-            <p>Die wunderschön traurigen Stunden des gelben und roten Herbstes, der jetzt ungewöhnlich warm ist.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041491.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041490.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041492.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Monatszusammenfassung Oktober], [nach dem 20.] 10. 1906</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="491"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A04-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2093/2 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT5">
+                  <monogr>
+                     <title level="m">1906–1908</title>
+                     <editor>Bearbeitet von Kurt Ifkovits und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="2003">2003</date>
+                     </imprint>
+                     <biblScope unit="pp">21</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">V</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160111">angelegt</change>
+         <change who="KI MAM" when="20160205">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p rend="center">
+               <date when="19061021" n="01">October.</date>
+            </p>
+            <p>Von <date>1.</date> bis <date>16.</date> ein kleines <rs type="work" subtype="implied" ref="pmb30715">Büchel</rs> über »<rs type="place" ref="pmb50">Wien</rs>« diktiert.</p>
+            <p>Nachmittag immer bei <rs type="person" ref="pmb10818">M.</rs>
+            </p>
+            <p>Einmal bei <rs type="person" ref="pmb2121">Arthur</rs>, einmal bei <rs type="person" ref="pmb2167">Salten</rs> und <rs type="person" ref="pmb12481 pmb28111">Redlichs</rs>.</p>
+            <p>Gelesen <rs type="person" ref="pmb3673">Hohenlohes</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31201">Memoiren</rs>, <rs type="person" ref="pmb10943">Bismarcks</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31203">Briefe an seine <rs type="person" subtype="implied" ref="pmb3677">Frau</rs>
+               </rs>, <rs type="person" ref="pmb3682">Ratzels</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31205">Völkerkunde</rs>, <rs type="person" ref="pmb3686">Schurz</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31207">Urgeschichte der Cultur</rs>.</p>
+            <p>
+               <date>19.</date> Schönster <rs type="work" ref="pmb29897">Tristan</rs>abend.</p>
+            <p>
+               <date>21.</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11024">Bruckner</rs>feier der <rs type="org" ref="pmb29378">Philharmoniker</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31421">C. Dur</rs>.</p>
+            <p>Eröffng der Volksbücher mit <rs type="person" ref="pmb28321">Andrejews</rs> »<rs type="work" ref="pmb31419">Zu den Sternen</rs>«.</p>
+            <p>Immer stark darüber nachgedacht, ob ich nicht politisch aktiv werden soll. Immer ein Büchel über »das östreichische Problem« im Kopf.<pb/>
+            </p>
+            <p>Die wunderschön traurigen Stunden des gelben und roten Herbstes, der jetzt ungewöhnlich warm ist.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

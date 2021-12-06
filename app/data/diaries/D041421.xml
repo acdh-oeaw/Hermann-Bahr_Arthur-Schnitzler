@@ -1,180 +1,185 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041421.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041420.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041422.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 3. 1. 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="421"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89BE-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1764 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">250–251</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151222">angelegt</change> 
-         <change who="KI MAM" when="20160201">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19030103" n="01">3/1</date> Leichter Regen. Nebel. Warm.</p> 
-            <p>In die Stadt. Redaction. <rs type="person" ref="pmb11036">Burckhard</rs>. <rs type="person" ref="pmb2121">Schnitzler.</rs> 
-            </p> 
-            <p>Im Herumfahren denke ich an ein Buch</p> 
-            <p> 
-               <rs type="person" ref="pmb2495">Homer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb20315">Leonardo</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2412">Shakespeare</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11461">Goethe</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2404">Hebbel</rs> 
-            </p> 
-            <p>das nichts als ganz kurz mein Grundverhältnis zu diesen anzugeben hätte.</p> 
-            <p>Die Schneerose im Studiolo aufgeblüht; im Speiszimmer sind gar vier Knospen schon offen.</p> 
-            <p>Von <rs type="person" ref="pmb3368">Olbrich</rs> kommt aus <rs type="place" ref="pmb869"> 
-                  <settlement>Moskau</settlement> 
-               </rs> ein reizender Brief: ganz der ewig brausende, schaffende, drängende Feuermensch!</p> 
-            <p> 
-               <hi rend="underline" n="1">Zum Formalen des <rs type="person" ref="pmb3422">Mereschkowskischen</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb20315"> 
-                     <rs type="work" ref="pmb31009">Leonardo</rs> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb3430">Walter Pater</rs>, <rs type="person" ref="pmb3432">Fritz Bley</rs> und <rs type="person" ref="pmb11740">Hugo</rs> heranzuziehen.</hi> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <rs type="work" ref="pmb31013">Kokoro</rs> gelesen, dann <rs type="person" ref="pmb2495">Homer</rs>.</p> 
-            <p>άλλ’ τοι μέν ταΰτα θεών έν γούνασιν κεΐται</p> 
-            <p>(Die Preisrichter hatten sitzend die Preise auf ihren Knieen liegen)</p> 
-            <p>οἷα φίλοι ξεΐνοι ξείνοισιν διδοΰσιν.</p> 
-            <p>–<pb/> 
-            </p> 
-            <p>In einem Briefe (den heute die »<rs type="org" ref="pmb29209">Zeit</rs>«, Nr 431, mitteilt) an seinen Studienfreund <rs type="person" ref="pmb28091">Samuel Engländer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough">mittheilt</del>, schreibt <rs type="person" ref="pmb19980">Kürnberger</rs>: »Es liegt in der bloßen Form der Alten eine wunderbare, fast magnetische Beruhigung.« Dies habe ich eben gestern und heut am ersten Gesang der <rs type="work" ref="pmb31011">Odyssee</rs> unendlich empfunden. Der sanfte Fall der Verse allein hat eine fast körperlich woltuende stille Macht. Am meisten rühren mich die Stelle, wo <rs type="work" subtype="implied" ref="pmb31011">Odysseus</rs> sich wünscht, »auch nur den aufsteigenden Rauch seiner Heimat zu sehen« 59, dann die höfische Liebenswürdigkeit, der Anstand <rs type="work" subtype="implied" ref="pmb31011">Telemachs</rs> gegen den Fremden (Athena), von 124 ab, das wunderbare Bild, wie der Sänger <rs type="work" subtype="implied" ref="pmb31011">Phemios</rs> singt, die Freier schweigend lauschen und nun oben <rs type="work" subtype="implied" ref="pmb31011">Penelope</rs> es hört, mit zwei Mägden herabkommt, die Wangen mit dem Schleier verhüllend, und weinend bittet, er möchte doch was anderes singen als dies traurige Lied von <rs type="place" ref="pmb222">Troia</rs>, das sie zu sehr betrübe; ferner wie lieb <rs type="work" subtype="implied" ref="pmb31011">Telemach</rs> 
-               <pb/> 
-               <space unit="chars" quantity="1"/>sich nun gleich als der Herr fühlt; endlich das reizende Schlafengehen mit der Alten, die einst <rs type="work" subtype="implied" ref="pmb31011">Laertes</rs> gekauft, und sehr gern gehabt, aber nicht berührt, χόλον δ’ άλέεινε γιτναικός.</p> 
-            <p>Und auf das Ganze paßt so wunderbar <rs type="person" ref="pmb12358">Nietzsches</rs>: das Gute ist leicht, alles Göttliche läuft auf zarten Füßen.</p> 
-            <p>–</p> 
-            <p>Schüler <rs type="person" ref="pmb20315">Leonardos</rs>: <rs type="person" ref="pmb28092">Marco d’Oggionno</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb3439">Boltraffio</rs>, s. <rs type="work" ref="pmb31015"> 
-                  <rs type="person" ref="pmb3436">Rosenberg</rs> 
-               </rs> 111.<lb/> 
-               <rs type="person" ref="pmb28097">Andrea Salai, Salaino</rs> (<rs type="work" ref="pmb31015"> 
-                  <rs type="person" ref="pmb3436">Rosenberg</rs> 
-               </rs> S. 72), ebda <rs type="person" ref="pmb28100">Francesco Melzi</rs> 
-            </p> 
-            <p>Warum kommt bei <rs type="work" ref="pmb31009">Mereschkowski</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb13707">Bandello</rs> nicht vor, »der <rs type="person" ref="pmb20315">Leonardo</rs> oft besucht und beobachtet hat, wenn er an dem <rs type="work" ref="pmb32228">Abendmahle</rs>« (<rs type="work" ref="pmb31015"> 
-                  <rs type="person" ref="pmb3436">Rosenberg</rs> 
-               </rs> S. 64) Die Novellenwelt fehlt überhaupt. Ebenso nichts über <rs type="person" ref="pmb3326">Dante</rs>, den <rs type="person" ref="pmb20315">Leonardo</rs> genau kannte. Flüchtig S. 148. Warum spricht er gar nicht von der sagenhaften Akademie des <rs type="person" ref="pmb28104">Ludovico</rs>? (<rs type="work" ref="pmb31015"> 
-                  <rs type="person" ref="pmb3436">Rosenberg</rs> 
-               </rs> 87)<pb/> 
-            </p> 
-            <p> 
-               <anchor type="textConst" xml:id="TD421-1"> 
-                  <rs type="person" ref="pmb20315">Leonardo</rs>: Maler, Bildhauer, <add place="above">Baumeister, </add>Geometer, <add place="above">Mechaniker, </add>Ingenieur, <add place="above">Maschinist, </add>Artillerist, <add place="above">Optiker, Botaniker, Harfenist </add>Flugtechniker, Musiker, Dichter, <add place="above">Stilist </add>Anatom <add place="above">u. Philosoph</add>. Dazu ein Athlet, als Schütze, Reiter <add place="above">Fechter </add>u. Schwimmer <add place="above"> 
-                     <hi rend="underline" n="1">Causeur</hi> 
-                  </add> berühmt – was nicht? ein liebenswürdiger Mensch von hoher Anmut; der Wissenschaft, der Kunst und dem Leben selbst gleich verbunden. </anchor> 
-            </p> 
-            <p> 
-               <anchor type="textConst" xml:id="TD421-2"> 
-                  <rs type="person" ref="pmb11036">Burckhard</rs>: »Die ungeheuren Umrisse von <rs type="person" ref="pmb20315">Leonardos</rs> Wesen wird man ewig nur von Ferne ahnen können.«</anchor> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <anchor type="textConst" xml:id="TD421-3"> 
-                  <del rend="strikethrough">Morgen: <hi rend="underline" n="1">hauptsächlich <rs type="work" ref="pmb31009">Mereschkowski</rs> noch einmal lesen.</hi> 
-                  </del> 
-               </anchor> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3368">Olbrich</rs> telegrafieren.</p> 
-            <p>–</p> 
-            <p> 
-               <rs type="work" subtype="implied" ref="pmb31017">»frammenti« XXXII</rs> (elegante parlatore) </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041421.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041420.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041422.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 3. 1. 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="421"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89BE-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1764 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">250–251</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151222">angelegt</change>
+         <change who="KI MAM" when="20160201">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19030103" n="01">3/1</date> Leichter Regen. Nebel. Warm.</p>
+            <p>In die Stadt. Redaction. <rs type="person" ref="pmb11036">Burckhard</rs>. <rs type="person" ref="pmb2121">Schnitzler.</rs>
+            </p>
+            <p>Im Herumfahren denke ich an ein Buch</p>
+            <p>
+               <rs type="person" ref="pmb2495">Homer</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb20315">Leonardo</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2412">Shakespeare</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11461">Goethe</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2404">Hebbel</rs>
+            </p>
+            <p>das nichts als ganz kurz mein Grundverhältnis zu diesen anzugeben hätte.</p>
+            <p>Die Schneerose im Studiolo aufgeblüht; im Speiszimmer sind gar vier Knospen schon offen.</p>
+            <p>Von <rs type="person" ref="pmb3368">Olbrich</rs> kommt aus <rs type="place" ref="pmb869">Moskau</rs> ein reizender Brief: ganz der ewig brausende, schaffende, drängende Feuermensch!</p>
+            <p>
+               <hi rend="underline" n="1">Zum Formalen des <rs type="person" ref="pmb3422">Mereschkowskischen</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb20315">
+                     <rs type="work" ref="pmb31009">Leonardo</rs>
+                  </rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb3430">Walter Pater</rs>, <rs type="person" ref="pmb3432">Fritz Bley</rs> und <rs type="person" ref="pmb11740">Hugo</rs> heranzuziehen.</hi>
+            </p>
+            <p>–</p>
+            <p>
+               <rs type="work" ref="pmb31013">Kokoro</rs> gelesen, dann <rs type="person" ref="pmb2495">Homer</rs>.</p>
+            <p>άλλ’ τοι μέν ταΰτα θεών έν γούνασιν κεΐται</p>
+            <p>(Die Preisrichter hatten sitzend die Preise auf ihren Knieen liegen)</p>
+            <p>οἷα φίλοι ξεΐνοι ξείνοισιν διδοΰσιν.</p>
+            <p>–<pb/>
+            </p>
+            <p>In einem Briefe (den heute die »<rs type="org" ref="pmb29209">Zeit</rs>«, Nr 431, mitteilt) an seinen Studienfreund <rs type="person" ref="pmb28091">Samuel Engländer</rs>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">mittheilt</del>, schreibt <rs type="person" ref="pmb19980">Kürnberger</rs>: »Es liegt in der bloßen Form der Alten eine wunderbare, fast magnetische Beruhigung.« Dies habe ich eben gestern und heut am ersten Gesang der <rs type="work" ref="pmb31011">Odyssee</rs> unendlich empfunden. Der sanfte Fall der Verse allein hat eine fast körperlich woltuende stille Macht. Am meisten rühren mich die Stelle, wo <rs type="work" subtype="implied" ref="pmb31011">Odysseus</rs> sich wünscht, »auch nur den aufsteigenden Rauch seiner Heimat zu sehen« 59, dann die höfische Liebenswürdigkeit, der Anstand <rs type="work" subtype="implied" ref="pmb31011">Telemachs</rs> gegen den Fremden (Athena), von 124 ab, das wunderbare Bild, wie der Sänger <rs type="work" subtype="implied" ref="pmb31011">Phemios</rs> singt, die Freier schweigend lauschen und nun oben <rs type="work" subtype="implied" ref="pmb31011">Penelope</rs> es hört, mit zwei Mägden herabkommt, die Wangen mit dem Schleier verhüllend, und weinend bittet, er möchte doch was anderes singen als dies traurige Lied von <rs type="place" ref="pmb49084">Troia</rs>, das sie zu sehr betrübe; ferner wie lieb <rs type="work" subtype="implied" ref="pmb31011">Telemach</rs>
+               <pb/>
+               <space unit="chars" quantity="1"/>sich nun gleich als der Herr fühlt; endlich das reizende Schlafengehen mit der Alten, die einst <rs type="work" subtype="implied" ref="pmb31011">Laertes</rs> gekauft, und sehr gern gehabt, aber nicht berührt, χόλον δ’ άλέεινε γιτναικός.</p>
+            <p>Und auf das Ganze paßt so wunderbar <rs type="person" ref="pmb12358">Nietzsches</rs>: das Gute ist leicht, alles Göttliche läuft auf zarten Füßen.</p>
+            <p>–</p>
+            <p>Schüler <rs type="person" ref="pmb20315">Leonardos</rs>: <rs type="person" ref="pmb28092">Marco d’Oggionno</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb3439">Boltraffio</rs>, s. <rs type="work" ref="pmb31015">
+                  <rs type="person" ref="pmb3436">Rosenberg</rs>
+               </rs> 111.<lb/>
+               <rs type="person" ref="pmb28097">Andrea Salai, Salaino</rs> (<rs type="work" ref="pmb31015">
+                  <rs type="person" ref="pmb3436">Rosenberg</rs>
+               </rs> S. 72), ebda <rs type="person" ref="pmb28100">Francesco Melzi</rs>
+            </p>
+            <p>Warum kommt bei <rs type="work" ref="pmb31009">Mereschkowski</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb13707">Bandello</rs> nicht vor, »der <rs type="person" ref="pmb20315">Leonardo</rs> oft besucht und beobachtet hat, wenn er an dem <rs type="work" ref="pmb32228">Abendmahle</rs>« (<rs type="work" ref="pmb31015">
+                  <rs type="person" ref="pmb3436">Rosenberg</rs>
+               </rs> S. 64) Die Novellenwelt fehlt überhaupt. Ebenso nichts über <rs type="person" ref="pmb3326">Dante</rs>, den <rs type="person" ref="pmb20315">Leonardo</rs> genau kannte. Flüchtig S. 148. Warum spricht er gar nicht von der sagenhaften Akademie des <rs type="person" ref="pmb28104">Ludovico</rs>? (<rs type="work" ref="pmb31015">
+                  <rs type="person" ref="pmb3436">Rosenberg</rs>
+               </rs> 87)<pb/>
+            </p>
+            <p>
+               <anchor type="textConst" xml:id="TD421-1">
+                  <rs type="person" ref="pmb20315">Leonardo</rs>: Maler, Bildhauer, <add place="above">Baumeister, </add>Geometer, <add place="above">Mechaniker, </add>Ingenieur, <add place="above">Maschinist, </add>Artillerist, <add place="above">Optiker, Botaniker, Harfenist </add>Flugtechniker, Musiker, Dichter, <add place="above">Stilist </add>Anatom <add place="above">u. Philosoph</add>. Dazu ein Athlet, als Schütze, Reiter <add place="above">Fechter </add>u. Schwimmer <add place="above">
+                     <hi rend="underline" n="1">Causeur</hi>
+                  </add> berühmt – was nicht? ein liebenswürdiger Mensch von hoher Anmut; der Wissenschaft, der Kunst und dem Leben selbst gleich verbunden. </anchor>
+            </p>
+            <p>
+               <anchor type="textConst" xml:id="TD421-2">
+                  <rs type="person" ref="pmb11036">Burckhard</rs>: »Die ungeheuren Umrisse von <rs type="person" ref="pmb20315">Leonardos</rs> Wesen wird man ewig nur von Ferne ahnen können.«</anchor>
+            </p>
+            <p>–</p>
+            <p>
+               <anchor type="textConst" xml:id="TD421-3">
+                  <del rend="strikethrough">Morgen: <hi rend="underline" n="1">hauptsächlich <rs type="work" ref="pmb31009">Mereschkowski</rs> noch einmal lesen.</hi>
+                  </del>
+               </anchor>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3368">Olbrich</rs> telegrafieren.</p>
+            <p>–</p>
+            <p>
+               <rs type="work" subtype="implied" ref="pmb31017">»frammenti« XXXII</rs> (elegante parlatore) </p>
+         </div>
+      </body>
+   </text>
 </TEI>

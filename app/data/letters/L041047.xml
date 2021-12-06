@@ -1,183 +1,180 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041047.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041046.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041048.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 3. 1. 1902</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="047"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85A0-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19020103" n="01">3. 1. 1902</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23348 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 2 Bl., 7 S., Bleistift</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19020103">3. 1. 1902</date> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">73–74</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-         <change who="KI MAM" when="20170508">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="HS_AM23348Ba_1"/> 
-      <graphic url="HS_AM23348Ba_1_R"/> 
-      <graphic url="HS_AM23348Ba_2"/> 
-      <graphic url="HS_AM23348Ba_2_R"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>3. 1. 902</date> 
-                  <lb/> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement> 
-                        <hi rend="latintype">Berlin</hi> 
-                     </settlement> 
-                  </rs> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>lieber Hermann, </salute>ich habe <rs type="person" ref="pmb10986">Brahm</rs> gesprochen, er äußerte sich anerkennend über den <rs type="work" ref="pmb29881">Krampus</rs>, findet nur, dass gerade das <rs type="place" ref="pmb3">Deutsche Theater</rs> nicht der rechte Boden für das Stück sei. Ich glaube also nicht, dass er zu der Aufführg nach <rs type="place" ref="pmb506"> 
-                  <settlement>Hamburg</settlement> 
-               </rs> fahren wird, hielte es aber doch für ganz gut, wenn du ihn unverbindlich mit ein paar<pb/> Worten dazu einladen möchtest. Gegen deine Bemerkung über den literar. Stempel, den doch erst das <rs type="place" ref="pmb3">Deutsche Theater</rs> verleihe (die ihm mitzutheilen ich mich wohl für befugt halten durfte?) schien er nicht unempfindlich zu sein, und ich zweifle nicht daran, dass er deine nächsten Stücke ohne vorgefasste Meinung lesen wird. Ich bin übrigens mor<pb/>gen Nachmittag bei ihm und habe sicher Gelegenheit, nochmals in deinem Sinne zu reden. Er gehört doch, bei allen Begrenztheiten und Eigensinnigkeiten zu den weitaus verständigsten Theatermenschen <add place="above">(vielleicht auch Menschen schlichtweg –)</add>, die es gibt, und ist derjenige, mit dem man am gradlinigsten und verläßlichsten verkehren kann. Man darf von ihm sagen, dass<pb/> er nie lügt. Du solltest dich einmal persönlich mit ihm aussprechen. Wenn er nicht nach <rs type="place" ref="pmb506"> 
-                  <settlement>Hamburg</settlement> 
-               </rs> kommt, vielleicht besuchst du ihn auf der Hin- oder Rückfahrt? – </p> 
-            <p> 
-               <anchor type="commentary" xml:id="KL047-4">Dieser Tage</anchor> sprach ich <hi rend="latintype"> 
-                  <rs type="person" ref="pmb11581">Harden</rs> 
-               </hi> 
-               <damage agent="hole"> 
-                  <supplied>,</supplied> 
-               </damage> der jetzt sehr gegen den kleinen <rs type="person" ref="pmb11988">Kraus</rs> eingenommen ist und findet, dass ein <rs type="org" subtype="implied" ref="pmb29308">solches Blatt</rs> in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> sich nicht halten könnte.<pb/> Anläßlich der <anchor type="commentary" xml:id="KL047-2"> 
-                  <rs type="work" subtype="implied" ref="pmb29969">Krausischen Kritik</rs> über die <hi rend="latintype"> 
-                     <rs type="work" ref="pmb29967">veine</rs> 
-                  </hi> 
-               </anchor>, in der <rs type="person" ref="pmb11988">Kr.</rs> von einer angeblich extra von dir <add place="inline">(?)</add> gegen ihn hineingedichteten Stelle erzählte, hat er ihm (<hi rend="latintype"> 
-                  <rs type="person" ref="pmb11581">Harden</rs> 
-               </hi> dem <rs type="person" ref="pmb11988">Kraus</rs>) eine Karte geschrieben, er müsse gelegentlich diesen Irrthum richtigstellen, da die betreffende Stelle sich <anchor type="commentary" xml:id="KL047-3">im Original</anchor> fände; – <rs type="person" ref="pmb11988">Kraus</rs> soll es auch zugesagt <del rend="erased"> 
-                  <unclear>haben</unclear>, aber</del> bisher nicht<pb/> gethan haben. – </p> 
-            <p>Heute war Generalprobe der <rs type="work" ref="pmb29863">Lebendigen Stunden</rs>. Sie fiel günstig – für abergläubisch<damage agent="hole"> 
-                  <supplied>e</supplied> 
-               </damage> Gemüther zu günstig <subst> 
-                  <del rend="overwritten"> 
-                     <unclear>ohne</unclear> 
-                  </del> 
-                  <add place="inline">aus</add> 
-               </subst>. –</p> 
-            <p>Ganz entzückt bin ich von <rs type="person" ref="pmb10844"> 
-                  <hi rend="latintype">Bassermann</hi> 
-               </rs>. <anchor type="commentary" xml:id="KL047-1">Neulich sah ich ihn als <hi rend="latintype"> 
-                     <rs type="work" subtype="implied" ref="pmb29971">H<add place="inline">j</add>a<subst> 
-                           <del rend="overwritten"> 
-                              <unclear>jm</unclear> 
-                           </del> 
-                           <add place="inline">lm</add> 
-                        </subst>ar</rs> 
-                  </hi>, <rs type="person" ref="pmb2193"> 
-                     <hi rend="latintype">Sauer</hi> 
-                  </rs> als <rs type="work" subtype="implied" ref="pmb29971"> 
-                     <hi rend="latintype">Gregers Werle</hi> 
-                  </rs> 
-               </anchor>; ich habe selten so starke schauspielerische Eindrücke erlebt. Die <rs type="person" ref="pmb12977">Triesch</rs> 
-               <pb/> kann überraschend viel.–</p> 
-            <p>– Ich seh dich hoffentlich bald wieder. Herzlichen Gruss. Dein </p> 
-            <closer> 
-               <signed>Arth Sch</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041047.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041046.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041048.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 3. 1. 1902</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="047"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85A0-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19020103" n="01">3. 1. 1902</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23348 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 2 Bl., 7 S., Bleistift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19020103">3. 1. 1902</date>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">73–74</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM23348Ba_1"/>
+      <graphic url="HS_AM23348Ba_1_R"/>
+      <graphic url="HS_AM23348Ba_2"/>
+      <graphic url="HS_AM23348Ba_2_R"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>3. 1. 902</date>
+                  <lb/>
+                  <rs type="place" ref="pmb168">Berlin</rs>
+               </dateline>
+            </opener>
+            <p>
+               <salute>lieber Hermann, </salute>ich habe <rs type="person" ref="pmb10986">Brahm</rs> gesprochen, er äußerte sich anerkennend über den <rs type="work" ref="pmb29881">Krampus</rs>, findet nur, dass gerade das <rs type="place" ref="pmb3">Deutsche Theater</rs> nicht der rechte Boden für das Stück sei. Ich glaube also nicht, dass er zu der Aufführg nach <rs type="place" ref="pmb506">Hamburg</rs> fahren wird, hielte es aber doch für ganz gut, wenn du ihn unverbindlich mit ein paar<pb/> Worten dazu einladen möchtest. Gegen deine Bemerkung über den literar. Stempel, den doch erst das <rs type="place" ref="pmb3">Deutsche Theater</rs> verleihe (die ihm mitzutheilen ich mich wohl für befugt halten durfte?) schien er nicht unempfindlich zu sein, und ich zweifle nicht daran, dass er deine nächsten Stücke ohne vorgefasste Meinung lesen wird. Ich bin übrigens mor<pb/>gen Nachmittag bei ihm und habe sicher Gelegenheit, nochmals in deinem Sinne zu reden. Er gehört doch, bei allen Begrenztheiten und Eigensinnigkeiten zu den weitaus verständigsten Theatermenschen <add place="above">(vielleicht auch Menschen schlichtweg –)</add>, die es gibt, und ist derjenige, mit dem man am gradlinigsten und verläßlichsten verkehren kann. Man darf von ihm sagen, dass<pb/> er nie lügt. Du solltest dich einmal persönlich mit ihm aussprechen. Wenn er nicht nach <rs type="place" ref="pmb506">Hamburg</rs> kommt, vielleicht besuchst du ihn auf der Hin- oder Rückfahrt? – </p>
+            <p>
+               <anchor type="commentary" xml:id="KL047-4">Dieser Tage</anchor> sprach ich <hi rend="latintype">
+                  <rs type="person" ref="pmb11581">Harden</rs>
+               </hi>
+               <damage agent="hole">
+                  <supplied>,</supplied>
+               </damage> der jetzt sehr gegen den kleinen <rs type="person" ref="pmb11988">Kraus</rs> eingenommen ist und findet, dass ein <rs type="org" subtype="implied" ref="pmb29308">solches Blatt</rs> in <rs type="place" ref="pmb168">Berlin</rs> sich nicht halten könnte.<pb/> Anläßlich der <anchor type="commentary" xml:id="KL047-2">
+                  <rs type="work" subtype="implied" ref="pmb29969">Krausischen Kritik</rs> über die <hi rend="latintype">
+                     <rs type="work" ref="pmb29967">veine</rs>
+                  </hi>
+               </anchor>, in der <rs type="person" ref="pmb11988">Kr.</rs> von einer angeblich extra von dir <add place="inline">(?)</add> gegen ihn hineingedichteten Stelle erzählte, hat er ihm (<hi rend="latintype">
+                  <rs type="person" ref="pmb11581">Harden</rs>
+               </hi> dem <rs type="person" ref="pmb11988">Kraus</rs>) eine Karte geschrieben, er müsse gelegentlich diesen Irrthum richtigstellen, da die betreffende Stelle sich <anchor type="commentary" xml:id="KL047-3">im Original</anchor> fände; – <rs type="person" ref="pmb11988">Kraus</rs> soll es auch zugesagt <del rend="erased">
+                  <unclear>haben</unclear>, aber</del> bisher nicht<pb/> gethan haben. – </p>
+            <p>Heute war Generalprobe der <rs type="work" ref="pmb29863">Lebendigen Stunden</rs>. Sie fiel günstig – für abergläubisch<damage agent="hole">
+                  <supplied>e</supplied>
+               </damage> Gemüther zu günstig <subst>
+                  <del rend="overwritten">
+                     <unclear>ohne</unclear>
+                  </del>
+                  <add place="inline">aus</add>
+               </subst>. –</p>
+            <p>Ganz entzückt bin ich von <rs type="person" ref="pmb10844">
+                  <hi rend="latintype">Bassermann</hi>
+               </rs>. <anchor type="commentary" xml:id="KL047-1">Neulich sah ich ihn als <hi rend="latintype">
+                     <rs type="work" subtype="implied" ref="pmb29971">H<add place="inline">j</add>a<subst>
+                           <del rend="overwritten">
+                              <unclear>jm</unclear>
+                           </del>
+                           <add place="inline">lm</add>
+                        </subst>ar</rs>
+                  </hi>, <rs type="person" ref="pmb2193">
+                     <hi rend="latintype">Sauer</hi>
+                  </rs> als <rs type="work" subtype="implied" ref="pmb29971">
+                     <hi rend="latintype">Gregers Werle</hi>
+                  </rs>
+               </anchor>; ich habe selten so starke schauspielerische Eindrücke erlebt. Die <rs type="person" ref="pmb12977">Triesch</rs>
+               <pb/> kann überraschend viel.–</p>
+            <p>– Ich seh dich hoffentlich bald wieder. Herzlichen Gruss. Dein </p>
+            <closer>
+               <signed>Arth Sch</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,125 +1,128 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041356.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041355.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041357.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Alois Bahr, 1. 12. 1896</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="356"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D5-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2132">Bahr, Alois</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">[Salzburg]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18961201" n="01">1. 12. 1896</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 50942 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold"> 
-                              <placeName ref="pmb50">Wien</placeName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placeName ref="pmb296">IX/3, Günthergasse 1</placeName>.«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Briefwechsel mit seinem Vater</title> 
-                     <editor>Ausgewählt von Adalbert Schmidt. Mit einem Nachwort und Register</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>H. Bauer</publisher> 
-                        <date when="1971">1971</date> 
-                     </imprint> 
-                     <biblScope unit="pp">399</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>1. December 1896</date> 
-               </dateline> 
-               <salute rend="center">Lieber Vater!</salute> 
-            </opener> 
-            <p>Nun ist der Winter mit Macht eingebrochen und es scheint, daß wir es heuer kalt kriegen soll. Das Bild von meiner Wohnung aus, wenn ich so in den weiten Park mit Schnee und auf die grauen Statue schaue, ist herrlich. Und ich denke dabei oft an Dich, Jugenderinnerungen an <rs type="place" ref="pmb30"> 
-                  <settlement>Salzburg</settlement> 
-               </rs> hegend, wo man ja im Winter, wies schneit, wenn<pb/> man auf der Brücke steht, einen so reichen, netten Blick auf den weißen <geogName type="mountain" instant="false">Untersberg</geogName> hat. Da denke ich mir Dich behaglich wandelnd, aller Sorgen frei, ganz dem Genuß schöner Tage hingegeben und freue mich mit Dir, wie schön das sein muß. Ich wünsche Dir nur, die Nachwehen Deiner Krankheit mögen bald vergehen und so möge sich zu dem inneren Behagen auch bald die äu<pb/>ßere Gesundheit gesellen.</p> 
-            <p>Ich lebe so in meiner stillen Arbeit fort. Gäste haben wir oft: <rs type="person" ref="pmb11036">Burckhard</rs>, die <rs type="person" ref="pmb12618">Sandrock</rs>, <rs type="person" ref="pmb11441">Girardi</rs> mit der <rs type="person" ref="pmb22098">Odilon</rs>, <rs type="person" ref="pmb10883">Baron Berger</rs>, Bildhauer <rs type="person" ref="pmb2391">Weyr</rs>, Baurath <rs type="person" ref="pmb2394">Roth</rs>, <rs type="person" ref="pmb2150">Julius Bauer</rs>, <rs type="person" ref="pmb2121">Schnitzler</rs>, den <rs type="person" ref="pmb12576">Albert Rothschild</rs>, den dicken Baron <rs type="person" ref="pmb2397">Springer</rs> u. was so an Berühmtheiten gerade durch <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> durchkommt: <rs type="person" ref="pmb12899">Sudermann</rs>, <rs type="person" ref="pmb11565">Max Halbe</rs>, <rs type="person" ref="pmb13169">Wolzogen</rs>. Ausgehen thu ich selber fast<pb/> nie. Wer mich gern hat, ist mir willkommen; aber er darf nicht verlangen, daß ich zu ihm gehe.</p> 
-            <p>So habe ich mir ein Leben von frohen Festen nach sauren Wochen eingerichtet, das ich mir kaum mehr anders zu wünschen wüßte; nur einen ganz kleinen Haupttreffer möcht ich noch machen.</p> 
-            <closer>Herzlichst<lb/>Dein treuer<lb/> 
-               <signed>H</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041356.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041355.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041357.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Alois Bahr, 1. 12. 1896</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="356"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D5-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2132">Bahr, Alois</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">[Salzburg]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18961201" n="01">1. 12. 1896</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 50942 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: »›<orgName ref="pmb29209">Die Zeit</orgName>‹ / Wiener Wochenschrift. / <hi rend="bold">Herausgeber:</hi> / Professor Dr. <persName ref="pmb12790">I. Singer</persName>, / Hermann Bahr, Dr. <persName ref="pmb11867">Heinrich Kanner</persName>. / – / Telephon Nr. 6415. / <hi rend="bold">
+                              <placName ref="pmb50">Wien</placName>,</hi> den ............... 189<space unit="chars" quantity="2"/>/ <placName ref="pmb296">IX/3, Günthergasse 1</placName>.«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Briefwechsel mit seinem Vater</title>
+                     <editor>Ausgewählt von Adalbert Schmidt. Mit einem Nachwort und Register</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>H. Bauer</publisher>
+                        <date when="1971">1971</date>
+                     </imprint>
+                     <biblScope unit="pp">399</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>1. December 1896</date>
+               </dateline>
+               <salute rend="center">Lieber Vater!</salute>
+            </opener>
+            <p>Nun ist der Winter mit Macht eingebrochen und es scheint, daß wir es heuer kalt kriegen soll. Das Bild von meiner Wohnung aus, wenn ich so in den weiten Park mit Schnee und auf die grauen Statue schaue, ist herrlich. Und ich denke dabei oft an Dich, Jugenderinnerungen an <rs type="place" ref="pmb30">Salzburg</rs> hegend, wo man ja im Winter, wies schneit, wenn<pb/> man auf der Brücke steht, einen so reichen, netten Blick auf den weißen <geogName type="mountain" instant="false">Untersberg</geogName> hat. Da denke ich mir Dich behaglich wandelnd, aller Sorgen frei, ganz dem Genuß schöner Tage hingegeben und freue mich mit Dir, wie schön das sein muß. Ich wünsche Dir nur, die Nachwehen Deiner Krankheit mögen bald vergehen und so möge sich zu dem inneren Behagen auch bald die äu<pb/>ßere Gesundheit gesellen.</p>
+            <p>Ich lebe so in meiner stillen Arbeit fort. Gäste haben wir oft: <rs type="person" ref="pmb11036">Burckhard</rs>, die <rs type="person" ref="pmb12618">Sandrock</rs>, <rs type="person" ref="pmb11441">Girardi</rs> mit der <rs type="person" ref="pmb22098">Odilon</rs>, <rs type="person" ref="pmb10883">Baron Berger</rs>, Bildhauer <rs type="person" ref="pmb2391">Weyr</rs>, Baurath <rs type="person" ref="pmb2394">Roth</rs>, <rs type="person" ref="pmb2150">Julius Bauer</rs>, <rs type="person" ref="pmb2121">Schnitzler</rs>, den <rs type="person" ref="pmb12576">Albert Rothschild</rs>, den dicken Baron <rs type="person" ref="pmb2397">Springer</rs> u. was so an Berühmtheiten gerade durch <rs type="place" ref="pmb50">Wien</rs> durchkommt: <rs type="person" ref="pmb12899">Sudermann</rs>, <rs type="person" ref="pmb11565">Max Halbe</rs>, <rs type="person" ref="pmb13169">Wolzogen</rs>. Ausgehen thu ich selber fast<pb/> nie. Wer mich gern hat, ist mir willkommen; aber er darf nicht verlangen, daß ich zu ihm gehe.</p>
+            <p>So habe ich mir ein Leben von frohen Festen nach sauren Wochen eingerichtet, das ich mir kaum mehr anders zu wünschen wüßte; nur einen ganz kleinen Haupttreffer möcht ich noch machen.</p>
+            <closer>Herzlichst<lb/>Dein treuer<lb/>
+               <signed>H</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

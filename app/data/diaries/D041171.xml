@@ -1,84 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041171.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041170.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041172.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 21. 5. 1897</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="171" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88DD-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18970521" n="1">21/5</date> Nm. mit <rs type="person" ref="pmb11485">Paul</rs> und <rs type="person" ref="pmb2914">Bie</rs> bei <rs type="person" ref="pmb14861">Carabin</rs> im Atelier. (<rs type="person" ref="pmb2914">Bie’s</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" subtype="implied" ref="pmb27855">Frau</rs> pflegt die Augenentzd. <rs type="person" ref="pmb12441">Poppenbergs</rs>), dann ich zu <rs type="person" ref="pmb27373">Wyzewa</rs> (gegen <rs type="person" ref="pmb10992">Brandes</rs> und <rs type="person" ref="pmb10815">Bahr</rs>; <rs type="person" ref="pmb2404">Hebbel</rs> eben entdeckt). Mit <rs type="person" ref="pmb2378">Mz.</rs> und <rs type="person" ref="pmb11485">Paul</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb921"> 
-                  <settlement>Poissy</settlement> 
-               </rs>; Café <anchor type="commentary" xml:id="KD171-1"> 
-                  <rs type="place" subtype="implied" ref="pmb123">Vilaine</rs> 
-               </anchor>; an der <geogName type="river" instant="false">Seine</geogName>; einsam dunkel; am Fluss genachtm. Anfangs lustig, dann traurig. Alle Nervositäten auf einmal, Ohrenklingen, Augenschmerzen, Kitzeln Haut, unbeschr. Unbehagen. Z. H. mit <rs type="person" ref="pmb2378">Mz.</rs> Gespräch übern Sommer, Schwierigkeiten; tiefe Verstimmung.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041171.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041170.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041172.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 21. 5. 1897</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="171" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88DD-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18970521" n="1">21/5</date> Nm. mit <rs type="person" ref="pmb11485">Paul</rs> und <rs type="person" ref="pmb2914">Bie</rs> bei <rs type="person" ref="pmb14861">Carabin</rs> im Atelier. (<rs type="person" ref="pmb2914">Bie’s</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" subtype="implied" ref="pmb27855">Frau</rs> pflegt die Augenentzd. <rs type="person" ref="pmb12441">Poppenbergs</rs>), dann ich zu <rs type="person" ref="pmb27373">Wyzewa</rs> (gegen <rs type="person" ref="pmb10992">Brandes</rs> und <rs type="person" ref="pmb10815">Bahr</rs>; <rs type="person" ref="pmb2404">Hebbel</rs> eben entdeckt). Mit <rs type="person" ref="pmb2378">Mz.</rs> und <rs type="person" ref="pmb11485">Paul</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb921">Poissy</rs>; Café <anchor type="commentary" xml:id="KD171-1">
+                  <rs type="place" subtype="implied" ref="pmb123">Vilaine</rs>
+               </anchor>; an der <geogName type="river" instant="false">Seine</geogName>; einsam dunkel; am Fluss genachtm. Anfangs lustig, dann traurig. Alle Nervositäten auf einmal, Ohrenklingen, Augenschmerzen, Kitzeln Haut, unbeschr. Unbehagen. Z. H. mit <rs type="person" ref="pmb2378">Mz.</rs> Gespräch übern Sommer, Schwierigkeiten; tiefe Verstimmung.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,113 +1,116 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041594.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041593.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041595.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Eduard Pötzl an Hermann Bahr, 30. 3. 1903</title> 
-            <author ref="pmb12460">Pötzl, Eduard</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="594"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87C3-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb12460">Pötzl, Eduard</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19030330" n="1">30. 3. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 22035 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Brief, 1 Bl., 1 S. mit hs. Unterschrift, gedruckter Kopf: »<quote> 
-                              <orgName ref="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placeName ref="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placeName> / Telegramm-Adresse: / Tagblatt, <placeName ref="pmb683">Wien, Steyrerhof</placeName>. / Telephon: 384 u. 357 für <placeName ref="pmb50"> 
-                                 <settlement>Wien</settlement> 
-                              </placeName>. / Interurbaner Verkehr: 12036.</quote>« Statt der Ziffer »<quote>1</quote>« wurde »<quote>i</quote>« gesetzt, in der Wiedergabe behoben.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160531">Angelegt</change> 
-         <change who="KI MAM" when="20160607">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, am <date>30. März 1903</date>.</dateline> 
-               <salute rend="center">Lieber Kollege!</salute> 
-            </opener> 
-            <p>Ich fürchte, dass es überhaupt nicht angeht, über <rs type="person" ref="pmb2121">Schnitzler</rs>’s »<rs type="work" ref="pmb29855">Reigen</rs>« ein Feuilleton in unserem <rs type="org" subtype="implied" ref="pmb29414">Blatte</rs> zu schreiben. Ich kenne das Werk, es ist sehr unterhaltend, aber nur für – Herren. Ich glaube, dass man es uns sehr übelnehmen würde, wenn wir über dieses Buch ein, wie ich bei Ihren Beziehungen zu <rs type="person" ref="pmb2121">Schnitzler</rs> nicht zweifeln kann, anpreisendes Feuilleton brächten. Wir werden uns daher begnügen müssen, sein Erscheinen auf dem Büchermarkt zu <anchor type="commentary" xml:id="KL594-1">notifizieren</anchor> und im übrigen es der guten Fama zu überlassen, dass das Buch Verbreitung finde.</p> 
-            <p>Dass Ihr Herz sich wieder unangenehm geregt hat, erachte ich als eine gerechte Strafe für Ihre <anchor type="commentary" xml:id="KL594-2"> 
-                  <rs type="person" ref="pmb3467">Duncan</rs>-Begeisterung</anchor>. Mit dem Verschwinden der <rs type="person" ref="pmb3467">Duncan</rs> aus <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> wird hoffentlich auch Ihr Herz wieder in Ordnung kommen.</p> 
-            <closer>Mit vielen Grüssen<lb/>Ihr freundschaftlich ergebener<lb/> 
-               <signed> 
-                  <handShift/>EPötzl</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041594.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041593.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041595.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Eduard Pötzl an Hermann Bahr, 30. 3. 1903</title>
+            <author ref="pmb12460">Pötzl, Eduard</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="594"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87C3-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12460">Pötzl, Eduard</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19030330" n="1">30. 3. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 22035 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief, 1 Bl., 1 S. mit hs. Unterschrift, gedruckter Kopf: »<quote>
+                              <orgName ref="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placName ref="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placName> / Telegramm-Adresse: / Tagblatt, <placName ref="pmb683">Wien, Steyrerhof</placName>. / Telephon: 384 u. 357 für <placName ref="pmb50">
+                                 <settlement>Wien</settlement>
+                              </placName>. / Interurbaner Verkehr: 12036.</quote>« Statt der Ziffer »<quote>1</quote>« wurde »<quote>i</quote>« gesetzt, in der Wiedergabe behoben.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160531">Angelegt</change>
+         <change who="KI MAM" when="20160607">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, am <date>30. März 1903</date>.</dateline>
+               <salute rend="center">Lieber Kollege!</salute>
+            </opener>
+            <p>Ich fürchte, dass es überhaupt nicht angeht, über <rs type="person" ref="pmb2121">Schnitzler</rs>’s »<rs type="work" ref="pmb29855">Reigen</rs>« ein Feuilleton in unserem <rs type="org" subtype="implied" ref="pmb29414">Blatte</rs> zu schreiben. Ich kenne das Werk, es ist sehr unterhaltend, aber nur für – Herren. Ich glaube, dass man es uns sehr übelnehmen würde, wenn wir über dieses Buch ein, wie ich bei Ihren Beziehungen zu <rs type="person" ref="pmb2121">Schnitzler</rs> nicht zweifeln kann, anpreisendes Feuilleton brächten. Wir werden uns daher begnügen müssen, sein Erscheinen auf dem Büchermarkt zu <anchor type="commentary" xml:id="KL594-1">notifizieren</anchor> und im übrigen es der guten Fama zu überlassen, dass das Buch Verbreitung finde.</p>
+            <p>Dass Ihr Herz sich wieder unangenehm geregt hat, erachte ich als eine gerechte Strafe für Ihre <anchor type="commentary" xml:id="KL594-2">
+                  <rs type="person" ref="pmb3467">Duncan</rs>-Begeisterung</anchor>. Mit dem Verschwinden der <rs type="person" ref="pmb3467">Duncan</rs> aus <rs type="place" ref="pmb50">Wien</rs> wird hoffentlich auch Ihr Herz wieder in Ordnung kommen.</p>
+            <closer>Mit vielen Grüssen<lb/>Ihr freundschaftlich ergebener<lb/>
+               <signed>
+                  <handShift/>EPötzl</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

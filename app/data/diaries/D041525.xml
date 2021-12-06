@@ -1,82 +1,87 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041525.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041524.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041526.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 5. 6. 1905</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="525" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A1D-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19050605" n="1">5/6</date> Vm. mit <rs type="person" ref="pmb2173">O.</rs> in der <rs type="place" ref="pmb75 pmb957">Brühl</rs> bei <rs type="person" ref="pmb2315">Liesl</rs>; <rs type="person" ref="pmb12837">Steinrück</rs> war auf einen Tag da.–</p> 
-            <p>Nm. <rs type="person" ref="pmb13055">Wassermann</rs> da; über <rs type="work" ref="pmb30233">Charolais</rs> und <rs type="person" ref="pmb12170">H. Mann</rs>. <rs type="person" ref="pmb13055">W.</rs> sehr übelwollend.–</p> 
-            <p>Abds. bei <rs type="work" ref="pmb29901">Sanna</rs> (<rs type="person" ref="pmb12504">Reinhardt</rs>-Gastspiel); glänzende Aufführung. Die <rs type="person" ref="pmb11791">Höflich</rs> erster Rang.– Kam ins <anchor type="commentary" xml:id="KD525-1">Schwanken wegen meiner <rs type="work" subtype="implied" ref="pmb29903 pmb29905">Stücke</rs> 
-               </anchor>, weiss nicht, wie ich sie auf <rs type="person" ref="pmb10986">Brahm</rs> und <rs type="person" ref="pmb12504">Reinh.</rs> vertheilen soll. (<rs type="person" ref="pmb2299">Sorma</rs>, <rs type="person" ref="pmb11791">Höflich</rs> –)</p> 
-            <p>– Genachtm. bei »<rs type="place" ref="pmb460">Seidl</rs>« mit <rs type="person" ref="pmb12968">Trebitsch</rs>.– Er erzählte allerlei halbwahres aus <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> und viel erlognes über sich.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041525.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041524.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041526.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 5. 6. 1905</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="525" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A1D-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19050605" n="1">5/6</date> Vm. mit <rs type="person" ref="pmb2173">O.</rs> in der <rs type="place" ref="pmb75 pmb957">Brühl</rs> bei <rs type="person" ref="pmb2315">Liesl</rs>; <rs type="person" ref="pmb12837">Steinrück</rs> war auf einen Tag da.–</p>
+            <p>Nm. <rs type="person" ref="pmb13055">Wassermann</rs> da; über <rs type="work" ref="pmb30233">Charolais</rs> und <rs type="person" ref="pmb12170">H. Mann</rs>. <rs type="person" ref="pmb13055">W.</rs> sehr übelwollend.–</p>
+            <p>Abds. bei <rs type="work" ref="pmb29901">Sanna</rs> (<rs type="person" ref="pmb12504">Reinhardt</rs>-Gastspiel); glänzende Aufführung. Die <rs type="person" ref="pmb11791">Höflich</rs> erster Rang.– Kam ins <anchor type="commentary" xml:id="KD525-1">Schwanken wegen meiner <rs type="work" subtype="implied" ref="pmb29903 pmb29905">Stücke</rs>
+               </anchor>, weiss nicht, wie ich sie auf <rs type="person" ref="pmb10986">Brahm</rs> und <rs type="person" ref="pmb12504">Reinh.</rs> vertheilen soll. (<rs type="person" ref="pmb2299">Sorma</rs>, <rs type="person" ref="pmb11791">Höflich</rs> –)</p>
+            <p>– Genachtm. bei »<rs type="place" ref="pmb460">Seidl</rs>« mit <rs type="person" ref="pmb12968">Trebitsch</rs>.– Er erzählte allerlei halbwahres aus <rs type="place" ref="pmb182">Paris</rs> und viel erlognes über sich.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

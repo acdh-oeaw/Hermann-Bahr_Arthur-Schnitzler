@@ -1,78 +1,85 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041147.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041146.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041148.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 30. 3. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="147" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C5-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950330" n="1">30/3</date> Im <rs type="place" ref="pmb8">Prater</rs> Vorm. <rs type="person" ref="pmb12618">Dilly</rs>. Freundschaftl. Gespräch. Regen, Wagen. Kuss. Sie war mir gleichgiltig aber nicht unsympathisch. Sie, mit einem großen Blick, hatte das köstliche Wort: – »So muss – der liebe Gott – gewesen sein!« (Offenbar wie er so alt war wie ich.) – Abends im selben <rs type="place" ref="pmb8">Prater</rs> mit <rs type="person" ref="pmb2378">Mz. Rh.</rs>– Ihre Stellung zu Hause. Sie hat absolut nicht das Gefühl ein Unrecht zu begehn.– Mit <rs type="person" ref="pmb11673">Herzl</rs> nach <rs subtype="local" type="work" ref="pmb30439">Brillantenkönigin</rs> im <rs type="place" ref="pmb29">Sacher</rs> soup.– <rs type="person" ref="pmb2801">Alberts</rs> Aufsatz über die <anchor type="commentary" xml:id="KD147-1"> 
-                  <rs type="work" subtype="implied" ref="pmb30441">Jeunes Viennois</rs> 
-               </anchor> in der <rs type="org" ref="pmb29624">Revue des Revues</rs>.– Ueber <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10863">Richard</rs>, mich, <rs type="person" ref="pmb11740">Hugo</rs>, erwähnt <rs type="person" ref="pmb26121">Torresani</rs>, mit wenig Worten <rs type="person" ref="pmb2456">Specht</rs> und <rs type="person" ref="pmb2425">Dörmann</rs>. Gut.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041147.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041146.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041148.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 30. 3. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="147" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C5-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950330" n="1">30/3</date> Im <rs type="place" ref="pmb8">Prater</rs> Vorm. <rs type="person" ref="pmb12618">Dilly</rs>. Freundschaftl. Gespräch. Regen, Wagen. Kuss. Sie war mir gleichgiltig aber nicht unsympathisch. Sie, mit einem großen Blick, hatte das köstliche Wort: – »So muss – der liebe Gott – gewesen sein!« (Offenbar wie er so alt war wie ich.) – Abends im selben <rs type="place" ref="pmb8">Prater</rs> mit <rs type="person" ref="pmb2378">Mz. Rh.</rs>– Ihre Stellung zu Hause. Sie hat absolut nicht das Gefühl ein Unrecht zu begehn.– Mit <rs type="person" ref="pmb11673">Herzl</rs> nach <rs subtype="local" type="work" ref="pmb30439">Brillantenkönigin</rs> im <rs type="place" ref="pmb29">Sacher</rs> soup.– <rs type="person" ref="pmb2801">Alberts</rs> Aufsatz über die <anchor type="commentary" xml:id="KD147-1">
+                  <rs type="work" subtype="implied" ref="pmb30441">Jeunes Viennois</rs>
+               </anchor> in der <rs type="org" ref="pmb29624">Revue des Revues</rs>.– Ueber <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10863">Richard</rs>, mich, <rs type="person" ref="pmb11740">Hugo</rs>, erwähnt <rs type="person" ref="pmb26121">Torresani</rs>, mit wenig Worten <rs type="person" ref="pmb2456">Specht</rs> und <rs type="person" ref="pmb2425">Dörmann</rs>. Gut.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

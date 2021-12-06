@@ -1,123 +1,124 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041683.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041682.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041684.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Reicher an Hermann Bahr, 15. 12. 1891</title> 
-            <author ref="pmb12491">Reicher, Emanuel</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="683"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-881B-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb12491">Reicher, Emanuel</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18911215" n="01">15. 12. 1891</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 22268 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote> 
-                              <orgName ref="pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName ref="pmb168"> 
-                                 <settlement>Berlin</settlement> 
-                              </placeName> C. d. ...... 189 / <placeName ref="pmb822">Alexander-Str. 30</placeName> 
-                           </quote>«.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161209">Angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement> 
-                        <hi rend="latintype">Wien</hi> 
-                     </settlement> 
-                  </rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>15. 12 1</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>mit Director <rs type="person" ref="pmb14328">Blumenthal</rs> habe ich schon s. Zeit über <rs type="person" ref="pmb2121">Schnitzler</rs>s <rs type="work" ref="pmb29823">Märchen</rs> gesprochen und auch gestern wieder mit ihm darüber conferirt. Er hat es gelesen und es muß ihm wohl sehr gefallen haben, denn seinen Äußerungen entnahm ich, daß er es wohl annehmen wird. Er sprach auch noch von einigen unwesentlichen Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype">enfin</hi>, die Sache dürfte sich machen.</p> 
-            <p>Dir. <rs type="person" ref="pmb2598">Lautenburg</rs> ist nicht in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>, ich will mit ihm <anchor type="commentary" xml:id="KL683-1">reden</anchor>, sobald er wiederkommt.</p> 
-            <closer>Mit herzlichem Gruß<lb/> 
-               <signed>Em Reicher</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041683.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041682.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041684.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Reicher an Hermann Bahr, 15. 12. 1891</title>
+            <author ref="pmb12491">Reicher, Emanuel</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="683"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-881B-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12491">Reicher, Emanuel</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18911215" n="01">15. 12. 1891</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 22268 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote>
+                              <orgName ref="pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placName ref="pmb168">
+                                 <settlement>Berlin</settlement>
+                              </placName> C. d. ...... 189 / <placName ref="pmb822">Alexander-Str. 30</placName>
+                           </quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161209">Angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb50">Wien</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>15. 12 1</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>mit Director <rs type="person" ref="pmb14328">Blumenthal</rs> habe ich schon s. Zeit über <rs type="person" ref="pmb2121">Schnitzler</rs>s <rs type="work" ref="pmb29823">Märchen</rs> gesprochen und auch gestern wieder mit ihm darüber conferirt. Er hat es gelesen und es muß ihm wohl sehr gefallen haben, denn seinen Äußerungen entnahm ich, daß er es wohl annehmen wird. Er sprach auch noch von einigen unwesentlichen Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype">enfin</hi>, die Sache dürfte sich machen.</p>
+            <p>Dir. <rs type="person" ref="pmb2598">Lautenburg</rs> ist nicht in <rs type="place" ref="pmb168">Berlin</rs>, ich will mit ihm <anchor type="commentary" xml:id="KL683-1">reden</anchor>, sobald er wiederkommt.</p>
+            <closer>Mit herzlichem Gruß<lb/>
+               <signed>Em Reicher</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

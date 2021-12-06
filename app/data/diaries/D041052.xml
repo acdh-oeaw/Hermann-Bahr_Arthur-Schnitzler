@@ -1,86 +1,93 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041052.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041051.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041053.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 13. 11. 1909</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="052"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8866-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19091113" n="01">13/11</date> Mit <rs type="person" ref="pmb10986">Brahm</rs> 
-               <space unit="chars" quantity="1"/> 
-               <geogName type="path">Wasserleitungsweg</geogName>.–</p> 
-            <p>Verleger resp. Agent <rs type="person" ref="pmb2610">Norbert Salter</rs>, <rs type="person" ref="pmb11165">Dohnanyi</rs> Vertreter stellt sich vor und bespricht etliches.</p> 
-            <p>Nm. mit <rs type="person" ref="pmb10986">Brahm</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb82">Doppelreiterkogel</rs>. Wunderbare Dämmerbeleuchtung.– </p> 
-            <p>Einfälle zum »<rs type="work" ref="pmb30299">Abenteurer</rs>«.</p> 
-            <p>Dr. <rs type="person" ref="pmb11444">Glaser</rs>, kaum bekannt; prätentiös albern über <rs type="person" ref="pmb10815">Bahr</rs>.</p> 
-            <p>Mit <rs type="person" ref="pmb10986">Brahm</rs> ein Gespräch über die 1.000 Mark Garantie für <rs type="work" ref="pmb29931">C. Mizi</rs>, die er mir ein bißchen nachträgt; ich versuch ihm sein Unrecht zu erklären: »Sie hätten sie mir sogar selber antragen müssen, in Anbetracht des so unsicheren Stücks (<rs type="work" ref="pmb29933">Concert</rs>) das Sie dazugeben.«– </p> 
-            <p>Über meine vielen Pläne; ich sollte mich mehr discipliniren, bei einer Sache bleiben. Leicht gesagt.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041052.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041051.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041053.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 13. 11. 1909</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="052"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8866-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19091113" n="01">13/11</date> Mit <rs type="person" ref="pmb10986">Brahm</rs>
+               <space unit="chars" quantity="1"/>
+               <geogName type="path">Wasserleitungsweg</geogName>.–</p>
+            <p>Verleger resp. Agent <rs type="person" ref="pmb2610">Norbert Salter</rs>, <rs type="person" ref="pmb11165">Dohnanyi</rs> Vertreter stellt sich vor und bespricht etliches.</p>
+            <p>Nm. mit <rs type="person" ref="pmb10986">Brahm</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb82">Doppelreiterkogel</rs>. Wunderbare Dämmerbeleuchtung.– </p>
+            <p>Einfälle zum »<rs type="work" ref="pmb30299">Abenteurer</rs>«.</p>
+            <p>Dr. <rs type="person" ref="pmb11444">Glaser</rs>, kaum bekannt; prätentiös albern über <rs type="person" ref="pmb10815">Bahr</rs>.</p>
+            <p>Mit <rs type="person" ref="pmb10986">Brahm</rs> ein Gespräch über die 1.000 Mark Garantie für <rs type="work" ref="pmb29931">C. Mizi</rs>, die er mir ein bißchen nachträgt; ich versuch ihm sein Unrecht zu erklären: »Sie hätten sie mir sogar selber antragen müssen, in Anbetracht des so unsicheren Stücks (<rs type="work" ref="pmb29933">Concert</rs>) das Sie dazugeben.«– </p>
+            <p>Über meine vielen Pläne; ich sollte mich mehr discipliniren, bei einer Sache bleiben. Leicht gesagt.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,83 +1,87 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030027.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030026.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030028.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a" ref="pmb31931">Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="027"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A89-C</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="19091021" n="1">21. 10. 1909</origDate> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb31931">Wie schafft man eine Wiener Sommersaison?</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j" ref="pmb29600">Fremden-Blatt</title> 
-                     <imprint> 
-                        <date when="19091021" n="1">21. 10. 1909</date> 
-                     </imprint> 
-                     <biblScope unit="jg">63</biblScope> 
-                     <biblScope unit="nr">291</biblScope> 
-                     <biblScope unit="pp">25</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change when="20161024" who="MAM">Angelegt</change> 
-         <change who="KI MAM" when="20161103">Kollationiert</change> 
-         <change who="KI MAM" when="20170421">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <p part="N">Das Geheimnis der <rs type="place" ref="pmb155"> 
-                  <settlement>Münchner</settlement> 
-               </rs> ist: sie wissen, was den Fremden anzieht, und das bieten sie ihm, manchmal im stillen bei sich ganz verwundert, wie ihm denn »so was« eigentlich gefallen kann.</p> 
-            <p part="N">Wir hätten in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> manches in unserer Kunst, um den Fremden anzuziehen. Machen wir doch eine <rs type="person" ref="pmb12163">Mahler</rs>-Woche zum Beispiel! Machen wir eine <rs type="person" ref="pmb12749">Schönherr</rs>-Woche! <anchor type="commentary" xml:id="KT027-1">Gebt den Leuten von der <rs type="place" ref="pmb626">Kunstschau</rs> die Mittel, ein Gartentheater nach ihrem Sinn zu machen! Führt einen Monat lang <hi rend="spaced_out">uns</hi> auf! Den ganzen <rs type="person" ref="pmb2121">Schnitzler</rs>, den ganzen <rs type="person" ref="pmb11740">Hofmannsthal</rs>, den ganzen <rs type="person" ref="pmb12749">Schönherr</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs> und mich!</anchor> Und statt auf uns zu schimpfen, sagt den Fremden: »Das ist das Beste, was wir haben, und in dieser Art können Sie nirgends was Besseres sehen!« Im Winter, wenn die Fremden wieder fort und wir wieder unter uns sind, könnt Ihr ja wieder auf uns schimpfen!</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030027.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030026.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030028.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb31931">Hermann Bahr: Wie schafft man eine Wiener Sommersaison?, 21. 10. 1909</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="027"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A89-C</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19091021" n="1">21. 10. 1909</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb31931">Wie schafft man eine Wiener Sommersaison?</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29600">Fremden-Blatt</title>
+                     <imprint>
+                        <date when="19091021" n="1">21. 10. 1909</date>
+                     </imprint>
+                     <biblScope unit="jg">63</biblScope>
+                     <biblScope unit="nr">291</biblScope>
+                     <biblScope unit="pp">25</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change when="20161024" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20161103">Kollationiert</change>
+         <change who="KI MAM" when="20170421">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <p part="N">Das Geheimnis der <rs type="place" ref="pmb45258">Münchner</rs> ist: sie wissen, was den Fremden anzieht, und das bieten sie ihm, manchmal im stillen bei sich ganz verwundert, wie ihm denn »so was« eigentlich gefallen kann.</p>
+            <p part="N">Wir hätten in <rs type="place" ref="pmb50">Wien</rs> manches in unserer Kunst, um den Fremden anzuziehen. Machen wir doch eine <rs type="person" ref="pmb12163">Mahler</rs>-Woche zum Beispiel! Machen wir eine <rs type="person" ref="pmb12749">Schönherr</rs>-Woche! <anchor type="commentary" xml:id="KT027-1">Gebt den Leuten von der <rs type="place" ref="pmb626">Kunstschau</rs> die Mittel, ein Gartentheater nach ihrem Sinn zu machen! Führt einen Monat lang <hi rend="spaced_out">uns</hi> auf! Den ganzen <rs type="person" ref="pmb2121">Schnitzler</rs>, den ganzen <rs type="person" ref="pmb11740">Hofmannsthal</rs>, den ganzen <rs type="person" ref="pmb12749">Schönherr</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs> und mich!</anchor> Und statt auf uns zu schimpfen, sagt den Fremden: »Das ist das Beste, was wir haben, und in dieser Art können Sie nirgends was Besseres sehen!« Im Winter, wenn die Fremden wieder fort und wir wieder unter uns sind, könnt Ihr ja wieder auf uns schimpfen!</p>
+         </div>
+      </body>
+   </text>
 </TEI>

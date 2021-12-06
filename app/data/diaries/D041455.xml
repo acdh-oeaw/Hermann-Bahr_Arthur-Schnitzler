@@ -1,174 +1,177 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041455.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041454.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041456.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Kalendereintrag von Hermann Bahr, [Adressnotizen], Dezember 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="455"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89E0-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1767/12 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>Eintragung auf der Umschlaginnenseite.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">474</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160107">angelegt</change> 
-         <change who="KI MAM" when="20160202">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19031200" n="01"/>Prof. D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2914">Oscar Bie</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> W &gt; <rs type="place" ref="pmb362">Potsdamerstr</rs> 35</p> 
-            <p> 
-               <rs type="person" ref="pmb2425">Dörmann</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> W. <rs type="place" ref="pmb343">Meineckestr.</rs> 3 | <rs type="person" ref="pmb28205">Rauch</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb352">Alexanderufer</rs> 3</p> 
-            <p> 
-               <rs type="person" ref="pmb12504">Reinhardt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb344">Grunewald Fontanestr</rs> 8</p> 
-            <p> 
-               <rs type="person" ref="pmb11284">Eysoldt</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb346">Halensee Bornimerstr.</rs> 10</p> 
-            <p> 
-               <rs type="person" ref="pmb12031">Gustav Landauer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb348">Hermsdorf Mark</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb28201">Sigmund Wessely</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb345">VIII Lerchenfelderstr</rs> 44. | <rs type="place" ref="pmb363">Alexanderpl.</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb627">Grand Hotel</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb28151">Lesser</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb357">Knesebeckstr</rs> 20/21</p> 
-            <p>Rahmenmacher <rs type="person" ref="pmb28225">Richard Melcher</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb358">IV/1 Mühlgasse</rs> 19</p> 
-            <p> 
-               <rs type="person" ref="pmb11916">Keßler</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb359">Berlin W. Köthenerstr</rs> 28.</p> 
-            <p> 
-               <add place="above"> 
-                  <rs type="person" ref="pmb2121">Schnitzler</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="place" ref="pmb133">XVIII Spöttelgasse</rs> 7 <rs type="person" ref="pmb28223">Leon Goldschmidt</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="place" ref="pmb361">Hamburg Bleichenbrücke</rs> 
-                  <lb/> 
-                  <rs type="person" ref="pmb3579">Leopold Jacobson</rs> 
-               </add> 
-            </p> 
-            <p> 
-               <add place="above"> 
-                  <hi rend="underline" n="1">411</hi> 
-               </add> 
-            </p> 
-            <p> 
-               <add place="above"> 
-                  <hi rend="underline" n="1"> 
-                     <rs type="person" ref="pmb13082">Karlweis</rs> 
-                  </hi> 
-               </add> 
-            </p> 
-            <p>–</p> 
-            <p>Realitätensensal <rs type="person" ref="pmb28226">Adolf Goldenzweig</rs> 
-            </p> 
-            <p> 
-               <rs type="place" ref="pmb360">II/<hi rend="subscript">3</hi> Rembrandtstraße</rs> 1.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041455.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041454.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041456.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Kalendereintrag von Hermann Bahr, [Adressnotizen], Dezember 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="455"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89E0-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1767/12 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>Eintragung auf der Umschlaginnenseite.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">474</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160107">angelegt</change>
+         <change who="KI MAM" when="20160202">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19031200" n="01"/>Prof. D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2914">Oscar Bie</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb168">Berlin</rs> W &gt; <rs type="place" ref="pmb362">Potsdamerstr</rs> 35</p>
+            <p>
+               <rs type="person" ref="pmb2425">Dörmann</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb168">Berlin</rs> W. <rs type="place" ref="pmb343">Meineckestr.</rs> 3 | <rs type="person" ref="pmb28205">Rauch</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb352">Alexanderufer</rs> 3</p>
+            <p>
+               <rs type="person" ref="pmb12504">Reinhardt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb344">Grunewald Fontanestr</rs> 8</p>
+            <p>
+               <rs type="person" ref="pmb11284">Eysoldt</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb346">Halensee Bornimerstr.</rs> 10</p>
+            <p>
+               <rs type="person" ref="pmb12031">Gustav Landauer</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb348">Hermsdorf Mark</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb28201">Sigmund Wessely</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb345">VIII Lerchenfelderstr</rs> 44. | <rs type="place" ref="pmb363">Alexanderpl.</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb627">Grand Hotel</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb28151">Lesser</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb357">Knesebeckstr</rs> 20/21</p>
+            <p>Rahmenmacher <rs type="person" ref="pmb28225">Richard Melcher</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb358">IV/1 Mühlgasse</rs> 19</p>
+            <p>
+               <rs type="person" ref="pmb11916">Keßler</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb359">Berlin W. Köthenerstr</rs> 28.</p>
+            <p>
+               <add place="above">
+                  <rs type="person" ref="pmb2121">Schnitzler</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="place" ref="pmb133">XVIII Spöttelgasse</rs> 7 <rs type="person" ref="pmb28223">Leon Goldschmidt</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="place" ref="pmb361">Hamburg Bleichenbrücke</rs>
+                  <lb/>
+                  <rs type="person" ref="pmb3579">Leopold Jacobson</rs>
+               </add>
+            </p>
+            <p>
+               <add place="above">
+                  <hi rend="underline" n="1">411</hi>
+               </add>
+            </p>
+            <p>
+               <add place="above">
+                  <hi rend="underline" n="1">
+                     <rs type="person" ref="pmb13082">Karlweis</rs>
+                  </hi>
+               </add>
+            </p>
+            <p>–</p>
+            <p>Realitätensensal <rs type="person" ref="pmb28226">Adolf Goldenzweig</rs>
+            </p>
+            <p>
+               <rs type="place" ref="pmb360">II/<hi rend="subscript">3</hi> Rembrandtstraße</rs> 1.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

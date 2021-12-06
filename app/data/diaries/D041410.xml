@@ -1,244 +1,249 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041410.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041409.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041411.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Kalendereintrag von Hermann Bahr, 28. 3. 1901</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="410"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89B4-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1757/1 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">12–13</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20151116">angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19010328" n="01"/> 
-               <rs type="person" subtype="implied" ref="pmb27698">Schreiber</rs> bezahlt für 14 Tage.</p> 
-            <p>–</p> 
-            <p>½ 6 Frau <rs type="person" ref="pmb18833">Jellinek</rs> – <rs type="person" ref="pmb3304">Kuh</rs>.</p> 
-            <p>–</p> 
-            <p> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11910">Alfred Kerr</rs> 
-               </del>. – <del rend="strikethrough">Direktor <rs type="person" ref="pmb12163">Mahler</rs> 
-               </del>. – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11740">Hofmannsthal</rs> 
-               </del>. – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2121">Schnitzler</rs> 
-               </del>. – <del rend="strikethrough"> 
-                  <rs type="place" ref="pmb309">Linzer Museum</rs> 
-               </del> –, Dr <rs type="person" ref="pmb28061"> 
-                  <del rend="strikethrough">Krakowitzer</del> 
-               </rs>. – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3307">Susi Wallner</rs>. – <rs type="person" ref="pmb3308">Lenoir</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs cert="low" type="person" ref="pmb3311">Schneider</rs> – <rs type="person" ref="pmb3316">Cavar</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <gap quantity="3" reason="illegible" unit="chars"/> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28062">Strele</rs>. – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28065">Haslinger</rs> 
-               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb23439">Ritter</rs> 
-               </del> – D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28473"> 
-                  <del rend="strikethrough">Ulbing</del> 
-               </rs> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10749">Victor Adler</rs> 
-               </del> – <rs type="person" ref="pmb2456">Richard Specht</rs> – D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11756"> 
-                  <del rend="strikethrough">Holländer</del> 
-               </rs> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2154">Chiavacci</rs> 
-               </del> 
-            </p> 
-            <p>– </p> 
-            <p>– <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3319">L. Fischl</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3322">Landesberg</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3162">Julius Stern</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb25196">Spiegl</rs> 
-               </del> – D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11590">Harpner</rs> 
-               </del> – Prof. <rs type="person" ref="pmb3330">Schönbach</rs> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb13082">Karlweis</rs> 
-               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb11867">Kanner</rs> 
-               </del> – <del rend="strikethrough">Dr <rs type="person" ref="pmb12772">Servaes</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2161">Bukovics</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="above"> 
-                  <del rend="strikethrough"> 
-                     <rs type="person" ref="pmb12163">Mahler</rs> 
-                  </del> 
-               </add> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2164">Gettke</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <gap reason="illegible" quantity="7" unit="chars"/> 
-               </del> – <rs type="person" ref="pmb3335">Petri</rs> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb24575">Schuster</rs> 
-               </del> – <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb14519">Brenneis</rs> 
-               </del> – <rs type="person" ref="pmb3341">Thaller</rs> – <add place="above"> 
-                  <del rend="strikethrough"> 
-                     <rs type="person" ref="pmb11402">Ganghofer</rs>.</del> 
-               </add> 
-               <pb/> 
-            </p> 
-            <p> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12772">Servaes</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11857">Kalbeck</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3345">Gomperz</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2226">Fred</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28071">Hellmer</rs> 
-               </del> | <del rend="strikethrough">D<hi rend="superscript">r</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb22714">Pollak</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11857">Kalbeck</rs> 
-               </del> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <del rend="strikethrough"> 
-                  <rs type="org" ref="pmb29304">Reichswehr</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3354">Lipschütz</rs> 
-               </del> (<rs type="person" ref="pmb28074"> 
-                  <unclear>Kle</unclear> Wolf</rs>)</p> 
-            <p> 
-               <rs type="person" ref="pmb3357">Driesmans</rs> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <rs type="person" ref="pmb3774">Max Lorenz</rs> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <unclear> 
-                  <rs cert="low" type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs> 
-               </unclear> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3307">Wallner</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2888">Wertheimer</rs> 
-            </p> 
-            <p>–</p> 
-            <p> 
-               <rs type="org" ref="pmb29421">Volksztg</rs> sofort zwei Exemplare der <rs type="work" subtype="implied" ref="pmb31361">Nummer vom 22. März</rs>.</p> 
-            <p>Und heraussuchen die Nummern mit <rs type="work" subtype="implied" ref="pmb31359">Artikel über <rs type="person" ref="pmb13200">Zuloaga</rs> 
-               </rs> 2) <rs type="work" subtype="implied" ref="pmb31359">über <rs type="person" ref="pmb11944">Klinger</rs> 
-               </rs> 3)</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041410.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041409.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041411.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Kalendereintrag von Hermann Bahr, 28. 3. 1901</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="410"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89B4-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1757/1 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">12–13</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151116">angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19010328" n="01"/>
+               <rs type="person" subtype="implied" ref="pmb27698">Schreiber</rs> bezahlt für 14 Tage.</p>
+            <p>–</p>
+            <p>½ 6 Frau <rs type="person" ref="pmb18833">Jellinek</rs> – <rs type="person" ref="pmb3304">Kuh</rs>.</p>
+            <p>–</p>
+            <p>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb11910">Alfred Kerr</rs>
+               </del>. – <del rend="strikethrough">Direktor <rs type="person" ref="pmb12163">Mahler</rs>
+               </del>. – <del rend="strikethrough">
+                  <rs type="person" ref="pmb11740">Hofmannsthal</rs>
+               </del>. – <del rend="strikethrough">
+                  <rs type="person" ref="pmb2121">Schnitzler</rs>
+               </del>. – <del rend="strikethrough">
+                  <rs type="place" ref="pmb309">Linzer Museum</rs>
+               </del> –, Dr <rs type="person" ref="pmb28061">
+                  <del rend="strikethrough">Krakowitzer</del>
+               </rs>. – <del rend="strikethrough">
+                  <rs type="person" ref="pmb3307">Susi Wallner</rs>. – <rs type="person" ref="pmb3308">Lenoir</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb3311">Schneider</rs> – <rs type="person" ref="pmb14899">Cavar</rs>
+                  <space unit="chars" quantity="1"/>
+                  <gap quantity="3" reason="illegible" unit="chars"/>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28062">Strele</rs>. – <del rend="strikethrough">
+                  <rs type="person" ref="pmb28065">Haslinger</rs>
+               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb23439">Ritter</rs>
+               </del> – D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28473">
+                  <del rend="strikethrough">Ulbing</del>
+               </rs> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb10749">Victor Adler</rs>
+               </del> – <rs type="person" ref="pmb2456">Richard Specht</rs> – D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11756">
+                  <del rend="strikethrough">Holländer</del>
+               </rs> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb2154">Chiavacci</rs>
+               </del>
+            </p>
+            <p>– </p>
+            <p>– <del rend="strikethrough">
+                  <rs type="person" ref="pmb3319">L. Fischl</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb2577">Landesberg</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb3162">Julius Stern</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb25196">Spiegl</rs>
+               </del> – D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb11590">Harpner</rs>
+               </del> – Prof. <rs type="person" ref="pmb3330">Schönbach</rs> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb13082">Karlweis</rs>
+               </del> – <del rend="strikethrough">D<hi rend="superscript">r</hi>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb11867">Kanner</rs>
+               </del> – <del rend="strikethrough">Dr <rs type="person" ref="pmb12772">Servaes</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb2161">Bukovics</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="above">
+                  <del rend="strikethrough">
+                     <rs type="person" ref="pmb12163">Mahler</rs>
+                  </del>
+               </add> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb2164">Gettke</rs>
+               </del> – <del rend="strikethrough">
+                  <gap reason="illegible" quantity="7" unit="chars"/>
+               </del> – <rs type="person" ref="pmb3335">Petri</rs> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb24575">Schuster</rs>
+               </del> – <del rend="strikethrough">
+                  <rs type="person" ref="pmb14519">Brenneis</rs>
+               </del> – <rs type="person" ref="pmb3341">Thaller</rs> – <add place="above">
+                  <del rend="strikethrough">
+                     <rs type="person" ref="pmb11402">Ganghofer</rs>.</del>
+               </add>
+               <pb/>
+            </p>
+            <p>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb12772">Servaes</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb11857">Kalbeck</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb3345">Gomperz</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2226">Fred</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb28071">Hellmer</rs>
+               </del> | <del rend="strikethrough">D<hi rend="superscript">r</hi>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb22714">Pollak</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb11857">Kalbeck</rs>
+               </del>
+            </p>
+            <p>–</p>
+            <p>
+               <del rend="strikethrough">
+                  <rs type="org" ref="pmb29304">Reichswehr</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb3354">Lipschütz</rs>
+               </del> (<rs type="person" ref="pmb28074">
+                  <unclear>Kle</unclear> Wolf</rs>)</p>
+            <p>
+               <rs type="person" ref="pmb3357">Driesmans</rs>
+            </p>
+            <p>–</p>
+            <p>
+               <rs type="person" ref="pmb3774">Max Lorenz</rs>
+            </p>
+            <p>–</p>
+            <p>
+               <unclear>
+                  <rs type="place" ref="pmb50">Wien</rs>
+               </unclear>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3307">Wallner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2888">Wertheimer</rs>
+            </p>
+            <p>–</p>
+            <p>
+               <rs type="org" ref="pmb29421">Volksztg</rs> sofort zwei Exemplare der <rs type="work" subtype="implied" ref="pmb31361">Nummer vom 22. März</rs>.</p>
+            <p>Und heraussuchen die Nummern mit <rs type="work" subtype="implied" ref="pmb31359">Artikel über <rs type="person" ref="pmb13200">Zuloaga</rs>
+               </rs> 2) <rs type="work" subtype="implied" ref="pmb31359">über <rs type="person" ref="pmb11944">Klinger</rs>
+               </rs> 3)</p>
+         </div>
+      </body>
+   </text>
 </TEI>

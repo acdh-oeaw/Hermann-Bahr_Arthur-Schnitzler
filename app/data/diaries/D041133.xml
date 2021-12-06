@@ -1,80 +1,87 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041133.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041132.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041134.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 28. 1. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="133" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88B7-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950128" n="1">28/1</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb10815">Bahr</rs> teleph. in der früh. Ich zu ihm. <rs type="person" ref="pmb12618">Dilly</rs> hat ihn rufen lassen, weint, sie ist unschuldig, und es kam darauf hinaus, dass sie unter solchen Umständen in der <rs type="place" ref="pmb14">Burg</rs> nicht spielen könne und in meinem <rs type="work" ref="pmb29917">Stück</rs> erst recht nicht. Ich sagte, dass ich auf Erpressungen nicht hereinfalle, dass sie machen solle, was sie will, dass ich aber nichts dagegen habe, in ein paar Wochen wieder freundschaftlich mit ihr zu verkehren. <rs type="person" ref="pmb10815">Bahrs</rs> (für <rs type="person" ref="pmb10815">Bahr</rs> sehr charakteristische) Auffassung von der Sache. »<anchor type="label" xml:id="LD133-1"> 
-                  <rs type="person" ref="pmb2167">Salten</rs>, wie er überhaupt ein gescheidter Kerl ist, wollte sich als junger Theaterkritiker dadurch posiren, dass er ein Verh. mit der ersten Tragödin habe.</anchor>«–</p> 
-            <p>Première der <rs subtype="local" type="work" ref="pmb31161">Ersten Lüge</rs> in der <rs type="place" ref="pmb14">Burg</rs>. Cretinismus. <rs type="person" ref="pmb10815">Bahr</rs>: <rs type="person" ref="pmb12618">Dilly</rs> hatte ihn wieder anteleph.: sie liebe nur mich, <rs type="person" ref="pmb2167">S.</rs> sei ein Lügner u. s. w.– Schien sich mit seiner Antwort zufrieden zu geben.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041133.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041132.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041134.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 28. 1. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="133" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88B7-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950128" n="1">28/1</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb10815">Bahr</rs> teleph. in der früh. Ich zu ihm. <rs type="person" ref="pmb12618">Dilly</rs> hat ihn rufen lassen, weint, sie ist unschuldig, und es kam darauf hinaus, dass sie unter solchen Umständen in der <rs type="place" ref="pmb14">Burg</rs> nicht spielen könne und in meinem <rs type="work" ref="pmb29917">Stück</rs> erst recht nicht. Ich sagte, dass ich auf Erpressungen nicht hereinfalle, dass sie machen solle, was sie will, dass ich aber nichts dagegen habe, in ein paar Wochen wieder freundschaftlich mit ihr zu verkehren. <rs type="person" ref="pmb10815">Bahrs</rs> (für <rs type="person" ref="pmb10815">Bahr</rs> sehr charakteristische) Auffassung von der Sache. »<anchor type="label" xml:id="LD133-1">
+                  <rs type="person" ref="pmb2167">Salten</rs>, wie er überhaupt ein gescheidter Kerl ist, wollte sich als junger Theaterkritiker dadurch posiren, dass er ein Verh. mit der ersten Tragödin habe.</anchor>«–</p>
+            <p>Première der <rs subtype="local" type="work" ref="pmb31161">Ersten Lüge</rs> in der <rs type="place" ref="pmb14">Burg</rs>. Cretinismus. <rs type="person" ref="pmb10815">Bahr</rs>: <rs type="person" ref="pmb12618">Dilly</rs> hatte ihn wieder anteleph.: sie liebe nur mich, <rs type="person" ref="pmb2167">S.</rs> sei ein Lügner u. s. w.– Schien sich mit seiner Antwort zufrieden zu geben.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

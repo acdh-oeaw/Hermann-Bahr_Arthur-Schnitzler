@@ -1,85 +1,92 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041502.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041501.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041503.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 22. 10. 1910</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="502"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A0F-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 793/79 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: 85 lose Ringbuchblätter, eh., von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, S. 82–83.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160112">angelegt</change> 
-         <change who="KI MAM" when="20160209">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19101022" n="01">22.</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb330">Zoological Garden’s</rs>.</p> 
-            <p>Abends bei <rs type="person" ref="pmb28152">Tree</rs> in <anchor type="commentary" xml:id="KD502-1"> 
-                  <rs type="work" ref="pmb31087">Henry VIII</rs> 
-               </anchor> und<pb/> finde heimkommend den <rs type="work" ref="pmb29937">Medardus</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2121">Schnitzlers</rs>, Gelegenheit über »Historien« nachzudenken, die doch eigentlich nur diesen Sinn haben: Lust an der angestammten alten Art beizubringen – so sind wir einmal, so waren wir immer! So <rs subtype="local" type="work" ref="pmb31071">Götz</rs>, so <rs type="person" ref="pmb2142">d’Annunzio</rs> in der <rs type="work" ref="pmb31085">Francesca</rs>.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041502.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041501.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041503.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 22. 10. 1910</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="502"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A0F-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 793/79 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: 85 lose Ringbuchblätter, eh., von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, S. 82–83.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160112">angelegt</change>
+         <change who="KI MAM" when="20160209">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19101022" n="01">22.</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb330">Zoological Garden’s</rs>.</p>
+            <p>Abends bei <rs type="person" ref="pmb28152">Tree</rs> in <anchor type="commentary" xml:id="KD502-1">
+                  <rs type="work" ref="pmb31087">Henry VIII</rs>
+               </anchor> und<pb/> finde heimkommend den <rs type="work" ref="pmb29937">Medardus</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2121">Schnitzlers</rs>, Gelegenheit über »Historien« nachzudenken, die doch eigentlich nur diesen Sinn haben: Lust an der angestammten alten Art beizubringen – so sind wir einmal, so waren wir immer! So <rs subtype="local" type="work" ref="pmb31071">Götz</rs>, so <rs type="person" ref="pmb2142">d’Annunzio</rs> in der <rs type="work" ref="pmb31085">Francesca</rs>.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

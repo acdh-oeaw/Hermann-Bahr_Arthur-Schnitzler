@@ -1,158 +1,151 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041071.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041070.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041072.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 22. 2. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="071"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85B8-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19040222" n="2">22. 2. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23367 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 2 Bl., 7 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19040222">22. 2. 1904</date> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">84–85</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-         <change who="KI MAM" when="20170508">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="HS_AM23367Ba_1"/> 
-      <graphic url="HS_AM23367Ba_1_R"/> 
-      <graphic url="HS_AM23367Ba_2"/> 
-      <graphic url="HS_AM23367Ba_2_R"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>22. 2. 904</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>mein lieber Hermann, </salute>wir waren eben in <rs type="place" ref="pmb63"> 
-                  <settlement>Hietzing</settlement> 
-               </rs>, mit <rs type="person" ref="pmb2292 pmb11740">Hugo’s</rs> u <rs type="person" ref="pmb10860 pmb10863">Richards</rs> u <rs type="person" ref="pmb2219">Karg</rs> zusammen, u da hab ich mit großer Freude gehört, dass du dich viel wohler befindest. Nun möchte ich aber gern recht bald ein Wort von dir selbst vernehmen, und wissen, wie es mit deinen Plänen für die nächste Zeit steht. Ich bin seit <anchor type="commentary" xml:id="KL071-3">Freitag Abend</anchor> wieder in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>; wir (<rs type="person" ref="pmb2173">Olga</rs> u ich) waren<pb/> auf der Rückreise einen Tag in <rs type="place" ref="pmb866"> 
-                  <settlement>Dresden</settlement> 
-               </rs> und haben allzukurze Stunden in der <rs type="place" ref="pmb5">Galerie</rs> verbracht. Über den <rs type="work" ref="pmb29985">Einsamen Weg</rs> hast du wohl, soweit es sich um den äußerlichen Verlauf des ersten Abends handelt, das wesentliche gelesen. Es war ein leidlicher Abfall, Husten und Unruhe von Anbeginn, matter Beifall nach 2. u 3. Akt mit Widerspruch; Gelächter und starker Beifall nach dem 4. Akt, viel Applaus und viel Zischen am<pb/> Schluss. Der 2. Abend, ausverkauft, ging beträchtlich besser – und nun scheint sich, wie ich aus <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> höre, das Stück, das bei einem Theil der Kritik sehr lebhafte Anerkennung fand, doch einige Zeit halten zu wollen. In <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> war eigentlich nur das <rs type="person" ref="pmb11485">Goldmann</rs>’sche <anchor type="commentary" xml:id="KL071-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31277">Telegramm</rs> 
-               </anchor> wirklich schlecht – was er mir persönlich über das <rs type="work" subtype="implied" ref="pmb29985">Stück</rs> zu sagen wußte, waren nur die folgenden Worte, als ich ihn ein paar Tage nach der Première zum Abschied<pb/> besuchte<subst> 
-                  <del rend="overwritten">,</del> 
-                  <add place="inline">:</add> 
-               </subst> »Ich schreibe eben das <anchor type="commentary" xml:id="KL071-2"> 
-                  <rs type="work" subtype="implied" ref="pmb31281">Feuillet</rs> 
-               </anchor> über den <rs type="work" ref="pmb29985">E. W.</rs> – Du wirst keine Freude daran haben.« – Die Fehler des <rs type="work" subtype="implied" ref="pmb29985">Stücks</rs> spür ich jetzt wie mir vorkommt sehr genau: Das Verhältnis zwischen <rs type="work" subtype="implied" ref="pmb29985">Sala</rs> u <hi rend="latintype">Johann<unclear>a</unclear> 
-               </hi> müßte schon zu Beginn völlig declarirt sein – das ist ein technischer Fehler, de<subst> 
-                  <del rend="overwritten">r</del> 
-                  <add place="inline">n</add> 
-               </subst> gutzumachen in meinen Kräften stände. Andres aber dürfte in den Mängeln meiner Begabung begründet sein – so insbesondre eine gewisse Steifigkeit im Wesen<pb/> Julians. Immerhin bleibt es eine schwierige Sache von einer Person die Meinung verbreiten zu wollen – sie sei einmal ein Genie gewesen. Ja wenn man das Bild ins Foyer hängen könnte, das <rs type="work" subtype="implied" ref="pmb29985">Julian</rs> vor 25 Jahren gemalt und das ihn berühmt gemacht hat! Übrigens – vielleicht wäre es auch im Augenblick vergessen, da man sich wieder ins Parket begibt.</p> 
-            <p>Was ich selbst an dem <rs type="work" subtype="implied" ref="pmb29985">Stück</rs> wirklich liebe, ist der fünfte Akt und die<pb/> Gestalt des <rs type="work" subtype="implied" ref="pmb29985">Sala</rs>, der gegenüber ich mich, eigentlich das erste Mal in meinem Leben, als eine Art von Schöpfer fühle. Und der fünfte Akt bedeutet mir zuweilen etwas mehr als der Abschluss eines Dramas – ja nicht viel weniger als der Abschluss von 42 selbst gelebten Jahren. <add place="inline">–</add> Nun seh ich mancherlei vor mir, was mir, wenn ich etwas weniger faul, etwas weniger zerstreut, und mit <del rend="strikethrough"> 
-                  <gap unit="chars" quantity="4" reason="illegible"/>-</del> wahrer Intensität begabt wäre, nach dem sonstigen Stande meines Innern, eigentlich gelingen müßte. –<pb/> 
-            </p> 
-            <p>– Wir haben in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> oft von dir gesprochen und alle Leute die du kennst lassen dich grüßen. Meine <rs type="place" ref="pmb451">sicilianischen</rs> und <rs type="place" ref="pmb455">korfiolischen</rs> Pläne weben weiter – wirst du auch südlicher wandern und werden wir uns sehen? Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> grüßt dich herzlich, ich desgleichen und wir wären sehr froh, wenn wir bald noch besseres, ganz gutes von dir hörten.</p> 
-            <closer>Dein<lb/> 
-               <signed>Arthur</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041071.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041070.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041072.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 22. 2. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="071"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85B8-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19040222" n="2">22. 2. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23367 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 2 Bl., 7 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19040222">22. 2. 1904</date>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">84–85</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170508">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM23367Ba_1"/>
+      <graphic url="HS_AM23367Ba_1_R"/>
+      <graphic url="HS_AM23367Ba_2"/>
+      <graphic url="HS_AM23367Ba_2_R"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>22. 2. 904</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>mein lieber Hermann, </salute>wir waren eben in <rs type="place" ref="pmb63">Hietzing</rs>, mit <rs type="person" ref="pmb2292 pmb11740">Hugo’s</rs> u <rs type="person" ref="pmb10860 pmb10863">Richards</rs> u <rs type="person" ref="pmb2219">Karg</rs> zusammen, u da hab ich mit großer Freude gehört, dass du dich viel wohler befindest. Nun möchte ich aber gern recht bald ein Wort von dir selbst vernehmen, und wissen, wie es mit deinen Plänen für die nächste Zeit steht. Ich bin seit <anchor type="commentary" xml:id="KL071-3">Freitag Abend</anchor> wieder in <rs type="place" ref="pmb50">Wien</rs>; wir (<rs type="person" ref="pmb2173">Olga</rs> u ich) waren<pb/> auf der Rückreise einen Tag in <rs type="place" ref="pmb866">Dresden</rs> und haben allzukurze Stunden in der <rs type="place" ref="pmb5">Galerie</rs> verbracht. Über den <rs type="work" ref="pmb29985">Einsamen Weg</rs> hast du wohl, soweit es sich um den äußerlichen Verlauf des ersten Abends handelt, das wesentliche gelesen. Es war ein leidlicher Abfall, Husten und Unruhe von Anbeginn, matter Beifall nach 2. u 3. Akt mit Widerspruch; Gelächter und starker Beifall nach dem 4. Akt, viel Applaus und viel Zischen am<pb/> Schluss. Der 2. Abend, ausverkauft, ging beträchtlich besser – und nun scheint sich, wie ich aus <rs type="place" ref="pmb168">Berlin</rs> höre, das Stück, das bei einem Theil der Kritik sehr lebhafte Anerkennung fand, doch einige Zeit halten zu wollen. In <rs type="place" ref="pmb50">Wien</rs> war eigentlich nur das <rs type="person" ref="pmb11485">Goldmann</rs>’sche <anchor type="commentary" xml:id="KL071-1">
+                  <rs type="work" subtype="implied" ref="pmb31277">Telegramm</rs>
+               </anchor> wirklich schlecht – was er mir persönlich über das <rs type="work" subtype="implied" ref="pmb29985">Stück</rs> zu sagen wußte, waren nur die folgenden Worte, als ich ihn ein paar Tage nach der Première zum Abschied<pb/> besuchte<subst>
+                  <del rend="overwritten">,</del>
+                  <add place="inline">:</add>
+               </subst> »Ich schreibe eben das <anchor type="commentary" xml:id="KL071-2">
+                  <rs type="work" subtype="implied" ref="pmb31281">Feuillet</rs>
+               </anchor> über den <rs type="work" ref="pmb29985">E. W.</rs> – Du wirst keine Freude daran haben.« – Die Fehler des <rs type="work" subtype="implied" ref="pmb29985">Stücks</rs> spür ich jetzt wie mir vorkommt sehr genau: Das Verhältnis zwischen <rs type="work" subtype="implied" ref="pmb29985">Sala</rs> u <hi rend="latintype">Johann<unclear>a</unclear>
+               </hi> müßte schon zu Beginn völlig declarirt sein – das ist ein technischer Fehler, de<subst>
+                  <del rend="overwritten">r</del>
+                  <add place="inline">n</add>
+               </subst> gutzumachen in meinen Kräften stände. Andres aber dürfte in den Mängeln meiner Begabung begründet sein – so insbesondre eine gewisse Steifigkeit im Wesen<pb/> Julians. Immerhin bleibt es eine schwierige Sache von einer Person die Meinung verbreiten zu wollen – sie sei einmal ein Genie gewesen. Ja wenn man das Bild ins Foyer hängen könnte, das <rs type="work" subtype="implied" ref="pmb29985">Julian</rs> vor 25 Jahren gemalt und das ihn berühmt gemacht hat! Übrigens – vielleicht wäre es auch im Augenblick vergessen, da man sich wieder ins Parket begibt.</p>
+            <p>Was ich selbst an dem <rs type="work" subtype="implied" ref="pmb29985">Stück</rs> wirklich liebe, ist der fünfte Akt und die<pb/> Gestalt des <rs type="work" subtype="implied" ref="pmb29985">Sala</rs>, der gegenüber ich mich, eigentlich das erste Mal in meinem Leben, als eine Art von Schöpfer fühle. Und der fünfte Akt bedeutet mir zuweilen etwas mehr als der Abschluss eines Dramas – ja nicht viel weniger als der Abschluss von 42 selbst gelebten Jahren. <add place="inline">–</add> Nun seh ich mancherlei vor mir, was mir, wenn ich etwas weniger faul, etwas weniger zerstreut, und mit <del rend="strikethrough">
+                  <gap unit="chars" quantity="4" reason="illegible"/>-</del> wahrer Intensität begabt wäre, nach dem sonstigen Stande meines Innern, eigentlich gelingen müßte. –<pb/>
+            </p>
+            <p>– Wir haben in <rs type="place" ref="pmb168">Berlin</rs> oft von dir gesprochen und alle Leute die du kennst lassen dich grüßen. Meine <rs type="place" ref="pmb451">sicilianischen</rs> und <rs type="place" ref="pmb41212">korfiolischen</rs> Pläne weben weiter – wirst du auch südlicher wandern und werden wir uns sehen? Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> grüßt dich herzlich, ich desgleichen und wir wären sehr froh, wenn wir bald noch besseres, ganz gutes von dir hörten.</p>
+            <closer>Dein<lb/>
+               <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

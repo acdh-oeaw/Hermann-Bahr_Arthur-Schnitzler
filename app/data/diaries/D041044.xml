@@ -1,86 +1,93 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041044.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041043.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041045.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 10. 6. 1909</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="044"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-885E-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19090610" n="01">10/6</date> Gegen Mittag kam <rs type="person" ref="pmb13058">Julie Wassermann</rs>; ich sagte ihr meine Meinung über ihre Mscrpte (auf ihren Wunsch) – sie weinte, that mir fast leid, aber als ich ihrer vollkommenen Einsichtslosigkeit gewahr wurde (sie stellte ihre Sachen »doch mindestens« <rs type="person" ref="pmb11391">Fulda</rs> und <rs type="person" ref="pmb10815">Bahr</rs> gleich) wurde ich noch schonungsloser.</p> 
-            <p>– Bei <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Onkel <rs type="person" ref="pmb21028">Felix</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb21037">Julie</rs>, ihre <rs type="person" subtype="implied" ref="pmb27789 pmb21014">Töchter</rs>, <rs type="person" ref="pmb20883">Alfred Mandl</rs>, <unclear> 
-                  <rs cert="low" type="person" ref="pmb27788">Renni Meyer</rs> 
-               </unclear>. Ich spielte mit <rs type="person" ref="pmb21028">Felix</rs> einen Satz aus <rs type="person" ref="pmb2540">Tschaikowsky</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb30241">V.</rs> 
-            </p> 
-            <p>– Collationirt zu Hause die Abschriften des <rs type="work" ref="pmb29937">Med.</rs> und trug die Correcturen ein.</p> 
-            <p>Zum Nachtmahl Kapellmeister <rs type="person" ref="pmb13041">Walter</rs>, <rs type="person" ref="pmb10863">Richard</rs> und <rs type="person" ref="pmb10860">Paula</rs>. Die Unsicherheit des Hörens verleidet mir auch manchmal schon so kleine Gesellschaften. Müdigkeit und Melancholie.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041044.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041043.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041045.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 10. 6. 1909</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="044"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-885E-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19090610" n="01">10/6</date> Gegen Mittag kam <rs type="person" ref="pmb13058">Julie Wassermann</rs>; ich sagte ihr meine Meinung über ihre Mscrpte (auf ihren Wunsch) – sie weinte, that mir fast leid, aber als ich ihrer vollkommenen Einsichtslosigkeit gewahr wurde (sie stellte ihre Sachen »doch mindestens« <rs type="person" ref="pmb11391">Fulda</rs> und <rs type="person" ref="pmb10815">Bahr</rs> gleich) wurde ich noch schonungsloser.</p>
+            <p>– Bei <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Onkel <rs type="person" ref="pmb21028">Felix</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb21037">Julie</rs>, ihre <rs type="person" subtype="implied" ref="pmb27789 pmb21014">Töchter</rs>, <rs type="person" ref="pmb20883">Alfred Mandl</rs>, <unclear>
+                  <rs type="person" ref="pmb27788">Renni Meyer</rs>
+               </unclear>. Ich spielte mit <rs type="person" ref="pmb21028">Felix</rs> einen Satz aus <rs type="person" ref="pmb2540">Tschaikowsky</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb30241">V.</rs>
+            </p>
+            <p>– Collationirt zu Hause die Abschriften des <rs type="work" ref="pmb29937">Med.</rs> und trug die Correcturen ein.</p>
+            <p>Zum Nachtmahl Kapellmeister <rs type="person" ref="pmb13041">Walter</rs>, <rs type="person" ref="pmb10863">Richard</rs> und <rs type="person" ref="pmb10860">Paula</rs>. Die Unsicherheit des Hörens verleidet mir auch manchmal schon so kleine Gesellschaften. Müdigkeit und Melancholie.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,125 +1,130 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041360.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041359.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041361.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Rudolph Kayser an Arthur Schnitzler, 21. 3. 1923</title> 
-            <author ref="pmb11891">Kayser, Rudolph</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="360"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D9-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb11891">Kayser, Rudolph</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19230321" n="01">21. 3. 1923</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 121e</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Brief mit eh. Unterschrift in Bleistift, 1 Bl., 1 S., gedruckter Kopf: »<quote> 
-                              <orgName ref="pmb29212">Die neue Rundschau</orgName> / <orgName ref="pmb29639">S. Fischer-Verlag</orgName> – <placeName ref="pmb659">Berlin W – Bülowstrasse 90</placeName> 
-                           </quote>«. In der rechten oberen Ecke ms. »<quote>K/P</quote>«.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151115">Angelegt aus Kopie ÖGL</change> 
-         <change who="MAM" when="20160416">Kollationiert mit Fotografie CUL</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn</addrLine> 
-               <addrLine>Dr. Arthur <hi rend="spaced_out">Schnitzler</hi> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="spaced_out"> 
-                     <hi rend="underline" n="1"> 
-                        <rs type="place" ref="pmb68">Wien 18.</rs> 
-                     </hi> 
-                  </hi> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb150">Sternwartestr. 71.</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb168"> 
-                     <settlement>Berlin</settlement> 
-                  </rs>, <date>21. März 23</date>.</dateline> 
-               <salute>Sehr verehrter Herr Doktor,</salute> 
-            </opener> 
-            <p>Aus Anlass des 60. Geburtstages <rs type="person" ref="pmb10815">Hermann Bahrs</rs> erscheint unser <rs type="org" subtype="implied" ref="pmb29212">Juniheft</rs> als Sonderheft »<rs type="place" ref="pmb162">Oesterreich</rs>«. Ich wäre überaus erfreut, in diese<supplied>m</supplied> Heft auch einen Beitrag von Ihnen bringen zu können und möchte Sie deshalb anfragen, ob Sie mir eine Novelle zur Verfügung stellen könnten.</p> 
-            <closer>Mit der Bitte um fr<supplied>e</supplied>undlichen Bescheid<lb/>Ihnen sehr ergeben<lb/> 
-               <signed> 
-                  <handShift/>Rudolph Kayser</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041360.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041359.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041361.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Rudolph Kayser an Arthur Schnitzler, 21. 3. 1923</title>
+            <author ref="pmb11891">Kayser, Rudolph</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="360"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D9-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb11891">Kayser, Rudolph</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19230321" n="01">21. 3. 1923</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 121e</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief mit eh. Unterschrift in Bleistift, 1 Bl., 1 S., gedruckter Kopf: »<quote>
+                              <orgName ref="pmb29212">Die neue Rundschau</orgName> / <orgName ref="pmb29639">S. Fischer-Verlag</orgName> – <placName ref="pmb659">Berlin W – Bülowstrasse 90</placName>
+                           </quote>«. In der rechten oberen Ecke ms. »<quote>K/P</quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151115">Angelegt aus Kopie ÖGL</change>
+         <change who="MAM" when="20160416">Kollationiert mit Fotografie CUL</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn</addrLine>
+               <addrLine>Dr. Arthur <hi rend="spaced_out">Schnitzler</hi>
+               </addrLine>
+               <addrLine>
+                  <hi rend="spaced_out">
+                     <hi rend="underline" n="1">
+                        <rs type="place" ref="pmb68">Wien 18.</rs>
+                     </hi>
+                  </hi>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb150">Sternwartestr. 71.</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb168">Berlin</rs>, <date>21. März 23</date>.</dateline>
+               <salute>Sehr verehrter Herr Doktor,</salute>
+            </opener>
+            <p>Aus Anlass des 60. Geburtstages <rs type="person" ref="pmb10815">Hermann Bahrs</rs> erscheint unser <rs type="org" subtype="implied" ref="pmb29212">Juniheft</rs> als Sonderheft »<rs type="place" ref="pmb41240">Oesterreich</rs>«. Ich wäre überaus erfreut, in diese<supplied>m</supplied> Heft auch einen Beitrag von Ihnen bringen zu können und möchte Sie deshalb anfragen, ob Sie mir eine Novelle zur Verfügung stellen könnten.</p>
+            <closer>Mit der Bitte um fr<supplied>e</supplied>undlichen Bescheid<lb/>Ihnen sehr ergeben<lb/>
+               <signed>
+                  <handShift/>Rudolph Kayser</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

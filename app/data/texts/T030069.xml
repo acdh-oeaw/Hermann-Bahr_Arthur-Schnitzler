@@ -1,271 +1,270 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030069.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030068.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030070.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Buchversandliste Die Rahl], [Mitte November 1908]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="069"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB2-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19081115" n="1">Mitte November 1908</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2623 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">1 Bl., 2 S., hs. <persName ref="pmb27910">Clarus</persName> und Bahr, Bleistift und Tinte.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160112">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p part="N"> 
-               <rs type="work" ref="pmb30619">Rahl</rs> an:</p> 
-            <p part="N"> 
-               <handShift scribe="pmb27910"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10875">Benedikt</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3021">Sternberg</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2202">Singer</rs> 
-               </del>, <del rend="strikethrough" n="2"> 
-                  <rs type="person" ref="pmb12460">Pötzl</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="above">Nein</add>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28148">Zweybrück</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11687">Hevesi</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2150">Bauer</rs> 
-               </del>, <rs type="person" ref="pmb2312">Zuckerkandl</rs>, <rs type="person" ref="pmb2989">Polgar</rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11527">Grossmann</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3579">Jakobsen</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="below"> 
-                  <handShift scribe="pmb10815"/>Statt seiner an <rs type="person" ref="pmb12920">Tann-Bergler</rs> geschickt</add>.</p> 
-            <p part="N"> 
-               <handShift scribe="pmb27910"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2545">Görner</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3576">Freysauff</rs> 
-               </del>.</p> 
-            <p part="N"> 
-               <handShift scribe="pmb10815"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10883">Baron Berger</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="below"> 
-                  <del rend="strikethrough"> 
-                     <rs type="person" ref="pmb12640">Schickele</rs> 
-                  </del> 
-               </add> 
-               <space unit="chars" quantity="7"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2167">Salten</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <unclear> 
-                     <rs cert="low" type="person" ref="pmb3579">Jacobson</rs> 
-                  </unclear> 
-               </del> 
-               <space unit="chars" quantity="7"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12101">Siegfried Löwy</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb13163">Theodor Wolff</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb4528">Schröder</rs> 
-               <space unit="chars" quantity="7"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10788">Auernheimer</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2947">Epstein</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11324">Fischer</rs> soll gleich an <rs type="person" ref="pmb3579">Jacobsohn</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11910">Kerr</rs> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2229">Handl</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <gap quantity="10" reason="illegible" unit="chars"/> 
-               </del> 
-               <pb/> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2226">Fred</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12387">Orlik</rs> 
-               </del> 
-            </p> 
-            <p part="N">In <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <hi rend="underline" n="1">selbst</hi> bei <rs type="person" ref="pmb11324">Fischer</rs> Widmungen einschreiben an <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11036">Burckhard</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2121">Schnitzler</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10863">Beer-Hofmann</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2292">Gerty</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11740">Hofmannsthal</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb2167">Salten</rs> 
-               </del>, <rs type="person" ref="pmb12481"> 
-                  <del rend="strikethrough">Josef</del> 
-                  <del rend="strikethrough"> 
-                     <space unit="chars" quantity="1"/> 
-                  </del> 
-                  <del rend="strikethrough">Redlich</del> 
-               </rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3711">Levin</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12671">Schlenther</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10986">Brahm</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb11851">Kainz</rs> 
-               </del>, <rs type="person" ref="pmb11941">Klimt</rs>, <rs type="person" ref="pmb12163">Mahler</rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3280">Kolo Moser</rs> 
-               </del>, <rs type="person" ref="pmb28256">Magda Mautner</rs>, <rs type="person" ref="pmb28121">Maria Bubna</rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb24838">Senders</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12504">Reinhard</rs> 
-               </del>, <rs type="person" ref="pmb11752">Holländer</rs>, <rs type="person" ref="pmb12011"> 
-                  <del rend="strikethrough">Kvapil</del> 
-                  <del rend="strikethrough"> 
-                     <space unit="chars" quantity="1"/> 
-                  </del> 
-                  <del rend="strikethrough">Jaroslav</del> 
-               </rs>, <rs cert="low" type="person" ref="pmb4547">Elsa Bienenstein</rs>, Frau <rs type="person" ref="pmb3508">Mennzel</rs> in <rs type="place" ref="pmb146"> 
-                  <settlement>Frankfurt</settlement> 
-               </rs>, <del rend="strikethrough">Frau Professor </del> 
-               <rs type="person" ref="pmb3709"> 
-                  <del rend="strikethrough">Litzmann</del> 
-               </rs> 
-               <del rend="strikethrough"> in <rs type="place" ref="pmb913"> 
-                     <settlement>Bonn</settlement> 
-                  </rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb13068">Wedekind</rs> 
-               </del>, <rs type="person" ref="pmb10980">Ferdinand Bonn</rs>, <rs type="person" ref="pmb12056">Levetzow</rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb3557">J. V. Widmann</rs> 
-               </del>, Regierungsrat <rs type="person" ref="pmb4525">Kamla</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb863"> 
-                  <settlement>Düsseldorf</settlement> 
-               </rs>, D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11243">Elbogen</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28332">Claire Olbrich</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12387">Orlik</rs> 
-               </del>, <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28344">Staehelin-Baechtold</rs> 
-               </del> 
-            </p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb28124">Anna</rs> 
-               </del> 
-               <space unit="chars" quantity="2"/> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb12906">Suttner</rs> 
-               </del> –</p> 
-            <p part="N"> 
-               <del rend="strikethrough"> 
-                  <rs type="person" ref="pmb10977">Bodmer</rs> 
-               </del> 
-               <space unit="chars" quantity="2"/> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb11771">Holzer</rs> 
-               </hi> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
-</TEI><!-- am 17. November ist er in Berlin, und am 22. liest Schnitzler das Buch-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030069.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030068.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030070.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Buchversandliste Die Rahl], [Mitte November 1908]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="069"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB2-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19081115" n="1">Mitte November 1908</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2623 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">1 Bl., 2 S., hs. <persName ref="pmb27910">Clarus</persName> und Bahr, Bleistift und Tinte.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160112">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <p part="N">
+               <rs type="work" ref="pmb30619">Rahl</rs> an:</p>
+            <p part="N">
+               <handShift scribe="pmb27910"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb10875">Benedikt</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3021">Sternberg</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb2202">Singer</rs>
+               </del>, <del rend="strikethrough" n="2">
+                  <rs type="person" ref="pmb12460">Pötzl</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="above">Nein</add>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb28148">Zweybrück</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb11687">Hevesi</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb2150">Bauer</rs>
+               </del>, <rs type="person" ref="pmb2312">Zuckerkandl</rs>, <rs type="person" ref="pmb2989">Polgar</rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb11527">Grossmann</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3579">Jakobsen</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="below">
+                  <handShift scribe="pmb10815"/>Statt seiner an <rs type="person" ref="pmb12920">Tann-Bergler</rs> geschickt</add>.</p>
+            <p part="N">
+               <handShift scribe="pmb27910"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2545">Görner</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3576">Freysauff</rs>
+               </del>.</p>
+            <p part="N">
+               <handShift scribe="pmb10815"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb10883">Baron Berger</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="below">
+                  <del rend="strikethrough">
+                     <rs type="person" ref="pmb12640">Schickele</rs>
+                  </del>
+               </add>
+               <space unit="chars" quantity="7"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2167">Salten</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <unclear>
+                     <rs type="person" ref="pmb3579">Jacobson</rs>
+                  </unclear>
+               </del>
+               <space unit="chars" quantity="7"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb12101">Siegfried Löwy</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb13163">Theodor Wolff</rs>
+               </del>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb4528">Schröder</rs>
+               <space unit="chars" quantity="7"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb10788">Auernheimer</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2947">Epstein</rs>
+               </del>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11324">Fischer</rs> soll gleich an <rs type="person" ref="pmb3579">Jacobsohn</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11910">Kerr</rs>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2229">Handl</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <gap quantity="10" reason="illegible" unit="chars"/>
+               </del>
+               <pb/>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb2226">Fred</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb12387">Orlik</rs>
+               </del>
+            </p>
+            <p part="N">In <rs type="place" ref="pmb168">Berlin</rs>
+               <space unit="chars" quantity="1"/>
+               <hi rend="underline" n="1">selbst</hi> bei <rs type="person" ref="pmb11324">Fischer</rs> Widmungen einschreiben an <del rend="strikethrough">
+                  <rs type="person" ref="pmb11036">Burckhard</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb2121">Schnitzler</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb10863">Beer-Hofmann</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb2292">Gerty</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb11740">Hofmannsthal</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb2167">Salten</rs>
+               </del>, <rs type="person" ref="pmb12481">
+                  <del rend="strikethrough">Josef</del>
+                  <del rend="strikethrough">
+                     <space unit="chars" quantity="1"/>
+                  </del>
+                  <del rend="strikethrough">Redlich</del>
+               </rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3711">Levin</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb12671">Schlenther</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb10986">Brahm</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb11851">Kainz</rs>
+               </del>, <rs type="person" ref="pmb11941">Klimt</rs>, <rs type="person" ref="pmb12163">Mahler</rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3280">Kolo Moser</rs>
+               </del>, <rs type="person" ref="pmb28256">Magda Mautner</rs>, <rs type="person" ref="pmb20522">Maria Bubna</rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb24838">Senders</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb12504">Reinhard</rs>
+               </del>, <rs type="person" ref="pmb11752">Holländer</rs>, <rs type="person" ref="pmb12011">
+                  <del rend="strikethrough">Kvapil</del>
+                  <del rend="strikethrough">
+                     <space unit="chars" quantity="1"/>
+                  </del>
+                  <del rend="strikethrough">Jaroslav</del>
+               </rs>, <rs type="person" ref="pmb4547">Elsa Bienenstein</rs>, Frau <rs type="person" ref="pmb3508">Mennzel</rs> in <rs type="place" ref="pmb146">Frankfurt</rs>, <del rend="strikethrough">Frau Professor </del>
+               <rs type="person" ref="pmb3709">
+                  <del rend="strikethrough">Litzmann</del>
+               </rs>
+               <del rend="strikethrough"> in <rs type="place" ref="pmb913">Bonn</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb13068">Wedekind</rs>
+               </del>, <rs type="person" ref="pmb10980">Ferdinand Bonn</rs>, <rs type="person" ref="pmb12056">Levetzow</rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb3557">J. V. Widmann</rs>
+               </del>, Regierungsrat <rs type="person" ref="pmb4525">Kamla</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb863">Düsseldorf</rs>, D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11243">Elbogen</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb50">Wien</rs>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb28332">Claire Olbrich</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb12387">Orlik</rs>
+               </del>, <del rend="strikethrough">
+                  <rs type="person" ref="pmb28344">Staehelin-Baechtold</rs>
+               </del>
+            </p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb28124">Anna</rs>
+               </del>
+               <space unit="chars" quantity="2"/>
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb12906">Suttner</rs>
+               </del> –</p>
+            <p part="N">
+               <del rend="strikethrough">
+                  <rs type="person" ref="pmb10977">Bodmer</rs>
+               </del>
+               <space unit="chars" quantity="2"/>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb11771">Holzer</rs>
+               </hi>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- am 17. November ist er in Berlin, und am 22. liest Schnitzler das Buch-->

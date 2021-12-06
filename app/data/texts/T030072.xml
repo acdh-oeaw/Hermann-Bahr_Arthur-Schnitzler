@@ -1,435 +1,416 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030072.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030071.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030073.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Buchversandliste Inventur], [Anfang September 1912]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="072"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB5-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19120900" n="01">[Anfang September 1912]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2622 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">2 Bl., 4 S., Bleistift und Tinte, bis auf »<quote> 
-                              <workName ref="pmb30035">Inventur</workName> schicken an</quote>« und »<quote>Roller</quote>« alles durch Streichungen als erledigt markiert.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">angelegt</change> 
-         <change who="KI MAM" when="20160120">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3579">Leopold Jacobson</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3885">Zavrel</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb31501">Wiltfeb</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12096">Berthold Litzmann</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3923">Wilhelm Ostwald</rs> 
-            </p> 
-            <p part="N">Prof. <rs type="person" ref="pmb13048">Walzl</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb866"> 
-                  <settlement>Dresden</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="work" ref="pmb30035">Inventur</rs> schicken an:</p> 
-            <p part="N">Pater <rs type="person" ref="pmb3888">Heribert</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb3397">Wolfgang Heine</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3892">Barrès</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb12031">Gustav Landauer</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3731">Kralik</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12540">Roland</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11832">Jerusalem</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28518">Carl Jentsch</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3861">Hofmiller</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb4234">W. Förster</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12471">Walter Rathenau</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3386">Fritz Mauthner</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb4270">Eibl</rs>, <rs type="person" ref="pmb13212">Stefan Zweig</rs> 
-            </p> 
-            <p part="N"> 
-               <rs cert="low" type="person" ref="pmb11527"> 
-                  <unclear>Großmann</unclear> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb10749">Adler</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12778">Simmel</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="org" ref="pmb29701">Sozial. Monatshefte</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11488">Rudolf Goldscheid</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="place" ref="pmb407">III/<hi rend="subscript"> 
-                     <unclear>3</unclear> 
-                  </hi> Jacquingasse 45</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11148">Dehmel</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb4628">W. C. Wendte </rs> p. t. <rs type="org" ref="pmb29710">The Christian Commonwealth</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28495">Otto</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28124">Anna</rs> 
-            </p> 
-            <p part="N">Frau <rs type="person" ref="pmb28498">Radel</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb506"> 
-                  <settlement>Hamburg</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3824">Friedrich Gundolf</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12551">Rosegger</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2771">Egon Friedell</rs> 
-            </p> 
-            <p part="N"> 
-               <del rend="overwritten">D<hi rend="superscript">r</hi> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="person" ref="pmb13173">Wyneken</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="inline">nicht geschickt</add> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3975">Franz Oppenheimer</rs> 
-               <pb/> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2142">d’Annunzio</rs> | <rs type="person" ref="pmb11617">Hauptmann</rs> | <rs type="person" ref="pmb3869">Lud v Hofmann</rs> 
-            </p> 
-            <p part="N"> 
-               <del rend="overwritten"> 
-                  <rs type="person" ref="pmb12156">Maeterlinck</rs> 
-               </del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="inline">nein</add> | <rs type="person" ref="pmb26435">Verhaeren</rs> 
-               <space unit="chars" quantity="1"/> 
-               <add place="below">nein</add> | <unclear> 
-                  <rs cert="low" type="person" ref="pmb11469">Gold</rs> 
-               </unclear> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3919">Prinz Max von Baden</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11049">Hermann Burte</rs> p. A. Verlag</p> 
-            <p part="N"> 
-               <rs type="org" ref="pmb29690">Gideon Carl Sarasin</rs> in <rs type="place" ref="pmb864"> 
-                  <settlement>Leipzig</settlement> 
-               </rs> (Zum Dank für den <rs type="work" ref="pmb31501">Wildfeber</rs>)</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3940">Dietzel</rs>, <rs type="person" ref="pmb12096">Litzmann</rs> – <rs type="place" ref="pmb913"> 
-                  <settlement>Bonn</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3827">Paul Deussen</rs> – <rs type="place" ref="pmb907"> 
-                  <settlement>Kiel</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11086">Chamberlain</rs>, <rs type="person" ref="pmb12471">Rathenau</rs> 
-            </p> 
-            <p part="N"> 
-               <unclear>Brolds</unclear>? <add place="inline">Nein</add> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3896">Prof. Eugen Kühnemann</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb677"> 
-                  <settlement>Breslau</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="place" ref="pmb408">Krietern</rs> Altes Schloß</p> 
-            <p part="N"> 
-               <gap quantity="6" reason="illegible" unit="chars"/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb876"> 
-                  <settlement>Jena</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <unclear>Prof.</unclear> 
-               <space unit="chars" quantity="1"/> 
-               <gap unit="chars" reason="illegible" quantity="5"/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb23352">Richter</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11575">Handel-Mazetti</rs> 
-            </p> 
-            <p part="N"> 
-               <gap quantity="7" reason="illegible" unit="chars"/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3943">Hielscher</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb409"> 
-                  <settlement>Pr. Stargard</settlement> 
-               </rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb13068">Wedekind</rs> Wa<gap unit="chars" reason="illegible" quantity="7"/> Nein</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3930">Gustav Manz</rs>, <rs type="org" ref="pmb29691">Tägl. Rundschau</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="org" subtype="implied" ref="pmb29791">Östreich-ungar. Wochenschrift</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb406">Wien III/<hi rend="subscript">2</hi> Kollergasse</rs> 
-               <pb/> 
-            </p> 
-            <p part="N">D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3839">Oskar Jászi</rs>, Präsident der <rs type="org" ref="pmb29765">Soziologischen Gesellschaft</rs> in <rs type="place" ref="pmb464"> 
-                  <settlement>Budapest</settlement> 
-               </rs>.</p> 
-            <p part="N">Herr <rs type="person" ref="pmb3831">Paul Siebertz</rs>, Red. der Wochenschrift »<rs type="org" ref="pmb29791">Östreich-Ungarn</rs>« <rs type="place" ref="pmb406">Wien III/<hi rend="subscript">2</hi> Kollergasse 7</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11910">Kerr</rs>, <rs type="person" ref="pmb12319">Muther <add place="above">Nein</add> 
-               </rs> 
-               <space unit="chars" quantity="10"/> 
-               <rs type="person" ref="pmb12011">Kvapil</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2229">Handl</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3923">Ostwald</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb3835">Schweninger</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb3844">Steed</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb11145">Decsey</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28499">Pühringer</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="org" ref="pmb29792">Times</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb11581">Harden</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb4238">Sabatier</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3849">Joh. Müller</rs> 
-            </p> 
-            <p part="N"> 
-               <anchor type="commentary" xml:id="KT072-1"> 
-                  <rs type="work" ref="pmb31115">Als Ob</rs> 
-               </anchor> Professor <rs type="person" ref="pmb3564">Hans Vaihinger</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb140"> 
-                  <settlement>Halle</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3280">Kolo</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb11447">Glossy</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12548">Roller</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb2686">Konrad Hohenlohe</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3573">Destinn</rs> 
-               <space unit="chars" quantity="1"/> 
-               <add place="inline">Nein</add> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb13163">Theodor Wolff</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12011">Kvapil</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="org" ref="pmb29658">Corriere</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb10795">Ferd. Avenarius</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb11145">Decsey</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb10883">Berger</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb10955">Blei</rs> 
-               <pb/> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb10863">Beerhofmann</rs>, <rs type="person" ref="pmb2167">Salten</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb10875">Benedikt</rs>, <rs type="person" ref="pmb2202">Wilhelm Singer</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12481">Redlich</rs> 
-               <space unit="chars" quantity="5"/> 
-               <rs type="person" ref="pmb3573">Destinn</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3576">Freysauff</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb11161">Eugen Diederichs</rs> 
-            </p> 
-            <p part="N">Pfr <rs type="person" ref="pmb3582">Hermann Kutter</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb339">Zürich Mittelstr 20</rs> 
-            </p> 
-            <p part="N">–„– D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28217">Simon</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb734"> 
-                  <settlement>Bayreuth</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28219">Campbell</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28459">Johannes Eckart</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="org" ref="pmb29656">Salzburger Chronik</rs> 
-            </p> 
-            <p part="N">Bischof <rs type="person" ref="pmb3698"> 
-                  <add place="inline">Paul Wilh. v.</add> Keppler</rs> in <rs type="place" ref="pmb1072"> 
-                  <settlement>Rothenburg</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb28500">Borello</rs> in <rs type="place" ref="pmb857"> 
-                  <settlement>San Domenico di Fiesole bei Florenz</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3900"> 
-                  <add place="inline">Gottfried</add> Traub</rs> in <rs type="place" ref="pmb915"> 
-                  <settlement>Dortmund</settlement> 
-               </rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3357">Driesmans</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb514">Berlin-Wilmersdorf Pariserstr 58</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb3775">Duncan</rs> 
-            </p> 
-            <p part="N">D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/>– <rs type="person" ref="pmb3933">Dalcroze</rs> 
-               <space unit="chars" quantity="3"/>D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb3936">Wolf Dohrn</rs> 
-            </p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb12906">Suttner</rs> 
-               <space unit="chars" quantity="2"/> 
-               <rs type="person" ref="pmb12147">Mach</rs> 
-               <space unit="chars" quantity="2"/> 
-               <rs type="person" ref="pmb13027">Siegfr. Wagner</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
-</TEI><!-- Redlich hat's am 13. September erhalten, Zweig auch.-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030072.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030071.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030073.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Buchversandliste Inventur], [Anfang September 1912]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="072"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AB5-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19120900" n="01">[Anfang September 1912]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2622 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">2 Bl., 4 S., Bleistift und Tinte, bis auf »<quote>
+                              <workName ref="pmb30035">Inventur</workName> schicken an</quote>« und »<quote>Roller</quote>« alles durch Streichungen als erledigt markiert.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">angelegt</change>
+         <change who="KI MAM" when="20160120">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <p part="N">
+               <rs type="person" ref="pmb3579">Leopold Jacobson</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3885">Zavrel</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb31501">Wiltfeb</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12096">Berthold Litzmann</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3923">Wilhelm Ostwald</rs>
+            </p>
+            <p part="N">Prof. <rs type="person" ref="pmb13048">Walzl</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb866">Dresden</rs>
+            </p>
+            <p part="N">
+               <rs type="work" ref="pmb30035">Inventur</rs> schicken an:</p>
+            <p part="N">Pater <rs type="person" ref="pmb3888">Heribert</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb38364">Wolfgang Heine</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3892">Barrès</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb12031">Gustav Landauer</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3731">Kralik</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12540">Roland</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11832">Jerusalem</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28518">Carl Jentsch</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3861">Hofmiller</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb4234">W. Förster</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12471">Walter Rathenau</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3386">Fritz Mauthner</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb4270">Eibl</rs>, <rs type="person" ref="pmb13212">Stefan Zweig</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11527">
+                  <unclear>Großmann</unclear>
+               </rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb10749">Adler</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12778">Simmel</rs>
+            </p>
+            <p part="N">
+               <rs type="org" ref="pmb29701">Sozial. Monatshefte</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11488">Rudolf Goldscheid</rs>
+            </p>
+            <p part="N">
+               <rs type="place" ref="pmb407">III/<hi rend="subscript">
+                     <unclear>3</unclear>
+                  </hi> Jacquingasse 45</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11148">Dehmel</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb4628">W. C. Wendte </rs> p. t. <rs type="org" ref="pmb29710">The Christian Commonwealth</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28495">Otto</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28124">Anna</rs>
+            </p>
+            <p part="N">Frau <rs type="person" ref="pmb28498">Radel</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb506">Hamburg</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3824">Friedrich Gundolf</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12551">Rosegger</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb2771">Egon Friedell</rs>
+            </p>
+            <p part="N">
+               <del rend="overwritten">D<hi rend="superscript">r</hi>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="person" ref="pmb13173">Wyneken</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="inline">nicht geschickt</add>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3975">Franz Oppenheimer</rs>
+               <pb/>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb2142">d’Annunzio</rs> | <rs type="person" ref="pmb11617">Hauptmann</rs> | <rs type="person" ref="pmb3869">Lud v Hofmann</rs>
+            </p>
+            <p part="N">
+               <del rend="overwritten">
+                  <rs type="person" ref="pmb12156">Maeterlinck</rs>
+               </del>
+               <space unit="chars" quantity="1"/>
+               <add place="inline">nein</add> | <rs type="person" ref="pmb26435">Verhaeren</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="below">nein</add> | <unclear>
+                  <rs type="person" ref="pmb11469">Gold</rs>
+               </unclear>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3919">Prinz Max von Baden</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11049">Hermann Burte</rs> p. A. Verlag</p>
+            <p part="N">
+               <rs type="org" ref="pmb29690">Gideon Carl Sarasin</rs> in <rs type="place" ref="pmb864">Leipzig</rs> (Zum Dank für den <rs type="work" ref="pmb31501">Wildfeber</rs>)</p>
+            <p part="N">
+               <rs type="person" ref="pmb3940">Dietzel</rs>, <rs type="person" ref="pmb12096">Litzmann</rs> – <rs type="place" ref="pmb913">Bonn</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3827">Paul Deussen</rs> – <rs type="place" ref="pmb907">Kiel</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11086">Chamberlain</rs>, <rs type="person" ref="pmb12471">Rathenau</rs>
+            </p>
+            <p part="N">
+               <unclear>Brolds</unclear>? <add place="inline">Nein</add>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3896">Prof. Eugen Kühnemann</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb677">Breslau</rs>
+            </p>
+            <p part="N">
+               <rs type="place" ref="pmb49108">Krietern</rs> Altes Schloß</p>
+            <p part="N">
+               <gap quantity="6" reason="illegible" unit="chars"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb876">Jena</rs>
+            </p>
+            <p part="N">
+               <unclear>Prof.</unclear>
+               <space unit="chars" quantity="1"/>
+               <gap unit="chars" reason="illegible" quantity="5"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb23352">Richter</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11575">Handel-Mazetti</rs>
+            </p>
+            <p part="N">
+               <gap quantity="7" reason="illegible" unit="chars"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3943">Hielscher</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb409">Pr. Stargard</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb13068">Wedekind</rs> Wa<gap unit="chars" reason="illegible" quantity="7"/> Nein</p>
+            <p part="N">
+               <rs type="person" ref="pmb3930">Gustav Manz</rs>, <rs type="org" ref="pmb29691">Tägl. Rundschau</rs>
+            </p>
+            <p part="N">
+               <rs type="org" subtype="implied" ref="pmb29791">Östreich-ungar. Wochenschrift</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb406">Wien III/<hi rend="subscript">2</hi> Kollergasse</rs>
+               <pb/>
+            </p>
+            <p part="N">D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3839">Oskar Jászi</rs>, Präsident der <rs type="org" ref="pmb29765">Soziologischen Gesellschaft</rs> in <rs type="place" ref="pmb43471">Budapest</rs>.</p>
+            <p part="N">Herr <rs type="person" ref="pmb3831">Paul Siebertz</rs>, Red. der Wochenschrift »<rs type="org" ref="pmb29791">Östreich-Ungarn</rs>« <rs type="place" ref="pmb406">Wien III/<hi rend="subscript">2</hi> Kollergasse 7</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11910">Kerr</rs>, <rs type="person" ref="pmb12319">Muther <add place="above">Nein</add>
+               </rs>
+               <space unit="chars" quantity="10"/>
+               <rs type="person" ref="pmb12011">Kvapil</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2229">Handl</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3923">Ostwald</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb3835">Schweninger</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb3844">Steed</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb11145">Decsey</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28499">Pühringer</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="org" ref="pmb29792">Times</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb11581">Harden</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb4238">Sabatier</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3849">Joh. Müller</rs>
+            </p>
+            <p part="N">
+               <anchor type="commentary" xml:id="KT072-1">
+                  <rs type="work" ref="pmb31115">Als Ob</rs>
+               </anchor> Professor <rs type="person" ref="pmb3564">Hans Vaihinger</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb140">Halle</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3280">Kolo</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb11447">Glossy</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12548">Roller</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb2686">Konrad Hohenlohe</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3573">Destinn</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="inline">Nein</add>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb13163">Theodor Wolff</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12011">Kvapil</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="org" ref="pmb29658">Corriere</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb10795">Ferd. Avenarius</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb11145">Decsey</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb10883">Berger</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb10955">Blei</rs>
+               <pb/>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb10863">Beerhofmann</rs>, <rs type="person" ref="pmb2167">Salten</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb10875">Benedikt</rs>, <rs type="person" ref="pmb2202">Wilhelm Singer</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12481">Redlich</rs>
+               <space unit="chars" quantity="5"/>
+               <rs type="person" ref="pmb3573">Destinn</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3576">Freysauff</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb11161">Eugen Diederichs</rs>
+            </p>
+            <p part="N">Pfr <rs type="person" ref="pmb3582">Hermann Kutter</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb339">Zürich Mittelstr 20</rs>
+            </p>
+            <p part="N">–„– D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28217">Simon</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb734">Bayreuth</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28219">Campbell</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28459">Johannes Eckart</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="org" ref="pmb29656">Salzburger Chronik</rs>
+            </p>
+            <p part="N">Bischof <rs type="person" ref="pmb3698">
+                  <add place="inline">Paul Wilh. v.</add> Keppler</rs> in <rs type="place" ref="pmb49141">Rothenburg</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb28500">Borello</rs> in <rs type="place" ref="pmb857">San Domenico di Fiesole bei Florenz</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3900">
+                  <add place="inline">Gottfried</add> Traub</rs> in <rs type="place" ref="pmb915">Dortmund</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3357">Driesmans</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb514">Berlin-Wilmersdorf Pariserstr 58</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb3775">Duncan</rs>
+            </p>
+            <p part="N">D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>– <rs type="person" ref="pmb3933">Dalcroze</rs>
+               <space unit="chars" quantity="3"/>D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb3936">Wolf Dohrn</rs>
+            </p>
+            <p part="N">
+               <rs type="person" ref="pmb12906">Suttner</rs>
+               <space unit="chars" quantity="2"/>
+               <rs type="person" ref="pmb12147">Mach</rs>
+               <space unit="chars" quantity="2"/>
+               <rs type="person" ref="pmb13027">Siegfr. Wagner</rs>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Redlich hat's am 13. September erhalten, Zweig auch.-->

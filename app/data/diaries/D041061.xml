@@ -1,88 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041061.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041060.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041062.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 6. 11. 1910</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="061"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-886F-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19101106" n="1">6/11</date> S. Nebel und Regenwetter. Zu <rs type="person" ref="pmb2642 pmb2646">Speidels</rs>. Über die <rs type="work" ref="pmb29937">Medardus</rs> Proben u. a.</p> 
-            <p> 
-               <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Nm. mit ihr das <rs type="work" ref="pmb30323">Trio</rs> des 13j. <rs type="person" ref="pmb11969">Korngold</rs>. Außerordentlich.– </p> 
-            <p>Frau <rs type="person" ref="pmb13970">Benedict</rs> mit <rs type="person" ref="pmb24033">Minnie</rs> erscheinen, sehn sich das Haus an, nehmen Thee mit uns. <rs type="person" ref="pmb24033">Minnie</rs> erledigt nur einige wenige Taktlosigkeiten (zu <rs type="person" ref="pmb2173">O.</rs>: Sie können auch ohne Ihren Mann zu uns kommen – Sie sehen, wir sind nicht Streberinnen <c rendition="#dots" n="3" place="center"/> Ich darauf. Vielleicht erst recht.– Zu mir: »Auf Ihren Bildern sehn Sie immer aus wie ein schlechter Charakter.«) war aber sonst resignirt; will ein Gut kaufen bei <rs type="place" ref="pmb930"> 
-                  <settlement>Großreifling</settlement> 
-               </rs> sich aufs Land zurückziehn. Die <rs type="person" subtype="implied" ref="pmb13970">Mutter</rs> sehr sympathisch.</p> 
-            <p>– Später Dr. <rs type="person" ref="pmb2496">Kaufmann</rs>. Viel über das Problem <rs type="person" ref="pmb2167">Salten</rs>; über ihn, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10883">Berger</rs> – die Feuilletonisten Naturen. (Der <anchor type="commentary" xml:id="KD061-1"> 
-                  <rs type="work" ref="pmb30321">Wurstl Roman</rs> 
-               </anchor> wieder nahe, durch die Figur <rs type="person" ref="pmb2167">Saltens</rs>, der da nicht zu entbehren sein wird.) – </p> 
-            <p>Frl. <rs type="person" ref="pmb13701">Vilma Balogh</rs>, <rs type="place" ref="pmb464"> 
-                  <settlement>Budapest</settlement> 
-               </rs>; wegen Aufführung »<rs type="work" ref="pmb29935">Anatol</rs>« in den dortigen <rs type="place" ref="pmb87">Kammerspielen</rs>, Übersetzung »<rs type="work" ref="pmb29923">Weg ins freie</rs>«; wie sich herausstellte, hatte sie mich bei dieser Gelegenheit auch interviewt.– </p> 
-            <p>Mit <rs type="person" ref="pmb2173">O.</rs> nach dem Nachtmahl <rs type="person" ref="pmb2674">Pfitzner</rs>, <rs type="person" ref="pmb12729">Schubert</rs>.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041061.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041060.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041062.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 6. 11. 1910</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="061"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-886F-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19101106" n="1">6/11</date> S. Nebel und Regenwetter. Zu <rs type="person" ref="pmb2642 pmb2646">Speidels</rs>. Über die <rs type="work" ref="pmb29937">Medardus</rs> Proben u. a.</p>
+            <p>
+               <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> zu Tisch. Nm. mit ihr das <rs type="work" ref="pmb30323">Trio</rs> des 13j. <rs type="person" ref="pmb11969">Korngold</rs>. Außerordentlich.– </p>
+            <p>Frau <rs type="person" ref="pmb13970">Benedict</rs> mit <rs type="person" ref="pmb24033">Minnie</rs> erscheinen, sehn sich das Haus an, nehmen Thee mit uns. <rs type="person" ref="pmb24033">Minnie</rs> erledigt nur einige wenige Taktlosigkeiten (zu <rs type="person" ref="pmb2173">O.</rs>: Sie können auch ohne Ihren Mann zu uns kommen – Sie sehen, wir sind nicht Streberinnen <c rendition="#dots" n="3" place="center"/> Ich darauf. Vielleicht erst recht.– Zu mir: »Auf Ihren Bildern sehn Sie immer aus wie ein schlechter Charakter.«) war aber sonst resignirt; will ein Gut kaufen bei <rs type="place" ref="pmb49201">Großreifling</rs> sich aufs Land zurückziehn. Die <rs type="person" subtype="implied" ref="pmb13970">Mutter</rs> sehr sympathisch.</p>
+            <p>– Später Dr. <rs type="person" ref="pmb2496">Kaufmann</rs>. Viel über das Problem <rs type="person" ref="pmb2167">Salten</rs>; über ihn, <rs type="person" ref="pmb10815">Bahr</rs>, <rs type="person" ref="pmb10883">Berger</rs> – die Feuilletonisten Naturen. (Der <anchor type="commentary" xml:id="KD061-1">
+                  <rs type="work" ref="pmb30321">Wurstl Roman</rs>
+               </anchor> wieder nahe, durch die Figur <rs type="person" ref="pmb2167">Saltens</rs>, der da nicht zu entbehren sein wird.) – </p>
+            <p>Frl. <rs type="person" ref="pmb13701">Vilma Balogh</rs>, <rs type="place" ref="pmb43471">Budapest</rs>; wegen Aufführung »<rs type="work" ref="pmb29935">Anatol</rs>« in den dortigen <rs type="place" ref="pmb87">Kammerspielen</rs>, Übersetzung »<rs type="work" ref="pmb29923">Weg ins freie</rs>«; wie sich herausstellte, hatte sie mich bei dieser Gelegenheit auch interviewt.– </p>
+            <p>Mit <rs type="person" ref="pmb2173">O.</rs> nach dem Nachtmahl <rs type="person" ref="pmb2674">Pfitzner</rs>, <rs type="person" ref="pmb12729">Schubert</rs>.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

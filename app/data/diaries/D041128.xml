@@ -1,83 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041128.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041127.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041129.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 5. 1. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="128" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88B2-F</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950105" n="1">5/1</date> Vorm. in der <rs type="place" ref="pmb7">Secession</rs> mit <rs type="person" ref="pmb2378">Mz. Rh.</rs>– Sie schien gerade in den letzten Tagen erfahren zu haben, dass <rs type="person" ref="pmb12618">Dilly</rs> meine Gel.; war immerfort gereizt; redete von meinem schlechten Ruf. Ich begleitete sie ein Stück.– Nm. schrieb ich an <rs type="person" ref="pmb14953">Mz.</rs>, ein Brief von <rs type="person" ref="pmb12618">Dilly</rs> kam während dem, den ich mit »Geliebter Schatz« beantwortete – ich hatte einen leichten Ekel vor meiner Verlogenheit, die eigentlich keine ist, sondern Schwäche.–</p> 
-            <p> 
-               <rs type="person" ref="pmb10815">Bahr</rs> erzählt mir, dass die <anchor type="commentary" xml:id="KD128-1">Eng.</anchor> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12618">Dilly</rs> – <rs type="place" ref="pmb14">Burgth.</rs> gut stehe und – <rs type="person" ref="pmb11036">Burckhard</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb29917">Liebelei</rs> als erstes aufführen will.–</p> 
-            <p>Im <rs type="work" ref="pmb30415">Kind des Glücks</rs> debutirte <rs type="person" ref="pmb10752">Retty</rs>.– Im Kfh. mußte ich und <rs type="person" ref="pmb26392">Leo Vanjung</rs> einen Brief von <rs type="person" ref="pmb2167">Salten</rs> an <rs type="person" ref="pmb16716">Otto Frischauer</rs> mitunterschreiben.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041128.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041127.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041129.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 5. 1. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="128" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88B2-F</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950105" n="1">5/1</date> Vorm. in der <rs type="place" ref="pmb7">Secession</rs> mit <rs type="person" ref="pmb2378">Mz. Rh.</rs>– Sie schien gerade in den letzten Tagen erfahren zu haben, dass <rs type="person" ref="pmb12618">Dilly</rs> meine Gel.; war immerfort gereizt; redete von meinem schlechten Ruf. Ich begleitete sie ein Stück.– Nm. schrieb ich an <rs type="person" ref="pmb14953">Mz.</rs>, ein Brief von <rs type="person" ref="pmb12618">Dilly</rs> kam während dem, den ich mit »Geliebter Schatz« beantwortete – ich hatte einen leichten Ekel vor meiner Verlogenheit, die eigentlich keine ist, sondern Schwäche.–</p>
+            <p>
+               <rs type="person" ref="pmb10815">Bahr</rs> erzählt mir, dass die <anchor type="commentary" xml:id="KD128-1">Eng.</anchor>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12618">Dilly</rs> – <rs type="place" ref="pmb14">Burgth.</rs> gut stehe und – <rs type="person" ref="pmb11036">Burckhard</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb29917">Liebelei</rs> als erstes aufführen will.–</p>
+            <p>Im <rs type="work" ref="pmb30415">Kind des Glücks</rs> debutirte <rs type="person" ref="pmb10752">Retty</rs>.– Im Kfh. mußte ich und <rs type="person" ref="pmb26392">Leo Vanjung</rs> einen Brief von <rs type="person" ref="pmb2167">Salten</rs> an <rs type="person" ref="pmb16716">Otto Frischauer</rs> mitunterschreiben.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

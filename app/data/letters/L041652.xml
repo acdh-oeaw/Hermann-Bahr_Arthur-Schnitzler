@@ -1,164 +1,149 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041652.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041651.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041653.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur an Olga Schnitzler, 7. 9. 1919</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="652"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FC-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19190907" n="01">7. 9. 1919</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.1847</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S., mit Kuvert, Lateinschrift</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb50">Wien</placeName> 
-                           <date when="19190908">8. IX. 19</date> 
-                           <time>IX</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161013">Angelegt aus Abschrift</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Dr. Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb150">Sternwart</rs> 
-               </addrLine> 
-            </address> 
-            <address> 
-               <addrLine>Express</addrLine> 
-               <addrLine>Frau Olga Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb30"> 
-                     <settlement> 
-                        <hi rend="underline" n="2">Salzburg</hi> 
-                     </settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb231">Hotel Bristol</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, Sonntag <date>7. 9. 1919</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>liebe, </salute>heut Mittag als ich vom <geogName type="place">Hameau</geogName> nach Hause kam, deine zwei Expressbriefe,– der eine aus <rs type="place" ref="pmb483"> 
-                  <settlement>Reichenau</settlement> 
-               </rs> hieher geschickt, vom 2., der andre directe, vom 5. Die Ausweisungsgefahr wird wohl nicht so groß sein, und keineswegs wird man Maschinengewehre auffahren lassen oder mit ihnen drohen, wie es in <rs type="place" ref="pmb895"> 
-                  <settlement>Strobl</settlement> 
-               </rs> geschehn sein soll. Also <rs type="place" ref="pmb667"> 
-                  <settlement>Partenkirchen</settlement> 
-               </rs> willst du am 25. singen? Ich dachte eigentlich, möglichst nah vor dem <rs type="place" ref="pmb155">Münchner</rs> Concert. Und daß dir die zweimalige Reise nach <rs type="place" ref="pmb667"> 
-                  <settlement>Partenkirchen</settlement> 
-               </rs> innerhalb so kurzer Zeit unbequem sein sein müßte. Das <rs cert="low" type="person" ref="pmb16374">F<unclear>oges</unclear> 
-               </rs>sche Recept leg ich bei. Du weißt ja, allmälig ansteigend von 6 Tropfen täglich bis etwa 24 und dann wieder zurück. Übrigens wirst du auch ohne Arsen schön singen. Wovon hängt denn die <rs type="org" ref="pmb29232">Wassermann</rs>-Sache eigentlich ab? Und wer soll dich denn in <rs type="place" ref="pmb667"> 
-                  <settlement>Partenkirchen</settlement> 
-               </rs> begleiten? Den <rs type="person" ref="pmb2315">Liesl</rs> Brief hast du wohl erhalten. <rs type="person" ref="pmb16123">Lili Feiks</rs>, nun auf der Rückreise <unclear>nach</unclear> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb464"> 
-                  <settlement>Budapest</settlement> 
-               </rs> hat wieder telephonirt; erzählt dss es <rs type="person" ref="pmb2315">Liesl</rs> so gut gehe wie noch nie. Aus <rs type="place" ref="pmb167"> 
-                  <country>Ungarn</country> 
-               </rs> wahre Greuelgeschichten. Die Weißen noch viel mordlustiger als die Bolschewisten waren. Die Welt ist schon einmal so, dss<pb/> einem immer die Wahl weh thut. </p> 
-            <p>Ich hab mich nun entschlossen, morgen Montag nach <rs type="place" ref="pmb796">Reichenau Kurhaus</rs> zu fahren und bis Freitag früh dort zu bleiben. Also am Dinstag könntest du noch eine Expressnachricht für mich dorthin dirigiren. <rs type="person" ref="pmb20398 pmb20400">Lichtensterns</rs> sind kaum mehr dort. <rs type="person" ref="pmb13644">Ama</rs> mit <rs type="person" ref="pmb2753">Mimi</rs> fahren erst Donnerstag hin. Doch haben <rs type="person" ref="pmb2753">Mimi</rs> mit <rs type="person" ref="pmb27549">Vicki</rs> sich eben für heute Abend bei mir angefragt und angesagt. </p> 
-            <p>Wirtschaftliches (Zucker, Holz etc) berichtet <rs type="person" ref="pmb24945">Wucki</rs>. Es ist alles in tadelloser Ordnung (abgesehn von dem Reinemachaos). <rs type="person" ref="pmb12692">Heini</rs> von <rs type="person" ref="pmb4843">Robert</rs> sehr entzückt; spielt den ganzen Tag – allerdings <rs type="work" ref="pmb30627">Carmen</rs>; ist eben bei Fräulein <rs type="person" ref="pmb20908">Mandl</rs>. <rs type="person" ref="pmb2238">Lili</rs> spielt Croquet im Garten, meist allein – heute mit der (Zucker gebracht habenden) <rs type="person" ref="pmb18732">Fingi</rs>. Das Wetter ergreifend schön; besonders die Abende.– <rs type="person" ref="pmb12518">Emil Alph.</rs>; – und <rs type="person" ref="pmb2273">Grethe</rs> – <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> find ich sehr <rs type="place" ref="pmb816">Rzeszow</rs>-voll. Der liebe Gott macht überhaupt nicht viel mehr als Nutzanwendungen zu jüdischen Anekdoten.</p> 
-            <p> 
-               <anchor type="label" xml:id="LL652-1"> 
-                  <rs type="person" ref="pmb10815">Hermann B.</rs> unsichtbar?</anchor> Grüß mir den <rs type="person" subtype="implied" ref="pmb2167">Jubilar</rs> wenn er vorlesen kommt. Ich hoffe es geht dir wieder gut;– und es war eine Lampenmelancholie. leb wohl und sei innig gegrüßt. <signed>A.</signed> 
-            </p> 
-            <postscript> 
-               <p> 
-                  <anchor type="textConst" xml:id="TL652-1">(Ich lasse dir durch die <anchor type="commentary" xml:id="KL652-2"> 
-                        <rs type="org" ref="pmb29244">B Cr</rs> 
-                     </anchor> 1 tausend Kr. schicken.)</anchor> 
-               </p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041652.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041651.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041653.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur an Olga Schnitzler, 7. 9. 1919</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="652"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FC-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19190907" n="01">7. 9. 1919</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.1847</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., mit Kuvert, Lateinschrift</p>
+                        <stamp n="1">
+                           <placName ref="pmb50">Wien</placName>
+                           <date when="19190908">8. IX. 19</date>
+                           <time>IX</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161013">Angelegt aus Abschrift</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Dr. Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb68">Wien XVIII</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb150">Sternwart</rs>
+               </addrLine>
+            </address>
+            <address>
+               <addrLine>Express</addrLine>
+               <addrLine>Frau Olga Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb30">Salzburg</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb40384">Hotel Bristol</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, Sonntag <date>7. 9. 1919</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>liebe, </salute>heut Mittag als ich vom <geogName type="place">Hameau</geogName> nach Hause kam, deine zwei Expressbriefe,– der eine aus <rs type="place" ref="pmb483">Reichenau</rs> hieher geschickt, vom 2., der andre directe, vom 5. Die Ausweisungsgefahr wird wohl nicht so groß sein, und keineswegs wird man Maschinengewehre auffahren lassen oder mit ihnen drohen, wie es in <rs type="place" ref="pmb895">Strobl</rs> geschehn sein soll. Also <rs type="place" ref="pmb667">Partenkirchen</rs> willst du am 25. singen? Ich dachte eigentlich, möglichst nah vor dem <rs type="place" ref="pmb45258">Münchner</rs> Concert. Und daß dir die zweimalige Reise nach <rs type="place" ref="pmb667">Partenkirchen</rs> innerhalb so kurzer Zeit unbequem sein sein müßte. Das <rs type="person" ref="pmb16374">F<unclear>oges</unclear>
+               </rs>sche Recept leg ich bei. Du weißt ja, allmälig ansteigend von 6 Tropfen täglich bis etwa 24 und dann wieder zurück. Übrigens wirst du auch ohne Arsen schön singen. Wovon hängt denn die <rs type="org" ref="pmb29232">Wassermann</rs>-Sache eigentlich ab? Und wer soll dich denn in <rs type="place" ref="pmb667">Partenkirchen</rs> begleiten? Den <rs type="person" ref="pmb2315">Liesl</rs> Brief hast du wohl erhalten. <rs type="person" ref="pmb16123">Lili Feiks</rs>, nun auf der Rückreise <unclear>nach</unclear>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb43471">Budapest</rs> hat wieder telephonirt; erzählt dss es <rs type="person" ref="pmb2315">Liesl</rs> so gut gehe wie noch nie. Aus <rs type="place" ref="pmb35512">Ungarn</rs> wahre Greuelgeschichten. Die Weißen noch viel mordlustiger als die Bolschewisten waren. Die Welt ist schon einmal so, dss<pb/> einem immer die Wahl weh thut. </p>
+            <p>Ich hab mich nun entschlossen, morgen Montag nach <rs type="place" ref="pmb796">Reichenau Kurhaus</rs> zu fahren und bis Freitag früh dort zu bleiben. Also am Dinstag könntest du noch eine Expressnachricht für mich dorthin dirigiren. <rs type="person" ref="pmb20398 pmb20400">Lichtensterns</rs> sind kaum mehr dort. <rs type="person" ref="pmb13644">Ama</rs> mit <rs type="person" ref="pmb2753">Mimi</rs> fahren erst Donnerstag hin. Doch haben <rs type="person" ref="pmb2753">Mimi</rs> mit <rs type="person" ref="pmb27549">Vicki</rs> sich eben für heute Abend bei mir angefragt und angesagt. </p>
+            <p>Wirtschaftliches (Zucker, Holz etc) berichtet <rs type="person" ref="pmb24945">Wucki</rs>. Es ist alles in tadelloser Ordnung (abgesehn von dem Reinemachaos). <rs type="person" ref="pmb12692">Heini</rs> von <rs type="person" ref="pmb4843">Robert</rs> sehr entzückt; spielt den ganzen Tag – allerdings <rs type="work" ref="pmb30627">Carmen</rs>; ist eben bei Fräulein <rs type="person" ref="pmb20908">Mandl</rs>. <rs type="person" ref="pmb2238">Lili</rs> spielt Croquet im Garten, meist allein – heute mit der (Zucker gebracht habenden) <rs type="person" ref="pmb18732">Fingi</rs>. Das Wetter ergreifend schön; besonders die Abende.– <rs type="person" ref="pmb12518">Emil Alph.</rs>; – und <rs type="person" ref="pmb2273">Grethe</rs> – <rs type="place" ref="pmb182">Paris</rs> find ich sehr <rs type="place" ref="pmb816">Rzeszow</rs>-voll. Der liebe Gott macht überhaupt nicht viel mehr als Nutzanwendungen zu jüdischen Anekdoten.</p>
+            <p>
+               <anchor type="label" xml:id="LL652-1">
+                  <rs type="person" ref="pmb10815">Hermann B.</rs> unsichtbar?</anchor> Grüß mir den <rs type="person" subtype="implied" ref="pmb2167">Jubilar</rs> wenn er vorlesen kommt. Ich hoffe es geht dir wieder gut;– und es war eine Lampenmelancholie. leb wohl und sei innig gegrüßt. <signed>A.</signed>
+            </p>
+            <postscript>
+               <p>
+                  <anchor type="textConst" xml:id="TL652-1">(Ich lasse dir durch die <anchor type="commentary" xml:id="KL652-2">
+                        <rs type="org" ref="pmb29244">B Cr</rs>
+                     </anchor> 1 tausend Kr. schicken.)</anchor>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

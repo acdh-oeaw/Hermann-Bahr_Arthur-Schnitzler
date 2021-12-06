@@ -1,140 +1,131 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041404.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041403.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041405.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Otto Brahm, 23. 12. 1910</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="404"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8705-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">[Berlin]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19101223" n="01">23. 12. 1910</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASB1" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1875–1912</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                     <biblScope unit="pp">645–646</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-               <biblStruct corresp="ASOB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">317–319</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160127">Angelegt aus Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>3. Dezember 10</date> 
-               </dateline> 
-               <salute>Lieber Freund,</salute> 
-            </opener> 
-            <p>also »<rs type="work" ref="pmb30207">Das weite Land</rs>«. Sprach neulich im <rs type="place" ref="pmb14">Burgtheater</rs> vor. Es hat den Anschein, als wollte <rs type="person" ref="pmb26880">Weisse</rs> die <rs type="person" ref="pmb3694">Marberg</rs> (<rs type="work" subtype="implied" ref="pmb31219">Genia</rs>) trotz früherer Versprechen keineswegs vor dem 31. März hergeben, vielleicht erst nächste Saison. Einen April-Termin akzeptiere ich natürlich nicht, so daß, wie die Dinge heute stehen, eine Verschiebung bis Beginn nächster Saison wahrscheinlichst. Die Gründe, die eine gleichzeitige Aufführung an der <rs type="place" ref="pmb14">Burg</rs> und im <rs type="place" ref="pmb18">Lessingtheater</rs> wünschenswert erscheinen lassen, sind dieselben geblieben, und es ist eben nur die Frage, wie Sie sich zu der Angelegenheit stellen, ob Sie geneigt sind, auch bis nächstes Jahr zu warten. Etwa 20. Oktober wäre, wie <rs type="person" ref="pmb12556">Rosenbaum</rs>, die rechte Hand und der aufrichtige Mund <rs type="person" ref="pmb10883">Bergers</rs>, behauptet, der vom <rs type="place" ref="pmb14">Burgtheater</rs> in Aussicht zu nehmende Termin. Zu den bekannten Gründen, die aber so für Sie wie für die <rs type="place" ref="pmb14">Burg</rs> in Betracht kommen, treten einige hinzu. Der Erfolg des »<rs type="work" ref="pmb29937">Medardus</rs>« hier und der des »<rs type="work" ref="pmb29935">Anatol</rs>« bei Ihnen. (»<rs type="work" ref="pmb29935">Anatol</rs>« geht auch hier glänzend, nur jagen sich am <rs type="place" ref="pmb20">Volkstheater</rs> die Premieren so, daß die Erfolge nicht ordentlich ausgenützt werden können.) Ich halte es für kaum denkbar, daß vom Schicksal, von der Kritik, vom Publikum dem Autor in <hi rend="italic">einer</hi> Saison ein dritter Erfolg gestattet wird. Die Chancen für »<rs type="work" ref="pmb30207">Das weite Land</rs>« verbessern sich jedenfalls, je weiter wir es hinausrücken lassen. Ihre Entscheidung kann natürlich nur von dem weiteren Gang der Ereignisse an Ihrem Theater abhängen; aber nach der Art, wie Sie den »Anatol« ansetzen, scheint er ja auch weiterhin vorzüglich zu gehen, dazu kommt der <rs type="work" subtype="implied" ref="pmb30269">neue <rs type="person" ref="pmb10815">Bahr</rs> 
-               </rs>, der <rs type="work" subtype="implied" ref="pmb31321">neue <rs type="person" ref="pmb11617">Hauptmann</rs> 
-               </rs>, und <rs type="work" subtype="implied" ref="pmb30855"> 
-                  <rs type="person" ref="pmb12749">Schönherr</rs> 
-               </rs> haben Sie sich doch auch gesichert. So müßte man fast glauben, daß für »<rs type="work" ref="pmb30207">Das weite Land</rs>« Mitte Feber (resp. spätestens 18. Feber) nur mit Mühe Platz gemacht werden könnte und unsere beiden Interessen sich begegnen. </p> 
-            <p>Nun hab ich in <rs type="place" ref="pmb11">München, Schauspielhaus</rs>, mit »<rs type="work" ref="pmb29877">Masken</rs>« und »<rs type="work" ref="pmb29869">Literatur</rs>« die »<rs type="work" ref="pmb29931">Komtesse Mizzi</rs>« wieder gesehen, mit Vergnügen die Wirkung des kleinen Lustspiels beobachtet und konstatieren können, daß die 16. Aufführung trotz der mitgehenden älteren Stücke (die am <rs type="place" ref="pmb635">Residenztheater</rs> ziemlich oft gegeben werden) ein total ausverkauftes Haus fand (wenn ich auch 10% auf meine Anwesenheit rechne). Da fiel mir ein, ob nicht eine Zusammenstellung für Sie »<rs type="work" ref="pmb29869">Literatur</rs>«, »<rs type="work" ref="pmb29931">Mizzi</rs>«, »<rs type="work" ref="pmb29951">Großer Wurstl</rs>«, also ein lustiger Abend etwa im Fasching Chancen hätte. Auf den »<rs type="work" ref="pmb29951">Großen Wurstl</rs>« komm ich zurück, weil er neulich in <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs> mit »<rs type="work" ref="pmb29873">Puppenspieler</rs>« und »<rs type="work" ref="pmb30217">Cassian</rs>« getreu nach dem Buch »<rs type="work" ref="pmb29859">Marionetten</rs>« gespielt wurde und außerordentlich amüsiert hat. Jedenfalls hielt ich diese Zusammenstellung für theatersicherer als ein Zusammenspannen der »<rs type="work" ref="pmb29931">Mizzi</rs>« mit Rossen eines anderen Gespanns, und wären’s auch so edle wie die Einakter unseres <rs type="person" ref="pmb13055">Wassermann</rs>, dem ich gleichfalls wünschte, als »eigener Abend« zu debütieren. Da ich Ihnen eben schreibe, rede ich auch von dieser, selbstverständlich nicht sonderlich wichtig zu nehmenden Angelegenheit.</p> 
-            <p>In <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> hatt ich übrigens auch als Vorleser (Schenkenszene »<rs type="work" ref="pmb29937">Medardus</rs>«, »<rs type="work" ref="pmb29853">Gustl</rs>«, »<rs type="org" ref="pmb29306">Weihnachtseinkäufe</rs>«) viel Erfolg. Ich war dann zwei Tage in <rs type="place" ref="pmb2318"> 
-                  <settlement>Partenkirchen</settlement> 
-               </rs> bei meiner <rs type="person" subtype="implied" ref="pmb2315">Schwägerin</rs>, der es etwas besser geht. Nun bleiben wir in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>, ich versuche allmählich wieder ins Arbeiten zu kommen, und ich kann natürlich nicht versprechen, daß nicht am Ende zu Beginn nächster Saison doch wieder was Neues fertig ist. Aber es bleibt nichts übrig, als diese innere Tätigkeit als eine Sache für sich zu betrachten, ganz ohne Rücksicht auf äußere Theatermöglichkeiten, auf Aufführungschancen, Erfolge, Durchfälle, Termine usw. Nach <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> dürften wir im Feber, auch wenn es mit dem »<rs type="work" ref="pmb30207">Weiten Land</rs>« für heuer nichts werden sollte, auf alle Fälle kommen. Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> gedenkt dort ein Konzert zu geben, was Ihnen wohl schon bekannt ist. Was sind Ihre weiteren Pläne? Kommen Sie im Januar nicht nach <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> oder auf den <rs type="place" ref="pmb189"> 
-                  <settlement>Semmering</settlement> 
-               </rs>, den »<rs type="work" ref="pmb31319"> 
-                  <rs type="person" ref="pmb11933">Kleist</rs> 
-               </rs>« abschließen? Ihr <rs type="place" ref="pmb670">Tegler</rs>-Brief klingt so wohlgestimmt und arbeitsfroh, daß man nach Ihrem Befinden kaum fragen muß. Auch bei uns ist alles wohl, und <rs type="person" subtype="implied" ref="pmb12692">mittelgroß</rs> und <rs type="person" subtype="implied" ref="pmb2238">klein</rs> sendet Ihnen, lieber Freund, herzliche Feier- und Alltagsgrüße.</p> 
-            <closer>Getreu der Ihrige <signed>A. S.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041404.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041403.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041405.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Otto Brahm, 23. 12. 1910</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="404"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8705-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">[Berlin]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19101223" n="01">23. 12. 1910</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">645–646</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">317–319</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160127">Angelegt aus Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>3. Dezember 10</date>
+               </dateline>
+               <salute>Lieber Freund,</salute>
+            </opener>
+            <p>also »<rs type="work" ref="pmb30207">Das weite Land</rs>«. Sprach neulich im <rs type="place" ref="pmb14">Burgtheater</rs> vor. Es hat den Anschein, als wollte <rs type="person" ref="pmb26880">Weisse</rs> die <rs type="person" ref="pmb3694">Marberg</rs> (<rs type="work" subtype="implied" ref="pmb31219">Genia</rs>) trotz früherer Versprechen keineswegs vor dem 31. März hergeben, vielleicht erst nächste Saison. Einen April-Termin akzeptiere ich natürlich nicht, so daß, wie die Dinge heute stehen, eine Verschiebung bis Beginn nächster Saison wahrscheinlichst. Die Gründe, die eine gleichzeitige Aufführung an der <rs type="place" ref="pmb14">Burg</rs> und im <rs type="place" ref="pmb18">Lessingtheater</rs> wünschenswert erscheinen lassen, sind dieselben geblieben, und es ist eben nur die Frage, wie Sie sich zu der Angelegenheit stellen, ob Sie geneigt sind, auch bis nächstes Jahr zu warten. Etwa 20. Oktober wäre, wie <rs type="person" ref="pmb12556">Rosenbaum</rs>, die rechte Hand und der aufrichtige Mund <rs type="person" ref="pmb10883">Bergers</rs>, behauptet, der vom <rs type="place" ref="pmb14">Burgtheater</rs> in Aussicht zu nehmende Termin. Zu den bekannten Gründen, die aber so für Sie wie für die <rs type="place" ref="pmb14">Burg</rs> in Betracht kommen, treten einige hinzu. Der Erfolg des »<rs type="work" ref="pmb29937">Medardus</rs>« hier und der des »<rs type="work" ref="pmb29935">Anatol</rs>« bei Ihnen. (»<rs type="work" ref="pmb29935">Anatol</rs>« geht auch hier glänzend, nur jagen sich am <rs type="place" ref="pmb20">Volkstheater</rs> die Premieren so, daß die Erfolge nicht ordentlich ausgenützt werden können.) Ich halte es für kaum denkbar, daß vom Schicksal, von der Kritik, vom Publikum dem Autor in <hi rend="italic">einer</hi> Saison ein dritter Erfolg gestattet wird. Die Chancen für »<rs type="work" ref="pmb30207">Das weite Land</rs>« verbessern sich jedenfalls, je weiter wir es hinausrücken lassen. Ihre Entscheidung kann natürlich nur von dem weiteren Gang der Ereignisse an Ihrem Theater abhängen; aber nach der Art, wie Sie den »Anatol« ansetzen, scheint er ja auch weiterhin vorzüglich zu gehen, dazu kommt der <rs type="work" subtype="implied" ref="pmb30269">neue <rs type="person" ref="pmb10815">Bahr</rs>
+               </rs>, der <rs type="work" subtype="implied" ref="pmb31321">neue <rs type="person" ref="pmb11617">Hauptmann</rs>
+               </rs>, und <rs type="work" subtype="implied" ref="pmb30855">
+                  <rs type="person" ref="pmb12749">Schönherr</rs>
+               </rs> haben Sie sich doch auch gesichert. So müßte man fast glauben, daß für »<rs type="work" ref="pmb30207">Das weite Land</rs>« Mitte Feber (resp. spätestens 18. Feber) nur mit Mühe Platz gemacht werden könnte und unsere beiden Interessen sich begegnen. </p>
+            <p>Nun hab ich in <rs type="place" ref="pmb11">München, Schauspielhaus</rs>, mit »<rs type="work" ref="pmb29877">Masken</rs>« und »<rs type="work" ref="pmb29869">Literatur</rs>« die »<rs type="work" ref="pmb29931">Komtesse Mizzi</rs>« wieder gesehen, mit Vergnügen die Wirkung des kleinen Lustspiels beobachtet und konstatieren können, daß die 16. Aufführung trotz der mitgehenden älteren Stücke (die am <rs type="place" ref="pmb635">Residenztheater</rs> ziemlich oft gegeben werden) ein total ausverkauftes Haus fand (wenn ich auch 10% auf meine Anwesenheit rechne). Da fiel mir ein, ob nicht eine Zusammenstellung für Sie »<rs type="work" ref="pmb29869">Literatur</rs>«, »<rs type="work" ref="pmb29931">Mizzi</rs>«, »<rs type="work" ref="pmb29951">Großer Wurstl</rs>«, also ein lustiger Abend etwa im Fasching Chancen hätte. Auf den »<rs type="work" ref="pmb29951">Großen Wurstl</rs>« komm ich zurück, weil er neulich in <rs type="place" ref="pmb652">Prag</rs> mit »<rs type="work" ref="pmb29873">Puppenspieler</rs>« und »<rs type="work" ref="pmb30217">Cassian</rs>« getreu nach dem Buch »<rs type="work" ref="pmb29859">Marionetten</rs>« gespielt wurde und außerordentlich amüsiert hat. Jedenfalls hielt ich diese Zusammenstellung für theatersicherer als ein Zusammenspannen der »<rs type="work" ref="pmb29931">Mizzi</rs>« mit Rossen eines anderen Gespanns, und wären’s auch so edle wie die Einakter unseres <rs type="person" ref="pmb13055">Wassermann</rs>, dem ich gleichfalls wünschte, als »eigener Abend« zu debütieren. Da ich Ihnen eben schreibe, rede ich auch von dieser, selbstverständlich nicht sonderlich wichtig zu nehmenden Angelegenheit.</p>
+            <p>In <rs type="place" ref="pmb45258">München</rs> hatt ich übrigens auch als Vorleser (Schenkenszene »<rs type="work" ref="pmb29937">Medardus</rs>«, »<rs type="work" ref="pmb29853">Gustl</rs>«, »<rs type="org" ref="pmb29306">Weihnachtseinkäufe</rs>«) viel Erfolg. Ich war dann zwei Tage in <rs type="place" ref="pmb2318">Partenkirchen</rs> bei meiner <rs type="person" subtype="implied" ref="pmb2315">Schwägerin</rs>, der es etwas besser geht. Nun bleiben wir in <rs type="place" ref="pmb50">Wien</rs>, ich versuche allmählich wieder ins Arbeiten zu kommen, und ich kann natürlich nicht versprechen, daß nicht am Ende zu Beginn nächster Saison doch wieder was Neues fertig ist. Aber es bleibt nichts übrig, als diese innere Tätigkeit als eine Sache für sich zu betrachten, ganz ohne Rücksicht auf äußere Theatermöglichkeiten, auf Aufführungschancen, Erfolge, Durchfälle, Termine usw. Nach <rs type="place" ref="pmb168">Berlin</rs> dürften wir im Feber, auch wenn es mit dem »<rs type="work" ref="pmb30207">Weiten Land</rs>« für heuer nichts werden sollte, auf alle Fälle kommen. Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> gedenkt dort ein Konzert zu geben, was Ihnen wohl schon bekannt ist. Was sind Ihre weiteren Pläne? Kommen Sie im Januar nicht nach <rs type="place" ref="pmb50">Wien</rs> oder auf den <rs type="place" ref="pmb189">Semmering</rs>, den »<rs type="work" ref="pmb31319">
+                  <rs type="person" ref="pmb11933">Kleist</rs>
+               </rs>« abschließen? Ihr <rs type="place" ref="pmb670">Tegler</rs>-Brief klingt so wohlgestimmt und arbeitsfroh, daß man nach Ihrem Befinden kaum fragen muß. Auch bei uns ist alles wohl, und <rs type="person" subtype="implied" ref="pmb12692">mittelgroß</rs> und <rs type="person" subtype="implied" ref="pmb2238">klein</rs> sendet Ihnen, lieber Freund, herzliche Feier- und Alltagsgrüße.</p>
+            <closer>Getreu der Ihrige <signed>A. S.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

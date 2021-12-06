@@ -1,179 +1,176 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041653.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041652.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041654.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur an Olga Schnitzler, 19. 9. 1919</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="653"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FD-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19190919" n="01">19. 9. 1919</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.1847</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 3 Bl., 5 S., mit Kuvert, Lateinschrift</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161013">Angelegt aus Abschrift</change> 
-         <change who="KI MAM" when="20161103">Kollationiert am Faksimile</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Dr. Arthur Schnitzler, <rs type="place" ref="pmb68">Wien XVIII</rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <rs type="place" ref="pmb150">Sternwartest 71</rs>.</addrLine> 
-            </address> 
-            <address> 
-               <addrLine>Frau Olga Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb30"> 
-                     <settlement> 
-                        <hi rend="underline" n="1">Salzburg</hi> 
-                     </settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb231">Hotel Bris<damage agent="paperloss">tol</damage> 
-                  </rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>19. 9. 1919</date> 
-                  <lb/>Freitag Nm</dateline> 
-            </opener> 
-            <p> 
-               <salute>liebe, </salute>zuerst will ich dir deine mediz. Fragen beantworten – zu größerer Sicherheit hab ich eben den <rs type="person" subtype="implied" ref="pmb22733">Mediz.Rath</rs> telef. gefragt: also rohes Obst lieber nicht mit den Tropfen zugleich; – höchstens ein Pfirsich oder weiche Birne; Compot natürlich soviel’s beliebt. Aussetzen der Tropfen <hi rend="underline" n="1">nicht</hi> notwendig. – <anchor type="label" xml:id="LL653-1">Was du mir von der <rs type="person" ref="pmb10818">Mildenburg</rs> erzählst, war mir sehr interessant</anchor>, und ich bin schon sehr gespannt, was sie zu deinem Gesang äußern wird. Ob sie auch in deinem Concert war? – </p> 
-            <p>Gestern war ich nach langer Zeit wieder einmal bei <rs type="person" ref="pmb2135">Popper</rs>. Er hat <anchor type="commentary" xml:id="KL653-3">Verlegeraerger</anchor> und leidet unter der Epoche mehr als je. Das bolschewistische Säuglingspack kommt noch immer schaarenweise und er ist nach wie vor entsetzt über das Maß von Bildungsmangel, Unlogik und Bösheit in diesen jugendlichen Schädeln. Doch entschließt er sich nicht zu oeffentlicher Abwehr; – er traut sich die schriftstellerische Leistung<add place="above">sfähigkeit</add> nicht mehr zu; – seit ¾ Jahren fühlt er, der Zweiachtzigjährige, sich alt werden.– –</p> 
-            <p>Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <rs type="person" ref="pmb3115">Fritz</rs> u <rs type="person" ref="pmb13197">Trude Z.</rs> ein, – <rs type="person" subtype="implied" ref="pmb2312">Hofrätin</rs> ist in <rs type="place" ref="pmb917"> 
-                  <settlement>Turin</settlement> 
-               </rs> jedenfalls schon eingetroffen. Um 6 erschien <rs type="person" ref="pmb16608">Fried</rs>; er und <rs type="person" ref="pmb2167">Salten</rs> nachtmahlten bei mir; – nachher kamen <rs type="person" ref="pmb26392">Leo</rs>, Frau<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb26173">Lorle Tressler</rs> (nach telef. Verständg zwischen ihr und <rs type="person" ref="pmb2167">S.</rs>) – und <rs type="person" ref="pmb12993">Unruh</rs>. (Frau <rs type="person" ref="pmb15967">E.</rs> hatte erfahren, dss <rs type="person" ref="pmb2167">S.</rs> bei mir nachtmahlt.<supplied>)</supplied> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12993">U.</rs> war früh, nach 5tägiger Reise eingetroffen; – sah sehr »Wandersmann« aus; – gebräunt, massig, touristisch angethan; höchst durchgearbeitetes Gesicht, wie nach dem Marmor verlangend, kaum mehr jünglingshaft, fast hart, gehetzt aber beherrscht; – in der Gesamterscheinung einleuchtend aber nicht einfach erfreulich. Sehr erfüllt von Arbeit, aus der er kommt und in die er geht; – seine Gefühle von Sendung und <add place="above">von</add> Carrière <anchor type="textConst" xml:id="TL653-1"> 
-                  <del rend="strikethrough"> 
-                     <gap reason="illegible" quantity="20" unit="chars"/> 
-                  </del> 
-               </anchor> durcheinandergewirrt und stetig wach. Frau <rs type="person" ref="pmb26173">Tr.</rs> goß sich auf ein Streck<anchor type="commentary" xml:id="KL653-1">fauteul</anchor> (die Scene spielt auf der Veranda) und war bildschön; er (seinerseits) tritt täglich in einem Varieté auf, wohnt daher im <rs type="place" ref="pmb205">Bristol</rs> – und nicht im <rs type="place" ref="pmb533">Cottage</rs> (wo vor ein paar Tagen kurz nach zehn ein <anchor type="commentary" xml:id="KL653-2">Arzt</anchor> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="textConst" xml:id="TL653-2"> 
-                  <del rend="strikethrough"> 
-                     <gap reason="illegible" quantity="10" unit="chars"/> 
-                  </del> 
-               </anchor> auf der Straße (irgendwo in unsrer Nähe, erzählt <rs type="person" ref="pmb26392">Leo</rs>) beraubt wurde. Die Dunkelheit <add place="above">in unsrer Gegend</add> ist übrigens wirklich unwahrscheinlich) –</p> 
-            <p>Heute Vormittag <rs type="work" subtype="implied" ref="pmb32326">General Probe</rs>. Vor dem <rs type="place" subtype="implied" ref="pmb14">Theater</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2150">Julius Bauer</rs> und Ehepaar <rs type="person" ref="pmb15967 pmb3103">E.</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2150">Bauer</rs> war aus <rs type="place" ref="pmb213"> 
-                  <settlement>Ischl</settlement> 
-               </rs> per Auto hergefahren, mit irgd einem Großindustriellen.<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <supplied>(</supplied>Kosten einer solchen Fahrt zehntausend Kronen.) Frau <rs type="person" ref="pmb15967">E.</rs> nahm mich auf die Seite – <rs type="person" ref="pmb12993">Unruh</rs> habe ihr erzählt – <rs type="person" ref="pmb2167">S.</rs> sei gestern Abend bei mir sonderbar kühl zu ihm gewesen! – ich erklärte, er habe seine Wärme für Frau <rs type="person" ref="pmb26173">Lorle</rs> verwenden müssen; – aber das beruhigte Frau <rs type="person" ref="pmb15967">E.</rs> noch nicht – denn auch <rs type="person" ref="pmb12993">Marco Brociner</rs>, man denke, habe sich über »die Tragoedie« nicht durchaus zustimmend <subst> 
-                  <del rend="overwritten"> 
-                     <unclear>an</unclear> 
-                  </del> 
-                  <add place="inline">aus</add> 
-               </subst>gesprochen <c rendition="#dots" n="3" place="center"/> u. s. w. – Auf deinem Platz saß Frau <rs type="person" ref="pmb12160">Alma</rs>, war also meine Nachbarin; der <rs type="person" subtype="implied" ref="pmb11521">Kleinen</rs> gehts schon recht gut – sie werden nun eine Weile in der <rs type="place" ref="pmb795">Elisabethstraße</rs> wohnen – <hi rend="underline" n="1">ganz ohne</hi> Bedienung; <rs type="person" ref="pmb12160">Alma</rs> selbst wird das Essen aus dem Gasthaus holen (?) – Dann wieder auf den <rs type="place" ref="pmb36503"> 
-                  <geogName type="mountain">Kreuzberg</geogName> 
-               </rs>, und ich solle zu ihr kommen. Worauf der Vorhang aufging. – Außer der <rs type="person" ref="pmb10959">Bleibtreu</rs> mäßige oder schwache Darstellung. <rs type="person" ref="pmb12711">Schott</rs> anfangs sehr gut, dann eintönig; der kleine <rs type="person" ref="pmb12939">Thimig</rs> unmöglich, fast lächerlich; die <rs type="person" ref="pmb12211">Mayen</rs> gut sprechend aber in ihren blutschänderischen Gelüsten nicht glaubwürdig oder wenigstens nicht appetitlich genug. – In der Inscenirung manches gute, manches gar<pb/> zu absichtsvoll einerseits im stilisirten anderseits im realistischen. Daß diese Tragödie von einem Hauch von Größe umweht wird – ist zweifellos – als Kunstwerk ist sie nicht wohlgerathen: keine Klarheit der Linie, viel Praetension, mancher hysterische Zug. Die Vision fast immer schon oder bedeutend; das gedankliche <del rend="strikethrough"> 
-                  <gap reason="illegible" unit="chars" quantity="7"/> 
-               </del> oft nebelhaft <add place="below">und wirr</add> der Ausdruck, der Vers zuweilen mehr künstlich gesteigert als von Seelenkraft <add place="above">gehoben</add>. – Ich sprach nachher niemanden als den Grafen <rs type="person" ref="pmb21327">Mensdorff</rs>; – da ich gleich von den <rs type="person" ref="pmb15967 pmb3103">E.s</rs> beschlagnahmt wurde;– <rs type="person" ref="pmb12993">Unruh</rs> war unsichtbar und blieb es –; ich machte aus meinen Bedenken insbesondre wegen der Aufführung kein Hehl, betonte natürlich sehr, was man auch in aller Aufrichtigkeit thun darf – das Eigenartige und atmosphärisch bedeutungsvolle d<subst> 
-                  <del rend="overwritten">arin</del> 
-                  <add place="inline">es St</add> 
-               </subst>ücks – das ja vielleicht, in Verbindg mit den zwei nächsten dazugehörigen eine <rs type="work" subtype="implied" ref="pmb32300">Komoedie</rs> u einem <rs type="work" subtype="implied" ref="pmb32298">Schauspiel</rs> sich dem Verständnis besser erschließen wird.<pb/> 
-            </p> 
-         </div> 
-         <div n="2" type="writingSession"> 
-            <p rend="right">am <date when="19190920">20. 9. morgens.</date> 
-            </p> 
-            <p>Daß von morgen an hier die Elektrische nicht verkehrt, hast du wohl gelesen; man nimmt zwar an, diese Calamität werde nicht allzulange dauern, – aber der Auftakt für die »Saison« ist symptomatisch. Auch geschäftlich läßt sie sich nichts weniger als hoffnungsvoll an<c rendition="#dots" n="2"/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb24945">Wucki</rs> behauptet, dir schon vor Wochen ausführlich geschrieben zu haben. Sie schrieb dir eben wieder. Heute Abend <rs type="person" ref="pmb12163">Mahler</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb32155">Neunte</rs>. Nach drei wunderbaren fast wolkenlosen Wochen regnet es zum ersten Ma<subst> 
-                  <del rend="overwritten">hl</del> 
-                  <add place="inline">l</add> 
-               </subst>. – Ich lege bei, was indeß für dich angelangt. Im nächsten Brief erfahr ich wohl genaueres über deine weitern Pläne. Die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs> küssen dich. Sie befinden sich vortrefflich. (<rs type="person" ref="pmb12692">Heini</rs> war gestern auch in der Generalprobe; (– Sitz von <rs type="person" ref="pmb21844">Nemec</rs>) nachdem er schon ein paar Proben vom Schnürboden aus gesehen.) Leb wohl und laß es die weiter gut ergehn.<space unit="chars" quantity="5"/>Herzlichst</p> 
-            <closer> 
-               <signed>Arthur</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041653.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041652.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041654.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur an Olga Schnitzler, 19. 9. 1919</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="653"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FD-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19190919" n="01">19. 9. 1919</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.1847</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 3 Bl., 5 S., mit Kuvert, Lateinschrift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161013">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="20161103">Kollationiert am Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Dr. Arthur Schnitzler, <rs type="place" ref="pmb68">Wien XVIII</rs>
+                  <space unit="chars" quantity="1"/>
+                  <rs type="place" ref="pmb150">Sternwartest 71</rs>.</addrLine>
+            </address>
+            <address>
+               <addrLine>Frau Olga Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb30">Salzburg</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb40384">Hotel Bris<damage agent="paperloss">tol</damage>
+                  </rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>19. 9. 1919</date>
+                  <lb/>Freitag Nm</dateline>
+            </opener>
+            <p>
+               <salute>liebe, </salute>zuerst will ich dir deine mediz. Fragen beantworten – zu größerer Sicherheit hab ich eben den <rs type="person" subtype="implied" ref="pmb22733">Mediz.Rath</rs> telef. gefragt: also rohes Obst lieber nicht mit den Tropfen zugleich; – höchstens ein Pfirsich oder weiche Birne; Compot natürlich soviel’s beliebt. Aussetzen der Tropfen <hi rend="underline" n="1">nicht</hi> notwendig. – <anchor type="label" xml:id="LL653-1">Was du mir von der <rs type="person" ref="pmb10818">Mildenburg</rs> erzählst, war mir sehr interessant</anchor>, und ich bin schon sehr gespannt, was sie zu deinem Gesang äußern wird. Ob sie auch in deinem Concert war? – </p>
+            <p>Gestern war ich nach langer Zeit wieder einmal bei <rs type="person" ref="pmb2135">Popper</rs>. Er hat <anchor type="commentary" xml:id="KL653-3">Verlegeraerger</anchor> und leidet unter der Epoche mehr als je. Das bolschewistische Säuglingspack kommt noch immer schaarenweise und er ist nach wie vor entsetzt über das Maß von Bildungsmangel, Unlogik und Bösheit in diesen jugendlichen Schädeln. Doch entschließt er sich nicht zu oeffentlicher Abwehr; – er traut sich die schriftstellerische Leistung<add place="above">sfähigkeit</add> nicht mehr zu; – seit ¾ Jahren fühlt er, der Zweiachtzigjährige, sich alt werden.– –</p>
+            <p>Zu Himbeerwasser und Bäckerei fanden sich Nachmittag <rs type="person" ref="pmb3115">Fritz</rs> u <rs type="person" ref="pmb13197">Trude Z.</rs> ein, – <rs type="person" subtype="implied" ref="pmb2312">Hofrätin</rs> ist in <rs type="place" ref="pmb917">Turin</rs> jedenfalls schon eingetroffen. Um 6 erschien <rs type="person" ref="pmb16608">Fried</rs>; er und <rs type="person" ref="pmb2167">Salten</rs> nachtmahlten bei mir; – nachher kamen <rs type="person" ref="pmb26392">Leo</rs>, Frau<pb/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb26173">Lorle Tressler</rs> (nach telef. Verständg zwischen ihr und <rs type="person" ref="pmb2167">S.</rs>) – und <rs type="person" ref="pmb12993">Unruh</rs>. (Frau <rs type="person" ref="pmb15967">E.</rs> hatte erfahren, dss <rs type="person" ref="pmb2167">S.</rs> bei mir nachtmahlt.<supplied>)</supplied>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12993">U.</rs> war früh, nach 5tägiger Reise eingetroffen; – sah sehr »Wandersmann« aus; – gebräunt, massig, touristisch angethan; höchst durchgearbeitetes Gesicht, wie nach dem Marmor verlangend, kaum mehr jünglingshaft, fast hart, gehetzt aber beherrscht; – in der Gesamterscheinung einleuchtend aber nicht einfach erfreulich. Sehr erfüllt von Arbeit, aus der er kommt und in die er geht; – seine Gefühle von Sendung und <add place="above">von</add> Carrière <anchor type="textConst" xml:id="TL653-1">
+                  <del rend="strikethrough">
+                     <gap reason="illegible" quantity="20" unit="chars"/>
+                  </del>
+               </anchor> durcheinandergewirrt und stetig wach. Frau <rs type="person" ref="pmb26173">Tr.</rs> goß sich auf ein Streck<anchor type="commentary" xml:id="KL653-1">fauteul</anchor> (die Scene spielt auf der Veranda) und war bildschön; er (seinerseits) tritt täglich in einem Varieté auf, wohnt daher im <rs type="place" ref="pmb205">Bristol</rs> – und nicht im <rs type="place" ref="pmb533">Cottage</rs> (wo vor ein paar Tagen kurz nach zehn ein <anchor type="commentary" xml:id="KL653-2">Arzt</anchor>
+               <space unit="chars" quantity="1"/>
+               <anchor type="textConst" xml:id="TL653-2">
+                  <del rend="strikethrough">
+                     <gap reason="illegible" quantity="10" unit="chars"/>
+                  </del>
+               </anchor> auf der Straße (irgendwo in unsrer Nähe, erzählt <rs type="person" ref="pmb26392">Leo</rs>) beraubt wurde. Die Dunkelheit <add place="above">in unsrer Gegend</add> ist übrigens wirklich unwahrscheinlich) –</p>
+            <p>Heute Vormittag <rs type="work" subtype="implied" ref="pmb32326">General Probe</rs>. Vor dem <rs type="place" subtype="implied" ref="pmb14">Theater</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2150">Julius Bauer</rs> und Ehepaar <rs type="person" ref="pmb15967 pmb3103">E.</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb2150">Bauer</rs> war aus <rs type="place" ref="pmb213">Ischl</rs> per Auto hergefahren, mit irgd einem Großindustriellen.<pb/>
+               <space unit="chars" quantity="1"/>
+               <supplied>(</supplied>Kosten einer solchen Fahrt zehntausend Kronen.) Frau <rs type="person" ref="pmb15967">E.</rs> nahm mich auf die Seite – <rs type="person" ref="pmb12993">Unruh</rs> habe ihr erzählt – <rs type="person" ref="pmb2167">S.</rs> sei gestern Abend bei mir sonderbar kühl zu ihm gewesen! – ich erklärte, er habe seine Wärme für Frau <rs type="person" ref="pmb26173">Lorle</rs> verwenden müssen; – aber das beruhigte Frau <rs type="person" ref="pmb15967">E.</rs> noch nicht – denn auch <rs type="person" ref="pmb12993">Marco Brociner</rs>, man denke, habe sich über »die Tragoedie« nicht durchaus zustimmend <subst>
+                  <del rend="overwritten">
+                     <unclear>an</unclear>
+                  </del>
+                  <add place="inline">aus</add>
+               </subst>gesprochen <c rendition="#dots" n="3" place="center"/> u. s. w. – Auf deinem Platz saß Frau <rs type="person" ref="pmb12160">Alma</rs>, war also meine Nachbarin; der <rs type="person" subtype="implied" ref="pmb11521">Kleinen</rs> gehts schon recht gut – sie werden nun eine Weile in der <rs type="place" ref="pmb795">Elisabethstraße</rs> wohnen – <hi rend="underline" n="1">ganz ohne</hi> Bedienung; <rs type="person" ref="pmb12160">Alma</rs> selbst wird das Essen aus dem Gasthaus holen (?) – Dann wieder auf den <rs type="place" ref="pmb36503">
+                  <geogName type="mountain">Kreuzberg</geogName>
+               </rs>, und ich solle zu ihr kommen. Worauf der Vorhang aufging. – Außer der <rs type="person" ref="pmb10959">Bleibtreu</rs> mäßige oder schwache Darstellung. <rs type="person" ref="pmb12711">Schott</rs> anfangs sehr gut, dann eintönig; der kleine <rs type="person" ref="pmb12939">Thimig</rs> unmöglich, fast lächerlich; die <rs type="person" ref="pmb12211">Mayen</rs> gut sprechend aber in ihren blutschänderischen Gelüsten nicht glaubwürdig oder wenigstens nicht appetitlich genug. – In der Inscenirung manches gute, manches gar<pb/> zu absichtsvoll einerseits im stilisirten anderseits im realistischen. Daß diese Tragödie von einem Hauch von Größe umweht wird – ist zweifellos – als Kunstwerk ist sie nicht wohlgerathen: keine Klarheit der Linie, viel Praetension, mancher hysterische Zug. Die Vision fast immer schon oder bedeutend; das gedankliche <del rend="strikethrough">
+                  <gap reason="illegible" unit="chars" quantity="7"/>
+               </del> oft nebelhaft <add place="below">und wirr</add> der Ausdruck, der Vers zuweilen mehr künstlich gesteigert als von Seelenkraft <add place="above">gehoben</add>. – Ich sprach nachher niemanden als den Grafen <rs type="person" ref="pmb21327">Mensdorff</rs>; – da ich gleich von den <rs type="person" ref="pmb15967 pmb3103">E.s</rs> beschlagnahmt wurde;– <rs type="person" ref="pmb12993">Unruh</rs> war unsichtbar und blieb es –; ich machte aus meinen Bedenken insbesondre wegen der Aufführung kein Hehl, betonte natürlich sehr, was man auch in aller Aufrichtigkeit thun darf – das Eigenartige und atmosphärisch bedeutungsvolle d<subst>
+                  <del rend="overwritten">arin</del>
+                  <add place="inline">es St</add>
+               </subst>ücks – das ja vielleicht, in Verbindg mit den zwei nächsten dazugehörigen eine <rs type="work" subtype="implied" ref="pmb32300">Komoedie</rs> u einem <rs type="work" subtype="implied" ref="pmb32298">Schauspiel</rs> sich dem Verständnis besser erschließen wird.<pb/>
+            </p>
+         </div>
+         <div n="2" type="writingSession">
+            <p rend="right">am <date when="19190920">20. 9. morgens.</date>
+            </p>
+            <p>Daß von morgen an hier die Elektrische nicht verkehrt, hast du wohl gelesen; man nimmt zwar an, diese Calamität werde nicht allzulange dauern, – aber der Auftakt für die »Saison« ist symptomatisch. Auch geschäftlich läßt sie sich nichts weniger als hoffnungsvoll an<c rendition="#dots" n="2"/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb24945">Wucki</rs> behauptet, dir schon vor Wochen ausführlich geschrieben zu haben. Sie schrieb dir eben wieder. Heute Abend <rs type="person" ref="pmb12163">Mahler</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb32155">Neunte</rs>. Nach drei wunderbaren fast wolkenlosen Wochen regnet es zum ersten Ma<subst>
+                  <del rend="overwritten">hl</del>
+                  <add place="inline">l</add>
+               </subst>. – Ich lege bei, was indeß für dich angelangt. Im nächsten Brief erfahr ich wohl genaueres über deine weitern Pläne. Die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs> küssen dich. Sie befinden sich vortrefflich. (<rs type="person" ref="pmb12692">Heini</rs> war gestern auch in der Generalprobe; (– Sitz von <rs type="person" ref="pmb21844">Nemec</rs>) nachdem er schon ein paar Proben vom Schnürboden aus gesehen.) Leb wohl und laß es die weiter gut ergehn.<space unit="chars" quantity="5"/>Herzlichst</p>
+            <closer>
+               <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

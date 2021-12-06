@@ -1,102 +1,109 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041479.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041478.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041480.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 23. 9. 1905</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="479"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89F8-0</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2088 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT4" default="false"> 
-                  <monogr> 
-                     <title level="m">1904–1905</title> 
-                     <editor>Bearbeitet von Lukas Mayerhofer und Helene Zand</editor> 
-                     <imprint> 
-                        <date when="2000">2000</date> 
-                     </imprint> 
-                     <biblScope unit="pp">430</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">IV</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160111">angelegt</change> 
-         <change who="KI MAM" when="20160204">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19050923" n="01">23.</date> Mein <rs type="work" subtype="implied" ref="pmb31179">Artikel</rs> über <rs type="work" ref="pmb29955">Rosmersholm</rs>.</p> 
-            <p>Correctur des »<rs type="work" ref="pmb29907">Club der Erlöser</rs>« an <rs type="person" ref="pmb3638">Drugulin</rs> geschickt.</p> 
-            <p> 
-               <rs type="place" ref="pmb14">Burgtheater</rs>, <rs type="work" ref="pmb31181">Fiesco</rs> mit <rs type="person" ref="pmb12948">Thimig</rs> als Mohren.</p> 
-            <p>Die Woche gelesen: <rs type="person" ref="pmb2121">Schnitzlers</rs> »<rs type="work" ref="pmb29905">Ruf des Lebens</rs>« und »<rs type="work" ref="pmb29903">Zwischenspiel</rs>«, in <rs type="person" ref="pmb12668">Friedrich Schlegels</rs> »<rs type="work" ref="pmb31183">Fragmenten</rs>«, <rs type="person" ref="pmb3641">Lagarde</rs>, <rs type="person" ref="pmb12323">Mörike</rs>, <rs type="person" ref="pmb3644">Alexander Marwitz</rs>.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041479.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041478.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041480.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 23. 9. 1905</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="479"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89F8-0</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2088 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT4">
+                  <monogr>
+                     <title level="m">1904–1905</title>
+                     <editor>Bearbeitet von Lukas Mayerhofer und Helene Zand</editor>
+                     <imprint>
+                        <date when="2000">2000</date>
+                     </imprint>
+                     <biblScope unit="pp">430</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">IV</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160111">angelegt</change>
+         <change who="KI MAM" when="20160204">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19050923" n="01">23.</date> Mein <rs type="work" subtype="implied" ref="pmb31179">Artikel</rs> über <rs type="work" ref="pmb29955">Rosmersholm</rs>.</p>
+            <p>Correctur des »<rs type="work" ref="pmb29907">Club der Erlöser</rs>« an <rs type="person" ref="pmb3638">Drugulin</rs> geschickt.</p>
+            <p>
+               <rs type="place" ref="pmb14">Burgtheater</rs>, <rs type="work" ref="pmb31181">Fiesco</rs> mit <rs type="person" ref="pmb12948">Thimig</rs> als Mohren.</p>
+            <p>Die Woche gelesen: <rs type="person" ref="pmb2121">Schnitzlers</rs> »<rs type="work" ref="pmb29905">Ruf des Lebens</rs>« und »<rs type="work" ref="pmb29903">Zwischenspiel</rs>«, in <rs type="person" ref="pmb12668">Friedrich Schlegels</rs> »<rs type="work" ref="pmb31183">Fragmenten</rs>«, <rs type="person" ref="pmb3641">Lagarde</rs>, <rs type="person" ref="pmb12323">Mörike</rs>, <rs type="person" ref="pmb3644">Alexander Marwitz</rs>.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

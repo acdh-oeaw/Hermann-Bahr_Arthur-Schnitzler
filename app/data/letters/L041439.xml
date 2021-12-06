@@ -1,140 +1,137 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041439.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041438.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041440.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8. 10. 1899</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="439"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8728-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18991008" n="01">8. 10. 1899</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Frankfurt am Main</settlement> 
-                        <repository>Freies Deutsches Hochstift</repository> 
-                        <idno>Hs-30885,88</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HvHAS" default="false"> 
-                  <monogr> 
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefwechsel</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1964">1964</date> 
-                     </imprint> 
-                     <biblScope unit="pp">132–133</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="MAM" when="20160309">Angelegt aus OCR</change> 
-         <change who="KI MAM" when="20170627">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <hi rend="latintype"> 
-                     <rs type="place" ref="pmb168"> 
-                        <settlement>Berlin</settlement> 
-                     </rs> 
-                  </hi>, <date>8. 10. 99</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>mein lieber Hugo, </salute>gestern Abend hab ich die <hi rend="latintype"> 
-                  <rs type="work" ref="pmb29857">Beatrice</rs> 
-               </hi> dem <rs type="person" ref="pmb10986">Brahm</rs> vorgelesen; mir scheint, sie hat auf ihn gewirkt; eigentlich hatte er keine Einwendungen, und jedenfalls kam ihm die Sache fertiger vor als mir, der ich sie keinesfalls vorläufig aus der Hand gebe. Ich weiss sehr genau was noch daran zu machen ist; und einiges wird auch gelingen. Die entschiedenste<pb/> Einwendg von <rs type="person" ref="pmb10986">Brahm</rs> war eigentlich der Monolog oder besser die Anrede des Andrea – das einzige Stückl, das Sie kennen, – das er ganz hinaus haben möchte. Ich las, mit einer Souper-Unterbrechung von 7–12; so lang würde die Sache ungestrichen mindestens spielen!</p> 
-            <p>Ich werde wahrscheinlich Donnerstag in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> sein; <rs type="person" ref="pmb11485">Paul Goldmann</rs> kommt auch und wird etwa acht<pb/> Tage bei mir wohnen. Wann sind Sie wieder in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>? Es wäre schön, wenn <rs type="person" ref="pmb11485">G.</rs> Sie noch zu sehen bekäme. –</p> 
-            <p>Über das äußere Leben hier lieber mündlich. –</p> 
-            <p>Ich weiss nicht, ob Sie dieses <anchor type="commentary" xml:id="KL439-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31979">Anfangsfeuilleton</rs> 
-               </anchor> von <rs type="person" ref="pmb10815">Bahr</rs> gelesen haben. Ich schicks Ihnen hier. <anchor type="label" xml:id="LL439-1">Er ist gewiss nicht nur ein Aff, sondern auch ein boshafter Aff.–</anchor> 
-            </p> 
-            <p>Wie geht’s Ihnen? Fließt die Arbeit<pb/> munter fort?– Dass Ihnen das <rs type="work" subtype="implied" ref="pmb32432">Stück</rs> sich versagen könnte, ist ganz unmöglich; es geht in so reiner Linie vorwärts, dass es nur mehr auf die rechte Stimmung ankommt. Am Ende bringen Sie’s schon vollendet nach <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>?–</p> 
-            <p>Das <rs type="place" ref="pmb3">Deutsche Theater</rs> braucht ungeheuer notwendig ein oder mehrere Stücke. <rs type="person" ref="pmb10986">Br.</rs> hat so gut wie gar nichts. Meines will ich in jedem Fall zuerst in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> spielen lassen; aber es eilt nicht. Ich habe viel vor und möchte wohler, möchte ganz gesund sein.</p> 
-            <closer>Von Herzen Ihr <signed>Arthur</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041439.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041438.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041440.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 8. 10. 1899</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="439"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8728-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18991008" n="01">8. 10. 1899</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,88</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">132–133</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="20160309">Angelegt aus OCR</change>
+         <change who="KI MAM" when="20170627">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <hi rend="latintype">
+                     <rs type="place" ref="pmb168">Berlin</rs>
+                  </hi>, <date>8. 10. 99</date>.</dateline>
+            </opener>
+            <p>
+               <salute>mein lieber Hugo, </salute>gestern Abend hab ich die <hi rend="latintype">
+                  <rs type="work" ref="pmb29857">Beatrice</rs>
+               </hi> dem <rs type="person" ref="pmb10986">Brahm</rs> vorgelesen; mir scheint, sie hat auf ihn gewirkt; eigentlich hatte er keine Einwendungen, und jedenfalls kam ihm die Sache fertiger vor als mir, der ich sie keinesfalls vorläufig aus der Hand gebe. Ich weiss sehr genau was noch daran zu machen ist; und einiges wird auch gelingen. Die entschiedenste<pb/> Einwendg von <rs type="person" ref="pmb10986">Brahm</rs> war eigentlich der Monolog oder besser die Anrede des Andrea – das einzige Stückl, das Sie kennen, – das er ganz hinaus haben möchte. Ich las, mit einer Souper-Unterbrechung von 7–12; so lang würde die Sache ungestrichen mindestens spielen!</p>
+            <p>Ich werde wahrscheinlich Donnerstag in <rs type="place" ref="pmb50">Wien</rs> sein; <rs type="person" ref="pmb11485">Paul Goldmann</rs> kommt auch und wird etwa acht<pb/> Tage bei mir wohnen. Wann sind Sie wieder in <rs type="place" ref="pmb50">Wien</rs>? Es wäre schön, wenn <rs type="person" ref="pmb11485">G.</rs> Sie noch zu sehen bekäme. –</p>
+            <p>Über das äußere Leben hier lieber mündlich. –</p>
+            <p>Ich weiss nicht, ob Sie dieses <anchor type="commentary" xml:id="KL439-1">
+                  <rs type="work" subtype="implied" ref="pmb31979">Anfangsfeuilleton</rs>
+               </anchor> von <rs type="person" ref="pmb10815">Bahr</rs> gelesen haben. Ich schicks Ihnen hier. <anchor type="label" xml:id="LL439-1">Er ist gewiss nicht nur ein Aff, sondern auch ein boshafter Aff.–</anchor>
+            </p>
+            <p>Wie geht’s Ihnen? Fließt die Arbeit<pb/> munter fort?– Dass Ihnen das <rs type="work" subtype="implied" ref="pmb32432">Stück</rs> sich versagen könnte, ist ganz unmöglich; es geht in so reiner Linie vorwärts, dass es nur mehr auf die rechte Stimmung ankommt. Am Ende bringen Sie’s schon vollendet nach <rs type="place" ref="pmb50">Wien</rs>?–</p>
+            <p>Das <rs type="place" ref="pmb3">Deutsche Theater</rs> braucht ungeheuer notwendig ein oder mehrere Stücke. <rs type="person" ref="pmb10986">Br.</rs> hat so gut wie gar nichts. Meines will ich in jedem Fall zuerst in <rs type="place" ref="pmb50">Wien</rs> spielen lassen; aber es eilt nicht. Ich habe viel vor und möchte wohler, möchte ganz gesund sein.</p>
+            <closer>Von Herzen Ihr <signed>Arthur</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,109 +1,116 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030088.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030087.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030089.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Verzeichnis der Glückwünsche zum Tänzchen], [nach dem 7. 1. 1912]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="088"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AC5-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="19120107" n="1">[nach dem 7. Januar 1912]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 3676 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>1 Bl., 1 S., hs. <persName ref="pmb27910">Clarus</persName>, Textverlust durch Beschnitt des Blattes.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160114">angelegt</change> 
-         <change who="KI MAM" when="20160120">Kollationiert nach Kopie</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="text"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <rs type="work" ref="pmb30085">Tänzchen</rs> 
-            </p> 
-            <p> 
-               <space unit="chars" quantity="18"/>»D</p> 
-            <p> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3021">Sternberg</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb10875">Benedikt</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb2167">Salten</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb11036">Burckhard</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3397">Wolfg. Heine</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3731">Kralick</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb12870">Strauss</rs> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3025">Kahane</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030088.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030087.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030089.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Verzeichnis der Glückwünsche zum Tänzchen], [nach dem 7. 1. 1912]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="088"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AC5-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="19120107" n="1">[nach dem 7. Januar 1912]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 3676 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>1 Bl., 1 S., hs. <persName ref="pmb27910">Clarus</persName>, Textverlust durch Beschnitt des Blattes.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160114">angelegt</change>
+         <change who="KI MAM" when="20160120">Kollationiert nach Kopie</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="text">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <rs type="work" ref="pmb30085">Tänzchen</rs>
+            </p>
+            <p>
+               <space unit="chars" quantity="18"/>»D</p>
+            <p>
+               <rs type="person" ref="pmb2121">Schnitzler</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3021">Sternberg</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb10875">Benedikt</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb2167">Salten</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb11036">Burckhard</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb38364">Wolfg. Heine</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3731">Kralick</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb12870">Strauss</rs>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3025">Kahane</rs>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

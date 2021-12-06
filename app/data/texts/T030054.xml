@@ -1,129 +1,121 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030054.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030053.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030055.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a" ref="pmb30261">Hermann Bahr: Moderne Kunst in Österreich, Dezember 1891</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="054"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AA4-D</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="18911200" n="1">Dezember 1891</origDate> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb30261">Moderne Kunst in Österreich</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j" ref="pmb29524">Moderne Kunst in Meister-Holzschnitten</title> 
-                     <imprint> 
-                        <date when="189112">Dezember 1891</date> 
-                     </imprint> 
-                     <biblScope unit="vol">6</biblScope> 
-                     <biblScope unit="nr">12</biblScope> 
-                     <biblScope unit="pp">190–192</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20160419" who="MAM">Angelegt</change> 
-         <change who="KI MAM" when="20160510">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <head>Moderne Kunst in Oesterreich.</head> 
-            <head rend="sub">Von Hermann Bahr.</head> 
-            <p part="N">Ich bin letzten Sommer und Herbst wieder einmal quer durch mein <rs type="place" ref="pmb162">Oesterreich</rs> gewandert, von den <rs type="place" ref="pmb644">galizischen</rs> Sümpfen nach dem herzigen <rs type="place" subtype="implied" ref="pmb50">Grossstädtchen an der Donau</rs> und dann die hellen <geogName type="mountain" instant="false" ref="pmb117">Alpen</geogName> hinauf, wo sie am steilsten sind, ein bischen überall herum schauend, lauschend und geniessend. Es ist ein unvergleichliches Land von köstlichen Reizen, und es ist, wenn man in <rs type="place" ref="pmb651">Kärnthen</rs> die Lieder hört oder die zierlichen Holz-Sculpturen der <rs type="place" ref="pmb697">Salzburg</rs>er sieht oder die Anmuth fühlt, mit welcher das Gemüth der <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er wie eine gute Fee jede Verrichtung des täglichen Lebens immer in selige Walzer verwandelt – es ist ein Volk von frohen Künstlern. Ich glaube, dass unter allen Staaten, welche Deutsche begründet haben, keiner mehr künstlerische Begabung und sicherlich keiner soviel künstlerische Empfänglichkeit enthält. Aber ich weiss schon auch, dass keiner für die moderne Kunst weniger bedeutet und so geringes gewirkt hat. Ueber diesen seltsamen Zwiespalt zerbreche ich mir oft rathlos den Kopf.</p> 
-            <p part="N">Es mag daran ihre Neigung schuld sein, alle Talente im Leben zur eigenen Freude zu verzetteln, statt dass sie sie aus dem Genusse sonderten, strenge zusammenhielten und zu festen, reifen Gestalten verdichteten: sie verschmähen die Arbeit der Kunst, sie wollen lieber Kunstleben. Oder es mag auch das Talent zu gleichmässig auf alle vertheilt sein, so dass Jeder ein hübsches Stück für den Hausbedarf, aber doch keiner genug zu einer besonderen That hat; vielleicht braucht es, um den grossen Künstler zu schaffen, gerade die Vereinsamung in einer gleichgiltigen, stumpfen Menge und die Entrüstung gegen rohen höhnischen Unverstand. Oder es mag auch an dem <rs type="place" ref="pmb162">österreichischen</rs> Misstrauen gegen alles <rs type="place" ref="pmb162">Oesterreichische</rs> liegen, das geduldig zu ertragen und zu bezwingen schon eine ungemein gesunde und kräftige Natur verlangt: die guten Leute, allzu demüthig und bescheiden, wollen es durchaus nicht glauben, dass auch aus ihrer Mitte einmal was Gutes kommen könnte, und da sei einer das wirksamste Talent, wenn es bekannt wird, dass er aus <rs type="place" ref="pmb36545"> 
-                  <settlement>Krems</settlement> 
-               </rs> oder von <rs type="place" ref="pmb271">Hütteldorf</rs> ist, ist er bei ihnen schon verloren.</p> 
-            <p part="N">Es ist das Land der vielen kleinen Talente. Grösse und Tiefe fehlen. Und sonderbar: wenn sie einmal wo erscheinen, dann werden alle ganz böse, wollen davon durchaus nichts wissen und verbünden sich, sie auf alle Weise zu verdrängen.</p> 
-            <p part="N">Wie lange hat nicht der ehrwürdige <anchor type="textConst" xml:id="TT054-1"> 
-                  <rs type="person" ref="pmb11024">Bruckner</rs> 
-               </anchor>, der mächtigste Philosoph der Töne seit <rs type="person" ref="pmb10866">Beethoven</rs>, in Kummer und Noth gerungen und gelitten, bis sich die zögernden <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er, vom Auslande gedrängt, langsam entschlossen, sein schweres, tiefes und kühnes Genie allmälig zu würdigen und <anchor type="commentary" xml:id="KT054-2">neuestens sogar mit der Würde des Ehrendoctors</anchor> zu beglücken! So haben auch <rs type="person" ref="pmb13152">Hugo Wolf</rs> und <rs type="person" ref="pmb11491">Adalbert von Goldschmid</rs>, draussen längst bewundert und gerühmt, in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> immer noch blos erst ihre engen, stillen Gemeinden. Darin ist man unverbesserlich, heute noch ganz ebenso, wie in den Leidenstagen <rs type="person" ref="pmb11518">Grillparzers</rs>, <rs type="person" ref="pmb19980">Kürnbergers</rs> und <rs type="person" ref="pmb12851">Stifters</rs>.</p> 
-            <p part="N">Die Musik <rs type="person" ref="pmb13152">Hugo Wolfs</rs> ist die modernste und sie ist zugleich die musikalischste, welche ich kenne. Sie ist die Musik der Nerven. Sie will nicht Malerei, nicht Dichtung, nicht Philosophie; sie will jenes Unsägliche und Unfassliche, für welches die heimlichste Farbe zu laut und das feinste Wort zu schwer ist, jene innere Musik der Seele, welche unter dem Geräusch des Lebens im Grunde aller Leidenschaften und Begierden nimmermehr verstummt. Sie taucht von der Oberfläche der täglichen Gefühle weg in die letzte Tiefe der verschwiegenen Räthsel, bis sie die einsamsten Punkte greift und an das Mystische streift, an das Unbewusste, an jenen verborgenen Kern und Ausbund der Natur, den die <anchor type="commentary" xml:id="KT054-3"> 
-                  <rs type="work" ref="pmb32366">Veden</rs> Puruscha</anchor> nennen. <rs type="person" ref="pmb11944">Klinger</rs>, <rs type="person" ref="pmb4557">Thoma</rs>, <rs type="person" ref="pmb4579">Böklin</rs>, <rs type="person" ref="pmb12071">Liliencron</rs>, <rs type="person" ref="pmb12156">Maeterlinck</rs> – von dieser Race ist sie.</p> 
-            <p part="N">Auch an den Liedern <rs type="person" ref="pmb11491">Adalbert von Goldschmids</rs> ist ein saftiger Geruch des Lebens. Auch sie blühen aus den reinsten und freiesten Gründen der Seele. Auch sie haben Leidenschaft, Grösse und Tiefe. Aber niemals empfinde ich ihren holden Zauber so unwiderstehlich, als wenn sie von den delikaten Eleganzen des Gemüthes singen, von jenen feinsten, zartesten und seltensten Gefühlen, welche nur auf den Höhen der Menschheit wachsen, die letzten Geschenke langer Bildung. Man denke an jene zierlichen Reime des <rs type="person" ref="pmb4283">Banville</rs>, welche die Geberde des Tages in mondäne Grazie fassen – von eben diesem fliedermilden Märchenreize ist ihre Sensation.</p> 
-            <p part="N">Schauerlich siehts bei den Malern aus, es ist eine Schande. Es muss einmal ohne Rücksicht gesagt werden, was man mit tausend Künsten ängstlich zu vertuschen sucht; die <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er Malerei ist heute in <rs type="place" ref="pmb468">Europa</rs> die letzte. Es giebt ja einige, die eine ganze Menge können; aber sie wissen nicht, was sie damit sollen, sie wollen nichts und wirthschaften rathlos herum. Fast alles an ihren Werken ist gemacht, anempfunden, nachgeäfft, nichts aus freien zuversichtlichen Gefühlen geschöpft und nichts von einem eigenen Bedürfnisse geboten. Man weiss vor jedem Bilde immer gleich das Muster, nach welchem es verfertigt ist; man riecht den Lehrer und die Schule. Korrekt, fleissig, tadellose Arbeit – ja; aber Arbeit, Handwerk, keine Kunst. Von modernen Empfindungen will ich gar nicht reden – wenn sie nur überhaupt etwas empfänden! </p> 
-            <p part="N">Ich spreche hier nur von den Jungen. In der vorigen Generation ist mancher befestigte und gesicherte Ruhm. An diesen will ich nicht tasten; es fällt mir nicht ein, an der verbrieften Meisterschaft der <rs type="person" ref="pmb10759">Alt</rs>, <rs type="person" ref="pmb27950">Russ</rs>, <rs type="person" ref="pmb12661">Schindler</rs>, <rs type="person" ref="pmb4586 pmb4590 pmb4593">Blaas</rs>, <rs type="person" ref="pmb4569">Wisinger-Florian</rs> u. a. m. zu mäkeln. Ich spreche von dem neuen Geschlechte der letzten zehn Jahre, das jene ablösen und ersetzen soll. Da finde ich denn vor allem <rs type="person" ref="pmb28653">Merode</rs> und <rs type="person" ref="pmb4573">Pausinger</rs>, geistreiche, delikate und für die heim<pb/>liche Schönheit des Lebens empfindliche Talente, aber etwas schüchtern gegen sich selbst und bisweilen noch ein bischen in angelernten Schablonen befangen; <rs type="person" ref="pmb11257">Engelhart</rs>, ein verwegen zugreifender Wager, der nur noch nicht recht fertig und sicher ist; <rs type="person" ref="pmb4565">Hirschl</rs>, eine tiefe, mystisch bedrängte, aber verworrene, konfuse rathlose Natur; und endlich <rs type="person" ref="pmb14756">Ferry Bératon</rs>.</p> 
-            <p part="N"> 
-               <rs type="person" ref="pmb14756">Bératon</rs> ist mir von ihnen der liebste: denn er ist der ehrlichste und aufrichtigste von allen. Er fragt nach keinem Muster; er hört auf keine Schablone; keiner Lehre zur Liebe verläugnet er seine Art. Er folgt treu und gerade dem eigenen Drange. Er malt nicht, wie er es an den anderen sieht, sondern er malt, wie er es in sich selber fühlt. Man merkt es an seinen Bildern auf den ersten Blick, dass er etwas zu sagen hat: seine besondere Welt, die noch kein anderer vor ihm entdeckt hat, die Schöpfung seiner Nerven und Sinne. Es ist manchmal ein hastiger Eifer in ihren Zügen, wie eine unstete Angst, dass sie mit der Fülle seiner Seele gar nimmer mehr fertig werden könnten; so unendlich viel hat er zu erzählen; und es ist jene fanatische Wuth des echten Künstlers in ihnen, Proselyten für sich zu machen, aus dem sicheren Gefühle heraus, dass es eine eigene und einzige Kunst ist wie jede, die schlicht und treu eine Seele bekennt. Er gestaltet Erlebtes. Er giebt sich selbst, ohne Anleihe, ohne Rest, so wie er ist. Er ist eine Natur.</p> 
-            <p part="N">Das ist der Reiz seiner Bilder. Aber seine Bildnisse haben noch einen besonderen Werth; sie stellen eine Neuerung des Porträts dar, die ich sonst nur bei <rs type="place" ref="pmb166">Franzosen</rs> und einigen <rs type="place" subtype="implied" ref="pmb182">verparis</rs>erten <rs type="place" ref="pmb275">Italienern</rs> gefunden. Sie theilen das augenblickliche der Erscheinung mit.</p> 
-            <p part="N">Jedes Porträt sucht ja heute die Wahrheit, die Wirklichkeit: es will einen geben, wie er erscheint. Aber jeder erscheint jeden Tag anders, in jeder Laune, unter jedem Gedanken, bei jedem Ereignisse anders. Jeder ist sozusagen zu<pb/>sammengesetzt aus einem ständigen Theile, den er immer mit sich trägt, und einem <anchor type="textConst" xml:id="TT054-2">veränderlichen</anchor> Theile, den der Augenblick giebt und der nächste wieder nimmt. Der Realismus des <rs type="person" ref="pmb28649">Bastien Lepage</rs> wollte blos den ersten; er suchte die allen Stimmungen gemeinsame <rs type="work" ref="pmb32264"> 
-                  <rs type="person" ref="pmb10899">Sarah Bernhardt</rs> 
-               </rs>, jenes Stück des <rs type="work" ref="pmb32268"> 
-                  <rs type="person" ref="pmb4583">Albert Wolff</rs> 
-               </rs>, das im Wechsel bleibt, den Rest des <rs type="work" ref="pmb32266"> 
-                  <rs type="person" ref="pmb28667">Theuriet</rs> 
-               </rs>, wenn das bewegliche und vergängliche des Augenblicks abgezogen ist. <rs type="person" ref="pmb28664">Manet</rs> war der erste, der diese Verkürzung der Wahrheit verschmähte, er wollte die ganze Wirklichkeit, im Augenblick überrascht, wie sie der Zufall eben bietet, mit der Erde an den Knollen ausgegraben. Ich weiss heute keinen, der das mit so kühner, rücksichtsloser und drastischer Gewalt vermag, wie <rs type="person" ref="pmb14756">Ferry Bératon</rs>.</p> 
-            <p part="N">Sehr sonderbar ist es um die Litteratur, sonderbar und traurig. Allerdings darf sich ein Land, das zwei so herrliche, unvergleichliche Dichter, wie <rs type="person" ref="pmb12602">Ferdinand von Saar</rs> und die <rs type="person" ref="pmb11216">Ebner-Eschenbach</rs>, und die bemerkenswerthen Talente der <rs type="person" ref="pmb3853">Schubin</rs>, <rs type="person" ref="pmb12906">Suttner</rs>, <rs type="person" ref="pmb4223">Marriot</rs> und anderer anerkannter und allgemein bekannter Autoren hat, schon auch einmal eine kleine Rast erlauben; aber es macht von diesem Luxus doch einen etwas gar unmässigen Gebrauch. Es giebt natürlich auch in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> eine »neue Richtung«: es giebt ein »junges <rs type="place" ref="pmb162">Oesterreich</rs>«. Man kann eigentlich gar nicht <rs type="place" ref="pmb162">Oesterreichischer</rs> sein, als diese höchst seltsame Gemeinde; <rs type="place" ref="pmb50">urwienerisch</rs> ist ihre Weise durch und durch: alles beginnt sie von hinten und sie verspätet sich immer um eine Idee. Sie hat ein »<rs type="org" subtype="implied" ref="pmb29417">Organ</rs>« geschaffen, einen Sammelplatz der neuen Dichter, die noch gar nicht da waren. Sie hat eine »<rs type="place" ref="pmb17">freie Bühne</rs>« begründet, um unterdrückten Dramen zum Leben zu verhelfen, und gewahrt jetzt mit verlegenem Erstaunen, dass mit dem besten Willen durchaus kein solches Drama aufzufinden ist. Sie kämpft für die Erneuerung der Kunst durch eine Form, welche in allen anderen Ländern längst schon wieder für den ältesten Zopf und die schändlichste Rückwärtserei gilt. Es ist keine Gruppe von Schriftstellern, sondern von solchen, die es gern werden möchten und eine verlässliche Methode, eine gute Anweisung, wirksame Recepte suchen; es ist eine Art von ästhetischem Seminar. Ausgerichtet haben sie bisher nicht viel. <anchor type="commentary" xml:id="KT054-1">Blos dass der Gedanke der Moderne bei allen verständigen und besonnenen Freunden der Kunst in Verruf</anchor> und um alles Gefolge kam.</p> 
-            <p part="N">Drei Talente hat der Zufall in diese Gruppe verschlagen; es mag ihnen dabei manchmal recht »ungut« zu Muthe sein.</p> 
-            <p part="N"> 
-               <anchor type="label" xml:id="LT054-1">Da ist einmal <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>, ein geistreicher, zierlicher, sehr amüsanter <anchor type="label" xml:id="LT054-2">Causeur</anchor>, ein bischen leichtsinnig in der Form und nicht allzu gewissenhaft, vielerlei versuchend. Ich habe das Gefühl, dass er tiefer ist, als er sich gern den Anschein giebt, und hinter seiner flotten Grazie schwere Leidenschaft verbirgt, die nur noch schüchtern und schamhaft ist, weil sie erst zu festen Gestalten reifen will<supplied>.</supplied> 
-               </anchor> 
-            </p> 
-            <p part="N">Dann <rs type="person" ref="pmb2425">Felix Dörmann</rs>, ein unzweifelhaftes, starkes und kühnes Talent, aber das seinen Ausdruck noch nicht gefunden hat und einstweilen blos in fremden Sprachen stammelt, in denen er nur so unsicher um sich selber herumreden muss. Er sagt seine Besonderheit durch hergebrachte Gedanken und Gefühle in hergebrachten Formen aus; aber man merkt doch wenigstens, dass er Besonderheit hat, die schon früher oder später einmal die Schablone sprengen und zur Freiheit ausbrechen wird.</p> 
-            <p part="N">Und endlich <rs type="person" ref="pmb11740">Loris</rs>, der Zauberer der feinen, seltenen, raffinirten Sensationen, der nur wie durch einen schlechten Witz ein <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er, aber von rechtswegen in seiner rastlosen Begierde nach der unbekannten Schönheit durchaus <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>er ist. Dieser grosse Künstler, dessen »sämmtliche Werke« vorläufig kaum 100 Seiten füllen würden, ist die neueste Natur, welche ich heute unter den Deutschen weiss.</p> 
-            <p part="N">Dann sind einige, die jedesmal ein starkes Talent versprechen, so dass man sehr begierig nach dem nächsten Werke greift; aber man wird enttäuscht: denn sie prolongiren den Wechsel immer wieder auf’s neue. Sie schreiben in einem fort nur Erstlingswerke. Zwei Damen sind da zu nennen, die die reichsten Hoffnungen erwecken – freilich allmählich ein bischen lange, so dass man schon ein wenig ungeduldig werden darf: <rs type="person" ref="pmb4064">delle Grazie</rs> und <rs type="person" ref="pmb4561">Edith Salburg</rs>.</p> 
-            <p part="N">Aber ich möchte zuletzt noch einen nennen, der fern vom Lärm der neuen Schule und darum unbeachtet von ihrer Reclame, Künstler und modern ist. Ich meine <rs type="person" ref="pmb26121">Carl Baron Torresani</rs>. Der reizt mich als psychologisches Problem, für das ich sonst kein Beispiel finden kann: wie ein lustiger, gemüthlicher und gescheiter Plauderer, der Erlebtes hübsch erzählt, mit heiteren Anekdoten geschickt verwebt und mit glücklichen Bildern aus der Wirklichkeit auf<supplied>’s</supplied> zierlichste versetzt, aber offenbar weiter auch gar nichts will und augenscheinlich durchaus keinen künstlerischen Ehrgeiz kennt, auf einmal von einer Gestalt so heftig getroffen wird, dass dieser Stoss aus seiner Tiefe heraus einen unvermutheten Künstler treibt. Ich kann mir das gar nicht denken, wie ein solcher Mensch, der Jahre lang eine bessere Natur in sich herumträgt, ohne es auch nur zu ahnen, seelisch eigentlich verfasst sein mag. Er hat gelassen drei lange <anchor type="commentary" xml:id="KT054-4"> 
-                  <rs type="work" subtype="implied" ref="pmb31643 pmb32402 pmb31649">Romane</rs> 
-               </anchor> und einen Band <anchor type="commentary" xml:id="KT054-5"> 
-                  <rs type="work" subtype="implied" ref="pmb31645">Novellen</rs> 
-               </anchor> geschrieben, sehr nett, sehr flott, sehr amüsant, aber ohne jemals im mindesten was Künstlerisches zu verrathen, so wie einer halt unter Freunden gern erzählt, wenn er ein fescher Kerl, ein heller, wachsamer und offener Kopf, aber kein Dichter ist; und dann auf einmal hat er die »<rs type="work" ref="pmb31655">Juckerkomtesse</rs>« geschrieben, einen ganz köstlichen Roman, der freilich die überlieferte Form nirgends verlässt, aber modernes Leben mit meisterlicher Kraft handgreiflich gestaltet und die schönste, reinste und wahrste Liebesscene enthält, die in den letzten zehn Jahren der deutschen Dichtung gelungen ist.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030054.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030053.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030055.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb30261">Hermann Bahr: Moderne Kunst in Österreich, Dezember 1891</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="054"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8AA4-D</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="18911200" n="1">Dezember 1891</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb30261">Moderne Kunst in Österreich</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29524">Moderne Kunst in Meister-Holzschnitten</title>
+                     <imprint>
+                        <date when="189112">Dezember 1891</date>
+                     </imprint>
+                     <biblScope unit="vol">6</biblScope>
+                     <biblScope unit="nr">12</biblScope>
+                     <biblScope unit="pp">190–192</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160419" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20160510">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>Moderne Kunst in Oesterreich.</head>
+            <head rend="sub">Von Hermann Bahr.</head>
+            <p part="N">Ich bin letzten Sommer und Herbst wieder einmal quer durch mein <rs type="place" ref="pmb41240">Oesterreich</rs> gewandert, von den <rs type="place" ref="pmb644">galizischen</rs> Sümpfen nach dem herzigen <rs type="place" subtype="implied" ref="pmb50">Grossstädtchen an der Donau</rs> und dann die hellen <geogName type="mountain" instant="false" ref="pmb117">Alpen</geogName> hinauf, wo sie am steilsten sind, ein bischen überall herum schauend, lauschend und geniessend. Es ist ein unvergleichliches Land von köstlichen Reizen, und es ist, wenn man in <rs type="place" ref="pmb651">Kärnthen</rs> die Lieder hört oder die zierlichen Holz-Sculpturen der <rs type="place" ref="pmb697">Salzburg</rs>er sieht oder die Anmuth fühlt, mit welcher das Gemüth der <rs type="place" ref="pmb50">Wien</rs>er wie eine gute Fee jede Verrichtung des täglichen Lebens immer in selige Walzer verwandelt – es ist ein Volk von frohen Künstlern. Ich glaube, dass unter allen Staaten, welche Deutsche begründet haben, keiner mehr künstlerische Begabung und sicherlich keiner soviel künstlerische Empfänglichkeit enthält. Aber ich weiss schon auch, dass keiner für die moderne Kunst weniger bedeutet und so geringes gewirkt hat. Ueber diesen seltsamen Zwiespalt zerbreche ich mir oft rathlos den Kopf.</p>
+            <p part="N">Es mag daran ihre Neigung schuld sein, alle Talente im Leben zur eigenen Freude zu verzetteln, statt dass sie sie aus dem Genusse sonderten, strenge zusammenhielten und zu festen, reifen Gestalten verdichteten: sie verschmähen die Arbeit der Kunst, sie wollen lieber Kunstleben. Oder es mag auch das Talent zu gleichmässig auf alle vertheilt sein, so dass Jeder ein hübsches Stück für den Hausbedarf, aber doch keiner genug zu einer besonderen That hat; vielleicht braucht es, um den grossen Künstler zu schaffen, gerade die Vereinsamung in einer gleichgiltigen, stumpfen Menge und die Entrüstung gegen rohen höhnischen Unverstand. Oder es mag auch an dem <rs type="place" ref="pmb41240">österreichischen</rs> Misstrauen gegen alles <rs type="place" ref="pmb41240">Oesterreichische</rs> liegen, das geduldig zu ertragen und zu bezwingen schon eine ungemein gesunde und kräftige Natur verlangt: die guten Leute, allzu demüthig und bescheiden, wollen es durchaus nicht glauben, dass auch aus ihrer Mitte einmal was Gutes kommen könnte, und da sei einer das wirksamste Talent, wenn es bekannt wird, dass er aus <rs type="place" ref="pmb36545">Krems</rs> oder von <rs type="place" ref="pmb271">Hütteldorf</rs> ist, ist er bei ihnen schon verloren.</p>
+            <p part="N">Es ist das Land der vielen kleinen Talente. Grösse und Tiefe fehlen. Und sonderbar: wenn sie einmal wo erscheinen, dann werden alle ganz böse, wollen davon durchaus nichts wissen und verbünden sich, sie auf alle Weise zu verdrängen.</p>
+            <p part="N">Wie lange hat nicht der ehrwürdige <anchor type="textConst" xml:id="TT054-1">
+                  <rs type="person" ref="pmb11024">Bruckner</rs>
+               </anchor>, der mächtigste Philosoph der Töne seit <rs type="person" ref="pmb10866">Beethoven</rs>, in Kummer und Noth gerungen und gelitten, bis sich die zögernden <rs type="place" ref="pmb50">Wien</rs>er, vom Auslande gedrängt, langsam entschlossen, sein schweres, tiefes und kühnes Genie allmälig zu würdigen und <anchor type="commentary" xml:id="KT054-2">neuestens sogar mit der Würde des Ehrendoctors</anchor> zu beglücken! So haben auch <rs type="person" ref="pmb13152">Hugo Wolf</rs> und <rs type="person" ref="pmb11491">Adalbert von Goldschmid</rs>, draussen längst bewundert und gerühmt, in <rs type="place" ref="pmb50">Wien</rs> immer noch blos erst ihre engen, stillen Gemeinden. Darin ist man unverbesserlich, heute noch ganz ebenso, wie in den Leidenstagen <rs type="person" ref="pmb11518">Grillparzers</rs>, <rs type="person" ref="pmb19980">Kürnbergers</rs> und <rs type="person" ref="pmb12851">Stifters</rs>.</p>
+            <p part="N">Die Musik <rs type="person" ref="pmb13152">Hugo Wolfs</rs> ist die modernste und sie ist zugleich die musikalischste, welche ich kenne. Sie ist die Musik der Nerven. Sie will nicht Malerei, nicht Dichtung, nicht Philosophie; sie will jenes Unsägliche und Unfassliche, für welches die heimlichste Farbe zu laut und das feinste Wort zu schwer ist, jene innere Musik der Seele, welche unter dem Geräusch des Lebens im Grunde aller Leidenschaften und Begierden nimmermehr verstummt. Sie taucht von der Oberfläche der täglichen Gefühle weg in die letzte Tiefe der verschwiegenen Räthsel, bis sie die einsamsten Punkte greift und an das Mystische streift, an das Unbewusste, an jenen verborgenen Kern und Ausbund der Natur, den die <anchor type="commentary" xml:id="KT054-3">
+                  <rs type="work" ref="pmb32366">Veden</rs> Puruscha</anchor> nennen. <rs type="person" ref="pmb11944">Klinger</rs>, <rs type="person" ref="pmb4557">Thoma</rs>, <rs type="person" ref="pmb4579">Böklin</rs>, <rs type="person" ref="pmb12071">Liliencron</rs>, <rs type="person" ref="pmb12156">Maeterlinck</rs> – von dieser Race ist sie.</p>
+            <p part="N">Auch an den Liedern <rs type="person" ref="pmb11491">Adalbert von Goldschmids</rs> ist ein saftiger Geruch des Lebens. Auch sie blühen aus den reinsten und freiesten Gründen der Seele. Auch sie haben Leidenschaft, Grösse und Tiefe. Aber niemals empfinde ich ihren holden Zauber so unwiderstehlich, als wenn sie von den delikaten Eleganzen des Gemüthes singen, von jenen feinsten, zartesten und seltensten Gefühlen, welche nur auf den Höhen der Menschheit wachsen, die letzten Geschenke langer Bildung. Man denke an jene zierlichen Reime des <rs type="person" ref="pmb4283">Banville</rs>, welche die Geberde des Tages in mondäne Grazie fassen – von eben diesem fliedermilden Märchenreize ist ihre Sensation.</p>
+            <p part="N">Schauerlich siehts bei den Malern aus, es ist eine Schande. Es muss einmal ohne Rücksicht gesagt werden, was man mit tausend Künsten ängstlich zu vertuschen sucht; die <rs type="place" ref="pmb50">Wien</rs>er Malerei ist heute in <rs type="place" ref="pmb468">Europa</rs> die letzte. Es giebt ja einige, die eine ganze Menge können; aber sie wissen nicht, was sie damit sollen, sie wollen nichts und wirthschaften rathlos herum. Fast alles an ihren Werken ist gemacht, anempfunden, nachgeäfft, nichts aus freien zuversichtlichen Gefühlen geschöpft und nichts von einem eigenen Bedürfnisse geboten. Man weiss vor jedem Bilde immer gleich das Muster, nach welchem es verfertigt ist; man riecht den Lehrer und die Schule. Korrekt, fleissig, tadellose Arbeit – ja; aber Arbeit, Handwerk, keine Kunst. Von modernen Empfindungen will ich gar nicht reden – wenn sie nur überhaupt etwas empfänden! </p>
+            <p part="N">Ich spreche hier nur von den Jungen. In der vorigen Generation ist mancher befestigte und gesicherte Ruhm. An diesen will ich nicht tasten; es fällt mir nicht ein, an der verbrieften Meisterschaft der <rs type="person" ref="pmb10759">Alt</rs>, <rs type="person" ref="pmb27950">Russ</rs>, <rs type="person" ref="pmb12661">Schindler</rs>, <rs type="person" ref="pmb4586 pmb4590 pmb4593">Blaas</rs>, <rs type="person" ref="pmb4569">Wisinger-Florian</rs> u. a. m. zu mäkeln. Ich spreche von dem neuen Geschlechte der letzten zehn Jahre, das jene ablösen und ersetzen soll. Da finde ich denn vor allem <rs type="person" ref="pmb28653">Merode</rs> und <rs type="person" ref="pmb4573">Pausinger</rs>, geistreiche, delikate und für die heim<pb/>liche Schönheit des Lebens empfindliche Talente, aber etwas schüchtern gegen sich selbst und bisweilen noch ein bischen in angelernten Schablonen befangen; <rs type="person" ref="pmb11257">Engelhart</rs>, ein verwegen zugreifender Wager, der nur noch nicht recht fertig und sicher ist; <rs type="person" ref="pmb4565">Hirschl</rs>, eine tiefe, mystisch bedrängte, aber verworrene, konfuse rathlose Natur; und endlich <rs type="person" ref="pmb14756">Ferry Bératon</rs>.</p>
+            <p part="N">
+               <rs type="person" ref="pmb14756">Bératon</rs> ist mir von ihnen der liebste: denn er ist der ehrlichste und aufrichtigste von allen. Er fragt nach keinem Muster; er hört auf keine Schablone; keiner Lehre zur Liebe verläugnet er seine Art. Er folgt treu und gerade dem eigenen Drange. Er malt nicht, wie er es an den anderen sieht, sondern er malt, wie er es in sich selber fühlt. Man merkt es an seinen Bildern auf den ersten Blick, dass er etwas zu sagen hat: seine besondere Welt, die noch kein anderer vor ihm entdeckt hat, die Schöpfung seiner Nerven und Sinne. Es ist manchmal ein hastiger Eifer in ihren Zügen, wie eine unstete Angst, dass sie mit der Fülle seiner Seele gar nimmer mehr fertig werden könnten; so unendlich viel hat er zu erzählen; und es ist jene fanatische Wuth des echten Künstlers in ihnen, Proselyten für sich zu machen, aus dem sicheren Gefühle heraus, dass es eine eigene und einzige Kunst ist wie jede, die schlicht und treu eine Seele bekennt. Er gestaltet Erlebtes. Er giebt sich selbst, ohne Anleihe, ohne Rest, so wie er ist. Er ist eine Natur.</p>
+            <p part="N">Das ist der Reiz seiner Bilder. Aber seine Bildnisse haben noch einen besonderen Werth; sie stellen eine Neuerung des Porträts dar, die ich sonst nur bei <rs type="place" ref="pmb166">Franzosen</rs> und einigen <rs type="place" subtype="implied" ref="pmb182">verparis</rs>erten <rs type="place" ref="pmb40306">Italienern</rs> gefunden. Sie theilen das augenblickliche der Erscheinung mit.</p>
+            <p part="N">Jedes Porträt sucht ja heute die Wahrheit, die Wirklichkeit: es will einen geben, wie er erscheint. Aber jeder erscheint jeden Tag anders, in jeder Laune, unter jedem Gedanken, bei jedem Ereignisse anders. Jeder ist sozusagen zu<pb/>sammengesetzt aus einem ständigen Theile, den er immer mit sich trägt, und einem <anchor type="textConst" xml:id="TT054-2">veränderlichen</anchor> Theile, den der Augenblick giebt und der nächste wieder nimmt. Der Realismus des <rs type="person" ref="pmb28649">Bastien Lepage</rs> wollte blos den ersten; er suchte die allen Stimmungen gemeinsame <rs type="work" ref="pmb32264">
+                  <rs type="person" ref="pmb10899">Sarah Bernhardt</rs>
+               </rs>, jenes Stück des <rs type="work" ref="pmb32268">
+                  <rs type="person" ref="pmb4583">Albert Wolff</rs>
+               </rs>, das im Wechsel bleibt, den Rest des <rs type="work" ref="pmb32266">
+                  <rs type="person" ref="pmb28667">Theuriet</rs>
+               </rs>, wenn das bewegliche und vergängliche des Augenblicks abgezogen ist. <rs type="person" ref="pmb28664">Manet</rs> war der erste, der diese Verkürzung der Wahrheit verschmähte, er wollte die ganze Wirklichkeit, im Augenblick überrascht, wie sie der Zufall eben bietet, mit der Erde an den Knollen ausgegraben. Ich weiss heute keinen, der das mit so kühner, rücksichtsloser und drastischer Gewalt vermag, wie <rs type="person" ref="pmb14756">Ferry Bératon</rs>.</p>
+            <p part="N">Sehr sonderbar ist es um die Litteratur, sonderbar und traurig. Allerdings darf sich ein Land, das zwei so herrliche, unvergleichliche Dichter, wie <rs type="person" ref="pmb12602">Ferdinand von Saar</rs> und die <rs type="person" ref="pmb11216">Ebner-Eschenbach</rs>, und die bemerkenswerthen Talente der <rs type="person" ref="pmb3853">Schubin</rs>, <rs type="person" ref="pmb12906">Suttner</rs>, <rs type="person" ref="pmb4223">Marriot</rs> und anderer anerkannter und allgemein bekannter Autoren hat, schon auch einmal eine kleine Rast erlauben; aber es macht von diesem Luxus doch einen etwas gar unmässigen Gebrauch. Es giebt natürlich auch in <rs type="place" ref="pmb50">Wien</rs> eine »neue Richtung«: es giebt ein »junges <rs type="place" ref="pmb41240">Oesterreich</rs>«. Man kann eigentlich gar nicht <rs type="place" ref="pmb41240">Oesterreichischer</rs> sein, als diese höchst seltsame Gemeinde; <rs type="place" ref="pmb50">urwienerisch</rs> ist ihre Weise durch und durch: alles beginnt sie von hinten und sie verspätet sich immer um eine Idee. Sie hat ein »<rs type="org" subtype="implied" ref="pmb29417">Organ</rs>« geschaffen, einen Sammelplatz der neuen Dichter, die noch gar nicht da waren. Sie hat eine »<rs type="place" ref="pmb17">freie Bühne</rs>« begründet, um unterdrückten Dramen zum Leben zu verhelfen, und gewahrt jetzt mit verlegenem Erstaunen, dass mit dem besten Willen durchaus kein solches Drama aufzufinden ist. Sie kämpft für die Erneuerung der Kunst durch eine Form, welche in allen anderen Ländern längst schon wieder für den ältesten Zopf und die schändlichste Rückwärtserei gilt. Es ist keine Gruppe von Schriftstellern, sondern von solchen, die es gern werden möchten und eine verlässliche Methode, eine gute Anweisung, wirksame Recepte suchen; es ist eine Art von ästhetischem Seminar. Ausgerichtet haben sie bisher nicht viel. <anchor type="commentary" xml:id="KT054-1">Blos dass der Gedanke der Moderne bei allen verständigen und besonnenen Freunden der Kunst in Verruf</anchor> und um alles Gefolge kam.</p>
+            <p part="N">Drei Talente hat der Zufall in diese Gruppe verschlagen; es mag ihnen dabei manchmal recht »ungut« zu Muthe sein.</p>
+            <p part="N">
+               <anchor type="label" xml:id="LT054-1">Da ist einmal <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>, ein geistreicher, zierlicher, sehr amüsanter <anchor type="label" xml:id="LT054-2">Causeur</anchor>, ein bischen leichtsinnig in der Form und nicht allzu gewissenhaft, vielerlei versuchend. Ich habe das Gefühl, dass er tiefer ist, als er sich gern den Anschein giebt, und hinter seiner flotten Grazie schwere Leidenschaft verbirgt, die nur noch schüchtern und schamhaft ist, weil sie erst zu festen Gestalten reifen will<supplied>.</supplied>
+               </anchor>
+            </p>
+            <p part="N">Dann <rs type="person" ref="pmb2425">Felix Dörmann</rs>, ein unzweifelhaftes, starkes und kühnes Talent, aber das seinen Ausdruck noch nicht gefunden hat und einstweilen blos in fremden Sprachen stammelt, in denen er nur so unsicher um sich selber herumreden muss. Er sagt seine Besonderheit durch hergebrachte Gedanken und Gefühle in hergebrachten Formen aus; aber man merkt doch wenigstens, dass er Besonderheit hat, die schon früher oder später einmal die Schablone sprengen und zur Freiheit ausbrechen wird.</p>
+            <p part="N">Und endlich <rs type="person" ref="pmb11740">Loris</rs>, der Zauberer der feinen, seltenen, raffinirten Sensationen, der nur wie durch einen schlechten Witz ein <rs type="place" ref="pmb50">Wien</rs>er, aber von rechtswegen in seiner rastlosen Begierde nach der unbekannten Schönheit durchaus <rs type="place" ref="pmb182">Paris</rs>er ist. Dieser grosse Künstler, dessen »sämmtliche Werke« vorläufig kaum 100 Seiten füllen würden, ist die neueste Natur, welche ich heute unter den Deutschen weiss.</p>
+            <p part="N">Dann sind einige, die jedesmal ein starkes Talent versprechen, so dass man sehr begierig nach dem nächsten Werke greift; aber man wird enttäuscht: denn sie prolongiren den Wechsel immer wieder auf’s neue. Sie schreiben in einem fort nur Erstlingswerke. Zwei Damen sind da zu nennen, die die reichsten Hoffnungen erwecken – freilich allmählich ein bischen lange, so dass man schon ein wenig ungeduldig werden darf: <rs type="person" ref="pmb4064">delle Grazie</rs> und <rs type="person" ref="pmb4561">Edith Salburg</rs>.</p>
+            <p part="N">Aber ich möchte zuletzt noch einen nennen, der fern vom Lärm der neuen Schule und darum unbeachtet von ihrer Reclame, Künstler und modern ist. Ich meine <rs type="person" ref="pmb26121">Carl Baron Torresani</rs>. Der reizt mich als psychologisches Problem, für das ich sonst kein Beispiel finden kann: wie ein lustiger, gemüthlicher und gescheiter Plauderer, der Erlebtes hübsch erzählt, mit heiteren Anekdoten geschickt verwebt und mit glücklichen Bildern aus der Wirklichkeit auf<supplied>’s</supplied> zierlichste versetzt, aber offenbar weiter auch gar nichts will und augenscheinlich durchaus keinen künstlerischen Ehrgeiz kennt, auf einmal von einer Gestalt so heftig getroffen wird, dass dieser Stoss aus seiner Tiefe heraus einen unvermutheten Künstler treibt. Ich kann mir das gar nicht denken, wie ein solcher Mensch, der Jahre lang eine bessere Natur in sich herumträgt, ohne es auch nur zu ahnen, seelisch eigentlich verfasst sein mag. Er hat gelassen drei lange <anchor type="commentary" xml:id="KT054-4">
+                  <rs type="work" subtype="implied" ref="pmb31643 pmb32402 pmb31649">Romane</rs>
+               </anchor> und einen Band <anchor type="commentary" xml:id="KT054-5">
+                  <rs type="work" subtype="implied" ref="pmb31645">Novellen</rs>
+               </anchor> geschrieben, sehr nett, sehr flott, sehr amüsant, aber ohne jemals im mindesten was Künstlerisches zu verrathen, so wie einer halt unter Freunden gern erzählt, wenn er ein fescher Kerl, ein heller, wachsamer und offener Kopf, aber kein Dichter ist; und dann auf einmal hat er die »<rs type="work" ref="pmb31655">Juckerkomtesse</rs>« geschrieben, einen ganz köstlichen Roman, der freilich die überlieferte Form nirgends verlässt, aber modernes Leben mit meisterlicher Kraft handgreiflich gestaltet und die schönste, reinste und wahrste Liebesscene enthält, die in den letzten zehn Jahren der deutschen Dichtung gelungen ist.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

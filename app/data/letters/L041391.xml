@@ -1,199 +1,176 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041391.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041390.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041392.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 6. 1903</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="391"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86F8-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19030626" n="01">26. 6. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Frankfurt am Main</settlement> 
-                        <repository>Freies Deutsches Hochstift</repository> 
-                        <idno>Hs-30885,103</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 2 Bl., 8 S. Das zweite Blatt von Schnitzler mit Bleistift beschrieben: »<quote> 
-                              <date>26/6 903</date> 
-                           </quote>«.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="ASB1" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1875–1912</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                     <biblScope unit="pp">463–464</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-               <biblStruct corresp="HvHAS" default="false"> 
-                  <monogr> 
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefwechsel</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1964">1964</date> 
-                     </imprint> 
-                     <biblScope unit="pp">170–172</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="MAM" when="20160125">Angelegt aus Scan</change> 
-         <change who="KI MAM" when="20170627">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, <date>26. 6. 903</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>mein lieber Hugo, </salute>aus Ihrem Brief muss ich entnehmen, dass unsre Karten von der Reise gar nicht zu Ihnen gelangt sind. Ich habe Ihnen aus <rs type="place" ref="pmb462"> 
-                  <settlement>Venedig</settlement> 
-               </rs> (auch <rs type="person" ref="pmb24239">Hans</rs> war auf dieser Karte unterschrieben) und aus <rs type="place" ref="pmb885"> 
-                  <settlement>Lugano</settlement> 
-               </rs> eine (sogar versificirte) Nachricht gesandt. In <rs type="place" ref="pmb885"> 
-                  <settlement>Lugano</settlement> 
-               </rs> haben wir im <hi rend="latintype"> 
-                  <rs type="place" ref="pmb513">H. d. parc</rs> 
-               </hi> gewohnt, und die liebenswürdige verheiratete <rs type="person" subtype="implied" ref="pmb27700">Tochter</rs> der Madame <hi rend="latintype"> 
-                  <rs type="person" ref="pmb28511">Bèha</rs> 
-               </hi> zeigte uns die »Stätte«, wo<pb/> Sie zu schreiben pflegten. Was war es nur, das Sie damals arbeiteten? Vom Wetter waren wir nicht sehr begünstigt; auf dem <hi rend="latintype"> 
-                  <geogName type="mountain" ref="pmb548">Generoso</geogName> 
-               </hi> Nebel, Gewitter; in <hi rend="latintype"> 
-                  <rs type="place" ref="pmb928"> 
-                     <settlement>Varese</settlement> 
-                  </rs> 
-               </hi> ein Platzregen, dass wir nicht <add place="above">bis</add> zum <hi rend="latintype"> 
-                  <rs type="place" ref="pmb547">Grd Hotel</rs> 
-               </hi> gelangten u lieber gleich zurückfuhren. Die andern Seen fielen sozusagen ins Wasser, was sie doch gar nicht mehr notwendig haben. Vor <rs type="place" ref="pmb885"> 
-                  <settlement>Lugano</settlement> 
-               </rs>: <rs type="place" ref="pmb462"> 
-                  <settlement>Venedig</settlement> 
-               </rs> (<rs type="person" ref="pmb24239">Hans</rs> zeigte uns einige palazzi, die wir sonst gewiss nicht gesehen hätten), Segelfahrt nach <hi rend="latintype"> 
-                  <rs type="place" ref="pmb938"> 
-                     <settlement>Torcello</settlement> 
-                  </rs> 
-               </hi> (wenn Sie es nicht kennen, versäumen Sie’s nicht bei nächster <rs type="place" ref="pmb148"> 
-                  <settlement>Venezianer</settlement> 
-               </rs> Gelegenheit) – <hi rend="latintype"> 
-                  <rs type="place" ref="pmb899"> 
-                     <settlement>Padua</settlement> 
-                  </rs> 
-               </hi>, <hi rend="latintype"> 
-                  <rs type="place" ref="pmb929"> 
-                     <settlement>Vicenza</settlement> 
-                  </rs> 
-               </hi>, <hi rend="latintype"> 
-                  <rs type="place" ref="pmb900"> 
-                     <settlement>Verona</settlement> 
-                  </rs> 
-               </hi>, <hi rend="latintype"> 
-                  <rs type="place" ref="pmb886"> 
-                     <settlement>Mailand</settlement> 
-                  </rs> 
-               </hi>. <rs type="person" ref="pmb20676">Luini</rs>, an dem ich (rein körperlich gemeint) vor Jahren vorbeigegangen war, ging mir wundervoll auf. –</p> 
-            <p>Von »geordneter« Arbeit wäre nichts mitzutheilen. Zumeist beschäftigte mich das sonderbare,<pb/> oft begonnene, einige Mal beendete, jedes Mal hingeworfene <rs type="work" subtype="implied" ref="pmb29985">Junggesellen<unclear>-</unclear>Egoistenstück</rs>; Sie wissen, dass es zuletzt als Misgeburt zur Welt kam, siamesisch gezwillingt. Nun scheint der operative Eingriff, der mit Vorsicht unternommen werden mußte, gelungen – d. h. beide Geschöpfe leben, das eine schwächlich, das andre mit höherer Vitalkraft begnadet,<pb/> aber ob sie endgiltig gedeihen werden, ist noch nicht zu sagen. Das eine Kind wird eben aufgepäppelt.</p> 
-            <p>– Am <rs type="work" subtype="implied" ref="pmb29923">Roman</rs> geschah nichts weiteres; über eine lustspielartige, moderne Komödie wurde meditirt. Im ganzen mehr Kunst- und Gedankenspiel als Schaffensintensität. – Mit großem Vergnügen las ich die <rs type="work" ref="pmb31517">mousquetaires</rs> v. <rs type="person" ref="pmb11190">Dumas</rs> auf der Reise. Welche Leichtigkeit, welcher Reichtum! Einiger Leichtsinn verzeiht sich von selbst;<pb/> und die paar falschen Münzen wirken als machte sich ein Kind <del>damit</del> einen Spass sie statt echten, die doch da sind, auszustreuen. –</p> 
-            <p>– <hi rend="latintype"> 
-                  <rs type="person" ref="pmb10815">Bahr</rs> 
-               </hi> hat mir von Ihren letzten <anchor type="commentary" xml:id="KL391-1">Plänen</anchor> erzählt, <rs type="person" ref="pmb10863">Richard</rs>, der gestern mit <rs type="person" ref="pmb10860">Paula</rs> u <rs type="person" ref="pmb2668">Mirjam</rs> bei mir war, desgleichen. Ich wünschte bald zu hören wie weit Sie gediehen sind. Die <rs type="place" ref="pmb151">deutschen</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb128">Schall u Raucher</rs> sah ich <add place="above">vor</add>gestern, <rs type="work" ref="pmb31323">Erdgeist</rs>, das Talent, das große <rs type="person" ref="pmb13068">Wedekind</rs>esche<pb/> blitzt meines Erachtens nur selten auf. Vielleicht ernsthaft nur in der Figur des Dr. <rs type="work" subtype="implied" ref="pmb31323">Schön</rs> (der einzigen, die wirklich vollendet gespielt wurde <add place="above">(<hi rend="latintype"> 
-                     <rs type="person" ref="pmb12491">Reicher</rs> 
-                  </hi>)</add>.) Das unerträgliche aber an dem Stück ist mir, dass der Humor darin der sich so satanisch geberdet, nicht viel teuflischer ist als ein weitgereister Commis <add place="above">als <hi rend="latintype"> 
-                     <rs type="work" subtype="implied" ref="pmb30247">Mephisto</rs> 
-                  </hi> 
-               </add> auf einem Maskenball, – der mit dämonischen Weibern Champagner zu trinken vermeint – während es<pb/> sich um Köchinnen und <hi rend="latintype">Kleinoscheg</hi> handelt.– Im ganzen lieb ich Dichter nicht, die ihren Nachlass bei Lebzeiten herausgeben.–</p> 
-            <p>Wie steht es mit Ihren ferneren Sommerplänen? Ich denke etwa um den <date>10. August</date> nach <rs type="place" ref="pmb969"> 
-                  <country>Südtirol</country> 
-               </rs> zu gehen. <geogName>Mendel</geogName>, <rs type="place" ref="pmb427"> 
-                  <settlement>Campiglio</settlement> 
-               </rs> 
-               <supplied>.</supplied> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb10863">Richard</rs> will mit – radeln.</p> 
-            <p>Lassen Sie baldigst von sich hören. Wir grüßen Sie und <rs type="person" ref="pmb2292">Gerty</rs> herzlichst.</p> 
-            <closer>Ihr<lb/> 
-               <signed>A.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041391.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041390.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041392.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 26. 6. 1903</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="391"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86F8-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19030626" n="01">26. 6. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,103</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 2 Bl., 8 S. Das zweite Blatt von Schnitzler mit Bleistift beschrieben: »<quote>
+                              <date>26/6 903</date>
+                           </quote>«.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">463–464</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">170–172</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="20160125">Angelegt aus Scan</change>
+         <change who="KI MAM" when="20170627">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, <date>26. 6. 903</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>mein lieber Hugo, </salute>aus Ihrem Brief muss ich entnehmen, dass unsre Karten von der Reise gar nicht zu Ihnen gelangt sind. Ich habe Ihnen aus <rs type="place" ref="pmb462">Venedig</rs> (auch <rs type="person" ref="pmb24239">Hans</rs> war auf dieser Karte unterschrieben) und aus <rs type="place" ref="pmb885">Lugano</rs> eine (sogar versificirte) Nachricht gesandt. In <rs type="place" ref="pmb885">Lugano</rs> haben wir im <hi rend="latintype">
+                  <rs type="place" ref="pmb513">H. d. parc</rs>
+               </hi> gewohnt, und die liebenswürdige verheiratete <rs type="person" subtype="implied" ref="pmb27700">Tochter</rs> der Madame <hi rend="latintype">
+                  <rs type="person" ref="pmb28511">Bèha</rs>
+               </hi> zeigte uns die »Stätte«, wo<pb/> Sie zu schreiben pflegten. Was war es nur, das Sie damals arbeiteten? Vom Wetter waren wir nicht sehr begünstigt; auf dem <hi rend="latintype">
+                  <geogName type="mountain" ref="pmb548">Generoso</geogName>
+               </hi> Nebel, Gewitter; in <hi rend="latintype">
+                  <rs type="place" ref="pmb928">Varese</rs>
+               </hi> ein Platzregen, dass wir nicht <add place="above">bis</add> zum <hi rend="latintype">
+                  <rs type="place" ref="pmb547">Grd Hotel</rs>
+               </hi> gelangten u lieber gleich zurückfuhren. Die andern Seen fielen sozusagen ins Wasser, was sie doch gar nicht mehr notwendig haben. Vor <rs type="place" ref="pmb885">Lugano</rs>: <rs type="place" ref="pmb462">Venedig</rs> (<rs type="person" ref="pmb24239">Hans</rs> zeigte uns einige palazzi, die wir sonst gewiss nicht gesehen hätten), Segelfahrt nach <hi rend="latintype">
+                  <rs type="place" ref="pmb44092">Torcello</rs>
+               </hi> (wenn Sie es nicht kennen, versäumen Sie’s nicht bei nächster <rs type="place" ref="pmb148">Venezianer</rs> Gelegenheit) – <hi rend="latintype">
+                  <rs type="place" ref="pmb44156">Padua</rs>
+               </hi>, <hi rend="latintype">
+                  <rs type="place" ref="pmb44151">Vicenza</rs>
+               </hi>, <hi rend="latintype">
+                  <rs type="place" ref="pmb44153">Verona</rs>
+               </hi>, <hi rend="latintype">
+                  <rs type="place" ref="pmb886">Mailand</rs>
+               </hi>. <rs type="person" ref="pmb20676">Luini</rs>, an dem ich (rein körperlich gemeint) vor Jahren vorbeigegangen war, ging mir wundervoll auf. –</p>
+            <p>Von »geordneter« Arbeit wäre nichts mitzutheilen. Zumeist beschäftigte mich das sonderbare,<pb/> oft begonnene, einige Mal beendete, jedes Mal hingeworfene <rs type="work" subtype="implied" ref="pmb29985">Junggesellen<unclear>-</unclear>Egoistenstück</rs>; Sie wissen, dass es zuletzt als Misgeburt zur Welt kam, siamesisch gezwillingt. Nun scheint der operative Eingriff, der mit Vorsicht unternommen werden mußte, gelungen – d. h. beide Geschöpfe leben, das eine schwächlich, das andre mit höherer Vitalkraft begnadet,<pb/> aber ob sie endgiltig gedeihen werden, ist noch nicht zu sagen. Das eine Kind wird eben aufgepäppelt.</p>
+            <p>– Am <rs type="work" subtype="implied" ref="pmb29923">Roman</rs> geschah nichts weiteres; über eine lustspielartige, moderne Komödie wurde meditirt. Im ganzen mehr Kunst- und Gedankenspiel als Schaffensintensität. – Mit großem Vergnügen las ich die <rs type="work" ref="pmb31517">mousquetaires</rs> v. <rs type="person" ref="pmb11190">Dumas</rs> auf der Reise. Welche Leichtigkeit, welcher Reichtum! Einiger Leichtsinn verzeiht sich von selbst;<pb/> und die paar falschen Münzen wirken als machte sich ein Kind <del>damit</del> einen Spass sie statt echten, die doch da sind, auszustreuen. –</p>
+            <p>– <hi rend="latintype">
+                  <rs type="person" ref="pmb10815">Bahr</rs>
+               </hi> hat mir von Ihren letzten <anchor type="commentary" xml:id="KL391-1">Plänen</anchor> erzählt, <rs type="person" ref="pmb10863">Richard</rs>, der gestern mit <rs type="person" ref="pmb10860">Paula</rs> u <rs type="person" ref="pmb2668">Mirjam</rs> bei mir war, desgleichen. Ich wünschte bald zu hören wie weit Sie gediehen sind. Die <rs type="place" ref="pmb151">deutschen</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb128">Schall u Raucher</rs> sah ich <add place="above">vor</add>gestern, <rs type="work" ref="pmb31323">Erdgeist</rs>, das Talent, das große <rs type="person" ref="pmb13068">Wedekind</rs>esche<pb/> blitzt meines Erachtens nur selten auf. Vielleicht ernsthaft nur in der Figur des Dr. <rs type="work" subtype="implied" ref="pmb31323">Schön</rs> (der einzigen, die wirklich vollendet gespielt wurde <add place="above">(<hi rend="latintype">
+                     <rs type="person" ref="pmb12491">Reicher</rs>
+                  </hi>)</add>.) Das unerträgliche aber an dem Stück ist mir, dass der Humor darin der sich so satanisch geberdet, nicht viel teuflischer ist als ein weitgereister Commis <add place="above">als <hi rend="latintype">
+                     <rs type="work" subtype="implied" ref="pmb30247">Mephisto</rs>
+                  </hi>
+               </add> auf einem Maskenball, – der mit dämonischen Weibern Champagner zu trinken vermeint – während es<pb/> sich um Köchinnen und <hi rend="latintype">Kleinoscheg</hi> handelt.– Im ganzen lieb ich Dichter nicht, die ihren Nachlass bei Lebzeiten herausgeben.–</p>
+            <p>Wie steht es mit Ihren ferneren Sommerplänen? Ich denke etwa um den <date>10. August</date> nach <rs type="place" ref="pmb969">Südtirol</rs> zu gehen. <geogName>Mendel</geogName>, <rs type="place" ref="pmb427">Campiglio</rs>
+               <supplied>.</supplied>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb10863">Richard</rs> will mit – radeln.</p>
+            <p>Lassen Sie baldigst von sich hören. Wir grüßen Sie und <rs type="person" ref="pmb2292">Gerty</rs> herzlichst.</p>
+            <closer>Ihr<lb/>
+               <signed>A.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

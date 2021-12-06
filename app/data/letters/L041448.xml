@@ -1,168 +1,163 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041448.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041447.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041449.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 20. 8. 1904</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="448"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8731-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040820" n="01">20. 8. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Frankfurt am Main</settlement> 
-                        <repository>Freies Deutsches Hochstift</repository> 
-                        <idno>Hs-30885,112</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 2 Bl., 6 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HvHAS" default="false"> 
-                  <monogr> 
-                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefwechsel</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1964">1964</date> 
-                     </imprint> 
-                     <biblScope unit="pp">197–199</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="MAM" when="20160311">Angelegt aus OCR</change> 
-         <change who="KI MAM" when="20170627">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>20. 8. 904</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>lieber Hugo, </salute>mit der <rs type="place" ref="pmb429">Salzk.gut</rs>reise steht es wie folgt: in diesen Tagen beende ich die erste flüchtige Niederschrift eines neuen dreiaktigen <rs type="work" subtype="implied" ref="pmb29903">Stücks</rs>; die <rs type="person" ref="pmb17502">Grünwald</rs> kommt etwa <date>25.</date>, <date>26.</date>, und dann muss ich es, um es übersichtlich vor mir zu haben, und weil das überhaupt zu den Etappen meiner Arbeitsweise gehört u mich sehr fördert, dictiren. Nun kann ich, auch weil der Anfangstag der <rs type="person" ref="pmb17502">Grünwald</rs> 
-               <space unit="chars" quantity="1"/> 
-               <subst> 
-                  <del rend="strikethrough"> 
-                     <unclear>sich</unclear> 
-                  </del> 
-                  <add place="above">noch nicht feststeht</add> 
-               </subst> (ich bin ohne Nachricht, resp Antwort von ihr), nicht<pb/> auf den Tag bestimmen, wann ich fertig bin. Ich <hi rend="underline" n="1">hoffe</hi>, es wird sich fügen, dass wir schon am <date>3.</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> verlassen können; wird aber <hi rend="latintype"> 
-                  <rs type="person" ref="pmb2292">Gerty</rs> 
-               </hi> auch warten, wenn der <date>4.</date> oder gar der <date>5. September</date> draus wird? Wir möchten natürlich auch sehr gern mit ihr zusammen fahren; ich kann nur heute mich zur Bestimmung des Tages nicht verpflichten. Immerhin werde ich am ersten Dictirtag schon wissen können, wann wir bereit sind. Ich hoffe ja sehr, dass es der <date>3.</date> sein wird. Sie ersehen daraus<pb/> jedenfalls, dass wir zu <rs type="place" ref="pmb84"> 
-                  <settlement>Ischl</settlement> 
-               </rs> entschlossen ist, wo wir fürs erste Quartier nehmen, Ausflüge machen (<rs type="person" ref="pmb2173">Olga</rs> kennt das <rs type="place" ref="pmb429">Salzkammergut</rs> gar nicht), und ich sehne mich auch sehr nach ein paar schönen Radtouren mit Ihnen. Auch zu einer Fußpartie (Rucksack!) wär ich zu haben. Nicht unmöglich ist es, dass ich dann auch noch mit <rs type="person" ref="pmb2173">Olga</rs> weiterfahre, <rs type="place" ref="pmb423">Tirol</rs>, <rs type="place" ref="pmb294"> 
-                  <settlement>Bozner</settlement> 
-               </rs> Gegend, und falls das Wetter allzu herbstlich wird, <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs>. Wir sehen uns ja jedenfalls schon am ersten<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb213"> 
-                  <settlement>Ischl</settlement> 
-               </rs>er Tag, aber sagen Sie mir doch gleich, wann Sie wieder in <rs type="place" ref="pmb173">Rodaun</rs> zurück sein müssen oder wollen. Wohnen wollen wir in der <rs type="place" ref="pmb655">Kaiserkrone</rs>.–</p> 
-            <p>Sind Sie mit dem »<rs type="work" ref="pmb31091">geretteten</rs>« fertig? Mir geht es mit dem Arbeiten nicht übel und ginge mir gewiss noch besser, wenn nicht mein Widerwillen gegen den phys. Akt des Schreibens immer beträchtlicher würde und sich oft genug in leichten Schreibkrämpfen äußerte.</p> 
-            <p>Danke sehr betreffs <rs type="person" ref="pmb26402">V. S.</rs>, mein Aerger hat sich natürlich schon gelegt – natürlich würde es mich aber<pb/> sehr freuen, wenn Ordnung in die ganze Angelegenheit gebracht werden könnte und ich von <rs type="place" ref="pmb254">England</rs>, <rs type="place" ref="pmb577">Irland</rs> u <rs type="place" ref="pmb576">Schottland</rs> nicht länger misverstanden <add place="above">verfolgt u geächtet</add> würde.–</p> 
-            <p>– <hi rend="latintype"> 
-                  <rs type="work" subtype="implied" ref="pmb31315">Vehse</rs> 
-               </hi> ist und bleibt ein kostbares Buch. Zudem studier ich, des Überblickes halber, Geschichte <add place="above">wie</add> zur Matura. Ich wäre weiter als ich bin, wenn ich ein gebildeter Mensch wäre!</p> 
-            <p>Was ists mit <rs type="person" ref="pmb10863">Richard</rs>? Seine Karte mit <rs type="person" ref="pmb10860">Paula</rs> 
-               <space unit="chars" quantity="1"/> 
-               <unclear>wie</unclear> den <unclear> 
-                  <rs type="person" subtype="implied" ref="pmb2534 pmb2668 pmb13923">Kindern</rs> 
-               </unclear> 
-               <space unit="chars" quantity="1"/> 
-               <unclear>an</unclear> 
-               <space unit="chars" quantity="1"/> 
-               <gap quantity="3" reason="illegible" unit="chars"/> hab ich bekommen. Von sich schreibt er nichts. Grüßen Sie alle, die mir lieb sind.</p> 
-            <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.<pb/> 
-               </signed> 
-            </closer> 
-            <postscript> 
-               <p> 
-                  <hi rend="latintype"> 
-                     <rs type="person" ref="pmb2292">Gerty</rs> 
-                  </hi> wird wohl auch am liebsten mit dem Zehn Uhr Früh Zug fahren?<lb/>A.</p> 
-               <p>Gestern Abend waren wir mit <rs type="person" ref="pmb10815">Bahr</rs>, (<rs type="place" ref="pmb63">Hietzing</rs>) dem’s recht gut, und was das wesentlichste ist, hoffnungsvoll zu gehen scheint.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041448.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041447.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041449.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 20. 8. 1904</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="448"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8731-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040820" n="01">20. 8. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Frankfurt am Main</settlement>
+                        <repository>Freies Deutsches Hochstift</repository>
+                        <idno>Hs-30885,112</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 2 Bl., 6 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HvHAS">
+                  <monogr>
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefwechsel</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1964">1964</date>
+                     </imprint>
+                     <biblScope unit="pp">197–199</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="MAM" when="20160311">Angelegt aus OCR</change>
+         <change who="KI MAM" when="20170627">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>20. 8. 904</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>lieber Hugo, </salute>mit der <rs type="place" ref="pmb429">Salzk.gut</rs>reise steht es wie folgt: in diesen Tagen beende ich die erste flüchtige Niederschrift eines neuen dreiaktigen <rs type="work" subtype="implied" ref="pmb29903">Stücks</rs>; die <rs type="person" ref="pmb17502">Grünwald</rs> kommt etwa <date>25.</date>, <date>26.</date>, und dann muss ich es, um es übersichtlich vor mir zu haben, und weil das überhaupt zu den Etappen meiner Arbeitsweise gehört u mich sehr fördert, dictiren. Nun kann ich, auch weil der Anfangstag der <rs type="person" ref="pmb17502">Grünwald</rs>
+               <space unit="chars" quantity="1"/>
+               <subst>
+                  <del rend="strikethrough">
+                     <unclear>sich</unclear>
+                  </del>
+                  <add place="above">noch nicht feststeht</add>
+               </subst> (ich bin ohne Nachricht, resp Antwort von ihr), nicht<pb/> auf den Tag bestimmen, wann ich fertig bin. Ich <hi rend="underline" n="1">hoffe</hi>, es wird sich fügen, dass wir schon am <date>3.</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb50">Wien</rs> verlassen können; wird aber <hi rend="latintype">
+                  <rs type="person" ref="pmb2292">Gerty</rs>
+               </hi> auch warten, wenn der <date>4.</date> oder gar der <date>5. September</date> draus wird? Wir möchten natürlich auch sehr gern mit ihr zusammen fahren; ich kann nur heute mich zur Bestimmung des Tages nicht verpflichten. Immerhin werde ich am ersten Dictirtag schon wissen können, wann wir bereit sind. Ich hoffe ja sehr, dass es der <date>3.</date> sein wird. Sie ersehen daraus<pb/> jedenfalls, dass wir zu <rs type="place" ref="pmb84">Ischl</rs> entschlossen ist, wo wir fürs erste Quartier nehmen, Ausflüge machen (<rs type="person" ref="pmb2173">Olga</rs> kennt das <rs type="place" ref="pmb429">Salzkammergut</rs> gar nicht), und ich sehne mich auch sehr nach ein paar schönen Radtouren mit Ihnen. Auch zu einer Fußpartie (Rucksack!) wär ich zu haben. Nicht unmöglich ist es, dass ich dann auch noch mit <rs type="person" ref="pmb2173">Olga</rs> weiterfahre, <rs type="place" ref="pmb423">Tirol</rs>, <rs type="place" ref="pmb40260">Bozner</rs> Gegend, und falls das Wetter allzu herbstlich wird, <rs type="place" ref="pmb45258">München</rs>. Wir sehen uns ja jedenfalls schon am ersten<pb/>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb213">Ischl</rs>er Tag, aber sagen Sie mir doch gleich, wann Sie wieder in <rs type="place" ref="pmb173">Rodaun</rs> zurück sein müssen oder wollen. Wohnen wollen wir in der <rs type="place" ref="pmb655">Kaiserkrone</rs>.–</p>
+            <p>Sind Sie mit dem »<rs type="work" ref="pmb31091">geretteten</rs>« fertig? Mir geht es mit dem Arbeiten nicht übel und ginge mir gewiss noch besser, wenn nicht mein Widerwillen gegen den phys. Akt des Schreibens immer beträchtlicher würde und sich oft genug in leichten Schreibkrämpfen äußerte.</p>
+            <p>Danke sehr betreffs <rs type="person" ref="pmb26402">V. S.</rs>, mein Aerger hat sich natürlich schon gelegt – natürlich würde es mich aber<pb/> sehr freuen, wenn Ordnung in die ganze Angelegenheit gebracht werden könnte und ich von <rs type="place" ref="pmb254">England</rs>, <rs type="place" ref="pmb577">Irland</rs> u <rs type="place" ref="pmb576">Schottland</rs> nicht länger misverstanden <add place="above">verfolgt u geächtet</add> würde.–</p>
+            <p>– <hi rend="latintype">
+                  <rs type="work" subtype="implied" ref="pmb31315">Vehse</rs>
+               </hi> ist und bleibt ein kostbares Buch. Zudem studier ich, des Überblickes halber, Geschichte <add place="above">wie</add> zur Matura. Ich wäre weiter als ich bin, wenn ich ein gebildeter Mensch wäre!</p>
+            <p>Was ists mit <rs type="person" ref="pmb10863">Richard</rs>? Seine Karte mit <rs type="person" ref="pmb10860">Paula</rs>
+               <space unit="chars" quantity="1"/>
+               <unclear>wie</unclear> den <unclear>
+                  <rs type="person" subtype="implied" ref="pmb2534 pmb2668 pmb13923">Kindern</rs>
+               </unclear>
+               <space unit="chars" quantity="1"/>
+               <unclear>an</unclear>
+               <space unit="chars" quantity="1"/>
+               <gap quantity="3" reason="illegible" unit="chars"/> hab ich bekommen. Von sich schreibt er nichts. Grüßen Sie alle, die mir lieb sind.</p>
+            <closer>Herzlichst<space unit="chars" quantity="5"/>Ihr <signed>A.<pb/>
+               </signed>
+            </closer>
+            <postscript>
+               <p>
+                  <hi rend="latintype">
+                     <rs type="person" ref="pmb2292">Gerty</rs>
+                  </hi> wird wohl auch am liebsten mit dem Zehn Uhr Früh Zug fahren?<lb/>A.</p>
+               <p>Gestern Abend waren wir mit <rs type="person" ref="pmb10815">Bahr</rs>, (<rs type="place" ref="pmb63">Hietzing</rs>) dem’s recht gut, und was das wesentlichste ist, hoffnungsvoll zu gehen scheint.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

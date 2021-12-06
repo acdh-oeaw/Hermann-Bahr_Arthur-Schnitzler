@@ -1,85 +1,92 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041262.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041261.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041263.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 14. 10. 1905</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="262" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8938-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1903–1908</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1991">1991</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19051014" n="3">14/10</date> Vm. in der Direktion, mit <rs type="person" ref="pmb12556">Rosenbaum</rs> gesprochen, der mir günstiges über die <rs type="work" ref="pmb29903">Zwischenspiel</rs> Einnahmen und Aussichten erzählte.–</p> 
-            <p>– Zahlreiche Feuilletons über das <rs type="work" ref="pmb29843">Stück</rs>.– In die Intendanz, bei <rs type="person" ref="pmb3028">Plappart</rs>, der vom <rs type="work" ref="pmb29843">Kakadu</rs> schwärmte.– –</p> 
-            <p>Mittag <rs type="person" ref="pmb2315">Liesl</rs> und Frau <rs type="person" ref="pmb15984">Erl</rs> (und Frl. <rs type="person" ref="pmb15983">Erl</rs>) da.– <rs type="person" ref="pmb2315">Liesl</rs> reist ab.– Gelesen in <rs type="work" subtype="implied" ref="pmb31413"> 
-                  <rs type="person" ref="pmb11461">Goethe</rs> 
-                  <space unit="chars" quantity="1"/> über seine eignen Werke</rs>, <rs type="work" ref="pmb30677">Messenhauser</rs> von <rs type="person" ref="pmb12926">Telmann</rs>.–</p> 
-            <p>– <rs type="person" ref="pmb13055">Wassermann</rs> und <rs type="person" subtype="implied" ref="pmb13058">Frau</rs>. <rs type="person" ref="pmb13055">Wasserm.</rs> überbot sich heute selbst an übelwollenden Bemerkungen.–</p> 
-            <p>Ins <rs type="place" ref="pmb20">Volksth.</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb30675">Zerbrochner Krug</rs> und <rs type="work" ref="pmb29843">Kakadu</rs>. Der <rs type="work" ref="pmb29843">Kakadu</rs> war ein enormer Erfolg, ich mußt 7 oder 8mal heraus.– <rs type="person" ref="pmb11981">Kramer</rs> flüsterte mir taktvoll zu: »Ein Pflaster fürs <rs type="work" ref="pmb29903">Zwischenspiel</rs>.« – – <rs type="person" ref="pmb2235">Vallentin</rs> als Regisseur großer Erfolg.– <rs type="person" ref="pmb26880">Weisse</rs>: »Sie sehn, wir können auch was <c rendition="#dots" n="3"/>« Ich aergerte mich, dass ich (schlampert gedankenloser Weise) nur 3<c rendition="#prozent"/> für das Stück gefordert hatte – <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs> in der Loge.–</p> 
-            <p>Mit <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb10986">Brahm</rs> bei »<rs type="place" ref="pmb96">Meissl</rs>« genachtmahlt.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041262.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041261.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041263.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 14. 10. 1905</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="262" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8938-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1903–1908</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1991">1991</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19051014" n="3">14/10</date> Vm. in der Direktion, mit <rs type="person" ref="pmb12556">Rosenbaum</rs> gesprochen, der mir günstiges über die <rs type="work" ref="pmb29903">Zwischenspiel</rs> Einnahmen und Aussichten erzählte.–</p>
+            <p>– Zahlreiche Feuilletons über das <rs type="work" ref="pmb29843">Stück</rs>.– In die Intendanz, bei <rs type="person" ref="pmb3028">Plappart</rs>, der vom <rs type="work" ref="pmb29843">Kakadu</rs> schwärmte.– –</p>
+            <p>Mittag <rs type="person" ref="pmb2315">Liesl</rs> und Frau <rs type="person" ref="pmb62143">Erl</rs> (und Frl. <rs type="person" ref="pmb15983">Erl</rs>) da.– <rs type="person" ref="pmb2315">Liesl</rs> reist ab.– Gelesen in <rs type="work" subtype="implied" ref="pmb31413">
+                  <rs type="person" ref="pmb11461">Goethe</rs>
+                  <space unit="chars" quantity="1"/> über seine eignen Werke</rs>, <rs type="work" ref="pmb30677">Messenhauser</rs> von <rs type="person" ref="pmb12926">Telmann</rs>.–</p>
+            <p>– <rs type="person" ref="pmb13055">Wassermann</rs> und <rs type="person" subtype="implied" ref="pmb13058">Frau</rs>. <rs type="person" ref="pmb13055">Wasserm.</rs> überbot sich heute selbst an übelwollenden Bemerkungen.–</p>
+            <p>Ins <rs type="place" ref="pmb20">Volksth.</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb30675">Zerbrochner Krug</rs> und <rs type="work" ref="pmb29843">Kakadu</rs>. Der <rs type="work" ref="pmb29843">Kakadu</rs> war ein enormer Erfolg, ich mußt 7 oder 8mal heraus.– <rs type="person" ref="pmb11981">Kramer</rs> flüsterte mir taktvoll zu: »Ein Pflaster fürs <rs type="work" ref="pmb29903">Zwischenspiel</rs>.« – – <rs type="person" ref="pmb2235">Vallentin</rs> als Regisseur großer Erfolg.– <rs type="person" ref="pmb26880">Weisse</rs>: »Sie sehn, wir können auch was <c rendition="#dots" n="3"/>« Ich aergerte mich, dass ich (schlampert gedankenloser Weise) nur 3<c rendition="#prozent"/> für das Stück gefordert hatte – <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs> in der Loge.–</p>
+            <p>Mit <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb10986">Brahm</rs> bei »<rs type="place" ref="pmb96">Meissl</rs>« genachtmahlt.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,153 +1,130 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041359.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041358.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041360.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Felix Salten an Arthur Schnitzler, 12. 6. 1901</title> 
-            <author ref="pmb2167">Salten, Felix</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="359"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D8-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2167">Salten, Felix</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19010612" n="01">12. 6. 1901</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 89 a/2</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »<quote> 
-                              <placeName ref="pmb1">Jung-Wiener Theater / Zum lieben Augustin</placeName>. / Direction. / <placeName ref="pmb50"> 
-                                 <settlement>Wien</settlement> 
-                              </placeName>, ........ 190... / (<placeName ref="pmb37">Theater a. d. Wien</placeName>)</quote>«, Lateinschrift.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151112">Angelegt aus Abschrift</change> 
-         <change who="MAM" when="20151202">Durchgegangen mit Foto des Originals</change> 
-         <change who="KI MAM" when="20160614">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>12. Juni 1</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber Freund</salute>, es thut mit leid, dass ich Sie nicht mehr gesprochen habe. Bis Sonntag war ich verreist, <rs type="place" ref="pmb842"> 
-                  <settlement>Karlsbad</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs>. Habe in <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs> Frl. <rs type="person" ref="pmb3791">Bardi</rs> und einen hübschen jungen <rs type="person" subtype="implied" ref="pmb28682">Tenor</rs> engagirt, der die größte Ambition hat, ein <rs type="person" ref="pmb12707">Sven Skolander</rs> zu werden. Von D<hi rend="superscript"> 
-                  <hi rend="underline" n="1">r</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb2442">Mandl</rs> haben Sie gehört, dass <rs type="person" ref="pmb23918">Otti</rs> operirt wurde. Das war g<unclear>räss</unclear>lich schrecklich, obwol die ganze Sache an sich ja nichts bedeutet und glücklich verlaufen ist. Ich bleibe nun ungefähr acht Tage in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> und fahre dann nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs>, zwei Tage, von dort nach <rs type="place" ref="pmb484"> 
-                  <settlement>Zürich</settlement> 
-               </rs>, drei Tage, (<rs type="person" ref="pmb3167">Felix</rs>) von da nach <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs>, zwölf – 14 Tage und d’dann nach <rs type="place" ref="pmb145"> 
-                  <settlement>Köln</settlement> 
-               </rs>, <rs type="place" ref="pmb146"> 
-                  <settlement>Frankfurt</settlement> 
-               </rs>, <rs type="place" ref="pmb883"> 
-                  <settlement>Wiesbaden</settlement> 
-               </rs>, <rs type="place" ref="pmb872"> 
-                  <settlement>Stuttgart</settlement> 
-               </rs> – <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>. Im Juli werde ich im <rs type="place" ref="pmb429">Salzkammergut</rs> und am <geogName type="lake" instant="false" ref="pmb430">Wörthersee</geogName> sein. Auch zu einer kleinen Radtour wäre ich bereit. Den größten Theil des August bin ich in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>, mit Ausnahme einer kurzen Reise nach <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs> und nach <rs type="place" ref="pmb415"> 
-                  <settlement>Aussee</settlement> 
-               </rs>. Das ist Alles. Ich freue mich, dass Sie ein <rs type="work" subtype="implied" ref="pmb29865">neues Stück</rs> haben, und hege künstlerisch eine ganz bestimmte Erwartung davon. Vielleicht läßt es sich machen, das <rs type="person" ref="pmb2161">Bukovics</rs> mir die »<rs type="work" ref="pmb29859">Marionetten</rs>« abtritt, d. h. wenn Sie mir das <rs type="work" subtype="implied" ref="pmb29865">Stück</rs> geben wollen. Schrei<pb/>ben Sie mir darüber. <rs type="person" ref="pmb10986">Brahm</rs> ist, wie Sie wissen, hier. Wir sahen uns im Theater, ohne uns zu grüßen. Es ist mir ja sonst ganz gleichgiltig, aber ich bereue jetzt, dass ich mich s. Z. doch habe bereden laßen, ihm <rs type="work" subtype="implied" ref="pmb32426">mein Stück</rs> einzureichen. Nun bringt er mich durch sein Benehmen in <subst> 
-                  <del rend="overwritten">ei</del> 
-                  <add place="inline">den</add> 
-               </subst> peinlichen Verdacht, als sei ich ihm <hi rend="underline" n="1">deshalb</hi> böse. Ich bin ihm aber garnicht böse, am wenigsten deshalb. Nur sehe ich keine Ursache, sein unfreundliches Verhalten einzustecken.</p> 
-            <p>Von <rs type="person" ref="pmb10815">Bahr</rs> erfuhr ich, dass <rs type="person" ref="pmb11740">Hofmannsthal</rs> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="commentary" xml:id="KL359-1">Samstag geheirathet</anchor> hat. Schreiben Sie mir, bitte, bald. Hauptsächlich, wohin <subst> 
-                  <del rend="overwritten">s</del> 
-                  <add place="inline">S</add> 
-               </subst>ie reisen. Ich habe das »wir« nicht verstanden.<space unit="chars" quantity="5"/>Sind Sie mit Ihrer <rs type="person" subtype="implied" ref="pmb12701">Mama</rs>?</p> 
-            <closer>herzlichst<lb/>Ihr<lb/> 
-               <signed>Salten</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041359.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041358.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041360.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Felix Salten an Arthur Schnitzler, 12. 6. 1901</title>
+            <author ref="pmb2167">Salten, Felix</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="359"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86D8-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2167">Salten, Felix</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">Wien</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19010612" n="01">12. 6. 1901</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 a/2</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., gedruckter Kopf: »<quote>
+                              <placName ref="pmb1">Jung-Wiener Theater / Zum lieben Augustin</placName>. / Direction. / <placName ref="pmb50">
+                                 <settlement>Wien</settlement>
+                              </placName>, ........ 190... / (<placName ref="pmb37">Theater a. d. Wien</placName>)</quote>«, Lateinschrift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151112">Angelegt aus Abschrift</change>
+         <change who="MAM" when="20151202">Durchgegangen mit Foto des Originals</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>12. Juni 1</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>Lieber Freund</salute>, es thut mit leid, dass ich Sie nicht mehr gesprochen habe. Bis Sonntag war ich verreist, <rs type="place" ref="pmb842">Karlsbad</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb652">Prag</rs>. Habe in <rs type="place" ref="pmb652">Prag</rs> Frl. <rs type="person" ref="pmb3791">Bardi</rs> und einen hübschen jungen <rs type="person" subtype="implied" ref="pmb28682">Tenor</rs> engagirt, der die größte Ambition hat, ein <rs type="person" ref="pmb12707">Sven Skolander</rs> zu werden. Von D<hi rend="superscript">
+                  <hi rend="underline" n="1">r</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb20902">Mandl</rs> haben Sie gehört, dass <rs type="person" ref="pmb23918">Otti</rs> operirt wurde. Das war g<unclear>räss</unclear>lich schrecklich, obwol die ganze Sache an sich ja nichts bedeutet und glücklich verlaufen ist. Ich bleibe nun ungefähr acht Tage in <rs type="place" ref="pmb50">Wien</rs> und fahre dann nach <rs type="place" ref="pmb45258">München</rs>, zwei Tage, von dort nach <rs type="place" ref="pmb484">Zürich</rs>, drei Tage, (<rs type="person" ref="pmb3167">Felix</rs>) von da nach <rs type="place" ref="pmb182">Paris</rs>, zwölf – 14 Tage und d’dann nach <rs type="place" ref="pmb145">Köln</rs>, <rs type="place" ref="pmb146">Frankfurt</rs>, <rs type="place" ref="pmb883">Wiesbaden</rs>, <rs type="place" ref="pmb872">Stuttgart</rs> – <rs type="place" ref="pmb50">Wien</rs>. Im Juli werde ich im <rs type="place" ref="pmb429">Salzkammergut</rs> und am <geogName type="lake" instant="false" ref="pmb430">Wörthersee</geogName> sein. Auch zu einer kleinen Radtour wäre ich bereit. Den größten Theil des August bin ich in <rs type="place" ref="pmb50">Wien</rs>, mit Ausnahme einer kurzen Reise nach <rs type="place" ref="pmb652">Prag</rs> und nach <rs type="place" ref="pmb415">Aussee</rs>. Das ist Alles. Ich freue mich, dass Sie ein <rs type="work" subtype="implied" ref="pmb29865">neues Stück</rs> haben, und hege künstlerisch eine ganz bestimmte Erwartung davon. Vielleicht läßt es sich machen, das <rs type="person" ref="pmb2161">Bukovics</rs> mir die »<rs type="work" ref="pmb29859">Marionetten</rs>« abtritt, d. h. wenn Sie mir das <rs type="work" subtype="implied" ref="pmb29865">Stück</rs> geben wollen. Schrei<pb/>ben Sie mir darüber. <rs type="person" ref="pmb10986">Brahm</rs> ist, wie Sie wissen, hier. Wir sahen uns im Theater, ohne uns zu grüßen. Es ist mir ja sonst ganz gleichgiltig, aber ich bereue jetzt, dass ich mich s. Z. doch habe bereden laßen, ihm <rs type="work" subtype="implied" ref="pmb32426">mein Stück</rs> einzureichen. Nun bringt er mich durch sein Benehmen in <subst>
+                  <del rend="overwritten">ei</del>
+                  <add place="inline">den</add>
+               </subst> peinlichen Verdacht, als sei ich ihm <hi rend="underline" n="1">deshalb</hi> böse. Ich bin ihm aber garnicht böse, am wenigsten deshalb. Nur sehe ich keine Ursache, sein unfreundliches Verhalten einzustecken.</p>
+            <p>Von <rs type="person" ref="pmb10815">Bahr</rs> erfuhr ich, dass <rs type="person" ref="pmb11740">Hofmannsthal</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KL359-1">Samstag geheirathet</anchor> hat. Schreiben Sie mir, bitte, bald. Hauptsächlich, wohin <subst>
+                  <del rend="overwritten">s</del>
+                  <add place="inline">S</add>
+               </subst>ie reisen. Ich habe das »wir« nicht verstanden.<space unit="chars" quantity="5"/>Sind Sie mit Ihrer <rs type="person" subtype="implied" ref="pmb12701">Mama</rs>?</p>
+            <closer>herzlichst<lb/>Ihr<lb/>
+               <signed>Salten</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

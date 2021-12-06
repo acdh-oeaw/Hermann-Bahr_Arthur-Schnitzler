@@ -1,125 +1,128 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041616.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041615.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041617.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Brahm an Hermann Bahr, 22. 7. 1909</title> 
-            <author ref="pmb10986">Brahm, Otto</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="616"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D8-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb648">Bad Nauheim</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19090722" n="01">22. 7. 1909</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 16009 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, gedruckter Kopf: »<quote> 
-                              <placeName ref="pmb18">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName ref="pmb168"> 
-                                 <settlement>Berlin NW. 40</settlement> 
-                              </placeName>, den ........... 190....</quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160620">Angelegt</change> 
-         <change who="KI MAM" when="20160624">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb648"> 
-                     <settlement>Nauheim, Hohenzollern</settlement> 
-                  </rs> 
-                  <lb/> 
-                  <date>22/7. 09</date> 
-               </dateline> 
-               <salute rend="center">Lieber Herr Bahr,</salute> 
-            </opener> 
-            <p> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs> hat nun nochmals dem Abend <rs type="work" ref="pmb29933">Konzert</rs> – <rs type="work" ref="pmb29931">Mizzi</rs> zugestimmt; ich muss aber noch auf Ihre »Bedingung« zurückkommen, den Einakter hinter dem Dreiakter zu geben. Verehrtester, das lässt sich vom grünen Tisch aus nicht reglementiren, sondern muss ausprobirt werden; wir haben manchmal erst auf der Generalprobe dergleichen entschieden. Lassen Sie uns also, bitte, freie Hand; oder, noch besser, raten und taten Sie mit und kommen zu den Proben! – Vertrag mit dem gewünschten Termin lass ich Ihnen aus <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> senden.</p> 
-            <p>– Was Sie mir über Jura und Eva sagen, werd ich so viel es geht, berücksichtigen;<pb/> könnten Sie sich die <rs type="person" ref="pmb15622">Eberty</rs> als Ev<damage agent="hole"> 
-                  <supplied>a</supplied> 
-               </damage> denken? Pollinger – <rs type="person" ref="pmb12192">Marr</rs> wird sich wol machen lassen.</p> 
-            <p>Für Frl. <rs type="person" ref="pmb2303">Ritscher</rs> 
-               <space unit="chars" quantity="1"/> 
-               <unclear>wird</unclear> jetzt vielleicht bessere Chance, da die <rs type="person" ref="pmb2556">Orloff</rs> 
-               <space unit="chars" quantity="1"/> 
-               <add place="above">1910</add> ans <rs type="place" ref="pmb14">Burgtheater</rs> möchte. Ich bin mir aber gar nicht klar, was ihr »Fall« ist, und ob sie sich mit der <rs type="person" ref="pmb2556">O.</rs> ungefähr deckt. Jedenfalls, wenn sie sich im Sept. melden <damage agent="hole"> 
-                  <supplied>soll</supplied> 
-               </damage>, werd ich auf Ihr Interesse wie ihr das <del rend="strikethrough">Meinige</del> meinige stärker zuwenden (schön gesagt).</p> 
-            <p>Die <rs type="person" ref="pmb12111">Lossen</rs>, die ich, einschliesslich des <rs type="work" subtype="implied" ref="pmb30247">Gretchen</rs>, so ansetze, wie Sie, kommt 1910.</p> 
-            <closer>Herzlich<lb/>Ihr<lb/> 
-               <signed>OB</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041616.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041615.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041617.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Brahm an Hermann Bahr, 22. 7. 1909</title>
+            <author ref="pmb10986">Brahm, Otto</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="616"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D8-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb648">Bad Nauheim</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19090722" n="01">22. 7. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 16009 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, gedruckter Kopf: »<quote>
+                              <placName ref="pmb18">Lessing-Theater</placName> / Direktion / Dr. Otto Brahm. / <placName ref="pmb168">
+                                 <settlement>Berlin NW. 40</settlement>
+                              </placName>, den ........... 190....</quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160620">Angelegt</change>
+         <change who="KI MAM" when="20160624">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb648">Nauheim, Hohenzollern</rs>
+                  <lb/>
+                  <date>22/7. 09</date>
+               </dateline>
+               <salute rend="center">Lieber Herr Bahr,</salute>
+            </opener>
+            <p>
+               <rs type="person" ref="pmb2121">Schnitzler</rs> hat nun nochmals dem Abend <rs type="work" ref="pmb29933">Konzert</rs> – <rs type="work" ref="pmb29931">Mizzi</rs> zugestimmt; ich muss aber noch auf Ihre »Bedingung« zurückkommen, den Einakter hinter dem Dreiakter zu geben. Verehrtester, das lässt sich vom grünen Tisch aus nicht reglementiren, sondern muss ausprobirt werden; wir haben manchmal erst auf der Generalprobe dergleichen entschieden. Lassen Sie uns also, bitte, freie Hand; oder, noch besser, raten und taten Sie mit und kommen zu den Proben! – Vertrag mit dem gewünschten Termin lass ich Ihnen aus <rs type="place" ref="pmb168">Berlin</rs> senden.</p>
+            <p>– Was Sie mir über Jura und Eva sagen, werd ich so viel es geht, berücksichtigen;<pb/> könnten Sie sich die <rs type="person" ref="pmb15622">Eberty</rs> als Ev<damage agent="hole">
+                  <supplied>a</supplied>
+               </damage> denken? Pollinger – <rs type="person" ref="pmb12192">Marr</rs> wird sich wol machen lassen.</p>
+            <p>Für Frl. <rs type="person" ref="pmb2303">Ritscher</rs>
+               <space unit="chars" quantity="1"/>
+               <unclear>wird</unclear> jetzt vielleicht bessere Chance, da die <rs type="person" ref="pmb2556">Orloff</rs>
+               <space unit="chars" quantity="1"/>
+               <add place="above">1910</add> ans <rs type="place" ref="pmb14">Burgtheater</rs> möchte. Ich bin mir aber gar nicht klar, was ihr »Fall« ist, und ob sie sich mit der <rs type="person" ref="pmb2556">O.</rs> ungefähr deckt. Jedenfalls, wenn sie sich im Sept. melden <damage agent="hole">
+                  <supplied>soll</supplied>
+               </damage>, werd ich auf Ihr Interesse wie ihr das <del rend="strikethrough">Meinige</del> meinige stärker zuwenden (schön gesagt).</p>
+            <p>Die <rs type="person" ref="pmb12111">Lossen</rs>, die ich, einschliesslich des <rs type="work" subtype="implied" ref="pmb30247">Gretchen</rs>, so ansetze, wie Sie, kommt 1910.</p>
+            <closer>Herzlich<lb/>Ihr<lb/>
+               <signed>OB</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,118 +1,123 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041593.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041592.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041594.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Eduard Pötzl an Hermann Bahr, 17. 3. 1903</title> 
-            <author ref="pmb12460">Pötzl, Eduard</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="593"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87C2-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb12460">Pötzl, Eduard</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19030317" n="01">17. 3. 1903</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 22034 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Brief, 1 Bl., 2 S. mit hs. Unterschrift und Fußnote, gedruckter Kopf: »<quote> 
-                              <orgName ref="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placeName ref="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placeName> / Telegramm-Adresse: / Tagblatt, <placeName ref="pmb683">Wien, Steyrerhof</placeName>. / Telephon: 384 u. 357 für <placeName ref="pmb50"> 
-                                 <settlement>Wien</settlement> 
-                              </placeName>. / Interurbaner Verkehr: 12036.</quote>« Statt der Ziffer »<quote>1</quote>« wurde »<quote>i</quote>« gesetzt, in der Wiedergabe behoben.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160531">Angelegt</change> 
-         <change who="KI MAM" when="20160607">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement>Wien</settlement> 
-                  </rs>, am <date>17. März 1903</date>.</dateline> 
-               <salute rend="center">Wertester Kollege!</salute> 
-            </opener> 
-            <p>Herr <rs cert="low" type="person" ref="pmb28000">Schlager</rs> schwört, er sei Dienstag nicht in der Offizin gewesen und habe auch seither den <rs type="work" subtype="implied" ref="pmb32448">Bürstenabzug</rs> nicht erhalten. Es bleibt somit nichts anderes übrig, als Ihnen noch einmal die Korrektur zuzumuten, und ich sende Ihnen zu diesem Zwecke einen neuerlichen Abzug, nach dessen Korrektur ich trachten werde, das Feuilleton so rasch als möglich – es ist leider sehr gross – erscheinen zu lassen.</p> 
-            <p>Was Sie mir bezüglich <rs type="person" ref="pmb11740">Hofmannsthal</rs> und <rs type="person" ref="pmb2121">Schnitzler</rs> sagen, will ich in Erwägung ziehen und werde wahrscheinlich an die beiden Herren selbst Aufforderungen richten, wenn ich vorerst die Gewissheit habe, dass ich zu Ostern die Beilage überhaupt durchzudrücken vermag.</p> 
-            <p>Was Ihre Abwesenheit vom Bureau betrifft, so machen Sie sich um Himmels willen doch nicht so unnütze Sorgen. Es glaubt bei Ihrem geradezu phänomenalen Fleisse doch niemand – am allerwenigesten Herr <rs type="person" ref="pmb2202">Singer</rs> –<pb/> dass Sie eine Stunde länger wegbleiben, als unbedingt nötig ist; im Gegenteil wäre eher zu befürchten, dass Sie sich zu früh wieder ins Joch spannen lassen. Tun Sie das gewiss nicht; denn es hätte am Ausgang einer Theatersaison, der Sie übrigens auch von Ihrem Zimmer aus in der Hauptsache zu folgen vermögen, keinen Sinn, die Rekonvaleszenz durch verfrühte Abschinderei zu unterbrechen und hinauszuziehen. Herr <rs type="person" ref="pmb2202">Singer</rs> wird lachen, wenn ich ihn von Ihrem Briefe unterrichte.<add place="inline">+)</add> 
-            </p> 
-            <p>Was unsere Aktion gegen Sie betrifft, so dürfen Sie auch vollständig ruhig sein; es ist nichts Schlimmeres geplant, als durch einen gemütlichen Redaktionsabend – so weit dergleichen Abende eben gemütlich sein können – Ihre Genesung zu feiern, Ihnen dabei womöglich den ersten Rausch anzutrinken und sonstigen Ulk zu treiben. Der Anfang ist schon gemacht: der <anchor type="commentary" xml:id="KL593-1"> 
-                  <rs type="person" subtype="implied" ref="pmb2202">Chefredakteur</rs> 
-               </anchor> hat heute unserem bekanntlich stets sehr dürftig gekleideten Kollegen <rs type="person" subtype="implied" ref="pmb3304">Jodokus Kuh</rs> einen ganzen Frackanzug geschenkt, den der Empfänger dieser milden Spende voll Stolz in der Konferenz gezeigt hat. In diesem Anzuge wird er Sie festlich empfangen. Wenn Sie ihm ein paar Hosenträger dazuschenken wollen, wird er sie dankbar annehmen und den Augenblick Ihrer Genesung segnen. Aber den Abend wollen wir nicht früher feiern, als bis Ihr narkotisches Herz sich dem Alkohol holdselig nähern darf.</p> 
-            <closer>Mit vielen Grüssen<lb/>Der Beschwichtigungshofrat:<lb/> 
-               <signed> 
-                  <handShift/>Ed. Pötzl</signed> 
-            </closer> 
-            <postscript> 
-               <p>+) Herr <rs type="person" ref="pmb2202">Singer</rs> hat nicht bloß gelacht, sondern Sie sogleich antelephoniren lassen.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041593.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041592.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041594.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Eduard Pötzl an Hermann Bahr, 17. 3. 1903</title>
+            <author ref="pmb12460">Pötzl, Eduard</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="593"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87C2-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12460">Pötzl, Eduard</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19030317" n="01">17. 3. 1903</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 22034 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief, 1 Bl., 2 S. mit hs. Unterschrift und Fußnote, gedruckter Kopf: »<quote>
+                              <orgName ref="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placName ref="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placName> / Telegramm-Adresse: / Tagblatt, <placName ref="pmb683">Wien, Steyrerhof</placName>. / Telephon: 384 u. 357 für <placName ref="pmb50">
+                                 <settlement>Wien</settlement>
+                              </placName>. / Interurbaner Verkehr: 12036.</quote>« Statt der Ziffer »<quote>1</quote>« wurde »<quote>i</quote>« gesetzt, in der Wiedergabe behoben.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160531">Angelegt</change>
+         <change who="KI MAM" when="20160607">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb50">Wien</rs>, am <date>17. März 1903</date>.</dateline>
+               <salute rend="center">Wertester Kollege!</salute>
+            </opener>
+            <p>Herr <rs type="person" ref="pmb28000">Schlager</rs> schwört, er sei Dienstag nicht in der Offizin gewesen und habe auch seither den <rs type="work" subtype="implied" ref="pmb32448">Bürstenabzug</rs> nicht erhalten. Es bleibt somit nichts anderes übrig, als Ihnen noch einmal die Korrektur zuzumuten, und ich sende Ihnen zu diesem Zwecke einen neuerlichen Abzug, nach dessen Korrektur ich trachten werde, das Feuilleton so rasch als möglich – es ist leider sehr gross – erscheinen zu lassen.</p>
+            <p>Was Sie mir bezüglich <rs type="person" ref="pmb11740">Hofmannsthal</rs> und <rs type="person" ref="pmb2121">Schnitzler</rs> sagen, will ich in Erwägung ziehen und werde wahrscheinlich an die beiden Herren selbst Aufforderungen richten, wenn ich vorerst die Gewissheit habe, dass ich zu Ostern die Beilage überhaupt durchzudrücken vermag.</p>
+            <p>Was Ihre Abwesenheit vom Bureau betrifft, so machen Sie sich um Himmels willen doch nicht so unnütze Sorgen. Es glaubt bei Ihrem geradezu phänomenalen Fleisse doch niemand – am allerwenigesten Herr <rs type="person" ref="pmb2202">Singer</rs> –<pb/> dass Sie eine Stunde länger wegbleiben, als unbedingt nötig ist; im Gegenteil wäre eher zu befürchten, dass Sie sich zu früh wieder ins Joch spannen lassen. Tun Sie das gewiss nicht; denn es hätte am Ausgang einer Theatersaison, der Sie übrigens auch von Ihrem Zimmer aus in der Hauptsache zu folgen vermögen, keinen Sinn, die Rekonvaleszenz durch verfrühte Abschinderei zu unterbrechen und hinauszuziehen. Herr <rs type="person" ref="pmb2202">Singer</rs> wird lachen, wenn ich ihn von Ihrem Briefe unterrichte.<add place="inline">+)</add>
+            </p>
+            <p>Was unsere Aktion gegen Sie betrifft, so dürfen Sie auch vollständig ruhig sein; es ist nichts Schlimmeres geplant, als durch einen gemütlichen Redaktionsabend – so weit dergleichen Abende eben gemütlich sein können – Ihre Genesung zu feiern, Ihnen dabei womöglich den ersten Rausch anzutrinken und sonstigen Ulk zu treiben. Der Anfang ist schon gemacht: der <anchor type="commentary" xml:id="KL593-1">
+                  <rs type="person" subtype="implied" ref="pmb2202">Chefredakteur</rs>
+               </anchor> hat heute unserem bekanntlich stets sehr dürftig gekleideten Kollegen <rs type="person" subtype="implied" ref="pmb3304">Jodokus Kuh</rs> einen ganzen Frackanzug geschenkt, den der Empfänger dieser milden Spende voll Stolz in der Konferenz gezeigt hat. In diesem Anzuge wird er Sie festlich empfangen. Wenn Sie ihm ein paar Hosenträger dazuschenken wollen, wird er sie dankbar annehmen und den Augenblick Ihrer Genesung segnen. Aber den Abend wollen wir nicht früher feiern, als bis Ihr narkotisches Herz sich dem Alkohol holdselig nähern darf.</p>
+            <closer>Mit vielen Grüssen<lb/>Der Beschwichtigungshofrat:<lb/>
+               <signed>
+                  <handShift/>Ed. Pötzl</signed>
+            </closer>
+            <postscript>
+               <p>+) Herr <rs type="person" ref="pmb2202">Singer</rs> hat nicht bloß gelacht, sondern Sie sogleich antelephoniren lassen.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

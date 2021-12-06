@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xmlns:tei="http://www.tei-c.org/ns/1.0"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -13,10 +15,10 @@
                <address>
                   <street>Sensengasse 1</street>
                   <postCode>1090 Wien</postCode>
-                  <placeName>
+                  <placName ref="">
                      <country>A</country>
                      <settlement>Wien</settlement>
-                  </placeName>
+                  </placName>
                </address>
             </funder>
          </titleStmt>
@@ -40,7 +42,7 @@
                      <tei:gloss ana="i1001">Akademie der Wissenschaften</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
@@ -53,7 +55,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb145">
-                     <tei:rs type="place">Köln</tei:rs>
+                     <rs type="place" ref="">Köln</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.93835 6.95427</tei:geo>
                      </tei:location>
@@ -67,7 +69,7 @@
                      <tei:gloss ana="i982">Bildungseinrichtung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -78,11 +80,14 @@
                <org xml:id="pmb29265">
                   <tei:rs type="org">Akademisch-dramatischer Verein München</tei:rs>
                   <tei:desc>
-                     <tei:date from="1890-01-01" from-custom="1890" to="1903-01-01" to-custom="1903">1890–1903</tei:date>
+                     <tei:date from="1890-01-01"
+                               from-custom="1890"
+                               to="1903-01-01"
+                               to-custom="1903">1890–1903</tei:date>
                      <tei:gloss ana="i995">Theaterverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -92,17 +97,20 @@
                <org xml:id="pmb29767">
                   <tei:rs type="org">Akademischer Verein für Kunst und Literatur</tei:rs>
                   <tei:desc>
-                     <tei:date from="1901-01-01" from-custom="1901" to="1903-01-01" to-custom="1903">1901–1903</tei:date>
+                     <tei:date from="1901-01-01"
+                               from-custom="1901"
+                               to="1903-01-01"
+                               to-custom="1903">1901–1903</tei:date>
                      <tei:gloss ana="i997">Literarische Vereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb311">
-                     <tei:rs type="place">Mariannengasse</tei:rs>
+                     <rs type="place" ref="">Mariannengasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.216168226614 16.347786493633</tei:geo>
                      </tei:location>
@@ -123,7 +131,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -137,7 +145,7 @@
                      <tei:gloss ana="i1003">Burschenschaft</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -150,13 +158,13 @@
                      <tei:gloss ana="i986">Bankhaus</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb1107">
-                     <tei:rs type="place">Teinfaltstraße</tei:rs>
+                     <rs type="place" ref="">Teinfaltstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.21181 16.36329</tei:geo>
                      </tei:location>
@@ -170,7 +178,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -183,13 +191,13 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb52510">
-                     <tei:rs type="place">Berggasse</tei:rs>
+                     <rs type="place" ref="">Berggasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.218776849348906 16.36345511169916</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb53101">
-                     <tei:rs type="place">Seidengasse</tei:rs>
+                     <rs type="place" ref="">Seidengasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2002 16.3397</tei:geo>
                      </tei:location>
@@ -200,29 +208,32 @@
                <org xml:id="pmb29644">
                   <tei:rs type="org">Arbeiter-Zeitung</tei:rs>
                   <tei:desc>
-                     <tei:date from="1889-07-12" from-custom="1889-07-12" to="1991-10-31" to-custom="1991-10-31">12. 7. 1889–31. 10. 1991</tei:date>
+                     <tei:date from="1889-07-12"
+                               from-custom="1889-07-12"
+                               to="1991-10-31"
+                               to-custom="1991-10-31">12. 7. 1889–31. 10. 1991</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb833">
-                     <tei:rs type="place">Brünn</tei:rs>
+                     <rs type="place" ref="">Brünn</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.19522 16.60796</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb302">
-                     <tei:rs type="place">Mariahilferstraße</tei:rs>
+                     <rs type="place" ref="">Mariahilferstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2007 16.3574</tei:geo>
                      </tei:location>
@@ -250,7 +261,7 @@
                      <tei:gloss ana="i993">Literaturpreis</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -264,7 +275,7 @@
                      <tei:gloss ana="i1004">Veranstaltung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb734">
-                     <tei:rs type="place">Bayreuth</tei:rs>
+                     <rs type="place" ref="">Bayreuth</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.94782 11.57893</tei:geo>
                      </tei:location>
@@ -277,7 +288,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -291,7 +302,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -305,7 +316,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -319,13 +330,13 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb822">
-                     <tei:rs type="place">Alexanderstraße</tei:rs>
+                     <rs type="place" ref="">Alexanderstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52383 13.41293</tei:geo>
                      </tei:location>
@@ -346,7 +357,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -367,7 +378,7 @@
                      <tei:gloss ana="i1005">Wochenzeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb833">
-                     <tei:rs type="place">Brünn</tei:rs>
+                     <rs type="place" ref="">Brünn</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.19522 16.60796</tei:geo>
                      </tei:location>
@@ -380,7 +391,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb833">
-                     <tei:rs type="place">Brünn</tei:rs>
+                     <rs type="place" ref="">Brünn</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.19522 16.60796</tei:geo>
                      </tei:location>
@@ -393,7 +404,7 @@
                      <tei:gloss ana="i995">Theaterverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb43471">
-                     <tei:rs type="place">Budapest</tei:rs>
+                     <rs type="place" ref="">Budapest</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.49835 19.04045</tei:geo>
                      </tei:location>
@@ -413,7 +424,7 @@
                      <tei:gloss ana="i988">Militärmusikkapelle</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -426,7 +437,7 @@
                      <tei:gloss ana="i977">Bank</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -446,13 +457,13 @@
                      <tei:gloss ana="i1017">Schriftstellerverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -473,7 +484,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb886">
-                     <tei:rs type="place">Mailand</tei:rs>
+                     <rs type="place" ref="">Mailand</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">45.46427 9.18951</tei:geo>
                      </tei:location>
@@ -483,53 +494,56 @@
                <org xml:id="pmb29206">
                   <tei:rs type="org">Cosmopolis</tei:rs>
                   <tei:desc>
-                     <tei:date from="1896-01-01" from-custom="1896" to="1898-01-01" to-custom="1898">1896–1898</tei:date>
+                     <tei:date from="1896-01-01"
+                               from-custom="1896"
+                               to="1898-01-01"
+                               to-custom="1898">1896–1898</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb224">
-                     <tei:rs type="place">London</tei:rs>
+                     <rs type="place" ref="">London</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.50853 -0.12574</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb562">
-                     <tei:rs type="place">Genf</tei:rs>
+                     <rs type="place" ref="">Genf</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">46.20222 6.14569</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb44053">
-                     <tei:rs type="place">New York City</tei:rs>
+                     <rs type="place" ref="">New York City</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">40.71427 -74.00597</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb40709">
-                     <tei:rs type="place">Amsterdam</tei:rs>
+                     <rs type="place" ref="">Amsterdam</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.37403 4.88969</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb433">
-                     <tei:rs type="place">Sankt Petersburg</tei:rs>
+                     <rs type="place" ref="">Sankt Petersburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">59.93863 30.31413</tei:geo>
                      </tei:location>
@@ -550,13 +564,13 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb653">
-                     <tei:rs type="place">Universitätsstraße</tei:rs>
+                     <rs type="place" ref="">Universitätsstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.214120366337 16.358756425131</tei:geo>
                      </tei:location>
@@ -566,17 +580,20 @@
                <org xml:id="pmb29649">
                   <tei:rs type="org">Der Kunstwart</tei:rs>
                   <tei:desc>
-                     <tei:date from="1887-01-01" from-custom="1887" to="1937-01-01" to-custom="1937">1887–1937</tei:date>
+                     <tei:date from="1887-01-01"
+                               from-custom="1887"
+                               to="1937-01-01"
+                               to-custom="1937">1887–1937</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb866">
-                     <tei:rs type="place">Dresden</tei:rs>
+                     <rs type="place" ref="">Dresden</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.0833 13.7666</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -590,7 +607,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -601,11 +618,14 @@
                <org xml:id="pmb29398">
                   <tei:rs type="org">Der Morgen. Wiener Montagsblatt</tei:rs>
                   <tei:desc>
-                     <tei:date from="1910-01-01" from-custom="1910" to="1938-01-01" to-custom="1938">1910–1938</tei:date>
+                     <tei:date from="1910-01-01"
+                               from-custom="1910"
+                               to="1938-01-01"
+                               to-custom="1938">1910–1938</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -618,7 +638,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -635,17 +655,20 @@
                <org xml:id="pmb29650">
                   <tei:rs type="org">Der Tag</tei:rs>
                   <tei:desc>
-                     <tei:date from="1900-01-01" from-custom="1900" to="1934-01-01" to-custom="1934">1900–1934</tei:date>
+                     <tei:date from="1900-01-01"
+                               from-custom="1900"
+                               to="1934-01-01"
+                               to-custom="1934">1900–1934</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb50643">
-                     <tei:rs type="place">Canisiusgasse</tei:rs>
+                     <rs type="place" ref="">Canisiusgasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.228159 16.353186</tei:geo>
                      </tei:location>
@@ -659,7 +682,7 @@
                      <tei:gloss ana="i984">Amt</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -672,13 +695,13 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb57117">
-                     <tei:rs type="place">Schellingstraße</tei:rs>
+                     <rs type="place" ref="">Schellingstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.50601010119616 13.373239969526331</tei:geo>
                      </tei:location>
@@ -691,7 +714,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -705,7 +728,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -726,13 +749,13 @@
                      <tei:gloss ana="i1042">Kabarett</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb50087">
-                     <tei:rs type="place">Türkenstraße</tei:rs>
+                     <rs type="place" ref="">Türkenstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.150271 11.57595</tei:geo>
                      </tei:location>
@@ -746,7 +769,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -760,7 +783,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -771,11 +794,14 @@
                <org xml:id="pmb29440">
                   <tei:rs type="org">Die Gesellschaft</tei:rs>
                   <tei:desc>
-                     <tei:date from="1885-01-01" from-custom="1885" to="1902-01-01" to-custom="1902">1885–1902</tei:date>
+                     <tei:date from="1885-01-01"
+                               from-custom="1885"
+                               to="1902-01-01"
+                               to-custom="1902">1885–1902</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -796,7 +822,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -806,11 +832,14 @@
                <org xml:id="pmb29807">
                   <tei:rs type="org">Die Nation</tei:rs>
                   <tei:desc>
-                     <tei:date from="1883-01-01" from-custom="1883" to="1907-01-01" to-custom="1907">1883–1907</tei:date>
+                     <tei:date from="1883-01-01"
+                               from-custom="1883"
+                               to="1907-01-01"
+                               to-custom="1907">1883–1907</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -824,7 +853,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -852,7 +881,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -866,13 +895,13 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb296">
-                     <tei:rs type="place">Günthergasse</tei:rs>
+                     <rs type="place" ref="">Günthergasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.216599877109 16.358330000258</tei:geo>
                      </tei:location>
@@ -886,7 +915,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -907,7 +936,7 @@
                      <tei:gloss ana="i1046">Auktionshaus</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -927,13 +956,13 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb866">
-                     <tei:rs type="place">Dresden</tei:rs>
+                     <rs type="place" ref="">Dresden</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.0833 13.7666</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb864">
-                     <tei:rs type="place">Leipzig</tei:rs>
+                     <rs type="place" ref="">Leipzig</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.33962 12.37129</tei:geo>
                      </tei:location>
@@ -954,7 +983,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -968,7 +997,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -982,7 +1011,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb44053">
-                     <tei:rs type="place">New York City</tei:rs>
+                     <rs type="place" ref="">New York City</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">40.71427 -74.00597</tei:geo>
                      </tei:location>
@@ -992,11 +1021,14 @@
                <org xml:id="pmb29717">
                   <tei:rs type="org">Extrapost</tei:rs>
                   <tei:desc>
-                     <tei:date from="1905-01-01" from-custom="1905" to="1882-01-01" to-custom="1882">1905–1882</tei:date>
+                     <tei:date from="1905-01-01"
+                               from-custom="1905"
+                               to="1882-01-01"
+                               to-custom="1882">1905–1882</tei:date>
                      <tei:gloss ana="i998">Wochenzeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1010,7 +1042,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1021,11 +1053,14 @@
                <org xml:id="pmb29442">
                   <tei:rs type="org">Frankfurter Zeitung</tei:rs>
                   <tei:desc>
-                     <tei:date from="1856-01-01" from-custom="1856" to="1943-01-01" to-custom="1943">1856–1943</tei:date>
+                     <tei:date from="1856-01-01"
+                               from-custom="1856"
+                               to="1943-01-01"
+                               to-custom="1943">1856–1943</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb146">
-                     <tei:rs type="place">Frankfurt am Main</tei:rs>
+                     <rs type="place" ref="">Frankfurt am Main</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.11552 8.68417</tei:geo>
                      </tei:location>
@@ -1039,7 +1074,7 @@
                      <tei:gloss ana="i993">Literaturpreis</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1053,7 +1088,7 @@
                      <tei:gloss ana="i997">Literarische Vereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1067,7 +1102,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb36539">
-                     <tei:rs type="place">Opava</tei:rs>
+                     <rs type="place" ref="">Opava</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.93866 17.90257</tei:geo>
                      </tei:location>
@@ -1081,13 +1116,13 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb34943">
-                     <tei:rs type="place">Lützowstraße</tei:rs>
+                     <rs type="place" ref="">Lützowstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.503684 13.362449</tei:geo>
                      </tei:location>
@@ -1101,7 +1136,7 @@
                      <tei:gloss ana="i978">Wohltätigkeitsverein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1129,7 +1164,7 @@
                      <tei:gloss ana="i997">Literarische Vereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb42605">
-                     <tei:rs type="place">Kaliningrad</tei:rs>
+                     <rs type="place" ref="">Kaliningrad</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">54.70649 20.51095</tei:geo>
                      </tei:location>
@@ -1143,7 +1178,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb860">
-                     <tei:rs type="place">Graz</tei:rs>
+                     <rs type="place" ref="">Graz</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.06667 15.43333</tei:geo>
                      </tei:location>
@@ -1164,7 +1199,7 @@
                      <tei:gloss ana="i983">Künstlervereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1191,7 +1226,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1205,7 +1240,7 @@
                      <tei:gloss ana="i986">Bankhaus</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1225,7 +1260,7 @@
                      <tei:gloss ana="i1014">Kleidergeschäft</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1238,7 +1273,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1253,7 +1288,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb864">
-                     <tei:rs type="place">Leipzig</tei:rs>
+                     <rs type="place" ref="">Leipzig</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.33962 12.37129</tei:geo>
                      </tei:location>
@@ -1275,7 +1310,7 @@
                      <tei:gloss ana="i985">Theatergruppe</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -1294,7 +1329,7 @@
                      <tei:gloss ana="i1020">Buchhandlung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb59">
-                     <tei:rs type="place">IX., Alsergrund</tei:rs>
+                     <rs type="place" ref="">IX., Alsergrund</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.22387 16.35641</tei:geo>
                      </tei:location>
@@ -1308,7 +1343,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1329,7 +1364,7 @@
                      <tei:gloss ana="i990">Geschäft</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1342,7 +1377,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
@@ -1352,11 +1387,14 @@
                <org xml:id="pmb29408">
                   <tei:rs type="org">Jugend</tei:rs>
                   <tei:desc>
-                     <tei:date from="1896-01-01" from-custom="1896" to="1940-01-01" to-custom="1940">1896–1940</tei:date>
+                     <tei:date from="1896-01-01"
+                               from-custom="1896"
+                               to="1940-01-01"
+                               to-custom="1940">1896–1940</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -1390,7 +1428,7 @@
                      <tei:gloss ana="i981">Kartenbüro</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1403,7 +1441,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1424,7 +1462,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb145">
-                     <tei:rs type="place">Köln</tei:rs>
+                     <rs type="place" ref="">Köln</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.93835 6.95427</tei:geo>
                      </tei:location>
@@ -1438,7 +1476,7 @@
                      <tei:gloss ana="i982">Bildungseinrichtung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1452,7 +1490,7 @@
                      <tei:gloss ana="i982">Bildungseinrichtung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -1493,7 +1531,7 @@
                      <tei:gloss ana="i1039">Zeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
@@ -1507,7 +1545,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb182">
-                     <tei:rs type="place">Paris</tei:rs>
+                     <rs type="place" ref="">Paris</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.85341 2.3488</tei:geo>
                      </tei:location>
@@ -1520,7 +1558,7 @@
                      <tei:gloss ana="i997">Literarische Vereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb146">
-                     <tei:rs type="place">Frankfurt am Main</tei:rs>
+                     <rs type="place" ref="">Frankfurt am Main</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.11552 8.68417</tei:geo>
                      </tei:location>
@@ -1533,7 +1571,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb140">
-                     <tei:rs type="place">Halle an der Saale</tei:rs>
+                     <rs type="place" ref="">Halle an der Saale</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.48158 11.97947</tei:geo>
                      </tei:location>
@@ -1553,7 +1591,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1567,13 +1605,13 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb597">
-                     <tei:rs type="place">Kohlmarkt</tei:rs>
+                     <rs type="place" ref="">Kohlmarkt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.208793755801 16.367626574032</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1594,7 +1632,7 @@
                      <tei:gloss ana="i990">Geschäft</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb52">
-                     <tei:rs type="place">II., Leopoldstadt</tei:rs>
+                     <rs type="place" ref="">II., Leopoldstadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.21667 16.4</tei:geo>
                      </tei:location>
@@ -1607,7 +1645,7 @@
                      <tei:gloss ana="i1047">Theaterunternehmen</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1621,7 +1659,7 @@
                      <tei:gloss ana="i985">Theatergruppe</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb35576">
-                     <tei:rs type="place">Meiningen</tei:rs>
+                     <rs type="place" ref="">Meiningen</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.56787 10.41521</tei:geo>
                      </tei:location>
@@ -1649,31 +1687,31 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb41352">
-                     <tei:rs type="place">Výstaviště</tei:rs>
+                     <rs type="place" ref="">Výstaviště</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.188675 16.586983</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb789">
-                     <tei:rs type="place">Buchfeldgasse</tei:rs>
+                     <rs type="place" ref="">Buchfeldgasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.210652801032 16.353347167402</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb790">
-                     <tei:rs type="place">Tuchlauben</tei:rs>
+                     <rs type="place" ref="">Tuchlauben</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.210369328822 16.370282346864</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb833">
-                     <tei:rs type="place">Brünn</tei:rs>
+                     <rs type="place" ref="">Brünn</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.19522 16.60796</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1708,7 +1746,7 @@
                      <tei:gloss ana="i983">Künstlervereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -1718,11 +1756,14 @@
                <org xml:id="pmb29351">
                   <tei:rs type="org">Neue Freie Presse</tei:rs>
                   <tei:desc>
-                     <tei:date from="1864-09-01" from-custom="1864-09-01" to="1939-02-01" to-custom="1939-02-01">1. 9. 1864–1. 2. 1939</tei:date>
+                     <tei:date from="1864-09-01"
+                               from-custom="1864-09-01"
+                               to="1939-02-01"
+                               to-custom="1939-02-01">1. 9. 1864–1. 2. 1939</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1737,7 +1778,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -1751,7 +1792,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb43471">
-                     <tei:rs type="place">Budapest</tei:rs>
+                     <rs type="place" ref="">Budapest</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.49835 19.04045</tei:geo>
                      </tei:location>
@@ -1761,17 +1802,20 @@
                <org xml:id="pmb29320">
                   <tei:rs type="org">Neues Wiener Journal</tei:rs>
                   <tei:desc>
-                     <tei:date from="1893-01-01" from-custom="1893" to="1939-01-01" to-custom="1939">1893–1939</tei:date>
+                     <tei:date from="1893-01-01"
+                               from-custom="1893"
+                               to="1939-01-01"
+                               to-custom="1939">1893–1939</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb1270">
-                     <tei:rs type="place">Nussdorfer Straße</tei:rs>
+                     <rs type="place" ref="">Nussdorfer Straße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.22921 16.35461</tei:geo>
                      </tei:location>
@@ -1782,17 +1826,20 @@
                <org xml:id="pmb29414">
                   <tei:rs type="org">Neues Wiener Tagblatt</tei:rs>
                   <tei:desc>
-                     <tei:date from="1867-01-01" from-custom="1867" to="1945-01-01" to-custom="1945">1867–1945</tei:date>
+                     <tei:date from="1867-01-01"
+                               from-custom="1867"
+                               to="1945-01-01"
+                               to-custom="1945">1867–1945</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb683">
-                     <tei:rs type="place">Steyrerhof</tei:rs>
+                     <rs type="place" ref="">Steyrerhof</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.21117 16.37606</tei:geo>
                      </tei:location>
@@ -1806,7 +1853,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb484">
-                     <tei:rs type="place">Zürich</tei:rs>
+                     <rs type="place" ref="">Zürich</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.37174 8.54226</tei:geo>
                      </tei:location>
@@ -1820,7 +1867,7 @@
                      <tei:gloss ana="i984">Amt</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1834,7 +1881,7 @@
                      <tei:gloss ana="i993">Literaturpreis</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb1119">
-                     <tei:rs type="place">Stockholm</tei:rs>
+                     <rs type="place" ref="">Stockholm</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">59.325 18.05</tei:geo>
                      </tei:location>
@@ -1848,7 +1895,7 @@
                      <tei:gloss ana="i1045">Zeitungsausschnittsagentur</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb51">
-                     <tei:rs type="place">I., Innere Stadt</tei:rs>
+                     <rs type="place" ref="">I., Innere Stadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20769 16.37049</tei:geo>
                      </tei:location>
@@ -1861,7 +1908,7 @@
                      <tei:gloss ana="i999">Interessensvertretung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1886,11 +1933,14 @@
                <org xml:id="pmb29496">
                   <tei:rs type="org">Österreichische Rundschau</tei:rs>
                   <tei:desc>
-                     <tei:date from="1904-01-01" from-custom="1904" to="1924-01-01" to-custom="1924">1904–1924</tei:date>
+                     <tei:date from="1904-01-01"
+                               from-custom="1904"
+                               to="1924-01-01"
+                               to-custom="1924">1904–1924</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1904,7 +1954,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -1925,7 +1975,7 @@
                      <tei:gloss ana="i984">Amt</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -1939,19 +1989,19 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb54">
-                     <tei:rs type="place">IV., Wieden</tei:rs>
+                     <rs type="place" ref="">IV., Wieden</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.19198 16.36714</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb36816">
-                     <tei:rs type="place">Schöneberg</tei:rs>
+                     <rs type="place" ref="">Schöneberg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.46667 13.38333</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb524">
-                     <tei:rs type="place">Prinz-Eugen-Straße</tei:rs>
+                     <rs type="place" ref="">Prinz-Eugen-Straße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.192914955653 16.378269181766</tei:geo>
                      </tei:location>
@@ -1966,7 +2016,7 @@
                      <tei:gloss ana="i999">Interessensvertretung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -1980,7 +2030,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb43471">
-                     <tei:rs type="place">Budapest</tei:rs>
+                     <rs type="place" ref="">Budapest</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.49835 19.04045</tei:geo>
                      </tei:location>
@@ -1995,7 +2045,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb872">
-                     <tei:rs type="place">Stuttgart</tei:rs>
+                     <rs type="place" ref="">Stuttgart</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.78232 9.17702</tei:geo>
                      </tei:location>
@@ -2016,7 +2066,7 @@
                      <tei:gloss ana="i999">Interessensvertretung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2029,7 +2079,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb36300">
-                     <tei:rs type="place">Kopenhagen</tei:rs>
+                     <rs type="place" ref="">Kopenhagen</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">55.67594 12.56553</tei:geo>
                      </tei:location>
@@ -2042,7 +2092,7 @@
                      <tei:gloss ana="i1040">Akademie der Künste</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -2069,13 +2119,13 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb50653">
-                     <tei:rs type="place">Strozzigasse</tei:rs>
+                     <rs type="place" ref="">Strozzigasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20702 16.349371</tei:geo>
                      </tei:location>
@@ -2088,7 +2138,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2109,19 +2159,19 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb397">
-                     <tei:rs type="place">Frankgasse</tei:rs>
+                     <rs type="place" ref="">Frankgasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.215516628628 16.356475515829</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb53">
-                     <tei:rs type="place">III., Landstraße</tei:rs>
+                     <rs type="place" ref="">III., Landstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.19811 16.39482</tei:geo>
                      </tei:location>
@@ -2136,19 +2186,19 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb146">
-                     <tei:rs type="place">Frankfurt am Main</tei:rs>
+                     <rs type="place" ref="">Frankfurt am Main</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">50.11552 8.68417</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb659">
-                     <tei:rs type="place">Bülowstraße</tei:rs>
+                     <rs type="place" ref="">Bülowstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.49737 13.36385</tei:geo>
                      </tei:location>
@@ -2162,7 +2212,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -2175,7 +2225,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -2188,7 +2238,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -2201,7 +2251,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -2221,7 +2271,7 @@
                      <tei:gloss ana="i994">Filmproduktionsfirma</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2234,7 +2284,7 @@
                      <tei:gloss ana="i1044">Tischgesellschaft</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2248,7 +2298,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -2262,7 +2312,7 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb44053">
-                     <tei:rs type="place">New York City</tei:rs>
+                     <rs type="place" ref="">New York City</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">40.71427 -74.00597</tei:geo>
                      </tei:location>
@@ -2275,7 +2325,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -2295,7 +2345,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb43471">
-                     <tei:rs type="place">Budapest</tei:rs>
+                     <rs type="place" ref="">Budapest</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.49835 19.04045</tei:geo>
                      </tei:location>
@@ -2336,7 +2386,7 @@
                      <tei:gloss ana="i992">Antiquariat</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb45258">
-                     <tei:rs type="place">München</tei:rs>
+                     <rs type="place" ref="">München</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.13743 11.57549</tei:geo>
                      </tei:location>
@@ -2350,7 +2400,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb332">
-                     <tei:rs type="place">Linz</tei:rs>
+                     <rs type="place" ref="">Linz</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.3 14.28333</tei:geo>
                      </tei:location>
@@ -2363,7 +2413,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb860">
-                     <tei:rs type="place">Graz</tei:rs>
+                     <rs type="place" ref="">Graz</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.06667 15.43333</tei:geo>
                      </tei:location>
@@ -2377,7 +2427,7 @@
                      <tei:gloss ana="i1039">Zeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -2408,11 +2458,14 @@
                <org xml:id="pmb29371">
                   <tei:rs type="org">The Dial</tei:rs>
                   <tei:desc>
-                     <tei:date from="1840-01-01" from-custom="1840" to="1929-01-01" to-custom="1929">1840–1929</tei:date>
+                     <tei:date from="1840-01-01"
+                               from-custom="1840"
+                               to="1929-01-01"
+                               to-custom="1929">1840–1929</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb880">
-                     <tei:rs type="place">Chicago</tei:rs>
+                     <rs type="place" ref="">Chicago</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">41.85003 -87.65005</tei:geo>
                      </tei:location>
@@ -2440,7 +2493,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb224">
-                     <tei:rs type="place">London</tei:rs>
+                     <rs type="place" ref="">London</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.50853 -0.12574</tei:geo>
                      </tei:location>
@@ -2454,19 +2507,19 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb36737">
-                     <tei:rs type="place">Mitte</tei:rs>
+                     <rs type="place" ref="">Mitte</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.516669 13.366669</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb482">
-                     <tei:rs type="place">Friedrichstraße</tei:rs>
+                     <rs type="place" ref="">Friedrichstraße</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.50319 13.39108</tei:geo>
                      </tei:location>
@@ -2494,7 +2547,7 @@
                      <tei:gloss ana="i997">Literarische Vereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2507,7 +2560,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2520,7 +2573,7 @@
                      <tei:gloss ana="i982">Bildungseinrichtung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb833">
-                     <tei:rs type="place">Brünn</tei:rs>
+                     <rs type="place" ref="">Brünn</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">49.19522 16.60796</tei:geo>
                      </tei:location>
@@ -2533,7 +2586,7 @@
                      <tei:gloss ana="i1043">Radfahrerklub</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb52">
-                     <tei:rs type="place">II., Leopoldstadt</tei:rs>
+                     <rs type="place" ref="">II., Leopoldstadt</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.21667 16.4</tei:geo>
                      </tei:location>
@@ -2547,7 +2600,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb168">
-                     <tei:rs type="place">Berlin</tei:rs>
+                     <rs type="place" ref="">Berlin</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">52.52437 13.41053</tei:geo>
                      </tei:location>
@@ -2561,7 +2614,7 @@
                      <tei:gloss ana="i1047">Theaterunternehmen</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2575,7 +2628,7 @@
                      <tei:gloss ana="i983">Künstlervereinigung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb30">
-                     <tei:rs type="place">Salzburg</tei:rs>
+                     <rs type="place" ref="">Salzburg</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">47.80067 13.04532</tei:geo>
                      </tei:location>
@@ -2588,7 +2641,7 @@
                      <tei:gloss ana="i1004">Veranstaltung</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb880">
-                     <tei:rs type="place">Chicago</tei:rs>
+                     <rs type="place" ref="">Chicago</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">41.85003 -87.65005</tei:geo>
                      </tei:location>
@@ -2609,7 +2662,7 @@
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2620,11 +2673,14 @@
                <org xml:id="pmb29670">
                   <tei:rs type="org">Wiener Allgemeine Zeitung</tei:rs>
                   <tei:desc>
-                     <tei:date from="1880-03-01" from-custom="1880-03-01" to="1934-02-11" to-custom="1934-02-11">1. 3. 1880–11. 2. 1934</tei:date>
+                     <tei:date from="1880-03-01"
+                               from-custom="1880-03-01"
+                               to="1934-02-11"
+                               to-custom="1934-02-11">1. 3. 1880–11. 2. 1934</tei:date>
                      <tei:gloss ana="i972">Tageszeitungsredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2638,7 +2694,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2658,7 +2714,7 @@
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2672,7 +2728,7 @@
                      <tei:gloss ana="i974">Verein</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2685,7 +2741,7 @@
                      <tei:gloss ana="i1011">Orchester</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
@@ -2695,17 +2751,20 @@
                <org xml:id="pmb29749">
                   <tei:rs type="org">Wiener Rundschau</tei:rs>
                   <tei:desc>
-                     <tei:date from="1896-01-01" from-custom="1896" to="1901-01-01" to-custom="1901">1896–1901</tei:date>
+                     <tei:date from="1896-01-01"
+                               from-custom="1896"
+                               to="1901-01-01"
+                               to-custom="1901">1896–1901</tei:date>
                      <tei:gloss ana="i973">Zeitschriftenredaktion</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb45381">
-                     <tei:rs type="place">Spiegelgasse</tei:rs>
+                     <rs type="place" ref="">Spiegelgasse</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.20804 16.37063</tei:geo>
                      </tei:location>
@@ -2726,13 +2785,13 @@
                      <tei:gloss ana="i975">Verlag</tei:gloss>
                   </tei:desc>
                   <tei:place corresp="pmb50">
-                     <tei:rs type="place">Wien</tei:rs>
+                     <rs type="place" ref="">Wien</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">48.2066 16.37341</tei:geo>
                      </tei:location>
                   </tei:place>
                   <tei:place corresp="pmb864">
-                     <tei:rs type="place">Leipzig</tei:rs>
+                     <rs type="place" ref="">Leipzig</rs>
                      <tei:location>
                         <tei:geo decls="LatLng">51.33962 12.37129</tei:geo>
                      </tei:location>

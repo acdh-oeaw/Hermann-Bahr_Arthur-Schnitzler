@@ -1,83 +1,91 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030037.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030036.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030038.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a" ref="pmb31833">Hermann Bahr: Zur Judenfrage, [März] 1932</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="037"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A93-0</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="19320300" n="1">[März] 1932</origDate> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb31833">Zur Judenfrage</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="m">Der Jud ist schuld …? Diskussionsbuch über die Judenfrage</title> 
-                     <imprint> 
-                        <pubPlace>Basel, Berlin, Leipzig, Wien</pubPlace> 
-                        <publisher>Zinnen</publisher> 
-                        <date when="193203">[März] 1932</date> 
-                     </imprint> 
-                     <biblScope unit="pp">254–255</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change when="20160225" who="MAM">Angelegt und kollationiert.</change> 
-         <change who="KI MAM" when="20170421">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <head>Zur Judenfrage</head> 
-            <p part="N">Das Urteil über die »Juden«, um das Sie mich befragen, wird kein unbefangenes sein, denn meine besten, meine liebsten Jugendfreunde sind Juden: <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb11740">Hugo von Hofmannsthal</rs> sind Juden. »Minderwertig« kann man eine Rasse doch kaum nennen, die solche Früchte zeitigt. Auch ich war in meiner Jugend gelegentlich Antisemit. <rs type="person" ref="pmb11673">Theodor Herzl</rs> war mir ein lieber Freund, wir wohnten eine Zeit lang einander nahe und gingen an schönen Tagen gern stundenlang immer um die <rs type="place" ref="pmb526">Votivkirche</rs> herum und stimmten darin überein, daß der Jude dem Arier unerträglich werden muß, wenn Juden sich anmaßen, Deutsche zu sein oder gar Führer der Deutschen. <rs type="person" ref="pmb11673">Herzl</rs> gehörte in seiner Jugend derselben <rs type="org" subtype="implied" ref="pmb29294">Burschenschaft</rs> an wie ich: ihr<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" subtype="implied" ref="pmb4165"> 
-                  <anchor type="commentary" xml:id="KT037-1">Führer</anchor> 
-               </rs> war Jude, doch dieser Jude setzte den Antrag durch, fortan Juden oder auch nur, wie man das damals hieß: Judenstämmlingen, den Einlaß in unsere Burschenschaft zu verwehren. Nachdem er das durchgesetzt hatte, war er konsequent genug und erschoß sich.</p> 
-            <p part="N">Von Ihren Fragen antworte ich auf die erste (»Sind die Juden eine minderwertige Rasse?«) also: Minderwertig keineswegs; die zweite (»Sind die Juden Schädlinge der Wirtschaft?«) entzieht sich meiner Erfahrung, ich verstehe von Wirtschaftsproblemen nichts. Daß die Juden die <rs type="place" ref="pmb151">deutsche</rs> Kultur zerstören sollen, scheint mir eine Beleidigung dieser Kultur, sie wird sich in allen Gefahren behaupten. Daß Gestalten wie <rs type="person" ref="pmb11640">Heinrich Heine</rs> verächtlich sind, wird niemand leugnen, so wenig, wie die Reihe opferfreudiger hochgesinnter Juden.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030037.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030036.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030038.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb31833">Hermann Bahr: Zur Judenfrage, [März] 1932</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="037"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A93-0</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="19320300" n="1">[März] 1932</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb31833">Zur Judenfrage</title>
+                  </analytic>
+                  <monogr>
+                     <title level="m">Der Jud ist schuld …? Diskussionsbuch über die Judenfrage</title>
+                     <imprint>
+                        <pubPlace>Basel, Berlin, Leipzig, Wien</pubPlace>
+                        <publisher>Zinnen</publisher>
+                        <date when="193203">[März] 1932</date>
+                     </imprint>
+                     <biblScope unit="pp">254–255</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change when="20160225" who="MAM">Angelegt und kollationiert.</change>
+         <change who="KI MAM" when="20170421">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>Zur Judenfrage</head>
+            <p part="N">Das Urteil über die »Juden«, um das Sie mich befragen, wird kein unbefangenes sein, denn meine besten, meine liebsten Jugendfreunde sind Juden: <rs type="person" ref="pmb2121">Schnitzler</rs>, <rs type="person" ref="pmb10863">Beer-Hofmann</rs>, <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb11740">Hugo von Hofmannsthal</rs> sind Juden. »Minderwertig« kann man eine Rasse doch kaum nennen, die solche Früchte zeitigt. Auch ich war in meiner Jugend gelegentlich Antisemit. <rs type="person" ref="pmb11673">Theodor Herzl</rs> war mir ein lieber Freund, wir wohnten eine Zeit lang einander nahe und gingen an schönen Tagen gern stundenlang immer um die <rs type="place" ref="pmb526">Votivkirche</rs> herum und stimmten darin überein, daß der Jude dem Arier unerträglich werden muß, wenn Juden sich anmaßen, Deutsche zu sein oder gar Führer der Deutschen. <rs type="person" ref="pmb11673">Herzl</rs> gehörte in seiner Jugend derselben <rs type="org" subtype="implied" ref="pmb29294">Burschenschaft</rs> an wie ich: ihr<pb/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" subtype="implied" ref="pmb4165">
+                  <anchor type="commentary" xml:id="KT037-1">Führer</anchor>
+               </rs> war Jude, doch dieser Jude setzte den Antrag durch, fortan Juden oder auch nur, wie man das damals hieß: Judenstämmlingen, den Einlaß in unsere Burschenschaft zu verwehren. Nachdem er das durchgesetzt hatte, war er konsequent genug und erschoß sich.</p>
+            <p part="N">Von Ihren Fragen antworte ich auf die erste (»Sind die Juden eine minderwertige Rasse?«) also: Minderwertig keineswegs; die zweite (»Sind die Juden Schädlinge der Wirtschaft?«) entzieht sich meiner Erfahrung, ich verstehe von Wirtschaftsproblemen nichts. Daß die Juden die <rs type="place" ref="pmb151">deutsche</rs> Kultur zerstören sollen, scheint mir eine Beleidigung dieser Kultur, sie wird sich in allen Gefahren behaupten. Daß Gestalten wie <rs type="person" ref="pmb11640">Heinrich Heine</rs> verächtlich sind, wird niemand leugnen, so wenig, wie die Reihe opferfreudiger hochgesinnter Juden.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

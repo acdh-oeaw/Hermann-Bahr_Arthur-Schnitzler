@@ -1,125 +1,130 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041631.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041630.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041632.xml"> 
-   <teiHeader> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Richard Beer-Hofmann, 6. 7. 1905</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name>Ifkovits, Kurt</name> 
-               <name>Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name>FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name>Kurt Ifkovits</name> 
-               <name>Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="631"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87E7-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee> 
-                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee>--&gt;<dateSender> 
-                  <date when="19050706" n="2">6. 7. 1905</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>U.S.A.</country> 
-                        <settlement>Yale</settlement> 
-                        <repository>Beinecke Rare Book and Manuscript Library</repository> 
-                        <idno>Yale Collection of German Literature, MSSS 30 f.</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief und Kuvert, 1 Bl., 1 S.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb63">13/<hi rend="subscript">5</hi> Wien 100</placeName> 
-                           <date when="19050706">6. VII. 05</date> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <placeName ref="pmb173">Rodaun</placeName> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160711">Angelegt</change> 
-         <change who="KI MAM" when="20160818">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Richard Beer Hofmann</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb173"> 
-                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>6. 7. 05</date> 
-               </dateline> 
-               <salute rend="center">Lieber Richard!</salute> 
-            </opener> 
-            <p>Ich wollte fast noch zu Ihnen kommen, da <anchor type="commentary" xml:id="KL631-1">starb der arme <rs type="person" ref="pmb2161">Bukovics</rs> 
-               </anchor>, das sind böse Tage für mich, ich mache <!-- sic! -->dann so bald als möglich wegzufahren, hoffentlich schon morgen abends, nach <rs type="place" ref="pmb188"> 
-                  <country>Holland</country> 
-               </rs>, ans Meer.</p> 
-            <p> 
-               <rs type="person" ref="pmb2121">Arthur</rs> wird Ihnen, so bald er es gelesen hat, gelegentlich das Manuscript meines neuen <rs type="work" subtype="implied" ref="pmb29999">Stückes</rs> schicken – haben Sie Zeit und Lust, so sehen Sie sichs einmal an.</p> 
-            <p>Grüßen Sie Frau <rs type="person" ref="pmb10860">Paula</rs> und die <rs type="person" subtype="implied" ref="pmb2534 pmb2668 pmb13923">Kinder</rs> herzlichst.</p> 
-            <closer>Das Beste und Schönste wünscht<lb/>Ihr alter<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041631.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041630.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041632.xml">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Richard Beer-Hofmann, 6. 7. 1905</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name>Ifkovits, Kurt</name>
+               <name>Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name>FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name>Kurt Ifkovits</name>
+               <name>Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="631"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87E7-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender>
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee>
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>--&gt;<dateSender>
+                  <date when="19050706" n="2">6. 7. 1905</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSSS 30 f.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief und Kuvert, 1 Bl., 1 S.</p>
+                        <stamp n="1">
+                           <placName ref="pmb63">13/<hi rend="subscript">5</hi> Wien 100</placName>
+                           <date when="19050706">6. VII. 05</date>
+                        </stamp>
+                        <stamp n="2">
+                           <placName ref="pmb173">Rodaun</placName>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160711">Angelegt</change>
+         <change who="KI MAM" when="20160818">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Richard Beer Hofmann</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb173">
+                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>6. 7. 05</date>
+               </dateline>
+               <salute rend="center">Lieber Richard!</salute>
+            </opener>
+            <p>Ich wollte fast noch zu Ihnen kommen, da <anchor type="commentary" xml:id="KL631-1">starb der arme <rs type="person" ref="pmb2161">Bukovics</rs>
+               </anchor>, das sind böse Tage für mich, ich mache <!-- sic! -->dann so bald als möglich wegzufahren, hoffentlich schon morgen abends, nach <rs type="place" ref="pmb44016">Holland</rs>, ans Meer.</p>
+            <p>
+               <rs type="person" ref="pmb2121">Arthur</rs> wird Ihnen, so bald er es gelesen hat, gelegentlich das Manuscript meines neuen <rs type="work" subtype="implied" ref="pmb29999">Stückes</rs> schicken – haben Sie Zeit und Lust, so sehen Sie sichs einmal an.</p>
+            <p>Grüßen Sie Frau <rs type="person" ref="pmb10860">Paula</rs> und die <rs type="person" subtype="implied" ref="pmb2534 pmb2668 pmb13923">Kinder</rs> herzlichst.</p>
+            <closer>Das Beste und Schönste wünscht<lb/>Ihr alter<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

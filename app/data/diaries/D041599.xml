@@ -1,84 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041599.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041598.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041600.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 31. 5. 1922</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="599"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A66-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2630 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 65 Bl., S. 7.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160816">Angelegt</change> 
-         <change who="KI MAM" when="20160906">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19220531" n="01">31.</date> K.– Schön – An <rs type="person" ref="pmb13212">Zweig</rs>, der mir Versteigerung von mir gestohlenen Briefen <rs type="person" ref="pmb4026">Bourget</rs>s, <rs type="person" ref="pmb13082">Karlweis</rs>’ u <rs type="person" ref="pmb2121">Schnitzler</rs>s im <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er <rs type="org" ref="pmb29803">Dorotheum</rs> meldet. An <rs type="org" ref="pmb29803">Dorotheum</rs>. An <rs type="person" ref="pmb11927">Kippenberg</rs>: »<anchor type="commentary" xml:id="KD599-1"> 
-                  <rs type="work" ref="pmb32534">Das alte Wahre!</rs> 
-               </anchor>« – <rs type="place" ref="pmb511">Alte Pinakothek</rs>; bei D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb4726">Dörnhöffer</rs>. – »<rs type="work" ref="pmb32534">Das alte Wahre</rs>« für <rs type="org" ref="pmb29351">Neue Fr.</rs> – <rs type="place" ref="pmb754">Bonifaz</rs>andacht. – Baron <rs type="person" ref="pmb4729">Gebsattel</rs>. Ins Eucharistische auslaufendes Abendgespräch.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041599.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041598.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041600.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 31. 5. 1922</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="599"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A66-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2630 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 65 Bl., S. 7.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160816">Angelegt</change>
+         <change who="KI MAM" when="20160906">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19220531" n="01">31.</date> K.– Schön – An <rs type="person" ref="pmb13212">Zweig</rs>, der mir Versteigerung von mir gestohlenen Briefen <rs type="person" ref="pmb4026">Bourget</rs>s, <rs type="person" ref="pmb13082">Karlweis</rs>’ u <rs type="person" ref="pmb2121">Schnitzler</rs>s im <rs type="place" ref="pmb50">Wien</rs>er <rs type="org" ref="pmb29803">Dorotheum</rs> meldet. An <rs type="org" ref="pmb29803">Dorotheum</rs>. An <rs type="person" ref="pmb11927">Kippenberg</rs>: »<anchor type="commentary" xml:id="KD599-1">
+                  <rs type="work" ref="pmb32534">Das alte Wahre!</rs>
+               </anchor>« – <rs type="place" ref="pmb511">Alte Pinakothek</rs>; bei D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb4726">Dörnhöffer</rs>. – »<rs type="work" ref="pmb32534">Das alte Wahre</rs>« für <rs type="org" ref="pmb29351">Neue Fr.</rs> – <rs type="place" ref="pmb754">Bonifaz</rs>andacht. – Baron <rs type="person" ref="pmb4729">Gebsattel</rs>. Ins Eucharistische auslaufendes Abendgespräch.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

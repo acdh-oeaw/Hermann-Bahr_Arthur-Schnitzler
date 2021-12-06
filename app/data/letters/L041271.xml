@@ -1,146 +1,153 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041271.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041270.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041272.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 12. 2. 1904</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="271"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8680-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb849">Konstanz</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">Berlin</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040212" n="01">12. 2. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Bildpostkarte, Motiv: »<quote> 
-                              <placeName ref="pmb452">Konstanz Conciliumsgebäude</placeName> 
-                           </quote>«, Adresse von fremden Händen teilw. gestrichen und ergänzt: »<quote>7</quote>«, »<quote> 
-                              <hi rend="latintype"> 
-                                 <placeName ref="pmb399">NW 7 Continentalhotel</placeName> 
-                              </hi> 
-                           </quote>« sowie »<quote> 
-                              <gap quantity="12" unit="chars" reason="illegible"/> 8/6.</quote>«</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb849">Konstanz–Basel Bahnpost</placeName> 
-                           <vorgang>Zug 1627</vorgang> 
-                           <date when="19040213">13/2 04</date> 
-                        </stamp> 
-                        <stamp n="2"> 
-                           <date when="19040215">14/2 <supplied>04</supplied> 
-                           </date> 
-                        </stamp> 
-                        <stamp n="3"> 
-                           <vorgang>Bestellt vom Postamte 7</vorgang> 
-                           <date when="19040215"> 
-                              <gap unit="chars" quantity="2" reason="illegible"/> 
-                              <supplied>/2</supplied> 04</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151211">Kollationiert</change> 
-         <change who="KI MAM" when="20170529">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00195"/> 
-      <graphic url="MS-B-00005-B-000-00196"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb3">Deutsches Theater</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb168">Berlin NW</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb307">Schumannstr.</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline> 
-                  <date>12/2</date> 
-               </dateline> 
-            </opener> 
-            <p>Ich denk viel an morgen Abend.</p> 
-            <p>Das Beste an Deine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>, an <rs type="person" ref="pmb10986">Brahm</rs> u. an <rs type="person" ref="pmb12530">Rittner</rs>.</p> 
-            <closer>Herzlichst grüßt Dein <signed>Hermann</signed> 
-            </closer> 
-            <postscript> 
-               <p>Auf der Flucht nach dem Süden!</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041271.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041270.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041272.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 12. 2. 1904</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="271"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8680-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb849">Konstanz</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">Berlin</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040212" n="01">12. 2. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Bildpostkarte, Motiv: »<quote>
+                              <placName ref="pmb452">Konstanz Conciliumsgebäude</placName>
+                           </quote>«, Adresse von fremden Händen teilw. gestrichen und ergänzt: »<quote>7</quote>«, »<quote>
+                              <hi rend="latintype">
+                                 <placName ref="pmb399">NW 7 Continentalhotel</placName>
+                              </hi>
+                           </quote>« sowie »<quote>
+                              <gap quantity="12" unit="chars" reason="illegible"/> 8/6.</quote>«</p>
+                        <stamp n="1">
+                           <placName ref="pmb849">Konstanz–Basel Bahnpost</placName>
+                           <vorgang>Zug 1627</vorgang>
+                           <date when="19040213">13/2 04</date>
+                        </stamp>
+                        <stamp n="2">
+                           <date when="19040215">14/2 <supplied>04</supplied>
+                           </date>
+                        </stamp>
+                        <stamp n="3">
+                           <vorgang>Bestellt vom Postamte 7</vorgang>
+                           <date when="19040215">
+                              <gap unit="chars" quantity="2" reason="illegible"/>
+                              <supplied>/2</supplied> 04</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151211">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00195"/>
+      <graphic url="MS-B-00005-B-000-00196"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb3">Deutsches Theater</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb168">Berlin NW</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb307">Schumannstr.</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <date>12/2</date>
+               </dateline>
+            </opener>
+            <p>Ich denk viel an morgen Abend.</p>
+            <p>Das Beste an Deine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>, an <rs type="person" ref="pmb10986">Brahm</rs> u. an <rs type="person" ref="pmb12530">Rittner</rs>.</p>
+            <closer>Herzlichst grüßt Dein <signed>Hermann</signed>
+            </closer>
+            <postscript>
+               <p>Auf der Flucht nach dem Süden!</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>

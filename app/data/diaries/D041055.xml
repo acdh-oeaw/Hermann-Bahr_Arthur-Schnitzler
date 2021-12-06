@@ -1,88 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041055.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041054.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041056.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 31. 1. 1910</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="055"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8869-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19100131" n="01">31/1</date> Vm. <rs type="place" ref="pmb20">Volkstheater</rs>; Generalprobe von <rs type="person" ref="pmb11391">Fulda</rs>, »<rs type="work" ref="pmb30307">Exempel</rs>« (schrecklich).– Sprach <rs type="person" ref="pmb11391">Fulda</rs>, <rs type="person" ref="pmb2150">Bauer</rs>, <rs type="person" ref="pmb2618">Ganz</rs>, <rs type="person" ref="pmb18308">Feld</rs> u. a.–</p> 
-            <p>Nm. fing ich, wegen <rs type="place" ref="pmb174"> 
-                  <country>Rußland</country> 
-               </rs>, Brief der <rs type="person" ref="pmb26937">Zenaida Wengerow</rs> an, »<rs type="work" ref="pmb30207">W. Land</rs>« durchzusehen.</p> 
-            <p>Zum Thee <rs type="person" ref="pmb27800">Nina Kipiany</rs> (die jetzt <rs type="person" ref="pmb12692">Heini</rs> französisch unterrichtet) mit einem <rs type="person" ref="pmb2625">Baron Manteuffel</rs>, 50er, vielgereist, Bohémien, eben aus <rs type="place" ref="pmb182"> 
-                  <settlement>Paris</settlement> 
-               </rs> fälschlich als Spion ausgewiesen;– sprachen viel über Zionismus, <rs type="person" ref="pmb11673">Herzl</rs>, <rs type="person" ref="pmb2630">Weininger</rs> u. a.– </p> 
-            <p>In <rs type="place" ref="pmb63">Hietzing</rs> mit <rs type="person" ref="pmb2173">O.</rs> bei <rs type="person" ref="pmb12968">Trebitsch</rs>. Anwesend <rs type="person" ref="pmb11391">Fulda</rs>, <rs type="person" ref="pmb13055">Jacob</rs> und <rs type="person" ref="pmb13058">Julie</rs>,– <rs type="person" ref="pmb13212">Stefan Zweig</rs> – Bei Tisch Frau <rs type="person" ref="pmb26159">Trebitsch</rs> plötzlich, ganz vergessend, wer da – – »Wissen Sie denn schon die Geschichte von <rs type="person" ref="pmb27633">d’Albert</rs> und der <rs type="person" ref="pmb2537">Fulda</rs> 
-               <c rendition="#dots" n="3"/>?« Ich (ebenso vergessend): Es ist <anchor type="commentary" xml:id="KD055-2">kein Wort wahr!</anchor>– Darauf Frau <rs type="person" ref="pmb26159">T.</rs> – direct zu <rs type="person" ref="pmb11391">Fulda</rs> »<c rendition="#dots" n="3"/> Sie müssen doch was wissen, Sie kommen ja aus <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> –« <c rendition="#dots" n="3" place="center"/> – Jetzt endlich merkte sie – allgemeines <anchor type="commentary" xml:id="KD055-3">effarement</anchor> – <rs type="person" ref="pmb11391">F.</rs> ganz klug sagte. »Ich interessire mich nicht für Klatsch <c rendition="#dots" n="3" place="center"/> auch hab ich keine Nachrichten von meiner <rs type="person" subtype="implied" ref="pmb2537">früheren Frau</rs> 
-               <c rendition="#dots" n="3"/>« Nach einer Minute wieder laß ich einen Lobgesang auf <rs type="person" ref="pmb10815">Bahr</rs> los – gegen den <rs type="person" ref="pmb11391">F.</rs> einen wüthenden Haß hat – ganz vergessend, daß sie sogar im <anchor type="commentary" xml:id="KD055-1">Prozeß</anchor> waren.</p> 
-            <p>F. fort auf den <rs type="org" ref="pmb29752">Concordia Ball</rs>; wir andern spielten Baraque (ich verlor mit <rs type="person" ref="pmb2173">O.</rs> gegen 50 Kr.). Im Auto heim. Zwei Uhr.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041055.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041054.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041056.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 31. 1. 1910</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="055"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8869-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19100131" n="01">31/1</date> Vm. <rs type="place" ref="pmb20">Volkstheater</rs>; Generalprobe von <rs type="person" ref="pmb11391">Fulda</rs>, »<rs type="work" ref="pmb30307">Exempel</rs>« (schrecklich).– Sprach <rs type="person" ref="pmb11391">Fulda</rs>, <rs type="person" ref="pmb2150">Bauer</rs>, <rs type="person" ref="pmb2618">Ganz</rs>, <rs type="person" ref="pmb18308">Feld</rs> u. a.–</p>
+            <p>Nm. fing ich, wegen <rs type="place" ref="pmb34438">Rußland</rs>, Brief der <rs type="person" ref="pmb26937">Zenaida Wengerow</rs> an, »<rs type="work" ref="pmb30207">W. Land</rs>« durchzusehen.</p>
+            <p>Zum Thee <rs type="person" ref="pmb27800">Nina Kipiany</rs> (die jetzt <rs type="person" ref="pmb12692">Heini</rs> französisch unterrichtet) mit einem <rs type="person" ref="pmb2625">Baron Manteuffel</rs>, 50er, vielgereist, Bohémien, eben aus <rs type="place" ref="pmb182">Paris</rs> fälschlich als Spion ausgewiesen;– sprachen viel über Zionismus, <rs type="person" ref="pmb11673">Herzl</rs>, <rs type="person" ref="pmb2630">Weininger</rs> u. a.– </p>
+            <p>In <rs type="place" ref="pmb63">Hietzing</rs> mit <rs type="person" ref="pmb2173">O.</rs> bei <rs type="person" ref="pmb12968">Trebitsch</rs>. Anwesend <rs type="person" ref="pmb11391">Fulda</rs>, <rs type="person" ref="pmb13055">Jacob</rs> und <rs type="person" ref="pmb13058">Julie</rs>,– <rs type="person" ref="pmb13212">Stefan Zweig</rs> – Bei Tisch Frau <rs type="person" ref="pmb26159">Trebitsch</rs> plötzlich, ganz vergessend, wer da – – »Wissen Sie denn schon die Geschichte von <rs type="person" ref="pmb27633">d’Albert</rs> und der <rs type="person" ref="pmb2537">Fulda</rs>
+               <c rendition="#dots" n="3"/>?« Ich (ebenso vergessend): Es ist <anchor type="commentary" xml:id="KD055-2">kein Wort wahr!</anchor>– Darauf Frau <rs type="person" ref="pmb26159">T.</rs> – direct zu <rs type="person" ref="pmb11391">Fulda</rs> »<c rendition="#dots" n="3"/> Sie müssen doch was wissen, Sie kommen ja aus <rs type="place" ref="pmb168">Berlin</rs> –« <c rendition="#dots" n="3" place="center"/> – Jetzt endlich merkte sie – allgemeines <anchor type="commentary" xml:id="KD055-3">effarement</anchor> – <rs type="person" ref="pmb11391">F.</rs> ganz klug sagte. »Ich interessire mich nicht für Klatsch <c rendition="#dots" n="3" place="center"/> auch hab ich keine Nachrichten von meiner <rs type="person" subtype="implied" ref="pmb2537">früheren Frau</rs>
+               <c rendition="#dots" n="3"/>« Nach einer Minute wieder laß ich einen Lobgesang auf <rs type="person" ref="pmb10815">Bahr</rs> los – gegen den <rs type="person" ref="pmb11391">F.</rs> einen wüthenden Haß hat – ganz vergessend, daß sie sogar im <anchor type="commentary" xml:id="KD055-1">Prozeß</anchor> waren.</p>
+            <p>F. fort auf den <rs type="org" ref="pmb29752">Concordia Ball</rs>; wir andern spielten Baraque (ich verlor mit <rs type="person" ref="pmb2173">O.</rs> gegen 50 Kr.). Im Auto heim. Zwei Uhr.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

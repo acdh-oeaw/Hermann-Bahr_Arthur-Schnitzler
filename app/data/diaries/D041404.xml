@@ -1,121 +1,128 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041404.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041403.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041405.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Entwurf einer Gästeliste zum Burckhard-Bankett], [Mitte Januar 1898?]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="404"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89AE-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 179 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT2" default="false"> 
-                  <monogr> 
-                     <title level="m">1891–1900</title> 
-                     <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor> 
-                     <imprint> 
-                        <date when="1996">1996</date> 
-                     </imprint> 
-                     <biblScope unit="pp">297</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">II</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151116">angelegt</change> 
-         <change who="KI MAM" when="20160126">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18980115" n="01"/> 
-               <hi rend="superscript">x</hi> 
-               <hi rend="underline" n="2"> 
-                  <rs type="person" ref="pmb13082">Karlweis</rs> 
-               </hi>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb2161">Bucovics</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb2154">Chiavacci</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb2164">Gettke</rs>, <rs type="person" ref="pmb2868">Kutschera</rs>, <hi rend="superscript">x</hi> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb10883">Berger</rs> 
-               </hi>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb12602">Saar</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb11740">Hofmannsthal</rs>, <rs type="person" ref="pmb28043">Mohr</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb2167">Salten</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb11673">Herzl</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb11447">Glossy</rs>, <anchor type="textConst" xml:id="TD404-1"> 
-                  <rs type="person" ref="pmb11253">Engel</rs>, <rs type="person" ref="pmb12277">Moll</rs> 
-               </anchor>,<space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28047">Bernatzik</rs>, <rs type="person" ref="pmb11941">Klimt</rs>,<space unit="chars" quantity="1"/> 
-               <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb11981">Kramer</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb11308">Fellner</rs>, <hi rend="superscript">x</hi> 
-               <rs type="person" ref="pmb2121">Schnitzler</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041404.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041403.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041405.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Entwurf einer Gästeliste zum Burckhard-Bankett], [Mitte Januar 1898?]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="404"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89AE-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 179 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT2">
+                  <monogr>
+                     <title level="m">1891–1900</title>
+                     <editor>Bearbeitet von Helene Zand, Lukas Mayerhofer und Lottelis Moser</editor>
+                     <imprint>
+                        <date when="1996">1996</date>
+                     </imprint>
+                     <biblScope unit="pp">297</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">II</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151116">angelegt</change>
+         <change who="KI MAM" when="20160126">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18980115" n="01"/>
+               <hi rend="superscript">x</hi>
+               <hi rend="underline" n="2">
+                  <rs type="person" ref="pmb13082">Karlweis</rs>
+               </hi>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb2161">Bucovics</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb2154">Chiavacci</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb2164">Gettke</rs>, <rs type="person" ref="pmb2868">Kutschera</rs>, <hi rend="superscript">x</hi>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb10883">Berger</rs>
+               </hi>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb12602">Saar</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb11740">Hofmannsthal</rs>, <rs type="person" ref="pmb28043">Mohr</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb2167">Salten</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb11673">Herzl</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb11447">Glossy</rs>, <anchor type="textConst" xml:id="TD404-1">
+                  <rs type="person" ref="pmb11253">Engel</rs>, <rs type="person" ref="pmb12277">Moll</rs>
+               </anchor>,<space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28047">Bernatzik</rs>, <rs type="person" ref="pmb11941">Klimt</rs>,<space unit="chars" quantity="1"/>
+               <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb11981">Kramer</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb11308">Fellner</rs>, <hi rend="superscript">x</hi>
+               <rs type="person" ref="pmb2121">Schnitzler</rs>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,186 +1,184 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030078.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030077.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030079.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr: [Notizen zu den Wiener Spaziergängen?], [Oktober 1893?]</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="078"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8ABB-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <origDate when="18931000" n="1">[Oktober 1893?]</origDate> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 871 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Schwarzes Heft, von beiden Seiten eh. beschrieben, 39 Blatt, teilweise von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> (fehlerhaft) paginiert, S. 54–51</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160114">angelegt</change> 
-         <change who="KI MAM" when="20160126">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="manuscript"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb13082">C. Karlweis</rs> 
-               </hi> – Die kleinen Beamten</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb12740">Schwarzkopf</rs> 
-               </hi> – Die Frauen bes. in der Welt der Börse und die gebildete Jüdin.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> 
-               </hi> – die bürgerliche Lebewelt; <rs type="work" ref="pmb29935">Anatole</rs>’s Freundin.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb11740">Loris</rs> 
-               </hi> – der aristokratische Salon.</p> 
-            <p>nein! ich bin kein Salon, ich bin ein Dichter!<pb/> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb10863">Beer-Hofmann</rs> 
-               </hi>: Der Schöngeist.– Die <rs type="work" ref="pmb30171">Sensitione</rs>, männlich und weiblich.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb2154">Chiavacci</rs> 
-               </hi>: Die Spießer. Wirtshausleben.</p> 
-            <p> 
-               <del rend="strikethrough"> 
-                  <hi rend="underline" n="1"> 
-                     <rs type="person" ref="pmb12920">Bergler</rs> 
-                  </hi> 
-               </del> 
-               <del rend="strikethrough">: Militär.</del> 
-               <space unit="chars" quantity="1"/> 
-               <add place="above"> 
-                  <hi rend="underline" n="1"> 
-                     <rs type="person" ref="pmb2416">David</rs> 
-                  </hi>: Militär</add> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb10883">Baron Berger</rs> 
-               </hi>: Bilder aus der Aristokratie</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb12602">Saar</rs> 
-               </hi> Aristokratie.– Die vornehme Frau des guten alten <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> 
-               <pb/> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb28346">Franz Schlinkert</rs> 
-               </hi> – Von der Banlieu von <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>. Vororte. Weinbauern.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb12906">Bertha von Suttner</rs> 
-               </hi> Kleine Aristokratie.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb26121">Torresani</rs> 
-               </hi> Militär</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb3853">Ossip Schubin</rs> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb50"> 
-                  <settlement>W<hi rend="superscript">r</hi> 
-                  </settlement> 
-               </rs> Aristokratie</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb3857">Marmorek</rs> 
-               </hi> 
-            </p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb4223">Marriot</rs> 
-               </hi> kleine Bourgeoisie<pb/> 
-            </p> 
-            <p> 
-               <rs type="person" ref="pmb3971">Hans <hi rend="underline" n="1">Grasberger</hi> 
-               </rs> 
-            </p> 
-            <p>Bei den Malern.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb4242">Hartmann</rs> 
-               </hi> Musikwelt</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb28501">Karl Rabis</rs> 
-               </hi> Studenten. Kneipen</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb2416">J. J. David</rs> 
-               </hi> Studenten. Die armen Poeten.</p> 
-            <p> 
-               <hi rend="underline" n="1"> 
-                  <rs type="person" ref="pmb4246">A. Peez</rs> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb50"> 
-                  <settlement>Wr.</settlement> 
-               </rs> Industrie.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030078.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030077.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030079.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr: [Notizen zu den Wiener Spaziergängen?], [Oktober 1893?]</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="078"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8ABB-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <origDate when="18931000" n="1">[Oktober 1893?]</origDate>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 871 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Schwarzes Heft, von beiden Seiten eh. beschrieben, 39 Blatt, teilweise von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> (fehlerhaft) paginiert, S. 54–51</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160114">angelegt</change>
+         <change who="KI MAM" when="20160126">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb13082">C. Karlweis</rs>
+               </hi> – Die kleinen Beamten</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb12740">Schwarzkopf</rs>
+               </hi> – Die Frauen bes. in der Welt der Börse und die gebildete Jüdin.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>
+               </hi> – die bürgerliche Lebewelt; <rs type="work" ref="pmb29935">Anatole</rs>’s Freundin.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb11740">Loris</rs>
+               </hi> – der aristokratische Salon.</p>
+            <p>nein! ich bin kein Salon, ich bin ein Dichter!<pb/>
+            </p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb10863">Beer-Hofmann</rs>
+               </hi>: Der Schöngeist.– Die <rs type="work" ref="pmb30171">Sensitione</rs>, männlich und weiblich.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb2154">Chiavacci</rs>
+               </hi>: Die Spießer. Wirtshausleben.</p>
+            <p>
+               <del rend="strikethrough">
+                  <hi rend="underline" n="1">
+                     <rs type="person" ref="pmb12920">Bergler</rs>
+                  </hi>
+               </del>
+               <del rend="strikethrough">: Militär.</del>
+               <space unit="chars" quantity="1"/>
+               <add place="above">
+                  <hi rend="underline" n="1">
+                     <rs type="person" ref="pmb2416">David</rs>
+                  </hi>: Militär</add>
+            </p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb10883">Baron Berger</rs>
+               </hi>: Bilder aus der Aristokratie</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb12602">Saar</rs>
+               </hi> Aristokratie.– Die vornehme Frau des guten alten <rs type="place" ref="pmb50">Wien</rs>
+               <pb/>
+            </p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb28346">Franz Schlinkert</rs>
+               </hi> – Von der Banlieu von <rs type="place" ref="pmb50">Wien</rs>. Vororte. Weinbauern.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb12906">Bertha von Suttner</rs>
+               </hi> Kleine Aristokratie.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb26121">Torresani</rs>
+               </hi> Militär</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb3853">Ossip Schubin</rs>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb50">Wr</rs> Aristokratie</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb3857">Marmorek</rs>
+               </hi>
+            </p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb4223">Marriot</rs>
+               </hi> kleine Bourgeoisie<pb/>
+            </p>
+            <p>
+               <rs type="person" ref="pmb3971">Hans <hi rend="underline" n="1">Grasberger</hi>
+               </rs>
+            </p>
+            <p>Bei den Malern.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb4242">Hartmann</rs>
+               </hi> Musikwelt</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb28501">Karl Rabis</rs>
+               </hi> Studenten. Kneipen</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb2416">J. J. David</rs>
+               </hi> Studenten. Die armen Poeten.</p>
+            <p>
+               <hi rend="underline" n="1">
+                  <rs type="person" ref="pmb4246">A. Peez</rs>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb50">Wr.</rs> Industrie.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

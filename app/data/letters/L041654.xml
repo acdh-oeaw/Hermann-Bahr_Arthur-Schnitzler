@@ -1,146 +1,133 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041654.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041653.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041655.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur an Olga Schnitzler, 22. 8. 1918</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="654"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FE-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb667">Garmisch-Partenkirchen</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19180822" n="01">22. 8. 1918</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.1847</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Karte, Lateinschrift, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName ref="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>«</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb66">Wien 16</placeName> 
-                           <date when="19180822">22. VIII. 18</date> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161013">Angelegt aus Abschrift</change> 
-         <change who="KI MAM" when="20161118">Kollationiert am Faksimile</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Frau <hi rend="underline" n="1">Olga Schnitzler</hi> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb487"> 
-                     <settlement> 
-                        <hi rend="underline" n="1">Partenkirchen</hi> 
-                     </settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb808">Haus Tannenberg</rs> 
-               </addrLine> 
-               <addrLine>Express</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <salute>mein liebes, </salute>meine beiden Telegr., eins nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs>, eins nach <rs type="place" ref="pmb487"> 
-                  <settlement>Part.</settlement> 
-               </rs> hast du (hoffentlich) u ich erwarte jetzt deine definitiven Nachrichten, um mich entgiltig zu entscheiden. (Von einem Misverstehen konnte keine Rede sein.) –</p> 
-            <p>Von <rs type="person" ref="pmb10998">Brann</rs> ein Kartenbrief, aber ohne seine Adresse – er möchte uns Sept. ev. in <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> sehn. Von <rs type="person" ref="pmb17540 pmb28835">Gunds</rs> Grüße aus <rs type="place" ref="pmb916"> 
-                  <settlement>Interlaken</settlement> 
-               </rs>.– Unendlichen Aerger mit <rs type="person" ref="pmb11324">F</rs>; – die <anchor type="commentary" xml:id="KL654-1">hiesige Filiale</anchor> druckt schon – aber was? – 4 Bücher – <hi rend="underline" n="1">nicht eins</hi> von einem <rs type="place" ref="pmb162"> 
-                  <country>oesterr.</country> 
-               </rs> Autor!!! – <add place="above">(Unter uns!)</add> Die <rs type="org" ref="pmb29239">Papierzentrale</rs> schreibt an ihn um Aufklärung. – Statt <rs type="person" ref="pmb12556">Rosbm</rs> gedenkt er ein<supplied>en</supplied> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb168"> 
-                  <settlement>Berl.</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" subtype="implied" ref="pmb27712">Schriftsteller</rs> u einen <rs type="person" subtype="implied" ref="pmb4851">andern</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb162"> 
-                  <country>Oesterreicher</country> 
-               </rs> zu engagiren. (Ich höre die Gespräche in <anchor type="commentary" xml:id="KL654-2"> 
-                  <rs type="place" ref="pmb894"> 
-                     <settlement>Travemünde</settlement> 
-                  </rs> 
-               </anchor>!) – Neulich war ich Abends mit <rs type="person" ref="pmb13058">Julie</rs>, <rs type="person" ref="pmb12254">Michel</rs>, <rs type="person" ref="pmb26392">Leo</rs>, <rs type="person" ref="pmb4012">Smekal</rs> zusammen. <rs type="person" ref="pmb12254">M.</rs> hatte mir (nach <rs type="person" ref="pmb13058">Julie</rs>) allerlei wichtiges zu sagen, schwieg sich aber aus. <rs type="person" ref="pmb10765">Poldi</rs> sprach ich flüchtig nach »<rs type="work" ref="pmb30937">Figaro</rs>«, er wollte mich noch einmal aufsuchen. Gerüchte, – daß neben <rs type="person" ref="pmb10815">H. B.</rs> auch <rs type="person" ref="pmb2167">F. S.</rs> als Berather fungiren<pb/> wird.– Im allgemeinen bin ich für ein Konto von 300.000, und Waldspaziergänge. Wenn einem bei solcher Gelegenheit was einfällt, kann man auch aufschreiben. Aber schon beim Druckenlassen fängt die Schweinerei an.–</p> 
-            <p>Leb wohl, denk an mich, grüß das gute <rs type="person" ref="pmb2315">Liesl</rs> und <rs type="person" ref="pmb12837">Albert</rs>.</p> 
-            <closer>Faul, Innigst<lb/>Dein<lb/> 
-               <signed>A</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041654.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041653.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041655.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur an Olga Schnitzler, 22. 8. 1918</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="654"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87FE-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb667">Garmisch-Partenkirchen</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19180822" n="01">22. 8. 1918</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.1847</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, Lateinschrift, gedruckter Kopf: »Dr. Arthur Schnitzler / <placName ref="pmb150">Wien XVIII. Sternwartestrasse 71</placName>«</p>
+                        <stamp n="1">
+                           <placName ref="pmb66">Wien 16</placName>
+                           <date when="19180822">22. VIII. 18</date>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161013">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="20161118">Kollationiert am Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Frau <hi rend="underline" n="1">Olga Schnitzler</hi>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb487">Partenkirchen</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb808">Haus Tannenberg</rs>
+               </addrLine>
+               <addrLine>Express</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+               <salute>mein liebes, </salute>meine beiden Telegr., eins nach <rs type="place" ref="pmb45258">München</rs>, eins nach <rs type="place" ref="pmb487">Part.</rs> hast du (hoffentlich) u ich erwarte jetzt deine definitiven Nachrichten, um mich entgiltig zu entscheiden. (Von einem Misverstehen konnte keine Rede sein.) –</p>
+            <p>Von <rs type="person" ref="pmb10998">Brann</rs> ein Kartenbrief, aber ohne seine Adresse – er möchte uns Sept. ev. in <rs type="place" ref="pmb45258">München</rs> sehn. Von <rs type="person" ref="pmb17540 pmb28835">Gunds</rs> Grüße aus <rs type="place" ref="pmb916">Interlaken</rs>.– Unendlichen Aerger mit <rs type="person" ref="pmb11324">F</rs>; – die <anchor type="commentary" xml:id="KL654-1">hiesige Filiale</anchor> druckt schon – aber was? – 4 Bücher – <hi rend="underline" n="1">nicht eins</hi> von einem <rs type="place" ref="pmb41240">oesterr.</rs> Autor!!! – <add place="above">(Unter uns!)</add> Die <rs type="org" ref="pmb29239">Papierzentrale</rs> schreibt an ihn um Aufklärung. – Statt <rs type="person" ref="pmb12556">Rosbm</rs> gedenkt er ein<supplied>en</supplied>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb168">Berl.</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" subtype="implied" ref="pmb27712">Schriftsteller</rs> u einen <rs type="person" subtype="implied" ref="pmb14526">andern</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb41240">Oesterreicher</rs> zu engagiren. (Ich höre die Gespräche in <anchor type="commentary" xml:id="KL654-2">
+                  <rs type="place" ref="pmb49113">Travemünde</rs>
+               </anchor>!) – Neulich war ich Abends mit <rs type="person" ref="pmb13058">Julie</rs>, <rs type="person" ref="pmb12254">Michel</rs>, <rs type="person" ref="pmb26392">Leo</rs>, <rs type="person" ref="pmb4012">Smekal</rs> zusammen. <rs type="person" ref="pmb12254">M.</rs> hatte mir (nach <rs type="person" ref="pmb13058">Julie</rs>) allerlei wichtiges zu sagen, schwieg sich aber aus. <rs type="person" ref="pmb10765">Poldi</rs> sprach ich flüchtig nach »<rs type="work" ref="pmb30937">Figaro</rs>«, er wollte mich noch einmal aufsuchen. Gerüchte, – daß neben <rs type="person" ref="pmb10815">H. B.</rs> auch <rs type="person" ref="pmb2167">F. S.</rs> als Berather fungiren<pb/> wird.– Im allgemeinen bin ich für ein Konto von 300.000, und Waldspaziergänge. Wenn einem bei solcher Gelegenheit was einfällt, kann man auch aufschreiben. Aber schon beim Druckenlassen fängt die Schweinerei an.–</p>
+            <p>Leb wohl, denk an mich, grüß das gute <rs type="person" ref="pmb2315">Liesl</rs> und <rs type="person" ref="pmb12837">Albert</rs>.</p>
+            <closer>Faul, Innigst<lb/>Dein<lb/>
+               <signed>A</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

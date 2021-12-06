@@ -1,111 +1,109 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030048.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030047.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030049.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a" ref="pmb31273">Hermann Bahr: Burckhard und Fulda, 20. 1. 1893</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="048"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A9E-5</idno></publicationStmt> 
-         <sourceDesc> 
-            <origDate when="18930120" n="1">20. 1. 1893</origDate> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="a" ref="pmb31273">Burckhard und Fulda</title> 
-                  </analytic> 
-                  <monogr> 
-                     <title level="j" ref="pmb29424">Deutsche Zeitung</title> 
-                     <imprint> 
-                        <date when="18930120" n="1">20. 1. 1893</date> 
-                     </imprint> 
-                     <biblScope unit="jg">23</biblScope> 
-                     <biblScope unit="nr">7566, Morgenausgabe</biblScope> 
-                     <biblScope unit="pp">6</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20160310" who="MAM">Angelegt und kollationiert.</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="article"> 
-      <body> 
-         <div> 
-            <head> 
-               <anchor type="commentary" xml:id="KT048-2"> 
-                  <rs type="person" ref="pmb11036">Burckhard</rs> und <rs type="person" ref="pmb11391">Fulda</rs> 
-               </anchor>.</head> 
-            <p part="N">Wir haben neulich die <anchor type="commentary" xml:id="KT048-4"> 
-                  <rs type="work" subtype="implied" ref="pmb32568">Erklärung</rs> des Herrn <rs type="person" ref="pmb11391"> 
-                     <hi rend="spaced_out">Fulda</hi> 
-                  </rs> gegen das <rs type="place" ref="pmb14">Burgtheater</rs> und die <rs type="work" subtype="implied" ref="pmb32568">Antwort</rs> des Directors Dr. <rs type="person" ref="pmb11036"> 
-                     <hi rend="spaced_out">Burckhard</hi> 
-                  </rs> 
-               </anchor> mitgetheilt. Die widerliche Angelegenheit, in der alles gute Recht für die Direction und wider den hochmüthigen, erweislich unaufrichtigen und gegen den Vater seines Ruhmes so undankbaren Autor steht, wäre damit erledigt, wenn sich nicht die kleine, aber desto lautere Clique des <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er Literaten, das lärmende Rudel von Verkannten aus den <rs type="place" ref="pmb579">Berliner Cafés Bellevue</rs> und <rs type="place" ref="pmb400">Kaiserhof</rs>, in ihrem <rs type="org" subtype="implied" ref="pmb29329">Blättchen</rs> krampfhaft bemühte, sie zu einer »<anchor type="commentary" xml:id="KT048-5"> 
-                  <rs type="work" subtype="implied" ref="pmb32420">Sensation</rs> 
-               </anchor>« aufzubauschen. Auch ein gelesenes Journal, die <rs type="org" ref="pmb29722">Münchener Allgemeine Zeitung</rs>, ist einem solchen <anchor type="commentary" xml:id="KT048-6"> 
-                  <rs type="work" subtype="implied" ref="pmb32422">Selbstberichterstatter</rs> 
-               </anchor> auf den Leim gegangen, und das sonst ernsthafte Blatt bringt einen sehr scurrilen <rs type="work" subtype="implied" ref="pmb32422">Artikel</rs>, der gleich die <hi rend="spaced_out">Boycottirung der </hi> 
-               <rs type="place" ref="pmb14"> 
-                  <hi rend="spaced_out">Wiener Burg</hi> 
-               </rs> 
-               <hi rend="spaced_out"> 
-                  <space unit="chars" quantity="1"/>durch die deutschen Autoren</hi> verlangt – »<rs type="place" ref="pmb151"> 
-                  <country>deutsch</country> 
-               </rs>« heißt hier: vom <rs type="place" ref="pmb581">Leipziger Platze</rs> bis zur <rs type="place" ref="pmb582">Mohrenstraße</rs>. Wer den zudringlichen Eifer kennt, mit dem die <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>er Fabrikanten dramatischer Producte und ihre »Reisenden« bei jedem eventuellen Director der <rs type="place" ref="pmb14">Burg</rs> unabweislich hausieren, weiß, wie wenig leider diese so verlockende Drohung ernst zu nehmen ist; Herr <rs type="person" ref="pmb11391">Fulda</rs>, der in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> erst für die außer<rs type="place" ref="pmb400">kaiserhof</rs>ische Welt entdeckt worden ist, ganz wie Herr <anchor type="commentary" xml:id="KT048-1"> 
-                  <rs type="person" ref="pmb11617">Hauptmann</rs> von Director <rs type="person" ref="pmb11036">Burckhard</rs> aus den Coulissen</anchor> der »<rs type="place" ref="pmb17">Freien Bühne</rs>« in das helle Licht des ersten deutschen Theaters gezogen wurde, wird sicherlich selber der erste sein, der mit seinem nächsten Stücke wieder betteln kommt Aber vielleicht merkt Herr Director <rs type="person" ref="pmb11036">Burckhard</rs> die Lehre und erinnert sich, daß es auch in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> Dichter gibt, wenn sie freilich nicht <anchor type="commentary" xml:id="KT048-3"> 
-                  <rs type="person" ref="pmb12261">Misch</rs> und <rs type="person" ref="pmb12296">Moser</rs> 
-               </anchor>, sondern nur <rs type="person" ref="pmb12362">Nissel</rs> und <rs type="person" ref="pmb12602">Saar</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> und <rs type="person" ref="pmb13082">Karlweis</rs>, <rs type="person" ref="pmb2416">David</rs> und <rs type="person" ref="pmb2121">Schnitzler</rs> heißen. <signed> 
-                  <hi rend="antiqua">H. B.</hi> 
-               </signed> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030048.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030047.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030049.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a" ref="pmb31273">Hermann Bahr: Burckhard und Fulda, 20. 1. 1893</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="048"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A9E-5</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <origDate when="18930120" n="1">20. 1. 1893</origDate>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="a" ref="pmb31273">Burckhard und Fulda</title>
+                  </analytic>
+                  <monogr>
+                     <title level="j" ref="pmb29424">Deutsche Zeitung</title>
+                     <imprint>
+                        <date when="18930120" n="1">20. 1. 1893</date>
+                     </imprint>
+                     <biblScope unit="jg">23</biblScope>
+                     <biblScope unit="nr">7566, Morgenausgabe</biblScope>
+                     <biblScope unit="pp">6</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160310" who="MAM">Angelegt und kollationiert.</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="article">
+      <body>
+         <div>
+            <head>
+               <anchor type="commentary" xml:id="KT048-2">
+                  <rs type="person" ref="pmb11036">Burckhard</rs> und <rs type="person" ref="pmb11391">Fulda</rs>
+               </anchor>.</head>
+            <p part="N">Wir haben neulich die <anchor type="commentary" xml:id="KT048-4">
+                  <rs type="work" subtype="implied" ref="pmb32568">Erklärung</rs> des Herrn <rs type="person" ref="pmb11391">
+                     <hi rend="spaced_out">Fulda</hi>
+                  </rs> gegen das <rs type="place" ref="pmb14">Burgtheater</rs> und die <rs type="work" subtype="implied" ref="pmb32568">Antwort</rs> des Directors Dr. <rs type="person" ref="pmb11036">
+                     <hi rend="spaced_out">Burckhard</hi>
+                  </rs>
+               </anchor> mitgetheilt. Die widerliche Angelegenheit, in der alles gute Recht für die Direction und wider den hochmüthigen, erweislich unaufrichtigen und gegen den Vater seines Ruhmes so undankbaren Autor steht, wäre damit erledigt, wenn sich nicht die kleine, aber desto lautere Clique des <rs type="place" ref="pmb168">Berlin</rs>er Literaten, das lärmende Rudel von Verkannten aus den <rs type="place" ref="pmb579">Berliner Cafés Bellevue</rs> und <rs type="place" ref="pmb400">Kaiserhof</rs>, in ihrem <rs type="org" subtype="implied" ref="pmb29329">Blättchen</rs> krampfhaft bemühte, sie zu einer »<anchor type="commentary" xml:id="KT048-5">
+                  <rs type="work" subtype="implied" ref="pmb32420">Sensation</rs>
+               </anchor>« aufzubauschen. Auch ein gelesenes Journal, die <rs type="org" ref="pmb29722">Münchener Allgemeine Zeitung</rs>, ist einem solchen <anchor type="commentary" xml:id="KT048-6">
+                  <rs type="work" subtype="implied" ref="pmb32422">Selbstberichterstatter</rs>
+               </anchor> auf den Leim gegangen, und das sonst ernsthafte Blatt bringt einen sehr scurrilen <rs type="work" subtype="implied" ref="pmb32422">Artikel</rs>, der gleich die <hi rend="spaced_out">Boycottirung der </hi>
+               <rs type="place" ref="pmb14">
+                  <hi rend="spaced_out">Wiener Burg</hi>
+               </rs>
+               <hi rend="spaced_out">
+                  <space unit="chars" quantity="1"/>durch die deutschen Autoren</hi> verlangt – »<rs type="place" ref="pmb151">deutsch</rs>« heißt hier: vom <rs type="place" ref="pmb581">Leipziger Platze</rs> bis zur <rs type="place" ref="pmb582">Mohrenstraße</rs>. Wer den zudringlichen Eifer kennt, mit dem die <rs type="place" ref="pmb168">Berlin</rs>er Fabrikanten dramatischer Producte und ihre »Reisenden« bei jedem eventuellen Director der <rs type="place" ref="pmb14">Burg</rs> unabweislich hausieren, weiß, wie wenig leider diese so verlockende Drohung ernst zu nehmen ist; Herr <rs type="person" ref="pmb11391">Fulda</rs>, der in <rs type="place" ref="pmb50">Wien</rs> erst für die außer<rs type="place" ref="pmb400">kaiserhof</rs>ische Welt entdeckt worden ist, ganz wie Herr <anchor type="commentary" xml:id="KT048-1">
+                  <rs type="person" ref="pmb11617">Hauptmann</rs> von Director <rs type="person" ref="pmb11036">Burckhard</rs> aus den Coulissen</anchor> der »<rs type="place" ref="pmb17">Freien Bühne</rs>« in das helle Licht des ersten deutschen Theaters gezogen wurde, wird sicherlich selber der erste sein, der mit seinem nächsten Stücke wieder betteln kommt Aber vielleicht merkt Herr Director <rs type="person" ref="pmb11036">Burckhard</rs> die Lehre und erinnert sich, daß es auch in <rs type="place" ref="pmb50">Wien</rs> Dichter gibt, wenn sie freilich nicht <anchor type="commentary" xml:id="KT048-3">
+                  <rs type="person" ref="pmb12261">Misch</rs> und <rs type="person" ref="pmb12296">Moser</rs>
+               </anchor>, sondern nur <rs type="person" ref="pmb12362">Nissel</rs> und <rs type="person" ref="pmb12602">Saar</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs> und <rs type="person" ref="pmb13082">Karlweis</rs>, <rs type="person" ref="pmb2416">David</rs> und <rs type="person" ref="pmb2121">Schnitzler</rs> heißen. <signed>
+                  <hi rend="antiqua">H. B.</hi>
+               </signed>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

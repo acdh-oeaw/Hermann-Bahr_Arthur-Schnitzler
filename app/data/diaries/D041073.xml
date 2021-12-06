@@ -1,102 +1,107 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041073.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041072.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041074.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 15. 10. 1911</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="073"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-887B-F</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1909–1912</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19111015" n="2">15/10</date> S. Aus den andern Städten gute Nachrichten; nur <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> scheint schwach gewesen zu sein. Die Kritiker: Gerade die fernsten, wie <anchor type="commentary" xml:id="KD073-1"> 
-                  <rs type="work" subtype="implied" ref="pmb32398"> 
-                     <rs type="person" ref="pmb11857">Kalbeck</rs> 
-                  </rs> 
-               </anchor> und <anchor type="commentary" xml:id="KD073-2"> 
-                  <rs type="work" subtype="implied" ref="pmb32396"> 
-                     <rs type="person" ref="pmb2739">Wittmann</rs> 
-                  </rs> 
-               </anchor> sehr freundlich; <anchor type="label" xml:id="LD073-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31219"> 
-                     <rs type="person" ref="pmb10815">Bahr</rs> 
-                  </rs> und <anchor type="commentary" xml:id="KD073-3"> 
-                     <rs type="work" subtype="implied" ref="pmb32400"> 
-                        <rs type="person" ref="pmb2167">Salten</rs> 
-                     </rs> 
-                  </anchor> bei aller Anerkennung von schlecht verhehltem Mißmut erfüllt.–</anchor> 
-            </p> 
-            <p>Spazieren, <rs type="place" ref="pmb169">Pötzleinsdorfer</rs> Wald. Auf dem Rückweg <rs type="person" ref="pmb2743">Heine</rs> mit Frau (<rs type="person" ref="pmb2748">Rabitow</rs>), die eben proviantirt nach <rs type="place" ref="pmb473">Weidlingbach</rs> wanderten. (Er hat gestern den <rs type="work" subtype="implied" ref="pmb30207">Natter</rs> glänzend gespielt.) Über den gestrigen Abend und andres. Später treff ich die <rs type="person" ref="pmb10959">Bleibtreu</rs> (»<rs type="work" subtype="implied" ref="pmb30207">Fr. Aigner</rs>«) und <rs type="person" ref="pmb12399">Paulsen</rs> (<rs type="work" subtype="implied" ref="pmb30207">Mauer</rs>); wir plaudern über <rs type="person" ref="pmb10883">Berger</rs> u. a. Die <rs type="person" ref="pmb13125">Wilke</rs> (Frau <rs type="work" subtype="implied" ref="pmb30207">Natter</rs>) mit irgend einem jungen Menschen an uns vorüber.– </p> 
-            <p>Weiter, am Friedhof vorbei. Hinein, zu den Gräbern <rs type="person" ref="pmb11851">Kainz</rs> und <rs type="person" ref="pmb11610">Hartmann</rs>. Heut vor acht Tagen stand er noch als <rs type="work" subtype="implied" ref="pmb29937">Herzog von Valois</rs> am Grab seines Sohnes!– </p> 
-            <p>Weiter, Frau <rs type="person" ref="pmb27812">Schmidl</rs> mit <rs type="person" ref="pmb27815">Hansi</rs> – gleich darauf <rs type="person" ref="pmb2642 pmb2646">Speidels</rs> – frostig;– sie vermochte sich nur abzugewinnen: »Das war ja gestern ein Rummel«– Er schwieg. Arme Leut im Grund. Man möcht sich fast entschuldigen.</p> 
-            <p>Zu Hause. Telegramme. <rs type="person" ref="pmb13653">Steffi</rs>, die »so was« eigentlich das erste Mal in der Nähe gesehn – und naiv erstaunt ist, daß alle Leute das Stück so mißverstehn – </p> 
-            <p>Nm. kamen <rs type="person" ref="pmb12698">Julius</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb24423">Helene</rs>; <rs type="person" ref="pmb2284 pmb2461">Hajeks</rs>.– </p> 
-            <p>Ins Theater. Mitte des <rs type="work" subtype="implied" ref="pmb30207">zweiten</rs>. Ausverkauft. Blieb bis Schluß. Sprach <rs type="person" ref="pmb10883">Berger</rs>, <rs type="person" ref="pmb12556">Rosenbaum</rs>, und fast alle Schauspieler, die sämtlich mit dem Erfolg sehr zufrieden waren.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041073.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041072.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041074.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 15. 10. 1911</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="073"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-887B-F</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann <persName ref="pmb10815">Bahr</persName> and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1909–1912</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Maria Neyses, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19111015" n="2">15/10</date> S. Aus den andern Städten gute Nachrichten; nur <rs type="place" ref="pmb168">Berlin</rs> scheint schwach gewesen zu sein. Die Kritiker: Gerade die fernsten, wie <anchor type="commentary" xml:id="KD073-1">
+                  <rs type="work" subtype="implied" ref="pmb32398">
+                     <rs type="person" ref="pmb11857">Kalbeck</rs>
+                  </rs>
+               </anchor> und <anchor type="commentary" xml:id="KD073-2">
+                  <rs type="work" subtype="implied" ref="pmb32396">
+                     <rs type="person" ref="pmb2739">Wittmann</rs>
+                  </rs>
+               </anchor> sehr freundlich; <anchor type="label" xml:id="LD073-1">
+                  <rs type="work" subtype="implied" ref="pmb31219">
+                     <rs type="person" ref="pmb10815">Bahr</rs>
+                  </rs> und <anchor type="commentary" xml:id="KD073-3">
+                     <rs type="work" subtype="implied" ref="pmb32400">
+                        <rs type="person" ref="pmb2167">Salten</rs>
+                     </rs>
+                  </anchor> bei aller Anerkennung von schlecht verhehltem Mißmut erfüllt.–</anchor>
+            </p>
+            <p>Spazieren, <rs type="place" ref="pmb169">Pötzleinsdorfer</rs> Wald. Auf dem Rückweg <rs type="person" ref="pmb2743">Heine</rs> mit Frau (<rs type="person" ref="pmb2748">Rabitow</rs>), die eben proviantirt nach <rs type="place" ref="pmb44394">Weidlingbach</rs> wanderten. (Er hat gestern den <rs type="work" subtype="implied" ref="pmb30207">Natter</rs> glänzend gespielt.) Über den gestrigen Abend und andres. Später treff ich die <rs type="person" ref="pmb10959">Bleibtreu</rs> (»<rs type="work" subtype="implied" ref="pmb30207">Fr. Aigner</rs>«) und <rs type="person" ref="pmb12399">Paulsen</rs> (<rs type="work" subtype="implied" ref="pmb30207">Mauer</rs>); wir plaudern über <rs type="person" ref="pmb10883">Berger</rs> u. a. Die <rs type="person" ref="pmb13125">Wilke</rs> (Frau <rs type="work" subtype="implied" ref="pmb30207">Natter</rs>) mit irgend einem jungen Menschen an uns vorüber.– </p>
+            <p>Weiter, am Friedhof vorbei. Hinein, zu den Gräbern <rs type="person" ref="pmb11851">Kainz</rs> und <rs type="person" ref="pmb11610">Hartmann</rs>. Heut vor acht Tagen stand er noch als <rs type="work" subtype="implied" ref="pmb29937">Herzog von Valois</rs> am Grab seines Sohnes!– </p>
+            <p>Weiter, Frau <rs type="person" ref="pmb24292">Schmidl</rs> mit <rs type="person" ref="pmb27815">Hansi</rs> – gleich darauf <rs type="person" ref="pmb2642 pmb2646">Speidels</rs> – frostig;– sie vermochte sich nur abzugewinnen: »Das war ja gestern ein Rummel«– Er schwieg. Arme Leut im Grund. Man möcht sich fast entschuldigen.</p>
+            <p>Zu Hause. Telegramme. <rs type="person" ref="pmb13653">Steffi</rs>, die »so was« eigentlich das erste Mal in der Nähe gesehn – und naiv erstaunt ist, daß alle Leute das Stück so mißverstehn – </p>
+            <p>Nm. kamen <rs type="person" ref="pmb12698">Julius</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb24423">Helene</rs>; <rs type="person" ref="pmb2284 pmb2461">Hajeks</rs>.– </p>
+            <p>Ins Theater. Mitte des <rs type="work" subtype="implied" ref="pmb30207">zweiten</rs>. Ausverkauft. Blieb bis Schluß. Sprach <rs type="person" ref="pmb10883">Berger</rs>, <rs type="person" ref="pmb12556">Rosenbaum</rs>, und fast alle Schauspieler, die sämtlich mit dem Erfolg sehr zufrieden waren.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

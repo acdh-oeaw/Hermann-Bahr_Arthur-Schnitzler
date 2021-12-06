@@ -1,390 +1,397 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041207.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041206.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041208.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an S. Fischer, 20. 3. 1897</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="207"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8640-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb11324">Fischer, Samuel</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb168">[Berlin]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18970320" n="01">20. 3. 1897</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>USA</country> 
-                        <settlement>Bloomington</settlement> 
-                        <repository>Indiana University, Lilly Library</repository> 
-                        <idno>Fischer mss.</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: <orgName ref="pmb29209">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von unbekannter Hand auf erster Seite mit »<quote>10 / 20 – / 5 / 5</quote>« versehen.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160303">Angelegt</change> 
-         <change who="KI MAM" when="20160406">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>20. März 7</date> 
-               </dateline> 
-               <salute rend="center">Lieber Fischer!</salute> 
-            </opener> 
-            <p>Ich habe heute <anchor type="commentary" xml:id="KL207-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31999">verschickt</rs> 
-               </anchor>:</p> 
-            <p> 
-               <table cols="2" rend="group"> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="4"> 
-                           <row> 
-                              <cell>1)</cell> 
-                              <cell>D<hi rend="superscript">r</hi> 
-                                 <space unit="chars" quantity="1"/> 
-                                 <rs type="person" ref="pmb10809">Eduard Bacher</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>2)</cell> 
-                              <cell>D<hi rend="superscript">r</hi> 
-                                 <space unit="chars" quantity="1"/> 
-                                 <rs type="person" ref="pmb11673">Theodor Herzl</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>3)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb2583">Friedrich Schütz</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>4)</cell> 
-                              <cell>D<hi rend="superscript">r</hi> 
-                                 <space unit="chars" quantity="1"/> 
-                                 <rs type="person" ref="pmb28523">Moriz Necker</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29351">Neue Freie Presse</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="2"> 
-                           <row> 
-                              <cell>5)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb28238">Hans Koppel</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>6)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb3442">Marco Brociner</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="person" ref="pmb25798">Sceps</rs>’sches <rs type="org" ref="pmb29414">Tagblatt</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>7)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb2202">Wilhelm Singer</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29414">Neues Wiener Tagblatt</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="2"> 
-                           <row> 
-                              <cell>8)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb11524">Ferdinand Groß</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>9)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb11687">Ludwig Hevesi</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29600">Fremdenblatt</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>10)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb28526">Moriz Baumfeld</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29717">Extrapost</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>11)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb14756">Ferry Beraton</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29719">Vornehme Welt</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>12)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb12920">Ottokar Tann-Bergler</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29320">Neues W<hi rend="superscript">r</hi> Journal</rs> 
-                        <pb/> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>13)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb2150">Julius Bauer</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29720">Extrablatt</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>14)</cell> 
-                              <cell>D<hi rend="superscript">r</hi> 
-                                 <space unit="chars" quantity="1"/> 
-                                 <rs type="person" ref="pmb10912">Anton Bettelheim</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29722">Münchner Allgemeine</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="2"> 
-                           <row> 
-                              <cell>15)</cell> 
-                              <cell>D<hi rend="superscript">r</hi> 
-                                 <space unit="chars" quantity="1"/> 
-                                 <rs type="person" ref="pmb11270">Emil Ertl</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>16)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb12984">Hermann Ubell</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29684">Grazer Tagespost</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>17)</cell> 
-                              <cell>Direktor <rs type="person" ref="pmb11036">Burckhard</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"/> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>18)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb2154">Vincenz Chiavacci</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29724">Wiener Bilder</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="2"> 
-                           <row> 
-                              <cell>19)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb11867">Heinrich Kanner</rs> 
-                              </cell> 
-                           </row> 
-                           <row> 
-                              <cell>20)</cell> 
-                              <cell>Professor <rs type="person" ref="pmb12790">Singer</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"> 
-                        <rs type="org" ref="pmb29209">Zeit</rs> 
-                     </cell> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>21)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb11469">Alfred Gold</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"/> 
-                  </row> 
-                  <row> 
-                     <cell> 
-                        <table cols="2" rows="1"> 
-                           <row> 
-                              <cell>22)</cell> 
-                              <cell> 
-                                 <rs type="person" ref="pmb13082">C. Karlweis</rs> 
-                              </cell> 
-                           </row> 
-                        </table> 
-                     </cell> 
-                     <cell role="label"/> 
-                  </row> 
-               </table> 
-            </p> 
-            <p rend="center"> 
-               <hi rend="overline">2<subst> 
-                     <del rend="overwritten">1</del> 
-                     <add place="inline">2</add> 
-                  </subst> Exemplare bisher verschickt.</hi> 
-            </p> 
-            <p>Nun brauche ich noch:</p> 
-            <p>1) <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> 2) <rs type="person" ref="pmb11740">Hugo v. Hofmannsthal</rs> 3) <rs type="person" ref="pmb10765">Leopold Andrian</rs> 4) <rs type="person" ref="pmb2157">Leo Ebermann</rs> 5) <rs type="person" ref="pmb28606">Ludwig Sc<unclear>v</unclear>epanski</rs> (für die <rs type="place" ref="pmb313">polnische</rs> Presse) 6) u 7) <rs type="person" ref="pmb2124">Machar</rs> und <rs type="person" ref="pmb4300">Krejci</rs> (für die <rs type="place" ref="pmb628">böhmische</rs> Presse) 8) <rs type="person" ref="pmb10928">Otto Julius Bierbaum</rs> 9) <rs type="person" ref="pmb12858">Otto Stößl</rs> 10) <rs type="person" ref="pmb2885">Max Messer</rs> 11) <rs type="person" ref="pmb28529">Franz Weislein</rs> 
-               <pb/> 12) <rs type="org" ref="pmb29682">Linzer Tagespost</rs> 13) <rs type="org" ref="pmb29686">Salzburger Volksblatt</rs> 14) <rs type="org" ref="pmb29725">Freie Schlesische Presse</rs> 15) <rs type="person" ref="pmb2618">Hugo Ganz</rs> (<rs type="org" ref="pmb29732">Neues Pester Journal</rs>) 16) <rs type="org" ref="pmb29728">Brünner Tagesbote</rs> 17) <rs type="org" ref="pmb29730">Brünner Sonntagszeitung</rs> 18) <rs type="org" ref="pmb29306">Pester Lloyd</rs> 19) Prof. <rs type="person" ref="pmb12258">Minor</rs>. Ferner will ich an jedem Theater einem Schauspieler ein Exemplar geben, damit der »Tratsch« los geht. Schicken Sie mir also <hi rend="underline" n="2">sofort</hi> noch 30 Exemplare und fügen Sie in dem Paket auch einige Exemplare von <anchor type="commentary" xml:id="KL207-3"> 
-                  <rs type="work" ref="pmb31987">Caph</rs> 
-               </anchor> u. <anchor type="commentary" xml:id="KL207-4"> 
-                  <rs type="work" ref="pmb31989">Dora</rs> 
-               </anchor> bei, die auch<pb/> alle Augenblicke von Journalisten verlangt werden. Ich hoffe, diesmal machen wir ein Geschäft.</p> 
-            <p>Und beantworten Sie meine <anchor type="commentary" xml:id="KL207-2">Frage wegen der »<rs type="work" ref="pmb31991">guten Schule</rs>.«</anchor> 
-            </p> 
-            <closer>Herzlichst<lb/>Ihr<lb/> 
-               <signed>Hermann Bahr</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041207.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041206.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041208.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an S. Fischer, 20. 3. 1897</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="207"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8640-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb11324">Fischer, Samuel</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb168">[Berlin]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18970320" n="01">20. 3. 1897</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>USA</country>
+                        <settlement>Bloomington</settlement>
+                        <repository>Indiana University, Lilly Library</repository>
+                        <idno>Fischer mss.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., gedruckter Kopf: <orgName ref="pmb29209">Die Zeit</orgName> (<ptr target="briefkopfzeit"/>), von unbekannter Hand auf erster Seite mit »<quote>10 / 20 – / 5 / 5</quote>« versehen.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160303">Angelegt</change>
+         <change who="KI MAM" when="20160406">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>20. März 7</date>
+               </dateline>
+               <salute rend="center">Lieber Fischer!</salute>
+            </opener>
+            <p>Ich habe heute <anchor type="commentary" xml:id="KL207-1">
+                  <rs type="work" subtype="implied" ref="pmb31999">verschickt</rs>
+               </anchor>:</p>
+            <p>
+               <table cols="2" rend="group">
+                  <row>
+                     <cell>
+                        <table cols="2" rows="4">
+                           <row>
+                              <cell>1)</cell>
+                              <cell>D<hi rend="superscript">r</hi>
+                                 <space unit="chars" quantity="1"/>
+                                 <rs type="person" ref="pmb10809">Eduard Bacher</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>2)</cell>
+                              <cell>D<hi rend="superscript">r</hi>
+                                 <space unit="chars" quantity="1"/>
+                                 <rs type="person" ref="pmb11673">Theodor Herzl</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>3)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb2583">Friedrich Schütz</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>4)</cell>
+                              <cell>D<hi rend="superscript">r</hi>
+                                 <space unit="chars" quantity="1"/>
+                                 <rs type="person" ref="pmb28523">Moriz Necker</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29351">Neue Freie Presse</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="2">
+                           <row>
+                              <cell>5)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb28238">Hans Koppel</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>6)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb3442">Marco Brociner</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="person" ref="pmb25798">Sceps</rs>’sches <rs type="org" ref="pmb29414">Tagblatt</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>7)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb2202">Wilhelm Singer</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29414">Neues Wiener Tagblatt</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="2">
+                           <row>
+                              <cell>8)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb11524">Ferdinand Groß</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>9)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb11687">Ludwig Hevesi</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29600">Fremdenblatt</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>10)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb28526">Moriz Baumfeld</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29717">Extrapost</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>11)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb14756">Ferry Beraton</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29719">Vornehme Welt</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>12)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb12920">Ottokar Tann-Bergler</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29320">Neues W<hi rend="superscript">r</hi> Journal</rs>
+                        <pb/>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>13)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb2150">Julius Bauer</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29720">Extrablatt</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>14)</cell>
+                              <cell>D<hi rend="superscript">r</hi>
+                                 <space unit="chars" quantity="1"/>
+                                 <rs type="person" ref="pmb10912">Anton Bettelheim</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29722">Münchner Allgemeine</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="2">
+                           <row>
+                              <cell>15)</cell>
+                              <cell>D<hi rend="superscript">r</hi>
+                                 <space unit="chars" quantity="1"/>
+                                 <rs type="person" ref="pmb11270">Emil Ertl</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>16)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb12984">Hermann Ubell</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29684">Grazer Tagespost</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>17)</cell>
+                              <cell>Direktor <rs type="person" ref="pmb11036">Burckhard</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label"/>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>18)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb2154">Vincenz Chiavacci</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29724">Wiener Bilder</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="2">
+                           <row>
+                              <cell>19)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb11867">Heinrich Kanner</rs>
+                              </cell>
+                           </row>
+                           <row>
+                              <cell>20)</cell>
+                              <cell>Professor <rs type="person" ref="pmb12790">Singer</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label">
+                        <rs type="org" ref="pmb29209">Zeit</rs>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>21)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb11469">Alfred Gold</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label"/>
+                  </row>
+                  <row>
+                     <cell>
+                        <table cols="2" rows="1">
+                           <row>
+                              <cell>22)</cell>
+                              <cell>
+                                 <rs type="person" ref="pmb13082">C. Karlweis</rs>
+                              </cell>
+                           </row>
+                        </table>
+                     </cell>
+                     <cell role="label"/>
+                  </row>
+               </table>
+            </p>
+            <p rend="center">
+               <hi rend="overline">2<subst>
+                     <del rend="overwritten">1</del>
+                     <add place="inline">2</add>
+                  </subst> Exemplare bisher verschickt.</hi>
+            </p>
+            <p>Nun brauche ich noch:</p>
+            <p>1) <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> 2) <rs type="person" ref="pmb11740">Hugo v. Hofmannsthal</rs> 3) <rs type="person" ref="pmb10765">Leopold Andrian</rs> 4) <rs type="person" ref="pmb2157">Leo Ebermann</rs> 5) <rs type="person" ref="pmb28606">Ludwig Sc<unclear>v</unclear>epanski</rs> (für die <rs type="place" ref="pmb313">polnische</rs> Presse) 6) u 7) <rs type="person" ref="pmb2124">Machar</rs> und <rs type="person" ref="pmb4300">Krejci</rs> (für die <rs type="place" ref="pmb628">böhmische</rs> Presse) 8) <rs type="person" ref="pmb10928">Otto Julius Bierbaum</rs> 9) <rs type="person" ref="pmb12858">Otto Stößl</rs> 10) <rs type="person" ref="pmb2885">Max Messer</rs> 11) <rs type="person" ref="pmb28529">Franz Weislein</rs>
+               <pb/> 12) <rs type="org" ref="pmb29682">Linzer Tagespost</rs> 13) <rs type="org" ref="pmb29686">Salzburger Volksblatt</rs> 14) <rs type="org" ref="pmb29725">Freie Schlesische Presse</rs> 15) <rs type="person" ref="pmb2618">Hugo Ganz</rs> (<rs type="org" ref="pmb29732">Neues Pester Journal</rs>) 16) <rs type="org" ref="pmb29728">Brünner Tagesbote</rs> 17) <rs type="org" ref="pmb29730">Brünner Sonntagszeitung</rs> 18) <rs type="org" ref="pmb29306">Pester Lloyd</rs> 19) Prof. <rs type="person" ref="pmb12258">Minor</rs>. Ferner will ich an jedem Theater einem Schauspieler ein Exemplar geben, damit der »Tratsch« los geht. Schicken Sie mir also <hi rend="underline" n="2">sofort</hi> noch 30 Exemplare und fügen Sie in dem Paket auch einige Exemplare von <anchor type="commentary" xml:id="KL207-3">
+                  <rs type="work" ref="pmb31987">Caph</rs>
+               </anchor> u. <anchor type="commentary" xml:id="KL207-4">
+                  <rs type="work" ref="pmb31989">Dora</rs>
+               </anchor> bei, die auch<pb/> alle Augenblicke von Journalisten verlangt werden. Ich hoffe, diesmal machen wir ein Geschäft.</p>
+            <p>Und beantworten Sie meine <anchor type="commentary" xml:id="KL207-2">Frage wegen der »<rs type="work" ref="pmb31991">guten Schule</rs>.«</anchor>
+            </p>
+            <closer>Herzlichst<lb/>Ihr<lb/>
+               <signed>Hermann Bahr</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,83 +1,88 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041116.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041115.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041117.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 8. 10. 1894</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="116" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88A6-D</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18941008" n="01">8/10</date> Brief von <rs type="person" ref="pmb2581">Else S.</rs>, sowie eine Novelle »Im Herbst«. Ich tadelte sie; da das psychol. vollkommen fehlt. Es ist in der Kunst umgekehrt wie im Leben – Thatsachen beweisen nichts;– schrieb ich ihr.– Ihre Bemerkungen über <rs type="person" ref="pmb12618">Dilly</rs> geschmacklos. »Denn abgesehen von der Heiligkeit, über welche Sie in der <rs type="work" ref="pmb31357">Episode</rs> nachlesen mögen, ist sie auch eine große Künstlerin;– es sollte noch weniger Moral und etwas mehr Kunst geben.«–</p> 
-            <p>Nm. <rs type="person" ref="pmb2157">Ebermann</rs>, dem ich eine Empfehlung an <rs type="person" ref="pmb11036">Burckhard</rs> gab.–</p> 
-            <p>Nm. wie fast täglich <rs type="person" ref="pmb2378">Mz. Rnh.</rs> da. Ich habe noch nichts gewagt.– Brief von <rs type="person" ref="pmb14953">Mz.</rs> aus <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>, treu bis in den Tod etc.; ich telegr. ihr.– Im <rs type="place" ref="pmb20">Volksth.</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="work" ref="pmb30401">Halali</rs>, ein plattes Lustspiel von <rs type="person" ref="pmb2827">Skowronnek</rs>.– <rs type="person" ref="pmb12740">Schwarzkopf</rs> zu <rs type="person" ref="pmb10815">Bahr</rs>: Woher nähmen Sie denn das Material zu Ihren Kritiken, wenn Sie nicht gerade das Gegentheil von den andern sagten.– Dann <rs type="person" ref="pmb10815">Bahr</rs> zu mir (über <rs type="work" ref="pmb30401">Halali</rs>): Das wird dem <rs type="person" ref="pmb12740">Schwarzkopf</rs> gefallen – da denkt er sich: Das kann ich auch.– Ich erwidre, er kenne <rs type="person" ref="pmb12740">Schw.</rs> schlecht – er sei zuweilen ein Nörgler, aber <hi rend="italic">nie</hi> ein Neider.</p> 
-            <p>Zu <rs type="person" ref="pmb12618">Dilly</rs>.– Portier: Sie ist bei der <rs type="person" subtype="implied" ref="pmb12621">Schwester</rs>.– Später teleph. sie ins <rs type="place" ref="pmb34">Griensteidl</rs>: <rs type="person" subtype="implied" ref="pmb2589">Mutter</rs> und <rs type="person" subtype="implied" ref="pmb2591">Bruder</rs> wieder bei ihr.– »<rs type="work" ref="pmb30403">Paracelsus</rs>« begonnen.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041116.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041115.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041117.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 8. 10. 1894</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="116" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88A6-D</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18941008" n="01">8/10</date> Brief von <rs type="person" ref="pmb2581">Else S.</rs>, sowie eine Novelle »Im Herbst«. Ich tadelte sie; da das psychol. vollkommen fehlt. Es ist in der Kunst umgekehrt wie im Leben – Thatsachen beweisen nichts;– schrieb ich ihr.– Ihre Bemerkungen über <rs type="person" ref="pmb12618">Dilly</rs> geschmacklos. »Denn abgesehen von der Heiligkeit, über welche Sie in der <rs type="work" ref="pmb31357">Episode</rs> nachlesen mögen, ist sie auch eine große Künstlerin;– es sollte noch weniger Moral und etwas mehr Kunst geben.«–</p>
+            <p>Nm. <rs type="person" ref="pmb2157">Ebermann</rs>, dem ich eine Empfehlung an <rs type="person" ref="pmb11036">Burckhard</rs> gab.–</p>
+            <p>Nm. wie fast täglich <rs type="person" ref="pmb2378">Mz. Rnh.</rs> da. Ich habe noch nichts gewagt.– Brief von <rs type="person" ref="pmb14953">Mz.</rs> aus <rs type="place" ref="pmb168">Berlin</rs>, treu bis in den Tod etc.; ich telegr. ihr.– Im <rs type="place" ref="pmb20">Volksth.</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="work" ref="pmb30401">Halali</rs>, ein plattes Lustspiel von <rs type="person" ref="pmb2827">Skowronnek</rs>.– <rs type="person" ref="pmb12740">Schwarzkopf</rs> zu <rs type="person" ref="pmb10815">Bahr</rs>: Woher nähmen Sie denn das Material zu Ihren Kritiken, wenn Sie nicht gerade das Gegentheil von den andern sagten.– Dann <rs type="person" ref="pmb10815">Bahr</rs> zu mir (über <rs type="work" ref="pmb30401">Halali</rs>): Das wird dem <rs type="person" ref="pmb12740">Schwarzkopf</rs> gefallen – da denkt er sich: Das kann ich auch.– Ich erwidre, er kenne <rs type="person" ref="pmb12740">Schw.</rs> schlecht – er sei zuweilen ein Nörgler, aber <hi rend="italic">nie</hi> ein Neider.</p>
+            <p>Zu <rs type="person" ref="pmb12618">Dilly</rs>.– Portier: Sie ist bei der <rs type="person" subtype="implied" ref="pmb12621">Schwester</rs>.– Später teleph. sie ins <rs type="place" ref="pmb34">Griensteidl</rs>: <rs type="person" subtype="implied" ref="pmb2589">Mutter</rs> und <rs type="person" subtype="implied" ref="pmb2591">Bruder</rs> wieder bei ihr.– »<rs type="work" ref="pmb30403">Paracelsus</rs>« begonnen.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,126 +1,129 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041238.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041237.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041239.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 5. 7. 1901</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="238"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-865F-1</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19010705" n="01">5. 7. 1901</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler Jahreszahl »<quote> 
-                              <date>901</date> 
-                           </quote>« ergänzt.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151209">Kollationiert</change> 
-         <change who="KI MAM" when="20170526">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00125"/> 
-      <graphic url="MS-B-00005-B-000-00126"/> 
-      <graphic url="MS-B-00005-B-000-00127"/> 
-      <graphic url="MS-B-00005-B-000-00128"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date> 
-                     <subst> 
-                        <del rend="overwritten">7</del> 
-                        <add place="inline">5</add> 
-                     </subst>/7</date> 
-               </dateline> 
-               <salute rend="center">Lieber Arthur!</salute> 
-            </opener> 
-            <p>Ich danke Dir herzlich für Deinen lieben Brief. Ich habe neulich mit <rs type="person" ref="pmb11740">Hugo</rs> davon gesprochen, wie es mich freut, zu Dir endlich ein aufrichtiges und gutes Verhältnis gefunden zu haben und zu empfinden, daß <add place="above">es</add> wohl nicht mehr gestört werden kann, mögen unsere Meinungen immerhin auch künftig noch manchmal auseinandergehen.<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11740">Hugo</rs> ist sehr stolz, weil er das Gefühl hat, in dieser Sache von jeher gescheiter gewesen zu sein, als wir es Jahre lang waren.</p> 
-            <p>Für <rs type="person" ref="pmb12460">Pötzl</rs> kann ich, so unerfreulich er sich gegen mich, mit anonymen Briefen und auf Hintertreppen operierend, fortgesetzt benimmt, ein<supplied>e</supplied> stille Bewunderung nicht los werden, weil er doch das vollendet<pb/>ste Exemplar des biederen <rs type="place" ref="pmb50"> 
-                  <settlement>Wieners</settlement> 
-               </rs> ist, und mir immer nur leid thut, daß ihn <rs type="person" ref="pmb11330">Flaubert</rs> nicht gekannt hat, der ein wahres Freudengeheul über ihn ausgestoßen hätte. »<anchor type="commentary" xml:id="KL238-2">Den Arier</anchor>« müßte einmal Jemand schildern und müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen <anchor type="commentary" xml:id="KL238-1">Naderer</anchor>, der eigentlich der Grundtypus des <rs type="place" ref="pmb162"> 
-                  <country>Östreichers</country> 
-               </rs> zu sein scheint, was irgendwie<pb/> sehr tief mit dem Katholicismus zusammen<add place="above">zu</add>hängen scheint – worüber <rs type="person" ref="pmb10765">Poldi</rs> und <rs type="person" ref="pmb11740">Hugo</rs> freilich Zeter und Mordio schreien würden. <rs type="person" ref="pmb12460">Pötzl</rs> oder der Herr <anchor type="label" xml:id="LL238-1"> 
-                  <rs type="person" ref="pmb2207">Davis</rs> von der »<rs type="org" ref="pmb29304">Reichswehr</rs>«</anchor> oder der Ton des <anchor type="commentary" xml:id="KL238-3"> 
-                  <rs type="org" ref="pmb29394">Kikeriki</rs> 
-               </anchor> – das sind lauter Sachen, die an den Hof <rs type="person" ref="pmb2176">Philipps</rs> gehören und die ich mir großartig von <rs type="person" ref="pmb2181">Velasquez</rs> gemalt denken könnte.</p> 
-            <closer>Einen guten Sommer wünscht Dir<lb/>herzlichst<lb/>Dein<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041238.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041237.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041239.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 5. 7. 1901</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="238"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-865F-1</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19010705" n="01">5. 7. 1901</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., von Schnitzler Jahreszahl »<quote>
+                              <date>901</date>
+                           </quote>« ergänzt.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151209">Kollationiert</change>
+         <change who="KI MAM" when="20170526">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00125"/>
+      <graphic url="MS-B-00005-B-000-00126"/>
+      <graphic url="MS-B-00005-B-000-00127"/>
+      <graphic url="MS-B-00005-B-000-00128"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>
+                     <subst>
+                        <del rend="overwritten">7</del>
+                        <add place="inline">5</add>
+                     </subst>/7</date>
+               </dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>Ich danke Dir herzlich für Deinen lieben Brief. Ich habe neulich mit <rs type="person" ref="pmb11740">Hugo</rs> davon gesprochen, wie es mich freut, zu Dir endlich ein aufrichtiges und gutes Verhältnis gefunden zu haben und zu empfinden, daß <add place="above">es</add> wohl nicht mehr gestört werden kann, mögen unsere Meinungen immerhin auch künftig noch manchmal auseinandergehen.<pb/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11740">Hugo</rs> ist sehr stolz, weil er das Gefühl hat, in dieser Sache von jeher gescheiter gewesen zu sein, als wir es Jahre lang waren.</p>
+            <p>Für <rs type="person" ref="pmb12460">Pötzl</rs> kann ich, so unerfreulich er sich gegen mich, mit anonymen Briefen und auf Hintertreppen operierend, fortgesetzt benimmt, ein<supplied>e</supplied> stille Bewunderung nicht los werden, weil er doch das vollendet<pb/>ste Exemplar des biederen <rs type="place" ref="pmb50">Wieners</rs> ist, und mir immer nur leid thut, daß ihn <rs type="person" ref="pmb11330">Flaubert</rs> nicht gekannt hat, der ein wahres Freudengeheul über ihn ausgestoßen hätte. »<anchor type="commentary" xml:id="KL238-2">Den Arier</anchor>« müßte einmal Jemand schildern und müßte einmal die andere Seite der »armen Spielleute« zeigen, den gemütlichen <anchor type="commentary" xml:id="KL238-1">Naderer</anchor>, der eigentlich der Grundtypus des <rs type="place" ref="pmb41240">Östreichers</rs> zu sein scheint, was irgendwie<pb/> sehr tief mit dem Katholicismus zusammen<add place="above">zu</add>hängen scheint – worüber <rs type="person" ref="pmb10765">Poldi</rs> und <rs type="person" ref="pmb11740">Hugo</rs> freilich Zeter und Mordio schreien würden. <rs type="person" ref="pmb12460">Pötzl</rs> oder der Herr <anchor type="label" xml:id="LL238-1">
+                  <rs type="person" ref="pmb2207">Davis</rs> von der »<rs type="org" ref="pmb29304">Reichswehr</rs>«</anchor> oder der Ton des <anchor type="commentary" xml:id="KL238-3">
+                  <rs type="org" ref="pmb29394">Kikeriki</rs>
+               </anchor> – das sind lauter Sachen, die an den Hof <rs type="person" ref="pmb2176">Philipps</rs> gehören und die ich mir großartig von <rs type="person" ref="pmb2181">Velasquez</rs> gemalt denken könnte.</p>
+            <closer>Einen guten Sommer wünscht Dir<lb/>herzlichst<lb/>Dein<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

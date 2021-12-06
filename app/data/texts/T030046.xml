@@ -1,267 +1,276 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030046.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030045.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030047.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler: Freiexemplare Im Spiel der Sommerlüfte, [Ende 1929?]</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-T" n="046"/> 
-            <availability status="free"> 
-               <p part="N">Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A9C-7</idno></publicationStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, A 248</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p part="N">ms. Typoskript, undatiert, 7 S., Wiedergabe der S. 4</p> 
-                     </physDesc> 
-                     <origDate when="19291221" n="1">[Ende 1929]</origDate> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change when="20160307" who="MAM">Angelegt</change> 
-         <change who="KI MAM" when="20160614">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="manuscript"> 
-      <body> 
-         <div> 
-            <head>Freiexemplare »<anchor type="commentary" xml:id="KT046-1"> 
-                  <rs type="work" ref="pmb30945">Im Spiel der Sommerlüfte</rs> 
-               </anchor>«.</head> 
-            <p part="N"> 
-               <table rows="33" columns="2"> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10788">Raoul Auernheimer</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb10815">Hermann Bahr</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10863">Richard Beer-Hofmann</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb14041">Alice Behrend</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb2914">Bie</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4358">Ida Dehmel</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11205">A. Döblin</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11246">Julius Elias</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11327">Otto Flake</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11472">W. Goldbaum</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11617">G. Hauptmann</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11679">Hermann Hesse</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb4367">Julius Hirsch</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11752">Felix Holländer</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11820">Johann V. Jensen</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb11900">B. Kellermann</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11910">Alfred Kerr</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4351">Annette Kolb</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb3878">Oskar Loerke</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <del rend="strikethrough">Ade</del> 
-                        <space unit="chars" quantity="1"/> 
-                        <rs type="person" ref="pmb4354">Aage Madelung</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb12176">Thomas Mann</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Frau <rs type="person" ref="pmb28556">v. Möllendorf</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb12514">Gabriele Reuter</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Geh. Rat <rs type="person" ref="pmb4387">S. Saenger</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb2167">Felix Salten</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb4362">Hugo Simon</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb12968">S. Trebitsch</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb13055">Jakob Wassermann</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb13156">A.Wolfenstein</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <rs type="person" ref="pmb13094">Franz Werfel</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"/> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10889">Bermann-Fischer</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1">(im Haus)</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11891">Rudolf Kayser</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="8"/>„</cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb4374">K. Maril</rs> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <space unit="chars" quantity="8"/>„</cell> 
-                  </row> 
-               </table> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
-</TEI><!-- Datierung auf die Premiere am 21. Dez. 1929. Vgl. auch http://anno.onb.ac.at/cgi-content/anno?aid=aze&datum=19300119&seite=10&zoom=33&query=%22sommerlüfte%2Bfischer%22~10&ref=anno-search -->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030046.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030045.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/texts/T030047.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler: Freiexemplare Im Spiel der Sommerlüfte, [Ende 1929?]</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-T" n="046"/>
+            <availability status="free">
+               <p part="N">Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A9C-7</idno>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, A 248</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p part="N">ms. Typoskript, undatiert, 7 S., Wiedergabe der S. 4</p>
+                     </physDesc>
+                     <origDate when="19291221" n="1">[Ende 1929]</origDate>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change when="20160307" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="manuscript">
+      <body>
+         <div>
+            <head>Freiexemplare »<anchor type="commentary" xml:id="KT046-1">
+                  <rs type="work" ref="pmb30945">Im Spiel der Sommerlüfte</rs>
+               </anchor>«.</head>
+            <p part="N">
+               <table rows="33" columns="2">
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10788">Raoul Auernheimer</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb10815">Hermann Bahr</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10863">Richard Beer-Hofmann</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb14041">Alice Behrend</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb2914">Bie</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4358">Ida Dehmel</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11205">A. Döblin</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11246">Julius Elias</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11327">Otto Flake</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11472">W. Goldbaum</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11617">G. Hauptmann</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11679">Hermann Hesse</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb4367">Julius Hirsch</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11752">Felix Holländer</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11820">Johann V. Jensen</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb11900">B. Kellermann</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11910">Alfred Kerr</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4351">Annette Kolb</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb3878">Oskar Loerke</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <del rend="strikethrough">Ade</del>
+                        <space unit="chars" quantity="1"/>
+                        <rs type="person" ref="pmb4354">Aage Madelung</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Prof. <rs type="person" ref="pmb12176">Thomas Mann</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Frau <rs type="person" ref="pmb28556">v. Möllendorf</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb12514">Gabriele Reuter</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Geh. Rat <rs type="person" ref="pmb4387">S. Saenger</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb2167">Felix Salten</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb4362">Hugo Simon</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb12968">S. Trebitsch</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb13055">Jakob Wassermann</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb13156">A.Wolfenstein</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">
+                        <rs type="person" ref="pmb13094">Franz Werfel</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1"/>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb10889">Bermann-Fischer</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">(im Haus)</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb11891">Rudolf Kayser</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="8"/>„</cell>
+                  </row>
+                  <row role="data" rows="1" cols="1">
+                     <cell role="data" rows="1" cols="1">Dr. <rs type="person" ref="pmb4374">K. Maril</rs>
+                     </cell>
+                     <cell role="data" rows="1" cols="1">
+                        <space unit="chars" quantity="8"/>„</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
+<!-- Datierung auf die Premiere am 21. Dez. 1929. Vgl. auch http://anno.onb.ac.at/cgi-content/anno?aid=aze&datum=19300119&seite=10&zoom=33&query=%22sommerlüfte%2Bfischer%22~10&ref=anno-search -->

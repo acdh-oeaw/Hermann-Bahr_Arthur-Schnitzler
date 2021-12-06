@@ -1,84 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041334.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041333.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041335.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 9. 8. 1923</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="334"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8968-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1923–1926</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1995">1995</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19230809" n="1">9/8</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb228"> 
-                  <settlement>Baden-Baden</settlement> 
-               </rs>. In der bekannten Weise, melancholisch, bis zu Thränen erwacht. So wirkt die Nähe!– Hinauf. <rs type="person" ref="pmb12692">Heini</rs>s 21. Geburtstag. <rs type="person" ref="pmb2173">O.</rs> war weiter die beleidigte Königin; als sie endlich gar eine Bemerkung über die Geldsache machte – als hätt ich ihr vorgeworfen – sie wolle an dem Geburtstagsgeschenk für <rs type="person" ref="pmb12692">Heini</rs> – was verdienen, wurd es mir zu dumm; ich ging und arbeitete auf der <rs type="place" ref="pmb229">Leopoldshöhe</rs> am »<rs type="work" ref="pmb30205">Verf.</rs>« weiter.– Das gemeinsame Mittagessen war heitrer.–</p> 
-            <p>Nm. Briefe. Am <rs type="work" ref="pmb30205">Verf.</rs>–</p> 
-            <p>Z. N. oben. Auf der Terrasse Nachtm., mit Frau <rs type="person" ref="pmb27973">Grethe Lichtenstein</rs>. Bowle. Lampions. Sternenhimmel ohne gleichen. Man war wohlgelaunt; <rs type="person" ref="pmb12692">Heini</rs> kalauerte; Sternschnuppen flogen. Dann geleiteten mich alle zum Hotel. Ich las noch in <rs type="work" subtype="implied" ref="pmb30813"> 
-                  <rs type="person" ref="pmb10815">Bahr</rs> 
-               </rs> weiter bis zu seiner <rs type="place" ref="pmb50">Wiener</rs> Zeit.–</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041334.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041333.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041335.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 9. 8. 1923</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="334"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8968-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1923–1926</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1995">1995</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19230809" n="1">9/8</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb228">Baden-Baden</rs>. In der bekannten Weise, melancholisch, bis zu Thränen erwacht. So wirkt die Nähe!– Hinauf. <rs type="person" ref="pmb12692">Heini</rs>s 21. Geburtstag. <rs type="person" ref="pmb2173">O.</rs> war weiter die beleidigte Königin; als sie endlich gar eine Bemerkung über die Geldsache machte – als hätt ich ihr vorgeworfen – sie wolle an dem Geburtstagsgeschenk für <rs type="person" ref="pmb12692">Heini</rs> – was verdienen, wurd es mir zu dumm; ich ging und arbeitete auf der <rs type="place" ref="pmb229">Leopoldshöhe</rs> am »<rs type="work" ref="pmb30205">Verf.</rs>« weiter.– Das gemeinsame Mittagessen war heitrer.–</p>
+            <p>Nm. Briefe. Am <rs type="work" ref="pmb30205">Verf.</rs>–</p>
+            <p>Z. N. oben. Auf der Terrasse Nachtm., mit Frau <rs type="person" ref="pmb27973">Grethe Lichtenstein</rs>. Bowle. Lampions. Sternenhimmel ohne gleichen. Man war wohlgelaunt; <rs type="person" ref="pmb12692">Heini</rs> kalauerte; Sternschnuppen flogen. Dann geleiteten mich alle zum Hotel. Ich las noch in <rs type="work" subtype="implied" ref="pmb30813">
+                  <rs type="person" ref="pmb10815">Bahr</rs>
+               </rs> weiter bis zu seiner <rs type="place" ref="pmb50">Wiener</rs> Zeit.–</p>
+         </div>
+      </body>
+   </text>
 </TEI>

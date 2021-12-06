@@ -1,120 +1,121 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041269.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041268.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041270.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Hermann Bahr an Arthur Schnitzler, 29. 1. 1904</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="269"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-867E-E</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb218">Marbach am Bodensee</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19040129" n="01">29. 1. 1904</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>GB</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 5b</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 2 S.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151210">Kollationiert</change> 
-         <change who="KI MAM" when="20170529">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="MS-B-00005-B-000-00191"/> 
-      <graphic url="MS-B-00005-B-000-00192"/> 
-   </facsimile> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>29. 1. 04</date> 
-               </dateline> 
-               <salute rend="center">Lieber Arthur!</salute> 
-            </opener> 
-            <p>Ich »soll« nach <rs type="person" ref="pmb2216">Ortner</rs> zwei bis drei Monate hier bleiben, glaube aber nicht es so lang auszuhalten. Es ist hier sehr unangenehm und ich überlege hin und her, <damage agent="water"> 
-                  <supplied>ob</supplied> 
-               </damage> es nicht viel gescheiter wäre, in <rs type="place" ref="pmb906"> 
-                  <settlement>Taormina</settlement> 
-               </rs> oder <rs type="place" ref="pmb839"> 
-                  <settlement>Kairo</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/>z<damage agent="water"> 
-                  <supplied>u</supplied> 
-               </damage> sitzen. Ich tue übrigens nichts, ohne vorher <rs type="person" ref="pmb2216">Ortner</rs> zu schreiben.</p> 
-            <p>Der »<rs type="work" ref="pmb29985">einsame Weg</rs>« kam gestern an und wurde sogleich gelesen. Wunderbar finde ich, wie Du da von der Peripherie der Menschheit, an welcher sich die meisten Stücke sonst herumbewegen, in die Mitte ihres geistigen Lebens kommst, nemlich unseres geistigen Lebens, der Sachen, um die wir uns heute allein noch kümmern können. (Wobei ich mich an einen Satz <rs type="person" ref="pmb12156">Maeterlincks</rs> von dem <anchor type="commentary" xml:id="KL269-1">still an seinem Tische sitzenden Greise</anchor> und an manches erinnere, was in meinem <rs type="work" ref="pmb29895">Dialog vom Tragischen</rs> gefordert wird). Allerdings<pb/> hat mir gestern, beim ersten eiligen Lesen und in meiner jetzigen geistigen Trübung, im dramatischen Ductus etwas gefehlt, ich kann es nicht anders sagen, als daß mir die Bewegung des Stückes einige Male abzubrechen und sich dann auf eine mir nicht gleich verständliche Art wieder zu sammeln oder zu ersetzen schien. Ich lese es nun aber in ein paar Tagen wieder und mit diesen Bemerkungen ist wol überhaupt mehr mein elender Zustand als das Stück kritisiert.</p> 
-            <closer>Grüß <rs type="person" ref="pmb10986">Brahm</rs> und wen ich sonst in <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> kenne, empfiel<!-- sic! --> mich Deiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> und sei herzlichst gegrüßt von<lb/>Deinem alten<lb/> 
-               <signed>Hermann</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041269.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041268.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041270.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Hermann Bahr an Arthur Schnitzler, 29. 1. 1904</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="269"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-867E-E</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb218">Marbach am Bodensee</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19040129" n="01">29. 1. 1904</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>GB</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 5b</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 2 S.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151210">Kollationiert</change>
+         <change who="KI MAM" when="20170529">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="MS-B-00005-B-000-00191"/>
+      <graphic url="MS-B-00005-B-000-00192"/>
+   </facsimile>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>29. 1. 04</date>
+               </dateline>
+               <salute rend="center">Lieber Arthur!</salute>
+            </opener>
+            <p>Ich »soll« nach <rs type="person" ref="pmb2216">Ortner</rs> zwei bis drei Monate hier bleiben, glaube aber nicht es so lang auszuhalten. Es ist hier sehr unangenehm und ich überlege hin und her, <damage agent="water">
+                  <supplied>ob</supplied>
+               </damage> es nicht viel gescheiter wäre, in <rs type="place" ref="pmb906">Taormina</rs> oder <rs type="place" ref="pmb839">Kairo</rs>
+               <space unit="chars" quantity="1"/>z<damage agent="water">
+                  <supplied>u</supplied>
+               </damage> sitzen. Ich tue übrigens nichts, ohne vorher <rs type="person" ref="pmb2216">Ortner</rs> zu schreiben.</p>
+            <p>Der »<rs type="work" ref="pmb29985">einsame Weg</rs>« kam gestern an und wurde sogleich gelesen. Wunderbar finde ich, wie Du da von der Peripherie der Menschheit, an welcher sich die meisten Stücke sonst herumbewegen, in die Mitte ihres geistigen Lebens kommst, nemlich unseres geistigen Lebens, der Sachen, um die wir uns heute allein noch kümmern können. (Wobei ich mich an einen Satz <rs type="person" ref="pmb12156">Maeterlincks</rs> von dem <anchor type="commentary" xml:id="KL269-1">still an seinem Tische sitzenden Greise</anchor> und an manches erinnere, was in meinem <rs type="work" ref="pmb29895">Dialog vom Tragischen</rs> gefordert wird). Allerdings<pb/> hat mir gestern, beim ersten eiligen Lesen und in meiner jetzigen geistigen Trübung, im dramatischen Ductus etwas gefehlt, ich kann es nicht anders sagen, als daß mir die Bewegung des Stückes einige Male abzubrechen und sich dann auf eine mir nicht gleich verständliche Art wieder zu sammeln oder zu ersetzen schien. Ich lese es nun aber in ein paar Tagen wieder und mit diesen Bemerkungen ist wol überhaupt mehr mein elender Zustand als das Stück kritisiert.</p>
+            <closer>Grüß <rs type="person" ref="pmb10986">Brahm</rs> und wen ich sonst in <rs type="place" ref="pmb168">Berlin</rs> kenne, empfiel<!-- sic! --> mich Deiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> und sei herzlichst gegrüßt von<lb/>Deinem alten<lb/>
+               <signed>Hermann</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

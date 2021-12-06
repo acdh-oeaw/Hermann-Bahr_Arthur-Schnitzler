@@ -1,132 +1,137 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041370.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041369.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041371.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Felix Salten an Arthur Schnitzler, 18. 2. 1895</title> 
-            <author ref="pmb2167">Salten, Felix</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="370"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E3-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2167">Salten, Felix</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb155">München</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="18950218" n="01">18. 2. 1895</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>UK</country> 
-                        <settlement>Cambridge</settlement> 
-                        <repository>University Library</repository> 
-                        <idno>Schnitzler, B 89 a/1</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Bl., 4 S., Bleistift, Lateinschrift</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151201">Angelegt aus Original</change> 
-         <change who="KI MAM" when="20160614">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb155"> 
-                     <settlement>München</settlement> 
-                  </rs> 
-                  <space unit="chars" quantity="1"/> 
-                  <date>1<subst> 
-                        <del rend="overwritten">9</del> 
-                        <add place="inline">8</add> 
-                     </subst>./II. 95</date>.</dateline> 
-            </opener> 
-            <p> 
-               <salute>Lieber Freund</salute>, ich habe zunächst eine grosse Bitte an Sie: da ich voraussichtlich von hier nicht wegkomme, telegrafiren Sie mir gleich nach <subst> 
-                  <del rend="overwritten">e</del> 
-                  <add place="inline">E</add> 
-               </subst>rhalt dieses Briefes: »Salten <del rend="strikethrough">Hotel</del> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb639">München Oberpollinger</rs>. Ihre Anwesenheit für Donnerstag erwünscht. Die Redaction.« Aus dieser Bitte entnehmen Sie ungefähr auch wie es mir geht. Ich <subst> 
-                  <del rend="overwritten"> 
-                     <gap quantity="2" reason="illegible" unit="chars"/> 
-                  </del> 
-                  <add place="inline">kä</add> 
-               </subst>me dann Donnerstag von der Bahn direkt in die <rs type="org" ref="pmb29801">Musik <c rendition="#kaufmannsund"/> Theatergesellschaft</rs>, wir uns treffen können.<pb/> 
-            </p> 
-            <p>Ich könnte jetzt sehr glücklich sein, wenn ich durch diese freundlichen Straßen mit einem Mädel ginge, das ich wirklich liebe. So aber ärgere ich mich ausschließlich, wenn ich mich nicht langweile. Morgen will ich ein paar Leute aufsuchen, da ich ja heute schon ein Zimmer für <rs type="person" ref="pmb3784">Lotte</rs> aufgenommen habe,<pb/> mich also <hi rend="underline" n="1">damit</hi> nicht weiter aufzuhalten brauche.</p> 
-            <p>Ein Brief von Ihnen, der nicht schon unterwegs ist, träfe mich nicht mehr hier. Wenn etwas Wichtiges geschehen ist, dann telegrafiren Sie mir ja ohnedies noch separat. Sobald <rs type="person" ref="pmb10986">Brahm</rs> Ihnen den <anchor type="commentary" xml:id="KL370-1">Contract</anchor> gesendet <c rendition="#kaufmannsund"/> Sie diese Sache in die Zeitungen geben, vergessen sie nicht, auch<pb/> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb11406">Ludassy</rs> zu verständigen.</p> 
-            <p>Haben Sie <rs type="person" ref="pmb10815">Bahrs</rs> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="commentary" xml:id="KL370-2"> 
-                  <rs type="work" subtype="implied" ref="pmb31911">Artikel <rs type="person" ref="pmb12618">A. S.</rs> 
-                  </rs> 
-               </anchor> gelesen? Ich habe ihn noch Samstag Abend im Theater gesprochen und er war wieder beängstigend freundlich.</p> 
-            <p>Leben Sie wol, und grüßen <rs type="person" ref="pmb10860">Beer Hofmann</rs> + <rs type="person" ref="pmb11740">Loris</rs>. Auf Wiedersehen</p> 
-            <closer>Herzlichst Ihr<lb/> 
-               <signed>Salten</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041370.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041369.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041371.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Felix Salten an Arthur Schnitzler, 18. 2. 1895</title>
+            <author ref="pmb2167">Salten, Felix</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="370"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-86E3-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2167">Salten, Felix</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb45258">München</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="18950218" n="01">18. 2. 1895</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>UK</country>
+                        <settlement>Cambridge</settlement>
+                        <repository>University Library</repository>
+                        <idno>Schnitzler, B 89 a/1</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Bl., 4 S., Bleistift, Lateinschrift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151201">Angelegt aus Original</change>
+         <change who="KI MAM" when="20160614">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb45258">München</rs>
+                  <space unit="chars" quantity="1"/>
+                  <date>1<subst>
+                        <del rend="overwritten">9</del>
+                        <add place="inline">8</add>
+                     </subst>./II. 95</date>.</dateline>
+            </opener>
+            <p>
+               <salute>Lieber Freund</salute>, ich habe zunächst eine grosse Bitte an Sie: da ich voraussichtlich von hier nicht wegkomme, telegrafiren Sie mir gleich nach <subst>
+                  <del rend="overwritten">e</del>
+                  <add place="inline">E</add>
+               </subst>rhalt dieses Briefes: »Salten <del rend="strikethrough">Hotel</del>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb639">München Oberpollinger</rs>. Ihre Anwesenheit für Donnerstag erwünscht. Die Redaction.« Aus dieser Bitte entnehmen Sie ungefähr auch wie es mir geht. Ich <subst>
+                  <del rend="overwritten">
+                     <gap quantity="2" reason="illegible" unit="chars"/>
+                  </del>
+                  <add place="inline">kä</add>
+               </subst>me dann Donnerstag von der Bahn direkt in die <rs type="org" ref="pmb29801">Musik <c rendition="#kaufmannsund"/> Theatergesellschaft</rs>, wir uns treffen können.<pb/>
+            </p>
+            <p>Ich könnte jetzt sehr glücklich sein, wenn ich durch diese freundlichen Straßen mit einem Mädel ginge, das ich wirklich liebe. So aber ärgere ich mich ausschließlich, wenn ich mich nicht langweile. Morgen will ich ein paar Leute aufsuchen, da ich ja heute schon ein Zimmer für <rs type="person" ref="pmb3784">Lotte</rs> aufgenommen habe,<pb/> mich also <hi rend="underline" n="1">damit</hi> nicht weiter aufzuhalten brauche.</p>
+            <p>Ein Brief von Ihnen, der nicht schon unterwegs ist, träfe mich nicht mehr hier. Wenn etwas Wichtiges geschehen ist, dann telegrafiren Sie mir ja ohnedies noch separat. Sobald <rs type="person" ref="pmb10986">Brahm</rs> Ihnen den <anchor type="commentary" xml:id="KL370-1">Contract</anchor> gesendet <c rendition="#kaufmannsund"/> Sie diese Sache in die Zeitungen geben, vergessen sie nicht, auch<pb/>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb11406">Ludassy</rs> zu verständigen.</p>
+            <p>Haben Sie <rs type="person" ref="pmb10815">Bahrs</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KL370-2">
+                  <rs type="work" subtype="implied" ref="pmb31911">Artikel <rs type="person" ref="pmb12618">A. S.</rs>
+                  </rs>
+               </anchor> gelesen? Ich habe ihn noch Samstag Abend im Theater gesprochen und er war wieder beängstigend freundlich.</p>
+            <p>Leben Sie wol, und grüßen <rs type="person" ref="pmb10860">Beer Hofmann</rs> + <rs type="person" ref="pmb11740">Loris</rs>. Auf Wiedersehen</p>
+            <closer>Herzlichst Ihr<lb/>
+               <signed>Salten</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

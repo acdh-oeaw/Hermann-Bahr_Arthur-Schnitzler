@@ -1,117 +1,122 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041429.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041428.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041430.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 28. 7. 1903</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="429"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89C6-8</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 1765 Ba</idno> 
-                     </msIdentifier> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="HBT3" default="false"> 
-                  <monogr> 
-                     <title level="m">1901–1903</title> 
-                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor> 
-                     <imprint> 
-                        <date when="1997">1997</date> 
-                     </imprint> 
-                     <biblScope unit="pp">350–352</biblScope> 
-                  </monogr> 
-                  <monogr> 
-                     <author ref="pmb10815">Bahr, Hermann</author> 
-                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
-                     <editor>Hg. Moritz Csáky</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Köln, Weimar</pubPlace> 
-                        <publisher>Böhlau</publisher> 
-                        <date when="1994">1994–2003</date> 
-                     </imprint> 
-                     <biblScope unit="vol">III</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151223">angelegt</change> 
-         <change who="KI MAM" when="20160201">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19030728" n="01">28.</date> Schöner Morgen.</p> 
-            <p>Drei <rs type="work" ref="pmb31051">Dialoge</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28133">Lukians</rs> gelesen, immer wieder betroffen, wie wienerisch sie im Ton sind. Besonders 3, diese Philinna ist vollständig derselbe Schlag wie die im <rs type="work" ref="pmb30005">Abschiedssouper</rs>. In 3 ist auch schön das Anklingen der Not, wenn die Mutter sagt: denk nur, was wir für einen Winter verbracht hätten, wenn uns nicht Aphrodite diesen geschickt hätte.</p> 
-            <p>–</p> 
-            <p>Ich gehe jetzt ins Moor, nehme Englisch mit, will Nachmittag zuerst <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> lesen, dann über den <rs type="work" ref="pmb31037">Dialog</rs> u. mein <rs type="work" subtype="implied" ref="pmb29983">Stück</rs> nachdenken, vielleicht schreib ich doch ein Scenarium zusammen.</p> 
-            <p>–</p> 
-            <p> 
-               <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> zweiten Akt vollendet. Es umwölkt sich. Eben da ich zu radeln versuchen will, fängts zu regnen an.</p> 
-            <p>Vor dem Haus ist ein kleiner Brunnen, der in einen Trog mit den schönsten Forellen fließt. Herr <rs type="person" ref="pmb28138">Georg Fuchs</rs>, der junge Wirt, ein fester Bursche, der mit seinen Leuten nicht sanft ist, <c rendition="#dots" n="3" place="center"/> aufrecht, stolz<pb/> sich in den nackten Knieen wiegend, <rs type="place" ref="pmb314">bairischer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <unclear>belastro</unclear> – Herr <rs type="person" ref="pmb28138">Fuchs</rs> greift mit der Hand eine nach der anderen heraus, klopft sie mit dem flachen Messer leicht zwei oder drei Mal auf den Kopf, schlitzt ihnen den Bauch auf und legt sie dann nebeneinander auf das feuchte Brett. Da stehen immer Leute herum u. sehen zu, nicht blos Kinder mit ihrer unschuldigen Neugier, die nur wissen will, was da geschieht u. wie es ist, sondern auch junge Mädchen, alte Frauen, lüsterne Juden, in der Tat ist es Lüsternheit, was auf den matten, nur manchmal nervös aufzuckenden Mienen erscheint<c rendition="#dots" n="5"/> Vielleicht fange ich so den Aufsatz über »<rs type="work" ref="pmb31053"> 
-                  <rs type="work" ref="pmb31055">Chronik von Dirnau</rs> 
-               </rs>« an. Vielleicht mische ich auch diese mit der <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> u. der <rs type="work" ref="pmb30633">Elektra</rs> zusammen. Vielleicht so, daß ich einen Nachmittag schildere, das laue Nachgefühl des Moorbads, den Blick vom Balkon über diese unendlich frohe vergnügte Gegend, das farbige Treiben der Curgäste, der leichteren <rs type="place" ref="pmb167">Ungarn</rs> und <rs type="place" ref="pmb313">Polen</rs> sowie der schwereren und<pb/> breiteren <rs type="place" ref="pmb314">Bajuvaren</rs>, und dann ausdrücke, wie wenig doch das furchtbare Bild, das sich u. uns die Dichter vom Leben machen, mit unserer gemächlichen Welt zu stimmen scheint, und mit den Forellen und der Grausamkeit, die da plötzlich über sonst so friedliche Gesichter schießt, schließe, daß doch die tragischen Dichter recht haben.</p> 
-            <p>–</p> 
-            <p>Das unendliche Behagen abends, wenn die Sonne sinkt; die Berge beginnen leicht zu erröthen, dann langsam zu verblauen; Dunst aus Schornsteinen, Nebel von der Saalach breitet sich grau über die Wälder; Lichter flammen auf; und nun erklingt leise das Glöckchen von der uralten Kirche, erst tief u. langsam, dann, wenn dies ausgeklungen ist, rasch und hell nachscheppernd. Die katholische Kirche hat ein ungemeines Gefühl dafür, wie <del rend="strikethrough">durch</del> vom Körper aus die Seele, das Gemüt zu leiten und bestimmen ist. Der Ton des Abendläutens, die<pb/> Zeit, die Dauer, all dies ist so glücklich gewält, daß es sich, auch für einen Heiden, der niemals vom Katholischen noch gehört hätte, in eine Stimmung der inneren Sammlg umsetzen müßte, die unserer Andacht sehr nahe käme.</p> 
-            <p>–</p> 
-            <p>Immer wichtiger wird mir für den »<rs type="work" ref="pmb29983">Meister</rs>« der <rs type="place" ref="pmb318"> 
-                  <country>japan</country> 
-               </rs>ische Doctor. Will jener unser ganzes Leben »aus der Vernunft« bestimmen, so verachtet dieser alles, was nicht Instinct ist. »Alles Große läßt sich nicht beweisen«, sagt er einmal. »Groß ist nur, Werte für uns hat nur, Macht über uns hat nur, was sich nicht beweisen läßt, und mit solcher Sicherheit in uns gelegt ist, daß es nicht bewiesen zu werden braucht, u. wir folgen ihm doch.«</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041429.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041428.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041430.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 28. 7. 1903</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="429"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-89C6-8</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 1765 Ba</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="HBT3">
+                  <monogr>
+                     <title level="m">1901–1903</title>
+                     <editor>Bearbeitet von Helene Zand und Lukas Mayerhofer</editor>
+                     <imprint>
+                        <date when="1997">1997</date>
+                     </imprint>
+                     <biblScope unit="pp">350–352</biblScope>
+                  </monogr>
+                  <monogr>
+                     <author ref="pmb10815">Bahr, Hermann</author>
+                     <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title>
+                     <editor>Hg. Moritz Csáky</editor>
+                     <imprint>
+                        <pubPlace>Wien, Köln, Weimar</pubPlace>
+                        <publisher>Böhlau</publisher>
+                        <date when="1994">1994–2003</date>
+                     </imprint>
+                     <biblScope unit="vol">III</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151223">angelegt</change>
+         <change who="KI MAM" when="20160201">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19030728" n="01">28.</date> Schöner Morgen.</p>
+            <p>Drei <rs type="work" ref="pmb31051">Dialoge</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb20643">Lukians</rs> gelesen, immer wieder betroffen, wie wienerisch sie im Ton sind. Besonders 3, diese Philinna ist vollständig derselbe Schlag wie die im <rs type="work" ref="pmb30005">Abschiedssouper</rs>. In 3 ist auch schön das Anklingen der Not, wenn die Mutter sagt: denk nur, was wir für einen Winter verbracht hätten, wenn uns nicht Aphrodite diesen geschickt hätte.</p>
+            <p>–</p>
+            <p>Ich gehe jetzt ins Moor, nehme Englisch mit, will Nachmittag zuerst <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> lesen, dann über den <rs type="work" ref="pmb31037">Dialog</rs> u. mein <rs type="work" subtype="implied" ref="pmb29983">Stück</rs> nachdenken, vielleicht schreib ich doch ein Scenarium zusammen.</p>
+            <p>–</p>
+            <p>
+               <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> zweiten Akt vollendet. Es umwölkt sich. Eben da ich zu radeln versuchen will, fängts zu regnen an.</p>
+            <p>Vor dem Haus ist ein kleiner Brunnen, der in einen Trog mit den schönsten Forellen fließt. Herr <rs type="person" ref="pmb28138">Georg Fuchs</rs>, der junge Wirt, ein fester Bursche, der mit seinen Leuten nicht sanft ist, <c rendition="#dots" n="3" place="center"/> aufrecht, stolz<pb/> sich in den nackten Knieen wiegend, <rs type="place" ref="pmb314">bairischer</rs>
+               <space unit="chars" quantity="1"/>
+               <unclear>belastro</unclear> – Herr <rs type="person" ref="pmb28138">Fuchs</rs> greift mit der Hand eine nach der anderen heraus, klopft sie mit dem flachen Messer leicht zwei oder drei Mal auf den Kopf, schlitzt ihnen den Bauch auf und legt sie dann nebeneinander auf das feuchte Brett. Da stehen immer Leute herum u. sehen zu, nicht blos Kinder mit ihrer unschuldigen Neugier, die nur wissen will, was da geschieht u. wie es ist, sondern auch junge Mädchen, alte Frauen, lüsterne Juden, in der Tat ist es Lüsternheit, was auf den matten, nur manchmal nervös aufzuckenden Mienen erscheint<c rendition="#dots" n="5"/> Vielleicht fange ich so den Aufsatz über »<rs type="work" ref="pmb31053">
+                  <rs type="work" ref="pmb31055">Chronik von Dirnau</rs>
+               </rs>« an. Vielleicht mische ich auch diese mit der <rs type="work" subtype="implied" ref="pmb31397">Cenci</rs> u. der <rs type="work" ref="pmb30633">Elektra</rs> zusammen. Vielleicht so, daß ich einen Nachmittag schildere, das laue Nachgefühl des Moorbads, den Blick vom Balkon über diese unendlich frohe vergnügte Gegend, das farbige Treiben der Curgäste, der leichteren <rs type="place" ref="pmb35512">Ungarn</rs> und <rs type="place" ref="pmb313">Polen</rs> sowie der schwereren und<pb/> breiteren <rs type="place" ref="pmb314">Bajuvaren</rs>, und dann ausdrücke, wie wenig doch das furchtbare Bild, das sich u. uns die Dichter vom Leben machen, mit unserer gemächlichen Welt zu stimmen scheint, und mit den Forellen und der Grausamkeit, die da plötzlich über sonst so friedliche Gesichter schießt, schließe, daß doch die tragischen Dichter recht haben.</p>
+            <p>–</p>
+            <p>Das unendliche Behagen abends, wenn die Sonne sinkt; die Berge beginnen leicht zu erröthen, dann langsam zu verblauen; Dunst aus Schornsteinen, Nebel von der Saalach breitet sich grau über die Wälder; Lichter flammen auf; und nun erklingt leise das Glöckchen von der uralten Kirche, erst tief u. langsam, dann, wenn dies ausgeklungen ist, rasch und hell nachscheppernd. Die katholische Kirche hat ein ungemeines Gefühl dafür, wie <del rend="strikethrough">durch</del> vom Körper aus die Seele, das Gemüt zu leiten und bestimmen ist. Der Ton des Abendläutens, die<pb/> Zeit, die Dauer, all dies ist so glücklich gewält, daß es sich, auch für einen Heiden, der niemals vom Katholischen noch gehört hätte, in eine Stimmung der inneren Sammlg umsetzen müßte, die unserer Andacht sehr nahe käme.</p>
+            <p>–</p>
+            <p>Immer wichtiger wird mir für den »<rs type="work" ref="pmb29983">Meister</rs>« der <rs type="place" ref="pmb318">japan</rs>ische Doctor. Will jener unser ganzes Leben »aus der Vernunft« bestimmen, so verachtet dieser alles, was nicht Instinct ist. »Alles Große läßt sich nicht beweisen«, sagt er einmal. »Groß ist nur, Werte für uns hat nur, Macht über uns hat nur, was sich nicht beweisen läßt, und mit solcher Sicherheit in uns gelegt ist, daß es nicht bewiesen zu werden braucht, u. wir folgen ihm doch.«</p>
+         </div>
+      </body>
+   </text>
 </TEI>

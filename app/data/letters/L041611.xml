@@ -1,127 +1,126 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041611.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041610.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041612.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Stefan Zweig an Hermann Bahr, 29. 5. 1922</title> 
-            <author ref="pmb13212">Zweig, Stefan</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="611"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D3-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb13212">Zweig, Stefan</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb155">München</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19220529" n="01">29. 5. 1922</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 60822 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Postkarte, Lateinschrift, Absenderstempel »<quote> 
-                              <persName ref="pmb4829">Maria Zweig</persName> / Wien, IX <unclear>Garnisongasse</unclear> Nr. 10</quote>«, der Vorname hs. zu »<quote>Stefan</quote>« geändert.</p> 
-                        <stamp n="1"> 
-                           <placeName ref="pmb50">Wien 72</placeName> 
-                           <date when="19220529">29. V. 22</date> 
-                           <time>XI</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160616">Angelegt und kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="card"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Hermann Bahr</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb155"> 
-                     <settlement>München</settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb161">Barerstrasse 50</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <salute>Lieber verehrter Herr Bahr</salute>, aus <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> einen ersten Gruß nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs>! Und nun eine Verständigung: im <rs type="org" ref="pmb29803">Dorotheum</rs> findet ab 6 Juni eine <anchor type="commentary" xml:id="KL611-1">Autografenversteigerung</anchor> statt, in der eine Reihe <hi rend="underline" n="2">an</hi> Sie gerichtete Briefe versteigert werden und zwar solche von <rs type="person" ref="pmb4026">Paul Bourget</rs>, <rs type="person" ref="pmb13082">Karlweiß</rs>, <rs type="person" ref="pmb2121">Artur Schnitzler</rs>. Sollte es sich da um Gestohlenes handeln, so haben Sie das Recht den Verkauf zu inhibieren und Ihr Eigentum zurückzufordern. Ich hatte einmal mit einem Dedicationsexemplar an mich eine ähnliche Affaire</p> 
-            <p>Ich bin jetzt bis <subst> 
-                  <del rend="overwritten">8</del> 
-                  <add place="inline">9</add> 
-               </subst> Juni in Wien (<rs type="place" ref="pmb731">IX Garnisonsgasse 10</rs>) Und komme bald nach <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs>. Viele Grüße Ihrer ver. <rs type="person" subtype="implied" ref="pmb10818">Frau</rs>! Ihr </p> 
-            <closer> 
-               <signed>Stefan Zweig</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041611.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041610.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041612.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Stefan Zweig an Hermann Bahr, 29. 5. 1922</title>
+            <author ref="pmb13212">Zweig, Stefan</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="611"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D3-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb13212">Zweig, Stefan</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb45258">München</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19220529" n="01">29. 5. 1922</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60822 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Postkarte, Lateinschrift, Absenderstempel »<quote>
+                              <persName ref="pmb4829">Maria Zweig</persName> / Wien, IX <unclear>Garnisongasse</unclear> Nr. 10</quote>«, der Vorname hs. zu »<quote>Stefan</quote>« geändert.</p>
+                        <stamp n="1">
+                           <placName ref="pmb50">Wien 72</placName>
+                           <date when="19220529">29. V. 22</date>
+                           <time>XI</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160616">Angelegt und kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="card">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Hermann Bahr</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb45258">München</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb161">Barerstrasse 50</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+               <salute>Lieber verehrter Herr Bahr</salute>, aus <rs type="place" ref="pmb50">Wien</rs> einen ersten Gruß nach <rs type="place" ref="pmb45258">München</rs>! Und nun eine Verständigung: im <rs type="org" ref="pmb29803">Dorotheum</rs> findet ab 6 Juni eine <anchor type="commentary" xml:id="KL611-1">Autografenversteigerung</anchor> statt, in der eine Reihe <hi rend="underline" n="2">an</hi> Sie gerichtete Briefe versteigert werden und zwar solche von <rs type="person" ref="pmb4026">Paul Bourget</rs>, <rs type="person" ref="pmb13082">Karlweiß</rs>, <rs type="person" ref="pmb2121">Artur Schnitzler</rs>. Sollte es sich da um Gestohlenes handeln, so haben Sie das Recht den Verkauf zu inhibieren und Ihr Eigentum zurückzufordern. Ich hatte einmal mit einem Dedicationsexemplar an mich eine ähnliche Affaire</p>
+            <p>Ich bin jetzt bis <subst>
+                  <del rend="overwritten">8</del>
+                  <add place="inline">9</add>
+               </subst> Juni in Wien (<rs type="place" ref="pmb731">IX Garnisonsgasse 10</rs>) Und komme bald nach <rs type="place" ref="pmb45258">München</rs>. Viele Grüße Ihrer ver. <rs type="person" subtype="implied" ref="pmb10818">Frau</rs>! Ihr </p>
+            <closer>
+               <signed>Stefan Zweig</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

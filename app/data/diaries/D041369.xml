@@ -1,83 +1,90 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041369.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041368.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041370.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 12. 2. 1916</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="369"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-898B-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1913–1916</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1983">1983</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19160212" n="1">12/2</date> Vm. bei <rs type="person" ref="pmb2135">Popper</rs> (ohne <rs type="person" ref="pmb2173">O.</rs>). Über Krieg (er sieht lange Dauer und Erschöpfung voraus);– <rs type="person" ref="pmb11036">Burckhard</rs>,– <rs type="person" ref="pmb10815">Bahr</rs>, Arteriosklerose – Aerzte, <rs type="person" ref="pmb2404">Hebbel</rs>,– Peinlichkeiten (bei <rs type="person" ref="pmb2404">Hebbel</rs>, <rs type="person" ref="pmb12129">Otto Ludwig</rs>); später kam Frau Dr. <rs type="person" ref="pmb11829">Jerusalem</rs> dazu.–</p> 
-            <p>Nm. am »<rs type="work" ref="pmb30893">Unmensch</rs>« weiter.–</p> 
-            <p> 
-               <rs type="person" ref="pmb2496">Arthur Kaufmann</rs> bringt von <rs type="person" ref="pmb12471">Rathenau</rs> »<rs type="work" ref="pmb30911">Rohstoffgewinnung im Krieg</rs>«. Über Menschen und ihren Nachgeschmack.–</p> 
-            <p>Mit <rs type="person" ref="pmb12740">Gustav</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb280">Volksb.</rs> 
-               <space unit="chars" quantity="1"/>Frl. <rs type="person" ref="pmb3197">Feldmann</rs> »<rs type="work" ref="pmb30913">Der Schrei den niemand hört</rs>« ein Ghettostück; ein paar gut gesehene Figuren.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041369.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041368.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041370.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 12. 2. 1916</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="369"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-898B-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1913–1916</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1983">1983</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19160212" n="1">12/2</date> Vm. bei <rs type="person" ref="pmb2135">Popper</rs> (ohne <rs type="person" ref="pmb2173">O.</rs>). Über Krieg (er sieht lange Dauer und Erschöpfung voraus);– <rs type="person" ref="pmb11036">Burckhard</rs>,– <rs type="person" ref="pmb10815">Bahr</rs>, Arteriosklerose – Aerzte, <rs type="person" ref="pmb2404">Hebbel</rs>,– Peinlichkeiten (bei <rs type="person" ref="pmb2404">Hebbel</rs>, <rs type="person" ref="pmb12129">Otto Ludwig</rs>); später kam Frau Dr. <rs type="person" ref="pmb11829">Jerusalem</rs> dazu.–</p>
+            <p>Nm. am »<rs type="work" ref="pmb30893">Unmensch</rs>« weiter.–</p>
+            <p>
+               <rs type="person" ref="pmb2496">Arthur Kaufmann</rs> bringt von <rs type="person" ref="pmb12471">Rathenau</rs> »<rs type="work" ref="pmb30911">Rohstoffgewinnung im Krieg</rs>«. Über Menschen und ihren Nachgeschmack.–</p>
+            <p>Mit <rs type="person" ref="pmb12740">Gustav</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb280">Volksb.</rs>
+               <space unit="chars" quantity="1"/>Frl. <rs type="person" ref="pmb3197">Feldmann</rs> »<rs type="work" ref="pmb30913">Der Schrei den niemand hört</rs>« ein Ghettostück; ein paar gut gesehene Figuren.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

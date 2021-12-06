@@ -1,130 +1,123 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041401.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041400.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041402.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Otto Brahm, 4. 10. 1911</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="401"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8702-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10986">Brahm, Otto</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb189">Semmering</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19111004" n="01">4. 10. 1911</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASB1" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Briefe 1875–1912</title> 
-                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1981">1981</date> 
-                     </imprint> 
-                     <biblScope unit="pp">672–673</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-               <biblStruct corresp="ASOB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10986">Brahm, Otto</author> 
-                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
-                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
-                     <imprint> 
-                        <pubPlace>Tübingen</pubPlace> 
-                        <publisher>Max Niemeyer Verlag</publisher> 
-                        <date when="1975">1975</date> 
-                     </imprint> 
-                     <biblScope unit="pp">329–330</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160127">Angelegt aus Scan</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb442">Kurhaus Semmering</rs>, <date>4. Oktober 11</date> 
-               </dateline> 
-               <salute>Lieber Freund!</salute> 
-            </opener> 
-            <p>ja denken Sie, da sind wir nun gelandet. Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> ist seit acht Tagen hier, ich seit Sonntag und bleibe wohl bis zum nächsten, und <rs type="person" ref="pmb2173">Olga</rs> kommt, wenn es weiter so gut geht wie bisher, zur Generalprobe des »<rs type="work" ref="pmb30207">Weiten Landes</rs>« hinein. Die ersten Tage befand sie sich gar nicht wohl, seit zwei Tagen aber hat eine rapide Besserung eingesetzt. Das Wetter ist schön, etwas winterlich. Die Anstalt wäre so übel nicht, nur der <rs type="person" subtype="implied" ref="pmb23635">Portier</rs> ist von seltener Talentlosigkeit. O heiliger <rs type="work" subtype="implied" ref="pmb31219">Rosenstock</rs>: <rs type="person" ref="pmb12948">Thimig</rs> war am Sonntag hier, um ihn zu besichtigen. Im Falle Rosenstock war der liebe Gott entschieden tüchtiger als der Autor des »<rs type="work" ref="pmb30207">Weiten Landes</rs>«. Hingegen ist diesem der <rs type="work" subtype="implied" ref="pmb31219">Hofreiter</rs> besser gelungen als jenem (was Sie bestätigen würden, wenn Sie das <rs type="person" subtype="implied" ref="pmb16658">Urbild</rs> kennten). Es betrübt mich, daß <rs type="person" ref="pmb12627">Sauer</rs> wieder so krank ist, nicht nur um des <rs type="work" subtype="implied" ref="pmb30207">Aigner</rs> willen. Von der <rs type="person" ref="pmb12977">Triesch</rs> schreiben Sie kein Wort. Hmm. Nun, wir werden ja sehen. Wann? Meine vorläufige Absicht: Ende Oktober <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> verlassen, <date>31. 10.</date> Vorlesung <rs type="place" ref="pmb652"> 
-                  <settlement>Prag</settlement> 
-               </rs>, <date>1. 11.</date> Vorlesung <rs type="place" ref="pmb866"> 
-                  <settlement>Dresden</settlement> 
-               </rs>. Von dort <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs>. Hoffentlich erhält sich »<rs type="work" ref="pmb30207">Das weite Land</rs>« so lange auf dem Repertoire. Von <rs type="place" ref="pmb168"> 
-                  <settlement>Berlin</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb506"> 
-                  <settlement>Hamburg</settlement> 
-               </rs> (<rs type="person" ref="pmb11561">Hagemann</rs>: »<rs type="work" ref="pmb30207">Das weite Land</rs>«, evtl. »<rs type="work" ref="pmb30215">Beatrice</rs>«, evtl. »<rs type="work" ref="pmb29935">Anatol</rs>«). – Die Proben hier in <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs> versprechen eine gute Aufführung – freilich wird <rs type="person" ref="pmb2249">Korff</rs> nie das Letzte der Gestalt bringen, und die <rs type="person" ref="pmb3694">Marberg</rs> sympathisch, begabt, fleißig, ist (sehr unter uns) keine Schauspielerin von Rang.</p> 
-            <p>Das <rs type="person" ref="pmb11273">Eulenberg</rs>-<rs type="work" subtype="implied" ref="pmb31899">Stück</rs> hat mich sehr bewegt. Daß es sich in einem großen Haus nicht halten würde, war vorauszusehen. Und unser Freund <rs type="person" ref="pmb12050">Lessing</rs> kann so was wohl nicht inszenieren (hierin ist er vielseitig). Aber wie inszeniert man so was? Ein Stück für Marionetten mit lebendigen Herzen! Ein Ineinanderspiel von Genialität und Manierismus! Manchmal erscheint er mir, <rs type="person" ref="pmb11273">Eulenberg</rs> nämlich, wie einer, der mit der flimmernden Kerze durch eine selbstgeschaffene Mondnacht spaziert. »Lösch aus, mein Freund, wer solche Sterne schafft<c rendition="#dots" n="3"/>«, oder »Wer unter Sternen wandelt« usw. So gerät man ins Jambische und Romantische selbst in solch einem Schreibebrief, wenn man ihm nur in die Nähe kommt. – Wann etwa möchten Sie »<rs type="work" ref="pmb30085">Das Tänzchen</rs>« mit der »<rs type="work" ref="pmb29931">Komtesse</rs>« wagen?</p> 
-            <closer>Seien Sie herzlichst gegrüßt, auch von meiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>, die sich auf der Terrasse sonnt.<lb/>Ihr <signed>A.S</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041401.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041400.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041402.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Otto Brahm, 4. 10. 1911</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="401"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8702-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10986">Brahm, Otto</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb189">Semmering</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19111004" n="01">4. 10. 1911</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="ASB1">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Briefe 1875–1912</title>
+                     <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                     <biblScope unit="pp">672–673</biblScope>
+                  </monogr>
+               </biblStruct>
+               <biblStruct corresp="ASOB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10986">Brahm, Otto</author>
+                     <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title>
+                     <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor>
+                     <imprint>
+                        <pubPlace>Tübingen</pubPlace>
+                        <publisher>Max Niemeyer Verlag</publisher>
+                        <date when="1975">1975</date>
+                     </imprint>
+                     <biblScope unit="pp">329–330</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160127">Angelegt aus Scan</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb442">Kurhaus Semmering</rs>, <date>4. Oktober 11</date>
+               </dateline>
+               <salute>Lieber Freund!</salute>
+            </opener>
+            <p>ja denken Sie, da sind wir nun gelandet. Meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> ist seit acht Tagen hier, ich seit Sonntag und bleibe wohl bis zum nächsten, und <rs type="person" ref="pmb2173">Olga</rs> kommt, wenn es weiter so gut geht wie bisher, zur Generalprobe des »<rs type="work" ref="pmb30207">Weiten Landes</rs>« hinein. Die ersten Tage befand sie sich gar nicht wohl, seit zwei Tagen aber hat eine rapide Besserung eingesetzt. Das Wetter ist schön, etwas winterlich. Die Anstalt wäre so übel nicht, nur der <rs type="person" subtype="implied" ref="pmb23635">Portier</rs> ist von seltener Talentlosigkeit. O heiliger <rs type="work" subtype="implied" ref="pmb31219">Rosenstock</rs>: <rs type="person" ref="pmb12948">Thimig</rs> war am Sonntag hier, um ihn zu besichtigen. Im Falle Rosenstock war der liebe Gott entschieden tüchtiger als der Autor des »<rs type="work" ref="pmb30207">Weiten Landes</rs>«. Hingegen ist diesem der <rs type="work" subtype="implied" ref="pmb31219">Hofreiter</rs> besser gelungen als jenem (was Sie bestätigen würden, wenn Sie das <rs type="person" subtype="implied" ref="pmb16658">Urbild</rs> kennten). Es betrübt mich, daß <rs type="person" ref="pmb12627">Sauer</rs> wieder so krank ist, nicht nur um des <rs type="work" subtype="implied" ref="pmb30207">Aigner</rs> willen. Von der <rs type="person" ref="pmb12977">Triesch</rs> schreiben Sie kein Wort. Hmm. Nun, wir werden ja sehen. Wann? Meine vorläufige Absicht: Ende Oktober <rs type="place" ref="pmb50">Wien</rs> verlassen, <date>31. 10.</date> Vorlesung <rs type="place" ref="pmb652">Prag</rs>, <date>1. 11.</date> Vorlesung <rs type="place" ref="pmb866">Dresden</rs>. Von dort <rs type="place" ref="pmb168">Berlin</rs>. Hoffentlich erhält sich »<rs type="work" ref="pmb30207">Das weite Land</rs>« so lange auf dem Repertoire. Von <rs type="place" ref="pmb168">Berlin</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb506">Hamburg</rs> (<rs type="person" ref="pmb11561">Hagemann</rs>: »<rs type="work" ref="pmb30207">Das weite Land</rs>«, evtl. »<rs type="work" ref="pmb30215">Beatrice</rs>«, evtl. »<rs type="work" ref="pmb29935">Anatol</rs>«). – Die Proben hier in <rs type="place" ref="pmb50">Wien</rs> versprechen eine gute Aufführung – freilich wird <rs type="person" ref="pmb2249">Korff</rs> nie das Letzte der Gestalt bringen, und die <rs type="person" ref="pmb3694">Marberg</rs> sympathisch, begabt, fleißig, ist (sehr unter uns) keine Schauspielerin von Rang.</p>
+            <p>Das <rs type="person" ref="pmb11273">Eulenberg</rs>-<rs type="work" subtype="implied" ref="pmb31899">Stück</rs> hat mich sehr bewegt. Daß es sich in einem großen Haus nicht halten würde, war vorauszusehen. Und unser Freund <rs type="person" ref="pmb12050">Lessing</rs> kann so was wohl nicht inszenieren (hierin ist er vielseitig). Aber wie inszeniert man so was? Ein Stück für Marionetten mit lebendigen Herzen! Ein Ineinanderspiel von Genialität und Manierismus! Manchmal erscheint er mir, <rs type="person" ref="pmb11273">Eulenberg</rs> nämlich, wie einer, der mit der flimmernden Kerze durch eine selbstgeschaffene Mondnacht spaziert. »Lösch aus, mein Freund, wer solche Sterne schafft<c rendition="#dots" n="3"/>«, oder »Wer unter Sternen wandelt« usw. So gerät man ins Jambische und Romantische selbst in solch einem Schreibebrief, wenn man ihm nur in die Nähe kommt. – Wann etwa möchten Sie »<rs type="work" ref="pmb30085">Das Tänzchen</rs>« mit der »<rs type="work" ref="pmb29931">Komtesse</rs>« wagen?</p>
+            <closer>Seien Sie herzlichst gegrüßt, auch von meiner <rs type="person" subtype="implied" ref="pmb2173">Frau</rs>, die sich auf der Terrasse sonnt.<lb/>Ihr <signed>A.S</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

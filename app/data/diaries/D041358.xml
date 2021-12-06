@@ -1,81 +1,88 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041358.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041357.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041359.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 4. 12. 1913</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="358"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8980-6</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1913–1916</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1983">1983</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19131204" n="1">4/12</date> Vm. Stadt Besorgungen; <rs type="place" ref="pmb14">Burgth.</rs>; mit <rs type="person" ref="pmb12556">Rosenbaum</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb14">Burgth.</rs>fragen;– Probe <rs type="work" subtype="implied" ref="pmb29985">3. Akt</rs>. Regie hauptsächlich ich; formell <rs type="person" ref="pmb2446">Devrient</rs>. <rs type="person" ref="pmb12948">Thimig</rs> dabei, klug und angenehm wie immer.–</p> 
-            <p>Nach <rs type="place" ref="pmb225">Grinzing</rs> zu <rs type="person" ref="pmb13055">Wassermann</rs>. Mittagessen mit <rs type="person" ref="pmb3159 pmb27812">Schmidls</rs>, <rs type="person" ref="pmb12176">Thomas Mann</rs>, Frau <rs type="person" ref="pmb23653">Rothballer</rs>. – Über <rs type="person" ref="pmb2381">Shaw’s</rs> dichterische Elemente; Verwandtschaft mit <rs type="person" ref="pmb10815">Bahr</rs>; <rs type="person" ref="pmb10815">Bahrs</rs> »Dummheit«; über <rs type="person" ref="pmb11988">Kraus</rs> – <rs type="person" ref="pmb11910">Kerr</rs> – <rs type="person" ref="pmb11581">Harden</rs> in ihrer Verwandtschaft.–</p> 
-            <p>– Zu Hause alte Briefe etc.–</p> 
-            <p>Zum Nachtmahl <rs type="person" ref="pmb12176">Thomas Mann</rs>; <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb27812">Paula Schmidl</rs> waren in seiner Vorlesung gewesen; – <rs type="person" ref="pmb3159 pmb27812">Schmidls</rs>, <rs type="person" ref="pmb2456 pmb9667">Spechts</rs>, <rs type="person" ref="pmb2167">Salten</rs>.– <rs type="person" ref="pmb10863">Richard</rs>.– <rs type="person" ref="pmb9667">Vera Specht</rs> spielte Clavier.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041358.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041357.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041359.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 4. 12. 1913</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="358"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8980-6</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1913–1916</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Richard Miklin, Susanne Pertlik, Walter Ruprechter und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1983">1983</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19131204" n="1">4/12</date> Vm. Stadt Besorgungen; <rs type="place" ref="pmb14">Burgth.</rs>; mit <rs type="person" ref="pmb12556">Rosenbaum</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb14">Burgth.</rs>fragen;– Probe <rs type="work" subtype="implied" ref="pmb29985">3. Akt</rs>. Regie hauptsächlich ich; formell <rs type="person" ref="pmb2446">Devrient</rs>. <rs type="person" ref="pmb12948">Thimig</rs> dabei, klug und angenehm wie immer.–</p>
+            <p>Nach <rs type="place" ref="pmb225">Grinzing</rs> zu <rs type="person" ref="pmb13055">Wassermann</rs>. Mittagessen mit <rs type="person" ref="pmb3159 pmb27812">Schmidls</rs>, <rs type="person" ref="pmb12176">Thomas Mann</rs>, Frau <rs type="person" ref="pmb23653">Rothballer</rs>. – Über <rs type="person" ref="pmb2381">Shaw’s</rs> dichterische Elemente; Verwandtschaft mit <rs type="person" ref="pmb10815">Bahr</rs>; <rs type="person" ref="pmb10815">Bahrs</rs> »Dummheit«; über <rs type="person" ref="pmb11988">Kraus</rs> – <rs type="person" ref="pmb11910">Kerr</rs> – <rs type="person" ref="pmb11581">Harden</rs> in ihrer Verwandtschaft.–</p>
+            <p>– Zu Hause alte Briefe etc.–</p>
+            <p>Zum Nachtmahl <rs type="person" ref="pmb12176">Thomas Mann</rs>; <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb24292">Paula Schmidl</rs> waren in seiner Vorlesung gewesen; – <rs type="person" ref="pmb3159 pmb27812">Schmidls</rs>, <rs type="person" ref="pmb2456 pmb9667">Spechts</rs>, <rs type="person" ref="pmb2167">Salten</rs>.– <rs type="person" ref="pmb10863">Richard</rs>.– <rs type="person" ref="pmb9667">Vera Specht</rs> spielte Clavier.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

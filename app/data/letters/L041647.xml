@@ -1,155 +1,142 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041647.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041646.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041648.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Scofield Thayer an Hermann Bahr, 7. 11. 1922</title> 
-            <author ref="pmb2276">Thayer, Scofield</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="647"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F7-3</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2276">Thayer, Scofield</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb155">München</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19221107" n="01">7. 11. 1922</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 24410 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Brief, 2 Bl., 2 S., mit eh. Unterschrift und hs. Korrektur der Zeichensetzung. Hs. von Bahr: »<quote> 
-                              <orgName ref="pmb29371"> 
-                                 <hi rend="underline" n="1">Dial</hi> 
-                              </orgName> 
-                           </quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="en-US">American</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151128">Angelegt</change> 
-         <change who="KI MAM" when="20160928">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine> 
-                  <rs type="place" ref="pmb791">I. Habsburgergasse 2.</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb50"> 
-                     <settlement> 
-                        <hi rend="spaced_out">VIENNA.</hi> 
-                     </settlement> 
-                  </rs> 
-               </addrLine> 
-            </address> 
-            <address> 
-               <addrLine>Mr. Hermann Bahr.</addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb161">Barerstrasse 50.</rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb155"> 
-                     <settlement> 
-                        <hi rend="spaced_out">MUENCHEN</hi> 
-                     </settlement> 
-                  </rs>.</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>November 7th 1922</date>.</dateline> 
-               <salute>My dear Mr. Bahr,</salute> 
-            </opener> 
-            <p>I was interested to see your <anchor type="commentary" xml:id="KL647-4"> 
-                  <rs type="work" subtype="implied" ref="pmb29995">article</rs> 
-               </anchor> upon <rs type="person" ref="pmb3794">Santayana</rs> and the <rs type="place" ref="pmb318"> 
-                  <country>Japanese</country> 
-               </rs> in the <rs type="org" ref="pmb29351">Neue Freie Presse</rs>.</p> 
-            <p>I came back after all to <rs type="place" ref="pmb50"> 
-                  <settlement>Vienna</settlement> 
-               </rs> to finish a little <anchor type="commentary" xml:id="KL647-1">work</anchor> that I am doing about some contemporary German writers. Did you then find that you really could write something about Civilisation in the <rs type="place" ref="pmb490"> 
-                  <country>United States</country> 
-               </rs> from the point of view of an old <rs type="person" ref="pmb13102">Whitman</rs>ite? If so, may I hope to receive the <anchor type="commentary" xml:id="KL647-2">article from you</anchor> here or have you, perhaps already, sent it to <rs type="org" ref="pmb29371">The Dial</rs> in <rs type="place" ref="pmb5199"> 
-                  <settlement>New York</settlement> 
-               </rs>? </p> 
-            <p>I got from Mr. <rs type="person" ref="pmb12387">Orlik</rs> his excellent <anchor type="commentary" xml:id="KL647-5"> 
-                  <rs type="work" subtype="implied" ref="pmb31641">etching</rs> 
-               </anchor> of yourself and this would appear in <rs type="org" ref="pmb29371">The Dial</rs> with any contribution from your pen.</p> 
-            <p>Dr. <rs type="person" ref="pmb2121">Schnitzler</rs> has told me of something you once wrote about <rs type="place" ref="pmb50"> 
-                  <settlement>Vienna</settlement> 
-               </rs> and about the influence of Celtic blood upon its character. But I do not know where to find this article or <anchor type="commentary" xml:id="KL647-3"> 
-                  <rs type="work" subtype="implied" ref="pmb30715">book</rs> 
-               </anchor> of yourself. Perhaps you could let me know under what title I should look for it at my book-sellers? And if you know of any other book or article upon <rs type="place" ref="pmb50"> 
-                  <settlement>Vienna</settlement> 
-               </rs> whether from your own pen or not.<pb/> I should be grateful to you if you could write me of it.</p> 
-            <p>May I then hope for a word from you as to whether we are to expect something for <rs type="org" ref="pmb29371">The Dial</rs>?</p> 
-            <closer>Sincerely yours, <signed> 
-                  <handShift/>Scofield Thayer</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041647.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041646.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041648.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Scofield Thayer an Hermann Bahr, 7. 11. 1922</title>
+            <author ref="pmb2276">Thayer, Scofield</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="647"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F7-3</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2276">Thayer, Scofield</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb45258">München</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19221107" n="01">7. 11. 1922</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 24410 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Brief, 2 Bl., 2 S., mit eh. Unterschrift und hs. Korrektur der Zeichensetzung. Hs. von Bahr: »<quote>
+                              <orgName ref="pmb29371">
+                                 <hi rend="underline" n="1">Dial</hi>
+                              </orgName>
+                           </quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en-US">American</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151128">Angelegt</change>
+         <change who="KI MAM" when="20160928">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>
+                  <rs type="place" ref="pmb791">I. Habsburgergasse 2.</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb50">VIENNA.</rs>
+               </addrLine>
+            </address>
+            <address>
+               <addrLine>Mr. Hermann Bahr.</addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb161">Barerstrasse 50.</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb45258">MUENCHEN</rs>.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>November 7th 1922</date>.</dateline>
+               <salute>My dear Mr. Bahr,</salute>
+            </opener>
+            <p>I was interested to see your <anchor type="commentary" xml:id="KL647-4">
+                  <rs type="work" subtype="implied" ref="pmb29995">article</rs>
+               </anchor> upon <rs type="person" ref="pmb3794">Santayana</rs> and the <rs type="place" ref="pmb318">Japanese</rs> in the <rs type="org" ref="pmb29351">Neue Freie Presse</rs>.</p>
+            <p>I came back after all to <rs type="place" ref="pmb50">Vienna</rs> to finish a little <anchor type="commentary" xml:id="KL647-1">work</anchor> that I am doing about some contemporary German writers. Did you then find that you really could write something about Civilisation in the <rs type="place" ref="pmb43406">United States</rs> from the point of view of an old <rs type="person" ref="pmb13102">Whitman</rs>ite? If so, may I hope to receive the <anchor type="commentary" xml:id="KL647-2">article from you</anchor> here or have you, perhaps already, sent it to <rs type="org" ref="pmb29371">The Dial</rs> in <rs type="place" ref="pmb44053">New York</rs>? </p>
+            <p>I got from Mr. <rs type="person" ref="pmb12387">Orlik</rs> his excellent <anchor type="commentary" xml:id="KL647-5">
+                  <rs type="work" subtype="implied" ref="pmb31641">etching</rs>
+               </anchor> of yourself and this would appear in <rs type="org" ref="pmb29371">The Dial</rs> with any contribution from your pen.</p>
+            <p>Dr. <rs type="person" ref="pmb2121">Schnitzler</rs> has told me of something you once wrote about <rs type="place" ref="pmb50">Vienna</rs> and about the influence of Celtic blood upon its character. But I do not know where to find this article or <anchor type="commentary" xml:id="KL647-3">
+                  <rs type="work" subtype="implied" ref="pmb30715">book</rs>
+               </anchor> of yourself. Perhaps you could let me know under what title I should look for it at my book-sellers? And if you know of any other book or article upon <rs type="place" ref="pmb50">Vienna</rs> whether from your own pen or not.<pb/> I should be grateful to you if you could write me of it.</p>
+            <p>May I then hope for a word from you as to whether we are to expect something for <rs type="org" ref="pmb29371">The Dial</rs>?</p>
+            <closer>Sincerely yours, <signed>
+                  <handShift/>Scofield Thayer</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

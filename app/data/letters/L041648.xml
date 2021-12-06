@@ -1,149 +1,142 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041648.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041647.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041649.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Stefan Zweig an Hermann Bahr, [9. 9. 1914?]</title> 
-            <author ref="pmb13212">Zweig, Stefan</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="648"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F8-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb13212">Zweig, Stefan</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">[Salzburg]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19140909" n="01">[9. 9. 1914?]</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 49036 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 1 Blatt, 4 S., Lateinschrift, gedruckter Kopf: »<quote> 
-                              <placeName ref="pmb728">VIII. KOCHGASSE / WIEN,</placeName> 
-                           </quote>«, mit Monogramm.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <monogr> 
-                     <author>Ifkovits, Kurt</author> 
-                     <title level="m">Hermann Bahr – Jaroslav Kvapil. Briefe, Texte, Dokumente</title> 
-                     <editor>Unter Mitarbeit von Hana Blahová</editor> 
-                     <imprint> 
-                        <pubPlace>Bern u. a.</pubPlace> 
-                        <publisher>Peter Lang</publisher> 
-                        <date when="2007">2007</date> 
-                     </imprint> 
-                     <biblScope unit="pp">368–369</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160928">Angelegt</change> 
-         <change who="KI MAM" when="20160928">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <salute>Sehr verehrter lieber Herr Bahr,</salute> 
-            </opener> 
-            <p> 
-               <anchor type="commentary" xml:id="KL648-1">vorgestern</anchor> sprach ich <rs type="person" ref="pmb2121">Artur Schnitzler</rs> und regte Ihren Wunsch an: auch er ist meiner Meinung, dass es jetzt nicht opportun sei, solange nichts über die Fakten bekannt ist, zu intervenieren, wenigstens direct. Was <subst> 
-                  <del rend="overwritten"> 
-                     <unclear>das</unclear> 
-                  </del> 
-                  <add place="inline">im</add> 
-               </subst> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb24">Unterrichtsministerium</rs>, dem ich durch <rs type="person" ref="pmb23452">Thadeusz Rittner</rs> die Beachtung des Falles empfahl, geschehen ist, weiss ich noch nicht: ich berichte Ihnen sofort sobald ich Antwort habe. Gestern sprach ich auch <rs type="person" ref="pmb12011">Kvapil</rs>, er als Slave kann natürlich am we<pb/>nigsten tun. Die Situation ist eben sehr erschwert durch die Tatsachen dass <anchor type="commentary" xml:id="KL648-2"> 
-                  <rs type="person" ref="pmb4226">V.</rs> 
-               </anchor> 
-               <hi rend="superscript"> 
-                  <hi rend="underline" n="1">s</hi> 
-               </hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" subtype="implied" ref="pmb4230">Bruder</rs> in hoher <rs type="place" ref="pmb366"> 
-                  <country>montenegrinischer</country> 
-               </rs> Staatsstellung ist, er selbst ein <rs type="work" subtype="implied" ref="pmb30815">Gedicht</rs> verfasst und öffentlich recitiert hat, das den <rs type="place" ref="pmb264"> 
-                  <country>Serben</country> 
-               </rs> den Weg zum Meere wies – ich muss sagen, dass die Regierung jetzt in einem so lebensgefährlichen Augenblick solchen suspecten Anzeichen gegenüber vorsichtig sein muss. Meine Meinung ist da unerschütterlich, dass so wie im Frieden für einen Gerechten ganz Sodom verschont werden solle, im Kriege für einen politischen Sodomiter fünfzig Unschuldige verhaftet werden mögen: was <rs type="place" ref="pmb162"> 
-                  <country>Österreich</country> 
-               </rs> durch Spionage in seinen militärischen Actionen Erschwerungen und Gefahren<pb/> erlitt ist <hi rend="underline" n="1">unabsehbar</hi>: jeder, der aus den <rs type="place" ref="pmb174"> 
-                  <country>russischen</country> 
-               </rs> Kämpfen zurückkehrt meldet es mit Grauen. Sie wissen vielleicht von mir, lieber verehrter Hermann Bahr, dass Stärke – leider! – nicht meines Wesens Wurzel ist, aber gegen eine solche Gefahr <hi rend="underline" n="1">muss</hi> man grausam sein und wir sind es vielleicht noch immer nicht genug. Ich weiss und weiss es jetzt mehr als je – wie viel könnte ich Ihnen erzählen! – was in diesen Grenzgebieten versäumt wurde, aber jetzt hilft kein Anklagen vergangener Dinge, keine Curen mit sanften Compressen, jetzt muss, solang der Krieg dauert, mit dem heissen Eisen alles Unreine ausgebrannt werden. Ihre Action und die ihr entsprungenen Bemühungen haben sicher<pb/> genügt, das Leben <rs type="person" ref="pmb4226">V<hi rend="superscript"> 
-                     <hi rend="underline" n="1">s</hi> 
-                  </hi> 
-               </rs> sicher zu stellen, die Tatsache ob er in <rs type="place" ref="pmb365"> 
-                  <settlement>Ragusa</settlement> 
-               </rs> oder <rs type="place" ref="pmb26"> 
-                  <settlement>Arad</settlement> 
-               </rs> sitzt ist ja geringer zu werten. Immerhin bemühe ich mich weiter, <rs type="person" ref="pmb11740">Hofmanstal</rs> bin ich allerdings zu ferne und erhoffe mir auch nichts von seinem Willen zur Intervention: ich glaube <rs type="person" ref="pmb4226">V</rs>. wird sein kleines Leid jetzt noch die Wochen oder Monate tragen müssen, wo das Millionenleid ganz <rs type="place" ref="pmb468">Europas</rs> dauert. Ich bleibe lebhaft bemüht ihm Hilfe zu schaffen: misslingt’s, so fällt sein Geschick eben zurück in die Fülle des Unabwendbaren, dessen Flut jetzt ganz <rs type="place" ref="pmb162"> 
-                  <country>Österreich</country> 
-               </rs>, die ganze Welt überströmt, jede Schwelle netzt und bis zu den letzten Stockwerken emporsteigt. Treulichst </p> 
-            <closer>Ihr innig ergebener <signed>StefanZweig</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041648.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041647.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041649.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Stefan Zweig an Hermann Bahr, [9. 9. 1914?]</title>
+            <author ref="pmb13212">Zweig, Stefan</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="648"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87F8-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb13212">Zweig, Stefan</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">[Salzburg]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19140909" n="01">[9. 9. 1914?]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 49036 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 1 Blatt, 4 S., Lateinschrift, gedruckter Kopf: »<quote>
+                              <placName ref="pmb728">VIII. KOCHGASSE / WIEN,</placName>
+                           </quote>«, mit Monogramm.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <monogr>
+                     <author>Ifkovits, Kurt</author>
+                     <title level="m">Hermann Bahr – Jaroslav Kvapil. Briefe, Texte, Dokumente</title>
+                     <editor>Unter Mitarbeit von Hana Blahová</editor>
+                     <imprint>
+                        <pubPlace>Bern u. a.</pubPlace>
+                        <publisher>Peter Lang</publisher>
+                        <date when="2007">2007</date>
+                     </imprint>
+                     <biblScope unit="pp">368–369</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160928">Angelegt</change>
+         <change who="KI MAM" when="20160928">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <salute>Sehr verehrter lieber Herr Bahr,</salute>
+            </opener>
+            <p>
+               <anchor type="commentary" xml:id="KL648-1">vorgestern</anchor> sprach ich <rs type="person" ref="pmb2121">Artur Schnitzler</rs> und regte Ihren Wunsch an: auch er ist meiner Meinung, dass es jetzt nicht opportun sei, solange nichts über die Fakten bekannt ist, zu intervenieren, wenigstens direct. Was <subst>
+                  <del rend="overwritten">
+                     <unclear>das</unclear>
+                  </del>
+                  <add place="inline">im</add>
+               </subst>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb24">Unterrichtsministerium</rs>, dem ich durch <rs type="person" ref="pmb23452">Thadeusz Rittner</rs> die Beachtung des Falles empfahl, geschehen ist, weiss ich noch nicht: ich berichte Ihnen sofort sobald ich Antwort habe. Gestern sprach ich auch <rs type="person" ref="pmb12011">Kvapil</rs>, er als Slave kann natürlich am we<pb/>nigsten tun. Die Situation ist eben sehr erschwert durch die Tatsachen dass <anchor type="commentary" xml:id="KL648-2">
+                  <rs type="person" ref="pmb4226">V.</rs>
+               </anchor>
+               <hi rend="superscript">
+                  <hi rend="underline" n="1">s</hi>
+               </hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" subtype="implied" ref="pmb4230">Bruder</rs> in hoher <rs type="place" ref="pmb366">montenegrinischer</rs> Staatsstellung ist, er selbst ein <rs type="work" subtype="implied" ref="pmb30815">Gedicht</rs> verfasst und öffentlich recitiert hat, das den <rs type="place" ref="pmb264">Serben</rs> den Weg zum Meere wies – ich muss sagen, dass die Regierung jetzt in einem so lebensgefährlichen Augenblick solchen suspecten Anzeichen gegenüber vorsichtig sein muss. Meine Meinung ist da unerschütterlich, dass so wie im Frieden für einen Gerechten ganz Sodom verschont werden solle, im Kriege für einen politischen Sodomiter fünfzig Unschuldige verhaftet werden mögen: was <rs type="place" ref="pmb41240">Österreich</rs> durch Spionage in seinen militärischen Actionen Erschwerungen und Gefahren<pb/> erlitt ist <hi rend="underline" n="1">unabsehbar</hi>: jeder, der aus den <rs type="place" ref="pmb34438">russischen</rs> Kämpfen zurückkehrt meldet es mit Grauen. Sie wissen vielleicht von mir, lieber verehrter Hermann Bahr, dass Stärke – leider! – nicht meines Wesens Wurzel ist, aber gegen eine solche Gefahr <hi rend="underline" n="1">muss</hi> man grausam sein und wir sind es vielleicht noch immer nicht genug. Ich weiss und weiss es jetzt mehr als je – wie viel könnte ich Ihnen erzählen! – was in diesen Grenzgebieten versäumt wurde, aber jetzt hilft kein Anklagen vergangener Dinge, keine Curen mit sanften Compressen, jetzt muss, solang der Krieg dauert, mit dem heissen Eisen alles Unreine ausgebrannt werden. Ihre Action und die ihr entsprungenen Bemühungen haben sicher<pb/> genügt, das Leben <rs type="person" ref="pmb4226">V<hi rend="superscript">
+                     <hi rend="underline" n="1">s</hi>
+                  </hi>
+               </rs> sicher zu stellen, die Tatsache ob er in <rs type="place" ref="pmb365">Ragusa</rs> oder <rs type="place" ref="pmb45359">Arad</rs> sitzt ist ja geringer zu werten. Immerhin bemühe ich mich weiter, <rs type="person" ref="pmb11740">Hofmanstal</rs> bin ich allerdings zu ferne und erhoffe mir auch nichts von seinem Willen zur Intervention: ich glaube <rs type="person" ref="pmb4226">V</rs>. wird sein kleines Leid jetzt noch die Wochen oder Monate tragen müssen, wo das Millionenleid ganz <rs type="place" ref="pmb468">Europas</rs> dauert. Ich bleibe lebhaft bemüht ihm Hilfe zu schaffen: misslingt’s, so fällt sein Geschick eben zurück in die Fülle des Unabwendbaren, dessen Flut jetzt ganz <rs type="place" ref="pmb41240">Österreich</rs>, die ganze Welt überströmt, jede Schwelle netzt und bis zu den letzten Stockwerken emporsteigt. Treulichst </p>
+            <closer>Ihr innig ergebener <signed>StefanZweig</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

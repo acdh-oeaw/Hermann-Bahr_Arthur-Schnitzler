@@ -1,146 +1,151 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041513.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041512.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041514.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [26. 3. 1895]</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="513"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8772-9</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeSender> 
-               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
-               <dateSender> 
-                  <date when="18950326" n="1">[26. 3. 1895]</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>U.S.A.</country> 
-                        <settlement>Yale</settlement> 
-                        <repository>Beinecke Rare Book and Manuscript Library</repository> 
-                        <idno>Yale Collection of German Literature, MSSS 31 Box 1f.</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief mit Kuvert, 1 Bl., 4 S., Bleistift</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct corresp="ASBH" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <author ref="pmb10863">Beer-Hofmann, Richard</author> 
-                     <title level="m">Briefwechsel 1891–1931</title> 
-                     <editor>Hg. Konstanze Fliedl</editor> 
-                     <imprint> 
-                        <pubPlace>Wien, Zürich</pubPlace> 
-                        <publisher>Europaverlag</publisher> 
-                        <date when="1992">1992</date> 
-                     </imprint> 
-                     <biblScope unit="pp">71–72</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160405">Angelegt</change> 
-         <change who="KI MAM" when="20160818">Absatz über Bahr kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>Herrn Dr. <hi rend="latintype">Richard Beer-Hofmann</hi> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="latintype"> 
-                     <hi rend="underline" n="1"> 
-                        <rs type="place" ref="pmb50"> 
-                           <settlement>Wien</settlement> 
-                        </rs> 
-                     </hi> 
-                  </hi> 
-               </addrLine> 
-               <addrLine> 
-                  <hi rend="latintype"> 
-                     <rs type="place" ref="pmb338">I. Wollzeile 15</rs> 
-                  </hi>, 4. Stock.</addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <gap reason="outOfScope"/> 
-            </p> 
-            <p>3.) <rs type="person" ref="pmb11673"> 
-                  <hi rend="latintype">Herzl</hi> 
-               </rs> ist da, möchte mit uns,<pb/> dh. Ihnen, <rs type="person" ref="pmb11740"> 
-                  <hi rend="latintype">Hugo</hi> 
-               </rs>, mir, eventuell <rs type="person" ref="pmb10815">Bahr</rs> soupiren. Ich sagte ihm, Freitag nach dem <rs type="person" ref="pmb28539"> 
-                  <hi rend="latintype">Hubermann</hi> 
-               </rs>concert – Sie sind doch einverstanden? Zu <rs type="person" ref="pmb10815"> 
-                  <hi rend="latintype">Bahr</hi> 
-               </rs> sagen Sie vorläufig nichts, weil ich noch ein definitives Wort von <rs type="person" ref="pmb11673"> 
-                  <hi rend="latintype">Herzl</hi> 
-               </rs> erwarte. <rs type="person" ref="pmb11740"> 
-                  <hi rend="latintype">Hugo</hi> 
-               </rs> theilen Sie’s vielleicht mit?</p> 
-            <p> 
-               <gap reason="outOfScope"/> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041513.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041512.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041514.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, [26. 3. 1895]</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="513"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8772-9</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeSender>
+               <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
+               <dateSender>
+                  <date when="18950326" n="1">[26. 3. 1895]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>U.S.A.</country>
+                        <settlement>Yale</settlement>
+                        <repository>Beinecke Rare Book and Manuscript Library</repository>
+                        <idno>Yale Collection of German Literature, MSSS 31 Box 1f.</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief mit Kuvert, 1 Bl., 4 S., Bleistift</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct corresp="ASBH">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <author ref="pmb10863">Beer-Hofmann, Richard</author>
+                     <title level="m">Briefwechsel 1891–1931</title>
+                     <editor>Hg. Konstanze Fliedl</editor>
+                     <imprint>
+                        <pubPlace>Wien, Zürich</pubPlace>
+                        <publisher>Europaverlag</publisher>
+                        <date when="1992">1992</date>
+                     </imprint>
+                     <biblScope unit="pp">71–72</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160405">Angelegt</change>
+         <change who="KI MAM" when="20160818">Absatz über Bahr kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>Herrn Dr. <hi rend="latintype">Richard Beer-Hofmann</hi>
+               </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <hi rend="underline" n="1">
+                        <rs type="place" ref="pmb50">Wien</rs>
+                     </hi>
+                  </hi>
+               </addrLine>
+               <addrLine>
+                  <hi rend="latintype">
+                     <rs type="place" ref="pmb338">I. Wollzeile 15</rs>
+                  </hi>, 4. Stock.</addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>
+               <gap reason="outOfScope"/>
+            </p>
+            <p>3.) <rs type="person" ref="pmb11673">
+                  <hi rend="latintype">Herzl</hi>
+               </rs> ist da, möchte mit uns,<pb/> dh. Ihnen, <rs type="person" ref="pmb11740">
+                  <hi rend="latintype">Hugo</hi>
+               </rs>, mir, eventuell <rs type="person" ref="pmb10815">Bahr</rs> soupiren. Ich sagte ihm, Freitag nach dem <rs type="person" ref="pmb28539">
+                  <hi rend="latintype">Hubermann</hi>
+               </rs>concert – Sie sind doch einverstanden? Zu <rs type="person" ref="pmb10815">
+                  <hi rend="latintype">Bahr</hi>
+               </rs> sagen Sie vorläufig nichts, weil ich noch ein definitives Wort von <rs type="person" ref="pmb11673">
+                  <hi rend="latintype">Herzl</hi>
+               </rs> erwarte. <rs type="person" ref="pmb11740">
+                  <hi rend="latintype">Hugo</hi>
+               </rs> theilen Sie’s vielleicht mit?</p>
+            <p>
+               <gap reason="outOfScope"/>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

@@ -1,92 +1,97 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041593.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041592.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041594.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 10. 2. 1922</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="593"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A60-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2629 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 94.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160816">Angelegt</change> 
-         <change who="KI MAM" when="20160816">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19220210" n="01">10.</date> K. – Sonnentag. – <anchor type="commentary" xml:id="KD593-1"> 
-                  <rs type="work" subtype="implied" ref="pmb30227">Tagebuch für 19/2</rs> 
-               </anchor> (<rs type="person" ref="pmb28145">Parazelsus</rs>; letztes Datum <date>7./2</date>) – An <rs type="person" ref="pmb10818">Anna</rs>, <rs type="person" ref="pmb4484">Muth</rs>, <rs type="person" ref="pmb11704">Ludwig Hirschfeld</rs> (für <anchor type="commentary" xml:id="KD593-2"> 
-                  <rs type="org" ref="pmb29404">Mod. Welt</rs>, 10000 Kr, <rs type="person" ref="pmb2121"> 
-                     <rs type="work" subtype="implied" ref="pmb30049">Schnitzler</rs> 
-                  </rs> zum <date>10./3</date> zusagend</anchor>). – An <rs type="person" ref="pmb12826">Paul Stefan</rs>, D<hi rend="superscript">r</hi> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb28788">Negwer</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb677"> 
-                  <settlement>Breslau</settlement> 
-               </rs>, <rs type="org" ref="pmb29203">D<damage agent="ink"> 
-                     <supplied>ü</supplied> 
-                  </damage>rr u. Weber</rs>, <rs type="org" ref="pmb29200">Engelhorn</rs>, <rs type="org" ref="pmb29751">Inselverlag</rs> (Anfrage wegen Kunstlehre), <rs type="person" ref="pmb28459">Eckardt</rs> (Mahnung, das bei ihm liegende <anchor type="commentary" xml:id="KD593-3">Manuscript vom <rs type="work" subtype="implied" ref="pmb30149">Tagb 1921</rs> 
-               </anchor> an <rs type="org" ref="pmb29199">Haas u Grabheer</rs> zu schicken). – Bei Dr <rs type="person" ref="pmb28772">Stölzl</rs> wegen Steuer. – Beichte</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041593.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041592.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041594.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 10. 2. 1922</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="593"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A60-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2629 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 94.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160816">Angelegt</change>
+         <change who="KI MAM" when="20160816">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19220210" n="01">10.</date> K. – Sonnentag. – <anchor type="commentary" xml:id="KD593-1">
+                  <rs type="work" subtype="implied" ref="pmb30227">Tagebuch für 19/2</rs>
+               </anchor> (<rs type="person" ref="pmb42949">Parazelsus</rs>; letztes Datum <date>7./2</date>) – An <rs type="person" ref="pmb10818">Anna</rs>, <rs type="person" ref="pmb4484">Muth</rs>, <rs type="person" ref="pmb11704">Ludwig Hirschfeld</rs> (für <anchor type="commentary" xml:id="KD593-2">
+                  <rs type="org" ref="pmb29404">Mod. Welt</rs>, 10000 Kr, <rs type="person" ref="pmb2121">
+                     <rs type="work" subtype="implied" ref="pmb30049">Schnitzler</rs>
+                  </rs> zum <date>10./3</date> zusagend</anchor>). – An <rs type="person" ref="pmb12826">Paul Stefan</rs>, D<hi rend="superscript">r</hi>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb28788">Negwer</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb677">Breslau</rs>, <rs type="org" ref="pmb29203">D<damage agent="ink">
+                     <supplied>ü</supplied>
+                  </damage>rr u. Weber</rs>, <rs type="org" ref="pmb29200">Engelhorn</rs>, <rs type="org" ref="pmb29751">Inselverlag</rs> (Anfrage wegen Kunstlehre), <rs type="person" ref="pmb28459">Eckardt</rs> (Mahnung, das bei ihm liegende <anchor type="commentary" xml:id="KD593-3">Manuscript vom <rs type="work" subtype="implied" ref="pmb30149">Tagb 1921</rs>
+               </anchor> an <rs type="org" ref="pmb29199">Haas u Grabheer</rs> zu schicken). – Bei Dr <rs type="person" ref="pmb28772">Stölzl</rs> wegen Steuer. – Beichte</p>
+         </div>
+      </body>
+   </text>
 </TEI>

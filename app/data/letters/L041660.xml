@@ -1,138 +1,127 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041660.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041659.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041661.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Olga an Arthur Schnitzler, 29. 8. 1919</title> 
-            <author ref="pmb2173">Schnitzler, Olga</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="660"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8804-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19190829" n="01">29. 8. 1919</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>D</country> 
-                        <settlement>Marbach am Neckar</settlement> 
-                        <repository>Deutsches Literaturarchiv</repository> 
-                        <idno>A:Schnitzler, 85.1.4547</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Brief, 3 Bl., 6 S., Lateinschrift.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20161025">Angelegt aus Abschrift</change> 
-         <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline> 
-                  <rs type="place" ref="pmb30"> 
-                     <settlement>Salzburg</settlement> 
-                  </rs>, <date>29. Aug. 19</date>.</dateline> 
-               <p> 
-                  <time>7 Uhr früh</time>.</p> 
-            </opener> 
-            <p> 
-               <salute>Liebes,</salute> eben bin ich erwacht, es ist herrlich draussen, der Blick von meinen Fenstern in den <rs type="place" ref="pmb180">Mirabellgarten</rs> ist wunderschön, – nun will ich dir von gestern erzälen.</p> 
-            <p>Gleich morgens hab ich <rs type="person" ref="pmb2273">Gretl K.</rs> besucht, die nur durch ein Zimmer getrennt, neben mir wohnt, sie liegt zu Bett, selig über ihre neue Liebe, ein Packet von Liebesbriefen neben sich, die sie mir stellenweise vorlas, – <hi rend="underline" n="1">wirklich</hi> schöne Dinge sagt ihr dieser <rs type="person" ref="pmb11558">Gütersloh</rs>. Er kommt Samstag her, – sie werden bald heiraten, – in <rs type="place" ref="pmb155"> 
-                  <settlement>München</settlement> 
-               </rs> leben.</p> 
-            <p>Dann ins »<rs type="org" ref="pmb29230">Landesbildungsamt</rs>«, – das am andern Ende des Ganges ist, – <rs type="person" ref="pmb22855">Paul Prechner</rs> 24 Jahre alt, Freund von <rs type="person" ref="pmb16123">Lili</rs> und <rs type="person" ref="pmb27961">Gerty</rs>, – ich wurde mit grossen Ehren empfangen! Er erzälte mir gleich sehr offen und sehr lieb von seinen Plänen, seinen Schwierigkeiten, – kein Geld, antisemitische Angriffe, natürlich, – wir kamen gleich in ein sehr gutes Gespräch voll Sympathie. Von ihm hängen hier die Aufenthaltsbewilligungen ab,– <hi rend="underline" n="1">ich</hi> kann nicht verhehlen, dass es mir woltat, so einen jungen, idealistischen, frischen<pb/> und hellen Menschen in einer entscheidenden Position zu sehen, – a<subst> 
-                  <del rend="overwritten">ls</del> 
-                  <add place="inline">n</add> 
-               </subst> Stelle eines vergrautelten alten Bureaukraten.</p> 
-            <p>Er schlug mir gleich 2 Abende hier vor, am <date>Dienstag d. 16.</date> und <date>Freitag d. 19. Aug.</date> – im kleinen, sog. <rs type="place" ref="pmb798">Wiener Saal des Mozarteums</rs>, erst ein rechtes leichtes Volkslieder-Programm, ich werde wol <rs type="person" ref="pmb12733">Schumann</rs>, <rs type="person" ref="pmb12729">Schubert</rs>, <rs type="person" ref="pmb10989">Brahms</rs>-Volkslieder singen, – und als 2. Programm mein<del rend="strikethrough">e</del> deutsche<del rend="strikethrough">n</del> Programm, das ich ja hier ausprobieren will, was ich ihm offen sagte. Er will auch ev. ein Concert in <rs type="place" ref="pmb837"> 
-                  <settlement>Hallein</settlement> 
-               </rs> geben. Das war alles im Handumdrehen gemacht! und kostet gar nix. (<rs type="person" ref="pmb12402">Paumgartner</rs> hat mir hier einen glänzenden Ruf gemacht, – hör ich von allen Seiten. <hi rend="underline" n="1">Den</hi> liebt hier alle Welt, – er kommt in wenigen Tagen.)</p> 
-            <p>Dann ging ich in’s <rs type="place" ref="pmb798">Mozarteum</rs> zu Fr. <rs type="person" ref="pmb28952">Sedlitzky</rs>, die <rs type="person" ref="pmb28827">Lili Lehmann</rs> hielt eben Curs, und eine schöne hohe Sopranstimme sang mit aller Kraft (mit zuviel Kraft, schien mir’s= eine Arie. <rs type="person" ref="pmb28952">Sedlitzky</rs> ebenfalls sehr liebenswürdig, ich kann von heute an im <rs type="place" ref="pmb798">Mozarteum</rs> üben,<pb/> u. 7. im grossen Concertsaal einstweilen – am <date>31.</date> hören die <rs type="person" ref="pmb28827">Lehmann</rs>-Stunden, die das ganze Haus erfüllen, auf, da hab ich dann die Schulzimmer frei. Herrlich! nicht? heut um 10 Uhr fang ich an.</p> 
-            <p> 
-               <rs type="person" ref="pmb11602">Harta</rs> hab ich noch getroffen, aber <rs type="person" ref="pmb3112">Grosz</rs> erzälte mir schon, dass er im <rs type="org" ref="pmb29232">Wassermann</rs> einen modernen Abend mit <rs type="person" ref="pmb11141">Debussy</rs> – <rs type="person" ref="pmb12474">Ravel</rs> etc. machen will. Das wären also <hi rend="underline" n="1">4 Concerte</hi>, ohne den von <rs type="person" ref="pmb12402">Paumgartner</rs> projectierten Schüler-Abend.</p> 
-            <p>Im <rs type="place" ref="pmb1014">Mirabell</rs> gegessen, köstlich, Schweinsbraten mit gutem Kraut, ausgedünstete Nudel, wie im Frieden, 26 Kronen gebraucht,– Baumeister <rs type="person" ref="pmb24912">Sikora</rs> kam, setzte sich an meinen Tisch, er war über den Tag hier,– die <rs type="person" ref="pmb25653">Annie</rs> ist leider schon weg,– aber am 1. Jänner wird <rs type="person" ref="pmb4833">Strial</rs> hier Theaterdirector! <rs type="person" ref="pmb21365">Metzl</rs>, <rs type="person" ref="pmb23918">Otti</rs>’s Bruder.– <rs type="person" ref="pmb2167">Salten</rs> kommt heute hieher,– Frau <rs type="person" ref="pmb28164">v. Sonnenthal</rs> hatt ich auch schon gesprochen <add place="below">am Abend meiner Ankunft</add> aus der <rs type="place" ref="pmb800"> 
-                  <settlement>Aschau</settlement> 
-               </rs> Anruf von <rs type="person" ref="pmb25409">Margit</rs>,<pb/> bei <rs type="person" ref="pmb13212">Stefan Zweig</rs> mich telef. gemeldet,– er war in <rs type="place" ref="pmb797"> 
-                  <settlement>Berchtesgaaden</settlement> 
-               </rs>, seine <rs type="person" subtype="implied" ref="pmb4829">Frau</rs> sehr nett. Bei <rs type="person" ref="pmb10815 pmb10818">Bahrs</rs> melde ich mich heute, will die <rs type="person" ref="pmb10818">Mildenburg</rs> bitten, bei ihren Cursen zugegen sein zu dürfen, sie hält sie zuhause ab.</p> 
-            <p>Nachm. durch die wundervolle sommerliche, ganz <rs type="place" ref="pmb275"> 
-                  <country>italienisch</country> 
-               </rs> anmutende Stadt, <add place="inline">der</add> Obstmarkt mit köstlichen Trauben und <hi rend="underline" n="1">Birnen</hi>! – Auf die <rs type="place" ref="pmb638">Festung</rs>, besonders klarer Blick, ich ging in die <rs type="place" ref="pmb838">Camera obscura</rs>, – (Erinnerung an <rs type="place" ref="pmb36300"> 
-                  <settlement>Kopenhagen</settlement> 
-               </rs>,) dann wirklichen Kaffee getrunken, nachhause, an <rs type="person" ref="pmb12993">Unruh</rs> geschrieben, gefaullenzt, genäht, langer Tratsch vor dem Nachtmal an <rs type="person" ref="pmb27973">Gretels</rs> Bett, sie hatte mir am Tag vorher einen Brief geschrieben. Bitte schick mir alle meine Briefe, – der von <rs type="org" ref="pmb29384">Firnberg</rs> ist mir besonders wichtig. Nachtmal hier im Hotel, anständiges Menü um 16 Kronen, Suppe, Lammsbraten und Spinat und Kartoffeln, Apfelschnitten. Auf dem <geogName type="mountain">Pöstlingberg</geogName> kostete ein gutes Rindfleisch<pb/> mit Kohl <hi rend="underline" n="1">4 Kronen</hi>!</p> 
-            <p> 
-               <rs type="person" ref="pmb24909 pmb24912">Sikora’s</rs> lassen ihre <rs type="place" ref="pmb50"> 
-                  <settlement>Wien</settlement> 
-               </rs>er Wohnung auf, haben wegen Heizmaterial nicht die geringste Sorge und bleiben in <rs type="place" ref="pmb33"> 
-                  <settlement>St. Gilgen</settlement> 
-               </rs>, – eine ganze Anzal von Leuten hat sich dort zuständig erklären lassen und verbringen den Winter dort.</p> 
-            <p>Nun leb wol, mein Liebes, jetzt bestell ich mir mein Frühstück, Thee Eier, Butter, (Portion, sehr gross, 3 Kronen) dann anziehen, nach der Kranken <rs type="person" ref="pmb27973">Gretel</rs> sehen, – und an die Arbeit!</p> 
-            <p>Heut rede ich mit dem <rs type="person" subtype="implied" ref="pmb27733">Hotel-Director</rs>, er muss mir Preise machen. Das Zimmer zu 14 Kronen ist für hiesige Begriffe teuer. Die <rs type="person" ref="pmb27973">Gretel</rs> zahlt für das ihre mit Bad, allerdings läuft kein warmes Wasser, – 18 Kronen, – per Mahlzeit 12 Kronen!<pb/> Ich will hier sparen.</p> 
-            <p>Bitte, schreib mir, wie’s dir geht, – ich könnte hier sehr ruhig sein, wenn ich wüsste, dass Du wieder in’s Arbeiten kommst. – <rs type="person" ref="pmb22855">Prechner</rs> sprach mit so viel Liebe von dir, – ich erzälte ihm von deiner <rs type="work" ref="pmb29937">Medardus</rs>-Vorlesung im <rs type="place" ref="pmb1013">Volksheim</rs>. Das möcht er hier auch haben!</p> 
-            <closer>Leb wol, küss die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs> tausendmal.<lb/>Innigst<space unit="chars" quantity="5"/>Dein <signed>O.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041660.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041659.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041661.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Olga an Arthur Schnitzler, 29. 8. 1919</title>
+            <author ref="pmb2173">Schnitzler, Olga</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="660"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8804-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2173">Schnitzler, Olga</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19190829" n="01">29. 8. 1919</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>D</country>
+                        <settlement>Marbach am Neckar</settlement>
+                        <repository>Deutsches Literaturarchiv</repository>
+                        <idno>A:Schnitzler, 85.1.4547</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Brief, 3 Bl., 6 S., Lateinschrift.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20161025">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="20161108">Kollationiert am Faksimile</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline>
+                  <rs type="place" ref="pmb30">Salzburg</rs>, <date>29. Aug. 19</date>.</dateline>
+               <p>
+                  <time>7 Uhr früh</time>.</p>
+            </opener>
+            <p>
+               <salute>Liebes,</salute> eben bin ich erwacht, es ist herrlich draussen, der Blick von meinen Fenstern in den <rs type="place" ref="pmb180">Mirabellgarten</rs> ist wunderschön, – nun will ich dir von gestern erzälen.</p>
+            <p>Gleich morgens hab ich <rs type="person" ref="pmb2273">Gretl K.</rs> besucht, die nur durch ein Zimmer getrennt, neben mir wohnt, sie liegt zu Bett, selig über ihre neue Liebe, ein Packet von Liebesbriefen neben sich, die sie mir stellenweise vorlas, – <hi rend="underline" n="1">wirklich</hi> schöne Dinge sagt ihr dieser <rs type="person" ref="pmb11558">Gütersloh</rs>. Er kommt Samstag her, – sie werden bald heiraten, – in <rs type="place" ref="pmb45258">München</rs> leben.</p>
+            <p>Dann ins »<rs type="org" ref="pmb29230">Landesbildungsamt</rs>«, – das am andern Ende des Ganges ist, – <rs type="person" ref="pmb22855">Paul Prechner</rs> 24 Jahre alt, Freund von <rs type="person" ref="pmb16123">Lili</rs> und <rs type="person" ref="pmb27961">Gerty</rs>, – ich wurde mit grossen Ehren empfangen! Er erzälte mir gleich sehr offen und sehr lieb von seinen Plänen, seinen Schwierigkeiten, – kein Geld, antisemitische Angriffe, natürlich, – wir kamen gleich in ein sehr gutes Gespräch voll Sympathie. Von ihm hängen hier die Aufenthaltsbewilligungen ab,– <hi rend="underline" n="1">ich</hi> kann nicht verhehlen, dass es mir woltat, so einen jungen, idealistischen, frischen<pb/> und hellen Menschen in einer entscheidenden Position zu sehen, – a<subst>
+                  <del rend="overwritten">ls</del>
+                  <add place="inline">n</add>
+               </subst> Stelle eines vergrautelten alten Bureaukraten.</p>
+            <p>Er schlug mir gleich 2 Abende hier vor, am <date>Dienstag d. 16.</date> und <date>Freitag d. 19. Aug.</date> – im kleinen, sog. <rs type="place" ref="pmb798">Wiener Saal des Mozarteums</rs>, erst ein rechtes leichtes Volkslieder-Programm, ich werde wol <rs type="person" ref="pmb12733">Schumann</rs>, <rs type="person" ref="pmb12729">Schubert</rs>, <rs type="person" ref="pmb10989">Brahms</rs>-Volkslieder singen, – und als 2. Programm mein<del rend="strikethrough">e</del> deutsche<del rend="strikethrough">n</del> Programm, das ich ja hier ausprobieren will, was ich ihm offen sagte. Er will auch ev. ein Concert in <rs type="place" ref="pmb837">Hallein</rs> geben. Das war alles im Handumdrehen gemacht! und kostet gar nix. (<rs type="person" ref="pmb12402">Paumgartner</rs> hat mir hier einen glänzenden Ruf gemacht, – hör ich von allen Seiten. <hi rend="underline" n="1">Den</hi> liebt hier alle Welt, – er kommt in wenigen Tagen.)</p>
+            <p>Dann ging ich in’s <rs type="place" ref="pmb798">Mozarteum</rs> zu Fr. <rs type="person" ref="pmb28952">Sedlitzky</rs>, die <rs type="person" ref="pmb28827">Lili Lehmann</rs> hielt eben Curs, und eine schöne hohe Sopranstimme sang mit aller Kraft (mit zuviel Kraft, schien mir’s= eine Arie. <rs type="person" ref="pmb28952">Sedlitzky</rs> ebenfalls sehr liebenswürdig, ich kann von heute an im <rs type="place" ref="pmb798">Mozarteum</rs> üben,<pb/> u. 7. im grossen Concertsaal einstweilen – am <date>31.</date> hören die <rs type="person" ref="pmb28827">Lehmann</rs>-Stunden, die das ganze Haus erfüllen, auf, da hab ich dann die Schulzimmer frei. Herrlich! nicht? heut um 10 Uhr fang ich an.</p>
+            <p>
+               <rs type="person" ref="pmb11602">Harta</rs> hab ich noch getroffen, aber <rs type="person" ref="pmb3112">Grosz</rs> erzälte mir schon, dass er im <rs type="org" ref="pmb29232">Wassermann</rs> einen modernen Abend mit <rs type="person" ref="pmb11141">Debussy</rs> – <rs type="person" ref="pmb12474">Ravel</rs> etc. machen will. Das wären also <hi rend="underline" n="1">4 Concerte</hi>, ohne den von <rs type="person" ref="pmb12402">Paumgartner</rs> projectierten Schüler-Abend.</p>
+            <p>Im <rs type="place" ref="pmb1014">Mirabell</rs> gegessen, köstlich, Schweinsbraten mit gutem Kraut, ausgedünstete Nudel, wie im Frieden, 26 Kronen gebraucht,– Baumeister <rs type="person" ref="pmb24912">Sikora</rs> kam, setzte sich an meinen Tisch, er war über den Tag hier,– die <rs type="person" ref="pmb27955">Annie</rs> ist leider schon weg,– aber am 1. Jänner wird <rs type="person" ref="pmb4833">Strial</rs> hier Theaterdirector! <rs type="person" ref="pmb21365">Metzl</rs>, <rs type="person" ref="pmb23918">Otti</rs>’s Bruder.– <rs type="person" ref="pmb2167">Salten</rs> kommt heute hieher,– Frau <rs type="person" ref="pmb28164">v. Sonnenthal</rs> hatt ich auch schon gesprochen <add place="below">am Abend meiner Ankunft</add> aus der <rs type="place" ref="pmb800">Aschau</rs> Anruf von <rs type="person" ref="pmb25409">Margit</rs>,<pb/> bei <rs type="person" ref="pmb13212">Stefan Zweig</rs> mich telef. gemeldet,– er war in <rs type="place" ref="pmb797">Berchtesgaaden</rs>, seine <rs type="person" subtype="implied" ref="pmb4829">Frau</rs> sehr nett. Bei <rs type="person" ref="pmb10815 pmb10818">Bahrs</rs> melde ich mich heute, will die <rs type="person" ref="pmb10818">Mildenburg</rs> bitten, bei ihren Cursen zugegen sein zu dürfen, sie hält sie zuhause ab.</p>
+            <p>Nachm. durch die wundervolle sommerliche, ganz <rs type="place" ref="pmb40306">italienisch</rs> anmutende Stadt, <add place="inline">der</add> Obstmarkt mit köstlichen Trauben und <hi rend="underline" n="1">Birnen</hi>! – Auf die <rs type="place" ref="pmb638">Festung</rs>, besonders klarer Blick, ich ging in die <rs type="place" ref="pmb638">Camera obscura</rs>, – (Erinnerung an <rs type="place" ref="pmb36300">Kopenhagen</rs>,) dann wirklichen Kaffee getrunken, nachhause, an <rs type="person" ref="pmb12993">Unruh</rs> geschrieben, gefaullenzt, genäht, langer Tratsch vor dem Nachtmal an <rs type="person" ref="pmb27973">Gretels</rs> Bett, sie hatte mir am Tag vorher einen Brief geschrieben. Bitte schick mir alle meine Briefe, – der von <rs type="org" ref="pmb29384">Firnberg</rs> ist mir besonders wichtig. Nachtmal hier im Hotel, anständiges Menü um 16 Kronen, Suppe, Lammsbraten und Spinat und Kartoffeln, Apfelschnitten. Auf dem <geogName type="mountain">Pöstlingberg</geogName> kostete ein gutes Rindfleisch<pb/> mit Kohl <hi rend="underline" n="1">4 Kronen</hi>!</p>
+            <p>
+               <rs type="person" ref="pmb24909 pmb24912">Sikora’s</rs> lassen ihre <rs type="place" ref="pmb50">Wien</rs>er Wohnung auf, haben wegen Heizmaterial nicht die geringste Sorge und bleiben in <rs type="place" ref="pmb33">St. Gilgen</rs>, – eine ganze Anzal von Leuten hat sich dort zuständig erklären lassen und verbringen den Winter dort.</p>
+            <p>Nun leb wol, mein Liebes, jetzt bestell ich mir mein Frühstück, Thee Eier, Butter, (Portion, sehr gross, 3 Kronen) dann anziehen, nach der Kranken <rs type="person" ref="pmb27973">Gretel</rs> sehen, – und an die Arbeit!</p>
+            <p>Heut rede ich mit dem <rs type="person" subtype="implied" ref="pmb62153">Hotel-Director</rs>, er muss mir Preise machen. Das Zimmer zu 14 Kronen ist für hiesige Begriffe teuer. Die <rs type="person" ref="pmb27973">Gretel</rs> zahlt für das ihre mit Bad, allerdings läuft kein warmes Wasser, – 18 Kronen, – per Mahlzeit 12 Kronen!<pb/> Ich will hier sparen.</p>
+            <p>Bitte, schreib mir, wie’s dir geht, – ich könnte hier sehr ruhig sein, wenn ich wüsste, dass Du wieder in’s Arbeiten kommst. – <rs type="person" ref="pmb22855">Prechner</rs> sprach mit so viel Liebe von dir, – ich erzälte ihm von deiner <rs type="work" ref="pmb29937">Medardus</rs>-Vorlesung im <rs type="place" ref="pmb1013">Volksheim</rs>. Das möcht er hier auch haben!</p>
+            <closer>Leb wol, küss die <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kinder</rs> tausendmal.<lb/>Innigst<space unit="chars" quantity="5"/>Dein <signed>O.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

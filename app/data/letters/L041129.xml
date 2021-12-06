@@ -1,143 +1,148 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041129.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041128.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041130.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="129"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85F2-A</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19130719" n="01">19. 7. [1913]</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23397 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>ms. Telegramm, Absenderzeile: »<quote> 
-                              <placeName ref="pmb50"> 
-                                 <settlement>wien</settlement> 
-                              </placeName> 
-                           </quote>«, aufgenommen »<quote> 
-                              <time>1 Uhr <hi rend="superscript">20n</hi> 
-                              </time> 
-                           </quote>«</p>  <stamp n="1"> 
-                           <date when="19130719">19 7 <supplied>1913</supplied> 
-                           </date> 
-                           <time>Nm</time> 
-                        </stamp> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19130720">20. 7. [1913]</date> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">112</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-         <change who="KI MAM" when="20170511">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="HS_AM23397Ba"/> 
-   </facsimile> 
-   <text type="telegram"> 
-      <body> 
-         <div type="address"> 
-            <address> 
-               <addrLine>herman bahr <rs type="place" ref="pmb30"> 
-                     <settlement>salzburg</settlement> 
-                  </rs> 
-               </addrLine> 
-               <addrLine> 
-                  <rs type="place" ref="pmb160">schloss arenberg</rs> 
-               </addrLine> 
-            </address> 
-         </div> 
-         <div type="writingSession" n="1"> 
-            <p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch auch in getrennten dir freundschaftlich nach send ich dir zu gleich im namen meiner <rs type="person" subtype="implied" ref="pmb2173">frau</rs> herzlichste wuensche und treue gruesze als dein alter <signed>arthur schnitzler</signed> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041129.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041128.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041130.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 19. 7. [1913]</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="129"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85F2-A</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19130719" n="01">19. 7. [1913]</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23397 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>ms. Telegramm, Absenderzeile: »<quote>
+                              <placName ref="pmb50">
+                                 <settlement>wien</settlement>
+                              </placName>
+                           </quote>«, aufgenommen »<quote>
+                              <time>1 Uhr <hi rend="superscript">20n</hi>
+                              </time>
+                           </quote>«</p>  <stamp n="1">
+                           <date when="19130719">19 7 <supplied>1913</supplied>
+                           </date>
+                           <time>Nm</time>
+                        </stamp>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19130720">20. 7. [1913]</date>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">112</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM23397Ba"/>
+   </facsimile>
+   <text type="telegram">
+      <body>
+         <div type="address">
+            <address>
+               <addrLine>herman bahr <rs type="place" ref="pmb30">salzburg</rs>
+               </addrLine>
+               <addrLine>
+                  <rs type="place" ref="pmb160">schloss arenberg</rs>
+               </addrLine>
+            </address>
+         </div>
+         <div type="writingSession" n="1">
+            <p>vergangner gemeinsamer stunden inigst gedenkend noch manche kuenftige erhoffend doch auch in getrennten dir freundschaftlich nach send ich dir zu gleich im namen meiner <rs type="person" subtype="implied" ref="pmb2173">frau</rs> herzlichste wuensche und treue gruesze als dein alter <signed>arthur schnitzler</signed>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

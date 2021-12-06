@@ -1,153 +1,152 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041114.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041113.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041115.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Arthur Schnitzler an Hermann Bahr, 14. 12. 1909</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="114"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85E3-B</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb50">Wien</placeName> 
-               </placeSender> 
-               <dateSender> 
-                  <date when="19091214" n="01">14. 12. 1909</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 60150 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>eh. Karte, 2 Bl., gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName ref="pmb133">Wien XVIII. Spoettelgasse 7</placeName>.« </p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-            <listBibl> 
-               <biblStruct default="false"> 
-                  <analytic> 
-                     <date when="19091214">14. 12. 1909</date> 
-                     <respStmt>Abschrift</respStmt> 
-                  </analytic> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
-                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
-                     <imprint> 
-                        <pubPlace>Chapel Hill</pubPlace> 
-                        <publisher>The University of North Carolina Press</publisher> 
-                        <date when="1978">1978</date> 
-                     </imprint> 
-                     <biblScope unit="pp">104–105</biblScope> 
-                  </monogr> 
-                  <series> 
-                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title> 
-                     <biblScope unit="nr">89</biblScope> 
-                  </series> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="approved"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-         <change who="KI MAM" when="20170511">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <facsimile> 
-      <graphic url="HS_AM60150Ba_1"/> 
-      <graphic url="HS_AM60150Ba_1_R"/> 
-      <graphic url="HS_AM60150Ba_2"/> 
-      <graphic url="HS_AM60150Ba_2_R"/> 
-   </facsimile> 
-   <text type="card"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <date>14/12 09</date> 
-               </dateline> 
-            </opener> 
-            <p> 
-               <salute>mein lieber Hermann, </salute>bei <rs type="place" ref="pmb168"> 
-                  <settlement>Berliner</settlement> 
-               </rs> Gelegenheit einmal <rs type="place" ref="pmb140"> 
-                  <settlement>Halle</settlement> 
-               </rs> mitzunehmen hab ich mir längst vorgenommen – nur fügt es sich immer so schwer, weil man ja viel früher einen bestimmten Vorlese-Tag fixiren muss als man den <rs type="place" ref="pmb168">Berliner</rs> Premièrentag weiss. Und mir persönlich macht weder das Zweck-Reisen noch das Vorlesen (in großen Räumen) sonderlich<pb/> viel Spass. Aber wir wollen sehen. Deine Gicht aber laß dir lieber von einem Dichter als von einem <rs type="person" subtype="implied" ref="pmb2241">Oberingenieur</rs> behandeln – (nur nicht von einem Arzt natürlich) Ich stehe dir stets zur Verfügung – und hoffe medizinisch schon genug vergessen zu haben, um dir nicht empfindlich zu schaden.</p> 
-            <p>Ja, wenn ich eine lustige Novelle hätte! Und <unclear>nun</unclear> gar eine kurze! Mit dem Gegentheil kann ich dienen: <rs type="work" subtype="implied" ref="pmb29937">Tragoedie in 5 Akten und einem Vorspiel</rs> aber die eignet sich eher zum Aufgeführtwerden<pb/> (Wie du schon daraus ersehen kannst, dass es mir nicht möglich ist, von <rs type="person" ref="pmb12671"> 
-                  <hi rend="latintype">Schlenther</hi> 
-               </rs> sowohl als von <rs type="person" ref="pmb12504"> 
-                  <hi rend="latintype">Reinhardt</hi> 
-               </rs> eine endgiltige Entscheidung zu kriegen.) – Die <rs type="work" ref="pmb29931"> 
-                  <hi rend="latintype">Comtesse Mizzi</hi> 
-               </rs> wird nun doch nicht zu deinem »<rs type="work" ref="pmb29933">Concert</rs>« gegeben, der Abend würde zu lang, schreibt <rs type="person" ref="pmb10986">Brahm</rs>. Dabei hatt ich schon an den <rs type="place" ref="pmb155"> 
-                  <settlement>Münchner</settlement> 
-               </rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="person" ref="pmb12813">Speidel</rs> 
-               <pb/> 
-               <space unit="chars" quantity="1"/>schreiben lassen, er möchte auch womöglich <rs type="work" subtype="implied" ref="pmb29931 pmb29933">die zwei Stücke</rs> zusammen spielen. Nun hat <rs type="person" ref="pmb12813"> 
-                  <hi rend="latintype">Speidel</hi> 
-               </rs> aber die <rs type="work" ref="pmb29931"> 
-                  <hi rend="latintype">Comtesse</hi> 
-               </rs> wegen Frivolität, Kinderkriegen und Liebhaber-haben refusirt.</p> 
-            <p>Die Hoffnung dich wieder einmal zu sprechen, geb ich noch immer nicht auf. Vielleicht auf dem <rs type="place" ref="pmb189"> 
-                  <settlement>Semmering</settlement> 
-               </rs>. Und dass du den Leuten allerorten so viel von mir erzählst, dank ich dir von Herzen. <rs type="person" subtype="implied" ref="pmb2173">Wir</rs> grüßen alle aufs beste und wollen auch Deiner verehrten <rs type="person" subtype="implied" ref="pmb10818">Frau</rs> empfohlen sein.</p> 
-            <closer>Dein getreuer <signed>Arthur.</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041114.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041113.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041115.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Arthur Schnitzler an Hermann Bahr, 14. 12. 1909</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="114"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-85E3-B</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb50">Wien</placName>
+               </placeSender>
+               <dateSender>
+                  <date when="19091214" n="01">14. 12. 1909</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 60150 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>eh. Karte, 2 Bl., gedruckter Kopf: »Dr. Arthur Schnitzler / <placName ref="pmb133">Wien XVIII. Spoettelgasse 7</placName>.« </p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+            <listBibl>
+               <biblStruct>
+                  <analytic>
+                     <date when="19091214">14. 12. 1909</date>
+                     <respStmt>Abschrift</respStmt>
+                  </analytic>
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title>
+                     <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor>
+                     <imprint>
+                        <pubPlace>Chapel Hill</pubPlace>
+                        <publisher>The University of North Carolina Press</publisher>
+                        <date when="1978">1978</date>
+                     </imprint>
+                     <biblScope unit="pp">104–105</biblScope>
+                  </monogr>
+                  <series>
+                     <title level="s">University of North Carolina studies in the Germanic languages and literatures</title>
+                     <biblScope unit="nr">89</biblScope>
+                  </series>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="approved">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="20170511">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="HS_AM60150Ba_1"/>
+      <graphic url="HS_AM60150Ba_1_R"/>
+      <graphic url="HS_AM60150Ba_2"/>
+      <graphic url="HS_AM60150Ba_2_R"/>
+   </facsimile>
+   <text type="card">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <date>14/12 09</date>
+               </dateline>
+            </opener>
+            <p>
+               <salute>mein lieber Hermann, </salute>bei <rs type="place" ref="pmb168">Berliner</rs> Gelegenheit einmal <rs type="place" ref="pmb140">Halle</rs> mitzunehmen hab ich mir längst vorgenommen – nur fügt es sich immer so schwer, weil man ja viel früher einen bestimmten Vorlese-Tag fixiren muss als man den <rs type="place" ref="pmb168">Berliner</rs> Premièrentag weiss. Und mir persönlich macht weder das Zweck-Reisen noch das Vorlesen (in großen Räumen) sonderlich<pb/> viel Spass. Aber wir wollen sehen. Deine Gicht aber laß dir lieber von einem Dichter als von einem <rs type="person" subtype="implied" ref="pmb2241">Oberingenieur</rs> behandeln – (nur nicht von einem Arzt natürlich) Ich stehe dir stets zur Verfügung – und hoffe medizinisch schon genug vergessen zu haben, um dir nicht empfindlich zu schaden.</p>
+            <p>Ja, wenn ich eine lustige Novelle hätte! Und <unclear>nun</unclear> gar eine kurze! Mit dem Gegentheil kann ich dienen: <rs type="work" subtype="implied" ref="pmb29937">Tragoedie in 5 Akten und einem Vorspiel</rs> aber die eignet sich eher zum Aufgeführtwerden<pb/> (Wie du schon daraus ersehen kannst, dass es mir nicht möglich ist, von <rs type="person" ref="pmb12671">
+                  <hi rend="latintype">Schlenther</hi>
+               </rs> sowohl als von <rs type="person" ref="pmb12504">
+                  <hi rend="latintype">Reinhardt</hi>
+               </rs> eine endgiltige Entscheidung zu kriegen.) – Die <rs type="work" ref="pmb29931">
+                  <hi rend="latintype">Comtesse Mizzi</hi>
+               </rs> wird nun doch nicht zu deinem »<rs type="work" ref="pmb29933">Concert</rs>« gegeben, der Abend würde zu lang, schreibt <rs type="person" ref="pmb10986">Brahm</rs>. Dabei hatt ich schon an den <rs type="place" ref="pmb45258">Münchner</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="person" ref="pmb12813">Speidel</rs>
+               <pb/>
+               <space unit="chars" quantity="1"/>schreiben lassen, er möchte auch womöglich <rs type="work" subtype="implied" ref="pmb29931 pmb29933">die zwei Stücke</rs> zusammen spielen. Nun hat <rs type="person" ref="pmb12813">
+                  <hi rend="latintype">Speidel</hi>
+               </rs> aber die <rs type="work" ref="pmb29931">
+                  <hi rend="latintype">Comtesse</hi>
+               </rs> wegen Frivolität, Kinderkriegen und Liebhaber-haben refusirt.</p>
+            <p>Die Hoffnung dich wieder einmal zu sprechen, geb ich noch immer nicht auf. Vielleicht auf dem <rs type="place" ref="pmb189">Semmering</rs>. Und dass du den Leuten allerorten so viel von mir erzählst, dank ich dir von Herzen. <rs type="person" subtype="implied" ref="pmb2173">Wir</rs> grüßen alle aufs beste und wollen auch Deiner verehrten <rs type="person" subtype="implied" ref="pmb10818">Frau</rs> empfohlen sein.</p>
+            <closer>Dein getreuer <signed>Arthur.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

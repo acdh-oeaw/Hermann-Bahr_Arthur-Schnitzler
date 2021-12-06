@@ -1,84 +1,91 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041584.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041583.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041585.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Aufzeichnung von Hermann Bahr, 21. 10. 1931</title> 
-            <author ref="pmb10815">Bahr, Hermann</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="584"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A57-5</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS VM 2634 Ba</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>In: Braunes Buch, eh., von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 57.</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20160601">angelegt</change> 
-         <change who="KI MAM" when="20160601">Kollationiert am Original</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19311021" n="2">21.</date> – K. – Zunehmende Kälte. – Brief an Frau <rs type="person" ref="pmb4918">Johanna Schuchter</rs> und an <rs type="person" ref="pmb28707">Borgmeyer</rs>, an diesen ungeduldig drängend. – Dann diktiert <anchor type="commentary" xml:id="KD584-1"> 
-                  <rs type="work" subtype="implied" ref="pmb31487">Auszug</rs> 
-               </anchor> von <rs type="person" ref="pmb2771">Egon Friedells</rs> drittem Bande: <rs type="work" ref="pmb32624">Kulturgeschichte der Neuzeit</rs> 
-            </p> 
-            <p>– Mittags unerwartet <rs type="person" ref="pmb28700">Helene Thienen</rs>.–</p> 
-            <p>Nachmittag in die <rs type="place" ref="pmb707">Fronleichnamskapelle</rs> zu stiller Privatandacht. – Dann führt mich <rs type="person" ref="pmb10818">Anna</rs> in den jetzt verwilderten <rs type="place" ref="pmb712">Park</rs>, dessen Herrin einst <rs type="person" ref="pmb28703">Lola Montez</rs> war. – Der <rs type="person" ref="pmb28124">Buz</rs> geht es besser, doch sie muß noch fest eingewickelt liegen. – Dann zur sechs Uhr Andacht in der <rs type="place" ref="pmb707">Fronleichnamskapelle</rs>; glorreicher Rosenkranz u. Lauretanische Litanei. Abends noch Nachricht vom Tod <rs type="person" ref="pmb2121">Arthur Schnitzlers</rs> 
-            </p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041584.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041583.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041585.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Aufzeichnung von Hermann Bahr, 21. 10. 1931</title>
+            <author ref="pmb10815">Bahr, Hermann</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="584"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A57-5</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS VM 2634 Ba</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>In: Braunes Buch, eh., von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 187 Bl., S. 57.</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20160601">angelegt</change>
+         <change who="KI MAM" when="20160601">Kollationiert am Original</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19311021" n="2">21.</date> – K. – Zunehmende Kälte. – Brief an Frau <rs type="person" ref="pmb4918">Johanna Schuchter</rs> und an <rs type="person" ref="pmb28707">Borgmeyer</rs>, an diesen ungeduldig drängend. – Dann diktiert <anchor type="commentary" xml:id="KD584-1">
+                  <rs type="work" subtype="implied" ref="pmb31487">Auszug</rs>
+               </anchor> von <rs type="person" ref="pmb2771">Egon Friedells</rs> drittem Bande: <rs type="work" ref="pmb32624">Kulturgeschichte der Neuzeit</rs>
+            </p>
+            <p>– Mittags unerwartet <rs type="person" ref="pmb28700">Helene Thienen</rs>.–</p>
+            <p>Nachmittag in die <rs type="place" ref="pmb707">Fronleichnamskapelle</rs> zu stiller Privatandacht. – Dann führt mich <rs type="person" ref="pmb10818">Anna</rs> in den jetzt verwilderten <rs type="place" ref="pmb712">Park</rs>, dessen Herrin einst <rs type="person" ref="pmb28703">Lola Montez</rs> war. – Der <rs type="person" ref="pmb28124">Buz</rs> geht es besser, doch sie muß noch fest eingewickelt liegen. – Dann zur sechs Uhr Andacht in der <rs type="place" ref="pmb707">Fronleichnamskapelle</rs>; glorreicher Rosenkranz u. Lauretanische Litanei. Abends noch Nachricht vom Tod <rs type="person" ref="pmb2121">Arthur Schnitzlers</rs>
+            </p>
+         </div>
+      </body>
+   </text>
 </TEI>

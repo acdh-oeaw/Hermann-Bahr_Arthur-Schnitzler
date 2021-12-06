@@ -1,115 +1,120 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041193.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041192.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041194.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Albert von Speidel an Hermann Bahr, 26. 1. 1906</title> 
-            <author ref="pmb12813">Speidel, Albert von</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="193"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8632-2</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb12813">Speidel, Albert von</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb10815">Bahr, Hermann</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb155">München</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb50">[Wien]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19060126" n="01">26. 1. 1906</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listWit> 
-               <witness n="1"> 
-                  <msDesc> 
-                     <msIdentifier> 
-                        <country>A</country> 
-                        <settlement>Wien</settlement> 
-                        <repository>Theatermuseum</repository> 
-                        <idno>HS AM 23902</idno> 
-                     </msIdentifier> 
-                     <physDesc> 
-                        <p>hs. Br. mit eh. Unterschrift, 1 Bl., 2 S., gedruckter Kopf: »<quote>Der Intendant der <placeName ref="pmb9">Königl. Bayer. Hoftheater</placeName> und des <placeName ref="pmb703">Prinzregenten-Theaters</placeName>.</quote>«</p> 
-                     </physDesc> 
-                  </msDesc> 
-               </witness> 
-            </listWit> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-DE">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="KI MAM" when="20151001">Kollationiert</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb155"> 
-                     <settlement>München</settlement> 
-                  </rs>, <date>26. Januar 1906</date>.</dateline> 
-               <salute rend="center">Sehr geehrter Herr <hi rend="latintype">Bahr</hi>!</salute> 
-            </opener> 
-            <p>Nehmen Sie meinen verbindlichsten Dank für die freundliche Zusendung des <rs type="person" ref="pmb2121">Schnitzler</rs>’schen Schauspieles »<hi rend="latintype"> 
-                  <rs type="work" ref="pmb29905">Der Ruf des Lebens</rs> 
-               </hi>«.</p> 
-            <p>Ich verkenne durchaus nicht die Vorzüge des Stückes, aber – die Scenen des 2. Aktes scheinen mir für die <rs type="place" ref="pmb9">Münchener Hofbühne</rs> doch etwas gar zu bedenklich.</p> 
-            <p>Aus diesem Grunde kann ich mich nicht entschließen, das Stück hier<pb/> zur Aufführung zu bringen.</p> 
-            <p>Vielleicht darf ich Sie bei dieser Gelegenheit ersuchen, mir Ihre Ansichten über <rs type="person" ref="pmb2323"> 
-                  <hi rend="latintype">Gorki</hi> 
-               </rs>’s »<rs type="work" ref="pmb30059"> 
-                  <hi rend="latintype">Kinder der Sonne</hi> 
-               </rs>« kundzugeben, über deren Annahm<damage agent="hole"> 
-                  <supplied>e</supplied> 
-               </damage> ich mich in kurzer Zeit entscheiden soll.</p> 
-            <closer>Mit freundlichen Grüßen<lb/>Ihr<lb/>sehr ergebener<lb/> 
-               <handShift/>Ihr <signed>v Speidel</signed> 
-            </closer> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041193.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041192.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041194.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Albert von Speidel an Hermann Bahr, 26. 1. 1906</title>
+            <author ref="pmb12813">Speidel, Albert von</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="193"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8632-2</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb12813">Speidel, Albert von</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb10815">Bahr, Hermann</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb45258">München</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb50">[Wien]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19060126" n="01">26. 1. 1906</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listWit>
+               <witness n="1">
+                  <msDesc>
+                     <msIdentifier>
+                        <country>A</country>
+                        <settlement>Wien</settlement>
+                        <repository>Theatermuseum</repository>
+                        <idno>HS AM 23902</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <p>hs. Br. mit eh. Unterschrift, 1 Bl., 2 S., gedruckter Kopf: »<quote>Der Intendant der <placName ref="pmb9">Königl. Bayer. Hoftheater</placName> und des <placName ref="pmb703">Prinzregenten-Theaters</placName>.</quote>«</p>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-DE">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="KI MAM" when="20151001">Kollationiert</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb45258">München</rs>, <date>26. Januar 1906</date>.</dateline>
+               <salute rend="center">Sehr geehrter Herr <hi rend="latintype">Bahr</hi>!</salute>
+            </opener>
+            <p>Nehmen Sie meinen verbindlichsten Dank für die freundliche Zusendung des <rs type="person" ref="pmb2121">Schnitzler</rs>’schen Schauspieles »<hi rend="latintype">
+                  <rs type="work" ref="pmb29905">Der Ruf des Lebens</rs>
+               </hi>«.</p>
+            <p>Ich verkenne durchaus nicht die Vorzüge des Stückes, aber – die Scenen des 2. Aktes scheinen mir für die <rs type="place" ref="pmb9">Münchener Hofbühne</rs> doch etwas gar zu bedenklich.</p>
+            <p>Aus diesem Grunde kann ich mich nicht entschließen, das Stück hier<pb/> zur Aufführung zu bringen.</p>
+            <p>Vielleicht darf ich Sie bei dieser Gelegenheit ersuchen, mir Ihre Ansichten über <rs type="person" ref="pmb2323">
+                  <hi rend="latintype">Gorki</hi>
+               </rs>’s »<rs type="work" ref="pmb30059">
+                  <hi rend="latintype">Kinder der Sonne</hi>
+               </rs>« kundzugeben, über deren Annahm<damage agent="hole">
+                  <supplied>e</supplied>
+               </damage> ich mich in kurzer Zeit entscheiden soll.</p>
+            <closer>Mit freundlichen Grüßen<lb/>Ihr<lb/>sehr ergebener<lb/>
+               <handShift/>Ihr <signed>v Speidel</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
 </TEI>

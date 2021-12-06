@@ -1,82 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041145.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041144.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041146.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 25. 3. 1895</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno n="145" type="HBAS-D"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C3-C</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1893–1902</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1989">1989</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="18950325" n="2">25/3</date> Von <rs type="person" ref="pmb14953">Mz. I.</rs> Brief. Nm. bei <rs type="person" ref="pmb11036">Burckhard</rs>, ging ärgerlich zu ihm hinauf, kam ziemlich charmirt zurück.– Ich fragte ihn, ob er nicht angewidert sei durch die vielen Rücksichten, die er nach allen Seiten nehmen müsse? Ja, wenn ich mich nobel ausdrücken soll <c rendition="#dots" n="3" place="center"/> es ist zum Speiben, erwiderte er.– Er sprach von der <rs type="person" ref="pmb11744">Hohenlohe</rs>, ihrem Beichtvater und manchen andern.–</p> 
-            <p>Bei mir <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb10863">Richard</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs>.– Ueber <rs type="person" ref="pmb10765">Andrians</rs> 
-               <space unit="chars" quantity="1"/> 
-               <anchor type="commentary" xml:id="KD145-1"> 
-                  <rs type="work" subtype="implied" ref="pmb30435">Buch</rs> 
-               </anchor>, das <rs type="person" ref="pmb11740">Hugo</rs> überschätzt und über <rs type="person" ref="pmb10815">Bahr</rs>, den er mindestens ethisch überschätzt.– </p> 
-            <p>Mit <rs type="person" ref="pmb2378">Mz. R.</rs> bei »uns« – Zum Theil wars rasend schön, zum Theil sekkirte sie unverhältnismäßig, daß sie sich wieder anziehn und überhaupt fortgehn müßte.– Ich mußte, ungesehn von ihr, weinen, so traurig stimmten mich diese Kleinigkeiten, die doch die Keime von einem langsamen und sichern Tod sind. Der Tod ist ja sicher; man muss es nur immer wissen, selbst im ersten und üppigsten Blühn einer neuen Liebe, dann spürt man auch, wo er sitzt. Denn wie die Menschen werden auch die Beziehungen mit ihrem Tod geboren.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041145.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041144.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041146.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 25. 3. 1895</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno n="145" type="HBAS-D"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-88C3-C</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1893–1902</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Konstanze Fliedl, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="18950325" n="2">25/3</date> Von <rs type="person" ref="pmb14953">Mz. I.</rs> Brief. Nm. bei <rs type="person" ref="pmb11036">Burckhard</rs>, ging ärgerlich zu ihm hinauf, kam ziemlich charmirt zurück.– Ich fragte ihn, ob er nicht angewidert sei durch die vielen Rücksichten, die er nach allen Seiten nehmen müsse? Ja, wenn ich mich nobel ausdrücken soll <c rendition="#dots" n="3" place="center"/> es ist zum Speiben, erwiderte er.– Er sprach von der <rs type="person" ref="pmb11744">Hohenlohe</rs>, ihrem Beichtvater und manchen andern.–</p>
+            <p>Bei mir <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb10863">Richard</rs>, <rs type="person" ref="pmb12740">Schwarzkopf</rs>.– Ueber <rs type="person" ref="pmb10765">Andrians</rs>
+               <space unit="chars" quantity="1"/>
+               <anchor type="commentary" xml:id="KD145-1">
+                  <rs type="work" subtype="implied" ref="pmb30435">Buch</rs>
+               </anchor>, das <rs type="person" ref="pmb11740">Hugo</rs> überschätzt und über <rs type="person" ref="pmb10815">Bahr</rs>, den er mindestens ethisch überschätzt.– </p>
+            <p>Mit <rs type="person" ref="pmb2378">Mz. R.</rs> bei »uns« – Zum Theil wars rasend schön, zum Theil sekkirte sie unverhältnismäßig, daß sie sich wieder anziehn und überhaupt fortgehn müßte.– Ich mußte, ungesehn von ihr, weinen, so traurig stimmten mich diese Kleinigkeiten, die doch die Keime von einem langsamen und sichern Tod sind. Der Tod ist ja sicher; man muss es nur immer wissen, selbst im ersten und üppigsten Blühn einer neuen Liebe, dann spürt man auch, wo er sitzt. Denn wie die Menschen werden auch die Beziehungen mit ihrem Tod geboren.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

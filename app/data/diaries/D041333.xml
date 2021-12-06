@@ -1,86 +1,89 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041333.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041332.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041334.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Tagebuch von Arthur Schnitzler, 6. 8. 1923</title> 
-            <author ref="pmb2121">Schnitzler, Arthur</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-D" n="333"/> 
-            <availability status="free"> 
-               <p>Copyright © 2017</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8967-4</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <listBibl> 
-               <biblStruct corresp="ASTB" default="false"> 
-                  <monogr> 
-                     <author ref="pmb2121">Schnitzler, Arthur</author> 
-                     <title level="m">Tagebuch 1923–1926</title> 
-                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor> 
-                     <imprint> 
-                        <pubPlace>Wien</pubPlace> 
-                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher> 
-                        <date when="1995">1995</date> 
-                     </imprint> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20151111">angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="diaryDay"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <p> 
-               <date when="19230806" n="1">6/8</date> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb872"> 
-                  <settlement>Stuttgart</settlement> 
-               </rs> – <rs type="place" ref="pmb228"> 
-                  <settlement>Baden-Baden</settlement> 
-               </rs>. Weiter in <rs type="person" ref="pmb10815">Bahr’s</rs> »<rs type="work" ref="pmb30813">Selbstbildnis</rs>«; mit viel Vergnügen. Ankunft in <rs type="place" ref="pmb228">B.-B.</rs> um 2 Stunden früher als ich gedacht. Treffe <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb2238">Lili</rs>, die zur Bahn gehn wollen. Im Bad <rs type="person" ref="pmb12692">Heini</rs>. Mit <rs type="person" ref="pmb2238">Lili</rs> 
-               <space unit="chars" quantity="1"/> 
-               <rs type="place" ref="pmb389">Hotel Gunzenbach</rs>.– Hübsches Zimmer.– Wir essen zu viert im Hotel; zahlen etwa 1½ Millionen Mark. Finanzgespräch. <rs type="person" ref="pmb2173">O.</rs> kann ihren Aerger nicht verwinden, daß ich 100 d. vor vierzehn Tagen (durch Dr. <rs type="person" ref="pmb3119">Menczels</rs> allerdings auffallend schlechte Intervention) um 32 M. für <rs type="person" ref="pmb2173">O.</rs> verkauft, während es heute über 100 wären.</p> 
-            <p>– Nm. am »<rs type="work" ref="pmb30205">Verf.</rs>« –</p> 
-            <p>Auf der Terrasse <rs type="place" ref="pmb491">Herchenbachstr.</rs> en fam. genachtm.</p> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041333.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041332.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/diaries/D041334.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Tagebuch von Arthur Schnitzler, 6. 8. 1923</title>
+            <author ref="pmb2121">Schnitzler, Arthur</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF – Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-D" n="333"/>
+            <availability status="free">
+               <p>Copyright © 2017</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8967-4</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <listBibl>
+               <biblStruct corresp="ASTB">
+                  <monogr>
+                     <author ref="pmb2121">Schnitzler, Arthur</author>
+                     <title level="m">Tagebuch 1923–1926</title>
+                     <editor>Unter Mitwirkung von Peter Michael Braunwarth, Susanne Pertlik und Reinhard Urbach hg. v. der Kommission für literarische Gebrauchsformen der Österreichischen Akademie der Wissenschaften, Obmann: Werner Welzig</editor>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>Verlag der Österreichischen Akademie der Wissenschaften</publisher>
+                        <date when="1995">1995</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20151111">angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="diaryDay">
+      <body>
+         <div type="writingSession" n="1">
+            <p>
+               <date when="19230806" n="1">6/8</date>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb872">Stuttgart</rs> – <rs type="place" ref="pmb228">Baden-Baden</rs>. Weiter in <rs type="person" ref="pmb10815">Bahr’s</rs> »<rs type="work" ref="pmb30813">Selbstbildnis</rs>«; mit viel Vergnügen. Ankunft in <rs type="place" ref="pmb228">B.-B.</rs> um 2 Stunden früher als ich gedacht. Treffe <rs type="person" ref="pmb2173">O.</rs> und <rs type="person" ref="pmb2238">Lili</rs>, die zur Bahn gehn wollen. Im Bad <rs type="person" ref="pmb12692">Heini</rs>. Mit <rs type="person" ref="pmb2238">Lili</rs>
+               <space unit="chars" quantity="1"/>
+               <rs type="place" ref="pmb389">Hotel Gunzenbach</rs>.– Hübsches Zimmer.– Wir essen zu viert im Hotel; zahlen etwa 1½ Millionen Mark. Finanzgespräch. <rs type="person" ref="pmb2173">O.</rs> kann ihren Aerger nicht verwinden, daß ich 100 d. vor vierzehn Tagen (durch Dr. <rs type="person" ref="pmb3119">Menczels</rs> allerdings auffallend schlechte Intervention) um 32 M. für <rs type="person" ref="pmb2173">O.</rs> verkauft, während es heute über 100 wären.</p>
+            <p>– Nm. am »<rs type="work" ref="pmb30205">Verf.</rs>« –</p>
+            <p>Auf der Terrasse <rs type="place" ref="pmb491">Herchenbachstr.</rs> en fam. genachtm.</p>
+         </div>
+      </body>
+   </text>
 </TEI>

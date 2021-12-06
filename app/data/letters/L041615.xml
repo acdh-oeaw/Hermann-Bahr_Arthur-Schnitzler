@@ -1,112 +1,115 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041615.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041614.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041616.xml"> 
-   <teiHeader type="text"> 
-      <fileDesc> 
-         <titleStmt> 
-            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
-            <title level="a">Stefan Zweig an Arthur Schnitzler, 28. 7. 1923</title> 
-            <author ref="pmb13212">Zweig, Stefan</author> 
-            <editor> 
-               <name full="yes" instant="false">Ifkovits, Kurt</name> 
-               <name full="yes" instant="false">Müller, Martin Anton</name> 
-            </editor> 
-            <funder> 
-               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name> 
-               <address> 
-                  <street>Sensengasse 1</street> 
-                  <postCode>1090 Wien</postCode> 
-                  <placeName> 
-                     <country>A</country> 
-                     <settlement>Wien</settlement> 
-                  </placeName> 
-               </address> 
-            </funder> 
-         </titleStmt> 
-         <editionStmt> 
-            <edition>HBAS</edition> 
-            <respStmt> 
-               <resp>Transkription und Kommentierung</resp> 
-               <name full="yes" instant="false">Kurt Ifkovits</name> 
-               <name full="yes" instant="false">Martin Anton Müller</name> 
-            </respStmt> 
-         </editionStmt> 
-         <publicationStmt> 
-            <publisher>Theatermuseum, Wien</publisher> 
-            <idno type="HBAS-L" n="615"/> 
-            <availability status="free"> 
-               <p>Copyright © 2015</p> 
-            </availability> 
-         <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D7-7</idno></publicationStmt> 
-         <seriesStmt> 
-            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p> 
-         </seriesStmt> 
-         <sourceDesc> 
-            <correspDesc> 
-               <sender full="yes"> 
-                  <persName ref="pmb13212">Zweig, Stefan</persName> 
-               </sender> 
-               <addressee full="yes"> 
-                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
-               </addressee> 
-               <placeSender> 
-                  <placeName ref="pmb30">Salzburg</placeName> 
-               </placeSender> 
-               <placeAddressee> 
-                  <placeName ref="pmb155">[München]</placeName> 
-               </placeAddressee> 
-               <dateSender> 
-                  <date when="19230728" n="01">28. 7. 1923</date> 
-               </dateSender> 
-               <context/> 
-            </correspDesc> 
-            <listBibl> 
-               <biblStruct corresp="SZBW" default="false"> 
-                  <monogr> 
-                     <author ref="pmb13212">Zweig, Stefan</author> 
-                     <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title> 
-                     <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor> 
-                     <imprint> 
-                        <pubPlace>Frankfurt am Main</pubPlace> 
-                        <publisher>S. Fischer</publisher> 
-                        <date when="1989">1987</date> 
-                     </imprint> 
-                     <biblScope unit="pp">417</biblScope> 
-                  </monogr> 
-               </biblStruct> 
-            </listBibl> 
-         </sourceDesc> 
-      </fileDesc> 
-      <profileDesc> 
-         <langUsage> 
-            <language ident="de-AT">German</language> 
-         </langUsage> 
-      </profileDesc> 
-      <revisionDesc status="candidate"> 
-         <change who="MAM" when="20160620">Angelegt</change> 
-      </revisionDesc> 
-   </teiHeader> 
-   <text type="letter"> 
-      <body> 
-         <div type="writingSession" n="1"> 
-            <opener> 
-               <dateline rend="right"> 
-                  <rs type="place" ref="pmb297">Kapuzinerberg 5</rs> 
-                  <lb/> 
-                  <rs type="place" ref="pmb30"> 
-                     <settlement>Salzburg</settlement> 
-                  </rs> 
-                  <lb/>am <date>28. Juli 1923</date>.</dateline> 
-               <salute>Verehrter Herr Doktor!</salute> 
-            </opener> 
-            <p>Ich empfange freudig Ihre Nachricht und brauche nicht zu sagen, dass ich Ihnen gern, wenn Sie mich rechtzeitig verständigen, im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ein Zimmer reserviere. Ich hätte Sie lieber zu uns gebeten, aber wir sind durch die Gegenwart <rs type="person" ref="pmb12543">Rollands</rs> besetzt. Das <rs type="place" ref="pmb152">Hotel Europe</rs> ist aber momentan wirklich etwas kostspielig und Sie werden im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ebenso zufrieden sein. Gestern und heute waren wir mit <rs type="person" ref="pmb10815">Bahr</rs> und heute ging er in einem Zuge zur <geogName type="mountain" instant="false">Gaissbergspitze</geogName> hinauf. Es war ein rechtes Vergnügen, ihn so heiter und wohlgelaunt, wie seit Jahren nicht, zu sehen.</p> 
-            <closer>In herzlicher Erwartung Ihnen entgegen und aufrichtig<lb/>ergeben Ihr<lb/> 
-               <signed>Stefan Zweig</signed> 
-            </closer> 
-            <postscript> 
-               <p>P. S. Auch <rs type="person" ref="pmb10815">Bahr</rs> kommt in jenen Tagen aus <rs type="place" ref="pmb155"> 
-                     <settlement>München</settlement> 
-                  </rs> herüber.</p> 
-            </postscript> 
-         </div> 
-      </body> 
-   </text> 
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041615.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041614.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/barhschnitzler/letters/L041616.xml">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title>
+            <title level="a">Stefan Zweig an Arthur Schnitzler, 28. 7. 1923</title>
+            <author ref="pmb13212">Zweig, Stefan</author>
+            <editor>
+               <name full="yes" instant="false">Ifkovits, Kurt</name>
+               <name full="yes" instant="false">Müller, Martin Anton</name>
+            </editor>
+            <funder>
+               <name full="yes" instant="false">FWF - Fonds für Wissenschaft und Forschung</name>
+               <address>
+                  <street>Sensengasse 1</street>
+                  <postCode>1090 Wien</postCode>
+                  <placName ref="">
+                     <country>A</country>
+                     <settlement>Wien</settlement>
+                  </placName>
+               </address>
+            </funder>
+         </titleStmt>
+         <editionStmt>
+            <edition>HBAS</edition>
+            <respStmt>
+               <resp>Transkription und Kommentierung</resp>
+               <name full="yes" instant="false">Kurt Ifkovits</name>
+               <name full="yes" instant="false">Martin Anton Müller</name>
+            </respStmt>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>Theatermuseum, Wien</publisher>
+            <idno type="HBAS-L" n="615"/>
+            <availability status="free">
+               <p>Copyright © 2015</p>
+            </availability>
+            <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-87D7-7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <p>Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
+         </seriesStmt>
+         <sourceDesc>
+            <correspDesc>
+               <sender full="yes">
+                  <persName ref="pmb13212">Zweig, Stefan</persName>
+               </sender>
+               <addressee full="yes">
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName>
+               </addressee>
+               <placeSender>
+                  <placName ref="pmb30">Salzburg</placName>
+               </placeSender>
+               <placeAddressee>
+                  <placName ref="pmb45258">[München]</placName>
+               </placeAddressee>
+               <dateSender>
+                  <date when="19230728" n="01">28. 7. 1923</date>
+               </dateSender>
+               <context/>
+            </correspDesc>
+            <listBibl>
+               <biblStruct corresp="SZBW">
+                  <monogr>
+                     <author ref="pmb13212">Zweig, Stefan</author>
+                     <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title>
+                     <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor>
+                     <imprint>
+                        <pubPlace>Frankfurt am Main</pubPlace>
+                        <publisher>S. Fischer</publisher>
+                        <date when="1989">1987</date>
+                     </imprint>
+                     <biblScope unit="pp">417</biblScope>
+                  </monogr>
+               </biblStruct>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de-AT">German</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc status="candidate">
+         <change who="MAM" when="20160620">Angelegt</change>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter">
+      <body>
+         <div type="writingSession" n="1">
+            <opener>
+               <dateline rend="right">
+                  <rs type="place" ref="pmb297">Kapuzinerberg 5</rs>
+                  <lb/>
+                  <rs type="place" ref="pmb30">Salzburg</rs>
+                  <lb/>am <date>28. Juli 1923</date>.</dateline>
+               <salute>Verehrter Herr Doktor!</salute>
+            </opener>
+            <p>Ich empfange freudig Ihre Nachricht und brauche nicht zu sagen, dass ich Ihnen gern, wenn Sie mich rechtzeitig verständigen, im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ein Zimmer reserviere. Ich hätte Sie lieber zu uns gebeten, aber wir sind durch die Gegenwart <rs type="person" ref="pmb12543">Rollands</rs> besetzt. Das <rs type="place" ref="pmb152">Hotel Europe</rs> ist aber momentan wirklich etwas kostspielig und Sie werden im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ebenso zufrieden sein. Gestern und heute waren wir mit <rs type="person" ref="pmb10815">Bahr</rs> und heute ging er in einem Zuge zur <geogName type="mountain" instant="false">Gaissbergspitze</geogName> hinauf. Es war ein rechtes Vergnügen, ihn so heiter und wohlgelaunt, wie seit Jahren nicht, zu sehen.</p>
+            <closer>In herzlicher Erwartung Ihnen entgegen und aufrichtig<lb/>ergeben Ihr<lb/>
+               <signed>Stefan Zweig</signed>
+            </closer>
+            <postscript>
+               <p>P. S. Auch <rs type="person" ref="pmb10815">Bahr</rs> kommt in jenen Tagen aus <rs type="place" ref="pmb45258">München</rs> herüber.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
 </TEI>
