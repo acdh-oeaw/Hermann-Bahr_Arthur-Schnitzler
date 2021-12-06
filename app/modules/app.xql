@@ -113,7 +113,7 @@ declare function app:view_list($type,$date,$author,$id,$q) {
             </div>
             {
             
-            for $doc in collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author[contains(@key,$author)]/ancestor::tei:TEI
+            for $doc in collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author[contains(@ref,$author)]/ancestor::tei:TEI
         let $date := 
             switch (substring($doc/@xml:id/string(),1,1))
             case "T" return $doc//tei:origDate/@when/string()
@@ -135,14 +135,14 @@ return
         </div>,
         (:Briefe an:)
         
-        if (collection($config:data-root)//tei:addressee//tei:persName[contains(@key,$author)]) then
+        if (collection($config:data-root)//tei:addressee//tei:persName[contains(@ref,$author)]) then
         
         <div class="col-sm-9">
             <div class="title-box briefe-an">
                 <h2 class="doc-title">Briefe an {collection($config:data-root)/id($author)//tei:forename || " " || collection($config:data-root)/id($author)//tei:surname}</h2>
             </div>
             {
-                for $letter in collection($config:data-root)//tei:addressee/tei:persName[contains(@key,$author)]/ancestor::tei:TEI
+                for $letter in collection($config:data-root)//tei:addressee/tei:persName[contains(@ref,$author)]/ancestor::tei:TEI
                 let $date := $letter//tei:dateSender/tei:date/@when/string()
                 order by $date ascending
                 return 
@@ -227,7 +227,7 @@ declare function app:view_single($id,$type,$show, $view-mode,$q) {
             
             }   
             <div class="authors">
-            {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@key return
+            {for $authorkey in collection($config:data-root)/id($docid)//tei:titleStmt//tei:author/@ref return
             <a class="author-link" href="view.html?author={$authorkey}">
             {collection($config:data-root)/id($authorkey)//tei:forename || " " || collection($config:data-root)/id($authorkey)//tei:surname}</a>
             }    
@@ -333,7 +333,7 @@ declare function app:view_verfasserliste() {
             </div>
 
             {
-                for $verfasser-id in distinct-values(collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author/@key) 
+                for $verfasser-id in distinct-values(collection($config:data-root)//tei:fileDesc//tei:titleStmt//tei:author/@ref) 
                 let $vorname := collection($config:data-root)//id($verfasser-id)//tei:forename
                 let $nachname := collection($config:data-root)//id($verfasser-id)//tei:surname
                 order by $nachname
@@ -477,9 +477,7 @@ function app:register_liste($type) {
                 <div class="title-box">
                 <h2 class="doc-title">Register</h2>
             </div>
-            <div class="verfListHinweis">
-                <a href="view.html?author=all">Verfasserverzeichnis</a>
-            </div>
+            
                 <div class="filterSearch">
                 <form class="filter_search">
                     <div class="input-group input-group-sm">
@@ -523,40 +521,40 @@ declare function app:register_single($keys) {
                           
                           ,
                           
-                          if (collection($config:data-root)/id($key)//tei:birth/@when and collection($config:data-root)/id($key)//tei:death/@when) then
-                              "(" || collection($config:data-root)/id($key)//tei:birth/@when || "–" || collection($config:data-root)/id($key)//tei:death/@when || ")"
+                       (:   if (collection($config:data-root)/id($key)//tei:birth/tei:date/@when and collection($config:data-root)/id($key)//tei:death/tei:date/@when) then
+                              "(" || collection($config:data-root)/id($key)//tei:birth/tei:date//@when || "–" || collection($config:data-root)/id($key)//tei:death/tei:date/@when || ")"
                               else
                                   
-                                  (:nur Geburtsdatum:)
-                                  if (collection($config:data-root)/id($key)//tei:birth/@when and not(collection($config:data-root)/id($key)//tei:death/@when)) then 
-                                      if (collection($config:data-root)/id($key)//tei:birth/tei:placeName) then
-                                      (: Geburtsdatum und Geburtsort:)
-                                      "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/@when || " " || collection($config:data-root)/id($key)//tei:birth/tei:placeName ||  ")"
+                                  (\:nur Geburtsdatum:\)
+                                  if (collection($config:data-root)/id($key)//tei:birth/tei:date//@when and not(collection($config:data-root)/id($key)//tei:death/tei:date/@when)) then 
+                                      if (collection($config:data-root)/id($key)//tei:birth/tei:placeName/tei:settlement) then
+                                      (\: Geburtsdatum und Geburtsort:\)
+                                      "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/tei:date//@when || " " || collection($config:data-root)/id($key)//tei:birth/tei:placeName/tei:settlement ||  ")"
                                       
                                       
-                                      (:nur Geburtsjahr, kein Geburtsort:)
+                                      (\:nur Geburtsjahr, kein Geburtsort:\)
                                       else 
                                           
-                                          "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/@when ||  ")"
+                                          "(" || "*&#160;" ||  collection($config:data-root)/id($key)//tei:birth/tei:date//@when ||  ")"
                                       
                                       else 
-                                      (:nur Todesjahr:)
-                                      if (not(collection($config:data-root)/id($key)//tei:birth/@when) and collection($config:data-root)/id($key)//tei:death/@when) then 
+                                      (\:nur Todesjahr:\)
+                                      if (not(collection($config:data-root)/id($key)//tei:birth/tei:date//@when) and collection($config:data-root)/id($key)//tei:death/tei:date/@when) then 
                                           
-                                          (:Todesjahr und Sterbeort:)
-                                          if (collection($config:data-root)/id($key)//tei:death/tei:placeName) then
+                                          (\:Todesjahr und Sterbeort:\)
+                                          if (collection($config:data-root)/id($key)//tei:death/tei:placeName/tei:settlement) then
                                           
-                                        "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/@when || " " || collection($config:data-root)/id($key)//tei:death/tei:placeName ||  ")" 
+                                        "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/tei:date//@when || " " || collection($config:data-root)/id($key)//tei:death/tei:placeName/tei:settlement ||  ")" 
                                         
                                         else 
-                                            (: Nur Todesjahr, kein Sterbeort:)
-                                            "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/@when ||  ")"
+                                            (\: Nur Todesjahr, kein Sterbeort:\)
+                                            "(" || "†&#160;" ||  collection($config:data-root)/id($key)//tei:death/tei:date//@when ||  ")"
                                         
                                           else ()
                                   
                                   
                                   
-                                  ,
+                                  ,:)
                                   
                             if (collection($config:data-root)/id($key)//tei:addName) then
                                 <span>, {collection($config:data-root)/id($key)//tei:addName/text()}</span>
@@ -576,18 +574,21 @@ declare function app:register_single($keys) {
                               if (contains(collection($config:data-root)/id($key)//tei:placeName,"Wien")) then collection($config:data-root)/id($key)//tei:settlement || " " || collection($config:data-root)/id($key)//tei:district
                               else collection($config:data-root)/id($key)//tei:placeName
                           else
-                               collection($config:data-root)/id($key)//tei:placeName 
+                               collection($config:data-root)/id($key)//tei:placeName
                               
                           )
-                      case "biblFull" return 
+                      case "bibl" return 
                           (
                           if (collection($config:data-root)/id($key)//tei:title and collection($config:data-root)/id($key)//tei:author) then 
                               if (collection($config:data-root)/id($key)//tei:author//tei:surname) then
                                   collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()
                               else
                                   collection($config:data-root)/id($key)//tei:title/text() 
-                          else "Werk " || $key
+                          else "Werk " || $key 
+                          
                           )
+                     
+                          
                       case "org" return 
                           (
                               if (collection($config:data-root)/id($key)//tei:orgName) then 
@@ -603,18 +604,20 @@ declare function app:register_single($keys) {
                                   
                                   )
                                   else "Organisation " || $key
+                                  
                           )
                           
-                      default return $key
+                      default return $key 
                   }
               </h2>
+                
               
           </div>
           {
               (: Vollständig abgedruckte Werke:)
-              if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[@key = $key]) then 
+              if (collection($config:data-root)/id($key)/name() eq "biblFull" and collection($config:data-root)//tei:titleStmt/tei:title[@ref = $key]) then 
                     <div>
-                        <a href="index.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[@key = $key]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
+                        <a href="index.html?id={collection($config:data-root)//tei:TEI[.//tei:titleStmt/tei:title[@ref = $key]]/@xml:id/string()}">{collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()}
                         </a>
                     </div>
                   else ()
@@ -627,20 +630,70 @@ declare function app:register_single($keys) {
                 switch (collection($config:data-root)/id($keys)/name())
                 case "person" return
                 (
-                <p>{"*&#160;" || collection($config:data-root)/id($keys)//tei:birth/@when/string() || " " || collection($config:data-root)/id($keys)//tei:birth/tei:placeName}</p>,
-                <p>{"†&#160;" || collection($config:data-root)/id($keys)//tei:death/@when/string() || " " || collection($config:data-root)/id($keys)//tei:death/tei:placeName}
-                </p>,
                 
-                if (collection($config:data-root)/id($keys)//tei:idno[@type='GND']) then
-                    <p>GND: <a href="http://d-nb.info/gnd/{collection($config:data-root)/id($keys)//tei:idno[@type='GND']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='GND']/string()}</a></p> else ()
+                if (collection($config:data-root)/id($keys)/tei:birth/tei:date) then 
+                <p>{"*&#160;" || collection($config:data-root)/id($keys)//tei:birth/tei:date/string() || " " || collection($config:data-root)/id($keys)//tei:birth/tei:placeName/tei:settlement}</p> else(),
+                if (collection($config:data-root)/id($keys)/tei:death/tei:date) then 
+                <p>{"†&#160;" || collection($config:data-root)/id($keys)//tei:death/tei:date/string() || " " || collection($config:data-root)/id($keys)//tei:death/tei:placeName/tei:settlement}
+                </p> else(),
+                
+                                                 if (collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}</a></p> else ()
+                    ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='gnd']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='gnd']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='gnd']/string()}</a></p> else ()
+                    ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']) then
+                    <p>Schnitzler, Tagebuch: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}</a></p> else ()
+                
+                ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']) then
+                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}</a></p> else ()
                 
                 
                 )
                     
-                case "place" return (: "Ort-Meta" :) ""
-                case "biblFull" return 
+                case "place" return (: "Ort-Meta" :) 
+                (
+                
+                if (collection($config:data-root)/id($keys)/tei:desc/tei:gloss) then
+                <p>{collection($config:data-root)/id($keys)//tei:desc/tei:gloss/string()}</p>
+                else (),
+                
+                if (collection($config:data-root)/id($keys)//tei:location/tei:geo) then
+                <p><a target="_blank" href="{concat('https://www.openstreetmap.org/?mlat=', collection($config:data-root)/id($keys)//tei:location/tei:geo/substring-before(.,' '), '&amp;mlon=', collection($config:data-root)/id($keys)//tei:location/tei:geo/substring-after(.,' '), '#map=12/', collection($config:data-root)/id($keys)//tei:location/tei:geo/substring-before(.,' '), '/', collection($config:data-root)/id($keys)//tei:location/tei:geo/substring-after(.,' '))}">Openstreetmap</a></p>
+                else (),
+                
+                
+                                                 if (collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}</a></p> else ()
+                    ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='geonames']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='geonames']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='geonames']/string()}</a></p> else ()
+                    ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']) then
+                    <p>Schnitzler, Tagebuch: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}</a></p> else ()
+                
+                ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']) then
+                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}</a></p> else ()
+                
+                
+                )
+                
+                case "bibl" return 
                     
                         (
+                        if (collection($config:data-root)/id($keys)//tei:date) then
+                    <p>{collection($config:data-root)/id($keys)//tei:date/string()}</p> else (),
+                    if (collection($config:data-root)/id($keys)//tei:gloss) then
+                    <p>{collection($config:data-root)/id($keys)//tei:gloss/string()}</p> else (),
+                    
+                    
+                
+                        
+                        
+                        
                         if (collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]) then
                             <p>
                             {collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]}
@@ -654,11 +707,42 @@ declare function app:register_single($keys) {
                             if (collection($config:data-root)/id($keys)//tei:ab[@type="Erscheinungsdatum"])
                             then 
                                 <p>{collection($config:data-root)/id($keys)//tei:ab[@type="Erscheinungsdatum"]/text()}</p>
-                                else ""
+                                else "",
+                                
+                                 if (collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}</a></p> else ()
+                    ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']) then
+                    <p>Schnitzler, Tagebuch: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}</a></p> else ()
+                
+                ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']) then
+                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}</a></p> else ()
                         )
                     
             
-                case "org" return (: "Organisations-Meta" :) ""
+                case "org" return (: "Organisations-Meta" :) 
+                (
+                                if (collection($config:data-root)/id($keys)/tei:desc/tei:gloss) then
+                <p>{collection($config:data-root)/id($keys)//tei:desc/tei:gloss/string()}</p>
+                else (),
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='gnd']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='gnd']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='gnd']/string()}</a></p> else ()
+                   ,
+                
+                     if (collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']) then
+                    <p><a  target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='wikidata']/string()}</a></p> else ()
+                    
+                 ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']) then
+                    <p>Schnitzler, Tagebuch: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-tagebuch']/string()}</a></p> else ()
+                
+                ,
+                if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']) then
+                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}</a></p> else ()
+                
+                
+                )
                 default return ""
               else ()
           }
@@ -668,7 +752,7 @@ declare function app:register_single($keys) {
           {
               let $liste :=
                 for $key in tokenize($keys,',') return
-                    for $doc in (collection($config:data-root)//tei:body//element()[@key = $key]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[@key = $key]/ancestor::tei:note, collection($config:data-root)//tei:physDesc//element()[@key = $key]/ancestor::tei:TEI)
+                    for $doc in (collection($config:data-root)//tei:body//element()[@ref = $key]/ancestor::tei:TEI[@xml:id], collection($config:data-root)//tei:note[@xml:id]//element()[@ref = $key]/ancestor::tei:note, collection($config:data-root)//tei:physDesc//element()[@ref = $key]/ancestor::tei:TEI)
                     (:issue #108 – physDesc :)
                     let $sortdate :=
                     switch (substring($doc/@xml:id/string(),1,1))
@@ -694,7 +778,7 @@ declare function app:register_single($keys) {
                     
                     if (substring($doc/@xml:id/string(),1,1)="K") then 
                         (
-                        "Kommentar zu: ",
+                        "Kommentar ",
                         collection($config:data-root)//id($doc/@xml:id)/ancestor::tei:TEI/tei:titleStmt/tei:title[@level="a"]/text()
                         ) else
                     $doc//tei:titleStmt/tei:title[@level="a"]/text()
@@ -703,7 +787,7 @@ declare function app:register_single($keys) {
                 <p>
                     { 
                         
-                        for $hit in $doc//tei:body//element()[@key = $key]
+                        for $hit in $doc//tei:body//element()[@ref = $key]
                         return
                             (
                             <span class="previous">... 
@@ -794,6 +878,10 @@ function app:nav($node as node(), $model as map(*)) {
                                 <li class="hidden-xs hidden-sm">
                                     <a href="register.html">Register</a>
                                 </li>
+                                 <li class="hidden-xs hidden-sm">
+                                    <a href="view.html?author=all">Verfasserverzeichnis</a>
+                                </li>
+                                
                                 <!-- /Register -->
 
 
