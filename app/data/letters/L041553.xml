@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Brahm an Arthur Schnitzler, 28. 12. 1909</title> 
-            <author key="pmb10986">Brahm, Otto</author> 
+            <author ref="pmb10986">Brahm, Otto</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19091228" n="1">28. 12. 1909</date> 
@@ -61,8 +61,8 @@
             <listBibl> 
                <biblStruct default="false" corresp="ASOB"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -90,16 +90,16 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb168"> 
+                  <rs type="place" ref="pmb168"> 
                      <settlement>Berlin</settlement> 
-                  </placeName>, <date>28. Dezember 1909</date> 
+                  </rs>, <date>28. Dezember 1909</date> 
                </dateline> 
                <salute>Lieber Freund,</salute> 
             </opener> 
-            <p>grade gestern schrieb ich Ihnen. <persName key="pmb12671">Schlenthers</persName> Brief ist allerdings im Ausdruck schwankender als das, was er mir mündlich sagte. Ich würde aber für das Praktischste halten, daß Sie ihn zunächst beim Wort nehmen – und dann, wenn der Nachfolger gefunden und bereit ist, Sie im Herbst zu spielen, sich mit <persName key="pmb12671">Schlenther</persName> entsprechend arrangieren. Auf diese Weise bekommen Sie wenigstens nach dem langen Warten etwas in die Hand, einen Spatz freilich. Aber der scheint mir wertvoller als eine Debatte mit <persName key="pmb12671">Schlenther</persName> auf Grund jener Wirtshausäußerung, die ja, eben des Ortes wegen, wo sie fiel, nichts Verbindliches im strengeren Sinne haben kann.</p> 
-            <p>Danke schön für Ihre Worte über <workName key="pmb29933"> 
+            <p>grade gestern schrieb ich Ihnen. <rs type="person" ref="pmb12671">Schlenthers</rs> Brief ist allerdings im Ausdruck schwankender als das, was er mir mündlich sagte. Ich würde aber für das Praktischste halten, daß Sie ihn zunächst beim Wort nehmen – und dann, wenn der Nachfolger gefunden und bereit ist, Sie im Herbst zu spielen, sich mit <rs type="person" ref="pmb12671">Schlenther</rs> entsprechend arrangieren. Auf diese Weise bekommen Sie wenigstens nach dem langen Warten etwas in die Hand, einen Spatz freilich. Aber der scheint mir wertvoller als eine Debatte mit <rs type="person" ref="pmb12671">Schlenther</rs> auf Grund jener Wirtshausäußerung, die ja, eben des Ortes wegen, wo sie fiel, nichts Verbindliches im strengeren Sinne haben kann.</p> 
+            <p>Danke schön für Ihre Worte über <rs type="work" ref="pmb29933"> 
                   <hi rend="italic">Das Konzert</hi> 
-               </workName>. Den <anchor type="commentary" xml:id="KL553-1">Brief an <persName key="pmb12504">Reinhardt</persName> 
+               </rs>. Den <anchor type="commentary" xml:id="KL553-1">Brief an <rs type="person" ref="pmb12504">Reinhardt</rs> 
                </anchor> hätt ich gern gelesen: als document humain, als literaturgeschichtliche Abrechnung im Schnitzler-Stil, und so denke ich ihn mir höchst remarkabel.</p> 
             <closer>Ihrigst <signed>O. B.</signed> 
             </closer> 

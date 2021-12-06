@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Otto Brahm, 23. 9. 1911</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,13 +42,13 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <!-- <placeAddressee><placeName key="pmb168">Berlin</placeName></placeAddressee>--> 
                <dateSender> 
@@ -59,7 +59,7 @@
             <listBibl> 
                <biblStruct corresp="ASB1" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1875–1912</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -72,8 +72,8 @@
                </biblStruct> 
                <biblStruct corresp="ASOB" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -101,16 +101,16 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, <date>23. September 11</date> 
+                  </rs>, <date>23. September 11</date> 
                </dateline> 
                <salute>Lieber Freund,</salute> 
             </opener> 
             <p> 
-               <persName key="pmb10815">Bahr</persName> hat mir »<workName key="pmb30085">Das Tänzchen</workName>« geschickt. Finde es zum Teil ganz charmant, und Ihre neulich angedeutete Idee, das Stück (das Sie wohl zu den herrlichsten Strichen Ihres Lebens begeistern wird) mit der »<workName key="pmb29931">Mizzi</workName>« an einem (und vielen darauffolgenden) Abenden zu geben, ist mir sympathisch. In der Stimmung passen die Sachen wohl zusammen, <anchor type="label" xml:id="LL349-1">ein sanfter Hauch von Anarchie wird das Haus durchziehen</anchor>. Wir sind noch in <placeName key="pmb50"> 
+               <rs type="person" ref="pmb10815">Bahr</rs> hat mir »<rs type="work" ref="pmb30085">Das Tänzchen</rs>« geschickt. Finde es zum Teil ganz charmant, und Ihre neulich angedeutete Idee, das Stück (das Sie wohl zu den herrlichsten Strichen Ihres Lebens begeistern wird) mit der »<rs type="work" ref="pmb29931">Mizzi</rs>« an einem (und vielen darauffolgenden) Abenden zu geben, ist mir sympathisch. In der Stimmung passen die Sachen wohl zusammen, <anchor type="label" xml:id="LL349-1">ein sanfter Hauch von Anarchie wird das Haus durchziehen</anchor>. Wir sind noch in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName>, <persName key="pmb2173">Olga</persName> soll erst in ein paar Tagen aufstehen, es geht ihr viel besser. Ich freue mich an Ihrem schönen »<workName key="pmb31319">Kleist</workName>«.</p> 
+               </rs>, <rs type="person" ref="pmb2173">Olga</rs> soll erst in ein paar Tagen aufstehen, es geht ihr viel besser. Ich freue mich an Ihrem schönen »<rs type="work" ref="pmb31319">Kleist</rs>«.</p> 
             <closer>Von Herzen Ihr <signed>A. S.</signed> 
             </closer> 
          </div> 

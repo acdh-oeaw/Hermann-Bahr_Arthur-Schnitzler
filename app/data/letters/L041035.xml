@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 19. 4. 1901</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19010419" n="01">19. 4. 1901</date> 
@@ -79,7 +79,7 @@
                      <date when="19010419">19. 4. 1901</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -117,10 +117,10 @@
             <opener> 
                <salute>lieber Hermann,</salute> 
             </opener> 
-            <p>die Vorstellung der <placeName key="pmb2">Schauspielschule</placeName> von der ich dir neulich gesprochen findet Sonntag den <date>28. April</date> statt; u. das Fräulein <persName key="pmb2173">Gussmann</persName> wird nicht die <anchor type="commentary" xml:id="KL035-2"> 
-                  <rs type="work" key="pmb29955">Rebecca</rs> 
+            <p>die Vorstellung der <rs type="place" ref="pmb2">Schauspielschule</rs> von der ich dir neulich gesprochen findet Sonntag den <date>28. April</date> statt; u. das Fräulein <rs type="person" ref="pmb2173">Gussmann</rs> wird nicht die <anchor type="commentary" xml:id="KL035-2"> 
+                  <rs type="work" subtype="implied" ref="pmb29955">Rebecca</rs> 
                </anchor> sondern die <anchor type="commentary" xml:id="KL035-1"> 
-                  <rs type="work" key="pmb29953">Maria Magdalena</rs> 
+                  <rs type="work" subtype="implied" ref="pmb29953">Maria Magdalena</rs> 
                </anchor> spielen, was vielleicht noch interessanter sein dürfte. Wenn du also Zeit<pb/> und Laune hast, möcht ich dich bitten zu kommen. Den Sitz erhältst du jedenfalls zugesandt.</p> 
             <closer>Herzlich grüßend dein<lb/> 
                <signed>Arthur Schnitzler</signed> 
@@ -128,9 +128,9 @@
             <postscript> 
                <p> 
                   <date> 
-                     <placeName key="pmb50"> 
+                     <rs type="place" ref="pmb50"> 
                         <settlement>Wien</settlement> 
-                     </placeName>, <date>19. 4. 901</date>.</date> 
+                     </rs>, <date>19. 4. 901</date>.</date> 
                </p> 
             </postscript> 
          </div> 

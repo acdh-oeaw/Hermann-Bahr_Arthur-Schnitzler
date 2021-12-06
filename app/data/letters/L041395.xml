@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Felix Salten, 18. 1. 1907</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2167">Salten, Felix</persName> 
+                  <persName ref="pmb2167">Salten, Felix</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19070118" n="01">18. 1. 1907</date> 
@@ -61,7 +61,7 @@
             <listBibl> 
                <biblStruct corresp="ASB1" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1875–1912</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -89,7 +89,7 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <p rend="right"> 
-                  <placeName key="pmb133">Wien, XVIII. Spoettelgasse 7.</placeName> 
+                  <rs type="place" ref="pmb133">Wien, XVIII. Spoettelgasse 7.</rs> 
                </p> 
                <dateline rend="right"> 
                   <date>18/1 907</date> 
@@ -97,15 +97,15 @@
             </opener> 
             <p> 
                <salute>lieber, </salute> 
-               <persName key="pmb10815">Bahr</persName> kommt erst ½ 2, wir speisen also erst ¾ 2, was ich zur Ordnung eventueller Hungerangelegenheiten gebührend mittheile. Aber kommen Sie u <persName key="pmb23918">Otti</persName> deswegen nicht später.</p> 
+               <rs type="person" ref="pmb10815">Bahr</rs> kommt erst ½ 2, wir speisen also erst ¾ 2, was ich zur Ordnung eventueller Hungerangelegenheiten gebührend mittheile. Aber kommen Sie u <rs type="person" ref="pmb23918">Otti</rs> deswegen nicht später.</p> 
             <closer>Herzlichst<lb/> 
                <signed>A.</signed> 
             </closer> 
             <postscript> 
                <p>Ihr <anchor type="commentary" xml:id="KL395-1"> 
-                     <rs type="work" key="pmb31287"> 
-                        <workName key="pmb31717 pmb31719">Husarenfieber</workName>feuill.</rs> 
-                  </anchor> erster Rang. Was hilft’s? <placeName key="pmb162">Oesterreich</placeName> ist das Land des Verhallens.</p> 
+                     <rs type="work" subtype="implied" ref="pmb31287"> 
+                        <rs type="work" ref="pmb31717 pmb31719">Husarenfieber</rs>feuill.</rs> 
+                  </anchor> erster Rang. Was hilft’s? <rs type="place" ref="pmb162">Oesterreich</rs> ist das Land des Verhallens.</p> 
             </postscript> 
          </div> 
       </body> 

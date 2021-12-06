@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Richard Beer-Hofmann, 21. 8. 1905</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name>Ifkovits, Kurt</name> 
                <name>Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee> 
-                  <persName key="pmb10863">Beer-Hofmann, Richard</persName> 
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb985">Fulpmes</placeName> 
+                  <placeName ref="pmb985">Fulpmes</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19050821" n="1">21. 8. 1905</date> 
@@ -68,16 +68,16 @@
                         <idno>Yale Collection of German Literature, MSSS 30 f.</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse auf dem Kuvert von unbek. Hand gestrichen und ersetzt durch: »<quote>derzeit: <placeName key="pmb751">Fulpmes Hotel Stubal Tirol</placeName> 
+                        <p>eh. Kartenbrief. Bis auf die erste Zeile Bahrs Adresse auf dem Kuvert von unbek. Hand gestrichen und ersetzt durch: »<quote>derzeit: <placeName ref="pmb751">Fulpmes Hotel Stubal Tirol</placeName> 
                            </quote>« (eigentlich ›Hotel Stubai‹).</p> 
                         <stamp n="1"> 
                            <date when="19050821">21. <supplied>8.</supplied> 05</date> 
                         </stamp> 
                         <stamp n="2"> 
-                           <placeName key="pmb173">Rodaun</placeName> 
+                           <placeName ref="pmb173">Rodaun</placeName> 
                         </stamp> 
                         <stamp n="3"> 
-                           <placeName key="pmb751">Fulpmes</placeName> 
+                           <placeName ref="pmb751">Fulpmes</placeName> 
                            <date when="19050823">23. 8. 05</date> 
                         </stamp> 
                      </physDesc> 
@@ -102,8 +102,8 @@
             <address> 
                <addrLine>Herrn D<hi rend="superscript">r</hi> Richard Beer-Hofmann</addrLine> 
                <addrLine> 
-                  <placeName key="pmb173"> 
-                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</placeName> 
+                  <rs type="place" ref="pmb173"> 
+                     <hi rend="underline" n="1">Rodaun</hi> bei Wien</rs> 
                </addrLine> 
                <addrLine> 
                   <hi rend="underline" n="1">Bitte nachsenden.</hi> 
@@ -119,15 +119,15 @@
                </p> 
                <salute>Lieber Richard!</salute> 
             </opener> 
-            <p>Die <anchor type="commentary" xml:id="KL632-1">Karten</anchor> aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und ebenso hat Ihnen <persName key="pmb26392">Vanjung</persName> wol meine <placeName key="pmb30"> 
+            <p>Die <anchor type="commentary" xml:id="KL632-1">Karten</anchor> aus meinen wunderschönen Ferien haben Sie hoffentlich erhalten und ebenso hat Ihnen <rs type="person" ref="pmb26392">Vanjung</rs> wol meine <rs type="place" ref="pmb30"> 
                   <settlement>Salzburg</settlement> 
-               </placeName>er Grüße gebracht. Leider vergaß ich, nach Ihrer Adresse zu fragen, und muß Ihnen deshalb über <placeName key="pmb173">Rodaun</placeName> schreiben. Ich brauche nemlich das Exemplar der »<workName key="pmb29999">Anderen</workName>«, das Ihnen <persName key="pmb2121">Arthur</persName>, auf meine Bitte, gegeben hat, und wäre Ihnen sehr dankbar, wenn es ihnen nicht zu viel Mühe machen wurde, es mir zu schicken. Plagen Sie sich aber nicht damit, mir dazu einen langen Brief zu schreiben – es ist viel gemütlicher: wir sprechen dann einmal hier in aller Ruhe davon. Ich sehne mich schon sehr, Sie und Frau <persName key="pmb10860">Paula</persName>, die ich herzlichst grüße, wiederzusehen.</p> 
+               </rs>er Grüße gebracht. Leider vergaß ich, nach Ihrer Adresse zu fragen, und muß Ihnen deshalb über <rs type="place" ref="pmb173">Rodaun</rs> schreiben. Ich brauche nemlich das Exemplar der »<rs type="work" ref="pmb29999">Anderen</rs>«, das Ihnen <rs type="person" ref="pmb2121">Arthur</rs>, auf meine Bitte, gegeben hat, und wäre Ihnen sehr dankbar, wenn es ihnen nicht zu viel Mühe machen wurde, es mir zu schicken. Plagen Sie sich aber nicht damit, mir dazu einen langen Brief zu schreiben – es ist viel gemütlicher: wir sprechen dann einmal hier in aller Ruhe davon. Ich sehne mich schon sehr, Sie und Frau <rs type="person" ref="pmb10860">Paula</rs>, die ich herzlichst grüße, wiederzusehen.</p> 
             <closer>Ihr alter<lb/> 
                <signed>Hermann</signed> 
             </closer> 
             <postscript> 
                <p> 
-                  <persName key="pmb12504">Reinhardt</persName> hat mein <rs type="work" key="pmb29999" subtype="local-short">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p> 
+                  <rs type="person" ref="pmb12504">Reinhardt</rs> hat mein <rs type="work" subtype="implied" ref="pmb29999">Stück</rs> seit sechs Wochen, ohne mir irgend eine Nachricht zu geben: echt.</p> 
             </postscript> 
          </div> 
       </body> 

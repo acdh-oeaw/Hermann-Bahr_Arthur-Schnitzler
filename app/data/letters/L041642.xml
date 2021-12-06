@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 9. 10. 1894</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10863">Beer-Hofmann, Richard</persName> 
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb445">Rom</placeName> 
+                  <placeName ref="pmb445">Rom</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18941009" n="01">9. 10. 1894</date> 
@@ -70,12 +70,12 @@
                      <physDesc> 
                         <p>eh. Korrespondenzkarte, Bleistift.</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb59">Wien 9/3</placeName> 
+                           <placeName ref="pmb59">Wien 9/3</placeName> 
                            <date when="18941009">9. 10. 94</date> 
                            <time>5–6 N</time> 
                         </stamp> 
                         <stamp n="2"> 
-                           <placeName key="pmb445">Roma</placeName> 
+                           <placeName ref="pmb445">Roma</placeName> 
                            <date when="18941110">11 10 <supplied>94</supplied> 
                            </date> 
                            <time>8 M</time> 
@@ -103,9 +103,9 @@
                <addrLine> 
                   <hi rend="latintype"> 
                      <hi rend="underline" n="1"> 
-                        <placeName key="pmb275"> 
+                        <rs type="place" ref="pmb275"> 
                            <country>Italien</country> 
-                        </placeName> 
+                        </rs> 
                      </hi> 
                   </hi> 
                </addrLine> 
@@ -114,14 +114,14 @@
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb445"> 
+                     <rs type="place" ref="pmb445"> 
                         <settlement>Rom</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb769">Hotel Quirinal</placeName> 
+                     <rs type="place" ref="pmb769">Hotel Quirinal</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -130,37 +130,37 @@
             <opener> 
                <p> 
                   <unclear> 
-                     <placeName key="pmb50" cert="low"> 
+                     <rs cert="low" type="place" ref="pmb50"> 
                         <settlement>Wien</settlement> 
-                     </placeName> 
+                     </rs> 
                   </unclear> 
                </p> 
                <dateline rend="right"> 
                   <date>Dienstag, 9. 10. 94</date>.</dateline> 
             </opener> 
             <p> 
-               <salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief <placeName key="pmb445"> 
+               <salute>Lieber Richard, </salute>bitte theilen Sie mir mit, ob Sie meinen Brief <rs type="place" ref="pmb445"> 
                   <settlement>Rom</settlement> 
-               </placeName> 
+               </rs> 
                <space unit="chars" quantity="1"/> 
-               <hi rend="latintype">a post. ferm</hi> der »Lieber Bekannter« anfing, nicht erhalten haben. Und die 2 Karten nach <placeName key="pmb975"> 
+               <hi rend="latintype">a post. ferm</hi> der »Lieber Bekannter« anfing, nicht erhalten haben. Und die 2 Karten nach <rs type="place" ref="pmb975"> 
                   <settlement>Pallanza</settlement> 
-               </placeName>? –</p> 
+               </rs>? –</p> 
             <p> 
-               <persName key="pmb10815"> 
+               <rs type="person" ref="pmb10815"> 
                   <hi rend="latintype">Bahr</hi> 
-               </persName>: <placeName key="pmb770">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</placeName>. Er hat sich sehr über Ihr Telegr. gefreut. Erste <rs type="org" key="pmb29209">Nummer</rs> wohlgelungen. <hi rend="latintype"> 
+               </rs>: <rs type="place" ref="pmb770">Wien, VIII <hi rend="latintype">Lammgasse</hi> 3</rs>. Er hat sich sehr über Ihr Telegr. gefreut. Erste <rs type="org" subtype="implied" ref="pmb29209">Nummer</rs> wohlgelungen. <hi rend="latintype"> 
                   <anchor type="commentary" xml:id="KL642-1"> 
-                     <rs type="work" key="pmb31363"> 
-                        <persName key="pmb2713">Helferich</persName> 
+                     <rs type="work" subtype="implied" ref="pmb31363"> 
+                        <rs type="person" ref="pmb2713">Helferich</rs> 
                      </rs> 
                   </anchor> 
                </hi> famos; <anchor type="commentary" xml:id="KL642-3"> 
-                  <persName key="pmb10815"> 
+                  <rs type="person" ref="pmb10815"> 
                      <hi rend="latintype">Bahr</hi> 
-                  </persName>’s Sachen</anchor>, besonders <anchor type="commentary" xml:id="KL642-2"> 
-                  <workName key="pmb32209">Burgtheater</workName> 
-               </anchor> vorzüglich. – <workName key="pmb30397">Schmetterlingsschlacht</workName> noch nicht gesehen, will Freitag gehen. – Schreiben Sie mehr, wann kommen Sie?</p> 
+                  </rs>’s Sachen</anchor>, besonders <anchor type="commentary" xml:id="KL642-2"> 
+                  <rs type="work" ref="pmb32209">Burgtheater</rs> 
+               </anchor> vorzüglich. – <rs type="work" ref="pmb30397">Schmetterlingsschlacht</rs> noch nicht gesehen, will Freitag gehen. – Schreiben Sie mehr, wann kommen Sie?</p> 
             <closer>Herzlichen Gruss<space unit="chars" quantity="5"/>Ihr <signed>Arthur</signed> 
             </closer> 
          </div> 

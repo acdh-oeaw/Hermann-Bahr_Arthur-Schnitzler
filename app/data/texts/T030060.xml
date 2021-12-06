@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Gedruckte Widmung in Hermann Bahr: Rezensionen, [12. 4.] 1903</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -41,8 +41,8 @@
             <listBibl> 
                <biblStruct default="false" corresp="HBRZ"> 
                   <monogr> 
-                     <author key="pmb10815">Bahr, Hermann</author> 
-                     <title level="m" key="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title> 
+                     <author ref="pmb10815">Bahr, Hermann</author> 
+                     <title level="m" ref="pmb29891">Rezensionen. Wiener Theater 1901 bis 1903</title> 
                      <imprint> 
                         <pubPlace>Berlin</pubPlace> 
                         <publisher>S. Fischer</publisher> 
@@ -68,12 +68,12 @@
       <body> 
          <div> 
             <p rend="center" part="N"> 
-               <workName key="pmb29891"/>Meinem lieben <persName key="pmb2121"> 
+               <rs type="work" ref="pmb29891"/>Meinem lieben <rs type="person" ref="pmb2121"> 
                   <hi rend="spaced_out">Arthur Schnitzler</hi> 
-               </persName> 
+               </rs> 
                <lb/>nach zwölf Jahren.</p> 
             <p part="N"> 
-               <placeName key="pmb665">Sankt Veit</placeName>, Ostern 1903.</p> 
+               <rs type="place" ref="pmb665">Sankt Veit</rs>, Ostern 1903.</p> 
          </div> 
       </body> 
    </text> 

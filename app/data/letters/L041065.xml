@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 11. 11. 1903</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19031111" n="01">11. 11. 1903</date> 
@@ -70,12 +70,12 @@
                      <physDesc> 
                         <p>Briefkarte</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb68">Wien 18/1</placeName> 
+                           <placeName ref="pmb68">Wien 18/1</placeName> 
                            <date when="19031111">11. 11. 03</date> 
                            <time>11–12 V</time> 
                         </stamp> 
                         <stamp n="2"> 
-                           <placeName key="pmb63">Wien 13/7</placeName> 
+                           <placeName ref="pmb63">Wien 13/7</placeName> 
                            <date when="19031111">11. 11. 03</date> 
                         </stamp> 
                      </physDesc> 
@@ -88,7 +88,7 @@
                      <date when="19031111">11. 11. 1903</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -127,11 +127,11 @@
                <addrLine>Herrn Hermann Bahr</addrLine> 
                <addrLine> 
                   <hi rend="underline" n="1"> 
-                     <placeName key="pmb165">Wien Ob St Veit</placeName> 
+                     <rs type="place" ref="pmb165">Wien Ob St Veit</rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb220">Veitlissengasse.</placeName> 
+                  <rs type="place" ref="pmb220">Veitlissengasse.</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -141,13 +141,13 @@
                   <date>11. 11. 903</date>.</dateline> 
             </opener> 
             <p> 
-               <salute>lieber Hermann, </salute>ich habe mich gleich an <persName key="pmb12698">Julius</persName> gewandt, da mir diese Titelsache selbst nicht erinnerlich ist; er wird dir wohl gleich direct antworten.</p> 
-            <p>In einem <anchor type="commentary" xml:id="KL065-1">Brief von <persName key="pmb10986">Brahm</persName> 
-               </anchor>, der vorgestern anlangte, ist von einem <hi rend="underline" n="1">Termin</hi> meines <rs type="work" key="pmb29985" subtype="local-short">Stückes</rs> noch nicht die Rede; er schreibt mir nur die Besetzung und will alles nähere nächste <hi rend="underline" n="1">Woche</hi> mündlich mit mir besprechen<add place="inline">·)</add> Er kommt, (was vielleicht noch niemand wissen soll?) zum <anchor type="commentary" xml:id="KL065-2"> 
-                  <rs type="work" key="pmb29981">Fulda</rs> 
+               <salute>lieber Hermann, </salute>ich habe mich gleich an <rs type="person" ref="pmb12698">Julius</rs> gewandt, da mir diese Titelsache selbst nicht erinnerlich ist; er wird dir wohl gleich direct antworten.</p> 
+            <p>In einem <anchor type="commentary" xml:id="KL065-1">Brief von <rs type="person" ref="pmb10986">Brahm</rs> 
+               </anchor>, der vorgestern anlangte, ist von einem <hi rend="underline" n="1">Termin</hi> meines <rs type="work" subtype="implied" ref="pmb29985">Stückes</rs> noch nicht die Rede; er schreibt mir nur die Besetzung und will alles nähere nächste <hi rend="underline" n="1">Woche</hi> mündlich mit mir besprechen<add place="inline">·)</add> Er kommt, (was vielleicht noch niemand wissen soll?) zum <anchor type="commentary" xml:id="KL065-2"> 
+                  <rs type="work" subtype="implied" ref="pmb29981">Fulda</rs> 
                </anchor> her. Nach dem Telegr<damage agent="hole"> 
                   <supplied>amm</supplied> 
-               </damage> an dich zu schließen, dürftest du wohl <hi rend="underline" n="1">vor mir</hi>, etwa <date>Anfang Dezember</date>, <rs type="work" key="pmb29983" subtype="local-short">drankommen</rs>?</p> 
+               </damage> an dich zu schließen, dürftest du wohl <hi rend="underline" n="1">vor mir</hi>, etwa <date>Anfang Dezember</date>, <rs type="work" subtype="implied" ref="pmb29983">drankommen</rs>?</p> 
             <closer>Herzlichen Gruss. Dein <signed>A.</signed> 
             </closer> 
             <postscript> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 9. 11. 1892</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18921109" n="01">9. 11. 1892</date> 
@@ -78,8 +78,8 @@
             <listBibl> 
                <biblStruct corresp="HvHAS" default="false"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -109,20 +109,20 @@
             <opener> 
                <salute>Liebster Hugo,</salute> 
             </opener> 
-            <p>zu <workName key="pmb31971"> 
+            <p>zu <rs type="work" ref="pmb31971"> 
                   <hi rend="latintype">Musotte</hi> 
-               </workName> geh ich beinahe sicher.– Wir soupiren also miteinander.– Rendezvous einfach im Parterre Foyer.– Herrn von <persName key="pmb4326"> 
+               </rs> geh ich beinahe sicher.– Wir soupiren also miteinander.– Rendezvous einfach im Parterre Foyer.– Herrn von <rs type="person" ref="pmb4326"> 
                   <hi rend="latintype">Ehrhardt</hi> 
-               </persName> hab ich alles ausgerichtet.– Wissen Sie schon? Dinstag <unclear> 
+               </rs> hab ich alles ausgerichtet.– Wissen Sie schon? Dinstag <unclear> 
                   <c rendition="#kaufmannsund"/> 
-               </unclear> Samstag <placeName key="pmb49">Cafe Pfob</placeName>.– Die andern Abende <placeName key="pmb48">Café Union</placeName> – <add place="below">lies <hi rend="latintype"> 
+               </unclear> Samstag <rs type="place" ref="pmb49">Cafe Pfob</rs>.– Die andern Abende <rs type="place" ref="pmb48">Café Union</rs> – <add place="below">lies <hi rend="latintype"> 
                      <anchor type="textConst" xml:id="TL418-1">Union</anchor> 
                   </hi> 
-               </add> (<placeName key="pmb412"> 
+               </add> (<rs type="place" ref="pmb412"> 
                   <hi rend="latintype">Grillparzerstraße</hi> 
-               </placeName>.) –<pb/> 
+               </rs>.) –<pb/> 
             </p> 
-            <p>Hat Ihnen <persName key="pmb11061">Bölsche</persName> geantwortet?– Was treiben Sie überhaupt?– Eigentlich habe ich gehofft, Sie heuer öfters zu sehen. Ich arbeite; bin aber leider sehr talentlos.</p> 
+            <p>Hat Ihnen <rs type="person" ref="pmb11061">Bölsche</rs> geantwortet?– Was treiben Sie überhaupt?– Eigentlich habe ich gehofft, Sie heuer öfters zu sehen. Ich arbeite; bin aber leider sehr talentlos.</p> 
             <closer>Herzlichst der Ihre<lb/> 
                <signed>Arthur</signed> 
             </closer> 
@@ -132,7 +132,7 @@
                      <date>9/XI. 92</date> 
                   </dateline> 
                </p> 
-               <p>Grüßen Sie <persName key="pmb10815">Bahr</persName>!</p> 
+               <p>Grüßen Sie <rs type="person" ref="pmb10815">Bahr</rs>!</p> 
             </postscript> 
          </div> 
       </body> 

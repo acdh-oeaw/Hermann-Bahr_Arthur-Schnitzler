@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Brahm an Hermann Bahr, 16. 8. 1911</title> 
-            <author key="pmb10986">Brahm, Otto</author> 
+            <author ref="pmb10986">Brahm, Otto</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb983">Helgoland</placeName> 
+                  <placeName ref="pmb983">Helgoland</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19110816" n="1">16. 8. 1911</date> 
@@ -69,7 +69,7 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Brief, 1 Bl., 2 S., Lateinschrift, gedruckter Kopf: »<quote> 
-                              <placeName key="pmb18">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName key="pmb168"> 
+                              <placeName ref="pmb18">Lessing-Theater</placeName> / Direktion / Dr. Otto Brahm. / <placeName ref="pmb168"> 
                                  <settlement>Berlin NW. 40</settlement> 
                               </placeName>, den ........... <date>1911</date> 
                            </quote>«</p> 
@@ -94,19 +94,19 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb983"> 
+                  <rs type="place" ref="pmb983"> 
                      <settlement>Helgoland</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
                   <date>16. 8. 11</date> 
                </dateline> 
                <salute rend="center">Lieber Herr Bahr,</salute> 
             </opener> 
-            <p>Ihren Brief vom <date>3.</date> habe ich in <placeName key="pmb735"> 
+            <p>Ihren Brief vom <date>3.</date> habe ich in <rs type="place" ref="pmb735"> 
                   <settlement>Agnetendorf</settlement> 
-               </placeName> noch erhalten, und gestern erreichte mich der vom <date>13.</date> Gern will ich mit Ihnen annehmen, dass uns der <anchor type="commentary" xml:id="KL623-3">nächste Sommer in <placeName key="pmb734"> 
+               </rs> noch erhalten, und gestern erreichte mich der vom <date>13.</date> Gern will ich mit Ihnen annehmen, dass uns der <anchor type="commentary" xml:id="KL623-3">nächste Sommer in <rs type="place" ref="pmb734"> 
                      <settlement>Bayreuth</settlement> 
-                  </placeName> zusammenführt</anchor>; und ich bemerke <unclear>nu</unclear> 
+                  </rs> zusammenführt</anchor>; und ich bemerke <unclear>nu</unclear> 
                <subst> 
                   <del rend="overwritten"> 
                      <unclear>n</unclear> 
@@ -114,25 +114,25 @@
                   <add place="inline"> 
                      <unclear>r</unclear> 
                   </add> 
-               </subst> auch, dass ich Ihnen, ausser vielem Dank, 20 M. in Sachen <placeName key="pmb376">Wahnfried</placeName> schulde.</p> 
-            <p>Nun wollen wir uns also über die Terminfrage Ihres <rs type="work" key="pmb30085">Stückes</rs> unterhalten. Verehrter Freund, das ist ein schwieriges Problem; und der <unclear>Anspruch</unclear>, den ihr <anchor type="commentary" xml:id="KL623-1"> 
-                  <rs type="person" key="pmb3419">Verleger</rs> 
+               </subst> auch, dass ich Ihnen, ausser vielem Dank, 20 M. in Sachen <rs type="place" ref="pmb376">Wahnfried</rs> schulde.</p> 
+            <p>Nun wollen wir uns also über die Terminfrage Ihres <rs type="work" subtype="implied" ref="pmb30085">Stückes</rs> unterhalten. Verehrter Freund, das ist ein schwieriges Problem; und der <unclear>Anspruch</unclear>, den ihr <anchor type="commentary" xml:id="KL623-1"> 
+                  <rs type="person" subtype="implied" ref="pmb3419">Verleger</rs> 
                </anchor> und die Bühnen erbeten, ist überhaupt<pb/> nicht zu erfüllen<supplied>.</supplied> Ich gebe im <damage agent="hole"> 
                   <supplied>Se</supplied> 
                </damage>pt <anchor type="commentary" xml:id="KL623-2"> 
-                  <rs type="work" key="pmb31899"> 
-                     <persName key="pmb11273">Eulenbergs</persName> 
+                  <rs type="work" subtype="implied" ref="pmb31899"> 
+                     <rs type="person" ref="pmb11273">Eulenbergs</rs> 
                   </rs> 
-               </anchor>, im October, ca <date>14.</date>, <persName key="pmb2121">Schnitzlers</persName> neues <rs type="work" key="pmb30207" subtype="local-short">Stück</rs>. Dann folgt der <persName key="pmb11585">Hardt</persName>, dessen »<workName key="pmb32526">Gudrun</workName>« ich ebenfalls vor Ihrem Stück erhielt; aber <hi rend="underline" n="1">wann</hi> dieses Dann sein wird, und zu welcher Zeit »dann« Ihr <rs type="work" key="pmb30085">Werk</rs> herauskommen kann, das lässt sich unmöglich genau festlegen. Ich kann nur sagen, dass ich den December oder Januar dafür in Aussicht nehme. Jeder, der die <placeName key="pmb168"> 
+               </anchor>, im October, ca <date>14.</date>, <rs type="person" ref="pmb2121">Schnitzlers</rs> neues <rs type="work" subtype="implied" ref="pmb30207">Stück</rs>. Dann folgt der <rs type="person" ref="pmb11585">Hardt</rs>, dessen »<rs type="work" ref="pmb32526">Gudrun</rs>« ich ebenfalls vor Ihrem Stück erhielt; aber <hi rend="underline" n="1">wann</hi> dieses Dann sein wird, und zu welcher Zeit »dann« Ihr <rs type="work" subtype="implied" ref="pmb30085">Werk</rs> herauskommen kann, das lässt sich unmöglich genau festlegen. Ich kann nur sagen, dass ich den December oder Januar dafür in Aussicht nehme. Jeder, der die <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName>er Theaterverhältnisse kennt, wird einsehen, dass ich anderes nicht anbieten kann; und es ist auch niemals von mir, in leider 17 Jahren der Direction, verlangt worden, dass ich mich von den andern Bühnen so einengen lasse; es ist vielmehr immer <placeName key="pmb168"> 
+               </rs>er Theaterverhältnisse kennt, wird einsehen, dass ich anderes nicht anbieten kann; und es ist auch niemals von mir, in leider 17 Jahren der Direction, verlangt worden, dass ich mich von den andern Bühnen so einengen lasse; es ist vielmehr immer <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName>er Regel gewesen, dass jene sich nach uns richten. Dies bitte ich Sie also, den Herren <persName key="pmb3419">Ahn</persName> und Compagnie begreiflich zu machen, worauf sie sich auch gern <unclear>gleich</unclear> zur Ruhe geben wollen!– </p> 
+               </rs>er Regel gewesen, dass jene sich nach uns richten. Dies bitte ich Sie also, den Herren <rs type="person" ref="pmb3419">Ahn</rs> und Compagnie begreiflich zu machen, worauf sie sich auch gern <unclear>gleich</unclear> zur Ruhe geben wollen!– </p> 
             <p>Ich bin bis <date>23.</date> hier, <date>24.</date>–<date>26.</date> 
                <space unit="chars" quantity="1"/> 
-               <placeName key="pmb774">Hamburg, Hotel Atlantic</placeName>, von 27. ab zu Hause. Alles Gute Ihnen <rs type="person" key="pmb10818">Beiden</rs> in <placeName key="pmb734"> 
+               <rs type="place" ref="pmb774">Hamburg, Hotel Atlantic</rs>, von 27. ab zu Hause. Alles Gute Ihnen <rs type="person" subtype="implied" ref="pmb10818">Beiden</rs> in <rs type="place" ref="pmb734"> 
                   <settlement>Bayreuth</settlement> 
-               </placeName>, Arien und dem unbekannten Unterwegs.</p> 
+               </rs>, Arien und dem unbekannten Unterwegs.</p> 
             <closer>Ihr <signed>OB</signed> 
             </closer> 
          </div> 

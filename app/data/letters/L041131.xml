@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 30. 3. 1914</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,13 +42,13 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <dateSender> 
                   <date when="19140330" n="01">30. 3. 1914</date> 
@@ -65,7 +65,7 @@
                         <idno>HS AM 60140 Ba</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>eh. Karte, gedruckter Kopf: <placeName key="pmb150">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>), Urteil über Anna Bahr-Mildenburg seitlich mit rotem Buntstift hervorgehoben</p> 
+                        <p>eh. Karte, gedruckter Kopf: <placeName ref="pmb150">Sternwartestrasse</placeName> (<ptr target="bksternwarte"/>), Urteil über Anna Bahr-Mildenburg seitlich mit rotem Buntstift hervorgehoben</p> 
                      </physDesc> 
                   </msDesc> 
                </witness> 
@@ -77,7 +77,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -118,25 +118,25 @@
                </dateline> 
                <salute>mein lieber Hermann, </salute> 
             </opener> 
-            <p>deine Reise- u Aufenthaltspläne lassen wenig Hoffnung übrig, dass man einander wenigstens im Laufe des Sommers begegnete – nachdem unser Winterversuch leider misglückt war. Wir wollen Anfang Mai nach <placeName key="pmb263"> 
+            <p>deine Reise- u Aufenthaltspläne lassen wenig Hoffnung übrig, dass man einander wenigstens im Laufe des Sommers begegnete – nachdem unser Winterversuch leider misglückt war. Wir wollen Anfang Mai nach <rs type="place" ref="pmb263"> 
                   <settlement>Florenz</settlement> 
-               </placeName>; später (13.) von <placeName key="pmb994"> 
+               </rs>; später (13.) von <rs type="place" ref="pmb994"> 
                   <settlement>Genua</settlement> 
-               </placeName> aus zu Schiff nach <placeName key="pmb995"> 
+               </rs> aus zu Schiff nach <rs type="place" ref="pmb995"> 
                   <settlement>Antwerpen</settlement> 
-               </placeName>,<pb/> über <placeName key="pmb188"> 
+               </rs>,<pb/> über <rs type="place" ref="pmb188"> 
                   <country>Holland</country> 
-               </placeName> zurück. Juni u Juli großentheils <placeName key="pmb50"> 
+               </rs> zurück. Juni u Juli großentheils <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName>. Dann Gebirge. (<geogName type="valley">Engadin</geogName>?) – </p> 
-            <p>Am <anchor type="commentary" xml:id="KL131-1">Freitag</anchor> haben <rs type="person" key="pmb2173">wir</rs>, nach ziemlich langer Zeit, deine <rs type="person" key="pmb10818">Frau</rs> wieder singen gehört. <anchor type="commentary" xml:id="KL131-2"> 
-                  <workName key="pmb30039">Gurrelieder</workName> 
-               </anchor>. Was <rs type="person" key="pmb10818">sie</rs> geboten hat, gehört einfach zu dem <hi rend="underline" n="1">größten</hi>, was man <hi rend="underline" n="1">je</hi> im Conzertsaal <subst> 
+               </rs>. Dann Gebirge. (<geogName type="valley">Engadin</geogName>?) – </p> 
+            <p>Am <anchor type="commentary" xml:id="KL131-1">Freitag</anchor> haben <rs type="person" subtype="implied" ref="pmb2173">wir</rs>, nach ziemlich langer Zeit, deine <rs type="person" subtype="implied" ref="pmb10818">Frau</rs> wieder singen gehört. <anchor type="commentary" xml:id="KL131-2"> 
+                  <rs type="work" ref="pmb30039">Gurrelieder</rs> 
+               </anchor>. Was <rs type="person" subtype="implied" ref="pmb10818">sie</rs> geboten hat, gehört einfach zu dem <hi rend="underline" n="1">größten</hi>, was man <hi rend="underline" n="1">je</hi> im Conzertsaal <subst> 
                   <del rend="strikethrough">gehört</del> 
                   <add place="above">erlebt</add> 
                </subst> hat. Schade dass du nicht dabei warst.</p> 
             <closer> 
-               <rs type="person" key="pmb2173">Wir</rs> grüßen dich herzlichst! Und sage deiner <rs type="person" key="pmb10818">Gattin</rs> dass wir sie bewundern. Auf Wiedersehen doch hoffentlich einmal! Dein <signed>Arthur </signed> 
+               <rs type="person" subtype="implied" ref="pmb2173">Wir</rs> grüßen dich herzlichst! Und sage deiner <rs type="person" subtype="implied" ref="pmb10818">Gattin</rs> dass wir sie bewundern. Auf Wiedersehen doch hoffentlich einmal! Dein <signed>Arthur </signed> 
             </closer> 
          </div> 
       </body> 

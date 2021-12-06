@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Richard Beer-Hofmann an Arthur Schnitzler, [27.? 9. 1895]</title> 
-            <author key="pmb10863">Beer-Hofmann, Richard</author> 
+            <author ref="pmb10863">Beer-Hofmann, Richard</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,14 +42,14 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10863">Beer-Hofmann, Richard</persName> 
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <!--<placeSender><placeName key="pmb50">Wien</placeName></placeSender>--> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18950927" n="01">[27.? 9. 1895]</date> 
@@ -59,8 +59,8 @@
             <listBibl> 
                <biblStruct corresp="ASBH" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10863">Beer-Hofmann, Richard</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10863">Beer-Hofmann, Richard</author> 
                      <title level="m">Briefwechsel 1891–1931</title> 
                      <editor>Hg. Konstanze Fliedl</editor> 
                      <imprint> 
@@ -87,13 +87,13 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p> 
-               <salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während man mich zu einer Insel rudert, auf der ein Jupitertempel stand, aus dem der heilige <persName key="pmb4504">Franciscus von Assisi</persName> – mein <persName key="pmb4504">Franciscus</persName> – ein Kloster gemacht hat. Zugleich lese ich in einem <anchor type="commentary" xml:id="KL517-1"> 
-                  <rs type="work" key="pmb30275">Buch</rs> 
-               </anchor> wunderschöne Sachen – wie das Buch aber heisst schreibe ich hier nicht, denn der Name könnte Ihnen entgleiten, und der <persName key="pmb10815">B</persName> 
+               <salute>Lieber Arthur! </salute>Dies schreib ich Ihnen, im Boote liegend, während man mich zu einer Insel rudert, auf der ein Jupitertempel stand, aus dem der heilige <rs type="person" ref="pmb4504">Franciscus von Assisi</rs> – mein <rs type="person" ref="pmb4504">Franciscus</rs> – ein Kloster gemacht hat. Zugleich lese ich in einem <anchor type="commentary" xml:id="KL517-1"> 
+                  <rs type="work" subtype="implied" ref="pmb30275">Buch</rs> 
+               </anchor> wunderschöne Sachen – wie das Buch aber heisst schreibe ich hier nicht, denn der Name könnte Ihnen entgleiten, und der <rs type="person" ref="pmb10815">B</rs> 
                <space unit="chars" quantity="1"/> 
-               <c rendition="#dots" n="3" place="center"/> mittelst 3–4 Ausschrotartikeln es einem minieren und verekeln, aber es ist sehr schön. Im dritten Jahrhundert vor Christi Geburt schreibt ein Herr <persName key="pmb4508">Posidippus</persName> – ohne »<workName key="pmb29823">Märchen</workName>«- und »<workName key="pmb31965">Elixire</workName>«-Schmerzen – heiter konstatirend:</p> 
+               <c rendition="#dots" n="3" place="center"/> mittelst 3–4 Ausschrotartikeln es einem minieren und verekeln, aber es ist sehr schön. Im dritten Jahrhundert vor Christi Geburt schreibt ein Herr <rs type="person" ref="pmb4508">Posidippus</rs> – ohne »<rs type="work" ref="pmb29823">Märchen</rs>«- und »<rs type="work" ref="pmb31965">Elixire</rs>«-Schmerzen – heiter konstatirend:</p> 
             <lg type="poem"> 
-               <rs type="work" key="pmb30275"> 
+               <rs type="work" subtype="implied" ref="pmb30275"> 
                   <l>»Wähne, Philanis, nicht mich durch lockende Thränen zu täuschen!</l> 
                   <l>Freilich, ich weiss ja, du liebst inniger keinen als mich,</l> 
                   <l>Keinen, – so lange du neben mir liegst. Doch hat dich ein andrer,</l> 

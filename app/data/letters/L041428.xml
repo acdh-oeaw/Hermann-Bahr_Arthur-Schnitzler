@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hugo von Hofmannsthal, 2. 8. 1893</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18930802" n="01">2. 8. 1893</date> 
@@ -78,8 +78,8 @@
             <listBibl> 
                <biblStruct corresp="HvHAS" default="false"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -108,30 +108,30 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, <hi rend="underline" n="1"> 
+                  </rs>, <hi rend="underline" n="1"> 
                      <date>2. 8. 93</date> 
                   </hi> 
                </dateline> 
                <salute>Mein lieber Hugo,</salute> 
             </opener> 
-            <p>ich las Ihren Brief an <persName key="pmb2167">Salten</persName>. Dass Sie nicht in <placeName key="pmb155"> 
+            <p>ich las Ihren Brief an <rs type="person" ref="pmb2167">Salten</rs>. Dass Sie nicht in <rs type="place" ref="pmb155"> 
                   <settlement>München</settlement> 
-               </placeName>, wußt’ ich, da ich <persName key="pmb10815"> 
+               </rs>, wußt’ ich, da ich <rs type="person" ref="pmb10815"> 
                   <hi rend="latintype">Bahr</hi> 
-               </persName> sprach. Sie wollen im September hin? Nicht unmöglich, dass ich mich anschließe; denn ich habe zur Waffenübung keine Einberufung bekommen, u dürfte auch voraussichtlich keine mehr erhalten.</p> 
-            <p>Vorläufig bleibe ich in <placeName key="pmb50"> 
+               </rs> sprach. Sie wollen im September hin? Nicht unmöglich, dass ich mich anschließe; denn ich habe zur Waffenübung keine Einberufung bekommen, u dürfte auch voraussichtlich keine mehr erhalten.</p> 
+            <p>Vorläufig bleibe ich in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName>; <date>Mitte August</date> fahre ich vielleicht mit <rs type="person" key="pmb12701">Mama</rs> weg,<pb/> mache auch event. eine <hi rend="latintype">Bicycle</hi>tour mit <persName key="pmb2167"> 
+               </rs>; <date>Mitte August</date> fahre ich vielleicht mit <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> weg,<pb/> mache auch event. eine <hi rend="latintype">Bicycle</hi>tour mit <rs type="person" ref="pmb2167"> 
                   <hi rend="latintype">Salten</hi> 
-               </persName>. Sie müssen <hi rend="latintype">Bic.</hi> fahren lernen; ebenso wie <persName key="pmb10863">Richard</persName>; es ist wirklich ein großes Vergnügen. –</p> 
+               </rs>. Sie müssen <hi rend="latintype">Bic.</hi> fahren lernen; ebenso wie <rs type="person" ref="pmb10863">Richard</rs>; es ist wirklich ein großes Vergnügen. –</p> 
             <p> 
-               <placeName key="pmb50"> 
+               <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> bietet mir jetzt einiges zu thun; eine kleine <rs type="person" key="pmb25739">Cousine</rs> von mir ist schwer krank; die besuch’ ich 1, 2, 3 mal im Tag; dann ab u zu irgend was andres ärztliches, so dass die Zeit zersplittert ist. Aben<unclear>d</unclear>s zuweilen auf dem <geogName type="mountain" key="pmb574" instant="false">Kahlenberg</geogName>, wo <rs type="person" key="pmb12701">Mama</rs> u <rs type="person" key="pmb2461">Schwester</rs> wohnen oder mit dem <hi rend="latintype">Bic.</hi> da oder dorthin.<pb/> 
+               </rs> bietet mir jetzt einiges zu thun; eine kleine <rs type="person" subtype="implied" ref="pmb25739">Cousine</rs> von mir ist schwer krank; die besuch’ ich 1, 2, 3 mal im Tag; dann ab u zu irgend was andres ärztliches, so dass die Zeit zersplittert ist. Aben<unclear>d</unclear>s zuweilen auf dem <geogName type="mountain" instant="false" ref="pmb574">Kahlenberg</geogName>, wo <rs type="person" subtype="implied" ref="pmb12701">Mama</rs> u <rs type="person" subtype="implied" ref="pmb2461">Schwester</rs> wohnen oder mit dem <hi rend="latintype">Bic.</hi> da oder dorthin.<pb/> 
             </p> 
-            <p>– Die »lustige« <rs type="work" key="pmb31975">Novelle</rs> hab ich bis auf wenige Zeilen beendet, die ich erst schreiben kann, wenn ich Lust bekomme, das ganze Zeug wieder durchzulesen. Was ich zunächst schreiben werde, ist unklar – am liebsten eins meiner im Umriss fertigen 3aktigen Stücke; aber ich stehe der dramatischen Kunst unglaublich muthlos gegenüber; ja ich hatte in der letzten Zeit oft die Empfindung, dass ich überhaupt nie<pb/> ein gutes Stück werde schreiben können. Gestalten u Scenen, einzelne, wären da; aber mir ist, als hätt’ ich jedes strategische Talent verloren. Vielleicht hatt’ ichs auch nie – und hab nur aus meinen kleinen Schmerzen die großen <subst> 
+            <p>– Die »lustige« <rs type="work" subtype="implied" ref="pmb31975">Novelle</rs> hab ich bis auf wenige Zeilen beendet, die ich erst schreiben kann, wenn ich Lust bekomme, das ganze Zeug wieder durchzulesen. Was ich zunächst schreiben werde, ist unklar – am liebsten eins meiner im Umriss fertigen 3aktigen Stücke; aber ich stehe der dramatischen Kunst unglaublich muthlos gegenüber; ja ich hatte in der letzten Zeit oft die Empfindung, dass ich überhaupt nie<pb/> ein gutes Stück werde schreiben können. Gestalten u Scenen, einzelne, wären da; aber mir ist, als hätt’ ich jedes strategische Talent verloren. Vielleicht hatt’ ichs auch nie – und hab nur aus meinen kleinen Schmerzen die großen <subst> 
                   <del rend="overwritten">S</del> 
                   <add place="inline">D</add> 
                </subst>reiakter machen können; und seit meinen großen Schmerzen <del rend="strikethrough">hab</del> werden mir nur die kleinen Novellettchen gelingen. Wie leicht, wie mühelos hab ich vor – zehn, zwölf Jahren geschrieben,–<pb/> es kam zwar nie was gutes heraus; aber ich war damals vielleicht ein echterer »Poet« als heut. Denn heut nagen an meiner Poesie viele Würmer, z. B. das Leben. – </p> 

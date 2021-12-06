@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Stefan Zweig an Arthur Schnitzler, 28. 7. 1923</title> 
-            <author key="pmb13212">Zweig, Stefan</author> 
+            <author ref="pmb13212">Zweig, Stefan</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb13212">Zweig, Stefan</persName> 
+                  <persName ref="pmb13212">Zweig, Stefan</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb30">Salzburg</placeName> 
+                  <placeName ref="pmb30">Salzburg</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb155">[München]</placeName> 
+                  <placeName ref="pmb155">[München]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19230728" n="01">28. 7. 1923</date> 
@@ -61,7 +61,7 @@
             <listBibl> 
                <biblStruct corresp="SZBW" default="false"> 
                   <monogr> 
-                     <author key="pmb13212">Zweig, Stefan</author> 
+                     <author ref="pmb13212">Zweig, Stefan</author> 
                      <title level="m">Briefwechsel mit Hermann Bahr, Sigmund Freud, Rainer Maria Rilke und Arthur Schnitzler</title> 
                      <editor>Hg. Jeffrey B. Berlin, Hans-Ulrich Lindken und Donald A. Prater</editor> 
                      <imprint> 
@@ -89,22 +89,22 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb297">Kapuzinerberg 5</placeName> 
+                  <rs type="place" ref="pmb297">Kapuzinerberg 5</rs> 
                   <lb/> 
-                  <placeName key="pmb30"> 
+                  <rs type="place" ref="pmb30"> 
                      <settlement>Salzburg</settlement> 
-                  </placeName> 
+                  </rs> 
                   <lb/>am <date>28. Juli 1923</date>.</dateline> 
                <salute>Verehrter Herr Doktor!</salute> 
             </opener> 
-            <p>Ich empfange freudig Ihre Nachricht und brauche nicht zu sagen, dass ich Ihnen gern, wenn Sie mich rechtzeitig verständigen, im »<placeName key="pmb230">österreichischen Hof</placeName>« ein Zimmer reserviere. Ich hätte Sie lieber zu uns gebeten, aber wir sind durch die Gegenwart <persName key="pmb12543">Rollands</persName> besetzt. Das <placeName key="pmb152">Hotel Europe</placeName> ist aber momentan wirklich etwas kostspielig und Sie werden im »<placeName key="pmb230">österreichischen Hof</placeName>« ebenso zufrieden sein. Gestern und heute waren wir mit <persName key="pmb10815">Bahr</persName> und heute ging er in einem Zuge zur <geogName type="mountain" instant="false">Gaissbergspitze</geogName> hinauf. Es war ein rechtes Vergnügen, ihn so heiter und wohlgelaunt, wie seit Jahren nicht, zu sehen.</p> 
+            <p>Ich empfange freudig Ihre Nachricht und brauche nicht zu sagen, dass ich Ihnen gern, wenn Sie mich rechtzeitig verständigen, im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ein Zimmer reserviere. Ich hätte Sie lieber zu uns gebeten, aber wir sind durch die Gegenwart <rs type="person" ref="pmb12543">Rollands</rs> besetzt. Das <rs type="place" ref="pmb152">Hotel Europe</rs> ist aber momentan wirklich etwas kostspielig und Sie werden im »<rs type="place" ref="pmb230">österreichischen Hof</rs>« ebenso zufrieden sein. Gestern und heute waren wir mit <rs type="person" ref="pmb10815">Bahr</rs> und heute ging er in einem Zuge zur <geogName type="mountain" instant="false">Gaissbergspitze</geogName> hinauf. Es war ein rechtes Vergnügen, ihn so heiter und wohlgelaunt, wie seit Jahren nicht, zu sehen.</p> 
             <closer>In herzlicher Erwartung Ihnen entgegen und aufrichtig<lb/>ergeben Ihr<lb/> 
                <signed>Stefan Zweig</signed> 
             </closer> 
             <postscript> 
-               <p>P. S. Auch <persName key="pmb10815">Bahr</persName> kommt in jenen Tagen aus <placeName key="pmb155"> 
+               <p>P. S. Auch <rs type="person" ref="pmb10815">Bahr</rs> kommt in jenen Tagen aus <rs type="place" ref="pmb155"> 
                      <settlement>München</settlement> 
-                  </placeName> herüber.</p> 
+                  </rs> herüber.</p> 
             </postscript> 
          </div> 
       </body> 

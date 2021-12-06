@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Eduard Pötzl an Hermann Bahr, 11. 3. 1903</title> 
-            <author key="pmb12460">Pötzl, Eduard</author> 
+            <author ref="pmb12460">Pötzl, Eduard</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb12460">Pötzl, Eduard</persName> 
+                  <persName ref="pmb12460">Pötzl, Eduard</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19030311" n="01">11. 3. 1903</date> 
@@ -69,7 +69,7 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>ms. Brief, 1 Bl., 1 S. mit hs. Unterschrift, gedruckter Kopf: »<quote> 
-                              <orgName key="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placeName key="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placeName> / Telegramm-Adresse: / Tagblatt, <placeName key="pmb683">Wien, Steyrerhof</placeName>. / Telephon: 384 u. 357 für <placeName key="pmb50"> 
+                              <orgName ref="pmb29414">Neues Wiener / Tagblatt</orgName> / Redaction: / <placeName ref="pmb683">Wien, I., Rothenthurmstraße / Steyrerhof 3.</placeName> / Telegramm-Adresse: / Tagblatt, <placeName ref="pmb683">Wien, Steyrerhof</placeName>. / Telephon: 384 u. 357 für <placeName ref="pmb50"> 
                                  <settlement>Wien</settlement> 
                               </placeName>. / Interurbaner Verkehr: 12036.</quote>« Statt der Ziffer »<quote>1</quote>« wurde »<quote>i</quote>« gesetzt, in der Wiedergabe behoben.</p> 
                      </physDesc> 
@@ -93,18 +93,18 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, am <date>11. März 1903</date>.</dateline> 
+                  </rs>, am <date>11. März 1903</date>.</dateline> 
                <salute rend="center">Lieber Kollege!</salute> 
             </opener> 
-            <p>Hier übersende ich Ihnen den Bürstenabzug des Feuilletons »<workName key="pmb39477"> 
-                  <rs type="work" key="pmb29863">Lebendige Stunden</rs> 
-               </workName>« mit der Bitte, die angestrichene Stelle freundlichst so zu mildern, dass nicht <hi rend="spaced_out">allen</hi> 
+            <p>Hier übersende ich Ihnen den Bürstenabzug des Feuilletons »<rs type="work" ref="pmb39477"> 
+                  <rs type="work" subtype="implied" ref="pmb29863">Lebendige Stunden</rs> 
+               </rs>« mit der Bitte, die angestrichene Stelle freundlichst so zu mildern, dass nicht <hi rend="spaced_out">allen</hi> 
                <space unit="chars" quantity="1"/> 
-               <placeName key="pmb50"> 
+               <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName>ern das Aufhängen gewünscht wird, die von der Grösse <persName key="pmb2121">Arthur Schnitzler</persName>’s nicht hinlänglich überzeugt sind. So sehr ich nämlich persönlich <persName key="pmb2121">Arthur Schnitzler</persName> schätze, <damage agent="hole"> 
+               </rs>ern das Aufhängen gewünscht wird, die von der Grösse <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>’s nicht hinlänglich überzeugt sind. So sehr ich nämlich persönlich <rs type="person" ref="pmb2121">Arthur Schnitzler</rs> schätze, <damage agent="hole"> 
                   <supplied>s</supplied> 
                </damage>o fürchte ich doch, dass ihm dieser Appell eher schaden als nützen wird, und glaube daher, Ihnen eine Aenderung vorschlagen zu sollen.</p> 
             <p>Mit Vergnügen habe ich gehört, dass Sie nächster Tage schon einrücken wollen. Dies wird das beste Dementi für die Schwarzseher sein, die, wie ich übrigens höre, kürzlich von Ihren Aerzten selbst gründlich berichtigt worden sind. In unserem Bureau war man hierüber besser auf dem Laufenden gehalten.</p> 

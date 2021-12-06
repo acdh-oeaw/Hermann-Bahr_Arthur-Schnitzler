@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Willi Handl, 20. 10. [1905]</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,13 +42,13 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2229">Handl, Willi</persName> 
+                  <persName ref="pmb2229">Handl, Willi</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeSender> 
                <!-- <placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
                <dateSender> 
@@ -90,10 +90,10 @@
                <dateline rend="right"> 
                   <date when="19051020">20. 10.</date> (05.)</dateline> 
             </opener> 
-            <p>Ich muss Ihnen doch geschwind sagen, dass das <anchor type="commentary" xml:id="KL633-1">über <persName key="pmb2121"> 
-                     <rs type="work" key="pmb31245">Schnitzler</rs> 
-                  </persName> 
-               </anchor> einfach meisterhaft ist. Ich habs dreimal gelesen und finds das Beste, was je über <persName key="pmb2121">Artur</persName> gesagt worden ist.</p> 
+            <p>Ich muss Ihnen doch geschwind sagen, dass das <anchor type="commentary" xml:id="KL633-1">über <rs type="person" ref="pmb2121"> 
+                     <rs type="work" subtype="implied" ref="pmb31245">Schnitzler</rs> 
+                  </rs> 
+               </anchor> einfach meisterhaft ist. Ich habs dreimal gelesen und finds das Beste, was je über <rs type="person" ref="pmb2121">Artur</rs> gesagt worden ist.</p> 
             <closer>Herzlichst<lb/>gez: <signed>Hermann Bahr</signed> 
             </closer> 
          </div> 

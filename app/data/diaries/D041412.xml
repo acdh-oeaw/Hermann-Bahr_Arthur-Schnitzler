@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Kalendereintrag von Hermann Bahr, 11. 5. 1901</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -63,7 +63,7 @@
                      <biblScope unit="pp">26</biblScope> 
                   </monogr> 
                   <monogr> 
-                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <author ref="pmb10815">Bahr, Hermann</author> 
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
                      <editor>Hg. Moritz Csáky</editor> 
                      <imprint> 
@@ -95,28 +95,28 @@
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"> 
                         <date when="19010511" n="01"/> 
-                        <persName key="pmb12460">Pötzl</persName> hat von mir:</cell> 
-                     <cell role="data" rows="1" cols="1">1) <workName key="pmb31003">Kunst des Kindes</workName> 
+                        <rs type="person" ref="pmb12460">Pötzl</rs> hat von mir:</cell> 
+                     <cell role="data" rows="1" cols="1">1) <rs type="work" ref="pmb31003">Kunst des Kindes</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1">2) <del rend="strikethrough"> 
-                           <workName key="pmb30987">Andre Hofer</workName> 
+                           <rs type="work" ref="pmb30987">Andre Hofer</rs> 
                         </del> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1">3) <del rend="strikethrough"> 
-                           <workName key="pmb31001">Der gute Ton</workName> 
+                           <rs type="work" ref="pmb31001">Der gute Ton</rs> 
                         </del>. <add place="inline">(erschienen 12/5)</add> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1">4) <del rend="strikethrough"> 
-                           <workName key="pmb30989">Die Menschen</workName> 
+                           <rs type="work" ref="pmb30989">Die Menschen</rs> 
                         </del> 
                      </cell> 
                   </row> 
@@ -125,7 +125,7 @@
             <p> 
                <add place="inline"> 
                   <date when="19010529">29/5</date> 
-                  <workName key="pmb30999">Orchideen</workName> 
+                  <rs type="work" ref="pmb30999">Orchideen</rs> 
                </add> 
             </p> 
             <p>–</p> 
@@ -134,15 +134,15 @@
                   <table cols="2" rows="4"> 
                      <row role="data" rows="1" cols="1"> 
                         <cell role="data" rows="1" cols="1"> 
-                           <orgName key="pmb29414">Neues Wr Tagblatt</orgName> 
+                           <rs type="org" ref="pmb29414">Neues Wr Tagblatt</rs> 
                         </cell> 
                      </row> 
                      <row role="data" rows="1" cols="1"> 
                         <cell role="data" rows="1" cols="1">Morgenblatt vom</cell> 
                         <cell role="data" rows="1" cols="1"> 
                            <date>25. November</date> (<anchor type="commentary" xml:id="KD412-1"> 
-                              <rs type="work" key="pmb30995"> 
-                                 <persName key="pmb12899">Sudermann</persName> 
+                              <rs type="work" subtype="implied" ref="pmb30995"> 
+                                 <rs type="person" ref="pmb12899">Sudermann</rs> 
                               </rs> 
                            </anchor>)</cell> 
                      </row> 
@@ -150,8 +150,8 @@
                         <cell role="data" rows="1" cols="1">u. –„–</cell> 
                         <cell role="data" rows="1" cols="1"> 
                            <date>5. December 1900</date> (<anchor type="commentary" xml:id="KD412-2"> 
-                              <rs type="work" key="pmb30997"> 
-                                 <persName key="pmb2121">Schnitzler</persName> 
+                              <rs type="work" subtype="implied" ref="pmb30997"> 
+                                 <rs type="person" ref="pmb2121">Schnitzler</rs> 
                               </rs> 
                            </anchor>)</cell> 
                      </row> 
@@ -159,7 +159,7 @@
                         <cell role="data" rows="1" cols="1">Morgenbl vom</cell> 
                         <cell role="data" rows="1" cols="1"> 
                            <anchor type="commentary" xml:id="KD412-3"> 
-                              <rs type="work" key="pmb31381"> 
+                              <rs type="work" subtype="implied" ref="pmb31381"> 
                                  <date>1. Januar 1901</date> 
                               </rs> 
                            </anchor> 
@@ -169,23 +169,23 @@
                </anchor> 
             </p> 
             <p>–</p> 
-            <p>An den »<orgName key="pmb29650">Tag</orgName>«</p> 
+            <p>An den »<rs type="org" ref="pmb29650">Tag</rs>«</p> 
             <p>–<pb/> 
             </p> 
             <p> 
-               <hi rend="underline" n="1">Nachsehen <persName key="pmb2121">Schnitzler</persName> 
+               <hi rend="underline" n="1">Nachsehen <rs type="person" ref="pmb2121">Schnitzler</rs> 
                   <space unit="chars" quantity="1"/> 
-                  <workName key="pmb29857">Beatrice</workName> 
+                  <rs type="work" ref="pmb29857">Beatrice</rs> 
                </hi> 
             </p> 
             <p>–</p> 
             <p> 
-               <workName key="pmb30991">Premièren</workName>.</p> 
-            <p>1) <placeName key="pmb14">Burgtheater</placeName> 10 Nummern. Ein Nachtrag wäre Nr 11.</p> 
-            <p>2. <placeName key="pmb20">Volksth.</placeName> 12 Nummern (incl. den fehlenden <persName key="pmb12899">Sudermanns</persName>). Nachtrag wäre Nr 13)</p> 
+               <rs type="work" ref="pmb30991">Premièren</rs>.</p> 
+            <p>1) <rs type="place" ref="pmb14">Burgtheater</rs> 10 Nummern. Ein Nachtrag wäre Nr 11.</p> 
+            <p>2. <rs type="place" ref="pmb20">Volksth.</rs> 12 Nummern (incl. den fehlenden <rs type="person" ref="pmb12899">Sudermanns</rs>). Nachtrag wäre Nr 13)</p> 
             <p>–</p> 
             <p> 
-               <persName key="pmb28301">Willy Ahlfeld</persName>, <persName key="pmb28302">Josefine</persName>ns Freund</p> 
+               <rs type="person" ref="pmb28301">Willy Ahlfeld</rs>, <rs type="person" ref="pmb28302">Josefine</rs>ns Freund</p> 
          </div> 
       </body> 
    </text> 

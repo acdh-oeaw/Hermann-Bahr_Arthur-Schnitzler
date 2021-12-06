@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Aufzeichnung von Hermann Bahr, 4. 11. 1903</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -63,7 +63,7 @@
                      <biblScope unit="pp">405</biblScope> 
                   </monogr> 
                   <monogr> 
-                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <author ref="pmb10815">Bahr, Hermann</author> 
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
                      <editor>Hg. Moritz Csáky</editor> 
                      <imprint> 
@@ -94,9 +94,9 @@
                <date when="19031104" n="01">4.</date> 
                <space unit="chars" quantity="1"/> 
                <!-- Hier ist der Reigen als Bezug verlinkt, obwohl nicht explizit im Text: --> 
-               <rs type="work" key="pmb29855"/>Um 3 Uhr beim <rs type="person" key="pmb11955">Ministerpräsidenten</rs>. Plaudere nett mit Hofrat <persName key="pmb12775">Sickhart</persName>. <persName key="pmb11955">Körbers</persName> Schlitzaugen.</p> 
+               <rs type="work" subtype="implied" ref="pmb29855"/>Um 3 Uhr beim <rs type="person" subtype="implied" ref="pmb11955">Ministerpräsidenten</rs>. Plaudere nett mit Hofrat <rs type="person" ref="pmb12775">Sickhart</rs>. <rs type="person" ref="pmb11955">Körbers</rs> Schlitzaugen.</p> 
             <p><!-- Hier ist der Reigen als Bezug verlinkt, obwohl nicht explizit im Text: --> 
-               <rs type="work" key="pmb29855"/>Man interviewt mich hin u. her.</p> 
+               <rs type="work" subtype="implied" ref="pmb29855"/>Man interviewt mich hin u. her.</p> 
          </div> 
       </body> 
    </text> 

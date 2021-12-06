@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Aufzeichnung von Hermann Bahr, [Juli 1922?]</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -50,7 +50,7 @@
                         <idno>HS VM 2629 Ba</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 113.</p> 
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 113.</p> 
                      </physDesc> 
                   </msDesc> 
                </witness> 
@@ -72,15 +72,15 @@
          <div type="writingSession" n="1"> 
             <p> 
                <date when="19220719" n="01"/> 
-               <placeName key="pmb155"> 
+               <rs type="place" ref="pmb155"> 
                   <settlement>München</settlement> 
-               </placeName> gleich für »<orgName key="pmb29205">Deutschösterreichischen Bühnenverein</orgName>« <placeName key="pmb761">Wien I Dorotheergasse 6–8</placeName> 
+               </rs> gleich für »<rs type="org" ref="pmb29205">Deutschösterreichischen Bühnenverein</rs>« <rs type="place" ref="pmb761">Wien I Dorotheergasse 6–8</rs> 
                <space unit="chars" quantity="1"/> 
-               <rs type="work" key="pmb30103">Aufsatz</rs> über <persName key="pmb11036">Burckhard</persName>s Verdienst um das neue Theatergesetz (<anchor type="commentary" xml:id="KD606-1">mit D<hi rend="superscript">r</hi> 
+               <rs type="work" subtype="implied" ref="pmb30103">Aufsatz</rs> über <rs type="person" ref="pmb11036">Burckhard</rs>s Verdienst um das neue Theatergesetz (<anchor type="commentary" xml:id="KD606-1">mit D<hi rend="superscript">r</hi> 
                   <space unit="chars" quantity="1"/> 
-                  <persName key="pmb4748">Ofner</persName>; in <persName key="pmb11036">Burckhard</persName>s Wohng in der <placeName key="pmb397">Frankg</placeName>. <persName key="pmb2121">Artur Schnitzler</persName>, D<hi rend="superscript">r</hi> 
+                  <rs type="person" ref="pmb4748">Ofner</rs>; in <rs type="person" ref="pmb11036">Burckhard</rs>s Wohng in der <rs type="place" ref="pmb397">Frankg</rs>. <rs type="person" ref="pmb2121">Artur Schnitzler</rs>, D<hi rend="superscript">r</hi> 
                   <space unit="chars" quantity="1"/> 
-                  <persName key="pmb28798">Kramař</persName> 
+                  <rs type="person" ref="pmb28798">Kramař</rs> 
                </anchor>)</p> 
          </div> 
       </body> 

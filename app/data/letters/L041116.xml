@@ -4,8 +4,8 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur und Olga Arthur Schnitzler an Hermann Bahr, 18. 9. 1910</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
-            <author key="pmb2173">Schnitzler, Olga</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2173">Schnitzler, Olga</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -43,17 +43,17 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
-                  <persName key="pmb2173">Schnitzler, Olga</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb834">Darmstadt</placeName> 
+                  <placeName ref="pmb834">Darmstadt</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19100918" n="01">18. 9. 1910</date> 
@@ -71,11 +71,11 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Ansichtskarte, Motiv: »<quote> 
-                              <placeName key="pmb834"> 
+                              <placeName ref="pmb834"> 
                                  <settlement>Darmstadt</settlement> 
                               </placeName>. Glockenspiel</quote>«, Bleistift.</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb834">Darmstadt</placeName> 
+                           <placeName ref="pmb834">Darmstadt</placeName> 
                            <date when="19100918">18 9 10</date> 
                            <time>12</time> 
                         </stamp> 
@@ -90,7 +90,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -133,12 +133,12 @@
                   <hi rend="latintype">Herrn Hermann Bahr</hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb165">Wien – <hi rend="latintype">Ob St Veit</hi> 
-                  </placeName> 
+                  <rs type="place" ref="pmb165">Wien – <hi rend="latintype">Ob St Veit</hi> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb220">Veitlissengasse</placeName> 
+                     <rs type="place" ref="pmb220">Veitlissengasse</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -148,7 +148,7 @@
                <dateline rend="right"> 
                   <date>18/9 1910</date>.</dateline> 
             </opener> 
-            <p>Herzliche Grüße dir und deiner verehrten <rs type="person" key="pmb10818">Gattin</rs> 
+            <p>Herzliche Grüße dir und deiner verehrten <rs type="person" subtype="implied" ref="pmb10818">Gattin</rs> 
             </p> 
             <closer>Dein <signed>Arthur</signed> 
             </closer> 

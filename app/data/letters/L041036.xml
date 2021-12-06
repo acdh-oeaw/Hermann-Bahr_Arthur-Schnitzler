@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 26. 6. 1901</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb867">Innsbruck</placeName> 
+                  <placeName ref="pmb867">Innsbruck</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19010626" n="1">26. 6. 1901</date> 
@@ -76,7 +76,7 @@
             <listBibl> 
                <biblStruct corresp="ASB1" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1875–1912</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -92,7 +92,7 @@
                      <date when="19010626">26. 6. 1901</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -109,7 +109,7 @@
                </biblStruct> 
                <biblStruct default="false"> 
                   <analytic> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="a">Briefe</title> 
                   </analytic> 
                   <monogr> 
@@ -143,9 +143,9 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p> 
-               <salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie, den du mir mit deinem lieben Brief vom <date>22.</date> gegeben hast. Über die Sache selbst ist ja kaum was zu sagen – selten lag ein Fall klarer zu Tage. Wahrhaftig – sie haben meinen <workName key="pmb29853">Lieutenant Gustl</workName> nicht verdient! Ich seh es ein. Hast du vielleicht neulich den  <anchor type="commentary" xml:id="KL036-2"> 
-                  <rs type="work" key="pmb32031">Artikel</rs> 
-               </anchor> in der <orgName key="pmb29304">Reichswehr</orgName> gelesen? Ich glaube, in dem steht das großartigste an Dummheit, was in dieser Affaire geleistet wurde. Nemlich: ich hätte meine<pb/> Charge nur deshalb nicht vor 5 Jahren (wie es mein Recht gewesen) nieder gelegt – <subst> 
+               <salute>mein lieber Hermann, </salute>ich danke dir herzlich für den neuen Beweis von Sympathie, den du mir mit deinem lieben Brief vom <date>22.</date> gegeben hast. Über die Sache selbst ist ja kaum was zu sagen – selten lag ein Fall klarer zu Tage. Wahrhaftig – sie haben meinen <rs type="work" ref="pmb29853">Lieutenant Gustl</rs> nicht verdient! Ich seh es ein. Hast du vielleicht neulich den  <anchor type="commentary" xml:id="KL036-2"> 
+                  <rs type="work" subtype="implied" ref="pmb32031">Artikel</rs> 
+               </anchor> in der <rs type="org" ref="pmb29304">Reichswehr</rs> gelesen? Ich glaube, in dem steht das großartigste an Dummheit, was in dieser Affaire geleistet wurde. Nemlich: ich hätte meine<pb/> Charge nur deshalb nicht vor 5 Jahren (wie es mein Recht gewesen) nieder gelegt – <subst> 
                   <del rend="overwritten">,</del> 
                   <add place="inline">weil</add> 
                </subst> ich eben doch gern gelegentlich in Uniform <add place="below">u</add> mit dem <anchor type="commentary" xml:id="KL036-1">Stürmer</anchor> paradirt! – Ich wollte einen Preis von einer Million ausschreiben für den, der mich seit meinem letzten Hauptrapport in Uniform gesehen – aber wer weiss – unter diesen Leuten findet sich am Ende auch einer, der es beschwören kann.</p> 
@@ -157,9 +157,9 @@
             <postscript> 
                <p> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb867"> 
+                     <rs type="place" ref="pmb867"> 
                         <settlement>Innsbruck</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi>, <date>26. 6. 901</date> 
                </p> 
             </postscript> 

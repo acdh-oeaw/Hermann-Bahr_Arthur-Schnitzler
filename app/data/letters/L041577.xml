@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr: Widmungsexemplar Erinnerung an Burckhard, 7. 10. 1913</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,10 +42,10 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <!--<placeSender><placeName key="pmb168">Berlin</placeName></placeSender><placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>--> 
                <dateSender> 
@@ -63,9 +63,9 @@
                         <idno>G:Schnitzler, Arthur (Sammlung Heinrich Schnitzler)</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName key="pmb29945">Erinnerung an Burckhard</workName>. <placeName key="pmb168"> 
+                        <p>hs. auf dem Vorsatzblatt von <bibl>Hermann Bahr: <workName ref="pmb29945">Erinnerung an Burckhard</workName>. <placeName ref="pmb168"> 
                                  <settlement>Berlin</settlement> 
-                              </placeName>: <orgName key="pmb29639">S. Fischer</orgName> 
+                              </placeName>: <orgName ref="pmb29639">S. Fischer</orgName> 
                               <space unit="chars" quantity="1"/> 
                               <date>1913</date> 
                            </bibl>.</p> 
@@ -89,7 +89,7 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p> 
-               <workName key="pmb29945"/>Seinem lieben Arthur</p> 
+               <rs type="work" ref="pmb29945"/>Seinem lieben Arthur</p> 
             <closer>herzlichst<lb/> 
                <signed>Hermann</signed> 
             </closer> 

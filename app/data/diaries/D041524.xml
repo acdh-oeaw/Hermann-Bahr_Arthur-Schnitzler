@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Aufzeichnung von Hermann Bahr, 9. 3. 1903</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -63,7 +63,7 @@
                      <biblScope unit="pp">275</biblScope> 
                   </monogr> 
                   <monogr> 
-                     <author key="pmb10815">Bahr, Hermann</author> 
+                     <author ref="pmb10815">Bahr, Hermann</author> 
                      <title level="m">Tagebücher, Skizzenbücher, Notizhefte</title> 
                      <editor>Hg. Moritz Csáky</editor> 
                      <imprint> 
@@ -91,13 +91,13 @@
          <div type="writingSession" n="1"> 
             <p> 
                <del rend="strikethrough">1</del> 
-               <date when="19030309" n="01">9/3</date> »<workName key="pmb39477"> 
-                  <rs type="work" key="pmb29957">Lebendige Stunden</rs> 
-               </workName>« dictiert.</p> 
+               <date when="19030309" n="01">9/3</date> »<rs type="work" ref="pmb39477"> 
+                  <rs type="work" subtype="implied" ref="pmb29957">Lebendige Stunden</rs> 
+               </rs>« dictiert.</p> 
             <p>Gelesen: <anchor type="commentary" xml:id="KD524-1"> 
-                  <persName key="pmb28117"> 
-                     <workName key="pmb31405">Heraklit</workName> 
-                  </persName> von <persName key="pmb3817">Diels</persName> 
+                  <rs type="person" ref="pmb28117"> 
+                     <rs type="work" ref="pmb31405">Heraklit</rs> 
+                  </rs> von <rs type="person" ref="pmb3817">Diels</rs> 
                </anchor>.</p> 
          </div> 
       </body> 

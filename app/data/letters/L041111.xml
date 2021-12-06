@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 28. 8. 1909</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb155">München</placeName> 
+                  <placeName ref="pmb155">München</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb134">Zell am Ziller</placeName> 
+                  <placeName ref="pmb134">Zell am Ziller</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19090828" n="01">28. 8. 1909</date> 
@@ -68,11 +68,11 @@
                         <idno>HS AM 60170 Ba</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>eh. Ansichtskarte, Motiv: <persName key="pmb2306">Heinrich Kley</persName>: »<quote> 
-                              <placeName key="pmb471">Alte Mariensäule</placeName> 
+                        <p>eh. Ansichtskarte, Motiv: <persName ref="pmb2306">Heinrich Kley</persName>: »<quote> 
+                              <placeName ref="pmb471">Alte Mariensäule</placeName> 
                            </quote>«, Bleistift</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb155">München</placeName> 
+                           <placeName ref="pmb155">München</placeName> 
                            <date when="19090828">28 Aug 09</date> 
                            <time>3–4 N</time> 
                         </stamp> 
@@ -87,7 +87,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -129,7 +129,7 @@
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb133">XVIII Spoettelg. 7.</placeName> 
+                     <rs type="place" ref="pmb133">XVIII Spoettelg. 7.</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -137,21 +137,21 @@
                <addrLine> 
                   <hi rend="latintype"> 
                      <hi rend="underline" n="1"> 
-                        <placeName key="pmb423">Tirol</placeName> 
+                        <rs type="place" ref="pmb423">Tirol</rs> 
                      </hi> 
                   </hi> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype">Herrn Hermann Bahr</hi> 
                </addrLine> 
-               <addrLine>aus <placeName key="pmb50"> 
+               <addrLine>aus <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName> d. Z.</addrLine> 
+                  </rs> d. Z.</addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb134"> 
+                     <rs type="place" ref="pmb134"> 
                         <settlement>Zell im Zillerthal</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -159,13 +159,13 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline> 
-                  <placeName key="pmb155"> 
+                  <rs type="place" ref="pmb155"> 
                      <settlement>München</settlement> 
-                  </placeName> 
+                  </rs> 
                   <lb/> 
                   <date>28. 8. 09</date>.</dateline> 
             </opener> 
-            <p>Herzlichen Gruss, auch deiner verehrten <rs type="person" key="pmb10818">Gattin</rs>.</p> 
+            <p>Herzlichen Gruss, auch deiner verehrten <rs type="person" subtype="implied" ref="pmb10818">Gattin</rs>.</p> 
             <closer>Immer dein <signed>Arthur</signed> 
             </closer> 
          </div> 

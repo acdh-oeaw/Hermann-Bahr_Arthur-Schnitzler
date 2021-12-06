@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Cesare Levi an Arthur Schnitzler, 5. 10. 1910</title> 
-            <author key="pmb2242">Levi, Cesare</author> 
+            <author ref="pmb2242">Levi, Cesare</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2242">Levi, Cesare</persName> 
+                  <persName ref="pmb2242">Levi, Cesare</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb263">Florenz</placeName> 
+                  <placeName ref="pmb263">Florenz</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19101005" n="01">5. 10. 1910</date> 
@@ -69,7 +69,7 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Brief, 1 Bl., 4 S., Lateinschrift, gedruckter Kopf: »<quote> 
-                              <placeName key="pmb472">Via S. Ambrogio</placeName> N.8</quote>«</p> 
+                              <placeName ref="pmb472">Via S. Ambrogio</placeName> N.8</quote>«</p> 
                      </physDesc> 
                   </msDesc> 
                </witness> 
@@ -91,34 +91,34 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb263"> 
+                  <rs type="place" ref="pmb263"> 
                      <settlement>Florenz</settlement> 
-                  </placeName>, dem <date>5 Octbr. 1910</date>.</dateline> 
+                  </rs>, dem <date>5 Octbr. 1910</date>.</dateline> 
                <salute>Sehr geehrter Herr Doctor,</salute> 
             </opener> 
-            <p>Ich habe eben das Lustspiel von Ihnen <workName key="pmb29931"> 
+            <p>Ich habe eben das Lustspiel von Ihnen <rs type="work" ref="pmb29931"> 
                   <hi rend="underline" n="1">Comtesse</hi> 
                   <space unit="chars" quantity="1"/> 
                   <hi rend="underline" n="1">Mizzi</hi> 
-               </workName> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1">Zusammentref<supplied>f</supplied>ens</anchor> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p> 
+               </rs> gelesen, und ich bin sehr froh Ihnen mitzutheilen dass ich davon einen sehr günstigen Eindruck erhalten habe. Wie wir einverstanden gewesen waren, während unseres <anchor type="commentary" xml:id="KL367-1">Zusammentref<supplied>f</supplied>ens</anchor> in Wien,<pb/> würde ich dasselbe sehr gerne übesetzen binnen sehr kurzen Zeit.</p> 
             <p> 
-               <workName key="pmb29933"> 
+               <rs type="work" ref="pmb29933"> 
                   <hi rend="underline" n="1">Das</hi> 
                   <space unit="chars" quantity="1"/> 
                   <hi rend="underline" n="1">Konzert</hi> 
-               </workName> von <persName key="pmb10815">Hermann Bahr</persName> habe ich auch gelesen: wenn es möglich wäre einige Szenen umzuarbeiten um knapper dasselbe zusammenzustellen, würde ich sehr gerne <workName key="pmb29933"> 
+               </rs> von <rs type="person" ref="pmb10815">Hermann Bahr</rs> habe ich auch gelesen: wenn es möglich wäre einige Szenen umzuarbeiten um knapper dasselbe zusammenzustellen, würde ich sehr gerne <rs type="work" ref="pmb29933"> 
                   <hi rend="underline" n="1">das</hi> 
                   <space unit="chars" quantity="1"/> 
                   <hi rend="underline" n="1">Konzert</hi> 
-               </workName> übersetzen.<pb/> Möchte ich sie bitten mich in Verbindung mit Herrn <persName key="pmb10815">Bahr</persName> zu setzen, da ich weiss, dass Sie mit ihm sehr in freundlichen Verhältnissen sind, um das Erlaubniss das <rs type="work" key="pmb29933">Schauspiel</rs> von Herrn <persName key="pmb10815">Bahr</persName> zu übersetzen, zu erhalten?</p> 
+               </rs> übersetzen.<pb/> Möchte ich sie bitten mich in Verbindung mit Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu setzen, da ich weiss, dass Sie mit ihm sehr in freundlichen Verhältnissen sind, um das Erlaubniss das <rs type="work" subtype="implied" ref="pmb29933">Schauspiel</rs> von Herrn <rs type="person" ref="pmb10815">Bahr</rs> zu übersetzen, zu erhalten?</p> 
             <p> 
-               <workName key="pmb30033"> 
+               <rs type="work" ref="pmb30033"> 
                   <hi rend="underline" n="1">Anatol’s</hi> 
                   <space unit="chars" quantity="1"/> 
                   <hi rend="underline" n="1">Heiratsmorgen</hi> 
-               </workName> wurde in<pb/> diesen letzten Tagen in <placeName key="pmb445"> 
+               </rs> wurde in<pb/> diesen letzten Tagen in <rs type="place" ref="pmb445"> 
                   <settlement>Rom</settlement> 
-               </placeName> ausgeführt; und schon zwei Mal wiederholt.</p> 
+               </rs> ausgeführt; und schon zwei Mal wiederholt.</p> 
             <closer>Hochachtungsvoll<lb/> 
                <signed>D<hi rend="superscript"> 
                      <hi rend="underline" n="1">r</hi> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Brahm an Arthur und Olga Schnitzler, 28. 4. 1910</title> 
-            <author key="pmb10986">Brahm, Otto</author> 
+            <author ref="pmb10986">Brahm, Otto</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,17 +42,17 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
-                  <persName key="pmb2173">Schnitzler, Olga</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19100428" n="01">28. 4. 1910</date> 
@@ -62,8 +62,8 @@
             <listBibl> 
                <biblStruct default="false" corresp="ASOB"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -91,31 +91,31 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb168"> 
+                  <rs type="place" ref="pmb168"> 
                      <settlement>Berlin</settlement> 
-                  </placeName>, <date>28. 4. 1910</date> 
+                  </rs>, <date>28. 4. 1910</date> 
                </dateline> 
                <salute>Lieber Freund,</salute> 
             </opener> 
             <p>mit Vergnügen ergreife ich die Feder (und das Wort, das Sie mir gegeben haben), um Ihnen allen zu dem neuen Heim herzlich Glück zu wünschen. Mögen Sie darin sehr schön leben und schreiben und kein fiktives, nur effektives Vogelgezwitscher hören.</p> 
             <p> 
                <hi rend="italic"> 
-                  <workName key="pmb30207">Das weite Land</workName> 
+                  <rs type="work" ref="pmb30207">Das weite Land</rs> 
                </hi> könnten Sie mir nun wirklich bald schicken. Wie lange machen Sie mir nun schon damit den Mund wäßrig? Und welcher moderne Mensch braucht von jetzt bis Anfang Juni, um die Fahnen seines Werkes hochzuhalten?</p> 
             <p>Übrigens war es ein rechter Unsinn, daß Sie mir beim <hi rend="italic"> 
-                  <workName key="pmb29935">Anatol</workName> 
+                  <rs type="work" ref="pmb29935">Anatol</rs> 
                </hi> in den Arm gefallen sind (da wir gerade vom Hochhalten reden, und das tue ich beim <hi rend="italic"> 
-                  <workName key="pmb29935">Anatol</workName> 
+                  <rs type="work" ref="pmb29935">Anatol</rs> 
                </hi>), und daß ich Ihnen, rücksichtsvoll wie immer, nachgab: die geplante Zeit um Ostern war absolut gut, da das <hi rend="italic"> 
-                  <workName key="pmb29933">Konzert</workName> 
-               </hi> damals von seiner stolzen Höhe herunterkam und der <rs type="work" key="pmb29923">Weg ins Freie</rs> frei war. Man soll halt nicht tun, was die Autoren sagen: Q. e. d.</p> 
-            <p>Aus diesem Grunde werde ich auch die <rs type="person" key="pmb28632"> 
-                  <rs type="person" key="pmb28633">Hebamme</rs>nnichte</rs> nicht engagieren (mit nichten, hätt ich beinah gesagt), die ich übrigens schon kenne – was auch ein Grund ist! Im Urteil über den <workName key="pmb32258">Halben Helden</workName> treffen Sie mit Ihrem Freunde, dem <persName key="pmb12050">Lessing</persName>, zusammen, der dieses Werk für <persName key="pmb11273">Eulenberg</persName>s spielbarstes hält. Ich finde es etwas pueril, seiner Vorzüge unbeschadet, hatte aber auf die <placeName key="pmb50"> 
+                  <rs type="work" ref="pmb29933">Konzert</rs> 
+               </hi> damals von seiner stolzen Höhe herunterkam und der <rs type="work" subtype="implied" ref="pmb29923">Weg ins Freie</rs> frei war. Man soll halt nicht tun, was die Autoren sagen: Q. e. d.</p> 
+            <p>Aus diesem Grunde werde ich auch die <rs type="person" subtype="implied" ref="pmb28632"> 
+                  <rs type="person" subtype="implied" ref="pmb28633">Hebamme</rs>nnichte</rs> nicht engagieren (mit nichten, hätt ich beinah gesagt), die ich übrigens schon kenne – was auch ein Grund ist! Im Urteil über den <rs type="work" ref="pmb32258">Halben Helden</rs> treffen Sie mit Ihrem Freunde, dem <rs type="person" ref="pmb12050">Lessing</rs>, zusammen, der dieses Werk für <rs type="person" ref="pmb11273">Eulenberg</rs>s spielbarstes hält. Ich finde es etwas pueril, seiner Vorzüge unbeschadet, hatte aber auf die <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName>er Nachrichten hin schon daran gedacht, es wieder zu lesen und will es nun sogar tun. Wie war denn der Herr <persName key="pmb26132">Träger</persName> der Hauptrolle, der sich mir sehr empfohlen hat?</p> 
-            <p>Nach <placeName key="pmb50"> 
+               </rs>er Nachrichten hin schon daran gedacht, es wieder zu lesen und will es nun sogar tun. Wie war denn der Herr <rs type="person" ref="pmb26132">Träger</rs> der Hauptrolle, der sich mir sehr empfohlen hat?</p> 
+            <p>Nach <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> kommen wir nicht, es wäre ein ganzer Roman zu erzählen, weshalb nicht. Und da nehm ich Rücksicht auf Ihre Nerven, denen ich die schönste Sommererholung wünsche. Daß wir uns in den nächsten Monaten sehen, ist nun wohl leider ausgeschlossen.</p> 
+               </rs> kommen wir nicht, es wäre ein ganzer Roman zu erzählen, weshalb nicht. Und da nehm ich Rücksicht auf Ihre Nerven, denen ich die schönste Sommererholung wünsche. Daß wir uns in den nächsten Monaten sehen, ist nun wohl leider ausgeschlossen.</p> 
             <closer>Herzlich Ihr <signed>O. B.</signed> 
             </closer> 
          </div> 
@@ -123,10 +123,10 @@
             <opener> 
                <salute>Liebe Frau Olga,</salute> 
             </opener> 
-            <p>es wird doch unserer Freundschaft keinen Abbruch tun, daß ich den von Ihnen gegengezeichneten Wunsch der hohen Frau, die um <persName key="pmb2238">Lili</persName>, <persName key="pmb12692">Heini</persName> und deren Eltern, Familie, Freunde, die Menschheit und die Kunst sich so verdient machte, nicht erfüllen kann? So eine <rs type="person" key="pmb28633">Weh- und Achmutter</rs> wird die Weise doch nicht sein.</p> 
+            <p>es wird doch unserer Freundschaft keinen Abbruch tun, daß ich den von Ihnen gegengezeichneten Wunsch der hohen Frau, die um <rs type="person" ref="pmb2238">Lili</rs>, <rs type="person" ref="pmb12692">Heini</rs> und deren Eltern, Familie, Freunde, die Menschheit und die Kunst sich so verdient machte, nicht erfüllen kann? So eine <rs type="person" subtype="implied" ref="pmb28633">Weh- und Achmutter</rs> wird die Weise doch nicht sein.</p> 
             <p>Sie wundern sich vielleicht, daß ich dem Arthur so viel dummes Zeug schreibe. Das kommt aber daher, weil ich immer lachen muß, wenn ich an ihn denke.</p> 
             <p>Ich kann aber auch sehr ernst sein.</p> 
-            <p>Viele gute Grüße Ihnen und den <rs type="person" key="pmb12692 pmb2238">Kindern</rs> 
+            <p>Viele gute Grüße Ihnen und den <rs type="person" subtype="implied" ref="pmb12692 pmb2238">Kindern</rs> 
             </p> 
             <closer>Ihr aufrichtig ergebener <signed>O. B.</signed> 
             </closer> 

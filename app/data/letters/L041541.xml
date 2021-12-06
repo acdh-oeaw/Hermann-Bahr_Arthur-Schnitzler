@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Brahm an Arthur Schnitzler, 16. 11. 1903</title> 
-            <author key="pmb10986">Brahm, Otto</author> 
+            <author ref="pmb10986">Brahm, Otto</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19031116" n="01">16. 11. 1903</date> 
@@ -61,8 +61,8 @@
             <listBibl> 
                <biblStruct default="false" corresp="ASOB"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -90,13 +90,13 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, <date>16. 11. 03</date> 
+                  </rs>, <date>16. 11. 03</date> 
                </dateline> 
                <salute>Lieber Herr Schnitzler,</salute> 
             </opener> 
-            <p>ich vermelde meine Ankunft und halte mich morgen Dienstag abend für Sie frei, bitte lassen Sie mich baldigst wissen, ob und in welcher Form Sie für mich Verwendung haben. Mittwoch werde ich wohl zu <persName key="pmb11740">Hofmannsthal</persName> hinausfahren. Ich bleibe vermutlich bis Sonntag incl. Für Donnerstag abend habe ich mich mit <persName key="pmb10815">Bahr</persName> verabredet, Sie würden dabei sehr willkommen sein.</p> 
+            <p>ich vermelde meine Ankunft und halte mich morgen Dienstag abend für Sie frei, bitte lassen Sie mich baldigst wissen, ob und in welcher Form Sie für mich Verwendung haben. Mittwoch werde ich wohl zu <rs type="person" ref="pmb11740">Hofmannsthal</rs> hinausfahren. Ich bleibe vermutlich bis Sonntag incl. Für Donnerstag abend habe ich mich mit <rs type="person" ref="pmb10815">Bahr</rs> verabredet, Sie würden dabei sehr willkommen sein.</p> 
             <closer>Herzlich Ihr <signed>O. B.</signed> 
             </closer> 
          </div> 

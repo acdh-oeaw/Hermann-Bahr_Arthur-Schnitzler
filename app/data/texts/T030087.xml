@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr: [Versandliste Wenn es euch gefällt?], [vor dem 28. 5. 1899?]</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -50,7 +50,7 @@
                         <repository>Theatermuseum</repository> 
                         <idno>HS VM 876 Ba</idno> 
                      </msIdentifier> 
-                     <physDesc>2. Seite eines »<quote>Skizzen 2</quote>« beschrifteten Hefts. Auf der ersten, der gegenüberliegenden, Seite eine Versandliste von <workName key="pmb31839">Wiener Theater</workName> (erschienen <date>Anfang Mai 1899</date>). Es dürfte also die Revue <workName key="pmb32582 pmb32584">Wenn es euch gefällt</workName> gemeint sein, die am <date>24. 3. 1899</date> im <placeName key="pmb19">Ronacher</placeName> einmal aufgeführt wurde und die am <date>28. 5. 1899</date> von der <orgName key="pmb29351">Neuen Freie Presse</orgName> (<bibl>Nr. 12485, Morgenblatt, S. 8)</bibl>) als als Neuerscheinung angeführt ist. </physDesc> 
+                     <physDesc>2. Seite eines »<quote>Skizzen 2</quote>« beschrifteten Hefts. Auf der ersten, der gegenüberliegenden, Seite eine Versandliste von <workName ref="pmb31839">Wiener Theater</workName> (erschienen <date>Anfang Mai 1899</date>). Es dürfte also die Revue <workName ref="pmb32582 pmb32584">Wenn es euch gefällt</workName> gemeint sein, die am <date>24. 3. 1899</date> im <placeName ref="pmb19">Ronacher</placeName> einmal aufgeführt wurde und die am <date>28. 5. 1899</date> von der <orgName ref="pmb29351">Neuen Freie Presse</orgName> (<bibl>Nr. 12485, Morgenblatt, S. 8)</bibl>) als als Neuerscheinung angeführt ist. </physDesc> 
                   </msDesc> 
                </witness> 
             </listWit> 
@@ -70,18 +70,18 @@
          <div type="writingSession" n="1"> 
             <p> 
                <anchor type="commentary" xml:id="KT087-1"> 
-                  <rs type="work" key="pmb32582 pmb32584">Revue</rs> 
+                  <rs type="work" subtype="implied" ref="pmb32582 pmb32584">Revue</rs> 
                </anchor> 
                <space unit="chars" quantity="1"/> 
-               <hi rend="gabelsberger">geschickt</hi> an <persName key="pmb2202">Singer</persName> 
-               <hi rend="superscript">x</hi>, <persName key="pmb2167">Salten</persName> 
-               <hi rend="superscript">x</hi>, <persName key="pmb28238">Koppel</persName>, <persName key="pmb3162">Stern</persName>, <persName key="pmb12460">Pötzl</persName>, <persName key="pmb3579">Jacobson</persName> 
+               <hi rend="gabelsberger">geschickt</hi> an <rs type="person" ref="pmb2202">Singer</rs> 
+               <hi rend="superscript">x</hi>, <rs type="person" ref="pmb2167">Salten</rs> 
+               <hi rend="superscript">x</hi>, <rs type="person" ref="pmb28238">Koppel</rs>, <rs type="person" ref="pmb3162">Stern</rs>, <rs type="person" ref="pmb12460">Pötzl</rs>, <rs type="person" ref="pmb3579">Jacobson</rs> 
                <space unit="chars" quantity="1"/> 
                <hi rend="underline" n="1"> 
-                  <persName key="pmb2150">Bauer</persName> 
-               </hi>, <persName key="pmb11687">Hevesi</persName> 
+                  <rs type="person" ref="pmb2150">Bauer</rs> 
+               </hi>, <rs type="person" ref="pmb11687">Hevesi</rs> 
                <space unit="chars" quantity="1"/> 
-               <persName key="pmb2312">Zuckerkandl</persName>, <persName key="pmb12920">TannBergler</persName>, <persName key="pmb2121">Schnitzler</persName>,</p> 
+               <rs type="person" ref="pmb2312">Zuckerkandl</rs>, <rs type="person" ref="pmb12920">TannBergler</rs>, <rs type="person" ref="pmb2121">Schnitzler</rs>,</p> 
          </div> 
       </body> 
    </text> 

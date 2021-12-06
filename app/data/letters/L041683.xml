@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Reicher an Hermann Bahr, 15. 12. 1891</title> 
-            <author key="pmb12491">Reicher, Emanuel</author> 
+            <author ref="pmb12491">Reicher, Emanuel</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb12491">Reicher, Emanuel</persName> 
+                  <persName ref="pmb12491">Reicher, Emanuel</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18911215" n="01">15. 12. 1891</date> 
@@ -69,9 +69,9 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Brief, 1 Bl., 1 S., gedruckter Kopf: »<quote> 
-                              <orgName key="pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName key="pmb168"> 
+                              <orgName ref="pmb29252">Emanuel Reicher’s / Deutsche Gastspielgesellschaft.</orgName> / <placeName ref="pmb168"> 
                                  <settlement>Berlin</settlement> 
-                              </placeName> C. d. ...... 189 / <placeName key="pmb822">Alexander-Str. 30</placeName> 
+                              </placeName> C. d. ...... 189 / <placeName ref="pmb822">Alexander-Str. 30</placeName> 
                            </quote>«.</p> 
                      </physDesc> 
                   </msDesc> 
@@ -95,11 +95,11 @@
                <addrLine>Herrn <hi rend="latintype">Hermann Bahr</hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement> 
                         <hi rend="latintype">Wien</hi> 
                      </settlement> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -110,10 +110,10 @@
                </dateline> 
                <salute>Lieber Freund,</salute> 
             </opener> 
-            <p>mit Director <persName key="pmb14328">Blumenthal</persName> habe ich schon s. Zeit über <persName key="pmb2121">Schnitzler</persName>s <workName key="pmb29823">Märchen</workName> gesprochen und auch gestern wieder mit ihm darüber conferirt. Er hat es gelesen und es muß ihm wohl sehr gefallen haben, denn seinen Äußerungen entnahm ich, daß er es wohl annehmen wird. Er sprach auch noch von einigen unwesentlichen Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype">enfin</hi>, die Sache dürfte sich machen.</p> 
-            <p>Dir. <persName key="pmb2598">Lautenburg</persName> ist nicht in <placeName key="pmb168"> 
+            <p>mit Director <rs type="person" ref="pmb14328">Blumenthal</rs> habe ich schon s. Zeit über <rs type="person" ref="pmb2121">Schnitzler</rs>s <rs type="work" ref="pmb29823">Märchen</rs> gesprochen und auch gestern wieder mit ihm darüber conferirt. Er hat es gelesen und es muß ihm wohl sehr gefallen haben, denn seinen Äußerungen entnahm ich, daß er es wohl annehmen wird. Er sprach auch noch von einigen unwesentlichen Änderungen die er dem Verfasser vorzuschlagen gedenkt aber, <hi rend="latintype">enfin</hi>, die Sache dürfte sich machen.</p> 
+            <p>Dir. <rs type="person" ref="pmb2598">Lautenburg</rs> ist nicht in <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName>, ich will mit ihm <anchor type="commentary" xml:id="KL683-1">reden</anchor>, sobald er wiederkommt.</p> 
+               </rs>, ich will mit ihm <anchor type="commentary" xml:id="KL683-1">reden</anchor>, sobald er wiederkommt.</p> 
             <closer>Mit herzlichem Gruß<lb/> 
                <signed>Em Reicher</signed> 
             </closer> 

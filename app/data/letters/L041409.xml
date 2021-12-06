@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 1. 1. 1892</title> 
-            <author key="pmb11740">Hofmannsthal, Hugo von</author> 
+            <author ref="pmb11740">Hofmannsthal, Hugo von</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18920101" n="01">1. 1. 1892</date> 
@@ -72,7 +72,7 @@
                               <date>1/1 92</date> 
                            </quote>«, von unbek. Hand auf der Rückseite der Adressseite: »<quote>14.05 / 7.02 / 6.96 / 7.00 / 13.60</quote>«.</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb53">Wien 3/3</placeName> 
+                           <placeName ref="pmb53">Wien 3/3</placeName> 
                            <date>1. 1. 92</date> 
                            <time>5–6 N</time> 
                         </stamp> 
@@ -83,8 +83,8 @@
             <listBibl> 
                <biblStruct corresp="HvHAS" default="false"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -116,14 +116,14 @@
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb50"> 
+                     <rs type="place" ref="pmb50"> 
                         <settlement>Wien</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb501">I. Kärnthnerring 12.</placeName> 
+                     <rs type="place" ref="pmb501">I. Kärnthnerring 12.</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -133,10 +133,10 @@
                <salute>Lieber Freund!</salute> 
             </opener> 
             <p> 
-               <persName key="pmb2425">Dörmann</persName> will uns sein neues <anchor type="commentary" xml:id="KL409-1"> 
-                  <rs type="work" key="pmb30171">Buch</rs> 
+               <rs type="person" ref="pmb2425">Dörmann</rs> will uns sein neues <anchor type="commentary" xml:id="KL409-1"> 
+                  <rs type="work" subtype="implied" ref="pmb30171">Buch</rs> 
                </anchor> vorlesen und hat mich gebeten, Sie einzuladen.</p> 
-            <p>Wenn Sie also nichts besseres vorhaben, kommen Sie morgen Samstag, <hi rend="underline" n="1">½ 8</hi> Uhr (pünktlich) <orgName key="pmb29778">Gewerbeverein</orgName>, <placeName key="pmb564">Eschenbachgasse</placeName>, 3 Stock, im Secretariat. Es kommen <persName key="pmb2167">Salten</persName>, <persName key="pmb10815">Bahr</persName>, Sie und ich. Wenn Sie nicht können, sagen Sie bitte mir pneumatisch ab. Ich war heute bei dem Leichenbegängnis von <persName key="pmb10863">Richard</persName>s <rs type="person" key="pmb28533">Mutter</rs>. Soll man ihn besuchen? </p> 
+            <p>Wenn Sie also nichts besseres vorhaben, kommen Sie morgen Samstag, <hi rend="underline" n="1">½ 8</hi> Uhr (pünktlich) <rs type="org" ref="pmb29778">Gewerbeverein</rs>, <rs type="place" ref="pmb564">Eschenbachgasse</rs>, 3 Stock, im Secretariat. Es kommen <rs type="person" ref="pmb2167">Salten</rs>, <rs type="person" ref="pmb10815">Bahr</rs>, Sie und ich. Wenn Sie nicht können, sagen Sie bitte mir pneumatisch ab. Ich war heute bei dem Leichenbegängnis von <rs type="person" ref="pmb10863">Richard</rs>s <rs type="person" subtype="implied" ref="pmb28533">Mutter</rs>. Soll man ihn besuchen? </p> 
             <closer>Herzlichst<lb/> 
                <signed>Loris</signed> 
             </closer> 

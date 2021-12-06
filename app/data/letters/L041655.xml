@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Oskar Bacher, 5. 2. 1910</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2241">Bacher, Oskar</persName> 
+                  <persName ref="pmb2241">Bacher, Oskar</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb140">Halle an der Saale</placeName> 
+                  <placeName ref="pmb140">Halle an der Saale</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19100205" n="01">5. 2. 1910</date> 
@@ -89,9 +89,9 @@
       <body> 
          <div type="address"> 
             <address> 
-               <addrLine>Herrn Bacher, <placeName key="pmb140"> 
+               <addrLine>Herrn Bacher, <rs type="place" ref="pmb140"> 
                      <settlement>Halle a.S.</settlement> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -102,12 +102,12 @@
                <salute rend="center">Sehr geehrter Herr!</salute> 
             </opener> 
             <p> 
-               <persName key="pmb10815">Hermann Bahr</persName> hat mir Ihr freundliches Ersuchen übermittelt und wenn ich heuer überhaupt noch öffentlich lesen sollte und die äusseren Umstände es zulassen sollten, so würde ich natürlich gerne der wiederholten liebenswürdigen Einladung Ihres <anchor type="commentary" xml:id="KL655-2"> 
-                  <rs type="org" key="pmb29224">Vereins</rs> 
-               </anchor> Folge leisten. Heute aber steht es noch nicht fest, wann meine <placeName key="pmb168"> 
+               <rs type="person" ref="pmb10815">Hermann Bahr</rs> hat mir Ihr freundliches Ersuchen übermittelt und wenn ich heuer überhaupt noch öffentlich lesen sollte und die äusseren Umstände es zulassen sollten, so würde ich natürlich gerne der wiederholten liebenswürdigen Einladung Ihres <anchor type="commentary" xml:id="KL655-2"> 
+                  <rs type="org" subtype="implied" ref="pmb29224">Vereins</rs> 
+               </anchor> Folge leisten. Heute aber steht es noch nicht fest, wann meine <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName>er <anchor type="commentary" xml:id="KL655-1"> 
-                  <rs type="work" key="pmb29935">Première</rs> 
+               </rs>er <anchor type="commentary" xml:id="KL655-1"> 
+                  <rs type="work" subtype="implied" ref="pmb29935">Première</rs> 
                </anchor> stattfindet; ich weiss noch nicht einmal ganz sicher, ob ich hinfahren oder zu derselben Zeit mich auf einer Vergnügungsreise befinden werde. Wollen Sie mir nicht vielleicht mitteilen, um wieviel Tage resp. Wochen <add place="above">früher</add> ich mich bei Ihnen melden müsste?</p> 
             <closer>Mit vorzüglicher Hochachtung<lb/>Ihr ergebener</closer> 
          </div> 

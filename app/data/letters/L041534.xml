@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Adele Sandrock, [5.] 6. 1894</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb12618">Sandrock, Adele</persName> 
+                  <persName ref="pmb12618">Sandrock, Adele</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb155">München</placeName> 
+                  <placeName ref="pmb155">München</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18940605" n="01">[5.] 6. 1894</date> 
@@ -76,8 +76,8 @@
             <listBibl> 
                <biblStruct corresp="ASAS" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb12618">Sandrock, Adele</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb12618">Sandrock, Adele</author> 
                      <title level="m">Dilly. Geschichte einer Liebe in Briefen, Bildern und Dokumenten</title> 
                      <editor>Zusammengestellt von Renate Wagner</editor> 
                      <imprint> 
@@ -106,31 +106,31 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb155"> 
+                  <rs type="place" ref="pmb155"> 
                      <settlement>München</settlement> 
-                  </placeName>, <date>AnfJuni</date> 
+                  </rs>, <date>AnfJuni</date> 
                </dateline> 
                <salute>Meine geliebte Dilly,</salute> 
             </opener> 
-            <p>bin noch im <placeName key="pmb100">Café Luitpold</placeName>, aber nach dem Speisen, zwischen zwei Gallerien – und zwischen <rs type="person" key="pmb10863">zwei großen Dichtern</rs>. –</p> 
+            <p>bin noch im <rs type="place" ref="pmb100">Café Luitpold</rs>, aber nach dem Speisen, zwischen zwei Gallerien – und zwischen <rs type="person" subtype="implied" ref="pmb10863">zwei großen Dichtern</rs>. –</p> 
             <p> 
-               <persName key="pmb10815"> 
+               <rs type="person" ref="pmb10815"> 
                   <hi rend="latintype">Bahr</hi> 
-               </persName> ist heute früh gekommen.–</p> 
-            <p>Gestern Abend waren wir bei der »<workName key="pmb29825">Jugend</workName>« von <persName key="pmb11565"> 
+               </rs> ist heute früh gekommen.–</p> 
+            <p>Gestern Abend waren wir bei der »<rs type="work" ref="pmb29825">Jugend</rs>« von <rs type="person" ref="pmb11565"> 
                   <hi rend="latintype">Halbe</hi> 
-               </persName> . Sehr interessantes Stück<pb/> das in <placeName key="pmb50"> 
+               </rs> . Sehr interessantes Stück<pb/> das in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> wahrscheinlich verhöhnt worden wäre.– </p> 
+               </rs> wahrscheinlich verhöhnt worden wäre.– </p> 
             <p>Dein Telegramm, Schatz, fand <subst> 
                   <del rend="overwritten">d<unclear>er</unclear> 
                   </del> 
                   <add place="inline">ich</add> 
                </subst> gestern Abend – nun ist hoffentlich Dein Fieber und die Schmerzen völlig weg – Aber, Kind, Kind, dass diese »Aufklärung« – nothwendig war – das hab ich doch nicht gedacht. Ich bin ja ein Säugling<pb/> des Mistrauens gegen Dich!–</p> 
             <p>So sind nun bald 3 mal 24 Stunden, dass ich – von den telegraf. Worten abgesehn, nichts, gar nichts von dir gehört. Morgen bekomm’ ich wohl einen Brief. Ich reise Donnerstg u Freitg von hier ab, – wird rechtzeitg telegrafirt –</p> 
-            <p>Im ganzen fühl ich mich recht<pb/> wohl – abgesehen von der Sehnsucht nach den lieben Worten und nach den süßen Küssen, die mir in <placeName key="pmb50"> 
+            <p>Im ganzen fühl ich mich recht<pb/> wohl – abgesehen von der Sehnsucht nach den lieben Worten und nach den süßen Küssen, die mir in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> das Leben – nach halb zehn versüßen und verschönen.</p> 
+               </rs> das Leben – nach halb zehn versüßen und verschönen.</p> 
             <p>Hast du mich lieb? – Mir ist, als hätt ich dich Wochen lang nicht gesehn – </p> 
             <p>Leb wohl, mein geliebter Schatz und tausend Küsse!<space unit="chars" quantity="5"/>Dein dein <signed>Arth</signed> 
             </p> 

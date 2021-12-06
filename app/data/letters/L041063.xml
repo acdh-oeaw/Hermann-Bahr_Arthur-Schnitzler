@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 9. 10. 1903</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19031009" n="01">9. 10. 1903</date> 
@@ -70,13 +70,13 @@
                      <physDesc> 
                         <p>eh. Kartenbrief</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb59">Wien 9</placeName> 
+                           <placeName ref="pmb59">Wien 9</placeName> 
                            <date when="19031009">9. 10. <supplied>1903</supplied> 
                            </date> 
                            <time>11–12 V</time> 
                         </stamp> 
                         <stamp n="2"> 
-                           <placeName key="pmb63">Wien 13</placeName> 
+                           <placeName ref="pmb63">Wien 13</placeName> 
                            <date when="19031009">9 10 03</date> 
                         </stamp> 
                      </physDesc> 
@@ -89,7 +89,7 @@
                      <date when="19031009">9. 10. 1903</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -128,11 +128,11 @@
                <addrLine>Herrn Hermann Bahr</addrLine> 
                <addrLine> 
                   <hi rend="underline" n="1"> 
-                     <placeName key="pmb165">Wien-Ob-St Veit</placeName> 
+                     <rs type="place" ref="pmb165">Wien-Ob-St Veit</rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb220">Veitlissengasse.</placeName> 
+                  <rs type="place" ref="pmb220">Veitlissengasse.</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -142,27 +142,27 @@
                   <hi rend="latintype"> 
                      <anchor type="textConst" xml:id="TL063-1"> 
                         <hi rend="underline" n="1"> 
-                           <placeName key="pmb133">XVIII Spöttelgasse 7</placeName> 
+                           <rs type="place" ref="pmb133">XVIII Spöttelgasse 7</rs> 
                         </hi> 
                      </anchor> 
                   </hi> 
                </p> 
                <dateline> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
                   <date>9. 10. 903</date>.</dateline> 
             </opener> 
             <p> 
                <salute>lieber Hermann, </salute> 
-               <workName key="pmb29855">Reigen</workName> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht zu stellen. In <placeName key="pmb168"> 
+               <rs type="work" ref="pmb29855">Reigen</rs> lass ich dir sofort schicken. Ich bin neugierig was die Censur sagt. Dann werden wir über die Anzahl der Sitze reden, die du so gütig bist mir in Aussicht zu stellen. In <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName> grüße mir, wenn du sie siehst, <persName key="pmb10986">Brahm</persName>, <persName key="pmb10844">Bassermann</persName>, <persName key="pmb12530">Rittner</persName>, <persName key="pmb2193">Sauer</persName>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1"> 
-                  <rs type="work" key="pmb29983">Stück</rs> 
+               </rs> grüße mir, wenn du sie siehst, <rs type="person" ref="pmb10986">Brahm</rs>, <rs type="person" ref="pmb10844">Bassermann</rs>, <rs type="person" ref="pmb12530">Rittner</rs>, <rs type="person" ref="pmb2193">Sauer</rs>; – es handelt sich wohl um dein neues <anchor type="commentary" xml:id="KL063-1"> 
+                  <rs type="work" subtype="implied" ref="pmb29983">Stück</rs> 
                </anchor>? Hoffentlich seh ich dich ab<damage agent="hole"> 
                   <supplied>er</supplied> 
-               </damage> noch vor deiner Abreise. Entweder komm ich auf eine viertel Stunde zu dir nach <placeName key="pmb165">Ob Veit</placeName> – oder, man könnte sich, ev. mit <persName key="pmb11740 pmb2292">Hugo’s</persName> in <placeName key="pmb63">Hietzing</placeName> zu Abend u Abendessen treffen?</p> 
+               </damage> noch vor deiner Abreise. Entweder komm ich auf eine viertel Stunde zu dir nach <rs type="place" ref="pmb165">Ob Veit</rs> – oder, man könnte sich, ev. mit <rs type="person" ref="pmb11740 pmb2292">Hugo’s</rs> in <rs type="place" ref="pmb63">Hietzing</rs> zu Abend u Abendessen treffen?</p> 
             <closer>Herzlichst dein<lb/> 
                <signed>Arthur.</signed> 
             </closer> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Arthur Schnitzler, 21. 5. 1903</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb470">Reichenau an der Rax</placeName> 
+                  <placeName ref="pmb470">Reichenau an der Rax</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19030521" n="01">21. 5. 1903</date> 
@@ -71,13 +71,13 @@
                         <p>eh. Korrespondenzkarte, Jahreszahl »<quote> 
                               <date>903</date>.</quote>« von Schnitzler ergänzt.</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb470">Edlach b. Reichenau in N.OE.</placeName> 
+                           <placeName ref="pmb470">Edlach b. Reichenau in N.OE.</placeName> 
                            <date when="19030522">22 5 03</date> 
                            <time>8–12V</time> 
                         </stamp> 
                         <stamp n="2"> 
                            <vorgang>Bestellt</vorgang> 
-                           <placeName key="pmb59">Wien 9/3</placeName> 
+                           <placeName ref="pmb59">Wien 9/3</placeName> 
                            <date when="19030522">22 5. 03</date> 
                            <time>1.N</time> 
                         </stamp> 
@@ -107,27 +107,27 @@
             <address> 
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb59">Wien IX</placeName> 
+                  <rs type="place" ref="pmb59">Wien IX</rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb397">Frankgasse</placeName> 1.</addrLine> 
+                  <rs type="place" ref="pmb397">Frankgasse</rs> 1.</addrLine> 
             </address> 
          </div> 
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb80">Edlach Anstalt D<hi rend="superscript">r</hi> Konried</placeName> 
+                  <rs type="place" ref="pmb80">Edlach Anstalt D<hi rend="superscript">r</hi> Konried</rs> 
                   <lb/> 
                   <date>21. 5.</date> 
                </dateline> 
             </opener> 
             <p> 
                <salute>Lieber Arthur! </salute>Ich habe keine Ahnung, was Du eigentlich meinst. Ich bin seit drei Jahren Mitglied des <anchor type="commentary" xml:id="KL259-1"> 
-                  <placeName key="pmb155"> 
+                  <rs type="place" ref="pmb155"> 
                      <settlement>Münchner</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
-                  <rs type="org" key="pmb29757">Pensionsfonds</rs> 
+                  <rs type="org" subtype="implied" ref="pmb29757">Pensionsfonds</rs> 
                </anchor> und zahle dafür sehr wenig; ich glaube 6 oder 8 Mark pro Quartal. Von einer anderen »Zeichnung« ist mir nichts bekannt. Ich komme übrigens Montag zurück u. werde mich dann erkundigen.</p> 
             <closer>Herzlichst<lb/>Dein<lb/> 
                <signed>Hermann</signed> 

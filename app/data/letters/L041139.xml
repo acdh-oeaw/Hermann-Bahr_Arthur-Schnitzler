@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 6. 6. 1922</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb155">München</placeName> 
+                  <placeName ref="pmb155">München</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19220606" n="01">6. 6. 1922</date> 
@@ -70,7 +70,7 @@
                      <physDesc> 
                         <p>eh. Korrespondenzkarte, Adresse von fremder Hand ergänzt: »<quote>NW 18</quote>«, erste Ziffer überschreibt »<quote>3</quote>«</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb50">Wien</placeName> 
+                           <placeName ref="pmb50">Wien</placeName> 
                            <date when="19220607">7. VI. 22</date> 
                            <time>8</time> 
                         </stamp> 
@@ -85,7 +85,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -125,11 +125,11 @@
                   <hi rend="latintype">A. S.</hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb68">Wien XVIII</placeName> 
+                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb150">Sternwstr 71</placeName> 
+                     <rs type="place" ref="pmb150">Sternwstr 71</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -137,33 +137,33 @@
                <addrLine>Herr Hermann Bahr</addrLine> 
                <addrLine> 
                   <hi rend="underline" n="1"> 
-                     <placeName key="pmb155"> 
+                     <rs type="place" ref="pmb155"> 
                         <settlement>München</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb161">Barerstraße.</placeName> 
+                  <rs type="place" ref="pmb161">Barerstraße.</rs> 
                </addrLine> 
             </address> 
          </div> 
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, <date>6. 6. 22</date> 
+                  </rs>, <date>6. 6. 22</date> 
                </dateline> 
             </opener> 
             <p> 
-               <salute>Mein lieber Hermann, </salute>laß dir vorläufig auf diesem Weg für die ausführlichen, freundschaftlichen warmherzigen <rs type="work" key="pmb30049 pmb31457">Grüße</rs> 
+               <salute>Mein lieber Hermann, </salute>laß dir vorläufig auf diesem Weg für die ausführlichen, freundschaftlichen warmherzigen <rs type="work" subtype="implied" ref="pmb30049 pmb31457">Grüße</rs> 
                <space unit="chars" quantity="1"/> 
                <subst> 
                   <del rend="overwritten">s</del> 
                   <add place="inline">d</add> 
-               </subst>anken, die du mir durch die Zeitungen zu meinem Geburtstag gesandt hast. In diesem Sommer hoffe ich zuversichtlich dir endlich wieder die Hand drücken zu können. Ich <unclear>nehme</unclear> an, du bleibst vorläufig in <placeName key="pmb155"> 
+               </subst>anken, die du mir durch die Zeitungen zu meinem Geburtstag gesandt hast. In diesem Sommer hoffe ich zuversichtlich dir endlich wieder die Hand drücken zu können. Ich <unclear>nehme</unclear> an, du bleibst vorläufig in <rs type="place" ref="pmb155"> 
                   <settlement>München</settlement> 
-               </placeName>,<pb/> ich komme wohl durch und darf dich aufsuchen!</p> 
+               </rs>,<pb/> ich komme wohl durch und darf dich aufsuchen!</p> 
             <closer>Mit tausen<supplied>d</supplied> Grüßen,<lb/>Dein getreuer<lb/> 
                <signed>Arthur </signed> 
             </closer> 

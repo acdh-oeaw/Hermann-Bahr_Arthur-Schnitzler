@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Brahm an Arthur Schnitzler, 27. 9. 1911</title> 
-            <author key="pmb10986">Brahm, Otto</author> 
+            <author ref="pmb10986">Brahm, Otto</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19110927" n="01">27. 9. 1911</date> 
@@ -61,8 +61,8 @@
             <listBibl> 
                <biblStruct corresp="ASOB" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -90,21 +90,21 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb168"> 
+                  <rs type="place" ref="pmb168"> 
                      <settlement>Berlin</settlement> 
-                  </placeName>, <date>27. 9. 11</date> 
+                  </rs>, <date>27. 9. 11</date> 
                </dateline> 
                <salute>Lieber Freund,</salute> 
             </opener> 
-            <p>es tut mir sehr leid, daß Frau <persName key="pmb2173">Olga</persName> von diesem langwierigen Übel gequält wird, und ich hoffe, Sie können nun bald reisen und andre Luft atmen als die jetzt auf Ihnen lastet! Daß Sie beide mit meinen <rs type="work" key="pmb31319 pmb31545">Büchern</rs> beschäftigt sind, freut mich. Wir revanchieren uns durch Vertiefung ins <hi rend="italic"> 
-                  <workName key="pmb30207">Weite Land</workName> 
-               </hi>. Arrangierproben waren schon vorige Woche, übermorgen fangen die Bühnenproben an. Es ist alles mit Eifer bei der Sache. <persName key="pmb3960">Monnard</persName>, <persName key="pmb4535">Sussin</persName> versprechen gut zu werden – womit nichts gegen die andern Nichtgenannten gesagt sein soll. <persName key="pmb2193">Sauer</persName> konnten wir nun doch nicht nehmen, er geht wieder schlechter, keinen Schritt allein, und man wüßte nicht, wie man ihn durch die (herrliche) Halle bringen sollte. Es hat also <persName key="pmb12491">Reicher</persName> den Aigner, <persName key="pmb28639">Froböse</persName> den Natter (wird gehen, ohne freilich die <persName key="pmb12491">Reicher</persName>-Höhe ahnen zu lassen); <persName key="pmb4431">Forest</persName> den Rhon, <persName key="pmb4220">Ziener</persName> den Paul, <persName key="pmb13041">Walter</persName> den Gustav. Und Frau Rhon ist von der <persName key="pmb15622">Eberty</persName>, die sich durch die Rolle »degradiert« fühlte (sie ist, die Rolle, wirklich sehr klein) an Frl. <persName key="pmb4538">Crusius</persName> gewandert. Das andere blieb wie geplant. Dr. Meyer: <persName key="pmb4540">Wassermann jr</persName>!</p> 
+            <p>es tut mir sehr leid, daß Frau <rs type="person" ref="pmb2173">Olga</rs> von diesem langwierigen Übel gequält wird, und ich hoffe, Sie können nun bald reisen und andre Luft atmen als die jetzt auf Ihnen lastet! Daß Sie beide mit meinen <rs type="work" subtype="implied" ref="pmb31319 pmb31545">Büchern</rs> beschäftigt sind, freut mich. Wir revanchieren uns durch Vertiefung ins <hi rend="italic"> 
+                  <rs type="work" ref="pmb30207">Weite Land</rs> 
+               </hi>. Arrangierproben waren schon vorige Woche, übermorgen fangen die Bühnenproben an. Es ist alles mit Eifer bei der Sache. <rs type="person" ref="pmb3960">Monnard</rs>, <rs type="person" ref="pmb4535">Sussin</rs> versprechen gut zu werden – womit nichts gegen die andern Nichtgenannten gesagt sein soll. <rs type="person" ref="pmb2193">Sauer</rs> konnten wir nun doch nicht nehmen, er geht wieder schlechter, keinen Schritt allein, und man wüßte nicht, wie man ihn durch die (herrliche) Halle bringen sollte. Es hat also <rs type="person" ref="pmb12491">Reicher</rs> den Aigner, <rs type="person" ref="pmb28639">Froböse</rs> den Natter (wird gehen, ohne freilich die <rs type="person" ref="pmb12491">Reicher</rs>-Höhe ahnen zu lassen); <rs type="person" ref="pmb4431">Forest</rs> den Rhon, <rs type="person" ref="pmb4220">Ziener</rs> den Paul, <rs type="person" ref="pmb13041">Walter</rs> den Gustav. Und Frau Rhon ist von der <rs type="person" ref="pmb15622">Eberty</rs>, die sich durch die Rolle »degradiert« fühlte (sie ist, die Rolle, wirklich sehr klein) an Frl. <rs type="person" ref="pmb4538">Crusius</rs> gewandert. Das andere blieb wie geplant. Dr. Meyer: <rs type="person" ref="pmb4540">Wassermann jr</rs>!</p> 
             <p>Die Kombination <hi rend="italic"> 
-                  <workName key="pmb30085">Tänzchen</workName> 
+                  <rs type="work" ref="pmb30085">Tänzchen</rs> 
                </hi>–<hi rend="italic"> 
-                  <workName key="pmb29931">Mizzi</workName> 
-               </hi> seh ich gern von Ihnen gesegnet. Und gebe der Hoffnung Ausdruck, daß Sie diesmal die <persName key="pmb10815">Bahr</persName>-Chancen <hi rend="spaced_out">noch</hi> sicherer empfinden als beim <hi rend="italic"> 
-                  <workName key="pmb29933">Konzert</workName> 
+                  <rs type="work" ref="pmb29931">Mizzi</rs> 
+               </hi> seh ich gern von Ihnen gesegnet. Und gebe der Hoffnung Ausdruck, daß Sie diesmal die <rs type="person" ref="pmb10815">Bahr</rs>-Chancen <hi rend="spaced_out">noch</hi> sicherer empfinden als beim <hi rend="italic"> 
+                  <rs type="work" ref="pmb29933">Konzert</rs> 
                </hi>.</p> 
             <closer>Herzlich der Ihre<lb/> 
                <signed>O. B.</signed> 

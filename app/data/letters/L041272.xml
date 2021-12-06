@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Arthur Schnitzler, 15. 2. 1904</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb38096">Abbazia/Opatja</placeName> 
+                  <placeName ref="pmb38096">Abbazia/Opatja</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19040215" n="01">15. 2. 1904</date> 
@@ -70,12 +70,12 @@
                      <physDesc> 
                         <p>eh. Briefkarte</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb38096">Abbazia</placeName> 
+                           <placeName ref="pmb38096">Abbazia</placeName> 
                            <date when="19040215">15. 2. 04</date> 
                         </stamp> 
                         <stamp n="2"> 
                            <vorgang>Bestellt</vorgang> 
-                           <placeName key="pmb68">Wien 18/1</placeName> 
+                           <placeName ref="pmb68">Wien 18/1</placeName> 
                            <date when="19040217">17. 2. 04</date> 
                            <time>8.V</time> 
                         </stamp> 
@@ -106,10 +106,10 @@
             <address> 
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb68">Wien XVIII</placeName> 
+                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb133">Spöttelgasse 7</placeName> 
+                  <rs type="place" ref="pmb133">Spöttelgasse 7</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -118,15 +118,15 @@
                <dateline rend="right"> 
                   <date>15. 2. 04</date> 
                   <lb/> 
-                  <placeName key="pmb38096"> 
+                  <rs type="place" ref="pmb38096"> 
                      <settlement>Abbazia</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
-                  <placeName key="pmb306">Hot. Guarnero</placeName> 
+                  <rs type="place" ref="pmb306">Hot. Guarnero</rs> 
                </dateline> 
                <salute>Lieber Arthur!</salute> 
             </opener> 
-            <p>Ich kam heut hier an und weil der <persName key="pmb12968">Trebitsch</persName>, der mir ein Telegramm versprochen, es verbummelt hat, ließ ich mich verleiten, in den <placeName key="pmb50">Wiener</placeName> Zeitungen nachzusehen, deren Ton aber so hundsgemein ist, daß ich ihn physisch nicht mehr vertrage. Und nun nachdem ich mich unsinnig geärgert hab, weiß ich zudem natürlich gar nichts: wars ein Erfolg, wars keiner? Ich weiß aber, daß das <rs type="work" key="pmb29985">Stück</rs> zu Deinen schönsten und reinsten Arbeiten gehört, und ich mein, wir sollten uns überhaupt nicht mehr zu Erfolgen, sondern zu den Werken, die uns etwas sind, gratulieren. Mir ist der »<workName key="pmb29985">einsame Weg</workName>« in seinen Hauptgestalten und ihrem Erleben sehr viel.</p> 
+            <p>Ich kam heut hier an und weil der <rs type="person" ref="pmb12968">Trebitsch</rs>, der mir ein Telegramm versprochen, es verbummelt hat, ließ ich mich verleiten, in den <rs type="place" ref="pmb50">Wiener</rs> Zeitungen nachzusehen, deren Ton aber so hundsgemein ist, daß ich ihn physisch nicht mehr vertrage. Und nun nachdem ich mich unsinnig geärgert hab, weiß ich zudem natürlich gar nichts: wars ein Erfolg, wars keiner? Ich weiß aber, daß das <rs type="work" subtype="implied" ref="pmb29985">Stück</rs> zu Deinen schönsten und reinsten Arbeiten gehört, und ich mein, wir sollten uns überhaupt nicht mehr zu Erfolgen, sondern zu den Werken, die uns etwas sind, gratulieren. Mir ist der »<rs type="work" ref="pmb29985">einsame Weg</rs>« in seinen Hauptgestalten und ihrem Erleben sehr viel.</p> 
             <closer>Herzlichst <space quantity="5" unit="chars"/>Dein <signed>Hermann</signed> 
             </closer> 
          </div> 

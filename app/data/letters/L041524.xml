@@ -4,9 +4,9 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Karl Rosner auf Karte von Karl Kraus an Arthur Schnitzler, 30. 9. 1893</title> 
-            <author key="pmb11988">Kraus, Karl</author> 
-            <author key="pmb12564">Rosner, Karl</author> 
-            <author key="pmb4498">Schaumberger, Julius</author> 
+            <author ref="pmb11988">Kraus, Karl</author> 
+            <author ref="pmb12564">Rosner, Karl</author> 
+            <author ref="pmb4498">Schaumberger, Julius</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -44,18 +44,18 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb11988">Kraus, Karl</persName> 
-                  <persName key="pmb12564">Rosner, Karl</persName> 
-                  <persName key="pmb4498">Schaumberger, Julius</persName> 
+                  <persName ref="pmb11988">Kraus, Karl</persName> 
+                  <persName ref="pmb12564">Rosner, Karl</persName> 
+                  <persName ref="pmb4498">Schaumberger, Julius</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb155">München</placeName> 
+                  <placeName ref="pmb155">München</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18930930" n="01">30. 9. 1893</date> 
@@ -74,7 +74,7 @@
                      <physDesc> 
                         <p>eh. Karte, 3 Verf., Bleistift</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb155">München II</placeName> 
+                           <placeName ref="pmb155">München II</placeName> 
                         </stamp> 
                      </physDesc> 
                   </msDesc> 
@@ -116,12 +116,12 @@
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb51">Wien I</placeName> 
+                     <rs type="place" ref="pmb51">Wien I</rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb412">Grillparzerstraße 7. I</placeName> 
+                     <rs type="place" ref="pmb412">Grillparzerstraße 7. I</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -129,14 +129,14 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb100">München, Café Luitpold</placeName>, <date>30/9 93</date>.</dateline> 
+                  <rs type="place" ref="pmb100">München, Café Luitpold</rs>, <date>30/9 93</date>.</dateline> 
             </opener> 
             <p> 
                <salute>Liebster Doktor, </salute>herzlichste Grüße.</p> 
-            <p>Grüßen Sie bestens auch <persName key="pmb10863">Beer-Hofmann</persName> 
+            <p>Grüßen Sie bestens auch <rs type="person" ref="pmb10863">Beer-Hofmann</rs> 
                <space unit="chars" quantity="1"/> 
                <add place="above"> 
-                  <persName key="pmb11740">Loris</persName> 
+                  <rs type="person" ref="pmb11740">Loris</rs> 
                </add>. Ich habe Ihnen <hi rend="underline" n="2">vieles</hi> Sie <subst> 
                   <del rend="overwritten">i</del> 
                   <add place="inline">I</add> 
@@ -144,7 +144,7 @@
             <closer>Ihr <signed>Kraus</signed> poste restante</closer> 
             <p>–<handShift scribe="pmb12564"/> 
             </p> 
-            <p>Viele innige Grüße an Sie, <persName key="pmb10863">Hoffmann</persName>, <persName key="pmb11740">Loris</persName>, <persName key="pmb10815">Bahr</persName> 
+            <p>Viele innige Grüße an Sie, <rs type="person" ref="pmb10863">Hoffmann</rs>, <rs type="person" ref="pmb11740">Loris</rs>, <rs type="person" ref="pmb10815">Bahr</rs> 
             </p> 
             <closer>Ihr treuer<lb/> 
                <signed>Karl Rosner.</signed> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Otto Brahm, 7. 1. 1897</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10986">Brahm, Otto</persName> 
+                  <persName ref="pmb10986">Brahm, Otto</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb168">[Berlin]</placeName> 
+                  <placeName ref="pmb168">[Berlin]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18970107" n="01">7. 1. 1897</date> 
@@ -61,7 +61,7 @@
             <listBibl> 
                <biblStruct corresp="ASB1" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefe 1875–1912</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -74,8 +74,8 @@
                </biblStruct> 
                <biblStruct corresp="ASOB" default="false"> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
-                     <author key="pmb10986">Brahm, Otto</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb10986">Brahm, Otto</author> 
                      <title level="m">Der Briefwechsel Arthur Schnitzler – Otto Brahm. Vollständige Ausgabe</title> 
                      <editor>Hg., eingeleitet und erläutert von Oskar Seidlin</editor> 
                      <imprint> 
@@ -103,20 +103,20 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, am <date>7. Januar 97</date> 
+                  </rs>, am <date>7. Januar 97</date> 
                </dateline> 
                <salute>Mein verehrter Herr Direktor,</salute> 
             </opener> 
-            <p>das ist wirklich sehr liebenswürdig von Ihnen, daß Sie mir diese wunderbare Empfehlung für <persName key="pmb2167">Salten</persName> geschickt haben; sie wird wohl am stärksten ins Gewicht fallen und am besten seine Absichten fördern. Er hat Ihnen wohl schon selbst geschrieben.</p> 
-            <p>Auch für die rasche Erledigung des <persName key="pmb10815">Bahr</persName>schen <rs type="work" key="pmb29829">Stückes</rs> muß ich Ihnen bestens danken; auf den Bescheid, der gekommen ist, hatte ich ihn, wie Sie sich denken können, schon vorbereitet, und so trug er ihn gefaßt.</p> 
-            <p>Ihre freundlichen Wünsche für 97 sollen, wenn überhaupt, erst im Frühjahr in Erfüllung gehen, denn unser grauer Winter lastet diesmal auffallend schwer auf meiner Stimmung und meinem Befinden. Ich habe große Sehnsucht nach dem Bicyclefahren, und wenn ich mir eine schöne Zukunft vorstellen soll, so denke ich mich auf eine Wiese hingestreckt, das Rad an einen Baum gelehnt und unter freiem Himmel und in angenehmer Wärme und fern vom Straßenlärm eine gesunde und freche Komödie schreiben. Was die Wiese, das Hingestreckte und das gelehnte Rad anbelangt, so ist diese Erfüllung nahegerückt. Ich arbeite jetzt übrigens auch zu Zeiten – <rs type="work" key="pmb29855">zehn Dialoge</rs>, eine bunte Reihe; aber etwas Unaufführbareres hat es noch nie gegeben. Auch eingefallen ist mir mancherlei, das kann aber ein Irrtum sein. Von den hiesigen »<workName key="pmb31735">Glocken</workName>«-Besetzungsschwierigkeiten haben Sie wohl gelesen? Die <persName key="pmb4200">Reinhold</persName> will wieder einmal ihre Entlassung, weil sie das <workName key="pmb31735">Rautendelein</workName> nicht bekommt, oder auch, wie andre behaupten, wegen der <rs type="work" key="pmb29971">Hedwig</rs> in der »<workName key="pmb29971">Wildente</workName>«. Nun, die »<workName key="pmb31735">Glocke</workName>« kommt jedenfalls bald, wie Sie wissen, und, wie Sie noch nicht so sicher zu wissen scheinen, obwohl es ja gerade so sicher ist. Sie auch. Und bringen Sie doch <persName key="pmb11701">Georg Hirschfeld</persName> mit. Er hat Ihnen vielleicht erzählt, daß moderne junge Mädchen in <placeName key="pmb50"> 
+            <p>das ist wirklich sehr liebenswürdig von Ihnen, daß Sie mir diese wunderbare Empfehlung für <rs type="person" ref="pmb2167">Salten</rs> geschickt haben; sie wird wohl am stärksten ins Gewicht fallen und am besten seine Absichten fördern. Er hat Ihnen wohl schon selbst geschrieben.</p> 
+            <p>Auch für die rasche Erledigung des <rs type="person" ref="pmb10815">Bahr</rs>schen <rs type="work" subtype="implied" ref="pmb29829">Stückes</rs> muß ich Ihnen bestens danken; auf den Bescheid, der gekommen ist, hatte ich ihn, wie Sie sich denken können, schon vorbereitet, und so trug er ihn gefaßt.</p> 
+            <p>Ihre freundlichen Wünsche für 97 sollen, wenn überhaupt, erst im Frühjahr in Erfüllung gehen, denn unser grauer Winter lastet diesmal auffallend schwer auf meiner Stimmung und meinem Befinden. Ich habe große Sehnsucht nach dem Bicyclefahren, und wenn ich mir eine schöne Zukunft vorstellen soll, so denke ich mich auf eine Wiese hingestreckt, das Rad an einen Baum gelehnt und unter freiem Himmel und in angenehmer Wärme und fern vom Straßenlärm eine gesunde und freche Komödie schreiben. Was die Wiese, das Hingestreckte und das gelehnte Rad anbelangt, so ist diese Erfüllung nahegerückt. Ich arbeite jetzt übrigens auch zu Zeiten – <rs type="work" subtype="implied" ref="pmb29855">zehn Dialoge</rs>, eine bunte Reihe; aber etwas Unaufführbareres hat es noch nie gegeben. Auch eingefallen ist mir mancherlei, das kann aber ein Irrtum sein. Von den hiesigen »<rs type="work" ref="pmb31735">Glocken</rs>«-Besetzungsschwierigkeiten haben Sie wohl gelesen? Die <rs type="person" ref="pmb4200">Reinhold</rs> will wieder einmal ihre Entlassung, weil sie das <rs type="work" ref="pmb31735">Rautendelein</rs> nicht bekommt, oder auch, wie andre behaupten, wegen der <rs type="work" subtype="implied" ref="pmb29971">Hedwig</rs> in der »<rs type="work" ref="pmb29971">Wildente</rs>«. Nun, die »<rs type="work" ref="pmb31735">Glocke</rs>« kommt jedenfalls bald, wie Sie wissen, und, wie Sie noch nicht so sicher zu wissen scheinen, obwohl es ja gerade so sicher ist. Sie auch. Und bringen Sie doch <rs type="person" ref="pmb11701">Georg Hirschfeld</rs> mit. Er hat Ihnen vielleicht erzählt, daß moderne junge Mädchen in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> keinen Mann nehmen, dem die »<workName key="pmb31737">Mütter</workName>« nicht gefallen. Ich habe übrigens dieser Tage einen neuen Beweis für seine Popularität erhalten. Ein junger <rs type="person" key="pmb27707"> Autor</rs> schickte mir eins der komischsten Trauerspiele, die ich je gelesen habe. Der Held, moderner Gymnasiast und Dichter, wird dadurch charakterisiert, daß er gestern Abend zu den »<workName key="pmb31737">Müttern</workName>« und heute in die »<workName key="pmb29825">Jugend</workName>« geht. Auch Sie kommen in diesem Trauerspiel vor – wenn auch nur hinter der Szene. Aber Sie führen die Katastrophe herbei. Die Verwicklung ist nämlich, daß der Held alles Weitere von der Annahme seines Stückes am <placeName key="pmb3">Deutschen Theater</placeName>, dessen Direktor er kennt, abhängig macht. Er schreibt diesem Direktor, daß er innerhalb 24 Stunden Antwort haben muß – der Direktor (wie gut sind Sie charakterisiert!) schickt ihm sofort die Antwort – er refüsiert das Stück, und der Held wird wahnsinnig (sofort!).</p> 
-            <p>Weil wir gerade vom Stück reden: erinnern Sie sich an »<workName key="pmb31509">Lorenzaccio</workName>« von <persName key="pmb12311">Musset</persName>? Haben Sie eine Ahnung, wie Sie sich einer guten deutschen Bearbeitung gegenüber verhalten würden? Es handelt sich natürlich nicht um mich, sondern um jemanden, von dem ich überzeugt bin, daß er die Sache gut machen würde. Keinesfalls, bitte ich, erwähnen Sie irgendwem gegenüber, daß die betreffende Idee in irgendeinem deutschen Übersetzerkopf besteht. – Haben Sie die »<workName key="pmb31537">Verliebten</workName>« von <persName key="pmb11168">Maurice Donnay</persName> gelesen? Ich finde sie entzückend. Machen Sie doch gelegentlich die <persName key="pmb2299">Sorma</persName> darauf aufmerksam, wenn sie das Stück noch nicht kennen sollte. In <placeName key="pmb168"> 
+               </rs> keinen Mann nehmen, dem die »<rs type="work" ref="pmb31737">Mütter</rs>« nicht gefallen. Ich habe übrigens dieser Tage einen neuen Beweis für seine Popularität erhalten. Ein junger <rs type="person" subtype="implied" ref="pmb27707"> Autor</rs> schickte mir eins der komischsten Trauerspiele, die ich je gelesen habe. Der Held, moderner Gymnasiast und Dichter, wird dadurch charakterisiert, daß er gestern Abend zu den »<rs type="work" ref="pmb31737">Müttern</rs>« und heute in die »<rs type="work" ref="pmb29825">Jugend</rs>« geht. Auch Sie kommen in diesem Trauerspiel vor – wenn auch nur hinter der Szene. Aber Sie führen die Katastrophe herbei. Die Verwicklung ist nämlich, daß der Held alles Weitere von der Annahme seines Stückes am <rs type="place" ref="pmb3">Deutschen Theater</rs>, dessen Direktor er kennt, abhängig macht. Er schreibt diesem Direktor, daß er innerhalb 24 Stunden Antwort haben muß – der Direktor (wie gut sind Sie charakterisiert!) schickt ihm sofort die Antwort – er refüsiert das Stück, und der Held wird wahnsinnig (sofort!).</p> 
+            <p>Weil wir gerade vom Stück reden: erinnern Sie sich an »<rs type="work" ref="pmb31509">Lorenzaccio</rs>« von <rs type="person" ref="pmb12311">Musset</rs>? Haben Sie eine Ahnung, wie Sie sich einer guten deutschen Bearbeitung gegenüber verhalten würden? Es handelt sich natürlich nicht um mich, sondern um jemanden, von dem ich überzeugt bin, daß er die Sache gut machen würde. Keinesfalls, bitte ich, erwähnen Sie irgendwem gegenüber, daß die betreffende Idee in irgendeinem deutschen Übersetzerkopf besteht. – Haben Sie die »<rs type="work" ref="pmb31537">Verliebten</rs>« von <rs type="person" ref="pmb11168">Maurice Donnay</rs> gelesen? Ich finde sie entzückend. Machen Sie doch gelegentlich die <rs type="person" ref="pmb2299">Sorma</rs> darauf aufmerksam, wenn sie das Stück noch nicht kennen sollte. In <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName> ist’s ja übrigens verboten worden.</p> 
+               </rs> ist’s ja übrigens verboten worden.</p> 
             <p>Sie schreiben mir hoffentlich bald wieder. Ich habe mit Ihren Briefen immer eine ganz besondere Freude, was ich nicht erst zu versichern brauche. Grüßen Sie gütigst à discrétion. Auf Wiedersehen und viele herzliche Grüße!</p> 
             <closer>Ihr treuer <signed>A. S.</signed> 
             </closer> 

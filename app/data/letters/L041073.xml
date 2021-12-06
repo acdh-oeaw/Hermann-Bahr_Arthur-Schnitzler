@@ -4,11 +4,11 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler u. a. an Hermann Bahr, 7. 9. 1904</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
-            <author key="pmb2173">Schnitzler, Olga</author> 
-            <author key="pmb11737">Hofmannsthal, Hugo von (sen.)</author> 
-            <author key="pmb11740">Hofmannsthal, Hugo</author> 
-            <author key="pmb11036">Burckhard, Max</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2173">Schnitzler, Olga</author> 
+            <author ref="pmb11737">Hofmannsthal, Hugo von (sen.)</author> 
+            <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+            <author ref="pmb11036">Burckhard, Max</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -46,20 +46,20 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
-                  <persName key="pmb2173">Schnitzler, Olga</persName> 
-                  <persName key="pmb11737">Hofmannsthal, Hugo von (sen.)</persName> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo</persName> 
-                  <persName key="pmb11036">Burckhard, Max</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
+                  <persName ref="pmb11737">Hofmannsthal, Hugo von (sen.)</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo</persName> 
+                  <persName ref="pmb11036">Burckhard, Max</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb33">St. Gilgen</placeName> 
+                  <placeName ref="pmb33">St. Gilgen</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19040907" n="01">7. 9. 1904</date> 
@@ -77,9 +77,9 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Ansichtskarte: »<quote> 
-                              <placeName key="pmb824">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangsee</placeName>. Panorama von der Hotelterrasse aus</quote>«, sechs Verfasser, Bleistift</p> 
+                              <placeName ref="pmb824">Hotel <c rendition="#kaufmannsund"/> Pension Lueg b. St. Gilgen am Wolfgangsee</placeName>. Panorama von der Hotelterrasse aus</quote>«, sechs Verfasser, Bleistift</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb33">St. Gilgen</placeName> 
+                           <placeName ref="pmb33">St. Gilgen</placeName> 
                         </stamp> 
                      </physDesc> 
                   </msDesc> 
@@ -115,10 +115,10 @@
                      </subst> 
                   </hi> 
                   <space unit="chars" quantity="1"/> 
-                  <placeName key="pmb165">Ob St Veit</placeName> 
+                  <rs type="place" ref="pmb165">Ob St Veit</rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb220">Veitlissengasse</placeName> 
+                  <rs type="place" ref="pmb220">Veitlissengasse</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -128,20 +128,20 @@
             <p> 
                <handShift scribe="pmb2173"/> 
                <signed> 
-                  <persName key="pmb2173">Olga S.</persName> 
+                  <rs type="person" ref="pmb2173">Olga S.</rs> 
                </signed> 
             </p> 
             <p> 
                <handShift scribe="pmb11737"/> 
                <signed>D<hi rend="superscript">r</hi> 
                   <space unit="chars" quantity="1"/> 
-                  <persName key="pmb11737">Hofmannsthal sen.</persName> 
+                  <rs type="person" ref="pmb11737">Hofmannsthal sen.</rs> 
                </signed> 
             </p> 
             <p> 
                <handShift scribe="pmb11740"/> 
                <signed> 
-                  <persName key="pmb11740">Hugo</persName> 
+                  <rs type="person" ref="pmb11740">Hugo</rs> 
                </signed> 
             </p> 
             <p> 
@@ -150,13 +150,13 @@
             </p> 
             <p> 
                <handShift scribe="pmb11036"/>Herzlichst <signed> 
-                  <persName key="pmb11036">Burckhard</persName> 
+                  <rs type="person" ref="pmb11036">Burckhard</rs> 
                </signed> 
             </p> 
             <p> 
                <handShift scribe="pmb2292"/> 
                <signed> 
-                  <persName key="pmb2292">Gerty</persName> 
+                  <rs type="person" ref="pmb2292">Gerty</rs> 
                </signed> 
             </p> 
          </div> 

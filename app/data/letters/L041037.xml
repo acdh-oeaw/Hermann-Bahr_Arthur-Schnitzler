@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 3. 7. 1901</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb212">St. Anton am Arlberg</placeName> 
+                  <placeName ref="pmb212">St. Anton am Arlberg</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19010703" n="01">3. 7. 1901</date> 
@@ -70,10 +70,10 @@
                      <physDesc> 
                         <p>eh. Korrespondenzkarte, Bleistift</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb212">St. Anton am Arlberge</placeName> 
+                           <placeName ref="pmb212">St. Anton am Arlberge</placeName> 
                            <date when="19010704">4 7 01</date> 
                         </stamp>  <stamp n="2"> 
-                           <placeName key="pmb50">Wien</placeName> 
+                           <placeName ref="pmb50">Wien</placeName> 
                            <date when="19010705"> 
                               <supplied>5. 7.</supplied> 01</date> 
                         </stamp> 
@@ -88,7 +88,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -128,28 +128,28 @@
                   <hi rend="latintype">Herrn Hermann Bahr</hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb165">Wien – <hi rend="latintype">Ob St Veit</hi> 
-                  </placeName> 
+                  <rs type="place" ref="pmb165">Wien – <hi rend="latintype">Ob St Veit</hi> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb220">Veitlissengasse</placeName> 
+                     <rs type="place" ref="pmb220">Veitlissengasse</rs> 
                   </hi> 
                </addrLine> 
             </address> 
          </div> 
          <div type="writingSession" n="1"> 
             <p> 
-               <salute>mein lieber Hermann, </salute>hieher bekomm ich dein <rs type="work" key="pmb29959">Feuilleton</rs> nachgesandt; ich hatte es aber schon vorher mit großer Freude gelesen </p> 
+               <salute>mein lieber Hermann, </salute>hieher bekomm ich dein <rs type="work" subtype="implied" ref="pmb29959">Feuilleton</rs> nachgesandt; ich hatte es aber schon vorher mit großer Freude gelesen </p> 
             <closer>Herzlichst dein<lb/> 
                <signed>ArthSch</signed> 
             </closer> 
             <postscript> 
                <p> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb212"> 
+                     <rs type="place" ref="pmb212"> 
                         <settlement>St. Anton Arlberg</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                   <space unit="chars" quantity="1"/> 
                   <date>3/7 901</date> 

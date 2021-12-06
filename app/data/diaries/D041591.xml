@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Aufzeichnung von Hermann Bahr, 23. 11. 1921</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -50,7 +50,7 @@
                         <idno>HS VM 2629 Ba</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName key="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 75–76.</p> 
+                        <p>In: Schwarzes Buch, eh. beschrieben, von <persName ref="pmb10818">Anna Bahr-Mildenburg</persName> paginiert, 62 Bl., S. 75–76.</p> 
                      </physDesc> 
                   </msDesc> 
                </witness> 
@@ -71,27 +71,27 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p> 
-               <date when="19211123" n="01">23.</date> K. – Mit <persName key="pmb2173">Olga Schnitzler</persName> nach <placeName key="pmb237">Leopoldskron</placeName> und in der Ebene. – <anchor type="commentary" xml:id="KD591-1"> 
-                  <rs type="work" key="pmb30079 pmb30097 pmb30101"> 
-                     <rs type="org" key="pmb29320">Journal</rs>tgb für <date>4./12</date> 
+               <date when="19211123" n="01">23.</date> K. – Mit <rs type="person" ref="pmb2173">Olga Schnitzler</rs> nach <rs type="place" ref="pmb237">Leopoldskron</rs> und in der Ebene. – <anchor type="commentary" xml:id="KD591-1"> 
+                  <rs type="work" subtype="implied" ref="pmb30079 pmb30097 pmb30101"> 
+                     <rs type="org" subtype="implied" ref="pmb29320">Journal</rs>tgb für <date>4./12</date> 
                   </rs> 
                </anchor> (<anchor type="commentary" xml:id="KD591-2"> 
-                  <rs type="work" key="pmb30079"> 
-                     <persName key="pmb11227">Paul Eger</persName> 
+                  <rs type="work" subtype="implied" ref="pmb30079"> 
+                     <rs type="person" ref="pmb11227">Paul Eger</rs> 
                   </rs> 
                </anchor>,<pb/> 
                <space unit="chars" quantity="1"/> 
                <anchor type="commentary" xml:id="KD591-3"> 
-                  <rs type="work" key="pmb30097">Maurer auf dem Gerüst</rs> 
+                  <rs type="work" subtype="implied" ref="pmb30097">Maurer auf dem Gerüst</rs> 
                </anchor>, <anchor type="commentary" xml:id="KD591-4"> 
-                  <rs type="work" key="pmb30101"> 
-                     <rs type="work" key="pmb30889"> 
-                        <persName key="pmb3739">Tolstoibuch</persName> 
+                  <rs type="work" subtype="implied" ref="pmb30101"> 
+                     <rs type="work" subtype="implied" ref="pmb30889"> 
+                        <rs type="person" ref="pmb3739">Tolstoibuch</rs> 
                      </rs> 
                   </rs> 
                </anchor> 
                <space unit="chars" quantity="1"/> 
-               <persName key="pmb4736">Umanskij</persName>s; letztes Datum <anchor type="commentary" xml:id="KD591-5"> 
+               <rs type="person" ref="pmb4736">Umanskij</rs>s; letztes Datum <anchor type="commentary" xml:id="KD591-5"> 
                   <date>20./11</date> 
                </anchor>) geht morgen ab.</p> 
          </div> 

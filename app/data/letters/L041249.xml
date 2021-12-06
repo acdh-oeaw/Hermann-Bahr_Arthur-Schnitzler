@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Arthur Schnitzler, 20. 5. 1902</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb30">Salzburg</placeName> 
+                  <placeName ref="pmb30">Salzburg</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19020520" n="01">20. 5. 1902</date> 
@@ -68,7 +68,7 @@
                         <idno>Schnitzler, B 5b</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>eh. Karte, auf der Vorderseite mit Trauerrand bedruckt: »<quote>Für die vielen Beweise herzlicher Teilnahme bei dem Hinscheiden und der Beerdigung unserer lieben, unvergesslichen Mutter, Schwiegermutter, Schwägerin u. Tante / Frau <persName key="pmb27667">Mina Bahr geb. von Weidlich</persName> / sprechen ihren innigsten Dank aus / <placeName key="pmb30"> 
+                        <p>eh. Karte, auf der Vorderseite mit Trauerrand bedruckt: »<quote>Für die vielen Beweise herzlicher Teilnahme bei dem Hinscheiden und der Beerdigung unserer lieben, unvergesslichen Mutter, Schwiegermutter, Schwägerin u. Tante / Frau <persName ref="pmb27667">Mina Bahr geb. von Weidlich</persName> / sprechen ihren innigsten Dank aus / <placeName ref="pmb30"> 
                                  <settlement>Salzburg</settlement> 
                               </placeName>, <date when="19020519">19. Mai 1902</date> / Die tieftrauernd Hinterbliebenen.</quote>«</p> 
                      </physDesc> 
@@ -95,18 +95,18 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p>Wie eine fixe Idee verfolgt mich diese ganzen Tage der Satz: <anchor type="commentary" xml:id="KL249-1"> 
-                  <rs type="work" key="pmb29863">es gibt also Fälle, wo <placeName key="pmb30"> 
+                  <rs type="work" subtype="implied" ref="pmb29863">es gibt also Fälle, wo <rs type="place" ref="pmb30"> 
                         <settlement>Salzburg</settlement> 
-                     </placeName> nicht wirkt</rs> 
+                     </rs> nicht wirkt</rs> 
                </anchor>.</p> 
             <closer>Es dankt Dir sehr<lb/>Dein<lb/> 
                <signed>Hermann</signed> 
             </closer> 
             <postscript> 
                <p> 
-                  <placeName key="pmb30"> 
+                  <rs type="place" ref="pmb30"> 
                      <settlement>Salzburg</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
                   <date>20. 5.</date> 
                </p> 

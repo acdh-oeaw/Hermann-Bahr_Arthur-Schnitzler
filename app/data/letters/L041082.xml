@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 6. 6. 1905</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19050606" n="01">6. 6. 1905</date> 
@@ -79,7 +79,7 @@
                      <date when="19050606">6. 6. 1905</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -117,9 +117,9 @@
             <opener> 
                <dateline rend="right"> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb50"> 
+                     <rs type="place" ref="pmb50"> 
                         <settlement>Wien</settlement> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                   <space unit="chars" quantity="1"/> 
                   <date>6. Juni 905</date> 
@@ -127,10 +127,10 @@
                <salute>lieber Hermann</salute> 
             </opener> 
             <p>ich gratulire dir herzlich zum gestrigen Erfolg von <hi rend="latintype"> 
-                  <workName key="pmb29901">Sanna</workName> 
-               </hi>. Einiges was mir nach der ersten Lectüre des Stücks nicht ganz eingeleuchtet, ist mir gestern, schön und ergreifend aufgegangen. Die Aufführung war etwas ganz einziges, und die <persName key="pmb11791">Höflich</persName> 
-               <pb/> ist – vielleicht nicht das echte Genie, aber, nach ihren Entwicklungsmöglichkeiten in alles tragische und heitre Gebiet, der größte Glücksfall, den die Deutsche Bühne seit der <persName key="pmb2299">Sorma</persName> erlebt hat.</p> 
-            <p>Ich habe mich sehr gefreut, auch meine <rs type="person" key="pmb2173">Frau</rs> läßt dir von Herzen glückwünschen.</p> 
+                  <rs type="work" ref="pmb29901">Sanna</rs> 
+               </hi>. Einiges was mir nach der ersten Lectüre des Stücks nicht ganz eingeleuchtet, ist mir gestern, schön und ergreifend aufgegangen. Die Aufführung war etwas ganz einziges, und die <rs type="person" ref="pmb11791">Höflich</rs> 
+               <pb/> ist – vielleicht nicht das echte Genie, aber, nach ihren Entwicklungsmöglichkeiten in alles tragische und heitre Gebiet, der größte Glücksfall, den die Deutsche Bühne seit der <rs type="person" ref="pmb2299">Sorma</rs> erlebt hat.</p> 
+            <p>Ich habe mich sehr gefreut, auch meine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> läßt dir von Herzen glückwünschen.</p> 
             <p>Hoffentlich seh ich dich bald; ich habe ein rechtes Bedürfnis, dir zu danken.</p> 
             <closer>Dein<lb/> 
                <signed>Arthur</signed> 

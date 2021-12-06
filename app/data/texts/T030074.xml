@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr: [Buchversandliste Selbstbildnis], [Mitte Mai? 1923]</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -51,7 +51,7 @@
                         <idno>HS VM 3518 Ba</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p part="N">hs., verso auf Brief der <orgName key="pmb29194">Prager Presse</orgName> an Hermann Bahr, <date when="19221212">12. 12. 1922</date>. Ab »<quote>P. <persName key="pmb28780">Franziskus</persName> 
+                        <p part="N">hs., verso auf Brief der <orgName ref="pmb29194">Prager Presse</orgName> an Hermann Bahr, <date when="19221212">12. 12. 1922</date>. Ab »<quote>P. <persName ref="pmb28780">Franziskus</persName> 
                            </quote>« mit blauem Bunstift.</p> 
                      </physDesc> 
                   </msDesc> 
@@ -73,35 +73,35 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p part="N"> 
-               <workName key="pmb30813">Selbstbildnis</workName> zu senden an</p> 
+               <rs type="work" ref="pmb30813">Selbstbildnis</rs> zu senden an</p> 
             <p part="N"> 
                <table cols="3" rows="18"> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1">Exc.</cell> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb12762">Seipel</persName> 
+                        <rs type="person" ref="pmb12762">Seipel</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb12481">Josef Redlich</persName> 
+                        <rs type="person" ref="pmb12481">Josef Redlich</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb11054">Buschbeck</persName> 
+                        <rs type="person" ref="pmb11054">Buschbeck</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb12096">Litzmann</persName> 
+                        <rs type="person" ref="pmb12096">Litzmann</rs> 
                         <space unit="chars" quantity="1"/> 
                         <hi rend="superscript">x</hi> 
                      </cell> 
@@ -110,37 +110,21 @@
                      <cell role="data" rows="1" cols="1">Ernst</cell> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb4723">Cassirer</persName> 
+                        <rs type="person" ref="pmb4723">Cassirer</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1">Josef</cell> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb4776">Nadler</persName> 
+                        <rs type="person" ref="pmb4776">Nadler</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb11043">Burdach</persName> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <hi rend="superscript">x</hi> 
-                     </cell> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb12176">Thomas Mann</persName> 
-                     </cell> 
-                  </row> 
-                  <row role="data" rows="1" cols="1"> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb12170">Heinrich Mann</persName> 
+                        <rs type="person" ref="pmb11043">Burdach</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
@@ -149,7 +133,14 @@
                         <hi rend="superscript">x</hi> 
                      </cell> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb11740">Hofmannsthal</persName> 
+                        <rs type="person" ref="pmb12176">Thomas Mann</rs> 
+                     </cell> 
+                  </row> 
+                  <row role="data" rows="1" cols="1"> 
+                     <cell role="data" rows="1" cols="1"/> 
+                     <cell role="data" rows="1" cols="1"/> 
+                     <cell role="data" rows="1" cols="1"> 
+                        <rs type="person" ref="pmb12170">Heinrich Mann</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
@@ -158,7 +149,7 @@
                         <hi rend="superscript">x</hi> 
                      </cell> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb2167">Salten</persName> 
+                        <rs type="person" ref="pmb11740">Hofmannsthal</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
@@ -167,7 +158,7 @@
                         <hi rend="superscript">x</hi> 
                      </cell> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb2121">Schnitzler</persName> 
+                        <rs type="person" ref="pmb2167">Salten</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
@@ -176,7 +167,7 @@
                         <hi rend="superscript">x</hi> 
                      </cell> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb13212">Stefan Zweig</persName> 
+                        <rs type="person" ref="pmb2121">Schnitzler</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
@@ -185,45 +176,54 @@
                         <hi rend="superscript">x</hi> 
                      </cell> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb13163">Theodor Wolff</persName>,<space unit="chars" quantity="1"/> 
-                        <orgName key="pmb29329">Tageblatt</orgName> 
+                        <rs type="person" ref="pmb13212">Stefan Zweig</rs> 
+                     </cell> 
+                  </row> 
+                  <row role="data" rows="1" cols="1"> 
+                     <cell role="data" rows="1" cols="1"/> 
+                     <cell role="data" rows="1" cols="1"> 
+                        <hi rend="superscript">x</hi> 
+                     </cell> 
+                     <cell role="data" rows="1" cols="1"> 
+                        <rs type="person" ref="pmb13163">Theodor Wolff</rs>,<space unit="chars" quantity="1"/> 
+                        <rs type="org" ref="pmb29329">Tageblatt</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb11581">Maximilian Harden</persName> 
+                        <rs type="person" ref="pmb11581">Maximilian Harden</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb13048">Oskar Walzel</persName> 
+                        <rs type="person" ref="pmb13048">Oskar Walzel</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
-                     <cell role="data" rows="1" cols="1">Fräulein <persName key="pmb28067">Gusti Adler</persName> 
+                     <cell role="data" rows="1" cols="1">Fräulein <rs type="person" ref="pmb28067">Gusti Adler</rs> 
                      </cell> 
                   </row> 
                   <row role="data" rows="1" cols="1"> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"/> 
                      <cell role="data" rows="1" cols="1"> 
-                        <persName key="pmb3397">Wolfgang Heine</persName> 
+                        <rs type="person" ref="pmb3397">Wolfgang Heine</rs> 
                      </cell> 
                   </row> 
                </table> 
             </p> 
-            <p part="N">P. <persName key="pmb28780">Franziskus Reiter</persName> 
+            <p part="N">P. <rs type="person" ref="pmb28780">Franziskus Reiter</rs> 
                <space unit="chars" quantity="1"/> 
-               <orgName key="pmb29219">Kapuzinerorden</orgName>sprovinzial<lb/> 
-               <placeName key="pmb763">Wien I Neuer Markt</placeName> 
+               <rs type="org" ref="pmb29219">Kapuzinerorden</rs>sprovinzial<lb/> 
+               <rs type="place" ref="pmb763">Wien I Neuer Markt</rs> 
                <lb/> 
-               <placeName key="pmb764">Tegethoffstr. 2</placeName> 
+               <rs type="place" ref="pmb764">Tegethoffstr. 2</rs> 
             </p> 
          </div> 
       </body> 

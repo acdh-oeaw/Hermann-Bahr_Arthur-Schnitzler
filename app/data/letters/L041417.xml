@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 7. 9. [1892]</title> 
-            <author key="pmb11740">Hofmannsthal, Hugo von</author> 
+            <author ref="pmb11740">Hofmannsthal, Hugo von</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,13 +42,13 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb663">Lélex (Ain)</placeName> 
+                  <placeName ref="pmb663">Lélex (Ain)</placeName> 
                </placeSender> 
                <!-- <placeAddressee><placeName key="">[Bad Ischl]</placeName></placeAddressee>--> 
                <dateSender> 
@@ -76,8 +76,8 @@
             <listBibl> 
                <biblStruct corresp="HvHAS" default="false"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -106,9 +106,9 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <p> 
-                  <placeName key="pmb663"> 
+                  <rs type="place" ref="pmb663"> 
                      <settlement>Lélex. (Ain)</settlement> 
-                  </placeName> 
+                  </rs> 
                </p> 
                <dateline rend="right"> 
                   <date>7. sept.</date> 
@@ -116,14 +116,14 @@
             </opener> 
             <p>Fünf Stunden von der Eisenbahn. Keine Zeitung. Kühe. <hi rend="latintype">Monsieur le curé qui fait des enfants aux jolies paysannes.</hi> Der Gendarm: <hi rend="latintype">Pandore</hi>. Die alten Fliegenschimmel des Wirths: <hi rend="latintype">Pyrame et Thisbé</hi>. Die Hauskatze: <hi rend="latintype">Madeleine</hi>. Der Nachttopf: <hi rend="latintype">Monsieur Jules</hi>.</p> 
             <p rend="center">– – – –</p> 
-            <p>Lange grüne Hochplateaus mit Farrnkraut und Jurakalk; dahinter der große See und der <geogName type="mountain" key="pmb565"> 
+            <p>Lange grüne Hochplateaus mit Farrnkraut und Jurakalk; dahinter der große See und der <geogName type="mountain" ref="pmb565"> 
                   <hi rend="latintype">Montblanc</hi> 
-               </geogName> und Herr <persName key="pmb4311"> 
+               </geogName> und Herr <rs type="person" ref="pmb4311"> 
                   <hi rend="latintype">Edouard Rod</hi> 
-               </persName>.<pb/> 
+               </rs>.<pb/> 
             </p> 
             <p>Gang der Handlung: Ich werde behandelt, wie der <anchor type="commentary" xml:id="KL417-2"> 
-                  <rs type="person" key="pmb4315">kleine Dauphin</rs> beim bösen Schuster <persName key="pmb4319">Simon</persName> 
+                  <rs type="person" subtype="implied" ref="pmb4315">kleine Dauphin</rs> beim bösen Schuster <rs type="person" ref="pmb4319">Simon</rs> 
                </anchor>. Man giebt mir mehr grüne und gelbe <anchor type="commentary" xml:id="KL417-1">Chartreuse</anchor> zu trinken, als einem Steinklopfer, und dann muss ich Lieder im Patois lernen und singen, z. B.</p> 
             <lg type="poem"> 
                <anchor type="commentary" xml:id="KL417-3"> 
@@ -147,32 +147,32 @@
             <p> 
                <hi rend="latintype"> 
                   <anchor type="commentary" xml:id="KL417-4">Voilà ce qu’on ap<del rend="strikethrough">p</del>elle se dépayser</anchor> 
-               </hi>; <anchor type="label" xml:id="LL417-1">siehe <persName key="pmb10815">Hermann Bahr</persName>, ges. Werke, passim</anchor> »über die rechte Art in fremden Ländern zu reisen«. Dienstag beginnt eigentlich meine <rs type="work" key="pmb32117">Reise in die Provinzen des mittäglichen <placeName key="pmb166"> 
+               </hi>; <anchor type="label" xml:id="LL417-1">siehe <rs type="person" ref="pmb10815">Hermann Bahr</rs>, ges. Werke, passim</anchor> »über die rechte Art in fremden Ländern zu reisen«. Dienstag beginnt eigentlich meine <rs type="work" subtype="implied" ref="pmb32117">Reise in die Provinzen des mittäglichen <rs type="place" ref="pmb166"> 
                      <country>Frankreich</country> 
-                  </placeName> 
+                  </rs> 
                </rs>.</p> 
-            <p>Schreiben Sie, bitte, zwischen <date>10.</date> und <date>16.</date> nach <placeName key="pmb641"> 
+            <p>Schreiben Sie, bitte, zwischen <date>10.</date> und <date>16.</date> nach <rs type="place" ref="pmb641"> 
                   <hi rend="latintype">Arles, Bouches-du-Rhône</hi> 
-               </placeName> 
+               </rs> 
                <space unit="chars" quantity="1"/> 
                <hi rend="latintype">poste rest. via</hi> 
-               <placeName key="pmb859"> 
+               <rs type="place" ref="pmb859"> 
                   <settlement> 
                      <hi rend="underline"> 
                         <hi rend="latintype">Buchs</hi> 
                      </hi> 
                   </settlement> 
-               </placeName> 
+               </rs> 
                <hi rend="underline"> 
                   <space unit="chars" quantity="1"/> 
                </hi> 
-               <placeName key="pmb562"> 
+               <rs type="place" ref="pmb562"> 
                   <settlement> 
                      <hi rend="underline"> 
                         <hi rend="latintype">Genève</hi> 
                      </hi> 
                   </settlement> 
-               </placeName>.</p> 
+               </rs>.</p> 
             <closer> 
                <signed>Hugo.</signed> 
             </closer> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Richard Beer-Hofmann, 30. 7. 1905</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10863">Beer-Hofmann, Richard</persName> 
+                  <persName ref="pmb10863">Beer-Hofmann, Richard</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19050730" n="1">30. 7. 1905</date> 
@@ -68,11 +68,11 @@
                         <idno>Yale Collection of German Literature, MSSS 31 Box 3f.</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>eh. Kartenbrief, gedruckter Kopf: <placeName key="pmb133">Spoettelgasse 7</placeName> (a) (<ptr target="bkspoettela"/>); hs. Vermerk von B.-H.: »<quote>bea<supplied>ntwortet</supplied> 
+                        <p>eh. Kartenbrief, gedruckter Kopf: <placeName ref="pmb133">Spoettelgasse 7</placeName> (a) (<ptr target="bkspoettela"/>); hs. Vermerk von B.-H.: »<quote>bea<supplied>ntwortet</supplied> 
                               <date>16/VIII 05</date> 
                            </quote>«.</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb68">18 Wien</placeName> 
+                           <placeName ref="pmb68">18 Wien</placeName> 
                            <date when="19050731">31. VII. 05</date> 
                            <time>VII</time> 
                         </stamp> 
@@ -101,13 +101,13 @@
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb173"> 
+                     <rs type="place" ref="pmb173"> 
                         <hi rend="underline" n="1">Rodaun</hi> 
-                     </placeName> 
+                     </rs> 
                   </hi> 
                </addrLine> 
                <addrLine> 
-                  <hi rend="latintype">bei <placeName key="pmb73">Liesing</placeName> 
+                  <hi rend="latintype">bei <rs type="place" ref="pmb73">Liesing</rs> 
                   </hi> 
                </addrLine> 
             </address> 
@@ -115,15 +115,15 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName>, <date>30. 7. 905</date> 
+                  </rs>, <date>30. 7. 905</date> 
                </dateline> 
                <salute>lieber Richard,</salute> 
             </opener> 
-            <p>seit gestern wieder daheim. Bleibe vorläufig. Das <rs type="work" key="pmb29999">Stück</rs> von <persName key="pmb10815">Bahr</persName> hab ich Ihnen schicken lassen.</p> 
-            <p>Wo sind Sie? Ist <persName key="pmb10860">Paula</persName> schon ganz wohl?–</p> 
-            <closer>Herzlichst, von uns <rs type="person" key="pmb2173">beiden</rs> 
+            <p>seit gestern wieder daheim. Bleibe vorläufig. Das <rs type="work" subtype="implied" ref="pmb29999">Stück</rs> von <rs type="person" ref="pmb10815">Bahr</rs> hab ich Ihnen schicken lassen.</p> 
+            <p>Wo sind Sie? Ist <rs type="person" ref="pmb10860">Paula</rs> schon ganz wohl?–</p> 
+            <closer>Herzlichst, von uns <rs type="person" subtype="implied" ref="pmb2173">beiden</rs> 
                <lb/>Ihr<lb/> 
                <signed>A.</signed> 
             </closer> 

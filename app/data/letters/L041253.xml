@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Arthur Schnitzler, 22. 2. 1903</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19030222" n="01">22. 2. 1903</date> 
@@ -70,7 +70,7 @@
                      <physDesc> 
                         <p>eh. Kartenbrief</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb63">Wien 13/7</placeName> 
+                           <placeName ref="pmb63">Wien 13/7</placeName> 
                            <date when="19020223">23. 2. 02</date> 
                            <time>10–11 V</time> 
                         </stamp> 
@@ -105,12 +105,12 @@
             <address> 
                <addrLine>Herrn D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb168"> 
+                  <rs type="place" ref="pmb168"> 
                      <settlement>Berlin</settlement> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb88">Palasthotel</placeName> 
+                  <rs type="place" ref="pmb88">Palasthotel</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -121,10 +121,10 @@
                </dateline> 
                <salute>Lieber Arthur!</salute> 
             </opener> 
-            <p>Ich hätte Dir so viel zu sagen, so viel zu danken – da ich wirklich das Gefühl habe, wenn Du mich nicht zu Deinem <rs type="person" key="pmb12698">Bruder</rs> geschickt hättest, verloren gewesen zu sein, und da mich auch Deine Theilnahme an meiner Krankheit sehr gerührt hat – aber ich kanns nicht, da ich noch immer so hin und so grenzenlos müd bin, daß ich, wenn <add place="above">ich</add> ein paar Zeilen kritzle, gleich ganz in Schweiß gebadet bin. Sonst geht es mir, bis auf die leichte Bauchdeckeneiterung, die immer noch andauert, ganz gut. Aber ich erwarte immer noch die berühmte <anchor type="commentary" xml:id="KL253-1"> 
-                  <rs type="work" key="pmb30805">Stimmung der Genesung</rs> 
-               </anchor>, die der Dichter <persName key="pmb12968">Trebitsch</persName> so schön geschildert hat.</p> 
-            <closer>Mit Grüßen an <persName key="pmb10986">Brahm</persName> u. alle Bekannten<lb/>herzlichst Dein dankbarer <signed>Herma<damage agent="paperloss"> 
+            <p>Ich hätte Dir so viel zu sagen, so viel zu danken – da ich wirklich das Gefühl habe, wenn Du mich nicht zu Deinem <rs type="person" subtype="implied" ref="pmb12698">Bruder</rs> geschickt hättest, verloren gewesen zu sein, und da mich auch Deine Theilnahme an meiner Krankheit sehr gerührt hat – aber ich kanns nicht, da ich noch immer so hin und so grenzenlos müd bin, daß ich, wenn <add place="above">ich</add> ein paar Zeilen kritzle, gleich ganz in Schweiß gebadet bin. Sonst geht es mir, bis auf die leichte Bauchdeckeneiterung, die immer noch andauert, ganz gut. Aber ich erwarte immer noch die berühmte <anchor type="commentary" xml:id="KL253-1"> 
+                  <rs type="work" subtype="implied" ref="pmb30805">Stimmung der Genesung</rs> 
+               </anchor>, die der Dichter <rs type="person" ref="pmb12968">Trebitsch</rs> so schön geschildert hat.</p> 
+            <closer>Mit Grüßen an <rs type="person" ref="pmb10986">Brahm</rs> u. alle Bekannten<lb/>herzlichst Dein dankbarer <signed>Herma<damage agent="paperloss"> 
                      <supplied>nn</supplied> 
                   </damage> 
                </signed> 

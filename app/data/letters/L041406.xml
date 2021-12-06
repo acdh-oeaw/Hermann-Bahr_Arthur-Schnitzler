@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hugo von Hofmannsthal an Arthur Schnitzler, 4. 12. 1891</title> 
-            <author key="pmb11740">Hofmannsthal, Hugo von</author> 
+            <author ref="pmb11740">Hofmannsthal, Hugo von</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,14 +42,14 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb11740">Hofmannsthal, Hugo von</persName> 
+                  <persName ref="pmb11740">Hofmannsthal, Hugo von</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <!--<placeSender><placeName key="pmb50">[Wien]</placeName></placeSender>--> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18911204" n="1">4. 12. 1891</date> 
@@ -70,7 +70,7 @@
                               <date> 
                                  <del rend="strikethrough">2</del>4 12 91</date>.</quote>«</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb50">Wien</placeName> 
+                           <placeName ref="pmb50">Wien</placeName> 
                            <date>4/12 91</date> 
                            <time>10 A</time> 
                         </stamp> 
@@ -81,8 +81,8 @@
             <listBibl> 
                <biblStruct corresp="HvHAS" default="false"> 
                   <monogr> 
-                     <author key="pmb11740">Hofmannsthal, Hugo</author> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb11740">Hofmannsthal, Hugo</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">Briefwechsel</title> 
                      <editor>Hg. Therese Nickl und Heinrich Schnitzler</editor> 
                      <imprint> 
@@ -113,18 +113,18 @@
             <address> 
                <addrLine>D<hi rend="superscript">r</hi> Arthur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb501">Kärnthnerring 12</placeName> 
+                  <rs type="place" ref="pmb501">Kärnthnerring 12</rs> 
                </addrLine> 
             </address> 
          </div> 
          <div type="writingSession" n="1"> 
             <p> 
-               <persName key="pmb10815">Bahr</persName> wohnt <placeName key="pmb500">Heumarkt 9, 3 Stiege, 3. Stock Thür 37</placeName>. Kommt aber, wenn sie ihm nichts anderes schreiben, ebenso wie ich <anchor type="commentary" xml:id="KL406-1">Sonntag</anchor> um 5 zu ihnen.</p> 
+               <rs type="person" ref="pmb10815">Bahr</rs> wohnt <rs type="place" ref="pmb500">Heumarkt 9, 3 Stiege, 3. Stock Thür 37</rs>. Kommt aber, wenn sie ihm nichts anderes schreiben, ebenso wie ich <anchor type="commentary" xml:id="KL406-1">Sonntag</anchor> um 5 zu ihnen.</p> 
             <closer> 
                <signed>Loris.</signed> 
             </closer> 

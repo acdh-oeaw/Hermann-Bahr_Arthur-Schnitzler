@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Hermann Bahr an Arthur Schnitzler, 16. 3. 1907</title> 
-            <author key="pmb10815">Bahr, Hermann</author> 
+            <author ref="pmb10815">Bahr, Hermann</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19070316" n="01">16. 3. 1907</date> 
@@ -70,13 +70,13 @@
                      <physDesc> 
                         <p>eh. Kartenbrief</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb168">Berlin.N.W.</placeName> 
+                           <placeName ref="pmb168">Berlin.N.W.</placeName> 
                            <date when="19070316">16. 3. 07</date> 
                            <time>8–9N</time> 
                         </stamp> 
                         <stamp n="2"> 
                            <vorgang>Bestellt</vorgang> 
-                           <placeName key="pmb68">Wien 18/1</placeName> 
+                           <placeName ref="pmb68">Wien 18/1</placeName> 
                            <date when="19070318">18. 3. 07</date> 
                            <time>9</time> 
                         </stamp> 
@@ -106,10 +106,10 @@
             <address> 
                <addrLine>Herrn D<hi rend="superscript">r</hi> Artur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb68">Wien XVIII</placeName> 
+                  <rs type="place" ref="pmb68">Wien XVIII</rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb133">Spöttelgasse 7</placeName> 
+                  <rs type="place" ref="pmb133">Spöttelgasse 7</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -120,13 +120,13 @@
                </dateline> 
                <salute>Lieber Artur!</salute> 
             </opener> 
-            <p>»<workName key="pmb29917">Liebelei</workName>« ging im letzten Moment nicht, weil wir absolut keine <rs type="work" key="pmb29917">Mizzi Schlager</rs> hatten (da <persName key="pmb11198">Durieux</persName> 
-               <space unit="chars" quantity="1"/>gleichzeitg im <placeName key="pmb3">Deutschen</placeName> unentbehrlich). Dafür mache ich jetzt »<anchor type="commentary" xml:id="KL306-1"> 
-                  <workName key="pmb29919">Comödie der Liebe</workName> 
-               </anchor>«. Hoffentlich kommts im Herbst zur <rs type="work" key="pmb29917">L.</rs>, was ich schon wegen der <persName key="pmb11791">Höflich</persName> sehr möchte. Wegen »<workName key="pmb29823">Märchen</workName>« sprach ich mit <persName key="pmb12504">Reinhardt</persName>, aber da wird man lang und viel bohren müssen. Anfang April bin ich wieder in <placeName key="pmb50"> 
+            <p>»<rs type="work" ref="pmb29917">Liebelei</rs>« ging im letzten Moment nicht, weil wir absolut keine <rs type="work" subtype="implied" ref="pmb29917">Mizzi Schlager</rs> hatten (da <rs type="person" ref="pmb11198">Durieux</rs> 
+               <space unit="chars" quantity="1"/>gleichzeitg im <rs type="place" ref="pmb3">Deutschen</rs> unentbehrlich). Dafür mache ich jetzt »<anchor type="commentary" xml:id="KL306-1"> 
+                  <rs type="work" ref="pmb29919">Comödie der Liebe</rs> 
+               </anchor>«. Hoffentlich kommts im Herbst zur <rs type="work" subtype="implied" ref="pmb29917">L.</rs>, was ich schon wegen der <rs type="person" ref="pmb11791">Höflich</rs> sehr möchte. Wegen »<rs type="work" ref="pmb29823">Märchen</rs>« sprach ich mit <rs type="person" ref="pmb12504">Reinhardt</rs>, aber da wird man lang und viel bohren müssen. Anfang April bin ich wieder in <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> und hab <rs type="person" key="pmb2173">Euch</rs> viel von hier zu erzälen, wo doch <anchor type="label" xml:id="LL306-1">alles, fast alles ganz famos</anchor> ist.</p> 
-            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" key="pmb2173">Frau</rs> 
+               </rs> und hab <rs type="person" subtype="implied" ref="pmb2173">Euch</rs> viel von hier zu erzälen, wo doch <anchor type="label" xml:id="LL306-1">alles, fast alles ganz famos</anchor> ist.</p> 
+            <closer>Herzlichst<lb/>mit vielen Grüßen an Deine <rs type="person" subtype="implied" ref="pmb2173">Frau</rs> 
                <lb/> 
                <signed>Hermann</signed> 
             </closer> 

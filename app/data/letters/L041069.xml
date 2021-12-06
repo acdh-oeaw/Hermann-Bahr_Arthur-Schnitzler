@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 27. 1. 1904</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb845">Radolfzell am Bodensee</placeName> 
+                  <placeName ref="pmb845">Radolfzell am Bodensee</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19040127" n="2">27. 1. 1904</date> 
@@ -70,12 +70,12 @@
                      <physDesc> 
                         <p>eh. Briefkarte</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb68">Wien 18/1</placeName> 
+                           <placeName ref="pmb68">Wien 18/1</placeName> 
                            <date when="19040127">27. 1. 04</date> 
                            <time>11–12 V</time> 
                         </stamp> 
                         <stamp n="2"> 
-                           <placeName key="pmb846">Wangen</placeName> 
+                           <placeName ref="pmb846">Wangen</placeName> 
                            <date when="19040129">29./1. 04</date> 
                            <time>9–10 V</time> 
                         </stamp> 
@@ -89,7 +89,7 @@
                      <date when="19040127">27. 1. 1904</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -130,15 +130,15 @@
                <addrLine> 
                   <hi rend="latintype"> 
                      <hi rend="underline" n="1"> 
-                        <placeName key="pmb219">Marbach (Sanatorium)</placeName> 
+                        <rs type="place" ref="pmb219">Marbach (Sanatorium)</rs> 
                      </hi> 
                   </hi> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb845"> 
+                     <rs type="place" ref="pmb845"> 
                         <settlement>Radolfzell</settlement> 
-                     </placeName> am Bodensee</hi> 
+                     </rs> am Bodensee</hi> 
                </addrLine> 
             </address> 
          </div> 
@@ -146,12 +146,12 @@
             <opener> 
                <salute>mein lieber Hermann,</salute> 
             </opener> 
-            <p>möchtest du mir ein Wort schreiben, wie’s dir geht? wie lang du in <placeName key="pmb218"> 
+            <p>möchtest du mir ein Wort schreiben, wie’s dir geht? wie lang du in <rs type="place" ref="pmb218"> 
                   <settlement>Marbach</settlement> 
-               </placeName> bleiben wirst? –</p> 
-            <p>Anfang Feber fahre ich nach <placeName key="pmb168"> 
+               </rs> bleiben wirst? –</p> 
+            <p>Anfang Feber fahre ich nach <rs type="place" ref="pmb168"> 
                   <settlement>Berlin</settlement> 
-               </placeName>, den <workName key="pmb29985">Einsamen Weg</workName> hab ich dir durch <persName key="pmb11324">Fischer</persName> schicken lassen!</p> 
+               </rs>, den <rs type="work" ref="pmb29985">Einsamen Weg</rs> hab ich dir durch <rs type="person" ref="pmb11324">Fischer</rs> schicken lassen!</p> 
             <closer>herzliche Grüße!<lb/>Dein getreuer<lb/> 
                <signed>Arthur</signed> 
             </closer> 

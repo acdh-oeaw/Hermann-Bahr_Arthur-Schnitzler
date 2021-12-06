@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 16. 2. 1930</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb155">[München]</placeName> 
+                  <placeName ref="pmb155">[München]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19300216" n="01">16. 2. 1930</date> 
@@ -81,7 +81,7 @@
                      <date when="19300216">16. 2. 1930</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -118,27 +118,27 @@
          <div type="writingSession" n="1"> 
             <opener> 
                <dateline rend="right"> 
-                  <placeName key="pmb50"> 
+                  <rs type="place" ref="pmb50"> 
                      <settlement>Wien</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
                   <date>16. <unclear>2</unclear>. 930</date> 
                </dateline> 
             </opener> 
             <p> 
-               <salute>Mein lieber Hermann, </salute>nach so langer Zeit <rs type="work" key="pmb31847">hör</rs> ich wieder was von dir – und da verleihst du mir gleich den <orgName key="pmb29675">Nobelpreis</orgName>!</p> 
-            <p>Ich fühle ganz wie du: dass <persName key="pmb11740">Hugo</persName> derjenige gewesen ist, der ihn hätte bekommen müssen. Leider könnte ich diesmal nicht wieder aussprechen – wie seinerzeit als ich (noch dazu für das <workName key="pmb29903">Zwischenspiel</workName>!) den <anchor type="commentary" xml:id="KL140-2"> 
-                  <orgName key="pmb29677">Grillparzerpreis</orgName> erhielt</anchor>, dass der eigentlich <persName key="pmb11740">Hofmannsthal</persName> gebühre. Auch damit hast du recht: »<hi rend="underline" n="1">melden</hi> werd ich <add place="above">mich</add> nicht, vielleicht weniger aus Bescheidenheit, als aus Bequemlichkeit« und einer immer wachsenden<pb/> Gleichgiltigkeit gegen alle Arten von äußeren »Ehrungen« u was man so nennt.</p> 
+               <salute>Mein lieber Hermann, </salute>nach so langer Zeit <rs type="work" subtype="implied" ref="pmb31847">hör</rs> ich wieder was von dir – und da verleihst du mir gleich den <rs type="org" ref="pmb29675">Nobelpreis</rs>!</p> 
+            <p>Ich fühle ganz wie du: dass <rs type="person" ref="pmb11740">Hugo</rs> derjenige gewesen ist, der ihn hätte bekommen müssen. Leider könnte ich diesmal nicht wieder aussprechen – wie seinerzeit als ich (noch dazu für das <rs type="work" ref="pmb29903">Zwischenspiel</rs>!) den <anchor type="commentary" xml:id="KL140-2"> 
+                  <rs type="org" ref="pmb29677">Grillparzerpreis</rs> erhielt</anchor>, dass der eigentlich <rs type="person" ref="pmb11740">Hofmannsthal</rs> gebühre. Auch damit hast du recht: »<hi rend="underline" n="1">melden</hi> werd ich <add place="above">mich</add> nicht, vielleicht weniger aus Bescheidenheit, als aus Bequemlichkeit« und einer immer wachsenden<pb/> Gleichgiltigkeit gegen alle Arten von äußeren »Ehrungen« u was man so nennt.</p> 
             <p>D<subst> 
                   <del rend="overwritten">as</del> 
                   <add place="inline">ein</add> 
-               </subst> »<workName key="pmb30047">Tagebuch</workName> 
+               </subst> »<rs type="work" ref="pmb30047">Tagebuch</rs> 
                <supplied>«</supplied> 
                <space unit="chars" quantity="1"/> 
-               <anchor type="label" xml:id="LL140-1">les ich natürlich immer</anchor> – so bedürfte es also kaum einer <anchor type="commentary" xml:id="KL140-3">freundlichen persönlichen Bemerkung</anchor>, – und umso mehr dank ich dir. Ich weiss nicht, ob du meine kleinen Bücher »<workName key="pmb30051">Geist im Wort und in der That</workName>«, u mein <workName key="pmb30053">Buch der Sprüche u Bedenken</workName> erhalten hast – ich würde sie dir gern schicken, auf die Gefahr hin, dass du mit vielem nicht einverstanden sein wirst.</p> 
+               <anchor type="label" xml:id="LL140-1">les ich natürlich immer</anchor> – so bedürfte es also kaum einer <anchor type="commentary" xml:id="KL140-3">freundlichen persönlichen Bemerkung</anchor>, – und umso mehr dank ich dir. Ich weiss nicht, ob du meine kleinen Bücher »<rs type="work" ref="pmb30051">Geist im Wort und in der That</rs>«, u mein <rs type="work" ref="pmb30053">Buch der Sprüche u Bedenken</rs> erhalten hast – ich würde sie dir gern schicken, auf die Gefahr hin, dass du mit vielem nicht einverstanden sein wirst.</p> 
             <p>Es wär schön wenn man einander wieder sähe <c rendition="#dots" n="2" place="center"/> »<anchor type="commentary" xml:id="KL140-1">Einer von uns wird es einmal bedauern</anchor> 
                <space unit="chars" quantity="1"/> 
-               <c rendition="#dots" n="2" place="center"/>« wie <persName key="pmb11740">Hugo</persName> immer sagte. – </p> 
+               <c rendition="#dots" n="2" place="center"/>« wie <rs type="person" ref="pmb11740">Hugo</rs> immer sagte. – </p> 
             <closer>Ich grüße dich herzlich in alter Freundschaft<lb/>Dein<lb/> 
                <signed>Arthur</signed> 
             </closer> 

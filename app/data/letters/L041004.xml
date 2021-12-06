@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler an Hermann Bahr, 17. 7. 1895</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb213">Bad Ischl</placeName> 
+                  <placeName ref="pmb213">Bad Ischl</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">[Wien]</placeName> 
+                  <placeName ref="pmb50">[Wien]</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18950717" n="01">17. 7. 1895</date> 
@@ -79,7 +79,7 @@
                      <date when="18950717">17. 7. 1895</date> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -117,14 +117,14 @@
             <opener> 
                <salute>Lieber Hermann, </salute> 
             </opener> 
-            <p>hier ist also die <rs type="work" key="pmb30073">Novelle</rs>. Ich habe viel gestrichen, fürchte aber noch immer dss sie zu lang ist. In diesem Falle hätte ich nichts dagegen, dass sie in kleinerm Drucke erscheint. (Wie s. Z. <anchor type="commentary" xml:id="KL004-1"> 
-                  <rs type="work" key="pmb32322"> 
-                     <persName key="pmb12602">Saar</persName> 
+            <p>hier ist also die <rs type="work" subtype="implied" ref="pmb30073">Novelle</rs>. Ich habe viel gestrichen, fürchte aber noch immer dss sie zu lang ist. In diesem Falle hätte ich nichts dagegen, dass sie in kleinerm Drucke erscheint. (Wie s. Z. <anchor type="commentary" xml:id="KL004-1"> 
+                  <rs type="work" subtype="implied" ref="pmb32322"> 
+                     <rs type="person" ref="pmb12602">Saar</rs> 
                   </rs> 
                </anchor>.) Findest Du noch Stellen, die Du für entbehrlich hältst, so gib sie mir vielleicht an, streiche aber keinesfalls selbst.<pb/> Auch wenn dir ein wirksamerer Titel einfiele, so wäre mir das sehr willkommen. –</p> 
-            <p>Kannst Du die Geschichte nicht brauchen, so behalte das Manuscr. jedenfalls freundlichst bei Dir, bis ich nach <placeName key="pmb50"> 
+            <p>Kannst Du die Geschichte nicht brauchen, so behalte das Manuscr. jedenfalls freundlichst bei Dir, bis ich nach <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> zurückkehre. Nachrichten erbitte ich mir an untenstehende Adresse. <persName key="pmb10863">Richard</persName> sagt mir übrigens, dß Du bald<pb/> wieder her kommst, da sprechen wir uns wohl, was mich sehr freuen wird.</p> 
+               </rs> zurückkehre. Nachrichten erbitte ich mir an untenstehende Adresse. <rs type="person" ref="pmb10863">Richard</rs> sagt mir übrigens, dß Du bald<pb/> wieder her kommst, da sprechen wir uns wohl, was mich sehr freuen wird.</p> 
             <closer>Herzliche Grüße von Deinem ergeb <signed>ArthSch</signed> 
             </closer> 
             <postscript> 
@@ -134,7 +134,7 @@
                         <add place="inline">7</add> 
                      </subst>/7. 95<lb/> 
                      <hi rend="latintype"> 
-                        <placeName key="pmb214">Ischl, Rudolfshöhe</placeName>.</hi> 
+                        <rs type="place" ref="pmb214">Ischl, Rudolfshöhe</rs>.</hi> 
                   </date> 
                </p> 
             </postscript> 

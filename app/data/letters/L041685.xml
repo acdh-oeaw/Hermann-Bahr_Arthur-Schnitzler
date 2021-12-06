@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur Schnitzler: Widmungsexemplar Der einsame Weg, [10.] 2. 1904</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,13 +42,13 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeAddressee> 
-                  <placeName key="pmb168">Berlin</placeName> 
+                  <placeName ref="pmb168">Berlin</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19040210" n="1">[10.] 2. 1904</date> 
@@ -65,9 +65,9 @@
                         <idno>32321-I</idno> 
                      </msIdentifier> 
                      <physDesc> 
-                        <p>hs. auf dem Vorsatzblatt von <bibl>Arthur Schnitzler: <workName key="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</workName>. 2. Auflage. <placeName key="pmb168"> 
+                        <p>hs. auf dem Vorsatzblatt von <bibl>Arthur Schnitzler: <workName ref="pmb29985">Der einsame Weg. Schauspiel in fünf Akten</workName>. 2. Auflage. <placeName ref="pmb168"> 
                                  <settlement>Berlin</settlement> 
-                              </placeName>: <orgName key="pmb29639">S. Fischer</orgName> 
+                              </placeName>: <orgName ref="pmb29639">S. Fischer</orgName> 
                               <space unit="chars" quantity="1"/> 
                               <date when="1904">1904</date> 
                            </bibl>.</p> 
@@ -91,15 +91,15 @@
       <body> 
          <div type="writingSession" n="1"> 
             <p> 
-               <workName key="pmb29985"/>Meinem lieben Hermann</p> 
+               <rs type="work" ref="pmb29985"/>Meinem lieben Hermann</p> 
             <closer> 
                <signed>ArthSchn</signed> 
             </closer> 
             <postscript> 
                <p> 
-                  <placeName key="pmb168"> 
+                  <rs type="place" ref="pmb168"> 
                      <settlement>Berlin</settlement> 
-                  </placeName> 
+                  </rs> 
                   <space unit="chars" quantity="1"/> 
                   <date when="190402"> 
                      <anchor type="commentary" xml:id="KL685-1">Feber</anchor> 904</date>. </p> 

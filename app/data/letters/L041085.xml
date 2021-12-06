@@ -4,8 +4,8 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Arthur und Olga Schnitzler an Hermann Bahr, 5. 5. 1905</title> 
-            <author key="pmb2121">Schnitzler, Arthur</author> 
-            <author key="pmb2173">Schnitzler, Olga</author> 
+            <author ref="pmb2121">Schnitzler, Arthur</author> 
+            <author ref="pmb2173">Schnitzler, Olga</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -43,17 +43,17 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
-                  <persName key="pmb2173">Schnitzler, Olga</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2173">Schnitzler, Olga</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb10815">Bahr, Hermann</persName> 
+                  <persName ref="pmb10815">Bahr, Hermann</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb189">Semmering</placeName> 
+                  <placeName ref="pmb189">Semmering</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="19050505" n="01">5. 5. 1905</date> 
@@ -71,8 +71,8 @@
                      </msIdentifier> 
                      <physDesc> 
                         <p>eh. Ansichtskarte, Motiv: »<quote> 
-                              <placeName key="pmb413">Semmering. Südbahnhôtel</placeName>, 1000 m Seehöhe</quote>«.</p>  <stamp n="1"> 
-                           <placeName key="pmb189">Semmering</placeName> 
+                              <placeName ref="pmb413">Semmering. Südbahnhôtel</placeName>, 1000 m Seehöhe</quote>«.</p>  <stamp n="1"> 
+                           <placeName ref="pmb189">Semmering</placeName> 
                            <date when="19050505">5. 5. 05</date> 
                            <time>6–7</time> 
                         </stamp> 
@@ -87,7 +87,7 @@
                      <respStmt>Abschrift</respStmt> 
                   </analytic> 
                   <monogr> 
-                     <author key="pmb2121">Schnitzler, Arthur</author> 
+                     <author ref="pmb2121">Schnitzler, Arthur</author> 
                      <title level="m">The Letters of Arthur Schnitzler to Hermann Bahr</title> 
                      <editor>Edited, annotated, and with an introduction, by Donald G. Daviau</editor> 
                      <imprint> 
@@ -127,13 +127,13 @@
                   <hi rend="latintype">Herrn Hermann Bahr</hi> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb165"> 
+                  <rs type="place" ref="pmb165"> 
                      <hi rend="latintype">Wien Ob St Veit</hi> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
                   <hi rend="latintype"> 
-                     <placeName key="pmb220">Veitlissengasse</placeName> 
+                     <rs type="place" ref="pmb220">Veitlissengasse</rs> 
                   </hi> 
                </addrLine> 
             </address> 

@@ -4,7 +4,7 @@
          <titleStmt> 
             <title level="s">Hermann Bahr – Arthur Schnitzler: Briefwechsel, Aufzeichnungen, Dokumente 1891–1931</title> 
             <title level="a">Felix Salten an Arthur Schnitzler, 22. 7. 1897</title> 
-            <author key="pmb2167">Salten, Felix</author> 
+            <author ref="pmb2167">Salten, Felix</author> 
             <editor> 
                <name full="yes" instant="false">Ifkovits, Kurt</name> 
                <name full="yes" instant="false">Müller, Martin Anton</name> 
@@ -42,16 +42,16 @@
          <sourceDesc> 
             <correspDesc> 
                <sender full="yes"> 
-                  <persName key="pmb2167">Salten, Felix</persName> 
+                  <persName ref="pmb2167">Salten, Felix</persName> 
                </sender> 
                <addressee full="yes"> 
-                  <persName key="pmb2121">Schnitzler, Arthur</persName> 
+                  <persName ref="pmb2121">Schnitzler, Arthur</persName> 
                </addressee> 
                <placeSender> 
-                  <placeName key="pmb50">Wien</placeName> 
+                  <placeName ref="pmb50">Wien</placeName> 
                </placeSender> 
                <placeAddressee> 
-                  <placeName key="pmb213">Bad Ischl</placeName> 
+                  <placeName ref="pmb213">Bad Ischl</placeName> 
                </placeAddressee> 
                <dateSender> 
                   <date when="18970722" n="2">22. 7. 1897</date> 
@@ -70,7 +70,7 @@
                      <physDesc> 
                         <p>eh. Karte, Bleistift, Lateinschrift, 2. Poststempel unleserlich</p> 
                         <stamp n="1"> 
-                           <placeName key="pmb58">Wien 8/1</placeName> 
+                           <placeName ref="pmb58">Wien 8/1</placeName> 
                            <date when="18970723">23. 7. 97</date> 
                            <time>3–4 N</time> 
                         </stamp> 
@@ -99,12 +99,12 @@
                      <hi rend="underline" n="1">r</hi> 
                   </hi> Arthur Schnitzler</addrLine> 
                <addrLine> 
-                  <placeName key="pmb213"> 
+                  <rs type="place" ref="pmb213"> 
                      <settlement>Ischl</settlement> 
-                  </placeName> 
+                  </rs> 
                </addrLine> 
                <addrLine> 
-                  <placeName key="pmb414">Kaltenbach, Pension Petter</placeName> 
+                  <rs type="place" ref="pmb414">Kaltenbach, Pension Petter</rs> 
                </addrLine> 
             </address> 
          </div> 
@@ -116,15 +116,15 @@
                </dateline> 
             </opener> 
             <p> 
-               <salute>Lieber Freund, </salute> ich lese soeben im <orgName key="pmb29670">6-Uhr-Blatt</orgName> die <anchor type="commentary" xml:id="KL216-1">Notiz</anchor> von <workName key="pmb30474">Agnes Jordan</workName>. Ich brauche Ihnen wol nicht erst zu sagen, dass ich derselben vollständig ferne stehe. Ich weiß absolut nicht durch wen man das erfahren hat. Morgen reise ich nach <placeName key="pmb30"> 
+               <salute>Lieber Freund, </salute> ich lese soeben im <rs type="org" ref="pmb29670">6-Uhr-Blatt</rs> die <anchor type="commentary" xml:id="KL216-1">Notiz</anchor> von <rs type="work" ref="pmb30474">Agnes Jordan</rs>. Ich brauche Ihnen wol nicht erst zu sagen, dass ich derselben vollständig ferne stehe. Ich weiß absolut nicht durch wen man das erfahren hat. Morgen reise ich nach <rs type="place" ref="pmb30"> 
                   <settlement>Salzburg</settlement> 
-               </placeName>, für ein paar Tage – Vielleicht kommen Sie hin, ehe Sie nach <placeName key="pmb50"> 
+               </rs>, für ein paar Tage – Vielleicht kommen Sie hin, ehe Sie nach <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> fahren. Wir reisen dann zusammmen nach <placeName key="pmb50"> 
+               </rs> fahren. Wir reisen dann zusammmen nach <rs type="place" ref="pmb50"> 
                   <settlement>Wien</settlement> 
-               </placeName> zurück. Nachricht trifft mich in <placeName key="pmb30"> 
+               </rs> zurück. Nachricht trifft mich in <rs type="place" ref="pmb30"> 
                   <settlement>Salzburg</settlement> 
-               </placeName> poste restante. Herzlich <signed>Salten</signed> 
+               </rs> poste restante. Herzlich <signed>Salten</signed> 
             </p> 
          </div> 
       </body> 
