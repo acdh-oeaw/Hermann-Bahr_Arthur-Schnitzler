@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041643.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041642.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041644.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041643.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041642.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041644.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19030400" n="01">April 1903</date>
+                  <date when="1903-04-00" n="01">April 1903</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -87,8 +93,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160912">Angelegt</change>
-         <change who="KI MAM" when="20160907">Kollationiert</change>
+         <change who="MAM" when="2016-09-12">Angelegt</change>
+         <change who="KI MAM" when="2016-09-07">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="dedication">
@@ -101,7 +107,7 @@
             <p>
                <rs type="place" ref="pmb50">Wien</rs>
                <space unit="chars" quantity="1"/>
-               <date when="19030400">April 903.</date>
+               <date when="1903-04-00">April 903.</date>
             </p>
             <closer>
                <signed>Arthur</signed>

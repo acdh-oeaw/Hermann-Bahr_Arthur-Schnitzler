@@ -1,4 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030070.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030069.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030071.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030070.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030069.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030071.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -41,7 +48,7 @@
             <p part="N">Machine-Readable Transcriptions of the Correspondence between Hermann Bahr and Arthur Schnitzler</p>
          </seriesStmt>
          <sourceDesc>
-            <origDate when="19081015" n="1">Mitte Oktober – 8. 11. 1908</origDate>
+            <origDate when="1908-10-15" n="1">Mitte Oktober – 8. 11. 1908</origDate>
             <listWit>
                <witness n="1">
                   <msDesc>
@@ -65,8 +72,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="KI MAM" when="20160112">angelegt</change>
-         <change who="KI MAM" when="20160120">Kollationiert</change>
+         <change who="KI MAM" when="2016-01-12">angelegt</change>
+         <change who="KI MAM" when="2016-01-20">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="text">
@@ -123,9 +130,10 @@
             <p part="N">
                <rs type="work" subtype="implied" ref="pmb31093">Kritik</rs> von <rs type="person" ref="pmb11036">Burckhard</rs> im <rs type="org" ref="pmb29306">Pester Lloyd</rs>
                <space unit="chars" quantity="1"/>
-               <date when="19081108">8. 11. 08</date>
+               <date when="1908-11-08">8. 11. 08</date>
             </p>
          </div>
       </body>
    </text>
-</TEI><!--Datierung: Redlich hat es am 10. Oktober 1908 zur Lektüre als Orientierungspunkt. Die Kritik von Burckhard nachher ergänzt -->
+</TEI>
+<!--Datierung: Redlich hat es am 10. Oktober 1908 zur Lektüre als Orientierungspunkt. Die Kritik von Burckhard nachher ergänzt -->

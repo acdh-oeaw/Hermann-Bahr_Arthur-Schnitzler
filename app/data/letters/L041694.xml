@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041694.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041693.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041695.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041694.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041693.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041695.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -50,7 +56,7 @@
                </addressee>
                <!--<placeSender><placeName key="pmb168">Berlin</placeName></placeSender><placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
                <dateSender>
-                  <date when="19000227" n="1">27. 2. 1900</date>
+                  <date when="1900-02-27" n="1">27. 2. 1900</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -69,12 +75,12 @@
                         <stamp n="1">
                            <placeName ref="pmb51">Wien 1/<unclear>1</unclear>
                            </placeName>
-                           <date when="19000301">1. 3. 00</date>
+                           <date when="1900-03-01">1. 3. 00</date>
                            <time>5–6 N</time>
                         </stamp>
                         <stamp n="2">
                            <placeName ref="pmb999">K. und K. Milit.-Post Mostar</placeName>
-                           <date when="19000304">4/3 00</date>
+                           <date when="1900-03-04">4/3 00</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -88,9 +94,9 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20170421">Angelegt</change>
-         <change who="MAM" when="20170425">Abschrift im ÖLA</change>
-         <change who="KI MAM" when="20170417">Kollationiert</change>
+         <change who="MAM" when="2017-04-21">Angelegt</change>
+         <change who="MAM" when="2017-04-25">Abschrift im ÖLA</change>
+         <change who="KI MAM" when="2017-04-17">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
@@ -112,7 +118,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline>
-                  <rs type="place" ref="pmb50">Wien</rs>, <date when="19000227">27<hi rend="superscript">ten</hi> Febr. 1900</date>
+                  <rs type="place" ref="pmb50">Wien</rs>, <date when="1900-02-27">27<hi rend="superscript">ten</hi> Febr. 1900</date>
                </dateline>
                <salute>Mein lieber Bobby,</salute>
             </opener>
@@ -168,7 +174,9 @@
                </del> unter dieses Erlebnis vorge<pb/>führt werden sind interessant, weil das Gewebe der Worte im <hi rend="underline" n="1">Großen und Ganzen</hi>
                <space unit="chars" quantity="1"/>
                <hi rend="underline" n="3">gut</hi> ist, d. h. wie die Worte <add place="below">und Sätze</add> und Wortverbindungen <hi rend="underline" n="1">meistens</hi> die äußeren Vorgänge, Dinge und Personen (und die nehmen den Hauptraum in der Erzählung ein) ernst, objectiv und anschaulich wiedergeben und auch insofern vorsichtig gewählt sind, als sie das von den Objecten nehmen, was an ihnen entweder <hi rend="underline" n="1">im ganzen</hi> characteristisch <add place="below">ist</add> (z. B. die dicken Mauern des Türkenhauses) oder für das Verhältnis zum Hautvorgang (der Lieuten. und zwei Türken<pb/>buben) wichtig ist. (z. B. alles über die militärischen Vorgänge.) <hi rend="underline" n="1">Meistens leider nicht immer!</hi> Die geschwätzigen, <del rend="strikethrough">und f</del> gewöhnlichen, und für mein Gefühl gemeinen Stellen der <rs type="work" subtype="implied" ref="pmb32646">Erzählung</rs> (ich habe sie bevor ich das Manuscript den <anchor type="commentary" xml:id="KL694-3">
-                  <rs type="person" subtype="implied" ref="pmb2121 pmb10815 pmb11701 pmb12772 pmb11469">Schriftstellern</rs>
+                  <rs type="person"
+                      subtype="implied"
+                      ref="pmb2121 pmb10815 pmb11701 pmb12772 pmb11469">Schriftstellern</rs>
                </anchor> vorlas<subst>
                   <del rend="strikethrough">)</del>
                   <add place="inline">,</add>
@@ -186,7 +194,7 @@
             <opener>
                <dateline>
                   <hi rend="underline" n="1">
-                     <date when="19000228">28ten. Febr.</date>
+                     <date when="1900-02-28">28ten. Febr.</date>
                   </hi>
                </dateline>
             </opener>

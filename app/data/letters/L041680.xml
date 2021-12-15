@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041680.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041679.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041681.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041680.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041679.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041681.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -53,7 +59,7 @@
                </placeSender>
                <placeAddressee><!--<placeName key="pmb50">[Wien]</placeName>--></placeAddressee>
                <dateSender>
-                  <date when="18970530" n="01">30. 5. [1897]</date>
+                  <date when="1897-05-30" n="01">30. 5. [1897]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -80,8 +86,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20161130">Angelegt aus Abschrift</change>
-         <change who="KI MAM" when="20161201">Kollationiert am Faksimile</change>
+         <change who="MAM" when="2016-11-30">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="2016-12-01">Kollationiert am Faksimile</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
@@ -89,7 +95,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline>
-                  <rs type="place" ref="pmb820">Wien-Sievering, Fröschelgasse 6</rs> den <date when="18970530">30. V.</date>
+                  <rs type="place" ref="pmb820">Wien-Sievering, Fröschelgasse 6</rs> den <date when="1897-05-30">30. V.</date>
                </dateline>
                <salute rend="center">Verehrter Herr Doctor!</salute>
             </opener>

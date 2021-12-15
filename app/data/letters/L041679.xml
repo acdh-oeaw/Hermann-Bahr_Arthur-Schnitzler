@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041679.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041678.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041680.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041679.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041678.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041680.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -53,7 +59,7 @@
                </placeSender>
                <placeAddressee><!--<placeName key="pmb50">[Wien]</placeName>--></placeAddressee>
                <dateSender>
-                  <date when="18970515" n="01">15. 5. 1897</date>
+                  <date when="1897-05-15" n="01">15. 5. 1897</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -80,8 +86,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20161130">Angelegt aus Abschrift</change>
-         <change who="KI MAM" when="20161201">Kollationiert am Faksimile</change>
+         <change who="MAM" when="2016-11-30">Angelegt aus Abschrift</change>
+         <change who="KI MAM" when="2016-12-01">Kollationiert am Faksimile</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
@@ -89,7 +95,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline>
-                  <rs type="place" ref="pmb820">Sievring, Fröschelgasse 6</rs>, den <date when="18970515">15. V. 97</date>.</dateline>
+                  <rs type="place" ref="pmb820">Sievring, Fröschelgasse 6</rs>, den <date when="1897-05-15">15. V. 97</date>.</dateline>
                <salute rend="center">Verehrter Herr Doctor!</salute>
             </opener>
             <p>Besten Dank für Ihre liebenswürdigen Zeilen aus <rs type="place" ref="pmb182">Paris</rs>, von wo ich Sie wieder zurückgekehrt glaube. Da Ihre dortige Adresse mir – zu Ihrem Besten – unbekannt war, sparte ich mir den allerherzlichsten Dank für Ihre gütige Intervention bei <rs type="person" ref="pmb10815">H. Bahr</rs> – bis jetzt auf. Es ist Ihnen sicherlich schon sehr langweilig, dass ich mich in jedem Brief an Sie bedanke – aber wenn Sie mir immer Grund dazu geben? – –</p>

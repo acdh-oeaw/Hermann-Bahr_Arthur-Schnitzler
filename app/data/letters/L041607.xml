@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041607.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041606.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041609.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041607.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041606.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041609.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -57,7 +63,7 @@
                   <placeName ref="pmb30">[Salzburg]</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19130415" n="1">[Mitte April 1913]</date>
+                  <date when="1913-04-15" n="1">[Mitte April 1913]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -103,8 +109,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160614">Angelegt</change>
-         <change who="KI MAM" when="20160614">Kollationiert</change>
+         <change who="MAM" when="2016-06-14">Angelegt</change>
+         <change who="KI MAM" when="2016-06-14">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
@@ -168,7 +174,7 @@
                   <hi rend="underline" n="1">Zur Aufklärung</hi>! Diskret!!</p>
                <salute>Sehr geehrter Herr!</salute>
             </opener>
-            <p>Am <date when="19121210">10. Dec 1912</date> mußte ich meinen Bruder <rs type="person" ref="pmb2147">Peter</rs> in lebensgefährlich<damage agent="hole">
+            <p>Am <date when="1912-12-10">10. Dec 1912</date> mußte ich meinen Bruder <rs type="person" ref="pmb2147">Peter</rs> in lebensgefährlich<damage agent="hole">
                   <supplied>em</supplied>
                </damage> ganz herabgekommenem <unclear>Anstalt</unclear>zustand schleunigst in eine Anstalt überführen (<rs type="place" ref="pmb153">Steinhof</rs>). Seit 3 Wochen cirka kommt er erst allmählich zu sich <c rendition="#kaufmannsund"/> leidet gewiß schwer unter dem Zwange der Ärzte <c rendition="#kaufmannsund"/> Pfleger <c rendition="#kaufmannsund"/> will durchaus entfliehen. Ärztliche Freunde halten aber seinen jetzigen Zustand für so labil, daß die Freiheit ihn binnen Kurzem total ruiniren könnte.</p>
             <closer>Hochachtend<lb/>

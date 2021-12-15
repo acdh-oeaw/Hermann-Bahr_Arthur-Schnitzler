@@ -1,4 +1,10 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030001.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030002.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030001.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030002.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -38,7 +44,7 @@
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A71-7</idno>
          </publicationStmt>
          <sourceDesc>
-            <origDate when="19120407" n="1">[7. April 1912]</origDate>
+            <origDate when="1912-04-07" n="1">[7. April 1912]</origDate>
             <listWit>
                <witness n="1">
                   <msDesc>
@@ -62,7 +68,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change when="2015-11-04" who="MAM">Angelegt</change>  <change who="KI MAM" when="20160509">Kollationiert</change>
+         <change when="2015-11-04" who="MAM">Angelegt</change>  <change who="KI MAM" when="2016-05-09">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="manuscript">
@@ -74,7 +80,7 @@
             <p rend="center" part="N">
                <rs type="work" ref="pmb31247">Wiener Literatenköpfe</rs> von <rs type="person" ref="pmb2147">Peter Altenberg</rs>
                <lb/>
-               <date when="19120407">7. 4. 1912.</date>
+               <date when="1912-04-07">7. 4. 1912.</date>
             </p>
          </div>
       </body>

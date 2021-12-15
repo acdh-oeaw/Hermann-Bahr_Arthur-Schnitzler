@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041202.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041201.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041203.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041202.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041201.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041203.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -63,7 +69,7 @@
                   <placeName ref="pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19031214" n="2">14. 12. 1903</date>
+                  <date when="1903-12-14" n="2">14. 12. 1903</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -81,13 +87,13 @@
                               <placeName ref="pmb449">Hietzing, den ... 19 ... / Auhofstrasse 1</placeName>. / Schöner Gruss vom reizenden Etablissement ›<placeName ref="pmb304">Ottakringerbräu</placeName>‹ ›zum schwarzen Hahn‹, wo es so gemüthlich ist.</quote>«</p>
                         <stamp n="1">
                            <placeName ref="pmb68">Wien 18/1</placeName>
-                           <date when="19031215">15. 12. 03</date>
+                           <date when="1903-12-15">15. 12. 03</date>
                            <time>6–7 V</time>
                         </stamp>
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
                            <placeName ref="pmb63">Wien 13/7</placeName>
-                           <date when="19031215">15<supplied>.</supplied> 12. 03</date>
+                           <date when="1903-12-15">15<supplied>.</supplied> 12. 03</date>
                            <time>11.</time>
                         </stamp>
                      </physDesc>
@@ -119,7 +125,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

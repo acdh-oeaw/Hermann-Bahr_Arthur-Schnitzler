@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041606.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041605.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041607.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041606.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041605.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041607.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -64,15 +70,15 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="KI MAM" when="20160816">Angelegt</change>
-         <change who="KI MAM" when="20160816">Kollationiert</change>
+         <change who="KI MAM" when="2016-08-16">Angelegt</change>
+         <change who="KI MAM" when="2016-08-16">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="19220719" n="01"/>
+               <date when="1922-07-19" n="01"/>
                <rs type="place" ref="pmb45258">München</rs> gleich für »<rs type="org" ref="pmb29205">Deutschösterreichischen Bühnenverein</rs>« <rs type="place" ref="pmb761">Wien I Dorotheergasse 6–8</rs>
                <space unit="chars" quantity="1"/>
                <rs type="work" subtype="implied" ref="pmb30103">Aufsatz</rs> über <rs type="person" ref="pmb11036">Burckhard</rs>s Verdienst um das neue Theatergesetz (<anchor type="commentary" xml:id="KD606-1">mit D<hi rend="superscript">r</hi>

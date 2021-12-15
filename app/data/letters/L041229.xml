@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041229.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041228.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041230.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041229.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041228.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041230.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19001012" n="01">12. 10. 1900</date>
+                  <date when="1900-10-12" n="01">12. 10. 1900</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -74,11 +80,11 @@
                            </quote>« von Schnitzler beim Datum ergänzt.</p>
                         <stamp n="1">
                            <placeName ref="pmb63">Wien 13/7</placeName>
-                           <date when="19001012">12<supplied>.</supplied> 10. 00</date>
+                           <date when="1900-10-12">12<supplied>.</supplied> 10. 00</date>
                            <time>10–11 V</time>
                         </stamp>
                         <stamp n="2">
-                           <date when="19001012">12. 10. 00</date>
+                           <date when="1900-10-12">12. 10. 00</date>
                            <time>3.N</time>
                         </stamp>
                      </physDesc>
@@ -93,8 +99,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="KI MAM" when="20151204">Kollationiert</change>
-         <change who="KI MAM" when="20170526">Kollationiert</change>
+         <change who="KI MAM" when="2015-12-04">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-26">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

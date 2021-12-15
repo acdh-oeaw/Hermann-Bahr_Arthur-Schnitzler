@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041122.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041121.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041123.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041122.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041121.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041123.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19111118" n="01">18. 11. 1911</date>
+                  <date when="1911-11-18" n="01">18. 11. 1911</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -74,7 +80,7 @@
                            </quote>«, von fremder Hand mit Bleistift Postrayon »<quote>/9</quote>«; zu »<quote>/7</quote>« verbessert, offensichtlich, um eine Verwechslung mit dem namensgleichen Privatbeamten <persName ref="pmb28849">Hermann Bahr</persName> in der <placeName ref="pmb802">Töpfelgasse 7</placeName> zu korrigieren.</p>
                         <stamp n="1">
                            <placeName ref="pmb63">Wien 13 7</placeName>
-                           <date when="19111118">18. XI. 11</date>
+                           <date when="1911-11-18">18. XI. 11</date>
                         </stamp>
                      </physDesc>
                   </msDesc>
@@ -83,7 +89,7 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <date when="19111118">18. 11. 1911</date>
+                     <date when="1911-11-18">18. 11. 1911</date>
                      <respStmt>Abschrift</respStmt>
                   </analytic>
                   <monogr>
@@ -111,8 +117,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
-         <change who="KI MAM" when="20170511">Kollationiert</change>
+         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-11">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -154,4 +160,5 @@
          </div>
       </body>
    </text>
-</TEI><!-- Kommentar: Lehmann 1912, Eintrag 2. Bahr: Priv.Bmt, XIII/9 Töpfelgasse 7 http://www.digital.wienbibliothek.at/wbrobv/periodical/zoom/133966 -->
+</TEI>
+<!-- Kommentar: Lehmann 1912, Eintrag 2. Bahr: Priv.Bmt, XIII/9 Töpfelgasse 7 http://www.digital.wienbibliothek.at/wbrobv/periodical/zoom/133966 -->

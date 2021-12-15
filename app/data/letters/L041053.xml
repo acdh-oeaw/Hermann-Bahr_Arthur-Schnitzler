@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041053.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041052.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041054.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041053.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041052.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041054.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb168">Berlin</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19021015" n="01">15. 10. 1902</date>
+                  <date when="1902-10-15" n="01">15. 10. 1902</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -72,21 +78,21 @@
                         <p>eh. Postkarte, Bleistift</p>
                         <stamp n="1">
                            <placeName ref="pmb168">Berlin, W. 64</placeName>
-                           <date when="19021015">15. 10. 02.</date>
+                           <date when="1902-10-15">15. 10. 02.</date>
                            <time>11–12 V</time>
                         </stamp>
                         <stamp n="2">
                            <placeName ref="pmb168">Berlin, W. 64</placeName>
-                           <date when="19021015">15. 10. 02.</date>
+                           <date when="1902-10-15">15. 10. 02.</date>
                            <time>11<hi rend="superscript">10</hi> V</time>
                         </stamp>  <stamp n="3">
                            <placeName ref="pmb168">Berlin, W. / H. T. A.</placeName>
-                           <date when="19021015">15. 10. 02.</date>
+                           <date when="1902-10-15">15. 10. 02.</date>
                            <time>11<hi rend="superscript">15</hi> V</time>
                         </stamp>
                         <stamp n="4">
                            <vorgang>Ausgefolgt</vorgang>
-                           <date when="19021015">15 Oct.</date>
+                           <date when="1902-10-15">15 Oct.</date>
                            <time>11</time>
                         </stamp>
                      </physDesc>
@@ -96,7 +102,7 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <date when="19021015">15. 10. 1902</date>
+                     <date when="1902-10-15">15. 10. 1902</date>
                      <respStmt>Abschrift</respStmt>
                   </analytic>
                   <monogr>
@@ -124,8 +130,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
-         <change who="KI MAM" when="20170515">Kollationiert</change>
+         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-15">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041118.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041117.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041119.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041118.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041117.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041119.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb224">London</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19101008" n="01">8. 10. 1910</date>
+                  <date when="1910-10-08" n="01">8. 10. 1910</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -71,7 +77,7 @@
                      <physDesc>
                         <p>ms. Korrespondenzkarte mit hs. Anschrift, Unterschrift und Korrekturen in Lateinschrift, gedruckter Kopf: »Dr. Arthur Schnitzler / <placeName ref="pmb150">Wien XVIII. Sternwartestrasse 71</placeName>«</p>
                         <stamp n="1">
-                           <date when="19101008">8. X. 10</date>
+                           <date when="1910-10-08">8. X. 10</date>
                         </stamp>  <stamp n="2">
                            <placeName ref="pmb224">London</placeName>
                         </stamp>
@@ -82,7 +88,7 @@
             <listBibl>
                <biblStruct>
                   <analytic>
-                     <date when="19101008">8. 10. 1910</date>
+                     <date when="1910-10-08">8. 10. 1910</date>
                      <respStmt>Abschrift</respStmt>
                   </analytic>
                   <monogr>
@@ -110,8 +116,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
-         <change who="KI MAM" when="20170511">Kollationiert</change>
+         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-11">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -157,7 +163,9 @@
             <p>
                <salute>Lieber Hermann. </salute>Ein gewisser Dr. <rs type="person" ref="pmb2242">Cesare Levi</rs> möchte Dein <rs type="work" ref="pmb29933">Konzert</rs> ins <rs type="place" ref="pmb40306">Italienische</rs> übersetzen. Zu seiner Empfehlung kann ich nur sagen, dass in seiner <anchor type="commentary" xml:id="KL118-1">Uebersetzung</anchor>
                <space unit="chars" quantity="1"/>
-               <rs type="work" subtype="implied" ref="pmb30033 pmb29873 pmb30005 pmb29877 pmb29869">einige meiner Einakter</rs> in <rs type="place" ref="pmb40306">Italien</rs> aufgeführt worden sind und seither eine wahre Flut von Lire auf mich niederströmt. <subst>
+               <rs type="work"
+                   subtype="implied"
+                   ref="pmb30033 pmb29873 pmb30005 pmb29877 pmb29869">einige meiner Einakter</rs> in <rs type="place" ref="pmb40306">Italien</rs> aufgeführt worden sind und seither eine wahre Flut von Lire auf mich niederströmt. <subst>
                   <del rend="strikethrough">Neulich</del>
                   <add place="above">Im letzten Vierteljahr</add>
                </subst> waren es vierzehn.</p>

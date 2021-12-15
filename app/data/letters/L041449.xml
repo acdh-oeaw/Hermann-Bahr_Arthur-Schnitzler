@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041449.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041448.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041450.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041449.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041448.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041450.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -53,7 +59,7 @@
                </placeSender>
                <!--<placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
                <dateSender>
-                  <date when="19040924" n="01">24. 9. 1904</date>
+                  <date when="1904-09-24" n="01">24. 9. 1904</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -74,7 +80,7 @@
                            </quote>«.</p>
                         <stamp n="1">
                            <placeName ref="pmb68">18/1 Wien</placeName>
-                           <date when="19040924">24<supplied>. 09.</supplied> 04</date>
+                           <date when="1904-09-24">24<supplied>. 09.</supplied> 04</date>
                            <time>1</time>
                         </stamp>
                         <stamp n="2">
@@ -82,14 +88,14 @@
                         </stamp>
                         <stamp n="3">
                            <placeName ref="pmb432">Venezia</placeName>
-                           <date when="19040925">25. <supplied>9. 0</supplied>4</date>
+                           <date when="1904-09-25">25. <supplied>9. 0</supplied>4</date>
                            <time>
                               <gap quantity="1" reason="illegible"/>2M</time>
                         </stamp>
                         <stamp n="4">
                            <placeName ref="pmb173">
                               <supplied>Rod</supplied>aun</placeName>
-                           <date when="19040927">
+                           <date when="1904-09-27">
                               <unclear>27</unclear>. <supplied>9.</supplied> IV</date>
                         </stamp>
                      </physDesc>
@@ -120,8 +126,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="MAM" when="20160309">Angelegt aus OCR</change>
-         <change who="KI MAM" when="20170627">Kollationiert</change>
+         <change who="MAM" when="2016-03-09">Angelegt aus OCR</change>
+         <change who="KI MAM" when="2017-06-27">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">

@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041405.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041404.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041406.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041405.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041404.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041406.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -87,15 +93,15 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20151116">angelegt</change>
-         <change who="KI MAM" when="20160216">Kollationiert am Original</change>
+         <change who="MAM" when="2015-11-16">angelegt</change>
+         <change who="KI MAM" when="2016-02-16">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="18990800" n="01"/>
+               <date when="1899-08-00" n="01"/>
                <hi rend="underline" n="2">
                   <anchor type="commentary" xml:id="KD405-2">Salon</anchor>
                </hi> 1<subst>
@@ -108,4 +114,5 @@
          </div>
       </body>
    </text>
-</TEI><!-- Datierung aufgrund der Zugnotizen davor, die für die Reise im August sind -->
+</TEI>
+<!-- Datierung aufgrund der Zugnotizen davor, die für die Reise im August sind -->

@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041201.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041200.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041202.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041201.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041200.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041202.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -57,7 +63,7 @@
                   <placeName ref="pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19020703" n="01">3. 7. 1902</date>
+                  <date when="1902-07-03" n="01">3. 7. 1902</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -78,13 +84,13 @@
                            </quote>«, Bleistift.</p>
                         <stamp n="1">
                            <placeName ref="pmb591">Deutsch-Matrei</placeName>
-                           <date when="19020703">3/7 <supplied>1902</supplied>
+                           <date when="1902-07-03">3/7 <supplied>1902</supplied>
                            </date>
                         </stamp>
                         <stamp n="2">
                            <vorgang>Bestellt</vorgang>
                            <placeName ref="pmb63">Wien 13</placeName>
-                           <date when="19020704">4. 7. 02</date>
+                           <date when="1902-07-04">4. 7. 02</date>
                            <time>11. V</time>
                         </stamp>
                      </physDesc>
@@ -99,7 +105,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="KI MAM" when="20151001">Kollationiert</change>
+         <change who="KI MAM" when="2015-10-01">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>

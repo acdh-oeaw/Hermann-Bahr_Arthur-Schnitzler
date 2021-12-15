@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041452.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041451.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041453.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041452.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041451.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041453.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -84,8 +90,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160107">angelegt</change>
-         <change who="KI MAM" when="20160202">Kollationiert am Original</change>
+         <change who="MAM" when="2016-01-07">angelegt</change>
+         <change who="KI MAM" when="2016-02-02">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
@@ -95,7 +101,7 @@
                <table cols="2" rows="5">
                   <row role="data" rows="1" cols="1">
                      <cell role="data" rows="1" cols="1">
-                        <date when="19031030" n="01"/>Preßbureau</cell>
+                        <date when="1903-10-30" n="01"/>Preßbureau</cell>
                      <cell role="data" rows="1" cols="1">
                         <del rend="strikethrough">Redaction <rs type="person" ref="pmb3275">Coquelin</rs>
                            <space unit="chars" quantity="1"/>

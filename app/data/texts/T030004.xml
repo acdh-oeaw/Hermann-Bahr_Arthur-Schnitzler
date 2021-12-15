@@ -1,4 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030004.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030002.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030005.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030004.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030002.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030005.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -52,7 +59,7 @@
                   </monogr>
                </biblStruct>
             </listBibl>
-            <origDate when="19620000" n="1">1962</origDate>
+            <origDate when="1962-00-00" n="1">1962</origDate>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -61,7 +68,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change when="20151223" who="MAM">Angelegt aus Scan, kollationiert</change>
+         <change when="2015-12-23" who="MAM">Angelegt aus Scan, kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="text">
@@ -197,7 +204,9 @@
                   <rs type="work" subtype="implied" ref="pmb31069">Die in diesem Buche zusammengestellten Zeitungsnotizen sollen teils historisches Material bilden, teils sollen sie ein Dokument sein menschlichen Geistes. Hier findet man Wiener Spaßmachertum, österreichisches Denunziantenwesen und internationale Unwissenheit in harmonischer Vereinigung den niedrigen Instinkten der Menge huldigend.</rs>
                </anchor>«</p>
             <p part="N">So leitet <rs type="person" ref="pmb10815">Bahr</rs> diese Kritiken ein, und ein schönes Wort des <rs type="person" ref="pmb42949">Paracelsus</rs> ist an ihre Spitze gesetzt: »<anchor type="commentary" xml:id="KT004-85">
-                  <rs type="work" subtype="implied" ref="pmb31067 pmb31049 pmb31045 pmb31043">Die Kunst gehet keinem nach, aber ihr muß nachgegangen werden; darumb hab ich fug und verstandt, daß ich sie suchen muß und sie mich nicht.</rs>
+                  <rs type="work"
+                      subtype="implied"
+                      ref="pmb31067 pmb31049 pmb31045 pmb31043">Die Kunst gehet keinem nach, aber ihr muß nachgegangen werden; darumb hab ich fug und verstandt, daß ich sie suchen muß und sie mich nicht.</rs>
                </anchor>«<pb/>
             </p>
             <p part="N">

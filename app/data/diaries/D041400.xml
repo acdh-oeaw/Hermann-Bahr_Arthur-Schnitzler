@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041400.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041399.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041401.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041400.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041399.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041401.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -83,20 +89,21 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20151116">angelegt</change>
-         <change who="KI MAM" when="20151203">Kollationiert</change>
-         <change who="KI MAM" when="20160126">Kollationiert am Original</change>
+         <change who="MAM" when="2015-11-16">angelegt</change>
+         <change who="KI MAM" when="2015-12-03">Kollationiert</change>
+         <change who="KI MAM" when="2016-01-26">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="18970800" n="01"/>1) Jung Wien<lb/>2) <rs type="work" ref="pmb30967">Prolog</rs> von <rs type="person" ref="pmb11740">Hugo</rs>
+               <date when="1897-08-00" n="01"/>1) Jung Wien<lb/>2) <rs type="work" ref="pmb30967">Prolog</rs> von <rs type="person" ref="pmb11740">Hugo</rs>
                <lb/>3) <rs type="work" ref="pmb29935">Anatol</rs>
                <lb/>4) <rs type="work" ref="pmb30472">Die schöne Frau</rs>
             </p>
          </div>
       </body>
    </text>
-</TEI><!-- Datierung auf die Vorlesung. -->
+</TEI>
+<!-- Datierung auf die Vorlesung. -->

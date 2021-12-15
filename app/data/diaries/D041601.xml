@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041601.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041600.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041602.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041601.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041600.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041602.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -64,15 +70,15 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="KI MAM" when="20160816">Angelegt</change>
-         <change who="KI MAM" when="20160906">Kollationiert am Original</change>
+         <change who="KI MAM" when="2016-08-16">Angelegt</change>
+         <change who="KI MAM" when="2016-09-06">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
       <body>
          <div type="writingSession" n="1">
             <p>
-               <date when="19280425" n="01">25.</date> K. – <rs type="org" ref="pmb29204">Männerkongregation</rs>; Bittgang durch den <geogName type="garden">Kreuzgarten</geogName>. – An <rs type="person" ref="pmb11304">Hans Feigl</rs> (<rs type="place" ref="pmb765">Wien IV Johann Strauß Gasse 38</rs>) für <rs type="org" ref="pmb29197">Bibliophilen</rs>
+               <date when="1928-04-25" n="01">25.</date> K. – <rs type="org" ref="pmb29204">Männerkongregation</rs>; Bittgang durch den <geogName type="garden">Kreuzgarten</geogName>. – An <rs type="person" ref="pmb11304">Hans Feigl</rs> (<rs type="place" ref="pmb765">Wien IV Johann Strauß Gasse 38</rs>) für <rs type="org" ref="pmb29197">Bibliophilen</rs>
                <space unit="chars" quantity="1"/>
                <anchor type="commentary" xml:id="KD601-1">Aufsatz</anchor> von zehn Seiten versprechend. – An <rs type="person" ref="pmb11171">Conrad Dreher</rs> (der mich um einen <rs type="person" ref="pmb11068">Calderon</rs>, der sich verborgen ließe, befragt.) Diktiert an <rs type="org" ref="pmb29196">Universum</rs> Zehn Zeilen <anchor type="commentary" xml:id="KD601-2">Kritik</anchor> über <rs type="person" ref="pmb2121">Schnitzler</rs>s letztes <anchor type="commentary" xml:id="KD601-3">
                   <rs type="work" subtype="implied" ref="pmb30817">Buch</rs>

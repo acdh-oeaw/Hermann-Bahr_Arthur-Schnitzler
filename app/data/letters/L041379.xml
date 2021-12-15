@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041379.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041378.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041380.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041379.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041378.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041380.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb595">Neapel</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="18941020" n="01">20. 10. 1894</date>
+                  <date when="1894-10-20" n="01">20. 10. 1894</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -72,13 +78,13 @@
                         <p>eh. Brief, 3 Bl., 12 S., Bleistift.</p>
                         <stamp n="1">
                            <placeName ref="pmb51">Wien 1/1</placeName>
-                           <date when="18941020">20. 10. 94</date>
+                           <date when="1894-10-20">20. 10. 94</date>
                            <time>N</time>
                         </stamp>
                         <stamp n="2">
                            <placeName ref="pmb595">
                               <unclear>Nap</unclear>o<unclear>l</unclear>i</placeName>
-                           <date when="18941028">
+                           <date when="1894-10-28">
                               <gap unit="chars" quantity="2" reason="illegible"/>. <gap unit="chars" quantity="2" reason="illegible"/>. 94</date>
                         </stamp>
                      </physDesc>
@@ -137,8 +143,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160119">Angelegt aus Scan</change>
-         <change who="KI MAM" when="20160818">Kollationiert am Original</change>
+         <change who="MAM" when="2016-01-19">Angelegt aus Scan</change>
+         <change who="KI MAM" when="2016-08-18">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">

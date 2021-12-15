@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="D041412.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041411.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041413.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_diaries.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="D041412.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041411.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/diaries/D041413.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -84,8 +90,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20151215">angelegt</change>
-         <change who="KI MAM" when="20160129">Kollationiert am Original</change>
+         <change who="MAM" when="2015-12-15">angelegt</change>
+         <change who="KI MAM" when="2016-01-29">Kollationiert am Original</change>
       </revisionDesc>
    </teiHeader>
    <text type="diaryDay">
@@ -95,7 +101,7 @@
                <table cols="2" rows="4">
                   <row role="data" rows="1" cols="1">
                      <cell role="data" rows="1" cols="1">
-                        <date when="19010511" n="01"/>
+                        <date when="1901-05-11" n="01"/>
                         <rs type="person" ref="pmb12460">Pötzl</rs> hat von mir:</cell>
                      <cell role="data" rows="1" cols="1">1) <rs type="work" ref="pmb31003">Kunst des Kindes</rs>
                      </cell>
@@ -125,7 +131,7 @@
             </p>
             <p>
                <add place="inline">
-                  <date when="19010529">29/5</date>
+                  <date when="1901-05-29">29/5</date>
                   <rs type="work" ref="pmb30999">Orchideen</rs>
                </add>
             </p>

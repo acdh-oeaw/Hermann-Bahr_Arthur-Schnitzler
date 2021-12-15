@@ -1,4 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030007.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030006.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030008.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030007.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030006.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030008.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -38,7 +45,7 @@
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A76-2</idno>
          </publicationStmt>
          <sourceDesc>
-            <origDate when="19180914" n="2">14.–19. September 1918</origDate>
+            <origDate when="1918-09-14" n="2">14.–19. September 1918</origDate>
             <listWit>
                <witness n="1">
                   <msDesc>
@@ -50,7 +57,7 @@
                      </msIdentifier>
                      <physDesc>
                         <p part="N">Bürstenabzug; Schmutztitel mit hs. Anm. von Schnitzler in Lateinschrift, gestempelt: »<quote>
-                              <orgName ref="pmb29694">Spamersche Buchdruckerei</orgName>, <date when="19180903">3. Sep. 1918</date>
+                              <orgName ref="pmb29694">Spamersche Buchdruckerei</orgName>, <date when="1918-09-03">3. Sep. 1918</date>
                            </quote>«. Die Wiedergabe beschränkt sich auf die durch seitliche Striche mit rotem Buntstift markierten Passagen. Zwei durch Unterstreichungen hervorgehobene Textstellen werden gleichfalls wiedergegeben, im zweiten Fall unterblieb die seitliche Markierung.</p>
                      </physDesc>
                   </msDesc>
@@ -64,8 +71,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change when="20160216" who="MAM">Angelegt</change>
-         <change who="KI MAM" when="20160510">Kollationiert</change>
+         <change when="2016-02-16" who="MAM">Angelegt</change>
+         <change who="KI MAM" when="2016-05-10">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="manuscript">

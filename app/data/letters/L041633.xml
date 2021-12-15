@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041633.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041632.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041634.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041633.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041632.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041634.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -53,7 +59,7 @@
                </placeSender>
                <!-- <placeAddressee><placeName key="pmb50">Wien</placeName></placeAddressee>-->
                <dateSender>
-                  <date when="19051020" n="1">20. 10. [1905]</date>
+                  <date when="1905-10-20" n="1">20. 10. [1905]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -80,8 +86,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160712">Angelegt</change>
-         <change who="KI MAM" when="20160914">Kollationiert</change>
+         <change who="MAM" when="2016-07-12">Angelegt</change>
+         <change who="KI MAM" when="2016-09-14">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="card">
@@ -89,7 +95,7 @@
          <div type="writingSession" n="1">
             <opener>
                <dateline rend="right">
-                  <date when="19051020">20. 10.</date> (05.)</dateline>
+                  <date when="1905-10-20">20. 10.</date> (05.)</dateline>
             </opener>
             <p>Ich muss Ihnen doch geschwind sagen, dass das <anchor type="commentary" xml:id="KL633-1">über <rs type="person" ref="pmb2121">
                      <rs type="work" subtype="implied" ref="pmb31245">Schnitzler</rs>

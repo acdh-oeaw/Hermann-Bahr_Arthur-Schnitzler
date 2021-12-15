@@ -1,4 +1,11 @@
-<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="T030030.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030029.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030031.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/Edirom/WeGA-ODD/master/schema/de/wegaWritings.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="T030030.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030029.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/texts/T030031.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -38,7 +45,7 @@
             <idno type="handle">https://hdl.handle.net/21.11115/0000-000E-8A8C-9</idno>
          </publicationStmt>
          <sourceDesc>
-            <origDate when="19220500" n="1">Mai 1922</origDate>
+            <origDate when="1922-05-00" n="1">Mai 1922</origDate>
             <listBibl>
                <biblStruct>
                   <analytic>
@@ -48,7 +55,7 @@
                   <monogr>
                      <title level="j" ref="pmb29404">Moderne Welt</title>
                      <imprint>
-                        <date when="192205" n="1">Mai 1922</date>
+                        <date when="1922-05" n="1">Mai 1922</date>
                      </imprint>
                      <biblScope unit="jg">3</biblScope>
                      <biblScope unit="nr">12</biblScope>
@@ -64,7 +71,7 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change when="20160224" who="MAM">Angelegt aus Scan, kollationiert</change>
+         <change when="2016-02-24" who="MAM">Angelegt aus Scan, kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <text type="article">
@@ -73,7 +80,7 @@
             <head>Brief an <rs type="person" ref="pmb2121">Arthur Schnitzler</rs>
             </head>
             <p rend="center" part="N">Lieber Arthur! </p>
-            <p part="N">1889 in <rs type="place" ref="pmb182">Paris</rs>, als ich eben über den Winter nach <rs type="place" ref="pmb388">Spanien</rs> und <rs type="place" ref="pmb36523">Marokko</rs> ging, erhielt ich einen <anchor type="commentary" xml:id="KT030-8">Brief</anchor> mit der erstaunlichen Nachricht, auch <rs type="place" ref="pmb50">Wien</rs> fange jetzt von neuem zu dichten an, wenn auch zunächst nur in <rs type="place" ref="pmb833">Brünn</rs>. Und die Beredsamkeit eines jungen <rs type="place" ref="pmb833">Brünn</rs>ers hatte wirklich einen bisher unbescholtenen <rs type="person" subtype="implied" ref="pmb4213">Buchdrucker</rs> so betörend verwirrt, daß richtig <date when="18900101">Neujahr 1890</date> das erste Heft der »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>« erschien, eine »Monatsschrift für Literatur und Kritik« verheißend, von <rs type="person" ref="pmb2563">E. M. Kafka</rs> herausgegeben, im Verlag von <rs type="person" ref="pmb4213">Rudolf M. Rohrer</rs> in <rs type="place" ref="pmb833">Brünn</rs>: ein Ereignis für uns Jungen, denn schon das verpönte »Modern« im Titel kündigte den Bruch mit dem geheiligten Brauch an, auch ein noch so sittsames, unärgerliches, zimmerreines Talent, selbst wenn es von den Auguren schon beglaubigt war, erst mit ergrauenden oder ausgefallenen Haaren einzulassen; es müsse dunsten, um schmackhaft zu werden. Ungedünsteten hatte bisher nur <rs type="person" ref="pmb11098">Michael Georg Conrad</rs> Zuflucht geboten, in seiner »<rs type="org" ref="pmb29440">Gesellschaft</rs>«, seit <date>1885</date>: hier war nicht nur erlaubt, jung zu sein, es war geboten; und es wurde jetzt, in <rs type="person" ref="pmb2563">Kafkas</rs> »<rs type="org" ref="pmb29417">Moderner Dichtung</rs>« hier und <anchor type="commentary" xml:id="KT030-4">gleich darauf</anchor> in <rs type="person" ref="pmb10986">Brahms</rs> »<rs type="org" ref="pmb29212">Freier Bühne für modernes Leben</rs>« auch draußen, ein Programm, jung zu sein, dem wir die Treue hielten, so lang es irgend ging. <anchor type="label" xml:id="LT030-1">In dieser »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>« las ich zum erstenmal Deinen Namen</anchor>. Zwar warst Du schon vorher in einem Blättchen, das glaube ich »<rs type="org" ref="pmb29698">An der schönen blauen Donau</rs>« hieß, lyrisch aufgetaucht, aber erst jetzt zeigst Du Dein wahres Gesicht: <rs type="work" ref="pmb29935">Anatol</rs> erscheint, und in bester Gesellschaft; <anchor type="commentary" xml:id="KT030-10">dasselbe Heft</anchor>, das den »<anchor type="commentary" xml:id="KT030-11">
+            <p part="N">1889 in <rs type="place" ref="pmb182">Paris</rs>, als ich eben über den Winter nach <rs type="place" ref="pmb388">Spanien</rs> und <rs type="place" ref="pmb36523">Marokko</rs> ging, erhielt ich einen <anchor type="commentary" xml:id="KT030-8">Brief</anchor> mit der erstaunlichen Nachricht, auch <rs type="place" ref="pmb50">Wien</rs> fange jetzt von neuem zu dichten an, wenn auch zunächst nur in <rs type="place" ref="pmb833">Brünn</rs>. Und die Beredsamkeit eines jungen <rs type="place" ref="pmb833">Brünn</rs>ers hatte wirklich einen bisher unbescholtenen <rs type="person" subtype="implied" ref="pmb4213">Buchdrucker</rs> so betörend verwirrt, daß richtig <date when="1890-01-01">Neujahr 1890</date> das erste Heft der »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>« erschien, eine »Monatsschrift für Literatur und Kritik« verheißend, von <rs type="person" ref="pmb2563">E. M. Kafka</rs> herausgegeben, im Verlag von <rs type="person" ref="pmb4213">Rudolf M. Rohrer</rs> in <rs type="place" ref="pmb833">Brünn</rs>: ein Ereignis für uns Jungen, denn schon das verpönte »Modern« im Titel kündigte den Bruch mit dem geheiligten Brauch an, auch ein noch so sittsames, unärgerliches, zimmerreines Talent, selbst wenn es von den Auguren schon beglaubigt war, erst mit ergrauenden oder ausgefallenen Haaren einzulassen; es müsse dunsten, um schmackhaft zu werden. Ungedünsteten hatte bisher nur <rs type="person" ref="pmb11098">Michael Georg Conrad</rs> Zuflucht geboten, in seiner »<rs type="org" ref="pmb29440">Gesellschaft</rs>«, seit <date>1885</date>: hier war nicht nur erlaubt, jung zu sein, es war geboten; und es wurde jetzt, in <rs type="person" ref="pmb2563">Kafkas</rs> »<rs type="org" ref="pmb29417">Moderner Dichtung</rs>« hier und <anchor type="commentary" xml:id="KT030-4">gleich darauf</anchor> in <rs type="person" ref="pmb10986">Brahms</rs> »<rs type="org" ref="pmb29212">Freier Bühne für modernes Leben</rs>« auch draußen, ein Programm, jung zu sein, dem wir die Treue hielten, so lang es irgend ging. <anchor type="label" xml:id="LT030-1">In dieser »<rs type="org" ref="pmb29417">Modernen Dichtung</rs>« las ich zum erstenmal Deinen Namen</anchor>. Zwar warst Du schon vorher in einem Blättchen, das glaube ich »<rs type="org" ref="pmb29698">An der schönen blauen Donau</rs>« hieß, lyrisch aufgetaucht, aber erst jetzt zeigst Du Dein wahres Gesicht: <rs type="work" ref="pmb29935">Anatol</rs> erscheint, und in bester Gesellschaft; <anchor type="commentary" xml:id="KT030-10">dasselbe Heft</anchor>, das den »<anchor type="commentary" xml:id="KT030-11">
                   <rs type="work" ref="pmb30033">Hochzeitsmorgen</rs>
                </anchor>« bringt, enthält <rs type="person" ref="pmb11617">Gerhart Hauptmanns</rs> »<anchor type="commentary" xml:id="KT030-12">
                   <rs type="work" ref="pmb31877">Apostel</rs>

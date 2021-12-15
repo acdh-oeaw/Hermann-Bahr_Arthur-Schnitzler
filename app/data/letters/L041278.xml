@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041278.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041277.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041279.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041278.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041277.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041279.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb50">Wien</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19040428" n="01">28. 4. 1904</date>
+                  <date when="1904-04-28" n="01">28. 4. 1904</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -72,10 +78,10 @@
                         <p>eh. Korrespondenzkarte.</p>
                         <stamp n="1">
                            <placeName ref="pmb63">Wien 13/5</placeName>
-                           <date when="19040428">28. IV. 04</date>
+                           <date when="1904-04-28">28. IV. 04</date>
                         </stamp>
                         <stamp n="2">
-                           <date when="19040428">28. IV. 04</date>
+                           <date when="1904-04-28">28. IV. 04</date>
                         </stamp>
                         <stamp n="3">
                            <placeName ref="pmb68">Wien 18</placeName>
@@ -92,8 +98,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="approved">
-         <change who="KI MAM" when="20151211">Kollationiert</change>
-         <change who="KI MAM" when="20170529">Kollationiert</change>
+         <change who="KI MAM" when="2015-12-11">Kollationiert</change>
+         <change who="KI MAM" when="2017-05-29">Kollationiert</change>
       </revisionDesc>
    </teiHeader>
    <facsimile>
@@ -123,7 +129,9 @@
                <salute>Lieber Arthur!</salute>
             </opener>
             <p>Dein <anchor type="commentary" xml:id="LL278-1">Brief u Deine Karten</anchor> kamen um Viertel nach zehn abends an, ich hätte nicht vor elf in <rs type="place" ref="pmb63">Hietzing</rs> sein können u <anchor type="commentary" xml:id="KL278-1">
-                  <rs type="person" subtype="implied" ref="pmb10863 pmb10860 pmb2292 pmb2167 pmb2173">Euch</rs>
+                  <rs type="person"
+                      subtype="implied"
+                      ref="pmb10863 pmb10860 pmb2292 pmb2167 pmb2173">Euch</rs>
                </anchor> dann wol nicht mehr getroffen. Mir war sehr leid. Könntest Du mir <anchor type="commentary" xml:id="KL278-2">Samstag</anchor> zwischen <subst>
                   <del rend="overwritten">
                      <gap quantity="2" reason="illegible" unit="chars"/>

@@ -1,4 +1,10 @@
-<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L041454.xml" xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters" prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041453.xml" next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041455.xml">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../../schema/HBAS_letters.odd.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="L041454.xml"
+     xml:base="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters"
+     prev="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041453.xml"
+     next="https://id.acdh.oeaw.ac.at/schnitzler/bahrschnitzler/letters/L041455.xml">
    <teiHeader type="text">
       <fileDesc>
          <titleStmt>
@@ -55,7 +61,7 @@
                   <placeName ref="pmb50">[Wien]</placeName>
                </placeAddressee>
                <dateSender>
-                  <date when="19020930" n="2">[30. 9. 1902]</date>
+                  <date when="1902-09-30" n="2">[30. 9. 1902]</date>
                </dateSender>
                <context/>
             </correspDesc>
@@ -100,8 +106,8 @@
          </langUsage>
       </profileDesc>
       <revisionDesc status="candidate">
-         <change who="MAM" when="20160309">Angelegt aus OCR</change>
-         <change who="MAM" when="20170316">Durchgesehen mit Original in CUL</change>
+         <change who="MAM" when="2016-03-09">Angelegt aus OCR</change>
+         <change who="MAM" when="2017-03-16">Durchgesehen mit Original in CUL</change>
       </revisionDesc>
    </teiHeader>
    <text type="letter">
@@ -124,4 +130,5 @@
          </div>
       </body>
    </text>
-</TEI><!-- Datum ergibt sich daraus, dass Paula Dehmel am 23. 9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet -->
+</TEI>
+<!-- Datum ergibt sich daraus, dass Paula Dehmel am 23. 9. (=Dienstag) schreibt und es nur mehr einen Dienstag gibt bevor AS am 3. Oktober antwortet -->
