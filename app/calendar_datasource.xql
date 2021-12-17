@@ -30,19 +30,18 @@ for $doc in collection($config:data-root)//tei:TEI[@xml:id]
                         default return $doc//tei:date[@when][1]/@when/string()
                     order by $date
 return
-        if (matches($date,"[0-9]{8}")) then
+        
         map {
             
         "id":$doc/@xml:id/string(),
         "name": $doc//tei:titleStmt/tei:title[@level='a']/string(),
         "startDate": 
             let $y := substring($date,1,4)
-            let $m := substring($date,5,2)
-            let $d := substring($date,7,2)
+            let $m := substring($date,6,2)
+            let $d := substring($date,9,2)
             let $isodate := $y || "-" || $m || "-" || $d
             return $isodate
         }
-        else ()
 return 
     array {$output}
 
