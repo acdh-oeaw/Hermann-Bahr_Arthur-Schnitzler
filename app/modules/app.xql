@@ -580,9 +580,12 @@ declare function app:register_single($keys) {
                       case "bibl" return 
                           (
                           if (collection($config:data-root)/id($key)//tei:title and collection($config:data-root)/id($key)//tei:author) then 
-                              if (collection($config:data-root)/id($key)//tei:author//tei:surname) then
-                                  collection($config:data-root)/id($key)//tei:author//tei:surname/text() || ": " || collection($config:data-root)/id($key)//tei:title/text()
+                              if (collection($config:data-root)/id($key)//tei:author/tei:persName[tei:surname and tei:forename]) then
+                                 (collection($config:data-root)/id($key)//tei:author//tei:forename/text() || " " || collection($config:data-root)/id($key)//tei:author//tei:surname/text()) || ": " || collection($config:data-root)/id($key)//tei:title/text()
                               else
+                              if (collection($config:data-root)/id($key)//tei:author/tei:persName/tei:surname) then
+                                 (collection($config:data-root)/id($key)//tei:author/tei:persName/tei:surname/text()) || ": " || collection($config:data-root)/id($key)//tei:title/text()
+                                 else
                                   collection($config:data-root)/id($key)//tei:title/text() 
                           else "Werk " || $key 
                           
@@ -688,19 +691,12 @@ declare function app:register_single($keys) {
                     <p>{collection($config:data-root)/id($keys)//tei:date/string()}</p> else (),
                     if (collection($config:data-root)/id($keys)//tei:gloss) then
                     <p>{collection($config:data-root)/id($keys)//tei:gloss/string()}</p> else (),
-                    
-                    
-                
-                        
-                        
-                        
                         if (collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]) then
                             <p>
                             {collection($config:data-root)/id($keys)//tei:ab[@type="Auffuehrung"]}
                             </p>
                             else ""
                         ,
-                        
                     if (collection($config:data-root)/id($keys)//tei:ab[@type="Bibliografie"]) then
                         collection($config:data-root)/id($keys)//tei:ab[@type="Bibliografie"]/text()
                         else 
@@ -717,7 +713,7 @@ declare function app:register_single($keys) {
                 
                 ,
                 if (collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']) then
-                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}">{collection($config:data-root)/id($keys)//tei:idno[@type='schnitzler-briefe']/string()}</a></p> else ()
+                    <p>Schnitzler, Briefe: <a target="_blank" href="{collection($config:data-root)/id($keys)/tei:idno[@type='schnitzler-briefe']/string()}">Link</a></p> else ()
                         )
                     
             
